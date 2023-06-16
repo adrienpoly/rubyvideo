@@ -6,8 +6,14 @@ export default class extends Controller {
 
   initialize() {
     useDebounce(this);
-    console.log("object");
+
     this.element.addEventListener("keydown", () => this.submit());
+    this.element.addEventListener("search", () => this.submit());
+  }
+
+  disconnect() {
+    this.element.removeEventListener("keydown", () => this.submit());
+    this.element.removeEventListener("search", () => this.submit());
   }
 
   submit() {
