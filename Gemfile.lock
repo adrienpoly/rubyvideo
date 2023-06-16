@@ -106,6 +106,8 @@ GEM
     annotate (3.2.0)
       activerecord (>= 3.2, < 8.0)
       rake (>= 10.4, < 14.0)
+    appsignal (3.4.4)
+      rack
     ast (2.4.2)
     authentication-zero (2.16.29)
     bcrypt (3.1.18)
@@ -336,6 +338,7 @@ PLATFORMS
 DEPENDENCIES
   ahoy_matey (~> 4.2)
   annotate
+  appsignal (~> 3.4)
   authentication-zero (~> 2.16)
   bcrypt (~> 3.1.7)
   bootsnap

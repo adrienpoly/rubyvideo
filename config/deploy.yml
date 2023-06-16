@@ -22,6 +22,7 @@ registry:
 env:
   secret:
     - RAILS_MASTER_KEY
+    - APPSIGNAL_PUSH_API_KEY
 # Use a different ssh user than root
 ssh:
   user: root
