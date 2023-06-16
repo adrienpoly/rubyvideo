@@ -4,14 +4,24 @@ config:
     - duration: 30
       arrivalRate: 5
       name: Warm up
-    - duration: 60
-      arrivalRate: 10
+    - duration: 30
+      arrivalRate: 5
       rampTo: 30
       name: Ramp up load
+  payload:
+    path: search_payload.csv
+    fields:
+      - name
 scenarios:
   - name: "visit home page"
     flow:
       - get:
           url: "/talks"
+      - get:
+          url: "/talks?q={{ name }}"
+      - get:
+          url: "/talks?q={{ name }}"
+      - get:
+          url: "/talks?q={{ name }}"
       - get:
           url: "/speakers"
