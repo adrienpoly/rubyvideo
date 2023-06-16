@@ -6,7 +6,7 @@
     "RailsConf 2021: Keynote: Eileen Uchitelle - All the Things I Thought
     I Couldn't Do"
   speakers:
-    - Eileen Uchitelle
+    - ": Keynote: Eileen Uchitelle - All the Things I Thought I Couldn't Do"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/5bWE6GpN938/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/5bWE6GpN938/mqdefault.jpg
@@ -29,7 +29,7 @@
   published_at: "2022-09-27"
   description: ""
   video_id: vD08qTNYO9c
-- title: Hiring is Not Hazing
+- title: "Hiring is Not Hazing"
   raw_title: "RailsConf 2021: Hiring is Not Hazing - Aja Hammerly"
   speakers:
     - Aja Hammerly
@@ -49,7 +49,7 @@
     much more. You'll leave with ideas to improve your interviews, and ways to influence
     your company to change their hiring practices.
   video_id: ZzWRdAPjEgY
-- title: What Poetry Workshops Teach Us about Code Review
+- title: "What Poetry Workshops Teach Us about Code Review"
   raw_title:
     "RailsConf 2021: What Poetry Workshops Teach Us about Code Review - Andrew
     Ek"
@@ -96,7 +96,7 @@
 
     The real question isn't whether Rails is up to the challenge, but rather: Are you?
   video_id: 4F8hOebREe4
-- title: Effective Data Synchronization between Rails Microservices
+- title: "Effective Data Synchronization between Rails Microservices"
   raw_title:
     "RailsConf 2021: Effective Data Synchronization between Rails Microservices
     - Austin Story"
@@ -116,7 +116,7 @@
 
     Over the last five years, Doximity has built an elegant system that allows dozens of teams across our organization to independently load transformed data through our rich domain models while maintaining consistency. I'd like to show you how!
   video_id: 1qrWYcdnrik
-- title: Self-Care on Rails
+- title: "Self-Care on Rails"
   raw_title: "RailsConf 2021: Self-Care on Rails - Ben Greenberg"
   speakers:
     - Ben Greenberg
@@ -179,10 +179,12 @@
   thumbnail_lg: https://i.ytimg.com/vi/GbKOajKO46Y/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/GbKOajKO46Y/maxresdefault.jpg
   published_at: "2022-09-27"
-  description: ""
-  thumbnail_sm: |-
-    https://i.ytimg.com/vi/GbKOajKO46Y/mqdefault.jpg Often developers design APIs that expose more than is needed - unnecessary fields, redundant relationships, and endpoints that no one asked for.
+  description: |-
+  thumbnail_sm: https://i.ytimg.com/vi/GbKOajKO46Y/mqdefault.jpg
+    Often developers design APIs that expose more than is needed - unnecessary fields, redundant relationships, and endpoints that no one asked for.
+
     These kinds of practices later on introduce communication overhead, extra maintenance costs, negative performance impacts, and waste time that could have been spent better otherwise.
+
     We'll walk through how to design minimal APIs that are straight forward to use, and that are exactly what our consumers need!
   video_id: GbKOajKO46Y
 - title: Lightning Talks
@@ -211,7 +213,8 @@
   published_at: "2022-09-27"
   description: ""
   video_id: FzK0iHyQR0k
-- title: "Keynote: Hardware/Software Co-design: The Coming Golden Age"
+- title: "Keynote: Hardware/Software Co-design: The
+    Coming Golden Age"
   raw_title:
     "RailsConf 2021_ Keynote: Bryan Cantrill - Hardware/Software Co-design:
     The Coming Golden Age"
@@ -243,7 +246,7 @@
     your application. In this talk, you’ll learn about rack-mini-profiler, benchmark/ips,
     and performance optimization best practices.
   video_id: 97d3f8r2qZ8
-- title: Why I'm Closing Your GitHub Issue
+- title: "Why I'm Closing Your GitHub Issue"
   raw_title: "RailsConf 2021: Why I'm Closing Your GitHub Issue - Henning Koch"
   speakers:
     - Henning Koch
@@ -402,8 +405,7 @@
     in pure Ruby are waiting for you!
   video_id: VhIXLNIfk5s
 - title: "Refactoring: A developer's guide to writing well"
-  raw_title: "RailsConf 2021: Refactoring: A developer's guide to writing well -
-    Jordan Raine"
+  raw_title: "RailsConf 2021: Refactoring: A developer's guide to writing well - Jordan Raine"
   speakers:
     - Jordan Raine
   event_name: RailsConf 2021
@@ -419,9 +421,7 @@
     In this session, we'll use advice from fiction authors, book editors, and technical writers to take a pull request write-up from unhelpful to great. Along the way, you'll learn practical tips to make your code, ideas, and work more clear others.
   video_id: jfK5miM5ZMs
 - title: '"Junior" Devs are the Solution to Many of Your Problems'
-  raw_title:
-    'RailsConf 2021: "Junior" Devs are the Solution to Many of Your Problems
-    - Josh Thompson'
+  raw_title: 'RailsConf 2021: "Junior" Devs are the Solution to Many of Your Problems - Josh Thompson'
   speakers:
     - Josh Thompson
   event_name: RailsConf 2021
@@ -442,9 +442,7 @@
     sets\nStart solving these problems with ECSDs"
   video_id: SQh-wqmuFxg
 - title: Exploring Real-time Computer Vision Using ActionCable
-  raw_title:
-    "RailsConf 2021: Exploring Real-time Computer Vision Using ActionCable
-    - Justin Bowen"
+  raw_title: "RailsConf 2021: Exploring Real-time Computer Vision Using ActionCable - Justin Bowen"
   speakers:
     - Justin Bowen"
   event_name: RailsConf 2021
@@ -528,7 +526,7 @@
     and discuss how to use to use this information to improve code understanding and
     code quality.
   video_id: SZHFnRkAcU0
-- title: High availability by offloading work
+- title: "High availability by offloading work"
   raw_title: "RailsConf 2021: High availability by offloading work - Kerstin Puschke"
   speakers:
     - Kerstin Puschke
@@ -566,7 +564,7 @@
 
     Demystify the strategic frameworks your management team may use to make decisions and learn how you can use those same concepts in your daily work. Explore the synergy one developer achieved by going to business school (sorry, the synergy comment slipped out - old habit).
   video_id: HMppLTUyewE
-- title: ho Are You? Delegation, Federation, Assertions and Claims
+- title: "ho Are You? Delegation, Federation, Assertions and Claims"
   raw_title:
     "RailsConf 2021: ho Are You? Delegation, Federation, Assertions and Claims
     - Lyle Mullican"
@@ -608,7 +606,7 @@
 
     Why was I deploying so late? How did we measure the migration effects? And why was I testing on production? I'll tell you a tale of small steps, monitoring, and old tricks in a new setting. Hope, despair, and broken production included.
   video_id: 8DKo5jefJeM
-- title: Using Rails to communicate with the New York Stock Exchange
+- title: "Using Rails to communicate with the New York Stock Exchange"
   raw_title:
     "RailsConf 2021: Using Rails to communicate with the New York Stock Exchange
     - Martin Jaime"
@@ -851,7 +849,7 @@
 
     More than developer time, coordination & leadership are a bottleneck in software sustainability. You'll come away from this talk with steps you can take, in the short and long runs, to address this for projects you care about.
   video_id: olqhg0aNfZc
-- title: Growing Software From Seed
+- title: "Growing Software From Seed"
   raw_title: "RailsConf 2021: Growing Software From Seed - Sweta Sanghavi"
   speakers:
     - Sweta Sanghavi
@@ -867,12 +865,12 @@
 
     This talk visits some familiar places, code that should work, or seems unnecessarily complicated, and digs deeper to find what we missed at first glance. Let’s explore how we can learn to hear all our application tells us and cultivate a methodical approach to these sticky places.
   video_id: HiByvxqvH-8
-- title: Scaling Rails API to Write
+- title: ""
   raw_title:
     "RailsConf 2021: Scaling Rails API to Write-Heavy Traffic - Takumasa
     Ochi"
   speakers:
-    - Takumasa Ochi
+    - ": Scaling Rails API to Write-Heavy Traffic - Takumasa Ochi"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/R6EkPSo_7PA/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/R6EkPSo_7PA/mqdefault.jpg
@@ -885,10 +883,10 @@
 
     The keyword to solve this issue is "multiple databases," especially sharding. From system architecture to coding guidelines, we'd like to share the practical techniques derived from our long-term experience.
   video_id: R6EkPSo_7PA
-- title: What is Developer Empathy?
+- title: ""
   raw_title: "RailsConf 2021: What is Developer Empathy? - Tim Tyrrell"
   speakers:
-    - Tim Tyrrell
+    - ": What is Developer Empathy? - Tim Tyrrell"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/PvoGihwh0Ao/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/PvoGihwh0Ao/mqdefault.jpg
@@ -901,10 +899,10 @@
 
     I have ideas. Find out what I've learned through countless hours of mentorship, encouragement, and support both learning from and teaching others to code.
   video_id: PvoGihwh0Ao
-- title: The Curious Case of the Bad Clone
+- title: ""
   raw_title: "RailsConf 2021: The Curious Case of the Bad Clone - Ufuk Kayserilioglu"
   speakers:
-    - Ufuk Kayserilioglu
+    - ": The Curious Case of the Bad Clone - Ufuk Kayserilioglu"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/eTAXHmBSlxs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/eTAXHmBSlxs/mqdefault.jpg
@@ -919,10 +917,10 @@
 
     This talk will take you on that journey with me. Along the way, you will find tools and tricks that you can use for debugging similar problems. We will also delve into some nuances of Ruby, which is always fun.
   video_id: eTAXHmBSlxs
-- title: The Cost of Data
+- title: ""
   raw_title: "RailsConf 2021: The Cost of Data - Vaidehi Joshi"
   speakers:
-    - Vaidehi Joshi
+    - ": The Cost of Data - Vaidehi Joshi"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/EfTZXvif9hg/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/EfTZXvif9hg/mqdefault.jpg
@@ -936,10 +934,10 @@
     Every day, a data center stores information on our behalf. As engineers, it's easy to focus on the code and forget the tangible impact of our work. This talk explores the physical reality of creating and storing data today, as well as the challenges and technological advancements currently being made in this part of the tech sector. Together, we'll see how our code affects the physical world, and what we can do about it.
     Play
   video_id: EfTZXvif9hg
-- title: Frontendless Rails frontend
+- title: ""
   raw_title: "RailsConf 2021: Frontendless Rails frontend - Vladimir Dementyev"
   speakers:
-    - Vladimir Dementyev
+    - ": Frontendless Rails frontend - Vladimir Dementyev"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/UylEOXuAmo0/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/UylEOXuAmo0/mqdefault.jpg
@@ -954,10 +952,10 @@
 
     In this talk, I'd like to demonstrate how we can develop modern "frontend" applications in the New Rails Way.
   video_id: UylEOXuAmo0
-- title: What the fork()?
+- title: ""
   raw_title: "RailsConf 2021: What the fork()? - Will Jordan"
   speakers:
-    - Will Jordan
+    - ": What the fork()? - Will Jordan"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/Cq3Vd4KIvFk/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/Cq3Vd4KIvFk/mqdefault.jpg
@@ -970,10 +968,10 @@
 
     After an operating systems primer on children, zombies, processes and pipes, we'll dig into how exactly Spring and Puma use fork() to power Rails in development and production. We'll finish by sampling techniques for measuring and maximizing copy-on-write efficiency, including a new trick that can reduce memory usage up to 80%.
   video_id: Cq3Vd4KIvFk
-- title: Talmudic Gems For Rails Developers
+- title: ""
   raw_title: "RailsConf 2021: Talmudic Gems For Rails Developers - Yechiel Kalmenson"
   speakers:
-    - Yechiel Kalmenson
+    - ": Talmudic Gems For Rails Developers - Yechiel Kalmenson"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/7bPFm1CWaws/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/7bPFm1CWaws/mqdefault.jpg
@@ -990,10 +988,10 @@
 
     In this talk, we will delve into questions of our responsibility to our teammates, to our code, and to the world through both the ancient texts and modern examples.
   video_id: 7bPFm1CWaws
-- title: Turning DevOps Inside
+- title: ""
   raw_title: "RailsConf 2021: Turning DevOps Inside-Out - Darren Broemmer"
   speakers:
-    - Darren Broemmer
+    - ": Turning DevOps Inside-Out - Darren Broemmer"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/sJ-Be85vCcc/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/sJ-Be85vCcc/mqdefault.jpg
@@ -1009,12 +1007,13 @@
     including some Rails specific strategies and gems you can use to get things done
     faster.
   video_id: sJ-Be85vCcc
-- title: "New dev, old codebase: A series of mentorship stories"
+- title: ""
   raw_title:
     "RailsConf 2021: New dev, old codebase: A series of mentorship stories
     - Ramón Huidobro"
   speakers:
-    - Ramón Huidobro
+    - ": New dev"
+    - "old codebase: A series of mentorship stories - Ramón Huidobro"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/NcQqEurV4vo/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/NcQqEurV4vo/mqdefault.jpg
@@ -1031,10 +1030,10 @@
 
     The excellent mentorship.guide (also cited in the resources section) has an even more detailed answer to “Why be a mentor?” — here's the relevant section: https://mentorship.gitbook.io/guide/m...
   video_id: NcQqEurV4vo
-- title: "Lightning Talks: Robson Port"
+- title: ""
   raw_title: "RailsConf 2021: Lightning Talks: Robson Port"
   speakers:
-    - Robson Port
+    - ": Lightning Talks: Robson Port"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/LWa465inCxQ/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/LWa465inCxQ/mqdefault.jpg
@@ -1044,10 +1043,10 @@
   published_at: "2022-09-28"
   description: ""
   video_id: LWa465inCxQ
-- title: "Lightning Talks: Emily Harber"
+- title: ""
   raw_title: "RailsConf 2021: Lightning Talks: Emily Harber"
   speakers:
-    - Emily Harber
+    - ": Lightning Talks: Emily Harber"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/teyMgaqg-1M/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/teyMgaqg-1M/mqdefault.jpg
@@ -1057,10 +1056,10 @@
   published_at: "2022-09-28"
   description: ""
   video_id: teyMgaqg-1M
-- title: "Lightning Talks: Dorian Marie"
+- title: ""
   raw_title: "RailsConf 2021: Lightning Talks: Dorian Marie"
   speakers:
-    - Dorian Marie
+    - ": Lightning Talks: Dorian Marie"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/lpfEnIsF1QM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/lpfEnIsF1QM/mqdefault.jpg
@@ -1070,10 +1069,10 @@
   published_at: "2022-09-28"
   description: ""
   video_id: lpfEnIsF1QM
-- title: "Lightning Talks: Brandon Shar"
+- title: ""
   raw_title: "RailsConf 2021: Lightning Talks: Brandon Shar"
   speakers:
-    - Brandon Shar
+    - ": Lightning Talks: Brandon Shar"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/-JT1RF-IhKs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/-JT1RF-IhKs/mqdefault.jpg
@@ -1083,10 +1082,10 @@
   published_at: "2022-09-28"
   description: ""
   video_id: "-JT1RF-IhKs"
-- title: "Lightning Talks: Sarah Sausan"
+- title: ""
   raw_title: "RailsConf 2021: Lightning Talks: Sarah Sausan"
   speakers:
-    - Sarah Sausan
+    - ": Lightning Talks: Sarah Sausan"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/5LBzWDbLu1I/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/5LBzWDbLu1I/mqdefault.jpg
@@ -1096,10 +1095,10 @@
   published_at: "2022-09-28"
   description: ""
   video_id: 5LBzWDbLu1I
-- title: "Lightning Talks: Lauren Billington"
+- title: ""
   raw_title: "RailsConf 2021: Lightning Talks: Lauren Billington"
   speakers:
-    - Lauren Billington
+    - ": Lightning Talks: Lauren Billington"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/GOmTVqH-eZE/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/GOmTVqH-eZE/mqdefault.jpg
@@ -1109,12 +1108,13 @@
   published_at: "2022-09-28"
   description: ""
   video_id: GOmTVqH-eZE
-- title: "Serverless Rails: Understanding the pros and cons"
+- title: ""
   raw_title:
     "RailsConf 2021: Serverless Rails: Understanding the pros and cons -
     Daniel Azuma"
   speakers:
-    - Daniel Azuma
+    - ": Serverless Rails: Understanding the pros"
+    - cons - Daniel Azuma
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/C3LMNdhVS2U/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/C3LMNdhVS2U/mqdefault.jpg
@@ -1127,12 +1127,12 @@
 
     This session takes a critical look at serverless hosting. We’ll consider the abstractions underlying environments such as AWS Lambda and Google Cloud Run, their assumptions and trade-offs, and their implications for Ruby apps and frameworks. You’ll come away better prepared to decide whether or not to adopt serverless deployment, and to understand how your code might need to change to accommodate it.
   video_id: C3LMNdhVS2U
-- title: Make a Difference with Simple A/B Testing
+- title: ""
   raw_title:
     "RailsConf 2021: Make a Difference with Simple A/B Testing - Danielle
     Gordon"
   speakers:
-    - Danielle Gordon
+    - ": Make a Difference with Simple A/B Testing - Danielle Gordon"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/MnYmZKtj9Lc/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/MnYmZKtj9Lc/mqdefault.jpg
@@ -1145,7 +1145,7 @@
 
     A/B tests are a quick way to gain more user insight. We'll first start with a few easy A/B tests, then create a simple system to organise them. By then end, we'll see how easy it is to convert to a (A/B) Test Driven Development process.
   video_id: MnYmZKtj9Lc
-- title: Speed up your test suite by throwing computers at it
+- title: "Speed up your test suite by throwing computers at it"
   raw_title:
     "RailsConf 2021: Speed up your test suite by throwing computers at it
     - Daniel Magliola"
@@ -1165,10 +1165,10 @@
 
     It doesn't have to be like this. In this talk I'll cover several strategies for improving your CI times by making computers work harder for you, instead of having to painstakingly rewrite your tests.
   video_id: ntTT64hK1no
-- title: The Power of Visual Narrative
+- title: ""
   raw_title: "RailsConf 2021: The Power of Visual Narrative - Denise Yu"
   speakers:
-    - Denise Yu
+    - ": The Power of Visual Narrative - Denise Yu"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/a36JR0-rxz0/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/a36JR0-rxz0/mqdefault.jpg
@@ -1181,12 +1181,12 @@
 
     I've been using sketchnotes, comics, and abstractly-technical doodles for the last few years to teach myself and others about technical concepts. Lo-fi sketches and lightweight storytelling devices can create unlikely audiences for any technical subject matter. I'll break down how my brain translates complex concepts into approachable art, and how anyone can start to do the same, regardless of previous artistic experience.
   video_id: a36JR0-rxz0
-- title: "When words are more than just words: Don't BlackList us"
+- title: ""
   raw_title:
     "RailsConf 2021: When words are more than just words: Don't BlackList
     us - Espartaco Palma"
   speakers:
-    - Espartaco Palma
+    - ": When words are more than just words: Don't BlackList us - Espartaco Palma"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/nLGvYfeLMbM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/nLGvYfeLMbM/mqdefault.jpg
@@ -1201,10 +1201,10 @@
 
     Let's make our code, a better code.
   video_id: nLGvYfeLMbM
-- title: How to A/B test with confidence
+- title: ""
   raw_title: "RailsConf 2021: How to A/B test with confidence - Frederick Cheung"
   speakers:
-    - Frederick Cheung
+    - ": How to A/B test with confidence - Frederick Cheung"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/IsgQ9RJ0rJE/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/IsgQ9RJ0rJE/mqdefault.jpg
@@ -1217,12 +1217,12 @@
 
     After a quick recap of the fundamentals, you'll learn the procedural, technical and human factors that can affect the trustworthiness of a test. More importantly, I'll show you how to mitigate these issues with easy, actionable tips that will have you A/B testing accurately in no time!
   video_id: IsgQ9RJ0rJE
-- title: The Rising Storm of Ethics in Open Source
+- title: ""
   raw_title:
     "RailsConf 2021: The Rising Storm of Ethics in Open Source - Coraline
     Ada Ehmke"
   speakers:
-    - Coraline Ada Ehmke
+    - ": The Rising Storm of Ethics in Open Source - Coraline Ada Ehmke"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/CX3htKOeB14/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/CX3htKOeB14/mqdefault.jpg
@@ -1237,10 +1237,10 @@
     one we''re facing: procrastination, assimilation, or revolution. Which will we
     choose as we prepare for the hard work of reconciling ethics and open source?'
   video_id: CX3htKOeB14
-- title: Processing data at scale with Rails
+- title: ""
   raw_title: "RailsConf 2021: Processing data at scale with Rails - Corey Martin"
   speakers:
-    - Corey Martin
+    - ": Processing data at scale with Rails - Corey Martin"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/8zTbcGDEDz4/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/8zTbcGDEDz4/mqdefault.jpg
@@ -1257,12 +1257,13 @@
     and Postgres. By turning a massive data job into successively smaller ones, you
     can turn a data firehose into something manageable.
   video_id: 8zTbcGDEDz4
-- title: Type Is Design:Fix Your UI with Better Typography and CSS
+- title: ""
   raw_title:
     "RailsConf 2021: Type Is Design:Fix Your UI with Better Typography and
     CSS - John Athayde"
   speakers:
-    - John Athayde
+    - ": Type Is Design:Fix Your UI with Better Typography"
+    - CSS - John Athayde
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/1Pe7oGIKkqc/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/1Pe7oGIKkqc/mqdefault.jpg
@@ -1278,12 +1279,12 @@
     We'll look at some of the newer OpenType features and touch on the future of digital
     type, variable fonts, and more.
   video_id: 1Pe7oGIKkqc
-- title: 10 Years In
+- title: ""
   raw_title:
     "RailsConf 2021: 10 Years In - The Realities of Running a Rails App Long
     Term - Anthony Eden"
   speakers:
-    - Anthony Eden
+    - ": 10 Years In - The Realities of Running a Rails App Long Term - Anthony Eden"
   event_name: RailsConf 2021
   thumbnail_xs: https://i.ytimg.com/vi/BWNWOxU8KCo/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/BWNWOxU8KCo/mqdefault.jpg

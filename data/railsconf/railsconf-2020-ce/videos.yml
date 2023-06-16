@@ -2,14 +2,14 @@
 - title: Monoliths Between Microservices
   raw_title: RailsConf 2020 CE - Monoliths Between Microservices by Vladimir Dementyev
   speakers:
-  - Vladimir Dementyev
+    - Vladimir Dementyev
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/P6IXPM3zFTw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/P6IXPM3zFTw/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/P6IXPM3zFTw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/P6IXPM3zFTw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/P6IXPM3zFTw/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Monoliths Between Microservices by Vladimir Dementyev
 
@@ -23,17 +23,17 @@
 
     Vladimir is a mathematician who found his happiness in programming Ruby and Erlang, contributing to open source and being an Evil Martian. Author of AnyCable, TestProf and many yet unknown ukulele melodies.
   video_id: P6IXPM3zFTw
-- title: 'RailsConf 2020 CE - Keynote: Technically, a Talk by Eileen Uchitelle'
-  raw_title: 'RailsConf 2020 CE - Keynote: Technically, a Talk by Eileen Uchitelle'
+- title: "RailsConf 2020 CE - Keynote: Technically, a Talk by Eileen Uchitelle"
+  raw_title: "RailsConf 2020 CE - Keynote: Technically, a Talk by Eileen Uchitelle"
   speakers:
-  - Eileen Uchitelle
+    - Eileen Uchitelle
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/vebtTRXAznU/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/vebtTRXAznU/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/vebtTRXAznU/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/vebtTRXAznU/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/vebtTRXAznU/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Keynote: Technically, a Talk by Eileen Uchitelle
 
@@ -43,17 +43,17 @@
 
     Eileen Uchitelle is a Staff Software Engineer on the Ruby Architecture Team at GitHub and a member of the Rails Core team. She's an avid contributor to open source focusing on the Ruby on Rails framework and its dependencies. Eileen is passionate about scalability, performance, and making open source communities more sustainable and welcoming.
   video_id: vebtTRXAznU
-- title: ''
+- title: ""
   raw_title: RailsConf 2020 CE - Aaron Patterson's Variety Show!
   speakers:
-  - "- Aaron Patterson's Variety Show!"
+    - "- Aaron Patterson's Variety Show!"
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/9JEEabL90AA/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/9JEEabL90AA/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/9JEEabL90AA/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/9JEEabL90AA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/9JEEabL90AA/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Aaron Patterson's Variety Show!
 
@@ -66,14 +66,14 @@
 - title: Measure Twice, Cut Once
   raw_title: RailsConf 2020 CE - Measure Twice, Cut Once by Alec Clarke
   speakers:
-  - Alec Clarke
+    - Alec Clarke
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/7zW_BBiTLAY/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/7zW_BBiTLAY/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/7zW_BBiTLAY/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/7zW_BBiTLAY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/7zW_BBiTLAY/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Measure Twice, Cut Once by Alec Clarke
 
@@ -88,17 +88,18 @@
     Alec is a software developer and woodworking enthusiast who works remotely from Kingston, Ontario for Clio where he focuses on creating an enjoyable and effortless experience between law firms and their clients.
   video_id: 7zW_BBiTLAY
 - title: Building a Rails Controller From Scratch
-  raw_title: RailsConf 2020 CE - Building a Rails Controller From Scratch by Alex
+  raw_title:
+    RailsConf 2020 CE - Building a Rails Controller From Scratch by Alex
     Kitchens
   speakers:
-  - Alex Kitchens
+    - Alex Kitchens
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/jne5VFK-K_M/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/jne5VFK-K_M/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/jne5VFK-K_M/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/jne5VFK-K_M/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/jne5VFK-K_M/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Building a Rails Controller From Scratch by Alex Kitchens
 
@@ -110,17 +111,18 @@
     Alex Kitchens (@alexcameron89) is a software engineer at Stitch Fix, where he gets to embrace his love of Rails as a backend developer.
   video_id: jne5VFK-K_M
 - title: Deeper Understanding & Better Communication through Art
-  raw_title: RailsConf 2020 CE - Deeper Understanding & Better Communication through
+  raw_title:
+    RailsConf 2020 CE - Deeper Understanding & Better Communication through
     Art by Anna Rankin
   speakers:
-  - Anna Rankin
+    - Anna Rankin
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/f2LcZqT1rZA/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/f2LcZqT1rZA/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/f2LcZqT1rZA/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/f2LcZqT1rZA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/f2LcZqT1rZA/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Deeper Understanding & Better Communication through Art by Anna Rankin
 
@@ -131,19 +133,21 @@
 
     As a tech lead, Anna spends her days at General Assembly helping a team of engineers deliver reliable, useful software that helps adults learn the skills they need to pursue a career that inspires them. Before transitioning to software, she was an undercover tech enthusiast working in roles ranging from graphic designer to ESL tutor — and even community relations for a small island! In her free time, she makes pixel art, designs punny stickers, and hangs out in dog parks with her pup.
   video_id: f2LcZqT1rZA
-- title: 'Debugging: Techniques for Uncertain Times'
-  raw_title: 'RailsConf 2020 CE - Debugging: Techniques for Uncertain Times by Chelsea
-    Troy'
+- title: "Debugging: Techniques for Uncertain Times"
+  raw_title:
+    "RailsConf 2020 CE - Debugging: Techniques for Uncertain Times by Chelsea
+    Troy"
   speakers:
-  - Chelsea Troy
+    - Chelsea Troy
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/XqWJ5nKrZpY/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/XqWJ5nKrZpY/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/XqWJ5nKrZpY/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/XqWJ5nKrZpY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/XqWJ5nKrZpY/maxresdefault.jpg
-  published_at: '2020-04-24'
-  description: "Debugging: Techniques for Uncertain Times by Chelsea Troy\n\n\"When
+  published_at: "2020-04-24"
+  description:
+    "Debugging: Techniques for Uncertain Times by Chelsea Troy\n\n\"When
     we learn to code, we focus on writing features while we understand what the code
     is doing. When we debug, we don't understand what our code is doing. The less
     we understand, the less likely it is that our usual programming mindset—the one
@@ -161,18 +165,19 @@
     flings barbells around for fun. She drives an electric cafe cruiser named Gigi.\""
   video_id: XqWJ5nKrZpY
 - title: Enterprise Identity Management on Rails
-  raw_title: RailsConf 2020 CE -  Enterprise Identity Management on Rails by Brynn
+  raw_title:
+    RailsConf 2020 CE -  Enterprise Identity Management on Rails by Brynn
     Gitt & Oliver Sanford
   speakers:
-  - Brynn Gitt
-  - Oliver Sanford
+    - Brynn Gitt
+    - Oliver Sanford
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/hMdvur0YqQY/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/hMdvur0YqQY/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/hMdvur0YqQY/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/hMdvur0YqQY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/hMdvur0YqQY/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Enterprise Identity Management on Rails by Brynn Gitt & Oliver Sanford
 
@@ -185,17 +190,18 @@
     Oliver Sanford has been developing Ruby and JavaScript apps for over a decade. He holds a PhD in anthropology from Berkeley and works as a senior software engineer at Mode (http://mode.com/), where he helps enterprises of all sizes understand the stories in their data."
   video_id: hMdvur0YqQY
 - title: Peeling Away the Layers of the Network Stack
-  raw_title: RailsConf 2020 CE - Peeling Away the Layers of the Network Stack by Ufuk
+  raw_title:
+    RailsConf 2020 CE - Peeling Away the Layers of the Network Stack by Ufuk
     Kayserilioglu
   speakers:
-  - Ufuk Kayserilioglu
+    - Ufuk Kayserilioglu
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/xPJgSca6TJc/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/xPJgSca6TJc/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/xPJgSca6TJc/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/xPJgSca6TJc/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/xPJgSca6TJc/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Peeling Away the Layers of the Network Stack by Ufuk Kayserilioglu
 
@@ -210,14 +216,14 @@
 - title: RailsConf 2020 CE - Keynote Interview with David Heinemeier Hansson
   raw_title: RailsConf 2020 CE - Keynote Interview with David Heinemeier Hansson
   speakers:
-  - "- Keynote Interview with David Heinemeier Hansson"
+    - David Heinemeier Hansson
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/OltCr8AWpWw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/OltCr8AWpWw/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/OltCr8AWpWw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/OltCr8AWpWw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/OltCr8AWpWw/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Keynote Interview with David Heinemeier Hansson
 
@@ -228,17 +234,18 @@
     David is the creator of Ruby on Rails, founder & CTO at Basecamp (formerly 37signals), best-selling author, Le Mans class-winning racing driver, public speaker, hobbyist photographer, and family man.
   video_id: OltCr8AWpWw
 - title: Building a Performance Analytics Tool with ActiveSupport
-  raw_title: RailsConf 2020 CE - Building a Performance Analytics Tool with ActiveSupport
+  raw_title:
+    RailsConf 2020 CE - Building a Performance Analytics Tool with ActiveSupport
     by Christian Bruckmayer
   speakers:
-  - Christian Bruckmayer
+    - Christian Bruckmayer
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/2yc_kWJGLW8/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/2yc_kWJGLW8/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/2yc_kWJGLW8/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/2yc_kWJGLW8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/2yc_kWJGLW8/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Building a Performance Analytics Tool with ActiveSupport by Christian Bruckmayer
 
@@ -253,17 +260,18 @@
     If he's not hacking Ruby, he's out doing what 'young' people do: traveling the world, skiing in the alps or going to concerts of his favourite band."
   video_id: 2yc_kWJGLW8
 - title: Blank Page Panic! Creating Confidence with Test Driven ...
-  raw_title: RailsConf 2020 CE - Blank Page Panic! Creating Confidence with Test Driven
+  raw_title:
+    RailsConf 2020 CE - Blank Page Panic! Creating Confidence with Test Driven
     ... by Elayne Juten
   speakers:
-  - Elayne Juten
+    - Elayne Juten
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/hrZktRv1XR4/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/hrZktRv1XR4/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/hrZktRv1XR4/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/hrZktRv1XR4/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/hrZktRv1XR4/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Blank Page Panic! Creating Confidence with Test Driven Development by Elayne Juten
 
@@ -274,17 +282,18 @@
     Elayne Juten is a Software Engineer at Getty Images. As an early-career developer, she is passionate about finding ways to help build confidence in Ruby, Rails and RSpec.
   video_id: hrZktRv1XR4
 - title: Successfully Onboarding a Junior Engineer in Three Steps
-  raw_title: RailsConf 2020 CE - Successfully Onboarding a Junior Engineer in Three
+  raw_title:
+    RailsConf 2020 CE - Successfully Onboarding a Junior Engineer in Three
     Steps by Emily Giurleo
   speakers:
-  - Emily Giurleo
+    - Emily Giurleo
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/q473dYrJiMQ/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/q473dYrJiMQ/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/q473dYrJiMQ/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/q473dYrJiMQ/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/q473dYrJiMQ/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Successfully Onboarding a Junior Engineer in Three Steps by Emily Giurleo
 
@@ -297,14 +306,14 @@
 - title: Wrangle Your SQL With Arel
   raw_title: RailsConf 2020 CE - Wrangle Your SQL With Arel by Eric Hayes
   speakers:
-  - Eric Hayes
+    - Eric Hayes
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/8pQGzsDzYEo/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/8pQGzsDzYEo/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/8pQGzsDzYEo/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/8pQGzsDzYEo/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/8pQGzsDzYEo/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Wrangle Your SQL With Arel by Eric Hayes
 
@@ -317,17 +326,18 @@
     Eric Hayes started using Ruby while working at a school district in 2006. He's been social distancing since 2016 working remotely for Red Hat. In 2017 he became the CTO of a small, all-remote business where he gets to play with everything from design to databases.
   video_id: 8pQGzsDzYEo
 - title: Static Type Checking in Rails with Sorbet
-  raw_title: RailsConf 2020 CE - Static Type Checking in Rails with Sorbet by Hung
+  raw_title:
+    RailsConf 2020 CE - Static Type Checking in Rails with Sorbet by Hung
     Harry Doan
   speakers:
-  - Hung Harry Doan
+    - Hung Harry Doan
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/APkKh40CF-8/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/APkKh40CF-8/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/APkKh40CF-8/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/APkKh40CF-8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/APkKh40CF-8/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Static Type Checking in Rails with Sorbet by Hung Harry Doan
 
@@ -340,17 +350,18 @@
     Harry Doan is a Staff Software Engineer at the Chan Zuckerberg Initiative. He’s passionate about building great developer productivity tools and applications for the community. He created Sorbet-Rails to help Rails developers benefit from static type checking. In his free time, he can be found meditating or studying Buddhism teachings.
   video_id: APkKh40CF-8
 - title: Why we Worry About all the Wrong Things
-  raw_title: RailsConf 2020 CE - Why we Worry About all the Wrong Things by Hilary
+  raw_title:
+    RailsConf 2020 CE - Why we Worry About all the Wrong Things by Hilary
     Stohs-Krause
   speakers:
-  - Hilary Stohs-Krause
+    - Hilary Stohs-Krause
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/FgqnJIrR-mU/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/FgqnJIrR-mU/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/FgqnJIrR-mU/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/FgqnJIrR-mU/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/FgqnJIrR-mU/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Why we Worry About all the Wrong Things by Hilary Stohs-Krause
 
@@ -367,17 +378,18 @@
     She volunteers regularly with several tech and community organizations, and co-runs Madison Women in Tech, a local group with more than 2,000 members. She loves sci-fi/fantasy, board games and bourbon barrel-aged stouts. She tweets at @hilarysk."
   video_id: FgqnJIrR-mU
 - title: Achieving Inclusivity Through Remote Work
-  raw_title: RailsConf 2020 CE - Achieving Inclusivity Through Remote Work by Jameson
+  raw_title:
+    RailsConf 2020 CE - Achieving Inclusivity Through Remote Work by Jameson
     Hampton
   speakers:
-  - Jameson Hampton
+    - Jameson Hampton
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/cZYPNPDzvYw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/cZYPNPDzvYw/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/cZYPNPDzvYw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/cZYPNPDzvYw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/cZYPNPDzvYw/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Achieving Inclusivity Through Remote Work by Jameson Hampton
 
@@ -390,17 +402,18 @@
     Jamey is a non-binary adventurer from Buffalo, NY who wishes they were immortal so they’d have time to visit every coffee shop in the world. They’re a Rails engineer who recently took the plunge into DevRel, and they're a panelist on the podcast Greater than Code. In their free time, they do advocacy in the transgender community, write comics and travel as much as they can (which isn't very much right now)! They tweet at @jameybash.
   video_id: cZYPNPDzvYw
 - title: Inoculating Rails Auth Against Bug Bounty Hunters
-  raw_title: RailsConf 2020 CE - Inoculating Rails Auth Against Bug Bounty Hunters
+  raw_title:
+    RailsConf 2020 CE - Inoculating Rails Auth Against Bug Bounty Hunters
     by Jason Meller
   speakers:
-  - Jason Meller
+    - Jason Meller
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/K7zo-wnvcLs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/K7zo-wnvcLs/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/K7zo-wnvcLs/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/K7zo-wnvcLs/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/K7zo-wnvcLs/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Inoculating Rails Auth Against Bug Bounty Hunters by Jason Meller
 
@@ -413,14 +426,14 @@
 - title: Mistakes Were Made
   raw_title: RailsConf 2020 CE - Mistakes Were Made by Jesse Spevack
   speakers:
-  - Jesse Spevack
+    - Jesse Spevack
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/2-m4_srVuNY/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/2-m4_srVuNY/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/2-m4_srVuNY/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/2-m4_srVuNY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/2-m4_srVuNY/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Mistakes Were Made by Jesse Spevack
 
@@ -433,14 +446,14 @@
 - title: Encapsulating Views
   raw_title: RailsConf 2020 CE - Encapsulating Views by Joel Hawksley
   speakers:
-  - Joel Hawksley
+    - Joel Hawksley
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/YVYRus_2KZM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/YVYRus_2KZM/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/YVYRus_2KZM/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/YVYRus_2KZM/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/YVYRus_2KZM/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Encapsulating Views by Joel Hawksley
 
@@ -453,15 +466,16 @@
 - title: Tidy First?
   raw_title: RailsConf 2020 CE - Tidy First? by Kent Beck
   speakers:
-  - Kent Beck
+    - Kent Beck
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/BFFY9Zor6zw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/BFFY9Zor6zw/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/BFFY9Zor6zw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/BFFY9Zor6zw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/BFFY9Zor6zw/maxresdefault.jpg
-  published_at: '2020-04-24'
-  description: "Tidy First? by Kent Beck\n\n\"Software design is an exercise in human
+  published_at: "2020-04-24"
+  description:
+    "Tidy First? by Kent Beck\n\n\"Software design is an exercise in human
     relationships. \n\nYou have to change some ugly code. Should you tidy it first
     before you change it? Reflected in this simple, daily-repeated question are all
     the elements of software design: coupling/cohesion, economics, psychology, and
@@ -473,14 +487,14 @@
 - title: Fake It While You Make It
   raw_title: RailsConf 2020 CE - Fake It While You Make It by Kevin Murphy
   speakers:
-  - Kevin Murphy
+    - Kevin Murphy
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/iEfpAp2sqiw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/iEfpAp2sqiw/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/iEfpAp2sqiw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/iEfpAp2sqiw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/iEfpAp2sqiw/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Fake It While You Make It by Kevin Murphy
 
@@ -494,18 +508,19 @@
 
     Kevin lives near Boston, where he is a Software Developer at The Gnar Company."
   video_id: iEfpAp2sqiw
-- title: 'Inside Rails: The Lifecycle of a Response'
-  raw_title: 'RailsConf 2020 CE - Inside Rails: The Lifecycle of a Response by Krystan
-    HuffMenne'
+- title: "Inside Rails: The Lifecycle of a Response"
+  raw_title:
+    "RailsConf 2020 CE - Inside Rails: The Lifecycle of a Response by Krystan
+    HuffMenne"
   speakers:
-  - Krystan HuffMenne
+    - Krystan HuffMenne
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/edjzEYMnrQw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/edjzEYMnrQw/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/edjzEYMnrQw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/edjzEYMnrQw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/edjzEYMnrQw/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Inside Rails: The Lifecycle of a Response by Krystan HuffMenne
 
@@ -518,14 +533,14 @@
 - title: Communicating with Cops
   raw_title: RailsConf 2020 CE - Communicating with Cops by Kyle d'Oliveira
   speakers:
-  - Kyle d'Oliveira
+    - Kyle d'Oliveira
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/ws_8ie6TMtA/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/ws_8ie6TMtA/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/ws_8ie6TMtA/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/ws_8ie6TMtA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ws_8ie6TMtA/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Communicating with Cops by Kyle d'Oliveira
 
@@ -538,17 +553,18 @@
     Based in Vancouver, Canada, Kyle is a jack of all trades and a master of some; at least he thinks so. He works as a staff software developer to readily turn abstract ideas into working pieces of software. He has worked on every major Rails version, and remembers the days when everyone implemented their own authentication system. When not developing, he enjoys picking up really heavy objects so that they can be put back down again.
   video_id: ws_8ie6TMtA
 - title: Can ActiveStorage Serve Images for the Modern Web?
-  raw_title: RailsConf 2020 CE - Can ActiveStorage Serve Images for the Modern Web?
+  raw_title:
+    RailsConf 2020 CE - Can ActiveStorage Serve Images for the Modern Web?
     by Mark Hutter
   speakers:
-  - Mark Hutter
+    - Mark Hutter
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/MfaWl2-U_Zw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/MfaWl2-U_Zw/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/MfaWl2-U_Zw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/MfaWl2-U_Zw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/MfaWl2-U_Zw/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Can ActiveStorage Serve Images for the Modern Web? by Mark Hutter
 
@@ -563,14 +579,14 @@
 - title: The Circle Of Lifecycle Events
   raw_title: RailsConf 2020 CE - The Circle Of Lifecycle Events by Nelson Wittwer
   speakers:
-  - Nelson Wittwer
+    - Nelson Wittwer
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/db-FEuSLIyc/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/db-FEuSLIyc/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/db-FEuSLIyc/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/db-FEuSLIyc/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/db-FEuSLIyc/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     The Circle Of Lifecycle Events by Nelson Wittwer
 
@@ -583,14 +599,14 @@
 - title: Authorization in the GraphQL era
   raw_title: RailsConf 2020 CE - Authorization in the GraphQL era by Nikolay Sverchkov
   speakers:
-  - Nikolay Sverchkov
+    - Nikolay Sverchkov
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/WuvlXZvqIMg/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/WuvlXZvqIMg/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/WuvlXZvqIMg/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/WuvlXZvqIMg/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/WuvlXZvqIMg/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Authorization in the GraphQL era by Nikolay Sverchkov
 
@@ -605,14 +621,14 @@
 - title: Building a Mentorship Program
   raw_title: RailsConf 2020 CE - Building a Mentorship Program by Noel Rappin
   speakers:
-  - Noel Rappin
+    - Noel Rappin
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/aovuLQm75Vw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/aovuLQm75Vw/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/aovuLQm75Vw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/aovuLQm75Vw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/aovuLQm75Vw/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Building a Mentorship Program by Noel Rappin
 
@@ -622,18 +638,19 @@
 
     Noel Rappin is a Staff Engineer at Root Insurance. Noel has authored multiple technical books, including "Modern Front End Development For Rails" and "Rails 5 Test Prescriptions". He also hosted the podcast Tech Done Right. Follow Noel on Twitter @noelrap, and online at http://www.noelrappin.com.
   video_id: aovuLQm75Vw
-- title: 'The Sounds of Silence: Lessons from an 18 hour API outage'
-  raw_title: 'RailsConf 2020 CE - The Sounds of Silence: Lessons from an 18 hour API
-    outage by Paul Zaich'
+- title: "The Sounds of Silence: Lessons from an 18 hour API outage"
+  raw_title:
+    "RailsConf 2020 CE - The Sounds of Silence: Lessons from an 18 hour API
+    outage by Paul Zaich"
   speakers:
-  - Paul Zaich
+    - Paul Zaich
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/bSPvuaFtN6M/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/bSPvuaFtN6M/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/bSPvuaFtN6M/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/bSPvuaFtN6M/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/bSPvuaFtN6M/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     The Sounds of Silence: Lessons from an 18 hour API outage by Paul Zaich
 
@@ -644,17 +661,18 @@
     Paul hails from Denver, CO where he works as an Engineering Manager at Checkr. He’s passionate about building technology for the new world of work. In a former life, Paul was a competitive swimmer. He now spends most of his free time on dry land with his wife and three children.
   video_id: bSPvuaFtN6M
 - title: Why You Should Avoid Identity Sync Like Wildfire?
-  raw_title: RailsConf 2020 CE - Why You Should Avoid Identity Sync Like Wildfire?
+  raw_title:
+    RailsConf 2020 CE - Why You Should Avoid Identity Sync Like Wildfire?
     by Seyed Nasehi
   speakers:
-  - Seyed Nasehi
+    - Seyed Nasehi
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/huJtiA_wOtc/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/huJtiA_wOtc/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/huJtiA_wOtc/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/huJtiA_wOtc/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/huJtiA_wOtc/maxresdefault.jpg
-  published_at: '2020-04-24'
+  published_at: "2020-04-24"
   description: |-
     Why You Should Avoid Identity Sync Like Wildfire? by Seyed Nasehi
 
@@ -664,18 +682,19 @@
 
     Seyed M Nasehi is a software engineer at Cisco with a decade of software development experience. He's been building Ruby on Rails applications in the past 3 years to help customers who are using Cisco security products. His latest involvement was building a single sign-on service to be used by multiple security products within Cisco.
   video_id: huJtiA_wOtc
-- title: 'Advanced ActionText: Attaching any Model in rich text'
-  raw_title: 'RailsConf 2020 CE - Advanced ActionText: Attaching any Model in rich
-    text by Chris Oliver'
+- title: "Advanced ActionText: Attaching any Model in rich text"
+  raw_title:
+    "RailsConf 2020 CE - Advanced ActionText: Attaching any Model in rich
+    text by Chris Oliver"
   speakers:
-  - Chris Oliver
+    - Chris Oliver
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/2iGBuLQ3S0c/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/2iGBuLQ3S0c/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/2iGBuLQ3S0c/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/2iGBuLQ3S0c/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/2iGBuLQ3S0c/maxresdefault.jpg
-  published_at: '2020-05-04'
+  published_at: "2020-05-04"
   description: |-
     Advanced ActionText: Attaching any Model in rich text by Chris Oliver
 
@@ -688,14 +707,14 @@
 - title: Webpacker, It-Just-Works, But How?
   raw_title: RailsConf 2020 CE - Webpacker, It-Just-Works, But How? by Justin Gordon
   speakers:
-  - Justin Gordon
+    - Justin Gordon
   event_name: RailsConf 2020 CE
   thumbnail_xs: https://i.ytimg.com/vi/sJLoOpc5LD8/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/sJLoOpc5LD8/mqdefault.jpg
   thumbnail_md: https://i.ytimg.com/vi/sJLoOpc5LD8/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/sJLoOpc5LD8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/sJLoOpc5LD8/maxresdefault.jpg
-  published_at: '2020-05-05'
+  published_at: "2020-05-05"
   description: |-
     Webpacker, It-Just-Works, But How? by Justin Gordon
 
