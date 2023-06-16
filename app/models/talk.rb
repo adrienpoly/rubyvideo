@@ -40,4 +40,24 @@ class Talk < ApplicationRecord
       description: description
     }
   end
+
+  def thumbnail_xs
+    self[:thumbnail_xs].presence || "https://i.ytimg.com/vi/#{video_id}/default.jpg"
+  end
+
+  def thumbnail_sm
+    self[:thumbnail_sm].presence || "https://i.ytimg.com/vi/#{video_id}/mqdefault.jpg"
+  end
+
+  def thumbnail_md
+    self[:thumbnail_md].presence || "https://i.ytimg.com/vi/#{video_id}/hqdefault.jpg"
+  end
+
+  def thumbnail_lg
+    self[:thumbnail_lg].presence || "https://i.ytimg.com/vi/#{video_id}/sddefault.jpg"
+  end
+
+  def thumbnail_xl
+    self[:thumbnail_xl].presence || "https://i.ytimg.com/vi/#{video_id}/maxresdefault.jpg"
+  end
 end
