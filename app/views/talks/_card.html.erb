@@ -25,10 +25,13 @@
           <%= content_tag :h2, talk.title, class: "py-2 text-base" %>
         <% end %>
         <div class="flex flex-col text-gray">
-          <%= link_to talk.event.name, talk.event %>
-          <% talk.speakers.each do |speaker| %>
-            <%= link_to speaker.name, speaker_path(speaker) %>
-          <% end %>
+            <% if talk.event %>
+              <%#= link_to talk.event.name, talk.event %>
+              <%= content_tag :div, talk.event.name %>
+            <% end %>
+            <% talk.speakers.each do |speaker| %>
+              <%= link_to speaker.name, speaker_path(speaker) %>
+            <% end %>
         </div>
       </div>
     </div>
