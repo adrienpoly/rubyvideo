@@ -1,0 +1,32 @@
+<nav class="navbar">
+  <ul>
+    <li>
+      <%= link_to root_path, class: "text-white flex gap-4 items-center" do %>
+        <title>Ruby Video</title>
+      <% end %>
+    </li>
+  </ul>
+  <ul class="hidden md:flex">
+    <%= content_tag :li, class: class_names(active: current_page?(talks_path )) do %>
+      <%= link_to "Talks", talks_path  %>
+    <% end %>
+    <%= content_tag :li, class: class_names(active: current_page?(speakers_path )) do %>
+      <%= link_to "Speakers", speakers_path %>
+    <% end %>
+    <% if Current.user&.admin? %>
+      <li>
+        <%= link_to "Events", events_path %>
+      </li>
+      <li>
+        <%= link_to "Suggestions", admin_suggestions_path %>
+      </li>
+    <% end %>
+    <li>
+      <%= link_to "https://github.com/adrienpoly/rubyvideo", target: "_blank", alt: "github repository for the Ruby video project" do %>
+        <%= icon "github", size: :lg %>
+      <% end %>
+
+    </li>
+    <li><a href="#" role="button">Contribute</a></li>
+  </ul>
+</nav>

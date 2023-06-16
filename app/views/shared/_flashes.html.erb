@@ -1,0 +1,5 @@
+<%= content_tag :div, id: "flashes", class: "fixed top-2 px-2 w-full sm:px-0 sm:top-[unset] sm:bottom-4 sm:right-4 flex flex-col gap-2 sm:gap-4 z-50" do %>
+  <% flash.each_with_index do |(key, content), ind| %>
+      <%= render "shared/toast", text: content, type: key %>
+  <% end %>
+<% end %>

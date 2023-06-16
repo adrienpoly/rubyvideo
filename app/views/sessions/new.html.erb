@@ -1,0 +1,30 @@
+<p style="color: green"><%= notice %></p>
+<p style="color: red"><%= alert %></p>
+
+<h1>Sign in</h1>
+
+<%= form_with(url: sign_in_path) do |form| %>
+  <div>
+    <%= form.label :email, style: "display: block" %>
+    <%= form.email_field :email, value: params[:email_hint], required: true, autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div>
+    <%= form.label :password, style: "display: block" %>
+    <%= form.password_field :password, required: true, autocomplete: "current-password" %>
+  </div>
+
+  <div>
+    <%= form.submit "Sign in" %>
+  </div>
+<% end %>
+
+<br>
+
+
+<br>
+
+<div>
+  <%= link_to "Sign up", sign_up_path %> |
+  <%= link_to "Forgot your password?", new_identity_password_reset_path %>
+</div>

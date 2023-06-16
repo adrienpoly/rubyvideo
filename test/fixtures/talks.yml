@@ -1,0 +1,32 @@
+# rubocop:disable Layout/LineLength
+# == Schema Information
+#
+# Table name: talks
+#
+#  id             :integer          not null, primary key
+#  title          :string           default(""), not null
+#  description    :text             default(""), not null
+#  slug           :string           default(""), not null
+#  video_id       :string           default(""), not null
+#  video_provider :string           default(""), not null
+#  thumbnail_sm   :string           default(""), not null
+#  thumbnail_md   :string           default(""), not null
+#  thumbnail_lg   :string           default(""), not null
+#  year           :integer
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#  event_id       :integer
+#
+# rubocop:enable Layout/LineLength
+
+one:
+  title: talk title 1
+  description: talk descritpion 1
+  slug: talk-title-1
+  year: 2022
+
+two:
+  title: talk title 2
+  description: talk descritpion 2
+  slug: talk-title-2
+  year: 2022

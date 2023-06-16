@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  web:
+    build:
+      context: .
+      args:
+        UID: ${UID:-1000}
+        GID: ${GID:-${UID:-1000}}
+    ports:
+      - "3000:3000"
+    environment:
+      - RAILS_MASTER_KEY=$RAILS_MASTER_KEY
+      - RAILS_ENV=production
+    volumes:
+      - ./storage:/rails/storage

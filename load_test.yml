@@ -1,0 +1,17 @@
+config:
+  target: "https://rubyvideo.dev"
+  phases:
+    - duration: 30
+      arrivalRate: 5
+      name: Warm up
+    - duration: 60
+      arrivalRate: 10
+      rampTo: 30
+      name: Ramp up load
+scenarios:
+  - name: "visit home page"
+    flow:
+      - get:
+          url: "/talks"
+      - get:
+          url: "/speakers"

@@ -1,0 +1,82 @@
+<main>
+  <div class="relative isolate">
+    <svg class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]" aria-hidden="true">
+      <defs>
+        <pattern id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
+          <path d="M.5 200V.5H200" fill="none" />
+        </pattern>
+      </defs>
+      <%# <rect width="100%" height="100%" stroke-width="0" fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)" /> %>
+    </svg>
+    <div class="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48" aria-hidden="true">
+      <div class="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#D74C47] to-[#9089fc] opacity-30" style="clip-path: polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)"></div>
+    </div>
+    <div class="overflow-hidden">
+      <div class="mx-auto max-w-7xl px-6 pb-32 pt-12 sm:pt-24 lg:px-8">
+        <div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
+          <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
+            <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Want to find Ruby related videos?</h1>
+            <p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none"> So far we have indexed <span class="font-semibold"><%= @talks_count %></span> of those from <span class="font-semibold"><%= @speakers_count %></span> speakers</p>
+            <div class="mt-10 flex items-center gap-x-6 flex-wrap gap-y-4">
+              <%= link_to talks_path, class: "button" do %>
+                Explore talks
+              <% end %>
+              <%= link_to "#", class: "button secondary flex items-center gap-2" do %>
+                Enriching this database <span class="text-gray-light">(coming soon)</span> <span aria-hidden="true"><%= heroicon :arrow_long_right %></span>
+              <% end %>
+            </div>
+          </div>
+          <div class=" flex mt-14 justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
+            <div class="ml-auto w-44 flex-none space-y-8 pt-24 sm:ml-0 sm:pt-80 lg:order-last xl:order-none xl:pt-80">
+              <div class="relative">
+                <%= image_tag @speakers_avatar_url[0].first,
+                              alt: "picture profile of #{@speakers_avatar_url[0]}",
+                              srcset: ["#{@speakers_avatar_url[0].second} 2x"],
+                              class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                %>
+                <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+              </div>
+            </div>
+            <div class="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
+              <div class="relative">
+                <%= image_tag @speakers_avatar_url[1].first,
+                              alt: "picture profile of #{@speakers_avatar_url[1]}",
+                              srcset: ["#{@speakers_avatar_url[1].second} 2x"],
+                              class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                %>
+                <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+              </div>
+              <div class="relative">
+                <%= image_tag @speakers_avatar_url[2].first,
+                              alt: "picture profile of #{@speakers_avatar_url[2]}",
+                              srcset: ["#{@speakers_avatar_url[2].second} 2x"],
+                              class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                %>
+                <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+              </div>
+            </div>
+            <div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
+              <div class="relative">
+                <%= image_tag @speakers_avatar_url[3].first,
+                              alt: "picture profile of #{@speakers_avatar_url[3]}",
+                              srcset: ["#{@speakers_avatar_url[3].second} 2x"],
+                              class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                %>
+                <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+              </div>
+              <div class="relative">
+                <%= image_tag @speakers_avatar_url[4].first,
+                              alt: "picture profile of #{@speakers_avatar_url[4]}",
+                              srcset: ["#{@speakers_avatar_url[4].second} 2x"],
+                              class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                %>
+                <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+

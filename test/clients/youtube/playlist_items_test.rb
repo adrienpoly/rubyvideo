@@ -1,0 +1,10 @@
+require "test_helper"
+class Youtube::PlaylistItemsTest < ActiveSupport::TestCase
+  test "should retreive the playlist of a channel" do
+    VCR.use_cassette("youtube/playlist_items/all") do
+      items = Youtube::PlaylistItems.new.all(playlist_id: "PLE7tQUdRKcyZYz0O3d9ZDdo0-BkOWhrSk")
+      assert items.is_a?(Array)
+      assert items.length > 50
+    end
+  end
+end

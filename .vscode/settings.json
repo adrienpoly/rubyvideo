@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "emmet.includeLanguages": {
+    "erb": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "[ruby]": {
+    "editor.defaultFormatter": "testdouble.vscode-standard-ruby"
+  },
+  "rubyLsp.enabledFeatures": {
+    "diagnostics": false
+  }
+}

@@ -1,0 +1,11 @@
+<div class="flex items-start gap-4">
+  <div class="grid grid-cols-4 gap-4">
+    <% suggestion.content.keys.each do |key| %>
+      <span><%= key %></span>
+      <span><%= suggestion.suggestable[key].presence || "-" %></span>
+      <span><%= suggestion.content[key] %></span>
+    <% end %>
+  </div>
+  <%= button_to "Approve", admin_suggestion_path(suggestion), method: :patch, class: "secondary" %>
+  <%= button_to "Reject", admin_suggestion_path(suggestion), method: :delete, class: "secondary" %>
+</div>

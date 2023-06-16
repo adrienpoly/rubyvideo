@@ -1,0 +1,7 @@
+@layer components {
+  .banner-img .v-vlite {
+    --vlite-controlsColor: #d74c47;
+    --vlite-controlsOpacity: 0.7;
+    --vlite-controlBarBackground: linear-gradient(0deg, #000 -50%, #fff);
+  }
+}

@@ -1,0 +1,33 @@
+@layer components {
+  nav {
+    @apply flex justify-between px-4 md:px-4 xl:px-8 bg-brand text-white;
+  }
+
+  nav ul {
+    @apply flex items-center list-none m-0 p-0 gap-8;
+  }
+
+  nav li,
+  nav title {
+    @apply inline-block m-0 py-2;
+    &.active {
+      @apply border-b-2 border-white border-solid;
+    }
+  }
+
+  title {
+    @apply text-2xl font-bold text-white;
+  }
+
+  nav a,
+  nav [role="link"] {
+    @apply inline-block m-0 p-0 rounded-none hover:no-underline active:no-underline focus:no-underline;
+    text-decoration: none;
+  }
+
+  nav button,
+  nav [role="button"] {
+    @apply bg-white text-dark hover:no-underline active:no-underline focus:no-underline;
+    text-decoration: none;
+  }
+}

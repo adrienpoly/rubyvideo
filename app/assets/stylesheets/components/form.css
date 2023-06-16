@@ -1,0 +1,5 @@
+@layer components {
+  label {
+    @apply font-semibold;
+  }
+}

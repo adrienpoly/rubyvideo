@@ -1,0 +1,19 @@
+@layer components {
+  body {
+    @apply text-dark leading-relaxed;
+  }
+
+  h1,
+  .h1 {
+    @apply text-3xl font-bold text-brand;
+  }
+
+  h2,
+  .h2 {
+    @apply text-xl font-bold;
+  }
+
+  p.secondary {
+    @apply text-gray;
+  }
+}

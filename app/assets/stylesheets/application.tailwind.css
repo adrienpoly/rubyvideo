@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "components/button.css";
+@import "components/form.css";
+@import "components/nav.css";
+@import "components/pagination.css";
+@import "components/transition.css";
+@import "components/typography.css";
+@import "components/video.css";

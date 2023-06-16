@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= display_meta_tags site: "Ruby Video" %>
+
+    <%= vite_client_tag %>
+    <%= vite_javascript_tag 'application' %>
+    <%= vite_stylesheet_tag 'application.css' %>
+  </head>
+
+  <body data-controller="view-transition-page-cleaner">
+    <%= render "shared/top_banner" %>
+    <%= render "shared/navbar" %>
+    <%= render "shared/flashes" %>
+    <div class="min-h-screen">
+      <%= yield %>
+    </div>
+  </body>
+</html>

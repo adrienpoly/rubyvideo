@@ -1,0 +1,6 @@
+<%= link_to speaker_path(speaker), id: dom_id(speaker), class: "flex justify-between" do %>
+  <span><%= speaker.name %></span>
+  <div class="bg-brand-lighter w-12 h-6 flex items-center justify-center rounded-full text-gray">
+    <%= speaker.talks_count %>
+  </div>
+<% end %>

@@ -1,0 +1,2 @@
+module Speakers::EnhanceHelper
+end

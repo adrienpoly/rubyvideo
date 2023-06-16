@@ -1,0 +1,21 @@
+# rubocop:disable Layout/LineLength
+# == Schema Information
+#
+# Table name: users
+#
+#  id              :integer          not null, primary key
+#  email           :string           not null
+#  password_digest :string           not null
+#  first_name      :string           default(""), not null
+#  last_name       :string           default(""), not null
+#  verified        :boolean          default(FALSE), not null
+#  admin           :boolean          default(FALSE), not null
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+# rubocop:enable Layout/LineLength
+
+lazaro_nixon:
+  email: lazaronixon@hotmail.com
+  password_digest: <%= BCrypt::Password.create("Secret1*3*5*") %>
+  verified: true

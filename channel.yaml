@@ -1,0 +1,258 @@
+---
+kind: youtube#playlistListResponse
+etag: CtacY4ocyOm58xxNEtV1N-AoXXk
+pageInfo:
+  totalResults: 7
+  resultsPerPage: 25
+items:
+- kind: youtube#playlist
+  etag: _R_8vKTF7Ejsc3T_ENs8eYvxu0Y
+  id: PLbHJudTY1K0dERpqJUEFOFSsMGvR6st9U
+  snippet:
+    publishedAt: '2023-01-10T00:59:25Z'
+    channelId: UCpFXaEz3vKJ45XjW5m5pbow
+    title: 'RubyConf 2022: Mini and Houston'
+    description: Recordings of the RubyConf 2022 Houston and Mini conferences.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/1GorXHiB7nw/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/1GorXHiB7nw/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/1GorXHiB7nw/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/1GorXHiB7nw/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/1GorXHiB7nw/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Ruby Central
+    localized:
+      title: 'RubyConf 2022: Mini and Houston'
+      description: Recordings of the RubyConf 2022 Houston and Mini conferences.
+  contentDetails:
+    itemCount: 80
+- kind: youtube#playlist
+  etag: nfiPIAnH9rS_t4qWyt7jHtf1QOo
+  id: PLbHJudTY1K0f1WgIbKCc0_M-XMraWwCmk
+  snippet:
+    publishedAt: '2022-06-01T22:18:58Z'
+    channelId: UCpFXaEz3vKJ45XjW5m5pbow
+    title: RailsConf 2022
+    description: The largest official gathering of the year, RailsConf brings together
+      top talent, companies, and project representatives from around the world. Learn
+      and build with the best in sessions, workshops, keynotes and parties.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/DzyGdOd_6-Y/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/DzyGdOd_6-Y/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/DzyGdOd_6-Y/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/DzyGdOd_6-Y/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/DzyGdOd_6-Y/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Ruby Central
+    localized:
+      title: RailsConf 2022
+      description: The largest official gathering of the year, RailsConf brings together
+        top talent, companies, and project representatives from around the world.
+        Learn and build with the best in sessions, workshops, keynotes and parties.
+  contentDetails:
+    itemCount: 67
+- kind: youtube#playlist
+  etag: cX1dmirCExGW43Pnn54ul1KbQOU
+  id: PLbHJudTY1K0f0oMhWtY-UyzOb7tUlaHps
+  snippet:
+    publishedAt: '2021-12-16T16:29:05Z'
+    channelId: UCpFXaEz3vKJ45XjW5m5pbow
+    title: RubyConf 2021
+    description: Focused on fostering the Ruby programming language and the robust
+      community that has sprung up around it, RubyConf brings together Rubyists both
+      established and new to discuss emerging ideas, collaborate, and socialize in
+      some of the best locations in the US.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/paZ5_3F22V8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/paZ5_3F22V8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/paZ5_3F22V8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/paZ5_3F22V8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/paZ5_3F22V8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Ruby Central
+    localized:
+      title: RubyConf 2021
+      description: Focused on fostering the Ruby programming language and the robust
+        community that has sprung up around it, RubyConf brings together Rubyists
+        both established and new to discuss emerging ideas, collaborate, and socialize
+        in some of the best locations in the US.
+  contentDetails:
+    itemCount: 103
+- kind: youtube#playlist
+  etag: tHRqysl3DTHbqvF1X0ZsoKKk_I0
+  id: PLbHJudTY1K0c9QhfXrzXgq9G4YYHuq-3o
+  snippet:
+    publishedAt: '2021-11-08T19:23:35Z'
+    channelId: UCpFXaEz3vKJ45XjW5m5pbow
+    title: RubyConf 2021 Viewing Playlist - Room 607
+    description: ''
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/DYc5X-in_oM/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/DYc5X-in_oM/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/DYc5X-in_oM/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/DYc5X-in_oM/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/DYc5X-in_oM/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Ruby Central
+    localized:
+      title: RubyConf 2021 Viewing Playlist - Room 607
+      description: ''
+  contentDetails:
+    itemCount: 4
+- kind: youtube#playlist
+  etag: mA4dnbnVwmlKdpqcrkFCXeukhCY
+  id: PLbHJudTY1K0cawo3AfY5Bp6oUPH65MnKz
+  snippet:
+    publishedAt: '2021-05-28T17:45:03Z'
+    channelId: UCpFXaEz3vKJ45XjW5m5pbow
+    title: RailsConf 2021 Workshops
+    description: ''
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Sid39aN_SKk/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Sid39aN_SKk/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Sid39aN_SKk/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Sid39aN_SKk/sddefault.jpg
+        width: 640
+        height: 480
+    channelTitle: Ruby Central
+    localized:
+      title: RailsConf 2021 Workshops
+      description: ''
+  contentDetails:
+    itemCount: 11
+- kind: youtube#playlist
+  etag: OqLeaChyKZuUYRBp7t8yFqdHxd8
+  id: PLbHJudTY1K0c8N1-PPyiQxlHNzJIzyJv6
+  snippet:
+    publishedAt: '2021-04-09T18:48:00Z'
+    channelId: UCpFXaEz3vKJ45XjW5m5pbow
+    title: RailsConf 2021
+    description: Talks Presented at RailsConf 2021
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/N5g7oruepIg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/N5g7oruepIg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/N5g7oruepIg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/N5g7oruepIg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/N5g7oruepIg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Ruby Central
+    localized:
+      title: RailsConf 2021
+      description: Talks Presented at RailsConf 2021
+  contentDetails:
+    itemCount: 75
+- kind: youtube#playlist
+  etag: Znon31dHuRVaKH17_E3Xvv5DOUk
+  id: PLbHJudTY1K0cyDs1ZwFLzlfQqvkDKt17N
+  snippet:
+    publishedAt: '2020-12-18T18:44:44Z'
+    channelId: UCpFXaEz3vKJ45XjW5m5pbow
+    title: RubyConf 2020
+    description: The RubyConf 2020 Conference, presented by Ruby Central.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/FTWKackp1Js/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/FTWKackp1Js/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/FTWKackp1Js/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/FTWKackp1Js/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/FTWKackp1Js/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Ruby Central
+    localized:
+      title: RubyConf 2020
+      description: The RubyConf 2020 Conference, presented by Ruby Central.
+  contentDetails:
+    itemCount: 25

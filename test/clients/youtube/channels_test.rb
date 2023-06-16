@@ -1,0 +1,19 @@
+require "test_helper"
+class Youtube::ChannelsTest < ActiveSupport::TestCase
+  setup do
+  end
+
+  test "should retreive the channel id from the user name" do
+    VCR.use_cassette("youtube/channels") do
+      channel_id = Youtube::Channels.new.id_by_name(channel_name: "confreaks")
+      assert_equal "UCWnPjmqvljcafA0z2U1fwKQ", channel_id
+    end
+  end
+
+  test "should retreive the channel id from the user name with dash" do
+    VCR.use_cassette("youtube/channels-scrapping") do
+      channel_id = Youtube::Channels.new.id_by_name(channel_name: "paris-rb")
+      assert_equal "UCFKE6QHGPAkISMj1SQdqnnw", channel_id
+    end
+  end
+end

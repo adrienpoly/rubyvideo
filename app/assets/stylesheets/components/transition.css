@@ -1,0 +1,62 @@
+@layer components {
+  .navbar {
+    view-transition-name: navbar;
+    contain: layout;
+  }
+
+  .title {
+    view-transition-name: title;
+    contain: layout;
+  }
+
+  .banner-img .v-vlite {
+    view-transition-name: banner-img;
+    contain: layout;
+  }
+
+  .card-horizontal-img img {
+    contain: layout;
+  }
+
+  .gallery img {
+    contain: layout;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  ::view-transition-old(card-horizontal-img),
+  ::view-transition-new(card-horizontal-img) {
+    animation: none;
+    mix-blend-mode: normal;
+  }
+
+  ::view-transition-image-pair(card-horizontal-img) {
+    isolation: none;
+  }
+
+  ::view-transition-old(banner-img),
+  ::view-transition-new(banner-img) {
+    animation: none;
+    mix-blend-mode: normal;
+  }
+
+  ::view-transition-image-pair(banner-img) {
+    isolation: none;
+  }
+}
