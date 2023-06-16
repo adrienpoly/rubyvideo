@@ -1,6 +1,6 @@
 # Rubyvideo.dev
 
-Inspired by pyvideo.org, Rubyvideo.dev aims to index all Ruby-related videos from conferences and meetups around the world. Currently, the site is in its Alpha release phase with only a small proportion of available videos indexed.
+Inspired by [pyvideo.org](https://pyvideo.org/), [Rubyvideo.dev](https://rubyvideo.dev/) aims to index all Ruby-related videos from conferences and meetups around the world. Currently, the site is in its Alpha release phase with only a small proportion of available videos indexed.
 
 ## Contributing
 
@@ -10,7 +10,7 @@ This project is open source, and contributions are warmly welcomed. One of the m
 
 ### Environment Variables
 
-You can use the .env.sample file as an example of the environment variables required for the project. However, no environment variable is currently needed for simple app exploration.
+You can use the `.env.sample` file as an example of the environment variables required for the project. However, no environment variable is currently needed for simple app exploration.
 
 ### Setup
 
@@ -30,7 +30,11 @@ bin/dev
 
 ## Experimental Page Transition API
 
-https://github.com/adrienpoly/rubyvideo/assets/7847244/a130a980-7d59-4031-8b28-807b1bdc6649
+
+
+https://github.com/adrienpoly/rubyvideo/assets/7847244/768ebc63-ca23-43ea-8058-ca6ffbf295d5
+
+
 
 Rubyvideo.dev offers experimental support for the Page View Transition API, recently released by Chrome.
 
