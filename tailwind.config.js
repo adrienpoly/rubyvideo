@@ -8,11 +8,6 @@ module.exports = {
     "./app/javascript/**/*.js",
     "./config/initializers/heroicon.rb",
   ],
-  safelist: [
-    {
-      pattern: /view-transition/,
-    },
-  ],
   theme: {
     container: {
       center: true,
@@ -24,35 +19,32 @@ module.exports = {
         // "2xl": "6rem",
       },
     },
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      gray: "#7b6f72",
-      "gray-light": "#A39E9E",
-      green: "#F0E7E9",
-      white: colors.white,
-      dark: "#261B23",
-      brand: {
-        DEFAULT: "#D74C47",
-        lighter: "#FBEEEE",
-      },
-    },
     extend: {
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        gray: "#7b6f72",
+        "gray-light": "#A39E9E",
+        "gray-lightest": "#f9fafb",
+        green: "#F0E7E9",
+        white: colors.white,
+        dark: "#261B23",
+        brand: {
+          DEFAULT: "#D74C47",
+          lighter: "#FBEEEE",
+        },
+      },
       keyframes: {
         "fade-in": {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
-        "slide-from-right": {
-          "0%": { transform: "translateX(300px)" },
-        },
-
-        "slide-to-left": {
-          "0%": { transform: "translateX(0px)" },
-          "100%": { transform: "translateX(-300px)" },
+        "fade-out": {
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
         },
       },
     },
   },
-  plugins: [require("@tailwindcss/line-clamp")],
+  plugins: [require("@tailwindcss/line-clamp"), require("@tailwindcss/forms")],
 };

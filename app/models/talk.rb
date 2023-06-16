@@ -22,6 +22,8 @@ class Talk < ApplicationRecord
   include Sluggable
   include Suggestable
   slug_from :title
+  include MeiliSearch::Rails
+  extend Pagy::Meilisearch
 
   # associations
   belongs_to :event, optional: true
@@ -33,6 +35,27 @@ class Talk < ApplicationRecord
 
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
+
+  # search
+  meilisearch do
+    attribute :title
+    attribute :description
+    attribute :slug
+    attribute :video_id
+    attribute :video_provider
+    attribute :thumbnail_sm
+    attribute :thumbnail_md
+    attribute :thumbnail_lg
+    attribute :speakers do
+      speakers.pluck(:name)
+    end
+    searchable_attributes [:title, :description]
+    sortable_attributes [:title]
+
+    attributes_to_highlight ["*"]
+  end
+
+  meilisearch enqueue: true
 
   def to_meta_tags
     {
