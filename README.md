@@ -1,16 +1,16 @@
 # Rubyvideo.dev
 
-Inspired by [pyvideo.org](https://pyvideo.org/), [Rubyvideo.dev](https://rubyvideo.dev/) aims to index all Ruby-related videos from conferences and meetups around the world. Currently, the site is in its Alpha release phase with only a small proportion of available videos indexed.
+Rubyvideo.dev, inspired by [pyvideo.org](https://pyvideo.org/), is designed to index all Ruby-related videos from conferences and meetups worldwide. The site is currently in its Alpha release phase, and only a small portion of available videos has been indexed.
 
 ## Contributing
 
-This project is open source, and contributions are warmly welcomed. One of the most straightforward ways to contribute at this time is by adding more content. For more information on contributing, please visit [this page](/docs/contributing.md).
+This project is open source, and contributions are greatly appreciated. One of the most direct ways to contribute at this time is by adding more content. For more information on contributing, please visit [this page](/docs/contributing.md).
 
 ## Getting Started
 
 ### Environment Variables
 
-You can use the `.env.sample` file as an example of the environment variables required for the project. However, no environment variable is currently needed for simple app exploration.
+You can use the `.env.sample` file as a guide for the environment variables required for the project. However, there are currently no environment variables necessary for simple app exploration.
 
 ### Setup
 
@@ -20,9 +20,21 @@ To prepare your database and seed content, run:
 bin/rails setup
 ```
 
+### Meilisearch
+
+Rubyvideo.dev search uses Meilisearch as a search engine.
+
+To start the app, you need to have Meilisearch installed locally.
+
+Most likely, when you run the seed process, Meilisearch won't start, and the index will not be created.
+
+To create the index, start Meilisearch (bin/dev will start it), and in the console, run `Talk.reindex!`
+
+This will create the local index and enable search.
+
 ### Starting the Application
 
-The following command will start Rails, Vite (for CSS and JS), and potentially meilisearch in the future:
+The following command will start Rails, Vite (for CSS and JS), and Meilisearch.
 
 ```
 bin/dev
@@ -30,15 +42,11 @@ bin/dev
 
 ## Experimental Page Transition API
 
-
-
 https://github.com/adrienpoly/rubyvideo/assets/7847244/768ebc63-ca23-43ea-8058-ca6ffbf295d5
-
-
 
 Rubyvideo.dev offers experimental support for the Page View Transition API, recently released by Chrome.
 
-Enabling page transitions with Turbo started with the addition of the following code
+Enabling page transitions with Turbo started with the addition of the following code:
 
 ```js
 addEventListener("turbo:before-render", (event) => {
@@ -52,9 +60,9 @@ addEventListener("turbo:before-render", (event) => {
 });
 ```
 
-The rest of the implementation was guided by examples you may find here: https://glitch.com/edit/#!/simple-set-demos?path=1-cross-fade%2Fscript.js%3A1%3A0
+The rest of the implementation was guided by examples you can find here: https://glitch.com/edit/#!/simple-set-demos?path=1-cross-fade%2Fscript.js%3A1%3A0
 
-Currently, the implementation requires two Stimulus controllers. One controller adds a page transition class to an element on a click (before the navigation), and the other cleans the DOM from any remaining `view-transition-name` on the page. It's crucial to ensure there is only one `view-transition-name= the name` per page. Plans are in place to improve this system and potentially remove the latter controller. Still very much experimental.
+Currently, the implementation requires two Stimulus controllers. One controller adds a page transition class to an element on a click (before the navigation), and the other clears the DOM from any remaining `view-transition-name` on the page. It's crucial to ensure there is only one `view-transition-name= the name` per page. Plans are in place to improve this system and potentially remove the latter controller. This feature is still very much experimental.
 
 ## Code of Conduct
 
