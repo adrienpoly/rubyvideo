@@ -7,7 +7,12 @@ class TalksController < ApplicationController
   def index
     @from_talk_id = session[:from_talk_id]
     session[:from_talk_id] = nil
-    @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), items: 9)
+    if params[:q].present?
+      talks = Talk.pagy_search(params[:q])
+      @pagy, @talks = pagy_meilisearch(talks, items: 9)
+    else
+      @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), items: 9)
+    end
   end
 
   # GET /talks/1

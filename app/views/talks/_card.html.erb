@@ -1,5 +1,5 @@
 
-<div class="max-w-sm bg-white" id="<%= dom_id talk %>" >
+<div class="max-w-sm bg-white" id="<%= dom_id talk %>">
   <%= link_to talk_path(talk, speaker_slug: local_assigns.fetch(:speaker_slug, nil)), class: "flex aspect-video", data: { controller: "view-transition", view_transition_name_value: "banner-img" } do %>
     <%= image_tag talk.thumbnail_sm,
                   srcset: ["#{talk.thumbnail_lg} 2x"],

@@ -1,7 +1,14 @@
 <div class="container my-8 w-full gap-4 flex flex-col">
     <h1 class="title">Talks</h1>
-    <div id="talks" class="min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 gallery">
-      <%= render partial: "talks/card", collection: @talks, as: :talk, locals: { from_talk_id: @from_talk_id} %>
-    </div>
-    <%== pagy_nav(@pagy) %>
+
+    <%= form_with url: talks_path, method: :get, data: { controller: "auto-submit", turbo_frame: "talks" } do |form| %>
+      <%= form.search_field :q, placeholder: "Search a talk (experimental)", class: "w-full" %>
+    <% end %>
+
+    <%= turbo_frame_tag "talks", target: "_top" do %>
+      <div id="talks" class="min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 gallery">
+        <%= render partial: "talks/card", collection: @talks, as: :talk, locals: { from_talk_id: @from_talk_id} %>
+      </div>
+      <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
+    <% end %>
 </div>

@@ -23,6 +23,8 @@ env:
   secret:
     - RAILS_MASTER_KEY
     - APPSIGNAL_PUSH_API_KEY
+    - MEILI_MASTER_KEY
+    - GITHUB_TOKEN
 # Use a different ssh user than root
 ssh:
   user: root
