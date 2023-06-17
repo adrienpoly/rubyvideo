@@ -42,7 +42,7 @@ bin/dev
 
 ## Experimental Page Transition API
 
-https://github.com/adrienpoly/rubyvideo/assets/7847244/768ebc63-ca23-43ea-8058-ca6ffbf295d5
+https://github.com/adrienpoly/rubyvideo/assets/7847244/64d299bb-dd57-47ee-b6c9-e3e9b430fcfa
 
 Rubyvideo.dev offers experimental support for the Page View Transition API, recently released by Chrome.
 
