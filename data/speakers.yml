@@ -1,818 +1,791 @@
 ---
-David Heinemeier Hansson
+- name: David Heinemeier Hansson
   twitter: ''
   github: dhh
   bio: ''
   website: https://dhh.dk
   slug: david-heinemeier-hansson
-Michael Fairley
+- name: Michael Fairley
   twitter: michaelfairley
   github: michaelfairley
   bio: I run Deku Deals.
   website: https://michaelfairley.com
   slug: michael-fairley
-Jared Ning
+- name: Jared Ning
   twitter: ''
   github: ordinaryzelig
   bio: ''
   website: http://redningja.com/
   slug: jared-ning
-Nick Quaranto
+- name: Nick Quaranto
   twitter: qrush
   github: qrush
-  bio: A short, sturdy creature fond of drink and industry. Started rubygems.org a
-    while back. Still writing Ruby 13 years later.
+  bio: A short, sturdy creature fond of drink and industry. Started rubygems.org a while back. Still writing Ruby 13 years later.
   website: http://quaran.to
   slug: nick-quaranto
-Obie Fernandez
+- name: Obie Fernandez
   twitter: obie
   github: obie
-  bio: Consultant, 25+ year veteran of professional software development, serial entrepreneur,
-    and best-selling author. Currently serving as Founder & CEO of RCRDSHP
+  bio: Consultant, 25+ year veteran of professional software development, serial entrepreneur, and best-selling author. Currently serving as Founder & CEO of RCRDSHP
   website: http://obiefernandez.com
   slug: obie-fernandez
-Ezra Zygmuntowicz
+- name: Ezra Zygmuntowicz
   twitter: ''
   github: ezmobius
   bio: ''
   website: http://stuffstr.com
   slug: ezra-zygmuntowicz
-Jim Weirich
+- name: Jim Weirich
   twitter: ''
   github: jimweirich
   bio: ''
   website: http://onestepback.org
   slug: jim-weirich
-Andrew Carter
+- name: Andrew Carter
   twitter: ''
   github: AndrewCarterUK
   bio: Software Developer, Physics Graduate, BJJ Enthusiast and Amateur Photographer.
   website: http://andrewcarteruk.github.io/
   slug: andrew-carter
-Steve Jang
+- name: Steve Jang
   twitter: ''
   github: CruiserX
   bio: Financial Engineer
   website: http://www.linkedin.com/in/cruiserx
   slug: steve-jang
-Patrick Leonard
+- name: Patrick Leonard
   twitter: pj_leonard
   github: pjleonard37
   bio: Maps!
   website: https://www.patrick-leonard.com
   slug: patrick-leonard
-Terrance Lee
+- name: Terrance Lee
   twitter: tacoleeee
   github: tlee0818
   bio: student at CMU
   website: ''
   slug: terrance-lee
-Masahiro Ihara
+- name: Masahiro Ihara
   twitter: ''
   github: ihara2525
   bio: CEO of Bit Journey, Inc.
   website: https://bitjourney.com
   slug: masahiro-ihara
-Jacob Swanner
+- name: Jacob Swanner
   twitter: ''
   github: jswanner
   bio: ''
   website: jacobswanner.com
   slug: jacob-swanner
-Bryan Liles
+- name: Bryan Liles
   twitter: ''
   github: bryanl
   bio: I write software and I like computrers and I don't like spell check
   website: http://smartic.us
   slug: bryan-liles
-Olivier Lacan
+- name: Olivier Lacan
   twitter: ''
   github: olivierlacan
-  bio: 'Shields.io creator, @rails & @ruby contributor, built Code School, maintaining
-    @keepachangelog. '
+  bio: 'Shields.io creator, @rails & @ruby contributor, built Code School, maintaining @keepachangelog. '
   website: http://olivierlacan.com
   slug: olivier-lacan
-Michael Hartl
+- name: Michael Hartl
   twitter: mhartl
   github: mhartl
-  bio: Author of the @railstutorial, founder of @learnenough, @softcover, and Tau
-    Day.
+  bio: Author of the @railstutorial, founder of @learnenough, @softcover, and Tau Day.
   website: https://www.michaelhartl.com/
   slug: michael-hartl
-Andy Maleh
+- name: Andy Maleh
   twitter: AndyObtiva
   github: AndyObtiva
-  bio: Lexoper. Fukuoka Ruby Winner. RailsConf / RubyConf / Agile / EclipseCon / EclipseWorld
-    Speaker. MS in SE from DePaul / BS in CS from McGill. Drummer/Snowboarder
+  bio: Lexoper. Fukuoka Ruby Winner. RailsConf / RubyConf / Agile / EclipseCon / EclipseWorld Speaker. MS in SE from DePaul / BS in CS from McGill. Drummer/Snowboarder
   website: https://andymaleh.blogspot.com
   slug: andy-maleh
-Thomas Pomfret
+- name: Thomas Pomfret
   twitter: ''
   github: bob-p
   bio: ''
   website: ''
   slug: thomas-pomfret
-Mikel Lindsaar
+- name: Mikel Lindsaar
   twitter: lindsaar
   github: mikel
   bio: ''
   website: https://lindsaar.net/
   slug: mikel-lindsaar
-Brad Gessler
+- name: Brad Gessler
   twitter: bradgessler
   github: bradgessler
   bio: http://bradgessler.com/about
   website: http://bradgessler.com/
   slug: brad-gessler
-Keith Gaddis
+- name: Keith Gaddis
   twitter: ''
   github: karmajunkie
   bio: ''
   website: https://atx.pub/@kbg
   slug: keith-gaddis
-Charles Abbott
+- name: Charles Abbott
   twitter: ''
   github: cwabbott
   bio: ''
   website: ''
   slug: charles-abbott
-Steve Klabnik
+- name: Steve Klabnik
   twitter: steveklabnik
   github: steveklabnik
   bio: All i'm trying to do is enjoy every day to the fullest with my Pokémon.
   website: http://steveklabnik.com
   slug: steve-klabnik
-Andrew Cantino
+- name: Andrew Cantino
   twitter: tectonic
   github: cantino
   bio: Ruby ◊ JS ◊ Rust ◊ Science ◊ Space ◊ InfoSec ◊ ML ◊ Greentech
   website: https://andrewcantino.com
   slug: andrew-cantino
-Ryan Stout
+- name: Ryan Stout
   twitter: ''
   github: ryanstout
   bio: ''
   website: http://www.witharsenal.com/
   slug: ryan-stout
-Piotr Sarnacki
+- name: Piotr Sarnacki
   twitter: drogus
   github: drogus
   bio: ''
   website: https://itsallaboutthebit.com/
   slug: piotr-sarnacki
-Jerry Cheung
+- name: Jerry Cheung
   twitter: ''
   github: jch
   bio: ''
   website: http://jch.github.io
   slug: jerry-cheung
-Will Leinweber
+- name: Will Leinweber
   twitter: ''
   github: will
-  bio: "                    ه҈ͣفͤ҈ͥ҉ͦ҈ͧ҉ͨ҈ͩ҉ͪ҈ͫ҉ͬ҈ͭ҉ͮ҈ͯ҉ͨ҈ͬ҉ͧ҈ͣ҉ͨ҈ͧ҉ͯ҈ͮ҉ͭ҈ͤ҉ͦ҈ͥ҉ͧ҈ͩ҉ͭ҈ͨ҉ͣ҈ͪ҉ͧ҈ͭ҉ͩ҈ͤ҉ͮ҈ͯ҉ͬ҈ͭ҉ͦ҈ͨ҉ͥ҈ͯ҉ͧ҈ͫ҉ͭ҈ͯ҉ͦ҈ͥ҉ͧ҈ͩ҉ͭ҈ͨ҉ͣ҈ͪ҉ͧ҈ͭ҉ͩ҈ͤ҉ͮ҈ͯ҉ͧ҈ͣ҉ͨ҈ͧ҉ͯ҈ͮ҉ͭ҈ͤ҉"
+  bio: '                    ه҈ͣفͤ҈ͥ҉ͦ҈ͧ҉ͨ҈ͩ҉ͪ҈ͫ҉ͬ҈ͭ҉ͮ҈ͯ҉ͨ҈ͬ҉ͧ҈ͣ҉ͨ҈ͧ҉ͯ҈ͮ҉ͭ҈ͤ҉ͦ҈ͥ҉ͧ҈ͩ҉ͭ҈ͨ҉ͣ҈ͪ҉ͧ҈ͭ҉ͩ҈ͤ҉ͮ҈ͯ҉ͬ҈ͭ҉ͦ҈ͨ҉ͥ҈ͯ҉ͧ҈ͫ҉ͭ҈ͯ҉ͦ҈ͥ҉ͧ҈ͩ҉ͭ҈ͨ҉ͣ҈ͪ҉ͧ҈ͭ҉ͩ҈ͤ҉ͮ҈ͯ҉ͧ҈ͣ҉ͨ҈ͧ҉ͯ҈ͮ҉ͭ҈ͤ҉'
   website: http://bitfission.com
   slug: will-leinweber
-Richard Huang
+- name: Richard Huang
   twitter: flyerhzm
   github: flyerhzm
-  bio: "Founder at synvert.net and awesomecode.io\r\n\r\nSpeaker of RailsConf and
-    RubyConf"
+  bio: "Founder at synvert.net and awesomecode.io\r\n\r\nSpeaker of RailsConf and RubyConf"
   website: https://synvert.net
   slug: richard-huang
-Mike Moore
+- name: Mike Moore
   twitter: ''
   github: blowmage
   bio: ''
   website: http://blowmage.com/
   slug: mike-moore
-Mark Bates
+- name: Mark Bates
   twitter: ''
   github: markbates
-  bio: Mark Bates is a full stack web developer with over 18 years of experience building
-    high quality scalable applications for companies.
+  bio: Mark Bates is a full stack web developer with over 18 years of experience building high quality scalable applications for companies.
   website: http://www.metabates.com
   slug: mark-bates
-Sarah Mei
+- name: Sarah Mei
   twitter: ''
   github: sarahmei
   bio: ''
   website: http://sarahmei.com/blog
   slug: sarah-mei
-Josh Kalderimis
+- name: Josh Kalderimis
   twitter: ''
   github: joshk
-  bio: "Previously VP of Product at @travis-ci and VP of Product at @replicatedcom
-    / \r\nContinuously Shaking It Off"
+  bio: "Previously VP of Product at @travis-ci and VP of Product at @replicatedcom / \r\nContinuously Shaking It Off"
   website: ''
   slug: josh-kalderimis
-Lance Ball
+- name: Lance Ball
   twitter: lanceball
   github: lance
-  bio: "I write software, cook food, exercise, take pictures, grow things.\r\n\r\nRed
-    Hat\r\nHe/him/his\r\n"
+  bio: "I write software, cook food, exercise, take pictures, grow things.\r\n\r\nRed Hat\r\nHe/him/his\r\n"
   website: https://lanceball.dev
   slug: lance-ball
-Kenta Murata
+- name: Kenta Murata
   twitter: KentaMurata
   github: mrkn
   bio: A committer of Apache Arrow and CRuby.
   website: http://mrkn.jp
   slug: kenta-murata
-Yehuda Katz
+- name: Yehuda Katz
   twitter: wycats
   github: wycats
   bio: ''
   website: http://yehudakatz.com
   slug: yehuda-katz
-David Czarnecki
+- name: David Czarnecki
   twitter: CzarneckiD
   github: czarneckid
-  bio: Engineering @wbgamesny • Gamer • Foodie • Author • Marathoner • Snowboarder
-    • Beekeeper
+  bio: Engineering @wbgamesny • Gamer • Foodie • Author • Marathoner • Snowboarder • Beekeeper
   website: https://davidczarnecki.com
   slug: david-czarnecki
-Matt Sanders
+- name: Matt Sanders
   twitter: ''
   github: nextmat
   bio: ''
   website: http://www.twitter.com/nextmat
   slug: matt-sanders
-James Edward Gray II
+- name: James Edward Gray II
   twitter: ''
   github: JEG2
   bio: ''
   website: http://graysoftinc.com/
   slug: james-edward-gray-ii
-Nathen Harvey
+- name: Nathen Harvey
   twitter: nathenharvey
   github: nathenharvey
   bio: Developer Advocate for Google Cloud Platform
   website: http://nathenharvey.com
   slug: nathen-harvey
-John Bender
+- name: John Bender
   twitter: ''
   github: johnbender
   bio: ''
   website: http://johnbender.us
   slug: john-bender
-Lori Olson
+- name: Lori Olson
   twitter: ''
   github: wndxlori
   bio: ''
   website: http://www.wndx.com
   slug: lori-olson
-Daniel Azuma
+- name: Daniel Azuma
   twitter: danielazuma
   github: dazuma
   bio: Ruby and Elixir enthusiast living in the Seattle area.
   website: http://www.daniel-azuma.com/
   slug: daniel-azuma
-Aaron Patterson
+- name: Aaron Patterson
   twitter: tenderlove
   github: tenderlove
   bio: "\U0001F498\U0001F499\U0001F49C\U0001F497\U0001F49A❤\U0001F493\U0001F49B\U0001F49A\U0001F497"
   website: https://tenderlovemaking.com/
   slug: aaron-patterson
-Rich Hickey
+- name: Rich Hickey
   twitter: ''
   github: richhickey
   bio: ''
   website: http://clojure.org
   slug: rich-hickey
-Brian Gugliemetti
+- name: Brian Gugliemetti
   twitter: ''
   github: briangug
   bio: ''
   website: ''
   slug: brian-gugliemetti
-Bryan Helmkamp
+- name: Bryan Helmkamp
   twitter: ''
   github: brynary
   bio: Co-founder and CEO, Code Climate
   website: http://codeclimate.com
   slug: bryan-helmkamp
-André Arko
+- name: André Arko
   twitter: ''
   github: indirect
   bio: ''
   website: https://arko.net
   slug: andre-arko
-Zach Briggs
+- name: Zach Briggs
   twitter: ''
   github: theotherzach
-  bio: Zach Briggs has farmed, sorted mail 2nd shift, fixed industrial equipment,
-    and created predictive models. Now he's slinging JavaScript, CSS, and Ruby for
-    Bravo.
+  bio: Zach Briggs has farmed, sorted mail 2nd shift, fixed industrial equipment, and created predictive models. Now he's slinging JavaScript, CSS, and Ruby for Bravo.
   website: theotherzach.com
   slug: zach-briggs
-John Duff
+- name: John Duff
   twitter: ''
   github: jduff
   bio: ''
   website: http://jduff.github.com/
   slug: john-duff
-Allan Grant
+- name: Allan Grant
   twitter: allangrant
   github: allangrant
-  bio: Hacker/Entrepreneur. Coding since 1990. Started a few companies, like Hired.com
-    and Talkable.com. More than a little crazy.
+  bio: Hacker/Entrepreneur. Coding since 1990. Started a few companies, like Hired.com and Talkable.com. More than a little crazy.
   website: http://www.talkable.com
   slug: allan-grant
-Carl Lerche
+- name: Carl Lerche
   twitter: carllerche
   github: carllerche
   bio: I do stuff, I say stuff. It's serious business.
   website: ''
   slug: carl-lerche
-Brian Cardarella
+- name: Brian Cardarella
   twitter: ''
   github: bcardarella
   bio: Founder / Chairman of DockYard
   website: http://dockyard.com
   slug: brian-cardarella
-Noel Rappin
+- name: Noel Rappin
   twitter: ''
   github: noelrappin
   bio: ''
   website: http://www.noelrappin.com
   slug: noel-rappin
-Adam Sanderson
+- name: Adam Sanderson
   twitter: ''
   github: adamsanderson
   bio: Professional computer typist.
   website: monkeyandcrow.com
   slug: adam-sanderson
-Bryan Woods
+- name: Bryan Woods
   twitter: ''
   github: bryanwoods
   bio: CTO @sayrhino
   website: https://www.sayrhino.com
   slug: bryan-woods
-Thomas Meeks
+- name: Thomas Meeks
   twitter: ''
   github: thomas
   bio: ''
   website: ''
   slug: thomas-meeks
-Lionel Barrow
+- name: Lionel Barrow
   twitter: ''
   github: lionelbarrow
   bio: ''
   website: www.lionelbarrow.com
   slug: lionel-barrow
-George Brocklehurst
+- name: George Brocklehurst
   twitter: georgebrock
   github: georgebrock
   bio: Works at @github. Previously @thoughtbot, @reevoo, etc.
   website: https://www.georgebrock.com
   slug: george-brocklehurst
-Stefan Wintermeyer
+- name: Stefan Wintermeyer
   twitter: wintermeyer
   github: wintermeyer
   bio: Ruby on Rails, Phoenix Framework and WebPerformance Consulting.
   website: https://www.wintermeyer-consulting.de
   slug: stefan-wintermeyer
-Sebastian Delmont
+- name: Sebastian Delmont
   twitter: sd
   github: sd
   bio: ''
   website: http://about.me/sdelmont
   slug: sebastian-delmont
-Conrad Irwin
+- name: Conrad Irwin
   twitter: ''
   github: ConradIrwin
   bio: CTO/co-founder of @superhuman.
   website: http://twitter.com/ConradIrwin
   slug: conrad-irwin
-Ernie Miller
+- name: Ernie Miller
   twitter: erniemiller
   github: ernie
   bio: What we build is only as useful as the impact it has on human beings.
   website: https://ernie.io
   slug: ernie-miller
-David Padilla
+- name: David Padilla
   twitter: ''
   github: dabit
   bio: ''
   website: ''
   slug: david-padilla
-Sandi Metz
+- name: Sandi Metz
   twitter: ''
   github: skmetz
   bio: ''
   website: sandimetz.com
   slug: sandi-metz
-Jesse Wolgamott
+- name: Jesse Wolgamott
   twitter: ''
   github: jwo
   bio: ''
   website: http://jessewolgamott.com
   slug: jesse-wolgamott
-Patrick Robertson
+- name: Patrick Robertson
   twitter: ''
   github: patricksrobertson
   bio: I like tacos.
   website: http://adequate.io
   slug: patrick-robertson
-Brandon Black
+- name: Brandon Black
   twitter: brndnblck
   github: brndnblck
-  bio: "Software Engineering Leader, Founder, Coffee and K9 Enthusiast \U0001F43E
-    ☕️"
+  bio: "Software Engineering Leader, Founder, Coffee and K9 Enthusiast \U0001F43E ☕️"
   website: http://brblck.com
   slug: brandon-black
-Shai Rosenfeld
+- name: Shai Rosenfeld
   twitter: ''
   github: shaiguitar
   bio: http://shairosenfeld.com/pickle.html
   website: http://shairosenfeld.com
   slug: shai-rosenfeld
-Brendan Loudermilk
+- name: Brendan Loudermilk
   twitter: bloudermilk
   github: bloudermilk
   bio: Making tech products with a positive social and environmental impact
   website: https://www.bloudermilk.com
   slug: brendan-loudermilk
-Pat Allen
+- name: Pat Allen
   twitter: layer8packet
   github: pallen182
-  bio: Network guy trying to learn some coding to help build new/better skills. Host
-    of Breaking Down the Bytes Podcast. Here to learn.
+  bio: Network guy trying to learn some coding to help build new/better skills. Host of Breaking Down the Bytes Podcast. Here to learn.
   website: https://breakingbytespod.io
   slug: pat-allen
-Yoko Harada
+- name: Yoko Harada
   twitter: ''
   github: yokolet
   bio: ''
   website: https://yokolet.com/
   slug: yoko-harada
-Richard Schneeman
+- name: Richard Schneeman
   twitter: schneems
   github: schneems
-  bio: "Ruby core contributor. Learn how to contribute to open source with my app
-    CodeTriage (free) and my book How to Open Source (paid), links below \U0001F447\U0001F3FB"
+  bio: "Ruby core contributor. Learn how to contribute to open source with my app CodeTriage (free) and my book How to Open Source (paid), links below \U0001F447\U0001F3FB"
   website: https://www.schneems.com
   slug: richard-schneeman
-Ben Orenstein
+- name: Ben Orenstein
   twitter: r00k
   github: r00k
   bio: 'CEO/co-founder of Tuple, a tool for remote pair programming: https://tuple.app.'
   website: http://www.benorenstein.com
   slug: ben-orenstein
-Beau Harrington
+- name: Beau Harrington
   twitter: ''
   github: bohford
   bio: ''
   website: ''
   slug: beau-harrington
-Prem Sichanugrist
+- name: Prem Sichanugrist
   twitter: ''
   github: sikachu
-  bio: "I contribute to open source projects, mostly in Ruby.\r\nPGP: 889C 472F 2DA2
-    8377"
+  bio: "I contribute to open source projects, mostly in Ruby.\r\nPGP: 889C 472F 2DA2 8377"
   website: https://sikac.hu
   slug: prem-sichanugrist
-Ryan Twomey
+- name: Ryan Twomey
   twitter: ''
   github: rtwomey
   bio: ''
   website: http://www.ryantwomey.com
   slug: ryan-twomey
-Brian Morton
+- name: Brian Morton
   twitter: ''
   github: bmorton
   bio: ''
   website: ''
   slug: brian-morton
-Trevor Rowe
+- name: Trevor Rowe
   twitter: ''
   github: trevorrowe
   bio: ''
   website: ''
   slug: trevor-rowe
-Mark McSpadden
+- name: Mark McSpadden
   twitter: ''
   github: markmcspadden
   bio: ''
   website: http://www.markmcspadden.net
   slug: mark-mcspadden
-Ethan Vizitei
+- name: Ethan Vizitei
   twitter: ''
   github: evizitei
   bio: ''
   website: ''
   slug: ethan-vizitei
-Michael Murphy
+- name: Michael Murphy
   twitter: mmstick
   github: mmstick
-  bio: System76 product engineer, Pop!_OS maintainer, Linux software developer, Rust
-    programmer
+  bio: System76 product engineer, Pop!_OS maintainer, Linux software developer, Rust programmer
   website: ''
   slug: michael-murphy
-Terence Lee
+- name: Terence Lee
   twitter: ''
   github: hone
   bio: Blue Hat League
   website: http://hone.heroku.com
   slug: terence-lee
-Edward Chiu
+- name: Edward Chiu
   twitter: ''
   github: edwardchiu38
   bio: ''
   website: ''
   slug: edward-chiu
-John Downey
+- name: John Downey
   twitter: jtdowney
   github: jtdowney
   bio: CISO @ GoFundMe
   website: https://jtdowney.com
   slug: john-downey
-José Valim
+- name: José Valim
   twitter: josevalim
   github: josevalim
   bio: 'Chief Adoption Officer at @dashbitco and @livebook-dev. Creator of @elixir-lang. '
   website: https://dashbit.co/
   slug: jose-valim
-Todd Schneider
+- name: Todd Schneider
   twitter: ''
   github: tcs021
   bio: ''
   website: ''
   slug: todd-schneider
-Nicholas Henry
+- name: Nicholas Henry
   twitter: nicholasjhenry
   github: nicholasjhenry
-  bio: Independent Contractor, developing tailored business applications with Elixir
-    and PostgreSQL.
+  bio: Independent Contractor, developing tailored business applications with Elixir and PostgreSQL.
   website: https://www.linkedin.com/in/nicholasjhenry/
   slug: nicholas-henry
-Liana Leahy
+- name: Liana Leahy
   twitter: ''
   github: liana
   bio: ''
   website: http://liana.org
   slug: liana-leahy
-Chris Maddox
+- name: Chris Maddox
   twitter: ''
   github: tyre
   bio: ''
   website: ''
   slug: chris-maddox
-Ben Dixon
+- name: Ben Dixon
   twitter: talkingquickly
   github: TalkingQuickly
   bio: Fan of Ruby, Elixir, Docker, Kubernetes & Typescript. Co-founder & CTO of Sona.
   website: https://www.talkingquickly.co.uk
   slug: ben-dixon
-Akira Matsuda
+- name: Akira Matsuda
   twitter: a_matsuda
   github: amatsuda
-  bio: "@ruby / @rails committer,\r\nAuthor of @kaminari,\r\nFounder of @asakusarb,\r\nChief
-    Organizer of @rubykaigi "
+  bio: "@ruby / @rails committer,\r\nAuthor of @kaminari,\r\nFounder of @asakusarb,\r\nChief Organizer of @rubykaigi "
   website: https://twitter.com/a_matsuda
   slug: akira-matsuda
-Bradly Feeley
+- name: Bradly Feeley
   twitter: ''
   github: bradly
   bio: ''
   website: ''
   slug: bradly-feeley
-Coraline Ada Ehmke
+- name: Coraline Ada Ehmke
   twitter: CoralineAda
   github: CoralineAda
-  bio: Internationally acclaimed speaker, developer, writer, and podcaster. Creator
-    of Contributor Covenant and Hippocratic License. Ruby Hero. Big time troublemaker.
+  bio: Internationally acclaimed speaker, developer, writer, and podcaster. Creator of Contributor Covenant and Hippocratic License. Ruby Hero. Big time troublemaker.
   website: http://where.coraline.codes/
   slug: coraline-ada-ehmke
-Starr Horne
+- name: Starr Horne
   twitter: ''
   github: starrhorne
   bio: ''
   website: http://starrhorne.com
   slug: starr-horne
-Simon Kröger
+- name: Simon Kröger
   twitter: ''
   github: simonkro
   bio: ''
   website: ''
   slug: simon-kroger
-Pete Hodgson
+- name: Pete Hodgson
   twitter: ph1
   github: moredip
-  bio: Independent consultant helping engineering teams tackle thorny problems. Formerly
-    Earnest, ThoughtWorks
+  bio: Independent consultant helping engineering teams tackle thorny problems. Formerly Earnest, ThoughtWorks
   website: thepete.net
   slug: pete-hodgson
-Jeremy Green
+- name: Jeremy Green
   twitter: ''
   github: jagthedrummer
   bio: ''
   website: http://www.octolabs.com/
   slug: jeremy-green
-Alan Cohen
+- name: Alan Cohen
   twitter: fwdstationdev
   github: alandotcom
   bio: ''
   website: ''
   slug: alan-cohen
-Alberto Leal
+- name: Alberto Leal
   twitter: albertoleal
   github: albertoleal
   bio: ''
   website: https://www.aleal.dev
   slug: alberto-leal
-Rosie Hoyem
+- name: Rosie Hoyem
   twitter: ''
   github: rosiehoyem
-  bio: Urban planner turned energy policy wonk turned Rails developer turned data
-    scientist. Proud graduate of the FlatironSchool and Metis.
+  bio: Urban planner turned energy policy wonk turned Rails developer turned data scientist. Proud graduate of the FlatironSchool and Metis.
   website: https://rosiehoyem.herokuapp.com
   slug: rosie-hoyem
-Sonja Hall
+- name: Sonja Hall
   twitter: ''
   github: sonejah21
   bio: ''
   website: ''
   slug: sonja-hall
-Joel Turnbull
+- name: Joel Turnbull
   twitter: ''
   github: joelturnbull
   bio: ''
   website: ''
   slug: joel-turnbull
-Austin Putman
+- name: Austin Putman
   twitter: ''
   github: austinfromboston
   bio: ''
   website: http://rawfingertips.org
   slug: austin-putman
-Roy Tomeij
+- name: Roy Tomeij
   twitter: ''
   github: roytomeij
   bio: ''
   website: ''
   slug: roy-tomeij
-Jenn Scheer
+- name: Jenn Scheer
   twitter: ''
   github: singleportrait
   bio: ''
   website: http://www.jennscheer.com
   slug: jenn-scheer
-Jessica Eldredge
+- name: Jessica Eldredge
   twitter: ''
   github: jessabean
-  bio: 'Front-end engineer, little free library enthusiast, extroverted introvert.
-    I still like CSS. '
+  bio: 'Front-end engineer, little free library enthusiast, extroverted introvert. I still like CSS. '
   website: https://jessabean.dev
   slug: jessica-eldredge
-Cameron Daigle
+- name: Cameron Daigle
   twitter: ''
   github: camerond
   bio: ''
   website: http://camerondaigle.com
   slug: cameron-daigle
-Charles Lowell
+- name: Charles Lowell
   twitter: cowboyd
   github: cowboyd
   bio: Secretary of State
   website: https://frontside.com
   slug: charles-lowell
-Joe moore
+- name: Joe moore
   twitter: ''
   github: joemoore
   bio: ''
   website: http://remotepairprogramming.com
   slug: joe-moore
-Brandon Hays
+- name: Brandon Hays
   twitter: ''
   github: tehviking
   bio: ''
   website: brandonhays.com/blog
   slug: brandon-hays
-Justin Searls
+- name: Justin Searls
   twitter: searls
   github: searls
-  bio: I catch bugs and make bugs and strive to catch more bugs than I make. I co-founded
-    @testdouble, which is a really good software consultancy I think.
+  bio: I catch bugs and make bugs and strive to catch more bugs than I make. I co-founded @testdouble, which is a really good software consultancy I think.
   website: justin.searls.co
   slug: justin-searls
-Eric Saxby
+- name: Eric Saxby
   twitter: ''
   github: sax
   bio: "Computers: Elixir/Phoenix/Rust;\r\nAnimals: Cat"
   website: http://litp.org
   slug: eric-saxby
-Kenny Hoxworth
+- name: Kenny Hoxworth
   twitter: ''
   github: hoxworth
   bio: ''
   website: http://starkiller.net
   slug: kenny-hoxworth
-Katherine Wu
+- name: Katherine Wu
   twitter: ''
   github: kwugirl
   bio: ''
   website: ''
   slug: katherine-wu
-Leah Silber
+- name: Leah Silber
   twitter: wifelette
   github: wifelette
-  bio: 'Co-founder and CEO at @tildeio, EmberConf and RustConf Organizer, @emberjs
-    Core Team, @jQuery Core Team alum, RailsConf alum, and all around technophile. '
+  bio: 'Co-founder and CEO at @tildeio, EmberConf and RustConf Organizer, @emberjs Core Team, @jQuery Core Team alum, RailsConf alum, and all around technophile. '
   website: ''
   slug: leah-silber
-Sean Marcia
+- name: Sean Marcia
   twitter: ''
   github: seanmarcia
   bio: ''
   website: https://rubyforgood.org
   slug: sean-marcia
-Nickolas Means
+- name: Nickolas Means
   twitter: nmeans
   github: nmeans
   bio: VP Eng. at @symopsio, storyteller, student of disasters.
   website: ''
   slug: nickolas-means
-Jason Clark
+- name: Jason Clark
   twitter: jaclark
   github: jasonclark
-  bio: librarian, professor, hacker/developer, Semantic Web + metadata + archives
-    geek, author, husband, dad - doing it all under the Big Sky. he/him
+  bio: librarian, professor, hacker/developer, Semantic Web + metadata + archives geek, author, husband, dad - doing it all under the Big Sky. he/him
   website: www.jasonclark.info
   slug: jason-clark
-Luke Francl
+- name: Luke Francl
   twitter: lof
   github: look
   bio: Product-oriented software developer. I like learning new programming languages.
   website: http://luke.francl.org
   slug: luke-francl
-Tute Costa
+- name: Tute Costa
   twitter: ''
   github: tute
   bio: ''
   website: https://www.tutecosta.com/software-developer/
   slug: tute-costa
-Carlos Souza
+- name: Carlos Souza
   twitter: caike
   github: caike
-  bio: "@idopterlabs  @wowica "
+  bio: '@idopterlabs  @wowica '
   website: https://csouza.me
   slug: carlos-souza
-David Rogers
+- name: David Rogers
   twitter: ''
   github: davidrogers-unity
   bio: ''
   website: http://www.unity3d.com
   slug: david-rogers
-Tom Dale
+- name: Tom Dale
   twitter: ''
   github: tomdale
   bio: ''
   website: http://tomdale.net
   slug: tom-dale
-Vaidy Bala
+- name: Vaidy Bala
   twitter: ''
   github: VaidyBala
   bio: ''
   website: ''
   slug: vaidy-bala
-Mark Menard
+- name: Mark Menard
   twitter: ''
   github: MarkMenard
   bio: ''
   website: http://www.enablelabs.com/
   slug: mark-menard
-Aaron Suggs
+- name: Aaron Suggs
   twitter: ktheory
   github: ktheory
   bio: ''
   website: https://ktheory.com/
   slug: aaron-suggs
-Julian Simioni
+- name: Julian Simioni
   twitter: juliansimioni
   github: orangejulius
   bio: CEO and co-founder @geocodeearth, core maintainer @pelias geocoder.
   website: https://juliansimioni.com
   slug: julian-simioni
-Will Luongo
+- name: Will Luongo
   twitter: ''
   github: willluongo
   bio: ''
   website: ''
   slug: will-luongo
-Toby Hede
+- name: Toby Hede
   twitter: ''
   github: tobyhede
   bio: ''
   website: http://tobyhede.com/
   slug: toby-hede
-Chris Hunt
+- name: Chris Hunt
   twitter: chrishunt
   github: chrishunt
-  bio: "@anrok, @stripe, @coinbase, @github, @square, @omgnetwork "
+  bio: '@anrok, @stripe, @coinbase, @github, @square, @omgnetwork '
   website: http://www.chrishunt.co
   slug: chris-hunt
-Greg Baugues
+- name: Greg Baugues
   twitter: ''
   github: GregBaugues
   bio: ''
@@ -821,15 +794,13 @@ Greg Baugues
 - name: Michael Norton
   twitter: ''
   github: Norton-Design
-  bio: "Software Engineer | \r\nReact, JavaScript, Python, Ruby, Node, Flask, Rails,
-    Postgres, Sass"
+  bio: "Software Engineer | \r\nReact, JavaScript, Python, Ruby, Node, Flask, Rails, Postgres, Sass"
   website: https://norton-design.github.io/
   slug: michael-norton
 - name: Xavier Noria
   twitter: fxn
   github: fxn
-  bio: Everlasting student · Rails Core · Fukuoka Ruby Award · Ruby Hero Award · Freelance
-    · Life lover
+  bio: Everlasting student · Rails Core · Fukuoka Ruby Award · Ruby Hero Award · Freelance · Life lover
   website: https://hashref.com
   slug: xavier-noria
 - name: Aaron Bedra
@@ -907,15 +878,13 @@ Greg Baugues
 - name: Ryan Bigg
   twitter: ryanbigg
   github: radar
-  bio: Award-winning super-hero published author with a Ruby addiction, a love for
-    TypeScript and React, and extreme fondness for Elixir.
+  bio: Award-winning super-hero published author with a Ruby addiction, a love for TypeScript and React, and extreme fondness for Elixir.
   website: http://ryanbigg.com
   slug: ryan-bigg
 - name: Shibata Hiroshi
   twitter: hsbt
   github: hsbt
-  bio: "Full-time OSS developer. I'm a member of Ruby core team, RubyGems team and
-    rbenv and ruby-build maintainer.\r\n"
+  bio: "Full-time OSS developer. I'm a member of Ruby core team, RubyGems team and rbenv and ruby-build maintainer.\r\n"
   website: https://www.hsbt.org/
   slug: shibata-hiroshi
 - name: Nate Berkopec
@@ -963,8 +932,7 @@ Greg Baugues
 - name: Alex Kitchens
   twitter: ''
   github: alexcameron89
-  bio: 'Lead Engineer at @stitchfix. I currently favor the RRTCC stack: Ruby, Rust,
-    Tex-Mex, Coffee, Chocolate'
+  bio: 'Lead Engineer at @stitchfix. I currently favor the RRTCC stack: Ruby, Rust, Tex-Mex, Coffee, Chocolate'
   website: http://alexkitchens.net
   slug: alex-kitchens
 - name: Krista Nelson
@@ -982,8 +950,7 @@ Greg Baugues
 - name: Andrew Hao
   twitter: andrewhao
   github: andrewhao
-  bio: "Engineering at YouTube. Formerly  @lyft, @carbonfive. Co-founder @Wejoinin.
-    \r\n"
+  bio: "Engineering at YouTube. Formerly  @lyft, @carbonfive. Co-founder @Wejoinin. \r\n"
   website: http://www.g9labs.com
   slug: andrew-hao
 - name: Taylor Jones
@@ -1001,15 +968,13 @@ Greg Baugues
 - name: Michael Cain
   twitter: MCain310
   github: Cain310
-  bio: "Director of Blockchain @staratlasmeta \r\n Software Engineer | Bitcoin | RealEstate
-    \U0001F596 \r\n\r\nBackend JS | Rust | Solana."
+  bio: "Director of Blockchain @staratlasmeta \r\n Software Engineer | Bitcoin | RealEstate \U0001F596 \r\n\r\nBackend JS | Rust | Solana."
   website: www.linkedin.com/in/michael-cain-9902ba2
   slug: michael-cain
 - name: Jess Rudder
   twitter: ''
   github: JessRudder
-  bio: I write code @github and talk code at http://youtube.com/compchomp. In my spare
-    time I snap photos of random mammals while running really, really far.
+  bio: I write code @github and talk code at http://youtube.com/compchomp. In my spare time I snap photos of random mammals while running really, really far.
   website: http://jessrudder.github.io
   slug: jess-rudder
 - name: Don Werve
@@ -1039,8 +1004,7 @@ Greg Baugues
 - name: Jesse James
   twitter: marginalchaos
   github: jrjamespdx
-  bio: 'He/Him, #blacklivesmatter, Software Architect and Team Lead Software Engineer,
-    veteran, lover of gatos and doggos, and lifter of heavy things.'
+  bio: 'He/Him, #blacklivesmatter, Software Architect and Team Lead Software Engineer, veteran, lover of gatos and doggos, and lifter of heavy things.'
   website: ''
   slug: jesse-james
 - name: Jonan Scheffler
@@ -1082,8 +1046,7 @@ Greg Baugues
 - name: Ju Liu
   twitter: arkh4m
   github: Arkham
-  bio: "Italian. I try to write code that doesn't suck. I rarely succeed. I like to
-    climb \U0001F9D7"
+  bio: "Italian. I try to write code that doesn't suck. I rarely succeed. I like to climb \U0001F9D7"
   website: https://juliu.is
   slug: ju-liu
 - name: Kevin Yank
@@ -1101,8 +1064,7 @@ Greg Baugues
 - name: Craig Buchek
   twitter: CraigBuchek
   github: booch
-  bio: Independent contractor, focusing on Ruby, Rails (especially rescue projects),
-    Agile, and DevOps. More repos at @boochtek.
+  bio: Independent contractor, focusing on Ruby, Rails (especially rescue projects), Agile, and DevOps. More repos at @boochtek.
   website: http://craigbuchek.com
   slug: craig-buchek
 - name: Andy Glass
@@ -1174,7 +1136,7 @@ Greg Baugues
 - name: Jamie Gaskins
   twitter: jamie_gaskins
   github: jgaskins
-  bio: "*not actually an axolotl"
+  bio: '*not actually an axolotl'
   website: https://zomglol.wtf/@jamie
   slug: jamie-gaskins
 - name: Christian Bruckmayer
@@ -1192,22 +1154,19 @@ Greg Baugues
 - name: John Crepezzi
   twitter: ''
   github: seejohnrun
-  bio: I'm a developer @github where I develop software that helps developers develop
-    software.
+  bio: I'm a developer @github where I develop software that helps developers develop software.
   website: http://johncrepezzi.com
   slug: john-crepezzi
 - name: Andy Croll
   twitter: ''
   github: andycroll
-  bio: CTO at CoverageBook, Rubyist, Conference Organizer, Author, Speaker, Bootstrapper
-    & Parent of Twins.
+  bio: CTO at CoverageBook, Rubyist, Conference Organizer, Author, Speaker, Bootstrapper & Parent of Twins.
   website: http://andycroll.com/
   slug: andy-croll
 - name: Melissa Hunt Glickman
   twitter: ''
   github: mhuntglickman
-  bio: 'Senior Full Stack Engineer and accomplished professional with a passion for
-    delivering robust and reliable web applications.  '
+  bio: 'Senior Full Stack Engineer and accomplished professional with a passion for delivering robust and reliable web applications.  '
   website: ''
   slug: melissa-hunt-glickman
 - name: Andy Andrea
