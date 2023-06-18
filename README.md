@@ -17,7 +17,7 @@ You can use the `.env.sample` file as a guide for the environment variables requ
 To prepare your database and seed content, run:
 
 ```
-bin/rails setup
+bin/rails db:setup
 ```
 
 ### Meilisearch
