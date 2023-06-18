@@ -16,24 +16,4 @@ Turn.start()
 // Example: Import a stylesheet in app/frontend/index.css
 import "../../assets/stylesheets/application.tailwind.css";
 
-addEventListener("turbo:before-render", (event) => {
-  if (document.startViewTransition) {
-    event.preventDefault();
-
-    document.startViewTransition(() => {
-      event.detail.resume();
-    });
-  }
-});
-
-addEventListener("turbo:before-frame-render", (event) => {
-  if (document.startViewTransition) {
-    event.preventDefault();
-
-    document.startViewTransition(() => {
-      event.detail.resume();
-    });
-  }
-});
-
 import "~/controllers";
