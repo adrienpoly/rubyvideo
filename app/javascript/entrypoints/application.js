@@ -3,6 +3,10 @@
 import * as Turbo from "@hotwired/turbo";
 Turbo.start();
 
+import Turn from "@domchristie/turn";
+Turn.config.experimental.viewTransitions = true
+Turn.start()
+
 // import ActiveStorage from "@rails/activestorage";
 // ActiveStorage.start();
 //

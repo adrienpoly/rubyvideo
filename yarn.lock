@@ -7,6 +7,11 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
+"@domchristie/turn@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@domchristie/turn/-/turn-2.0.0.tgz#8da4201060ba525926c5720f2862ffec2bb557cb"
+  integrity sha512-oGPMkYNVCacOi7+icrDVz0DgOAT3U3cds4/ivNiIoU7QK2q2gMbFK2hwkgysC+i/HEa4TNJaw9Ow94ojhRQWcA==
+
 "@esbuild/android-arm64@0.17.18":
   version "0.17.18"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.17.18.tgz#4aa8d8afcffb4458736ca9b32baa97d7cb5861ea"
