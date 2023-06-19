@@ -2,7 +2,7 @@
 
   <div <%= tag.attributes(
             class: "aspect-video banner-img card-horizontal-img relative",
-            style: "view-transition-name: #{dom_id(talk)}_image",
+            style: "view-transition-name: #{dom_id(talk, :image)}",
             data: {
               controller: "video-player",
               video_player_poster_value: talk.thumbnail_lg,
