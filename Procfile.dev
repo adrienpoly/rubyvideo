@@ -1,3 +1,3 @@
 web: bin/rails server -p 3000
 vite: bin/vite dev
-search: docker rm -f rubyvideo-meilisearch && docker run --name rubyvideo-meilisearch -p 7700:7700 -v $(pwd)/meili_data:/meili_data getmeili/meilisearch:prototype-vector-store-0 meilisearch --env development
+search: docker rm -f rubyvideo-meilisearch && docker run --name rubyvideo-meilisearch -p 7700:7700 -v $(pwd)/meili_data:/meili_data getmeili/meilisearch:prototype-vector-store-1 meilisearch --env development --no-analytics --log-level=INFO

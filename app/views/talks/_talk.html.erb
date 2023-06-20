@@ -31,6 +31,16 @@
       <span><%#= talk.event_edition %></span>
     </p>
 
+    <% related_talks = talk.neighbors(limit: 5) %>
+    <% if related_talks.any? %>
+      <h2>Other talks you might be interested in</h2>
+      <ul class="list-inside list-disc">
+        <% related_talks.each do |related_talk| %>
+          <%= content_tag :li, link_to(related_talk.title.gsub(/\A:\s+/, ""), related_talk) %>
+        <% end %>
+      </ul>
+    <% end %>
+
     <% if action_name != "show" %>
       <%= link_to "Show this talk", talk, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
       <%= link_to 'Edit this talk', edit_talk_path(talk), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>

@@ -49,11 +49,12 @@ class Talk < ApplicationRecord
     attribute :speakers do
       speakers.pluck(:name)
     end
-    add_attribute :_vector do
-      _vector # doesn't work yet
+    add_attribute :_vectors do
+      vectors
     end
     searchable_attributes [:title, :description, :_vector]
     sortable_attributes [:title]
+    filterable_attributes [:id]
 
     attributes_to_highlight ["*"]
   end
@@ -85,9 +86,16 @@ class Talk < ApplicationRecord
     self[:thumbnail_xl].presence || "https://i.ytimg.com/vi/#{video_id}/maxresdefault.jpg"
   end
 
-  def _vector
+  def neighbors(limit: 5)
+    query_vector = Talk.index.document(self.id).fetch("_vectors", []).first
+    return Talk.none if query_vector.blank?
+    Talk.search("", vector: query_vector, limit: limit, filter: "id != #{self.id}")
+  end
+
+  def vectors
     return nil unless ENV["OPENAI_ACCESS_TOKEN"].present?
-    @_vector ||= self.class.embedding(title, description)
+    # might need to split at some point if over the token limit (e.g. if including transcription)
+    @vectors ||= [self.class.embedding(title, description)]
   end
 
   def self.embedding(*inputs)
