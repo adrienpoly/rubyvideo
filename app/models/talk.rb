@@ -37,7 +37,7 @@ class Talk < ApplicationRecord
   delegate :name, to: :event, prefix: true, allow_nil: true
 
   # search
-  meilisearch do
+  meilisearch enqueue: true, raise_on_failure: Rails.env.development? do
     attribute :title
     attribute :description
     attribute :slug
@@ -49,13 +49,14 @@ class Talk < ApplicationRecord
     attribute :speakers do
       speakers.pluck(:name)
     end
-    searchable_attributes [:title, :description]
+    add_attribute :_vector do
+      _vector # doesn't work yet
+    end
+    searchable_attributes [:title, :description, :_vector]
     sortable_attributes [:title]
 
     attributes_to_highlight ["*"]
   end
-
-  meilisearch enqueue: true
 
   def to_meta_tags
     {
@@ -82,5 +83,21 @@ class Talk < ApplicationRecord
 
   def thumbnail_xl
     self[:thumbnail_xl].presence || "https://i.ytimg.com/vi/#{video_id}/maxresdefault.jpg"
+  end
+
+  def _vector
+    return nil unless ENV["OPENAI_ACCESS_TOKEN"].present?
+    @_vector ||= self.class.embedding(title, description)
+  end
+
+  def self.embedding(*inputs)
+    client = OpenAI::Client.new
+    response = client.embeddings(
+      parameters: {
+        model: "text-embedding-ada-002",
+        input: inputs.join("\n\n"),
+      },
+    )
+    response.dig("data", 0, "embedding")
   end
 end

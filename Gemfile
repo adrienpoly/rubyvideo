@@ -91,3 +91,4 @@ gem "meta-tags", "~> 2.18"
 gem "groupdate", "~> 6.2"
 
 gem "appsignal", "~> 3.4"
+gem "ruby-openai"
