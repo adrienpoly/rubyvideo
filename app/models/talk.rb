@@ -49,14 +49,18 @@ class Talk < ApplicationRecord
     attribute :speakers do
       speakers.pluck(:name)
     end
-    add_attribute :_vectors do
-      vectors
-    end
-    searchable_attributes [:title, :description, :_vector]
+    attribute :_vectors
+    searchable_attributes [:title, :description]
     sortable_attributes [:title]
     filterable_attributes [:id]
 
     attributes_to_highlight ["*"]
+  end
+
+  # https://github.com/meilisearch/meilisearch-rails#custom-attribute-definition
+  # this doesn't work yet, because _vectors is not seen as an attribute
+  def will_save_change_to__vectors?
+    will_save_change_to_title? || will_save_change_to_description?
   end
 
   def to_meta_tags
@@ -92,10 +96,10 @@ class Talk < ApplicationRecord
     Talk.search("", vector: query_vector, limit: limit, filter: "id != #{self.id}")
   end
 
-  def vectors
+  def _vectors
     return nil unless ENV["OPENAI_ACCESS_TOKEN"].present?
     # might need to split at some point if over the token limit (e.g. if including transcription)
-    @vectors ||= [self.class.embedding(title, description)]
+    @_vectors ||= [self.class.embedding(title, description)]
   end
 
   def self.embedding(*inputs)
