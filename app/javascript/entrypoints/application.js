@@ -3,6 +3,10 @@
 import * as Turbo from "@hotwired/turbo";
 Turbo.start();
 
+import Turn from "@domchristie/turn";
+Turn.config.experimental.viewTransitions = true
+Turn.start()
+
 // import ActiveStorage from "@rails/activestorage";
 // ActiveStorage.start();
 //
@@ -11,16 +15,6 @@ Turbo.start();
 
 // Example: Import a stylesheet in app/frontend/index.css
 import "../../assets/stylesheets/application.tailwind.css";
-
-addEventListener("turbo:before-render", (event) => {
-  if (document.startViewTransition) {
-    event.preventDefault();
-
-    document.startViewTransition(() => {
-      event.detail.resume();
-    });
-  }
-});
 
 addEventListener("turbo:before-frame-render", (event) => {
   if (document.startViewTransition) {
