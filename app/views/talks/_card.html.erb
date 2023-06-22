@@ -1,13 +1,13 @@
 
 <div class="max-w-sm bg-white" id="<%= dom_id talk %>">
-  <%= link_to talk_path(talk, speaker_slug: local_assigns.fetch(:speaker_slug, nil)), class: "flex aspect-video", data: { controller: "view-transition", view_transition_name_value: "banner-img" } do %>
+  <%= link_to talk_path(talk, speaker_slug: local_assigns.fetch(:speaker_slug, nil)), class: "flex aspect-video" do %>
     <%= image_tag talk.thumbnail_sm,
                   srcset: ["#{talk.thumbnail_lg} 2x"],
                   id: dom_id(talk),
                   height: 174,
                   width: 310,
                   alt: "talk by #{talk.speakers.join(", ")}: #{talk.title}",
-                  style: view_transition_style(talk_id: talk.id, from_talk_id:  local_assigns.fetch(:from_talk_id, nil), name: "banner-img"),
+                  style: "view-transition-name: #{dom_id(talk, :image)}",
                   class: "rounded-lg w-full object-cover"
     %>
   <% end %>
