@@ -1,13 +1,32 @@
 {
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 120],
+  "editor.renderControlCharacters": true,
+  "editor.snippetSuggestions": "top",
+  "editor.trimAutoWhitespace": true,
+  "editor.useTabStops": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.showFoldingControls": "always",
+  "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "erb": "html"
   },
-  "emmet.triggerExpansionOnTab": true,
   "[ruby]": {
     "editor.defaultFormatter": "testdouble.vscode-standard-ruby"
   },
   "rubyLsp.enabledFeatures": {
     "diagnostics": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
   }
 }
