@@ -1,6 +1,6 @@
 module Youtube
-  class VideoStatistics < Client
-    def list(video_id)
+  class Video < Client
+    def get_statistics(video_id)
       path = "/videos"
       query = {
         part: "statistics",
@@ -14,7 +14,6 @@ module Youtube
         return nil
       end
 
-      # Assuming there's only one item in the response, as the ID of a video is unique.
       {
         view_count: response.first["statistics"]["viewCount"],
         like_count: response.first["statistics"]["likeCount"]
