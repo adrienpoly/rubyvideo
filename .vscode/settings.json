@@ -15,7 +15,11 @@
   "editor.showFoldingControls": "always",
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
+    "html.erb": "html",
     "erb": "html"
+  },
+  "files.associations": {
+    "*.html.erb": "erb"
   },
   "[ruby]": {
     "editor.defaultFormatter": "testdouble.vscode-standard-ruby"
@@ -28,5 +32,10 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     }
-  }
+  },
+  "tailwindCSS.includeLanguages": {
+    "erb": "html"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.validate": true
 }
