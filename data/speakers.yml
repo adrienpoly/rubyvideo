@@ -1217,3 +1217,105 @@
   bio: ''
   website: andyatkinson.com
   slug: andrew-atkinson
+- name: Samuel Williams
+  slug: samuel-williams
+  bio: "Samuel Williams is a Ruby core team member and the creator of Falcon, an open source web server which uses fibers for improved concurrency. He is passionate about programming languages and wants to build systems that are both easy to use and scalable by default. When he is not working as a freelance consultant solving difficult problems, he enjoys gardening, woodworking, and cooking with his two children."
+  twitter: ioquatix
+  github: ''
+  website: ''
+- name: Yuji Yokoo
+  slug: yuji-yokoo
+  bio: "Yuji is a software developer based in Adelaide, Australia. He is originally from Tokyo, Japan. He used to write Win32 desktop applications until he discovered Ruby."
+  twitter: yujiyokoo
+  github: ''
+  website: ''
+- name: Shaila Man
+  slug: shaila-man
+  bio: "Senior Software Engineer with Culture Amp. Single mother of three teenager daughters, a Weimaraner, a Ragdoll, and a very pathetic looking basil plant. Huge advocate for diversity, equity and inclusion, especially in the tech sector. Director of MusesCodeJS, which is a not-for-profit helping women and non-binary across Australia enter into engineering careers. ADHD and ASD positive, and will not stop talking about it! ...and finally known for having a keen interest in breeding rare breed chickens!"
+  twitter: silky098
+  github: ''
+  website: ''
+- name: Pat Allan
+  slug: pat-allan
+  bio: "Pat is a gelato connoisseur, pancake chef, and recovering events organiser, but most often is focused on web and Ruby development. He has had the pleasure of working with many talented development teams as a Ruby contractor, and written open source Ruby libraries such as Thinking Sphinx, Gutentag, and Combustion. Lately he has been learning far too much about calendar protocols as part of releasing Calm Calendar."
+  twitter: pat
+  github: ''
+  website: ''
+- name: Rhiana Heppenstall
+  slug: rhiana-heppenstall
+  bio: "Rhiana is a front end developer with a focus on accessible UX and design based in Melbourne. With a background in educational psychology Rhiana made the move to programming 10 years ago after attending a Rails Installfest. Combining her skill sets, Rhiana has a passion for making software the is easy for everyone to use and understand. When Rhiana isn't working you can often see her at a meetup or on the stage sharing her knowledge. Otherwise down at the local beach, park or zoo with her kids."
+  twitter: DevRhiana
+  github: ''
+  website: ''
+- name: Julián Pinzón Eslava
+  slug: julian-pinzon-eslava
+  bio: "Musician, Audio Engineer, Software Engineer and Ruby lover. Julián is a self-taught Software Engineer that has worked for Y Combinator startups and large consumer applications like Money by Afterpay and Cash App."
+  twitter: pinzonjulian
+  github: ''
+  website: ''
+- name: Prakriti Mateti
+  slug: prakriti-mateti
+  bio: "Prakriti Mateti is a Director of Engineering. She cares deeply about diversity, inclusion, and equity in tech, code quality, engineering culture, and what makes teams work well together. Prakriti loves travelling and food, experimenting with different cuisines and cultures. She likes to read, conduct workshops, present talks, jumps off a plane or high building occasionally, and dreams of getting a pilot license some day and buying her own airplane (if she can overcome her Netflix addiction)."
+  twitter: PrakritiMateti
+  github: ''
+  website: ''
+- name: Hilary Stohs-Krause
+  slug: hilary-stohs-krause
+  bio: "Hilary Stohs-Krause is VP and senior software developer at Rails-based dev shop Ten Forward Consulting in Madison, WI, USA. She's passionate about the intersection of tech, entrepreneurship and social justice, and spends a lot of her free time volunteering with different community organizations. She became obsessed with plants during the pandemic, and will read any fantasy or sci-fi she can get her hands on."
+  twitter: hilarysk
+  github: ''
+  website: ''
+- name: Jemma Issroff
+  slug: jemma-issroff
+  bio: "Jemma Issroff works on Shopify's Ruby Infrastructure team. In 2022, she implemented object shapes in CRuby alongside Aaron Patterson. She is also a co-founder of WNB.rb, a women and non-binary Ruby community, and a co-host on The Ruby on Rails Podcast."
+  twitter: JemmaIssroff
+  github: ''
+  website: ''
+- name: Fiona McCawley
+  slug: fiona-mccawley
+  bio: "After working in technical support roles in Audio Visual and IT for over ten years, I decided to switch careers to be a developer. I completed a General Assembly coding bootcamp and have been working as a developer for the last 5 years. I'm currently a Software Engineer at CipherStash."
+  twitter: saucerlike
+  github: ''
+  website: ''
+- name: Tim Riley
+  slug: tim-riley
+  bio: "Tim is a core team member of Hanami, dry-rb and rom-rb, and a Principal Engineer at Buildkite. He's been writing Ruby for over 20 years and still loves it! He works to bring the joy of Ruby to writing real, maintainable apps of all shapes and sizes."
+  twitter: timriley
+  github: ''
+  website: ''
+- name: Colleen Lavin
+  slug: colleen-lavin
+  bio: "Colleen Lavin is a Developer Advocate at Particle and a recovering people pleaser. She is a hardware geek, a bookworm, and a fervent supporter of inclusive technical communities. When she is playing with robots or sitting in front of a computer you can usually find her lost in the woods."
+  twitter: colleencodes
+  github: ''
+  website: ''
+- name: Geoffrey Donaldson
+  slug: geoffrey-donaldson
+  bio: "Geoffrey has been developing customer-centric apps for over 2 decades. As the CTO of Black Box Co, he is helping to empower people by simplifying data. While afk, you'll find him tracking down the best ramen in town, and trying to break escape room records with his partner in crime, Caitlin."
+  twitter: geoffreyd
+  github: ''
+  website: ''
+- name: Igor Kapkov
+  slug: igor-kapkov
+  bio: 'Igor is the founder of Visible Light, a developer tool that helps teams move faster and with confidence. He is an experienced CTO who worked with governments, fintech, e-commerce and social networks, helping them scale. Former Homebrew Core Maintainer and active open-source contributor. Finalist of Finnies 2022 in "Emerging Fintech Leader of the Year".'
+  twitter: igasgeek
+  github: ''
+  website: ''
+- name: Sameera Gayan
+  slug: sameera-gayan
+  bio: "After being a Ruby developer for 12+ years, I've now moved to looking after developers (Engineering Manager). I still like to get my hands dirty with code and have many unfinished projects I started. Even though I'm secretly in love with how good VS Code is, I'm painstakingly sticking with my VIM setup I built over time."
+  twitter: sameera207
+  github: ''
+  website: ''
+- name: Wiktoria Dalach
+  slug: wiktoria-dalach
+  bio: "Wiktoria Dalach is a Software/Security Engineer, a writer an a youtuber. She has been building apps for nearly a decade now. She has organized over 30 workshops for Webmuses, a community she co-founded in 2012. She's a RailsGirls mentor. Her interests focus on creativity, art and cybersecurity."
+  twitter: wdalach
+  github: ''
+  website: ''
+- name: Bianca Power
+  slug: bianca-power
+  bio: "After finishing a PhD in education and looking for something new, I enrolled in a 6 month web dev bootcamp, fell in love with Ruby on Rails, and never looked back. In my day job I work in Ruby on Rails and React, and in my spare time I learn new things for fun."
+  twitter: 20by31
+  github: ''
+  website: ''
