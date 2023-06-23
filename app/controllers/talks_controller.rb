@@ -16,18 +16,10 @@ class TalksController < ApplicationController
   end
 
   # GET /talks/1
-  # def show
-  #   speaker_slug = params[:speaker_slug]
-  #   session[:from_talk_id] = @talk.id
-  #   # @back_path = speaker_slug.present? ? speaker_path(speaker_slug) : talks_path
-  #   @talks = Talk.order("RANDOM()").excluding(@talk).limit(6)
-  #   set_meta_tags(@talk)
-  # end
-
   def show
     speaker_slug = params[:speaker_slug]
     session[:from_talk_id] = @talk.id
-    session[:current_page] = params[:page] if params[:page].present?
+    @back_path = speaker_slug.present? ? speaker_path(speaker_slug) : talks_path
     @talks = Talk.order("RANDOM()").excluding(@talk).limit(6)
     set_meta_tags(@talk)
   end
