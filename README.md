@@ -52,15 +52,23 @@ To enable page transitions with Turbo, include the following three lines of code
 
 ```js
 import Turn from "@domchristie/turn";
-Turn.config.experimental.viewTransitions = true
-Turn.start()
+Turn.config.experimental.viewTransitions = true;
+Turn.start();
 ```
 
 The rest of the implementation was guided by examples you can find here: https://glitch.com/edit/#!/simple-set-demos?path=1-cross-fade%2Fscript.js%3A1%3A0
 
 ## Linter
 
-To follow Tailwind CSS's recommended order of classes, you can use [Prettier](https://prettier.io/) along with the [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss), both of which are included as devDependencies.
+The CI performs 3 checks:
+
+- erblint
+- standardrb
+- standard (js)
+
+Before commiting your code you can run `bin/lint` to detect and potentially autocorrect lint errors.
+
+To follow Tailwind CSS's recommended order of classes, you can use [Prettier](https://prettier.io/) along with the [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss), both of which are included as devDependencies. This formating is not yet enforced by the CI.
 
 ## Code of Conduct
 
