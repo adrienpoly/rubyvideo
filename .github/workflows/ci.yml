@@ -36,3 +36,6 @@ jobs:
 
       - name: StandardJS Check
         run: yarn standard
+
+      - name: erb-lint Check
+        run: bundle exec erblint --lint-all
