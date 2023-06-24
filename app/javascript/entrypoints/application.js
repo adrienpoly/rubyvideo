@@ -12,6 +12,8 @@ import Turn from '@domchristie/turn'
 
 // Example: Import a stylesheet in app/frontend/index.css
 import '../../assets/stylesheets/application.tailwind.css'
+
+import '~/controllers'
 window.Turbo = Turbo
 
 // Page transitions
