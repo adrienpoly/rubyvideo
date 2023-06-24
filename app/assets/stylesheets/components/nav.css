@@ -1,17 +1,17 @@
 @layer components {
   nav {
-    @apply flex justify-between px-4 md:px-4 xl:px-8 bg-brand text-white;
+    @apply flex justify-between bg-brand px-4 text-white md:px-4 xl:px-8;
   }
 
   nav ul {
-    @apply flex items-center list-none m-0 p-0 gap-8;
+    @apply m-0 flex list-none items-center gap-8 p-0;
   }
 
   nav li,
   nav title {
-    @apply inline-block m-0 py-2;
+    @apply m-0 inline-block py-2;
     &.active {
-      @apply border-b-2 border-white border-solid;
+      @apply border-b-2 border-solid border-white;
     }
   }
 
@@ -21,13 +21,13 @@
 
   nav a,
   nav [role="link"] {
-    @apply inline-block m-0 p-0 rounded-none hover:no-underline active:no-underline focus:no-underline;
+    @apply m-0 inline-block rounded-none p-0 hover:no-underline focus:no-underline active:no-underline;
     text-decoration: none;
   }
 
   nav button,
   nav [role="button"] {
-    @apply bg-white text-dark hover:no-underline active:no-underline focus:no-underline;
+    @apply bg-white text-dark hover:no-underline focus:no-underline active:no-underline;
     text-decoration: none;
   }
 }

@@ -1,6 +1,6 @@
 @layer components {
   body {
-    @apply text-dark leading-relaxed;
+    @apply leading-relaxed text-dark;
   }
 
   h1,

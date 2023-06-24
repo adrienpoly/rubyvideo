@@ -4,11 +4,11 @@
   button[type="submit"],
   input[type="submit"],
   [role="button"] {
-    @apply inline-block rounded-lg transition-all duration-150 ease-in-out bg-brand text-white px-4 py-2 hover:no-underline active:no-underline focus:no-underline cursor-pointer whitespace-nowrap;
+    @apply inline-block cursor-pointer whitespace-nowrap rounded-lg bg-brand px-4 py-2 text-white transition-all duration-150 ease-in-out hover:no-underline focus:no-underline active:no-underline;
     text-decoration: none;
 
     &.secondary {
-      @apply text-dark border-2 border-brand-lighter border-solid bg-transparent;
+      @apply border-2 border-solid border-brand-lighter bg-transparent text-dark;
       &:hover {
         @apply shadow;
       }
