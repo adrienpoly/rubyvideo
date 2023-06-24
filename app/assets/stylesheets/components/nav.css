@@ -13,9 +13,12 @@
     div {
       @apply invisible border-b-2 border-solid border-white;
     }
-    &.active > div {
-      view-transition-name: navbar-active;
-      @apply visible;
+    &.active {
+      @apply relative;
+      & > div {
+        view-transition-name: navbar-active;
+        @apply visible absolute bottom-0 w-full;
+      }
     }
   }
 
