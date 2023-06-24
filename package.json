@@ -17,7 +17,8 @@
   },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets",
-    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
+    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify",
+    "lint": "standard --fix"
   },
   "packageManager": "yarn@1.22.19",
   "devDependencies": {
@@ -25,10 +26,16 @@
     "postcss-nested": "^6.0.1",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
+    "standard": "^17.1.0",
     "stimulus-vite-helpers": "^3.0.1",
     "vite": "^4.3.0",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-ruby": "^3.2.0",
     "vite-plugin-stimulus-hmr": "^3.0.0"
+  },
+  "standard": {
+    "globals": [
+      "requestAnimationFrame"
+    ]
   }
 }

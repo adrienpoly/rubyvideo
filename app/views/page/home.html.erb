@@ -21,7 +21,7 @@
               <%= link_to talks_path, class: "button" do %>
                 Explore talks
               <% end %>
-              <%= link_to "https://github.com/adrienpoly/rubyvideo/blob/main/docs/contributing.md", target: "_blank" ,class: "button secondary flex items-center gap-2" do %>
+              <%= link_to "https://github.com/adrienpoly/rubyvideo/blob/main/docs/contributing.md", target: "_blank", class: "button secondary flex items-center gap-2" do %>
                 Enriching this database <span aria-hidden="true"><%= heroicon :arrow_long_right %></span>
               <% end %>
             </div>
@@ -30,46 +30,41 @@
             <div class="ml-auto w-44 flex-none space-y-8 pt-24 sm:ml-0 sm:pt-80 lg:order-last xl:order-none xl:pt-80">
               <div class="relative">
                 <%= image_tag @speakers_avatar_url[0].first,
-                              alt: "picture profile of #{@speakers_avatar_url[0]}",
-                              srcset: ["#{@speakers_avatar_url[0].second} 2x"],
-                              class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                %>
+                      alt: "picture profile of #{@speakers_avatar_url[0]}",
+                      srcset: ["#{@speakers_avatar_url[0].second} 2x"],
+                      class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
                 <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
               </div>
             </div>
             <div class="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
               <div class="relative">
                 <%= image_tag @speakers_avatar_url[1].first,
-                              alt: "picture profile of #{@speakers_avatar_url[1]}",
-                              srcset: ["#{@speakers_avatar_url[1].second} 2x"],
-                              class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                %>
+                      alt: "picture profile of #{@speakers_avatar_url[1]}",
+                      srcset: ["#{@speakers_avatar_url[1].second} 2x"],
+                      class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
                 <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
               </div>
               <div class="relative">
                 <%= image_tag @speakers_avatar_url[2].first,
-                              alt: "picture profile of #{@speakers_avatar_url[2]}",
-                              srcset: ["#{@speakers_avatar_url[2].second} 2x"],
-                              class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                %>
+                      alt: "picture profile of #{@speakers_avatar_url[2]}",
+                      srcset: ["#{@speakers_avatar_url[2].second} 2x"],
+                      class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
                 <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
               </div>
             </div>
             <div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
               <div class="relative">
                 <%= image_tag @speakers_avatar_url[3].first,
-                              alt: "picture profile of #{@speakers_avatar_url[3]}",
-                              srcset: ["#{@speakers_avatar_url[3].second} 2x"],
-                              class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                %>
+                      alt: "picture profile of #{@speakers_avatar_url[3]}",
+                      srcset: ["#{@speakers_avatar_url[3].second} 2x"],
+                      class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
                 <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
               </div>
               <div class="relative">
                 <%= image_tag @speakers_avatar_url[4].first,
-                              alt: "picture profile of #{@speakers_avatar_url[4]}",
-                              srcset: ["#{@speakers_avatar_url[4].second} 2x"],
-                              class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                %>
+                      alt: "picture profile of #{@speakers_avatar_url[4]}",
+                      srcset: ["#{@speakers_avatar_url[4].second} 2x"],
+                      class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
                 <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
               </div>
             </div>
@@ -79,4 +74,3 @@
     </div>
   </div>
 </main>
-

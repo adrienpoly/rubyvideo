@@ -76,7 +76,7 @@ organisations.each do |organisation|
         SpeakerTalk.create!(speaker: speaker, talk: talk)
       end
     rescue ActiveRecord::RecordInvalid => e
-      puts "#{talk.title} is duplicated"
+      puts "#{talk.title} is duplicated #{e.message}"
     end
   end
 end

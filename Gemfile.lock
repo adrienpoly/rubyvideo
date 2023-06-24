@@ -111,6 +111,13 @@ GEM
     ast (2.4.2)
     authentication-zero (2.16.29)
     bcrypt (3.1.18)
+    better_html (2.0.1)
+      actionview (>= 6.0)
+      activesupport (>= 6.0)
+      ast (~> 2.0)
+      erubi (~> 1.4)
+      parser (>= 2.4)
+      smart_properties
     bindex (0.8.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
@@ -142,6 +149,13 @@ GEM
       dotenv (= 2.8.1)
       railties (>= 3.2)
     dry-cli (1.0.0)
+    erb_lint (0.4.0)
+      activesupport
+      better_html (>= 2.0.1)
+      parser (>= 2.7.1.4)
+      rainbow
+      rubocop
+      smart_properties
     error_highlight (0.5.1)
     erubi (1.12.0)
     globalid (1.1.0)
@@ -271,6 +285,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    smart_properties (1.17.0)
     sorbet-runtime (0.5.10820)
     sqlite3 (1.6.2-aarch64-linux)
     sqlite3 (1.6.2-arm64-darwin)
@@ -347,6 +362,7 @@ DEPENDENCIES
   debug
   dockerfile-rails (>= 1.2)
   dotenv-rails
+  erb_lint (~> 0.4.0)
   error_highlight (>= 0.4.0)
   groupdate (~> 6.2)
   inline_svg (~> 1.9)

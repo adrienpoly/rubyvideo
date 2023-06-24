@@ -66,6 +66,7 @@ group :development do
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
   gem "ruby-lsp", "~> 0.5.1", require: false
   gem "standardrb", "~> 1.0"
+  gem "erb_lint", "~> 0.4.0"
   gem "authentication-zero", "~> 2.16"
 end
 

@@ -1,22 +1,21 @@
 <%= content_tag :div, id: dom_id(talk) do %>
 
   <div <%= tag.attributes(
-            class: "aspect-video banner-img card-horizontal-img relative",
-            style: "view-transition-name: #{dom_id(talk, :image)}",
-            data: {
-              controller: "video-player",
-              video_player_poster_value: talk.thumbnail_lg,
-              video_player_provider_value: "youtube",
-              video_player_src_value: talk.video_id
-            }
-          )%>>
+             class: "aspect-video banner-img card-horizontal-img relative",
+             style: "view-transition-name: #{dom_id(talk, :image)}",
+             data: {
+               controller: "video-player",
+               video_player_poster_value: talk.thumbnail_lg,
+               video_player_provider_value: "youtube",
+               video_player_src_value: talk.video_id
+             }
+           ) %>>
 
     <%= content_tag :div, "",
-            class: "image",
-            id: dom_id(talk, :youtube),
-            data: { video_player_target: "player",
-                    youtube_id: talk.video_id
-                  } %>
+          class: "image",
+          id: dom_id(talk, :youtube),
+          data: {video_player_target: "player",
+                 youtube_id: talk.video_id} %>
   </div>
 
   <div class="p-4 flex flex-col gap-4">
@@ -31,7 +30,7 @@
 
     <% if action_name != "show" %>
       <%= link_to "Show this talk", talk, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-      <%= link_to 'Edit this talk', edit_talk_path(talk), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+      <%= link_to "Edit this talk", edit_talk_path(talk), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
     <% end %>
   </div>
 <% end %>

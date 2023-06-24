@@ -2,23 +2,21 @@
 <div class="max-w-sm bg-white" id="<%= dom_id talk %>">
   <%= link_to talk_path(talk, speaker_slug: local_assigns.fetch(:speaker_slug, nil)), class: "flex aspect-video" do %>
     <%= image_tag talk.thumbnail_sm,
-                  srcset: ["#{talk.thumbnail_lg} 2x"],
-                  id: dom_id(talk),
-                  height: 174,
-                  width: 310,
-                  alt: "talk by #{talk.speakers.join(", ")}: #{talk.title}",
-                  style: "view-transition-name: #{dom_id(talk, :image)}",
-                  class: "rounded-lg w-full object-cover"
-    %>
+          srcset: ["#{talk.thumbnail_lg} 2x"],
+          id: dom_id(talk),
+          height: 174,
+          width: 310,
+          alt: "talk by #{talk.speakers.join(", ")}: #{talk.title}",
+          style: "view-transition-name: #{dom_id(talk, :image)}",
+          class: "rounded-lg w-full object-cover" %>
   <% end %>
   <div class="py-4">
     <div class="flex items-start gap-2">
       <% if talk.speakers.last&.github&.present? && local_assigns.fetch(:picture_profile, true) %>
         <%= image_tag talk.speakers.last.github_avatar_url(size: 64),
-                      class: "rounded-full w-8 h-8 mr-2",
-                      alt: "Github picture profile of #{talk.speakers.last.github}",
-                      loading: :lazy
-        %>
+              class: "rounded-full w-8 h-8 mr-2",
+              alt: "Github picture profile of #{talk.speakers.last.github}",
+              loading: :lazy %>
       <% end %>
       <div>
         <%= link_to talk do %>
