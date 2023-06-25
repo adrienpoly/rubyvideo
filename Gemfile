@@ -100,11 +100,8 @@ gem "meilisearch-rails"
 gem "ahoy_matey", "~> 4.2"
 gem "vite_rails"
 gem "meta-tags", "~> 2.18"
-
 gem "groupdate", "~> 6.2"
-
 gem "appsignal", "~> 3.4"
-
 gem "chartkick", "~> 5.0"
 
 gem "rails_autolink", "~> 1.1"
@@ -126,3 +123,4 @@ gem "ruby-openai"
 gem "json-repair", "~> 0.2.0"
 
 gem "redcarpet", "~> 3.6"
+gem "country_select", "~> 8.0"
