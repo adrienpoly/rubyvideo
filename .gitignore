@@ -35,7 +35,7 @@
 
 /node_modules
 
-/script
+/script_tmp
 .env
 .byebug_history
 
@@ -47,6 +47,8 @@
 
 /data.ms
 /data_tmp
+/data_preparation/**/*
+!/data_preparation/organisations.yml
 
 /config/credentials/production.key
 
