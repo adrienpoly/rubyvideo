@@ -25,7 +25,6 @@ class TalksController < ApplicationController
     set_meta_tags(@talk)
   end
 
-
   # GET /talks/1/edit
   def edit
   end
