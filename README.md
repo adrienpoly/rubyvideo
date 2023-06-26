@@ -66,7 +66,7 @@ The CI performs 3 checks:
 - standardrb
 - standard (js)
 
-Before commiting your code you can run `bin/lint` to detect and potentially autocorrect lint errors.
+Before committing your code you can run `bin/lint` to detect and potentially autocorrect lint errors.
 
 To follow Tailwind CSS's recommended order of classes, you can use [Prettier](https://prettier.io/) along with the [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss), both of which are included as devDependencies. This formating is not yet enforced by the CI.
 
