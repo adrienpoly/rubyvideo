@@ -9,10 +9,7 @@ module Youtube
 
       response = all_items(path, query: query)
 
-      if response.empty?
-        puts "Error: No video found with the given ID"
-        return nil
-      end
+      return unless response.present?
 
       {
         view_count: response.first["statistics"]["viewCount"],

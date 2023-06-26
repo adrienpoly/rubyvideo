@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://youtube.googleapis.com/youtube/v3/videos?id=invalid_video_id&key=AIzaSyB7doZTY6XO7KZCsmTG6DyLXHoPaLh9unE&maxResults=50&part=statistics
+    uri: https://youtube.googleapis.com/youtube/v3/videos?id=invalid_video_id&key=AIzaSyCsHNWxDeHnVOjgX3qg-lUNwcM_E8gUREo&maxResults=50&part=statistics
     body:
       encoding: US-ASCII
       string: ''
@@ -25,7 +25,7 @@ http_interactions:
       - Referer
       - X-Origin
       Date:
-      - Thu, 22 Jun 2023 20:44:10 GMT
+      - Mon, 26 Jun 2023 21:14:19 GMT
       Server:
       - scaffolding on HTTPServer2
       Cache-Control:
@@ -52,5 +52,5 @@ http_interactions:
             "resultsPerPage": 0
           }
         }
-  recorded_at: Thu, 22 Jun 2023 20:44:09 GMT
+  recorded_at: Mon, 26 Jun 2023 21:14:18 GMT
 recorded_with: VCR 6.1.0
