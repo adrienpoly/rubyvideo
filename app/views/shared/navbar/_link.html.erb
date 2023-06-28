@@ -1,4 +1,5 @@
-<%= content_tag :li, class: class_names(active: current_page?(path)) do %>
+<% active = current_page?(path) %>
+<%= content_tag :li, class: class_names(active: active) do %>
   <%= link_to link_title, path %>
-  <div></div>
+  <%= content_tag :div, "", data: {turn_exit: !active.to_s, turn_enter: active.to_s} %>
 <% end %>
