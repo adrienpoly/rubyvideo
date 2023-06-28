@@ -1,7 +1,7 @@
 class TalksController < ApplicationController
   include Pagy::Backend
   skip_before_action :authenticate_user!
-  before_action :set_talk, only: %i[show edit update destroy]
+  before_action :set_talk, only: %i[show edit update]
 
   # GET /talks
   def index
@@ -28,17 +28,6 @@ class TalksController < ApplicationController
   def edit
   end
 
-  # POST /talks
-  def create
-    @talk = Talk.new(talk_params)
-
-    if @talk.save
-      redirect_to @talk, notice: "Talk was successfully created."
-    else
-      render :new, status: :unprocessable_entity
-    end
-  end
-
   # PATCH/PUT /talks/1
   def update
     suggestion = @talk.create_suggestion_from(params: talk_params, user: Current.user)
@@ -47,12 +36,6 @@ class TalksController < ApplicationController
     else
       render :edit, status: :unprocessable_entity
     end
-  end
-
-  # DELETE /talks/1
-  def destroy
-    @talk.destroy!
-    redirect_to talks_url, notice: "Talk was successfully destroyed.", status: :see_other
   end
 
   private
