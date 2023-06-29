@@ -30,7 +30,7 @@ class Speaker::EnhanceProfileJobTest < ActiveJob::TestCase
     VCR.use_cassette("speaker/enhance_profile_job_test_search_design") do
       @speaker = Speaker.create!(name: "Design")
       Speaker::EnhanceProfileJob.new.perform(@speaker)
-      assert_equal "design", @speaker.reload.github
+      assert_equal "Design-and-Code", @speaker.reload.github
     end
   end
 end

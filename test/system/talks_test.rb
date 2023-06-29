@@ -10,38 +10,15 @@ class TalksTest < ApplicationSystemTestCase
     assert_selector "h1", text: "Talks"
   end
 
-  test "should create talk" do
-    visit talks_url
-    click_on "New talk"
-
-    fill_in "Description", with: @talk.description
-    fill_in "Slug", with: @talk.slug
-    fill_in "Title", with: @talk.title
-    fill_in "Year", with: @talk.year
-    click_on "Create Talk"
-
-    assert_text "Talk was successfully created"
-    click_on "Back"
-  end
-
   test "should update Talk" do
     visit talk_url(@talk)
-    click_on "Edit this talk", match: :first
+    click_on "Edit", match: :first
 
     fill_in "Description", with: @talk.description
-    fill_in "Slug", with: @talk.slug
     fill_in "Title", with: @talk.title
     fill_in "Year", with: @talk.year
-    click_on "Update Talk"
+    click_on "Suggest modifications"
 
-    assert_text "Talk was successfully updated"
-    click_on "Back"
-  end
-
-  test "should destroy Talk" do
-    visit talk_url(@talk)
-    click_on "Destroy this talk", match: :first
-
-    assert_text "Talk was successfully destroyed"
+    assert_text "Your suggestion was successfully created and will be reviewed soon."
   end
 end
