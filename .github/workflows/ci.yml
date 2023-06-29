@@ -41,6 +41,8 @@ jobs:
         run: bundle exec erblint --lint-all
   test:
     runs-on: ubuntu-latest
+    env:
+      RAILS_ENV: test
     steps:
       - uses: actions/checkout@v3
 
@@ -68,8 +70,6 @@ jobs:
           bin/rails db:schema:load
 
       - name: Run tests
-        env:
-          RAILS_ENV: test
         run: |
           bin/rails test --fail-fast
           bin/rails test:system
