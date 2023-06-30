@@ -235,6 +235,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (3.0.8)
+    rack-mini-profiler (3.1.0)
+      rack (>= 1.2.0)
     rack-proxy (0.7.6)
       rack
     rack-session (2.0.0)
@@ -374,6 +376,7 @@ DEPENDENCIES
   pagy (~> 6.0)
   propshaft
   puma (>= 5.0)
+  rack-mini-profiler
   rails!
   redis (>= 4.0.1)
   ruby-lsp (~> 0.5.1)
