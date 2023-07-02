@@ -27,9 +27,16 @@
               <%#= link_to talk.event.name, talk.event %>
               <%= content_tag :div, talk.event.name %>
             <% end %>
-            <% talk.speakers.each do |speaker| %>
+
+            <strong class="mt-5">Speakers:</strong>
+            <% talk.speakers.first(10).each do |speaker| %>
               <%= link_to speaker.name, speaker_path(speaker) %>
             <% end %>
+            <div class="my-2">
+              <% if talk.speakers.count > 10 %>
+                <span class="text-red">and <%= talk.speakers.count - 10 %> more speakers</span>
+              <% end %>
+            </div>
         </div>
       </div>
     </div>
