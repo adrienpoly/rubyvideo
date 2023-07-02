@@ -29,12 +29,12 @@
             <% end %>
 
             <strong class="mt-5">Speakers:</strong>
-            <% talk.speakers.first(10).each do |speaker| %>
+            <% talk.speakers.first(5).each do |speaker| %>
               <%= link_to speaker.name, speaker_path(speaker) %>
             <% end %>
             <div class="my-2">
-              <% if talk.speakers.count > 10 %>
-                <span class="text-red">and <%= talk.speakers.count - 10 %> more speakers</span>
+              <% if talk.speakers.count > 5 %>
+                <span class="text-red">and <%= talk.speakers.count - 5 %> more speakers</span>
               <% end %>
             </div>
         </div>
