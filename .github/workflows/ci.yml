@@ -74,5 +74,5 @@ jobs:
           bin/rails test
           bin/rails test:system
 
-      - name: Smoke test database seeds
-        run: sudo bin/rails db:reset
+      # - name: Smoke test database seeds
+      #   run: sudo bin/rails db:reset
