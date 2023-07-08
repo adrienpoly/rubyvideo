@@ -75,4 +75,4 @@ jobs:
           bin/rails test:system
 
       - name: Smoke test database seeds
-        run: bin/rails db:reset
+        run: sudo bin/rails db:reset
