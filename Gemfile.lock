@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 56c784d808a9256f57728840fee931206ea1915b
+  revision: a5fc471b3f4bbd02e6be38dae023526a49e7d049
   branch: main
   specs:
     actioncable (7.1.0.alpha)
@@ -59,7 +59,6 @@ GIT
     activerecord (7.1.0.alpha)
       activemodel (= 7.1.0.alpha)
       activesupport (= 7.1.0.alpha)
-      timeout (>= 0.4.0)
     activestorage (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
       activejob (= 7.1.0.alpha)
@@ -107,12 +106,12 @@ GEM
     annotate (3.2.0)
       activerecord (>= 3.2, < 8.0)
       rake (>= 10.4, < 14.0)
-    appsignal (3.4.6)
+    appsignal (3.4.5)
       rack
     ast (2.4.2)
-    authentication-zero (2.16.35)
+    authentication-zero (2.16.33)
     bcrypt (3.1.19)
-    better_html (2.0.2)
+    better_html (2.0.1)
       actionview (>= 6.0)
       activesupport (>= 6.0)
       ast (~> 2.0)
@@ -143,7 +142,7 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     device_detector (1.1.0)
-    dockerfile-rails (1.5.1)
+    dockerfile-rails (1.5.0)
       rails
     dotenv (2.8.1)
     dotenv-rails (2.8.1)
@@ -161,8 +160,8 @@ GEM
     erubi (1.12.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
-    groupdate (6.3.0)
-      activesupport (>= 6.1)
+    groupdate (6.2.1)
+      activesupport (>= 5.2)
     hashdiff (1.0.1)
     httparty (0.21.0)
       mini_mime (>= 1.0.0)
@@ -177,6 +176,7 @@ GEM
       reline (>= 0.3.0)
     json (2.6.3)
     language_server-protocol (3.17.0.3)
+    lint_roller (1.0.0)
     litestack (0.2.3)
       oj
       sqlite3
@@ -212,7 +212,11 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.15.3-x86_64-darwin)
+    nokogiri (1.15.3-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.15.3-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.15.3-x86_64-linux)
       racc (~> 1.4)
     oj (3.15.0)
     pagy (6.0.4)
@@ -256,12 +260,11 @@ GEM
     redis-client (0.14.1)
       connection_pool
     regexp_parser (2.8.1)
-    reline (0.3.6)
+    reline (0.3.5)
       io-console (~> 0.5)
     rexml (3.2.5)
-    rubocop (1.54.1)
+    rubocop (1.52.1)
       json (~> 2.3)
-      language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
       parser (>= 3.2.2.3)
       rainbow (>= 2.2.2, < 4.0)
@@ -272,6 +275,9 @@ GEM
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.29.0)
       parser (>= 3.2.1.0)
+    rubocop-performance (1.18.0)
+      rubocop (>= 1.7.0, < 2.0)
+      rubocop-ast (>= 0.4.0)
     ruby-lsp (0.5.1)
       language_server-protocol (~> 3.17.0)
       sorbet-runtime
@@ -284,10 +290,21 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     smart_properties (1.17.0)
-    sorbet-runtime (0.5.10908)
-    sqlite3 (1.6.3-x86_64-darwin)
-    standard (0.0.36.1)
-      rubocop (> 0.63)
+    sorbet-runtime (0.5.10888)
+    sqlite3 (1.6.3-aarch64-linux)
+    sqlite3 (1.6.3-arm64-darwin)
+    sqlite3 (1.6.3-x86_64-linux)
+    standard (1.29.0)
+      language_server-protocol (~> 3.17.0.2)
+      lint_roller (~> 1.0)
+      rubocop (~> 1.52.0)
+      standard-custom (~> 1.0.0)
+      standard-performance (~> 1.1.0)
+    standard-custom (1.0.1)
+      lint_roller (~> 1.0)
+    standard-performance (1.1.0)
+      lint_roller (~> 1.0)
+      rubocop-performance (~> 1.18.0)
     standardrb (1.0.1)
       standard
     syntax_tree (6.1.1)
@@ -301,7 +318,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.4.2)
-    uri (0.12.2)
+    uri (0.12.1)
     vcr (6.2.0)
     vite_rails (3.0.15)
       railties (>= 5.1, < 8)
@@ -333,7 +350,9 @@ GEM
     zeitwerk (2.6.8)
 
 PLATFORMS
-  x86_64-darwin-19
+  aarch64-linux
+  arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   ahoy_matey (~> 4.2)
