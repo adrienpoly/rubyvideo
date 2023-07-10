@@ -1,6 +1,6 @@
 class EventsController < ApplicationController
   include Pagy::Backend
-  skip_before_action :authenticate_user!, only: %i[index show]
+  skip_before_action :authenticate_user!, only: %i[index show update]
   before_action :set_event, only: %i[show edit update]
 
   # GET /events
@@ -25,8 +25,10 @@ class EventsController < ApplicationController
 
   # PATCH/PUT /events/1
   def update
-    if @event.update(event_params)
-      redirect_to @event, notice: "Event was successfully updated."
+    suggestion = @event.create_suggestion_from(params: event_params, user: Current.user)
+
+    if suggestion.persisted?
+      redirect_to event_path(@event), notice: suggestion.notice
     else
       render :edit, status: :unprocessable_entity
     end
@@ -36,11 +38,11 @@ class EventsController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_event
-    @event = Event.find_by(slug: params[:slug])
+    @event = Event.find_by!(slug: params[:slug])
   end
 
   # Only allow a list of trusted parameters through.
   def event_params
-    params.require(:event).permit(:name, :description, :website, :kind, :frequency)
+    params.require(:event).permit(:name, :city, :country_code)
   end
 end

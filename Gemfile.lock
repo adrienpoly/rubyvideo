@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 48e17e5ce75a02a331e6b48769d9c75243269696
+  revision: a5fc471b3f4bbd02e6be38dae023526a49e7d049
   branch: main
   specs:
     actioncable (7.1.0.alpha)
@@ -172,7 +172,7 @@ GEM
       activesupport (>= 3.0)
       nokogiri (>= 1.6)
     io-console (0.6.0)
-    irb (1.7.0)
+    irb (1.7.1)
       reline (>= 0.3.0)
     json (2.6.3)
     language_server-protocol (3.17.0.3)
@@ -212,13 +212,17 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.15.2-aarch64-linux)
+    nokogiri (1.15.3-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.15.2-arm64-darwin)
+    nokogiri (1.15.3-arm64-darwin)
       racc (~> 1.4)
+<<<<<<< HEAD
     nokogiri (1.15.2-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.15.2-x86_64-linux)
+=======
+    nokogiri (1.15.3-x86_64-linux)
+>>>>>>> main
       racc (~> 1.4)
     oj (3.15.0)
     pagy (6.0.4)
@@ -237,6 +241,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (3.0.8)
+    rack-mini-profiler (3.1.0)
+      rack (>= 1.2.0)
     rack-proxy (0.7.6)
       rack
     rack-session (2.0.0)
@@ -246,8 +252,9 @@ GEM
     rackup (2.1.0)
       rack (>= 3)
       webrick (~> 1.8)
-    rails-dom-testing (2.0.3)
-      activesupport (>= 4.2.0)
+    rails-dom-testing (2.1.1)
+      activesupport (>= 5.0.0)
+      minitest
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
@@ -378,6 +385,7 @@ DEPENDENCIES
   pagy (~> 6.0)
   propshaft
   puma (>= 5.0)
+  rack-mini-profiler
   rails!
   redis (>= 4.0.1)
   ruby-lsp (~> 0.5.1)
