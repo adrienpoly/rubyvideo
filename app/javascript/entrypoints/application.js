@@ -17,7 +17,6 @@ import '~/controllers'
 window.Turbo = Turbo
 
 // Page transitions
-Turn.config.experimental.viewTransitions = true
 Turn.start()
 
 document.addEventListener('turbo:before-frame-render', (event) => {
