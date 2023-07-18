@@ -1,5 +1,5 @@
 ---
-- title: RailsConf 2023 - Functional Patterns in Ruby by John Crepezzi
+- title: Functional Patterns in Ruby
   raw_title: RailsConf 2023 - Functional Patterns in Ruby by John Crepezzi
   speakers:
     - John Crepezzi
@@ -17,7 +17,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/3ndcqh9fTGA/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: 3ndcqh9fTGA
-- title: RailsConf 2023 - Who Wants to be a Ruby Engineer? by Drew Bragg
+- title: Who Wants to be a Ruby Engineer?
   raw_title: RailsConf 2023 - Who Wants to be a Ruby Engineer? by Drew Bragg
   speakers:
     - Drew Bragg
@@ -33,8 +33,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/4VT0aDEDd28/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: 4VT0aDEDd28
-- title: RailsConf 2023 - Building an offline experience with a Rails-powered PWA
-    by Alicia Rojas
+- title: Building an offline experience with a Rails-powered PWA
   raw_title: RailsConf 2023 - Building an offline experience with a Rails-powered
     PWA by Alicia Rojas
   speakers:
@@ -51,7 +50,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/4cQuxQdWkPE/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: 4cQuxQdWkPE
-- title: RailsConf 2023 - Accessible by default by Joel Hawksley
+- title: Accessible
   raw_title: RailsConf 2023 - Accessible by default by Joel Hawksley
   speakers:
     - Joel Hawksley
@@ -67,8 +66,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/4j2zlvE_Yj8/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: 4j2zlvE_Yj8
-- title: RailsConf 2023 - ActiveRecord::Encryption; Stop Hackers from... by Matthew
-    Langlois, Kylie Stradley
+- title: ActiveRecord::Encryption; Stop Hackers from...
   raw_title: RailsConf 2023 - ActiveRecord::Encryption; Stop Hackers from... by Matthew
     Langlois, Kylie Stradley
   speakers:
@@ -85,8 +83,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/4mZNP_Dgi2w/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: 4mZNP_Dgi2w
-- title: RailsConf 2023 - Applying microservices patterns to a modular monolith by
-    Guillermo Aguirre
+- title: Applying microservices patterns to a modular monolith
   raw_title: RailsConf 2023 - Applying microservices patterns to a modular monolith
     by Guillermo Aguirre
   speakers:
@@ -102,8 +99,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/4zrQAJ0RlI4/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: 4zrQAJ0RlI4
-- title: 'RailsConf 2023 - Bridging the Gap: Creating Trust Between Non-Technical...
-    by Kevin Gorham'
+- title: 'Bridging the Gap: Creating Trust Between Non-Technical...'
   raw_title: 'RailsConf 2023 - Bridging the Gap: Creating Trust Between Non-Technical...
     by Kevin Gorham'
   speakers:
@@ -119,8 +115,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/5gSRKyuO7qY/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: 5gSRKyuO7qY
-- title: 'RailsConf 2023 - Forecasting the Future: An Introduction to Machine Learning
-    for... by Landon Gray'
+- title: 'Forecasting the Future: An Introduction to Machine Learning for...'
   raw_title: 'RailsConf 2023 - Forecasting the Future: An Introduction to Machine
     Learning for... by Landon Gray'
   speakers:
@@ -142,7 +137,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/656z7Hu0HtY/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: 656z7Hu0HtY
-- title: RailsConf 2023 -  The End of Legacy Code by Daniel Huss
+- title: The End of Legacy Code
   raw_title: RailsConf 2023 -  The End of Legacy Code by Daniel Huss
   speakers:
     - Daniel Huss
@@ -159,7 +154,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/6msn5oGT7Q8/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: 6msn5oGT7Q8
-- title: RailsConf 2023 - Demystifying the Unionizing Process by Colin Fleming
+- title: Demystifying the Unionizing Process
   raw_title: RailsConf 2023 - Demystifying the Unionizing Process by Colin Fleming
   speakers:
     - Colin Fleming
@@ -174,7 +169,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/8qSmTXFG2Pc/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: 8qSmTXFG2Pc
-- title: RailsConf 2023 - How to Upstream Your Code to Rails by Hartley McGuire
+- title: How to Upstream Your Code to Rails
   raw_title: RailsConf 2023 - How to Upstream Your Code to Rails by Hartley McGuire
   speakers:
     - Hartley McGuire
@@ -191,8 +186,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/Ai64DuHt4CU/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: Ai64DuHt4CU
-- title: RailsConf 2023 - A custom design pattern for building dynamic ActiveRecord
-    queries by Justin Daniel
+- title: A custom design pattern for building dynamic ActiveRecord queries
   raw_title: RailsConf 2023 - A custom design pattern for building dynamic ActiveRecord
     queries by Justin Daniel
   speakers:
@@ -212,7 +206,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/CWqISNM1RfY/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: CWqISNM1RfY
-- title: RailsConf 2023 - A Picture Is Worth a 1000 Lines of Code by Rich Steinmetz
+- title: A Picture Is Worth a 1000 Lines of Code
   raw_title: RailsConf 2023 - A Picture Is Worth a 1000 Lines of Code by Rich Steinmetz
   speakers:
     - Rich Steinmetz
@@ -231,7 +225,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/ChsqAlhnjsI/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: ChsqAlhnjsI
-- title: 'RailsConf 2023 - Rails on Ruby: How Ruby Makes Rails Great by Noel Rappin'
+- title: 'Rails on Ruby: How Ruby Makes Rails Great'
   raw_title: 'RailsConf 2023 - Rails on Ruby: How Ruby Makes Rails Great by Noel Rappin'
   speakers:
     - Noel Rappin
@@ -249,10 +243,10 @@
   thumbnail_xl: https://i.ytimg.com/vi/EBFWAGkIFZM/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: EBFWAGkIFZM
-- title: 'RailsConf 2023 - Keynote: Aaron Patterson'
+- title: 'Keynote: Aaron Patterson'
   raw_title: 'RailsConf 2023 - Keynote: Aaron Patterson'
   speakers:
-    - 'RailsConf 2023 - Keynote: Aaron Patterson'
+    - 'Aaron Patterson'
   description: 'Keynote: Aaron Patterson'
   thumbnail_xs: https://i.ytimg.com/vi/LcDNedD-8mU/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/LcDNedD-8mU/mqdefault.jpg
@@ -261,8 +255,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/LcDNedD-8mU/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: LcDNedD-8mU
-- title: RailsConf 2023 - How Rails fosters a diverse and competitive tech ecosystem
-    in... by Jordan Trevino
+- title: How Rails fosters a diverse and competitive tech ecosystem in...
   raw_title: RailsConf 2023 - How Rails fosters a diverse and competitive tech ecosystem
     in... by Jordan Trevino
   speakers:
@@ -278,7 +271,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/Lo1rn0XCSDw/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: Lo1rn0XCSDw
-- title: RailsConf 2023 - An imposter's guide to growth in engineering by Ebun Segun
+- title: An imposter's guide to growth in engineering
   raw_title: RailsConf 2023 - An imposter's guide to growth in engineering by Ebun
     Segun
   speakers:
@@ -294,8 +287,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/MH8j1_uthhk/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: MH8j1_uthhk
-- title: 'RailsConf 2023 - Rails Performance Monitoring 101: A Primer for Junior Developers
-    by Rishi Jain'
+- title: 'Rails Performance Monitoring 101: A Primer for Junior Developers'
   raw_title: 'RailsConf 2023 - Rails Performance Monitoring 101: A Primer for Junior
     Developers by Rishi Jain'
   speakers:
@@ -311,8 +303,8 @@
   thumbnail_xl: https://i.ytimg.com/vi/OF5YhG-91ao/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: OF5YhG-91ao
-- title: 'RailsConf 2023 - Beyond CRUD: the PostgreSQL techniques your Rails app is
-    missing.  Shayon Mukherjee'
+- title: 'Beyond CRUD: the PostgreSQL techniques your Rails app is missing.  Shayon
+    Mukherjee'
   raw_title: 'RailsConf 2023 - Beyond CRUD: the PostgreSQL techniques your Rails app
     is missing.  Shayon Mukherjee'
   speakers:
@@ -335,8 +327,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/OQUTBLhP2QI/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: OQUTBLhP2QI
-- title: 'RailsConf 2023 - Faster websites: integrating next-gen images in your...
-    by JP Balarini'
+- title: 'Faster websites: integrating next-gen images in your...'
   raw_title: 'RailsConf 2023 - Faster websites: integrating next-gen images in your...
     by JP Balarini'
   speakers:
@@ -359,7 +350,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/Pdnpen6jPDM/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: Pdnpen6jPDM
-- title: RailsConf 2023 - Hotwiring My React Brain by Aji Slater
+- title: Hotwiring My React Brain
   raw_title: RailsConf 2023 - Hotwiring My React Brain by Aji Slater
   speakers:
     - Aji Slater
@@ -378,8 +369,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/PvAf3vZp1b8/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: PvAf3vZp1b8
-- title: RailsConf 2023 - Let's Standardize Rails, Once and For All! by Justin Searls,
-    Meagan Waller
+- title: Let's Standardize Rails, Once and For All!
   raw_title: RailsConf 2023 - Let's Standardize Rails, Once and For All! by Justin
     Searls, Meagan Waller
   speakers:
@@ -398,8 +388,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/QVilOzkLdlI/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: QVilOzkLdlI
-- title: RailsConf 2023 - Building a world class engineering organization — learning
-    from... by Shane Becker
+- title: Building a world class engineering organization — learning from...
   raw_title: RailsConf 2023 - Building a world class engineering organization — learning
     from... by Shane Becker
   speakers:
@@ -418,8 +407,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/R7JqiVPuKD8/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: R7JqiVPuKD8
-- title: 'RailsConf 2023 - Terms of Deployment: The Process of Evaluating Hatchbox,
-    Fly and... by Jordan Burke'
+- title: 'Terms of Deployment: The Process of Evaluating Hatchbox, Fly and...'
   raw_title: 'RailsConf 2023 - Terms of Deployment: The Process of Evaluating Hatchbox,
     Fly and... by Jordan Burke'
   speakers:
@@ -435,8 +423,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/RHv7hJGOUr0/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: RHv7hJGOUr0
-- title: 'RailsConf 2023 - Deep End Diving: Getting Up to Speed on New Codebases by
-    Allison Hill'
+- title: 'Deep End Diving: Getting Up to Speed on New Codebases'
   raw_title: 'RailsConf 2023 - Deep End Diving: Getting Up to Speed on New Codebases
     by Allison Hill'
   speakers:
@@ -456,8 +443,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/RxgHgzByNPs/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: RxgHgzByNPs
-- title: RailsConf 2023 - Exploring the Power of Turbo Streams and ActionCable by
-    Kevin Liebholz
+- title: Exploring the Power of Turbo Streams and ActionCable
   raw_title: RailsConf 2023 - Exploring the Power of Turbo Streams and ActionCable
     by Kevin Liebholz
   speakers:
@@ -476,7 +462,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/S--B3BGIk3M/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: S--B3BGIk3M
-- title: RailsConf 2023 - Hacking Your Emotional API by John Sawers
+- title: Hacking Your Emotional API
   raw_title: RailsConf 2023 - Hacking Your Emotional API by John Sawers
   speakers:
     - John Sawers
@@ -495,8 +481,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/UftGecVyvSk/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: UftGecVyvSk
-- title: RailsConf 2023 - Building a more effective, bidirectional mentor-... by Andy
-    Andrea, William Frey
+- title: Building a more effective, bidirectional mentor-...
   raw_title: RailsConf 2023 - Building a more effective, bidirectional mentor-...
     by Andy Andrea, William Frey
   speakers:
@@ -515,8 +500,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/Uv2I3ECnzuY/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: Uv2I3ECnzuY
-- title: RailsConf 2023 - 10x your teamwork through pair programming by Michael Milewski,
-    Selena Small
+- title: 10x your teamwork through pair programming
   raw_title: RailsConf 2023 - 10x your teamwork through pair programming by Michael
     Milewski, Selena Small
   speakers:
@@ -533,8 +517,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/W8y0odUwks8/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: W8y0odUwks8
-- title: 'RailsConf 2023 -  Keynote: Investing in the Ruby community by Rafael Mendonça
-    França'
+- title: 'Keynote: Investing in the Ruby community'
   raw_title: 'RailsConf 2023 -  Keynote: Investing in the Ruby community by Rafael
     Mendonça França'
   speakers:
@@ -549,7 +532,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/XohX3nlVIdc/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: XohX3nlVIdc
-- title: RailsConf 2023 - Using Rails Engines to Supercharge Your Team by Austin Story
+- title: Using Rails Engines to Supercharge Your Team
   raw_title: RailsConf 2023 - Using Rails Engines to Supercharge Your Team by Austin
     Story
   speakers:
@@ -567,7 +550,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/ZE9dKoBIr48/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: ZE9dKoBIr48
-- title: RailsConf 2023 - Go Passwordless with WebAuthn in Ruby by Braulio Martinez
+- title: Go Passwordless with WebAuthn in Ruby
   raw_title: RailsConf 2023 - Go Passwordless with WebAuthn in Ruby by Braulio Martinez
   speakers:
     - Braulio Martinez
@@ -586,7 +569,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/ZsGphXQ9kfw/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: ZsGphXQ9kfw
-- title: RailsConf 2023 - Strategies for saying no by Elle Meredith
+- title: Strategies for saying no
   raw_title: RailsConf 2023 - Strategies for saying no by Elle Meredith
   speakers:
     - Elle Meredith
@@ -605,7 +588,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/_2zWwwjnuUA/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: _2zWwwjnuUA
-- title: RailsConf 2023 - Building Ruby Head for your Rails App by Maple Ong
+- title: Building Ruby Head for your Rails App
   raw_title: RailsConf 2023 - Building Ruby Head for your Rails App by Maple Ong
   speakers:
     - Maple Ong
@@ -623,8 +606,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/bLTqSh3Jon0/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: bLTqSh3Jon0
-- title: 'RailsConf 2023 - Breaking the Grind: Crafting Your Ideal Software Engineering...
-    by Ole Michaelis'
+- title: 'Breaking the Grind: Crafting Your Ideal Software Engineering...'
   raw_title: 'RailsConf 2023 - Breaking the Grind: Crafting Your Ideal Software Engineering...
     by Ole Michaelis'
   speakers:
@@ -640,8 +622,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/bhagIbz3T0A/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: bhagIbz3T0A
-- title: RailsConf 2023 - A pragmatic and simple approach to fixing a memory leak
-    by Vincent Rolea
+- title: A pragmatic and simple approach to fixing a memory leak
   raw_title: RailsConf 2023 - A pragmatic and simple approach to fixing a memory leak
     by Vincent Rolea
   speakers:
@@ -662,8 +643,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/bvdWPGQ8cEA/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: bvdWPGQ8cEA
-- title: RailsConf 2023 - Don’t be afraid of the scary red error messages;... by Shana
-    Moore, Kait Sewell
+- title: Don’t be afraid of the scary red error messages;...
   raw_title: RailsConf 2023 - Don’t be afraid of the scary red error messages;...
     by Shana Moore, Kait Sewell
   speakers:
@@ -680,7 +660,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/eS7OMjZaGoQ/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: eS7OMjZaGoQ
-- title: RailsConf 2023 - Rails as a piece of birthday cake by Vladimir Dementyev
+- title: Rails as a piece of birthday cake
   raw_title: RailsConf 2023 - Rails as a piece of birthday cake by Vladimir Dementyev
   speakers:
     - Vladimir Dementyev
@@ -701,8 +681,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/fANjY7Hn_ig/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: fANjY7Hn_ig
-- title: 'RailsConf 2023 - Keynote: Leading through Change - When two cultures combine
-    by Shani Boston'
+- title: 'Keynote: Leading through Change - When two cultures combine'
   raw_title: 'RailsConf 2023 - Keynote: Leading through Change - When two cultures
     combine by Shani Boston'
   speakers:
@@ -716,7 +695,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/hYFdPM3dUbk/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: hYFdPM3dUbk
-- title: RailsConf 2023 - Off to the races by Kyle d'Oliveira
+- title: Off to the races
   raw_title: RailsConf 2023 - Off to the races by Kyle d'Oliveira
   speakers:
     - Kyle d'Oliveira
@@ -735,7 +714,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/jEDX3yswrcM/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: jEDX3yswrcM
-- title: RailsConf 2023 - Lightning Talks
+- title: Lightning Talks
   raw_title: RailsConf 2023 - Lightning Talks
   speakers:
     - RailsConf 2023 - Lightning Talks
@@ -748,7 +727,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/k55B4ydueGE/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: k55B4ydueGE
-- title: RailsConf 2023 - Offsite planning for Everyone by Allison McMillan
+- title: Offsite planning for Everyone
   raw_title: RailsConf 2023 - Offsite planning for Everyone by Allison McMillan
   speakers:
     - Allison McMillan
@@ -769,8 +748,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/ofqnAOiRwOw/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: ofqnAOiRwOw
-- title: RailsConf 2023 - Migrating Shopify’s Core Rails Monolith to Trilogy by Adrianna
-    Chang
+- title: Migrating Shopify’s Core Rails Monolith to Trilogy
   raw_title: RailsConf 2023 - Migrating Shopify’s Core Rails Monolith to Trilogy by
     Adrianna Chang
   speakers:
@@ -786,13 +764,13 @@
   thumbnail_xl: https://i.ytimg.com/vi/tHiIhZPKClI/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: tHiIhZPKClI
-- title: RailsConf 2023 - A Ruby Community Podcast Live! by Brittany Martin, Jason
-    Charnes & Paul Bahr
+- title: A Ruby Community Podcast Live!
   raw_title: RailsConf 2023 - A Ruby Community Podcast Live! by Brittany Martin, Jason
     Charnes & Paul Bahr
   speakers:
     - Brittany Martin
-    - Jason Charnes & Paul Bahr
+    - Jason Charnes
+    - Paul Bahr
   description: |-
     Join Brittany Martin (The Ruby on Rails Podcast), Jason Charnes (Remote Ruby) and Paul Bahr (Peachtree Sound) as they interview guests from the community on a live podcast.
 
@@ -809,7 +787,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/tNiqYktR8xo/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: tNiqYktR8xo
-- title: RailsConr 2023 - Forging Your Path to Senior Developer by Ifat Ribon
+- title: RailsConr 2023 - Forging Your Path to Senior Developer
   raw_title: RailsConr 2023 - Forging Your Path to Senior Developer by Ifat Ribon
   speakers:
     - Ifat Ribon
@@ -828,8 +806,8 @@
   thumbnail_xl: https://i.ytimg.com/vi/v0OLIzH3UAc/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: v0OLIzH3UAc
-- title: 'RailsConf 2023 - Building Workplaces for Caregivers: Supporting Parents
-    in Tech, Kinsey Durham Grace'
+- title: 'Building Workplaces for Caregivers: Supporting Parents in Tech, Kinsey Durham
+    Grace'
   raw_title: 'RailsConf 2023 - Building Workplaces for Caregivers: Supporting Parents
     in Tech, Kinsey Durham Grace'
   speakers:
@@ -849,8 +827,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/vMn4LGLNc4M/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: vMn4LGLNc4M
-- title: 'RailsConf 2023 - Merged PRs: An Untapped Resource for Practice and Exploration
-    by Thomas Countz'
+- title: 'Merged PRs: An Untapped Resource for Practice and Exploration'
   raw_title: 'RailsConf 2023 - Merged PRs: An Untapped Resource for Practice and Exploration
     by Thomas Countz'
   speakers:
@@ -870,8 +847,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/vdZbQHz4pfk/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: vdZbQHz4pfk
-- title: RailsConf 2023 - Teaching Capybara Testing - An Illustrated Adventure by  Brandon
-    Weaver
+- title: Teaching Capybara Testing - An Illustrated Adventure
   raw_title: RailsConf 2023 - Teaching Capybara Testing - An Illustrated Adventure
     by  Brandon Weaver
   speakers:
@@ -893,7 +869,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/wWPxLJJlnmU/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: wWPxLJJlnmU
-- title: RailsConf 2023 - The Math Every Programmer Needs by Joël Quenneville
+- title: The Math Every Programmer Needs
   raw_title: RailsConf 2023 - The Math Every Programmer Needs by Joël Quenneville
   speakers:
     - Joël Quenneville
@@ -908,7 +884,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/wzYYT40T8G8/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: wzYYT40T8G8
-- title: RailsConf 2023 - Zero downtime Rails upgrades by Ali Ibrahim
+- title: Zero downtime Rails upgrades
   raw_title: RailsConf 2023 - Zero downtime Rails upgrades by Ali Ibrahim
   speakers:
     - Ali Ibrahim
@@ -929,3 +905,140 @@
   thumbnail_xl: https://i.ytimg.com/vi/zHK-quUz-5M/maxresdefault.jpg
   published_at: '2023-07-10'
   video_id: zHK-quUz-5M
+- title: Upgrading the Ruby Community
+  raw_title: RailsConf 2023 - Upgrading the Ruby Community by Pat Allan
+  speakers:
+    - Pat Allan
+  description: From MINASWAN to Rails Camps, conference guides to Ruby Together, there’s
+    a long history of the Ruby community being wonderfully welcoming, thoughtful,
+    fun and supportive. Let’s make it even better, and discuss ways to have a persistent,
+    positive impact in the wider tech industry and beyond.
+  thumbnail_xs: https://i.ytimg.com/vi/10evYV5qT7c/default.jpg
+  thumbnail_sm: https://i.ytimg.com/vi/10evYV5qT7c/mqdefault.jpg
+  thumbnail_md: https://i.ytimg.com/vi/10evYV5qT7c/hqdefault.jpg
+  thumbnail_lg: https://i.ytimg.com/vi/10evYV5qT7c/sddefault.jpg
+  thumbnail_xl: https://i.ytimg.com/vi/10evYV5qT7c/maxresdefault.jpg
+  published_at: '2023-07-10'
+  video_id: 10evYV5qT7c
+- title: Managing the Burnout Burndown
+  raw_title: RailsConf 2023 - Managing the Burnout Burndown by Anjuan Simmons
+  speakers:
+    - Anjuan Simmons
+  description: |-
+    In addition to managing backlogs and burndown charts, technology leaders have to follow an ever-changing software landscape, manage team dynamics, and navigate office politics. It’s no surprise that this leads to burnout. This talk will provide tools to help manage stress and reduce burnout.
+
+    Developers are, almost by definition, highly capable and strongly driven individuals. These traits are indispensable to success in creating working code, but they are also the very traits that makes developers susceptible to burn out. People who can get things done often find themselves overwhelmed by their to-do lists.
+
+    This talk will combine the understanding from the trenches of Anjuan Simmons (who has been a developer and engineering manager for more than 20 years) with the academic understanding of his wife, Dr. Aneika Simmons. Together, they will provide a framework for reducing burnout and consistently keeping stress levels in a managed state.
+  thumbnail_xs: https://i.ytimg.com/vi/BDnWcZobdrA/default.jpg
+  thumbnail_sm: https://i.ytimg.com/vi/BDnWcZobdrA/mqdefault.jpg
+  thumbnail_md: https://i.ytimg.com/vi/BDnWcZobdrA/hqdefault.jpg
+  thumbnail_lg: https://i.ytimg.com/vi/BDnWcZobdrA/sddefault.jpg
+  thumbnail_xl: https://i.ytimg.com/vi/BDnWcZobdrA/maxresdefault.jpg
+  published_at: '2023-07-10'
+  video_id: BDnWcZobdrA
+- title: Taylor’s Guide to Big Rewrites
+  raw_title: RailsConf 2023 - Taylor’s Guide to Big Rewrites by Andy Croll
+  speakers:
+    - Andy Croll
+  description: |-
+    Taylorism, is a system of management advocated by Fred W. Taylor. The task of management, as he saw it, is to find the best way for the worker to do the job, with proper tools and training, and to provide incentives for good performance.
+
+    There are certain things you’re meant to do in software projects and business. And certain things you’re not. A big rewrite of your app is one of the things you aren’t meant to do.
+
+    Except that’s what we did with a team of 4 engineers, over an 18 month period, successfully migrating 2,500 customer’s data.
+
+    How can we apply the learnings of Taylor, to a massive application rewrite? What did we do and what can you learn when you’re faced with a wild and woolly project? What about our business practises as well as our code helped us make a success of one of software’s shibboleths?
+  thumbnail_xs: https://i.ytimg.com/vi/G1QbH2QZX08/default.jpg
+  thumbnail_sm: https://i.ytimg.com/vi/G1QbH2QZX08/mqdefault.jpg
+  thumbnail_md: https://i.ytimg.com/vi/G1QbH2QZX08/hqdefault.jpg
+  thumbnail_lg: https://i.ytimg.com/vi/G1QbH2QZX08/sddefault.jpg
+  thumbnail_xl: https://i.ytimg.com/vi/G1QbH2QZX08/maxresdefault.jpg
+  published_at: '2023-07-10'
+  video_id: G1QbH2QZX08
+- title: How We Implemented Internal Salary Transparency ...
+  raw_title: RailsConf 2023 - How We Implemented Internal Salary Transparency ...
+    by  Hilary Stohs Krause
+  speakers:
+    - Hilary Stohs Krause
+  description: "How We Implemented Internal Salary Transparency (And Why It Matters)
+    by \nHilary Stohs-Krause\n\nMoney can be a prickly topic in the workplace, but
+    data shows it’s a conversation that many employees actively want started. Salary
+    transparency increases trust and job satisfaction, but getting there is easier
+    said than done. Here’s how we took the plunge, and what we learned along the way."
+  thumbnail_xs: https://i.ytimg.com/vi/MfGRm8Dm68g/default.jpg
+  thumbnail_sm: https://i.ytimg.com/vi/MfGRm8Dm68g/mqdefault.jpg
+  thumbnail_md: https://i.ytimg.com/vi/MfGRm8Dm68g/hqdefault.jpg
+  thumbnail_lg: https://i.ytimg.com/vi/MfGRm8Dm68g/sddefault.jpg
+  thumbnail_xl: https://i.ytimg.com/vi/MfGRm8Dm68g/maxresdefault.jpg
+  published_at: '2023-07-10'
+  video_id: MfGRm8Dm68g
+- title: Keynote
+  raw_title: RailsConf 2023 - Keynote by Eileen Uchitelle
+  speakers:
+    - Eileen Uchitelle
+  description: Keynote by Eileen Uchitelle
+  thumbnail_xs: https://i.ytimg.com/vi/TKulocPqV38/default.jpg
+  thumbnail_sm: https://i.ytimg.com/vi/TKulocPqV38/mqdefault.jpg
+  thumbnail_md: https://i.ytimg.com/vi/TKulocPqV38/hqdefault.jpg
+  thumbnail_lg: https://i.ytimg.com/vi/TKulocPqV38/sddefault.jpg
+  thumbnail_xl: https://i.ytimg.com/vi/TKulocPqV38/maxresdefault.jpg
+  published_at: '2023-07-10'
+  video_id: TKulocPqV38
+- title: 'Keynote: The Power of Improv: Unlocking Your Creative Potential as a..'
+  raw_title: 'RailsConf 2023 - Keynote: The Power of Improv: Unlocking Your Creative
+    Potential as a.. by Gary Ware'
+  speakers:
+    - Gary Ware
+  description: |-
+    Keynote: The Power of Improv: Unlocking Your Creative Potential as a Developer by Gary Ware
+
+    This interactive keynote will explore how improvisation can help you maximize your strengths as a developer. We'll discuss the key elements of improvisation and how they can be used in your day to day life. We will also do a few quick activities to allow you to practice in real time in a low-stakes environment. By the end of this session, you will have gained valuable insight into how embracing an improvisational mindset can supercharge your ability to be more creative, collaborate with others, and get more enjoyment from your career.
+  thumbnail_xs: https://i.ytimg.com/vi/g6wrSpFFgmQ/default.jpg
+  thumbnail_sm: https://i.ytimg.com/vi/g6wrSpFFgmQ/mqdefault.jpg
+  thumbnail_md: https://i.ytimg.com/vi/g6wrSpFFgmQ/hqdefault.jpg
+  thumbnail_lg: https://i.ytimg.com/vi/g6wrSpFFgmQ/sddefault.jpg
+  thumbnail_xl: https://i.ytimg.com/vi/g6wrSpFFgmQ/maxresdefault.jpg
+  published_at: '2023-07-10'
+  video_id: g6wrSpFFgmQ
+- title: Mentorship Panel - Shana Moore, John Sawers, Ebun Segun, Erik Guzman & Adam
+    Cuppy
+  raw_title: RailsConf 2023 - Mentorship Panel - Shana Moore, John Sawers, Ebun Segun,
+    Erik Guzman & Adam Cuppy
+  speakers:
+    - RailsConf 2023 - Mentorship Panel - Shana Moore
+    - John Sawers
+    - Ebun Segun
+    - Erik Guzman
+    - Adam Cuppy
+  description: Join us for a mentorship panel featuring four seasoned software developers
+    sharing their personal experiences as mentors and mentees. Attendees can expect
+    to gain insights on building mentor-mentee relationships and practical tips for
+    maximizing them while discovering the benefits of mentorship, how to approach
+    potential mentors, and effective communication strategies.
+  thumbnail_xs: https://i.ytimg.com/vi/lXhTh3BUuJE/default.jpg
+  thumbnail_sm: https://i.ytimg.com/vi/lXhTh3BUuJE/mqdefault.jpg
+  thumbnail_md: https://i.ytimg.com/vi/lXhTh3BUuJE/hqdefault.jpg
+  thumbnail_lg: https://i.ytimg.com/vi/lXhTh3BUuJE/sddefault.jpg
+  thumbnail_xl: https://i.ytimg.com/vi/lXhTh3BUuJE/maxresdefault.jpg
+  published_at: '2023-07-10'
+  video_id: lXhTh3BUuJE
+- title: Mentorship in Three Acts
+  raw_title: RailsConf 2023 - Mentorship in Three Acts by Adam Cuppy
+  speakers:
+    - Adam Cuppy
+  description: "\"Mentorship (ˈmɛntɔːˌʃɪp) Noun. a period during which a person receives
+    guidance from a mentor.\" Yeah, it seems clear enough.\n\nMore and more, teams
+    rely on mentorship to raise the skills of their under-experienced people. But
+    mentorship is not a catch-all solution and has its risks. Without training, poorly
+    structured mentorship can hurt the culture and stifle growth more than help. \n\nSo,
+    we need a model—a system. A process to lean into that makes it a helpful tool
+    and not a blunt hammer. This talk will cover the three stages of integrating a
+    mentorship program and how to help a hesitant team."
+  thumbnail_xs: https://i.ytimg.com/vi/nOhGMcjL0jk/default.jpg
+  thumbnail_sm: https://i.ytimg.com/vi/nOhGMcjL0jk/mqdefault.jpg
+  thumbnail_md: https://i.ytimg.com/vi/nOhGMcjL0jk/hqdefault.jpg
+  thumbnail_lg: https://i.ytimg.com/vi/nOhGMcjL0jk/sddefault.jpg
+  thumbnail_xl: https://i.ytimg.com/vi/nOhGMcjL0jk/maxresdefault.jpg
+  published_at: '2023-07-10'
+  video_id: nOhGMcjL0jk
