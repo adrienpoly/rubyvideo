@@ -10,13 +10,15 @@
 
 # open the yaml file in ../data/rails_conf_2021.yml
 
-if Rails.env.development?
-  SpeakerTalk.delete_all
-  Speaker.delete_all
-  Talk.delete_all
-  Event.delete_all
-  Organisation.delete_all
-end
+# scp root@91.107.208.207:/var/lib/docker/volumes/storage/_data/production_rubyvideo.sqlite3 /storage/backup/production_rubyvideo.sqlite3
+
+# if Rails.env.development?
+#   SpeakerTalk.delete_all
+#   Speaker.delete_all
+#   Talk.delete_all
+#   Event.delete_all
+#   Organisation.delete_all
+# end
 
 speakers = YAML.load_file("#{Rails.root}/data/speakers.yml")
 organisations = YAML.load_file("#{Rails.root}/data/organisations.yml")
@@ -71,9 +73,11 @@ organisations.each do |organisation|
         tlk.slug = talk_data["raw_title"].parameterize
       end
 
-      talk_data["speakers"]&.each do |speaker|
-        speaker = Speaker.find_or_create_by!(name: speaker.strip)
-        SpeakerTalk.create(speaker: speaker, talk: talk)
+      talk_data["speakers"]&.each do |speaker_name|
+        next if speaker_name.blank?
+
+        speaker = Speaker.find_by(slug: speaker_name.parameterize) || Speaker.find_or_create_by(name: speaker_name.strip)
+        SpeakerTalk.create(speaker: speaker, talk: talk) if speaker
       end
     rescue ActiveRecord::RecordInvalid => e
       puts "#{talk.title} is duplicated #{e.message}"
