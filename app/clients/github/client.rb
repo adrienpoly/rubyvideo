@@ -5,7 +5,7 @@ module Github
     private
 
     def token
-      ENV["GITHUB_TOKEN"]
+      ENV["RUBYVIDEO_GITHUB_TOKEN"]
     end
 
     def content_type
