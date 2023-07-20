@@ -73,7 +73,7 @@ organisations.each do |organisation|
 
       talk_data["speakers"]&.each do |speaker|
         speaker = Speaker.find_or_create_by!(name: speaker.strip)
-        SpeakerTalk.create!(speaker: speaker, talk: talk)
+        SpeakerTalk.create(speaker: speaker, talk: talk)
       end
     rescue ActiveRecord::RecordInvalid => e
       puts "#{talk.title} is duplicated #{e.message}"
