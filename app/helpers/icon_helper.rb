@@ -10,7 +10,7 @@ module IconHelper
   }
 
   def heroicon(icon_name, size: :md, **options)
-    classes = SIZE_CLASSES[size]
+    classes = class_names(SIZE_CLASSES[size], options[:class])
     inline_svg_tag "icons/heroicons/outline/#{icon_name.to_s.tr("_", "-")}.svg", class: classes
   end
 
