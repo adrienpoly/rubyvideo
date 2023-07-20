@@ -15,4 +15,6 @@ class SpeakerTalk < ApplicationRecord
   # associations
   belongs_to :speaker, counter_cache: :talks_count
   belongs_to :talk
+
+  validates :speaker_id, uniqueness: {scope: :talk_id}
 end
