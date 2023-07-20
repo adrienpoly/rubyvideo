@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_07_20_104208) do
+ActiveRecord::Schema[7.1].define(version: 2023_07_20_151537) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -102,7 +102,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_07_20_104208) do
     t.index ["user_id"], name: "index_sessions_on_user_id"
   end
 
-  create_table "speaker_talks", id: false, force: :cascade do |t|
+  create_table "speaker_talks", force: :cascade do |t|
     t.integer "speaker_id", null: false
     t.integer "talk_id", null: false
     t.datetime "created_at", null: false
