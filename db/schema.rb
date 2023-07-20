@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_06_22_202051) do
+ActiveRecord::Schema[7.1].define(version: 2023_07_20_104208) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -107,7 +107,7 @@ ActiveRecord::Schema[7.1].define(version: 2023_06_22_202051) do
     t.integer "talk_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["speaker_id", "talk_id"], name: "index_speaker_talks_on_speaker_id_and_talk_id"
+    t.index ["speaker_id", "talk_id"], name: "index_speaker_talks_on_speaker_id_and_talk_id", unique: true
   end
 
   create_table "speakers", force: :cascade do |t|
