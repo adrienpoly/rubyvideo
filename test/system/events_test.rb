@@ -10,6 +10,13 @@ class EventsTest < ApplicationSystemTestCase
     assert_selector "h1", text: "Events"
   end
 
+  test "visiting the show" do
+    visit event_url(@event)
+    assert_selector "h1", text: @event.name
+    assert_selector "#talks", count: 1
+    assert_selector "a", text: talks(:one).title
+  end
+
   # Currently this test fails for 2 reasons:
   # 1. The "Edit this event" button is on events_url
   # 2. 'Description', 'Frequency', 'Kind' and 'Website' are attributes of the event's organisation, not the even itself
