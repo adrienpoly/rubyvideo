@@ -8,7 +8,7 @@ VCR.configure do |c|
   c.cassette_library_dir = "test/vcr_cassettes"
   c.hook_into :webmock
   c.ignore_localhost = true
-  c.ignore_hosts "chromedriver.storage.googleapis.com"
+  c.ignore_hosts "chromedriver.storage.googleapis.com", "googlechromelabs.github.io", "edgedl.me.gvt1.com"
 end
 class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
