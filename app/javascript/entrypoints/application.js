@@ -1,6 +1,6 @@
 // Example: Load Rails libraries in Vite.
 //
-import * as Turbo from '@hotwired/turbo'
+import '@hotwired/turbo-rails'
 
 import Turn from '@domchristie/turn'
 
@@ -14,7 +14,6 @@ import Turn from '@domchristie/turn'
 import '../../assets/stylesheets/application.tailwind.css'
 
 import '~/controllers'
-window.Turbo = Turbo
 
 // Page transitions
 Turn.start()

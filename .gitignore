@@ -53,3 +53,7 @@
 /config/credentials/production.key
 
 test-run-report*
+
+# Ignore SQLite databases create by Litestack for action cable to be removed once we are able to move them to storage
+db/*.db
+db/*.db-*
