@@ -81,7 +81,7 @@ end
 
 gem "pagy", "~> 6.0"
 gem "dockerfile-rails", ">= 1.2", group: :development
-gem "litestack", "~> 0.2.3"
+gem "litestack"
 gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
 gem "meilisearch-rails", "~> 0.9.1"
