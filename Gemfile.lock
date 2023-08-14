@@ -418,7 +418,7 @@ DEPENDENCIES
   net-http (~> 0.3.2)
   pagy (~> 6.0)
   propshaft
-  puma (>= 5.0)
+  puma
   rack-mini-profiler
   rails (~> 7.1.0)
   rails-controller-testing
@@ -427,7 +427,6 @@ DEPENDENCIES
   ruby-lsp-rails
   selenium-webdriver
   sitemap_generator (~> 6.3)
-  sqlite3 (~> 1.4)
   standardrb (~> 1.0)
   turbo-rails
   tzinfo-data
