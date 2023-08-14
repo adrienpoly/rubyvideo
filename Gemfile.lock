@@ -98,7 +98,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.4)
+    addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
     ahoy_matey (4.2.1)
       activesupport (>= 5.2)
@@ -208,7 +208,7 @@ GEM
       meilisearch (~> 0.23.0)
     meta-tags (2.18.0)
       actionpack (>= 3.2.0, < 7.1)
-    mini_mime (1.1.2)
+    mini_mime (1.1.5)
     minitest (5.19.0)
     msgpack (1.7.1)
     multi_xml (0.6.0)
@@ -224,13 +224,13 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.15.3-aarch64-linux)
+    nokogiri (1.15.4-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.15.3-arm64-darwin)
+    nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.15.3-x86_64-darwin)
+    nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.15.3-x86_64-linux)
+    nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
     oj (3.15.1)
     pagy (6.0.4)
@@ -244,7 +244,7 @@ GEM
       activesupport (>= 7.0.0)
       rack
       railties (>= 7.0.0)
-    public_suffix (5.0.1)
+    public_suffix (5.0.3)
     puma (6.3.0)
       nio4r (~> 2.0)
     racc (1.7.1)
