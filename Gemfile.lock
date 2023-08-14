@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 27b12e9249572d267e9ebf9f64b5bb2c21070f0d
+  revision: c0980d30360149d0c77beb79850e047440c628bf
   branch: main
   specs:
     actioncable (7.1.0.alpha)
@@ -67,10 +67,13 @@ GIT
       activesupport (= 7.1.0.alpha)
       marcel (~> 1.0)
     activesupport (7.1.0.alpha)
+      base64
       concurrent-ruby (~> 1.0, >= 1.0.2)
       connection_pool (>= 2.2.5)
+      drb
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
+      mutex_m
       tzinfo (~> 2.0)
     rails (7.1.0.alpha)
       actioncable (= 7.1.0.alpha)
@@ -110,9 +113,10 @@ GEM
     appsignal (3.4.5)
       rack
     ast (2.4.2)
-    authentication-zero (2.16.33)
+    authentication-zero (2.16.36)
+    base64 (0.1.1)
     bcrypt (3.1.19)
-    better_html (2.0.1)
+    better_html (2.0.2)
       actionview (>= 6.0)
       activesupport (>= 6.0)
       ast (~> 2.0)
@@ -143,12 +147,14 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     device_detector (1.1.0)
-    dockerfile-rails (1.5.0)
+    dockerfile-rails (1.5.2)
       rails
     dotenv (2.8.1)
     dotenv-rails (2.8.1)
       dotenv (= 2.8.1)
       railties (>= 3.2)
+    drb (2.1.1)
+      ruby2_keywords
     dry-cli (1.0.0)
     erb_lint (0.4.0)
       activesupport
@@ -184,7 +190,7 @@ GEM
       reline (>= 0.3.6)
     json (2.6.3)
     language_server-protocol (3.17.0.3)
-    lint_roller (1.0.0)
+    lint_roller (1.1.0)
     litestack (0.3.0)
       erubi
       hanami-router
@@ -212,6 +218,7 @@ GEM
     minitest (5.19.0)
     msgpack (1.7.1)
     multi_xml (0.6.0)
+    mutex_m (0.1.2)
     net-http (0.3.2)
       uri
     net-imap (0.3.7)
@@ -249,7 +256,7 @@ GEM
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (3.0.8)
-    rack-mini-profiler (3.1.0)
+    rack-mini-profiler (3.1.1)
       rack (>= 1.2.0)
     rack-proxy (0.7.6)
       rack
@@ -293,6 +300,7 @@ GEM
       sorbet-runtime
       syntax_tree (>= 6.1.1, < 7)
     ruby-progressbar (1.13.0)
+    ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     safely_block (0.4.0)
     selenium-webdriver (4.11.0)
@@ -300,21 +308,22 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     smart_properties (1.17.0)
-    sorbet-runtime (0.5.10888)
+    sorbet-runtime (0.5.10962)
     sqlite3 (1.6.3-aarch64-linux)
     sqlite3 (1.6.3-arm64-darwin)
     sqlite3 (1.6.3-x86_64-darwin)
     sqlite3 (1.6.3-x86_64-linux)
-    standard (1.29.0)
+    standard (1.30.1)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
       rubocop (~> 1.52.0)
       standard-custom (~> 1.0.0)
       standard-performance (~> 1.1.0)
-    standard-custom (1.0.1)
+    standard-custom (1.0.2)
       lint_roller (~> 1.0)
-    standard-performance (1.1.0)
-      lint_roller (~> 1.0)
+      rubocop (~> 1.50)
+    standard-performance (1.1.2)
+      lint_roller (~> 1.1)
       rubocop-performance (~> 1.18.0)
     standardrb (1.0.1)
       standard
