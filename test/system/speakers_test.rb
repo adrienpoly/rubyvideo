@@ -21,4 +21,15 @@ class SpeakersTest < ApplicationSystemTestCase
 
     assert_text "Your suggestion was successfully created and will be reviewed soon."
   end
+
+  test "broadcast a speaker about partial" do
+    # ensure Turbo Stream broadcast is working with Litestack
+    visit speaker_url(@speaker)
+    wait_for_turbo_stream_connected(streamable: @speaker)
+
+    @speaker.update(bio: "New bio")
+    @speaker.broadcast_about
+
+    assert_text "New bio"
+  end
 end

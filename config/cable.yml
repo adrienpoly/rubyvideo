@@ -2,7 +2,7 @@ development:
   adapter: litecable
 
 test:
-  adapter: test
+  adapter: litecable
 
 production:
   adapter: litecable

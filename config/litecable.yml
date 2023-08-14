@@ -1,1 +1,4 @@
 path: "./storage/cable.db"
+
+test:
+  path: "./storage/cable.test.db"
