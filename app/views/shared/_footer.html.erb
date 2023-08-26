@@ -1,0 +1,23 @@
+<footer class="bg-white">
+  <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+    <div class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
+      <div class="pb-6">
+        <%= link_to "Status", "https://status.rubyvideo.dev/", target: "_blank", class: "link" %>
+      </div>
+      <div class="pb-6">
+        <%= link_to "Open analytics", analytics_dashboards_path, class: "link" %>
+      </div>
+      <div class="pb-6">
+        <%= link_to "Uses", uses_path, class: "link" %>
+      </div>
+    </div>
+    <div class="mt-6 text-center leading-5 text-gray flex items-center justify-center gap-1">
+      Made with
+      <%= heroicon :heart, variant: :solid, size: :sm, class: 'text-brand' %>
+      for the ruby community by
+      <%= link_to "@adrienpoly", "https://twitter.com/adrienpoly", class: "link" %>
+      and wonderful
+      <%= link_to "contributors", "https://github.com/adrienpoly/rubyvideo/graphs/contributors", class: "link" %>
+    </div>
+  </div>
+</footer>

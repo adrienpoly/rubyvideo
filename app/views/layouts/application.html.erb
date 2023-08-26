@@ -10,6 +10,7 @@
     <%= vite_client_tag %>
     <%= vite_javascript_tag "application" %>
     <%= vite_stylesheet_tag "application.css" %>
+    <%= yield :head %>
   </head>
 
   <body data-controller="view-transition-page-cleaner">
@@ -19,5 +20,6 @@
     <div class="min-h-screen">
       <%= yield %>
     </div>
+    <%= render "shared/footer" %>
   </body>
 </html>

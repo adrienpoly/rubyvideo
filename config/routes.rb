@@ -3,7 +3,7 @@
 
 Rails.application.routes.draw do
   # static pages
-  get "page/home"
+  get "uses", to: "page#uses"
 
   # authentication
   get "/auth/failure", to: "sessions/omniauth#failure"
