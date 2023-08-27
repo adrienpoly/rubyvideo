@@ -8,7 +8,7 @@ class Analytics::DashboardsController < ApplicationController
   end
 
   def daily_page_views
-    @daily_page_views = Rails.cache.fetch("daily_page_views", expires_in: Time.current.end_of_day - Time.current) do
+    @daily_page_views = Rails.cache.fetch("daily_page_views", expires_at: Time.current.end_of_day) do
       Ahoy::Event.where("date(time) BETWEEN ? AND ?", 60.days.ago.to_date, Date.yesterday).group_by_day(:time).count
     end
   end
