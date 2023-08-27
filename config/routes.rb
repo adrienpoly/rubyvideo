@@ -26,7 +26,10 @@ Rails.application.routes.draw do
 
   # resources
   namespace :analytics do
-    resource :dashboards, only: [:show]
+    resource :dashboards, only: [:show] do
+      get :daily_page_views
+      get :daily_visits
+    end
   end
   resources :talks, param: :slug, only: [:index, :show, :update, :edit]
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
