@@ -28,6 +28,7 @@ Rails.application.configure do
   config.consider_all_requests_local = true
   config.action_controller.perform_caching = false
   config.cache_store = :memory_store
+  # config.cache_store = :litecache, {path: "./storage/cache.test.db"}  when new version of litestack is released
 
   # Raise exceptions instead of rendering exception templates.
   config.action_dispatch.show_exceptions = false
