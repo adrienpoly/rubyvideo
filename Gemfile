@@ -73,6 +73,7 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
+  gem "rails-controller-testing"
   gem "selenium-webdriver"
   gem "vcr", "~> 6.1"
   gem "webmock"
@@ -81,6 +82,7 @@ end
 gem "pagy", "~> 6.0"
 gem "dockerfile-rails", ">= 1.2", group: :development
 gem "litestack"
+# gem "litestack", git: "git@github.com:oldmoe/litestack.git", branch: "master"
 gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
 gem "meilisearch-rails", "~> 0.9.1"
@@ -91,3 +93,5 @@ gem "meta-tags", "~> 2.18"
 gem "groupdate", "~> 6.2"
 
 gem "appsignal", "~> 3.4"
+
+gem "chartkick", "~> 5.0"

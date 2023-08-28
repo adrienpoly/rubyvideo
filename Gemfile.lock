@@ -139,6 +139,7 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
+    chartkick (5.0.2)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
     crack (0.4.5)
@@ -269,6 +270,10 @@ GEM
     rackup (2.1.0)
       rack (>= 3)
       webrick (~> 1.8)
+    rails-controller-testing (1.0.5)
+      actionpack (>= 5.0.1.rc1)
+      actionview (>= 5.0.1.rc1)
+      activesupport (>= 5.0.1.rc1)
     rails-dom-testing (2.2.0)
       activesupport (>= 5.0.0)
       minitest
@@ -385,6 +390,7 @@ DEPENDENCIES
   bootsnap
   byebug (~> 11.1)
   capybara
+  chartkick (~> 5.0)
   debug
   dockerfile-rails (>= 1.2)
   dotenv-rails
@@ -401,6 +407,7 @@ DEPENDENCIES
   puma (>= 5.0)
   rack-mini-profiler
   rails!
+  rails-controller-testing
   ruby-lsp (~> 0.5.1)
   selenium-webdriver
   sqlite3 (~> 1.4)
