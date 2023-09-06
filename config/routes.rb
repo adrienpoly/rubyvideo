@@ -2,7 +2,10 @@
 #
 
 Rails.application.routes.draw do
-  get "page/home"
+  # static pages
+  get "uses", to: "page#uses"
+
+  # authentication
   get "/auth/failure", to: "sessions/omniauth#failure"
   get "/auth/:provider/callback", to: "sessions/omniauth#create"
   post "/auth/:provider/callback", to: "sessions/omniauth#create"
@@ -21,6 +24,13 @@ Rails.application.routes.draw do
     resource :password_reset, only: [:new, :edit, :create, :update]
   end
 
+  # resources
+  namespace :analytics do
+    resource :dashboards, only: [:show] do
+      get :daily_page_views
+      get :daily_visits
+    end
+  end
   resources :talks, param: :slug, only: [:index, :show, :update, :edit]
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
   resources :events, param: :slug, only: [:index, :show, :update, :edit]
@@ -28,6 +38,7 @@ Rails.application.routes.draw do
     resources :enhance, only: [:update], param: :slug
   end
 
+  # admin
   namespace :admin, if: -> { Current.user & admin? } do
     resources :suggestions, only: %i[index update destroy]
   end

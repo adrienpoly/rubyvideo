@@ -28,7 +28,7 @@ gem "turbo-rails"
 # gem "cssbundling-rails"
 
 # Use Redis adapter to run Action Cable in production
-gem "redis", ">= 4.0.1"
+# gem "redis", ">= 4.0.1"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -58,7 +58,7 @@ group :development do
   gem "web-console"
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
-  # gem "rack-mini-profiler"
+  gem "rack-mini-profiler"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
@@ -66,21 +66,23 @@ group :development do
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
   gem "ruby-lsp", "~> 0.5.1", require: false
   gem "standardrb", "~> 1.0"
+  gem "erb_lint", "~> 0.4.0"
   gem "authentication-zero", "~> 2.16"
 end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
+  gem "rails-controller-testing"
   gem "selenium-webdriver"
-  gem "webdrivers"
   gem "vcr", "~> 6.1"
   gem "webmock"
 end
 
 gem "pagy", "~> 6.0"
 gem "dockerfile-rails", ">= 1.2", group: :development
-gem "litestack", "~> 0.2.3"
+gem "litestack"
+# gem "litestack", git: "git@github.com:oldmoe/litestack.git", branch: "master"
 gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
 gem "meilisearch-rails", "~> 0.9.1"
@@ -92,3 +94,5 @@ gem "groupdate", "~> 6.2"
 
 gem "appsignal", "~> 3.4"
 gem "ruby-openai"
+
+gem "chartkick", "~> 5.0"

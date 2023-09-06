@@ -15,6 +15,7 @@
 #
 # rubocop:enable Layout/LineLength
 class Event < ApplicationRecord
+  include Suggestable
   include Sluggable
   slug_from :name
 

@@ -10,22 +10,14 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get new" do
-    get new_talk_url
-    assert_response :success
-  end
-
-  test "should create talk" do
-    assert_difference("Talk.count") do
-      post talks_url, params: {talk: {description: @talk.description, slug: @talk.slug, title: @talk.title, year: @talk.year}}
-    end
-
-    assert_redirected_to talk_url(Talk.last)
-  end
-
   test "should show talk" do
     get talk_url(@talk)
     assert_response :success
+  end
+
+  test "should redirect to talks for wrong slugs" do
+    get talk_url("wrong-slug")
+    assert_response :moved_permanently
   end
 
   test "should get edit" do
@@ -36,13 +28,5 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
   test "should update talk" do
     patch talk_url(@talk), params: {talk: {description: @talk.description, slug: @talk.slug, title: @talk.title, year: @talk.year}}
     assert_redirected_to talk_url(@talk)
-  end
-
-  test "should destroy talk" do
-    assert_difference("Talk.count", -1) do
-      delete talk_url(@talk)
-    end
-
-    assert_redirected_to talks_url
   end
 end

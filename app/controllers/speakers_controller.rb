@@ -1,6 +1,6 @@
 class SpeakersController < ApplicationController
   skip_before_action :authenticate_user!
-  before_action :set_speaker, only: %i[show edit update destroy]
+  before_action :set_speaker, only: %i[show edit update]
 
   # GET /speakers
   def index
@@ -16,24 +16,8 @@ class SpeakersController < ApplicationController
     # fresh_when(@speaker)
   end
 
-  # GET /speakers/new
-  def new
-    @speaker = Speaker.new
-  end
-
   # GET /speakers/1/edit
   def edit
-  end
-
-  # POST /speakers
-  def create
-    @speaker = Speaker.new(speaker_params)
-
-    if @speaker.save
-      redirect_to @speaker, notice: "Speaker was successfully created."
-    else
-      render :new, status: :unprocessable_entity
-    end
   end
 
   # PATCH/PUT /speakers/1
@@ -46,17 +30,11 @@ class SpeakersController < ApplicationController
     end
   end
 
-  # DELETE /speakers/1
-  def destroy
-    @speaker.destroy!
-    redirect_to speakers_url, notice: "Speaker was successfully destroyed.", status: :see_other
-  end
-
   private
 
   # Use callbacks to share common setup or constraints between actions.
   def set_speaker
-    @speaker = Speaker.includes(:talks).find_by(slug: params[:slug])
+    @speaker = Speaker.includes(:talks).find_by!(slug: params[:slug])
   end
 
   # Only allow a list of trusted parameters through.

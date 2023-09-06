@@ -1,7 +1,5 @@
-<%= cache @speakers do %>
-  <div class="container py-8">
-    <div id="speakers" class="grid grid-cols-3 gap-x-8 gap-y-2 min-w-full">
-        <%= render @speakers, cache: true %>
-    </div>
+<div class="container py-8">
+  <div id="speakers" class="grid grid-cols-3 gap-x-8 gap-y-2 min-w-full">
+      <%= render @speakers %>
   </div>
-<% end %>
+</div>

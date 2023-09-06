@@ -44,25 +44,31 @@ bin/dev
 
 https://github.com/adrienpoly/rubyvideo/assets/7847244/64d299bb-dd57-47ee-b6c9-e3e9b430fcfa
 
-Rubyvideo.dev offers experimental support for the Page View Transition API, recently released by Chrome.
+Rubyvideo.dev offers experimental support for the Page View Transition API, which was recently released by Chrome.
 
-Enabling page transitions with Turbo started with the addition of the following code:
+Initially, Page View Transitions were implemented using custom code. However, the support for page transitions with Turbo is now available through the library [Turn](https://github.com/domchristie/turn).
+
+To enable page transitions with Turbo, include the following three lines of code:
 
 ```js
-addEventListener("turbo:before-render", (event) => {
-  if (document.startViewTransition) {
-    event.preventDefault();
-
-    document.startViewTransition(() => {
-      event.detail.resume();
-    });
-  }
-});
+import Turn from "@domchristie/turn";
+Turn.config.experimental.viewTransitions = true;
+Turn.start();
 ```
 
 The rest of the implementation was guided by examples you can find here: https://glitch.com/edit/#!/simple-set-demos?path=1-cross-fade%2Fscript.js%3A1%3A0
 
-Currently, the implementation requires two Stimulus controllers. One controller adds a page transition class to an element on a click (before the navigation), and the other clears the DOM from any remaining `view-transition-name` on the page. It's crucial to ensure there is only one `view-transition-name= the name` per page. Plans are in place to improve this system and potentially remove the latter controller. This feature is still very much experimental.
+## Linter
+
+The CI performs 3 checks:
+
+- erblint
+- standardrb
+- standard (js)
+
+Before committing your code you can run `bin/lint` to detect and potentially autocorrect lint errors.
+
+To follow Tailwind CSS's recommended order of classes, you can use [Prettier](https://prettier.io/) along with the [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss), both of which are included as devDependencies. This formating is not yet enforced by the CI.
 
 ## Code of Conduct
 

@@ -2,15 +2,15 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= display_meta_tags site: "Ruby Video" %>
 
     <%= vite_client_tag %>
-    <%= vite_javascript_tag 'application' %>
-    <%= vite_stylesheet_tag 'application.css' %>
+    <%= vite_javascript_tag "application" %>
+    <%= vite_stylesheet_tag "application.css" %>
+    <%= yield :head %>
   </head>
 
   <body data-controller="view-transition-page-cleaner">
@@ -20,5 +20,6 @@
     <div class="min-h-screen">
       <%= yield %>
     </div>
+    <%= render "shared/footer" %>
   </body>
 </html>

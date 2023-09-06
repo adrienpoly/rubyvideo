@@ -1,9 +1,9 @@
 @layer components {
   nav.pagy-nav.pagination {
-    @apply bg-transparent text-dark justify-normal gap-4 sm:gap-8 mx-auto;
+    @apply mx-auto justify-normal gap-4 bg-transparent text-dark sm:gap-8;
 
     .page.active {
-      @apply text-brand font-semibold;
+      @apply font-semibold text-brand;
     }
 
     .page.disabled {

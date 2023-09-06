@@ -18,7 +18,13 @@
 one:
   date: 2017-05-01
   organisation: one
+  city: Phoenix
+  name: RailsConf 2017
+  slug: rails-conf-2017
 
 two:
   date: 2023-05-01
   organisation: two
+  city: Bangkok
+  name: RubyConf TH 2022
+  slug: ruby-conf-th-2022

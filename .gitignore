@@ -35,7 +35,7 @@
 
 /node_modules
 
-/script
+/script_tmp
 .env
 .byebug_history
 
@@ -47,6 +47,13 @@
 
 /data.ms
 /data_tmp
-/meili_data
+/data_preparation/**/*
+!/data_preparation/organisations.yml
 
 /config/credentials/production.key
+
+test-run-report*
+
+# Ignore SQLite databases create by Litestack for action cable to be removed once we are able to move them to storage
+db/*.db
+db/*.db-*

@@ -111,6 +111,13 @@ GEM
     ast (2.4.2)
     authentication-zero (2.16.29)
     bcrypt (3.1.18)
+    better_html (2.0.2)
+      actionview (>= 6.0)
+      activesupport (>= 6.0)
+      ast (~> 2.0)
+      erubi (~> 1.4)
+      parser (>= 2.4)
+      smart_properties
     bindex (0.8.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
@@ -125,6 +132,7 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
+    chartkick (5.0.4)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
     crack (0.4.5)
@@ -142,9 +150,16 @@ GEM
       dotenv (= 2.8.1)
       railties (>= 3.2)
     dry-cli (1.0.0)
+    erb_lint (0.4.0)
+      activesupport
+      better_html (>= 2.0.1)
+      parser (>= 2.7.1.4)
+      rainbow
+      rubocop
+      smart_properties
     error_highlight (0.5.1)
     erubi (1.12.0)
-    faraday (2.7.7)
+    faraday (2.7.10)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-multipart (1.0.4)
@@ -227,6 +242,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (3.0.8)
+    rack-mini-profiler (3.1.1)
+      rack (>= 1.2.0)
     rack-proxy (0.7.6)
       rack
     rack-session (2.0.0)
@@ -236,6 +253,10 @@ GEM
     rackup (2.1.0)
       rack (>= 3)
       webrick (~> 1.8)
+    rails-controller-testing (1.0.5)
+      actionpack (>= 5.0.1.rc1)
+      actionview (>= 5.0.1.rc1)
+      activesupport (>= 5.0.1.rc1)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
@@ -244,10 +265,6 @@ GEM
       nokogiri (~> 1.14)
     rainbow (3.1.1)
     rake (13.0.6)
-    redis (5.0.6)
-      redis-client (>= 0.9.0)
-    redis-client (0.14.1)
-      connection_pool
     regexp_parser (2.8.0)
     reline (0.3.5)
       io-console (~> 0.5)
@@ -271,7 +288,7 @@ GEM
       language_server-protocol (~> 3.17.0)
       sorbet-runtime
       syntax_tree (>= 6.1.1, < 7)
-    ruby-openai (4.1.0)
+    ruby-openai (5.1.0)
       faraday (>= 1)
       faraday-multipart (>= 1)
     ruby-progressbar (1.13.0)
@@ -282,6 +299,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    smart_properties (1.17.0)
     sorbet-runtime (0.5.10820)
     sqlite3 (1.6.2-aarch64-linux)
     sqlite3 (1.6.2-arm64-darwin)
@@ -324,10 +342,6 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    webdrivers (5.2.0)
-      nokogiri (~> 1.6)
-      rubyzip (>= 1.3.0)
-      selenium-webdriver (~> 4.0)
     webmock (3.18.1)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
@@ -355,21 +369,24 @@ DEPENDENCIES
   bootsnap
   byebug (~> 11.1)
   capybara
+  chartkick (~> 5.0)
   debug
   dockerfile-rails (>= 1.2)
   dotenv-rails
+  erb_lint (~> 0.4.0)
   error_highlight (>= 0.4.0)
   groupdate (~> 6.2)
   inline_svg (~> 1.9)
-  litestack (~> 0.2.3)
+  litestack
   meilisearch-rails (~> 0.9.1)
   meta-tags (~> 2.18)
   net-http (~> 0.3.2)
   pagy (~> 6.0)
   propshaft
   puma (>= 5.0)
+  rack-mini-profiler
   rails!
-  redis (>= 4.0.1)
+  rails-controller-testing
   ruby-lsp (~> 0.5.1)
   ruby-openai
   selenium-webdriver
@@ -380,7 +397,6 @@ DEPENDENCIES
   vcr (~> 6.1)
   vite_rails (~> 3.0)
   web-console
-  webdrivers
   webmock
 
 RUBY VERSION

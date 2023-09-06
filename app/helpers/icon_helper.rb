@@ -9,9 +9,9 @@ module IconHelper
     xl: "h-10 w-10"
   }
 
-  def heroicon(icon_name, size: :md, **options)
-    classes = SIZE_CLASSES[size]
-    inline_svg_tag "icons/heroicons/outline/#{icon_name.to_s.tr("_", "-")}.svg", class: classes
+  def heroicon(icon_name, size: :md, variant: :outline, **options)
+    classes = class_names(SIZE_CLASSES[size], options[:class])
+    inline_svg_tag "icons/heroicons/#{variant}/#{icon_name.to_s.tr("_", "-")}.svg", class: classes
   end
 
   def icon(icon_name, size: :md, **options)

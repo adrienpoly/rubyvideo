@@ -37,4 +37,17 @@ class Speaker < ApplicationRecord
   def broadcast_about
     broadcast_update_to self, target: dom_id(self, :about), partial: "speakers/about", locals: {speaker: self}
   end
+
+  def valid_website_url
+    return "#" if website.blank?
+
+    # if it already starts with https://, return as is
+    return website if website.start_with?("https://")
+
+    # if it starts with http://, convert it to https://
+    return website.sub("http://", "https://") if website.start_with?("http://")
+
+    # otherwise, prepend https://
+    "https://#{website}"
+  end
 end

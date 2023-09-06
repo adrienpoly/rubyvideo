@@ -11,12 +11,12 @@
       <%= link_to edit_talk_path(@talk), class: "button secondary" do %>
           <div class="flex items-center gap-2">
             <%= heroicon :pencil_square %>
-            <span>edit</span>
+            <span>Edit</span>
           </div>
         <% end %>
     </div>
     <div class="gap-4 w-60 flex-shrink-0 hidden md:flex md:flex-col px-4">
-      <%= render partial: "talks/card_horizontal", collection: @talks, as: :talk, locals: { compact: true } %>
+      <%= render partial: "talks/card_horizontal", collection: @talks, as: :talk, locals: {compact: true} %>
     </div>
   </div>
 </div>

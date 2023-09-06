@@ -20,11 +20,13 @@ registry:
 
 # Inject ENV variables into containers (secrets come from .env).
 env:
+  clear:
+    RUBY_YJIT_ENABLE: 1
   secret:
     - RAILS_MASTER_KEY
     - APPSIGNAL_PUSH_API_KEY
     - MEILI_MASTER_KEY
-    - GITHUB_TOKEN
+    - RUBYVIDEO_GITHUB_TOKEN
 # Use a different ssh user than root
 ssh:
   user: root

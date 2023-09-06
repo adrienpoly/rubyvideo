@@ -16,6 +16,11 @@
 #  created_at     :datetime         not null
 #  updated_at     :datetime         not null
 #  event_id       :integer
+#  thumbnail_xs   :string           default(""), not null
+#  thumbnail_xl   :string           default(""), not null
+#  date           :date
+#  like_count     :integer
+#  view_count     :integer
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord

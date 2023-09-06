@@ -2,12 +2,8 @@
 <div class="w-full items-center" id="<%= dom_id(talk, :card_horizontal) %>">
 
   <%= link_to talk_path(talk),
-            class: "flex aspect-video shrink-0 relative",
-            data: {
-              controller: "view-transition",
-              view_transition_name_value: "card-horizontal-img"
-            } do %>
-    <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_lg} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover", loading: :lazy %>
+        class: "flex aspect-video shrink-0 relative" do %>
+    <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_lg} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover", style: "view-transition-name: #{dom_id(talk, :image)}", loading: :lazy %>
   <% end %>
   <%= content_tag :div, talk.title, class: "text-sm text-gray line-clamp-2 mt-1" %>
 </div>
