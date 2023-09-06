@@ -46,6 +46,7 @@
 *.local
 
 /data.ms
+/data_meili
 /data_tmp
 /data_preparation/**/*
 !/data_preparation/organisations.yml

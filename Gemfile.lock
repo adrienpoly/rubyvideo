@@ -203,7 +203,7 @@ GEM
       meilisearch (~> 0.23.0)
     meta-tags (2.18.0)
       actionpack (>= 3.2.0, < 7.1)
-    mini_mime (1.1.2)
+    mini_mime (1.1.5)
     minitest (5.18.0)
     msgpack (1.7.0)
     multi_xml (0.6.0)
