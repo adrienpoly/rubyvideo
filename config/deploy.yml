@@ -16,7 +16,7 @@ registry:
 
   # Always use an access token rather than real password when possible.
   password:
-    - MRSK_REGISTRY_PASSWORD
+    - KAMAL_REGISTRY_PASSWORD
 
 # Inject ENV variables into containers (secrets come from .env).
 env:
@@ -93,4 +93,7 @@ accessories:
 # healthcheck:
 #   path: /healthz
 #   port: 4000
-
+builder:
+  cache:
+    type: registry
+    options: mode=max,image-manifest=true,oci-mediatypes=true
