@@ -14,8 +14,8 @@ module IconHelper
     inline_svg_tag "icons/heroicons/#{variant}/#{icon_name.to_s.tr("_", "-")}.svg", class: classes
   end
 
-  def icon(icon_name, size: :md, **options)
+  def icon(icon_name, size: :md, **)
     classes = SIZE_CLASSES[size]
-    inline_svg_tag "icons/icn-#{icon_name}.svg", class: classes, **options
+    inline_svg_tag("icons/icn-#{icon_name}.svg", class: classes, **)
   end
 end
