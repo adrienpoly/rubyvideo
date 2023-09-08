@@ -93,4 +93,7 @@ accessories:
 # healthcheck:
 #   path: /healthz
 #   port: 4000
-
+builder:
+  cache:
+    type: registry
+    options: mode=max,image-manifest=true,oci-mediatypes=true
