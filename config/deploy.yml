@@ -16,7 +16,7 @@ registry:
 
   # Always use an access token rather than real password when possible.
   password:
-    - MRSK_REGISTRY_PASSWORD
+    - KAMAL_REGISTRY_PASSWORD
 
 # Inject ENV variables into containers (secrets come from .env).
 env:
