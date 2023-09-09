@@ -309,10 +309,15 @@ GEM
     rubocop-performance (1.19.0)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
-    ruby-lsp (0.5.1)
+    ruby-lsp (0.9.4)
       language_server-protocol (~> 3.17.0)
       sorbet-runtime
       syntax_tree (>= 6.1.1, < 7)
+      yarp (>= 0.9, < 0.11)
+    ruby-lsp-rails (0.2.4)
+      rails (>= 6.0)
+      ruby-lsp (>= 0.9.1, < 0.10.0)
+      sorbet-runtime (>= 0.5.9897)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
@@ -322,7 +327,7 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     smart_properties (1.17.0)
-    sorbet-runtime (0.5.11010)
+    sorbet-runtime (0.5.11011)
     sqlite3 (1.6.4-aarch64-linux)
     sqlite3 (1.6.4-arm64-darwin)
     sqlite3 (1.6.4-x86_64-darwin)
@@ -381,6 +386,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
+    yarp (0.10.0)
     zeitwerk (2.6.11)
 
 PLATFORMS
@@ -416,7 +422,8 @@ DEPENDENCIES
   rack-mini-profiler
   rails!
   rails-controller-testing
-  ruby-lsp (~> 0.5.1)
+  ruby-lsp
+  ruby-lsp-rails
   selenium-webdriver
   sqlite3 (~> 1.4)
   standardrb (~> 1.0)

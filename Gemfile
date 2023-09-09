@@ -64,7 +64,8 @@ group :development do
   # gem "spring"
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
-  gem "ruby-lsp", "~> 0.5.1", require: false
+  gem "ruby-lsp", require: false
+  gem "ruby-lsp-rails", require: false
   gem "standardrb", "~> 1.0"
   gem "erb_lint", "~> 0.4.0"
   gem "authentication-zero", "~> 2.16"
