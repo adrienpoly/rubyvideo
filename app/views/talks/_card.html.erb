@@ -6,7 +6,7 @@
           id: dom_id(talk),
           height: 174,
           width: 310,
-          alt: "talk by #{talk.speakers.join(", ")}: #{talk.title}",
+          alt: "talk by #{talk.speakers.map(&:name).join(", ")}: #{talk.title}",
           style: "view-transition-name: #{dom_id(talk, :image)}",
           class: "rounded-lg w-full object-cover" %>
   <% end %>
