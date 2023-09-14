@@ -26,7 +26,7 @@
             <% if talk.event %>
               <div class="flex items-center gap-2">
                 <%= heroicon :map_pin, size: :sm, class: "shrink-0 grow-0" %>
-                <%= content_tag :div, talk.event.name %>
+                <%= content_tag :div, talk.event_name %>
               </div>
               <%#= link_to talk.event.name, talk.event %>
             <% end %>
