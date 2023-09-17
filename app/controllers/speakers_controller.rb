@@ -9,8 +9,6 @@ class SpeakersController < ApplicationController
 
   # GET /speakers/1
   def show
-    @from_talk_id = session[:from_talk_id]
-    session[:from_talk_id] = nil
     @talks = @speaker.talks
     @back_path = speakers_path
     # fresh_when(@speaker)
