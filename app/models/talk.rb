@@ -27,9 +27,7 @@ class Talk < ApplicationRecord
   include Sluggable
   include Suggestable
   slug_from :title
-  include MeiliSearch::Rails
-  ActiveRecord_Relation.include Pagy::Meilisearch
-  extend Pagy::Meilisearch
+  include Litesearch::Model
 
   # associations
   belongs_to :event, optional: true
@@ -43,31 +41,12 @@ class Talk < ApplicationRecord
   delegate :name, to: :event, prefix: true, allow_nil: true
 
   # search
-  meilisearch do
-    attribute :title
-    attribute :description
-    attribute :slug
-    attribute :video_id
-    attribute :video_provider
-    attribute :thumbnail_sm
-    attribute :thumbnail_md
-    attribute :thumbnail_lg
-    attribute :speaker_names do
-      speakers.pluck(:name)
-    end
-    attribute :event_name do
-      event_name
-    end
-    searchable_attributes [:title, :description, :speaker_names, :event_name]
-    sortable_attributes [:title]
 
-    attributes_to_highlight ["*"]
+  litesearch do |schema|
+    schema.field :title, weight: 3
+    schema.field :description
+    schema.tokenizer :trigram
   end
-
-  meilisearch enqueue: true
-
-  # ensure that during the reindex process the associated records are eager loaded
-  scope :meilisearch_import, -> { includes(:speakers, :event) }
 
   def to_meta_tags
     {
