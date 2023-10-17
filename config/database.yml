@@ -5,7 +5,7 @@
 #   gem "sqlite3"
 #
 default: &default
-  adapter: sqlite3
+  adapter: litedb
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 10 } %>
   timeout: 5000
 
