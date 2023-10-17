@@ -1,3 +1,16 @@
+GIT
+  remote: git@github.com:oldmoe/litestack.git
+  revision: 003041b7fde9fdeda3c0fb8ab8dc045c21c9656a
+  branch: master
+  specs:
+    litestack (0.4.1)
+      erubi
+      hanami-router
+      oj
+      rack
+      sqlite3
+      tilt
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -349,6 +362,8 @@ GEM
     standardrb (1.0.1)
       standard
     stringio (3.0.8)
+    syntax_tree (6.1.1)
+      prettier_print (>= 1.2.0)
     thor (1.3.0)
     tilt (2.3.0)
     timeout (0.4.0)
