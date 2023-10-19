@@ -88,4 +88,4 @@ MeiliSearch::Rails.deactivate! do
 end
 
 # reindex all talk in MeiliSearch
-Talk.reindex!
+Talk.reindex! unless Rails.env.test?
