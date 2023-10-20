@@ -96,3 +96,5 @@ gem "groupdate", "~> 6.2"
 gem "appsignal", "~> 3.4"
 
 gem "chartkick", "~> 5.0"
+
+gem "rails_autolink", "~> 1.1"
