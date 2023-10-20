@@ -54,7 +54,7 @@ MeiliSearch::Rails.deactivate! do
         evt.organisation = organisation
       end
 
-      puts event.slug
+      puts event.slug unless Rails.env.test?
       talks = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/#{event.slug}/videos.yml")
 
       talks.each do |talk_data|

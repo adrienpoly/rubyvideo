@@ -25,4 +25,6 @@ class Event < ApplicationRecord
 
   # validations
   validates :name, presence: true
+  VALID_COUNTRY_CODES = ISO3166::Country.codes
+  validates :country_code, inclusion: {in: VALID_COUNTRY_CODES}, allow_nil: true
 end

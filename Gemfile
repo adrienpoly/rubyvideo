@@ -90,9 +90,7 @@ gem "meilisearch-rails", "~> 0.9.1"
 gem "ahoy_matey", "~> 4.2"
 gem "vite_rails", "~> 3.0"
 gem "meta-tags", "~> 2.18"
-
 gem "groupdate", "~> 6.2"
-
 gem "appsignal", "~> 3.4"
-
 gem "chartkick", "~> 5.0"
+gem "country_select", "~> 8.0"
