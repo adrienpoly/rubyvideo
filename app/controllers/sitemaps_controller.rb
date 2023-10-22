@@ -1,6 +1,6 @@
 class SitemapsController < ApplicationController
   def show
-    render xml: generate_sitemap_string
+    render xml: generate_sitemap_string, content_type: "application/xml"
   end
 
   private
