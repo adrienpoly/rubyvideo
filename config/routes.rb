@@ -42,6 +42,9 @@ Rails.application.routes.draw do
   namespace :admin, if: -> { Current.user & admin? } do
     resources :suggestions, only: %i[index update destroy]
   end
+
+  get "/sitemap.xml", to: "sitemaps#show", defaults: {format: "xml"}
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.

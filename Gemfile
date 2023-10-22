@@ -98,3 +98,5 @@ gem "appsignal", "~> 3.4"
 gem "chartkick", "~> 5.0"
 
 gem "rails_autolink", "~> 1.1"
+
+gem "sitemap_generator", "~> 6.3"
