@@ -323,6 +323,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    sitemap_generator (6.3.0)
+      builder (~> 3.0)
     smart_properties (1.17.0)
     sorbet-runtime (0.5.11089)
     sqlite3 (1.6.7-aarch64-linux)
@@ -420,6 +422,7 @@ DEPENDENCIES
   ruby-lsp
   ruby-lsp-rails
   selenium-webdriver
+  sitemap_generator (~> 6.3)
   sqlite3 (~> 1.4)
   standardrb (~> 1.0)
   turbo-rails
