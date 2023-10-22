@@ -11,6 +11,7 @@ class SpeakersController < ApplicationController
   def show
     @talks = @speaker.talks
     @back_path = speakers_path
+    set_meta_tags(@speaker)
     # fresh_when(@speaker)
   end
 
