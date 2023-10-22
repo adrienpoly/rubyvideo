@@ -48,13 +48,13 @@ MeiliSearch::Rails.deactivate! do
 
     events = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/playlists.yml")
 
-    events.each do |event|
-      event = Event.find_or_create_by!(name: event["title"]) do |evt|
-        evt.date = event["published_at"]
+    events.each do |event_data|
+      event = Event.find_or_create_by!(name: event_data["title"]) do |evt|
+        evt.date = event_data["published_at"]
         evt.organisation = organisation
       end
 
-      puts event.slug
+      puts event.slug unless Rails.env.test?
       talks = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/#{event.slug}/videos.yml")
 
       talks.each do |talk_data|
@@ -62,7 +62,7 @@ MeiliSearch::Rails.deactivate! do
 
         talk = Talk.find_or_create_by!(title: talk_data["title"], event: event) do |tlk|
           tlk.description = talk_data["description"]
-          tlk.year = talk_data["year"]
+          tlk.year = talk_data["year"].presence || event_data["year"]
           tlk.video_id = talk_data["video_id"]
           tlk.video_provider = :youtube
           tlk.date = talk_data["published_at"]
