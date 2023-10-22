@@ -72,7 +72,26 @@ class Talk < ApplicationRecord
   def to_meta_tags
     {
       title: title,
-      description: description
+      description: description,
+      og: {
+        title: title,
+        type: :website,
+        image: {
+          _: thumbnail_lg,
+          alt: title
+        },
+        description: description,
+        site_name: "RubyVideo.dev"
+      },
+      twitter: {
+        card: "summary_large_image",
+        site: "adrienpoly",
+        title: title,
+        description: description,
+        image: {
+          src: thumbnail_lg
+        }
+      }
     }
   end
 
