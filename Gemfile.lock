@@ -161,7 +161,7 @@ GEM
       activesupport (>= 3.0)
       nokogiri (>= 1.6)
     io-console (0.6.0)
-    irb (1.8.1)
+    irb (1.8.3)
       rdoc
       reline (>= 0.3.8)
     json (2.6.3)
@@ -174,7 +174,7 @@ GEM
       rack
       sqlite3
       tilt
-    loofah (2.21.3)
+    loofah (2.21.4)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.8.1)
@@ -197,7 +197,7 @@ GEM
     mutex_m (0.1.2)
     net-http (0.3.2)
       uri
-    net-imap (0.4.1)
+    net-imap (0.4.2)
       date
       net-protocol
     net-pop (0.1.2)
@@ -221,13 +221,13 @@ GEM
     parser (3.2.2.3)
       ast (~> 2.4.1)
       racc
-    prettier_print (1.2.1)
+    prism (0.15.1)
     propshaft (0.7.0)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
       rack
       railties (>= 7.0.0)
-    psych (5.1.0)
+    psych (5.1.1.1)
       stringio
     public_suffix (5.0.3)
     puma (6.3.1)
@@ -287,7 +287,7 @@ GEM
     rdoc (6.5.0)
       psych (>= 4.0.0)
     regexp_parser (2.8.1)
-    reline (0.3.8)
+    reline (0.3.9)
       io-console (~> 0.5)
     rexml (3.2.6)
     rubocop (1.56.2)
@@ -307,14 +307,13 @@ GEM
     rubocop-performance (1.19.0)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
-    ruby-lsp (0.9.4)
+    ruby-lsp (0.12.0)
       language_server-protocol (~> 3.17.0)
-      sorbet-runtime
-      syntax_tree (>= 6.1.1, < 7)
-      yarp (>= 0.9, < 0.11)
-    ruby-lsp-rails (0.2.4)
+      prism (>= 0.15.1, < 0.16)
+      sorbet-runtime (>= 0.5.5685)
+    ruby-lsp-rails (0.2.7)
       rails (>= 6.0)
-      ruby-lsp (>= 0.9.1, < 0.10.0)
+      ruby-lsp (>= 0.12.0, < 0.13.0)
       sorbet-runtime (>= 0.5.9897)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
@@ -325,7 +324,7 @@ GEM
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     smart_properties (1.17.0)
-    sorbet-runtime (0.5.11011)
+    sorbet-runtime (0.5.11089)
     sqlite3 (1.6.7-aarch64-linux)
     sqlite3 (1.6.7-arm64-darwin)
     sqlite3 (1.6.7-x86_64-darwin)
@@ -345,9 +344,7 @@ GEM
     standardrb (1.0.1)
       standard
     stringio (3.0.8)
-    syntax_tree (6.1.1)
-      prettier_print (>= 1.2.0)
-    thor (1.2.2)
+    thor (1.3.0)
     tilt (2.3.0)
     timeout (0.4.0)
     turbo-rails (1.4.0)
@@ -384,8 +381,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    yarp (0.10.0)
-    zeitwerk (2.6.11)
+    zeitwerk (2.6.12)
 
 PLATFORMS
   aarch64-linux
