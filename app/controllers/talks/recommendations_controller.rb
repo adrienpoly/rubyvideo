@@ -3,6 +3,7 @@ class Talks::RecommendationsController < ApplicationController
   before_action :set_talk, only: %i[index]
 
   def index
+    redirect_to talk_path(@talk) unless turbo_frame_request?
     @talks = @talk.related_talks
   end
 
