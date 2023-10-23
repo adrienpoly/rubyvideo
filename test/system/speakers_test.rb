@@ -5,15 +5,11 @@ class SpeakersTest < ApplicationSystemTestCase
     @speaker = speakers(:one)
   end
 
-  # Contrary to "Talks", there is currently no "Speakers" heading
-  # test "visiting the index" do
-  #   visit speakers_url
-  #   assert_selector "h1", text: "Speakers"
-  # end
-
   test "should update Speaker" do
     visit speaker_url(@speaker)
     click_on "Edit", match: :first
+
+    assert_text "Editing speaker"
 
     fill_in "Bio", with: @speaker.bio
     fill_in "Github", with: @speaker.github

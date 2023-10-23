@@ -18,7 +18,6 @@ class TalksController < ApplicationController
   def show
     speaker_slug = params[:speaker_slug]
     @back_path = speaker_slug.present? ? speaker_path(speaker_slug, page: session[:talks_page]) : talks_path(page: session[:talks_page])
-    @talks = Talk.order("RANDOM()").excluding(@talk).limit(6)
     set_meta_tags(@talk)
   end
 
