@@ -1,4 +1,6 @@
 class SitemapsController < ApplicationController
+  skip_before_action :authenticate_user!
+
   def show
     render xml: generate_sitemap_string, content_type: "application/xml"
   end
