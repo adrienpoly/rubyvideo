@@ -95,4 +95,8 @@ class Talk < ApplicationRecord
   def thumbnail_xl
     self[:thumbnail_xl].presence || "https://i.ytimg.com/vi/#{video_id}/maxresdefault.jpg"
   end
+
+  def related_talks(limit: 6)
+    Talk.order("RANDOM()").excluding(self).limit(limit)
+  end
 end

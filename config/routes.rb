@@ -31,7 +31,11 @@ Rails.application.routes.draw do
       get :daily_visits
     end
   end
-  resources :talks, param: :slug, only: [:index, :show, :update, :edit]
+  resources :talks, param: :slug, only: [:index, :show, :update, :edit] do
+    scope module: :talks do
+      resources :recommendations, only: [:index]
+    end
+  end
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
   resources :events, param: :slug, only: [:index, :show, :update, :edit]
   namespace :speakers do

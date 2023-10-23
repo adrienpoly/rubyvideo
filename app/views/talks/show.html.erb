@@ -16,7 +16,7 @@
         <% end %>
     </div>
     <div class="gap-4 w-60 flex-shrink-0 hidden md:flex md:flex-col px-4">
-      <%= render partial: "talks/card_horizontal", collection: @talks, as: :talk, locals: {compact: true} %>
+      <%= turbo_frame_tag "recommended_talks", target: "_top", src: talk_recommendations_path(@talk) %>
     </div>
   </div>
 </div>
