@@ -1,5 +1,8 @@
 <%= link_to speaker_path(speaker), id: dom_id(speaker), class: "flex justify-between" do %>
-  <span><%= speaker.name %></span>
+  <div class="flex items-center gap-2">
+    <span><%= speaker.name %></span>
+    <%= image_tag speaker.github_avatar_url(size: 48), class: "rounded-full h-6 w-6" if speaker.github_avatar_url.present? %>
+  </div>
   <div class="bg-brand-lighter w-12 h-6 flex items-center justify-center rounded-full text-gray">
     <%= speaker.talks_count %>
   </div>
