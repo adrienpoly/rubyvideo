@@ -5,6 +5,7 @@ class SpeakersController < ApplicationController
   # GET /speakers
   def index
     @speakers = Speaker.all.order(:name).select(:id, :name, :slug, :talks_count)
+    @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
   end
 
   # GET /speakers/1
