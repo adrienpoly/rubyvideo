@@ -1,5 +1,16 @@
 <div class="container py-8">
-  <div id="speakers" class="grid grid-cols-3 gap-x-8 gap-y-2 min-w-full">
+  <h1 class="title">Speakers</h1>
+  <div class="flex flex-wrap w-full justify-between py-8 gap-1">
+    <% ("a".."z").each do |letter| %>
+      <%= link_to speakers_path(letter: letter), class: class_names("flex items-center justify-center w-10 text-gray-500 rounded hover:bg-brand-lighter border", "bg-brand-lighter": letter == params[:letter]) do %>
+        <%= letter.upcase %>
+      <% end %>
+    <% end %>
+    <%= link_to speakers_path, class: class_names("flex items-center justify-center w-10 text-gray-500 rounded hover:bg-brand-lighter border", "bg-brand-lighter": params[:letter].blank?) do %>
+        all
+      <% end %>
+  </div>
+  <div id="speakers" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 lg:gap-x-12 gap-y-2 min-w-full">
       <%= render @speakers %>
   </div>
 </div>
