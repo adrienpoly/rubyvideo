@@ -100,3 +100,9 @@ gem "chartkick", "~> 5.0"
 gem "rails_autolink", "~> 1.1"
 
 gem "sitemap_generator", "~> 6.3"
+
+gem "view_component", "~> 3.7"
+
+gem "dry-initializer-rails"
+
+gem "dry-types", "~> 1.7"

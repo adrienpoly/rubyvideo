@@ -3,6 +3,7 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   content: [
     './app/views/**/*.html.erb',
+    './app/components/**/*',
     './app/helpers/**/*.rb',
     './app/assets/stylesheets/**/*.css',
     './app/javascript/**/*.js',
@@ -46,7 +47,29 @@ module.exports = {
       }
     }
   },
+  daisyui: {
+    themes: [
+      {
+        rubyvideoLight: {
+          // ...require('daisyui/src/colors/themes')['[data-theme=light]'],
+          '--btn-text-case': 'none',
+          primary: '#D74C47',
+          'primary-content': '#ffffff',
+          secondary: '#FBEEEE',
+          'secondary-content': '#261B23',
+          // accent: '#1dcdbc',
+          neutral: '#ffffff',
+          'neutral-content': '#261B23'
+          // 'base-100': '#ffffff',
+          // info: '#3abff8',
+          // success: '#36d399',
+          // warning: '#fbbd23',
+          // error: '#f87272'
+        }
+      }
+    ]
+  },
   plugins: [
-    require('@tailwindcss/forms')
+    require('@tailwindcss/forms'), require('daisyui')
   ]
 }

@@ -131,6 +131,24 @@ GEM
     drb (2.1.1)
       ruby2_keywords
     dry-cli (1.0.0)
+    dry-core (1.0.1)
+      concurrent-ruby (~> 1.0)
+      zeitwerk (~> 2.6)
+    dry-inflector (1.0.0)
+    dry-initializer (3.1.1)
+    dry-initializer-rails (3.1.1)
+      dry-initializer (>= 2.4, < 4)
+      rails (> 3.0)
+    dry-logic (1.5.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 1.0, < 2)
+      zeitwerk (~> 2.6)
+    dry-types (1.7.1)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 1.0)
+      dry-inflector (~> 1.0)
+      dry-logic (~> 1.4)
+      zeitwerk (~> 2.6)
     erb_lint (0.4.0)
       activesupport
       better_html (>= 2.0.1)
@@ -190,6 +208,7 @@ GEM
       meilisearch (~> 0.23.0)
     meta-tags (2.19.0)
       actionpack (>= 3.2.0, < 7.2)
+    method_source (1.0.0)
     mini_mime (1.1.5)
     minitest (5.20.0)
     msgpack (1.7.2)
@@ -360,6 +379,10 @@ GEM
     url_mount (0.2.1)
       rack
     vcr (6.2.0)
+    view_component (3.7.0)
+      activesupport (>= 5.2.0, < 8.0)
+      concurrent-ruby (~> 1.0)
+      method_source (~> 1.0)
     vite_rails (3.0.15)
       railties (>= 5.1, < 8)
       vite_ruby (~> 3.0, >= 3.2.2)
@@ -404,6 +427,8 @@ DEPENDENCIES
   debug
   dockerfile-rails (>= 1.2)
   dotenv-rails
+  dry-initializer-rails
+  dry-types (~> 1.7)
   erb_lint (~> 0.4.0)
   error_highlight (>= 0.4.0)
   groupdate (~> 6.2)
@@ -428,6 +453,7 @@ DEPENDENCIES
   turbo-rails
   tzinfo-data
   vcr (~> 6.1)
+  view_component (~> 3.7)
   vite_rails (~> 3.0)
   web-console
   webmock
