@@ -23,8 +23,8 @@ class Ui::ButtonComponent < ApplicationComponent
   param :text, default: proc {}
   option :url, Dry::Types["coercible.string"], optional: true
   option :method, Dry::Types["coercible.symbol"].enum(:get, :post, :patch, :put, :delete), optional: true
-  option :kind, type: Dry::Types["coercible.symbol"].enum(:neutral, :primary, :secondary, :accent, :info, :success, :warning, :error, :ghost, :link), default: proc { :primary }
-  option :size, type: Dry::Types["coercible.symbol"].enum(:sm, :md, :lg), default: proc { :md }
+  option :kind, type: Dry::Types["coercible.symbol"].enum(*KIND_MAPPING.keys), default: proc { :primary }
+  option :size, type: Dry::Types["coercible.symbol"].enum(*SIZE_MAPPING.keys), default: proc { :md }
   option :type, type: Dry::Types["coercible.symbol"].enum(:button, :submit, :input), default: proc { :button }
   option :disabled, type: Dry::Types["strict.bool"], default: proc { false }
   option :outline, type: Dry::Types["strict.bool"], default: proc { false }

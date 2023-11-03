@@ -1,5 +1,6 @@
 module ViewComponentHelper
   UI_HELPERS = {
+    badge: "Ui::BadgeComponent",
     button: "Ui::ButtonComponent"
   }.freeze
 
