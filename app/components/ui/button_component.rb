@@ -28,13 +28,14 @@ class Ui::ButtonComponent < ApplicationComponent
   option :type, type: Dry::Types["coercible.symbol"].enum(:button, :submit, :input), default: proc { :button }
   option :disabled, type: Dry::Types["strict.bool"], default: proc { false }
   option :outline, type: Dry::Types["strict.bool"], default: proc { false }
+  option :animation, type: Dry::Types["strict.bool"], default: proc { false }
 
   def call
     case button_kind
     when :link
       link_to(url, disabled: disabled, class: classes, **attributes.except(:class, :type)) { content }
     when :button_to
-      button_to(url, disabled: disabled, class: classes, **attributes.except(:class, :type)) { content }
+      button_to(url, disabled: disabled, method: method, class: classes, **attributes.except(:class, :type)) { content }
     when :button
       tag.button(type: type, disabled: disabled, class: classes, **attributes.except(:class, :type)) { content }
     end
@@ -52,7 +53,8 @@ class Ui::ButtonComponent < ApplicationComponent
       KIND_MAPPING[kind],
       SIZE_MAPPING[size],
       "btn-outline": outline,
-      "btn-disabled": disabled
+      "btn-disabled": disabled,
+      "no-animation": !animation # animation is disabled by default, I don't really like the effect when you enter the page
     )
   end
 

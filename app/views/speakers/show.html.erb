@@ -10,14 +10,15 @@
       <h1 class="my-8"> <%= @speaker.name %></h1>
       <%= render "speakers/about", speaker: @speaker %>
       <div class="flex flex-wrap gap-4">
-        <%= link_to edit_speaker_path(@speaker), class: "button secondary" do %>
-          <div class="flex items-center gap-2">
+        <div class="tooltip tooltip-right tooltip-success" data-tip="You can suggest some modifications to this speaker description">
+          <%= ui_button url: edit_speaker_path(@speaker), kind: :neutral, outline: true, size: :sm do %>
             <%= heroicon :pencil_square %>
             <span>Edit</span>
-          </div>
-        <% end %>
+          <% end %>
+        </div>
+
         <% if Current.user&.admin? %>
-          <%= button_to "fetch from Github", speakers_enhance_path(@speaker), method: :patch, class: "button" %>
+          <%= ui_button "fetch from Github", url: speakers_enhance_path(@speaker), method: :put, kind: :ghost, size: :sm %>
         <% end %>
       </div>
     </div>

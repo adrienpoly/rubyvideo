@@ -42,7 +42,7 @@
   </div>
 
   <div class="flex items-center gap-4">
-    <%= form.submit "Suggest modifications" %>
-    <%= link_to "cancel", speaker_path(@speaker), class: "tertiary" %>
+    <%= ui_button "Suggest modifications", type: :submit %>
+    <%= ui_button "Cancel", url: speaker_path(speaker), outline: true, role: :button %>
   </div>
 <% end %>
