@@ -49,10 +49,10 @@ MeiliSearch::Rails.deactivate! do
     events = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/playlists.yml")
 
     events.each do |event_data|
-      event = Event.find_or_create_by!(name: event_data["title"]) do |evt|
-        evt.date = event_data["published_at"]
-        evt.organisation = organisation
-      end
+      event = Event.find_by(name: event_data["title"])
+      next if event
+
+      event = Event.create!(name: event_data["title"], date: event_data["published_at"], organisation: organisation)
 
       puts event.slug unless Rails.env.test?
       talks = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/#{event.slug}/videos.yml")
@@ -81,7 +81,7 @@ MeiliSearch::Rails.deactivate! do
           SpeakerTalk.create(speaker: speaker, talk: talk) if speaker
         end
       rescue ActiveRecord::RecordInvalid => e
-        puts "#{talk.title} is duplicated #{e.message}"
+        puts "#{talk_data["title"]} is duplicated #{e.message}"
       end
     end
   end
