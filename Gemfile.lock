@@ -164,6 +164,9 @@ GEM
     irb (1.8.3)
       rdoc
       reline (>= 0.3.8)
+    jbuilder (2.11.5)
+      actionview (>= 5.0.0)
+      activesupport (>= 5.0.0)
     json (2.6.3)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
@@ -408,6 +411,7 @@ DEPENDENCIES
   error_highlight (>= 0.4.0)
   groupdate (~> 6.2)
   inline_svg (~> 1.9)
+  jbuilder
   litestack
   meilisearch-rails (~> 0.9.1)
   meta-tags (~> 2.18)

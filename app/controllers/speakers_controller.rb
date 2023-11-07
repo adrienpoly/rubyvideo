@@ -1,11 +1,19 @@
 class SpeakersController < ApplicationController
   skip_before_action :authenticate_user!
   before_action :set_speaker, only: %i[show edit update]
+  include Pagy::Backend
 
   # GET /speakers
   def index
-    @speakers = Speaker.all.order(:name).select(:id, :name, :slug, :talks_count, :github)
-    @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
+    respond_to do |format|
+      format.html do
+        @speakers = Speaker.all.order(:name).select(:id, :name, :slug, :talks_count, :github)
+        @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
+      end
+      format.json do
+        @pagy, @speakers = pagy(Speaker.all.order(:name), {items: params[:per_page]})
+      end
+    end
   end
 
   # GET /speakers/1
