@@ -1,16 +1,3 @@
-GIT
-  remote: git@github.com:oldmoe/litestack.git
-  revision: 003041b7fde9fdeda3c0fb8ab8dc045c21c9656a
-  branch: master
-  specs:
-    litestack (0.4.1)
-      erubi
-      hanami-router
-      oj
-      rack
-      sqlite3
-      tilt
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -183,7 +170,7 @@ GEM
     json (2.6.3)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
-    litestack (0.4.1)
+    litestack (0.4.2)
       erubi
       hanami-router
       oj
@@ -343,10 +330,10 @@ GEM
       builder (~> 3.0)
     smart_properties (1.17.0)
     sorbet-runtime (0.5.11089)
-    sqlite3 (1.6.7-aarch64-linux)
-    sqlite3 (1.6.7-arm64-darwin)
-    sqlite3 (1.6.7-x86_64-darwin)
-    sqlite3 (1.6.7-x86_64-linux)
+    sqlite3 (1.6.8-aarch64-linux)
+    sqlite3 (1.6.8-arm64-darwin)
+    sqlite3 (1.6.8-x86_64-darwin)
+    sqlite3 (1.6.8-x86_64-linux)
     standard (1.31.1)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
@@ -362,8 +349,6 @@ GEM
     standardrb (1.0.1)
       standard
     stringio (3.0.8)
-    syntax_tree (6.1.1)
-      prettier_print (>= 1.2.0)
     thor (1.3.0)
     tilt (2.3.0)
     timeout (0.4.0)
