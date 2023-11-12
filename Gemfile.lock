@@ -170,7 +170,7 @@ GEM
     json (2.6.3)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
-    litestack (0.4.1)
+    litestack (0.4.2)
       erubi
       hanami-router
       oj
@@ -330,10 +330,10 @@ GEM
       builder (~> 3.0)
     smart_properties (1.17.0)
     sorbet-runtime (0.5.11089)
-    sqlite3 (1.6.7-aarch64-linux)
-    sqlite3 (1.6.7-arm64-darwin)
-    sqlite3 (1.6.7-x86_64-darwin)
-    sqlite3 (1.6.7-x86_64-linux)
+    sqlite3 (1.6.8-aarch64-linux)
+    sqlite3 (1.6.8-arm64-darwin)
+    sqlite3 (1.6.8-x86_64-darwin)
+    sqlite3 (1.6.8-x86_64-linux)
     standard (1.31.1)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
@@ -418,7 +418,7 @@ DEPENDENCIES
   net-http (~> 0.3.2)
   pagy (~> 6.0)
   propshaft
-  puma (>= 5.0)
+  puma
   rack-mini-profiler
   rails (~> 7.1.0)
   rails-controller-testing
@@ -427,7 +427,6 @@ DEPENDENCIES
   ruby-lsp-rails
   selenium-webdriver
   sitemap_generator (~> 6.3)
-  sqlite3 (~> 1.4)
   standardrb (~> 1.0)
   turbo-rails
   tzinfo-data

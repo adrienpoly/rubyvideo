@@ -10,10 +10,10 @@ gem "rails", "~> 7.1.0"
 gem "propshaft"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+# gem "sqlite3", "~> 1.4"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", ">= 5.0"
+gem "puma"
 
 # use jbuilder for the api
 gem "jbuilder"
@@ -86,7 +86,6 @@ end
 gem "pagy", "~> 6.0"
 gem "dockerfile-rails", ">= 1.2", group: :development
 gem "litestack"
-# gem "litestack", git: "git@github.com:oldmoe/litestack.git", branch: "master"
 gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
 gem "meilisearch-rails", "~> 0.9.1"
