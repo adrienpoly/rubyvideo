@@ -7,6 +7,7 @@ class SpeakersTest < ApplicationSystemTestCase
 
   test "should update Speaker" do
     visit speaker_url(@speaker)
+    assert_selector "h1", text: @speaker.name
     click_on "Edit", match: :first
 
     assert_text "Editing speaker"
