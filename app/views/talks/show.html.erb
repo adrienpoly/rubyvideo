@@ -8,12 +8,6 @@
   <div class="w-full flex">
     <div class="flex-grow">
       <%= render @talk %>
-      <%= link_to edit_talk_path(@talk), class: "button secondary" do %>
-          <div class="flex items-center gap-2">
-            <%= heroicon :pencil_square %>
-            <span>Edit</span>
-          </div>
-        <% end %>
     </div>
     <div class="gap-4 w-60 flex-shrink-0 hidden md:flex md:flex-col px-4">
       <%= turbo_frame_tag "recommended_talks", target: "_top", src: talk_recommendations_path(@talk) %>

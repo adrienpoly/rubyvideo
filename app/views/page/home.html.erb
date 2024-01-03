@@ -18,10 +18,9 @@
             <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Want to find Ruby related videos?</h1>
             <p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none"> So far we have indexed <span class="font-semibold"><%= @talks_count %></span> of those from <span class="font-semibold"><%= @speakers_count %></span> speakers</p>
             <div class="mt-10 flex items-center gap-x-6 flex-wrap gap-y-4">
-              <%= link_to talks_path, class: "button" do %>
-                Explore talks
-              <% end %>
-              <%= link_to "https://github.com/adrienpoly/rubyvideo/blob/main/docs/contributing.md", target: "_blank", class: "button secondary flex items-center gap-2" do %>
+              <%= ui_button("Explore talks", url: talks_path) %>
+
+              <%= ui_button(url: "https://github.com/adrienpoly/rubyvideo/blob/main/docs/contributing.md", outline: true, target: "_blank") do %>
                 Enriching this database <span aria-hidden="true"><%= heroicon :arrow_long_right %></span>
               <% end %>
             </div>

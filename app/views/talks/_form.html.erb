@@ -27,7 +27,7 @@
   </div>
 
   <div class="inline">
-    <%= form.submit "Suggest modifications" %>
-    <%= link_to "Cancel", talk, class: "tertiary", role: "button" %>
+    <%= ui_button "Suggest modifications", type: :submit %>
+    <%= ui_button "Cancel", url: talk_path(talk), outline: true, role: :button %>
   </div>
 <% end %>
