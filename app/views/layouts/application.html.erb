@@ -10,6 +10,10 @@
     <%= vite_client_tag %>
     <%= vite_javascript_tag "application" %>
     <%= vite_stylesheet_tag "application.css" %>
+
+    <%= auto_discovery_link_tag :rss, feed_url(format: :rss) %>
+    <%= auto_discovery_link_tag :atom, feed_url(format: :atom) %>
+
     <%= yield :head %>
   </head>
 
