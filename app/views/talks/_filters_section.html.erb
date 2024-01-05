@@ -1,6 +1,6 @@
 <div class="bg-white" data-controller="filters">
   <div>
-    <div class="relative z-40 lg:hidden" role="dialog" >
+    <div class="relative z-40 lg:hidden" role="dialog">
       <button type="button" class="-m-3 p-3 focus-visible:outline-offset-[-4px] tertiary" data-action="click->filters#toggleVisibility">
         <span class="sr-only">Filter</span>
         <%= heroicon :funnel %>
@@ -32,7 +32,7 @@
               <div class="space-y-6">
                 <%= form.collection_check_boxes(:year, Talk.pluck(:year).compact.uniq.sort, :to_s, :to_s) do |year| %>
                   <div class="flex items-center">
-                    <%= year.check_box(data: { action: "change->filters#syncCheckboxes" }, id: "filter-year-#{year.value}", class: "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500") %>
+                    <%= year.check_box(data: {action: "change->filters#syncCheckboxes"}, id: "filter-year-#{year.value}", class: "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500") %>
                     <%= label_tag "filter-mobile-year-#{year.value}", year.text, class: "ml-3 min-w-0 flex-1 text-gray-500" %>
                   </div>
                 <% end %>
@@ -54,7 +54,7 @@
             </h3>
             <div class="" data-section-target="content">
               <div class="space-y-6">
-                <% confs = Talk.includes(:event).pluck('events.id', 'events.name').uniq %>
+                <% confs = Talk.includes(:event).pluck("events.id", "events.name").uniq %>
                 <%= form.collection_check_boxes(:event_ids, confs, :first, :second) do |talk| %>
                   <div class="flex items-center">
                     <%= talk.check_box(class: "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500") %>
@@ -87,7 +87,7 @@
               <div class="space-y-6">
                 <%= form.collection_check_boxes(:years, Talk.pluck(:year).compact.uniq.sort, :to_s, :to_s) do |year| %>
                   <div class="flex items-center">
-                    <%= year.check_box(data: { action: "change->filters#syncCheckboxes" }, id: "filter-mobile-year-#{year.value}", class: "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500") %>
+                    <%= year.check_box(data: {action: "change->filters#syncCheckboxes"}, id: "filter-mobile-year-#{year.value}", class: "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500") %>
                     <%= label_tag "filter-mobile-year-#{year.value}", year.text, class: "ml-3 min-w-0 flex-1 text-gray-500" %>
                   </div>
                 <% end %>
