@@ -52,14 +52,19 @@ class Talk < ApplicationRecord
     attribute :thumbnail_sm
     attribute :thumbnail_md
     attribute :thumbnail_lg
+    attribute :year
     attribute :speaker_names do
       speakers.pluck(:name)
     end
     attribute :event_name do
       event_name
     end
-    searchable_attributes [:title, :description, :speaker_names, :event_name]
-    sortable_attributes [:title]
+    attribute :event_id do
+      event_id
+    end
+    filterable_attributes [:year, :event_id]
+    searchable_attributes [:title, :description, :speaker_names, :year, :event_name]
+    sortable_attributes [:title, :year]
 
     attributes_to_highlight ["*"]
   end

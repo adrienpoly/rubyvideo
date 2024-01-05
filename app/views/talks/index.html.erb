@@ -3,6 +3,7 @@
 
   <%= form_with url: talks_path, method: :get, data: {controller: "auto-submit", turbo_frame: "talks", turbo_action: "advance"} do |form| %>
     <%= form.search_field :q, placeholder: "Search a talk (experimental)", class: "w-full" %>
+    <%= render partial: "filters_section", locals: { form: form } %>
   <% end %>
 
   <%= turbo_frame_tag "talks", target: "_top" do %>

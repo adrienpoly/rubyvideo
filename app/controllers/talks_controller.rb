@@ -6,8 +6,8 @@ class TalksController < ApplicationController
   # GET /talks
   def index
     session[:talks_page] = params[:page] || 1
-    if params[:q].present?
-      talks = Talk.includes(:speakers, :event).pagy_search(params[:q])
+    if params[:q].present? || params[:years].present? || params[:event_ids].present?
+      talks = Talk.includes(:speakers, :event).pagy_search(params[:q], filter: filtered_params)
       @pagy, @talks = pagy_meilisearch(talks, items: 9, page: session[:talks_page]&.to_i || 1)
     else
       @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), items: 9, page: session[:talks_page]&.to_i || 1)
@@ -36,6 +36,19 @@ class TalksController < ApplicationController
   end
 
   private
+
+  # Generates filters for talks based on non-empty 'years' and 'event_ids' parameters.
+  #
+  # @return [Array<String>] Array of filters.
+  def filtered_params
+    years = params[:years].reject(&:empty?)
+    event_ids = params[:event_ids].reject(&:empty?)
+
+    filters = []
+    filters += ["year IN #{years}"] unless years.empty?
+    filters += ["event_id IN #{event_ids}"] unless event_ids.empty?
+    filters
+  end
 
   # Use callbacks to share common setup or constraints between actions.
   def set_talk
