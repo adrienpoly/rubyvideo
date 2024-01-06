@@ -62,7 +62,7 @@ class Talk < ApplicationRecord
     attribute :event_id do
       event_id
     end
-    filterable_attributes [:year, :event_id]
+    filterable_attributes [:year, :event_id, :event_name]
     searchable_attributes [:title, :description, :speaker_names, :year, :event_name]
     sortable_attributes [:title, :year]
 

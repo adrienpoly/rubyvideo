@@ -3,10 +3,6 @@ import { Controller } from '@hotwired/stimulus'
 export default class extends Controller {
   static targets = ['content', 'plus', 'minus']
 
-  connect () {
-    this.showMinusIcon()
-  }
-
   toggleVisibility () {
     this.contentTarget.classList.toggle('hidden')
     this.toggleIcons()
