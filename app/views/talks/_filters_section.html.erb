@@ -1,7 +1,7 @@
 <div class="bg-white" data-controller="filters">
   <div>
     <div class="relative z-40 lg:hidden" role="dialog">
-      <%= ui_button(class: "mt-3 mb-3", data: { action: "click->filters#toggleVisibility" }) do %>
+      <%= ui_button(class: "mt-3 mb-3", data: {action: "click->filters#toggleVisibility"}) do %>
         <%= heroicon :funnel %>
       <% end %>
       <div class="fixed inset-0 bg-black bg-opacity-25" data-filters-target="overlay"></div>
