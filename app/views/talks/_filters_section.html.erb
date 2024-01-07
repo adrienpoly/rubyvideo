@@ -4,8 +4,8 @@
       <%= ui_button(class: "mt-3 mb-3", data: {action: "click->filters#toggleVisibility"}) do %>
         <%= heroicon :funnel %>
       <% end %>
-      <div class="fixed inset-0 bg-black bg-opacity-25" data-filters-target="overlay"></div>
-      <div class="fixed inset-0 z-40 flex" data-filters-target="menu">
+      <div class="fixed inset-0 bg-black bg-opacity-25" data-filters-target="overlay" data-action="click->filters#closeVisibility"></div>
+      <div class="fixed top-0 right-0 bottom-0 z-40 flex w-64" data-filters-target="menu">
         <div class="relative ml-auto flex h-full w-full max-w-xs flex-col overflow-y-auto bg-white py-4 pb-12 shadow-xl">
           <div class="flex items-center justify-between px-4">
             <h2 class="text-lg font-medium text-gray-900">Filters</h2>
