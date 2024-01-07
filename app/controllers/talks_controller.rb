@@ -7,7 +7,7 @@ class TalksController < ApplicationController
   def index
     session[:talks_page] = params[:page] || 1
     if params[:q].present? || params[:years].present? || params[:event_ids].present?
-      talks = Talk.includes(:speakers, :event).pagy_search(params[:q], filter: filtered_params, sort: ["year:desc"])
+      talks = Talk.includes(:speakers, :event).pagy_search(params[:q], filter: filtered_params, sort: ["date:desc"])
       @pagy, @talks = pagy_meilisearch(talks, items: 9, page: session[:talks_page]&.to_i || 1)
     else
       @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), items: 9, page: session[:talks_page]&.to_i || 1)

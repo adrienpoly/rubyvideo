@@ -53,6 +53,7 @@ class Talk < ApplicationRecord
     attribute :thumbnail_md
     attribute :thumbnail_lg
     attribute :year
+    attribute :date
     attribute :speaker_names do
       speakers.pluck(:name)
     end
@@ -64,7 +65,7 @@ class Talk < ApplicationRecord
     end
     filterable_attributes [:year, :event_id, :event_name]
     searchable_attributes [:title, :description, :speaker_names, :year, :event_name]
-    sortable_attributes [:title, :year]
+    sortable_attributes [:title, :date]
 
     attributes_to_highlight ["*"]
   end
