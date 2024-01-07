@@ -206,10 +206,10 @@ GEM
       net-smtp
     marcel (1.0.2)
     matrix (0.4.2)
-    meilisearch (0.23.0)
+    meilisearch (0.26.0)
       httparty (>= 0.17.1, < 0.22.0)
-    meilisearch-rails (0.9.1)
-      meilisearch (~> 0.23.0)
+    meilisearch-rails (0.10.2)
+      meilisearch (~> 0.26.0)
     meta-tags (2.19.0)
       actionpack (>= 3.2.0, < 7.2)
     method_source (1.0.0)
@@ -441,7 +441,7 @@ DEPENDENCIES
   inline_svg (~> 1.9)
   jbuilder
   litestack
-  meilisearch-rails (~> 0.9.1)
+  meilisearch-rails (~> 0.10.2)
   meta-tags (~> 2.18)
   net-http (~> 0.3.2)
   pagy (~> 6.0)

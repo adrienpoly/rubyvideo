@@ -88,7 +88,7 @@ gem "dockerfile-rails", ">= 1.2", group: :development
 gem "litestack"
 gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
-gem "meilisearch-rails", "~> 0.9.1"
+gem "meilisearch-rails", "~> 0.10.2"
 gem "ahoy_matey", "~> 4.2"
 gem "vite_rails", "~> 3.0"
 gem "meta-tags", "~> 2.18"
