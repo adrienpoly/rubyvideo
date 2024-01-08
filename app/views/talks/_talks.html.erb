@@ -1,0 +1,9 @@
+
+<%= turbo_frame_tag "talks", target: "_top" do %>
+  <div id="talks" class="grid min-w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 gallery">
+    <%= render partial: "talks/card", collection: talks, as: :talk, cache: true %>
+  </div>
+  <div class="flex mt-4 w-full">
+    <%== pagy_nav(pagy) if pagy.pages > 1 %>
+  </div>
+<% end %>

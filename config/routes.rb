@@ -32,6 +32,9 @@ Rails.application.routes.draw do
     end
   end
   resources :talks, param: :slug, only: [:index, :show, :update, :edit] do
+    collection do
+      get "search"
+    end
     scope module: :talks do
       resources :recommendations, only: [:index]
     end

@@ -29,4 +29,10 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
     patch talk_url(@talk), params: {talk: {description: @talk.description, slug: @talk.slug, title: @talk.title, year: @talk.year}}
     assert_redirected_to talk_url(@talk)
   end
+
+  test "should perform search and return turbo_stream" do
+    get search_talks_url, params: {q: "rails", years: ["2020"], event_ids: ["1"]}
+    assert_response :success
+    assert_match(/turbo-stream/i, response.body)
+  end
 end
