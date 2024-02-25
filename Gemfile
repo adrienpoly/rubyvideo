@@ -90,7 +90,7 @@ gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
 gem "meilisearch-rails", "~> 0.9.1"
 gem "ahoy_matey", "~> 4.2"
-gem "vite_rails", "~> 3.0"
+gem "vite_rails"
 gem "meta-tags", "~> 2.18"
 
 gem "groupdate", "~> 6.2"
