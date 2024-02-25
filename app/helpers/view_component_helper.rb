@@ -5,7 +5,7 @@ module ViewComponentHelper
   }.freeze
 
   UI_HELPERS.each do |name, component|
-    define_method "ui_#{name}" do |*args, **kwargs, &block|
+    define_method :"ui_#{name}" do |*args, **kwargs, &block|
       render component.constantize.new(*args, **kwargs), &block
     end
   end
