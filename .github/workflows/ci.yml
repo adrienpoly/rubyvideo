@@ -1,4 +1,4 @@
-name: linters
+name: CI
 
 on:
   pull_request:
@@ -7,6 +7,8 @@ on:
   push:
     branches:
       - main
+      - ga-mrsk
+      - bring-back-esbuild
 
 concurrency: ci-${{ github.ref }}
 
@@ -61,8 +63,11 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build assets
-        run: bin/vite build --clear --mode=test
+      - name: Build css assets
+        run: yarn build:css
+
+      - name: Build js assets
+        run: yarn build
 
       - name: Prepare database
         run: |
@@ -73,6 +78,5 @@ jobs:
         run: |
           bin/rails test
           bin/rails test:system
-
       # - name: Smoke test database seeds
       #   run: sudo bin/rails db:reset

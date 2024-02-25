@@ -1,24 +1,15 @@
-# Name of your application. Used to uniquely configure containers.
 service: rubyvideo
 
-# Name of the container image.
 image: adrienpoly/rubyvideo
 
-# Deploy to these servers.
 servers:
   - 91.107.208.207
 
-# Credentials for your image host.
 registry:
-  # Specify the registry server, if you're not using Docker Hub
-  # server: registry.digitalocean.com / ghcr.io / ...
   username: adrienpoly
-
-  # Always use an access token rather than real password when possible.
   password:
     - KAMAL_REGISTRY_PASSWORD
 
-# Inject ENV variables into containers (secrets come from .env).
 env:
   clear:
     RUBY_YJIT_ENABLE: 1
@@ -29,21 +20,10 @@ env:
     - APPSIGNAL_PUSH_API_KEY
     - MEILI_MASTER_KEY
     - RUBYVIDEO_GITHUB_TOKEN
-# Use a different ssh user than root
 ssh:
   user: root
-# Configure builder setup.
-# builder:
-#   args:
-#     RUBY_VERSION: 3.2.0
-#   secrets:
-#     - GITHUB_TOKEN
-#   remote:
-#     arch: amd64
-#     host: ssh://app@192.168.0.1
 volumes:
   - "storage:/rails/storage"
-# Use accessory services (secrets come from .env).
 accessories:
   search:
     image: getmeili/meilisearch:v1.1
@@ -62,39 +42,7 @@ accessories:
         - MEILI_MASTER_KEY
     volumes:
       - "storage:/rails/storage"
-    # files:
-    #   - config/mysql/production.cnf:/etc/mysql/my.cnf
-    #   - db/production.sql.erb:/docker-entrypoint-initdb.d/setup.sql
-    # directories:
-    #   - data:/var/lib/mysql
-#   redis:
-#     image: redis:7.0
-#     host: 192.168.0.2
-#     port: 6379
-#     directories:
-#       - data:/data
 
-# Configure custom arguments for Traefik
-# traefik:
-#   args:
-#     accesslog: true
-#     accesslog.format: json
-# labels:
-#   traefik.tcp.routers.other.rule: "HostSNI(`*`)"
-#   traefik.tcp.routers.other.entrypoints: search
-#   traefik.tcp.services.other.loadbalancer.server.port: 7700
-# traefik:
-#   options:
-#     publish:
-#       - 80:80
-#       - "7700:7700"
-# args:
-#   entrypoints.web.address: ":80"
-#   entrypoints.otherentrypoint.address: ":7700"
-# Configure a custom healthcheck (default is /up on port 3000)
-# healthcheck:
-#   path: /healthz
-#   port: 4000
 builder:
   cache:
     type: registry

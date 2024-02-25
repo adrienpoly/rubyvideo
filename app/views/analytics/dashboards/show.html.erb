@@ -1,6 +1,6 @@
 
 <% content_for :head do %>
-  <%= vite_javascript_tag "chartkick" %>
+  <%= javascript_include_tag "chartkick", "data-turbo-track": "reload", defer: true %>
 <% end %>
 
 <div class="container flex flex-col w-full gap-4 my-8">
