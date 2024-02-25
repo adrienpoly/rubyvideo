@@ -4,4 +4,9 @@
     --vlite-controlsOpacity: 0.7;
     --vlite-controlBarBackground: linear-gradient(0deg, #000 -50%, #fff);
   }
+
+  .v-playbackRateSelect.v-controlButton {
+    color: var(--vlite-controlsColor);
+    text-align: center;
+  }
 }
