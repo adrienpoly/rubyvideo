@@ -1,4 +1,4 @@
-name: linters
+name: CI
 
 on:
   pull_request:
@@ -14,7 +14,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -23,9 +23,9 @@ jobs:
           bundler-cache: true
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: latest
           cache: yarn
 
       - name: Install dependencies
@@ -44,7 +44,7 @@ jobs:
     env:
       RAILS_ENV: test
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -53,16 +53,19 @@ jobs:
           bundler-cache: true
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: latest
           cache: yarn
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build assets
-        run: bin/vite build --clear --mode=test
+      - name: Build css assets
+        run: yarn build:css
+
+      - name: Build js assets
+        run: yarn build
 
       - name: Prepare database
         run: |
@@ -73,6 +76,5 @@ jobs:
         run: |
           bin/rails test
           bin/rails test:system
-
       # - name: Smoke test database seeds
       #   run: sudo bin/rails db:reset

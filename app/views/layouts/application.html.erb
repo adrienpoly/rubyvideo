@@ -7,9 +7,8 @@
 
     <%= display_meta_tags site: "Ruby Video" %>
 
-    <%= vite_client_tag %>
-    <%= vite_javascript_tag "application" %>
-    <%= vite_stylesheet_tag "application.css" %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
     <%= yield :head %>
   </head>
 

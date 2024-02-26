@@ -8,8 +8,9 @@
     "@hotwired/turbo-rails": "^7.3.0",
     "@tailwindcss/forms": "^0.5.3",
     "autoprefixer": "^10.4.14",
-    "chart.js": "^4.3.0",
+    "chart.js": "^4.4.0",
     "chartkick": "^5.0.1",
+    "date-fns": "^2.30.0",
     "esbuild": "^0.17.18",
     "morphdom": "^2.7.0",
     "postcss": "^8.4.23",
@@ -29,12 +30,7 @@
     "postcss-nested": "^6.0.1",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
-    "standard": "^17.1.0",
-    "stimulus-vite-helpers": "^3.0.1",
-    "vite": "^5.0.0",
-    "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-ruby": "^5.0.0",
-    "vite-plugin-stimulus-hmr": "^3.0.0"
+    "standard": "^17.1.0"
   },
   "standard": {
     "globals": [
