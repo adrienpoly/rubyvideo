@@ -66,7 +66,6 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
-  gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
   gem "ruby-lsp", require: false
   gem "ruby-lsp-rails", require: false
   gem "standardrb", "~> 1.0"
