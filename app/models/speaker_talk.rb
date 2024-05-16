@@ -7,6 +7,7 @@
 #  talk_id    :integer          not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  id         :integer          not null, primary key
 #
 # rubocop:enable Layout/LineLength
 class SpeakerTalk < ApplicationRecord
