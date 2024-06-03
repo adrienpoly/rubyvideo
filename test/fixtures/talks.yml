@@ -29,9 +29,13 @@ one:
   description: talk descritpion 1
   slug: talk-title-1
   year: 2022
+  speakers: one
+  date: 2022-01-01
 
 two:
   title: talk title 2
   description: talk descritpion 2
   slug: talk-title-2
   year: 2022
+  speakers: one
+  date: 2022-01-01

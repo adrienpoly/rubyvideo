@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Ruby Videos</title>
+    <description>A collection of talks of Ruby conferences around the world</description>
+    <link>http://www.example.com/</link>
+    <item>
+      <title>talk title 2</title>
+      <description>talk descritpion 2</description>
+      <pubDate>Sat, 1 Jan 2022 00:00:00 +0000</pubDate>
+      <link>http://www.example.com/talks/talk-title-2</link>
+      <guid>http://www.example.com/talks/talk-title-2</guid>
+    </item>
+    <item>
+      <title>talk title 1</title>
+      <description>talk descritpion 1</description>
+      <pubDate>Sat, 1 Jan 2022 00:00:00 +0000</pubDate>
+      <link>http://www.example.com/talks/talk-title-1</link>
+      <guid>http://www.example.com/talks/talk-title-1</guid>
+    </item>
+  </channel>
+</rss>

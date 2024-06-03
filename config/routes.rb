@@ -14,6 +14,9 @@ Rails.application.routes.draw do
   get "sign_up", to: "registrations#new"
   post "sign_up", to: "registrations#create"
 
+  # rss feed
+  get "feed", to: "feed#index"
+
   resources :sessions, only: [:index, :show, :destroy]
   resource :password, only: [:edit, :update]
   namespace :identity do
