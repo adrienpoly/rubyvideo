@@ -8,8 +8,8 @@
     <%= display_meta_tags site: "Ruby Video" %>
 
     <%= vite_client_tag %>
-    <%= vite_javascript_tag "application" %>
-    <%= vite_stylesheet_tag "application.css" %>
+    <%= vite_javascript_tag "application", media: "all", "data-turbo-track": "reload" %>
+    <%= vite_stylesheet_tag "application.js", media: "all", "data-turbo-track": "reload" unless ViteRuby.instance.dev_server_running? %>
     <%= yield :head %>
   </head>
 

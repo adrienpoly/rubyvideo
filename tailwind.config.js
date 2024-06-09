@@ -50,6 +50,7 @@ module.exports = {
     }
   },
   daisyui: {
+    logs: false,
     themes: [
       {
         rubyvideoLight: {
@@ -73,6 +74,6 @@ module.exports = {
     ]
   },
   plugins: [
-    require('@tailwindcss/forms'), require('daisyui')
+    require('daisyui')
   ]
 }
