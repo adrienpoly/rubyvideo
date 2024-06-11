@@ -1,25 +1,3 @@
-## This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
-
-# open the yaml file in ../data/rails_conf_2021.yml
-
-# scp root@91.107.208.207:/var/lib/docker/volumes/storage/_data/production_rubyvideo.sqlite3 /storage/backup/production_rubyvideo.sqlite3
-
-# if Rails.env.development?
-#   SpeakerTalk.delete_all
-#   Speaker.delete_all
-#   Talk.delete_all
-#   Event.delete_all
-#   Organisation.delete_all
-# end
-
 speakers = YAML.load_file("#{Rails.root}/data/speakers.yml")
 organisations = YAML.load_file("#{Rails.root}/data/organisations.yml")
 videos_to_ignore = YAML.load_file("#{Rails.root}/data/videos_to_ignore.yml")
