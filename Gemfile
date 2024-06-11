@@ -67,7 +67,6 @@ group :development do
   # gem "spring"
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
-  gem "ruby-lsp", require: false
   gem "ruby-lsp-rails", require: false
   gem "standardrb", "~> 1.0"
   gem "erb_lint", "~> 0.4.0"
@@ -88,7 +87,7 @@ gem "dockerfile-rails", ">= 1.2", group: :development
 gem "litestack"
 gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
-gem "meilisearch-rails", "~> 0.9.1"
+gem "meilisearch-rails"
 gem "ahoy_matey", "~> 4.2"
 gem "vite_rails"
 gem "meta-tags", "~> 2.18"

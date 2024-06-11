@@ -11,7 +11,7 @@ import Turn from '@domchristie/turn'
 // const channels = import.meta.globEager('./**/*_channel.js')
 
 // Example: Import a stylesheet in app/frontend/index.css
-import '../../assets/stylesheets/application.tailwind.css'
+import '../../assets/stylesheets/application.css'
 
 import '~/controllers'
 
