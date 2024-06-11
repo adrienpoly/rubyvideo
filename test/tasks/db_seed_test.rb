@@ -1,8 +1,9 @@
 require "test_helper"
 
 class DbSeedTest < ActiveSupport::TestCase
+  self.use_transactional_tests = false # don't use fixtures for this test
+
   setup do
-    @event = events(:one)
     Rails.application.load_tasks
     Rake::Task["db:environment:set"].reenable
     Rake::Task["db:schema:load"].invoke
