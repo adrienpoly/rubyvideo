@@ -21,5 +21,4 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_16_085651) do
     t.index ["key_hash", "byte_size"], name: "index_solid_cache_entries_on_key_hash_and_byte_size"
     t.index ["key_hash"], name: "index_solid_cache_entries_on_key_hash", unique: true
   end
-
 end
