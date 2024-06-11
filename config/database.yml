@@ -5,7 +5,7 @@
 #   gem "sqlite3"
 #
 default: &default
-  adapter: litedb
+  adapter: sqlite3
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 10 } %>
   timeout: 5000
 
@@ -14,11 +14,27 @@ primary: &primary
   <<: *default
   database: storage/<%= Rails.env %>_rubyvideo.sqlite3
 
+cache: &cache
+  <<: *default
+  migrations_paths: db/cache_migrate
+  database: storage/<%= Rails.env %>-cache.sqlite3
+
+queue: &queue
+  <<: *default
+  migrations_paths: db/queue_migrate
+  database: storage/<%= Rails.env %>-queue.sqlite3
+
 development:
   primary: *primary
+  cache: *cache
+  queue: *queue
 
 test:
   primary: *primary
+  cache: *cache
+  queue: *queue
 
 production:
   primary: *primary
+  cache: *cache
+  queue: *queue

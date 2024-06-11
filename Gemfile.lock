@@ -59,6 +59,9 @@ GEM
       activemodel (= 7.1.3.4)
       activesupport (= 7.1.3.4)
       timeout (>= 0.4.0)
+    activerecord-enhancedsqlite3-adapter (0.8.0)
+      activerecord (>= 7.1)
+      sqlite3 (>= 1.6)
     activestorage (7.1.3.4)
       actionpack (= 7.1.3.4)
       activejob (= 7.1.3.4)
@@ -160,6 +163,11 @@ GEM
       smart_properties
     error_highlight (0.6.0)
     erubi (1.12.0)
+    et-orbi (1.2.11)
+      tzinfo
+    fugit (1.11.0)
+      et-orbi (~> 1, >= 1.2.11)
+      raabro (~> 1.4)
     globalid (1.2.1)
       activesupport (>= 6.1)
     groupdate (6.4.0)
@@ -183,13 +191,19 @@ GEM
     json (2.7.2)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
-    litestack (0.4.4)
-      erubi (~> 1)
-      oj (~> 3)
-      rack (~> 3)
-      rackup (~> 2)
-      sqlite3 (>= 1.6.0, < 2.0.0)
-      tilt (~> 2)
+    litestream (0.10.1)
+      logfmt (>= 0.0.10)
+      sqlite3
+    litestream (0.10.1-arm64-darwin)
+      logfmt (>= 0.0.10)
+      sqlite3
+    litestream (0.10.1-x86_64-darwin)
+      logfmt (>= 0.0.10)
+      sqlite3
+    litestream (0.10.1-x86_64-linux)
+      logfmt (>= 0.0.10)
+      sqlite3
+    logfmt (0.0.10)
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -233,8 +247,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.5-x86_64-linux)
       racc (~> 1.4)
-    oj (3.16.3)
-      bigdecimal (>= 3.0)
     pagy (6.5.0)
     parallel (1.24.0)
     parser (3.3.2.0)
@@ -251,6 +263,7 @@ GEM
     public_suffix (5.0.5)
     puma (6.4.2)
       nio4r (~> 2.0)
+    raabro (1.4.0)
     racc (1.8.0)
     rack (3.1.0)
     rack-mini-profiler (3.3.1)
@@ -343,7 +356,17 @@ GEM
     sitemap_generator (6.3.0)
       builder (~> 3.0)
     smart_properties (1.17.0)
-    sorbet-runtime (0.5.11422)
+    solid_cache (0.6.0)
+      activejob (>= 7)
+      activerecord (>= 7)
+      railties (>= 7)
+    solid_queue (0.3.2)
+      activejob (>= 7.1)
+      activerecord (>= 7.1)
+      concurrent-ruby (>= 1.3.1)
+      fugit (~> 1.11.0)
+      railties (>= 7.1)
+    sorbet-runtime (0.5.11376)
     sqlite3 (1.7.3-aarch64-linux)
     sqlite3 (1.7.3-arm64-darwin)
     sqlite3 (1.7.3-x86_64-darwin)
@@ -365,7 +388,6 @@ GEM
     stringio (3.1.0)
     strscan (3.1.0)
     thor (1.3.1)
-    tilt (2.3.0)
     timeout (0.4.1)
     turbo-rails (2.0.5)
       actionpack (>= 6.0.0)
@@ -413,6 +435,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  activerecord-enhancedsqlite3-adapter
   ahoy_matey (~> 4.2)
   annotate
   appsignal (~> 3.4)
@@ -432,7 +455,7 @@ DEPENDENCIES
   groupdate (~> 6.2)
   inline_svg (~> 1.9)
   jbuilder
-  litestack
+  litestream (~> 0.10.1)
   meilisearch-rails
   meta-tags (~> 2.18)
   net-http (~> 0.3.2)
@@ -446,6 +469,9 @@ DEPENDENCIES
   ruby-lsp-rails
   selenium-webdriver
   sitemap_generator (~> 6.3)
+  solid_cache
+  solid_queue
+  sqlite3 (~> 1.4)
   standardrb (~> 1.0)
   turbo-rails
   tzinfo-data
