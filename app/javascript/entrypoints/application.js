@@ -10,9 +10,6 @@ import Turn from '@domchristie/turn'
 // // Import all channels.
 // const channels = import.meta.globEager('./**/*_channel.js')
 
-// Example: Import a stylesheet in app/frontend/index.css
-import '../../assets/stylesheets/application.css'
-
 import '~/controllers'
 
 // Page transitions
