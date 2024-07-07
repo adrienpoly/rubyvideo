@@ -1,12 +1,6 @@
 name: linters
 
-on:
-  pull_request:
-    branches:
-      - "*"
-  push:
-    branches:
-      - main
+on: [push]
 
 concurrency: ci-${{ github.ref }}
 
@@ -43,6 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       RAILS_ENV: test
+      MEILI_MASTER_KEY: masterKey
     steps:
       - uses: actions/checkout@v4
 
@@ -60,6 +55,9 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+
+      - name: Meilisearch setup with Docker
+        run: docker run -d -p 7700:7700 getmeili/meilisearch:v1.1 meilisearch --master-key=masterKey --no-analytics
 
       - name: Build assets
         run: bin/vite build --clear --mode=test

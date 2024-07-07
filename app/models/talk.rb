@@ -27,6 +27,8 @@ class Talk < ApplicationRecord
   include Sluggable
   include Suggestable
   slug_from :title
+
+  # include MeiliSearch
   include MeiliSearch::Rails
   ActiveRecord_Relation.include Pagy::Meilisearch
   extend Pagy::Meilisearch
@@ -36,11 +38,18 @@ class Talk < ApplicationRecord
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :speakers, through: :speaker_talks
 
+  serialize :transcript, coder: WebVTTSerializer
+
   # validations
   validates :title, presence: true
 
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
+
+  # jobs
+  performs :udpate_transcript!, queue_as: :low do
+    retry_on StandardError, wait: :polynomially_longer
+  end
 
   # search
   meilisearch do
@@ -117,5 +126,9 @@ class Talk < ApplicationRecord
 
   def related_talks(limit: 6)
     Talk.order("RANDOM()").excluding(self).limit(limit)
+  end
+
+  def update_transcript!
+    update!(transcript: Youtube::Transcript.get_vtt(video_id))
   end
 end
