@@ -24,6 +24,7 @@
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
+  extend ActiveJob::Performs
   include Sluggable
   include Suggestable
   slug_from :title
@@ -47,7 +48,7 @@ class Talk < ApplicationRecord
   delegate :name, to: :event, prefix: true, allow_nil: true
 
   # jobs
-  performs :udpate_transcript!, queue_as: :low do
+  performs :update_transcript!, queue_as: :low do
     retry_on StandardError, wait: :polynomially_longer
   end
 
@@ -66,6 +67,9 @@ class Talk < ApplicationRecord
     end
     attribute :event_name do
       event_name
+    end
+    attribute :transcript do
+      transcript.to_text
     end
     searchable_attributes [:title, :description, :speaker_names, :event_name]
     sortable_attributes [:title]

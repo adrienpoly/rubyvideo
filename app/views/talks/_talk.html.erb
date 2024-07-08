@@ -32,6 +32,14 @@
       <%= link_to "Show this talk", talk, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
       <%= link_to "Edit this talk", edit_talk_path(talk), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
     <% end %>
+
+    <% talk.transcript.cues.each do |cue| %>
+      <div class="flex gap-2">
+        <span><%= cue.start_time %></span>
+        <span><%= cue.text %></span>
+      </div>
+    <% end %>
+
   </div>
 <% end %>
 

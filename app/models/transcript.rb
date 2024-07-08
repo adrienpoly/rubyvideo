@@ -19,6 +19,10 @@ class Transcript
     to_h.to_json
   end
 
+  def to_text
+    @cues.map { |cue| cue.text }.join("\n\n")
+  end
+
   def to_vtt
     vtt_content = "WEBVTT\n\n"
     @cues.each_with_index do |cue, index|
