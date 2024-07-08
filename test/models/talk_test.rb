@@ -27,48 +27,13 @@ require "test_helper"
 
 class TalkTest < ActiveSupport::TestCase
   include ActiveJob::TestHelper
-  test "should serialize and deserialize transcript correctly" do
-    vtt_string = <<~VTT
-      WEBVTT
-
-      00:00.000 --> 00:05.000
-      Welcome to the talk.
-
-      00:06.000 --> 00:10.000
-      Let's get started.
-    VTT
-
-    talk = Talk.new(title: "Sample Talk", transcript: vtt_string)
-    assert talk.save
-
-    loaded_talk = Talk.find(talk.id)
-    assert_equal WebVTTSerializer.load(vtt_string), loaded_talk.transcript
-  end
-
-  test "should convert transcript to WebVTT format correctly" do
-    vtt_string = <<~VTT
-      WEBVTT
-
-      00:00.000 --> 00:05.000
-      Welcome to the talk.
-
-      00:06.000 --> 00:10.000
-      Let's get started.
-    VTT
-
-    cues = WebVTTSerializer.load(vtt_string)
-    talk = Talk.new(title: "Sample Talk", transcript: cues)
-
-    expected_vtt = WebVTTSerializer.dump(talk.transcript)
-    assert_equal vtt_string.strip, expected_vtt.strip
-  end
-
   test "should handle empty transcript" do
-    talk = Talk.new(title: "Sample Talk", transcript: [])
+    talk = Talk.new(title: "Sample Talk", transcript: Transcript.new)
     assert talk.save
 
     loaded_talk = Talk.find(talk.id)
-    assert_empty loaded_talk.transcript
+    assert_equal loaded_talk.transcript.cues, []
+    assert_equal "Sample Talk", loaded_talk.title
   end
 
   test "should update transcript" do
@@ -80,7 +45,8 @@ class TalkTest < ActiveSupport::TestCase
       end
     end
 
-    assert_not_empty @talk.transcript
-    assert @talk.transcript.length > 100
+    assert @talk.transcript.is_a?(Transcript)
+    assert @talk.transcript.cues.first.is_a?(Cue)
+    assert @talk.transcript.cues.length > 100
   end
 end

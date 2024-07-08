@@ -38,7 +38,7 @@ class Talk < ApplicationRecord
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :speakers, through: :speaker_talks
 
-  serialize :transcript, coder: WebVTTSerializer
+  serialize :transcript, coder: TranscriptSerializer
 
   # validations
   validates :title, presence: true
@@ -129,6 +129,7 @@ class Talk < ApplicationRecord
   end
 
   def update_transcript!
-    update!(transcript: Youtube::Transcript.get_vtt(video_id))
+    youtube_transcript = Youtube::Transcript.get(video_id)
+    update!(transcript: Transcript.create_from_youtube_transcript(youtube_transcript))
   end
 end

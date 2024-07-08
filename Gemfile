@@ -115,6 +115,4 @@ gem "dry-types", "~> 1.7"
 
 gem "google-protobuf", require: false
 
-gem "webvtt-ruby"
-
 gem "active_job-performs", "~> 0.3.1"
