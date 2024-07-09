@@ -1,14 +1,14 @@
-<%= content_tag :div, id: dom_id(talk) do %>
+<%= content_tag :div, id: dom_id(talk),
+                data: {
+                  controller: "video-player",
+                  video_player_poster_value: talk.thumbnail_lg,
+                  video_player_provider_value: "youtube",
+                  video_player_src_value: talk.video_id
+                } do %>
 
   <div <%= tag.attributes(
              class: "aspect-video banner-img card-horizontal-img relative",
-             style: "view-transition-name: #{dom_id(talk, :image)}",
-             data: {
-               controller: "video-player",
-               video_player_poster_value: talk.thumbnail_lg,
-               video_player_provider_value: "youtube",
-               video_player_src_value: talk.video_id
-             }
+             style: "view-transition-name: #{dom_id(talk, :image)}"
            ) %>>
 
     <%= content_tag :div, "",
@@ -35,7 +35,9 @@
 
     <% talk.transcript.cues.each do |cue| %>
       <div class="flex gap-2">
-        <span><%= cue.start_time %></span>
+        <span class="cursor-pointer" data-action="click->video-player#seekTo" data-video-player-time-param="<%= cue.start_time_in_seconds %>">
+          <%= cue.start_time %>
+        </span>
         <span><%= cue.text %></span>
       </div>
     <% end %>
