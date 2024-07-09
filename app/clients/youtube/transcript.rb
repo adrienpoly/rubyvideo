@@ -1,4 +1,4 @@
-require "message_pb"
+require "message_type"
 
 module Youtube
   class Transcript

@@ -2,6 +2,8 @@
 #
 
 Rails.application.routes.draw do
+  extend Authenticator
+
   # static pages
   get "uses", to: "page#uses"
 
@@ -13,6 +15,10 @@ Rails.application.routes.draw do
   post "sign_in", to: "sessions#create"
   get "sign_up", to: "registrations#new"
   post "sign_up", to: "registrations#create"
+
+  authenticate :admin do
+    mount MissionControl::Jobs::Engine, at: "/jobs"
+  end
 
   resources :sessions, only: [:index, :show, :destroy]
   resource :password, only: [:edit, :update]
