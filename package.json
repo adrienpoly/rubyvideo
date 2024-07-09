@@ -11,7 +11,7 @@
     "chartkick": "^5.0.1",
     "morphdom": "^2.7.0",
     "stimulus-use": "^0.52.0",
-    "vlitejs": "^5.0.2"
+    "vlitejs": "^6.0.3"
   },
   "scripts": {
     "build": "bin/vite build",

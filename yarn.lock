@@ -2540,11 +2540,6 @@ source-map-js@^1.2.0:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.0.tgz#16b809c162517b5b8c3e7dcd315a2a5c2612b2af"
   integrity sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==
 
-source-map-js@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.0.tgz#16b809c162517b5b8c3e7dcd315a2a5c2612b2af"
-  integrity sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==
-
 standard-engine@^15.0.0:
   version "15.1.0"
   resolved "https://registry.yarnpkg.com/standard-engine/-/standard-engine-15.1.0.tgz#717409a002edd13cd57f6554fdd3464d9a22a774"
@@ -2889,10 +2884,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-validate-target@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/validate-target/-/validate-target-2.0.0.tgz#b8fb4f8ccbed9503e8316d9f5d419daec82efab6"
-  integrity sha512-ELRDv4dNxEPrwavvk8OSNtyvUYZVqKIo9c3deHBxf8YhnNJMN9qtZJkW1sRCqI7gMElHWjy/AaIyJq/DdsKN2Q==
+validate-target@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/validate-target/-/validate-target-3.1.1.tgz#4a6dc9a6768aaa801f8e3d94f3fc89adc499a47e"
+  integrity sha512-MRTgeSwwI8fyNPzRi8SsZiU6LSwlsRE3cLiynyse8G82hjEkfq/setjs0D789FwKrtnDCZn7m0MHlklDPzs74g==
 
 version-guard@^1.1.1:
   version "1.1.2"
@@ -2956,12 +2951,12 @@ vite@^5.2.13:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vlitejs@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/vlitejs/-/vlitejs-5.0.2.tgz#64dffaf86d26226e6b7b7c7c74aa08519ea8f2d8"
-  integrity sha512-i+Ub6HVFDZvAkNr009IXnUQIWkDkMGpjwE8na+QdQj5g1rg9hm6zsRroJm97Y/j1ob9GxkAxyW0ysVlUByW0zA==
+vlitejs@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/vlitejs/-/vlitejs-6.0.3.tgz#4d195c38f489460995c8a3eb072e9ea53e4f1908"
+  integrity sha512-v/m95c3LkxR5AaNW0lUZiNSSECWHYIzrh+yspbsxa46Zeas2OHiiTH3VDMdrWOg4dSBku/jUcuohOhas7kwOSA==
   dependencies:
-    validate-target "^2.0.0"
+    validate-target "^3.1.1"
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
