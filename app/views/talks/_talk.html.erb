@@ -1,14 +1,14 @@
-<%= content_tag :div, id: dom_id(talk) do %>
+<%= content_tag :div, id: dom_id(talk),
+      data: {
+        controller: "video-player",
+        video_player_poster_value: talk.thumbnail_lg,
+        video_player_provider_value: "youtube",
+        video_player_src_value: talk.video_id
+      } do %>
 
   <div <%= tag.attributes(
              class: "aspect-video banner-img card-horizontal-img relative",
-             style: "view-transition-name: #{dom_id(talk, :image)}",
-             data: {
-               controller: "video-player",
-               video_player_poster_value: talk.thumbnail_lg,
-               video_player_provider_value: "youtube",
-               video_player_src_value: talk.video_id
-             }
+             style: "view-transition-name: #{dom_id(talk, :image)}"
            ) %>>
 
     <%= content_tag :div, "",
@@ -20,18 +20,29 @@
 
   <div class="py-4 flex flex-col gap-4">
     <h1><%= talk.title %></h1>
+    <div role="tablist" class="tabs tabs-lifted">
+      <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Description" checked>
+      <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+        <p><%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %></p>
 
-    <p><%= simple_format auto_link(talk.description, html: {target: "_blank"}) %></p>
+        <p class="flex">
+          <span><%= talk.event_name %></span>
+          <span><%#= talk.event_edition %></span>
+        </p>
 
-    <p class="flex">
-      <span><%= talk.event_name %></span>
-      <span><%#= talk.event_edition %></span>
-    </p>
+      </div>
+
+      <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Transcript">
+      <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+        <%= render "transcript", talk: talk %>
+      </div>
+    </div>
 
     <% if action_name != "show" %>
       <%= link_to "Show this talk", talk, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
       <%= link_to "Edit this talk", edit_talk_path(talk), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
     <% end %>
+
   </div>
 <% end %>
 

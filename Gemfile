@@ -112,3 +112,7 @@ gem "view_component", "~> 3.7"
 gem "dry-initializer-rails"
 
 gem "dry-types", "~> 1.7"
+
+gem "google-protobuf", require: false
+
+gem "active_job-performs", "~> 0.3.1"

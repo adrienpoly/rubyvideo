@@ -1,7 +1,6 @@
 import { Controller } from '@hotwired/stimulus'
-import 'vlitejs/dist/vlite.css'
 import Vlitejs from 'vlitejs'
-import VlitejsYoutube from 'vlitejs/dist/providers/youtube'
+import VlitejsYoutube from 'vlitejs/providers/youtube.js'
 
 Vlitejs.registerProvider('youtube', VlitejsYoutube)
 
@@ -28,6 +27,8 @@ export default class extends Controller {
       const playbackRateSelect = this.createPlaybackRateSelect(this.playbackRateOptions, player)
       volumeButton.parentNode.insertBefore(playbackRateSelect, volumeButton.nextSibling)
     }
+    // for seekTo to work we need to store again the player instance
+    this.player = player
   }
 
   createPlaybackRateSelect (options, player) {
@@ -45,5 +46,13 @@ export default class extends Controller {
     })
 
     return playbackRateSelect
+  }
+
+  seekTo (event) {
+    const { time } = event.params
+
+    if (time) {
+      this.player.seekTo(time)
+    }
   }
 }

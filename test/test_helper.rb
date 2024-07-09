@@ -11,6 +11,12 @@ VCR.configure do |c|
   c.ignore_hosts "chromedriver.storage.googleapis.com", "googlechromelabs.github.io", "edgedl.me.gvt1.com"
 end
 class ActiveSupport::TestCase
+  setup do
+    @@once ||= begin
+      MeiliSearch::Rails::Utilities.reindex_all_models
+      true
+    end
+  end
   # Run tests in parallel with specified workers
   parallelize(workers: :number_of_processors)
 
@@ -23,3 +29,5 @@ class ActiveSupport::TestCase
     user
   end
 end
+
+MeiliSearch::Rails::Utilities.clear_all_indexes

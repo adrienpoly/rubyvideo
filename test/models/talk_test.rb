@@ -26,7 +26,27 @@
 require "test_helper"
 
 class TalkTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  include ActiveJob::TestHelper
+  test "should handle empty transcript" do
+    talk = Talk.new(title: "Sample Talk", transcript: Transcript.new)
+    assert talk.save
+
+    loaded_talk = Talk.find(talk.id)
+    assert_equal loaded_talk.transcript.cues, []
+    assert_equal "Sample Talk", loaded_talk.title
+  end
+
+  test "should update transcript" do
+    @talk = talks(:one)
+
+    VCR.use_cassette("youtube/transcript") do
+      perform_enqueued_jobs do
+        @talk.update_transcript!
+      end
+    end
+
+    assert @talk.transcript.is_a?(Transcript)
+    assert @talk.transcript.cues.first.is_a?(Cue)
+    assert @talk.transcript.cues.length > 100
+  end
 end
