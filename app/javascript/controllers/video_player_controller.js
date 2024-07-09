@@ -1,7 +1,6 @@
 import { Controller } from '@hotwired/stimulus'
-import 'vlitejs/dist/vlite.css'
 import Vlitejs from 'vlitejs'
-import VlitejsYoutube from 'vlitejs/dist/providers/youtube'
+import VlitejsYoutube from 'vlitejs/providers/youtube.js'
 
 Vlitejs.registerProvider('youtube', VlitejsYoutube)
 
