@@ -33,14 +33,7 @@
       <%= link_to "Edit this talk", edit_talk_path(talk), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
     <% end %>
 
-    <% talk.transcript.cues.each do |cue| %>
-      <div class="flex gap-2">
-        <span class="cursor-pointer" data-action="click->video-player#seekTo" data-video-player-time-param="<%= cue.start_time_in_seconds %>">
-          <%= cue.start_time %>
-        </span>
-        <span><%= cue.text %></span>
-      </div>
-    <% end %>
+    <%= render "transcript", talk: talk %>
 
   </div>
 <% end %>
