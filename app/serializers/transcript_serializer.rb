@@ -9,7 +9,7 @@ class TranscriptSerializer
 
     cues_array = JSON.parse(transcript_json, symbolize_names: true)
     cues_array.each do |cue_hash|
-      transcript.add_cue(Cue.new(cue_hash[:start_time], cue_hash[:end_time], cue_hash[:text]))
+      transcript.add_cue(Cue.new(start_time: cue_hash[:start_time], end_time: cue_hash[:end_time], text: cue_hash[:text]))
     end
     transcript
   end

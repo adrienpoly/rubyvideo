@@ -3,8 +3,8 @@ class Transcript
 
   attr_reader :cues
 
-  def initialize
-    @cues = []
+  def initialize(cues: [])
+    @cues = cues
   end
 
   def add_cue(cue)
@@ -32,6 +32,10 @@ class Transcript
     vtt_content
   end
 
+  def presence
+    @cues.any? ? self : nil
+  end
+
   def each(&)
     @cues.each(&)
   end
@@ -46,10 +50,10 @@ class Transcript
           start_time = format_time(segment["startMs"].to_i)
           end_time = format_time(segment["endMs"].to_i)
           text = segment.dig("snippet", "runs")&.map { |run| run["text"] }&.join || ""
-          transcript.add_cue(Cue.new(start_time, end_time, text))
+          transcript.add_cue(Cue.new(start_time: start_time, end_time: end_time, text: text))
         end
       else
-        transcript.add_cue(Cue.new("00:00:00.000", "00:00:00.000", "NOTE No transcript data available"))
+        transcript.add_cue(Cue.new(start_time: "00:00:00.000", end_time: "00:00:00.000", text: "NOTE No transcript data available"))
       end
       transcript
     end

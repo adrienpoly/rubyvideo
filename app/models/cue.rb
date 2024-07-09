@@ -1,7 +1,7 @@
 class Cue
   attr_reader :start_time, :end_time, :text
 
-  def initialize(start_time, end_time, text)
+  def initialize(start_time:, end_time:, text:)
     @start_time = start_time
     @end_time = end_time
     @text = text
