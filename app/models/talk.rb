@@ -3,24 +3,26 @@
 #
 # Table name: talks
 #
-#  id             :integer          not null, primary key
-#  title          :string           default(""), not null
-#  description    :text             default(""), not null
-#  slug           :string           default(""), not null
-#  video_id       :string           default(""), not null
-#  video_provider :string           default(""), not null
-#  thumbnail_sm   :string           default(""), not null
-#  thumbnail_md   :string           default(""), not null
-#  thumbnail_lg   :string           default(""), not null
-#  year           :integer
-#  created_at     :datetime         not null
-#  updated_at     :datetime         not null
-#  event_id       :integer
-#  thumbnail_xs   :string           default(""), not null
-#  thumbnail_xl   :string           default(""), not null
-#  date           :date
-#  like_count     :integer
-#  view_count     :integer
+#  id                  :integer          not null, primary key
+#  title               :string           default(""), not null
+#  description         :text             default(""), not null
+#  slug                :string           default(""), not null
+#  video_id            :string           default(""), not null
+#  video_provider      :string           default(""), not null
+#  thumbnail_sm        :string           default(""), not null
+#  thumbnail_md        :string           default(""), not null
+#  thumbnail_lg        :string           default(""), not null
+#  year                :integer
+#  created_at          :datetime         not null
+#  updated_at          :datetime         not null
+#  event_id            :integer
+#  thumbnail_xs        :string           default(""), not null
+#  thumbnail_xl        :string           default(""), not null
+#  date                :date
+#  like_count          :integer
+#  view_count          :integer
+#  raw_transcript      :text
+#  enhanced_transcript :text             default(#<Transcript:0x000000017393e0d0 @cues=[]>), not null
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
@@ -39,7 +41,8 @@ class Talk < ApplicationRecord
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :speakers, through: :speaker_talks
 
-  serialize :transcript, coder: TranscriptSerializer
+  serialize :enhanced_transcript, coder: TranscriptSerializer
+  serialize :raw_transcript, coder: TranscriptSerializer
 
   # validations
   validates :title, presence: true
@@ -48,7 +51,7 @@ class Talk < ApplicationRecord
   delegate :name, to: :event, prefix: true, allow_nil: true
 
   # jobs
-  performs :update_transcript!, queue_as: :low do
+  performs :fetch_and_update_raw_transcript!, queue_as: :low do
     retry_on StandardError, wait: :polynomially_longer
   end
 
@@ -132,8 +135,12 @@ class Talk < ApplicationRecord
     Talk.order("RANDOM()").excluding(self).limit(limit)
   end
 
-  def update_transcript!
+  def transcript
+    enhanced_transcript.presence || raw_transcript
+  end
+
+  def fetch_and_update_raw_transcript!
     youtube_transcript = Youtube::Transcript.get(video_id)
-    update!(transcript: Transcript.create_from_youtube_transcript(youtube_transcript))
+    update!(raw_transcript: Transcript.create_from_youtube_transcript(youtube_transcript))
   end
 end
