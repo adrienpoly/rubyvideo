@@ -71,7 +71,7 @@ class Talk < ApplicationRecord
     attribute :transcript do
       transcript.to_text
     end
-    searchable_attributes [:title, :description, :speaker_names, :event_name]
+    searchable_attributes [:title, :description, :speaker_names, :event_name, :transcript]
     sortable_attributes [:title]
 
     attributes_to_highlight ["*"]
