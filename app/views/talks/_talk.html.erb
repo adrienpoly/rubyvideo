@@ -1,10 +1,10 @@
 <%= content_tag :div, id: dom_id(talk),
-                data: {
-                  controller: "video-player",
-                  video_player_poster_value: talk.thumbnail_lg,
-                  video_player_provider_value: "youtube",
-                  video_player_src_value: talk.video_id
-                } do %>
+      data: {
+        controller: "video-player",
+        video_player_poster_value: talk.thumbnail_lg,
+        video_player_provider_value: "youtube",
+        video_player_src_value: talk.video_id
+      } do %>
 
   <div <%= tag.attributes(
              class: "aspect-video banner-img card-horizontal-img relative",
@@ -42,7 +42,6 @@
       <%= link_to "Show this talk", talk, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
       <%= link_to "Edit this talk", edit_talk_path(talk), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
     <% end %>
-
 
   </div>
 <% end %>
