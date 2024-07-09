@@ -29,8 +29,8 @@ class Organisation < ApplicationRecord
   validates :name, presence: true
 
   # enums
-  enum kind: {conference: 0, meetup: 1}
-  enum frequency: {unknown: 0, yearly: 1, monthly: 2}
+  enum :kind, {conference: 0, meetup: 1}
+  enum :frequency, {unknown: 0, yearly: 1, monthly: 2}
 
   def edition
     "#{name} 2022"

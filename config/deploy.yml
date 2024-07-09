@@ -22,7 +22,7 @@ registry:
 env:
   clear:
     RUBY_YJIT_ENABLE: 1
-    WEB_CONCURRENCY: 2
+    WEB_CONCURRENCY: 4
     RAILS_MAX_THREADS: 3
   secret:
     - RAILS_MASTER_KEY
