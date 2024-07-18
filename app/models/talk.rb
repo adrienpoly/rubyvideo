@@ -27,6 +27,7 @@
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
   extend ActiveJob::Performs
+  include Talk::TranscriptCommands
   include Sluggable
   include Suggestable
   slug_from :title
@@ -41,19 +42,11 @@ class Talk < ApplicationRecord
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :speakers, through: :speaker_talks
 
-  serialize :enhanced_transcript, coder: TranscriptSerializer
-  serialize :raw_transcript, coder: TranscriptSerializer
-
   # validations
   validates :title, presence: true
 
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
-
-  # jobs
-  performs :fetch_and_update_raw_transcript!, queue_as: :low do
-    retry_on StandardError, wait: :polynomially_longer
-  end
 
   # search
   meilisearch do
@@ -137,10 +130,5 @@ class Talk < ApplicationRecord
 
   def transcript
     enhanced_transcript.presence || raw_transcript
-  end
-
-  def fetch_and_update_raw_transcript!
-    youtube_transcript = Youtube::Transcript.get(video_id)
-    update!(raw_transcript: Transcript.create_from_youtube_transcript(youtube_transcript))
   end
 end

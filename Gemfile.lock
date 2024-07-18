@@ -163,6 +163,14 @@ GEM
     erubi (1.13.0)
     et-orbi (1.2.11)
       tzinfo
+    event_stream_parser (1.0.0)
+    faraday (2.10.0)
+      faraday-net_http (>= 2.0, < 3.2)
+      logger
+    faraday-multipart (1.0.4)
+      multipart-post (~> 2)
+    faraday-net_http (3.1.0)
+      net-http
     fugit (1.11.0)
       et-orbi (~> 1, >= 1.2.11)
       raabro (~> 1.4)
@@ -203,6 +211,7 @@ GEM
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     json (2.7.2)
+    json-repair (0.2.0)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
     litestream (0.10.4)
@@ -246,6 +255,7 @@ GEM
     msgpack (1.7.2)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
+    multipart-post (2.4.1)
     net-http (0.3.2)
       uri
     net-imap (0.4.14)
@@ -367,6 +377,10 @@ GEM
       sorbet-runtime (>= 0.5.10782)
     ruby-lsp-rails (0.3.8)
       ruby-lsp (>= 0.17.2, < 0.18.0)
+    ruby-openai (7.1.0)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
     safely_block (0.4.0)
@@ -486,6 +500,7 @@ DEPENDENCIES
   groupdate (~> 6.2)
   inline_svg (~> 1.9)
   jbuilder
+  json-repair (~> 0.2.0)
   litestream (~> 0.10.1)
   meilisearch-rails
   meta-tags (~> 2.18)
@@ -499,6 +514,7 @@ DEPENDENCIES
   rails-controller-testing
   rails_autolink (~> 1.1)
   ruby-lsp-rails
+  ruby-openai
   selenium-webdriver
   sitemap_generator (~> 6.3)
   solid_cache

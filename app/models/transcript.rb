@@ -58,6 +58,14 @@ class Transcript
       transcript
     end
 
+    def create_from_json(json)
+      transcript = Transcript.new
+      json.each do |cue_hash|
+        transcript.add_cue(Cue.new(start_time: cue_hash["start_time"], end_time: cue_hash["end_time"], text: cue_hash["text"]))
+      end
+      transcript
+    end
+
     def format_time(ms)
       hours = ms / (1000 * 60 * 60)
       minutes = (ms % (1000 * 60 * 60)) / (1000 * 60)
