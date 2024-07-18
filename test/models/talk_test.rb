@@ -64,6 +64,7 @@ class TalkTest < ActiveSupport::TestCase
   test "enhance talk transcript" do
     @talk = talks(:one)
     transcript = Transcript.new
+    # standard:disable Layout/LineLength
     cues_data = [
       ["00:00:15.280", "00:00:21.320", "so nice to be here with you thank you all for coming so uh my name is uh"],
       ["00:00:21.320", "00:00:27.800", "yaroslav I'm from Ukraine you might know me from my blog or from my super Al"],
@@ -86,6 +87,7 @@ class TalkTest < ActiveSupport::TestCase
       ["00:01:27.960", "00:01:35.000", "so yeah um it is uh just 2 and a half months ago in uh France and uh today we"],
       ["00:01:35.000", nil, "are going to talk about hot fire"]
     ]
+    # standard:enable Layout/LineLength
 
     cues_data.each do |start_time, end_time, text|
       end_time ||= start_time # If end_time is nil, set it to the same as start_time
