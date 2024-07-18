@@ -28,6 +28,7 @@
 class Talk < ApplicationRecord
   extend ActiveJob::Performs
   include Talk::TranscriptCommands
+  include Talk::SummaryCommands
   include Sluggable
   include Suggestable
   slug_from :title
