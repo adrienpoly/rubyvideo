@@ -30,4 +30,8 @@ class Cue
     seconds = parts[2]
     (hours + minutes + seconds).to_i
   end
+
+  def sound_descriptor?
+    text.match?(/\[(music|sound|audio|applause|laughter|speech|voice|speeches|voices)\]/i)
+  end
 end
