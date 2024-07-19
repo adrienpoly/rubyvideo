@@ -9,7 +9,7 @@ default: &default
         # schedule: every day at 1am EST
   workers:
     - queues: "*"
-      threads: 3
+      threads: 5
       processes: 1
       polling_interval: 0.1
 
