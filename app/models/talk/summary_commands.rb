@@ -13,7 +13,7 @@ module Talk::SummaryCommands
       parameters: {
         model: "gpt-4o-mini", # Required.
         response_format: {type: "json_object"},
-        messages: messages
+        messages: create_summary_messages
       }
     )
 
@@ -23,14 +23,14 @@ module Talk::SummaryCommands
 
   private
 
-  def messages
+  def create_summary_messages
     [
       {role: "system", content: "You are a helpful assistant skilled in processing and summarizing transcripts."},
-      {role: "user", content: prompt}
+      {role: "user", content: create_summary_prompt}
     ]
   end
 
-  def prompt
+  def create_summary_prompt
     <<~PROMPT
       You are tasked with creating a summary of a video based on its transcript and metadata. Follow these steps carefully:
 

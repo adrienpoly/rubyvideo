@@ -25,7 +25,7 @@ module Talk::TranscriptCommands
       parameters: {
         model: "gpt-4o-mini", # Required.
         response_format: {type: "json_object"},
-        messages: messages
+        messages: enhance_transcript_messages
       }
     )
     raw_response = JSON.repair(response.dig("choices", 0, "message", "content"))
@@ -35,14 +35,14 @@ module Talk::TranscriptCommands
 
   private
 
-  def messages
+  def enhance_transcript_messages
     [
       {role: "system", content: "You are a helpful assistant skilled in processing and summarizing transcripts."},
-      {role: "user", content: prompt}
+      {role: "user", content: enhance_transcript_prompt}
     ]
   end
 
-  def prompt
+  def enhance_transcript_prompt
     <<~PROMPT
       You are tasked with improving and formatting a raw VTT transcript. Your goal is to correct and enhance the text, organize it into paragraphs, and format it into a specific JSON structure. Follow these instructions carefully to complete the task.
 
@@ -65,7 +65,7 @@ module Talk::TranscriptCommands
       5. For each paragraph, use the start time of its first sentence as the paragraph's start time, and the end time of its last sentence as the paragraph's end time.
 
       6. Format the improved transcript into a JSON structure using this schema:
-        [{start_time: "00:00:00", end_time: "00:00:05", text: "Hello, world!"},...]
+      {"transcript": [{start_time: "00:00:00", end_time: "00:00:05", text: "Hello, world!"},...]}
 
       Here is the raw VTT transcript to process:
 
