@@ -1,7 +1,7 @@
 class Cue
   attr_reader :start_time, :end_time, :text
 
-  def initialize(start_time, end_time, text)
+  def initialize(start_time:, end_time:, text:)
     @start_time = start_time
     @end_time = end_time
     @text = text
@@ -29,5 +29,9 @@ class Cue
     minutes = parts[1] * 60
     seconds = parts[2]
     (hours + minutes + seconds).to_i
+  end
+
+  def sound_descriptor?
+    text.match?(/\[(music|sound|audio|applause|laughter|speech|voice|speeches|voices)\]/i)
   end
 end

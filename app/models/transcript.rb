@@ -3,8 +3,8 @@ class Transcript
 
   attr_reader :cues
 
-  def initialize
-    @cues = []
+  def initialize(cues: [])
+    @cues = cues
   end
 
   def add_cue(cue)
@@ -32,6 +32,10 @@ class Transcript
     vtt_content
   end
 
+  def presence
+    @cues.any? ? self : nil
+  end
+
   def each(&)
     @cues.each(&)
   end
@@ -40,16 +44,21 @@ class Transcript
     def create_from_youtube_transcript(youtube_transcript)
       transcript = Transcript.new
       events = youtube_transcript.dig("actions", 0, "updateEngagementPanelAction", "content", "transcriptRenderer", "content", "transcriptSearchPanelRenderer", "body", "transcriptSegmentListRenderer", "initialSegments")
-      if events
-        events.each do |event|
-          segment = event["transcriptSegmentRenderer"]
-          start_time = format_time(segment["startMs"].to_i)
-          end_time = format_time(segment["endMs"].to_i)
-          text = segment.dig("snippet", "runs")&.map { |run| run["text"] }&.join || ""
-          transcript.add_cue(Cue.new(start_time, end_time, text))
-        end
-      else
-        transcript.add_cue(Cue.new("00:00:00.000", "00:00:00.000", "NOTE No transcript data available"))
+      events.each do |event|
+        segment = event["transcriptSegmentRenderer"]
+        start_time = format_time(segment["startMs"].to_i)
+        end_time = format_time(segment["endMs"].to_i)
+        text = segment.dig("snippet", "runs")&.map { |run| run["text"] }&.join || ""
+        transcript.add_cue(Cue.new(start_time: start_time, end_time: end_time, text: text))
+      end
+      transcript
+    end
+
+    def create_from_json(json)
+      transcript = Transcript.new
+      json.map(&:symbolize_keys!)
+      json.each do |cue_hash|
+        transcript.add_cue(Cue.new(start_time: cue_hash[:start_time], end_time: cue_hash[:end_time], text: cue_hash[:text]))
       end
       transcript
     end

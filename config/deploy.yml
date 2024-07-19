@@ -29,6 +29,8 @@ env:
     - APPSIGNAL_PUSH_API_KEY
     - MEILI_MASTER_KEY
     - RUBYVIDEO_GITHUB_TOKEN
+    - OPENAI_ORGANIZATION_ID
+    - OPENAI_ACCESS_TOKEN
 # Use a different ssh user than root
 ssh:
   user: root
