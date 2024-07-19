@@ -3,7 +3,7 @@ module Talk::SummaryCommands
 
   included do
     # jobs
-    performs :create_summary, queue_as: :low do
+    performs :create_summary!, queue_as: :low do
       retry_on StandardError, attempts: 1
     end
   end
