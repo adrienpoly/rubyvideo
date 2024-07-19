@@ -53,22 +53,15 @@ class Talk < ApplicationRecord
   meilisearch do
     attribute :title
     attribute :description
-    attribute :slug
-    attribute :video_id
-    attribute :video_provider
-    attribute :thumbnail_sm
-    attribute :thumbnail_md
-    attribute :thumbnail_lg
+    attribute :summary
     attribute :speaker_names do
       speakers.pluck(:name)
     end
     attribute :event_name do
       event_name
     end
-    attribute :transcript do
-      transcript.to_text
-    end
-    searchable_attributes [:title, :description, :speaker_names, :event_name, :transcript]
+
+    searchable_attributes [:title, :description, :speaker_names, :event_name, :summary]
     sortable_attributes [:title]
 
     attributes_to_highlight ["*"]
