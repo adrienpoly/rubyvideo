@@ -124,3 +124,5 @@ gem "active_job-performs", "~> 0.3.1"
 gem "ruby-openai"
 
 gem "json-repair", "~> 0.2.0"
+
+gem "redcarpet", "~> 3.6"

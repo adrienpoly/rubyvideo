@@ -30,7 +30,7 @@
             by <%= talk.speakers.map(&:name).to_sentence %>
           </div>
 
-          <div><%= simple_format talk.summary, class: "mb-4" %></div>
+          <div class="markdown"><%= markdown_to_html(talk.summary) %></div>
         </div>
       <% end %>
 

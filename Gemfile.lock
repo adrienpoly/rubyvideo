@@ -350,6 +350,7 @@ GEM
       logger
     rdoc (6.7.0)
       psych (>= 4.0.0)
+    redcarpet (3.6.0)
     regexp_parser (2.9.2)
     reline (0.5.9)
       io-console (~> 0.5)
@@ -514,6 +515,7 @@ DEPENDENCIES
   rails (~> 7.2.0.beta2)
   rails-controller-testing
   rails_autolink (~> 1.1)
+  redcarpet (~> 3.6)
   ruby-lsp-rails
   ruby-openai
   selenium-webdriver
