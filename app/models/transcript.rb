@@ -56,8 +56,9 @@ class Transcript
 
     def create_from_json(json)
       transcript = Transcript.new
+      json.map(&:symbolize_keys!)
       json.each do |cue_hash|
-        transcript.add_cue(Cue.new(start_time: cue_hash["start_time"], end_time: cue_hash["end_time"], text: cue_hash["text"]))
+        transcript.add_cue(Cue.new(start_time: cue_hash[:start_time], end_time: cue_hash[:end_time], text: cue_hash[:text]))
       end
       transcript
     end

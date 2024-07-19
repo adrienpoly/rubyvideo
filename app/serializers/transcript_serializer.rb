@@ -1,5 +1,7 @@
 class TranscriptSerializer
   def self.dump(transcript)
+    raise "Transcript is not a valid object" unless transcript.is_a?(Transcript)
+
     transcript.to_json
   end
 
