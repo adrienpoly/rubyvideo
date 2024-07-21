@@ -21,6 +21,7 @@ MeiliSearch::Rails.deactivate! do
       org.kind = organisation["kind"]
       org.frequency = organisation["frequency"]
       org.youtube_channel_id = organisation["youtube_channel_id"]
+      org.slug = organisation["slug"]
       # org.language = organisation["language"]
     end
 
@@ -31,6 +32,8 @@ MeiliSearch::Rails.deactivate! do
       next if event
 
       event = Event.create!(name: event_data["title"], date: event_data["published_at"], organisation: organisation)
+
+      event.update!(slug: event_data["slug"])
 
       puts event.slug unless Rails.env.test?
       talks = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/#{event.slug}/videos.yml")

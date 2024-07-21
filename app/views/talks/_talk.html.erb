@@ -21,7 +21,20 @@
   <div class="py-4 flex flex-col gap-4">
     <h1><%= talk.title %></h1>
     <div role="tablist" class="tabs tabs-lifted">
-      <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Description" checked>
+
+      <% if talk.summary.present? %>
+        <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Summary" checked>
+        <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+          <div class="my-4">
+            <h2><%= talk.title %></h2>
+            by <%= talk.speakers.map(&:name).to_sentence %>
+          </div>
+
+          <div class="markdown"><%= markdown_to_html(talk.summary) %></div>
+        </div>
+      <% end %>
+
+      <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Description" <%= "checked" if talk.summary.blank? %>>
       <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
         <p><%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %></p>
 
@@ -32,7 +45,7 @@
 
       </div>
 
-      <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Transcript">
+      <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Transcript">
       <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
         <%= render "transcript", talk: talk %>
       </div>
