@@ -82,6 +82,8 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
     t.string "youtube_channel_id", default: "", null: false
     t.string "youtube_channel_name", default: "", null: false
     t.string "slug", default: "", null: false
+    t.string "twitter", default: "", null: false
+    t.string "language", default: "", null: false
     t.index ["frequency"], name: "index_organisations_on_frequency"
     t.index ["kind"], name: "index_organisations_on_kind"
     t.index ["name"], name: "index_organisations_on_name"

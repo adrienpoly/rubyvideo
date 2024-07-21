@@ -1,0 +1,20 @@
+---
+- id: PL4jngagx9f7TIyNkSkS15oDrVPCa7LXsT
+  title: Helvetic Ruby 2023
+  description: Talks from the 2023 edition of Helvetic Ruby, a local Ruby conference in Switzerland.
+  published_at: '2023-12-01'
+  channel_id: UChetoakh7nU0EXrKN8QFUUA
+  year: '2023'
+  videos_count: 13
+  metadata_parser: Youtube::VideoMetadata
+  slug: helveticruby-2023
+
+- id: PL4jngagx9f7RGaAjXE0PR3z_jsA9cyCji
+  title: Helvetic Ruby 2024
+  description: Talks from the 2024 edition of Helvetic Ruby, a local Ruby conference in Switzerland.
+  published_at: '2024-06-04'
+  channel_id: UChetoakh7nU0EXrKN8QFUUA
+  year: '2024'
+  videos_count: 13
+  metadata_parser: Youtube::VideoMetadata
+  slug: helveticruby-2024

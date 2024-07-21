@@ -31,3 +31,23 @@
   slug: rubyconf
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+- name: Friendly.rb
+  website: https://friendlyrb.com/
+  twitter: friendlyrb
+  slug: friendly-rb
+  youtube_channel_name: friendlyrb
+  youtube_channel_id: UC-PJCpt-6EgR4Ks6e0RSs1g # This is optional
+  kind: conference # Choose either 'conference' or 'meetup'
+  frequency: yearly # Specify if it's 'yearly' or 'monthly'
+  language: english # Default language of the talks from this conference
+- name: Helvetic Ruby
+  website: https://helvetic-ruby.ch
+  twitter: helvetic_ruby
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code:
+  youtube_channel_name: HelveticRuby
+  slug: helveticruby
+  language: english
+  youtube_channel_id: UChetoakh7nU0EXrKN8QFUUA
