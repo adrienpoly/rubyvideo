@@ -1,12 +1,12 @@
 ---
-# edit this file to add your conference
-- name: RubyConf AU
-  website: https://www.rubyconf.org.au/
-  twitter: rubyconf_au
-  kind: conference # conference, meetup
-  frequency: yearly # yearly, monthly
-  playlist_matcher: # leave empty if the channel has only one event, otherwise use a regex to match the playlist name
-  default_country_code: AU
-  youtube_channel_name: RubyAustralia
-  slug: rubyconf-au
+- name: RailsWorld
+  website: https://rubyonrails.org/world
+  twitter: rails
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code:
+  youtube_channel_name: railsofficial
+  slug: railsworld
   language: english
+  youtube_channel_id: UC9zbLaqReIdoFfzdUbh13Nw

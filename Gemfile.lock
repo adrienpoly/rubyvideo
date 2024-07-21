@@ -181,6 +181,9 @@ GEM
     google-protobuf (4.27.2-arm64-darwin)
       bigdecimal
       rake (>= 13)
+    google-protobuf (4.27.2-x86_64-linux)
+      bigdecimal
+      rake (>= 13)
     groupdate (6.4.0)
       activesupport (>= 6.1)
     hashdiff (1.1.0)
@@ -208,6 +211,9 @@ GEM
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
     litestream (0.10.4-arm64-darwin)
+      logfmt (>= 0.0.10)
+      sqlite3
+    litestream (0.10.4-x86_64-linux)
       logfmt (>= 0.0.10)
       sqlite3
     logfmt (0.0.10)
@@ -253,6 +259,8 @@ GEM
       net-protocol
     nio4r (2.7.3)
     nokogiri (1.16.6-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.6-x86_64-linux)
       racc (~> 1.4)
     pagy (6.5.0)
     parallel (1.25.1)
@@ -384,6 +392,7 @@ GEM
       railties (>= 7.1)
     sorbet-runtime (0.5.11475)
     sqlite3 (2.0.2-arm64-darwin)
+    sqlite3 (2.0.2-x86_64-linux-gnu)
     standard (1.39.1)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
@@ -446,6 +455,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   active_job-performs (~> 0.3.1)

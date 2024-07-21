@@ -2,25 +2,92 @@
 
 This guide provides steps on how to contribute new videos to the platform. If you wish to make a contribution, please submit a Pull Request (PR) with the necessary information detailed below.
 
-### Organization
+There are a few scripts available to help you build those data files by scraping the Youtube API. To use them, you must first create a Youtube API Key and add it to your .env file. Here are the guidlines to get a key https://developers.google.com/youtube/registering_an_application
 
-Firstly, the organization associated with the videos needs to be added to [organisations.yml](/data/organisations.yml). Here is a typical example using Railsconf as a reference:
+```
+YOUTUBE_API_KEY=some_key
+```
+
+## Proposed Workflow
+
+The proposed workflow is to create the data files in the `/data_preparation` folder using the scripts. Once you have validated those files and eventually cleaned a few errors, you can copy them to `/data` and open a PR with that content.
+
+### Step 1 - Prepare the Organization
+
+Everything starts with an organization. An organization is the entity organizing the events.
+
+Add the following information to the `data_preparation/organisations.yml` file:
 
 ```yml
 - name: Railsconf
   website: https://railsconf.org/
   twitter: railsconf
-  slug: railsconf
   youtube_channel_name: confreaks
-  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ # This is optional
   kind: conference # Choose either 'conference' or 'meetup'
-  frequency: yearly # Specify if it's 'yearly' or 'monthly'
+  frequency: yearly # Specify if it's 'yearly' or 'monthly'; if you need something else, open a PR with this new frequency
   language: english # Default language of the talks from this conference
+  default_country_code: AU # default country to be assigned to the associated events
 ```
 
-### Playlist
+Then run this script:
 
-For each organisation create a folder using the slug
+```bash
+rails runner script/prepare_organisations.rb
+```
+
+This will update your `data_preparation/organisations.yml` file with the youtube_channel_id information.
+
+### Step 2 - Create the Playlists
+
+This workflow assumes the Youtube channel is organized by playlist with 1 event equating to 1 playlist. Run the following script to create the playlist file:
+
+```
+rails runner script/create_playlists.rb
+```
+
+You will end up with a data structure like this:
+
+```
+data/
+├── organisations.yml
+├── railsconf
+    └── playlists.yml
+```
+
+At this point, go through the `playlists.yml` and perform a bit of verification and editing:
+
+- Add missing descriptions.
+- Ensure all playlists are relevant.
+- Ensure the year is correct.
+
+**Multi-Events Channels**
+
+Some YouTube channels will host multiple conferences. For example, RubyCentral hosts Rubyconf and RailsConf. To cope with that, you can specify in the organization a regex to filter the playlists of this channel. The regex is case insensitive.
+
+Here is an example for RailsConf/RubyConf:
+
+```yml
+- name: RailsConf
+  youtube_channel_name: confreaks
+  playlist_matcher: rails # will only select the playlist where there title match rails
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+  ...
+- name: RubyConf
+  youtube_channel_name: confreaks
+  playlist_matcher: ruby # will only select the playlist where there title match ruby
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+  ...
+```
+
+### Step 3 - Create the Videos
+
+Once your playlists are currated, you can run the next script to extract the video information. It will iterate the playlist and extract all videos.
+
+```bash
+rails runner script/extract_videos.rb
+```
+
+At this point you have this structure
 
 ```
 data/
@@ -34,28 +101,20 @@ data/
 ├── speakers.yml
 ```
 
-In this folder add a `playlists.yml` file with all the playlist for this event. Typically a playlist on Youtube will group all the video from one edition.
-
-### Videos
-
-For each play list create a directory with the slug of the playlist and add a videos.yml file.
-
-Inside this file you should have videos listed like that.
+To extract a maximum of information from the Youbute metadata, the raw video information is parsed by a class `Youtube::VideoMetadata`. This class will try to extract speakers from the title. This is the default parser but sometime the speakers ar you can create a new class and specify it in the `playlists.yml` file.
 
 ```yml
-- title: Security is hard, but we can't go shopping
-  speakers:
-    - André Arko
-  published_at: "2013-06-25"
-  description: |-
-    The last few months have been pretty brutal for anyone who depends on Ruby libraries in production. Ruby is really popular now, and that's exciting! But it also means that we are now square in the crosshairs of security researchers, whether whitehat, blackhat, or some other hat. Only the Ruby and Rails core teams have meaningful experience with vulnerabilites so far. It won't last. Vulnerabilities are everywhere, and handling security issues responsibly is critical if we want Ruby (and Rubyists) to stay in high demand.
-    Using Bundler's first CVE as a case study, I'll discuss responsible disclosure, as well as repsonsible ownership of your own code. How do you know if a bug is a security issue, and how do you report it without tipping off someone malicious? As a Rubyist, you probably have at least one library of your own. How do you handle security issues, and fix them without compromising apps running on the old code? Don't let your site get hacked, or worse yet, let your project allow someone else's site to get hacked! Learn from the hard-won wisdom of the security community so that we won't repeat the mistakes of others.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGba/
-  video_id: tV7IPygjseI
-  video_provider: youtube
+- id: PL9_jjLrTYxc2uUcqG2wjZ1ppt-TkFG-gm
+  title: RubyConf AU 2015
+  description: ""
+  published_at: "2017-05-20"
+  channel_id: UCr38SHAvOKMDyX3-8lhvJHA
+  year: "2015"
+  videos_count: 21
+  slug: rubyconf-au-2015
+  metadata_parser: "Youtube::VideoMetadata::RubyConfAu" # custom parser
 ```
 
-If there are any issues or uncertainties, feel free to raise them during the PR process. We appreciate your contribution and look forward to expanding the video content.
+### Step 4 - move the data
+
+Once the data is prepared you can move it to the main `/data` folder
