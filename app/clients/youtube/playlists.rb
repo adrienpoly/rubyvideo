@@ -1,5 +1,6 @@
 module Youtube
   class Playlists < Youtube::Client
+    DEFAULT_METADATA_PARSER = "Youtube::VideoMetadata"
     def all(channel_id:, title_matcher: nil)
       items = all_items("/playlists", query: {channelId: channel_id, part: "snippet,contentDetails"}).map do |metadata|
         OpenStruct.new({
@@ -10,6 +11,7 @@ module Youtube
           channel_id: metadata.snippet.channelId,
           year: metadata.snippet.title.match(/\d{4}/).to_s.presence || DateTime.parse(metadata.snippet.publishedAt).year,
           videos_count: metadata.contentDetails.itemCount,
+          metadata_parser: DEFAULT_METADATA_PARSER,
           slug: metadata.snippet.title.parameterize
         })
       end
