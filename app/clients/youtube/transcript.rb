@@ -1,4 +1,4 @@
-require "message_type"
+require "protobuf/message_type"
 
 module Youtube
   class Transcript
