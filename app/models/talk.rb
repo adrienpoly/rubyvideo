@@ -71,6 +71,8 @@ class Talk < ApplicationRecord
 
   # ensure that during the reindex process the associated records are eager loaded
   scope :meilisearch_import, -> { includes(:speakers, :event) }
+  scope :without_transcript, -> { where("raw_transcript IS NULL OR raw_transcript = '' OR raw_transcript = '[]'") }
+  scope :with_transcript, -> { where("raw_transcript IS NOT NULL AND raw_transcript != '[]'") }
 
   def to_meta_tags
     {
