@@ -1,10 +1,10 @@
 ---
 - id: PLjHS2aIdExPdwbsmv2-e3DFN677fyFme7
   title: Friendly.rb 2023
-  description: 'Your friendly european Ruby conference in Bucharest, Romania'
-  published_at: '2023-10-30'
+  description: "Your friendly european Ruby conference in Bucharest, Romania"
+  published_at: "2023-10-30"
   channel_id: UC-PJCpt-6EgR4Ks6e0RSs1g
-  year: '2023'
+  year: "2023"
   videos_count: 21
   metadata_parser: Youtube::VideoMetadata
   slug: friendly-rb-2023

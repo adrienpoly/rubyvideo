@@ -39,6 +39,7 @@
   youtube_channel_id: UC-PJCpt-6EgR4Ks6e0RSs1g # This is optional
   kind: conference # Choose either 'conference' or 'meetup'
   frequency: yearly # Specify if it's 'yearly' or 'monthly'
+  default_country_code: RO #romania
   language: english # Default language of the talks from this conference
 - name: Helvetic Ruby
   website: https://helvetic-ruby.ch
@@ -46,7 +47,7 @@
   kind: conference
   frequency: yearly
   playlist_matcher:
-  default_country_code:
+  default_country_code: CH
   youtube_channel_name: HelveticRuby
   slug: helveticruby
   language: english
@@ -57,6 +58,6 @@
   frequency: monthly
   default_country_code: FI
   youtube_channel_name: helsinkiruby
-  slug: helsinkiruby
+  slug: helsinki-ruby-brigade
   language: english
   youtube_channel_id: UCcoS038f4xA_Lz5AoD0ShzA

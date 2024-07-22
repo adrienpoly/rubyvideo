@@ -4,7 +4,7 @@
   speakers:
     - Vladimir Dementyev
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-01'
+  published_at: "2023-12-01"
   description: |-
     Tests occupy a significant amount of developers’ time. We write them, run locally, and wait for CI builds to complete—the latter can last from a cup of coffee to a good day nap. And unfortunately, such “naps” are pretty common in the Ruby and Rails world.
 
@@ -18,8 +18,9 @@
   speakers:
     - Abiodun Olowode
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-01'
-  description: Are you tired of dealing with race conditions in your Ruby code? Introducing
+  published_at: "2023-12-01"
+  description:
+    Are you tired of dealing with race conditions in your Ruby code? Introducing
     Ractors - an experimental feature designed for parallel execution without thread-safety
     concerns. But are they really as fast as threads? And are they worth the trouble?
     In this talk, we'll explore the ins and outs of Ractors, shedding light on how
@@ -31,7 +32,7 @@
   speakers:
     - Karen Jex
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-01'
+  published_at: "2023-12-01"
   description: |-
     You don't want to spend too much time looking after your database; you've got better things to do with your time, but you do want your database to run smoothly and perform well. Fortunately, there are a few simple things that you can do to make sure your database ticks along nicely in the background.
     I've put together my top 5 tips, based on things that have been useful to me as a DBA. The focus will be on Postgres, but most of the tips are also relevant to other databases. These are things you can put in place, without too much effort, to make sure your database works well.
@@ -42,7 +43,7 @@
   speakers:
     - Harriet Oughton
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-01'
+  published_at: "2023-12-01"
   description: |-
     Postcards From An Early-Career Developer's First Months: Recognising the Struggles and the Joys.
 
@@ -50,12 +51,13 @@
   video_id: jNY4CViM76U
 
 - title: "Lightning talk: Five Minutes of a Random Stranger Talking About Creativity"
-  raw_title: Five Minutes of a Random Stranger Talking About Creativity by Christina
+  raw_title:
+    Five Minutes of a Random Stranger Talking About Creativity by Christina
     Serra
   speakers:
     - Christina Serra
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-01'
+  published_at: "2023-12-01"
   description: |-
     Five Minutes of a Random Stranger Talking About Creativity (and why you should squeeze it into your life)
 
@@ -69,21 +71,22 @@
   speakers:
     - Isabel Steiner
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-01'
+  published_at: "2023-12-01"
   description: |-
     In 2022, a close friend and former co-worker and myself founded The Happy Lab GmbH and we only had one purpose for the company: A place where happy co-workers develop products to make users happy.
 
     In 6 months we went from exploring the problem space to come up with the first hypotheses a to a platform with recurring revenue by following the principles of lean startup and applying all the techniques and methods we have learned in our 15+ years in product management, engineering and leadership positions. In my talk, I will walk the audience through our bootstrapping steps and learnings.
   video_id: 20gPjHP5szQ
 
-- title: 'A Rails performance guidebook: from 0 to 1B requests/day'
-  raw_title: 'A Rails performance guidebook: from 0 to 1B requests/day by Cristian
-    Planas and Anatoly Mikhaylov'
+- title: "A Rails performance guidebook: from 0 to 1B requests/day"
+  raw_title:
+    "A Rails performance guidebook: from 0 to 1B requests/day by Cristian
+    Planas and Anatoly Mikhaylov"
   speakers:
     - Cristian Planas
     - Anatoly Mikhaylov
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-01'
+  published_at: "2023-12-01"
   description: |-
     Building a feature is not good enough anymore: all your work won't be of use if it's not performant enough. So how to improve performance? After all, performance is not an easy discipline to master: all slow applications are slow in their own way, meaning that there is no silver bullet for these kinds of problems.
 
@@ -91,12 +94,13 @@
   video_id: uDb71s9MtVk
 
 - title: "Lightning talk: Sliced Ruby - Enforcing module boundaries with private_const and packwerk"
-  raw_title: 'Sliced Ruby: Enforcing module boundaries with private_const and packwerk
-    by Severin Ráz'
+  raw_title:
+    "Sliced Ruby: Enforcing module boundaries with private_const and packwerk
+    by Severin Ráz"
   speakers:
     - Severin Ráz
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-01'
+  published_at: "2023-12-01"
   description: |-
     A lightning talk from the Helvetic Ruby 2023 conference.
 
@@ -108,7 +112,7 @@
   speakers:
     - Josua Schmid
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-01'
+  published_at: "2023-12-01"
   description: |-
     A lightning talk from Helvetic Ruby 2023.
 
@@ -120,8 +124,9 @@
   speakers:
     - Lucian Ghinda
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-01'
-  description: "A lightning talk from the Helvetic Ruby 2023 conference.\n\nI want
+  published_at: "2023-12-01"
+  description:
+    "A lightning talk from the Helvetic Ruby 2023 conference.\n\nI want
     to touch on some points about bringing more people into our Ruby community. \n\nI
     will talk more about what we can share online that could reach someone interested
     in learning Ruby: type of articles, project ideas, developer experience, starting
@@ -134,8 +139,9 @@
   speakers:
     - Raia
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-02'
-  description: 'Have you ever considered what makes a "good" song? Maybe it''s a sweet
+  published_at: "2023-12-02"
+  description:
+    'Have you ever considered what makes a "good" song? Maybe it''s a sweet
     melody, or the beat that keeps you pushing through to the end of a workout. Whatever
     the use case, Ruby-based Sonic Pi can synthesize it. Raia guides participants
     through coding a range of song components. Together, we''ll build a band of live
@@ -149,8 +155,9 @@
   speakers:
     - Ju Liu
   event_name: Helvetic Ruby 2023
-  published_at: '2023-12-06'
-  description: We'll start with a simple Ruby Kata and solve it together, live, with
+  published_at: "2023-12-06"
+  description:
+    We'll start with a simple Ruby Kata and solve it together, live, with
     imperative programming. We'll then fix the many, many, many things we got wrong.
     Then we'll solve the problem again using patterns from functional programming.
     You'll leave this talk with a clear and concrete example of why functional programming
