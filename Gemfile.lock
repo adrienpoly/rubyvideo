@@ -178,6 +178,9 @@ GEM
       raabro (~> 1.4)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    google-protobuf (4.27.2-aarch64-linux)
+      bigdecimal
+      rake (>= 13)
     google-protobuf (4.27.2-arm64-darwin)
       bigdecimal
       rake (>= 13)
@@ -210,6 +213,9 @@ GEM
     json-repair (0.2.0)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
+    litestream (0.10.4)
+      logfmt (>= 0.0.10)
+      sqlite3
     litestream (0.10.4-arm64-darwin)
       logfmt (>= 0.0.10)
       sqlite3
@@ -258,6 +264,8 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.3)
+    nokogiri (1.16.6-aarch64-linux)
+      racc (~> 1.4)
     nokogiri (1.16.6-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.6-x86_64-linux)
@@ -391,6 +399,7 @@ GEM
       fugit (~> 1.11.0)
       railties (>= 7.1)
     sorbet-runtime (0.5.11475)
+    sqlite3 (2.0.2-aarch64-linux-gnu)
     sqlite3 (2.0.2-arm64-darwin)
     sqlite3 (2.0.2-x86_64-linux-gnu)
     standard (1.39.1)
@@ -454,6 +463,7 @@ GEM
     zeitwerk (2.6.16)
 
 PLATFORMS
+  aarch64-linux
   arm64-darwin-23
   x86_64-linux
 
