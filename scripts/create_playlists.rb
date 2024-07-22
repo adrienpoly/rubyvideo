@@ -1,5 +1,5 @@
 # start this script with the rails runner command
-# rails runner script/create_playlists.rb
+# rails runner scripts/create_playlists.rb
 #
 organisations = YAML.load_file("#{Rails.root}/data_preparation/organisations.yml")
 

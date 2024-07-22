@@ -1,5 +1,5 @@
 # start this script with the rails runner command
-# $ rails runner script/prepare_organisations.rb
+# $ rails runner scripts/prepare_organisations.rb
 #
 
 organisations = YAML.load_file("#{Rails.root}/data_preparation/organisations.yml")

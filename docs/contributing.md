@@ -32,7 +32,7 @@ Add the following information to the `data_preparation/organisations.yml` file:
 Then run this script:
 
 ```bash
-rails runner script/prepare_organisations.rb
+rails runner scripts/prepare_organisations.rb
 ```
 
 This will update your `data_preparation/organisations.yml` file with the youtube_channel_id information.
@@ -42,7 +42,7 @@ This will update your `data_preparation/organisations.yml` file with the youtube
 This workflow assumes the Youtube channel is organized by playlist with 1 event equating to 1 playlist. Run the following script to create the playlist file:
 
 ```
-rails runner script/create_playlists.rb
+rails runner scripts/create_playlists.rb
 ```
 
 You will end up with a data structure like this:
@@ -84,7 +84,7 @@ Here is an example for RailsConf/RubyConf:
 Once your playlists are currated, you can run the next script to extract the video information. It will iterate the playlist and extract all videos.
 
 ```bash
-rails runner script/extract_videos.rb
+rails runner scripts/extract_videos.rb
 ```
 
 At this point you have this structure

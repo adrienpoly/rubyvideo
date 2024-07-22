@@ -1,5 +1,5 @@
 # start this script with the rails runner command
-# $ rails runner script/extract_videos.rb
+# $ rails runner scripts/extract_videos.rb
 # Once you have created the playlists it will retrieve the videos
 #
 
