@@ -12,7 +12,7 @@ module Talk::TranscriptCommands
     end
 
     performs :fetch_and_update_raw_transcript!, queue_as: :low do
-      retry_on StandardError, wait: :polynomially_longer
+      retry_on StandardError, attempts: 3, wait: :polynomially_longer
     end
   end
 
