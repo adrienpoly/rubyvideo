@@ -21,8 +21,9 @@
 #  date                :date
 #  like_count          :integer
 #  view_count          :integer
-#  raw_transcript      :text
-#  enhanced_transcript :text             default(#<Transcript:0x000000017393e0d0 @cues=[]>), not null
+#  raw_transcript      :text             default(""), not null
+#  enhanced_transcript :text             default(""), not null
+#  summary             :text             default(""), not null
 #
 # rubocop:enable Layout/LineLength
 

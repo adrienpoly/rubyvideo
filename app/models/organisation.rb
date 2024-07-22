@@ -14,6 +14,8 @@
 #  youtube_channel_id   :string           default(""), not null
 #  youtube_channel_name :string           default(""), not null
 #  slug                 :string           default(""), not null
+#  twitter              :string           default(""), not null
+#  language             :string           default(""), not null
 #
 # rubocop:enable Layout/LineLength
 class Organisation < ApplicationRecord

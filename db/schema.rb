@@ -155,7 +155,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
     t.date "date"
     t.integer "like_count"
     t.integer "view_count"
-    t.text "raw_transcript"
+    t.text "raw_transcript", default: "", null: false
     t.text "enhanced_transcript", default: "", null: false
     t.text "summary", default: "", null: false
     t.index ["date"], name: "index_talks_on_date"
