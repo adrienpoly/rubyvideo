@@ -43,7 +43,7 @@ class Transcript
   class << self
     def create_from_youtube_transcript(youtube_transcript)
       transcript = Transcript.new
-      events = youtube_transcript.dig("actions", 0, "updateEngagementPanelAction", "content", "transcriptRenderer", "content", "transcriptSearchPanelRenderer", "body", "transcriptSegmentListRenderer", "initialSegments")
+      events = youtube_transcript.dig("actions", 0, "updateEngagementPanelAction", "content", "transcriptRenderer", "content", "transcriptSearchPanelRenderer", "body", "transcriptSegmentListRenderer", "initialSegments") || []
       events.each do |event|
         segment = event["transcriptSegmentRenderer"]
         start_time = format_time(segment["startMs"].to_i)
