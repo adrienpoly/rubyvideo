@@ -14,7 +14,7 @@ def create_playlist_items(playlist, organisation_slug)
   FileUtils.mkdir_p(File.join(Rails.root, "data_preparation", organisation_slug, playlist.slug))
 
   # by default we use Youtube::VideoMetadata but in playlists.yml you can specify a different parser
-  parser = playlist.metadata_parser.constantize
+  parser = playlist.metadata_parser&.constantize || Youtube::NullParser
   playlist_videos.map! { |metadata| parser.new(metadata: metadata, event_name: playlist.title).cleaned }
 
   path = "#{File.join(Rails.root, "data_preparation", organisation_slug, playlist.slug)}/videos.yml"
