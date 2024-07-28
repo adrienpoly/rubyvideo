@@ -1,10 +1,5 @@
-# require "active_support/core_ext/hash/keys"
-
-# This class is used to extract the metadata from a youtube video
-# it will try to:
-# - extract the speakers from the title
-# - remove the event_name from the title to make less redondant
-# - remove leading separators from the title
+# This class is used to keep the raw metadata when you want to feed them to chat GPT
+# for post processing
 module Youtube
   class NullParser
     def initialize(metadata:, event_name:, options: {})
