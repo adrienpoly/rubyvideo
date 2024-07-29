@@ -72,7 +72,7 @@ group :development do
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
   gem "ruby-lsp-rails", require: false
   gem "standardrb", "~> 1.0", require: false
-  gem "erb_lint", "~> 0.4.0", require: false
+  gem "erb_lint", require: false
   gem "authentication-zero", "~> 2.16", require: false
 end
 

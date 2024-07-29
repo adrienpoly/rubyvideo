@@ -156,7 +156,7 @@ GEM
       dry-inflector (~> 1.0)
       dry-logic (~> 1.4)
       zeitwerk (~> 2.6)
-    erb_lint (0.4.0)
+    erb_lint (0.5.0)
       activesupport
       better_html (>= 2.0.1)
       parser (>= 2.7.1.4)
@@ -489,7 +489,7 @@ DEPENDENCIES
   dotenv-rails
   dry-initializer-rails
   dry-types (~> 1.7)
-  erb_lint (~> 0.4.0)
+  erb_lint
   error_highlight (>= 0.4.0)
   google-protobuf
   groupdate (~> 6.2)
