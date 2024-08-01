@@ -10,7 +10,7 @@ class Speaker::EnhanceProfileJobTest < ActiveJob::TestCase
     end
   end
 
-  test "a user not found on Github" do
+  test "a user not found on GitHub" do
     VCR.use_cassette("speaker/enhance_profile_job_test_user_not_found") do
       @speaker = Speaker.create!(name: "Nathan Bibler")
       Speaker::EnhanceProfileJob.new.perform(@speaker)
