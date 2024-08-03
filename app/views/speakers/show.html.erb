@@ -4,7 +4,7 @@
       <% if @speaker.github.present? %>
         <%= image_tag @speaker.github_avatar_url(size: 200),
               class: "rounded-full mx-auto",
-              alt: "Github picture profile of #{@speaker.github}",
+              alt: "GitHub picture profile of #{@speaker.github}",
               loading: :lazy %>
       <% end %>
       <h1 class="my-8"> <%= @speaker.name %></h1>
@@ -18,7 +18,7 @@
         </div>
 
         <% if Current.user&.admin? %>
-          <%= ui_button "fetch from Github", url: speakers_enhance_path(@speaker), method: :put, kind: :ghost, size: :sm %>
+          <%= ui_button "fetch from GitHub", url: speakers_enhance_path(@speaker), method: :put, kind: :ghost, size: :sm %>
         <% end %>
       </div>
     </div>

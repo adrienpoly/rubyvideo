@@ -28,43 +28,53 @@
           <div class=" flex mt-14 justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
             <div class="ml-auto w-44 flex-none space-y-8 pt-24 sm:ml-0 sm:pt-80 lg:order-last xl:order-none xl:pt-80">
               <div class="relative">
-                <%= image_tag @speakers_avatar_url[0].first,
-                      alt: "picture profile of #{@speakers_avatar_url[0]}",
-                      srcset: ["#{@speakers_avatar_url[0].second} 2x"],
-                      class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
-                <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                <%= link_to speaker_url(@speaker_slugs[0]) do %>
+                  <%= image_tag @speakers_avatar_url[0].first,
+                        alt: "picture profile of #{@speakers_avatar_url[0]}",
+                        srcset: ["#{@speakers_avatar_url[0].second} 2x"],
+                        class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
+                  <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                <% end %>
               </div>
             </div>
             <div class="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
               <div class="relative">
-                <%= image_tag @speakers_avatar_url[1].first,
-                      alt: "picture profile of #{@speakers_avatar_url[1]}",
-                      srcset: ["#{@speakers_avatar_url[1].second} 2x"],
-                      class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
-                <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                <%= link_to speaker_url(@speaker_slugs[1]) do %>
+                  <%= image_tag @speakers_avatar_url[1].first,
+                        alt: "picture profile of #{@speakers_avatar_url[1]}",
+                        srcset: ["#{@speakers_avatar_url[1].second} 2x"],
+                        class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
+                  <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                <% end %>
               </div>
               <div class="relative">
-                <%= image_tag @speakers_avatar_url[2].first,
-                      alt: "picture profile of #{@speakers_avatar_url[2]}",
-                      srcset: ["#{@speakers_avatar_url[2].second} 2x"],
-                      class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
-                <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                <%= link_to speaker_url(@speaker_slugs[2]) do %>
+                  <%= image_tag @speakers_avatar_url[2].first,
+                        alt: "picture profile of #{@speakers_avatar_url[2]}",
+                        srcset: ["#{@speakers_avatar_url[2].second} 2x"],
+                        class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
+                  <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                <% end %>
               </div>
             </div>
             <div class="w-44 flex-none space-y-8 pt-32 sm:pt-0">
               <div class="relative">
-                <%= image_tag @speakers_avatar_url[3].first,
-                      alt: "picture profile of #{@speakers_avatar_url[3]}",
-                      srcset: ["#{@speakers_avatar_url[3].second} 2x"],
-                      class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
-                <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                <%= link_to speaker_url(@speaker_slugs[3]) do %>
+                  <%= image_tag @speakers_avatar_url[3].first,
+                        alt: "picture profile of #{@speakers_avatar_url[3]}",
+                        srcset: ["#{@speakers_avatar_url[3].second} 2x"],
+                        class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
+                  <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                <% end %>
               </div>
               <div class="relative">
-                <%= image_tag @speakers_avatar_url[4].first,
-                      alt: "picture profile of #{@speakers_avatar_url[4]}",
-                      srcset: ["#{@speakers_avatar_url[4].second} 2x"],
-                      class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
-                <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                <%= link_to speaker_url(@speaker_slugs[4]) do %>
+                  <%= image_tag @speakers_avatar_url[4].first,
+                        alt: "picture profile of #{@speakers_avatar_url[4]}",
+                        srcset: ["#{@speakers_avatar_url[4].second} 2x"],
+                        class: "aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" %>
+                  <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
+                <% end %>
               </div>
             </div>
           </div>
