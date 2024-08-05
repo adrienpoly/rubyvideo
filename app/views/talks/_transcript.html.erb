@@ -2,7 +2,7 @@
 
 <div class="flex flex-col gap-2">
   <% talk.transcript.cues.each do |cue| %>
-    <% next if cue.nil? || cue.sound_descriptor? %>
+    <% next if cue.nil? || cue.text.blank? || cue.sound_descriptor? %>
     <div class="flex gap-4">
       <span class="link" data-action="click->video-player#seekTo" data-video-player-time-param="<%= cue.start_time_in_seconds %>">
         <%= cue.start_time %>

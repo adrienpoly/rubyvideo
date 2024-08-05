@@ -29,6 +29,8 @@ class Cue
     minutes = parts[1] * 60
     seconds = parts[2]
     (hours + minutes + seconds).to_i
+  rescue
+    0
   end
 
   def sound_descriptor?
