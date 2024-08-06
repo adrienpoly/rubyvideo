@@ -23,7 +23,7 @@ class Speaker < ApplicationRecord
 
   # associations
   has_many :speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
-  has_many :talks, through: :speaker_talks
+  has_many :talks, through: :speaker_talks, inverse_of: :speakers
 
   # scope
   scope :with_talks, -> { where.not(talks_count: 0) }

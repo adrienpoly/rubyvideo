@@ -11,6 +11,6 @@ json.cache! ["v1", params[:per_page], @pagy.page, @speakers.maximum(:updated_at)
     json.next_page @pagy.next
     json.prev_page @pagy.prev
     json.total_items @pagy.count
-    json.items_per_page @pagy.items
+    json.items_per_page @pagy.limit
   end
 end
