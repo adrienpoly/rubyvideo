@@ -11,7 +11,7 @@ class SpeakersController < ApplicationController
         @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
       end
       format.json do
-        @pagy, @speakers = pagy(Speaker.all.order(:name), {items: params[:per_page]})
+        @pagy, @speakers = pagy(Speaker.all.order(:name), limit: params[:per_page])
       end
     end
   end

@@ -42,7 +42,7 @@ class Talk < ApplicationRecord
   # associations
   belongs_to :event, optional: true
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
-  has_many :speakers, through: :speaker_talks
+  has_many :speakers, through: :speaker_talks, inverse_of: :talks
 
   # validations
   validates :title, presence: true
