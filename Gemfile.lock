@@ -205,6 +205,9 @@ GEM
     google-protobuf (4.27.3-arm64-darwin)
       bigdecimal
       rake (>= 13)
+    google-protobuf (4.27.3-x86_64-darwin)
+      bigdecimal
+      rake (>= 13)
     google-protobuf (4.27.3-x86_64-linux)
       bigdecimal
       rake (>= 13)
@@ -240,6 +243,9 @@ GEM
       logfmt (>= 0.0.10)
       sqlite3
     litestream (0.10.4-arm64-darwin)
+      logfmt (>= 0.0.10)
+      sqlite3
+    litestream (0.10.4-x86_64-darwin)
       logfmt (>= 0.0.10)
       sqlite3
     litestream (0.10.4-x86_64-linux)
@@ -290,6 +296,8 @@ GEM
     nokogiri (1.16.7-aarch64-linux)
       racc (~> 1.4)
     nokogiri (1.16.7-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.7-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
@@ -424,6 +432,7 @@ GEM
     sorbet-runtime (0.5.11506)
     sqlite3 (2.0.3-aarch64-linux-gnu)
     sqlite3 (2.0.3-arm64-darwin)
+    sqlite3 (2.0.3-x86_64-darwin)
     sqlite3 (2.0.3-x86_64-linux-gnu)
     standard (1.39.2)
       language_server-protocol (~> 3.17.0.2)
@@ -490,6 +499,7 @@ GEM
 PLATFORMS
   aarch64-linux
   arm64-darwin-23
+  x86_64-darwin-23
   x86_64-linux
 
 DEPENDENCIES
