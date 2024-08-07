@@ -24,4 +24,12 @@ class Avo::Resources::Speaker < Avo::BaseResource
     # field :speaker_talks, as: :has_many
     field :talks, as: :has_many, use_resource: "Avo::Resources::Talk"
   end
+
+  def filters
+    filter Avo::Filters::Github
+  end
+
+  def actions
+    action Avo::Actions::SpeakerGithub
+  end
 end
