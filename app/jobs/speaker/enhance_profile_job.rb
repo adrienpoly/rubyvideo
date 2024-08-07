@@ -1,9 +1,9 @@
 class Speaker::EnhanceProfileJob < ApplicationJob
   queue_as :low
-  retry_on StandardError, attempts: 3, wait: :polynomially_longer
+  retry_on StandardError, attempts: 0
   limits_concurrency to: 1, key: "github_api"
 
-  def perform(speaker)
+  def perform(speaker:, sleep: 0)
     matching_profile = speaker.github.present? ? user_details(speaker.github) : search_github_profile(name: speaker.name)
 
     if matching_profile.present?
@@ -15,6 +15,7 @@ class Speaker::EnhanceProfileJob < ApplicationJob
       )
     end
     speaker.broadcast_about
+    sleep(sleep)
   end
 
   private
