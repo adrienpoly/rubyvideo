@@ -32,7 +32,7 @@ class Organisation < ApplicationRecord
 
   # enums
   enum :kind, {conference: 0, meetup: 1}
-  enum :frequency, {unknown: 0, yearly: 1, monthly: 2}
+  enum :frequency, {unknown: 0, yearly: 1, monthly: 2, biyearly: 3}
 
   def edition
     "#{name} 2022"
