@@ -76,6 +76,9 @@ class Talk < ApplicationRecord
   scope :with_raw_transcript, -> { where("raw_transcript IS NOT NULL AND raw_transcript != '[]'") }
   scope :without_enhanced_transcript, \
     -> { where("enhanced_transcript IS NULL OR enhanced_transcript = '' OR enhanced_transcript = '[]'") }
+  scope :with_enhanced_transcript, -> { where("enhanced_transcript IS NOT NULL AND enhanced_transcript != '[]'") }
+  scope :with_summary, -> { where("summary IS NOT NULL AND summary != ''") }
+  scope :without_summary, -> { where("summary IS NULL OR summary = ''") }
 
   def to_meta_tags
     {
