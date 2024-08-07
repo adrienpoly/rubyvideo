@@ -47,6 +47,9 @@ GEM
       rails-html-sanitizer (~> 1.6)
     active_job-performs (0.3.1)
       activejob (>= 6.1)
+    active_link_to (1.0.5)
+      actionpack
+      addressable
     activejob (7.2.0.beta3)
       activesupport (= 7.2.0.beta3)
       globalid (>= 0.3.6)
@@ -84,10 +87,25 @@ GEM
     annotate (3.2.0)
       activerecord (>= 3.2, < 8.0)
       rake (>= 10.4, < 14.0)
-    appsignal (3.12.2)
+    appsignal (3.12.6)
       rack
     ast (2.4.2)
     authentication-zero (2.16.36)
+    avo (3.10.10)
+      actionview (>= 6.1)
+      active_link_to
+      activerecord (>= 6.1)
+      activesupport (>= 6.1)
+      addressable
+      docile
+      inline_svg
+      literal (~> 0.2)
+      meta-tags
+      pagy (>= 7.0.0)
+      turbo-rails (>= 2.0.0)
+      turbo_power (>= 0.6.0)
+      view_component (>= 3.7.0)
+      zeitwerk (>= 2.6.12)
     base64 (0.2.0)
     bcrypt (3.1.20)
     better_html (2.1.1)
@@ -99,7 +117,7 @@ GEM
       smart_properties
     bigdecimal (3.1.8)
     bindex (0.8.1)
-    bootsnap (1.18.3)
+    bootsnap (1.18.4)
       msgpack (~> 1.2)
     builder (3.3.0)
     byebug (11.1.3)
@@ -119,7 +137,7 @@ GEM
       unaccent (~> 0.3)
     country_select (8.0.3)
       countries (~> 5.0)
-    crack (0.4.6)
+    crack (1.0.0)
       bigdecimal
       rexml
     crass (1.0.6)
@@ -129,6 +147,7 @@ GEM
       irb (~> 1.10)
       reline (>= 0.3.8)
     device_detector (1.1.3)
+    docile (1.4.1)
     dockerfile-rails (1.6.17)
       rails (>= 3.0.0)
     dotenv (3.1.2)
@@ -156,19 +175,19 @@ GEM
       dry-inflector (~> 1.0)
       dry-logic (~> 1.4)
       zeitwerk (~> 2.6)
-    erb_lint (0.4.0)
+    erb_lint (0.6.0)
       activesupport
       better_html (>= 2.0.1)
       parser (>= 2.7.1.4)
       rainbow
-      rubocop
+      rubocop (>= 1)
       smart_properties
     error_highlight (0.6.0)
     erubi (1.13.0)
     et-orbi (1.2.11)
       tzinfo
     event_stream_parser (1.0.0)
-    faraday (2.10.0)
+    faraday (2.10.1)
       faraday-net_http (>= 2.0, < 3.2)
       logger
     faraday-multipart (1.0.4)
@@ -180,18 +199,18 @@ GEM
       raabro (~> 1.4)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    google-protobuf (4.27.2-aarch64-linux)
+    google-protobuf (4.27.3-aarch64-linux)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.27.2-arm64-darwin)
+    google-protobuf (4.27.3-arm64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.27.2-x86_64-linux)
+    google-protobuf (4.27.3-x86_64-linux)
       bigdecimal
       rake (>= 13)
     groupdate (6.4.0)
       activesupport (>= 6.1)
-    hashdiff (1.1.0)
+    hashdiff (1.1.1)
     httparty (0.22.0)
       csv
       mini_mime (>= 1.0.0)
@@ -216,6 +235,7 @@ GEM
     json-repair (0.2.0)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
+    literal (0.2.1)
     litestream (0.10.4)
       logfmt (>= 0.0.10)
       sqlite3
@@ -273,7 +293,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
-    pagy (6.5.0)
+    pagy (9.0.5)
     parallel (1.25.1)
     parser (3.3.4.0)
       ast (~> 2.4.1)
@@ -290,7 +310,7 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     raabro (1.4.0)
-    racc (1.8.0)
+    racc (1.8.1)
     rack (3.1.7)
     rack-mini-profiler (3.3.1)
       rack (>= 1.2.0)
@@ -350,7 +370,7 @@ GEM
     regexp_parser (2.9.2)
     reline (0.5.9)
       io-console (~> 0.5)
-    rexml (3.3.2)
+    rexml (3.3.4)
       strscan
     rubocop (1.64.1)
       json (~> 2.3)
@@ -363,12 +383,12 @@ GEM
       rubocop-ast (>= 1.31.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.31.3)
+    rubocop-ast (1.32.0)
       parser (>= 3.3.1.0)
     rubocop-performance (1.21.1)
       rubocop (>= 1.48.1, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)
-    ruby-lsp (0.17.9)
+    ruby-lsp (0.17.11)
       language_server-protocol (~> 3.17.0)
       prism (>= 0.29.0, < 0.31)
       rbs (>= 3, < 4)
@@ -395,16 +415,16 @@ GEM
       activejob (>= 7)
       activerecord (>= 7)
       railties (>= 7)
-    solid_queue (0.3.4)
+    solid_queue (0.4.1)
       activejob (>= 7.1)
       activerecord (>= 7.1)
       concurrent-ruby (>= 1.3.1)
       fugit (~> 1.11.0)
       railties (>= 7.1)
-    sorbet-runtime (0.5.11495)
-    sqlite3 (2.0.2-aarch64-linux-gnu)
-    sqlite3 (2.0.2-arm64-darwin)
-    sqlite3 (2.0.2-x86_64-linux-gnu)
+    sorbet-runtime (0.5.11506)
+    sqlite3 (2.0.3-aarch64-linux-gnu)
+    sqlite3 (2.0.3-arm64-darwin)
+    sqlite3 (2.0.3-x86_64-linux-gnu)
     standard (1.39.2)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
@@ -429,6 +449,8 @@ GEM
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
       railties (>= 6.0.0)
+    turbo_power (0.6.2)
+      turbo-rails (>= 1.3.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unaccent (0.4.0)
@@ -463,7 +485,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.6.16)
+    zeitwerk (2.6.17)
 
 PLATFORMS
   aarch64-linux
@@ -477,6 +499,7 @@ DEPENDENCIES
   annotate
   appsignal (~> 3.4)
   authentication-zero (~> 2.16)
+  avo (>= 3.2)
   bcrypt (~> 3.1.7)
   bootsnap
   byebug (~> 11.1)
@@ -489,7 +512,7 @@ DEPENDENCIES
   dotenv-rails
   dry-initializer-rails
   dry-types (~> 1.7)
-  erb_lint (~> 0.4.0)
+  erb_lint
   error_highlight (>= 0.4.0)
   google-protobuf
   groupdate (~> 6.2)
@@ -501,7 +524,7 @@ DEPENDENCIES
   meta-tags (~> 2.18)
   mission_control-jobs
   net-http (~> 0.3.2)
-  pagy (~> 6.0)
+  pagy
   propshaft
   puma
   rack-mini-profiler

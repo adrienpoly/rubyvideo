@@ -1,0 +1,30 @@
+---
+- id: PLvMNoWK93wtmlQyKf59wu0IZk9N7ZpWpJ
+  title: Ruby Warsaw Community Conference Summer Edition 2023
+  description: 'The first edition of the Ruby Warsaw Community Conference'
+  published_at: '2023-08-30'
+  channel_id: UCVlG6qQ1mGnJv185ayWjEzg
+  year: 2023
+  videos_count: 4
+  metadata_parser: Youtube::VideoMetadata
+  slug: ruby-warsaw-community-conference-summer-edition-2023
+
+- id: PLvMNoWK93wtnvS4NiaIkvAf_44u5L7T9n
+  title: 'Ruby Warsaw Community Conference Winter Edition 2024'
+  description: The second edition of the Ruby Warsaw Community Conference, which took place on February 2nd, 2024 at the PKiN in Warsaw.
+  published_at: '2024-02-22'
+  channel_id: UCVlG6qQ1mGnJv185ayWjEzg
+  year: 2024
+  videos_count: 4
+  metadata_parser: Youtube::VideoMetadata
+  slug: ruby-warsaw-community-conference-winter-edition-2024
+
+- id: PLvMNoWK93wtnWTpEaJBlEIf5JxrE7rPFY
+  title: 'Ruby Warsaw Community Conference Summer Edition 2024'
+  description: 'The third edition of the Ruby Warsaw Community Conference, which took place on July 19th, 2024 at the PKiN in Warsaw.'
+  published_at: '2024-07-29'
+  channel_id: UCVlG6qQ1mGnJv185ayWjEzg
+  year: '2024'
+  videos_count: 4
+  metadata_parser: Youtube::VideoMetadata
+  slug: ruby-warsaw-community-conference-summer-edition-2024

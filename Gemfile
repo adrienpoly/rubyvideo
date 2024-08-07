@@ -72,7 +72,7 @@ group :development do
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
   gem "ruby-lsp-rails", require: false
   gem "standardrb", "~> 1.0", require: false
-  gem "erb_lint", "~> 0.4.0", require: false
+  gem "erb_lint", require: false
   gem "authentication-zero", "~> 2.16", require: false
 end
 
@@ -85,7 +85,7 @@ group :test do
   gem "webmock"
 end
 
-gem "pagy", "~> 6.0"
+gem "pagy"
 gem "dockerfile-rails", ">= 1.2", group: :development
 
 gem "activerecord-enhancedsqlite3-adapter"
@@ -124,3 +124,4 @@ gem "json-repair", "~> 0.2.0"
 
 gem "redcarpet", "~> 3.6"
 gem "country_select", "~> 8.0"
+gem "avo", ">= 3.2"

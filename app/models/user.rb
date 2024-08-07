@@ -19,7 +19,7 @@ class User < ApplicationRecord
 
   has_many :email_verification_tokens, dependent: :destroy
   has_many :password_reset_tokens, dependent: :destroy
-  has_many :sessions, dependent: :destroy
+  has_many :sessions, dependent: :destroy, inverse_of: :user
 
   validates :email, presence: true, uniqueness: true, format: {with: URI::MailTo::EMAIL_REGEXP}
   validates :password, allow_nil: true, length: {minimum: 6}

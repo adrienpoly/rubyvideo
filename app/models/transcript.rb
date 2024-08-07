@@ -36,6 +36,10 @@ class Transcript
     @cues.any? ? self : nil
   end
 
+  def present?
+    @cues.any?
+  end
+
   def each(&)
     @cues.each(&)
   end

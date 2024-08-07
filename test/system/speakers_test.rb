@@ -13,7 +13,7 @@ class SpeakersTest < ApplicationSystemTestCase
     assert_text "Editing speaker"
 
     fill_in "Bio", with: @speaker.bio
-    fill_in "Github", with: @speaker.github
+    fill_in "GitHub", with: @speaker.github
     fill_in "Name", with: @speaker.name
     fill_in "Slug", with: @speaker.slug
     fill_in "Twitter", with: @speaker.twitter

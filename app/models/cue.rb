@@ -4,7 +4,7 @@ class Cue
   def initialize(start_time:, end_time:, text:)
     @start_time = start_time
     @end_time = end_time
-    @text = text
+    @text = text || ""
   end
 
   def to_s
@@ -29,9 +29,11 @@ class Cue
     minutes = parts[1] * 60
     seconds = parts[2]
     (hours + minutes + seconds).to_i
+  rescue
+    0
   end
 
   def sound_descriptor?
-    text.match?(/\[(music|sound|audio|applause|laughter|speech|voice|speeches|voices)\]/i)
+    text&.match?(/\[(music|sound|audio|applause|laughter|speech|voice|speeches|voices)\]/i)
   end
 end

@@ -6,6 +6,7 @@ require "json"
 require "yaml"
 
 API_ENDPOINT = "https://www.rubyvideo.dev/speakers.json"
+# API_ENDPOINT = "http://localhost:3000/speakers.json"
 OUTPUT_FILE = "data/speakers.yml"
 
 def fetch_speakers
@@ -17,7 +18,7 @@ def fetch_speakers
     response = Net::HTTP.get(uri)
     parsed_response = JSON.parse(response)
 
-    speakers.concat(parsed_response["speakers"])
+    speakers.concat(parsed_response["speakers"].map { |speaker| speaker.except("id", "updated_at", "created_at", "talks_count") })
     current_page += 1
     break if parsed_response.dig("pagination", "next_page").nil?
   end
