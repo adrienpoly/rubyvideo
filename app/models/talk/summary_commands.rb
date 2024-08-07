@@ -10,6 +10,8 @@ module Talk::SummaryCommands
   end
 
   def create_summary!
+    return unless raw_transcript.present?
+
     response = client.chat(
       parameters: {
         model: "gpt-4o-mini", # Required.
