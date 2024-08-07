@@ -61,6 +61,17 @@
   slug: helsinki-ruby-brigade
   language: english
   youtube_channel_id: UCcoS038f4xA_Lz5AoD0ShzA
+- name: Rocky Mountain Ruby
+  website: http://rockymtnruby.dev
+  twitter: rmrubyconf
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Rocky Mountain Ruby
+  default_country_code: US
+  youtube_channel_name: Confreaks
+  slug: rocky-mountain-ruby
+  language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
 - name: Ruby Warsaw Community Conference
   website: https://www.rubycommunityconference.com
   twitter: visualitypl
