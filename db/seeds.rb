@@ -52,7 +52,14 @@ MeiliSearch::Rails.deactivate! do
           tlk.thumbnail_md = talk_data["thumbnail_md"] || ""
           tlk.thumbnail_lg = talk_data["thumbnail_lg"] || ""
           tlk.thumbnail_xl = talk_data["thumbnail_xl"] || ""
-          tlk.slug = talk_data["raw_title"].parameterize
+
+          slug = talk_data["title"].parameterize
+
+          if Talk.exists?(slug: slug)
+            slug += event_data["title"].parameterize
+          end
+
+          tlk.slug = slug
         end
 
         talk_data["speakers"]&.each do |speaker_name|
