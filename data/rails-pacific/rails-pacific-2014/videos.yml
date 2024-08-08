@@ -1,9 +1,8 @@
 ---
 - title: Better Rails by Knowing Better Database
-  raw_title: Rails Pacific 2014   Better Rails by Knowing Better Database by Ding
-    ding Ye
+  raw_title: Rails Pacific 2014   Better Rails by Knowing Better Database by Dingding Ye
   speakers:
-  - Ding ding Ye
+    - Ding-ding Ye
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/R08dHi5k3YQ/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/R08dHi5k3YQ/mqdefault.jpg
@@ -13,10 +12,14 @@
   published_at: '2019-01-30'
   description: ''
   video_id: R08dHi5k3YQ
-- title: ''
+
+- title: 'Panel: Becoming A Senior Developer'
   raw_title: Becoming a senior developer
   speakers:
-  - Becoming a senior developer
+    - Richard Lee
+    - Prem Sichanugrist
+    - Richard Schneeman
+    - Ding-ding Ye
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/euJ4p0ByBz8/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/euJ4p0ByBz8/mqdefault.jpg
@@ -26,10 +29,11 @@
   published_at: '2019-01-30'
   description: ''
   video_id: euJ4p0ByBz8
-- title: Zero downtime payment platforms
+
+- title: Zero Downtime Payment Platforms
   raw_title: Rails Pacific 2014   Zero downtime payment platforms by Prem Sichanugrist
   speakers:
-  - Prem Sichanugrist
+    - Prem Sichanugrist
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/N8sYlKheRrk/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/N8sYlKheRrk/mqdefault.jpg
@@ -39,11 +43,11 @@
   published_at: '2019-01-30'
   description: ''
   video_id: N8sYlKheRrk
+
 - title: Trailblazer A New Architecture For Rails
-  raw_title: Rails Pacific 2014   Trailblazer   A New Architecture For Rails by Nick
-    Sutterer
+  raw_title: Rails Pacific 2014   Trailblazer   A New Architecture For Rails by Nick Sutterer
   speakers:
-  - Nick Sutterer
+    - Nick Sutterer
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/ofC5RA-FmL8/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/ofC5RA-FmL8/mqdefault.jpg
@@ -53,10 +57,11 @@
   published_at: '2019-01-30'
   description: ''
   video_id: ofC5RA-FmL8
+
 - title: Ten Years of Rails Deployment
   raw_title: Rails Pacific 2014   Ten Years of Rails Deployment by Christopher Rigor
   speakers:
-  - Christopher Rigor
+    - Christopher Rigor
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/FpSRHaH3McA/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/FpSRHaH3McA/mqdefault.jpg
@@ -66,11 +71,11 @@
   published_at: '2019-01-30'
   description: ''
   video_id: FpSRHaH3McA
+
 - title: Render It! A Deep Dive into ActionView and Template Engines
-  raw_title: Rails Pacific 2014   Render It!  A Deep Dive into ActionView and Template
-    Engines by Akira Matsuda
+  raw_title: Rails Pacific 2014   Render It!  A Deep Dive into ActionView and Template Engines by Akira Matsuda
   speakers:
-  - Akira Matsuda
+    - Akira Matsuda
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/fod_z7OFCfs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/fod_z7OFCfs/mqdefault.jpg
@@ -80,10 +85,11 @@
   published_at: '2019-01-30'
   description: ''
   video_id: fod_z7OFCfs
+
 - title: Multitenancy with Rails
   raw_title: Rails Pacific 2014   Multitenancy with Rails by Ryan Bigg
   speakers:
-  - Ryan Bigg
+    - Ryan Bigg
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/uwWBuqmQb0o/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/uwWBuqmQb0o/mqdefault.jpg
@@ -93,10 +99,11 @@
   published_at: '2019-01-30'
   description: ''
   video_id: uwWBuqmQb0o
+
 - title: Going the Distance
   raw_title: Rails Pacific 2014   Going the Distance by Richard Schneeman
   speakers:
-  - Richard Schneeman
+    - Richard Schneeman
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/mJhY5b6y5VM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/mJhY5b6y5VM/mqdefault.jpg
@@ -106,11 +113,11 @@
   published_at: '2019-01-30'
   description: ''
   video_id: mJhY5b6y5VM
+
 - title: Exception Handling Designing Robust Software
-  raw_title: Rails Pacific 2014   Exception Handling  Designing Robust Software by
-    Wen Tien Chang
+  raw_title: Rails Pacific 2014   Exception Handling  Designing Robust Software by Wen Tien Chang
   speakers:
-  - Wen Tien Chang
+    - Wen Tien Chang
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/BU3jX5IVZGM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/BU3jX5IVZGM/mqdefault.jpg
@@ -120,10 +127,11 @@
   published_at: '2019-01-30'
   description: ''
   video_id: BU3jX5IVZGM
+
 - title: Crafting Rails Culture
   raw_title: Rails Pacific 2014   Crafting Rails Culture by Shibata Hiroshi
   speakers:
-  - Shibata Hiroshi
+    - Shibata Hiroshi
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/eBgwduvi3Hw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/eBgwduvi3Hw/mqdefault.jpg
@@ -133,10 +141,13 @@
   published_at: '2019-01-30'
   description: ''
   video_id: eBgwduvi3Hw
-- title: ''
+
+- title: 'Panel: Refactoring'
   raw_title: Panel Discussion   Refactoring
   speakers:
-  - Panel Discussion Refactoring
+    - Ryan Bigg
+    - Nick Sutterer
+    - Shibata Hiroshi
   event_name: Rails Pacific 2014
   thumbnail_xs: https://i.ytimg.com/vi/9TkdXkkhP_4/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/9TkdXkkhP_4/mqdefault.jpg

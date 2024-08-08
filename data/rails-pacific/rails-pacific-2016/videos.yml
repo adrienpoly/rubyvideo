@@ -1,8 +1,14 @@
 ---
-- title: ''
+- title: 'Lightning Talks'
   raw_title: Rails Pacific 2016 - Lightning Talks
   speakers:
-  - "- Lightning Talks"
+    - Rick Liu
+    - lulalala
+    - Charlie Hua
+    - Xdite
+    - Bruce Li
+    - Juanito Fatas
+    - Adam Cuppy
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/k7HjIypXtl8/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/k7HjIypXtl8/mqdefault.jpg
@@ -29,11 +35,11 @@
 
     http://amara.org/v/Lid0/
   video_id: k7HjIypXtl8
-- title: When Making Money Becomes a Headache...
-  raw_title: Rails Pacific 2016 - When Making Money Becomes a Headache... by Sebastian
-    Sogamoso
+
+- title: When Making Money Becomes a Headache Dealing with Payments
+  raw_title: Rails Pacific 2016 - When Making Money Becomes a Headache... by Sebastian Sogamoso
   speakers:
-  - Sebastian Sogamoso
+    - Sebastian Sogamoso
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/pILdUMkOG3M/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/pILdUMkOG3M/mqdefault.jpg
@@ -52,11 +58,11 @@
 
     http://amara.org/v/Lew3/
   video_id: pILdUMkOG3M
-- title: 'Workshop / Taming Chaotic Specs: RSpec Design Patterns'
-  raw_title: 'Rails Pacific 2016 - Workshop / Taming Chaotic Specs: RSpec Design Patterns
-    by Adam Cuppy'
+
+- title: 'Workshop: Taming Chaotic Specs: RSpec Design Patterns'
+  raw_title: 'Rails Pacific 2016 - Workshop / Taming Chaotic Specs: RSpec Design Patterns by Adam Cuppy'
   speakers:
-  - Adam Cuppy
+    - Adam Cuppy
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/KjENZNjRCWM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/KjENZNjRCWM/mqdefault.jpg
@@ -73,11 +79,11 @@
 
     http://amara.org/v/LewZ/
   video_id: KjENZNjRCWM
+
 - title: Server Infrastructure for Rails in 2016
-  raw_title: Rails Pacific 2016 - Server Infrastructure for Rails in 2016 by Richard
-    Lee
+  raw_title: Rails Pacific 2016 - Server Infrastructure for Rails in 2016 by Richard Lee
   speakers:
-  - Richard Lee
+    - Richard Lee
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/v6NA4_Np31k/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/v6NA4_Np31k/mqdefault.jpg
@@ -102,10 +108,11 @@
 
     http://amara.org/v/Lf5y/
   video_id: v6NA4_Np31k
-- title: Continuous Learning, Teaching and...
+
+- title: Continuous Learning, Teaching and the Art of Improving Yourself
   raw_title: Rails Pacific 2016 - Continuous Learning, Teaching and...  by Luis Ferreira
   speakers:
-  - Luis Ferreira
+    - Luis Ferreira
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/5r5pBg9RMdM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/5r5pBg9RMdM/mqdefault.jpg
@@ -136,10 +143,11 @@
 
     http://amara.org/v/Lf5x/
   video_id: 5r5pBg9RMdM
+
 - title: What if Shakespeare Wrote Ruby?
   raw_title: Rails Pacific 2016 - What if Shakespeare Wrote Ruby? by Adam Cuppy
   speakers:
-  - Adam Cuppy
+    - Adam Cuppy
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/mrdmHK6ogC0/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/mrdmHK6ogC0/mqdefault.jpg
@@ -158,10 +166,11 @@
 
     http://amara.org/v/Lg6W/
   video_id: mrdmHK6ogC0
+
 - title: Robot on Rails
   raw_title: Rails Pacific 2016 - Robot on Rails by Max Hawkins
   speakers:
-  - Max Hawkins
+    - Max Hawkins
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/MPdYs6J-v34/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/MPdYs6J-v34/mqdefault.jpg
@@ -183,10 +192,11 @@
 
     http://amara.org/v/Lg6V/
   video_id: MPdYs6J-v34
+
 - title: Successful Speedy MVP Website Development
   raw_title: Rails Pacific 2016 - Successful Speedy MVP Website Development by Xdite
   speakers:
-  - Xdite
+    - Xdite
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/V3TWE5k3fnM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/V3TWE5k3fnM/mqdefault.jpg
@@ -207,11 +217,11 @@
 
     http://amara.org/v/Lg6T/
   video_id: V3TWE5k3fnM
+
 - title: ActionCable, Rails API and React - Modern Single Page Apps
-  raw_title: Rails Pacific 2016 - ActionCable, Rails API and React - Modern Single
-    Page Apps by Vipul A M
+  raw_title: Rails Pacific 2016 - ActionCable, Rails API and React - Modern Single Page Apps by Vipul A M
   speakers:
-  - Vipul A M
+    - Vipul A M
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/NMXXpqX2yvg/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/NMXXpqX2yvg/mqdefault.jpg
@@ -232,11 +242,11 @@
 
     http://amara.org/v/Lg6S/
   video_id: NMXXpqX2yvg
+
 - title: Large-Scaled Deploy Over 100 Servers in 3 Minutes
-  raw_title: Rails Pacific 2016 - Large-Scaled Deploy Over 100 Servers in 3 Minutes
-    by Hiroshi Shibata
+  raw_title: Rails Pacific 2016 - Large-Scaled Deploy Over 100 Servers in 3 Minutes by Hiroshi Shibata
   speakers:
-  - Hiroshi Shibata
+    - Hiroshi Shibata
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/EUnUeYET-88/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/EUnUeYET-88/mqdefault.jpg
@@ -261,11 +271,11 @@
 
     http://amara.org/v/Lg6Q/
   video_id: EUnUeYET-88
+
 - title: Make Money and Enjoy Freedom Creating a Software Business
-  raw_title: Rails Pacific 2016 - Make Money and Enjoy Freedom Creating a Software
-    Business by Ryan MacInnes
+  raw_title: Rails Pacific 2016 - Make Money and Enjoy Freedom Creating a Software Business by Ryan MacInnes
   speakers:
-  - Ryan MacInnes
+    - Ryan MacInnes
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/Frnl49c2r50/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/Frnl49c2r50/mqdefault.jpg
@@ -284,11 +294,11 @@
 
     http://amara.org/v/Lg6P/
   video_id: Frnl49c2r50
-- title: 'Going Global on Rails: Lessons Learned...'
-  raw_title: 'Rails Pacific 2016 - Going Global on Rails: Lessons Learned...  by Miles
-    Woodroffe'
+
+- title: "Going Global on Rails: Lessons Learned Taking Japan's Biggest Recipe Site International"
+  raw_title: 'Rails Pacific 2016 - Going Global on Rails: Lessons Learned...  by Miles Woodroffe'
   speakers:
-  - Miles Woodroffe
+    - Miles Woodroffe
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/dTcpLmNBXDA/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/dTcpLmNBXDA/mqdefault.jpg
@@ -307,10 +317,11 @@
 
     http://amara.org/v/LidY/
   video_id: dTcpLmNBXDA
+
 - title: Secrets of Testing Rails 5 Apps
   raw_title: Rails Pacific 2016 - Secrets of Testing Rails 5 Apps by Prathamesh Sonpatki
   speakers:
-  - Prathamesh Sonpatki
+    - Prathamesh Sonpatki
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/8A1bx_VoArs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/8A1bx_VoArs/mqdefault.jpg
@@ -331,12 +342,11 @@
 
     http://amara.org/v/LidZ/
   video_id: 8A1bx_VoArs
-- title: 'Rails Pacific 2016 - Keynote: Computer Science Education for the Next Generation
-    by Godfrey Chan'
-  raw_title: 'Rails Pacific 2016 - Keynote: Computer Science Education for the Next
-    Generation by Godfrey Chan'
+
+- title: 'Rails Pacific 2016 - Keynote: Computer Science Education for the Next Generation by Godfrey Chan'
+  raw_title: 'Rails Pacific 2016 - Keynote: Computer Science Education for the Next Generation by Godfrey Chan'
   speakers:
-  - Godfrey Chan
+    - Godfrey Chan
   event_name: Rails Pacific 2016
   thumbnail_xs: https://i.ytimg.com/vi/cAeIBMtNQY0/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/cAeIBMtNQY0/mqdefault.jpg
