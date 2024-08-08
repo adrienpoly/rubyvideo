@@ -1,0 +1,46 @@
+---
+- id: PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9
+  title: rubyday 2019
+  description: ''
+  published_at: '2019-07-12'
+  channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
+  year: '2019'
+  videos_count: 8
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyday-2019
+
+- id: PLWK9j6ps_unl0S5Xmi6FVfDLFUkntQTfK
+  title: rubyday 2020
+  description: |-
+    rubyday 2020 - Virtual edition, September 16th 2020. https://2020.rubyday.it/​
+
+    Next edition: https://2021.rubyday.it/
+  published_at: '2021-04-01'
+  channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
+  year: '2020'
+  videos_count: 8
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyday-2020
+
+- id: PLWK9j6ps_unmW3N5wPFG6WKVEVqCz0uAt
+  title: rubyday 2021
+  description: ''
+  published_at: '2023-02-15'
+  channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
+  year: '2021'
+  videos_count: 7
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyday-2021
+
+- id: PLWK9j6ps_unm-KNKVWSOHiGa4vrA_zCJO
+  title: rubyday 2023
+  description: "rubyday 2023 is the 10th edition of the Italian Ruby conference, organized
+    by GrUSP.\n\n\U0001F47E Main topics: Ruby, ChatGPT, LLM, AI, Rubocop, team management,
+    End to end typing, Ruby Kata, Caching strategies, Haskell \n\n\U0001F5D3️ 16 June
+    | \U0001F4CDVerona and online \n\U0001F517 www.2023.rubyday.it"
+  published_at: '2024-01-15'
+  channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
+  year: '2023'
+  videos_count: 8
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyday-2023
