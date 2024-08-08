@@ -103,45 +103,14 @@
   slug: blue-ridge-ruby
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
-- name: RubyKaigi
-  website: https://rubykaigi.org
-  twitter: RubyKaigi
-  kind: conference
-  frequency: yearly
-  playlist_matcher: RubyKaigi
-  default_country_code: JA
-  youtube_channel_name: rubykaigi4884
-  slug: rubykaigi
-  language: english
-  youtube_channel_id: UCBSg5zH-VFJ42BGQFk4VH2A
-- name: rubyday
-  website: https://rubyday.it
-  twitter: rubydayit
-  kind: conference
-  frequency: yearly
-  playlist_matcher: rubyday
-  default_country_code: IT
-  youtube_channel_name: GrUSP
-  slug: rubyday
-  language: english
-  youtube_channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
-- name: EuRuKo
-  website: https://euruko.org
-  kind: conference
-  frequency: yearly
-  default_country_code: DE
-  youtube_channel_name: EuRuKo
-  slug: euruko
-  language: english
-  youtube_channel_id: UCgXsZr2e0AgUJMZm5t03WVw
-- name: RubyConf TH
-  website: https://rubyconfth.com
-  twitter: rubyconfth
+- name: Tropical.rb
+  website: https://tropicalrb.com
+  twitter: tropicalrb
   kind: conference
   frequency: yearly
   playlist_matcher:
-  default_country_code: TH
-  youtube_channel_name: rubyconfth
-  slug: rubyconfth
+  default_country_code: BR
+  youtube_channel_name: tropicalrb
+  slug: tropicalrb
   language: english
-  youtube_channel_id: UCwIhYV_sPTzvjk6B6EUnf1g
+  youtube_channel_id: UCC3ljLfioI4qN2_zmG_kseQ
