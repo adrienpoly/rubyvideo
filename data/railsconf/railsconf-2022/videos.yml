@@ -1,10 +1,8 @@
 ---
-- title: 'RailsConf 2022 - Keynote: RailsConf 2022 - It''s been a minute! by Aaron
-    Patterson'
-  raw_title: 'RailsConf 2022 - Keynote: RailsConf 2022 - It''s been a minute! by Aaron
-    Patterson'
+- title: "Keynote: It's been a minute!"
+  raw_title: 'RailsConf 2022 - Keynote: RailsConf 2022 - It''s been a minute! by Aaron Patterson'
   speakers:
-  - Aaron Patterson
+    - Aaron Patterson
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/qqTFm2ZtRHg/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/qqTFm2ZtRHg/mqdefault.jpg
@@ -14,11 +12,11 @@
   published_at: '2022-11-09'
   description: 'Keynote: RailsConf 2022 - It''s been a minute! by Aaron Patterson'
   video_id: qqTFm2ZtRHg
-- title: "`rails c` with meturbocharge your use of the interactive console"
-  raw_title: RailsConf 2022 - `rails c` with meturbocharge your use of the interactive
-    console by Sweta Sanghavi
+
+- title: "`rails c` with me - turbocharge your use of the interactive console"
+  raw_title: RailsConf 2022 - `rails c` with meturbocharge your use of the interactive console by Sweta Sanghavi
   speakers:
-  - Sweta Sanghavi
+    - Sweta Sanghavi
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/AZquxGaSjGo/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/AZquxGaSjGo/mqdefault.jpg
@@ -34,10 +32,11 @@
     under the hood to see how the features of the console are encoded and we'll trace
     back the history of these libraries to see how they arrived in our Rails application.
   video_id: AZquxGaSjGo
+
 - title: 'ELI5: A Game Show on Rails'
   raw_title: 'RailsConf 2022 - ELI5: A Game Show on Rails by Andy Glass'
   speakers:
-  - Andy Glass
+    - Andy Glass
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/kDmvIWv_9M8/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/kDmvIWv_9M8/mqdefault.jpg
@@ -52,11 +51,11 @@
 
     After we quickly discuss some of the philosophies of teaching, we’ll divide up into teams and play a Jeopardy! meets Catchphrase hybrid game… with a few surprises along the way! Beginner, intermediate and advanced Rails-devs are welcome, and Portland-themed prizes will be awarded to the winners.
   video_id: kDmvIWv_9M8
+
 - title: Don't page me! How we limit pager noise at New Relic
-  raw_title: RailsConf 2022 - Don't page me! How we limit pager noise at New Relic
-    by Chuck Lauer Vose
+  raw_title: RailsConf 2022 - Don't page me! How we limit pager noise at New Relic by Chuck Lauer Vose
   speakers:
-  - Chuck Lauer Vose
+    - Chuck Lauer Vose
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/uxWqX1KZAH8/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/uxWqX1KZAH8/mqdefault.jpg
@@ -69,10 +68,11 @@
 
     This talk will cover a successful process for identifying trustworthy data, refining alert conditions, and what kinds of checks to page on.
   video_id: uxWqX1KZAH8
+
 - title: RAILS_ENV=demo
   raw_title: RailsConf 2022 - RAILS_ENV=demo by Nathan Griffith
   speakers:
-  - Nathan Griffith
+    - Nathan Griffith
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/N_2idFNGlkk/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/N_2idFNGlkk/mqdefault.jpg
@@ -89,11 +89,11 @@
     fakes\" and \"personas\" to produce a testable, maintainable, and failure-resistant
     \"demo\" deployment, with production-like uptime guarantees!"
   video_id: N_2idFNGlkk
+
 - title: If You Know Heroku, You Can Use Kubernetes
-  raw_title: RailsConf 2022 - If You Know Heroku, You Can Use Kubernetes by Jamie
-    Gaskins
+  raw_title: RailsConf 2022 - If You Know Heroku, You Can Use Kubernetes by Jamie Gaskins
   speakers:
-  - Jamie Gaskins
+    - Jamie Gaskins
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/mN-BedLhkKQ/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/mN-BedLhkKQ/mqdefault.jpg
@@ -106,10 +106,11 @@
     be. In this talk, you'll learn how to deploy with Kubernetes in a way that is
     nearly as friendly as with Heroku.
   video_id: mN-BedLhkKQ
+
 - title: '"Build vs Buy" on Rails'
   raw_title: RailsConf 2022 - "Build vs Buy" on Rails by Colin Loretz
   speakers:
-  - Colin Loretz
+    - Colin Loretz
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/IbWkO1aljyE/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/IbWkO1aljyE/mqdefault.jpg
@@ -124,11 +125,11 @@
 
     In 2022, the classic "Build vs Buy" question is more nuanced than ever and we'll dig into the pros and cons when building (or buying) on Rails.
   video_id: IbWkO1aljyE
-- title: 'RailsConf 2022 - Opening Keynote: The Journey to Zeitwerk by Xavier Noria'
-  raw_title: 'RailsConf 2022 - Opening Keynote: The Journey to Zeitwerk by Xavier
-    Noria'
+
+- title: 'Opening Keynote: The Journey to Zeitwerk'
+  raw_title: 'RailsConf 2022 - Opening Keynote: The Journey to Zeitwerk by Xavier Noria'
   speakers:
-  - Xavier Noria
+    - Xavier Noria
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/57AsQrxjLEs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/57AsQrxjLEs/mqdefault.jpg
@@ -138,10 +139,11 @@
   published_at: '2023-01-10'
   description: 'Opening Keynote: The Journey to Zeitwerk by Xavier Noria'
   video_id: 57AsQrxjLEs
+
 - title: Breaking up with the bundle
   raw_title: RailsConf 2022 - Breaking up with the bundle by Joel Hawksley
   speakers:
-  - Joel Hawksley
+    - Joel Hawksley
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/LMmKEfjW468/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/LMmKEfjW468/mqdefault.jpg
@@ -154,12 +156,12 @@
 
     Over the course of 14 years, the GitHub.com CSS bundle grew to over 40,000 lines of custom CSS. It became almost impossible to refactor. Visual regressions were common. In this talk, we'll share an honest picture of our successes and failures as we've worked to break up with our CSS bundle by moving towards a component-driven UI architecture.
   video_id: LMmKEfjW468
+
 - title: Spacecraft! The care and keeping of a legacy ...
-  raw_title: RailsConf 2022 - Spacecraft! The care and keeping of a legacy ... by
-    Annie Lydens & Jenny Allar
+  raw_title: RailsConf 2022 - Spacecraft! The care and keeping of a legacy ... by Annie Lydens & Jenny Allar
   speakers:
-  - Annie Lydens
-  - Jenny Allar
+    - Annie Lydens
+    - Jenny Allar
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/nE1xzf8tE9Y/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/nE1xzf8tE9Y/mqdefault.jpg
@@ -173,10 +175,11 @@
 
     Join us for an allegorical journey aboard the spacecraft Legacy, where the astronauts desperately need to update their aging infrastructure. Their leader, a brave spaceperson named Yuki, knows these repairs must be completed before the team gets hit by a series of feature request asteroids. This talk is an ELI5 journey through the various strategies around assessing, improving, and bullet-proofing Rails apps in need of some cosmic maintenance.
   video_id: nE1xzf8tE9Y
+
 - title: Caching Without Marshal
   raw_title: RailsConf 2022 - Caching Without Marshal by Chris Salzberg
   speakers:
-  - Chris Salzberg
+    - Chris Salzberg
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/fhnpaFRZ4Kw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/fhnpaFRZ4Kw/mqdefault.jpg
@@ -193,10 +196,11 @@
 
     In this talk, I'll pry Marshal open to show how it works, how we replaced it, and why you might want to do the same.
   video_id: fhnpaFRZ4Kw
+
 - title: Event Streaming on Rails
   raw_title: RailsConf 2022 - Event Streaming on Rails by Brad Urani
   speakers:
-  - Brad Urani
+    - Brad Urani
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/meJwkdaRnHw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/meJwkdaRnHw/mqdefault.jpg
@@ -213,10 +217,11 @@
     systems design, and the magical transactional outbox. You''ll leave with the knowledge
     you need to make the switch.'
   video_id: meJwkdaRnHw
+
 - title: 'Kuby: Active Deployment for Rails Apps'
   raw_title: 'RailsConf 2022 - Kuby: Active Deployment for Rails Apps by Cameron Dutro'
   speakers:
-  - Cameron Dutro
+    - Cameron Dutro
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/PJeET-SZssM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/PJeET-SZssM/mqdefault.jpg
@@ -233,10 +238,11 @@
     active deployment? Come learn how Kuby, a new deployment tool, is trying to bridge
     the gap.
   video_id: PJeET-SZssM
+
 - title: Leveling Up from Planning to Production
   raw_title: RailsConf 2022 - Leveling Up from Planning to Production by Thomas Countz
   speakers:
-  - Thomas Countz
+    - Thomas Countz
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/AtW4gNzFpms/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/AtW4gNzFpms/mqdefault.jpg
@@ -249,11 +255,11 @@
 
     These are the questions I've continued to ask myself as I grow in my career. In this session, we'll explore the tools myself and other senior-level individual contributors use to shape our work from project inception to delivery.
   video_id: AtW4gNzFpms
+
 - title: 'Evaluating Cultural Fit + Culturesmithing: Everyone Influences...'
-  raw_title: 'RailsConf 2022 - Evaluating Cultural Fit + Culturesmithing: Everyone
-    Influences... by Casey Watts'
+  raw_title: 'RailsConf 2022 - Evaluating Cultural Fit + Culturesmithing: Everyone Influences... by Casey Watts'
   speakers:
-  - Casey Watts
+    - Casey Watts
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/SJ1f-LEf1X4/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/SJ1f-LEf1X4/mqdefault.jpg
@@ -270,11 +276,11 @@
     organization’s culture meets your personal needs, and you will learn 20 immediately
     implementable techniques to improve this culture."
   video_id: SJ1f-LEf1X4
+
 - title: Do You Trust Me? A look at Trust, Time, and Teams
-  raw_title: RailsConf 2022 - Do You Trust Me? A look at Trust, Time, and Teams by
-    John DeWyze
+  raw_title: RailsConf 2022 - Do You Trust Me? A look at Trust, Time, and Teams by John DeWyze
   speakers:
-  - John DeWyze
+    - John DeWyze
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/EqyBLQHLMgE/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/EqyBLQHLMgE/mqdefault.jpg
@@ -287,10 +293,11 @@
 
     Trust is core to working on a team. We give a little trust, so we can save time. We use systems to create/protect/and outsource trust: PRs, pairing, code cov, type systems, etc. Join me for an exploration of trust in engineering, the psychology of trust, its relationship to time, and how we can have better trust rituals when we reframe the goal. So give me a little of your time and I'll teach you a little about trust. Do we have a deal?
   video_id: EqyBLQHLMgE
+
 - title: The Little Engines That Could
   raw_title: RailsConf 2022 - The Little Engines That Could by Mina Slater
   speakers:
-  - Mina Slater
+    - Mina Slater
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/EMKIJTricf4/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/EMKIJTricf4/mqdefault.jpg
@@ -305,10 +312,11 @@
 
     Those are the questions I wish were answered for me when I first learned about Rails Engines. Inspired by Wired’s Explain In 5 Levels series, we will explore Rails Engines and address these quandaries using a variety of techniques, breaking down what engines are and how and when to use them.
   video_id: EMKIJTricf4
+
 - title: Scaling Rails with JRuby in 2022
   raw_title: RailsConf 2022 - Scaling Rails with JRuby in 2022 by Charles Oliver Nutter
   speakers:
-  - Charles Oliver Nutter
+    - Charles Oliver Nutter
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/Y4Jt1I8lCK4/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/Y4Jt1I8lCK4/mqdefault.jpg
@@ -325,10 +333,11 @@
     all over the world in mission critical areas. Come see how JRuby can help you
     scale today!
   video_id: Y4Jt1I8lCK4
+
 - title: React-ing to Hotwire
   raw_title: RailsConf 2022 - React-ing to Hotwire by David Hill
   speakers:
-  - David Hill
+    - David Hill
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/SS7LoJKkmYs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/SS7LoJKkmYs/mqdefault.jpg
@@ -344,10 +353,11 @@
     using Hotwire as the new front-end framework. How did it go, what lessons were
     learned, and would I do it again?
   video_id: SS7LoJKkmYs
+
 - title: How music works, using Ruby
   raw_title: RailsConf 2022 - How music works, using Ruby by Thijs Cadier
   speakers:
-  - Thijs Cadier
+    - Thijs Cadier
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/Qi3kEj41NwA/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/Qi3kEj41NwA/mqdefault.jpg
@@ -362,11 +372,11 @@
 
     Let's look at what they do and reproduce some of their methods in Ruby!
   video_id: Qi3kEj41NwA
+
 - title: Service Denied! Understanding How Regex DoS Attacks Work
-  raw_title: RailsConf 2022 - Service Denied! Understanding How Regex DoS Attacks
-    Work by Kevin Menard
+  raw_title: RailsConf 2022 - Service Denied! Understanding How Regex DoS Attacks Work by Kevin Menard
   speakers:
-  - Kevin Menard
+    - Kevin Menard
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/XpF3H6w1NSY/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/XpF3H6w1NSY/mqdefault.jpg
@@ -382,10 +392,11 @@
     how regular expressions work, we can better understand what these attacks do,
     why they tie up so much CPU, and what we can do to guard against them.
   video_id: XpF3H6w1NSY
+
 - title: Call me back, Postgres
   raw_title: RailsConf 2022 - Call me back, Postgres by Ifat Ribon
   speakers:
-  - Ifat Ribon
+    - Ifat Ribon
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/ZwxX58q1a5A/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/ZwxX58q1a5A/mqdefault.jpg
@@ -402,10 +413,11 @@
     otherwise complex system, managing data syncing and other processes seamlessly,
     regardless of consumers of the app.'
   video_id: ZwxX58q1a5A
-- title: 'RailsConf 2022 - Keynote: A tech görl origin story by Crystal Tia Martin'
+
+- title: 'Keynote: A tech görl origin story'
   raw_title: 'RailsConf 2022 - Keynote: A tech görl origin story by Crystal Tia Martin'
   speakers:
-  - Crystal Tia Martin
+    - Crystal Tia Martin
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/4dLqPN7ozpo/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/4dLqPN7ozpo/mqdefault.jpg
@@ -415,10 +427,11 @@
   published_at: '2023-01-11'
   description: 'Keynote: A tech görl origin story by Crystal Tia Martin'
   video_id: 4dLqPN7ozpo
+
 - title: O(1), O(n) and O(#$*&!)
   raw_title: RailsConf 2022 - O(1), O(n) and O(#$*&!) by Stephen Prater
   speakers:
-  - Stephen Prater
+    - Stephen Prater
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/c7CHdAhf85g/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/c7CHdAhf85g/mqdefault.jpg
@@ -433,11 +446,11 @@
     and ensure that they stay fixed using automated performance testing, even as your
     application grows.
   video_id: c7CHdAhf85g
+
 - title: Git your PR accepted. Rebase your changes like a pro
-  raw_title: RailsConf 2022 - Git your PR accepted. Rebase your changes like a pro
-    by Daniel Magliola
+  raw_title: RailsConf 2022 - Git your PR accepted. Rebase your changes like a pro by Daniel Magliola
   speakers:
-  - Daniel Magliola
+    - Daniel Magliola
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/KNtwDdUEXRw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/KNtwDdUEXRw/mqdefault.jpg
@@ -452,11 +465,11 @@
 
     In this talk we will look at how Git branches work, and how to manicure them using Rebase to build a commit history your colleagues will love you for.
   video_id: KNtwDdUEXRw
+
 - title: 'Open the gate a little: strategies to protect and share data'
-  raw_title: 'RailsConf 2022 - Open the gate a little: strategies to protect and share
-    data by Fernando Petrales'
+  raw_title: 'RailsConf 2022 - Open the gate a little: strategies to protect and share data by Fernando Petrales'
   speakers:
-  - Fernando Petrales
+    - Fernando Petrales
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/TYgwg33E81c/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/TYgwg33E81c/mqdefault.jpg
@@ -472,10 +485,11 @@
 
     In this talk I'll share some strategies that can give you some guidance on when to close the door, when to open the door and when to open the door to your information a little
   video_id: TYgwg33E81c
+
 - title: Reflecting on Active Record Associations
   raw_title: RailsConf 2022 - Reflecting on Active Record Associations by Daniel Colson
   speakers:
-  - Daniel Colson
+    - Daniel Colson
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/ImwNMYjRMSg/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/ImwNMYjRMSg/mqdefault.jpg
@@ -492,10 +506,11 @@
     inverses. You'll leave with a deeper understanding of associations, and a new
     appreciation for their magic.
   video_id: ImwNMYjRMSg
+
 - title: Experimental Patterns in ActiveRecord
   raw_title: RailsConf 2022 - Experimental Patterns in ActiveRecord by John Crepezzi
   speakers:
-  - John Crepezzi
+    - John Crepezzi
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/-nrQDbRK5TM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/-nrQDbRK5TM/mqdefault.jpg
@@ -508,10 +523,11 @@
 
     In this talk, I'll go over some the problems we've been facing, cover how we've been addressing them so far, and show some new experiments & patterns I've been working through.
   video_id: "-nrQDbRK5TM"
-- title: 'RailsConf 2022 - Keynote: Meditations on Software by Vaidehi Joshi'
+
+- title: 'Keynote: Meditations on Software'
   raw_title: 'RailsConf 2022 - Keynote: Meditations on Software by Vaidehi Joshi'
   speakers:
-  - Vaidehi Joshi
+    - Vaidehi Joshi
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/t46d9GUXy0A/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/t46d9GUXy0A/mqdefault.jpg
@@ -521,10 +537,11 @@
   published_at: '2023-01-11'
   description: 'Keynote: Meditations on Software by Vaidehi Joshi'
   video_id: t46d9GUXy0A
+
 - title: The Mrs Triggs Problem
   raw_title: RailsConf 2022 - The Mrs Triggs Problem by Andy Croll
   speakers:
-  - Andy Croll
+    - Andy Croll
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/rj1Mqly3XI4/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/rj1Mqly3XI4/mqdefault.jpg
@@ -539,10 +556,11 @@
 
     Warning, may contain content that will make you uncomfortable about your own past behaviour. But you'll leave better able to provide a better industry for your fellow humans.
   video_id: rj1Mqly3XI4
+
 - title: Don't touch that!
   raw_title: RailsConf 2022 - Don't touch that! by Adam Cuppy
   speakers:
-  - Adam Cuppy
+    - Adam Cuppy
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/GAtCF44yufw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/GAtCF44yufw/mqdefault.jpg
@@ -557,10 +575,11 @@
     this talk, we will override, extend, and disable all sorts of Rails internals
     and see what happens.
   video_id: GAtCF44yufw
+
 - title: Your TDD Treasure Map
   raw_title: RailsConf 2022 - Your TDD Treasure Map by Christopher "Aji" Slater
   speakers:
-  - Christopher "Aji" Slater
+    - Christopher "Aji" Slater
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/jCgb4JjqQVA/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/jCgb4JjqQVA/mqdefault.jpg
@@ -574,11 +593,11 @@
     cases and building a robust test suite. X marks the spot w/ TDD tools for newbies
     and seasoned pirates alike.
   video_id: jCgb4JjqQVA
+
 - title: Your test suite is making too many database calls!
-  raw_title: RailsConf 2022 - Your test suite is making too many database calls! by
-    Joël Quenneville
+  raw_title: RailsConf 2022 - Your test suite is making too many database calls! by Joël Quenneville
   speakers:
-  - Joël Quenneville
+    - Joël Quenneville
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/QeuVM0zai60/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/QeuVM0zai60/mqdefault.jpg
@@ -591,11 +610,11 @@
 
     The chaos is your opportunity! Learn to profile and fix hot spots, build big-picture understanding through diagrams, and write code that is resistant to extraneous queries. This talk will equip you to take back control of your build times and maybe impress your teammates in the process.
   video_id: QeuVM0zai60
+
 - title: Testing legacy code when you dislike tests (and legacy code)
-  raw_title: RailsConf 2022 - Testing legacy code when you dislike tests (and legacy
-    code) by Maeve Revels
+  raw_title: RailsConf 2022 - Testing legacy code when you dislike tests (and legacy code) by Maeve Revels
   speakers:
-  - Maeve Revels
+    - Maeve Revels
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/ufIGaySoQWY/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/ufIGaySoQWY/mqdefault.jpg
@@ -610,11 +629,11 @@
 
     Developers of any experience level can benefit from these concepts. Familiarity with Rails and an automated testing framework is helpful but not required.
   video_id: ufIGaySoQWY
+
 - title: Laying the Cultural and Technical Foundation for Big Rails
-  raw_title: RailsConf 2022 - Laying the Cultural and Technical Foundation for Big
-    Rails by Alex Evanczuk
+  raw_title: RailsConf 2022 - Laying the Cultural and Technical Foundation for Big Rails by Alex Evanczuk
   speakers:
-  - Alex Evanczuk
+    - Alex Evanczuk
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/xBFUVl91JtI/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/xBFUVl91JtI/mqdefault.jpg
@@ -630,11 +649,11 @@
     in an ever-growing Rails codebase continue to have high velocity, manage their
     complexity, and claim ownership over their own business subdomains.
   video_id: xBFUVl91JtI
+
 - title: Your Service Layer Needn't be Fancy, It Just Needs to Exist
-  raw_title: RailsConf 2022 - Your Service Layer Needn't be Fancy, It Just Needs to
-    Exist by David Copeland
+  raw_title: RailsConf 2022 - Your Service Layer Needn't be Fancy, It Just Needs to Exist by David Copeland
   speakers:
-  - David Copeland
+    - David Copeland
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/xFDn4TxKDrQ/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/xFDn4TxKDrQ/mqdefault.jpg
@@ -649,11 +668,11 @@
     You'll learn why this is and how to start a service layer today without any patterns,
     principles, or fancy libraries.
   video_id: xFDn4TxKDrQ
+
 - title: Pictures Of You, Pictures Of Me, Crypto Steganography
-  raw_title: RailsConf 2022 - Pictures Of You, Pictures Of Me, Crypto Steganography
-    by Sean Marcia
+  raw_title: RailsConf 2022 - Pictures Of You, Pictures Of Me, Crypto Steganography by Sean Marcia
   speakers:
-  - Sean Marcia
+    - Sean Marcia
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/GQgnUHF2SNE/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/GQgnUHF2SNE/mqdefault.jpg
@@ -670,11 +689,11 @@
     of the pictures culminated in the resolution of a 15 year rivalry when the US
     Olympic men’s curling team won the gold in 2018.
   video_id: GQgnUHF2SNE
+
 - title: Come on in! Making yourself at home in a new codebase
-  raw_title: RailsConf 2022 - Come on in! Making yourself at home in a new codebase
-    by Mercedes Bernard
+  raw_title: RailsConf 2022 - Come on in! Making yourself at home in a new codebase by Mercedes Bernard
   speakers:
-  - Mercedes Bernard
+    - Mercedes Bernard
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/-Fpb4c7_vcU/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/-Fpb4c7_vcU/mqdefault.jpg
@@ -691,10 +710,11 @@
     In this talk, we'll cover how to build our code comprehension skills and how to
     make our own code welcoming to guests in the future."
   video_id: "-Fpb4c7_vcU"
+
 - title: A Rails Developer’s Guide To The Ruby VM
   raw_title: RailsConf 2022 - A Rails Developer’s Guide To The Ruby VM by Maple Ong
   speakers:
-  - Maple Ong
+    - Maple Ong
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/1LTM3KPiruo/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/1LTM3KPiruo/mqdefault.jpg
@@ -707,10 +727,11 @@
 
     Time to switch gears from the Rails-level of abstraction to a lower one and dive into some Ruby internals. We’ll be learning about how the Ruby code you write gets compiled and executed, then zoom in to the VM-level – what VMs are and what they do, and how the Ruby VM works. You’ll walk away with a better understanding of how Ruby and Rails works as a whole. No low-level systems knowledge needed!
   video_id: 1LTM3KPiruo
-- title: ''
+
+- title: 'You have 2 seconds to respond'
   raw_title: RailsConf 2022 - You have 2 seconds to respond - Atob - Justin Powers
   speakers:
-  - "- You have 2 seconds to respond - Atob - Justin Powers"
+    - Justin Powers
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/oCN-uA2oeeY/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/oCN-uA2oeeY/mqdefault.jpg
@@ -720,12 +741,14 @@
   published_at: '2023-01-11'
   description: You have 2 seconds to respond - Atob - Justin Powers
   video_id: oCN-uA2oeeY
-- title: ''
-  raw_title: 'RailsConf 2022 - More Engineers, More Problems: Solutions for Big Teams
-    - Chime -'
+
+- title: 'More Engineers, More Problems: Solutions for Big Teams'
+  raw_title: 'RailsConf 2022 - More Engineers, More Problems: Solutions for Big Teams - Chime -'
   speakers:
-  - "- More Engineers"
-  - 'More Problems: Solutions for Big Teams - Chime -'
+    - Noel Rappin
+    - David Trejo
+    - Brian Lesperance
+    - Chris Dwan
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/BJWeKT7H7EA/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/BJWeKT7H7EA/mqdefault.jpg
@@ -737,11 +760,12 @@
     More Engineers, More Problems: Solutions for Big Teams
      - Chime - Noel Rappin, David Trejo, Brian Lesperance, Chris Dwan
   video_id: BJWeKT7H7EA
-- title: ''
-  raw_title: 'RailsConf 2022 - Finding the Needle in the Stack Trace: APM Logs-in-Context
-    - New Relic -'
+
+- title: 'Finding the Needle in the Stack Trace: APM Logs-in-Context'
+  raw_title: 'RailsConf 2022 - Finding the Needle in the Stack Trace: APM Logs-in-Context - New Relic -'
   speakers:
-  - "- Finding the Needle in the Stack Trace: APM Logs-in-Context - New Relic -"
+    - Kayla Reopelle
+    - Mike Neville-O'Neill
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/J-KFRqA_SPY/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/J-KFRqA_SPY/mqdefault.jpg
@@ -753,10 +777,11 @@
     Finding the Needle in the Stack Trace: APM Logs-in-Context
     - New Relic - Kayla Reopelle and Mike Neville-O'Neill
   video_id: J-KFRqA_SPY
+
 - title: Functional Programming in Plain Terms
   raw_title: RailsConf 2022 - Functional Programming in Plain Terms by Eric Weinstein
   speakers:
-  - Eric Weinstein
+    - Eric Weinstein
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/ffvOnr4TbAg/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/ffvOnr4TbAg/mqdefault.jpg
@@ -773,10 +798,11 @@
     a rich new set of FP ideas to apply to your projects—and you''ll finally learn
     what a monad is (hint: it''s not a burrito).'
   video_id: ffvOnr4TbAg
+
 - title: The pitfalls of realtime-ification
   raw_title: RailsConf 2022 - The pitfalls of realtime-ification by Vladimir Dementyev
   speakers:
-  - Vladimir Dementyev
+    - Vladimir Dementyev
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/p54ejYrGYEg/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/p54ejYrGYEg/mqdefault.jpg
@@ -791,11 +817,11 @@
 
     Let me dig into these problems and demonstrate how to resolve them for Action Cable and Hotwire.
   video_id: p54ejYrGYEg
+
 - title: Start Your Ruby Podcast Today! No Experience Required
-  raw_title: RailsConf 2022 - Start Your Ruby Podcast Today! No Experience Required
-    by Jason Charnes
+  raw_title: RailsConf 2022 - Start Your Ruby Podcast Today! No Experience Required by Jason Charnes
   speakers:
-  - Jason Charnes
+    - Jason Charnes
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/OVH9vmiFY2g/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/OVH9vmiFY2g/mqdefault.jpg
@@ -811,11 +837,11 @@
     just how lovely the Ruby community is.\n\nIt's your turn! Come to learn from our
     mistakes, leave ready to start a podcast!"
   video_id: OVH9vmiFY2g
+
 - title: Behind the Lemurs - Creating an Illustrated Talk
-  raw_title: RailsConf 2022 - Behind the Lemurs - Creating an Illustrated Talk by
-    Brandon Weaver
+  raw_title: RailsConf 2022 - Behind the Lemurs - Creating an Illustrated Talk by Brandon Weaver
   speakers:
-  - Brandon Weaver
+    - Brandon Weaver
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/_8nXpuYPaHo/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/_8nXpuYPaHo/mqdefault.jpg
@@ -829,11 +855,11 @@
     including ideation, storyboarding, art, code tie-ins, and more. Perhaps you'll
     even learn to make a few lemurs of your own!
   video_id: _8nXpuYPaHo
+
 - title: 'Learn it, Do it, Teach it: How to Unstick Our Middle Devs'
-  raw_title: 'RailsConf 2022 - Learn it, Do it, Teach it: How to Unstick Our Middle
-    Devs by Chelsea Kaufman'
+  raw_title: 'RailsConf 2022 - Learn it, Do it, Teach it: How to Unstick Our Middle Devs by Chelsea Kaufman'
   speakers:
-  - Chelsea Kaufman
+    - Chelsea Kaufman
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/TQ3o1fXANtQ/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/TQ3o1fXANtQ/mqdefault.jpg
@@ -850,12 +876,12 @@
     day to day. Growth plans like this model will allow your team to move from mids
     into seniors both faster and more confidently.'
   video_id: TQ3o1fXANtQ
-- title: ''
-  raw_title: RailsConf 2022 - Building a diverse engineering team - Wrapbook - Zaid
-    Zawaideh & Jessica Lawrence
+
+- title: 'Building a diverse engineering team'
+  raw_title: RailsConf 2022 - Building a diverse engineering team - Wrapbook - Zaid Zawaideh & Jessica Lawrence
   speakers:
-  - "- Building a diverse engineering team - Wrapbook - Zaid Zawaideh"
-  - Jessica Lawrence
+    - Zaid Zawaideh
+    - Jessica Lawrence
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/55KN3d_VVs0/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/55KN3d_VVs0/mqdefault.jpg
@@ -863,14 +889,13 @@
   thumbnail_lg: https://i.ytimg.com/vi/55KN3d_VVs0/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/55KN3d_VVs0/maxresdefault.jpg
   published_at: '2023-01-11'
-  description: Building a diverse engineering team - Wrapbook -  Zaid Zawaideh & Jessica
-    Lawrence
+  description: Building a diverse engineering team - Wrapbook -  Zaid Zawaideh & Jessica Lawrence
   video_id: 55KN3d_VVs0
-- title: ''
-  raw_title: RailsConf 2022 - Growing Your Background Job Knowledge - Weedmaps - Jake
-    Anderson
+
+- title: 'Growing Your Background Job Knowledge'
+  raw_title: RailsConf 2022 - Growing Your Background Job Knowledge - Weedmaps - Jake Anderson
   speakers:
-  - "- Growing Your Background Job Knowledge - Weedmaps - Jake Anderson"
+    - Jake Anderson
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/DaRj3DkVWyE/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/DaRj3DkVWyE/mqdefault.jpg
@@ -880,10 +905,11 @@
   published_at: '2023-01-11'
   description: "Growing Your Background Job Knowledge \n- Weedmaps - Jake Anderson"
   video_id: DaRj3DkVWyE
-- title: ''
+
+- title: 'The Future of Ruby on Rails at Shopify'
   raw_title: RailsConf 2022 - Shopify
   speakers:
-  - "- Shopify"
+    - Mike Dalessio
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/yfEJxRtIOEw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/yfEJxRtIOEw/mqdefault.jpg
@@ -893,10 +919,11 @@
   published_at: '2023-01-11'
   description: Shopify
   video_id: yfEJxRtIOEw
-- title: 'RailsConf 2022 - Keynote: The Success of Ruby on Rails by Eileen Uchitelle'
+
+- title: 'Keynote: The Success of Ruby on Rails'
   raw_title: 'RailsConf 2022 - Keynote: The Success of Ruby on Rails by Eileen Uchitelle'
   speakers:
-  - Eileen Uchitelle
+    - Eileen Uchitelle
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/p17xn05zc9c/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/p17xn05zc9c/mqdefault.jpg
@@ -906,11 +933,11 @@
   published_at: '2023-01-11'
   description: 'Keynote: The Success of Ruby on Rails by Eileen Uchitelle'
   video_id: p17xn05zc9c
+
 - title: 'A Rails Performance Guidebook: from 0 to 1B requests/day'
-  raw_title: 'RailsConf 2022 - A Rails Performance Guidebook: from 0 to 1B requests/day
-    by Cristian Planas'
+  raw_title: 'RailsConf 2022 - A Rails Performance Guidebook: from 0 to 1B requests/day by Cristian Planas'
   speakers:
-  - Cristian Planas
+    - Cristian Planas
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/Suz-R3LfFCk/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/Suz-R3LfFCk/mqdefault.jpg
@@ -923,11 +950,11 @@
 
     In this presentation, we will guide you across patterns, strategies, and little tricks to improve performance. We will do that by sharing real stories of our daily experience facing and solving real performance issues in an application that daily serves billions of requests per day.
   video_id: Suz-R3LfFCk
-- title: Unboxing Rails 7What's new in the latest major version
-  raw_title: RailsConf 2022 - Unboxing Rails 7What's new in the latest major version
-    by Claudio Baccigalupo
+
+- title: "Unboxing Rails 7: What's new in the latest major version"
+  raw_title: RailsConf 2022 - Unboxing Rails 7What's new in the latest major version by Claudio Baccigalupo
   speakers:
-  - Claudio Baccigalupo
+    - Claudio Baccigalupo
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/lBBiOmqnNCs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/lBBiOmqnNCs/mqdefault.jpg
@@ -940,10 +967,11 @@
 
     Learn about these and many other Pull Requests that were merged in rails/rails in 2021. Understand the motivation behind some architectural decisions. Review the process to upgrade from Rails 6.1 to Rails 7.
   video_id: lBBiOmqnNCs
+
 - title: GraphQL and Rails beyond HTTP APIs
   raw_title: RailsConf 2022 - GraphQL and Rails beyond HTTP APIs by Gui Vieira
   speakers:
-  - Gui Vieira
+    - Gui Vieira
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/BR1B9vR8d2w/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/BR1B9vR8d2w/mqdefault.jpg
@@ -956,12 +984,12 @@
 
     We will explore how GraphQL does not depend on HTTP and can be used as a secure and structured data layer for Rails projects. You will learn to deliver real-time GGraphQL through Websockets, Webhooks containing all the data you need, provide data for WebAssembly code and parallelize queries exporting large amounts of data. Every Rails project needs consistent access to data and GraphQL brings solutions beyond the typical HTTP API.
   video_id: BR1B9vR8d2w
+
 - title: Ooops! You named it wrong. What now?
-  raw_title: RailsConf 2022 - Ooops! You named it wrong. What now? by Ian Norris &
-    Melissa Hunt Glickman
+  raw_title: RailsConf 2022 - Ooops! You named it wrong. What now? by Ian Norris & Melissa Hunt Glickman
   speakers:
-  - Ian Norris
-  - Melissa Hunt Glickman
+    - Ian Norris
+    - Melissa Hunt Glickman
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/52Qzgf2Xvi4/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/52Qzgf2Xvi4/mqdefault.jpg
@@ -974,11 +1002,11 @@
 
     Buckle up for a fast paced ride through the opportunities and pitfalls faced when you find yourself in this position. Through success and failure stories, learn how to leave space for names to breathe, make changes safely, and walking that fine line of changing just in time.
   video_id: 52Qzgf2Xvi4
+
 - title: 'Browser History Confessional: Searching My Recent Searches'
-  raw_title: 'RailsConf 2022 - Browser History Confessional: Searching My Recent Searches
-    by Kevin Murphy'
+  raw_title: 'RailsConf 2022 - Browser History Confessional: Searching My Recent Searches by Kevin Murphy'
   speakers:
-  - Kevin Murphy
+    - Kevin Murphy
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/UVvC6shN83U/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/UVvC6shN83U/mqdefault.jpg
@@ -991,11 +1019,11 @@
 
     Join me, and my actual search history, on a journey to solve recent challenges I faced. I'll categorize the different types of information I often search for. You'll leave with tips on retrieving the knowledge you need for your next bug, feature, or pull request.
   video_id: UVvC6shN83U
+
 - title: Computer science you might (not) want to know
-  raw_title: RailsConf 2022 - Computer science you might (not) want to know by Andy
-    Andrea
+  raw_title: RailsConf 2022 - Computer science you might (not) want to know by Andy Andrea
   speakers:
-  - Andy Andrea
+    - Andy Andrea
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/b7R9CFAZV2E/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/b7R9CFAZV2E/mqdefault.jpg
@@ -1008,12 +1036,12 @@
 
     We’ll look at a few topics that are often included in the first half of an undergraduate CS curriculum. We’ll examine this information through two lenses: why it can be helpful and why it might not be all that relevant for a typical Rails dev.
   video_id: b7R9CFAZV2E
+
 - title: 'Gem install: What could go wrong?'
-  raw_title: 'RailsConf 2022 - Gem install: What could go wrong? by Ashley Ellis Pierce
-    & Betty Li'
+  raw_title: 'RailsConf 2022 - Gem install: What could go wrong? by Ashley Ellis Pierce & Betty Li'
   speakers:
-  - Ashley Ellis Pierce
-  - Betty Li
+    - Ashley Ellis Pierce
+    - Betty Li
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/e5_3kL0SdzM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/e5_3kL0SdzM/mqdefault.jpg
@@ -1026,11 +1054,11 @@
 
     In this talk, we’ll cover what “bad things” can actually happen when you install a gem. We’ll also talk about the ways of preventing these attacks from occurring in your application dependencies (so you can sleep well at night).
   video_id: e5_3kL0SdzM
+
 - title: 'The Queue Continuum: Applied Queuing Theory'
-  raw_title: 'RailsConf 2022 - The Queue Continuum: Applied Queuing Theory by Justin
-    Bowen'
+  raw_title: 'RailsConf 2022 - The Queue Continuum: Applied Queuing Theory by Justin Bowen'
   speakers:
-  - Justin Bowen
+    - Justin Bowen
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/N6LxQkyky3w/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/N6LxQkyky3w/mqdefault.jpg
@@ -1044,10 +1072,11 @@
     We’ll go over examples of sidekiq and puma with different concurrency settings
     in various IO scenarios.
   video_id: N6LxQkyky3w
+
 - title: Ruby Archaeology
   raw_title: RailsConf 2022 - Ruby Archaeology by Nick Schwaderer
   speakers:
-  - Nick Schwaderer
+    - Nick Schwaderer
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/53ueEIS0cng/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/53ueEIS0cng/mqdefault.jpg
@@ -1065,11 +1094,11 @@
     What idioms have changed?
     And for the brave: how can you set up an environment to run Ruby 1.8 code from ~2008 on a modern machine?
   video_id: 53ueEIS0cng
+
 - title: 'Upgrading Rails: Everyone can do it and here’s how'
-  raw_title: 'RailsConf 2022 - Upgrading Rails: Everyone can do it and here’s how
-    by Andrea Fomera'
+  raw_title: 'RailsConf 2022 - Upgrading Rails: Everyone can do it and here’s how by Andrea Fomera'
   speakers:
-  - Andrea Fomera
+    - Andrea Fomera
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/NHZCQeh91p0/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/NHZCQeh91p0/mqdefault.jpg
@@ -1085,11 +1114,11 @@
     you can use to upgrade your app. You’ll leave this talk with takeaways you can
     put into practice for your next Rails upgrade.
   video_id: NHZCQeh91p0
+
 - title: 'Let Your Body Lead: Career Planning With Somatics'
-  raw_title: 'RailsConf 2022 - Let Your Body Lead: Career Planning With Somatics by
-    Amy Newell'
+  raw_title: 'RailsConf 2022 - Let Your Body Lead: Career Planning With Somatics by Amy Newell'
   speakers:
-  - Amy Newell
+    - Amy Newell
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/W7Im8VjLEEg/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/W7Im8VjLEEg/mqdefault.jpg
@@ -1104,10 +1133,11 @@
 
     You do! It’s called your somatic intelligence. With practice you can learn to tune into it and let your body lead the way to satisfaction and fulfillment -- in every area of your life.
   video_id: W7Im8VjLEEg
+
 - title: Geolocation EXPLAINed
   raw_title: RailsConf 2022 - Geolocation EXPLAINed by Kevin Lesht
   speakers:
-  - Kevin Lesht
+    - Kevin Lesht
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/i1hFVA-dwvU/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/i1hFVA-dwvU/mqdefault.jpg
@@ -1120,26 +1150,13 @@
 
     In this session, you'll learn about IP address networking, fundamental database operations, and query performance tuning. We'll develop a geolocation system from the ground up, and make sure it's running lightning fast along the way.
   video_id: i1hFVA-dwvU
-- title: ''
-  raw_title: RailsConf 2022 - Building a diverse engineering team - Wrapbook - Zaid
-    Zawaideh & Jessica Lawrence
-  speakers:
-  - "- Building a diverse engineering team - Wrapbook - Zaid Zawaideh"
-  - Jessica Lawrence
-  event_name: RailsConf 2022
-  thumbnail_xs: https://i.ytimg.com/vi/OwZsTgfJQYU/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/OwZsTgfJQYU/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/OwZsTgfJQYU/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/OwZsTgfJQYU/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/OwZsTgfJQYU/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: Building a diverse engineering team - Wrapbook -  Zaid Zawaideh & Jessica
-    Lawrence
-  video_id: OwZsTgfJQYU
-- title: ''
+
+- title: 'Diversity in Engineering; a community perspective'
   raw_title: RailsConf 2022 - Diversity in Engineering; a community perspective
   speakers:
-  - "- Diversity in Engineering; a community perspective"
+    - Maya Toussaint
+    - Caterina Paun
+    - Stephanie Minn
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/d0pE0HNNX4Y/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/d0pE0HNNX4Y/mqdefault.jpg
@@ -1147,15 +1164,13 @@
   thumbnail_lg: https://i.ytimg.com/vi/d0pE0HNNX4Y/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/d0pE0HNNX4Y/maxresdefault.jpg
   published_at: '2023-01-11'
-  description: "Diversity in Engineering; a community perspective\n- Shopify - \nMaya
-    Toussaint, Caterina Paun & Stephanie Minn"
+  description: "Diversity in Engineering; a community perspective\n- Shopify - \nMaya Toussaint, Caterina Paun & Stephanie Minn"
   video_id: d0pE0HNNX4Y
-- title: ''
-  raw_title: RailsConf 2022 - Bringing Your Rails Monolith Along As The Business Grows
-    - Ontra - Carrick Rogers
+
+- title: 'Bringing Your Rails Monolith Along As The Business Grows'
+  raw_title: RailsConf 2022 - Bringing Your Rails Monolith Along As The Business Grows - Ontra - Carrick Rogers
   speakers:
-  - "- Bringing Your Rails Monolith Along As The Business Grows - Ontra - Carrick
-    Rogers"
+    - Carrick Rogers
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/ihkBemw3tPk/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/ihkBemw3tPk/mqdefault.jpg
@@ -1163,13 +1178,13 @@
   thumbnail_lg: https://i.ytimg.com/vi/ihkBemw3tPk/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ihkBemw3tPk/maxresdefault.jpg
   published_at: '2023-01-11'
-  description: Bringing Your Rails Monolith Along As The Business Grows - Ontra -
-    Carrick Rogers
+  description: Bringing Your Rails Monolith Along As The Business Grows - Ontra - Carrick Rogers
   video_id: ihkBemw3tPk
+
 - title: Puny to Powerful PostgreSQL Rails Apps
   raw_title: RailsConf 2022 - Puny to Powerful PostgreSQL Rails Apps by Andrew Atkinson
   speakers:
-  - Andrew Atkinson
+    - Andrew Atkinson
   event_name: RailsConf 2022
   thumbnail_xs: https://i.ytimg.com/vi/QshRTj2f3hE/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/QshRTj2f3hE/mqdefault.jpg

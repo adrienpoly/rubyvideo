@@ -1,6 +1,6 @@
 ---
 - id: PLF16D2F3A8469021E
-  title: Rails Conf 2012
+  title: RailsConf 2012
   description:
     "Rails Conf 2012 was held in Austin, Texas on April 23 - 25, 2012.\r\n\r\nIt
     brought over 1200 developers from all of the world to discuss topics related to
@@ -12,14 +12,16 @@
   published_at: "2012-05-01"
   year: "2012"
   videos_count: 54
-  slug: rails-conf-2012
+  slug: railsconf-2012
+
 - id: PLE7tQUdRKcybxgqVTwuOA12wr5Gn2M2Pp
-  title: Rails Conf 2013
+  title: RailsConf 2013
   description: ""
   published_at: "2013-06-25"
   year: "2013"
   videos_count: 70
-  slug: rails-conf-2013
+  slug: railsconf-2013
+
 - id: PLE7tQUdRKcyZ5jfnbS_osIoWzK_FrwKz5
   title: RailsConf 2014
   description: ""
@@ -27,6 +29,7 @@
   year: "2014"
   videos_count: 98
   slug: railsconf-2014
+
 - id: PLE7tQUdRKcyYIYgAh89k_iXjEREz2z5in
   title: Rails Pacific 2014
   description: ""
@@ -34,6 +37,7 @@
   year: "2014"
   videos_count: 11
   slug: rails-pacific-2014
+
 # - id: PLE7tQUdRKcybf82pLlMnPZjAMMMV5DJsK
 #   title: RailsConf 2015
 #   description: ""
@@ -41,6 +45,7 @@
 #   year: "2015"
 #   videos_count: 101
 #   slug: railsconf-2015
+
 - id: PLE7tQUdRKcyZbXgQvJTAu3umj90yGWyZb
   title: Rails Pacific 2016
   description: ""
@@ -48,6 +53,7 @@
   year: "2016"
   videos_count: 14
   slug: rails-pacific-2016
+
 # - id: PLE7tQUdRKcyZGYLfj6oRQWPxB6ijg1YsC
 #   title: RailsConf 2016
 #   description: ""
@@ -55,6 +61,7 @@
 #   year: "2016"
 #   videos_count: 95
 #   slug: railsconf-2016
+
 - id: PLE7tQUdRKcyarr-2jYCnnlb7wl-aEz4xt
   title: RailsConf 2017
   description: ""
@@ -62,6 +69,7 @@
   year: "2017"
   videos_count: 86
   slug: railsconf-2017
+
 - id: PLE7tQUdRKcyak-yFKj5IN3tDYOh5omMrH
   title: RailsConf 2018
   description: ""
@@ -69,6 +77,7 @@
   year: "2018"
   videos_count: 88
   slug: railsconf-2018
+
 - id: PLE7tQUdRKcyaOq3HlRm9h_Q_WhWKqm5xc
   title: RailsConf 2019
   description: ""
@@ -76,6 +85,7 @@
   year: "2019"
   videos_count: 86
   slug: railsconf-2019
+
 - id: PLE7tQUdRKcyYC2lZzwTvEeJXghm4Ym4ZX
   title: Birmingham on Rails 2020
   description: Birmingham on Rails 2020!
@@ -83,6 +93,7 @@
   year: "2020"
   videos_count: 8
   slug: birmingham-on-rails-2020
+
 - id: PLE7tQUdRKcyZ-TzxlxdLvh6tDUfZHqm76
   title: RailsConf 2020 CE
   description: |-
@@ -92,7 +103,8 @@
   published_at: "2020-04-24"
   year: "2020"
   videos_count: 32
-  slug: railsconf-2020-ce
+  slug: railsconf-2020
+
 - id: PLE7tQUdRKcyan3isUPgB_fER4eM9Js6pA
   title: RailsConf 2021
   description: ""
@@ -100,6 +112,7 @@
   year: "2021"
   videos_count: 72
   slug: railsconf-2021
+
 - id: PLE7tQUdRKcyb2Mjtd1RBjeP3Jt9RukU7G
   title: RailsConf 2022
   description:
@@ -109,6 +122,7 @@
   year: "2022"
   videos_count: 67
   slug: railsconf-2022
+
 - id: PLbHJudTY1K0cOM1jfOsQLYPTLxQf1Ui1C
   title: RailsConf 2023
   description:
@@ -118,6 +132,7 @@
   year: "2023"
   videos_count: 58
   slug: railsconf-2023
+
 - id: PLbHJudTY1K0chrs_E_XFz2pOJ3d8jCayh
   title: RailsConf 2024
   description:
