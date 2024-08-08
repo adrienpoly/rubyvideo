@@ -22,10 +22,8 @@
     together!
   video_id: "-tM3Npsb2wE"
 
-- title: 'Pokedex Chronicles: part 1 - database normalisation,part 2 - indexes strike
-    back'
-  raw_title: '"Pokedex Chronicles: part 1 - database normalisation,part 2 - indexes
-    strike back"'
+- title: 'Pokedex Chronicles: Part 1 - Database Normalisation, Part 2 - Indexes Strike Back'
+  raw_title: '"Pokedex Chronicles: part 1 - database normalisation,part 2 - indexes strike back"'
   speakers:
     - Mateusz Woźniczka
   event_name: BalticRuby 2024
@@ -50,7 +48,7 @@
 - title: What does high priority mean? The secret to happy queues
   raw_title: '"What does "high priority" mean? The secret to happy queues"'
   speakers:
-  - Daniel Magliola
+    - Daniel Magliola
   event_name: BalticRuby 2024
   published_at: '2024-07-22'
   description: In this talk, I will present a latency-focused approach to managing
