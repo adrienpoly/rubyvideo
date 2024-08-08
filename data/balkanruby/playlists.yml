@@ -1,0 +1,32 @@
+---
+- id: PLAkGYJoUfB0v4ssiPcL_OIM1-t_LssfAY
+  title: Balkan Ruby 2018
+  description: ''
+  published_at: '2018-10-07'
+  channel_id: UCR076_JBPtcQKfiwiVOB3Cg
+  year: '2018'
+  videos_count: 15
+  metadata_parser: Youtube::VideoMetadata
+  slug: balkanruby-2018
+
+- id: PLAkGYJoUfB0vutEvm7Z2dcrxbtAQfPUSp
+  title: Balkan Ruby 2019
+  description: http://balkanruby.com
+  published_at: '2019-08-05'
+  channel_id: UCR076_JBPtcQKfiwiVOB3Cg
+  year: '2019'
+  videos_count: 12
+  metadata_parser: Youtube::VideoMetadata
+  slug: balkanruby-2019
+
+- id: PLAkGYJoUfB0s1x8AcxBlnpnKFOPblEkRa
+  title: Balkan Ruby 2024
+  description: Balkan Ruby was back to business after a 5-year hiatus. To celebrate
+    our return, we ran a business theme exploring how Ruby helps us start, build,
+    and maintain small; big; side; open/closed and weird businesses!
+  published_at: '2024-06-05'
+  channel_id: UCR076_JBPtcQKfiwiVOB3Cg
+  year: '2024'
+  videos_count: 12
+  metadata_parser: Youtube::VideoMetadata
+  slug: balkanruby-2024
