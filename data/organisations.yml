@@ -123,3 +123,14 @@
   slug: euruko
   language: english
   youtube_channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+- name: paris.rb
+  website: https://paris-rb.org
+  twitter: parisrb
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Paris.rb conf
+  default_country_code: FR
+  youtube_channel_name: Parisrbmeetup
+  slug: paris-rb
+  language: english
+  youtube_channel_id: UCttFnyoHp4TdsTj1wcVs44A
