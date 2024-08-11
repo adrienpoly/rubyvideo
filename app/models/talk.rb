@@ -44,6 +44,9 @@ class Talk < ApplicationRecord
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :speakers, through: :speaker_talks, inverse_of: :talks
 
+  has_many :talk_topics
+  has_many :topics, through: :talk_topics
+
   # validations
   validates :title, presence: true
 

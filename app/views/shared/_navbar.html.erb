@@ -9,6 +9,7 @@
   <ul class="hidden md:flex">
     <%= render "shared/navbar/link", link_title: "Talks", path: talks_path %>
     <%= render "shared/navbar/link", link_title: "Speakers", path: speakers_path %>
+    <%= render "shared/navbar/link", link_title: "Topics", path: topics_path %>
     <% if Current.user&.admin? %>
       <%= render "shared/navbar/link", link_title: "Events", path: events_path %>
 

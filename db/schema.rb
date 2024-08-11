@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
+ActiveRecord::Schema[7.2].define(version: 2024_08_11_122145) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -137,6 +137,15 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
     t.index ["suggestable_type", "suggestable_id"], name: "index_suggestions_on_suggestable"
   end
 
+  create_table "talk_topics", force: :cascade do |t|
+    t.integer "talk_id", null: false
+    t.integer "topic_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["talk_id"], name: "index_talk_topics_on_talk_id"
+    t.index ["topic_id"], name: "index_talk_topics_on_topic_id"
+  end
+
   create_table "talks", force: :cascade do |t|
     t.string "title", default: "", null: false
     t.text "description", default: "", null: false
@@ -164,6 +173,13 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
     t.index ["title"], name: "index_talks_on_title"
   end
 
+  create_table "topics", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "email", null: false
     t.string "password_digest", null: false
@@ -180,5 +196,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
   add_foreign_key "events", "organisations"
   add_foreign_key "password_reset_tokens", "users"
   add_foreign_key "sessions", "users"
+  add_foreign_key "talk_topics", "talks"
+  add_foreign_key "talk_topics", "topics"
   add_foreign_key "talks", "events"
 end

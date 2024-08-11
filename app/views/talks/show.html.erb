@@ -1,4 +1,12 @@
 <div class="container my-8 w-full flex flex-col gap-4">
+  <div class="flex">
+    <% @talk.topics.each do |topic| %>
+      <%= link_to topic do %>
+        <div class="bg-gray-200 p-2 rounded">#<%= topic.name.parameterize %></div>
+      <% end %>
+    <% end %>
+  </div>
+
   <%= link_to @back_path do %>
     <div class="flex items-center gap-2 title text-brand">
       <%= heroicon :arrow_long_left %>

@@ -2,6 +2,7 @@
 #
 
 Rails.application.routes.draw do
+
   extend Authenticator
 
   # static pages
@@ -21,6 +22,7 @@ Rails.application.routes.draw do
     mount Avo::Engine, at: Avo.configuration.root_path
   end
 
+  resources :topics, only: [:index, :show]
   resources :sessions, only: [:index, :show, :destroy]
   resource :password, only: [:edit, :update]
   namespace :identity do
