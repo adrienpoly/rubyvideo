@@ -108,7 +108,8 @@ class TalkTest < ActiveSupport::TestCase
 
   test "update_from_yml_metadata" do
     @talk = talks(:one)
-    @talk.update!(title: "New title", description: "New description")
+    @event = events(:rails_world_2023)
+    @talk.update!(title: "New title", description: "New description", event: @event)
     assert_equal "New title", @talk.title
     assert_equal "New description", @talk.description
 
