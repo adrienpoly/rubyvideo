@@ -1,0 +1,60 @@
+---
+- id: PLZW-kXE0oRykQpf54Jhf1geLAeq5sM7Kt
+  title: Euruko 2017
+  description: ''
+  published_at: '2021-06-01'
+  channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+  year: '2017'
+  videos_count: 16
+  metadata_parser: Youtube::VideoMetadata
+  slug: euruko-2017
+
+- id: PLZW-kXE0oRyn-mwcNhytWaCIAQJXJGMxo
+  title: Euruko 2018
+  description: ''
+  published_at: '2021-06-01'
+  channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+  year: '2018'
+  videos_count: 18
+  metadata_parser: Youtube::VideoMetadata
+  slug: euruko-2018
+
+- id: PLZW-kXE0oRykFFY4CTzKBqXC_RDNL_TD6
+  title: Euruko 2019
+  description: ''
+  published_at: '2021-06-01'
+  channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+  year: '2019'
+  videos_count: 32
+  metadata_parser: Youtube::VideoMetadata
+  slug: euruko-2019
+
+- id: PLZW-kXE0oRyknRwEUrg5o491KomjkNU16
+  title: Euruko 2021
+  description: 'Euruko 2021'
+  published_at: '2021-06-01'
+  channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+  year: '2021'
+  videos_count: 18
+  metadata_parser: Youtube::VideoMetadata
+  slug: euruko-2021
+
+- id: PLZW-kXE0oRykcraQ1b6tT5ozKPeK-Jttq
+  title: Euruko 2022
+  description: Talks from Euruko 2022
+  published_at: '2022-10-20'
+  channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+  year: '2022'
+  videos_count: 12
+  metadata_parser: Youtube::VideoMetadata
+  slug: euruko-2022
+
+- id: PLZW-kXE0oRyljniGHqYqtQVIXoI4M97ck
+  title: Euruko 2023
+  description: ''
+  published_at: '2023-10-04'
+  channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+  year: '2023'
+  videos_count: 30
+  metadata_parser: Youtube::VideoMetadata
+  slug: euruko-2023
