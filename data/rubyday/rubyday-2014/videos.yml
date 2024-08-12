@@ -4,8 +4,9 @@
   speakers:
     - Paolo Montrasio
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: Elixir is a functional language that runs over the Erlang virtual machine.
+  published_at: "2014-09-26"
+  description:
+    Elixir is a functional language that runs over the Erlang virtual machine.
     Despite being Erlang inside, Elixir has a Ruby-like syntax, with do...end blocks
     and many intentional name collisions with Ruby's keywords and library methods.
     This makes it easier for Rubysts to pick it up than most other functional languages
@@ -18,8 +19,9 @@
   speakers:
     - Giacomo Bagnoli
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: These days applications are getting more and more complex. It's becoming
+  published_at: "2014-09-26"
+  description:
+    These days applications are getting more and more complex. It's becoming
     quite difficult to keep track of all the different components an application needs
     in order to function (a database, a message queueing system, a web server, a document
     store, a search engine, you name it.). How many times we heard 'it worked on my
@@ -34,14 +36,15 @@
   speakers:
     - Ju Liu
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: 'Everyday we read about DRY, YAGNI, TDD, SOLID, REST, SOA.. We are
+  published_at: "2014-09-26"
+  description:
+    "Everyday we read about DRY, YAGNI, TDD, SOLID, REST, SOA.. We are
     not only discussing about these concepts, but also we use them as canons to design,
     build and maintain our applications. In this talk, I want to explore the possible
     dangers in treating these concepts as sacred principles: in our everyday life,
     it pays off to treat these concepts as general guidelines, which can and should
     be challenged on a daily basis. In doing so, we can improve our understanding
-    of these concepts and become better programmers.'
+    of these concepts and become better programmers."
   video_id: PpBaJNIkoGA
 
 - title: Miele per le nostre API
@@ -51,8 +54,9 @@
     - Matteo Piotto
     - Federico Parodi
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: La proliferazione delle applicazioni mobile e di quelle web basate
+  published_at: "2014-09-26"
+  description:
+    La proliferazione delle applicazioni mobile e di quelle web basate
     su javascript ci porta sempre più spesso a dover realizzare interfacce API. Ci
     sono tanti modi per farlo, e c'è il modo giusto. Illustreremo le best practice
     per la costruzione di un server API RESTful in RoR che lo rendano adatto ai nostri
@@ -64,22 +68,24 @@
   speakers:
     - Giuseppe Modarelli
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: 'Ruby has a powerful set of libs and tools that we don''t use in our
+  published_at: "2014-09-26"
+  description:
+    "Ruby has a powerful set of libs and tools that we don't use in our
     day to day jobs as ruby developers. The main reason for this is because we force
     logic where it should not be: the template. By refactoring a simple application
-    I''ll show you how to unlock the power of Ruby and how to write code that you
-    will love to work with in the future.'
+    I'll show you how to unlock the power of Ruby and how to write code that you
+    will love to work with in the future."
   video_id: LiyShndVLPo
 
-- title: 'Frontend: riorganizzare (di nuovo) il caos'
-  raw_title: 'Frontend: riorganizzare (di nuovo) il caos by Matteo Papadopoulos and Stefano Verna'
+- title: "Frontend: riorganizzare (di nuovo) il caos"
+  raw_title: "Frontend: riorganizzare (di nuovo) il caos by Matteo Papadopoulos and Stefano Verna"
   speakers:
     - Matteo Papadopoulos
     - Stefano Verna
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: Una delle maggiori difficoltà da affrontare per lo sviluppo di un buon
+  published_at: "2014-09-26"
+  description:
+    Una delle maggiori difficoltà da affrontare per lo sviluppo di un buon
     front-end, in un progetto web, è l'organizzazione dello stile, tanto apparentemente
     banale quanto complesso da tenere pulito, riusabile e comprensibile nel tempo."
     Questo era l'incipit del talk sui css modulari che realizzai a BetterSoftware
@@ -91,24 +97,25 @@
     nel tempo.
   video_id: fUJOJY_yVXg
 
-- title: 'More fun, less pain: a strategy for writing maintainable Rails admin backends'
-  raw_title: 'More fun, less pain: a strategy for writing maintainable Rails admin backends by Stefano Verna'
+- title: "More fun, less pain: a strategy for writing maintainable Rails admin backends"
+  raw_title: "More fun, less pain: a strategy for writing maintainable Rails admin backends by Stefano Verna"
   speakers:
     - Stefano Verna
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: 'The Rails ecosystem features many full-fledged solutions to generate
+  published_at: "2014-09-26"
+  description:
+    "The Rails ecosystem features many full-fledged solutions to generate
     administrative interfaces (ActiveAdmin, RailsAdmin, you name it...). Although
     these tools come very handy to bootstrap a project quickly, they all obey the
     80%-20% rule and tend to be very invasive (and incredibly painful to test). A
     time always comes when they start getting in the way, and all the cumulated saved
     time will be wasted to solve a single, trivial problem with ugly workarounds and
     EPIC FACEPALMS. This talk will walk through an alternative strategy for building
-    administrative backends: we''ll make use of well-known gems like Inherited Resources
+    administrative backends: we'll make use of well-known gems like Inherited Resources
     and Simple Form, the Rails 3.1+ template-inheritance feature and a mix of some
-    good ol'' OOP patterns to build an (arguably) more maintainable, testable and
+    good ol' OOP patterns to build an (arguably) more maintainable, testable and
     modular codebase, without sacrificing the super-DRY, declarative style ActiveAdmin
-    and similar gems offer.'
+    and similar gems offer."
   video_id: e9iabDiBHZU
 
 - title: Web server challenge
@@ -117,8 +124,9 @@
     - Filippo Gangi Dino
     - Alessandro Fazzi
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: Il dilemma della scelta del miglior web server per le nostre applicazioni
+  published_at: "2014-09-26"
+  description:
+    Il dilemma della scelta del miglior web server per le nostre applicazioni
     è ricorrente nell'esperienza di uno sviluppatore Ruby/RoR. Approfondiremo meglio
     le caratteristiche uniche, i punti di contatto, ma soprattutto le divergenze tra
     i principali software utilizzati. Cercheremo di fornire una bussola con cui orientarsi
@@ -130,10 +138,11 @@
   speakers:
     - Ole Michaelis
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: 'Thats the dream we all share. *Building the one perfect software.*
+  published_at: "2014-09-26"
+  description:
+    "Thats the dream we all share. *Building the one perfect software.*
     But you know the answer already, you just have to admit it: **There is no perfect
-    software.** But I''ve a few tips and tricks to do better: ‘The 12 Factor App’
+    software.** But I've a few tips and tricks to do better: ‘The 12 Factor App’
     is a manifesto written by Adam Wiggins (co-founder of heroku) describing the perfect
     (cloud ready) web app. But it’s way more than that. It should be the standard
     way of writing apps. Because it contains some tips and tricks how to build your
@@ -142,16 +151,17 @@
     If everyone followed these 12 simple principles, we could have shared tooling
     across programming languages borders. Image that one pre-build logging and metrics
     solution. The one and only way of configuring your project. The one way to run
-    it, successfully.'
+    it, successfully."
   video_id: kTrSHOJxeLw
 
-- title: 'Safety Nets: Learn to code with confidence'
-  raw_title: 'Safety Nets: Learn to code with confidence by Christophe Philemotte'
+- title: "Safety Nets: Learn to code with confidence"
+  raw_title: "Safety Nets: Learn to code with confidence by Christophe Philemotte"
   speakers:
     - Christophe Philemotte
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: Ruby gives you a great power. As the saying goes, "With great power
+  published_at: "2014-09-26"
+  description:
+    Ruby gives you a great power. As the saying goes, "With great power
     there must also comes great responsibility!" It comes at a price. We cannot afford
     to blow off everything when shipping. That's why it's important to put in place
     different strategies to help us to catch errors asap, but also to avoid the cruft
@@ -163,8 +173,9 @@
   speakers:
     - Ole Michaelis
   event_name: rubyday 2014
-  published_at: '2014-10-23'
-  description: Software Architecture is hard. And when your business grows, its getting
+  published_at: "2014-09-26"
+  description:
+    Software Architecture is hard. And when your business grows, its getting
     even harder because scaling doesn’t come out the box and it’s not only the software
     which grows it’s also the team. So you have to find a way how to scale your software
     in a way that it stays easy maintainable for growing teams and scalable. I’d like

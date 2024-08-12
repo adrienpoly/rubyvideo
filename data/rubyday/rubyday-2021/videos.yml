@@ -1,11 +1,12 @@
 ---
-- title: 'Playing a Hand with Ruby Pattern Matching'
+- title: "Playing a Hand with Ruby Pattern Matching"
   raw_title: Playing a Hand with Ruby Pattern Matching - Brandon Weaver - rubyday 2021
   speakers:
     - Brandon Weaver
   event_name: rubyday 2021
-  published_at: '2023-02-15'
-  description: "Playing a Hand with Ruby Pattern Matching - Brandon Weaver - rubyday
+  published_at: "2021-04-07"
+  description:
+    "Playing a Hand with Ruby Pattern Matching - Brandon Weaver - rubyday
     2021\n\nRuby 2.7 introduced Pattern Matching, but what can you use it for? How
     about we play a few hands of poker to find out. This talk explores Pattern Matching
     patterns through scoring poker hands using named captures, pins, hash destructuring,
@@ -15,13 +16,14 @@
     7th 2021. \n\nSpeaker and details on https://2021.rubyday.it/"
   video_id: "-5RHj9OcCeM"
 
-- title: 'ViewComponents in the Real World'
+- title: "ViewComponents in the Real World"
   raw_title: ViewComponents in the Real World - Joel Hawksley - rubyday 2021
   speakers:
     - Joel Hawksley
   event_name: rubyday 2021
-  published_at: '2023-02-15'
-  description: "ViewComponents in the Real World - Joel Hawksley - rubyday 2021\n\nWith
+  published_at: "2021-04-07"
+  description:
+    "ViewComponents in the Real World - Joel Hawksley - rubyday 2021\n\nWith
     the release of 6.1, Rails added support for rendering objects that respond to
     'render_in', a feature extracted from the GitHub application. This change enabled
     the development of ViewComponent, a framework for building reusable, testable
@@ -32,13 +34,14 @@
     GrUSP, took place online on April 7th 2021. \n\nSpeaker and details on https://2021.rubyday.it/"
   video_id: CyN1pdmBCtc
 
-- title: 'API Optimization Tale: Monitor, Fix and Deploy (on Friday)'
-  raw_title: 'API Optimization Tale: Monitor, Fix and Deploy (on Friday) - Maciek Rząsa - rubyday 2021'
+- title: "API Optimization Tale: Monitor, Fix and Deploy (on Friday)"
+  raw_title: "API Optimization Tale: Monitor, Fix and Deploy (on Friday) - Maciek Rząsa - rubyday 2021"
   speakers:
     - Maciek Rząsa
   event_name: rubyday 2021
-  published_at: '2023-02-15'
-  description: "API Optimization Tale: Monitor, Fix and Deploy (on Friday) - Maciek
+  published_at: "2021-04-07"
+  description:
+    "API Optimization Tale: Monitor, Fix and Deploy (on Friday) - Maciek
     Rząsa - rubyday 2021\n\nI saw a green build on a Friday afternoon. I knew I need
     to push it to production before the weekend. My gut told me it was a trap. I had
     already stayed late to revert a broken deploy. I knew the risk. In the middle
@@ -56,8 +59,9 @@
   speakers:
     - Sabrina Gannon
   event_name: rubyday 2021
-  published_at: '2023-02-15'
-  description: "Checking Your Types: An Overview of Ruby's Type System - Sabrina Gannon
+  published_at: "2021-04-07"
+  description:
+    "Checking Your Types: An Overview of Ruby's Type System - Sabrina Gannon
     - rubyday 2021\n\nTypechecking is an exciting feature that distinguishes Ruby
     3 and beyond! In this talk we'll explore how types work in Ruby with the future
     of type checking in mind to deepen our understanding of the value of the new type
@@ -67,24 +71,26 @@
     7th 2021. \n\nSpeaker and details on https://2021.rubyday.it/"
   video_id: OevCwq5I9fM
 
-- title: 'Ruby 3.0 and Beyond'
+- title: "Ruby 3.0 and Beyond"
   raw_title: Ruby3.0 and Beyond - Yukihiro "Matz" Matsumoto - rubyday 2021
   speakers:
     - Yukihiro Matsumoto
   event_name: rubyday 2021
-  published_at: '2023-02-15'
-  description: "Ruby3.0 and Beyond - Yukihiro \"Matz\" Matsumoto - rubyday 2021\n\n\nThe
+  published_at: "2021-04-07"
+  description:
+    "Ruby3.0 and Beyond - Yukihiro \"Matz\" Matsumoto - rubyday 2021\n\n\nThe
     ninth edition of the Italian Ruby conference, for the third time organised by
     GrUSP, took place online on April 7th 2021. \n\nSpeaker and details on https://2021.rubyday.it/"
   video_id: g4f2cq2sSg4
 
-- title: 'The Rising Ethical Storm in Open Source'
+- title: "The Rising Ethical Storm in Open Source"
   raw_title: The Rising Ethical Storm in Open Source - Coraline Ada Ehmke - rubyday 2021
   speakers:
     - Coraline Ada Ehmke
   event_name: rubyday 2021
-  published_at: '2023-02-15'
-  description: "The Rising Ethical Storm in Open Source - Coraline Ada Ehmke - rubyday
+  published_at: "2021-04-07"
+  description:
+    "The Rising Ethical Storm in Open Source - Coraline Ada Ehmke - rubyday
     2021\n\nThe increased debate around ethical source threatens to divide the OSS
     community. In his book 'The Structure of Scientific Revolutions', philosopher
     Thomas Kuhn posits that there are three possible solutions to a crisis like the
@@ -94,13 +100,14 @@
     GrUSP, took place online on April 7th 2021. \n\nSpeaker and details on https://2021.rubyday.it/"
   video_id: gO5LEiUovBM
 
-- title: 'Debugging Your Brain'
+- title: "Debugging Your Brain"
   raw_title: Debugging Your Brain - Casey Watts - rubyday 2021
   speakers:
     - Casey Watts
   event_name: rubyday 2021
-  published_at: '2023-02-15'
-  description: "Debugging Your Brain - Casey Watts - rubyday 2021\n\nSometimes your
+  published_at: "2021-04-07"
+  description:
+    "Debugging Your Brain - Casey Watts - rubyday 2021\n\nSometimes your
     mind distorts reality, gets frustrated with shortcomings, or spirals out of control.
     Learn how to debug these by using research-backed psychology techniques.\n\nThe
     ninth edition of the Italian Ruby conference, for the third time organised by
