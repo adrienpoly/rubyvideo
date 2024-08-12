@@ -54,6 +54,10 @@ class Talk < ApplicationRecord
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
+  # jobs
+  performs :update_from_yml_metadata!, queue_as: :low
+
+  # TODO convert to performs
   def analyze_talk_topics!
     AnalyzeTalkTopicsJob.perform_now(self)
   end
@@ -142,5 +146,19 @@ class Talk < ApplicationRecord
 
   def transcript
     enhanced_transcript.presence || raw_transcript
+  end
+
+  def update_from_yml_metadata
+    self.title = yml_metadata["title"]
+    self.description = yml_metadata["description"]
+    self.date = yml_metadata["published_at"]
+    save
+  end
+
+  def yml_metadata
+    organisation = event.organisation.slug
+    @yml_metadata ||= YAML.load_file("#{Rails.root}/data/#{organisation}/#{event.slug}/videos.yml").to_h do |metadata|
+                        [metadata["video_id"], metadata]
+                      end[video_id]
   end
 end
