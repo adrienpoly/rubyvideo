@@ -2,35 +2,35 @@
   "name": "app",
   "private": "true",
   "dependencies": {
-    "@domchristie/turn": "^2.0.0",
+    "@appsignal/javascript": "^1.3.26",
+    "@domchristie/turn": "^3.0.0",
     "@hotwired/stimulus": "^3.2.1",
-    "@hotwired/turbo-rails": "^7.3.0",
+    "@hotwired/turbo-rails": "^8.0.4",
     "@tailwindcss/forms": "^0.5.3",
-    "autoprefixer": "^10.4.14",
-    "esbuild": "^0.17.18",
+    "chart.js": "^4.3.0",
+    "chartkick": "^5.0.1",
     "morphdom": "^2.7.0",
-    "postcss": "^8.4.23",
     "stimulus-use": "^0.52.0",
-    "tailwindcss": "^3.3.2",
-    "vlitejs": "^5.0.2"
+    "vlitejs": "^6.0.3"
   },
   "scripts": {
-    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets",
-    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify",
+    "build": "bin/vite build",
     "lint": "standard --fix"
   },
   "packageManager": "yarn@1.22.19",
   "devDependencies": {
-    "postcss-import": "^15.1.0",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^4.12.2",
+    "postcss": "^8.4.38",
+    "postcss-import": "^16.1.0",
     "postcss-nested": "^6.0.1",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "standard": "^17.1.0",
-    "stimulus-vite-helpers": "^3.0.1",
-    "vite": "^4.3.0",
-    "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-ruby": "^3.2.0",
-    "vite-plugin-stimulus-hmr": "^3.0.0"
+    "stimulus-vite-helpers": "^3.1.0",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.2.13",
+    "vite-plugin-rails": "^0.5.0"
   },
   "standard": {
     "globals": [

@@ -1,35 +1,48 @@
 
-<div class="max-w-sm bg-white" id="<%= dom_id talk %>">
-  <%= link_to talk_path(talk, speaker_slug: local_assigns.fetch(:speaker_slug, nil)), class: "flex aspect-video" do %>
+<div class="bg-white" id="<%= dom_id talk %>">
+  <%= link_to talk_path(talk, speaker_slug: local_assigns.fetch(:speaker_slug, nil)), class: "flex aspect-video overflow-hidden" do %>
     <%= image_tag talk.thumbnail_sm,
           srcset: ["#{talk.thumbnail_lg} 2x"],
           id: dom_id(talk),
           height: 174,
           width: 310,
-          alt: "talk by #{talk.speakers.join(", ")}: #{talk.title}",
+          alt: "talk by #{talk.speakers.map(&:name).join(", ")}: #{talk.title}",
           style: "view-transition-name: #{dom_id(talk, :image)}",
-          class: "rounded-lg w-full object-cover" %>
+          class: "w-full object-cover" %>
   <% end %>
   <div class="py-4">
     <div class="flex items-start gap-2">
       <% if talk.speakers.last&.github&.present? && local_assigns.fetch(:picture_profile, true) %>
         <%= image_tag talk.speakers.last.github_avatar_url(size: 64),
-              class: "rounded-full w-8 h-8 mr-2",
-              alt: "Github picture profile of #{talk.speakers.last.github}",
+              class: "rounded-full w-8 h-8 mr-2 mt-1",
+              alt: "GitHub picture profile of #{talk.speakers.last.github}",
               loading: :lazy %>
       <% end %>
       <div>
         <%= link_to talk do %>
-          <%= content_tag :h2, talk.title, class: "py-2 text-base" %>
+          <%= content_tag :h2, talk.title, class: "text-base" %>
         <% end %>
         <div class="flex flex-col text-gray">
             <% if talk.event %>
-              <%= link_to talk.event.name, talk.event %>
-              <%#= content_tag :div, talk.event.name %>
+              <div class="flex items-center gap-2">
+                <%= heroicon :map_pin, size: :sm, class: "shrink-0 grow-0" %>
+                <%= content_tag :div, talk.event_name %>
+              </div>
+              <%#= link_to talk.event.name, talk.event %>
             <% end %>
-            <% talk.speakers.each do |speaker| %>
-              <%= link_to speaker.name, speaker_path(speaker) %>
-            <% end %>
+
+            <div class="flex items-start gap-2">
+              <% if talk.speakers.length > 1 %>
+                <%= heroicon :users, size: :sm, class: "shrink-0 grow-0 my-1" %>
+              <% elsif talk.speakers.length == 1 %>
+                <%= heroicon :user, size: :sm, class: "shrink-0 grow-0 my-1" %>
+              <% end %>
+
+              <div class="line-clamp-1">
+                <% speaker_names = talk.speakers.shuffle.map { |speaker| link_to speaker.name, speaker_path(speaker) } %>
+                <%= sanitize speaker_names.join(", ") %>
+              </div>
+            </div>
         </div>
       </div>
     </div>

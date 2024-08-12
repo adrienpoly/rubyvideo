@@ -22,7 +22,10 @@ class Event < ApplicationRecord
   # associations
   belongs_to :organisation
   has_many :talks, dependent: :destroy, inverse_of: :event, foreign_key: :event_id
+  has_many :speakers, -> { distinct }, through: :talks
 
   # validations
   validates :name, presence: true
+  VALID_COUNTRY_CODES = ISO3166::Country.codes
+  validates :country_code, inclusion: {in: VALID_COUNTRY_CODES}, allow_nil: true
 end

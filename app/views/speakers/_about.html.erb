@@ -1,7 +1,7 @@
 <div class="flex flex-col gap-2 pb-4" id="<%= dom_id(speaker, :about) %>">
   <% if speaker.github.present? %>
     <span>
-      <strong>Github:</strong> <%= link_to speaker.github, "https://www.github.com/#{speaker.github}", target: "_blank" %>
+      <strong>GitHub:</strong> <%= link_to speaker.github, "https://www.github.com/#{speaker.github}", target: "_blank" %>
     </span>
   <% end %>
   <% if speaker.twitter.present? %>
@@ -11,7 +11,7 @@
   <% end %>
   <% if speaker.website.present? %>
     <span>
-      <strong>Website:</strong> <%= link_to speaker.website, speaker.website, target: "_blank" %>
+      <strong>Website:</strong> <%= link_to speaker.website, speaker.valid_website_url, target: "_blank" %>
     </span>
   <% end %>
   <% if speaker.bio.present? %>

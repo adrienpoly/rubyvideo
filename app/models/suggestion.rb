@@ -22,7 +22,7 @@ class Suggestion < ApplicationRecord
   # callbacks
 
   # enums
-  enum status: {pending: 0, approved: 1, rejected: 2}
+  enum :status, {pending: 0, approved: 1, rejected: 2}
 
   def approved!
     suggestable.update!(content)

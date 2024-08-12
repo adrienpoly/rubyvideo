@@ -1,14 +1,14 @@
-<%= content_tag :div, id: dom_id(talk) do %>
+<%= content_tag :div, id: dom_id(talk),
+      data: {
+        controller: "video-player",
+        video_player_poster_value: talk.thumbnail_lg,
+        video_player_provider_value: "youtube",
+        video_player_src_value: talk.video_id
+      } do %>
 
   <div <%= tag.attributes(
              class: "aspect-video banner-img card-horizontal-img relative",
-             style: "view-transition-name: #{dom_id(talk, :image)}",
-             data: {
-               controller: "video-player",
-               video_player_poster_value: talk.thumbnail_lg,
-               video_player_provider_value: "youtube",
-               video_player_src_value: talk.video_id
-             }
+             style: "view-transition-name: #{dom_id(talk, :image)}"
            ) %>>
 
     <%= content_tag :div, "",
@@ -18,19 +18,50 @@
                  youtube_id: talk.video_id} %>
   </div>
 
-  <div class="p-4 flex flex-col gap-4">
+  <div class="py-4 flex flex-col gap-4">
     <h1><%= talk.title %></h1>
+    <div role="tablist" class="tabs tabs-lifted">
 
-    <p><%= talk.description %></p>
+      <% if talk.summary.present? %>
+        <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Summary" checked>
+        <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+          <div class="my-4">
+            <h2><%= talk.title %></h2>
+            by <%= talk.speakers.map(&:name).to_sentence %>
+          </div>
 
-    <p class="flex">
-      <span><%= talk.event_name %></span>
-      <span><%#= talk.event_edition %></span>
-    </p>
+          <div class="markdown"><%= markdown_to_html(talk.summary) %></div>
+        </div>
+      <% end %>
+
+      <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Description" <%= "checked" if talk.summary.blank? %>>
+      <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+        <p><%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %></p>
+
+        <p class="flex">
+          <span><%= talk.event_name %></span>
+          <span><%#= talk.event_edition %></span>
+        </p>
+
+      </div>
+
+      <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Transcript">
+      <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+        <%= render "transcript", talk: talk %>
+      </div>
+    </div>
 
     <% if action_name != "show" %>
       <%= link_to "Show this talk", talk, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
       <%= link_to "Edit this talk", edit_talk_path(talk), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
     <% end %>
+
   </div>
 <% end %>
+
+<div class="tooltip tooltip-right tooltip-success" data-tip="You can suggest some modifications to this talk">
+  <%= ui_button url: edit_talk_path(@talk), kind: :neutral, outline: true, size: :sm do %>
+    <%= heroicon :pencil_square %>
+    <span>Edit</span>
+  <% end %>
+</div>

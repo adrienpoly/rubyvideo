@@ -8,6 +8,7 @@ class PageController < ApplicationController
       {
         speakers_avatar_url: speakers.map { |speaker| [speaker.github_avatar_url(size: 250), speaker.github_avatar_url(size: 500)] },
         speakers_github: speakers.map(&:github),
+        speaker_slugs: speakers.map(&:slug),
         talks_count: Talk.count,
         speakers_count: Speaker.count
       }
@@ -15,6 +16,7 @@ class PageController < ApplicationController
 
     @speakers_avatar_url = home_page_cached_data[:speakers_avatar_url]
     @speakers_github = home_page_cached_data[:speakers_github]
+    @speaker_slugs = home_page_cached_data[:speaker_slugs]
     @talks_count = home_page_cached_data[:talks_count]
     @speakers_count = home_page_cached_data[:speakers_count]
   end

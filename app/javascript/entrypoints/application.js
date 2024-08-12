@@ -1,6 +1,6 @@
 // Example: Load Rails libraries in Vite.
 //
-import * as Turbo from '@hotwired/turbo'
+import '@hotwired/turbo-rails'
 
 import Turn from '@domchristie/turn'
 
@@ -10,14 +10,9 @@ import Turn from '@domchristie/turn'
 // // Import all channels.
 // const channels = import.meta.globEager('./**/*_channel.js')
 
-// Example: Import a stylesheet in app/frontend/index.css
-import '../../assets/stylesheets/application.tailwind.css'
-
 import '~/controllers'
-window.Turbo = Turbo
 
 // Page transitions
-Turn.config.experimental.viewTransitions = true
 Turn.start()
 
 document.addEventListener('turbo:before-frame-render', (event) => {

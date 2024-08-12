@@ -14,6 +14,8 @@
 #  youtube_channel_id   :string           default(""), not null
 #  youtube_channel_name :string           default(""), not null
 #  slug                 :string           default(""), not null
+#  twitter              :string           default(""), not null
+#  language             :string           default(""), not null
 #
 # rubocop:enable Layout/LineLength
 class Organisation < ApplicationRecord
@@ -29,8 +31,8 @@ class Organisation < ApplicationRecord
   validates :name, presence: true
 
   # enums
-  enum kind: {conference: 0, meetup: 1}
-  enum frequency: {unknown: 0, yearly: 1, monthly: 2}
+  enum :kind, {conference: 0, meetup: 1}
+  enum :frequency, {unknown: 0, yearly: 1, monthly: 2, biyearly: 3}
 
   def edition
     "#{name} 2022"

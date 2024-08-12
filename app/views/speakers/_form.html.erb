@@ -13,36 +13,36 @@
 
   <div>
     <%= form.label :name %>
-    <%= form.text_field :name, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+    <%= form.text_field :name, class: "input input-bordered w-full" %>
   </div>
 
   <div>
     <%= form.label :twitter %>
-    <%= form.text_field :twitter, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+    <%= form.text_field :twitter, class: "input input-bordered w-full" %>
   </div>
 
   <div>
-    <%= form.label :github %>
-    <%= form.text_field :github, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+    <%= form.label :github, "GitHub" %>
+    <%= form.text_field :github, class: "input input-bordered w-full" %>
   </div>
 
   <div>
     <%= form.label :bio %>
-    <%= form.text_area :bio, rows: 4, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+    <%= form.text_area :bio, rows: 4, class: "input input-bordered w-full" %>
   </div>
 
   <div>
     <%= form.label :website %>
-    <%= form.text_field :website, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+    <%= form.text_field :website, class: "input input-bordered w-full" %>
   </div>
 
   <div>
     <%= form.label :slug %>
-    <%= form.text_field :slug, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+    <%= form.text_field :slug, class: "input input-bordered w-full" %>
   </div>
 
   <div class="flex items-center gap-4">
-    <%= form.submit "Suggest modifications" %>
-    <%= link_to "cancel", speaker_path(@speaker), class: "tertiary" %>
+    <%= ui_button "Suggest modifications", type: :submit %>
+    <%= ui_button "Cancel", url: speaker_path(speaker), outline: true, role: :button %>
   </div>
 <% end %>

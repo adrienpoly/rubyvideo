@@ -23,7 +23,7 @@ class Speaker < ApplicationRecord
 
   # associations
   has_many :speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
-  has_many :talks, through: :speaker_talks
+  has_many :talks, through: :speaker_talks, inverse_of: :speakers
 
   # scope
   scope :with_talks, -> { where.not(talks_count: 0) }
@@ -31,10 +31,61 @@ class Speaker < ApplicationRecord
   scope :without_github, -> { where(github: "") }
 
   def github_avatar_url(size: 200)
+    return "" unless github.present?
+
     "https://github.com/#{github}.png?size=#{size}"
   end
 
   def broadcast_about
     broadcast_update_to self, target: dom_id(self, :about), partial: "speakers/about", locals: {speaker: self}
+  end
+
+  def valid_website_url
+    return "#" if website.blank?
+
+    # if it already starts with https://, return as is
+    return website if website.start_with?("https://")
+
+    # if it starts with http://, convert it to https://
+    return website.sub("http://", "https://") if website.start_with?("http://")
+
+    # otherwise, prepend https://
+    "https://#{website}"
+  end
+
+  def to_meta_tags
+    {
+      title: meta_title,
+      description: meta_description,
+      og: {
+        title: meta_title,
+        type: :website,
+        image: {
+          _: github_avatar_url,
+          alt: meta_title
+        },
+        description: meta_description,
+        site_name: "RubyVideo.dev"
+      },
+      twitter: {
+        card: "summary_large_image",
+        site: twitter,
+        title: meta_title,
+        description: meta_description,
+        image: {
+          src: github_avatar_url
+        }
+      }
+    }
+  end
+
+  def meta_title
+    "Conferences talks from #{name}"
+  end
+
+  def meta_description
+    <<~HEREDOC
+      Discover all the talks given by #{name} on subjects related to Ruby language or Ruby Frameworks such as Rails, Hanami and others
+    HEREDOC
   end
 end

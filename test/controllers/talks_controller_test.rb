@@ -15,6 +15,11 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should redirect to talks for wrong slugs" do
+    get talk_url("wrong-slug")
+    assert_response :moved_permanently
+  end
+
   test "should get edit" do
     get edit_talk_url(@talk)
     assert_response :success

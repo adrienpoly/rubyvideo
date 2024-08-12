@@ -1,0 +1,152 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.openai.com/v1/chat/completions
+    body:
+      encoding: UTF-8
+      string: '{"model":"gpt-4o-mini","response_format":{"type":"json_object"},"messages":[{"role":"system","content":"You
+        are a helpful assistant skilled in processing and summarizing transcripts."},{"role":"user","content":"You
+        are tasked with improving and formatting a raw VTT transcript. Your goal is
+        to correct and enhance the text, organize it into paragraphs, and format it
+        into a specific JSON structure. Follow these instructions carefully to complete
+        the task.\n\nFirst, here is the metadata for the transcript:\n  - title: Hotwire
+        Cookbook: Common Uses, Essential Patterns \u0026 Best Practices\n  - desciption:
+        @SupeRails creator and Rails mentor Yaroslav Shmarov shares how some of the
+        most common frontend problems can be solved with Hotwire.\n\nHe covers:\n-
+        Pagination, search and filtering, modals, live updates, dynamic forms, inline
+        editing, drag \u0026 drop, live previews, lazy loading \u0026 more\n- How
+        to achieve more by combining tools (Frames + Streams, StimulusJS, RequestJS,
+        Kredis \u0026 more)\n- What are the limits of Hotwire?\n- How to write readable
+        and maintainable Hotwire code\n- Bad practices\n\n  - speaker name: \n  -
+        event name: \n\nNow, let''s process the raw VTT transcript. Here''s what you
+        need to do:\n\n1. Read through the entire raw transcript carefully.\n\n2.
+        Correct any spelling, grammar, or punctuation errors you find in the text.\n\n3.
+        Improve the overall readability and coherence of the text without changing
+        its meaning.\n\n4. Group related sentences into paragraphs. Each paragraph
+        should contain a complete thought or topic.\n\n5. For each paragraph, use
+        the start time of its first sentence as the paragraph''s start time, and the
+        end time of its last sentence as the paragraph''s end time.\n\n6. Format the
+        improved transcript into a JSON structure using this schema:\n  [{start_time:
+        \"00:00:00\", end_time: \"00:00:05\", text: \"Hello, world!\"},...]\n\nHere
+        is the raw VTT transcript to process:\n\n\u003craw_transcript\u003e\nWEBVTT\n\n1\n00:00:15.280
+        --\u003e 00:00:21.320\nso nice to be here with you thank you all for coming
+        so uh my name is uh\n\n2\n00:00:21.320 --\u003e 00:00:27.800\nyaroslav I''m
+        from Ukraine you might know me from my blog or from my super Al\n\n3\n00:00:27.800
+        --\u003e 00:00:34.399\nYouTube channel where I post a lot of stuff about trby
+        and especially about hot fire so I originate from Ukraine\n\n4\n00:00:34.399
+        --\u003e 00:00:40.239\nfrom the north of Ukraine so right now it is liberated
+        so that is Kev Chernobyl\n\n5\n00:00:40.239 --\u003e 00:00:45.920\nand chern
+        so I used to live 80 kmers away from Chernobyl great\n\n6\n00:00:45.920 --\u003e
+        00:00:52.680\nplace yeah and uh that is my family''s home so it got boned
+        in one of the first\n\n7\n00:00:52.680 --\u003e 00:01:00.000\ndays of war
+        that is my godfather he went to defend Ukraine and uh I mean we are\n\n8\n00:01:00.000
+        --\u003e 00:01:05.799\nhe has such a beautiful venue but there is the war
+        going on and like just today\n\n9\n00:01:05.799 --\u003e 00:01:13.159\nthe
+        city of har was randomly boned by the Russians and there are many Ruby\n\n10\n00:01:13.159
+        --\u003e 00:01:19.520\nrails people from Ukraine some of them are actually
+        fighting this is verok he contributed to Ruby and he is actually\n\n11\n00:01:19.520
+        --\u003e 00:01:27.960\ndefending Ukraine right now but on a positive note
+        I just recently became a father\n\n12\n00:01:27.960 --\u003e 00:01:35.000\nso
+        yeah um it is uh just 2 and a half months ago in uh France and uh today we\n\n13\n00:01:35.000
+        --\u003e 00:01:35.000\nare going to talk about hot fire\n\n\n\u003c/raw_transcript\u003e\n\nTo
+        complete this task, follow these steps:\n\n1. Read through the entire raw
+        transcript.\n2. Make necessary corrections to spelling, grammar, and punctuation.\n3.
+        Improve the text for clarity and coherence.\n4. Group related sentences into
+        paragraphs.\n5. Determine the start and end times for each paragraph.\n6.
+        Format the improved transcript into the specified JSON structure.\n\nRemember
+        to preserve the original meaning of the content while making improvements.
+        Ensure that each JSON object in the array represents a paragraph with its
+        corresponding start time, end time, and improved text.\n"}]}'
+    headers:
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <OPENAI_API_KEY>
+      Openai-Organization:
+      - "<OPENAI_ORGANIZATION_ID>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 Jul 2024 20:16:19 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Openai-Organization:
+      - user-cnr3hw7frpcuxb74nqkxv0ci
+      Openai-Processing-Ms:
+      - '5575'
+      Openai-Version:
+      - '2020-10-01'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Ratelimit-Limit-Requests:
+      - '10000'
+      X-Ratelimit-Limit-Tokens:
+      - '60000'
+      X-Ratelimit-Remaining-Requests:
+      - '9999'
+      X-Ratelimit-Remaining-Tokens:
+      - '59020'
+      X-Ratelimit-Reset-Requests:
+      - 8.64s
+      X-Ratelimit-Reset-Tokens:
+      - 980ms
+      X-Request-Id:
+      - req_d2ac843dea91a4185ea68854c30c95f3
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=A13PKcnqsskTKp8LaO14gVDJHt2i3B96g_0pQP014zI-1721333779-1.0.1.1-cog_AYT7H_ZOMedSxyyy9h0N.4kddu1dH6tn6JBvGGKhgfQwFnF5tSXRAp9TSimsuWXrzwLogc4SEMnhm9u28w;
+        path=/; expires=Thu, 18-Jul-24 20:46:19 GMT; domain=.api.openai.com; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=7dFNq0eW7BrsA0xlHHOO1CBRFOq6eF6jjSmPdgEc7ys-1721333779442-0.0.1.1-604800000;
+        path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 8a5525f49ea32a33-CDG
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+          "id": "chatcmpl-9mRptz8NDpQRjVaexiQh86BxeD1pX",
+          "object": "chat.completion",
+          "created": 1721333773,
+          "model": "gpt-4o-mini-2024-07-18",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "{\n  \"title\": \"Hotwire Cookbook: Common Uses, Essential Patterns & Best Practices\",\n  \"description\": \"@SupeRails creator and Rails mentor Yaroslav Shmarov shares how some of the most common frontend problems can be solved with Hotwire. He covers: - Pagination, search and filtering, modals, live updates, dynamic forms, inline editing, drag & drop, live previews, lazy loading & more - How to achieve more by combining tools (Frames + Streams, StimulusJS, RequestJS, Kredis & more) - What are the limits of Hotwire? - How to write readable and maintainable Hotwire code - Bad practices.\",\n  \"transcript\": [\n    {\n      \"start_time\": \"00:00:15.280\",\n      \"end_time\": \"00:00:34.399\",\n      \"text\": \"It's so nice to be here with you. Thank you all for coming. My name is Yaroslav, and I'm from Ukraine. You might know me from my blog or from my SuperAl YouTube channel, where I post a lot of content about Ruby, especially about Hotwire. I originate from the north of Ukraine, near Chernobyl. Thankfully, the region has been liberated, and I used to live about 80 kilometers away from it.\"\n    },\n    {\n      \"start_time\": \"00:00:34.399\",\n      \"end_time\": \"00:01:00.000\",\n      \"text\": \"This place holds deep personal significance for me; it is my family's home, which was burned during one of the early days of the war. My godfather went to defend Ukraine. Although we have such a beautiful venue today, the struggle continues. Just today, the city of Kharkiv was randomly bombed by the Russians.\"\n    },\n    {\n      \"start_time\": \"00:01:00.000\",\n      \"end_time\": \"00:01:27.960\",\n      \"text\": \"There are many Ruby on Rails developers from Ukraine, some of whom are currently fighting. One example is Verok, who contributed to Ruby and is defending Ukraine right now. On a more positive note, I recently became a father just two and a half months ago in France. Today, we are going to talk about Hotwire.\"\n    }\n  ]\n}"
+              },
+              "logprobs": null,
+              "finish_reason": "stop"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 1013,
+            "completion_tokens": 479,
+            "total_tokens": 1492
+          },
+          "system_fingerprint": "fp_8b761cb050"
+        }
+  recorded_at: Thu, 18 Jul 2024 20:16:19 GMT
+recorded_with: VCR 6.2.0

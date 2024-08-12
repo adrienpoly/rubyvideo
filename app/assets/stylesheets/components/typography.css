@@ -16,4 +16,8 @@
   p.secondary {
     @apply text-gray;
   }
+
+  a.link {
+    @apply text-brand hover:underline;
+  }
 }

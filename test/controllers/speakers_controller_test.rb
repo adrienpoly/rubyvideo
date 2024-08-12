@@ -24,4 +24,12 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     patch speaker_url(@speaker), params: {speaker: {bio: @speaker.bio, github: @speaker.github, name: @speaker.name, slug: @speaker.slug, twitter: @speaker.twitter, website: @speaker.website}}
     assert_redirected_to speaker_url(@speaker)
   end
+
+  test "should get index as JSON" do
+    get speakers_url, as: :json
+    assert_response :success
+
+    json_response = JSON.parse(response.body)
+    assert_includes json_response["speakers"].map { |speaker_data| speaker_data["name"] }, @speaker.name
+  end
 end

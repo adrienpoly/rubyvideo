@@ -3,7 +3,7 @@ import { useTransition } from 'stimulus-use'
 
 export default class extends Controller {
   static values = {
-    enterActive: { type: String, default: 'transition ease-in duration-500' },
+    enterActive: { type: String, default: 'transition ease-in duration-300' },
     enterFrom: { type: String, default: 'transform opacity-0' },
     enterTo: { type: String, default: 'transform opacity-100' },
     leaveActive: { type: String, default: 'transition ease-in duration-300' },
@@ -36,7 +36,6 @@ export default class extends Controller {
 
     if (this.enterAfterValue >= 0) {
       setTimeout(() => {
-        console.log('enter')
         this.enter()
       }, this.enterAfterValue)
     }

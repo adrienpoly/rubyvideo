@@ -1,8 +1,10 @@
 const colors = require('tailwindcss/colors')
+const defaultTheme = require('daisyui/src/theming/themes.js')['[data-theme=light]']
 
 module.exports = {
   content: [
     './app/views/**/*.html.erb',
+    './app/components/**/*',
     './app/helpers/**/*.rb',
     './app/assets/stylesheets/**/*.css',
     './app/javascript/**/*.js',
@@ -20,6 +22,7 @@ module.exports = {
       }
     },
     extend: {
+      // this is legacy tailwind config, we will try to replace it by the daisyui theme
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
@@ -46,7 +49,31 @@ module.exports = {
       }
     }
   },
+  daisyui: {
+    logs: false,
+    themes: [
+      {
+        rubyvideoLight: {
+          ...defaultTheme,
+          '--btn-text-case': 'none',
+          primary: '#D74C47',
+          'primary-content': '#ffffff',
+          secondary: '#FBEEEE',
+          'secondary-content': '#7b6f72',
+          accent: '#593db1',
+          'accent-content': '#ffffff',
+          neutral: '#261B23',
+          'neutral-content': '#ffffff'
+          // 'base-100': '#ffffff',
+          // info: '#3abff8',
+          // success: '#36d399',
+          // warning: '#fbbd23',
+          // error: '#f87272'
+        }
+      }
+    ]
+  },
   plugins: [
-    require('@tailwindcss/forms')
+    require('daisyui')
   ]
 }

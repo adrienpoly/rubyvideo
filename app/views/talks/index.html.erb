@@ -2,15 +2,17 @@
   <h1 class="title">Talks</h1>
 
   <%= form_with url: talks_path, method: :get, data: {controller: "auto-submit", turbo_frame: "talks", turbo_action: "advance"} do |form| %>
-    <%= form.search_field :q, placeholder: "Search a talk (experimental)", class: "w-full" %>
+    <%= form.search_field :q, placeholder: "Search a talk (full text seach in title, summary, speaker)", class: "w-full input input-bordered" %>
   <% end %>
 
   <%= turbo_frame_tag "talks", target: "_top" do %>
-    <div id="talks" class="grid min-w-full grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 gallery">
-      <%= cache [@talks, @from_talk_id] do %>
-        <%= render partial: "talks/card", collection: @talks, as: :talk, locals: {from_talk_id: @from_talk_id}, cache: true %>
+    <div id="talks" class="grid min-w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 gallery">
+      <% cache @talks do %>
+        <%= render partial: "talks/card", collection: @talks, as: :talk, cached: true %>
       <% end %>
     </div>
-    <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
+    <div class="flex mt-4 w-full">
+      <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
+    </div>
   <% end %>
 </div>

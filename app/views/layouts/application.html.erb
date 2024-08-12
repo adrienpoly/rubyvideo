@@ -2,22 +2,31 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <% if Rails.env.production? %>
+      <link rel="canonical" href="<%= "https://www.rubyvideo.dev#{request.path}" %>">
+    <% end %>
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= display_meta_tags site: "Ruby Video" %>
 
     <%= vite_client_tag %>
-    <%= vite_javascript_tag "application" %>
-    <%= vite_stylesheet_tag "application.css" %>
+    <%= vite_javascript_tag "application", media: "all", "data-turbo-track": "reload" %>
+    <%= vite_stylesheet_tag "application.css", media: "all", "data-turbo-track": "reload" %>
+    <%= yield :head %>
   </head>
 
-  <body data-controller="view-transition-page-cleaner">
+  <body>
     <%= render "shared/top_banner" %>
     <%= render "shared/navbar" %>
     <%= render "shared/flashes" %>
+
     <div class="min-h-screen">
       <%= yield %>
     </div>
+
+    <%= render "shared/footer" %>
   </body>
 </html>

@@ -16,15 +16,21 @@ registry:
 
   # Always use an access token rather than real password when possible.
   password:
-    - MRSK_REGISTRY_PASSWORD
+    - KAMAL_REGISTRY_PASSWORD
 
 # Inject ENV variables into containers (secrets come from .env).
 env:
+  clear:
+    RUBY_YJIT_ENABLE: 1
+    WEB_CONCURRENCY: 4
+    RAILS_MAX_THREADS: 3
   secret:
     - RAILS_MASTER_KEY
     - APPSIGNAL_PUSH_API_KEY
     - MEILI_MASTER_KEY
     - RUBYVIDEO_GITHUB_TOKEN
+    - OPENAI_ORGANIZATION_ID
+    - OPENAI_ACCESS_TOKEN
 # Use a different ssh user than root
 ssh:
   user: root
@@ -91,4 +97,7 @@ accessories:
 # healthcheck:
 #   path: /healthz
 #   port: 4000
-
+builder:
+  cache:
+    type: registry
+    options: mode=max,image-manifest=true,oci-mediatypes=true

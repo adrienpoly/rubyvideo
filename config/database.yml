@@ -9,17 +9,32 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 10 } %>
   timeout: 5000
 
-development:
+# DATABASE CONFIGURATIONS
+primary: &primary
   <<: *default
-  database: storage/development.sqlite3
+  database: storage/<%= Rails.env %>_rubyvideo.sqlite3
 
-# Warning: The database defined as "test" will be erased and
-# re-generated from your development database when you run "rake".
-# Do not set this db to the same as development or production.
-test:
+cache: &cache
   <<: *default
-  database: storage/test.sqlite3
+  migrations_paths: db/cache_migrate
+  database: storage/<%= Rails.env %>-cache.sqlite3
+
+queue: &queue
+  <<: *default
+  migrations_paths: db/queue_migrate
+  database: storage/<%= Rails.env %>-queue.sqlite3
+
+development:
+  primary: *primary
+  cache: *cache
+  queue: *queue
+
+test:
+  primary: *primary
+  cache: *cache
+  queue: *queue
 
 production:
-  <<: *default
-  database: storage/production_rubyvideo.sqlite3
+  primary: *primary
+  cache: *cache
+  queue: *queue
