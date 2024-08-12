@@ -103,6 +103,17 @@
   slug: blue-ridge-ruby
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+- name: rubyday
+  website: https://rubyday.it
+  twitter: rubydayit
+  kind: conference
+  frequency: yearly
+  playlist_matcher: rubyday
+  default_country_code: IT
+  youtube_channel_name: GrUSP
+  slug: rubyday
+  language: english
+  youtube_channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
 - name: EuRuKo
   website: https://euruko.org
   kind: conference
