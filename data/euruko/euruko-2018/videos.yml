@@ -1,0 +1,436 @@
+---
+- title: 'Introduction'
+  raw_title: EuRuKo 2018 Introduction
+  speakers:
+    - Pilar Andrea Huidobro Peltier
+    - Ramón Huidobro
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nNadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch the next EuRuKo's location
+    https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María Martínez Gómez - Let’s
+    refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan Thomakos
+    - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: YhPP_Knq0qM
+
+- title: "Keynote: Ruby after 25 years"
+  raw_title: Yukihiro Matsumoto - Keynote
+  speakers:
+    - Yukihiro Matsumoto
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Chris Salzberg - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nNadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch the next EuRuKo's location
+    https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María Martínez Gómez - Let’s
+    refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan Thomakos
+    - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: cs0s5lZAUwc
+
+- title: 'Metaprogramming for generalists'
+  raw_title: Chris Salzberg - Metaprogramming for generalists
+  speakers:
+    - Chris Salzberg
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Joannah Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nNadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch the next EuRuKo's location
+    https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María Martínez Gómez - Let’s
+    refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan Thomakos
+    - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: 1fIlcnrJHxs
+
+- title: 'Ruby in containers'
+  raw_title: Joannah Nanjekye - Ruby in containers
+  speakers:
+    - Joannah Nanjekye
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Damir Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nNadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch the next EuRuKo's location
+    https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María Martínez Gómez - Let’s
+    refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan Thomakos
+    - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: qPNkOPvjecs
+
+- title: 'Ducks and monads: wonders of Ruby types'
+  raw_title: 'Igor Morozov - Ducks and monads: wonders of Ruby types'
+  speakers:
+    - Igor Morozov
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Igor Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nNadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch the next EuRuKo's location
+    https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María Martínez Gómez - Let’s
+    refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan Thomakos
+    - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: v-H9nK8hqfE
+
+- title: 'Tool belt of a seasoned bug hunter'
+  raw_title: Damir Zekić - Tool belt of a seasoned bug hunter
+  speakers:
+    - Damir Zekić
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Igor Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nNadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch the next EuRuKo's location
+    https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María Martínez Gómez - Let’s
+    refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan Thomakos
+    - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: ObB0dzX_rBs
+
+- title: 'Rails anti-patterns: how not to design your database'
+  raw_title: 'Brad Urani - Rails anti-patterns: how not to design your database'
+  speakers:
+    - Brad Urani
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Coraline Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nNadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch the next EuRuKo's location
+    https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María Martínez Gómez - Let’s
+    refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan Thomakos
+    - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: zo3iRBPzscU
+
+- title: 'The broken promise of Open Source'
+  raw_title: Coraline Ada Ehmke - The broken promise of Open Source
+  speakers:
+    - Coraline Ada Ehmke
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Louisa Barrett - Ruby not red: color theory for the rest
+    of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nNadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch the next EuRuKo's location
+    https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María Martínez Gómez - Let’s
+    refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan Thomakos
+    - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: 5ByUPh_uPqQ
+
+- title: 'Ruby not red: color theory for the rest of us'
+  raw_title: 'Louisa Barrett - Ruby not red: color theory for the rest of us'
+  speakers:
+    - Louisa Barrett
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Nadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nNadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch the next EuRuKo's location
+    https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María Martínez Gómez - Let’s
+    refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan Thomakos
+    - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: OgO1EIFDgPU
+
+- title: 'Day 2 Welcome'
+  raw_title: Day 2 Welcome
+  speakers: []
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Nadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\n\nSee below for all videos!\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nWelcome https://www.youtube.com/watch?v=OlOA0aGxud0\nNadia Odunayo
+    - The case of the missing method — a Ruby mystery story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch
+    the next EuRuKo's location https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María
+    Martínez Gómez - Let’s refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan
+    Thomakos - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: OlOA0aGxud0
+
+- title: "Let's refactor some Ruby code"
+  raw_title: Ana María Martínez Gómez - Let’s refactor some Ruby code
+  speakers:
+    - Ana María Martínez Gómez
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Pan Thomakos - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\n\nSee
+    below for all videos!\n\n######################\n### \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###
+    \  Day 1  ###\n\nYukihiro Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris
+    Salzberg - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nWelcome https://www.youtube.com/watch?v=OlOA0aGxud0\nNadia Odunayo
+    - The case of the missing method — a Ruby mystery story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch
+    the next EuRuKo's location https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María
+    Martínez Gómez - Let’s refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan
+    Thomakos - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: jUc8InwoA-E
+
+- title: 'Debugging adventures in Rack-land'
+  raw_title: Pan Thomakos - Debugging adventures in Rack-land
+  speakers:
+    - Pan Thomakos
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Lightning talks https://www.youtube.com/watch?v=zSeaNPjwnnA\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nNadia Odunayo - The case of the missing method — a Ruby mystery
+    story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch the next EuRuKo's location
+    https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María Martínez Gómez - Let’s
+    refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan Thomakos
+    - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: 5o4krwjJbOI
+
+- title: Lightning talks
+  raw_title: Lightning talks
+  speakers: []
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Kerstin Puschke - Scaling a monolith isn't scaling microservices
+    https://www.youtube.com/watch?v=tA8gGd_Rl7E\n\nSee below for all videos!\n\n######################\n###
+    \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###   Day 1  ###\n\nYukihiro
+    Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris Salzberg
+    - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nWelcome https://www.youtube.com/watch?v=OlOA0aGxud0\nNadia Odunayo
+    - The case of the missing method — a Ruby mystery story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch
+    the next EuRuKo's location https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María
+    Martínez Gómez - Let’s refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan
+    Thomakos - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: zSeaNPjwnnA
+
+- title: "Scaling a monolith isn't scaling microservices"
+  raw_title: Kerstin Puschke - Scaling a monolith isn't scaling microservices
+  speakers:
+    - Kerstin Puschke
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Amr Abdelwahab - An empathy exercise: contextualising the
+    question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\n\nSee below
+    for all videos!\n\n######################\n### \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###
+    \  Day 1  ###\n\nYukihiro Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris
+    Salzberg - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nWelcome https://www.youtube.com/watch?v=OlOA0aGxud0\nNadia Odunayo
+    - The case of the missing method — a Ruby mystery story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch
+    the next EuRuKo's location https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María
+    Martínez Gómez - Let’s refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan
+    Thomakos - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: tA8gGd_Rl7E
+
+- title: 'An empathy exercise: contextualising the question of privilege'
+  raw_title: 'Amr Abdelwahab - An empathy exercise: contextualising the question of privilege'
+  speakers:
+    - Amr Abdelwahab
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next:  Wrap up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk\n\nSee
+    below for all videos!\n\n######################\n### \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###
+    \  Day 1  ###\n\nYukihiro Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris
+    Salzberg - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nWelcome https://www.youtube.com/watch?v=OlOA0aGxud0\nNadia Odunayo
+    - The case of the missing method — a Ruby mystery story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch
+    the next EuRuKo's location https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María
+    Martínez Gómez - Let’s refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan
+    Thomakos - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: 6CqmGYvFwAQ
+
+- title: 'The case of the missing method — a Ruby mystery story'
+  raw_title: Nadia Odunayo - The case of the missing method — a Ruby mystery story
+  speakers:
+    - Nadia Odunayo
+  event_name: Euruko 2018
+  published_at: '2021-06-01'
+  description: "Up Next: Pitch the next EuRuKo's location https://www.youtube.com/watch?v=YXe9OoQW8lc\n\nSee
+    below for all videos!\n\n######################\n### \\o/ EuRuKo 2018 \\o/ ###\n######################\n\n###
+    \  Day 1  ###\n\nYukihiro Matsumoto - Keynote https://www.youtube.com/watch?v=cs0s5lZAUwc\nChris
+    Salzberg - Metaprogramming for generalists https://www.youtube.com/watch?v=1fIlcnrJHxs\nJoannah
+    Nanjekye - Ruby in containers https://www.youtube.com/watch?v=qPNkOPvjecs\nDamir
+    Zekić - Tool belt of a seasoned bug hunter \nhttps://www.youtube.com/watch?v=ObB0dzX_rBs\nIgor
+    Morozov - Ducks and monads: wonders of Ruby types https://www.youtube.com/watch?v=v-H9nK8hqfE\nBrad
+    Urani - Rails anti-patterns: how not to design your database https://www.youtube.com/watch?v=zo3iRBPzscU\nCoraline
+    Ada Ehmke - The broken promise of Open Source https://www.youtube.com/watch?v=5ByUPh_uPqQ\nLouisa
+    Barrett - Ruby not red: color theory for the rest of us https://www.youtube.com/watch?v=OgO1EIFDgPU\n\n###
+    \ Day 2  ###\n\nWelcome https://www.youtube.com/watch?v=OlOA0aGxud0\nNadia Odunayo
+    - The case of the missing method — a Ruby mystery story https://www.youtube.com/watch?v=OlOA0aGxud0\nPitch
+    the next EuRuKo's location https://www.youtube.com/watch?v=YXe9OoQW8lc\nAna María
+    Martínez Gómez - Let’s refactor some Ruby code https://www.youtube.com/watch?v=jUc8InwoA-E\nPan
+    Thomakos - Debugging adventures in Rack-land https://www.youtube.com/watch?v=5o4krwjJbOI\nLightning
+    talks https://www.youtube.com/watch?v=zSeaNPjwnnA\nKerstin Puschke - Scaling a
+    monolith isn't scaling microservices https://www.youtube.com/watch?v=tA8gGd_Rl7E\nAmr
+    Abdelwahab - An empathy exercise: contextualising the question of privilege https://www.youtube.com/watch?v=6CqmGYvFwAQ\nWrap
+    up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
+  video_id: wkz-B1w2GVM
