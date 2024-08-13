@@ -16,4 +16,8 @@ module ApplicationHelper
     output << link_to("edge stack.", uses_path, class: "link")
     sanitize(output.join(" "), tags: %w[a span svg], attributes: %w[href target class alt])
   end
+
+  def canonical_url
+    content_for?(:canonical_url) ? content_for(:canonical_url) : "https://www.rubyvideo.dev#{request.path}"
+  end
 end
