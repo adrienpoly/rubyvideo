@@ -194,6 +194,8 @@ GEM
       multipart-post (~> 2)
     faraday-net_http (3.1.1)
       net-http
+    frozen_record (0.27.2)
+      activemodel
     fugit (1.11.0)
       et-orbi (~> 1, >= 1.2.11)
       raabro (~> 1.4)
@@ -524,6 +526,7 @@ DEPENDENCIES
   dry-types (~> 1.7)
   erb_lint
   error_highlight (>= 0.4.0)
+  frozen_record (~> 0.27.2)
   google-protobuf
   groupdate (~> 6.2)
   inline_svg (~> 1.9)
