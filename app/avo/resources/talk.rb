@@ -55,5 +55,7 @@ class Avo::Resources::Talk < Avo::BaseResource
     filter Avo::Filters::RawTranscript
     filter Avo::Filters::EnhancedTranscript
     filter Avo::Filters::Summary
+    filter Avo::Filters::Title
+    filter Avo::Filters::Slug
   end
 end
