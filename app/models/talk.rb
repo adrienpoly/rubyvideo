@@ -82,6 +82,8 @@ class Talk < ApplicationRecord
   scope :with_enhanced_transcript, -> { where("enhanced_transcript IS NOT NULL AND enhanced_transcript != '[]'") }
   scope :with_summary, -> { where("summary IS NOT NULL AND summary != ''") }
   scope :without_summary, -> { where("summary IS NULL OR summary = ''") }
+  scope :without_topics, -> { where.missing(:talk_topics) }
+  scope :with_topics, -> { joins(:talk_topics) }
 
   def to_meta_tags
     {
