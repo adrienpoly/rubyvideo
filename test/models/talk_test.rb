@@ -92,7 +92,5 @@ class TalkTest < ActiveSupport::TestCase
         end
       end
     end
-
-    puts @talk.topics.pluck(:name)
   end
 end
