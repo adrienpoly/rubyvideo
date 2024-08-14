@@ -2,6 +2,8 @@ class AnalyzeTalkTopicsJob < ApplicationJob
   queue_as :default
 
   def perform(talk)
+    return if talk.raw_transcript.blank?
+
     response = client.chat(
       parameters: {
         model: "gpt-4o-mini",
@@ -10,11 +12,16 @@ class AnalyzeTalkTopicsJob < ApplicationJob
       }
     )
 
-    puts response.inspect
+    raw_response = JSON.repair(response.dig("choices", 0, "message", "content"))
+    topics = begin
+      JSON.parse(raw_response)["topics"]
+    rescue
+      []
+    end
 
-    topics = JSON.parse(response.dig("choices", 0, "message", "content"))["topics"] rescue []
-
-    topics = Topic.where(name: topics)
+    topics.map! do |topic|
+      Topic.find_or_create_by(name: topic)
+    end
 
     talk.topics = topics
     talk.save!
@@ -49,26 +56,36 @@ class AnalyzeTalkTopicsJob < ApplicationJob
 
       2. Next, carefully read through the entire transcript:
       <transcript>
-      #{talk.transcript.to_text}
+      #{talk.raw_transcript.to_text}
       </transcript>
 
-      3. Look at the list of comma-seprated topics:
+      3. Read through the entire list of exisiting topics for other talks.
       <topics>
         #{Topic.all.pluck(:name).join(", ")}
       </topics>
 
-      4. Pick the topics that match the provided transcript and it's metadata
+      4. Pick 5 to 7 topics that would describe best the talk.
+         You can pick any topic from the list of exisiting topics or create a new one.
+         if you create a new topic, please ensure that it is relevant to the content of the transcript and match the recommended topics kind.
+          - Ruby framework names (examples: Rails, Sinatra, Hanami, Ruby on Rails ...)
+          - Ruby gem names
+          - Design patterns names (examples: MVC, MVP, Singleton, Observer, Strategy, Command, Decorator, Composite, Facade, Proxy, Mediator, Memento, Observer, State, Template Method, Visitor)
+          - Database names (examples: PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Cassandra, CouchDB, Sqlite)
+          - front end frameworks names (examples: React, Vue, Angular, Ember, Svelte, Stimulus, Preact, Hyperapp, Inferno, Solid, Mithril, Riot, Polymer, Web Components, Hotwire, Turbo, StimulusReflex, Strada ...)
+          - front end CSS libraries and framework names (examples: Tailwind, Bootstrap, Bulma, Material UI, Foundation)
+          - front end JavaScript libraries names (examples: jQuery, D3, Chart.js, Lodash, Moment.js)
+        topics are typically one or two words long, with some exceptions such as "Ruby on Rails"
 
       5. Format your topics you picked as a JSON object with the following schema:
         {
           "topics": ["topic1", "topic2", "topic3"]
         }
 
-      7. Ensure that your summary is:
-        - Objective and factual, based solely on the content of the transcript and metadata
+      6. Ensure that your summary is:
+        - relevant to the content of the transcript and match the recommended topics kind
         - Free of personal opinions or external information not present in the provided content
 
-      8. Output your JSON object containing the summary, ensuring it is properly formatted and enclosed in <answer> tags.
+      7. Output your JSON object containing the list of topics in the JSON format.
     PROMPT
   end
 end

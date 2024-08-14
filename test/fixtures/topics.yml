@@ -1,9 +1,685 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  name: MyString
-  description: MyText
-
-two:
-  name: MyString
-  description: MyText
+# Topic.find_or_create_by(name: "A/B Testing")
+# Topic.find_or_create_by(name: "Accessability")
+# Topic.find_or_create_by(name: "ActionCable")
+# Topic.find_or_create_by(name: "ActionMailer")
+# Topic.find_or_create_by(name: "ActionView")
+# Topic.find_or_create_by(name: "ActiveJob")
+# Topic.find_or_create_by(name: "ActiveRecord")
+# Topic.find_or_create_by(name: "ActiveStorage")
+# Topic.find_or_create_by(name: "ActiveSupport")
+# Topic.find_or_create_by(name: "AI")
+# Topic.find_or_create_by(name: "Algorithms")
+# Topic.find_or_create_by(name: "Android")
+# Topic.find_or_create_by(name: "Arel")
+# Topic.find_or_create_by(name: "Assembly")
+# Topic.find_or_create_by(name: "Authentication")
+# Topic.find_or_create_by(name: "Authorization")
+# Topic.find_or_create_by(name: "Automation")
+# Topic.find_or_create_by(name: "Awards")
+# Topic.find_or_create_by(name: "Background jobs")
+# Topic.find_or_create_by(name: "Blogging")
+# Topic.find_or_create_by(name: "Bootstrapping")
+# Topic.find_or_create_by(name: "Business Logic")
+# Topic.find_or_create_by(name: "Business")
+# Topic.find_or_create_by(name: "Caching")
+# Topic.find_or_create_by(name: "Camping")
+# Topic.find_or_create_by(name: "Career Development")
+# Topic.find_or_create_by(name: "CI")
+# Topic.find_or_create_by(name: "CI/CD")
+# Topic.find_or_create_by(name: "CLI")
+# Topic.find_or_create_by(name: "Client-side rendering")
+# Topic.find_or_create_by(name: "Code Golfing")
+# Topic.find_or_create_by(name: "Code Quality")
+# Topic.find_or_create_by(name: "Communication")
+# Topic.find_or_create_by(name: "Community")
+# Topic.find_or_create_by(name: "Compiling")
+# Topic.find_or_create_by(name: "Components")
+# Topic.find_or_create_by(name: "Computer Vision")
+# Topic.find_or_create_by(name: "Concurrency")
+# Topic.find_or_create_by(name: "Containers")
+# Topic.find_or_create_by(name: "CRuby")
+# Topic.find_or_create_by(name: "Crystal")
+# Topic.find_or_create_by(name: "CSS")
+# Topic.find_or_create_by(name: "Data Integrity")
+# Topic.find_or_create_by(name: "Data Processing")
+# Topic.find_or_create_by(name: "Database Sharding")
+# Topic.find_or_create_by(name: "Databases")
+# Topic.find_or_create_by(name: "Debugging")
+# Topic.find_or_create_by(name: "Deployment")
+# Topic.find_or_create_by(name: "Design Patterns")
+# Topic.find_or_create_by(name: "Developer Tooling")
+# Topic.find_or_create_by(name: "DevOps")
+# Topic.find_or_create_by(name: "Distributed Systems")
+# Topic.find_or_create_by(name: "Diversity & Inclusion")
+# Topic.find_or_create_by(name: "Docker")
+# Topic.find_or_create_by(name: "Documentation")
+# Topic.find_or_create_by(name: "Domain Driven Design")
+# Topic.find_or_create_by(name: "dry-rb")
+# Topic.find_or_create_by(name: "DSL")
+# Topic.find_or_create_by(name: "Duck Typing")
+# Topic.find_or_create_by(name: "DX")
+# Topic.find_or_create_by(name: "Editor")
+# Topic.find_or_create_by(name: "Elm")
+# Topic.find_or_create_by(name: "Encoding")
+# Topic.find_or_create_by(name: "Encryption")
+# Topic.find_or_create_by(name: "Engineering Culture")
+# Topic.find_or_create_by(name: "Error Handling")
+# Topic.find_or_create_by(name: "Ethics")
+# Topic.find_or_create_by(name: "Event Sourcing")
+# Topic.find_or_create_by(name: "Fibers")
+# Topic.find_or_create_by(name: "Flaky Tests")
+# Topic.find_or_create_by(name: "Frontend")
+# Topic.find_or_create_by(name: "Functional Programming")
+# Topic.find_or_create_by(name: "Game Shows")
+# Topic.find_or_create_by(name: "Games")
+# Topic.find_or_create_by(name: "Geocoding")
+# Topic.find_or_create_by(name: "git")
+# Topic.find_or_create_by(name: "Go")
+# Topic.find_or_create_by(name: "GraphQL")
+# Topic.find_or_create_by(name: "gRPC")
+# Topic.find_or_create_by(name: "Hacking")
+# Topic.find_or_create_by(name: "Hanami")
+# Topic.find_or_create_by(name: "Hotwire")
+# Topic.find_or_create_by(name: "HTML")
+# Topic.find_or_create_by(name: "HTTP API")
+# Topic.find_or_create_by(name: "Hybrid Apps")
+# Topic.find_or_create_by(name: "IDE")
+# Topic.find_or_create_by(name: "Indie Developer")
+# Topic.find_or_create_by(name: "Inspiration")
+# Topic.find_or_create_by(name: "Internals")
+# Topic.find_or_create_by(name: "Interview")
+# Topic.find_or_create_by(name: "iOS")
+# Topic.find_or_create_by(name: "JavaScript")
+# Topic.find_or_create_by(name: "JIT")
+# Topic.find_or_create_by(name: "Job Interviewing")
+# Topic.find_or_create_by(name: "JRuby")
+# Topic.find_or_create_by(name: "Junior devs")
+# Topic.find_or_create_by(name: "JVM")
+# Topic.find_or_create_by(name: "JWT")
+# Topic.find_or_create_by(name: "Kafka")
+# Topic.find_or_create_by(name: "Keynote")
+# Topic.find_or_create_by(name: "Leadership")
+# Topic.find_or_create_by(name: "Legacy Applications")
+# Topic.find_or_create_by(name: "Licensing")
+# Topic.find_or_create_by(name: "Lightning Talks")
+# Topic.find_or_create_by(name: "Linters")
+# Topic.find_or_create_by(name: "Live Coding")
+# Topic.find_or_create_by(name: "LLM")
+# Topic.find_or_create_by(name: "Localization")
+# Topic.find_or_create_by(name: "Logging")
+# Topic.find_or_create_by(name: "LSP")
+# Topic.find_or_create_by(name: "Machine Learning")
+# Topic.find_or_create_by(name: "Memory Managment")
+# Topic.find_or_create_by(name: "Mental Health")
+# Topic.find_or_create_by(name: "Mentorship")
+# Topic.find_or_create_by(name: "MFA/2FA")
+# Topic.find_or_create_by(name: "Microcontroller")
+# Topic.find_or_create_by(name: "Microservices")
+# Topic.find_or_create_by(name: "MJIT")
+# Topic.find_or_create_by(name: "Mocking")
+# Topic.find_or_create_by(name: "Monolith")
+# Topic.find_or_create_by(name: "mruby")
+# Topic.find_or_create_by(name: "Multitenancy")
+# Topic.find_or_create_by(name: "Music")
+# Topic.find_or_create_by(name: "MVP")
+# Topic.find_or_create_by(name: "MySQL")
+# Topic.find_or_create_by(name: "Naming")
+# Topic.find_or_create_by(name: "Native Apps")
+# Topic.find_or_create_by(name: "Native Extensions")
+# Topic.find_or_create_by(name: "Observability")
+# Topic.find_or_create_by(name: "Offline")
+# Topic.find_or_create_by(name: "OOP")
+# Topic.find_or_create_by(name: "Open Source")
+# Topic.find_or_create_by(name: "Organizational Skills")
+# Topic.find_or_create_by(name: "ORM")
+# Topic.find_or_create_by(name: "Pair Programming")
+# Topic.find_or_create_by(name: "Panel")
+# Topic.find_or_create_by(name: "Parallelism")
+# Topic.find_or_create_by(name: "Parsing")
+# Topic.find_or_create_by(name: "Passwords")
+# Topic.find_or_create_by(name: "People Skills")
+# Topic.find_or_create_by(name: "Performance")
+# Topic.find_or_create_by(name: "Personal Development")
+# Topic.find_or_create_by(name: "Phlex")
+# Topic.find_or_create_by(name: "Podcasts")
+# Topic.find_or_create_by(name: "PostgreSQL")
+# Topic.find_or_create_by(name: "Pricing")
+# Topic.find_or_create_by(name: "Privacy")
+# Topic.find_or_create_by(name: "Productivity")
+# Topic.find_or_create_by(name: "Profiling")
+# Topic.find_or_create_by(name: "Project Planning")
+# Topic.find_or_create_by(name: "PWA")
+# Topic.find_or_create_by(name: "Q&A")
+# Topic.find_or_create_by(name: "Rack")
+# Topic.find_or_create_by(name: "Ractors")
+# Topic.find_or_create_by(name: "Rails at Scale")
+# Topic.find_or_create_by(name: "Rails Engine")
+# Topic.find_or_create_by(name: "Rails Upgrades")
+# Topic.find_or_create_by(name: "React")
+# Topic.find_or_create_by(name: "Real-time applications")
+# Topic.find_or_create_by(name: "Refactoring")
+# Topic.find_or_create_by(name: "Regex")
+# Topic.find_or_create_by(name: "Remote Work")
+# Topic.find_or_create_by(name: "REST API")
+# Topic.find_or_create_by(name: "REST")
+# Topic.find_or_create_by(name: "RJIT")
+# Topic.find_or_create_by(name: "Robot")
+# Topic.find_or_create_by(name: "Ruby Implementations")
+# Topic.find_or_create_by(name: "Ruby on Rails")
+# Topic.find_or_create_by(name: "Ruby VM")
+# Topic.find_or_create_by(name: "Rubygems")
+# Topic.find_or_create_by(name: "Rust")
+# Topic.find_or_create_by(name: "Scaling")
+# Topic.find_or_create_by(name: "Security")
+# Topic.find_or_create_by(name: "Server-side rendering")
+# Topic.find_or_create_by(name: "Servers")
+# Topic.find_or_create_by(name: "Service Objects")
+# Topic.find_or_create_by(name: "Shoes.rb")
+# Topic.find_or_create_by(name: "Sidekiq")
+# Topic.find_or_create_by(name: "Sinatra")
+# Topic.find_or_create_by(name: "Software Architecture")
+# Topic.find_or_create_by(name: "Sonic Pi")
+# Topic.find_or_create_by(name: "Sorbet")
+# Topic.find_or_create_by(name: "SPA")
+# Topic.find_or_create_by(name: "SQL")
+# Topic.find_or_create_by(name: "SQLite")
+# Topic.find_or_create_by(name: "Startups")
+# Topic.find_or_create_by(name: "Static Typing")
+# Topic.find_or_create_by(name: "Stimulus")
+# Topic.find_or_create_by(name: "Success Stories")
+# Topic.find_or_create_by(name: "Swift")
+# Topic.find_or_create_by(name: "Syntax")
+# Topic.find_or_create_by(name: "System Programming")
+# Topic.find_or_create_by(name: "Tailwind CSS")
+# Topic.find_or_create_by(name: "TDD")
+# Topic.find_or_create_by(name: "Teaching")
+# Topic.find_or_create_by(name: "Team Building")
+# Topic.find_or_create_by(name: "Teams")
+# Topic.find_or_create_by(name: "Teamwork")
+# Topic.find_or_create_by(name: "Test Coverage")
+# Topic.find_or_create_by(name: "Test Framework")
+# Topic.find_or_create_by(name: "Testing")
+# Topic.find_or_create_by(name: "Threads")
+# Topic.find_or_create_by(name: "Timezones")
+# Topic.find_or_create_by(name: "Tips & Tricks")
+# Topic.find_or_create_by(name: "Trailblazer")
+# Topic.find_or_create_by(name: "Translation")
+# Topic.find_or_create_by(name: "Transpilation")
+# Topic.find_or_create_by(name: "TruffleRuby")
+# Topic.find_or_create_by(name: "Turbo Native")
+# Topic.find_or_create_by(name: "Turbo")
+# Topic.find_or_create_by(name: "Type Checking")
+# Topic.find_or_create_by(name: "Types")
+# Topic.find_or_create_by(name: "Typing")
+# Topic.find_or_create_by(name: "UI Design")
+# Topic.find_or_create_by(name: "UI")
+# Topic.find_or_create_by(name: "Usability")
+# Topic.find_or_create_by(name: "Version Control")
+# Topic.find_or_create_by(name: "ViewComponent")
+# Topic.find_or_create_by(name: "Views")
+# Topic.find_or_create_by(name: "Virtual Machine")
+# Topic.find_or_create_by(name: "Vue.js")
+# Topic.find_or_create_by(name: "Web Server")
+# Topic.find_or_create_by(name: "Websockets")
+# Topic.find_or_create_by(name: "why the lucky stiff")
+# Topic.find_or_create_by(name: "Workshop")
+# Topic.find_or_create_by(name: "Writing")
+# Topic.find_or_create_by(name: "YARV")
+# Topic.find_or_create_by(name: "YJIT")
+a_b_testing:
+  name: A/B Testing
+accessability:
+  name: Accessability
+actioncable:
+  name: ActionCable
+actionmailer:
+  name: ActionMailer
+actionview:
+  name: ActionView
+activejob:
+  name: ActiveJob
+activerecord:
+  name: ActiveRecord
+activestorage:
+  name: ActiveStorage
+activesupport:
+  name: ActiveSupport
+ai:
+  name: AI
+algorithms:
+  name: Algorithms
+android:
+  name: Android
+arel:
+  name: Arel
+assembly:
+  name: Assembly
+authentication:
+  name: Authentication
+authorization:
+  name: Authorization
+automation:
+  name: Automation
+awards:
+  name: Awards
+background_jobs:
+  name: Background jobs
+blogging:
+  name: Blogging
+bootstrapping:
+  name: Bootstrapping
+business_logic:
+  name: Business Logic
+business:
+  name: Business
+caching:
+  name: Caching
+camping:
+  name: Camping
+career_development:
+  name: Career Development
+ci:
+  name: CI
+ci_cd:
+  name: CI/CD
+cli:
+  name: CLI
+client_side_rendering:
+  name: Client-side rendering
+code_golfing:
+  name: Code Golfing
+code_quality:
+  name: Code Quality
+communication:
+  name: Communication
+community:
+  name: Community
+compiling:
+  name: Compiling
+components:
+  name: Components
+computer_vision:
+  name: Computer Vision
+concurrency:
+  name: Concurrency
+containers:
+  name: Containers
+cruby:
+  name: CRuby
+crystal:
+  name: Crystal
+css:
+  name: CSS
+data_integrity:
+  name: Data Integrity
+data_processing:
+  name: Data Processing
+database_sharding:
+  name: Database Sharding
+databases:
+  name: Databases
+debugging:
+  name: Debugging
+deployment:
+  name: Deployment
+design_patterns:
+  name: Design Patterns
+developer_tooling:
+  name: Developer Tooling
+devops:
+  name: DevOps
+distributed_systems:
+  name: Distributed Systems
+diversity_inclusion:
+  name: Diversity & Inclusion
+docker:
+  name: Docker
+documentation:
+  name: Documentation
+domain_driven_design:
+  name: Domain Driven Design
+dry_rb:
+  name: dry-rb
+dsl:
+  name: DSL
+duck_typing:
+  name: Duck Typing
+dx:
+  name: DX
+editor:
+  name: Editor
+elm:
+  name: Elm
+encoding:
+  name: Encoding
+encryption:
+  name: Encryption
+engineering_culture:
+  name: Engineering Culture
+error_handling:
+  name: Error Handling
+ethics:
+  name: Ethics
+event_sourcing:
+  name: Event Sourcing
+fibers:
+  name: Fibers
+flaky_tests:
+  name: Flaky Tests
+frontend:
+  name: Frontend
+functional_programming:
+  name: Functional Programming
+game_shows:
+  name: Game Shows
+games:
+  name: Games
+geocoding:
+  name: Geocoding
+git:
+  name: git
+go:
+  name: Go
+graphql:
+  name: GraphQL
+grpc:
+  name: gRPC
+hacking:
+  name: Hacking
+hanami:
+  name: Hanami
+hotwire:
+  name: Hotwire
+html:
+  name: HTML
+http_api:
+  name: HTTP API
+hybrid_apps:
+  name: Hybrid Apps
+ide:
+  name: IDE
+indie_developer:
+  name: Indie Developer
+inspiration:
+  name: Inspiration
+internals:
+  name: Internals
+interview:
+  name: Interview
+ios:
+  name: iOS
+javascript:
+  name: JavaScript
+jit:
+  name: JIT
+job_interviewing:
+  name: Job Interviewing
+jruby:
+  name: JRuby
+junior_devs:
+  name: Junior devs
+jvm:
+  name: JVM
+jwt:
+  name: JWT
+kafka:
+  name: Kafka
+keynote:
+  name: Keynote
+leadership:
+  name: Leadership
+legacy_applications:
+  name: Legacy Applications
+licensing:
+  name: Licensing
+lightning_talks:
+  name: Lightning Talks
+linters:
+  name: Linters
+live_coding:
+  name: Live Coding
+llm:
+  name: LLM
+localization:
+  name: Localization
+logging:
+  name: Logging
+lsp:
+  name: LSP
+machine_learning:
+  name: Machine Learning
+memory_managment:
+  name: Memory Managment
+mental_health:
+  name: Mental Health
+mentorship:
+  name: Mentorship
+mfa_2fa:
+  name: MFA/2FA
+microcontroller:
+  name: Microcontroller
+microservices:
+  name: Microservices
+mjit:
+  name: MJIT
+mocking:
+  name: Mocking
+monolith:
+  name: Monolith
+mruby:
+  name: mruby
+multitenancy:
+  name: Multitenancy
+music:
+  name: Music
+mvp:
+  name: MVP
+mysql:
+  name: MySQL
+naming:
+  name: Naming
+native_apps:
+  name: Native Apps
+native_extensions:
+  name: Native Extensions
+observability:
+  name: Observability
+offline:
+  name: Offline
+oop:
+  name: OOP
+open_source:
+  name: Open Source
+organizational_skills:
+  name: Organizational Skills
+orm:
+  name: ORM
+pair_programming:
+  name: Pair Programming
+panel:
+  name: Panel
+parallelism:
+  name: Parallelism
+parsing:
+  name: Parsing
+passwords:
+  name: Passwords
+people_skills:
+  name: People Skills
+performance:
+  name: Performance
+personal_development:
+  name: Personal Development
+phlex:
+  name: Phlex
+podcasts:
+  name: Podcasts
+postgresql:
+  name: PostgreSQL
+pricing:
+  name: Pricing
+privacy:
+  name: Privacy
+productivity:
+  name: Productivity
+profiling:
+  name: Profiling
+project_planning:
+  name: Project Planning
+pwa:
+  name: PWA
+q_a:
+  name: Q&A
+rack:
+  name: Rack
+racktors:
+  name: Ractors
+rails_at_scale:
+  name: Rails at Scale
+rails_engine:
+  name: Rails Engine
+rails_upgrades:
+  name: Rails Upgrades
+react:
+  name: React
+real_time_applications:
+  name: Real-time applications
+refactoring:
+  name: Refactoring
+regex:
+  name: Regex
+remote_work:
+  name: Remote Work
+rest_api:
+  name: REST API
+rest:
+  name: REST
+rjit:
+  name: RJIT
+robot:
+  name: Robot
+ruby_implementations:
+  name: Ruby Implementations
+ruby_on_rails:
+  name: Ruby on Rails
+ruby_vm:
+  name: Ruby VM
+rubygems:
+  name: Rubygems
+rust:
+  name: Rust
+scaling:
+  name: Scaling
+security:
+  name: Security
+server_side_rendering:
+  name: Server-side rendering
+servers:
+  name: Servers
+service_objects:
+  name: Service Objects
+shoes_rb:
+  name: Shoes.rb
+sidekiq:
+  name: Sidekiq
+sinatra:
+  name: Sinatra
+software_architecture:
+  name: Software Architecture
+sonic_pi:
+  name: Sonic Pi
+sorbet:
+  name: Sorbet
+spa:
+  name: SPA
+sql:
+  name: SQL
+sqlite:
+  name: SQLite
+startups:
+  name: Startups
+static_typing:
+  name: Static Typing
+stimulus:
+  name: Stimulus
+success_stories:
+  name: Success Stories
+swift:
+  name: Swift
+syntax:
+  name: Syntax
+system_programming:
+  name: System Programming
+tailwind_css:
+  name: Tailwind CSS
+tdd:
+  name: TDD
+teaching:
+  name: Teaching
+team_building:
+  name: Team Building
+teams:
+  name: Teams
+teamwork:
+  name: Teamwork
+test_coverage:
+  name: Test Coverage
+test_framework:
+  name: Test Framework
+testing:
+  name: Testing
+threads:
+  name: Threads
+timezones:
+  name: Timezones
+tips_tricks:
+  name: Tips & Tricks
+trailblazer:
+  name: Trailblazer
+translation:
+  name: Translation
+transpilation:
+  name: Transpilation
+truffleruby:
+  name: TruffleRuby
+turbo_native:
+  name: Turbo Native
+turbo:
+  name: Turbo
+type_checking:
+  name: Type Checking
+types:
+  name: Types
+typing:
+  name: Typing
+ui_design:
+  name: UI Design
+ui:
+  name: UI
+usability:
+  name: Usability
+version_control:
+  name: Version Control
+viewcomponent:
+  name: ViewComponent
+views:
+  name: Views
+virtual_machine:
+  name: Virtual Machine
+vue_js:
+  name: Vue.js
+web_server:
+  name: Web Server
+websockets:
+  name: Websockets
+why_the_lucky_stiff:
+  name: why the lucky stiff
+workshop:
+  name: Workshop
+writing:
+  name: Writing
+yarv:
+  name: YARV
+yjit:
+  name: YJIT
