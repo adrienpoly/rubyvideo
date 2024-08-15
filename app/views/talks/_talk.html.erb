@@ -22,7 +22,7 @@
     <h1><%= talk.title %></h1>
 
     <div class="flex gap-2">
-      <% @talk.topics.published.each do |topic| %>
+      <% talk.topics.published.each do |topic| %>
         <%= link_to topic do %>
           <div class="badge badge-secondary">#<%= topic.name.parameterize %></div>
         <% end %>

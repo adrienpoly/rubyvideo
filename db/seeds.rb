@@ -316,6 +316,7 @@ topics = [
   "Views",
   "Virtual Machine",
   "Vue.js",
+  "Web Components",
   "Web Server",
   "Websockets",
   "why the lucky stiff",

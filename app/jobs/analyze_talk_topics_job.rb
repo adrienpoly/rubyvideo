@@ -64,17 +64,19 @@ class AnalyzeTalkTopicsJob < ApplicationJob
         #{Topic.all.pluck(:name).join(", ")}
       </topics>
 
-      4. Pick 5 to 7 topics that would describe best the talk.
+      4. Pick 5 to 7 topics that would describe the talk best.
          You can pick any topic from the list of exisiting topics or create a new one.
-         if you create a new topic, please ensure that it is relevant to the content of the transcript and match the recommended topics kind.
-          - Ruby framework names (examples: Rails, Sinatra, Hanami, Ruby on Rails ...)
+         If you create a new topic, please ensure that it is relevant to the content of the transcript and match the recommended topics kind.
+          - Make sure it fits the overall theme of this website, it's a website for Ruby related videos, so it should have something to do with Ruby, Web, Programming, Teams, People or Tech.
+          - Ruby framework names (examples: Rails, Sinatra, Hanami, Ruby on Rails, ...)
           - Ruby gem names
-          - Design patterns names (examples: MVC, MVP, Singleton, Observer, Strategy, Command, Decorator, Composite, Facade, Proxy, Mediator, Memento, Observer, State, Template Method, Visitor)
-          - Database names (examples: PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Cassandra, CouchDB, Sqlite)
+          - Design patterns names (examples: MVC, MVP, Singleton, Observer, Strategy, Command, Decorator, Composite, Facade, Proxy, Mediator, Memento, Observer, State, Template Method, Visitor, ...)
+          - Database names (examples: PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Cassandra, CouchDB, SQLite, ...)
           - front end frameworks names (examples: React, Vue, Angular, Ember, Svelte, Stimulus, Preact, Hyperapp, Inferno, Solid, Mithril, Riot, Polymer, Web Components, Hotwire, Turbo, StimulusReflex, Strada ...)
-          - front end CSS libraries and framework names (examples: Tailwind, Bootstrap, Bulma, Material UI, Foundation)
-          - front end JavaScript libraries names (examples: jQuery, D3, Chart.js, Lodash, Moment.js)
-        topics are typically one or two words long, with some exceptions such as "Ruby on Rails"
+          - front end CSS libraries and framework names (examples: Tailwind, Bootstrap, Bulma, Material UI, Foundation, ...)
+          - front end JavaScript libraries names (examples: jQuery, D3, Chart.js, Lodash, Moment.js, ...)
+
+        Topics are typically one or two words long, with some exceptions such as "Ruby on Rails"
 
       5. Format your topics you picked as a JSON object with the following schema:
         {
