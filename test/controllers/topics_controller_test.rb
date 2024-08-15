@@ -2,37 +2,36 @@ require "test_helper"
 
 class TopicsControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @activesupport = topics(:activesupport)
+    @topic1 = Topic.create(name: "Topic 1", published: true)
+    @topic2 = Topic.create(name: "Topic 2", published: false)
 
-    @activerecord = topics(:activerecord)
-    @activerecord.update(published: true)
     @talk = talks(:one)
-    @activerecord.talks << @talk
+    @topic1.talks << @talk
   end
 
   test "should get index" do
     get topics_url
     assert_response :success
-
     assert_select "h1", "Topics"
+    assert_select "##{dom_id(@topic1)} > span", "1"
+    assert_select "##{dom_id(@topic2)}", 0
 
-    assert_select "##{dom_id(@activerecord)} > span", "1"
-    assert_select "##{dom_id(@activesupport)}", 0
-
-    @activesupport.update(published: true)
-    assert_select "##{dom_id(@activesupport)}", 0
+    @topic2.update(published: true)
+    get topics_url
+    assert_response :success
+    assert_select "##{dom_id(@topic2)}", 0
   end
 
   test "should get show" do
-    get topic_url(@activerecord)
+    get topic_url(@topic1)
     assert_response :success
-    assert_select "h1", @activerecord.name
+    assert_select "h1", @topic1.name
     assert_select "#topic-talks > div", 1
     assert_select "##{dom_id(@talk)} h2", @talk.title
 
-    get topic_url(@activesupport)
+    get topic_url(@topic2)
     assert_response :success
-    assert_select "h1", @activesupport.name
+    assert_select "h1", @topic2.name
     assert_select "#topic-talks > div", 0
   end
 end

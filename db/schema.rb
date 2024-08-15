@@ -177,6 +177,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_11_122145) do
     t.string "name"
     t.text "description"
     t.boolean "published", default: false
+    t.string "slug", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["name"], name: "index_topics_on_name", unique: true

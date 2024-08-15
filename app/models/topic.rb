@@ -1,4 +1,8 @@
 class Topic < ApplicationRecord
+  include Sluggable
+
+  slug_from :name
+
   has_many :talk_topics
   has_many :talks, through: :talk_topics
 
