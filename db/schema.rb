@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_08_11_122145) do
+ActiveRecord::Schema[7.2].define(version: 2024_08_15_155647) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -142,6 +142,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_11_122145) do
     t.integer "topic_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["talk_id", "topic_id"], name: "index_talk_topics_on_talk_id_and_topic_id", unique: true
     t.index ["talk_id"], name: "index_talk_topics_on_talk_id"
     t.index ["topic_id"], name: "index_talk_topics_on_topic_id"
   end
