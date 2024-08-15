@@ -10,4 +10,8 @@ class Avo::Resources::Topic < Avo::BaseResource
     field :name
     field :description
   end
+
+  def filters
+    filter Avo::Filters::Name
+  end
 end
