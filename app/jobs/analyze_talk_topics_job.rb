@@ -23,7 +23,7 @@ class AnalyzeTalkTopicsJob < ApplicationJob
       Topic.find_or_create_by(name: topic)
     end
 
-    talk.topics = topics
+    talk.topics = topics.uniq
     talk.save!
 
     talk
