@@ -49,7 +49,7 @@ class AnalyzeTalkTopicsJob < ApplicationJob
       1. First, review the metadata of the video:
       <metadata>
         - title: #{talk.title}
-        - desciption: #{talk.description}
+        - description: #{talk.description}
         - speaker name: #{talk.speakers.map(&:name).to_sentence}
         - event name: #{talk.event_name}
       </metadata>
