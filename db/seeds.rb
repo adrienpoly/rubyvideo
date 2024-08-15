@@ -14,7 +14,8 @@ end
 
 MeiliSearch::Rails.deactivate! do
   organisations.each do |organisation|
-    organisation = Organisation.find_or_create_by!(name: organisation["name"]) do |org|
+    organisation = Organisation.find_or_create_by!(slug: organisation["slug"]) do |org|
+      org.name = organisation["name"]
       org.website = organisation["website"]
       # org.twitter = organisation["twitter"]
       org.youtube_channel_name = organisation["youtube_channel_name"]
@@ -28,7 +29,7 @@ MeiliSearch::Rails.deactivate! do
     events = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/playlists.yml")
 
     events.each do |event_data|
-      event = Event.find_by(name: event_data["title"])
+      event = Event.find_by(slug: event_data["slug"])
       next if event
 
       event = Event.create!(name: event_data["title"], date: event_data["published_at"], organisation: organisation)
