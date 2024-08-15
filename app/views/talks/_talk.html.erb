@@ -24,7 +24,7 @@
     <div class="flex gap-2">
       <% @talk.topics.published.each do |topic| %>
         <%= link_to topic do %>
-          <div class="badge badge-outline">#<%= topic.name.parameterize %></div>
+          <div class="badge badge-secondary">#<%= topic.name.parameterize %></div>
         <% end %>
       <% end %>
     </div>
