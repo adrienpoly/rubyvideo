@@ -1,6 +1,6 @@
-name: linters
+name: CI
 
-on: [push]
+on: [push, pull_request]
 
 concurrency: ci-${{ github.ref }}
 
@@ -35,6 +35,7 @@ jobs:
 
       - name: erb-lint Check
         run: bundle exec erblint --lint-all
+
   test:
     runs-on: ubuntu-latest
     env:
