@@ -1,8 +1,9 @@
 class CreateTopics < ActiveRecord::Migration[7.2]
   def change
     create_table :topics do |t|
-      t.string :name
+      t.string :name, index: {unique: true}
       t.text :description
+      t.boolean :published, default: false
 
       t.timestamps
     end

@@ -7,4 +7,7 @@ class Topic < ApplicationRecord
 
   # normalize attributes
   normalizes :name, with: ->(name) { name.squish }
+
+  scope :published, -> { where(published: true) }
+  scope :with_talks, -> { joins(:talks).distinct }
 end

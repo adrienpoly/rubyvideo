@@ -53,6 +53,10 @@ class Talk < ApplicationRecord
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
+  def analyze_talk_topics!
+    AnalyzeTalkTopicsJob.perform_now(self)
+  end
+
   # search
   meilisearch do
     attribute :title

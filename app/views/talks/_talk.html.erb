@@ -18,10 +18,18 @@
                  youtube_id: talk.video_id} %>
   </div>
 
-  <div class="py-4 flex flex-col gap-4">
+  <div class="py-4 flex flex-col gap-4 mb-4">
     <h1><%= talk.title %></h1>
-    <div role="tablist" class="tabs tabs-lifted">
 
+    <div class="flex gap-2">
+      <% @talk.topics.published.each do |topic| %>
+        <%= link_to topic do %>
+          <div class="badge badge-outline">#<%= topic.name.parameterize %></div>
+        <% end %>
+      <% end %>
+    </div>
+
+    <div role="tablist" class="tabs tabs-lifted">
       <% if talk.summary.present? %>
         <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Summary" checked>
         <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">

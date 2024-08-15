@@ -310,5 +310,5 @@ topics = ["A/B Testing",
 
 # create topics
 topics.each do |topic|
-  Topic.find_or_create_by(name: topic)
+  Topic.find_or_create_by(name: topic).update(published: true)
 end

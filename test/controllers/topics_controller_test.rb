@@ -5,6 +5,7 @@ class TopicsControllerTest < ActionDispatch::IntegrationTest
     @activesupport = topics(:activesupport)
 
     @activerecord = topics(:activerecord)
+    @activerecord.update(published: true)
     @talk = talks(:one)
     @activerecord.talks << @talk
   end
@@ -16,7 +17,10 @@ class TopicsControllerTest < ActionDispatch::IntegrationTest
     assert_select "h1", "Topics"
 
     assert_select "##{dom_id(@activerecord)} > span", "1"
-    assert_select "##{dom_id(@activesupport)} > span", "0"
+    assert_select "##{dom_id(@activesupport)}", 0
+
+    @activesupport.update(published: true)
+    assert_select "##{dom_id(@activesupport)}", 0
   end
 
   test "should get show" do
