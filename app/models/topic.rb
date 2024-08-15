@@ -4,4 +4,7 @@ class Topic < ApplicationRecord
 
   # validations
   validates :name, presence: true, uniqueness: true
+
+  # normalize attributes
+  normalizes :name, with: ->(name) { name.squish }
 end
