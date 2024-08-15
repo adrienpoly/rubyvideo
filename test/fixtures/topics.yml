@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+activerecord:
+  name: ActiveRecord
+  slug: activerecord
+  published: true
+
+activesupport:
+  name: ActiveSupport
+  slug: activesupport
+  published: true

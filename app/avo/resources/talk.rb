@@ -14,6 +14,9 @@ class Avo::Resources::Talk < Avo::BaseResource
   def fields
     field :id, as: :id
     field :title, as: :text, link_to_record: true
+    field :topics, as: :tags, hide_on: [:index, :forms] do
+      record.topics.map(&:name)
+    end
     field :summary, as: :markdown, hide_on: :index
     field :has_raw_transcript, name: "Raw Transcript", as: :boolean do
       record.raw_transcript.present?
@@ -49,6 +52,7 @@ class Avo::Resources::Talk < Avo::BaseResource
     action Avo::Actions::Transcript
     action Avo::Actions::EnhanceTranscript
     action Avo::Actions::Summarize
+    action Avo::Actions::ExtractTopics
   end
 
   def filters

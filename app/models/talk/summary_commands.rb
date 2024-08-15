@@ -40,7 +40,7 @@ module Talk::SummaryCommands
       1. First, review the metadata of the video:
       <metadata>
         - title: #{title}
-        - desciption: #{description}
+        - description: #{description}
         - speaker name: #{speakers.map(&:name).to_sentence}
         - event name: #{event_name}
       </metadata>

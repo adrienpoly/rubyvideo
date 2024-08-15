@@ -81,4 +81,16 @@ class TalkTest < ActiveSupport::TestCase
       assert @talk.enhanced_transcript.cues.present?
     end
   end
+
+  test "extract topics" do
+    @talk = talks(:one)
+
+    VCR.use_cassette("talks/extract_topics") do
+      assert_changes "@talk.topics.count" do
+        perform_enqueued_jobs do
+          AnalyzeTalkTopicsJob.perform_later(@talk)
+        end
+      end
+    end
+  end
 end
