@@ -2,7 +2,6 @@
 #
 
 Rails.application.routes.draw do
-
   extend Authenticator
 
   # static pages

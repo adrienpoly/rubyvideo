@@ -1,10 +1,9 @@
 <div class="mx-auto max-w-7xl">
-  <h1 class="mt-10"><%= @topic.name %></h1><br/>
-
+  <h1 class="mt-10"><%= @topic.name %></h1><br>
 
   <div id="latest-keynotes" class="grid min-w-full grid-cols-3 gap-4">
     <% @topic.talks.order(date: :desc).each do |talk| %>
-      <%= render partial: "talks/card", locals: { talk: talk } %>
+      <%= render partial: "talks/card", locals: {talk: talk} %>
     <% end %>
   </div>
 </div>
