@@ -272,7 +272,7 @@ GEM
       actionpack (>= 6.0.0, < 8.1)
     method_source (1.1.0)
     mini_mime (1.1.5)
-    minitest (5.25.0)
+    minitest (5.24.1)
     mission_control-jobs (0.2.1)
       importmap-rails
       rails (~> 7.1)
@@ -534,6 +534,7 @@ DEPENDENCIES
   litestream (~> 0.10.1)
   meilisearch-rails
   meta-tags (~> 2.18)
+  minitest (= 5.24.1)
   mission_control-jobs
   net-http (~> 0.3.2)
   pagy
