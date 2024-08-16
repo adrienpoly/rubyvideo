@@ -3,7 +3,7 @@ class Avo::Actions::PublishTopic < Avo::BaseAction
 
   def handle(query:, fields:, current_user:, resource:, **args)
     query.each do |record|
-      record.update(published: true)
+      record.approved!
     end
   end
 end
