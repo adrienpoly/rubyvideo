@@ -9,3 +9,8 @@ activesupport:
   name: ActiveSupport
   slug: activesupport
   status: approved
+
+rejected:
+  name: Rejected
+  slug: rejected
+  status: rejected

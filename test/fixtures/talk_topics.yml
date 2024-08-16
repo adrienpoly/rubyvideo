@@ -4,6 +4,10 @@ one:
   talk: one
   topic: activerecord
 
+one_rejected:
+  talk: one
+  topic: rejected
+
 two:
   talk: two
   topic: activesupport
