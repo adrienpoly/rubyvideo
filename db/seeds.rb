@@ -323,7 +323,6 @@ topics = [
   "Test Framework",
   "Test-Driven Development",
   "Testing",
-  "Testing",
   "Threads",
   "Timezones",
   "Tips & Tricks",
