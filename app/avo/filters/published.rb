@@ -1,21 +1,21 @@
 class Avo::Filters::Published < Avo::Filters::BooleanFilter
-  self.name = "Published"
+  self.name = "Approved Status"
 
   def apply(request, query, values)
-    return query if values["published"] == values["unpublished"]
+    selected_statuses = values.select { |k, v| v }.keys
 
-    if values["published"]
-      query = query.where(published: true)
-    elsif values["unpublished"]
-      query = query.where(published: false)
+    if selected_statuses.any?
+      query = query.where(status: selected_statuses)
     end
+
     query
   end
 
   def options
     {
-      published: "Published",
-      unpublished: "Unpublished"
+      pending: "Pending",
+      approved: "Approved",
+      rejected: "Rejected"
     }
   end
 end

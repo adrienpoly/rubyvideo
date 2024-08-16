@@ -3,9 +3,9 @@
 activerecord:
   name: ActiveRecord
   slug: activerecord
-  published: true
+  status: approved
 
 activesupport:
   name: ActiveSupport
   slug: activesupport
-  published: true
+  status: approved

@@ -11,17 +11,20 @@ class Avo::Resources::Topic < Avo::BaseResource
       query.find_by(slug: id)
     end
   }
+  self.keep_filters_panel_open = true
 
   def fields
     field :id, as: :id
     field :name, as: :text
     field :description, as: :markdown, hide_on: :index
-    field :published, as: :boolean
+    field :status, as: :status, loading_when: "pending", success_when: "approved", failed_when: "rejected", hide_on: :forms
+    field :status, as: :select, enum: ::Topic.statuses, only_on: :forms
     field :talks, as: :has_many
   end
 
   def actions
-    action Avo::Actions::PublishTopic
+    action Avo::Actions::ApproveTopic
+    action Avo::Actions::RejectTopic
   end
 
   def filters

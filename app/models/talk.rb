@@ -46,6 +46,7 @@ class Talk < ApplicationRecord
 
   has_many :talk_topics
   has_many :topics, through: :talk_topics
+  has_many :approved_topics, through: :talk_topics, source: :topic, inverse_of: :talks
 
   # validations
   validates :title, presence: true

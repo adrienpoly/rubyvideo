@@ -355,6 +355,4 @@ topics = [
 ]
 
 # create topics
-topics.each do |topic|
-  Topic.find_or_create_by(name: topic).update(published: true)
-end
+Topic.create_from_list(topics, status: :approved)

@@ -19,11 +19,7 @@ class AnalyzeTalkTopicsJob < ApplicationJob
       []
     end
 
-    topics.map! do |topic|
-      Topic.find_or_create_by(name: topic)
-    end
-
-    talk.topics = topics.uniq
+    talk.topics = Topic.create_from_list(topics)
     talk.save!
 
     talk

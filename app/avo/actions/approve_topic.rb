@@ -1,9 +1,9 @@
-class Avo::Actions::PublishTopic < Avo::BaseAction
+class Avo::Actions::ApproveTopic < Avo::BaseAction
   self.name = "Publish Topic"
 
   def handle(query:, fields:, current_user:, resource:, **args)
     query.each do |record|
-      record.update(published: true)
+      record.approved!
     end
   end
 end

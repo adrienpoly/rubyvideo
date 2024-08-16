@@ -2,8 +2,8 @@ require "test_helper"
 
 class TopicsControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @topic1 = Topic.create(name: "Topic 1", published: true)
-    @topic2 = Topic.create(name: "Topic 2", published: false)
+    @topic1 = Topic.create(name: "Topic 1", status: :approved)
+    @topic2 = Topic.create(name: "Topic 2", status: :pending)
 
     @talk = talks(:one)
     @topic1.talks << @talk
@@ -16,7 +16,7 @@ class TopicsControllerTest < ActionDispatch::IntegrationTest
     assert_select "##{dom_id(@topic1)} > span", "1"
     assert_select "##{dom_id(@topic2)}", 0
 
-    @topic2.update(published: true)
+    @topic2.approved!
     get topics_url
     assert_response :success
     assert_select "##{dom_id(@topic2)}", 0
