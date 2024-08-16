@@ -7,6 +7,7 @@ class Avo::Resources::Talk < Avo::BaseResource
       query.find_by(slug: id)
     end
   }
+  self.keep_filters_panel_open = true
   # self.search = {
   #   query: -> { query.ransack(id_eq: params[:q], m: "or").result(distinct: false) }
   # }
@@ -59,6 +60,7 @@ class Avo::Resources::Talk < Avo::BaseResource
     filter Avo::Filters::RawTranscript
     filter Avo::Filters::EnhancedTranscript
     filter Avo::Filters::Summary
+    filter Avo::Filters::Topics
     filter Avo::Filters::Title
     filter Avo::Filters::Slug
   end
