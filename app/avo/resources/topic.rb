@@ -23,7 +23,8 @@ class Avo::Resources::Topic < Avo::BaseResource
   end
 
   def actions
-    action Avo::Actions::PublishTopic
+    action Avo::Actions::ApproveTopic
+    action Avo::Actions::RejectTopic
   end
 
   def filters

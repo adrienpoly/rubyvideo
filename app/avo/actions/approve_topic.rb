@@ -1,4 +1,4 @@
-class Avo::Actions::PublishTopic < Avo::BaseAction
+class Avo::Actions::ApproveTopic < Avo::BaseAction
   self.name = "Publish Topic"
 
   def handle(query:, fields:, current_user:, resource:, **args)
