@@ -19,10 +19,8 @@ class Topic < ApplicationRecord
   enum :status, %w[pending approved rejected].index_by(&:itself)
 
   def self.create_from_list(topics, status: :pending)
-    topics.map do |topic|
-      Topic.find_or_create_by(name: topic).tap do |topic|
-        topic.update(status: status)
-      end
-    end.uniq
+    topics.map { |topic|
+      Topic.find_by(name: topic) || Topic.find_or_create_by(name: topic, status: status)
+    }.uniq
   end
 end
