@@ -278,6 +278,7 @@ topics = [
   "Reporting",
   "REST API",
   "REST",
+  "Rich Text Editor",
   "RJIT",
   "Robot",
   "RPC",
