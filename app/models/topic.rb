@@ -14,6 +14,7 @@ class Topic < ApplicationRecord
 
   # scopes
   scope :with_talks, -> { joins(:talks).distinct }
+  scope :without_talks, -> { where.missing(:talk_topics) }
 
   # enums
   enum :status, %w[pending approved rejected].index_by(&:itself)

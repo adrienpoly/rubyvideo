@@ -30,5 +30,6 @@ class Avo::Resources::Topic < Avo::BaseResource
   def filters
     filter Avo::Filters::Name
     filter Avo::Filters::Published
+    filter Avo::Filters::TopicTalks
   end
 end
