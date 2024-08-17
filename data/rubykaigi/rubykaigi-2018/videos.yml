@@ -4,7 +4,7 @@
   speakers:
     - Kouhei Sutou
   event_name: RubyKaigi 2018
-  published_at: '2018-06-15'
+  published_at: "2018-05-31"
   video_id: d7lDhsE1jXg
   language: Japanese
   description: |-
@@ -22,7 +22,7 @@
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: RubyKaigi 2018
-  published_at: '2018-06-15'
+  published_at: "2018-05-31"
   video_id: zb8dXWYUX10
   language: Japanese
   description: RubyKaigi 2018 https://rubykaigi.org/2018/presentations/yukihiro_matz
@@ -32,7 +32,7 @@
   speakers:
     - Benoit Daloze
   event_name: RubyKaigi 2018
-  published_at: '2018-06-15'
+  published_at: "2018-05-31"
   video_id: mRKjWrNJ8DI
   language: English
   description: |-
@@ -47,7 +47,7 @@
   speakers:
     - Marc-André Lafortune
   event_name: RubyKaigi 2018
-  published_at: '2018-06-17'
+  published_at: "2018-05-31"
   video_id: HWj3nrvAmRM
   language: English
   description: |-
@@ -62,7 +62,7 @@
     - Eric Hodel
     - Ezekiel Templin
   event_name: RubyKaigi 2018
-  published_at: '2018-06-17'
+  published_at: "2018-05-31"
   video_id: rlZR9jXmvL4
   language: English
   description: |-
@@ -74,12 +74,12 @@
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/drbrain
 
-- title: 'IRB Reboot: Modernize Implementation and Features'
+- title: "IRB Reboot: Modernize Implementation and Features"
   raw_title: "[EN] IRB Reboot: Modernize Implementation and Features / ITOYANAGI Sakura @aycabta"
   speakers:
     - ITOYANAGI Sakura
   event_name: RubyKaigi 2018
-  published_at: '2018-06-17'
+  published_at: "2018-05-31"
   video_id: zUBxip-bhJA
   language: English
   description: |-
@@ -95,7 +95,7 @@
   speakers:
     - Takeshi Watanabe
   event_name: RubyKaigi 2018
-  published_at: '2018-06-17'
+  published_at: "2018-05-31"
   video_id: F-lZtxewCcs
   language: Japanese
   description: |-
@@ -111,7 +111,7 @@
     - "i110"
     - Kazuho Oku
   event_name: RubyKaigi 2018
-  published_at: '2018-06-17'
+  published_at: "2018-05-31"
   video_id: r9zNEY6KtkI
   language: Japanese
   description: |-
@@ -123,9 +123,9 @@
 - title: Design pattern for embedding mruby into middleware
   raw_title: "[JA] Design pattern for embedding mruby into middleware / MATSUMOTO, Ryosuke @matsumotory"
   speakers:
-  - MATSUMOTO Ryosuke
+    - MATSUMOTO Ryosuke
   event_name: RubyKaigi 2018
-  published_at: '2018-06-17'
+  published_at: "2018-05-31"
   video_id: xXvaY-xpfpc
   language: Japanese
   description: |-
@@ -136,12 +136,12 @@
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/matsumotory
 
-- title: 'Reirb: Reborn Irb'
+- title: "Reirb: Reborn Irb"
   raw_title: "[JA] Reirb: Reborn Irb / Keiju Ishitsuka @keiju"
   speakers:
     - Keiju Ishitsuka
   event_name: RubyKaigi 2018
-  published_at: '2018-06-17'
+  published_at: "2018-05-31"
   video_id: zGbmD7LQP2s
   language: Japanese
   description: |-
@@ -157,10 +157,11 @@
   speakers:
     - Thomas E Enebo
   event_name: RubyKaigi 2018
-  published_at: '2018-06-17'
+  published_at: "2018-05-31"
   video_id: ue5XVN0SJEw
   language: English
-  description: "JRuby 9.2 has been released. 9.2 supports Ruby 2.5 compatibility and
+  description:
+    "JRuby 9.2 has been released. 9.2 supports Ruby 2.5 compatibility and
     it also runs Rails 5.x well. This talk will discuss some of the more interesting
     apects of JRuby 9.2:\n\n  - Performance updates\n    - Graal integration\n    -
     IR instr refactoring\n    - Object shaping\n  - Full encoding support ( @@かいぎ
@@ -175,7 +176,7 @@
   speakers:
     - Prasun Anand
   event_name: RubyKaigi 2018
-  published_at: '2018-06-17'
+  published_at: "2018-05-31"
   video_id: LP9lIqCAbFE
   language: English
   description: |-
@@ -190,7 +191,7 @@
   speakers:
     - Yoh Osaki
   event_name: RubyKaigi 2018
-  published_at: '2018-06-19'
+  published_at: "2018-05-31"
   video_id: zTO2t24IhgI
   language: Japanese
   description: |-
@@ -209,7 +210,7 @@
   speakers:
     - Vladimir Makarov
   event_name: RubyKaigi 2018
-  published_at: '2018-06-19'
+  published_at: "2018-05-31"
   video_id: emhYoI_RiOA
   language: English
   description: |-
@@ -224,7 +225,7 @@
   speakers:
     - Takashi Kokubun
   event_name: RubyKaigi 2018
-  published_at: '2018-06-20'
+  published_at: "2018-05-31"
   video_id: svtRUkD0ACg
   language: Japanese
   description: |-
@@ -241,7 +242,7 @@
     - Keita Sugiyama
     - Martin J. Dürst
   event_name: RubyKaigi 2018
-  published_at: '2018-06-20'
+  published_at: "2018-05-31"
   video_id: hjTw0T220zs
   language: Japanese
   description: |-
@@ -257,7 +258,7 @@
   speakers:
     - Shugo Maeda
   event_name: RubyKaigi 2018
-  published_at: '2018-06-20'
+  published_at: "2018-05-31"
   video_id: H0mn5u28tPo
   language: Japanese
   description: |-
@@ -272,7 +273,7 @@
   speakers:
     - Aaron Patterson
   event_name: RubyKaigi 2018
-  published_at: '2018-06-22'
+  published_at: "2018-05-31"
   video_id: ILzQYMDp18o
   language: Japanese
   description: |-
@@ -290,7 +291,7 @@
   speakers:
     - Kenichi Kanai
   event_name: RubyKaigi 2018
-  published_at: '2018-06-22'
+  published_at: "2018-05-31"
   video_id: amn6gHJOjIQ
   language: Japanese
   description: |-
@@ -314,7 +315,7 @@
     - Kenta Murata
     - Yusaku Hatanaka
   event_name: RubyKaigi 2018
-  published_at: '2018-06-22'
+  published_at: "2018-05-31"
   video_id: J-d_Lk4SFtQ
   language: Japanese
   description: |-
@@ -331,7 +332,7 @@
   speakers:
     - Bozhidar Batsov
   event_name: RubyKaigi 2018
-  published_at: '2018-06-23'
+  published_at: "2018-05-31"
   video_id: nrHjVCuVsGA
   language: English
   description: |-
@@ -347,13 +348,14 @@
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/bbatsov
 
 - title: Hijacking Ruby Syntax in Ruby
-  raw_title: '[JA] Hijacking Ruby Syntax in Ruby / @joker1007, Satoshi "moris" Tagomori
+  raw_title:
+    '[JA] Hijacking Ruby Syntax in Ruby / @joker1007, Satoshi "moris" Tagomori
     @tagomoris'
   speakers:
     - Tomohiro Hashidate
     - Satoshi "moris" Tagomori
   event_name: RubyKaigi 2018
-  published_at: '2018-06-23'
+  published_at: "2018-05-31"
   video_id: 04HGQEw3A6Y
   language: Japanese
   description: |-
@@ -373,7 +375,7 @@
   speakers:
     - Piotr Murach
   event_name: RubyKaigi 2018
-  published_at: '2018-06-23'
+  published_at: "2018-05-31"
   video_id: AeUls-THfpQ
   language: English
   description: |-
@@ -398,17 +400,17 @@
     - Lin Yu Hsiang
     - unak
   event_name: RubyKaigi 2018
-  published_at: '2018-06-25'
+  published_at: "2018-05-31"
   video_id: hCZWrvO_27k
   language: Japanese
   description: RubyKaigi 2018 https://rubykaigi.org/2018/presentations/lt/
 
-- title: 'bancor: Token economy made with Ruby'
+- title: "bancor: Token economy made with Ruby"
   raw_title: "[JA] bancor: Token economy made with Ruby / Yuta Kurotaki @kurotaky"
   speakers:
     - Yuta Kurotaki
   event_name: RubyKaigi 2018
-  published_at: '2018-06-26'
+  published_at: "2018-05-31"
   video_id: gqBWoyMdn4c
   language: Japanese
   description: |-
@@ -425,7 +427,7 @@
   speakers:
     - Emma Haruka Iwao
   event_name: RubyKaigi 2018
-  published_at: '2018-06-26'
+  published_at: "2018-05-31"
   video_id: Om_cm120t1E
   language: Japanese
   description: |-
@@ -438,7 +440,7 @@
   speakers:
     - Naotoshi Seo
   event_name: RubyKaigi 2018
-  published_at: '2018-06-26'
+  published_at: "2018-05-31"
   video_id: osUvCcwMFnc
   language: Japanese
   description: |-
@@ -461,7 +463,7 @@
   speakers:
     - Maciej Mensfeld
   event_name: RubyKaigi 2018
-  published_at: '2018-06-28'
+  published_at: "2018-05-31"
   video_id: bzvb1u_kSro
   language: English
   description: |-
@@ -474,7 +476,7 @@
   speakers:
     - Hiroshi SHIBATA
   event_name: RubyKaigi 2018
-  published_at: '2018-06-28'
+  published_at: "2018-05-31"
   video_id: wuyhit3-_xA
   language: Japanese
   description: |-
@@ -491,7 +493,7 @@
   speakers:
     - Masataka Kuwabara
   event_name: RubyKaigi 2018
-  published_at: '2018-06-28'
+  published_at: "2018-05-31"
   video_id: 8tarr2k0kMI
   language: Japanese
   description: |-
@@ -511,7 +513,7 @@
   speakers:
     - Stan Lo
   event_name: RubyKaigi 2018
-  published_at: '2018-06-28'
+  published_at: "2018-05-31"
   video_id: ldqb5u4pQb0
   language: English
   description: |-
@@ -524,12 +526,12 @@
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/_st0012
 
-- title: 'Faster Apps, No Memory Thrash: Get Your Memory Config Right'
+- title: "Faster Apps, No Memory Thrash: Get Your Memory Config Right"
   raw_title: "[EN] Faster Apps, No Memory Thrash: Get Your Memory Config Right / Noah Gibbs @codefolio"
   speakers:
     - Noah Gibbs
   event_name: RubyKaigi 2018
-  published_at: '2018-07-03'
+  published_at: "2018-05-31"
   video_id: Z4nBjXL-ymI
   language: English
   description: |-
@@ -543,7 +545,7 @@
   speakers:
     - Koichi Sasada
   event_name: RubyKaigi 2018
-  published_at: '2018-07-03'
+  published_at: "2018-05-31"
   video_id: BO8ThL2H3tc
   language: English
   description: |-
@@ -559,7 +561,7 @@
   speakers:
     - Anton Davydov
   event_name: RubyKaigi 2018
-  published_at: '2018-07-03'
+  published_at: "2018-05-31"
   video_id: Rcbqa0QFXJQ
   language: English
   description: |-
@@ -575,7 +577,7 @@
     - Terence Lee
     - Chase McCarthy
   event_name: RubyKaigi 2018
-  published_at: '2018-07-03'
+  published_at: "2018-05-31"
   video_id: NhQovmLaHfY
   language: English
   description: |-
@@ -590,7 +592,7 @@
   speakers:
     - Koichi ITO
   event_name: RubyKaigi 2018
-  published_at: '2018-07-03'
+  published_at: "2018-05-31"
   video_id: W4ZvpNpKWXo
   language: Japanese
   description: |-
@@ -606,7 +608,7 @@
   speakers:
     - Kirk Haines
   event_name: RubyKaigi 2018
-  published_at: '2018-07-03'
+  published_at: "2018-05-31"
   video_id: _rwfsse7OYk
   language: English
   description: |-
@@ -619,7 +621,7 @@
   speakers:
     - Edouard Chin
   event_name: RubyKaigi 2018
-  published_at: '2018-07-03'
+  published_at: "2018-05-31"
   video_id: Lu5aHMxldmg
   language: English
   description: |-
@@ -635,7 +637,7 @@
   speakers:
     - Julian Nadeau
   event_name: RubyKaigi 2018
-  published_at: '2018-07-04'
+  published_at: "2018-05-31"
   video_id: InFnu8bYi6s
   language: English
   description: |-
@@ -649,7 +651,7 @@
   speakers:
     - Yurie Yamane
   event_name: RubyKaigi 2018
-  published_at: '2018-07-04'
+  published_at: "2018-05-31"
   video_id: sFz5-xGTEbI
   language: Japanese
   description: |-
@@ -664,7 +666,7 @@
   speakers:
     - Hitoshi HASUMI
   event_name: RubyKaigi 2018
-  published_at: '2018-07-04'
+  published_at: "2018-05-31"
   video_id: ng0N0761N3c
   language: Japanese
   description: |-
@@ -679,7 +681,7 @@
   speakers:
     - Masatoshi SEKI
   event_name: RubyKaigi 2018
-  published_at: '2018-07-04'
+  published_at: "2018-05-31"
   video_id: FXELyEXajD4
   language: Japanese
   description: |-
@@ -695,7 +697,7 @@
   speakers:
     - Soutaro Matsumoto
   event_name: RubyKaigi 2018
-  published_at: '2018-07-04'
+  published_at: "2018-05-31"
   video_id: QK_v0XN8kXc
   language: English
   description: |-
@@ -704,12 +706,12 @@
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/soutaro
 
-- title: 'Ferrari Driven Development: superfast Ruby with Rubex'
+- title: "Ferrari Driven Development: superfast Ruby with Rubex"
   raw_title: "[EN] Ferrari Driven Development: superfast Ruby with Rubex / Sameer Deshmukh @v0dro"
   speakers:
     - Sameer Deshmukh
   event_name: RubyKaigi 2018
-  published_at: '2018-07-04'
+  published_at: "2018-05-31"
   video_id: 7edbdHZvr8k
   language: English
   description: |-
@@ -724,7 +726,7 @@
   speakers:
     - Vladimir Dementyev
   event_name: RubyKaigi 2018
-  published_at: '2018-07-06'
+  published_at: "2018-05-31"
   video_id: jXCPuNICT8s
   language: English
   description: |-
@@ -741,7 +743,7 @@
   speakers:
     - Yuichiro Kaneko
   event_name: RubyKaigi 2018
-  published_at: '2018-07-06'
+  published_at: "2018-05-31"
   video_id: YjmBJg52aws
   language: Japanese
   description: |-
@@ -763,7 +765,7 @@
   speakers:
     - Yusuke Endoh
   event_name: RubyKaigi 2018
-  published_at: '2018-07-06'
+  published_at: "2018-05-31"
   video_id: TB-nmGG6uu0
   language: Japanese
   description: |-
@@ -776,7 +778,7 @@
   speakers:
     - Thiago Scalone
   event_name: RubyKaigi 2018
-  published_at: '2018-07-06'
+  published_at: "2018-05-31"
   video_id: vMjT2DqV_vw
   language: English
   description: |-
@@ -799,7 +801,7 @@
   speakers:
     - Uchio KONDO
   event_name: RubyKaigi 2018
-  published_at: '2018-07-06'
+  published_at: "2018-05-31"
   video_id: 7Anlio4nnng
   language: English
   description: |-
@@ -816,7 +818,7 @@
   speakers:
     - Genadi Samokovarov
   event_name: RubyKaigi 2018
-  published_at: '2018-07-06'
+  published_at: "2018-05-31"
   video_id: OCjc0RH5epY
   language: English
   description: |-
@@ -826,12 +828,12 @@
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/gsamokovarov
 
-- title: 'Type Profiler: An analysis to guess type signatures'
+- title: "Type Profiler: An analysis to guess type signatures"
   raw_title: "[JA] Type Profiler: An analysis to guess type signatures / Yusuke Endoh @mametter"
   speakers:
     - Yusuke Endoh
   event_name: RubyKaigi 2018
-  published_at: '2018-07-06'
+  published_at: "2018-05-31"
   video_id: U6mKwwO7QCg
   language: Japanese
   description: |-
@@ -849,7 +851,7 @@
     - Paul Tarjan
     - Nelson Elhage
   event_name: RubyKaigi 2018
-  published_at: '2018-07-11'
+  published_at: "2018-05-31"
   video_id: eCnnBS2LXcI
   language: English
   description: |-
@@ -873,7 +875,7 @@
   speakers:
     - Thibaut Barrère
   event_name: RubyKaigi 2018
-  published_at: '2018-07-11'
+  published_at: "2018-05-31"
   video_id: fxVtbog7pIQ
   language: English
   description: |-
@@ -887,7 +889,7 @@
   raw_title: "[JA] Ruby Committers vs the World / CRuby Committers"
   speakers: []
   event_name: RubyKaigi 2018
-  published_at: '2019-02-11'
+  published_at: "2018-05-31"
   video_id: dhHAaybjCfE
   language: Japanese
   description: |-

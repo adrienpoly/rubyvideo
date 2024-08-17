@@ -1,10 +1,10 @@
 ---
-- title: 'Keynote: Ruby 2020'
-  raw_title: 'Ruby: 2020 - RubyKaigi 2015 Keynote'
+- title: "Keynote: Ruby 2020"
+  raw_title: "Ruby: 2020 - RubyKaigi 2015 Keynote"
   speakers:
     - Evan Phoenix
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: QaLvtNpoc5o
   language:
   description: http://rubykaigi.org/2015/presentations/evanphx
@@ -14,7 +14,7 @@
   speakers:
     - Lein Weber
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: 7dwDzlVI7OU
   language:
   description: |-
@@ -26,16 +26,17 @@
 
     In this session, we’ll take a close look at these differences as well as the similarities, and what Ruby developers can learn from this exciting language.
 
-- title: 'High Performance Template Engine: Guide to optimize your Ruby code'
-  raw_title: 'High Performance Template Engine: Guide to optimize your Ruby code - RubyKaigi 2015'
+- title: "High Performance Template Engine: Guide to optimize your Ruby code"
+  raw_title: "High Performance Template Engine: Guide to optimize your Ruby code - RubyKaigi 2015"
   speakers:
     - Takashi Kokubun
     - Kohei Suzuki
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: vM9XfqlqyNw
   language:
-  description: "http://rubykaigi.org/2015/presentations/eagletmt_k0kubun\n\nHave you
+  description:
+    "http://rubykaigi.org/2015/presentations/eagletmt_k0kubun\n\nHave you
     ever thought about performance of your Ruby code? If not, you might write ineffective
     code and slow down your application. Poor performance disappoints the users of
     your app causing you to lose their confidence.\n\nIn this talk, we show the process
@@ -50,7 +51,7 @@
   speakers:
     - KOSAKI Motohiro
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: idmfWkP5lOw
   language:
   description: http://rubykaigi.org/2015/presentations/kosaki
@@ -60,7 +61,7 @@
   speakers:
     - Kevin Menard
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: lRMWwjqbXUo
   language:
   description: |-
@@ -75,7 +76,7 @@
   speakers:
     - Koichi Sasada
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: sFfwQ1-PFt0
   language:
   description: |-
@@ -89,7 +90,7 @@
     - Yehuda Katz
     - Godfrey Chan
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: uiNpoDB4dA0
   language:
   description: |-
@@ -99,15 +100,16 @@
 
     However, you might occasionally encounter workloads that are simply not suitable for Ruby. In this talk, we will explore building a native extension with Rust to speed up parts of Rails. (No prior experience with Rust required!) What does Rust has to offer in this scenario over plain-old C? Let's find out!
 
-- title: 'Time flies like an arrow; Fruit flies like a banana: Parsers for Great Good'
-  raw_title: 'Time flies like an arrow; Fruit flies like a banana: Parsers for Great Good - RubyKaigi 2015'
+- title: "Time flies like an arrow; Fruit flies like a banana: Parsers for Great Good"
+  raw_title: "Time flies like an arrow; Fruit flies like a banana: Parsers for Great Good - RubyKaigi 2015"
   speakers:
     - Hsing-Hui Hsu
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: a_mJIR0Rk9U
   language:
-  description: "http://rubykaigi.org/2015/presentations/SoManyHs\n\nWhen you type
+  description:
+    "http://rubykaigi.org/2015/presentations/SoManyHs\n\nWhen you type
     print \"Hello, world!\", how does your computer \nknow what to do? Humans are
     able to naturally parse spoken language by \nanalyzing the role and meaning of
     each word in context of its \nsentence, but we usually take for granted the way
@@ -122,7 +124,7 @@
   speakers:
     - Kouhei Sutou
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: g33d9SSbvd8
   language:
   description: |-
@@ -139,7 +141,7 @@
   speakers:
     - Fernando Hamasaki de Amorim
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: jLAFXQ1Av50
   language:
   description: |-
@@ -154,7 +156,7 @@
   speakers:
     - Laurent Sansonetti
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: uzUmUmEX-Ls
   language:
   description: |-
@@ -167,10 +169,11 @@
   speakers:
     - youchan
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: xEK1hg8noSc
   language:
-  description: "http://rubykaigi.org/2015/presentations/youchan\n\nDoes this happen
+  description:
+    "http://rubykaigi.org/2015/presentations/youchan\n\nDoes this happen
     to you? \nYou were developing web application with Ruby on Rails, but somehow
     you ended up writing front-end in JavaScript. \nRuby on Rails seemed very cool
     to me! And Rubyists are always happy to build applications with it! \nHowever,
@@ -187,10 +190,11 @@
   speakers:
     - Sadayuki Furuhashi
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: C6SP3CzCb5k
   language:
-  description: "http://rubykaigi.org/2015/presentations/frsyuki\n\nPlugin architecture
+  description:
+    "http://rubykaigi.org/2015/presentations/frsyuki\n\nPlugin architecture
     is known as a technique that brings extensibility to a program. Ruby has good
     language features for plugins. RubyGems.org is an excellent platform for plugin
     distribution. However, creating plugin architecture is not as easy as writing
@@ -205,7 +209,7 @@
   speakers:
     - Matthew Gaudet
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: EDxoaEdR-_M
   language:
   description: |-
@@ -232,17 +236,17 @@
     - Tadashi Saito
     - Pilar Huidobro
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: Yf7l4Yp461I
   language:
   description: http://rubykaigi.org/2015/presentations/lt
 
-- title: 'TRICK 2015: The second Transcendental Ruby Imbroglio Contest for RubyKaigi'
-  raw_title: 'TRICK 2015: The second Transcendental Ruby Imbroglio Contest for RubyKaigi - RubyKaigi 2015'
+- title: "TRICK 2015: The second Transcendental Ruby Imbroglio Contest for RubyKaigi"
+  raw_title: "TRICK 2015: The second Transcendental Ruby Imbroglio Contest for RubyKaigi - RubyKaigi 2015"
   speakers:
     - Yusuke Endoh
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: dmHqtr_GNtg
   language:
   description: |-
@@ -255,10 +259,11 @@
   speakers:
     - Masaki Matsushita
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: xIVrUWmmass
   language:
-  description: "http://rubykaigi.org/2015/presentations/mmasaki\n\nIn this talk, I
+  description:
+    "http://rubykaigi.org/2015/presentations/mmasaki\n\nIn this talk, I
     will present how to extend your Ruby code with Golang. \nSince Go 1.5, you can
     build C compatible binaries by using buildmode c-shared/c-archive. This is a very
     exciting feature for rubyists. \nFirst, I'd like to show you how to use Go code
@@ -270,7 +275,7 @@
   speakers:
     - Franck Verrot
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: bchlcxAZ9tU
   language:
   description: |-
@@ -283,7 +288,7 @@
   speakers:
     - Yuki Nishijima
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: b9621w7_vxc
   language:
   description: |-
@@ -300,10 +305,11 @@
   speakers:
     - Aaron Patterson
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: 0cmXVXMdbs8
   language:
-  description: "http://rubykaigi.org/2015/presentations/tenderlove\n\nWhat goes in
+  description:
+    "http://rubykaigi.org/2015/presentations/tenderlove\n\nWhat goes in
     to a request and response in a Rails application? Where does the \napplication
     get its data, and how does that data get to the client when you are \ndone? In
     this talk we'll look at the request and response lifecycle in Rails. \nWe'll start
@@ -315,7 +321,7 @@
   speakers:
     - Yutaka HARA
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: NNsX92hKirM
   language:
   description: |-
@@ -328,10 +334,11 @@
   speakers:
     - Shota Nakano
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: EXvDKb2LTYM
   language:
-  description: "http://rubykaigi.org/2015/presentations/shotantan\n\nIntroducing how
+  description:
+    "http://rubykaigi.org/2015/presentations/shotantan\n\nIntroducing how
     mruby comes to term with the embedded board's poor resource. \nI suggest a solution
     that they can mount an external NOR Flash chip as RAM cache. \nAlthough mruby
     is a minimal implementation of Ruby, it requires huge RAM as is Embed field. A
@@ -346,7 +353,7 @@
     - Terence Lee
     - Zachary Scott
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: EhEWn5Uudow
   language:
   description: |-
@@ -368,7 +375,7 @@
   raw_title: Ruby Committers vs the World - RubyKaigi 2015
   speakers: []
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: LcXKSHsniTY
   language:
   description: http://rubykaigi.org/2015/presentations/committers
@@ -378,7 +385,7 @@
   speakers:
     - Paolo Perrotta
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: _gLgE3c5jTU
   language:
   description: |-
@@ -396,7 +403,7 @@
     - Robert Young
     - Craig Lehmann
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: nhqNaZxHbHY
   language:
   description: |-
@@ -406,15 +413,16 @@
 
     We’re actually doing it: open sourcing the core components of IBM’s Java Virtual Machine into an open language toolkit. Our first proof of concept language is Ruby. This talk will discuss the process and results of integrating a new garbage collector into Ruby.
 
-- title: 'Beyond Saas: Building for Enterprise'
-  raw_title: 'Beyond Saas: Building for Enterprise - RubyKaigi 2015'
+- title: "Beyond Saas: Building for Enterprise"
+  raw_title: "Beyond Saas: Building for Enterprise - RubyKaigi 2015"
   speakers:
     - Josh Kalderimis
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: gVm7dd2G7CQ
   language:
-  description: "http://rubykaigi.org/2015/presentations/joshk\n\nTravis CI found itself
+  description:
+    "http://rubykaigi.org/2015/presentations/joshk\n\nTravis CI found itself
     growing a great SaaS product, when Enterprise users began unexpectedly asking
     to use our product on-premise. Our small team had to quickly understand:\n\nThe
     maintenance implications for different ways to package our app. \nHow to provide
@@ -428,10 +436,11 @@
   speakers:
     - Yurie Yamane
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: u7WCIN5HMDI
   language: Japanese
-  description: "http://rubykaigi.org/2015/presentations/yurie\n\nLinuxの入っているハードウェアをあえてLinuxを使わないでTOPPERS
+  description:
+    "http://rubykaigi.org/2015/presentations/yurie\n\nLinuxの入っているハードウェアをあえてLinuxを使わないでTOPPERS
     EV3RT というRTOS を入れたり、bare metal の状態にしてmrubyを動かします。 \n今回の対象はLEGO Mindstorms EV3とraspberry
     pi。 \nCに比べて遅いのでハードウェア制御には向かないのでは？と言われがちなmrubyを使って倒立振子の制御をします。"
 
@@ -440,7 +449,7 @@
   speakers:
     - Masahiro Nagano
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: EPxWD_2Yekg
   language:
   description: |-
@@ -455,7 +464,7 @@
   speakers:
     - Ippei Obayashi
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: bvXYCpcOQ3E
   language:
   description: |-
@@ -470,7 +479,7 @@
   speakers:
     - Emily Stolfo
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: MrfdHpz0-AQ
   language:
   description: |-
@@ -487,10 +496,11 @@
   speakers:
     - Naohisa Goto
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: LlcEduexIcU
   language:
-  description: "http://rubykaigi.org/2015/presentations/ngoto\n\nI'm using Fujitsu
+  description:
+    "http://rubykaigi.org/2015/presentations/ngoto\n\nI'm using Fujitsu
     SPARC Enterprise server whose OS is Oracle (former Sun) Solaris 10. In Solaris,
     there is a number of minor differences from other major OS like Linux and Mac
     OS X, and a number of changes have been made to run Ruby (CRuby) without failure.
@@ -504,10 +514,11 @@
   speakers:
     - Shibata Hiroshi
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: Tgtprqw8_IQ
   language:
-  description: "When you need to understand a new library or framework, you might
+  description:
+    "When you need to understand a new library or framework, you might
     try to invoke the test suite with \"rake test\" or \"rake spec\". CRuby also has
     a test suite like many libraries and frameworks, written in Ruby. But, It's different
     from typical ruby libraries. Therefore many Rubyists don't know how to run the
@@ -520,7 +531,7 @@
   speakers:
     - Julian Cheal
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: t2NoXELaF0E
   language:
   description: |-
@@ -536,7 +547,7 @@
   speakers:
     - Christophe Philemotte
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: erx00WTzvcY
   language:
   description: |-
@@ -553,10 +564,11 @@
   speakers:
     - Mayumi EMORI
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: 9C98Eyr9jOY
   language:
-  description: "http://rubykaigi.org/2015/presentations/emorima\n\nThread in Ruby
+  description:
+    "http://rubykaigi.org/2015/presentations/emorima\n\nThread in Ruby
     1.8.6 often got stuck and I had to implement my own Thread monitoring framework.
     How is it improved in the latest release, Ruby 2.2.3? Now can we use an implementation
     that I couldn't use with 1.8.6 because of the broken Thread?\n\nRuby1.8.6 のThreadはよく刺さり、自前でのThread監視機能を作成を余儀なくされた。では、最新のRuby2.2.3ではどうだろうか？
@@ -567,7 +579,7 @@
   speakers:
     - TAGOMORI "moris" Satoshi
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: 6qrdqLlgTo8
   language:
   description: |-
@@ -582,10 +594,11 @@
   speakers:
     - Masatoshi SEKI
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: EdB-s2GX-68
   language:
-  description: "http://rubykaigi.org/2015/presentations/seki\n\nEverybody says. Actor
+  description:
+    "http://rubykaigi.org/2015/presentations/seki\n\nEverybody says. Actor
     helps to solve the multithreading problem. Actor is awesome. Threads are \U0001F4A9\n\nReally?\n\nAn
     actor model is \"just a model\", just like MVC.\n\nToday, Recap what Actor Model
     is."
@@ -596,7 +609,7 @@
     - Charles Nutter
     - Thomas E Enebo
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: QAqjtdExtJw
   language:
   description: |-
@@ -609,7 +622,7 @@
   speakers:
     - Keiju Ishitsuka
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: xiAyp97ElA8
   language:
   description: |-
@@ -620,9 +633,9 @@
 - title: "Keynote: Ruby 3 challenges"
   raw_title: Ruby3 challenges - RubyKaigi 2015 Keynote
   speakers:
-    - Yukihiro Matsumoto
+    - Yukihiro "Matz" Matsumoto
   event_name: RubyKaigi 2015
-  published_at: '2017-09-18'
+  published_at: "2015-12-11"
   video_id: E9bO1uqs4Oc
   language: Japanese
   description: http://rubykaigi.org/2015/presentations/matz

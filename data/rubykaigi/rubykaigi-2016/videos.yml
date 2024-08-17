@@ -4,7 +4,7 @@
   speakers:
     - Petr Chalupa
   event_name: RubyKaigi 2016
-  published_at: '2016-09-14'
+  published_at: "2016-09-08"
   video_id: 3FS1xnCEMq0
   language: English
   description: |-
@@ -22,7 +22,7 @@
   speakers:
     - Kevin Menard
   event_name: RubyKaigi 2016
-  published_at: '2016-09-15'
+  published_at: "2016-09-08"
   video_id: UQnxukip368
   language: English
   description: |-
@@ -39,7 +39,7 @@
   speakers:
     - Martin J. Dürst
   event_name: RubyKaigi 2016
-  published_at: '2016-09-15'
+  published_at: "2016-09-08"
   video_id: vfJp4mkf0EQ
   language: English
   description: |-
@@ -55,10 +55,11 @@
   speakers:
     - Masatoshi SEKI
   event_name: RubyKaigi 2016
-  published_at: '2016-09-15'
+  published_at: "2016-09-08"
   video_id: Z7wTY3xZ7G0
   language: Japanese
-  description: "http://rubykaigi.org/2016/presentations/m_seki.html\n\nMy first dRuby
+  description:
+    "http://rubykaigi.org/2016/presentations/m_seki.html\n\nMy first dRuby
     talk was in 2000, here in Kyoto. After the talk, I got many opportunities to write
     books and to talk on various topics including OSS, XP, and software testing. So,
     I'm glad to talk again here this year.\n\nNowadays, concurrent processing has
@@ -77,7 +78,7 @@
   speakers:
     - Koichi Sasada
   event_name: RubyKaigi 2016
-  published_at: '2016-09-15'
+  published_at: "2016-09-08"
   video_id: WIrYh14H9kA
   language: English
   description: |-
@@ -107,7 +108,7 @@
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: RubyKaigi 2016
-  published_at: '2016-09-15'
+  published_at: "2016-09-08"
   video_id: 2Ag8l-wq5qk
   language: Japanese
   description: |-
@@ -126,10 +127,11 @@
   speakers:
     - Tanaka Akira
   event_name: RubyKaigi 2016
-  published_at: '2016-09-15'
+  published_at: "2016-09-08"
   video_id: "-k_ZhC5Lkgg"
   language: Japanese
-  description: "http://rubykaigi.org/2016/presentations/tanaka_akr.html\n\nRuby has
+  description:
+    "http://rubykaigi.org/2016/presentations/tanaka_akr.html\n\nRuby has
     three classes to represent integers: Fixnum, Bignum and Integer. \nInteger is
     the abstract super class of Fixnum and Bignum. \nFixnum represents small integers
     that fit in a word. \nBignum can represent any integers until the memory is full.
@@ -147,7 +149,7 @@
   speakers:
     - Kouhei Sutou
   event_name: RubyKaigi 2016
-  published_at: '2016-09-16'
+  published_at: "2016-09-08"
   video_id: Iw0ha41Ty6I
   language: Japanese
   description: |-
@@ -166,7 +168,7 @@
   speakers:
     - Kirk Haines
   event_name: RubyKaigi 2016
-  published_at: '2016-09-16'
+  published_at: "2016-09-08"
   video_id: 4FsZfcv28ig
   language: English
   description: |-
@@ -184,7 +186,7 @@
   speakers:
     - Justin Searls
   event_name: RubyKaigi 2016
-  published_at: '2016-09-16'
+  published_at: "2016-09-08"
   video_id: lQvDd9GPSB4
   language: English
   description: |-
@@ -202,7 +204,7 @@
   speakers:
     - Sameer Deshmukh
   event_name: RubyKaigi 2016
-  published_at: '2016-09-17'
+  published_at: "2016-09-08"
   video_id: ZLBGyACJJS4
   language: English
   description: |-
@@ -214,12 +216,12 @@
     Sameer Deshmukh, @v0dro
     Sameer is a student and a contributor to the Ruby Science Foundation, where he helps build scientific computation tools in Ruby. He is currently maintaining daru, a library for data analysis and manipulation in Ruby. He enjoys spending spare time with friends, books and his bass guitar.
 
-- title: 'Pwrake: Distributed Workflow Engine based on Rake'
+- title: "Pwrake: Distributed Workflow Engine based on Rake"
   raw_title: "[JA] Pwrake: Distributed Workflow Engine based on Rake / Masahiro TANAKA"
   speakers:
     - Masahiro TANAKA
   event_name: RubyKaigi 2016
-  published_at: '2016-09-17'
+  published_at: "2016-09-08"
   video_id: a4kMUrETrLk
   language: Japanese
   description: |-
@@ -236,7 +238,7 @@
   speakers:
     - Aja Hammerly
   event_name: RubyKaigi 2016
-  published_at: '2016-09-18'
+  published_at: "2016-09-08"
   video_id: kLzkkL_V2Ts
   language: English
   description: |-
@@ -252,7 +254,7 @@
   speakers:
     - Kenta Murata
   event_name: RubyKaigi 2016
-  published_at: '2016-09-18'
+  published_at: "2016-09-08"
   video_id: gfQ8XEy7vO4
   language: Japanese
   description: |-
@@ -264,12 +266,12 @@
     Kenta Murata, @mrkn
     A Ruby committer. A BigDecimal maintainer.
 
-- title: 'Ruby3x3: How are we going to measure 3x?'
+- title: "Ruby3x3: How are we going to measure 3x?"
   raw_title: "[EN] Ruby3x3: How are we going to measure 3x? / Matthew Gaudet"
   speakers:
     - Matthew Gaudet
   event_name: RubyKaigi 2016
-  published_at: '2016-09-18'
+  published_at: "2016-09-08"
   video_id: kJDOpucaUR4
   language: English
   description: |-
@@ -285,7 +287,7 @@
   speakers:
     - Yurie Yamane
   event_name: RubyKaigi 2016
-  published_at: '2016-09-18'
+  published_at: "2016-09-08"
   video_id: z93299YHVYI
   language: Japanese
   description: |-
@@ -314,7 +316,7 @@
   speakers:
     - Franck Verrot
   event_name: RubyKaigi 2016
-  published_at: '2016-09-19'
+  published_at: "2016-09-08"
   video_id: zRoiX0BES0s
   language: English
   description: |-
@@ -331,7 +333,7 @@
   speakers:
     - Urabe Shyouhei
   event_name: RubyKaigi 2016
-  published_at: '2016-09-19'
+  published_at: "2016-09-08"
   video_id: spxcAHidm5o
   language: Japanese
   description: |-
@@ -347,7 +349,7 @@
   speakers:
     - Julian Cheal
   event_name: RubyKaigi 2016
-  published_at: '2016-09-19'
+  published_at: "2016-09-08"
   video_id: z7So-iCJSUY
   language: English
   description: |-
@@ -364,7 +366,7 @@
   speakers:
     - NARUSE Yui
   event_name: RubyKaigi 2016
-  published_at: '2016-09-19'
+  published_at: "2016-09-08"
   video_id: iMtpCes8VqU
   language:
   description: |-
@@ -382,7 +384,7 @@
   speakers:
     - Takashi Kokubun
   event_name: RubyKaigi 2016
-  published_at: '2016-09-20'
+  published_at: "2016-09-08"
   video_id: MO2Zs0q6T9Y
   language: Japanese
   description: |-
@@ -399,7 +401,7 @@
   speakers:
     - Toru Kawamura
   event_name: RubyKaigi 2016
-  published_at: '2016-09-20'
+  published_at: "2016-09-08"
   video_id: DeK6EDzEMI0
   language: Japanese
   description: |-
@@ -411,12 +413,12 @@
     Toru Kawamura, @tkawa
     RESTafarian, freelance programmer, technology assistance partner at SonicGarden Inc., co-organizer of Sendagaya.rb (regional rubyist meetup), and facilitator of RESTful-towa (“What is RESTful”) Workshop
 
-- title: 'ErRuby: Ruby on Erlang/OTP'
+- title: "ErRuby: Ruby on Erlang/OTP"
   raw_title: "[EN] ErRuby: Ruby on Erlang/OTP / Lin Yu Hsiang"
   speakers:
     - Lin Yu Hsiang
   event_name: RubyKaigi 2016
-  published_at: '2016-09-20'
+  published_at: "2016-09-08"
   video_id: Yl7F3wyEMlQ
   language: English
   description: |-
@@ -433,7 +435,7 @@
   speakers:
     - Thomas E Enebo
   event_name: RubyKaigi 2016
-  published_at: '2016-09-20'
+  published_at: "2016-09-08"
   video_id: vAEFVQQwo1c
   language: English
   description: |-
@@ -448,7 +450,7 @@
   raw_title: Ruby Committers vs the World
   speakers: []
   event_name: RubyKaigi 2016
-  published_at: '2016-09-20'
+  published_at: "2016-09-08"
   video_id: gcqbvLHNPTM
   language:
   description: http://rubykaigi.org/2016/presentations/cruby_committers.html
@@ -458,7 +460,7 @@
   speakers:
     - Ritta Narita
   event_name: RubyKaigi 2016
-  published_at: '2016-09-20'
+  published_at: "2016-09-08"
   video_id: h3Vg6B-mg6o
   language: English
   description: |-
@@ -479,7 +481,7 @@
   speakers:
     - Uchio KONDO
   event_name: RubyKaigi 2016
-  published_at: '2016-09-20'
+  published_at: "2016-09-08"
   video_id: ZKMC5uFlo9s
   language: English
   description: |-
@@ -495,7 +497,7 @@
   speakers:
     - Mitsutaka Mimura
   event_name: RubyKaigi 2016
-  published_at: '2016-09-20'
+  published_at: "2016-09-08"
   video_id: ktuMYe-Q9SY
   language: Japanese
   description: |-
@@ -513,10 +515,11 @@
   speakers:
     - Yoh Osaki
   event_name: RubyKaigi 2016
-  published_at: '2016-09-20'
+  published_at: "2016-09-08"
   video_id: gKDs4V5D_k0
   language: Japanese
-  description: "http://rubykaigi.org/2016/presentations/youchan.html\n\nLast year
+  description:
+    "http://rubykaigi.org/2016/presentations/youchan.html\n\nLast year
     at RubyKaigi, I introduced Hyalite, a virtual DOM implemented in Ruby. \nHyalite
     allows Rubyists to write front and back-end code in Ruby, an approach that has
     proven to provide many benefits. Using a single language across an application
@@ -537,7 +540,7 @@
   speakers:
     - Kazuho Oku
   event_name: RubyKaigi 2016
-  published_at: '2016-09-21'
+  published_at: "2016-09-08"
   video_id: _YroMCap4y8
   language: Japanese
   description: |-
@@ -553,7 +556,7 @@
   speakers:
     - Satoshi "moris" Tagomori
   event_name: RubyKaigi 2016
-  published_at: '2016-09-21'
+  published_at: "2016-09-08"
   video_id: fXbVT_Afzsw
   language: Japanese
   description: |-
@@ -575,7 +578,7 @@
   speakers:
     - elct9620
   event_name: RubyKaigi 2016
-  published_at: '2016-09-21'
+  published_at: "2016-09-08"
   video_id: C2t05Y3dOFQ
   language: English
   description: |-
@@ -592,7 +595,7 @@
   speakers:
     - SHIBATA Hiroshi
   event_name: RubyKaigi 2016
-  published_at: '2016-09-21'
+  published_at: "2016-09-08"
   video_id: JwjwnPTt_k8
   language: Japanese
   description: |-
@@ -610,7 +613,7 @@
   speakers:
     - Colby Swandale
   event_name: RubyKaigi 2016
-  published_at: '2016-09-21'
+  published_at: "2016-09-08"
   video_id: _mHdUhVQOb8
   language: English
   description: |-
@@ -627,7 +630,7 @@
   speakers:
     - Eric Hodel
   event_name: RubyKaigi 2016
-  published_at: '2016-09-21'
+  published_at: "2016-09-08"
   video_id: u6SB-Alat9E
   language: English
   description: |-
@@ -645,7 +648,7 @@
   speakers:
     - Anil Wadghule
   event_name: RubyKaigi 2016
-  published_at: '2016-09-21'
+  published_at: "2016-09-08"
   video_id: lbX-9mDUOIw
   language: English
   description: |-
@@ -666,7 +669,7 @@
   speakers:
     - Amir Rajan
   event_name: RubyKaigi 2016
-  published_at: '2016-09-21'
+  published_at: "2016-09-08"
   video_id: jfTM_0ezZuI
   language: English
   description: |-
@@ -677,12 +680,12 @@
     Amir Rajan, @amirrajan
     Amir Rajan is a pretty decent dev and is constantly trying to improve in his craft. He’s a jack of all trades, being comfortable with a number of platforms and languages. Last but certainly not least, Amir is the creator of A Dark Room iOS. This RPG conquered the world and took the #1 spot in the App Store and placed in the top #10 paid apps across 70 countries. It has been downloaded over 2.5 millions times and is a staple game in the App Store with over 25,000 five star reviews.
 
-- title: 'Deletion Driven Development: Code to delete code!'
+- title: "Deletion Driven Development: Code to delete code!"
   raw_title: "[EN] Deletion Driven Development: Code to delete code!"
   speakers:
     - Chris Arcand
   event_name: RubyKaigi 2016
-  published_at: '2016-09-21'
+  published_at: "2016-09-08"
   video_id: UlfyX8zRVc8
   language: English
   description: |-
