@@ -148,7 +148,7 @@ class Talk < ApplicationRecord
     enhanced_transcript.presence || raw_transcript
   end
 
-  def update_from_yml_metadata
+  def update_from_yml_metadata!
     self.title = static_metadata.title
     self.description = static_metadata.description
     self.date = static_metadata.try(:date) || static_metadata.published_at
