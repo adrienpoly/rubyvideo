@@ -41,8 +41,8 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :date, as: :date, hide_on: :index
     field :like_count, as: :number
     field :view_count, as: :number, hide_on: :index
-    field :raw_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_vtt }, readonly: true
-    field :enhanced_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_vtt }, readonly: true
+    field :raw_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
+    field :enhanced_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
     # field :suggestions, as: :has_many
     field :event, as: :belongs_to, hide_on: :index
     # field :speaker_talks, as: :has_many
