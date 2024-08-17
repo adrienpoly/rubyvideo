@@ -81,4 +81,28 @@ class TalkTest < ActiveSupport::TestCase
       assert @talk.enhanced_transcript.cues.present?
     end
   end
+
+  test "extract topics" do
+    @talk = talks(:one)
+
+    VCR.use_cassette("talks/extract_topics") do
+      assert_changes "@talk.topics.count" do
+        perform_enqueued_jobs do
+          AnalyzeTalkTopicsJob.perform_later(@talk)
+        end
+      end
+    end
+  end
+
+  test "does not create duplicate topics" do
+    @talk = talks(:one)
+    perform_enqueued_jobs do
+      VCR.use_cassette("talks/extract_topics", allow_playback_repeats: true) do
+        AnalyzeTalkTopicsJob.perform_later(@talk)
+        assert_no_changes "@talk.topics.count" do
+          AnalyzeTalkTopicsJob.perform_later(@talk)
+        end
+      end
+    end
+  end
 end

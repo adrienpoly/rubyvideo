@@ -9,7 +9,7 @@ module Metadata
 
   def set_default_meta_tags
     set_meta_tags({
-      description: "A collection of talks of Ruby conferences around the world, built using Rails 7.1, Hotwire and Kamal"
+      description: "A collection of talks of Ruby conferences around the world, built using Rails 7.2, Hotwire and Kamal"
     })
   end
 end
