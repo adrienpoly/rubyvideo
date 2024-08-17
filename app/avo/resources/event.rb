@@ -22,5 +22,6 @@ class Avo::Resources::Event < Avo::BaseResource
     field :organisation, as: :belongs_to
     field :talks, as: :has_many
     field :speakers, as: :has_many, through: :talks
+    field :topics, as: :has_many
   end
 end

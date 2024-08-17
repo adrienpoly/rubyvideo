@@ -61,6 +61,15 @@
   slug: helsinki-ruby-brigade
   language: english
   youtube_channel_id: UCcoS038f4xA_Lz5AoD0ShzA
+- name: Baltic Ruby
+  website: https://balticruby.org
+  twitter: balticruby
+  youtube_channel_name: balticruby
+  kind: conference
+  frequency: yearly
+  youtube_channel_id: UCyTip8pDXBqTxTR6fDZItDw
+  slug: balticruby
+  language: english
 - name: Rocky Mountain Ruby
   website: http://rockymtnruby.dev
   twitter: rmrubyconf
@@ -105,3 +114,23 @@
   slug: rubykaigi
   language: english
   youtube_channel_id: UCBSg5zH-VFJ42BGQFk4VH2A
+- name: rubyday
+  website: https://rubyday.it
+  twitter: rubydayit
+  kind: conference
+  frequency: yearly
+  playlist_matcher: rubyday
+  default_country_code: IT
+  youtube_channel_name: GrUSP
+  slug: rubyday
+  language: english
+  youtube_channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
+- name: EuRuKo
+  website: https://euruko.org
+  kind: conference
+  frequency: yearly
+  default_country_code: DE
+  youtube_channel_name: EuRuKo
+  slug: euruko
+  language: english
+  youtube_channel_id: UCgXsZr2e0AgUJMZm5t03WVw

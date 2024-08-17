@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.3.1"
+ruby "3.3.4"
 
 # Use main development branch of Rails
-gem "rails", "~> 7.2.0.beta2"
+gem "rails", "~> 7.2.0"
 
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
@@ -125,3 +125,7 @@ gem "json-repair", "~> 0.2.0"
 gem "redcarpet", "~> 3.6"
 gem "country_select", "~> 8.0"
 gem "avo", ">= 3.2"
+gem "frozen_record", "~> 0.27.2"
+
+# TODO: upgrade to 5.25.1 once released: https://github.com/minitest/minitest/issues/1007
+gem "minitest", "5.24.1"
