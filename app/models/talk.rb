@@ -54,6 +54,10 @@ class Talk < ApplicationRecord
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
+  # jobs
+  performs :update_from_yml_metadata!, queue_as: :low
+
+  # TODO convert to performs
   def analyze_talk_topics!
     AnalyzeTalkTopicsJob.perform_now(self)
   end
@@ -142,5 +146,16 @@ class Talk < ApplicationRecord
 
   def transcript
     enhanced_transcript.presence || raw_transcript
+  end
+
+  def update_from_yml_metadata
+    self.title = static_metadata.title
+    self.description = static_metadata.description
+    self.date = static_metadata.try(:date) || static_metadata.published_at
+    save
+  end
+
+  def static_metadata
+    Static::Video.find_by(video_id: video_id)
   end
 end

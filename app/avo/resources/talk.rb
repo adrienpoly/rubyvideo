@@ -57,6 +57,7 @@ class Avo::Resources::Talk < Avo::BaseResource
   end
 
   def filters
+    filter Avo::Filters::TalkEvent
     filter Avo::Filters::RawTranscript
     filter Avo::Filters::EnhancedTranscript
     filter Avo::Filters::Summary
