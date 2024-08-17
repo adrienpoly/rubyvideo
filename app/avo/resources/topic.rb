@@ -25,6 +25,7 @@ class Avo::Resources::Topic < Avo::BaseResource
   def actions
     action Avo::Actions::ApproveTopic
     action Avo::Actions::RejectTopic
+    action Avo::Actions::AssignCanonicalTopic
   end
 
   def filters

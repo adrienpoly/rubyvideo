@@ -29,4 +29,33 @@ class TopicTest < ActiveSupport::TestCase
       Topic.create_from_list(topics)
     end
   end
+
+  test "can assign_canonical_topic!" do
+    @talk = talks(:one)
+    duplicate_topic = Topic.create(name: "Rails")
+    TalkTopic.create!(topic: duplicate_topic, talk: @talk)
+    canonical_topic = Topic.create(name: "Ruby on Rails")
+
+    assert duplicate_topic.talks.ids.include?(@talk.id)
+    duplicate_topic.assign_canonical_topic!(canonical_topic: canonical_topic)
+
+    assert_equal canonical_topic, duplicate_topic.reload.canonical
+    assert duplicate_topic.duplicate?
+    assert duplicate_topic.reload.talks.empty?
+    assert canonical_topic.reload.talks.ids.include?(@talk.id)
+  end
+
+  test "create_from_list with canonical topic" do
+    topics = ["Rails", "Ruby on Rails"]
+    canonical_topic = Topic.create(name: "Ruby on Rails", status: :approved)
+    topic = Topic.create(name: "Rails", canonical: canonical_topic, status: :duplicate)
+
+    assert_equal topic.primary_topic, canonical_topic
+    assert_no_changes "Topic.count" do
+      @topics = Topic.create_from_list(topics)
+    end
+
+    assert_equal 1, @topics.length
+    assert_equal "Ruby on Rails", @topics.first.name
+  end
 end
