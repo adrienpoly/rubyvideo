@@ -15,7 +15,8 @@ class Avo::Filters::Published < Avo::Filters::BooleanFilter
     {
       pending: "Pending",
       approved: "Approved",
-      rejected: "Rejected"
+      rejected: "Rejected",
+      duplicate: "Duplicate"
     }
   end
 end

@@ -49,4 +49,13 @@ class Topic < ApplicationRecord
   def primary_topic
     canonical || self
   end
+
+  # enums state machine
+
+  def rejected!
+    ActiveRecord::Base.transaction do
+      update!(status: :rejected)
+      TalkTopic.where(topic_id: id).destroy_all
+    end
+  end
 end
