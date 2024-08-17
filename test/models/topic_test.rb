@@ -58,4 +58,11 @@ class TopicTest < ActiveSupport::TestCase
     assert_equal 1, @topics.length
     assert_equal "Ruby on Rails", @topics.first.name
   end
+
+  test "reject invalid topics" do
+    @topic = topics(:one)
+    assert @topic.talks.count.positive?
+    @topic.rejected!
+    assert @topic.talks.count.zero?
+  end
 end
