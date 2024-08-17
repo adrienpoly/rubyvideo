@@ -149,16 +149,13 @@ class Talk < ApplicationRecord
   end
 
   def update_from_yml_metadata
-    self.title = yml_metadata["title"]
-    self.description = yml_metadata["description"]
-    self.date = yml_metadata["published_at"]
+    self.title = static_metadata.title
+    self.description = static_metadata.description
+    self.date = static_metadata.try(:date) || static_metadata.published_at
     save
   end
 
-  def yml_metadata
-    organisation = event.organisation.slug
-    @yml_metadata ||= YAML.load_file("#{Rails.root}/data/#{organisation}/#{event.slug}/videos.yml").to_h do |metadata|
-                        [metadata["video_id"], metadata]
-                      end[video_id]
+  def static_metadata
+    Static::Video.find_by(video_id: video_id)
   end
 end
