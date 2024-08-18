@@ -126,3 +126,5 @@ gem "redcarpet", "~> 3.6"
 gem "country_select", "~> 8.0"
 gem "avo", ">= 3.2"
 gem "frozen_record", "~> 0.27.2"
+
+gem "oaken", "~> 0.7.0"
