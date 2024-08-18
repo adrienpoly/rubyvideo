@@ -134,3 +134,14 @@
   slug: euruko
   language: english
   youtube_channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+- name: RubyConf TH
+  website: https://rubyconfth.com
+  twitter: rubyconfth
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: TH
+  youtube_channel_name: rubyconfth
+  slug: rubyconfth
+  language: english
+  youtube_channel_id: UCwIhYV_sPTzvjk6B6EUnf1g
