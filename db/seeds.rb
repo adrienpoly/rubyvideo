@@ -48,6 +48,7 @@ MeiliSearch::Rails.deactivate! do
           tlk.video_id = talk_data["video_id"]
           tlk.video_provider = :youtube
           tlk.date = talk_data["published_at"]
+          tlk.language = talk_data["language"]
           tlk.thumbnail_xs = talk_data["thumbnail_xs"] || ""
           tlk.thumbnail_sm = talk_data["thumbnail_sm"] || ""
           tlk.thumbnail_md = talk_data["thumbnail_md"] || ""

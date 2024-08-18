@@ -116,4 +116,31 @@ class TalkTest < ActiveSupport::TestCase
     @talk.update_from_yml_metadata!
     assert_equal "Hotwire Cookbook: Common Uses, Essential Patterns & Best Practices", @talk.title
   end
+
+  test "language is english by default" do
+    assert_equal "en", Talk.new.language
+  end
+
+  test "language is normalized to alpha2 code" do
+    assert_equal "en", Talk.new(language: "English").language
+    assert_equal "en", Talk.new(language: "english").language
+    assert_equal "en", Talk.new(language: "en").language
+
+    assert_equal "ja", Talk.new(language: "Japanese").language
+    assert_equal "ja", Talk.new(language: "japanese").language
+    assert_equal "ja", Talk.new(language: "ja").language
+
+    assert_nil Talk.new(language: "doesntexist").language
+    assert_nil Talk.new(language: "random").language
+  end
+
+  test "language must be valid and present" do
+    talk = talks(:one)
+    talk.language = "random"
+    talk.valid?
+
+    assert_equal 2, talk.errors.size
+    assert_equal ["Language can't be blank", "Language  is not a valid IS0-639 alpha2 code"],
+      talk.errors.map(&:full_message)
+  end
 end

@@ -50,12 +50,20 @@ class Talk < ApplicationRecord
 
   # validations
   validates :title, presence: true
+  validates :language, presence: true,
+    inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
 
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
   # jobs
   performs :update_from_yml_metadata!, queue_as: :low
+
+  # attributes
+  attribute :language, default: "en"
+
+  # normalization
+  normalizes :language, with: ->(language) { Language.find(language)&.alpha2 }
 
   # TODO convert to performs
   def analyze_talk_topics!
@@ -151,6 +159,7 @@ class Talk < ApplicationRecord
   def update_from_yml_metadata!
     self.title = static_metadata.title
     self.description = static_metadata.description
+    self.language = static_metadata.language
     self.date = static_metadata.try(:date) || static_metadata.published_at
     save
   end

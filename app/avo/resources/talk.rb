@@ -29,6 +29,7 @@ class Avo::Resources::Talk < Avo::BaseResource
       record.summary.present?
     end
     field :description, as: :textarea, hide_on: :index
+    field :language, hide_on: :index
     field :slug, as: :text, hide_on: :index
     field :video_id, as: :text, hide_on: :index
     field :video_provider, as: :text, hide_on: :index
@@ -64,5 +65,6 @@ class Avo::Resources::Talk < Avo::BaseResource
     filter Avo::Filters::Topics
     filter Avo::Filters::Title
     filter Avo::Filters::Slug
+    filter Avo::Filters::Language
   end
 end
