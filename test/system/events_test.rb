@@ -2,7 +2,7 @@ require "application_system_test_case"
 
 class EventsTest < ApplicationSystemTestCase
   setup do
-    @event = events(:one)
+    @event = events.one
   end
 
   test "visiting the index" do

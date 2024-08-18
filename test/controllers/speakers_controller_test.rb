@@ -2,10 +2,10 @@ require "test_helper"
 
 class SpeakersControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @speaker = speakers(:one)
-    @speaker_with_talk = speakers(:two)
+    @speaker = speakers.one
+    @speaker_with_talk = speakers.two
 
-    @speaker_with_talk.talks << talks(:one)
+    @speaker_with_talk.talks << talks.one
   end
 
   test "should get index" do

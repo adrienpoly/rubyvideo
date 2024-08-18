@@ -2,7 +2,7 @@ require "application_system_test_case"
 
 class SpeakersTest < ApplicationSystemTestCase
   setup do
-    @speaker = speakers(:one)
+    @speaker = speakers.one
   end
 
   test "should update Speaker" do

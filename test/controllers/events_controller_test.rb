@@ -2,8 +2,8 @@ require "test_helper"
 
 class EventsControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @event = events(:one)
-    @user = users(:lazaro_nixon)
+    @event = events.one
+    @user = users.lazaro_nixon
   end
 
   test "should get index" do

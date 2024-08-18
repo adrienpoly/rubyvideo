@@ -16,7 +16,7 @@ require "test_helper"
 
 class SuggestionTest < ActiveSupport::TestCase
   setup do
-    @talk = talks(:one)
+    @talk = talks.one
   end
 
   test "serialize the content" do

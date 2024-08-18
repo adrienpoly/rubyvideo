@@ -40,7 +40,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "should update transcript" do
-    @talk = talks(:one)
+    @talk = talks.one
 
     VCR.use_cassette("youtube/transcript") do
       perform_enqueued_jobs do
@@ -63,13 +63,13 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "talks one has a valid transcript" do
-    talk = talks(:one)
+    talk = talks.one
     assert talk.transcript.is_a?(Transcript)
     assert talk.transcript.cues.first.is_a?(Cue)
   end
 
   test "enhance talk transcript" do
-    @talk = talks(:one)
+    @talk = talks.one
 
     refute @talk.enhanced_transcript.cues.present?
     VCR.use_cassette("talks/transcript-enhancement") do
@@ -83,7 +83,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "extract topics" do
-    @talk = talks(:one)
+    @talk = talks.one
 
     VCR.use_cassette("talks/extract_topics") do
       assert_changes "@talk.topics.count" do
@@ -95,7 +95,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "does not create duplicate topics" do
-    @talk = talks(:one)
+    @talk = talks.one
     perform_enqueued_jobs do
       VCR.use_cassette("talks/extract_topics", allow_playback_repeats: true) do
         AnalyzeTalkTopicsJob.perform_later(@talk)
@@ -107,8 +107,8 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "update_from_yml_metadata" do
-    @talk = talks(:one)
-    @event = events(:rails_world_2023)
+    @talk = talks.one
+    @event = events.rails_world_2023
     @talk.update!(title: "New title", description: "New description", event: @event)
     assert_equal "New title", @talk.title
     assert_equal "New description", @talk.description
