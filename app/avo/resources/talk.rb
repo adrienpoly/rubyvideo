@@ -7,6 +7,7 @@ class Avo::Resources::Talk < Avo::BaseResource
       query.find_by(slug: id)
     end
   }
+  self.keep_filters_panel_open = true
   # self.search = {
   #   query: -> { query.ransack(id_eq: params[:q], m: "or").result(distinct: false) }
   # }
@@ -14,6 +15,9 @@ class Avo::Resources::Talk < Avo::BaseResource
   def fields
     field :id, as: :id
     field :title, as: :text, link_to_record: true
+    field :topics, as: :tags, hide_on: [:index, :forms] do
+      record.topics.map(&:name)
+    end
     field :summary, as: :markdown, hide_on: :index
     field :has_raw_transcript, name: "Raw Transcript", as: :boolean do
       record.raw_transcript.present?
@@ -37,8 +41,8 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :date, as: :date, hide_on: :index
     field :like_count, as: :number
     field :view_count, as: :number, hide_on: :index
-    field :raw_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_vtt }, readonly: true
-    field :enhanced_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_vtt }, readonly: true
+    field :raw_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
+    field :enhanced_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
     # field :suggestions, as: :has_many
     field :event, as: :belongs_to, hide_on: :index
     # field :speaker_talks, as: :has_many
@@ -49,11 +53,16 @@ class Avo::Resources::Talk < Avo::BaseResource
     action Avo::Actions::Transcript
     action Avo::Actions::EnhanceTranscript
     action Avo::Actions::Summarize
+    action Avo::Actions::ExtractTopics
   end
 
   def filters
+    filter Avo::Filters::TalkEvent
     filter Avo::Filters::RawTranscript
     filter Avo::Filters::EnhancedTranscript
     filter Avo::Filters::Summary
+    filter Avo::Filters::Topics
+    filter Avo::Filters::Title
+    filter Avo::Filters::Slug
   end
 end

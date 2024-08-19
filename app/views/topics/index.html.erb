@@ -1,0 +1,24 @@
+<div class="container py-8">
+  <h1 class="title">Topics</h1>
+  <div class="flex flex-wrap w-full justify-between py-8 gap-1">
+    <% ("a".."z").each do |letter| %>
+      <%= link_to topics_path(letter: letter), class: class_names("flex items-center justify-center w-10 text-gray-500 rounded hover:bg-brand-lighter border", "bg-brand-lighter": letter == params[:letter]) do %>
+        <%= letter.upcase %>
+      <% end %>
+    <% end %>
+    <%= link_to topics_path, class: class_names("flex items-center justify-center w-10 text-gray-500 rounded hover:bg-brand-lighter border", "bg-brand-lighter": params[:letter].blank?) do %>
+        all
+      <% end %>
+  </div>
+  <div id="topics" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 lg:gap-x-12 gap-y-2 min-w-full">
+    <% @topics.each do |topic| %>
+      <%= link_to topic_path(topic), id: dom_id(topic), class: "flex justify-between" do %>
+        <div class="flex items-center gap-2">
+          <span><%= topic.name %></span>
+        </div>
+        <!-- TODO: Fix n+1 -->
+        <%= ui_badge(topic.talks.count, kind: :secondary, size: :lg) %>
+      <% end %>
+    <% end %>
+  </div>
+</div>

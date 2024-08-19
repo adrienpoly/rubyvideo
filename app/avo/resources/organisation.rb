@@ -27,4 +27,9 @@ class Avo::Resources::Organisation < Avo::BaseResource
     field :events, as: :has_many
     field :talks, as: :has_many, through: :events
   end
+
+  def filters
+    filter Avo::Filters::Name
+    filter Avo::Filters::Slug
+  end
 end

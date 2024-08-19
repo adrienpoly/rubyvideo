@@ -18,10 +18,20 @@
                  youtube_id: talk.video_id} %>
   </div>
 
-  <div class="py-4 flex flex-col gap-4">
+  <div class="py-4 flex flex-col gap-4 mb-4">
     <h1><%= talk.title %></h1>
-    <div role="tablist" class="tabs tabs-lifted">
 
+    <% if Current.user&.admin? %>
+      <div class="flex gap-2">
+        <% talk.approved_topics.each do |topic| %>
+          <%= link_to topic do %>
+            <div class="badge badge-secondary">#<%= topic.name.parameterize %></div>
+          <% end %>
+        <% end %>
+      </div>
+    <% end %>
+
+    <div role="tablist" class="tabs tabs-lifted">
       <% if talk.summary.present? %>
         <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Summary" checked>
         <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
@@ -47,7 +57,7 @@
 
       <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Transcript">
       <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
-        <%= render "transcript", talk: talk %>
+        <%= render partial: "talks/transcript", locals: {talk: talk} %>
       </div>
     </div>
 
@@ -60,7 +70,7 @@
 <% end %>
 
 <div class="tooltip tooltip-right tooltip-success" data-tip="You can suggest some modifications to this talk">
-  <%= ui_button url: edit_talk_path(@talk), kind: :neutral, outline: true, size: :sm do %>
+  <%= ui_button url: edit_talk_path(talk), kind: :neutral, outline: true, size: :sm do %>
     <%= heroicon :pencil_square %>
     <span>Edit</span>
   <% end %>
