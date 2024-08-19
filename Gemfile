@@ -127,5 +127,5 @@ gem "json-repair", "~> 0.2.0"
 
 gem "redcarpet", "~> 3.6"
 gem "country_select", "~> 8.0"
-gem "avo", ">= 3.2"
+gem "avo", "~> 3.11"
 gem "frozen_record", "~> 0.27.2"
