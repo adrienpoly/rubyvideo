@@ -61,6 +61,15 @@
   slug: helsinki-ruby-brigade
   language: english
   youtube_channel_id: UCcoS038f4xA_Lz5AoD0ShzA
+- name: Baltic Ruby
+  website: https://balticruby.org
+  twitter: balticruby
+  youtube_channel_name: balticruby
+  kind: conference
+  frequency: yearly
+  youtube_channel_id: UCyTip8pDXBqTxTR6fDZItDw
+  slug: balticruby
+  language: english
 - name: Rocky Mountain Ruby
   website: http://rockymtnruby.dev
   twitter: rmrubyconf
@@ -105,3 +114,47 @@
   slug: ancient-city-ruby
   language: english
   youtube_channel_id: UCk7lIUwfv3OAWCfk3rreAAg
+- name: Ruby on Ice
+  website: https://rubyonice.com
+  twitter: rubyoniceconf
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: DE
+  youtube_channel_name: rubyonice7635
+  slug: ruby-on-ice
+  language: english
+  youtube_channel_id: UCXNhwlbzt-6LoOzMt4wrF0A
+- name: Balkan Ruby
+  website: https://balkanruby.com
+  twitter: balkanruby
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Balkan Ruby
+  default_country_code: BG
+  youtube_channel_name: balkanruby6171
+  slug: balkanruby
+  language: english
+  youtube_channel_id: UCR076_JBPtcQKfiwiVOB3Cg
+- name: wroc_love.rb
+  website: https://wrocloverb.com
+  twitter: wrocloverb
+  kind: conference
+  frequency: yearly
+  playlist_matcher: wroc_love.rb
+  default_country_code: PL
+  youtube_channel_name: wrocloverb
+  slug: wroclove-rb
+  language: english
+  youtube_channel_id: UC_tX5G6twhuwWZQptcc3DOA
+- name: Tropical.rb
+  website: https://tropicalrb.com
+  twitter: tropicalrb
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: BR
+  youtube_channel_name: tropicalrb
+  slug: tropicalrb
+  language: english
+  youtube_channel_id: UCC3ljLfioI4qN2_zmG_kseQ
