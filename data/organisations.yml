@@ -169,3 +169,14 @@
   slug: paris-rb
   language: english
   youtube_channel_id: UCttFnyoHp4TdsTj1wcVs44A
+- name: Ruby Unconf
+  website: https://rubyunconf.eu
+  twitter: rubyunconfeu
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: DE
+  youtube_channel_name: rubyunconf5227
+  slug: rubyunconf
+  language: english
+  youtube_channel_id: UCpdY3gEqGW10EVrUbd1itug
