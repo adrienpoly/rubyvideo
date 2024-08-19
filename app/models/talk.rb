@@ -60,10 +60,12 @@ class Talk < ApplicationRecord
   performs :update_from_yml_metadata!, queue_as: :low
 
   # attributes
-  attribute :language, default: "en"
+  attribute :language, default: Language::DEFAULT
 
   # normalization
-  normalizes :language, with: ->(language) { Language.find(language)&.alpha2 }
+  normalizes :language, with: ->(language) {
+    language.present? ? Language.find(language)&.alpha2 : Language::DEFAULT
+  }
 
   # TODO convert to performs
   def analyze_talk_topics!
