@@ -36,7 +36,6 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :thumbnail_sm, as: :text, hide_on: :index
     field :thumbnail_md, as: :text, hide_on: :index
     field :thumbnail_lg, as: :text, hide_on: :index
-    field :year, as: :number
     field :thumbnail_xs, as: :text, hide_on: :index
     field :thumbnail_xl, as: :text, hide_on: :index
     field :date, as: :date, hide_on: :index

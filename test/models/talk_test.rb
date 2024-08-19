@@ -12,7 +12,6 @@
 #  thumbnail_sm        :string           default(""), not null
 #  thumbnail_md        :string           default(""), not null
 #  thumbnail_lg        :string           default(""), not null
-#  year                :integer
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null
 #  event_id            :integer
