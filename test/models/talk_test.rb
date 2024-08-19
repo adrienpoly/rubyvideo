@@ -81,4 +81,39 @@ class TalkTest < ActiveSupport::TestCase
       assert @talk.enhanced_transcript.cues.present?
     end
   end
+
+  test "extract topics" do
+    @talk = talks(:one)
+
+    VCR.use_cassette("talks/extract_topics") do
+      assert_changes "@talk.topics.count" do
+        perform_enqueued_jobs do
+          AnalyzeTalkTopicsJob.perform_later(@talk)
+        end
+      end
+    end
+  end
+
+  test "does not create duplicate topics" do
+    @talk = talks(:one)
+    perform_enqueued_jobs do
+      VCR.use_cassette("talks/extract_topics", allow_playback_repeats: true) do
+        AnalyzeTalkTopicsJob.perform_later(@talk)
+        assert_no_changes "@talk.topics.count" do
+          AnalyzeTalkTopicsJob.perform_later(@talk)
+        end
+      end
+    end
+  end
+
+  test "update_from_yml_metadata" do
+    @talk = talks(:one)
+    @event = events(:rails_world_2023)
+    @talk.update!(title: "New title", description: "New description", event: @event)
+    assert_equal "New title", @talk.title
+    assert_equal "New description", @talk.description
+
+    @talk.update_from_yml_metadata!
+    assert_equal "Hotwire Cookbook: Common Uses, Essential Patterns & Best Practices", @talk.title
+  end
 end

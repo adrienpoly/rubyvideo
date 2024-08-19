@@ -49,7 +49,7 @@ module Talk::TranscriptCommands
 
       First, here is the metadata for the transcript:
         - title: #{title}
-        - desciption: #{description}
+        - description: #{description}
         - speaker name: #{speakers.map(&:name).to_sentence}
         - event name: #{event_name}
 

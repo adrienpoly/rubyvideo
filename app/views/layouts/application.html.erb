@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <% if Rails.env.production? %>
-      <link rel="canonical" href="<%= "https://www.rubyvideo.dev#{request.path}" %>">
+      <link rel="canonical" href="<%= canonical_url %>">
     <% end %>
 
     <%= csrf_meta_tags %>
