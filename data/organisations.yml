@@ -158,3 +158,14 @@
   slug: tropicalrb
   language: english
   youtube_channel_id: UCC3ljLfioI4qN2_zmG_kseQ
+- name: paris.rb
+  website: https://paris-rb.org
+  twitter: parisrb
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Paris.rb conf
+  default_country_code: FR
+  youtube_channel_name: Parisrbmeetup
+  slug: paris-rb
+  language: english
+  youtube_channel_id: UCttFnyoHp4TdsTj1wcVs44A
