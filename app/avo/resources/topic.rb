@@ -15,7 +15,8 @@ class Avo::Resources::Topic < Avo::BaseResource
 
   def fields
     field :id, as: :id
-    field :name, as: :text
+    field :name, as: :text, link_to_record: true
+    field :canonical, as: :belongs_to, use_resource: "Topic"
     field :description, as: :markdown, hide_on: :index
     field :status, as: :status, loading_when: "pending", success_when: "approved", failed_when: "rejected", hide_on: :forms
     field :status, as: :select, enum: ::Topic.statuses, only_on: :forms
@@ -25,10 +26,12 @@ class Avo::Resources::Topic < Avo::BaseResource
   def actions
     action Avo::Actions::ApproveTopic
     action Avo::Actions::RejectTopic
+    action Avo::Actions::AssignCanonicalTopic
   end
 
   def filters
     filter Avo::Filters::Name
     filter Avo::Filters::Published
+    filter Avo::Filters::TopicTalks
   end
 end

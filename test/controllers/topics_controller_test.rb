@@ -2,14 +2,11 @@ require "test_helper"
 
 class TopicsControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @topic1 = Topic.create(name: "Topic 1", status: :approved)
-    @topic2 = Topic.create(name: "Topic 2", status: :pending)
+    @topic1 = Topic.create(name: "New Topic 1", status: :approved)
+    @topic2 = Topic.create(name: "New Topic 2", status: :pending)
 
     @talk = talks(:one)
     @topic1.talks << @talk
-    # to remove when we remove the poor man FF for the topics
-    @user = users(:admin)
-    sign_in_as @user
   end
 
   test "should get index" do

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_08_16_074626) do
+ActiveRecord::Schema[7.2].define(version: 2024_08_17_083428) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -182,6 +182,8 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_16_074626) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "status", default: "pending", null: false
+    t.integer "canonical_id"
+    t.index ["canonical_id"], name: "index_topics_on_canonical_id"
     t.index ["name"], name: "index_topics_on_name", unique: true
     t.index ["status"], name: "index_topics_on_status"
   end
@@ -205,4 +207,5 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_16_074626) do
   add_foreign_key "talk_topics", "talks"
   add_foreign_key "talk_topics", "topics"
   add_foreign_key "talks", "events"
+  add_foreign_key "topics", "topics", column: "canonical_id"
 end

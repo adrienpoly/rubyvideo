@@ -2,7 +2,15 @@
 
 one:
   talk: one
+  topic: one
+
+one_activerecord:
+  talk: one
   topic: activerecord
+
+one_rejected:
+  talk: one
+  topic: rejected
 
 two:
   talk: two

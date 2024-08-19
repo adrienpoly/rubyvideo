@@ -57,8 +57,13 @@ class AnalyzeTalkTopicsJob < ApplicationJob
 
       3. Read through the entire list of exisiting topics for other talks.
       <topics>
-        #{Topic.all.pluck(:name).join(", ")}
+        #{Topic.approved.pluck(:name).join(", ")}
       </topics>
+
+      3 bis. Read through the entire list of topics that we have already rejected for other talks.
+      <rejected_topics>
+        #{Topic.rejected.pluck(:name).join(", ")}
+      </rejected_topics>
 
       4. Pick 5 to 7 topics that would describe the talk best.
          You can pick any topic from the list of exisiting topics or create a new one.

@@ -103,26 +103,61 @@
   slug: blue-ridge-ruby
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
-- name: rubyday
-  website: https://rubyday.it
-  twitter: rubydayit
+- name: Ancient City Ruby
+  website: https://twitter.com/ancientcityruby
+  twitter: ancientcityruby
   kind: conference
   frequency: yearly
-  playlist_matcher: rubyday
-  default_country_code: IT
-  youtube_channel_name: GrUSP
-  slug: rubyday
+  playlist_matcher: Ancient City Ruby
+  default_country_code: US
+  youtube_channel_name: hashrocket
+  slug: ancient-city-ruby
   language: english
-  youtube_channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
-- name: EuRuKo
-  website: https://euruko.org
+  youtube_channel_id: UCk7lIUwfv3OAWCfk3rreAAg
+- name: Ruby on Ice
+  website: https://rubyonice.com
+  twitter: rubyoniceconf
   kind: conference
   frequency: yearly
+  playlist_matcher:
   default_country_code: DE
-  youtube_channel_name: EuRuKo
-  slug: euruko
+  youtube_channel_name: rubyonice7635
+  slug: ruby-on-ice
   language: english
-  youtube_channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+  youtube_channel_id: UCXNhwlbzt-6LoOzMt4wrF0A
+- name: Balkan Ruby
+  website: https://balkanruby.com
+  twitter: balkanruby
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Balkan Ruby
+  default_country_code: BG
+  youtube_channel_name: balkanruby6171
+  slug: balkanruby
+  language: english
+  youtube_channel_id: UCR076_JBPtcQKfiwiVOB3Cg
+- name: wroc_love.rb
+  website: https://wrocloverb.com
+  twitter: wrocloverb
+  kind: conference
+  frequency: yearly
+  playlist_matcher: wroc_love.rb
+  default_country_code: PL
+  youtube_channel_name: wrocloverb
+  slug: wroclove-rb
+  language: english
+  youtube_channel_id: UC_tX5G6twhuwWZQptcc3DOA
+- name: Tropical.rb
+  website: https://tropicalrb.com
+  twitter: tropicalrb
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: BR
+  youtube_channel_name: tropicalrb
+  slug: tropicalrb
+  language: english
+  youtube_channel_id: UCC3ljLfioI4qN2_zmG_kseQ
 - name: paris.rb
   website: https://paris-rb.org
   twitter: parisrb
