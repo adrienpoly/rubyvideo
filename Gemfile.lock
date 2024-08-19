@@ -92,7 +92,7 @@ GEM
       rack
     ast (2.4.2)
     authentication-zero (2.16.36)
-    avo (3.10.10)
+    avo (3.11.7)
       actionview (>= 6.1)
       active_link_to
       activerecord (>= 6.1)
@@ -514,7 +514,7 @@ DEPENDENCIES
   annotate
   appsignal (~> 3.4)
   authentication-zero (~> 2.16)
-  avo (>= 3.2)
+  avo (~> 3.11)
   bcrypt (~> 3.1.7)
   bootsnap
   byebug (~> 11.1)
