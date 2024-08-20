@@ -34,7 +34,7 @@ MeiliSearch::Rails.deactivate! do
       event.update(
         name: event_data["title"],
         date: event_data["date"] || event_data["published_at"],
-        organisation: organisation,
+        organisation: organisation
       )
 
       puts event.slug unless Rails.env.test?

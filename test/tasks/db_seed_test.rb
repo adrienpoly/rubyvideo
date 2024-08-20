@@ -25,7 +25,7 @@ class DbSeedTest < ActiveSupport::TestCase
 
     static_video_ids = Static::Video.pluck(:video_id)
     talk_video_ids = Talk.all.pluck(:video_id)
-    duplicate_ids = static_video_ids.tally.select { |video_id, count| count > 1}
+    duplicate_ids = static_video_ids.tally.select { |video_id, count| count > 1 }
 
     assert_equal({}, duplicate_ids)
 
