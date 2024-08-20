@@ -22,5 +22,15 @@ class DbSeedTest < ActiveSupport::TestCase
       Rake::Task["db:seed"].reenable
       Rake::Task["db:seed"].invoke
     end
+
+    static_video_ids = Static::Video.pluck(:video_id)
+    talk_video_ids = Talk.all.pluck(:video_id)
+
+    not_created_videos_id = static_video_ids - talk_video_ids
+
+    events = Static::Video.where(video_id: not_created_videos_id).map(&:event_name)
+
+    assert_equal({}, events.tally)
+    assert_equal 0, not_created_videos_id.count
   end
 end
