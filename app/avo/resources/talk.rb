@@ -18,16 +18,9 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :title, as: :text, link_to_record: true
     field :event, as: :belongs_to
 
-    # This is broken on the latest Avo version: undefined method `use_resource' for an instance of Avo::Fields::TextField
-    # avo (3.11.7) app/controllers/avo/application_controller.rb:90:in `related_resource'
-
-    # field :speakers, as: :tags, hide_on: [:show, :forms] do
-    #   record.speakers.map(&:name)
-    # end
-
-    # field :speakers, as: :text, hide_on: [:show, :forms], use_resource: "Avo::Resources::Speaker" do
-    #   record.speakers.map(&:name)
-    # end
+    field :speaker_tags, for_attribute: :speakers, name: "Speakers", through: :speaker_talks, as: :tags, hide_on: [:show, :forms] do
+      record.speakers.map(&:name)
+    end
 
     field :topics, as: :tags, hide_on: [:index, :forms] do
       record.topics.map(&:name)
