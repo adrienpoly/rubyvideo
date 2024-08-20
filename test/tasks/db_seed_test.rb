@@ -30,6 +30,20 @@ class DbSeedTest < ActiveSupport::TestCase
 
     events = Static::Video.where(video_id: not_created_videos_id).map(&:event_name)
 
+    events.tally.each do |event_name, missing_count|
+      all_talk_count = Static::Video.where(event_name: event_name).count
+
+      puts "#{event_name} - All: #{all_talk_count}, missing: #{missing_count}"
+
+      if missing_count != all_talk_count
+        Static::Video.where(event_name: event_name, video_id: not_created_videos_id).each do |missing_talk|
+          puts "Missing talk for #{event_name}: #{missing_talk.raw_title}"
+        end
+        puts ""
+      end
+      puts "---"
+    end
+
     assert_equal({}, events.tally)
     assert_equal 0, not_created_videos_id.count
   end
