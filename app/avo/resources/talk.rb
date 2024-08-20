@@ -1,5 +1,5 @@
 class Avo::Resources::Talk < Avo::BaseResource
-  self.includes = [:event]
+  self.includes = [:event, :speakers, :topics]
   self.find_record_method = -> {
     if id.is_a?(Array)
       query.where(slug: id)
@@ -8,13 +8,27 @@ class Avo::Resources::Talk < Avo::BaseResource
     end
   }
   self.keep_filters_panel_open = true
-  # self.search = {
-  #   query: -> { query.ransack(id_eq: params[:q], m: "or").result(distinct: false) }
-  # }
+
+  self.search = {
+    query: -> { query.where(id: Talk.search(params[:q]).map(&:id)) }
+  }
 
   def fields
     field :id, as: :id
     field :title, as: :text, link_to_record: true
+    field :event, as: :belongs_to
+
+    # This is broken on the latest Avo version: undefined method `use_resource' for an instance of Avo::Fields::TextField
+    # avo (3.11.7) app/controllers/avo/application_controller.rb:90:in `related_resource'
+
+    # field :speakers, as: :tags, hide_on: [:show, :forms] do
+    #   record.speakers.map(&:name)
+    # end
+
+    # field :speakers, as: :text, hide_on: [:show, :forms], use_resource: "Avo::Resources::Speaker" do
+    #   record.speakers.map(&:name)
+    # end
+
     field :topics, as: :tags, hide_on: [:index, :forms] do
       record.topics.map(&:name)
     end
@@ -31,23 +45,22 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :description, as: :textarea, hide_on: :index
     field :language, hide_on: :index
     field :slug, as: :text, hide_on: :index
+    field :year, as: :number, hide_on: :index
     field :video_id, as: :text, hide_on: :index
     field :video_provider, as: :text, hide_on: :index
-    field :thumbnail_sm, as: :text, hide_on: :index
-    field :thumbnail_md, as: :text, hide_on: :index
-    field :thumbnail_lg, as: :text, hide_on: :index
-    field :year, as: :number
-    field :thumbnail_xs, as: :text, hide_on: :index
-    field :thumbnail_xl, as: :text, hide_on: :index
+    field :thumbnail_xs, as: :external_image, hide_on: :index
+    field :thumbnail_sm, as: :external_image, hide_on: :index
+    field :thumbnail_md, as: :external_image, hide_on: :index
+    field :thumbnail_lg, as: :external_image, hide_on: :index
+    field :thumbnail_xl, as: :external_image, hide_on: :index
     field :date, as: :date, hide_on: :index
-    field :like_count, as: :number
+    field :like_count, as: :number, hide_on: :index
     field :view_count, as: :number, hide_on: :index
+    field :speakers, as: :has_many, through: :speaker_talks
     field :raw_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
     field :enhanced_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
     # field :suggestions, as: :has_many
-    field :event, as: :belongs_to, hide_on: :index
     # field :speaker_talks, as: :has_many
-    field :speakers, as: :has_many, through: :speaker_talks
   end
 
   def actions
