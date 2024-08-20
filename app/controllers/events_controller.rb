@@ -6,6 +6,7 @@ class EventsController < ApplicationController
   # GET /events
   def index
     @events = Event.all
+    @events = @events.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
   end
 
   # GET /events/1
