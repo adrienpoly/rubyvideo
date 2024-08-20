@@ -25,9 +25,11 @@ class DbSeedTest < ActiveSupport::TestCase
 
     static_video_ids = Static::Video.pluck(:video_id)
     talk_video_ids = Talk.all.pluck(:video_id)
+    duplicate_ids = static_video_ids.tally.select { |video_id, count| count > 1}
+
+    assert_equal({}, duplicate_ids)
 
     not_created_videos_id = static_video_ids - talk_video_ids
-
     events = Static::Video.where(video_id: not_created_videos_id).map(&:event_name)
 
     events.tally.each do |event_name, missing_count|
