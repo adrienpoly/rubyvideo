@@ -16,6 +16,7 @@ class DbSeedTest < ActiveSupport::TestCase
 
     # ensure that all talks have a date
     assert_equal Talk.where(date: nil).count, 0
+    assert_equal Talk.count, Static::Video.count
 
     # Ensuring idempotency
     assert_no_difference "Talk.maximum(:created_at)" do
