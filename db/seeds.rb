@@ -47,52 +47,10 @@ MeiliSearch::Rails.deactivate! do
           next
         end
 
-        talk = Talk.find_or_initialize_by(video_id: talk_data["video_id"], video_provider: :youtube)
+        Talk
+          .find_or_initialize_by(video_id: talk_data["video_id"], video_provider: :youtube)
+          .update_from_yml_metadata!(event: event)
 
-        talk.assign_attributes(
-          event: event,
-          title: talk_data["title"],
-          description: talk_data["description"],
-          date: talk_data["date"] || talk_data["published_at"] || Date.parse("#{year}-01-01"),
-          thumbnail_xs: talk_data["thumbnail_xs"] || "",
-          thumbnail_sm: talk_data["thumbnail_sm"] || "",
-          thumbnail_md: talk_data["thumbnail_md"] || "",
-          thumbnail_lg: talk_data["thumbnail_lg"] || "",
-          thumbnail_xl: talk_data["thumbnail_xl"] || "",
-          language: talk_data["language"] || Language::DEFAULT
-        )
-
-        if talk.slug.blank? || talk.title_changed?
-          slug = talk.title.parameterize
-
-          if Talk.exists?(slug: slug)
-            slug += "-"
-            slug += event.name.parameterize
-          end
-
-          if Talk.exists?(slug: slug)
-            if talk_data["language"]
-              slug += "-"
-              slug += talk.language
-            else
-              slug = talk_data["raw_title"].parameterize
-            end
-          end
-
-          talk.assign_attributes(slug: slug)
-        end
-
-        talk.save!
-
-        talk_data["speakers"]&.each do |speaker_name|
-          if speaker_name.blank?
-            puts "Speaker blank for: #{talk_data["raw_title"]}"
-            next
-          end
-
-          speaker = Speaker.find_by(slug: speaker_name.parameterize) || Speaker.find_or_create_by(name: speaker_name.strip)
-          SpeakerTalk.create(speaker: speaker, talk: talk) if speaker
-        end
       rescue ActiveRecord::RecordInvalid => e
         puts "Couldn't save: #{talk_data["title"]}, error: #{e.message}"
       end
