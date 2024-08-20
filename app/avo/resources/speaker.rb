@@ -26,10 +26,13 @@ class Avo::Resources::Speaker < Avo::BaseResource
   end
 
   def filters
+    filter Avo::Filters::Name
+    filter Avo::Filters::Slug
     filter Avo::Filters::Github
   end
 
   def actions
     action Avo::Actions::SpeakerGithub
+    action Avo::Actions::MergeSpeakerInto
   end
 end

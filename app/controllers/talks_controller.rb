@@ -18,6 +18,7 @@ class TalksController < ApplicationController
   def show
     speaker_slug = params[:speaker_slug]
     @back_path = speaker_slug.present? ? speaker_path(speaker_slug, page: session[:talks_page]) : talks_path(page: session[:talks_page])
+
     set_meta_tags(@talk)
   end
 
@@ -39,7 +40,7 @@ class TalksController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_talk
-    @talk = Talk.includes(:speakers, :event).find_by(slug: params[:slug])
+    @talk = Talk.includes(:speakers, :event, :approved_topics).find_by(slug: params[:slug])
 
     redirect_to talks_path, status: :moved_permanently if @talk.blank?
   end
