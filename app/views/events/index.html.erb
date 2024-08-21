@@ -10,7 +10,11 @@
         all
       <% end %>
   </div>
-  <div id="events" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 lg:gap-x-12 gap-y-2 min-w-full">
-    <%= render @events %>
-  </div>
+
+  <% @events.group_by(&:organisation).each do |organisation, events| %>
+    <h2><%= organisation.name %></h2>
+    <div id="<%= dom_id(organisation, "events") %>" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 lg:gap-x-12 gap-y-2 min-w-full pt-4 pb-8">
+      <%= render events %>
+    </div>
+  <% end %>
 </div>
