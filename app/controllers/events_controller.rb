@@ -5,7 +5,7 @@ class EventsController < ApplicationController
 
   # GET /events
   def index
-    @events = Event.all
+    @events = Event.order(:name)
     @events = @events.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
   end
 
@@ -18,6 +18,7 @@ class EventsController < ApplicationController
     else
       @pagy, @talks = pagy(event_talks.order(date: :desc).includes(:speakers), items: 9)
     end
+
   end
 
   # GET /events/1/edit
