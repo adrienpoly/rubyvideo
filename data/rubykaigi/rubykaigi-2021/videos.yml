@@ -475,7 +475,8 @@
 
 - title: Ruby Committers vs the World
   raw_title: Ruby Committers vs the World / CRuby Committers @rubylangorg
-  speakers: []
+  speakers:
+    - Ruby Committers # TODO: list each person
   event_name: RubyKaigi Takeout 2021
   published_at: "2021-09-09"
   video_id: zQnN1pqK4FQ
