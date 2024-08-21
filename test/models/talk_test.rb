@@ -129,8 +129,8 @@ class TalkTest < ActiveSupport::TestCase
     assert_equal "ja", Talk.new(language: "japanese").language
     assert_equal "ja", Talk.new(language: "ja").language
 
-    assert_equal "en", Talk.new(language: "doesntexist").language
-    assert_equal "en", Talk.new(language: "random").language
+    assert_nil Talk.new(language: "doesntexist").language
+    assert_nil Talk.new(language: "random").language
   end
 
   test "invalid language defaults to english" do
@@ -138,8 +138,9 @@ class TalkTest < ActiveSupport::TestCase
     talk.language = "random"
     talk.valid?
 
-    assert_equal 0, talk.errors.size
-    assert_equal "en", talk.language
+    assert_equal 2, talk.errors.size
+    assert_equal ["Language can't be blank", "Language  is not a valid IS0-639 alpha2 code"],
+      talk.errors.map(&:full_message)
   end
 
   test "create a new talk with a nil language" do

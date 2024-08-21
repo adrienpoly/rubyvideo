@@ -60,7 +60,7 @@ class Talk < ApplicationRecord
 
   # normalization
   normalizes :language, apply_to_nil: true, with: ->(language) do
-    Language.find(language)&.alpha2 || Language::DEFAULT
+    language.present? ? Language.find(language)&.alpha2 : Language::DEFAULT
   end
 
   # TODO convert to performs
