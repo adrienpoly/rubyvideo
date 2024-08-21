@@ -13,7 +13,7 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
     assert_select "##{dom_id(@event)}", 1
   end
 
-  test 'should get index and return events in the correct order' do
+  test "should get index and return events in the correct order" do
     @events = %i[one rails_world_2023 two tropical_rb_2024].map { |event| events(event) }
     # binding.b
     get events_url

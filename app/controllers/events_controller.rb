@@ -18,7 +18,6 @@ class EventsController < ApplicationController
     else
       @pagy, @talks = pagy(event_talks.order(date: :desc).includes(:speakers), items: 9)
     end
-
   end
 
   # GET /events/1/edit
