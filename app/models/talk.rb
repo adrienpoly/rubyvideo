@@ -166,7 +166,7 @@ class Talk < ApplicationRecord
       [date.to_s.parameterize, title.parameterize].compact.join("-"),
       [title.parameterize, *speakers.map(&:slug)].compact.join("-"),
       [static_metadata.raw_title.parameterize].compact.join("-"),
-      [date.to_s.parameterize, static_metadata.raw_title.parameterize].compact.join("-"),
+      [date.to_s.parameterize, static_metadata.raw_title.parameterize].compact.join("-")
     ].uniq
   end
 
