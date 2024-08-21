@@ -12,7 +12,6 @@
     <%= render "shared/navbar/link", link_title: "Events", path: events_path %>
     <% if Current.user&.admin? %>
       <%= render "shared/navbar/link", link_title: "Topics", path: topics_path %>
-      <%= render "shared/navbar/link", link_title: "Events", path: events_path %>
 
       <%= render "shared/navbar/link", link_title: "Suggestions", path: admin_suggestions_path %>
     <% end %>
