@@ -120,7 +120,7 @@ class TalkTest < ActiveSupport::TestCase
     assert_equal "en", Talk.new.language
   end
 
-  test "language is normalized to alpha2 code or defautl to english" do
+  test "language is normalized to alpha2 code" do
     assert_equal "en", Talk.new(language: "English").language
     assert_equal "en", Talk.new(language: "english").language
     assert_equal "en", Talk.new(language: "en").language
@@ -133,7 +133,7 @@ class TalkTest < ActiveSupport::TestCase
     assert_nil Talk.new(language: "random").language
   end
 
-  test "invalid language defaults to english" do
+  test "language must be valid and present" do
     talk = talks(:one)
     talk.language = "random"
     talk.valid?
