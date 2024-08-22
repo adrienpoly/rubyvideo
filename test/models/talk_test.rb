@@ -142,4 +142,10 @@ class TalkTest < ActiveSupport::TestCase
     assert_equal ["Language can't be blank", "Language  is not a valid IS0-639 alpha2 code"],
       talk.errors.map(&:full_message)
   end
+
+  test "create a new talk with a nil language" do
+    talk = Talk.create!(title: "New title", language: nil)
+    assert_equal "en", talk.language
+    assert talk.valid?
+  end
 end
