@@ -39,7 +39,7 @@ class Talk < ApplicationRecord
   extend Pagy::Meilisearch
 
   # associations
-  belongs_to :event, optional: true
+  belongs_to :event, optional: true, counter_cache: :talks_count
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :speakers, through: :speaker_talks, inverse_of: :talks
 
