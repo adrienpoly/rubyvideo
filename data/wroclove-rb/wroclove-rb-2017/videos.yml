@@ -66,7 +66,11 @@
 - title: 'Panel: Elixir vs. Ruby'
   raw_title: PANEL - ELIXIR vs. RUBY FIGHT - wroc_love.rb 2017
   speakers:
-  - PANEL - ELIXIR vs. RUBY FIGHT
+    # - TODO # moderator # https://cln.sh/8KRFp56P
+    # - TODO # https://cln.sh/BPbmNwCg
+    # - TODO # https://cln.sh/CQPHqylG
+    - Andrzej Krzywda
+    # - TODO # https://cln.sh/qpG3rsWm
   event_name: wroc_love.rb 2017
   published_at: '2017-03-18'
   description: ''
@@ -75,7 +79,7 @@
 - title: Bindings in Ruby - Behind the Magic of Blocks
   raw_title: BINDINGS IN RUBY - BEHIND THE MAGIC OF BLOCKS - Piotr Szmielew - wroc_love.rb 2017
   speakers:
-    - BINDINGS IN RUBY - BEHIND THE MAGIC OF BLOCKS - Piotr Szmielew
+    - Piotr Szmielew
   event_name: wroc_love.rb 2017
   published_at: '2017-03-18'
   description: ''
@@ -162,7 +166,7 @@
     - Georgy Buranov # Memory and Wikipedia
     - Maciej Mensfeld # Fun facts about Spree (and Damian Legawiec)
     - Paweł Świątkowski # Pattern Matching
-    - Tomek W # TODO lastname # Dealing with Technical Debt
+    - Tomek W # TODO lastname # Dealing with Technical Debt # https://cln.sh/LhpHmF8w
     - Norbert Wójtowicz # discombobulate
     - Michał Muskała # Elixir is Awesome
     - Emmanuel Hayford # Google Summer of Code
