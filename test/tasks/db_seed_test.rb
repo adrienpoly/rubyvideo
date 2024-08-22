@@ -14,8 +14,8 @@ class DbSeedTest < ActiveSupport::TestCase
       Rake::Task["db:seed"].invoke
     end
 
-    # ensure that all talks have a year
-    assert_equal Talk.where(year: nil).count, 0
+    # ensure that all talks have a date
+    assert_equal Talk.where(date: nil).count, 0
 
     # Ensuring idempotency
     assert_no_difference "Talk.maximum(:created_at)" do

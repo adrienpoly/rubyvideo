@@ -7,7 +7,7 @@ class Avo::Filters::Language < Avo::Filters::SelectFilter
 
   def apply(request, query, language)
     if language
-      query.where(language: language)
+      query.where("language is ?", language)
     else
       query
     end

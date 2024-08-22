@@ -157,7 +157,6 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_21_191208) do
     t.string "thumbnail_sm", default: "", null: false
     t.string "thumbnail_md", default: "", null: false
     t.string "thumbnail_lg", default: "", null: false
-    t.integer "year"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "event_id"
