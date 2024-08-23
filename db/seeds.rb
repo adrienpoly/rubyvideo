@@ -52,6 +52,7 @@ MeiliSearch::Rails.deactivate! do
           tlk.thumbnail_md = talk_data["thumbnail_md"] || ""
           tlk.thumbnail_lg = talk_data["thumbnail_lg"] || ""
           tlk.thumbnail_xl = talk_data["thumbnail_xl"] || ""
+          tlk.slides_url = talk_data["slides_url"]
 
           year = talk_data["year"].presence || event_data["year"]
           tlk.date = talk_data["date"] || talk_data["published_at"] || Date.parse("#{year}-01-01")

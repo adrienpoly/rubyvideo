@@ -59,6 +59,13 @@
       <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
         <%= render partial: "talks/transcript", locals: {talk: talk} %>
       </div>
+
+      <% if talk.slides_url %>
+        <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Slides">
+        <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+          <a class="btn btn-primary" href="<%= talk.slides_url %>" target="_blank">See Slides on <%= URI(talk.slides_url).host %></a>
+        </div>
+      <% end %>
     </div>
 
     <% if action_name != "show" %>
