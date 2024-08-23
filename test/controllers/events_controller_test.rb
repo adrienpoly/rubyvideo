@@ -14,12 +14,11 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index and return events in the correct order" do
-    @events = [events.one, events.rails_world_2023, events.two]
-
     get events_url
     assert_response :success
 
-    assert_select ".event .event-name", count: 3 do |nodes|
+    @events = [events.one, events.rails_world_2023, events.tropical_ruby, events.two]
+    assert_select ".event .event-name", count: @events.size do |nodes|
       assert_equal @events.map(&:name), nodes.map(&:text)
     end
   end
