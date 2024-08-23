@@ -134,7 +134,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "language must be valid and present" do
-    talk = talks(:one)
+    talk = talks.one
     talk.language = "random"
     talk.valid?
 
