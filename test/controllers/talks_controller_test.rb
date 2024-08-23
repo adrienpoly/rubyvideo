@@ -26,7 +26,7 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update talk" do
-    patch talk_url(@talk), params: {talk: {description: @talk.description, slug: @talk.slug, title: @talk.title, year: @talk.year}}
+    patch talk_url(@talk), params: {talk: {description: @talk.description, slug: @talk.slug, title: @talk.title, date: @talk.date}}
     assert_redirected_to talk_url(@talk)
   end
 

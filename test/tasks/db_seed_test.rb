@@ -6,7 +6,7 @@ class DbSeedTest < ActiveSupport::TestCase
     Rails.application.load_seed
 
     # ensure that all talks have a year
-    assert_empty Talk.where(year: nil).pluck(:title)
+    assert_empty Talk.where(date: nil).pluck(:title)
 
     # Ensuring idempotency
     assert_no_difference "Talk.maximum(:created_at)" do

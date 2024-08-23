@@ -1,7 +1,7 @@
-<div class="mx-auto max-w-7xl">
+<div class="container flex flex-col w-full gap-4 my-8">
   <h1 class="mt-10"><%= @topic.name %></h1><br>
 
-  <div id="topic-talks" class="grid min-w-full grid-cols-3 gap-4">
+  <div id="topic-talks" class="grid min-w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 gallery">
     <% @topic.talks.order(date: :desc).each do |talk| %>
       <%= render partial: "talks/card", locals: {talk: talk} %>
     <% end %>

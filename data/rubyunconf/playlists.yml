@@ -1,0 +1,20 @@
+---
+- id: PLvpu5WTDxTKWA9z0jSc0gAvQ-wH00Rs5T
+  title: Ruby Unconf 2018
+  description: Ruby Unconf 2018 in Hamburg, Germany. May 5th and May 6th 2018
+  published_at: '2018-05-05'
+  channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
+  year: '2018'
+  videos_count: 24
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyunconf-2018
+
+- id: PLvpu5WTDxTKVC08sqymaBAEDKoVkJG3pr
+  title: Ruby Unconf 2019
+  description: Ruby Unconf 2019 in Hamburg, Germany. May 25th and May 26th 2019
+  published_at: '2019-05-25'
+  channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
+  year: '2019'
+  videos_count: 29
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyunconf-2019

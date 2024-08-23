@@ -16,7 +16,6 @@ class TalksTest < ApplicationSystemTestCase
 
     fill_in "Description", with: @talk.description
     fill_in "Title", with: @talk.title
-    fill_in "Year", with: @talk.year
     click_on "Suggest modifications"
 
     assert_text "Your suggestion was successfully created and will be reviewed soon."

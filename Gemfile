@@ -51,6 +51,9 @@ gem "bootsnap", require: false
 # All sorts of useful information about every country packaged as convenient little country objects
 gem "countries"
 
+# ISO 639-1 and ISO 639-2 language code entries and convenience methods
+gem "iso-639"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[mri windows]
@@ -92,7 +95,7 @@ gem "activerecord-enhancedsqlite3-adapter"
 gem "litestream", "~> 0.10.1"
 gem "solid_cache"
 gem "solid_queue"
-gem "mission_control-jobs"
+gem "mission_control-jobs", "~> 0.3"
 
 gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
@@ -124,7 +127,7 @@ gem "json-repair", "~> 0.2.0"
 
 gem "redcarpet", "~> 3.6"
 gem "country_select", "~> 8.0"
-gem "avo", ">= 3.2"
+gem "avo", "~> 3.11"
 gem "frozen_record", "~> 0.27.2"
 
 gem "oaken", "~> 0.7.0"

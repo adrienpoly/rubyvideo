@@ -11,7 +11,7 @@ end_of_description
 
 talks.create :one, title: "Hotwire Cookbook: Common Uses, Essential Patterns & Best Practices",
   description:,
-  slug: "yaroslav-shmarov-hotwire-cookbook-common-uses-essential-patterns-best-practices-rails-world", video_id: "F75k4Oc6g9Q", year: 2023
+  slug: "yaroslav-shmarov-hotwire-cookbook-common-uses-essential-patterns-best-practices-rails-world", video_id: "F75k4Oc6g9Q"
   # raw_transcript: [
   #   {"start_time": "00:00:15.280", "end_time": "00:00:21.320", "text": "so nice to be here with you thank you all for coming so uh my name is uh"},
   #   {"start_time": "00:00:21.320", "end_time": "00:00:27.800", "text": "yaroslav I m from Ukraine you might know me from my blog or from my super Al"},
@@ -28,4 +28,4 @@ talks.create :one, title: "Hotwire Cookbook: Common Uses, Essential Patterns & B
   #   {"start_time": "00:01:35.000", "end_time": "00:01:35.000", "text": "are going to talk about hot fire"}
   # ])
 
-talks.create :two, title: "talk title 2", description: "talk descritpion 2", slug: "talk-title-2", year: 2022
+talks.create :two, title: "talk title 2", description: "talk descritpion 2", slug: "talk-title-2"

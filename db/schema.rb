@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_08_17_083428) do
+ActiveRecord::Schema[7.2].define(version: 2024_08_21_191208) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -66,6 +66,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_17_083428) do
     t.datetime "updated_at", null: false
     t.string "name", default: "", null: false
     t.string "slug", default: "", null: false
+    t.integer "talks_count", default: 0, null: false
     t.index ["name"], name: "index_events_on_name"
     t.index ["organisation_id"], name: "index_events_on_organisation_id"
     t.index ["slug"], name: "index_events_on_slug"
@@ -156,7 +157,6 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_17_083428) do
     t.string "thumbnail_sm", default: "", null: false
     t.string "thumbnail_md", default: "", null: false
     t.string "thumbnail_lg", default: "", null: false
-    t.integer "year"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "event_id"
@@ -168,6 +168,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_17_083428) do
     t.text "raw_transcript", default: "", null: false
     t.text "enhanced_transcript", default: "", null: false
     t.text "summary", default: "", null: false
+    t.string "language", default: "en", null: false
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["slug"], name: "index_talks_on_slug"

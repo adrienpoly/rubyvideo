@@ -9,6 +9,25 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
     get events_url
     assert_response :success
+    assert_select ".title", text: "Events"
+    assert_select "##{dom_id(@event)}", 1
+  end
+
+  test "should get index and return events in the correct order" do
+    @events = [events.one, events.rails_world_2023, events.two]
+
+    get events_url
+    assert_response :success
+
+    assert_select ".event .event-name", count: 3 do |nodes|
+      assert_equal @events.map(&:name), nodes.map(&:text)
+    end
+  end
+
+  test "should get index search result" do
+    get events_url(letter: "T")
+    assert_response :success
+    assert_select "span", text: "Tropical Ruby"
   end
 
   test "should show event" do
