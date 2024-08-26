@@ -52,6 +52,12 @@ class Talk < ApplicationRecord
   validates :language, presence: true,
     inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
 
+  # enums
+  enum :video_provider, %w[youtube mp4].index_by(&:itself)
+
+  # attributes
+  attribute :video_provider, default: :youtube
+
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
@@ -127,23 +133,43 @@ class Talk < ApplicationRecord
   end
 
   def thumbnail_xs
-    self[:thumbnail_xs].presence || "https://i.ytimg.com/vi/#{video_id}/default.jpg"
+    thumbnail(:thumbnail_xs)
   end
 
   def thumbnail_sm
-    self[:thumbnail_sm].presence || "https://i.ytimg.com/vi/#{video_id}/mqdefault.jpg"
+    thumbnail(:thumbnail_sm)
   end
 
   def thumbnail_md
-    self[:thumbnail_md].presence || "https://i.ytimg.com/vi/#{video_id}/hqdefault.jpg"
+    thumbnail(:thumbnail_md)
   end
 
   def thumbnail_lg
-    self[:thumbnail_lg].presence || "https://i.ytimg.com/vi/#{video_id}/sddefault.jpg"
+    thumbnail(:thumbnail_lg)
   end
 
   def thumbnail_xl
-    self[:thumbnail_xl].presence || "https://i.ytimg.com/vi/#{video_id}/maxresdefault.jpg"
+    thumbnail(:thumbnail_xl)
+  end
+
+  def thumbnail(size = :thumbnail_lg)
+    if self[size].present?
+      return self[size] if self[size].start_with?("https://")
+
+      return "/assets/#{Rails.application.assets.load_path.find(self[size]).digested_path}"
+    end
+
+    return nil if video_provider != "youtube"
+
+    youtube = {
+      thumbnail_xs: "default",
+      thumbnail_sm: "mqdefault",
+      thumbnail_md: "hqdefault",
+      thumbnail_lg: "sddefault",
+      thumbnail_xl: "maxresdefault"
+    }
+
+    "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
   end
 
   def related_talks(limit: 6)
