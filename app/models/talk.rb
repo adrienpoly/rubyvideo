@@ -152,14 +152,22 @@ class Talk < ApplicationRecord
     thumbnail(:thumbnail_xl)
   end
 
+  def fallback_thumbnail
+    "/assets/#{Rails.application.assets.load_path.find("posters/fallback.png").digested_path}"
+  end
+
   def thumbnail(size = :thumbnail_lg)
     if self[size].present?
       return self[size] if self[size].start_with?("https://")
 
-      return "/assets/#{Rails.application.assets.load_path.find(self[size]).digested_path}"
+      if (asset = Rails.application.assets.load_path.find(self[size]))
+        return "/assets/#{asset.digested_path}"
+      else
+        return fallback_thumbnail
+      end
     end
 
-    return nil if video_provider != "youtube"
+    return fallback_thumbnail if video_provider != "youtube"
 
     youtube = {
       thumbnail_xs: "default",
