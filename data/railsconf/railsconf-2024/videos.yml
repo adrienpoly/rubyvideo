@@ -7,10 +7,9 @@
   published_at: "2024-05-24"
   description: ""
   video_id: TWi-cSHNr5s
+
 - title: How to Accessibility if You’re Mostly Back-End
-  raw_title:
-    RailsConf 2024 - How to Accessibility if You’re Mostly Back-End by Hilary
-    Stohs-Krause
+  raw_title: RailsConf 2024 - How to Accessibility if You’re Mostly Back-End by Hilary Stohs-Krause
   speakers:
     - Hilary Stohs-Krause
   event_name: RailsConf 2024
@@ -21,10 +20,9 @@
     the front-end’s job! However, there are multiple, specific ways back-end devs
     can impact accessibility - not just for users, but also for colleagues.
   video_id: GyUxe7PMD4A
+
 - title: So writing tests feels painful. What now?
-  raw_title:
-    RailsConf 2024 - So writing tests feels painful. What now? by Stephanie
-    Minn
+  raw_title: RailsConf 2024 - So writing tests feels painful. What now? by Stephanie Minn
   speakers:
     - Stephanie Minn
   event_name: RailsConf 2024
@@ -34,6 +32,7 @@
 
     With examples in RSpec, this talk will take you step-by-step from a troublesome test to an informed refactor. Join me in learning how to attune to the right signals and manage complexity familiar to any Rails developer. You’ll leave with newfound inspiration to write clear, maintainable tests in peace. Your future self will thank you!
   video_id: VmWCJFiU1oM
+
 - title: Ask your logs
   raw_title: RailsConf 2024 -  Ask your logs by Youssef Boulkaid
   speakers:
@@ -47,10 +46,9 @@
 
     In this talk, let's explore how we can use structured logging to turn our logs into data and use dedicated tools to ask — and answer — some non-obvious questions of our logs.
   video_id: y-VMajyrQnU
+
 - title: How to make your application accessible (and keep it that way!)
-  raw_title:
-    RailsConf 2024 - How to make your application accessible (and keep it
-    that way!) by Joel Hawksley
+  raw_title: RailsConf 2024 - How to make your application accessible (and keep it that way!) by Joel Hawksley
   speakers:
     - Joel Hawksley
   event_name: RailsConf 2024
@@ -62,10 +60,9 @@
     share what it’s taken to scale GitHub’s accessibility program and equip you to
     do the same at your company."
   video_id: ZRUn-yRH0ks
+
 - title: "Ruby on Fails: effective error handling with Rails conventions"
-  raw_title:
-    "RailsConf 2024 -  Ruby on Fails: effective error handling with... by
-    Talysson Oliveira Cassiano"
+  raw_title: "RailsConf 2024 -  Ruby on Fails: effective error handling with... by Talysson Oliveira Cassiano"
   speakers:
     - Talysson Oliveira Cassiano
   event_name: RailsConf 2024
@@ -75,10 +72,9 @@
 
     You ask 10 different developers how they handle errors in their applications, you get 10 very different answers or more, that’s wild. From never raising errors to using custom errors, rescue_from, result objects, monads, we see all sorts of opinions out there. Is it possible that all of them are right? Maybe none of them? Do they take advantage of Rails conventions? In this talk, I will show you error-handling approaches based on patterns we see on typical everyday Rails applications, what their tradeoffs are, and which of them are safe defaults to use as a primary choice when defining the architecture of your application
   video_id: qFZb9fMz8bs
+
 - title: "Look Ma, No Background Jobs: A Peek into the Async Future"
-  raw_title:
-    "RailsConf 2024 - Look Ma, No Background Jobs: A Peek into the Async
-    Future by Manu J"
+  raw_title: "RailsConf 2024 - Look Ma, No Background Jobs: A Peek into the Async Future by Manu J"
   speakers:
     - Manu J
   event_name: RailsConf 2024
@@ -88,6 +84,7 @@
 
     But it doesn't always have to be. Learn how you can leverage Falcon and the Async gem to unlock the full potential of ruby fibers and eliminate background jobs for IO-bound tasks and execute them directly with clean, simple, performant and scalable code.
   video_id: QeYcKw7nOkg
+
 - title: Ruby & Rails Versioning at Scale
   raw_title: RailsConf 2024 - Ruby & Rails Versioning at Scale by George Ma
   speakers:
@@ -100,9 +97,9 @@
     300+ Ruby Services at Shopify to be on the latest Ruby & Rails versions. You'll
     learn how you can do the same!
   video_id: XBdsKmxS2lw
+
 - title: "What's in a Name: From Variables to Domain-Driven Design"
-  raw_title: "RailsConf 2024 - What's in a Name: From Variables to Domain-Driven
-    Design by Karynn Ikeda"
+  raw_title: "RailsConf 2024 - What's in a Name: From Variables to Domain-Driven Design by Karynn Ikeda"
   speakers:
     - Karynn Ikeda
   event_name: RailsConf 2024
@@ -115,6 +112,7 @@
     design, and track how consequential naming is at each stage to help you improve
     your code, no matter your level of experience."
   video_id: 1flw60hwcLg
+
 - title: Crafting Rails Plugins
   raw_title: RailsConf 2024 - Crafting Rails Plugins by Chris Oliver
   speakers:
@@ -128,10 +126,9 @@
     we'll learn how to do this by looking at some examples Rails gems to see how they
     work.
   video_id: LxTCpTXhpzw
+
 - title: From Cryptic Error Messages To Rails Contributor
-  raw_title:
-    RailsConf 2024 - From Cryptic Error Messages To Rails Contributor by
-    Collin Jilbert
+  raw_title: RailsConf 2024 - From Cryptic Error Messages To Rails Contributor by Collin Jilbert
   speakers:
     - Collin Jilbert
   event_name: RailsConf 2024
@@ -147,10 +144,9 @@
     yourself to enhance the experience of building with Rails for yourself and the
     community.
   video_id: 7EpJQn6ObEw
+
 - title: "Plain, Old, but Mighty: Leveraging POROs in Greenfield and Legacy Code"
-  raw_title:
-    "RailsConf 2024 - Plain, Old, but Mighty: Leveraging POROs in Greenfield
-    and... by Sweta Sanghavi"
+  raw_title: "RailsConf 2024 - Plain, Old, but Mighty: Leveraging POROs in Greenfield and... by Sweta Sanghavi"
   speakers:
     - Sweta Sanghavi
   event_name: RailsConf 2024
@@ -164,10 +160,9 @@
 
     Pair with me on how! We'll explore how we can leverage POROs in our application through some real world examples. We'll use objects as a facade for domain logic in development, and refactor objects out of legacy code to increase readability, ease of testing, and flexibility. You'll leave this session with some strategies to better leverage Ruby objects in your own application.
   video_id: KQHD-0y8tDw
+
 - title: "A Rails server in your editor: Using Ruby LSP to extract runtime information"
-  raw_title:
-    "RailsConf 2024 - A Rails server in your editor: Using Ruby LSP to extract
-    runtime... by Andy Waite"
+  raw_title: "RailsConf 2024 - A Rails server in your editor: Using Ruby LSP to extract runtime... by Andy Waite"
   speakers:
     - Andy Waite
   event_name: RailsConf 2024
@@ -179,10 +174,9 @@
 
     In this talk, we’re going to explore how the Ruby LSP connects with the runtime of your Rails application to expose information about the database, migrations, routes and more. Join us for an in-depth exploration of Ruby LSP Rails, and learn how to extend it to support the Rails features most important to your app.
   video_id: oYTwUHAdH_A
+
 - title: Implementing Native Composite Primary Key Support in Rails 7.1
-  raw_title:
-    RailsConf 2024 - Implementing Native Composite Primary Key Support in
-    Rails 7.1 by Nikita Vasilevsky
+  raw_title: RailsConf 2024 - Implementing Native Composite Primary Key Support in Rails 7.1 by Nikita Vasilevsky
   speakers:
     - Nikita Vasilevsky
   event_name: RailsConf 2024
@@ -193,10 +187,9 @@
     into the scenarios where it can make a significant difference in database performance.
     Elevate your Rails expertise and stay ahead of the curve!
   video_id: Gm5Aiai368Y
+
 - title: "Riffing on Rails: sketch your way to better designed code"
-  raw_title:
-    "RailsConf 2024 - Riffing on Rails: sketch your way to better designed
-    code by  Kasper Timm Hansen"
+  raw_title: "RailsConf 2024 - Riffing on Rails: sketch your way to better designed code by  Kasper Timm Hansen"
   speakers:
     - Kasper Timm Hansen
   event_name: RailsConf 2024
@@ -208,6 +201,7 @@
 
     Walk away with new ideas for improving your software making process: one where code is less daunting & precious. Riffing gives you space & grace to try more approaches & ideas. Let's riff!
   video_id: vH-mNygyXs0
+
 - title: Save Time with Custom Rails Generators
   raw_title: RailsConf 2024 - Save Time with Custom Rails Generators by Garrett Dimon
   speakers:
@@ -221,6 +215,16 @@
     about custom generators and some advanced warning about the speed bumps, it can
     save time in far more scenarios than you might think.
   video_id: kKhzSge226g
+
+- title: Closing Day 1
+  raw_title: RailsConf 2024 - Closing Day 1 with Andy Croll
+  speakers:
+    - Andy Croll
+  event_name: RailsConf 2024
+  published_at: "2024-05-24"
+  description: Closing Day 1 with Andy Croll
+  video_id: 1-cPB5Ft9Kk
+
 - title: "Keynote: Startups on Rails in 2024"
   raw_title: "RailsConf 2024 - Keynote: Startups on Rails in 2024 by Irina Nazarova"
   speakers:
@@ -234,6 +238,16 @@
 
     Let’s use feedback from those founders to discuss how Rails has aided their growth and what improvements would help more founders start-up on Rails!
   video_id: "-sFYiyFQMU8"
+
+- title: Day 2 Welcome
+  raw_title: RailsConf 2024 - Day 2 Welcome with Ufuk Kayserilioglu
+  speakers:
+    - Ufuk Kayserilioglu
+  event_name: RailsConf 2024
+  published_at: "2024-05-24"
+  description: ""
+  video_id: U6JsnCZiHQI
+
 - title: "Keynote: Vernier - A next Generation Ruby Profiler"
   raw_title: RailsConf 2024 - Day 2 Keynote by John Hawthorn
   speakers:
@@ -245,10 +259,9 @@
     which is able to capture more details than existing tools including threads, ractors,
     the GVL, Garbage Collection, idle time, and more!"
   video_id: WFtZjGT8Ih0
-- title: "From slow to go: Rails test profiling hands-on"
-  raw_title:
-    "RailsConf 2024 - From slow to go: Rails test profiling hands-on by Vladimir
-    Dementyev"
+
+- title: "Workshop: From slow to go: Rails test profiling hands-on"
+  raw_title: "RailsConf 2024 - From slow to go: Rails test profiling hands-on by Vladimir Dementyev"
   speakers:
     - Vladimir Dementyev
   event_name: RailsConf 2024
@@ -260,7 +273,8 @@
 
     I will guide you through the test profiling upside-down pyramid, from trying to apply common Ruby profilers (Stackprof, Vernier) and learn from flamegrpahs to identifying test-specific performance issues via the TestProf toolbox.
   video_id: PvZw0CnZNPc
-- title: TDD for Absolute Beginners
+
+- title: "Workshop: TDD for Absolute Beginners"
   raw_title: RailsConf 2024 - TDD for Absolute Beginners by Jason Swett
   speakers:
     - Jason Swett
@@ -272,10 +286,9 @@
     is actually misleading, and that there's a different and better way? In this workshop
     you'll discover a different, easier way to approach test-driven development.
   video_id: I5KnvTttfOM
-- title: "SQLite on Rails: From rails new to 50k concurrent users and everything in between"
-  raw_title:
-    "RailsConf 2024 - SQLite on Rails: From rails new to 50k concurrent...
-    by Stephen Margheim"
+
+- title: "Workshop: SQLite on Rails: From rails new to 50k concurrent users and everything in between"
+  raw_title: "RailsConf 2024 - SQLite on Rails: From rails new to 50k concurrent... by Stephen Margheim"
   speakers:
     - Stephen Margheim
   event_name: RailsConf 2024
@@ -294,7 +307,8 @@
     to build a resilient SQLite on Rails application, and how to scale to 50k+ concurrent
     users."
   video_id: cPNeWdaJrL0
-- title: Let’s Extend Rails With A Gem
+
+- title: "Workshop: Let’s Extend Rails With A Gem"
   raw_title: RailsConf 2024 - Let’s Extend Rails With A Gem by Noel Rappin
   speakers:
     - Noel Rappin
@@ -311,10 +325,9 @@
     against multiple versions of Rails. After this workshop, you will have all the
     tools you need to contribute your own gem to the Rails community.
   video_id: eQvwn8p4HnE
-- title: Build High Performance Active Record Apps
-  raw_title:
-    RailsConf 2024 - Build High Performance Active Record Apps by Andrew
-    Atkinson
+
+- title: "Workshop: Build High Performance Active Record Apps"
+  raw_title: RailsConf 2024 - Build High Performance Active Record Apps by Andrew Atkinson
   speakers:
     - Andrew Atkinson
   event_name: RailsConf 2024
@@ -326,10 +339,9 @@
 
     Next we'll shift gears into multi-database application design. You'll introduce a second database instance, set up replication between them, and configure Active Record for writer and reader roles. With that in place, you’ll configure automatic role switching.
   video_id: 4SERkjBF-es
+
 - title: This or that? Similar methods & classes in Ruby && Rails
-  raw_title:
-    RailsConf 2024 - This or that? Similar methods & classes in Ruby && Rails
-    by Andy Andrea
+  raw_title: RailsConf 2024 - This or that? Similar methods & classes in Ruby && Rails by Andy Andrea
   speakers:
     - Andy Andrea
   event_name: RailsConf 2024
@@ -339,10 +351,9 @@
 
     In this talk, we'll take a look at groups of patterns, classes and methods often seen in Rails code that might seem similar or equivalent at first glance. We’ll see how they differ and look at any pros, cons or edge cases worth considering for each group so that we can make more informed decisions when writing our code.
   video_id: tfxJyya6P6A
+
 - title: Revisiting the Hotwire Landscape after Turbo 8
-  raw_title:
-    RailsConf 2024 - Revisiting the Hotwire Landscape after Turbo 8 by Marco
-    Roth
+  raw_title: RailsConf 2024 - Revisiting the Hotwire Landscape after Turbo 8 by Marco Roth
   speakers:
     - Marco Roth
   event_name: RailsConf 2024
@@ -354,10 +365,9 @@
 
     This session, led by Marco, a core maintainer of Stimulus, StimulusReflex, and CableReady, delves into capabilities introduced with Turbo 8, reevaluating its impact on the whole Rails and Hotwire ecosystem.
   video_id: eh2joX5n58o
+
 - title: "Undervalued: The Most Useful Design Pattern"
-  raw_title:
-    "RailsConf 2024 - Undervalued: The Most Useful Design Pattern by Jared
-    Norman"
+  raw_title: "RailsConf 2024 - Undervalued: The Most Useful Design Pattern by Jared Norman"
   speakers:
     - Jared Norman
   event_name: RailsConf 2024
@@ -371,6 +381,7 @@
     how to combine value objects with the factory pattern to create the most useful
     design pattern out there.
   video_id: 4r6D0niRszw
+
 - title: The Very Hungry Transaction
   raw_title: RailsConf 2024 - The Very Hungry Transaction by Daniel Colson
   speakers:
@@ -382,10 +393,9 @@
 
     In this talk we'll witness a database transaction gradually grow into a liability. We'll uncover some common but problematic patterns that can put our data integrity and database health at risk, and then offer strategies for fixing and preventing these patterns.
   video_id: L1gQL_nw73s
+
 - title: Insights Gained from Developing a Hybrid Application Using Turbo Native and Strada
-  raw_title:
-    RailsConf 2024 - Insights Gained from Developing a Hybrid Application
-    Using... by John Pollard
+  raw_title: RailsConf 2024 - Insights Gained from Developing a Hybrid Application Using... by John Pollard
   speakers:
     - John Pollard
   event_name: RailsConf 2024
@@ -395,10 +405,9 @@
 
     In this session, we delve into the complexities and benefits of hybrid app development with Turbo-Native and Strada. We cover implementation intricacies, emphasizing strategic decisions and technical nuances. Key topics include crafting seamless mobile navigation and integrating native features for enhanced functionality. We also discuss the decision-making process for rendering pages, considering performance, user interaction, and feature complexity. Additionally, we explore creating usable native components that maintain app standards. Join us for practical insights learned from our hybrid app development journey.
   video_id: fi9wytUSAYY
+
 - title: "Pairing with Intention: A Guide for Mentors"
-  raw_title:
-    "RailsConf 2024 - Pairing with Intention: A Guide for Mentors by Alistair
-    Norman"
+  raw_title: "RailsConf 2024 - Pairing with Intention: A Guide for Mentors by Alistair Norman"
   speakers:
     - Alistair Norman
   event_name: RailsConf 2024
@@ -412,10 +421,9 @@
     explore how to be intentional with your pair programming to help your mentee with
     their desired learning outcomes while keeping them feeling engaged and empowered.
   video_id: aEqMNVbUzew
+
 - title: From Request To Response And Everything In Between
-  raw_title:
-    RailsConf 2024 - From Request To Response And Everything In Between by
-    Kevin Lesht
+  raw_title: RailsConf 2024 - From Request To Response And Everything In Between by Kevin Lesht
   speakers:
     - Kevin Lesht
   event_name: RailsConf 2024
@@ -425,6 +433,7 @@
 
     In this session, you'll learn about the makeup of an individual web request, how Rails environments can best be setup to handle many requests at once, and how to keep your visitors happy along the way. We'll start by following a single request to its response, and scale all the way up through navigating high traffic scenarios.
   video_id: ExHNp0LGCVs
+
 - title: Dungeons & Dragons & Rails
   raw_title: RailsConf 2024 - Dungeons & Dragons & Rails by Joël Quenneville
   speakers:
@@ -440,10 +449,9 @@
     Turbo. Attune to your keyboards and roll for initiative! This task is no match
     for us!
   video_id: T7GdshXgQZE
+
 - title: Attraction Mailbox - Why I love Action Mailbox
-  raw_title:
-    RailsConf 2024 - Attraction Mailbox - Why I love Action Mailbox by Cody
-    Norman
+  raw_title: RailsConf 2024 - Attraction Mailbox - Why I love Action Mailbox by Cody Norman
   speakers:
     - Cody Norman
   event_name: RailsConf 2024
@@ -455,10 +463,9 @@
 
     We’ll take a deeper look at Action Mailbox and how to route and process your inbound emails.
   video_id: i-RwxAVMP-k
+
 - title: "Dungeons and Developers: Uniting Experience Levels in Engineering Teams"
-  raw_title:
-    "RailsConf 2024 - Dungeons and Developers: Uniting Experience Levels
-    in... by Chantelle Isaacs"
+  raw_title: "RailsConf 2024 - Dungeons and Developers: Uniting Experience Levels in... by Chantelle Isaacs"
   speakers:
     - Chantelle Isaacs
   event_name: RailsConf 2024
@@ -468,10 +475,9 @@
 
     Join us in “Dungeons and Developers,” a unique exploration of team dynamics through the lens of Dungeons & Dragons. Discover how the roles and skills in D&D can enlighten the way we build, manage, and nurture diverse engineering teams. Whether you’re a manager aiming to construct a formidable team (Constitution) or an individual seeking to self-assess and advance your career (Charisma), this talk will guide you in leveraging technical and transferable talents. Together we’ll identify your developer archetype and complete a 'Developer Character Sheet'—our tool for highlighting abilities, proficiencies, and alignment in a fun, D&D-inspired format. Developers and managers alike will leave this talk with a newfound appreciation for the varied skills and talents each person brings to the table.
   video_id: NHuJNDB8Dt8
+
 - title: "From RSpec to Jest: JavaScript testing for Rails devs"
-  raw_title:
-    "RailsConf 2024 - From RSpec to Jest: JavaScript testing for Rails devs
-    by Stefanni Brasil"
+  raw_title: "RailsConf 2024 - From RSpec to Jest: JavaScript testing for Rails devs by Stefanni Brasil"
   speakers:
     - Stefanni Brasil
   event_name: RailsConf 2024
@@ -482,10 +488,9 @@
     Learn how to use Jest, a popular JavaScript testing framework. Let's go through the basics of JavaScript Unit testing with Jest, gotchas, and helpful tips to make your JS testing experience more joyful.
     By the end of this talk, you’ll have added new skills to your JS tests toolbox. How to set up test data, mock HTTP requests, assert elements in the DOM, and more helpful bites to cover your JavaScript code confidently.
   video_id: 9ewZf4gK_Gg
+
 - title: "Glimpses of Humanity: My Game-Building AI Pair"
-  raw_title:
-    "RailsConf 2024 - Glimpses of Humanity: My Game-Building AI Pair by Louis
-    Antonopoulos"
+  raw_title: "RailsConf 2024 - Glimpses of Humanity: My Game-Building AI Pair by Louis Antonopoulos"
   speakers:
     - Louis Antonopoulos
   event_name: RailsConf 2024
@@ -501,10 +506,9 @@
 
     This is not "AI wrote a game" -- this is "Learn how to pair with an artificial intelligence as if they were a human partner, and push the boundaries of possibility!"
   video_id: tOhJ-OHmQRs
+
 - title: "Beyond senior: lessons from the technical career path"
-  raw_title:
-    "RailsConf 2024 - Beyond senior: lessons from the technical career path
-    by  Dawn Richardson"
+  raw_title: "RailsConf 2024 - Beyond senior: lessons from the technical career path by  Dawn Richardson"
   speakers:
     - Dawn Richardson
   event_name: RailsConf 2024
@@ -515,6 +519,7 @@
     As a relatively new 'Principal Engineer', I want to report back on my learnings
     so far; things I wish I had known before stepping into this role 3 years ago.
   video_id: r7g6XicVZ1c
+
 - title: Progressive Web Apps with Ruby on Rails
   raw_title: RailsConf 2024 - Progressive Web Apps with Ruby on Rails by Avi Flombaum
   speakers:
@@ -532,10 +537,9 @@
 
     The talk will not only solidify the concepts discussed but also provide attendees with a clear roadmap to developing their PWAs.
   video_id: g_0OaFreX3U
+
 - title: Using Postgres + OpenAI to power your AI Recommendation Engine
-  raw_title:
-    RailsConf 2024 - Using Postgres + OpenAI to power your AI Recommendation...
-    by Chris Winslett
+  raw_title: RailsConf 2024 - Using Postgres + OpenAI to power your AI Recommendation... by Chris Winslett
   speakers:
     - Chris Winslett
   event_name: RailsConf 2024
@@ -547,6 +551,17 @@
 
     For this talk, we will use Rails, ActiveRecord + Postgres, and OpenAI to build a recommendation engine. Then, in the second half, we'll present optimization and scaling techniques because AI data is unique for the scaling needs.
   video_id: eG_vFj5x4Aw
+
+- title: Day 3 Closing
+  raw_title: RailsConf 2024 -  Day 3 Closing with Ufuk Kayserilioglu and Andy Croll
+  speakers:
+    - Ufuk Kayserilioglu
+    - Andy Croll
+  event_name: RailsConf 2024
+  published_at: "2024-05-24"
+  description: ""
+  video_id: gHANy_j0nEQ
+
 - title: Closing Keynote
   raw_title: RailsConf 2024 - Closing Keynote by Aaron Patterson
   speakers:
