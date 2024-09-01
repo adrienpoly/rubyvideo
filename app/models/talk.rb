@@ -175,8 +175,10 @@ class Talk < ApplicationRecord
     if event.blank?
       event = Event.find_by(name: static_metadata.event_name)
 
-      puts "No event found! Video ID: #{video_id}, Event: #{static_metadata.event_name}"
-      return
+      if event.nil?
+        puts "No event found! Video ID: #{video_id}, Event: #{static_metadata.event_name}"
+        return
+      end
     end
 
     if Array.wrap(static_metadata.speakers).empty?
