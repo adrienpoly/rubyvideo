@@ -1,0 +1,174 @@
+---
+
+# Day 1
+
+- title: From Rails Legacy to DDD
+  raw_title: From Rails legacy to DDD - Andrzej Krzywda - wroc_love.rb 2016
+  speakers:
+    - Andrzej Krzywda
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-11'
+  description: ''
+  video_id: LrSBrHgCLm8
+
+- title: Opal.rb
+  raw_title: Opal.rb - Elia Schito - wroc_love.rb 2016
+  speakers:
+    - Elia Schito
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-11'
+  description: ''
+  video_id: vhIrrlcWphU
+
+- title: Lightning Talks - Day 1
+  raw_title: Lightning talks, day 1 - wroc_love.rb 2016
+  speakers:
+    - Janek Grodowski # Docker Cloud @ Codebeat
+    # - TODO # Difference Between Facebook and Snapchat # https://cln.sh/ChJw3H5C
+    - Michał Zając # Haskell in Ruby
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-11'
+  description: ''
+  video_id: DgphJ_sYFMM
+
+# Day 2
+
+- title: The R language
+  raw_title: The R language - Barbara Fusińska - wroc_love.rb 2016
+  speakers:
+    - Barbara Fusińska
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-12'
+  description: ''
+  video_id: puPYAOdtFkE
+
+- title: The Saga Pattern
+  raw_title: The Saga Pattern - Robert Pankowecki - wroc_love.rb 2016
+  speakers:
+    - Robert Pankowecki
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-12'
+  description: ''
+  video_id: ECvDJ5ULgN8
+
+- title: Ruby and Code Editors
+  raw_title: Ruby and Code Editors Fight - wroc_love.rb 2016
+  speakers:
+    - Tatiana Vasilyeva # RubyMine
+    - Elia Schito # TextMate
+    - Grzegorz Łuszczek # vim
+    - Wiktor Mociun # vim
+    - Thiago Massa # Emacs/Spacemacs
+    - Ondřej Bartas # Atom
+    - squixy # TODO: real name # Sublime # https://cln.sh/HjphZ2WJ
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-12'
+  description: ''
+  video_id: CSHmIzaYpf8
+
+- title: The NixOS project and deploying systems declaratively
+  raw_title: The NixOS project and deploying systems declaratively - Sander van der Burg - wroc_love.rb 2016
+  speakers:
+    - Sander van der Burg
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-12'
+  description: ''
+  video_id: Ue7NrIlH4A0
+
+- title: ROS - ecosystem for things
+  raw_title: ROS - ecosystem for things - Wojciech Ziniewicz - wroc_love.rb 2016
+  speakers:
+    - Wojciech Ziniewicz
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-12'
+  description: ''
+  video_id: N89jx_Q666c
+
+- title: Lightning Talks - Day 2
+  raw_title: Lightning talks, day 2 - wroc_love.rb 2016
+  speakers:
+    - Maciek Rząsa # Ruby Internships - What We Do To Teach Ruby?
+    # - TODO # What annoys you about the CI? https://cln.sh/FWmmnGhc
+    - Tomek Rusiłko # Estimating Anyone?
+    - Adam Jahn # Spree Commerce
+    - Adam Niedzielski # ETag Tracking
+    - Tatiana Vasilyeva # Features you probably don't know in RubyMine
+    - Nicolas Dermine # Sonic Pi
+    - Michał Zając # Rubbish Ruby Code Contest
+    - Marcin Wyszynski # Protocol Buffers @ Codebeat
+    - Mateusz Sagan # CPR with your client (or: How to deal with clients and stay sane)
+    - Peter Scholz # Grape/Grape Swapper https://cln.sh/w2tGF4nF
+    - Gosia Ksionek # How to keep your Junior Happy - and productive... and motivated
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-12'
+  description: ''
+  video_id: lH17KGcwnqU
+
+# Day 3
+
+- title: 1 year with ROM on production
+  raw_title: 1 year with ROM on production - Oskar Szrajer - wroc_love.rb 2016
+  speakers:
+    - Oskar Szrajer
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-13'
+  description: ''
+  video_id: GhPcW6D_qjY
+
+- title: Consumer Driven Contracts in Ruby on Rails
+  raw_title: Consumer Driven Contracts in Ruby on Rails - Kacper Walanus - wroc_love.rb 2016
+  speakers:
+    - Kacper Walanus
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-13'
+  description: ''
+  video_id: 83tL6J_er7k
+
+- title: 'Panel: Rails Deployment'
+  raw_title: Rails Deployment Panel - wroc_love.rb 2016
+  speakers:
+    - Paweł Pacana
+    - Michał Łomnicki
+    - Tymon Tobolski
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-13'
+  description: ''
+  video_id: C3w24NJxHeg
+
+- title: Lessons of Liskov
+  raw_title: Lessons of Liskov - Peter Bhat Harkins - wroc_love.rb 2016
+  speakers:
+    - Peter Bhat Harkins
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-13'
+  description: ''
+  video_id: tg3YjMqWNj0
+
+- title: Lightning Talks - Day 3
+  raw_title: Lightning talks, day 3 - wroc_love.rb 2016
+  speakers:
+    - Anton Paisov # Explore Your Coffee
+    # - TODO # AirHelp # https://cln.sh/GwhWdqrl
+    - Wiktor Mociun # Let's Talk About NPM
+    - Thiago Massa # Image Processing Tips
+    - Piotr Walkowski # Ruby and a Graph
+    - Patrick Helm # Let's talk about git
+    - Wojciech Piekutowski # Why no Windows 9?
+    - Tatiana Vasilyeva # How Meditation Helped Me Fight Procrastination
+    - Tymon Tobolski # minirails
+    - Michał Muskała # Google Summer of Code
+    - Paweł Pacana # systemd examples
+    - Michał Łomnicki # DRUGStock 2016
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-13'
+  description: ''
+  video_id: nvRgLtQjO0U
+
+- title: When Making Money Becomes a Headache
+  raw_title: When making money becomes a headache - Sebastian Sogamoso - wroc_love.rb 2016
+  speakers:
+    - Sebastian Sogamoso
+  event_name: wroc_love.rb 2016
+  published_at: '2016-03-13'
+  description: ''
+  video_id: py6JSeIIbWU

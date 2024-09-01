@@ -21,13 +21,43 @@
 
 - id: PLoGBNJiQoqRCYNOfsPoxVWChbT5x5D5WP
   title: wroc_love.rb 2014
-  description: ''
-  published_at: '2014-04-17'
+  description: 'March 14-16th 2014, Wrocław Poland'
+  published_at: '2014-04-14'
   channel_id: UC_tX5G6twhuwWZQptcc3DOA
   year: '2014'
   videos_count: 17
   metadata_parser: Youtube::VideoMetadataWroclove2
   slug: wroclove-rb-2014
+
+- id: PLvpu5WTDxTKUi0WDpNIHd2UJ989XlCuqW
+  title: wroc_love.rb 2015
+  description: 'March 13-15th 2015, Wrocław, Poland'
+  published_at: '2015-03-13'
+  channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
+  year: '2015'
+  videos_count: 15
+  metadata_parser: Youtube::VideoMetadata
+  slug: wroclove-rb-2015
+
+- id: PLvpu5WTDxTKUEgWk1rjpGLgWclPKTbUWU
+  title: wroc_love.rb 2016
+  description: 'March 11-13th 2016, Wrocław Poland'
+  published_at: '2016-03-11'
+  channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
+  year: '2016'
+  videos_count: 15
+  metadata_parser: Youtube::VideoMetadata
+  slug: wroclove-rb-2016
+
+- id: PLvpu5WTDxTKXWU8lq1V9rzJ4g4vOPvfP9
+  title: wroc_love.rb 2017
+  description: 'March 17-19th 2017, Wrocław Poland'
+  published_at: '2017-03-17'
+  channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
+  year: '2017'
+  videos_count: 15
+  metadata_parser: Youtube::VideoMetadata
+  slug: wroclove-rb-2017
 
 - id: PLoGBNJiQoqRDSMznObXnqyq5HbOqLucTz
   title: wroc_love.rb 2018
