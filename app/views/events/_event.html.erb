@@ -1,32 +1,6 @@
-<div id="<%= dom_id event %>">
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Name:</strong>
-    <%= event.name %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Description:</strong>
-    <%#= event.description %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Website:</strong>
-    <%= event.organisation.website %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Kind:</strong>
-    <%= event.organisation.kind %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Frequency:</strong>
-    <%= event.organisation.frequency %>
-  </p>
-
-  <% if action_name != "show" %>
-    <%= link_to "Show this event", event, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-    <%= link_to "Edit this event", edit_event_path(event), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
-    <hr class="mt-6">
-  <% end %>
-</div>
+<%= link_to event_path(event), id: dom_id(event), class: "flex justify-between items-center" do %>
+  <div class="flex items-center gap-2">
+    <span><%= event.name %></span>
+  </div>
+  <%= ui_badge(event.talks_count, kind: :secondary, size: :lg) %>
+<% end %>

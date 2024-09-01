@@ -44,15 +44,17 @@ MeiliSearch::Rails.deactivate! do
 
         talk = Talk.find_or_create_by!(title: talk_data["title"], event: event) do |tlk|
           tlk.description = talk_data["description"]
-          tlk.year = talk_data["year"].presence || event_data["year"]
           tlk.video_id = talk_data["video_id"]
           tlk.video_provider = :youtube
-          tlk.date = talk_data["published_at"]
+          tlk.language = talk_data["language"]
           tlk.thumbnail_xs = talk_data["thumbnail_xs"] || ""
           tlk.thumbnail_sm = talk_data["thumbnail_sm"] || ""
           tlk.thumbnail_md = talk_data["thumbnail_md"] || ""
           tlk.thumbnail_lg = talk_data["thumbnail_lg"] || ""
           tlk.thumbnail_xl = talk_data["thumbnail_xl"] || ""
+
+          year = talk_data["year"].presence || event_data["year"]
+          tlk.date = talk_data["date"] || talk_data["published_at"] || Date.parse("#{year}-01-01")
 
           slug = talk_data["title"].parameterize
 
@@ -278,6 +280,7 @@ topics = [
   "Reporting",
   "REST API",
   "REST",
+  "Rich Text Editor",
   "RJIT",
   "Robot",
   "RPC",

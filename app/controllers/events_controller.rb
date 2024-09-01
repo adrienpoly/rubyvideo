@@ -1,14 +1,23 @@
 class EventsController < ApplicationController
+  include Pagy::Backend
   skip_before_action :authenticate_user!, only: %i[index show update]
   before_action :set_event, only: %i[show edit update]
 
   # GET /events
   def index
-    @events = Event.all
+    @events = Event.includes(:organisation).order(:name)
+    @events = @events.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
   end
 
   # GET /events/1
   def show
+    event_talks = @event.talks
+    if params[:q].present?
+      talks = event_talks.pagy_search(params[:q])
+      @pagy, @talks = pagy_meilisearch(talks, items: 9)
+    else
+      @pagy, @talks = pagy(event_talks.order(date: :desc).includes(:speakers), items: 9)
+    end
   end
 
   # GET /events/1/edit

@@ -1,5 +1,10 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+one:
+  name: Topic 1
+  slug: topic-1
+  status: approved
+
 activerecord:
   name: ActiveRecord
   slug: activerecord
@@ -9,3 +14,8 @@ activesupport:
   name: ActiveSupport
   slug: activesupport
   status: approved
+
+rejected:
+  name: Rejected
+  slug: rejected
+  status: rejected

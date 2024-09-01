@@ -26,7 +26,17 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update talk" do
-    patch talk_url(@talk), params: {talk: {description: @talk.description, slug: @talk.slug, title: @talk.title, year: @talk.year}}
+    patch talk_url(@talk), params: {talk: {description: @talk.description, slug: @talk.slug, title: @talk.title, date: @talk.date}}
     assert_redirected_to talk_url(@talk)
+  end
+
+  test "should show topics" do
+    # to remove when we remove the poor man FF for the topics
+    @user = users(:admin)
+    sign_in_as @user
+
+    get talk_url(@talk)
+    assert_select "a .badge", count: 1, text: "#activerecord"
+    assert_select "a .badge", count: 0, text: "#rejected"
   end
 end
