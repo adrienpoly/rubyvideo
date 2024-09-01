@@ -1,5 +1,5 @@
 ---
-- title: "RailsConf 2014 - Keynote: Writing Software by David Heinemeier Hansson"
+- title: "Keynote: Writing Software"
   raw_title: "RailsConf 2014 - Keynote: Writing Software by David Heinemeier Hansson"
   speakers:
     - David Heinemeier Hansson
@@ -15,10 +15,9 @@
 
     http://amara.org/v/FG1c/
   video_id: 9LfmrkyP81M
+
 - title: Concerns, Decorators, Presenters, Service Objects, Helpers, Help Me Decide!
-  raw_title:
-    RailsConf 2014 - Concerns, Decorators, Presenters, Service Objects, Helpers,
-    Help Me Decide!
+  raw_title: RailsConf 2014 - Concerns, Decorators, Presenters, Service Objects, Helpers, Help Me Decide!
   speakers:
     - Justin Gordon
   event_name: RailsConf 2014
@@ -39,10 +38,9 @@
 
     http://amara.org/v/FG1e/
   video_id: bHpVdOzrvkE
+
 - title: "Demystifying Data Science: A Live Tutorial"
-  raw_title:
-    "RailsConf 2014 - Demystifying Data Science: A Live Tutorial by Todd
-    Schneider"
+  raw_title: "RailsConf 2014 - Demystifying Data Science: A Live Tutorial by Todd Schneider"
   speakers:
     - Todd Schneider
   event_name: RailsConf 2014
@@ -61,6 +59,7 @@
 
     http://amara.org/v/FG1d/
   video_id: 2ZDCxwB29Bg
+
 - title: Empowering Rich Internet Applications (RIAs) with Accessibility
   raw_title: RailsConf 2014 - Empowering Rich Internet Applications (RIAs) with Accessibility
   speakers:
@@ -82,6 +81,7 @@
 
     Gyani is a Java/J2EE professional and Ruby/Rails newbie. Having worked as a Technical Specialist in IT industry for more than 9 years, 9 months back he decided to join Techvision -- a small start-up run by visually challenged Rubyists. Currently he is playing the role of Technical Mentor cum facilitator for the Techvision team and helping Techvision grow in all the domains, one among them is Accessibility which is their niche.
   video_id: c2AKsQki7H0
+
 - title: Mutation Testing with Mutant
   raw_title: RailsConf 2014 - Mutation Testing with Mutant by Erik Michaels-Ober
   speakers:
@@ -102,6 +102,7 @@
 
     http://amara.org/v/FG1f/
   video_id: WccaOMuf01Y
+
 - title: "Rack-AMQP: Ditch HTTP Inside SOA!"
   raw_title: "RailsConf 2014 - Rack-AMQP: Ditch HTTP Inside SOA! by Josh Szmajda"
   speakers:
@@ -126,10 +127,9 @@
 
     http://amara.org/v/FG1i/
   video_id: cINCWpn-LQM
+
 - title: Keith and Mario's Guide to Continuous Deployment with Rails
-  raw_title:
-    RailsConf 2014 - Keith and Mario's Guide to Continuous Deployment with
-    Rails
+  raw_title: RailsConf 2014 - Keith and Mario's Guide to Continuous Deployment with Rails
   speakers:
     - Keith Pitt
     - Mario Visic
@@ -161,7 +161,8 @@
 
     http://amara.org/v/FG1g/
   video_id: DazHGyb7Gqg
-- title: " Where did the OO go? Views Should be Objects Too!"
+
+- title: "Where did the OO go? Views Should be Objects Too!"
   raw_title: RailsConf 2014 - Where did the OO go? Views Should be Objects Too!
   speakers:
     - Andrew Warner
@@ -185,6 +186,7 @@
 
     http://amara.org/v/FG1h/
   video_id: WAN_P1m76GQ
+
 - title: Supercharge Your Workers with Storm
   raw_title: RailsConf 2014 - Supercharge Your Workers with Storm by Carl Lerche
   speakers:
@@ -207,10 +209,9 @@
 
     http://amara.org/v/FG1m/
   video_id: qjZnezdSKnw
+
 - title: Modeling on the Right Side of the Brain
-  raw_title:
-    RailsConf 2014 - Modeling on the Right Side of the Brain by Nicholas
-    Henry
+  raw_title: RailsConf 2014 - Modeling on the Right Side of the Brain by Nicholas Henry
   speakers:
     - Nicholas Henry
   event_name: RailsConf 2014
@@ -229,6 +230,7 @@
 
     http://amara.org/v/FG1o/
   video_id: ABIvpz50cKU
+
 - title: Let Me Code
   raw_title: RailsConf 2014 - Let Me Code by Liana Leahy
   speakers:
@@ -321,10 +323,9 @@
 
     http://amara.org/v/FG1p/
   video_id: kRUS8Zvg3sg
+
 - title: Domain Driven Design and Hexagonal Architecture with Rails
-  raw_title:
-    RailsConf 2014 - Domain Driven Design and Hexagonal Architecture with
-    Rails
+  raw_title: RailsConf 2014 - Domain Driven Design and Hexagonal Architecture with Rails
   speakers:
     - Eric Roberts
     - Declan Whelan
@@ -348,10 +349,9 @@
 
     http://amara.org/v/FG1q/
   video_id: _rbF97T4480
+
 - title: Lightning Fast Deployment of Your Rails-backed JavaScript app
-  raw_title:
-    RailsConf 2014 - Lightning Fast Deployment of Your Rails-backed JavaScript
-    app
+  raw_title: RailsConf 2014 - Lightning Fast Deployment of Your Rails-backed JavaScript app
   speakers:
     - Luke Melia
   event_name: RailsConf 2014
@@ -372,6 +372,7 @@
 
     http://amara.org/v/FG1r/
   video_id: QZVYP3cPcWQ
+
 - title: "Advanced aRel: When ActiveRecord Just Isn't Enough"
   raw_title: "RailsConf 2014 -Advanced aRel: When ActiveRecord Just Isn't Enough"
   speakers:
@@ -394,6 +395,7 @@
 
     http://amara.org/v/FG1s/
   video_id: ShPAxNcLm3o
+
 - title: What is REST? Why is it Part of the Rails Way?
   raw_title: RailsConf 2014 - What is REST? Why is it Part of the Rails Way?
   speakers:
@@ -420,6 +422,7 @@
 
     http://amara.org/v/FG1y/
   video_id: HTi-UIHNouE
+
 - title: Too Big to Fail
   raw_title: RailsConf 2014 - Too Big to Fail by Chris Maddox
   speakers:
@@ -444,6 +447,7 @@
 
     http://amara.org/v/FG1u/
   video_id: MOTpwIwQMTI
+
 - title: Deploying Rails is Easier Than it Looks
   raw_title: RailsConf 2014 - Deploying Rails is Easier Than it Looks by Ben Dixon
   speakers:
@@ -466,7 +470,8 @@
 
     http://amara.org/v/FG1w/
   video_id: hTofBnxyBUU
-- title: "RailsConf 2014 - Keynote: 10 Years! by Yehuda Katz"
+
+- title: "Keynote: 10 Years!"
   raw_title: "RailsConf 2014 - Keynote: 10 Years! by Yehuda Katz"
   speakers:
     - Yehuda Katz
@@ -482,6 +487,7 @@
 
     http://amara.org/v/FG1x/
   video_id: 9naDS3r4MbY
+
 - title: Reading Code Good
   raw_title: RailsConf 2014 - Reading Code Good by Saron Yitbarek
   speakers:
@@ -502,6 +508,7 @@
 
     http://amara.org/v/FG1O/
   video_id: mW_xKGUKLpk
+
 - title: Ruby on Rails Hacking Guide
   raw_title: RailsConf 2014 - Ruby on Rails Hacking Guide by Akira Matsuda
   speakers:
@@ -528,6 +535,7 @@
 
     http://amara.org/v/FG1P/
   video_id: iACG4Dn_51w
+
 - title: Web Applications with Ruby (not Rails)
   raw_title: RailsConf 2014 - Web Applications with Ruby (not Rails) by David Padilla
   speakers:
@@ -554,10 +562,9 @@
 
     http://amara.org/v/FG1Q/
   video_id: TqiuMn1acV8
+
 - title: Technical Onboarding, Training, and Mentoring
-  raw_title:
-    RailsConf 2014 - Technical Onboarding, Training, and Mentoring by Kate
-    Heddleston
+  raw_title: RailsConf 2014 - Technical Onboarding, Training, and Mentoring by Kate Heddleston
   speakers:
     - Kate Heddleston
   event_name: RailsConf 2014
@@ -576,6 +583,7 @@
 
     http://amara.org/v/FG1T/
   video_id: Lpg4jRSH7EE
+
 - title: Surviving the Big Rewrite
   raw_title: RailsConf 2014 - Surviving the Big Rewrite by Bradly Feeley
   speakers:
@@ -592,6 +600,7 @@
 
     http://amara.org/v/FG1U/
   video_id: LRXaN0Wdl4U
+
 - title: Artisans and Apprentices
   raw_title: RailsConf 2014 - Artisans and Apprentices by Coraline Ada Ehmke
   speakers:
@@ -612,10 +621,9 @@
 
     http://amara.org/v/FG1R/
   video_id: 96cqqEfGSFg
+
 - title: Building kick-ass internal education programs (for large and small budgets)
-  raw_title:
-    RailsConf 2014 - Building kick-ass internal education programs (for large
-    and small budgets)
+  raw_title: RailsConf 2014 - Building kick-ass internal education programs (for large and small budgets)
   speakers:
     - Chuck Lauer Vose
   event_name: RailsConf 2014
@@ -638,6 +646,7 @@
 
     http://amara.org/v/FG1S/
   video_id: LPZmNfhPPOs
+
 - title: "Middleman: the Missing View in the Rails API Stack"
   raw_title: "RailsConf 2014 - Middleman: the Missing View in the Rails API Stack"
   speakers:
@@ -656,10 +665,9 @@
 
     http://amara.org/v/FG0t/
   video_id: "-q_oUyEHiEw"
+
 - title: Tricks That Rails Didn't Tell You About
-  raw_title:
-    RailsConf 2014 - Tricks That Rails Didn't Tell You About by Carlos Antionio
-    da Silva
+  raw_title: RailsConf 2014 - Tricks That Rails Didn't Tell You About by Carlos Antionio da Silva
   speakers:
     - Carlos Antionio da Silva
   event_name: RailsConf 2014
@@ -678,10 +686,14 @@
 
     http://amara.org/v/FG1a/
   video_id: YKm0v_weFZs
+
 - title: "Panel: Teaching the Next Great Developers"
   raw_title: "RailsConf 2014 - Panel: Teaching the Next Great Developers by Noel Rappin"
   speakers:
     - Noel Rappin
+    - Dave Hoover
+    - Jeff Casimir
+    - Ben Orenstein
   event_name: RailsConf 2014
   thumbnail_xs: https://i.ytimg.com/vi/dYkFnxUzc0I/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/dYkFnxUzc0I/mqdefault.jpg
@@ -698,6 +710,7 @@
 
     http://amara.org/v/FG17/
   video_id: dYkFnxUzc0I
+
 - title: Biggish Data With Rails and Postgresql
   raw_title: RailsConf 2014 - Biggish Data With Rails and Postgresql by Starr Horne
   speakers:
@@ -722,6 +735,7 @@
 
     http://amara.org/v/FG18/
   video_id: 40xq1jXM7GY
+
 - title: What the Cache?!
   raw_title: RailsConf 2014 - What the Cache?! by Simon Kröger
   speakers:
@@ -742,6 +756,7 @@
 
     http://amara.org/v/FG19/
   video_id: atr8qv7wzPM
+
 - title: Refactoring Towards Component-based Rails Architectures
   raw_title: RailsConf 2014 - Refactoring Towards Component-based Rails Architectures
   speakers:
@@ -764,6 +779,7 @@
 
     http://amara.org/v/FG0v/
   video_id: MIhlAiMc7tU
+
 - title: Rails as an SOA Client
   raw_title: RailsConf 2014 - Rails as an SOA Client by Pete Hodgson
   speakers:
@@ -784,6 +800,7 @@
 
     http://amara.org/v/FG0w/
   video_id: CzF3g_JM1YQ
+
 - title: Service Oriented Authenication
   raw_title: RailsConf 2014 - Service Oriented Authenication by Jeremy Green
   speakers:
@@ -804,10 +821,9 @@
 
     http://amara.org/v/FG0x/
   video_id: L1B_HpCW8bs
+
 - title: Authorization in a Service-Oriented Environment
-  raw_title:
-    RailsConf 2014 - Authorization in a Service-Oriented Environment by Alan
-    Cohen
+  raw_title: RailsConf 2014 - Authorization in a Service-Oriented Environment by Alan Cohen
   speakers:
     - Alan Cohen
   event_name: RailsConf 2014
@@ -826,9 +842,11 @@
 
     http://amara.org/v/FG0y/
   video_id: 6tQTwmIgclE
-- title: Ruby Heros
+
+- title: Ruby Heros Awards 2014
   raw_title: RailsConf 2014 - Ruby Heros
   speakers:
+    - Gregg Pollack
   event_name: RailsConf 2014
   thumbnail_xs: https://i.ytimg.com/vi/qoc21UvC3p4/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/qoc21UvC3p4/mqdefault.jpg
@@ -841,10 +859,9 @@
 
     http://amara.org/v/FG0z/
   video_id: qoc21UvC3p4
+
 - title: Designing the APIs for an Internal Set of Services
-  raw_title:
-    RailsConf 2014 - Designing the APIs for an Internal Set of Services by
-    Alberto Leal
+  raw_title: RailsConf 2014 - Designing the APIs for an Internal Set of Services by Alberto Leal
   speakers:
     - Alberto Leal
   event_name: RailsConf 2014
@@ -869,6 +886,7 @@
 
     http://amara.org/v/FG1C/
   video_id: LuyAuXwA4rY
+
 - title: Humor in The Code
   raw_title: RailsConf 2014 - Humor in The Code by Baratunde Thurston
   speakers:
@@ -887,6 +905,7 @@
 
     http://amara.org/v/FG1A/
   video_id: Oax1R1S6LI4
+
 - title: Build The API First
   raw_title: RailsConf 2014 - Build The API First by Rosie Hoyem and Sonja Hall
   speakers:
@@ -912,6 +931,7 @@
 
     http://amara.org/v/FG1B/
   video_id: xlZ1A-d5x5U
+
 - title: Debugger Driven Developement with Pry
   raw_title: RailsConf 2014 - Debugger Driven Developement with Pry by Joel Turnbull
   speakers:
@@ -934,6 +954,7 @@
 
     http://amara.org/v/FG1D/
   video_id: 4hfMUP5iTq8
+
 - title: Eliminating Inconsistent Test Failures
   raw_title: RailsConf 2014 - Eliminating Inconsistent Test Failures by Austin Putman
   speakers:
@@ -956,6 +977,7 @@
 
     http://amara.org/v/FG1E/
   video_id: Z6Xk5JWVrcA
+
 - title: Effectively Testing Services
   raw_title: RailsConf 2014 - Effectively Testing Services by Neal Kemp
   speakers:
@@ -980,6 +1002,7 @@
 
     http://amara.org/v/FG1F/
   video_id: sMWthvdWS-w
+
 - title: "Front-End: Fun, Not Frustration"
   raw_title: "RailsConf 2014 - Front-End: Fun, Not Frustration by Roy Tomeij"
   speakers:
@@ -1002,6 +1025,7 @@
 
     http://amara.org/v/FG1G/
   video_id: Ljl_7wRVrPo
+
 - title: "Elements of Design: A Developer's Primer"
   raw_title: "RailsConf 2014 - Elements of Design: A Developer's Primer by Jenn Scheer"
   speakers:
@@ -1024,10 +1048,9 @@
 
     http://amara.org/v/FG1H/
   video_id: fN1MTmJeLew
+
 - title: "Sketchnothing: Creative Notes for Technical Content"
-  raw_title:
-    "RailsConf 2014 - Sketchnothing: Creative Notes for Technical Content
-    by Jessica Eldredge"
+  raw_title: "RailsConf 2014 - Sketchnothing: Creative Notes for Technical Content by Jessica Eldredge"
   speakers:
     - Jessica Eldredge
   event_name: RailsConf 2014
@@ -1048,12 +1071,9 @@
 
     http://amara.org/v/FG1I/
   video_id: VJq-5EHN7J4
-- title:
-    "How They Work Better Together: Lean UX, Agile Development and User-Centered
-    Design"
-  raw_title:
-    "RailsConf 2014 - How They Work Better Together: Lean UX, Agile Development
-    and User-Centered Design"
+
+- title: "How They Work Better Together: Lean UX, Agile Development and User-Centered Design"
+  raw_title: "RailsConf 2014 - How They Work Better Together: Lean UX, Agile Development and User-Centered Design"
   speakers:
     - John Athayde
   event_name: RailsConf 2014
@@ -1074,6 +1094,7 @@
 
     http://amara.org/v/FG00/
   video_id: zdwnogUMtc4
+
 - title: Discovering User Interactions
   raw_title: RailsConf 2014 - Discovering User Interactions by Cameron Daigle
   speakers:
@@ -1094,6 +1115,7 @@
 
     http://amara.org/v/FG01/
   video_id: Rf0NhjMAVoY
+
 - title: The Power of M
   raw_title: RailsConf 2014 - The Power of M by Charles Lowell
   speakers:
@@ -1120,12 +1142,11 @@
 
     http://amara.org/v/FG02/
   video_id: gD2HRyPHjUc
+
 - title: I've Pair Programmed for 27,000 Hours. Ask Me Anythings!
-  raw_title:
-    RailsConf 2014 - I've Pair Programmed for 27,000 Hours. Ask Me Anythings!
-    by Joe moore
+  raw_title: RailsConf 2014 - I've Pair Programmed for 27,000 Hours. Ask Me Anythings! by Joe moore
   speakers:
-    - Joe moore
+    - Joe Moore
   event_name: RailsConf 2014
   thumbnail_xs: https://i.ytimg.com/vi/156LdcEjfhs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/156LdcEjfhs/mqdefault.jpg
@@ -1148,10 +1169,9 @@
 
     http://amara.org/v/FG03/
   video_id: 156LdcEjfhs
+
 - title: "Bring Fun Back to JS: Step-by-Step Refactoring Toward Ember"
-  raw_title:
-    "RailsConf 2014 - Bring Fun Back to JS: Step-by-Step Refactoring Toward
-    Ember by Brandon Hays"
+  raw_title: "RailsConf 2014 - Bring Fun Back to JS: Step-by-Step Refactoring Toward Ember by Brandon Hays"
   speakers:
     - Brandon Hays
   event_name: RailsConf 2014
@@ -1174,10 +1194,9 @@
 
     http://amara.org/v/FG04/
   video_id: VMmaKj8hCR4
+
 - title: The "Rails of JavaScript" Won't be a Framework
-  raw_title:
-    RailsConf 2014 - The "Rails of JavaScript" Won't be a Framework by Justin
-    Searls
+  raw_title: RailsConf 2014 - The "Rails of JavaScript" Won't be a Framework by Justin Searls
   speakers:
     - Justin Searls
   event_name: RailsConf 2014
@@ -1196,10 +1215,9 @@
 
     http://amara.org/v/FG05/
   video_id: Ylrm-mWALGI
+
 - title: An Iterative Approach to Service Oriented Architecture
-  raw_title:
-    RailsConf 2014 - An Iterative Approach to Service Oriented Architecture
-    by Eric Saxby
+  raw_title: RailsConf 2014 - An Iterative Approach to Service Oriented Architecture by Eric Saxby
   speakers:
     - Eric Saxby
   event_name: RailsConf 2014
@@ -1220,12 +1238,9 @@
 
     http://amara.org/v/FG06/
   video_id: 886iF1tNLZ4
-- title:
-    "Improve Performance Quick and Cheap: Optimize Memory and Upgrade to Ruby
-    2.1"
-  raw_title:
-    "RailsConf 2014 - Improve Performance Quick and Cheap: Optimize Memory
-    and Upgrade to Ruby 2.1"
+
+- title: "Improve Performance Quick and Cheap: Optimize Memory and Upgrade to Ruby 2.1"
+  raw_title: "RailsConf 2014 - Improve Performance Quick and Cheap: Optimize Memory and Upgrade to Ruby 2.1"
   speakers:
     - Alexander Dymo
   event_name: RailsConf 2014
@@ -1248,10 +1263,9 @@
 
     http://amara.org/v/FG07/
   video_id: pZ_BcEcFGj0
+
 - title: "Cognitive Shortcuts: Models, Visualizations, Metaphors, and Other Lies"
-  raw_title:
-    "RailsConf 2014 - Cognitive Shortcuts: Models, Visualizations, Metaphors,
-    and Other Lies"
+  raw_title: "RailsConf 2014 - Cognitive Shortcuts: Models, Visualizations, Metaphors, and Other Lies"
   speakers:
     - Sam Livingston-Gray
   event_name: RailsConf 2014
@@ -1282,6 +1296,7 @@
 
     http://amara.org/v/FG08/
   video_id: __qEkyJipX0
+
 - title: How to be a Boss Without the B-S
   raw_title: RailsConf 2014 - How to be a Boss Without the B-S by Jessie Link
   speakers:
@@ -1302,7 +1317,8 @@
 
     http://amara.org/v/FG09/
   video_id: 10_6gWK6t18
-- title: RailsConf 2014 - Closing Keynote by Aaron Patterson
+
+- title: Closing Keynote
   raw_title: RailsConf 2014 - Closing Keynote by Aaron Patterson
   speakers:
     - Aaron Patterson
@@ -1318,6 +1334,7 @@
 
     http://amara.org/v/FG0a/
   video_id: BTTygyxuGj8
+
 - title: Distributed Request Tracing
   raw_title: RailsConf 2014 - Distributed Request Tracing by Kenny Hoxworth
   speakers:
@@ -1338,6 +1355,7 @@
 
     http://amara.org/v/FG0b/
   video_id: L9HiJrR2RQY
+
 - title: How to be a Better Junior Developer
   raw_title: RailsConf 2014 - How to be a Better Junior Developer by Katherine Wu
   speakers:
@@ -1358,10 +1376,9 @@
 
     http://amara.org/v/FG0m/
   video_id: GJW46x27W1w
+
 - title: Building an OSS-Centric Company (and Why You Want To)
-  raw_title:
-    RailsConf 2014 - Building an OSS-Centric Company (and Why You Want To)
-    by Leah Silber
+  raw_title: RailsConf 2014 - Building an OSS-Centric Company (and Why You Want To) by Leah Silber
   speakers:
     - Leah Silber
   event_name: RailsConf 2014
@@ -1380,10 +1397,9 @@
 
     http://amara.org/v/FG0n/
   video_id: zD26LvYbfms
+
 - title: Saving the World (Literally) with Ruby on Rails
-  raw_title:
-    RailsConf 2014 - Saving the World (Literally) with Ruby on Rails by Sean
-    Marcia
+  raw_title: RailsConf 2014 - Saving the World (Literally) with Ruby on Rails by Sean Marcia
   speakers:
     - Sean Marcia
   event_name: RailsConf 2014
@@ -1402,6 +1418,7 @@
 
     http://amara.org/v/FG0k/
   video_id: J8i3mKJyjbQ
+
 - title: You are Not an Impostor
   raw_title: RailsConf 2014 - You are Not an Impostor by Nickolas Means
   speakers:
@@ -1422,6 +1439,7 @@
 
     http://amara.org/v/FG0l/
   video_id: l_Vqp1dPuPo
+
 - title: Make an Event of It
   raw_title: RailsConf 2014 - Make an Event of It by Jason Clark
   speakers:
@@ -1446,6 +1464,7 @@
 
     http://amara.org/v/FG0R/
   video_id: dgUhP606F9w
+
 - title: Real-time Rails with Sync
   raw_title: RailsConf 2014 - Real-time Rails with Sync by Mike Moore
   speakers:
@@ -1468,6 +1487,7 @@
 
     http://amara.org/v/FG0S/
   video_id: L1YcCNcWUMs
+
 - title: "Looking Backward: Ten Years on Rails"
   raw_title: "RailsConf 2014 - Looking Backward: Ten Years on Rails by Luke Francl"
   speakers:
@@ -1490,10 +1510,9 @@
 
     http://amara.org/v/FG0T/
   video_id: VnhVkzop1_w
-- title: "Workshop - Simplifying Code: Monster to Elegant in Less Than 5 steps"
-  raw_title:
-    "RailsConf 2014 - Workshop - Simplifying Code: Monster to Elegant in
-    Less Than 5 steps by Tute Costa"
+
+- title: "Workshop: Simplifying Code - Monster to Elegant in Less Than 5 steps"
+  raw_title: "RailsConf 2014 - Workshop - Simplifying Code: Monster to Elegant in Less Than 5 steps by Tute Costa"
   speakers:
     - Tute Costa
   event_name: RailsConf 2014
@@ -1512,10 +1531,9 @@
 
     http://amara.org/v/FG0U/
   video_id: ozWzehOEeuI
-- title: Workshop - Ruby Coding Dojo
-  raw_title:
-    RailsConf 2014 - Workshop - Ruby Coding Dojo by Carlos Souza and David
-    Rogers
+
+- title: 'Workshop: Ruby Coding Dojo'
+  raw_title: RailsConf 2014 - Workshop - Ruby Coding Dojo by Carlos Souza and David Rogers
   speakers:
     - Carlos Souza
     - David Rogers
@@ -1533,10 +1551,9 @@
 
     http://amara.org/v/FGZb/
   video_id: d-Yc7XpELRg
+
 - title: How to Build a Smart Profiler for Rails
-  raw_title:
-    RailsConf 2014 - How to Build a Smart Profiler for Rails by Tom Dale
-    and Yehuda Katz
+  raw_title: RailsConf 2014 - How to Build a Smart Profiler for Rails by Tom Dale and Yehuda Katz
   speakers:
     - Tom Dale
     - Yehuda Katz
@@ -1552,10 +1569,9 @@
 
     http://amara.org/v/FGZc/
   video_id: pYaCcA07adI
+
 - title: Culture of Continue Delivery
-  raw_title:
-    RailsConf 2014 - Culture of Continue Delivery by Leena S N and Vaidy
-    Bala
+  raw_title: RailsConf 2014 - Culture of Continue Delivery by Leena S N and Vaidy Bala
   speakers:
     - Leena S N
     - Vaidy Bala
@@ -1577,6 +1593,7 @@
 
     http://amara.org/v/FGZd/
   video_id: cuRyW0FfBiM
+
 - title: Writing Small Code
   raw_title: RailsConf 2014 - Writing Small Code by Mark Menard
   speakers:
@@ -1597,6 +1614,7 @@
 
     http://amara.org/v/FGZe/
   video_id: Y2dllXkUlu8
+
 - title: All the Little Things
   raw_title: RailsConf 2014 - All the Little Things by Sandi Metz
   speakers:
@@ -1617,6 +1635,7 @@
 
     http://amara.org/v/FG0O/
   video_id: 8bZh5LMaSmE
+
 - title: Ultra Light and Maintainable Rails Wizards
   raw_title: RailsConf 2014 - Ultra Light and Maintainable Rails Wizards by Andy Maleh
   speakers:
@@ -1637,10 +1656,9 @@
 
     http://amara.org/v/FG0P/
   video_id: muyfoiKHMMA
+
 - title: "Rack::Attack: Protect your app with this one weird gem!"
-  raw_title:
-    "RailsConf 2014 - Rack::Attack: Protect your app with this one weird
-    gem! by Aaron Suggs"
+  raw_title: "RailsConf 2014 - Rack::Attack: Protect your app with this one weird gem! by Aaron Suggs"
   speakers:
     - Aaron Suggs
   event_name: RailsConf 2014
@@ -1665,10 +1683,9 @@
 
     http://amara.org/v/FG0Q/
   video_id: m1UwxsZD6sw
+
 - title: "Heroku 2014: A Year in Review"
-  raw_title:
-    "RailsConf 2014 - Heroku 2014: A Year in Review by Terence Lee & Richard
-    Schneeman"
+  raw_title: "RailsConf 2014 - Heroku 2014: A Year in Review by Terence Lee & Richard Schneeman"
   speakers:
     - Terence Lee
     - Richard Schneeman
@@ -1684,10 +1701,9 @@
 
     http://amara.org/v/FGZg/
   video_id: pu-ZWR8UISc
+
 - title: Software Development Lessons from the Apollo Program
-  raw_title:
-    RailsConf 2014 - Software Development Lessons from the Apollo Program
-    by Julian Simioni
+  raw_title: RailsConf 2014 - Software Development Lessons from the Apollo Program by Julian Simioni
   speakers:
     - Julian Simioni
   event_name: RailsConf 2014
@@ -1710,10 +1726,9 @@
 
     http://amara.org/v/FGZf/
   video_id: hrsT9wmPVoo
+
 - title: Engine Yard's New and Improved Cloud Platform
-  raw_title:
-    RailsConf 2014 - Engine Yard's New and Improved Cloud Platform by Edward
-    Chiu & Will Luongo
+  raw_title: RailsConf 2014 - Engine Yard's New and Improved Cloud Platform by Edward Chiu & Will Luongo
   speakers:
     - Edward Chiu
     - Will Luongo
@@ -1729,6 +1744,7 @@
 
     http://amara.org/v/FGZh/
   video_id: kNM4cnF4vrw
+
 - title: An Ode to 17 Databases in 33 Minutes
   raw_title: RailsConf 2014 - An Ode to 17 Databases in 33 Minutes by Toby Hede
   speakers:
@@ -1763,6 +1779,7 @@
 
     http://amara.org/v/FGZi/
   video_id: lzwAJxIESNU
+
 - title: Secrets of a World Memory Champion
   raw_title: RailsConf 2014 - Secrets of a World Memory Champion by Chris Hunt
   speakers:
@@ -1783,6 +1800,7 @@
 
     http://amara.org/v/FGZj/
   video_id: OfTryhTC8wY
+
 - title: "Panel Discussion: The Future of Rails Jobs"
   raw_title: "RailsConf 2014 - Panel Discussion: The Future of Rails Jobs"
   speakers:
@@ -1807,6 +1825,7 @@
 
     http://amara.org/v/FGZk/
   video_id: g3pM6bVPZsQ
+
 - title: WebRTC Change Communcations Forever
   raw_title: RailsConf 2014 - WebRTC Change Communcations Forever by Greg Baugues
   speakers:
@@ -1825,7 +1844,8 @@
 
     http://amara.org/v/FGZl/
   video_id: AviVwTUP38w
-- title: Workshop - Teamwork Ain't Always Easy
+
+- title: "Workshop: Teamwork Ain't Always Easy"
   raw_title: RailsConf 2014 - Workshop - Teamwork Ain't Always Easy by Michael Norton
   speakers:
     - Michael Norton
@@ -1845,10 +1865,9 @@
 
     http://amara.org/v/FGZo/
   video_id: l4eujsVPvtI
+
 - title: "Class Reloading in Ruby on Rails: The Whole Story"
-  raw_title:
-    "RailsConf 2014 - Class Reloading in Ruby on Rails: The Whole Story by
-    Xavier Noria"
+  raw_title: "RailsConf 2014 - Class Reloading in Ruby on Rails: The Whole Story by Xavier Noria"
   speakers:
     - Xavier Noria
   event_name: RailsConf 2014
@@ -1869,10 +1888,9 @@
 
     http://amara.org/v/FGZm/
   video_id: 4sIU8PxJEEk
+
 - title: Tales from the Crypt
-  raw_title:
-    RailsConf 2014 - Tales from the Crypt by Aaron Bedra, Justin Collins
-    and Matt Konda
+  raw_title: RailsConf 2014 - Tales from the Crypt by Aaron Bedra, Justin Collins and Matt Konda
   speakers:
     - Aaron Bedra
     - Justin Collins
@@ -1897,10 +1915,35 @@
 
     http://amara.org/v/FGZn/
   video_id: zZtDOX9kXRU
+
 - title: Lightning Talks
   raw_title: RailsConf 2014 - Lightning Talks by Many People
   speakers:
-    - Many People
+    - Joshua Szmajda
+    - Sachin Shintre
+    - Gyani
+    - Siddhant Chothe
+    - Andrew Nordman
+    - Justin Love
+    - Matthew Nielsen
+    - Andrew Cantino
+    - Yehuda Katz
+    - Ryan Alyea
+    - Adam Cuppy
+    - Mark Lorenz
+    - Mike Gee
+    - Trever yarrish
+    - Mike Bourgeous
+    - Gostavo Robles
+    - Hector Bustillos
+    - Victor Velasquez
+    - Kay Rhodes
+    - Kevin Fallon
+    - Andrew Vit
+    - Brian Garside
+    - Mike Virata-Stone
+    - Kiyoto Tamura
+    - David Padilla
   event_name: RailsConf 2014
   thumbnail_xs: https://i.ytimg.com/vi/o1qbP7RxPOw/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/o1qbP7RxPOw/mqdefault.jpg
@@ -1919,6 +1962,7 @@
     Virata-Stone\n01:30:36 - Kiyoto Tamura\n01:35:41 - David Padilla\n\nHelp us caption
     & translate this video!\n\nhttp://amara.org/v/FG1z/"
   video_id: o1qbP7RxPOw
+
 - title: "Curmudgeon: An Opinionated Framework"
   raw_title: "RailsConf 2014 - Curmudgeon: An Opinionated Framework by Ernie Miller"
   speakers:
@@ -1943,6 +1987,7 @@
 
     http://amara.org/v/FGZp/
   video_id: uDLtgjx5_Ss
+
 - title: You'll Never Believe Which Web Framework Powers Upworthy
   raw_title: RailsConf 2014 - You'll Never Believe Which Web Framework Powers Upworthy
   speakers:
@@ -1968,6 +2013,7 @@
 
     http://amara.org/v/FGZs/
   video_id: r56wJMk8QCg
+
 - title: Living Social Lightning Talks
   raw_title: RailsConf 2014 - Living Social Lightning Talks
   speakers:
@@ -1996,6 +2042,7 @@
 
     http://amara.org/v/FGZt/
   video_id: pFhPEguxqSI
+
 - title: Get More Hands on Your Keyboard
   raw_title: RailsConf 2014 - Get More Hands on Your Keyboard by Manik Juneja
   speakers:
@@ -2014,6 +2061,7 @@
 
     http://amara.org/v/FGZu/
   video_id: DndoNihAzv8
+
 - title: WebRTC Change Communications Forever
   raw_title: RailsConf 2014 - WebRTC Change Communications Forever by Greg Baugues
   speakers:
@@ -2032,12 +2080,9 @@
 
     http://amara.org/v/FGZw/
   video_id: ImCJxCb3RFg
-- title:
-    "Workshop - Applications First, Frameworks Second: Better Systems through
-    Design"
-  raw_title:
-    "RailsConf 2014 - Workshop - Applications First, Frameworks Second: Better
-    Systems through Design"
+
+- title: "Workshop: Applications First, Frameworks Second - Better Systems through Design"
+  raw_title: "RailsConf 2014 - Workshop - Applications First, Frameworks Second: Better Systems through Design"
   speakers:
     - Adam Hawkins
   event_name: RailsConf 2014
@@ -2056,10 +2101,9 @@
 
     http://amara.org/v/FGZy/
   video_id: 6JD0VzPIYAg
+
 - title: Service Extraction at Groupon Scale
-  raw_title:
-    RailsConf 2014 - Service Extraction at Groupon Scale by Jason Sisk &
-    Abhishek Pillai
+  raw_title: RailsConf 2014 - Service Extraction at Groupon Scale by Jason Sisk & Abhishek Pillai
   speakers:
     - Jason Sisk
     - Abhishek Pillai
@@ -2077,12 +2121,12 @@
 
     http://amara.org/v/FGZM/
   video_id: 13SV7MjJugo
+
 - title: Using Software Analytics to Help Make Better Business Decisions
-  raw_title:
-    RailsConf 2014 -  Using Software Analytics to Help Make Better Business
-    Decisions
+  raw_title: RailsConf 2014 -  Using Software Analytics to Help Make Better Business Decisions
   speakers:
-    - Shiv Kumar and Vince Foley
+    - Shiv Kumar
+    - Vince Foley
   event_name: RailsConf 2014
   thumbnail_xs: https://i.ytimg.com/vi/KdmuHgpHJVE/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/KdmuHgpHJVE/mqdefault.jpg
@@ -2099,10 +2143,9 @@
 
     http://amara.org/v/FGZz/
   video_id: KdmuHgpHJVE
-- title: Workshop - Machine Learning For Fun and Profit
-  raw_title:
-    RailsConf 2014 - Workshop - Machine Learning For Fun and Profit by John
-    Paul Ahenfelter
+
+- title: 'Workshop: Machine Learning For Fun and Profit'
+  raw_title: RailsConf 2014 - Workshop - Machine Learning For Fun and Profit by John Paul Ahenfelter
   speakers:
     - John Paul Ahenfelter
   event_name: RailsConf 2014
@@ -2121,7 +2164,8 @@
 
     http://amara.org/v/FGZx/
   video_id: E6CjE0M20jk
-- title: Workshop - All Aboard The Elixir Express!
+
+- title: 'Workshop: All Aboard The Elixir Express!'
   raw_title: RailsConf 2014 - Workshop - All Aboard The Elixir Express! by Chris McCord
   speakers:
     - Chris McCord
@@ -2139,7 +2183,8 @@
 
     http://amara.org/v/FGZr/
   video_id: 5kYmOyJjGDM
-- title: Workshop - Test Drive a Browser Game With JavaScript
+
+- title: 'Workshop: Test Drive a Browser Game With JavaScript'
   raw_title: RailsConf 2014 - Workshop - Test Drive a Browser Game With JavaScript
   speakers:
     - Zach Briggs
@@ -2162,10 +2207,9 @@
 
     http://amara.org/v/FGZN/
   video_id: GzChuWBfA_w
-- title: "Workshop - Taming Chaotic Specs: RSpec Design Patterns"
-  raw_title:
-    "RailsConf 2014 - Workshop - Taming Chaotic Specs: RSpec Design Patterns
-    by Adam Cuppy"
+
+- title: "Workshop: Taming Chaotic Specs - RSpec Design Patterns"
+  raw_title: "RailsConf 2014 - Workshop - Taming Chaotic Specs: RSpec Design Patterns by Adam Cuppy"
   speakers:
     - Adam Cuppy
   event_name: RailsConf 2014
@@ -2182,10 +2226,9 @@
 
     http://amara.org/v/FGZO/
   video_id: d2gL6CYaYwQ
+
 - title: Unreasonable Estimates and Improbable Goals
-  raw_title:
-    RailsConf 2014 - Unreasonable Estimates and Improbable Goals by Adam
-    Sanderson
+  raw_title: RailsConf 2014 - Unreasonable Estimates and Improbable Goals by Adam Sanderson
   speakers:
     - Adam Sanderson
   event_name: RailsConf 2014
@@ -2208,6 +2251,7 @@
 
     http://amara.org/v/FGZP/
   video_id: h6Q2dQZ6GlY
+
 - title: Branding for Open Source Success
   raw_title: RailsConf 2014 - Branding for Open Source Success by Bree Thomas
   speakers:
@@ -2228,12 +2272,9 @@
 
     http://amara.org/v/FGZQ/
   video_id: ZxHiXIJTaxE
-- title:
-    "Rails Conf 2014 - Keynote: What Happens to Everyone, When Everyone Learns
-    to Code?"
-  raw_title:
-    "Rails Conf 2014 - Keynote: What Happens to Everyone, When Everyone Learns
-    to Code?"
+
+- title: "Keynote: What Happens to Everyone, When Everyone Learns to Code?"
+  raw_title: "Rails Conf 2014 - Keynote: What Happens to Everyone, When Everyone Learns to Code?"
   speakers:
     - Farrah Bostic
   event_name: RailsConf 2014

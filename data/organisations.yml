@@ -27,7 +27,7 @@
   playlist_matcher:
   default_country_code:
   youtube_channel_name: railsofficial
-  slug: railsworld
+  slug: rails-world
   language: english
   youtube_channel_id: UC9zbLaqReIdoFfzdUbh13Nw
 - name: RubyConf
@@ -71,6 +71,15 @@
   slug: helsinki-ruby-brigade
   language: english
   youtube_channel_id: UCcoS038f4xA_Lz5AoD0ShzA
+- name: Baltic Ruby
+  website: https://balticruby.org
+  twitter: balticruby
+  youtube_channel_name: balticruby
+  kind: conference
+  frequency: yearly
+  youtube_channel_id: UCyTip8pDXBqTxTR6fDZItDw
+  slug: balticruby
+  language: english
 - name: Rocky Mountain Ruby
   website: http://rockymtnruby.dev
   twitter: rmrubyconf
@@ -93,3 +102,124 @@
   slug: ruby-warsaw-community-conference
   language: english
   youtube_channel_id: UCVlG6qQ1mGnJv185ayWjEzg
+- name: Blue Ridge Ruby
+  website: https://blueridgeruby.com
+  twitter: blueridgeruby
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Blue Ridge Ruby
+  default_country_code: US
+  youtube_channel_name: Confreaks
+  slug: blue-ridge-ruby
+  language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+- name: Ancient City Ruby
+  website: https://twitter.com/ancientcityruby
+  twitter: ancientcityruby
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Ancient City Ruby
+  default_country_code: US
+  youtube_channel_name: hashrocket
+  slug: ancient-city-ruby
+  language: english
+  youtube_channel_id: UCk7lIUwfv3OAWCfk3rreAAg
+- name: Ruby on Ice
+  website: https://rubyonice.com
+  twitter: rubyoniceconf
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: DE
+  youtube_channel_name: rubyonice7635
+  slug: ruby-on-ice
+  language: english
+  youtube_channel_id: UCXNhwlbzt-6LoOzMt4wrF0A
+- name: Balkan Ruby
+  website: https://balkanruby.com
+  twitter: balkanruby
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Balkan Ruby
+  default_country_code: BG
+  youtube_channel_name: balkanruby6171
+  slug: balkanruby
+  language: english
+  youtube_channel_id: UCR076_JBPtcQKfiwiVOB3Cg
+- name: wroc_love.rb
+  website: https://wrocloverb.com
+  twitter: wrocloverb
+  kind: conference
+  frequency: yearly
+  playlist_matcher: wroc_love.rb
+  default_country_code: PL
+  youtube_channel_name: wrocloverb
+  slug: wroclove-rb
+  language: english
+  youtube_channel_id: UC_tX5G6twhuwWZQptcc3DOA
+- name: Tropical.rb
+  website: https://tropicalrb.com
+  twitter: tropicalrb
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: BR
+  youtube_channel_name: tropicalrb
+  slug: tropicalrb
+  language: english
+  youtube_channel_id: UCC3ljLfioI4qN2_zmG_kseQ
+- name: paris.rb
+  website: https://paris-rb.org
+  twitter: parisrb
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Paris.rb conf
+  default_country_code: FR
+  youtube_channel_name: Parisrbmeetup
+  slug: paris-rb
+  language: english
+  youtube_channel_id: UCttFnyoHp4TdsTj1wcVs44A
+- name: Ruby Unconf
+  website: https://rubyunconf.eu
+  twitter: rubyunconfeu
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: DE
+  youtube_channel_name: rubyunconf5227
+  slug: rubyunconf
+  language: english
+  youtube_channel_id: UCpdY3gEqGW10EVrUbd1itug
+- name: RubyKaigi
+  website: https://rubykaigi.org
+  twitter: RubyKaigi
+  kind: conference
+  frequency: yearly
+  playlist_matcher: RubyKaigi
+  default_country_code: JA
+  youtube_channel_name: rubykaigi4884
+  slug: rubykaigi
+  language: english
+  youtube_channel_id: UCBSg5zH-VFJ42BGQFk4VH2A
+- name: Pivorak Lviv Ruby Meetup
+  website: https://pivorak.com
+  twitter: pivorakmeetup
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Pivorak Conf
+  default_country_code: UA
+  youtube_channel_name: pivorakLvivRubyMeetUp
+  slug: pivorak
+  language: english
+  youtube_channel_id: UCPsfLdQH_0CaDIe4imm7bMA
+- name: RubyConf Taiwan
+  website: https://rubyconf.tw
+  twitter: rubyconftw
+  kind: conference
+  frequency: yearly
+  playlist_matcher: RubyConf
+  default_country_code: TW
+  youtube_channel_name: RubyConfTW
+  slug: rubyconf-taiwan
+  language: english
+  youtube_channel_id: UCqw_z59yI24SivuD573FECA

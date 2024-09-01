@@ -14,6 +14,10 @@ module ApplicationHelper
     output << link_to("contributors", "https://github.com/adrienpoly/rubyvideo/graphs/contributors", target: "_blank", class: "link")
     output << "using an"
     output << link_to("edge stack.", uses_path, class: "link")
-    sanitize(output.join(" "), tags: %w[a span svg], attributes: %w[href target class alt])
+    sanitize(output.join(" "), tags: %w[a span svg path], attributes: %w[href target class alt d xmlns viewBox fill])
+  end
+
+  def canonical_url
+    content_for?(:canonical_url) ? content_for(:canonical_url) : "https://www.rubyvideo.dev#{request.path}"
   end
 end

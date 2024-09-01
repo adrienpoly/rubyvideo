@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_01_163900) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -66,6 +66,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
     t.datetime "updated_at", null: false
     t.string "name", default: "", null: false
     t.string "slug", default: "", null: false
+    t.integer "talks_count", default: 0, null: false
     t.index ["name"], name: "index_events_on_name"
     t.index ["organisation_id"], name: "index_events_on_organisation_id"
     t.index ["slug"], name: "index_events_on_slug"
@@ -122,6 +123,8 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "talks_count", default: 0, null: false
+    t.integer "canonical_id"
+    t.index ["canonical_id"], name: "index_speakers_on_canonical_id"
     t.index ["name"], name: "index_speakers_on_name"
     t.index ["slug"], name: "index_speakers_on_slug", unique: true
   end
@@ -137,6 +140,16 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
     t.index ["suggestable_type", "suggestable_id"], name: "index_suggestions_on_suggestable"
   end
 
+  create_table "talk_topics", force: :cascade do |t|
+    t.integer "talk_id", null: false
+    t.integer "topic_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["talk_id", "topic_id"], name: "index_talk_topics_on_talk_id_and_topic_id", unique: true
+    t.index ["talk_id"], name: "index_talk_topics_on_talk_id"
+    t.index ["topic_id"], name: "index_talk_topics_on_topic_id"
+  end
+
   create_table "talks", force: :cascade do |t|
     t.string "title", default: "", null: false
     t.text "description", default: "", null: false
@@ -146,7 +159,6 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
     t.string "thumbnail_sm", default: "", null: false
     t.string "thumbnail_md", default: "", null: false
     t.string "thumbnail_lg", default: "", null: false
-    t.integer "year"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "event_id"
@@ -158,10 +170,25 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
     t.text "raw_transcript", default: "", null: false
     t.text "enhanced_transcript", default: "", null: false
     t.text "summary", default: "", null: false
+    t.string "language", default: "en", null: false
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["slug"], name: "index_talks_on_slug"
     t.index ["title"], name: "index_talks_on_title"
+  end
+
+  create_table "topics", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.boolean "published", default: false
+    t.string "slug", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "status", default: "pending", null: false
+    t.integer "canonical_id"
+    t.index ["canonical_id"], name: "index_topics_on_canonical_id"
+    t.index ["name"], name: "index_topics_on_name", unique: true
+    t.index ["status"], name: "index_topics_on_status"
   end
 
   create_table "users", force: :cascade do |t|
@@ -180,5 +207,9 @@ ActiveRecord::Schema[7.2].define(version: 2024_07_18_202658) do
   add_foreign_key "events", "organisations"
   add_foreign_key "password_reset_tokens", "users"
   add_foreign_key "sessions", "users"
+  add_foreign_key "speakers", "speakers", column: "canonical_id"
+  add_foreign_key "talk_topics", "talks"
+  add_foreign_key "talk_topics", "topics"
   add_foreign_key "talks", "events"
+  add_foreign_key "topics", "topics", column: "canonical_id"
 end

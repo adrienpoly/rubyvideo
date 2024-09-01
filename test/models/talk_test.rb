@@ -12,7 +12,6 @@
 #  thumbnail_sm        :string           default(""), not null
 #  thumbnail_md        :string           default(""), not null
 #  thumbnail_lg        :string           default(""), not null
-#  year                :integer
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null
 #  event_id            :integer
@@ -80,5 +79,73 @@ class TalkTest < ActiveSupport::TestCase
       end
       assert @talk.enhanced_transcript.cues.present?
     end
+  end
+
+  test "extract topics" do
+    @talk = talks(:one)
+
+    VCR.use_cassette("talks/extract_topics") do
+      assert_changes "@talk.topics.count" do
+        perform_enqueued_jobs do
+          AnalyzeTalkTopicsJob.perform_later(@talk)
+        end
+      end
+    end
+  end
+
+  test "does not create duplicate topics" do
+    @talk = talks(:one)
+    perform_enqueued_jobs do
+      VCR.use_cassette("talks/extract_topics", allow_playback_repeats: true) do
+        AnalyzeTalkTopicsJob.perform_later(@talk)
+        assert_no_changes "@talk.topics.count" do
+          AnalyzeTalkTopicsJob.perform_later(@talk)
+        end
+      end
+    end
+  end
+
+  test "update_from_yml_metadata" do
+    @talk = talks(:one)
+    @event = events(:rails_world_2023)
+    @talk.update!(title: "New title", description: "New description", event: @event)
+    assert_equal "New title", @talk.title
+    assert_equal "New description", @talk.description
+
+    @talk.update_from_yml_metadata!
+    assert_equal "Hotwire Cookbook: Common Uses, Essential Patterns & Best Practices", @talk.title
+  end
+
+  test "language is english by default" do
+    assert_equal "en", Talk.new.language
+  end
+
+  test "language is normalized to alpha2 code" do
+    assert_equal "en", Talk.new(language: "English").language
+    assert_equal "en", Talk.new(language: "english").language
+    assert_equal "en", Talk.new(language: "en").language
+
+    assert_equal "ja", Talk.new(language: "Japanese").language
+    assert_equal "ja", Talk.new(language: "japanese").language
+    assert_equal "ja", Talk.new(language: "ja").language
+
+    assert_nil Talk.new(language: "doesntexist").language
+    assert_nil Talk.new(language: "random").language
+  end
+
+  test "language must be valid and present" do
+    talk = talks(:one)
+    talk.language = "random"
+    talk.valid?
+
+    assert_equal 2, talk.errors.size
+    assert_equal ["Language can't be blank", "Language  is not a valid IS0-639 alpha2 code"],
+      talk.errors.map(&:full_message)
+  end
+
+  test "create a new talk with a nil language" do
+    talk = Talk.create!(title: "New title", language: nil)
+    assert_equal "en", talk.language
+    assert talk.valid?
   end
 end

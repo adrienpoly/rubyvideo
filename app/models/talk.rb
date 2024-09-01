@@ -12,7 +12,6 @@
 #  thumbnail_sm        :string           default(""), not null
 #  thumbnail_md        :string           default(""), not null
 #  thumbnail_lg        :string           default(""), not null
-#  year                :integer
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null
 #  event_id            :integer
@@ -40,15 +39,34 @@ class Talk < ApplicationRecord
   extend Pagy::Meilisearch
 
   # associations
-  belongs_to :event, optional: true
+  belongs_to :event, optional: true, counter_cache: :talks_count
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :speakers, through: :speaker_talks, inverse_of: :talks
 
+  has_many :talk_topics, dependent: :destroy
+  has_many :topics, through: :talk_topics
+  has_many :approved_topics, -> { approved }, through: :talk_topics, source: :topic, inverse_of: :talks
+
   # validations
   validates :title, presence: true
+  validates :language, presence: true,
+    inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
 
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
+
+  # jobs
+  performs :update_from_yml_metadata!, queue_as: :low
+
+  # normalization
+  normalizes :language, apply_to_nil: true, with: ->(language) do
+    language.present? ? Language.find(language)&.alpha2 : Language::DEFAULT
+  end
+
+  # TODO convert to performs
+  def analyze_talk_topics!
+    AnalyzeTalkTopicsJob.perform_now(self)
+  end
 
   # search
   meilisearch do
@@ -79,6 +97,8 @@ class Talk < ApplicationRecord
   scope :with_enhanced_transcript, -> { where("enhanced_transcript IS NOT NULL AND enhanced_transcript != '[]'") }
   scope :with_summary, -> { where("summary IS NOT NULL AND summary != ''") }
   scope :without_summary, -> { where("summary IS NULL OR summary = ''") }
+  scope :without_topics, -> { where.missing(:talk_topics) }
+  scope :with_topics, -> { joins(:talk_topics) }
 
   def to_meta_tags
     {
@@ -132,5 +152,17 @@ class Talk < ApplicationRecord
 
   def transcript
     enhanced_transcript.presence || raw_transcript
+  end
+
+  def update_from_yml_metadata!
+    self.title = static_metadata.title
+    self.description = static_metadata.description
+    self.language = static_metadata.language
+    self.date = static_metadata.try(:date) || static_metadata.published_at
+    save
+  end
+
+  def static_metadata
+    Static::Video.find_by(video_id: video_id)
   end
 end

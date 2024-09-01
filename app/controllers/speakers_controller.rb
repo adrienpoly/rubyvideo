@@ -7,11 +7,11 @@ class SpeakersController < ApplicationController
   def index
     respond_to do |format|
       format.html do
-        @speakers = Speaker.all.order(:name).select(:id, :name, :slug, :talks_count, :github)
+        @speakers = Speaker.with_talks.order(:name).select(:id, :name, :slug, :talks_count, :github)
         @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
       end
       format.json do
-        @pagy, @speakers = pagy(Speaker.all.order(:name), limit: params[:per_page])
+        @pagy, @speakers = pagy(Speaker.with_talks.order(:name), limit: params[:per_page])
       end
     end
   end
@@ -43,6 +43,7 @@ class SpeakersController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
   def set_speaker
     @speaker = Speaker.includes(:talks).find_by!(slug: params[:slug])
+    redirect_to speaker_path(@speaker.canonical) if @speaker.canonical.present?
   end
 
   # Only allow a list of trusted parameters through.

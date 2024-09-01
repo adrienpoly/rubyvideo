@@ -8,9 +8,9 @@ class TalksController < ApplicationController
     session[:talks_page] = params[:page] || 1
     if params[:q].present?
       talks = Talk.includes(:speakers, :event).pagy_search(params[:q])
-      @pagy, @talks = pagy_meilisearch(talks, items: 9, page: session[:talks_page]&.to_i || 1)
+      @pagy, @talks = pagy_meilisearch(talks, limit: 21, page: session[:talks_page]&.to_i || 1)
     else
-      @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), items: 9, page: session[:talks_page]&.to_i || 1)
+      @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), limit: 21, page: session[:talks_page]&.to_i || 1)
     end
   end
 
@@ -18,6 +18,7 @@ class TalksController < ApplicationController
   def show
     speaker_slug = params[:speaker_slug]
     @back_path = speaker_slug.present? ? speaker_path(speaker_slug, page: session[:talks_page]) : talks_path(page: session[:talks_page])
+
     set_meta_tags(@talk)
   end
 
@@ -39,13 +40,13 @@ class TalksController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_talk
-    @talk = Talk.includes(:speakers, :event).find_by(slug: params[:slug])
+    @talk = Talk.includes(:speakers, :event, :approved_topics).find_by(slug: params[:slug])
 
     redirect_to talks_path, status: :moved_permanently if @talk.blank?
   end
 
   # Only allow a list of trusted parameters through.
   def talk_params
-    params.require(:talk).permit(:title, :description, :slug, :year)
+    params.require(:talk).permit(:title, :description, :slug, :date)
   end
 end
