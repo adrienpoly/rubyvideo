@@ -43,6 +43,7 @@ class SpeakersController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
   def set_speaker
     @speaker = Speaker.includes(:talks).find_by!(slug: params[:slug])
+    redirect_to speaker_path(@speaker.canonical) if @speaker.canonical.present?
   end
 
   # Only allow a list of trusted parameters through.
