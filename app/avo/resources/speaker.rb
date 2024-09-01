@@ -33,6 +33,6 @@ class Avo::Resources::Speaker < Avo::BaseResource
 
   def actions
     action Avo::Actions::SpeakerGithub
-    action Avo::Actions::MergeSpeakerInto
+    action Avo::Actions::AssignCanonicalSpeaker
   end
 end

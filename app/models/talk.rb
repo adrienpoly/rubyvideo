@@ -39,7 +39,7 @@ class Talk < ApplicationRecord
   extend Pagy::Meilisearch
 
   # associations
-  belongs_to :event, optional: true
+  belongs_to :event, optional: true, counter_cache: :talks_count
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :speakers, through: :speaker_talks, inverse_of: :talks
 
@@ -58,13 +58,10 @@ class Talk < ApplicationRecord
   # jobs
   performs :update_from_yml_metadata!, queue_as: :low
 
-  # attributes
-  attribute :language, default: Language::DEFAULT
-
   # normalization
-  normalizes :language, with: ->(language) {
+  normalizes :language, apply_to_nil: true, with: ->(language) do
     language.present? ? Language.find(language)&.alpha2 : Language::DEFAULT
-  }
+  end
 
   # TODO convert to performs
   def analyze_talk_topics!

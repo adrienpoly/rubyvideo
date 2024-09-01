@@ -6,8 +6,17 @@ class EventsTest < ApplicationSystemTestCase
   end
 
   test "visiting the index" do
-    visit events_url
+    events(:tropical_rb_2024)
+    visit root_url
+    click_on "Events"
     assert_selector "h1", text: "Events"
+    find("a#t", text: "T").click
+    assert_selector "span", text: "Tropical Ruby"
+  end
+
+  test "visiting the show" do
+    visit event_url(@event)
+    assert_selector "h1", text: @event.name
   end
 
   # Currently this test fails for 2 reasons:

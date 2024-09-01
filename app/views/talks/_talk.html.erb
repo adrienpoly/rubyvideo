@@ -22,10 +22,10 @@
     <h1><%= talk.title %></h1>
 
     <% if Current.user&.admin? %>
-      <div class="flex gap-2">
+      <div class="flex flex-wrap gap-2">
         <% talk.approved_topics.each do |topic| %>
           <%= link_to topic do %>
-            <div class="badge badge-secondary">#<%= topic.name.parameterize %></div>
+            <div class="badge badge-secondary px-2 py-3">#<%= topic.name.parameterize %></div>
           <% end %>
         <% end %>
       </div>
