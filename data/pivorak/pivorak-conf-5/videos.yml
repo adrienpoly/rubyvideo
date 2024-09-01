@@ -1,0 +1,50 @@
+---
+
+- title: Rodauth 2.0
+  raw_title: Rodauth 2.0 by Jeremy Evans
+  speakers:
+    - Jeremy Evans
+  event_name: Pivorak Conf 5.0 - Online Edition
+  published_at: '2020-05-22'
+  description: |-
+    Rodauth is Ruby's most advanced authentication framework, designed to work in any rack application”
+
+    Latest release adds WebAuthn support for MFA/passwordless auth, active_sessions feature allowing global logout, audit_logging feature, now fully translatable.
+
+    In this talk, Jeremy will guide you through all the new features!
+
+    Jeremy is a Ruby Committer. OpenBSD ruby ports maintainer. Lead developer of Sequel, Roda, and Rodauth.
+  video_id: 5rjjCZmbB6c
+
+- title: 'Convention over Kubernetes: (Almost) Configless Deploys'
+  raw_title: 'Convention over Kubernetes: (almost) configless deploys by Cameron Dutro'
+  speakers:
+    - Cameron Dutro
+  event_name: Pivorak Conf 5.0 - Online Edition
+  published_at: '2020-05-22'
+  description: |-
+    Kubernetes has taken the ops world by storm. But for many, however, the learning curve is steep. Even a standard Rails app requires gobs of dense YAML configuration.
+
+    Wouldn't it be great if you, a humble Rails developer, could take advantage of this awesome technology?
+    Well now you can!
+
+    Come learn how, with almost no configuration, you too can leverage Kubernetes to deploy your Rails app cost-effectively on a variety of cloud platforms.
+
+    Cameron is the author of a number of rubygems, including TwitterCLDR, arel-helpers, and gelauto. He also wrote and still maintain Scuttle, a SQL to activerecord/arel converter.
+
+    Cameron works for Lumos Labs on the Core/Platform team, but going to be working for Quip starting June 15th. Previously, he worked for Twitter on the Twitter Translation Center!
+  video_id: nJqtItsC9qs
+
+- title: Hanami::API
+  raw_title: 'Hanami :: API by Luca Guidi'
+  speakers:
+    - Luca Guidi
+  event_name: Pivorak Conf 5.0 - Online Edition
+  published_at: '2020-05-22'
+  description: |-
+    Hanami is a full-stack web framework for Ruby. With Luca we will learn what will be the major changes for 2.0 release.
+
+    Luca is the creator of Hanami and author of redis-store. Also a dry_rb core team member.
+
+    He also works as Back-end Architect at Toptal to envision a SOA architecture for the company.
+  video_id: tbyT-zhYMd4
