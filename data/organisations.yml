@@ -180,6 +180,17 @@
   slug: rubyunconf
   language: english
   youtube_channel_id: UCpdY3gEqGW10EVrUbd1itug
+- name: Pivorak Lviv Ruby Meetup
+  website: https://pivorak.com
+  twitter: pivorakmeetup
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Pivorak Conf
+  default_country_code: UA
+  youtube_channel_name: pivorakLvivRubyMeetUp
+  slug: pivorak
+  language: english
+  youtube_channel_id: UCPsfLdQH_0CaDIe4imm7bMA
 - name: RubyConf Taiwan
   website: https://rubyconf.tw
   twitter: rubyconftw
