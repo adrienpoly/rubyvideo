@@ -9,7 +9,7 @@
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
   slug: railsconf
   language: english
-- name: RailsWorld
+- name: Rails World
   website: https://rubyonrails.org/world
   twitter: rails
   kind: conference
@@ -17,7 +17,7 @@
   playlist_matcher:
   default_country_code:
   youtube_channel_name: railsofficial
-  slug: railsworld
+  slug: rails-world
   language: english
   youtube_channel_id: UC9zbLaqReIdoFfzdUbh13Nw
 - name: RubyConf
@@ -191,3 +191,14 @@
   slug: pivorak
   language: english
   youtube_channel_id: UCPsfLdQH_0CaDIe4imm7bMA
+- name: RubyConf Taiwan
+  website: https://rubyconf.tw
+  twitter: rubyconftw
+  kind: conference
+  frequency: yearly
+  playlist_matcher: RubyConf
+  default_country_code: TW
+  youtube_channel_name: RubyConfTW
+  slug: rubyconf-taiwan
+  language: english
+  youtube_channel_id: UCqw_z59yI24SivuD573FECA

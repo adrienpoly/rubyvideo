@@ -70,3 +70,6 @@ meilisearch
 
 # ignore doc folder
 doc/*
+
+service_account.json
+/.cache

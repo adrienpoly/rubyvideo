@@ -383,7 +383,7 @@ GEM
     regexp_parser (2.9.2)
     reline (0.5.9)
       io-console (~> 0.5)
-    rexml (3.3.4)
+    rexml (3.3.6)
       strscan
     rubocop (1.64.1)
       json (~> 2.3)
@@ -416,7 +416,7 @@ GEM
     rubyzip (2.3.2)
     safely_block (0.4.0)
     securerandom (0.3.1)
-    selenium-webdriver (4.23.0)
+    selenium-webdriver (4.24.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
