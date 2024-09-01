@@ -197,7 +197,7 @@ class Talk < ApplicationRecord
       language: static_metadata.language || Language::DEFAULT
     )
 
-    self.speakers = Array.wrap(static_metadata.speakers).map { |speaker_name|
+    self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
       Speaker.find_by(slug: speaker_name.parameterize) || Speaker.find_or_create_by(name: speaker_name.strip)
     }
 
