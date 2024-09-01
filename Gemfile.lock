@@ -306,6 +306,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
+    oaken (0.7.0)
     pagy (9.0.5)
     parallel (1.25.1)
     parser (3.3.4.0)
@@ -542,6 +543,7 @@ DEPENDENCIES
   meta-tags (~> 2.18)
   mission_control-jobs (~> 0.3)
   net-http (~> 0.3.2)
+  oaken (~> 0.7.0)
   pagy
   propshaft
   puma

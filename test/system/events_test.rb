@@ -2,11 +2,10 @@ require "application_system_test_case"
 
 class EventsTest < ApplicationSystemTestCase
   setup do
-    @event = events(:one)
+    @event = events.one
   end
 
   test "visiting the index" do
-    events(:tropical_rb_2024)
     visit root_url
     click_on "Events"
     assert_selector "h1", text: "Events"

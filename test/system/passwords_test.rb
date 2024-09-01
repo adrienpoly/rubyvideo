@@ -3,7 +3,7 @@
 
 # class PasswordsTest < ApplicationSystemTestCase
 #   setup do
-#     @user = sign_in_as(users(:lazaro_nixon))
+#     @user = sign_in_as(users.lazaro_nixon)
 #   end
 
 #   test "updating the password" do

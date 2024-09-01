@@ -2,7 +2,7 @@ require "application_system_test_case"
 
 class TalksTest < ApplicationSystemTestCase
   setup do
-    @talk = talks(:one)
+    @talk = talks.one
   end
 
   test "visiting the index" do

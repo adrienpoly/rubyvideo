@@ -2,7 +2,7 @@ require "test_helper"
 
 class TalksControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @talk = talks(:one)
+    @talk = talks.one
   end
 
   test "should get index" do
@@ -32,7 +32,7 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
 
   test "should show topics" do
     # to remove when we remove the poor man FF for the topics
-    @user = users(:admin)
+    @user = users.admin
     sign_in_as @user
 
     get talk_url(@talk)

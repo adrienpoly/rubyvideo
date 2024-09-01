@@ -2,7 +2,7 @@ require "application_system_test_case"
 
 class SessionsTest < ApplicationSystemTestCase
   setup do
-    @user = users(:lazaro_nixon)
+    @user = users.lazaro_nixon
   end
 
   test "visiting the index" do

@@ -2,7 +2,7 @@ require "test_helper"
 
 class Talks::RecommendationsControllerTest < ActionDispatch::IntegrationTest
   def setup
-    @talk = talks(:one)
+    @talk = talks.one
   end
 
   test "should get index with a turbo stream request" do

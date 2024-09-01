@@ -31,7 +31,7 @@ class TopicTest < ActiveSupport::TestCase
   end
 
   test "can assign_canonical_topic!" do
-    @talk = talks(:one)
+    @talk = talks.one
     duplicate_topic = Topic.create(name: "Rails")
     TalkTopic.create!(topic: duplicate_topic, talk: @talk)
     canonical_topic = Topic.create(name: "Ruby on Rails")
@@ -60,7 +60,7 @@ class TopicTest < ActiveSupport::TestCase
   end
 
   test "reject invalid topics" do
-    @topic = topics(:one)
+    @topic = topics.one
     assert @topic.talks.count.positive?
     @topic.rejected!
     assert @topic.talks.count.zero?

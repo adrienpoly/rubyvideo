@@ -56,7 +56,7 @@ class LanguageTest < ActiveSupport::TestCase
     assert_equal 1, Language.used.length
     assert_equal ["en"], Language.used.keys
 
-    talk = talks(:two)
+    talk = talks.two
     talk.language = "Spanish"
     talk.save
 

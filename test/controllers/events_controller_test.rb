@@ -2,8 +2,8 @@ require "test_helper"
 
 class EventsControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @event = events(:one)
-    @user = users(:lazaro_nixon)
+    @event = events.one
+    @user = users.lazaro_nixon
   end
 
   test "should get index" do
@@ -14,15 +14,16 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index and return events in the correct order" do
-    @events = %i[one rails_world_2023 two tropical_rb_2024].map { |event| events(event) }
-    # binding.b
     get events_url
     assert_response :success
-    assert_equal @events, assigns(:events)
+
+    @events = [events.one, events.rails_world_2023, events.tropical_ruby, events.two]
+    assert_select ".event .event-name", count: @events.size do |nodes|
+      assert_equal @events.map(&:name), nodes.map(&:text)
+    end
   end
 
   test "should get index search result" do
-    # @event = events(:tropical_rb_2024)
     get events_url(letter: "T")
     assert_response :success
     assert_select "span", text: "Tropical Ruby"
