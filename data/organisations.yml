@@ -180,3 +180,14 @@
   slug: rubyunconf
   language: english
   youtube_channel_id: UCpdY3gEqGW10EVrUbd1itug
+- name: RubyConf Taiwan
+  website: https://rubyconf.tw
+  twitter: rubyconftw
+  kind: conference
+  frequency: yearly
+  playlist_matcher: RubyConf
+  default_country_code: TW
+  youtube_channel_name: RubyConfTW
+  slug: rubyconf-taiwan
+  language: english
+  youtube_channel_id: UCqw_z59yI24SivuD573FECA
