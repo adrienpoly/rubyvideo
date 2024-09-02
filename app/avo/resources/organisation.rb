@@ -14,7 +14,7 @@ class Avo::Resources::Organisation < Avo::BaseResource
   def fields
     field :id, as: :id
     field :name, as: :text, link_to_record: true
-    field :description, as: :textarea, hide_on: :index
+    field :description, as: :markdown, hide_on: :index
     field :website, as: :text
     field :language, as: :text
     field :kind, as: :select, enum: ::Organisation.kinds
