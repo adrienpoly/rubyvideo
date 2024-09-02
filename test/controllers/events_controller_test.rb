@@ -38,6 +38,16 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should redirect to canonical event" do
+    @talk = talks(:one)
+    @talk.update(event: @event)
+    canonical_event = events(:rubyconfth_2022)
+    @event.assign_canonical_event!(canonical_event: canonical_event)
+    get event_url(@event)
+
+    assert_redirected_to event_url(canonical_event)
+  end
+
   test "should get edit" do
     sign_in_as @user
     get edit_event_url(@event)

@@ -5,7 +5,7 @@ class EventsController < ApplicationController
 
   # GET /events
   def index
-    @events = Event.includes(:organisation).order(:name)
+    @events = Event.without_canonical.includes(:organisation).order(:name)
     @events = @events.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
   end
 
@@ -40,6 +40,7 @@ class EventsController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
   def set_event
     @event = Event.find_by!(slug: params[:slug])
+    redirect_to event_path(@event.canonical), status: :moved_permanently if @event.canonical.present?
   end
 
   # Only allow a list of trusted parameters through.

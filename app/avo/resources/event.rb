@@ -24,4 +24,14 @@ class Avo::Resources::Event < Avo::BaseResource
     field :speakers, as: :has_many, through: :talks
     field :topics, as: :has_many
   end
+
+  def actions
+    action Avo::Actions::AssignCanonicalEvent
+  end
+
+  def filters
+    filter Avo::Filters::Name
+    filter Avo::Filters::WithoutTalks
+    filter Avo::Filters::Canonical
+  end
 end
