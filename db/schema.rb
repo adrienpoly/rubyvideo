@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_09_01_163900) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_02_204752) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -67,6 +67,8 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_01_163900) do
     t.string "name", default: "", null: false
     t.string "slug", default: "", null: false
     t.integer "talks_count", default: 0, null: false
+    t.integer "canonical_id"
+    t.index ["canonical_id"], name: "index_events_on_canonical_id"
     t.index ["name"], name: "index_events_on_name"
     t.index ["organisation_id"], name: "index_events_on_organisation_id"
     t.index ["slug"], name: "index_events_on_slug"
@@ -204,6 +206,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_01_163900) do
   end
 
   add_foreign_key "email_verification_tokens", "users"
+  add_foreign_key "events", "events", column: "canonical_id"
   add_foreign_key "events", "organisations"
   add_foreign_key "password_reset_tokens", "users"
   add_foreign_key "sessions", "users"

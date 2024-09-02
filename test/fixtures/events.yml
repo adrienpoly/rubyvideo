@@ -12,6 +12,8 @@
 #  updated_at      :datetime         not null
 #  name            :string           default(""), not null
 #  slug            :string           default(""), not null
+#  talks_count     :integer          default(0), not null
+#  canonical_id    :integer
 #
 # rubocop:enable Layout/LineLength
 
