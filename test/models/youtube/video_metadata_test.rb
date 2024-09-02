@@ -23,7 +23,7 @@ class Youtube::VideoMetadataTest < ActiveSupport::TestCase
       description: "RailsConf 2021 lorem ipsum"
     })
     results = Youtube::VideoMetadata.new(metadata: metadata, event_name: "RailsConf 2021")
-    assert_equal results.cleaned.title, "Keynote: Eileen Uchitelle - All the Things I Thought I Couldn't Do"
+    assert_equal "Keynote: Eileen Uchitelle - All the Things I Thought I Couldn't Do", results.cleaned.title
     assert results.keynote?
   end
 
@@ -33,7 +33,7 @@ class Youtube::VideoMetadataTest < ActiveSupport::TestCase
       description: "lorem ipsum"
     })
     results = Youtube::VideoMetadata.new(metadata: metadata, event_name: "RailsConf 2022").cleaned
-    assert_equal results.title, "Spacecraft! The care and keeping of a legacy ..."
+    assert_equal "Spacecraft! The care and keeping of a legacy ...", results.title
     assert_equal ["Annie Lydens", "Jenny Allar"], results.speakers
   end
 
@@ -43,7 +43,7 @@ class Youtube::VideoMetadataTest < ActiveSupport::TestCase
       description: "lorem ipsum"
     })
     results = Youtube::VideoMetadata.new(metadata: metadata, event_name: "RubyConf AU 2013").cleaned
-    assert_equal results.title, "From Stubbies to Longnecks"
+    assert_equal "From Stubbies to Longnecks", results.title
     assert_equal ["Geoffrey Giesemann"], results.speakers
   end
 
@@ -54,7 +54,7 @@ class Youtube::VideoMetadataTest < ActiveSupport::TestCase
     })
 
     results = Youtube::VideoMetadata.new(metadata: metadata, event_name: "RubyConf AU 2013").cleaned
-    assert_equal results.title, "Lightning Talks"
+    assert_equal "Lightning Talks", results.title
     assert_equal [], results.speakers
   end
 
@@ -65,7 +65,7 @@ class Youtube::VideoMetadataTest < ActiveSupport::TestCase
 
     results = Youtube::VideoMetadata.new(metadata: metadata, event_name: "RubyConf AU 2017").cleaned
     assert_equal ["Colby Swandale"], results.speakers
-    assert_equal results.title, "Writing a Gameboy emulator in Ruby"
+    assert_equal "Writing a Gameboy emulator in Ruby", results.title
   end
 
   # test "speaker name containing &" do
@@ -75,7 +75,7 @@ class Youtube::VideoMetadataTest < ActiveSupport::TestCase
 
   #   results = Youtube::VideoMetadata.new(metadata: metadata, event_name: "RubyConf AU 2017").cleaned
   #   assert_equal ["Ram Ramakrishnan", "Janet Brown"], results.speakers
-  #   assert_equal results.title, "VR backend rails vs serverless: froth or future?"
+  #   assert_equal "VR backend rails vs serverless: froth or future?", results.title
   # end
 
   # test "By separator should be case insensitive" do
@@ -85,6 +85,6 @@ class Youtube::VideoMetadataTest < ActiveSupport::TestCase
 
   #   results = Youtube::VideoMetadata.new(metadata: metadata, event_name: "RubyConf AU 2017").cleaned
   #   assert_equal ["Barrett Clark"], results.speakers
-  #   assert_equal results.title, "Simple and Awesome Database Tricks"
+  #   assert_equal "Simple and Awesome Database Tricks", results.title
   # end
 end

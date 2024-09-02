@@ -18,7 +18,7 @@ require "test_helper"
 
 class EventTest < ActiveSupport::TestCase
   setup do
-    @organisation = organisations(:one)
+    @organisation = organisations(:railsconf)
   end
 
   test "validates the country code " do

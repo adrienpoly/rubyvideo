@@ -22,6 +22,7 @@
   published_at: "2020-09-04"
   video_id: zLInIisYlDo
   language: English
+  slides_url: https://speakerdeck.com/palkan/rubykaigi-2020-the-whys-and-hows-of-transpiling-ruby
   description: |-
     Transpiling is a source-to-source compiling. Why might we need it in Ruby? Compatibility and experiments.
 
@@ -406,18 +407,20 @@
     Async Scheduler, and how they work together to improve the scalability of Ruby
     applications.
 
-- title: Ruby committers vs the World - Day 1
+- title: Ruby Committers vs the World - Day 1
   raw_title: Ruby committers vs the World - Day 1 (extended)
-  speakers: []
+  speakers:
+    - Ruby Committers # TODO: list each person
   event_name: RubyKaigi Takeout 2020
   published_at: "2020-09-04"
   video_id: D-AK1x4vuRU
   language:
   description: https://rubykaigi.org/2020-takeout/presentations/rubylangorg.html#sep04
 
-- title: Ruby committers vs the World - Day 2
+- title: Ruby Committers vs the World - Day 2
   raw_title: Ruby committers vs the World - Day 2
-  speakers: []
+  speakers:
+    - Ruby Committers # TODO: list each person
   event_name: RubyKaigi Takeout 2020
   published_at: "2020-09-04"
   video_id: 20VDvtpjGn0

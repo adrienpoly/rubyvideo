@@ -192,21 +192,17 @@
 
 - title: Lightning Talks
   raw_title: "RubyConf Mini 2022: Lightning Talks"
-  speakers: []
+  speakers:
+    - Ratnadeep Deshmane # Dissecting Rails - A Different Approach to Learning Rails
+    - Chris Seaton # Presenting The "Who You Gonna Call" Paper by Sophie Kaleba et al.
+    - Nick Quaranto  # What open source software can learn from co-operatives
+    - Keith Bennett # Coding with RUby
+    - # Jo Ha TODO: double-check name # Church Numerals
+    - Max Wofford # Whimsical Features & Junior Developers
   event_name: RubyConf Mini 2022
   published_at: "2023-02-28"
   description: ""
   video_id: IfzO_yyiYmw
-
-- title: Who Wants to be a Ruby Engineer?
-  raw_title: "RubyConf Mini 2022: Who Wants to be a Ruby Engineer? by Drew Bragg"
-  speakers:
-    - Drew Bragg
-  event_name: RubyConf Mini 2022
-  published_at: "2023-02-28"
-  description: |-
-    Welcome to the Ruby game show where one lucky contestant tries to guess the output of a small bit of Ruby code. Sound easy? Here's the challenge: the snippets come from some of the weirdest parts of the Ruby language. The questions aren't easy. Get enough right to be crowned a (some sort of something) Ruby Engineer and win a fabulous, mysterious prize.
-  video_id: JoZo9uGuXQw
 
 - title: "Keynote: Persuasive Communication"
   raw_title: "RubyConf Mini 2022: Keynote by Barbara Tannenbaum"

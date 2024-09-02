@@ -6,7 +6,7 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: UIC0sM-VQj8
-  language:
+  language: English
   description: ''
 
 - title: Cables! Cables! Cables!
@@ -16,8 +16,10 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: AUxFFOehiy0
-  language:
+  language: English
   description: ''
+  slides_url: https://speakerdeck.com/palkan/wroc-love-dot-rb-2018-cables-cables-cables
+  # https://x.com/JacekCzarnecki/status/974962005378465793
 
 - title: Counterintuitive Rails Pt. 1
   raw_title: Counterintuitive Rails pt. 1 - Ivan Nemytchenko - wroc_love.rb 2018
@@ -26,17 +28,20 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: KtD32fO_owU
-  language:
+  language: English
   description: ''
+  # https://x.com/JacekCzarnecki/status/974975962239651840
 
-- title: 'Panel: Enterprise Rails '
+- title: 'Panel: Enterprise Rails'
   raw_title: Enterprise Rails panel - wroc_love.rb 2018
   speakers:
-    - TODO
+    - Nick Sutterer
+    - Andrzej Krzywda
+    - Nathan Ladd
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: Tx2WsK0qD7k
-  language:
+  language: English
   description: ''
 
 - title: "Super Ain't Super: From OOP To FP and Beyond!"
@@ -46,8 +51,9 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: JRpNIm1-KgA
-  language:
+  language: English
   description: ''
+  # https://x.com/JacekCzarnecki/status/975036724429680640
 
 - title: Event Sourcing Anti Patterns and Failures
   raw_title: Event Sourcing Anti Patterns and Failures - Nathan Ladd - wroc_love.rb 2018
@@ -56,7 +62,7 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: vh1QTk34350
-  language:
+  language: English
   description: ''
 
 - title: Applying CQRS & Event Sourcing on Rails applications
@@ -66,8 +72,9 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: cdwX1ZU623E
-  language:
+  language: English
   description: ''
+  # https://x.com/JacekCzarnecki/status/975068584534855680
 
 - title: Understanding Coupling
   raw_title: Understanding coupling - Łukasz Szydło - wroc_love.rb 2018
@@ -76,8 +83,9 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: Jy6eS9QHJOM
-  language:
+  language: English
   description: ''
+  # https://x.com/JacekCzarnecki/status/975313307996434432
 
 - title: 'Beyond the Current State: Time Travel to the Rescue!'
   raw_title: 'Beyond the current state: Time travel to the rescue! - Armin Pašalić - wroc_love.rb 2018'
@@ -86,7 +94,7 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: smqXOZRHG_Q
-  language:
+  language: English
   description: ''
 
 - title: Counterintuitive Rails Pt. 2
@@ -96,17 +104,20 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: kW2E2wK7_Fw
-  language:
+  language: English
   description: ''
 
-- title: 'Panel: Modern JS '
+- title: 'Panel: Modern JS'
   raw_title: Modern JS Panel - wroc_love.rb 2018
   speakers:
-    - TODO
+    - Dawid Pośliński
+    - Maciej Walusiak
+    # - TODO: one more panelist
+    # - TODO: moderator
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: vL0Mb1XY_UI
-  language:
+  language: English
   description: ''
 
 - title: Toolbelt of a Seasoned Bug Hunter
@@ -116,7 +127,7 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: 11Z4Fx8dXhc
-  language:
+  language: English
   description: ''
 
 - title: MVCC for Ruby developers
@@ -126,7 +137,7 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: hMLekHYXvJo
-  language:
+  language: English
   description: ''
 
 - title: The Pillars of Domain Driven Design
@@ -136,25 +147,39 @@
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: FmJ6YMW92wA
-  language:
+  language: English
   description: ''
+  # https://x.com/JacekCzarnecki/status/974698486460551178
 
-- title: Lightning Talks Saturday
+- title: Lightning Talks Day 2
   raw_title: Lightning talks Saturday - wroc_love.rb 2018
   speakers:
-    - TODO
+    - Bartosz Bonistawski # Serverless Ruby
+    - Sergey Silnov # Ruby on $4 computer - mruby on esp32
+    - Adam Skołuda # How wroc_love.rb impacts developers and companies
+    - Vladimir Dementyev # To Refine Or Not To Refine # slides: https://speakerdeck.com/palkan/wroc-love-dot-rb-2018-lightning-talk-to-refine-or-not-to-refine
+    - Michał Młoźniak # Removing code like a pro
+    - Artur Roszczyk # Why We Love Ruby
+    - Maciek Stanisz # Thoughts: What it means to be a developer. Will computers replace us?
+    - Maciek Rząsa # How to break your browser by using a regexp
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: tWu4gO187G0
-  language:
+  language: English
   description: ''
 
-- title: Lightning Talks Sunday
+- title: Lightning Talks Day 3
   raw_title: Lightning talks Sunday - wroc_love.rb 2018
   speakers:
-    - TODO
+    # - Dima TODO: lastname # Etherium
+    - Armin Pašalić # Decoupling Ruby With a Bus
+    - Vladimir Dementyev # Refinement Use Cases
+    - Tom Woo # Discrations
+    # - TODO # Secrets of Ruby stdlib
+    # - TODO # How I play games using Ruby
+    # - TODO # Heavy Applications
   event_name: wroc_love.rb 2018
   published_at: '2018-04-16'
   video_id: fp95RYuxIXQ
-  language:
+  language: English
   description: ''

@@ -1153,7 +1153,41 @@
 
 - title: 'Lightning Talks'
   raw_title: Rails Conf 2013 Lightning Talks
-  speakers: []
+  speakers:
+    - Nick Quaranto
+    - Dr. Nic Williams
+    - Chris Morris
+    - Jon McCartie
+    - Bryan Helmkamp
+    - # TODO: Sandal? # RailsFactory https://cln.sh/gkL7KTfr
+    - Miles Forrest
+    - Andrew Harvey
+    - Benjamin Fleischer
+    - Adam Cuppy
+    - Hector Miguel Rodriguez Muñiz
+    - Mario Chavez
+    - Mike Virata-Stone
+    - rking # TODO: actual name
+    - Nathan Ladd
+    - Dylan Lacey
+    - JC Grubbs
+    - # TODO somebody at Dev Mynd https://cln.sh/2hLbl5Qr
+    - Jeremy Green
+    - Ron Evans
+    - Eoin Coffey
+    - Doug Smith
+    - Andrew Cantino
+    - Tanin Na Nakorn
+    - Philippe Creux
+    - Alex Sharp # Bldr
+    - Beau Harrington
+    - # TODO https://cln.sh/lNq3QwVl
+    - # TODO https://cln.sh/522tdVd4
+    - Yoshiori Shoji
+    - Winfred Nadeau
+    - David Padilla
+    - Gabe Scholz
+
   event_name: RailsConf 2013
   thumbnail_xs: https://i.ytimg.com/vi/4T24oUPPaFI/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/4T24oUPPaFI/mqdefault.jpg

@@ -166,9 +166,14 @@
     EuRuKo 2019
   video_id: 3HB3WGn2LAQ
 
-- title: "Lightning Talks"
-  raw_title: "Lightning Talks"
-  speakers: []
+- title: Lightning Talks
+  raw_title: Lightning Talks
+  speakers:
+    - Madison White # Super-powering your editor with Sorbet Typer
+    - Miriam Tocino # Zerus & Ona
+    - Julik Tarkhanov # NoSuchBucket
+    - Benjamin Vetter # search_flip
+    - Norma Miller # A "Splash" Course on Live Captioning
   event_name: Euruko 2019
   published_at: "2021-06-01"
   description: ""

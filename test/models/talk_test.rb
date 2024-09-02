@@ -109,10 +109,12 @@ class TalkTest < ActiveSupport::TestCase
     @talk = talks(:one)
     @event = events(:rails_world_2023)
     @talk.update!(title: "New title", description: "New description", event: @event)
+
     assert_equal "New title", @talk.title
     assert_equal "New description", @talk.description
 
     @talk.update_from_yml_metadata!
+
     assert_equal "Hotwire Cookbook: Common Uses, Essential Patterns & Best Practices", @talk.title
   end
 

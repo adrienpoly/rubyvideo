@@ -154,12 +154,58 @@ class Talk < ApplicationRecord
     enhanced_transcript.presence || raw_transcript
   end
 
-  def update_from_yml_metadata!
-    self.title = static_metadata.title
-    self.description = static_metadata.description
-    self.language = static_metadata.language
-    self.date = static_metadata.try(:date) || static_metadata.published_at
-    save
+  def slug_candidates
+    [
+      title.parameterize,
+      [title.parameterize, event&.name&.parameterize].compact.join("-"),
+      [title.parameterize, language.parameterize].compact.join("-"),
+      [title.parameterize, event&.name&.parameterize, language.parameterize].compact.join("-"),
+      [date.to_s.parameterize, title.parameterize].compact.join("-"),
+      [title.parameterize, *speakers.map(&:slug)].compact.join("-"),
+      [static_metadata.raw_title.parameterize].compact.join("-"),
+      [date.to_s.parameterize, static_metadata.raw_title.parameterize].compact.join("-")
+    ].uniq
+  end
+
+  def unused_slugs
+    slug_candidates.reject { |slug| Talk.excluding(self).exists?(slug: slug) }
+  end
+
+  def update_from_yml_metadata!(event: nil)
+    if event.blank?
+      event = Event.find_by(name: static_metadata.event_name)
+
+      if event.nil?
+        puts "No event found! Video ID: #{video_id}, Event: #{static_metadata.event_name}"
+        return
+      end
+    end
+
+    if Array.wrap(static_metadata.speakers).empty?
+      puts "No speakers for Video ID: #{video_id}"
+      return
+    end
+
+    assign_attributes(
+      event: event,
+      title: static_metadata.title,
+      description: static_metadata.description,
+      date: static_metadata.try(:date) || static_metadata.published_at || Date.parse("#{static_metadata.year}-01-01"),
+      thumbnail_xs: static_metadata.thumbnail_xs || "",
+      thumbnail_sm: static_metadata.thumbnail_sm || "",
+      thumbnail_md: static_metadata.thumbnail_md || "",
+      thumbnail_lg: static_metadata.thumbnail_lg || "",
+      thumbnail_xl: static_metadata.thumbnail_xl || "",
+      language: static_metadata.language || Language::DEFAULT
+    )
+
+    self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
+      Speaker.find_by(slug: speaker_name.parameterize) || Speaker.find_or_create_by(name: speaker_name.strip)
+    }
+
+    self.slug = unused_slugs.first
+
+    save!
   end
 
   def static_metadata

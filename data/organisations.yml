@@ -9,6 +9,7 @@
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
   slug: railsconf
   language: english
+
 - name: Rails Pacific
   website: https://x.com/railspacific
   twitter: railspacific
@@ -19,6 +20,7 @@
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
   slug: rails-pacific
   language: english
+
 - name: RailsWorld
   website: https://rubyonrails.org/world
   twitter: rails
@@ -30,6 +32,7 @@
   slug: rails-world
   language: english
   youtube_channel_id: UC9zbLaqReIdoFfzdUbh13Nw
+
 - name: Birmingham on Rails
   website: https://www.birminghamonrails.com
   twitter: bhmonrails
@@ -41,6 +44,7 @@
   slug: birmingham-on-rails
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
 - name: RubyConf
   website: https://rubyconf.org/
   twitter: rubyconf
@@ -52,16 +56,18 @@
   slug: rubyconf
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
 - name: Friendly.rb
   website: https://friendlyrb.com/
   twitter: friendlyrb
   slug: friendly-rb
   youtube_channel_name: friendlyrb
-  youtube_channel_id: UC-PJCpt-6EgR4Ks6e0RSs1g # This is optional
-  kind: conference # Choose either 'conference' or 'meetup'
-  frequency: yearly # Specify if it's 'yearly' or 'monthly'
-  default_country_code: RO #romania
-  language: english # Default language of the talks from this conference
+  youtube_channel_id: UC-PJCpt-6EgR4Ks6e0RSs1g
+  kind: conference
+  frequency: yearly
+  default_country_code: RO
+  language: english
+
 - name: Helvetic Ruby
   website: https://helvetic-ruby.ch
   twitter: helvetic_ruby
@@ -73,6 +79,7 @@
   slug: helveticruby
   language: english
   youtube_channel_id: UChetoakh7nU0EXrKN8QFUUA
+
 - name: Helsinki Ruby Brigade
   website: https://rubybrigade.fi
   kind: meetup
@@ -82,6 +89,7 @@
   slug: helsinki-ruby-brigade
   language: english
   youtube_channel_id: UCcoS038f4xA_Lz5AoD0ShzA
+
 - name: Baltic Ruby
   website: https://balticruby.org
   twitter: balticruby
@@ -91,6 +99,7 @@
   youtube_channel_id: UCyTip8pDXBqTxTR6fDZItDw
   slug: balticruby
   language: english
+
 - name: Rocky Mountain Ruby
   website: http://rockymtnruby.dev
   twitter: rmrubyconf
@@ -102,6 +111,7 @@
   slug: rocky-mountain-ruby
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
 - name: Ruby Warsaw Community Conference
   website: https://www.rubycommunityconference.com
   twitter: visualitypl
@@ -113,6 +123,7 @@
   slug: ruby-warsaw-community-conference
   language: english
   youtube_channel_id: UCVlG6qQ1mGnJv185ayWjEzg
+
 - name: Blue Ridge Ruby
   website: https://blueridgeruby.com
   twitter: blueridgeruby
@@ -124,6 +135,7 @@
   slug: blue-ridge-ruby
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
 - name: Ancient City Ruby
   website: https://twitter.com/ancientcityruby
   twitter: ancientcityruby
@@ -135,6 +147,7 @@
   slug: ancient-city-ruby
   language: english
   youtube_channel_id: UCk7lIUwfv3OAWCfk3rreAAg
+
 - name: Ruby on Ice
   website: https://rubyonice.com
   twitter: rubyoniceconf
@@ -146,6 +159,7 @@
   slug: ruby-on-ice
   language: english
   youtube_channel_id: UCXNhwlbzt-6LoOzMt4wrF0A
+
 - name: Balkan Ruby
   website: https://balkanruby.com
   twitter: balkanruby
@@ -157,6 +171,7 @@
   slug: balkanruby
   language: english
   youtube_channel_id: UCR076_JBPtcQKfiwiVOB3Cg
+
 - name: wroc_love.rb
   website: https://wrocloverb.com
   twitter: wrocloverb
@@ -168,6 +183,7 @@
   slug: wroclove-rb
   language: english
   youtube_channel_id: UC_tX5G6twhuwWZQptcc3DOA
+
 - name: Tropical.rb
   website: https://tropicalrb.com
   twitter: tropicalrb
@@ -179,6 +195,7 @@
   slug: tropicalrb
   language: english
   youtube_channel_id: UCC3ljLfioI4qN2_zmG_kseQ
+
 - name: paris.rb
   website: https://paris-rb.org
   twitter: parisrb
@@ -190,6 +207,7 @@
   slug: paris-rb
   language: english
   youtube_channel_id: UCttFnyoHp4TdsTj1wcVs44A
+
 - name: Ruby Unconf
   website: https://rubyunconf.eu
   twitter: rubyunconfeu
@@ -201,6 +219,7 @@
   slug: rubyunconf
   language: english
   youtube_channel_id: UCpdY3gEqGW10EVrUbd1itug
+
 - name: RubyKaigi
   website: https://rubykaigi.org
   twitter: RubyKaigi
@@ -212,6 +231,41 @@
   slug: rubykaigi
   language: english
   youtube_channel_id: UCBSg5zH-VFJ42BGQFk4VH2A
+
+- name: RubyConf TH
+  website: https://rubyconfth.com
+  twitter: rubyconfth
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: TH
+  youtube_channel_name: rubyconfth
+  slug: rubyconfth
+  language: english
+  youtube_channel_id: UCwIhYV_sPTzvjk6B6EUnf1g
+
+- name: rubyday
+  website: https://rubyday.it
+  twitter: rubydayit
+  kind: conference
+  frequency: yearly
+  playlist_matcher: rubyday
+  default_country_code: IT
+  youtube_channel_name: GrUSP
+  slug: rubyday
+  language: english
+  youtube_channel_id: UCdWnwC8nz_CCFQrmLBrLCVw
+
+- name: EuRuKo
+  website: https://euruko.org
+  kind: conference
+  frequency: yearly
+  default_country_code: DE
+  youtube_channel_name: EuRuKo
+  slug: euruko
+  language: english
+  youtube_channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+
 - name: Pivorak Lviv Ruby Meetup
   website: https://pivorak.com
   twitter: pivorakmeetup
@@ -223,6 +277,7 @@
   slug: pivorak
   language: english
   youtube_channel_id: UCPsfLdQH_0CaDIe4imm7bMA
+
 - name: RubyConf Taiwan
   website: https://rubyconf.tw
   twitter: rubyconftw

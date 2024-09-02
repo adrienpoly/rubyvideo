@@ -729,6 +729,7 @@
   published_at: "2018-05-31"
   video_id: jXCPuNICT8s
   language: English
+  slides_url: https://speakerdeck.com/palkan/rubykaigi-2018-anycable-one-cable-to-rule-them-all
   description: |-
     Modern web applications actively use real-time features. Unfortunately, nowadays Ruby is rarely considered as a technology to implement yet another chat – Ruby performance leaves much to be desired when dealing with concurrency and high-loads.
 
@@ -887,7 +888,8 @@
 
 - title: Ruby Committers vs the World
   raw_title: "[JA] Ruby Committers vs the World / CRuby Committers"
-  speakers: []
+  speakers:
+    - Ruby Committers # TODO: list each person
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
   video_id: dhHAaybjCfE

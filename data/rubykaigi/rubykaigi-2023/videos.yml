@@ -372,7 +372,8 @@
 
 - title: Ruby Committers and The World
   raw_title: "[EN] Ruby Committers and The World / CRuby Committers @rubylangorg"
-  speakers: []
+  speakers:
+    - Ruby Committers # TODO: list each person
   event_name: RubyKaigi 2023
   published_at: "2023-05-11"
   video_id: APa9R0v9GY0

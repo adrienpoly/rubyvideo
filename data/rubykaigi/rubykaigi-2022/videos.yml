@@ -101,7 +101,8 @@
 
 - title: Ruby Committers vs The World
   raw_title: "[JA]Ruby Committers vs The World"
-  speakers: []
+  speakers:
+    - Ruby Committers # TODO: list each person
   event_name: RubyKaigi 2022
   published_at: "2022-11-08"
   video_id: ajm3lr6Y9yE
@@ -319,6 +320,16 @@
   language: Japanese
   description: "Uncut version: https://youtu.be/71oVELdmR8U"
 
+- title: "Packet analysis with mruby on Wireshark - dRuby as example (Uncut version)"
+  raw_title: "[JA][uncut]Packet analysis with mruby on Wireshark - dRuby as example - Misaki Shioi @coe401_"
+  speakers:
+    - Misaki Shioi
+  event_name: RubyKaigi 2022
+  published_at: "2022-11-08"
+  video_id: 71oVELdmR8U
+  language: Japanese
+  description: ""
+
 - title: The Better RuboCop World to enjoy Ruby
   raw_title: "[JA]The Better RuboCop World to enjoy Ruby / Yasuko Ohba @nay3"
   speakers:
@@ -386,16 +397,6 @@
   event_name: RubyKaigi 2022
   published_at: "2022-11-08"
   video_id: BAB26lpklj8
-  language: Japanese
-  description: ""
-
-- title: "Packet analysis with mruby on Wireshark - dRuby as example"
-  raw_title: "[JA][uncut]Packet analysis with mruby on Wireshark - dRuby as example - Misaki Shioi @coe401_"
-  speakers:
-    - Misaki Shioi
-  event_name: RubyKaigi 2022
-  published_at: "2022-11-08"
-  video_id: 71oVELdmR8U
   language: Japanese
   description: ""
 

@@ -89,6 +89,7 @@
     Ruby and Erlang, contributing to open source and being an Evil Martian. Author
     of AnyCable, TestProf and many yet unknown ukulele melodies.
   video_id: rOcrme82vC8
+  slides_url: https://speakerdeck.com/palkan/balkanruby-2018-take-your-slow-tests-to-the-doctor
 
 - title: 'How to get to zero unhandled exceptions in production'
   raw_title: How to get to zero unhandled exceptions in production – Radoslav Stankov – Balkan Ruby 2018
@@ -145,9 +146,17 @@
     tech book and film club, among many other things.
   video_id: u2MDw6RF--c
 
-- title: Lightning talks
+- title: Lightning Talks
   raw_title: Lightning talks – Balkan Ruby 2018
-  speakers: []
+  speakers:
+    - Martina Koleva # How To Talk To Non-Technical People
+    - Vladimir Dementyev # #rubythankful
+    - Evgeni Kunev # Cyberneat
+    - Dusan Orlovic # Stop Using Alt And Shift When You Do Not Need It
+    - Tomasz Stachewicz # Programming Spreadsheets
+    # - Archon TODO: lastname # Remote Work
+    - Andreas Finger # Gem Dependencies
+    - Robert Pawlas # GraphQL - Is It Worth Using It?
   event_name: Balkan Ruby 2018
   published_at: '2018-10-08'
   description: ''
