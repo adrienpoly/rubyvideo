@@ -1,4 +1,19 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# rubocop:disable Layout/LineLength
+# == Schema Information
+#
+# Table name: topics
+#
+#  id           :integer          not null, primary key
+#  name         :string
+#  description  :text
+#  published    :boolean          default(FALSE)
+#  slug         :string           not null
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#  status       :string           default("pending"), not null
+#  canonical_id :integer
+#
+# rubocop:enable Layout/LineLength
 
 one:
   name: Topic 1

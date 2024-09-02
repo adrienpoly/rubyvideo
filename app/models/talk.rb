@@ -20,9 +20,10 @@
 #  date                :date
 #  like_count          :integer
 #  view_count          :integer
-#  raw_transcript      :text             default(""), not null
-#  enhanced_transcript :text             default(""), not null
+#  raw_transcript      :text             default(#<Transcript:0x000000016591cc68 @cues=[]>), not null
+#  enhanced_transcript :text             default(#<Transcript:0x000000016591cb78 @cues=[]>), not null
 #  summary             :text             default(""), not null
+#  language            :string           default("en"), not null
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord

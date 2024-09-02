@@ -3,16 +3,16 @@
 #
 # Table name: speakers
 #
-#  id          :integer          not null, primary key
-#  name        :string           default(""), not null
-#  twitter     :string           default(""), not null
-#  github      :string           default(""), not null
-#  bio         :text             default(""), not null
-#  website     :string           default(""), not null
-#  slug        :string           default(""), not null
-#  created_at  :datetime         not null
-#  updated_at  :datetime         not null
-#  talks_count :integer          default(0), not null
+#  id           :integer          not null, primary key
+#  name         :string           default(""), not null
+#  twitter      :string           default(""), not null
+#  github       :string           default(""), not null
+#  bio          :text             default(""), not null
+#  website      :string           default(""), not null
+#  slug         :string           default(""), not null
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#  talks_count  :integer          default(0), not null
 #  canonical_id :integer
 #
 # rubocop:enable Layout/LineLength
