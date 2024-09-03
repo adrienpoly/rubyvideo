@@ -4,7 +4,7 @@ class Talks::RecommendationsController < ApplicationController
 
   def index
     redirect_to talk_path(@talk) unless turbo_frame_request?
-    @talks = @talk.related_talks
+    @talks = @talk&.related_talks || []
   end
 
   private
