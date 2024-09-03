@@ -18,8 +18,6 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
 
     get events_url
 
-    File.write("response.html", response.body.to_s)
-
     assert_response :success
 
     assert_select ".event .event-name", count: event_names.size do |nodes|
