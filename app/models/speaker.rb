@@ -36,7 +36,7 @@ class Speaker < ApplicationRecord
   scope :with_github, -> { where.not(github: "") }
   scope :without_github, -> { where(github: "") }
   scope :canonical, -> { where(canonical_id: nil) }
-  scope :with_aliases, -> { where.not(canonical_id: nil) }
+  scope :not_canonical, -> { where.not(canonical_id: nil) }
 
   def github_avatar_url(size: 200)
     return "" unless github.present?
