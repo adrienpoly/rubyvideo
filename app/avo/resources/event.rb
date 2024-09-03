@@ -13,7 +13,7 @@ class Avo::Resources::Event < Avo::BaseResource
 
   def fields
     field :id, as: :id
-    field :name, as: :text, link_to_record: true
+    field :name, as: :text, link_to_record: true, sortable: true
     field :date, as: :date, hide_on: :index
     field :city, as: :text, hide_on: :index
     field :country_code, as: :text

@@ -15,7 +15,7 @@ class Avo::Resources::Talk < Avo::BaseResource
 
   def fields
     field :id, as: :id
-    field :title, as: :text, link_to_record: true
+    field :title, as: :text, link_to_record: true, sortable: true
     field :event, as: :belongs_to
 
     field :speaker_tags, for_attribute: :speakers, name: "Speakers", through: :speaker_talks, as: :tags, hide_on: [:show, :forms] do
