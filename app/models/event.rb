@@ -37,8 +37,8 @@ class Event < ApplicationRecord
 
   # scopes
   scope :without_talks, -> { where.missing(:talks) }
-  scope :with_canonical, -> { where.not(canonical_id: nil) }
-  scope :without_canonical, -> { where(canonical_id: nil) }
+  scope :canonical, -> { where.not(canonical_id: nil) }
+  scope :not_canonical, -> { where(canonical_id: nil) }
 
   def assign_canonical_event!(canonical_event:)
     ActiveRecord::Base.transaction do
