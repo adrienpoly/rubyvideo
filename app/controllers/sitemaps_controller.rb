@@ -8,7 +8,7 @@ class SitemapsController < ApplicationController
   private
 
   def generate_sitemap_string
-    Rails.cache.fetch("sitemap", expires_in: 24.hours) do
+    Rails.cache.fetch(["sitemap", Talk.all, Event.all, Speaker.all, Topic.approved], expires_in: 24.hours) do
       adapter = SitemapStringAdapter.new
 
       SitemapGenerator::Sitemap.default_host = "https://www.rubyvideo.dev"
