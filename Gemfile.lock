@@ -325,8 +325,6 @@ GEM
     raabro (1.4.0)
     racc (1.8.1)
     rack (3.1.7)
-    rack-mini-profiler (3.3.1)
-      rack (>= 1.2.0)
     rack-proxy (0.7.7)
       rack
     rack-session (2.0.0)
@@ -545,7 +543,6 @@ DEPENDENCIES
   pagy
   propshaft
   puma
-  rack-mini-profiler
   rails (~> 7.2.0)
   rails-controller-testing
   rails_autolink (~> 1.1)
