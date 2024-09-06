@@ -20,6 +20,7 @@ class TalksController < ApplicationController
     @back_path = speaker_slug.present? ? speaker_path(speaker_slug, page: session[:talks_page]) : talks_path(page: session[:talks_page])
 
     set_meta_tags(@talk)
+    fresh_when(@talk)
   end
 
   # GET /talks/1/edit

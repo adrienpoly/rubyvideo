@@ -148,7 +148,11 @@ class Talk < ApplicationRecord
   end
 
   def related_talks(limit: 6)
-    Talk.order("RANDOM()").excluding(self).limit(limit)
+    ids = Rails.cache.fetch(["talk_recommendations", id, limit], expires_in: 1.week) do
+      Talk.order("RANDOM()").excluding(self).limit(limit).ids
+    end
+
+    Talk.where(id: ids)
   end
 
   def transcript
