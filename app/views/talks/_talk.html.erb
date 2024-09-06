@@ -1,3 +1,5 @@
+<%# locals: (talk:, admin: false) -%>
+
 <%= content_tag :div, id: dom_id(talk),
       data: {
         controller: "video-player",
@@ -21,7 +23,7 @@
   <div class="py-4 flex flex-col gap-4 mb-4">
     <h1><%= talk.title %></h1>
 
-    <% if Current.user&.admin? %>
+    <% if admin %>
       <div class="flex flex-wrap gap-2">
         <% talk.approved_topics.each do |topic| %>
           <%= link_to topic do %>
@@ -60,12 +62,6 @@
         <%= render partial: "talks/transcript", locals: {talk: talk} %>
       </div>
     </div>
-
-    <% if action_name != "show" %>
-      <%= link_to "Show this talk", talk, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-      <%= link_to "Edit this talk", edit_talk_path(talk), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
-    <% end %>
-
   </div>
 <% end %>
 

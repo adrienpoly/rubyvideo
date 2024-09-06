@@ -5,12 +5,14 @@
       <span>List</span>
     </div>
   <% end %>
-  <div class="w-full flex">
-    <div class="flex-grow">
-      <%= render @talk %>
+  <% cache [@talk, Current.user&.admin?] do %>
+    <div class="w-full flex">
+      <div class="flex-grow">
+        <%= render partial: "talks/talk", locals: {talk: @talk, admin: Current.user&.admin?} %>
+      </div>
+      <div class="gap-4 w-60 flex-shrink-0 hidden md:flex md:flex-col px-4">
+        <%= turbo_frame_tag "recommended_talks", target: "_top", src: talk_recommendations_path(@talk) %>
+      </div>
     </div>
-    <div class="gap-4 w-60 flex-shrink-0 hidden md:flex md:flex-col px-4">
-      <%= turbo_frame_tag "recommended_talks", target: "_top", src: talk_recommendations_path(@talk) %>
-    </div>
-  </div>
+  <% end %>
 </div>
