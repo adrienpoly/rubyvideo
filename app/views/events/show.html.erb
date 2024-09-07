@@ -5,7 +5,7 @@
       <%= render "events/about", organisation: @event.organisation %>
     </div>
     <div class="w-full">
-      <div id="talks" class="min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 h-full sm:p-4">
+      <div id="talks" class="min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 h-full sm:p-4">
         <% @talks.each do |talk| %>
           <%= render partial: "talks/card",
                 locals: {

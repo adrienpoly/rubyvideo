@@ -1,6 +1,6 @@
 @layer components {
   nav {
-    @apply flex justify-between bg-brand px-4 text-white md:px-4 xl:px-8;
+    @apply flex justify-between bg-primary px-4 text-white md:px-4 xl:px-8;
   }
 
   nav ul {
@@ -34,7 +34,7 @@
 
   nav button,
   nav [role="button"] {
-    @apply bg-white text-dark hover:no-underline focus:no-underline active:no-underline;
+    @apply bg-white text-base-content hover:no-underline focus:no-underline active:no-underline;
     text-decoration: none;
   }
 }

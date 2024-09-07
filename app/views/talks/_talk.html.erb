@@ -6,6 +6,8 @@
         video_player_src_value: talk.video_id
       } do %>
 
+  <h1 class="text-neutral mb-4 text-2xl"><%= talk.title %></h1>
+
   <div <%= tag.attributes(
              class: "aspect-video banner-img card-horizontal-img relative",
              style: "view-transition-name: #{dom_id(talk, :image)}"
@@ -18,8 +20,7 @@
                  youtube_id: talk.video_id} %>
   </div>
 
-  <div class="py-4 flex flex-col gap-4 mb-4">
-    <h1><%= talk.title %></h1>
+  <div class="py-4 flex flex-col gap-4 my-4">
 
     <% if Current.user&.admin? %>
       <div class="flex flex-wrap gap-2">
@@ -60,12 +61,6 @@
         <%= render partial: "talks/transcript", locals: {talk: talk} %>
       </div>
     </div>
-
-    <% if action_name != "show" %>
-      <%= link_to "Show this talk", talk, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-      <%= link_to "Edit this talk", edit_talk_path(talk), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
-    <% end %>
-
   </div>
 <% end %>
 

@@ -7,7 +7,7 @@ module ApplicationHelper
 
   def footer_credits
     output = ["Made with"]
-    output << heroicon(:heart, variant: :solid, size: :sm, class: "text-brand inline")
+    output << heroicon(:heart, variant: :solid, size: :sm, class: "text-primary inline")
     output << "for the Ruby community by"
     output << link_to("@adrienpoly", "https://www.adrienpoly.com", target: "_blank", class: "link", alt: "Adrien Poly Ruby on Rails developer / CTO")
     output << "and wonderful"
