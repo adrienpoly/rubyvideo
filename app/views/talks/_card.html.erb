@@ -1,5 +1,5 @@
 
-<div class="card card-compact bg-white shadow-xl" id="<%= dom_id talk %>">
+<div class="card card-compact bg-white shadow-xl h-full w-full" id="<%= dom_id talk %>">
   <%= link_to talk_path(talk, speaker_slug: local_assigns.fetch(:speaker_slug, nil)), class: "flex aspect-video overflow-hidden" do %>
       <%= image_tag talk.thumbnail_sm,
             srcset: ["#{talk.thumbnail_lg} 2x"],
@@ -23,7 +23,7 @@
       <% end %>
       <div>
         <div class="flex flex-col">
-          <div class="flex items-start gap-2 text-base-300">
+          <div class="flex items-start gap-2 font-light">
             <% if talk.speakers.length > 1 %>
               <%= heroicon :users, size: :sm, class: "shrink-0 grow-0 my-1" %>
             <% elsif talk.speakers.length == 1 %>
@@ -36,7 +36,7 @@
             </div>
           </div>
           <% if talk.event %>
-            <div class="flex items-center gap-2 text-base-300">
+            <div class="flex items-center gap-2 font-light">
               <%= heroicon :map_pin, size: :sm, class: "shrink-0 grow-0" %>
               <%= link_to talk.event.name, talk.event, class: "link link-ghost" %>
             </div>
