@@ -26,6 +26,21 @@ module.exports = {
       serif: ['Nunito', ...defaultTailwindTheme.fontFamily.serif]
     },
     extend: {
+      fontSize: {
+        xs: ['0.75rem', { lineHeight: '1rem' }],
+        sm: ['0.875rem', { lineHeight: 'rfs(1.25rem)' }],
+        base: ['rfs(1rem)', { lineHeight: 'rfs(1.5rem)' }],
+        lg: ['rfs(1.125rem)', { lineHeight: 'rfs(1.75rem)' }],
+        xl: ['rfs(1.25rem)', { lineHeight: 'rfs(1.75rem)' }],
+        '2xl': ['rfs(1.5rem)', { lineHeight: 'rfs(2rem)' }],
+        '3xl': ['rfs(1.875rem)', { lineHeight: 'rfs(2.25rem)' }],
+        '4xl': ['rfs(2.25rem)', { lineHeight: 'rfs(2.5rem)' }],
+        '5xl': ['rfs(3rem)', { lineHeight: '1' }],
+        '6xl': ['rfs(3.75rem)', { lineHeight: '1' }],
+        '7xl': ['rfs(4.5rem)', { lineHeight: '1' }],
+        '8xl': ['rfs(6rem)', { lineHeight: '1' }],
+        '9xl': ['rfs(8rem)', { lineHeight: '1' }]
+      },
       keyframes: {
         'fade-in': {
           '0%': { opacity: '0' },
