@@ -45,18 +45,18 @@
 
           <div class="markdown"><%= markdown_to_html(talk.summary) %></div>
         </div>
+      <% else %>
+        <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Description" <%= "checked" if talk.summary.blank? %>>
+        <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+          <p><%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %></p>
+
+          <p class="flex">
+            <span><%= talk.event_name %></span>
+            <span><%#= talk.event_edition %></span>
+          </p>
+        </div>
       <% end %>
 
-      <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Description" <%= "checked" if talk.summary.blank? %>>
-      <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
-        <p><%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %></p>
-
-        <p class="flex">
-          <span><%= talk.event_name %></span>
-          <span><%#= talk.event_edition %></span>
-        </p>
-
-      </div>
 
       <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Transcript">
       <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
