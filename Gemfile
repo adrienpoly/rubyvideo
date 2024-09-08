@@ -94,7 +94,7 @@ gem "dockerfile-rails", ">= 1.2", group: :development
 gem "activerecord-enhancedsqlite3-adapter"
 gem "litestream", "~> 0.10.1"
 gem "solid_cache"
-gem "solid_queue", "~> 0.7.0"
+gem "solid_queue"
 gem "mission_control-jobs", "~> 0.3"
 
 gem "inline_svg", "~> 1.9"
