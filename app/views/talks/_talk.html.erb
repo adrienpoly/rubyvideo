@@ -8,6 +8,8 @@
         video_player_src_value: talk.video_id
       } do %>
 
+  <h1 class="text-neutral mb-4 text-2xl"><%= talk.title %></h1>
+
   <div <%= tag.attributes(
              class: "aspect-video banner-img card-horizontal-img relative",
              style: "view-transition-name: #{dom_id(talk, :image)}"
@@ -20,8 +22,7 @@
                  youtube_id: talk.video_id} %>
   </div>
 
-  <div class="py-4 flex flex-col gap-4 mb-4">
-    <h1><%= talk.title %></h1>
+  <div class="py-4 flex flex-col gap-4 my-4">
 
     <% if admin %>
       <div class="flex flex-wrap gap-2">

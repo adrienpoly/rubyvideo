@@ -1,5 +1,5 @@
-const colors = require('tailwindcss/colors')
 const defaultTheme = require('daisyui/src/theming/themes.js')['[data-theme=light]']
+const defaultTailwindTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
@@ -21,22 +21,11 @@ module.exports = {
         // "2xl": "6rem",
       }
     },
+    fontFamily: {
+      sans: ['Inter', ...defaultTailwindTheme.fontFamily.sans],
+      serif: ['Nunito', ...defaultTailwindTheme.fontFamily.serif]
+    },
     extend: {
-      // this is legacy tailwind config, we will try to replace it by the daisyui theme
-      colors: {
-        transparent: 'transparent',
-        current: 'currentColor',
-        gray: '#7b6f72',
-        'gray-light': '#A39E9E',
-        'gray-lightest': '#f9fafb',
-        green: '#F0E7E9',
-        white: colors.white,
-        dark: '#261B23',
-        brand: {
-          DEFAULT: '#D74C47',
-          lighter: '#FBEEEE'
-        }
-      },
       keyframes: {
         'fade-in': {
           '0%': { opacity: '0' },
@@ -56,14 +45,16 @@ module.exports = {
         rubyvideoLight: {
           ...defaultTheme,
           '--btn-text-case': 'none',
-          primary: '#D74C47',
+          primary: '#DC143C',
           'primary-content': '#ffffff',
           secondary: '#FBEEEE',
           'secondary-content': '#7b6f72',
-          accent: '#593db1',
+          accent: '#1C6EA4',
           'accent-content': '#ffffff',
           neutral: '#261B23',
-          'neutral-content': '#ffffff'
+          'base-100': '#F8F9FA'
+          // 'neutral-content': '#ffffff',
+          // 'base-content': '#2F2F2F'
           // 'base-100': '#ffffff',
           // info: '#3abff8',
           // success: '#36d399',
