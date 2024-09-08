@@ -94,7 +94,7 @@ gem "dockerfile-rails", ">= 1.2", group: :development
 gem "activerecord-enhancedsqlite3-adapter"
 gem "litestream", "~> 0.10.1"
 gem "solid_cache"
-gem "solid_queue"
+gem "solid_queue", "~> 0.6.0"
 gem "mission_control-jobs", "~> 0.3"
 
 gem "inline_svg", "~> 1.9"
@@ -129,3 +129,6 @@ gem "redcarpet", "~> 3.6"
 gem "country_select", "~> 8.0"
 gem "avo", "~> 3.11"
 gem "frozen_record", "~> 0.27.2"
+
+# silence Ruby 3.4 warnings
+gem "ostruct"
