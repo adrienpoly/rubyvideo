@@ -2,7 +2,7 @@
   <div class="container flex justify-between items-center">
     <ul>
       <li>
-        <%= link_to root_path, class: "text-serif text-white flex gap-4 items-center" do %>
+        <%= link_to root_path, class: "font-serif text-white flex gap-4 items-center" do %>
           <title>Ruby Video</title>
         <% end %>
       </li>
@@ -13,6 +13,7 @@
       <%= render "shared/navbar/link", link_title: "Events", path: events_path %>
       <% if Current.user&.admin? %>
         <%= render "shared/navbar/link", link_title: "Topics", path: topics_path %>
+        <%= render "shared/navbar/link", link_title: "Watch Lists", path: watch_lists_path %>
 
         <%= render "shared/navbar/link", link_title: "Suggestions", path: admin_suggestions_path %>
       <% end %>
