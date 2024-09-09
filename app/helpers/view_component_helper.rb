@@ -1,7 +1,9 @@
 module ViewComponentHelper
   UI_HELPERS = {
     badge: "Ui::BadgeComponent",
-    button: "Ui::ButtonComponent"
+    button: "Ui::ButtonComponent",
+    divider: "Ui::DividerComponent",
+    dropdown: "Ui::DropdownComponent"
   }.freeze
 
   UI_HELPERS.each do |name, component|
