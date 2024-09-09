@@ -2,6 +2,7 @@ class EventsController < ApplicationController
   include Pagy::Backend
   skip_before_action :authenticate_user!, only: %i[index show update]
   before_action :set_event, only: %i[show edit update]
+  before_action :set_user_favorites, only: %i[show]
 
   # GET /events
   def index
@@ -46,5 +47,11 @@ class EventsController < ApplicationController
   # Only allow a list of trusted parameters through.
   def event_params
     params.require(:event).permit(:name, :city, :country_code)
+  end
+
+  def set_user_favorites
+    return unless Current.user
+
+    @user_favorite_talks_ids = Current.user.default_watch_list.talks.ids
   end
 end

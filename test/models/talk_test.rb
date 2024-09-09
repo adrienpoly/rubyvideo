@@ -20,8 +20,8 @@
 #  date                :date
 #  like_count          :integer
 #  view_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x000000016591cc68 @cues=[]>), not null
-#  enhanced_transcript :text             default(#<Transcript:0x000000016591cb78 @cues=[]>), not null
+#  raw_transcript      :text             default(#<Transcript:0x000000013715faf8 @cues=[]>), not null
+#  enhanced_transcript :text             default(#<Transcript:0x000000013715fa08 @cues=[]>), not null
 #  summary             :text             default(""), not null
 #  language            :string           default("en"), not null
 #

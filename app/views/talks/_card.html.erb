@@ -1,6 +1,8 @@
 
-<div class="card card-compact bg-white shadow-xl h-full w-full" id="<%= dom_id talk %>">
-  <%= link_to talk_path(talk, speaker_slug: local_assigns.fetch(:speaker_slug, nil)), class: "flex aspect-video overflow-hidden" do %>
+<%# locals: (talk:, user_favorite_talks_ids: [], favoritable: false, back_to: nil, back_to_title: nil) -%>
+
+<div class="card card-compact bg-white shadow-xl h-full w-full relative" id="<%= dom_id talk %>">
+  <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden" do %>
       <%= image_tag talk.thumbnail_sm,
             srcset: ["#{talk.thumbnail_lg} 2x"],
             id: dom_id(talk),
@@ -18,9 +20,28 @@
               alt: "GitHub picture profile of #{talk.speakers.last.github}",
               loading: :lazy %>
       <%# end %>
-      <%= link_to talk do %>
-        <%= content_tag :h2, talk.title, class: "text-sm font-sans font-medium" %>
-      <% end %>
+      <div class="flex items-start justify-between gap-2 w-full">
+        <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title) do %>
+          <%= content_tag :h2, talk.title, class: "text-sm font-sans font-medium" %>
+        <% end %>
+
+        <% if favoritable %>
+          <% if default_watch_list %>
+            <% if user_favorite_talks_ids.include?(talk.id) %>
+              <%= button_to watch_list_talk_path(default_watch_list, talk.id), method: :delete do %>
+                <%= heroicon :heart, class: "text-primary shrink-0 cursor-pointer mt-1", variant: :solid, size: :sm %>
+              <% end %>
+            <% else %>
+              <%= button_to watch_list_talks_path(default_watch_list, talk_id: talk.id), method: :post do %>
+                <%= heroicon :heart, class: "shrink-0 cursor-pointer mt-1", variant: :outline, size: :sm %>
+              <% end %>
+            <% end %>
+
+          <% else %>
+            <!-- here we want to display the watch list button but it will trigger a sign in modal  -->
+          <% end %>
+        <% end %>
+      </div>
       <div>
         <div class="flex flex-col text-sm">
           <div class="flex items-start gap-2 font-light">

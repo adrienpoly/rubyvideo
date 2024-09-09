@@ -2,23 +2,20 @@ class TalksController < ApplicationController
   include Pagy::Backend
   skip_before_action :authenticate_user!
   before_action :set_talk, only: %i[show edit update]
+  before_action :set_user_favorites, only: %i[index show]
 
   # GET /talks
   def index
-    session[:talks_page] = params[:page] || 1
     if params[:q].present?
       talks = Talk.includes(:speakers, :event).pagy_search(params[:q])
-      @pagy, @talks = pagy_meilisearch(talks, limit: 21, page: session[:talks_page]&.to_i || 1)
+      @pagy, @talks = pagy_meilisearch(talks, limit: 21, page: params[:page]&.to_i || 1)
     else
-      @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), limit: 21, page: session[:talks_page]&.to_i || 1)
+      @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), limit: 21, page: params[:page]&.to_i || 1)
     end
   end
 
   # GET /talks/1
   def show
-    speaker_slug = params[:speaker_slug]
-    @back_path = speaker_slug.present? ? speaker_path(speaker_slug, page: session[:talks_page]) : talks_path(page: session[:talks_page])
-
     set_meta_tags(@talk)
     fresh_when(@talk)
   end
@@ -49,5 +46,11 @@ class TalksController < ApplicationController
   # Only allow a list of trusted parameters through.
   def talk_params
     params.require(:talk).permit(:title, :description, :slug, :date)
+  end
+
+  def set_user_favorites
+    return unless Current.user
+
+    @user_favorite_talks_ids = Current.user.default_watch_list.talks.ids
   end
 end

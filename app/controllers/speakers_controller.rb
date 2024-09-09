@@ -1,6 +1,7 @@
 class SpeakersController < ApplicationController
   skip_before_action :authenticate_user!
   before_action :set_speaker, only: %i[show edit update]
+  before_action :set_user_favorites, only: %i[show]
   include Pagy::Backend
 
   # GET /speakers
@@ -49,5 +50,11 @@ class SpeakersController < ApplicationController
   # Only allow a list of trusted parameters through.
   def speaker_params
     params.require(:speaker).permit(:name, :twitter, :github, :bio, :website, :slug)
+  end
+
+  def set_user_favorites
+    return unless Current.user
+
+    @user_favorite_talks_ids = Current.user.default_watch_list.talks.ids
   end
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_09_02_204752) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_08_072819) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -205,6 +205,25 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_02_204752) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
+  create_table "watch_list_talks", force: :cascade do |t|
+    t.integer "watch_list_id", null: false
+    t.integer "talk_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["talk_id"], name: "index_watch_list_talks_on_talk_id"
+    t.index ["watch_list_id", "talk_id"], name: "index_watch_list_talks_on_watch_list_id_and_talk_id", unique: true
+    t.index ["watch_list_id"], name: "index_watch_list_talks_on_watch_list_id"
+  end
+
+  create_table "watch_lists", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.string "name", null: false
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_watch_lists_on_user_id"
+  end
+
   add_foreign_key "email_verification_tokens", "users"
   add_foreign_key "events", "events", column: "canonical_id"
   add_foreign_key "events", "organisations"
@@ -215,4 +234,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_02_204752) do
   add_foreign_key "talk_topics", "topics"
   add_foreign_key "talks", "events"
   add_foreign_key "topics", "topics", column: "canonical_id"
+  add_foreign_key "watch_list_talks", "talks"
+  add_foreign_key "watch_list_talks", "watch_lists"
+  add_foreign_key "watch_lists", "users"
 end
