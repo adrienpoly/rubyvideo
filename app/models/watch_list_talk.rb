@@ -3,11 +3,11 @@
 #
 # Table name: watch_list_talks
 #
-#  id          :integer          not null, primary key
+#  id            :integer          not null, primary key
 #  watch_list_id :integer          not null
-#  talk_id     :integer          not null
-#  created_at  :datetime         not null
-#  updated_at  :datetime         not null
+#  talk_id       :integer          not null
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
 #
 # rubocop:enable Layout/LineLength
 class WatchListTalk < ApplicationRecord

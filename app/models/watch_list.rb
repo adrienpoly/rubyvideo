@@ -1,7 +1,7 @@
 # rubocop:disable Layout/LineLength
 # == Schema Information
 #
-# Table name: playlists
+# Table name: watch_lists
 #
 #  id          :integer          not null, primary key
 #  user_id     :integer          not null
