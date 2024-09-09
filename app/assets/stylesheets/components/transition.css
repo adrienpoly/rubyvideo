@@ -4,11 +4,6 @@
     contain: layout;
   }
 
-  .title {
-    view-transition-name: title;
-    contain: layout;
-  }
-
   .banner-img .v-vlite {
     contain: layout;
   }

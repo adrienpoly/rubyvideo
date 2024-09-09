@@ -20,6 +20,7 @@ class User < ApplicationRecord
   has_many :email_verification_tokens, dependent: :destroy
   has_many :password_reset_tokens, dependent: :destroy
   has_many :sessions, dependent: :destroy, inverse_of: :user
+  has_many :watch_lists, dependent: :destroy
 
   validates :email, presence: true, uniqueness: true, format: {with: URI::MailTo::EMAIL_REGEXP}
   validates :password, allow_nil: true, length: {minimum: 6}
@@ -34,5 +35,9 @@ class User < ApplicationRecord
 
   after_update if: :password_digest_previously_changed? do
     sessions.where.not(id: Current.session).delete_all
+  end
+
+  def default_watch_list
+    watch_lists.first || watch_lists.create(name: "Favorites")
   end
 end

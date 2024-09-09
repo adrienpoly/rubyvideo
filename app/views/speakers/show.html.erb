@@ -1,13 +1,15 @@
+<%= turbo_refreshes_with method: :morph, scroll: :preserve %>
+
 <div class="container py-8">
   <div class="flex items-start flex-wrap sm:flex-nowrap gap-8 w-full">
     <div class="w-full sm:w-1/3">
+      <h1 class="mb-4" style="view-transition-name: title"> <%= @speaker.name %></h1>
       <% if @speaker.github.present? %>
         <%= image_tag @speaker.github_avatar_url(size: 200),
-              class: "rounded-full mx-auto",
+              class: "rounded-full mb-4",
               alt: "GitHub picture profile of #{@speaker.github}",
               loading: :lazy %>
       <% end %>
-      <h1 class="my-8"> <%= @speaker.name %></h1>
       <%= render "speakers/about", speaker: @speaker %>
       <div class="flex flex-wrap gap-4">
         <div class="tooltip tooltip-right tooltip-success" data-tip="You can suggest some modifications to this speaker description">
@@ -29,8 +31,10 @@
               collection: @talks,
               as: :talk,
               locals: {
-                picture_profile: false,
-                speaker_slug: @speaker.slug
+                favoritable: true,
+                user_favorite_talks_ids: @user_favorite_talks_ids,
+                back_to: request.fullpath,
+                back_to_title: @speaker.name
               } %>
       </div>
     </div>

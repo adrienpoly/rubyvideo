@@ -20,8 +20,8 @@
 #  date                :date
 #  like_count          :integer
 #  view_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x000000016591cc68 @cues=[]>), not null
-#  enhanced_transcript :text             default(#<Transcript:0x000000016591cb78 @cues=[]>), not null
+#  raw_transcript      :text             default(#<Transcript:0x0000000126897d68 @cues=[]>), not null
+#  enhanced_transcript :text             default(#<Transcript:0x0000000126897c78 @cues=[]>), not null
 #  summary             :text             default(""), not null
 #  language            :string           default("en"), not null
 #
@@ -47,6 +47,9 @@ class Talk < ApplicationRecord
   has_many :talk_topics, dependent: :destroy
   has_many :topics, through: :talk_topics
   has_many :approved_topics, -> { approved }, through: :talk_topics, source: :topic, inverse_of: :talks
+
+  has_many :watch_list_talks, dependent: :destroy
+  has_many :watch_lists, through: :watch_list_talks
 
   # validations
   validates :title, presence: true
