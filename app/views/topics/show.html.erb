@@ -5,13 +5,13 @@
   <div id="topic-talks" class="grid min-w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 gallery">
     <% @topic.talks.order(date: :desc).each do |talk| %>
       <%= render partial: "talks/card",
-                  locals: {
-                    favoritable: true,
-                    user_favorite_talks_ids: @user_favorite_talks_ids,
-                    back_to: request.fullpath,
-                    back_to_title: @topic.name,
-                    talk: talk
-                  } %>
+            locals: {
+              favoritable: true,
+              user_favorite_talks_ids: @user_favorite_talks_ids,
+              back_to: request.fullpath,
+              back_to_title: @topic.name,
+              talk: talk
+            } %>
     <% end %>
   </div>
 </div>
