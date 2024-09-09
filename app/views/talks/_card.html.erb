@@ -1,7 +1,7 @@
 
 <%# locals: (talk:, user_favorite_talks_ids: [], favoritable: false, back_to: nil, back_to_title: nil) -%>
 
-<div class="card card-compact bg-white shadow-xl h-full w-full relative" id="<%= dom_id talk %>">
+<div class="card card-compact bg-white shadow-xl h-full w-full relative" id="<%= dom_id talk %>" style="<%= "view-transition-name: #{dom_id(talk, :talk_card)}" %>">
   <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden" do %>
       <%= image_tag talk.thumbnail_sm,
             srcset: ["#{talk.thumbnail_lg} 2x"],
@@ -12,8 +12,8 @@
             style: "view-transition-name: #{dom_id(talk, :image)}",
             class: "w-full object-cover rounded-t-xl" %>
   <% end %>
-  <div class="card-body">
-    <div class="flex flex-col items-start gap-2">
+  <div class="card-body flex flex-row justify-between items-start gap-2">
+    <div class="flex flex-col items-start h-full justify-between gap-2 w-full">
       <%# if talk.speakers.last&.github&.present? && local_assigns.fetch(:picture_profile, true) %>
         <%#= image_tag talk.speakers.last.github_avatar_url(size: 64),
               class: "rounded-full w-8 h-8 mr-2 mt-1",
@@ -24,26 +24,9 @@
         <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title) do %>
           <%= content_tag :h2, talk.title, class: "text-sm font-sans font-medium" %>
         <% end %>
-
-        <% if favoritable %>
-          <% if default_watch_list %>
-            <% if user_favorite_talks_ids.include?(talk.id) %>
-              <%= button_to watch_list_talk_path(default_watch_list, talk.id), method: :delete do %>
-                <%= heroicon :heart, class: "text-primary shrink-0 cursor-pointer mt-1", variant: :solid, size: :sm %>
-              <% end %>
-            <% else %>
-              <%= button_to watch_list_talks_path(default_watch_list, talk_id: talk.id), method: :post do %>
-                <%= heroicon :heart, class: "shrink-0 cursor-pointer mt-1", variant: :outline, size: :sm %>
-              <% end %>
-            <% end %>
-
-          <% else %>
-            <!-- here we want to display the watch list button but it will trigger a sign in modal  -->
-          <% end %>
-        <% end %>
       </div>
-      <div>
-        <div class="flex flex-col text-sm">
+      <div class="flex gap-2 items-end justify-between w-full">
+        <div class="flex flex-col text-sm w-full flex-grow">
           <div class="flex items-start gap-2 font-light">
             <% if talk.speakers.length > 1 %>
               <%= heroicon :users, size: :sm, class: "shrink-0 grow-0 my-1" %>
@@ -52,17 +35,34 @@
             <% end %>
 
             <div class="line-clamp-1">
-              <% speaker_names = talk.speakers.shuffle.map { |speaker| link_to speaker.name, speaker_path(speaker), class: "link link-ghost" } %>
+              <% speaker_names = talk.speakers.map { |speaker| link_to speaker.name, speaker_path(speaker), class: "link link-ghost" } %>
               <%= sanitize speaker_names.join(", ") %>
             </div>
           </div>
           <% if talk.event %>
             <div class="flex items-center gap-2 font-light">
               <%= heroicon :map_pin, size: :sm, class: "shrink-0 grow-0" %>
-              <%= link_to talk.event.name, talk.event, class: "link link-ghost" %>
+              <%= link_to talk.event.name, talk.event, class: "link link-ghost line-clamp-1" %>
             </div>
           <% end %>
         </div>
+        <% if favoritable %>
+          <div class="self-end">
+            <% if default_watch_list %>
+              <% if user_favorite_talks_ids.include?(talk.id) %>
+                <%= button_to watch_list_talk_path(default_watch_list, talk.id), method: :delete do %>
+                  <%= heroicon :bookmark, class: "text-primary shrink-0 cursor-pointer mt-1", variant: :solid, size: :sm %>
+                <% end %>
+              <% else %>
+                <%= button_to watch_list_talks_path(default_watch_list, talk_id: talk.id), method: :post do %>
+                  <%= heroicon :bookmark, class: "shrink-0 cursor-pointer mt-1", variant: :outline, size: :sm %>
+                <% end %>
+              <% end %>
+            <% else %>
+              <!-- here we want to display the watch list button but it will trigger a sign in modal  -->
+            <% end %>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>
