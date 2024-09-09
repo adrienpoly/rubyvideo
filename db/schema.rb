@@ -236,5 +236,4 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_08_072819) do
   add_foreign_key "topics", "topics", column: "canonical_id"
   add_foreign_key "watch_list_talks", "talks"
   add_foreign_key "watch_list_talks", "watch_lists"
-  add_foreign_key "watch_lists", "users"
 end
