@@ -37,7 +37,7 @@ rails runner scripts/prepare_organisations.rb
 
 This will update your `data_preparation/organisations.yml` file with the youtube_channel_id information.
 
-### Step 2 - Create the WatchLists
+### Step 2 - Create the Playlists
 
 This workflow assumes the Youtube channel is organized by playlist with 1 event equating to 1 playlist. Run the following script to create the playlist file:
 

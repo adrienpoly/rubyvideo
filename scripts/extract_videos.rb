@@ -8,7 +8,7 @@ organisations = YAML.load_file("#{Rails.root}/data_preparation/organisations.yml
 # for each playlist create a directory and add a videos.yml file
 def create_playlist_items(playlist, organisation_slug)
   puts "extracting videos for playlist : #{playlist.title}"
-  playlist_videos = Youtube::WatchListItems.new.all(playlist_id: playlist.id)
+  playlist_videos = Youtube::PlaylistItems.new.all(playlist_id: playlist.id)
   playlist_videos.sort_by! { |video| video.published_at }
 
   FileUtils.mkdir_p(File.join(Rails.root, "data_preparation", organisation_slug, playlist.slug))
