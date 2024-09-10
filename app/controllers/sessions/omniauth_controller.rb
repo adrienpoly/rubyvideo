@@ -6,7 +6,10 @@ class Sessions::OmniauthController < ApplicationController
     connected_account = ConnectedAccount.find_or_initialize_by(provider: omniauth.provider, uid: omniauth.uid)
 
     if connected_account.new_record?
-      @user = User.create_with(user_params).find_or_create_by(email: omniauth.info.email)
+      @user = User.find_or_create_by(email: omniauth.info.email) do |user|
+        user.password = SecureRandom.base58
+        user.verified = true
+      end
       connected_account.user = @user
       connected_account.access_token = omniauth.credentials&.try(:token)
       connected_account.username = omniauth.info&.try(:nickname)
