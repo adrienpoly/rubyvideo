@@ -49,6 +49,17 @@ class Sessions::OmniauthControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to root_path
   end
 
+  test "finds existing user by email if already exists and creates a new connected account(github)" do
+    user = users(:one)
+    OmniAuth.config.add_mock(:github, uid: "12345", info: {email: user.email})
+    assert user.connected_accounts.empty?
+    assert_difference "ConnectedAccount.count", 1 do
+      post "/auth/github/callback"
+    end
+    assert_equal ConnectedAccount.last.user, user
+    assert_redirected_to root_path
+  end
+
   test "creates a new session for the user" do
     OmniAuth.config.mock_auth[:developer] = @developer_auth
     assert_difference "Session.count", 1 do
