@@ -4,6 +4,20 @@ module Authenticable
   included do
     before_action :set_current_request_details
     before_action :authenticate_user!
+
+    helper_method :signed_in?, :signed_in, :signed_out
+  end
+
+  def signed_in?
+    Current.user.present?
+  end
+
+  def signed_in(&block)
+    yield if block && signed_in?
+  end
+
+  def signed_out(&block)
+    yield if block && !signed_in?
   end
 
   private

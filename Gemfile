@@ -130,5 +130,12 @@ gem "country_select", "~> 8.0"
 gem "avo", "~> 3.11"
 gem "frozen_record", "~> 0.27.2"
 
+# Use OmniAuth to support multi-provider authentication [https://github.com/omniauth/omniauth]
+gem "omniauth"
+gem "omniauth-github"
+
+# Provides a mitigation against CVE-2015-9284 [https://github.com/cookpad/omniauth-rails_csrf_protection]
+gem "omniauth-rails_csrf_protection"
+
 # silence Ruby 3.4 warnings
 gem "ostruct"

@@ -30,3 +30,11 @@ admin:
   password_digest: <%= BCrypt::Password.create("Secret1*3*5*") %>
   verified: true
   admin: true
+
+developer_oauth:
+  email: developer@example.com
+  password_digest: <%= BCrypt::Password.create("password") %>
+
+github_user:
+  email: github_user@example.com
+  password_digest: <%= BCrypt::Password.create("password") %>
