@@ -9,7 +9,7 @@ class Sessions::OmniauthController < ApplicationController
       @user = User.create_with(user_params).find_or_create_by(email: omniauth.info.email)
       connected_account.user = @user
       connected_account.access_token = omniauth.credentials&.try(:token)
-      connected_account.username = omniauth.info&.try(:login)
+      connected_account.username = omniauth.info&.try(:nickname)
       connected_account.save!
     else
       @user = connected_account.user
