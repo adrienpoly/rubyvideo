@@ -19,7 +19,7 @@ class Avo::Resources::ConnectedAccount < Avo::BaseResource
     field :id, as: :id
     field :uid, as: :text
     field :provider, as: :text, sortable: true
-    field :username, as: :text, sortable: true, hide_on: [:index]
+    field :username, as: :text, sortable: true
     field :user_id, as: :text, sortable: true, hide_on: [:index]
     field :access_token, as: :text, hide_on: [:index]
     field :expires_at, as: :date_time, hide_on: [:index]

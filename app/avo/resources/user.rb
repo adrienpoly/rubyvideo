@@ -13,5 +13,6 @@ class Avo::Resources::User < Avo::BaseResource
     field :admin, as: :boolean
     # field :sessions, as: :has_many, use_resource: Avo::Resources::Session
     field :sessions, as: :has_many
+    field :connected_accounts, as: :has_many
   end
 end
