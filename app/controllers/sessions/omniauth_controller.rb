@@ -6,12 +6,12 @@ class Sessions::OmniauthController < ApplicationController
     connected_account = ConnectedAccount.find_or_initialize_by(provider: omniauth.provider, uid: omniauth.uid)
 
     if connected_account.new_record?
-      @user = User.find_or_create_by(email: omniauth.info.email) do |user|
+      @user = User.find_or_create_by(email: github_email) do |user|
         user.password = SecureRandom.base58
         user.verified = true
       end
       connected_account.user = @user
-      connected_account.access_token = omniauth.credentials&.try(:token)
+      connected_account.access_token = token
       connected_account.username = omniauth.info&.try(:nickname)
       connected_account.save!
     else
@@ -34,12 +34,16 @@ class Sessions::OmniauthController < ApplicationController
 
   private
 
-  def redirect_to_path
-    query_params["redirect_to"] || root_path
+  def github_email
+    @github_email ||= omniauth.info.email || fetch_github_email(token)
   end
 
-  def user_params
-    {email: omniauth.info.email, password: SecureRandom.base58, verified: true}
+  def token
+    @token ||= omniauth.credentials.token
+  end
+
+  def redirect_to_path
+    query_params["redirect_to"] || root_path
   end
 
   def omniauth_params
@@ -52,5 +56,14 @@ class Sessions::OmniauthController < ApplicationController
 
   def query_params
     request.env["omniauth.params"]
+  end
+
+  def fetch_github_email(oauth_token)
+    return unless oauth_token
+    response = Github::UserClient.new(token: oauth_token).emails
+
+    emails = response.parsed_body
+    primary_email = emails.find { |email| email.primary && email.verified }
+    primary_email&.email
   end
 end
