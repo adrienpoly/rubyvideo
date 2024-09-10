@@ -1,3 +1,5 @@
+<% redirect_to_path = params.delete(:redirect_to) || root_path %>
+
 <div class="flex items-center justify-center py-24 px-4 sm:px-6 lg:px-8">
   <div class="max-w-md w-full space-y-8">
     <div>
@@ -7,7 +9,7 @@
     </div>
     <div class="mt-8 space-y-6">
       <div>
-        <%= button_to "/auth/github?redirect_to=/talks", method: :post, data: {turbo: false}, class: "btn w-full btn-neutral" do %>
+        <%= button_to "/auth/github?redirect_to=#{redirect_to_path}", method: :post, data: {turbo: false}, class: "btn w-full btn-neutral" do %>
           <%= icon "github", size: :sm, class: "mr-2" %>
           Sign in with GitHub
         <% end %>
