@@ -230,11 +230,11 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_09_194059) do
   end
 
   create_table "watch_lists", force: :cascade do |t|
+    t.integer "user_id", null: false
     t.string "name", null: false
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id", null: false
     t.index ["user_id"], name: "index_watch_lists_on_user_id"
   end
 
@@ -251,5 +251,4 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_09_194059) do
   add_foreign_key "topics", "topics", column: "canonical_id"
   add_foreign_key "watch_list_talks", "talks"
   add_foreign_key "watch_list_talks", "watch_lists"
-  add_foreign_key "watch_lists", "users", deferrable: :deferred
 end
