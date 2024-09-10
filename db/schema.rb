@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_09_08_072819) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_09_194059) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -50,6 +50,20 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_08_072819) do
     t.datetime "started_at"
     t.index ["user_id"], name: "index_ahoy_visits_on_user_id"
     t.index ["visit_token"], name: "index_ahoy_visits_on_visit_token", unique: true
+  end
+
+  create_table "connected_accounts", force: :cascade do |t|
+    t.string "uid"
+    t.string "provider"
+    t.string "username"
+    t.integer "user_id", null: false
+    t.string "access_token"
+    t.datetime "expires_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["provider", "uid"], name: "index_connected_accounts_on_provider_and_uid", unique: true
+    t.index ["provider", "username"], name: "index_connected_accounts_on_provider_and_username", unique: true
+    t.index ["user_id"], name: "index_connected_accounts_on_user_id"
   end
 
   create_table "email_verification_tokens", force: :cascade do |t|
@@ -216,14 +230,15 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_08_072819) do
   end
 
   create_table "watch_lists", force: :cascade do |t|
-    t.integer "user_id", null: false
     t.string "name", null: false
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id", null: false
     t.index ["user_id"], name: "index_watch_lists_on_user_id"
   end
 
+  add_foreign_key "connected_accounts", "users"
   add_foreign_key "email_verification_tokens", "users"
   add_foreign_key "events", "events", column: "canonical_id"
   add_foreign_key "events", "organisations"
@@ -236,4 +251,5 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_08_072819) do
   add_foreign_key "topics", "topics", column: "canonical_id"
   add_foreign_key "watch_list_talks", "talks"
   add_foreign_key "watch_list_talks", "watch_lists"
+  add_foreign_key "watch_lists", "users", deferrable: :deferred
 end

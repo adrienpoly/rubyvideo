@@ -1,0 +1,28 @@
+# rubocop:disable Layout/LineLength
+# == Schema Information
+#
+# Table name: connected_accounts
+#
+#  id           :integer          not null, primary key
+#  uid          :string
+#  provider     :string
+#  username     :string
+#  user_id      :integer          not null
+#  access_token :string
+#  expires_at   :datetime
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+# rubocop:enable Layout/LineLength
+
+developer_connected_account:
+  provider: developer
+  uid: "123456"
+  user: developer_oauth
+  access_token: "123456"
+
+github_connected_account:
+  provider: github
+  uid: "789012"
+  user: github_user
+  access_token: "789012"

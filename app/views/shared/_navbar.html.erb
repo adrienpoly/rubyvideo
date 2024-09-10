@@ -8,18 +8,28 @@
         <%= render "shared/navbar/link", link_title: "Talks", path: talks_path %>
         <%= render "shared/navbar/link", link_title: "Speakers", path: speakers_path %>
         <%= render "shared/navbar/link", link_title: "Events", path: events_path %>
-        <% if Current.user&.admin? %>
-          <%= render "shared/navbar/link", link_title: "Events", path: events_path %>
+        <% signed_in do %>
           <%= render "shared/navbar/link", link_title: "Watch List", path: watch_lists_path %>
-          <%= render "shared/navbar/link", link_title: "Suggestions", path: admin_suggestions_path %>
+          <% if Current.user&.admin? %>
+            <%= render "shared/navbar/link", link_title: "Topics", path: topics_path %>
+            <%= render "shared/navbar/link", link_title: "Suggestions", path: admin_suggestions_path %>
+          <% end %>
         <% end %>
+
         <li>
           <%= link_to "https://github.com/adrienpoly/rubyvideo", target: "_blank", alt: "github repository for the Ruby video project" do %>
             <%= icon "github", size: :lg %>
           <% end %>
         </li>
       </ul>
-      <%= render "shared/user_dropdown" %>
+      <% signed_in do %>
+        <%= render "shared/user_dropdown" %>
+      <% end %>
+      <% signed_out do %>
+        <% if false %>
+          <%= link_to "Sign in", sign_in_path, class: "btn btn-outline bg-white text-primary hover:bg-base-100 hover:text-primary hover:border-primary" %>
+        <% end %>
+      <% end %>
     </div>
     <div class="mobile-menu">
       <%= render "shared/user_mobile_dropdown" %>

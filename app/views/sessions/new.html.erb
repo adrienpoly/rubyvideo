@@ -1,29 +1,25 @@
-<p style="color: green"><%= notice %></p>
-<p style="color: red"><%= alert %></p>
+<div class="flex items-center justify-center py-24 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-md w-full space-y-8">
+    <div>
+      <h1 class="mt-6 text-center text-3xl font-semibold text-neutral">
+        Sign in to your account
+      </h1>
+    </div>
+    <div class="mt-8 space-y-6">
+      <div>
+        <%= button_to "/auth/github?redirect_to=/talks", method: :post, data: {turbo: false}, class: "btn w-full btn-neutral" do %>
+          <%= icon "github", size: :sm, class: "mr-2" %>
+          Sign in with GitHub
+        <% end %>
+      </div>
 
-<h1>Sign in</h1>
-
-<%= form_with(url: sign_in_path) do |form| %>
-  <div>
-    <%= form.label :email, style: "display: block" %>
-    <%= form.email_field :email, value: params[:email_hint], required: true, autofocus: true, autocomplete: "email" %>
+      <% if Rails.env.development? %>
+        <div>
+          <%= button_to "/auth/developer", method: :post, data: {turbo: false}, class: "btn w-full btn-accent" do %>
+            Sign in with OmniAuth (Development)
+          <% end %>
+        </div>
+      <% end %>
+    </div>
   </div>
-
-  <div>
-    <%= form.label :password, style: "display: block" %>
-    <%= form.password_field :password, required: true, autocomplete: "current-password" %>
-  </div>
-
-  <div>
-    <%= form.submit "Sign in" %>
-  </div>
-<% end %>
-
-<br>
-
-<br>
-
-<div>
-  <%= link_to "Sign up", sign_up_path %> |
-  <%= link_to "Forgot your password?", new_identity_password_reset_path %>
 </div>

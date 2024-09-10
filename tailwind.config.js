@@ -67,8 +67,8 @@ module.exports = {
           accent: '#1C6EA4',
           'accent-content': '#ffffff',
           neutral: '#261B23',
+          'neutral-content': '#ffffff',
           'base-100': '#F8F9FA'
-          // 'neutral-content': '#ffffff',
           // 'base-content': '#2F2F2F'
           // 'base-100': '#ffffff',
           // info: '#3abff8',
