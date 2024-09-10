@@ -25,7 +25,7 @@ class Sessions::OmniauthControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "creates a new user if not exists (github)" do
-    OmniAuth.config.add_mock(:github, uid: "12345", info: {email: "twitter@example.com", login: "twitter"}, credentials: {token: 1, expires_in: 100})
+    OmniAuth.config.add_mock(:github, uid: "12345", info: {email: "twitter@example.com", nickname: "twitter"}, credentials: {token: 1, expires_in: 100})
     assert_difference "User.count", 1 do
       post "/auth/github/callback"
     end
