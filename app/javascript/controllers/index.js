@@ -10,6 +10,9 @@ application.register("auto-submit", AutoSubmitController)
 import DropdownController from "./dropdown_controller"
 application.register("dropdown", DropdownController)
 
+import ModalController from "./modal_controller"
+application.register("modal", ModalController)
+
 import PageTransitionMissingController from "./page_transition_missing_controller"
 application.register("page-transition-missing", PageTransitionMissingController)
 
