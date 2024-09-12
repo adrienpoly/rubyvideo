@@ -1,4 +1,5 @@
 class Avo::Resources::User < Avo::BaseResource
+  self.title = :name
   self.includes = []
   self.search = {
     query: -> { query.where(email: params[:q]) }
