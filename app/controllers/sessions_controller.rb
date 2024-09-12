@@ -1,4 +1,7 @@
 class SessionsController < ApplicationController
+  include RemoteModal
+  allowed_remote_modal_actions :new
+
   skip_before_action :authenticate_user!, only: %i[new create]
 
   before_action :set_session, only: :destroy
