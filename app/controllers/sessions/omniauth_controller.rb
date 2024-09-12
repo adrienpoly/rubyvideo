@@ -39,7 +39,7 @@ class Sessions::OmniauthController < ApplicationController
   end
 
   def token
-    @token ||= omniauth.credentials.token
+    @token ||= omniauth.credentials&.token
   end
 
   def redirect_to_path
