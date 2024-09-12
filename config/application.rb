@@ -40,6 +40,9 @@ module Rubyvideo
 
     config.active_job.queue_adapter = :solid_queue
     config.solid_queue.connects_to = {database: {writing: :queue}}
+
+    # to remove once encrytion completed
+    config.active_record.encryption.support_unencrypted_data = true
   end
 end
 

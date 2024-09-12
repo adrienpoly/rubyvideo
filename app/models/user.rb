@@ -6,12 +6,11 @@
 #  id              :integer          not null, primary key
 #  email           :string           not null
 #  password_digest :string           not null
-#  first_name      :string           default(""), not null
-#  last_name       :string           default(""), not null
 #  verified        :boolean          default(FALSE), not null
 #  admin           :boolean          default(FALSE), not null
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
+#  name            :string
 #
 # rubocop:enable Layout/LineLength
 class User < ApplicationRecord
@@ -25,6 +24,9 @@ class User < ApplicationRecord
 
   validates :email, presence: true, uniqueness: true, format: {with: URI::MailTo::EMAIL_REGEXP}
   validates :password, allow_nil: true, length: {minimum: 6}
+
+  encrypts :email, deterministic: true
+  encrypts :name
 
   before_validation if: -> { email.present? } do
     self.email = email.downcase.strip

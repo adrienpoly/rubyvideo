@@ -16,4 +16,6 @@
 # rubocop:enable Layout/LineLength
 class ConnectedAccount < ApplicationRecord
   belongs_to :user
+
+  encrypts :access_token
 end

@@ -19,6 +19,7 @@ class Sessions::OmniauthController < ApplicationController
     end
 
     if @user.persisted?
+      @user.update(name: name) if name.present?
       session_record = @user.sessions.create!
       cookies.signed.permanent[:session_token] = {value: session_record.id, httponly: true}
 
@@ -40,6 +41,10 @@ class Sessions::OmniauthController < ApplicationController
 
   def token
     @token ||= omniauth.credentials&.token
+  end
+
+  def name
+    @name ||= omniauth.info&.try(:name)
   end
 
   def redirect_to_path
