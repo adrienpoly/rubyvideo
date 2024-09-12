@@ -59,7 +59,9 @@
                 <% end %>
               <% end %>
             <% else %>
-              <!-- here we want to display the watch list button but it will trigger a sign in modal  -->
+              <%= link_to sign_in_path(redirect_to: request.fullpath), data: {turbo_frame: "modal"} do %>
+                <%= heroicon :bookmark, class: "shrink-0 cursor-pointer mt-1", variant: :outline, size: :sm %>
+              <% end %>
             <% end %>
           </div>
         <% end %>
