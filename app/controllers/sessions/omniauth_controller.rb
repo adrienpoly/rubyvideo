@@ -9,6 +9,7 @@ class Sessions::OmniauthController < ApplicationController
       @user = User.find_or_create_by(email: github_email) do |user|
         user.password = SecureRandom.base58
         user.verified = true
+        user.github_handle = omniauth.info&.try(:nickname)
       end
       connected_account.user = @user
       connected_account.access_token = token

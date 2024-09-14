@@ -24,6 +24,7 @@ class User < ApplicationRecord
 
   validates :email, presence: true, uniqueness: true, format: {with: URI::MailTo::EMAIL_REGEXP}
   validates :password, allow_nil: true, length: {minimum: 6}
+  validates :github_handle, presence: true, uniqueness: true
 
   encrypts :email, deterministic: true
   encrypts :name
