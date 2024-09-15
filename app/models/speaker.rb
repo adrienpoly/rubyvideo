@@ -40,6 +40,13 @@ class Speaker < ApplicationRecord
   scope :canonical, -> { where(canonical_id: nil) }
   scope :not_canonical, -> { where.not(canonical_id: nil) }
 
+  # normalizes
+  normalizes :twitter, with: ->(value) { value.gsub(%r{https?://(?:www\.)?(?:x\.com|twitter\.com)/}, "").gsub(/@/, "") }
+
+  def title
+    name
+  end
+
   def github_avatar_url(size: 200)
     return "" unless github.present?
 
