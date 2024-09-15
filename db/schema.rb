@@ -217,7 +217,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_14_162252) do
     t.string "name"
     t.string "github_handle"
     t.index ["email"], name: "index_users_on_email", unique: true
-    t.index ["github_handle"], name: "index_users_on_github_handle", unique: true
+    t.index ["github_handle"], name: "index_users_on_github_handle", unique: true, where: "github_handle IS NOT NULL"
   end
 
   create_table "watch_list_talks", force: :cascade do |t|
