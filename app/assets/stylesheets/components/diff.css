@@ -1,0 +1,11 @@
+@layer components {
+  .diff {
+    del {
+      @apply text-error;
+    }
+
+    ins {
+      @apply text-success;
+    }
+  }
+}
