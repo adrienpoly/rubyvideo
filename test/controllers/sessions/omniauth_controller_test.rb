@@ -31,6 +31,7 @@ class Sessions::OmniauthControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_equal "twitter", User.last.connected_accounts.last.username
+    assert_equal "twitter", User.last.github_handle
   end
 
   test "finds existing user if already exists (developer)" do

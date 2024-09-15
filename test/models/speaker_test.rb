@@ -38,4 +38,13 @@ class SpeakerTest < ActiveSupport::TestCase
     speaker = Speaker.new(website: "")
     assert_equal "#", speaker.valid_website_url
   end
+
+  test "speaker user association" do
+    speaker = speakers(:one)
+    user = users(:one)
+    user.update(github_handle: speaker.github)
+    assert_equal user.github_handle, speaker.github
+    assert_equal user, speaker.user
+    assert_equal speaker, user.speaker
+  end
 end

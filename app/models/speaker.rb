@@ -25,8 +25,10 @@ class Speaker < ApplicationRecord
   # associations
   has_many :speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
   has_many :talks, through: :speaker_talks, inverse_of: :speakers
-  belongs_to :canonical, class_name: "Speaker", optional: true
   has_many :aliases, class_name: "Speaker", foreign_key: "canonical_id"
+
+  belongs_to :canonical, class_name: "Speaker", optional: true
+  belongs_to :user, primary_key: :github_handle, foreign_key: :github, optional: true
 
   # validations
   validates :canonical, exclusion: {in: ->(speaker) { [speaker] }, message: "can't be itself"}

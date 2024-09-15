@@ -21,9 +21,11 @@ class User < ApplicationRecord
   has_many :sessions, dependent: :destroy, inverse_of: :user
   has_many :connected_accounts, dependent: :destroy
   has_many :watch_lists, dependent: :destroy
+  has_one :speaker, primary_key: :github_handle, foreign_key: :github
 
   validates :email, presence: true, uniqueness: true, format: {with: URI::MailTo::EMAIL_REGEXP}
   validates :password, allow_nil: true, length: {minimum: 6}
+  validates :github_handle, presence: true, uniqueness: true, allow_nil: true
 
   encrypts :email, deterministic: true
   encrypts :name
