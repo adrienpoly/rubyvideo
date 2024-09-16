@@ -8,7 +8,7 @@ class SpeakersController < ApplicationController
   def index
     respond_to do |format|
       format.html do
-        @speakers = Speaker.with_talks.order(:name).select(:id, :name, :slug, :talks_count, :github)
+        @speakers = Speaker.with_talks.order(:name).select(:id, :name, :slug, :talks_count, :github, :updated_at)
         @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
       end
       format.json do
