@@ -18,7 +18,7 @@
 
   <div class="my-5">
     <%= form.label :description %>
-    <%= form.text_area :description, rows: 4, class: "input input-bordered w-full" %>
+    <%= form.text_area :description, rows: 4, class: "textarea textarea-bordered w-full" %>
   </div>
 
   <div class="my-5">
@@ -26,17 +26,8 @@
     <%= form.text_field :website, class: "input input-bordered w-full" %>
   </div>
 
-  <div class="my-5">
-    <%= form.label :kind %>
-    <%= form.number_field :kind, class: "input input-bordered w-full" %>
-  </div>
-
-  <div class="my-5">
-    <%= form.label :frequency %>
-    <%= form.number_field :frequency, class: "input input-bordered w-full" %>
-  </div>
-
   <div class="inline">
-    <%= form.submit class: "rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer" %>
+    <%= ui_button "Suggest modifications", type: :submit %>
+    <%= ui_button "Cancel", url: event_path(event), outline: true, role: :button %>
   </div>
 <% end %>
