@@ -1,8 +1,12 @@
 <div class="card card-bordered">
   <div class="card-body">
     <div class="flex flex-col gap-4">
-      <% title = "#{suggestion.suggestable.class} : #{suggestion.suggestable.title}" %>
-      <%= link_to title, suggestion.suggestable, target: "_blank", class: "link" %>
+      <% title = suggestion.suggestable.try(:suggestion_summary) || "#{suggestion.suggestable.class} : #{suggestion.suggestable.title}" %>
+      <%= link_to suggestion.suggestable, target: "_blank", class: "" do %>
+        <%= simple_format title %>
+      <% end %>
+
+      <div class="font-semibold">Changes:</div>
       <div class="grid grid-cols-2 gap-4">
         <% suggestion.content.keys.each do |key| %>
           <span><%= key %></span>

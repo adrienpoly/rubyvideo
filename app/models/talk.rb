@@ -219,4 +219,12 @@ class Talk < ApplicationRecord
   def static_metadata
     Static::Video.find_by(video_id: video_id)
   end
+
+  def suggestion_summary
+    <<~HEREDOC
+      Talk: #{title} (#{date})
+      by #{speakers.map(&:name).to_sentence}
+      at #{event.name}
+    HEREDOC
+  end
 end

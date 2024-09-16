@@ -132,4 +132,14 @@ class Speaker < ApplicationRecord
       SpeakerTalk.where(speaker_id: id).destroy_all
     end
   end
+
+  def suggestion_summary
+    <<~HEREDOC
+      Speaker: #{name}
+      github: #{github}
+      twitter: #{twitter}
+      website: #{website}
+      bio: #{bio}
+    HEREDOC
+  end
 end

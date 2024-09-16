@@ -48,4 +48,15 @@ class Event < ApplicationRecord
       talks.update_all(event_id: canonical_event.id)
     end
   end
+
+  def suggestion_summary
+    <<~HEREDOC
+      Event: #{name}
+      #{description}
+      #{city}
+      #{country_code}
+      #{organisation.name}
+      #{date}
+    HEREDOC
+  end
 end
