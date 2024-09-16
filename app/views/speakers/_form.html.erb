@@ -36,11 +36,6 @@
     <%= form.text_field :website, class: "input input-bordered w-full" %>
   </div>
 
-  <div>
-    <%= form.label :slug %>
-    <%= form.text_field :slug, class: "input input-bordered w-full" %>
-  </div>
-
   <div class="flex items-center gap-4">
     <%= ui_button "Suggest modifications", type: :submit %>
     <%= ui_button "Cancel", url: speaker_path(speaker), outline: true, role: :button %>
