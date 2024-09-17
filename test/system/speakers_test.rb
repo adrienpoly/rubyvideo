@@ -15,7 +15,6 @@ class SpeakersTest < ApplicationSystemTestCase
     fill_in "Bio", with: @speaker.bio
     fill_in "GitHub", with: @speaker.github
     fill_in "Name", with: @speaker.name
-    fill_in "Slug", with: @speaker.slug
     fill_in "Twitter", with: @speaker.twitter
     fill_in "Website", with: @speaker.website
     click_on "Suggest modifications"
