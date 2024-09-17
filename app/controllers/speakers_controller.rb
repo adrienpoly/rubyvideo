@@ -41,15 +41,27 @@ class SpeakersController < ApplicationController
 
   private
 
-  # Use callbacks to share common setup or constraints between actions.
+  helper_method :user_kind
+  def user_kind
+    return :admin if Current.user&.admin?
+    return :owner if @speaker.managed_by?(Current.user)
+    return :signed_in if Current.user.present?
+
+    :anonymous
+  end
+
   def set_speaker
     @speaker = Speaker.includes(:talks).find_by!(slug: params[:slug])
     redirect_to speaker_path(@speaker.canonical) if @speaker.canonical.present?
   end
 
-  # Only allow a list of trusted parameters through.
   def speaker_params
-    params.require(:speaker).permit(:name, :twitter, :github, :bio, :website, :slug)
+    {
+      anonymous: params.require(:speaker).permit(:github),
+      signed_in: params.require(:speaker).permit(:github),
+      owner: params.require(:speaker).permit(:name, :twitter, :bio, :website),
+      admin: params.require(:speaker).permit(:name, :twitter, :github, :bio, :website)
+    } [user_kind]
   end
 
   def set_user_favorites

@@ -49,6 +49,10 @@ class Event < ApplicationRecord
     end
   end
 
+  def managed_by?(user)
+    Current.user&.admin?
+  end
+
   def suggestion_summary
     <<~HEREDOC
       Event: #{name}

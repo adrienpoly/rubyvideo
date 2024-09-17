@@ -31,7 +31,7 @@ class Suggestion < ApplicationRecord
 
   def notice
     if approved?
-      "Suggestion approved!"
+      "Modification approved!"
     elsif rejected?
       "Suggestion rejected!"
     else
