@@ -104,6 +104,13 @@ class Talk < ApplicationRecord
   scope :without_topics, -> { where.missing(:talk_topics) }
   scope :with_topics, -> { joins(:talk_topics) }
 
+  def managed_by?(visiting_user)
+    return false unless visiting_user.present?
+    return true if visiting_user.admin?
+
+    speakers.exists?(user: visiting_user)
+  end
+
   def to_meta_tags
     {
       title: title,

@@ -47,6 +47,13 @@ class Speaker < ApplicationRecord
     name
   end
 
+  def managed_by?(visiting_user)
+    return false unless visiting_user.present?
+    return true if visiting_user.admin?
+
+    user == visiting_user
+  end
+
   def github_avatar_url(size: 200)
     return "" unless github.present?
 

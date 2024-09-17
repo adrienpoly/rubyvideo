@@ -45,7 +45,7 @@ class TalksController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def talk_params
-    params.require(:talk).permit(:title, :description, :slug, :date)
+    params.require(:talk).permit(:title, :description, :summary, :date)
   end
 
   def set_user_favorites
