@@ -125,6 +125,7 @@ class Speaker < ApplicationRecord
       # We need to destroy the remaining speaker_talks. They can be remaining given the unicity constraint
       # on the speaker_talks table. The update above swallows the error if the speaker_talk duet exists already
       SpeakerTalk.where(speaker_id: id).destroy_all
+      Speaker.reset_counters(canonical_speaker.id, :talks)
     end
   end
 

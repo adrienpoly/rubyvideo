@@ -46,6 +46,7 @@ class Event < ApplicationRecord
       save!
 
       talks.update_all(event_id: canonical_event.id)
+      Event.reset_counters(canonical_event.id, :talks)
     end
   end
 
