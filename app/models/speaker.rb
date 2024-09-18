@@ -47,6 +47,10 @@ class Speaker < ApplicationRecord
     name
   end
 
+  def verified?
+    user.present?
+  end
+
   def managed_by?(visiting_user)
     return false unless visiting_user.present?
     return true if visiting_user.admin?
