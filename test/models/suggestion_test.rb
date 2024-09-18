@@ -10,6 +10,7 @@
 #  suggestable_id   :integer          not null
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
+#  approved_by_id   :integer
 #
 # rubocop:enable Layout/LineLength
 require "test_helper"
@@ -31,7 +32,7 @@ class SuggestionTest < ActiveSupport::TestCase
 
     assert suggestion.pending?
 
-    suggestion.approved!
+    suggestion.approved!(approver: users(:one))
 
     assert suggestion.approved?
     assert_equal "Hello World", @talk.reload.title

@@ -7,7 +7,7 @@ module Suggestable
 
   def create_suggestion_from(params:, user: Current.user)
     suggestions.create(content: select_differences_for(params)).tap do |suggestion|
-      suggestion.approved! if managed_by?(user)
+      suggestion.approved!(approver: user) if managed_by?(user)
     end
   end
 
