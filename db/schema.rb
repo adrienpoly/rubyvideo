@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_09_18_050951) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_18_215740) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -153,9 +153,11 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_18_050951) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "approved_by_id"
+    t.integer "suggested_by_id"
     t.index ["approved_by_id"], name: "index_suggestions_on_approved_by_id"
     t.index ["status"], name: "index_suggestions_on_status"
     t.index ["suggestable_type", "suggestable_id"], name: "index_suggestions_on_suggestable"
+    t.index ["suggested_by_id"], name: "index_suggestions_on_suggested_by_id"
   end
 
   create_table "talk_topics", force: :cascade do |t|
@@ -249,6 +251,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_18_050951) do
   add_foreign_key "sessions", "users"
   add_foreign_key "speakers", "speakers", column: "canonical_id"
   add_foreign_key "suggestions", "users", column: "approved_by_id"
+  add_foreign_key "suggestions", "users", column: "suggested_by_id"
   add_foreign_key "talk_topics", "talks"
   add_foreign_key "talk_topics", "topics"
   add_foreign_key "talks", "events"

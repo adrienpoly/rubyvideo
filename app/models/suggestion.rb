@@ -11,12 +11,14 @@
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
 #  approved_by_id   :integer
+#  suggested_by_id  :integer
 #
 # rubocop:enable Layout/LineLength
 class Suggestion < ApplicationRecord
   # associations
   belongs_to :suggestable, polymorphic: true
   belongs_to :approved_by, class_name: "User", optional: true
+  belongs_to :suggested_by, class_name: "User", optional: true
 
   # attributes
   serialize :content, coder: JSON
