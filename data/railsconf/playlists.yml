@@ -2,9 +2,9 @@
 - id: PL379EA9290474C86C
   title: RailsConf 2011
   description: "RailsConf 2011 was held in Baltimore, Maryland on May 16-19, 2011."
-  published_at: '2011-05-16'
+  published_at: "2011-05-16"
   channel_id: UC3BGlwmI-Vk6PWyMt15dKGw
-  year: '2011'
+  year: "2011"
   videos_count: 9
   metadata_parser: Youtube::VideoMetadata
   slug: railsconf-2011
@@ -95,6 +95,8 @@
   title: RailsConf 2021
   description: ""
   published_at: "2022-09-27"
+  start_date: "2021-04-12"
+  end_date: "2021-04-15"
   year: "2021"
   videos_count: 72
   slug: railsconf-2021
@@ -105,6 +107,8 @@
     RailsConf, hosted by Ruby Central, is the world’s largest and longest-running
     gathering of Ruby on Rails enthusiasts, practitioners, and companies.
   published_at: "2022-11-09"
+  start_date: "2022-05-17"
+  ends_at: "2022-05-19"
   year: "2022"
   videos_count: 67
   slug: railsconf-2022
