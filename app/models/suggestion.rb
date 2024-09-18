@@ -10,11 +10,13 @@
 #  suggestable_id   :integer          not null
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
+#  approved_by_id   :integer
 #
 # rubocop:enable Layout/LineLength
 class Suggestion < ApplicationRecord
   # associations
   belongs_to :suggestable, polymorphic: true
+  belongs_to :approved_by, class_name: "User", optional: true
 
   # attributes
   serialize :content, coder: JSON
@@ -24,9 +26,14 @@ class Suggestion < ApplicationRecord
   # enums
   enum :status, {pending: 0, approved: 1, rejected: 2}
 
-  def approved!
-    suggestable.update!(content)
-    super
+  # validations
+  validates :approved_by, presence: true, if: :approved?
+
+  def approved!(approver:)
+    ActiveRecord::Base.transaction do
+      suggestable.update!(content)
+      update!(status: :approved, approved_by_id: approver.id)
+    end
   end
 
   def notice
