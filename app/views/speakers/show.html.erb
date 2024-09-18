@@ -19,18 +19,7 @@
       </div>
       <% end %>
       <%= render "speakers/about", speaker: @speaker %>
-      <div class="flex flex-wrap gap-4">
-        <div class="tooltip tooltip-right tooltip-success" data-tip="You can suggest some modifications to this speaker description">
-          <%= ui_button url: edit_speaker_path(@speaker), kind: :neutral, outline: true, size: :sm do %>
-            <%= heroicon :pencil_square %>
-            <span>Edit</span>
-          <% end %>
-        </div>
-
-        <% if Current.user&.admin? %>
-          <%= ui_button "fetch from GitHub", url: speakers_enhance_path(@speaker), method: :put, kind: :ghost, size: :sm %>
-        <% end %>
-      </div>
+      <%= render "speakers/actions", speaker: @speaker %>
     </div>
 
     <div class="w-full">

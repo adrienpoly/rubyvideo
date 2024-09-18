@@ -8,12 +8,11 @@ class SpeakersTest < ApplicationSystemTestCase
   test "should update Speaker" do
     visit speaker_url(@speaker)
     assert_selector "h1", text: @speaker.name
-    click_on "Edit", match: :first
+    click_on "Suggest improvements"
 
-    assert_text "Editing speaker"
+    assert_text "Suggesting a modification"
 
     fill_in "Bio", with: @speaker.bio
-    fill_in "GitHub", with: @speaker.github
     fill_in "Name", with: @speaker.name
     fill_in "Twitter", with: @speaker.twitter
     fill_in "Website", with: @speaker.website

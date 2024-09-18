@@ -1,0 +1,7 @@
+
+<div class="divider my-0"></div>
+<div class="text-accent font-light">You can update your speaker profile</div>
+<%= ui_button url: edit_speaker_path(speaker), kind: :neutral, outline: true, size: :sm, data: {turbo_frame: "modal"} do %>
+  <%= heroicon :pencil_square %>
+  <span>Edit</span>
+<% end %>
