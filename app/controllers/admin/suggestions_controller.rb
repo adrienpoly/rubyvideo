@@ -6,7 +6,7 @@ module Admin
 
     def update
       @suggestion = Suggestion.find(params[:id])
-      @suggestion.approved!
+      @suggestion.approved!(approver: Current.user)
       redirect_to admin_suggestions_path
     end
 
