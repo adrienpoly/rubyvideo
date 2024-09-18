@@ -6,7 +6,7 @@ module Suggestable
   end
 
   def create_suggestion_from(params:, user: Current.user)
-    suggestions.create(content: select_differences_for(params)).tap do |suggestion|
+    suggestions.create(content: select_differences_for(params), suggested_by_id: user&.id).tap do |suggestion|
       suggestion.approved!(approver: user) if managed_by?(user)
     end
   end

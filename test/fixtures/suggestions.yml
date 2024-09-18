@@ -11,6 +11,7 @@
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
 #  approved_by_id   :integer
+#  suggested_by_id  :integer
 #
 # rubocop:enable Layout/LineLength
 

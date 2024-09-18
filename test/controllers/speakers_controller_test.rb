@@ -53,6 +53,7 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to speaker_url(@speaker)
     assert_equal "new bio", @speaker.reload.bio
     assert_equal 0, @speaker.suggestions.pending.count
+    assert_equal users(:admin).id, @speaker.suggestions.last.suggested_by_id
   end
 
   test "owner can update directly the speaker" do
@@ -71,6 +72,7 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     assert_equal @speaker.name, "new-name"
     assert_equal @speaker.twitter, "new-twitter"
     assert_equal @speaker.website, "new-website"
+    assert_equal user.id, @speaker.suggestions.last.suggested_by_id
 
     # those attributes can't be changed by the owner
     assert_not_equal @speaker.github, "new-github"
