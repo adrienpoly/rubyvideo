@@ -1,6 +1,6 @@
 ---
 - title: "Keynote: It's been a minute!"
-  raw_title: 'RailsConf 2022 - Keynote: RailsConf 2022 - It''s been a minute! by Aaron Patterson'
+  raw_title: "RailsConf 2022 - Keynote: RailsConf 2022 - It's been a minute! by Aaron Patterson"
   speakers:
     - Aaron Patterson
   event_name: RailsConf 2022
@@ -9,8 +9,10 @@
   thumbnail_md: https://i.ytimg.com/vi/qqTFm2ZtRHg/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/qqTFm2ZtRHg/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/qqTFm2ZtRHg/maxresdefault.jpg
-  published_at: '2022-11-09'
-  description: 'Keynote: RailsConf 2022 - It''s been a minute! by Aaron Patterson'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description: "Keynote: RailsConf 2022 - It's been a minute! by Aaron Patterson"
   video_id: qqTFm2ZtRHg
 
 - title: "`rails c` with me - turbocharge your use of the interactive console"
@@ -23,8 +25,11 @@
   thumbnail_md: https://i.ytimg.com/vi/AZquxGaSjGo/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/AZquxGaSjGo/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/AZquxGaSjGo/maxresdefault.jpg
-  published_at: '2023-01-10'
-  description: Spinning up the rails console can be a quick way to answer a question
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    Spinning up the rails console can be a quick way to answer a question
     with a back of the envelope calculation. But, what else can we use it for, and
     how does it work? Allow me to show you new ways to leverage the console's features
     and become an even more expert debugger. You'll leave with some simple tactics
@@ -33,8 +38,8 @@
     back the history of these libraries to see how they arrived in our Rails application.
   video_id: AZquxGaSjGo
 
-- title: 'ELI5: A Game Show on Rails'
-  raw_title: 'RailsConf 2022 - ELI5: A Game Show on Rails by Andy Glass'
+- title: "ELI5: A Game Show on Rails"
+  raw_title: "RailsConf 2022 - ELI5: A Game Show on Rails by Andy Glass"
   speakers:
     - Andy Glass
   event_name: RailsConf 2022
@@ -43,7 +48,9 @@
   thumbnail_md: https://i.ytimg.com/vi/kDmvIWv_9M8/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/kDmvIWv_9M8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/kDmvIWv_9M8/maxresdefault.jpg
-  published_at: '2023-01-10'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     ‘Those who know, do. Those that understand, teach.’
 
@@ -62,7 +69,9 @@
   thumbnail_md: https://i.ytimg.com/vi/uxWqX1KZAH8/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/uxWqX1KZAH8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/uxWqX1KZAH8/maxresdefault.jpg
-  published_at: '2023-01-10'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     New Relic's largest monolith handles 200k req/min and communicates with more than 40 external services and 11 mysql databases; this should result in constant downtime. Being mindful and alerting on the right things has been critical for us.
 
@@ -79,8 +88,11 @@
   thumbnail_md: https://i.ytimg.com/vi/N_2idFNGlkk/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/N_2idFNGlkk/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/N_2idFNGlkk/maxresdefault.jpg
-  published_at: '2023-01-10'
-  description: "Today’s the day. You’ve prepared your pitch, deployed a special copy
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    "Today’s the day. You’ve prepared your pitch, deployed a special copy
     of your app, and confirmed—in a trial run—that your walkthrough is ready for a
     live audience. But, now, when you attempt to log in, something breaks. Flustered,
     you debug, apologize, and debug some more, before finally calling it quits. Next
@@ -100,8 +112,11 @@
   thumbnail_md: https://i.ytimg.com/vi/mN-BedLhkKQ/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/mN-BedLhkKQ/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/mN-BedLhkKQ/maxresdefault.jpg
-  published_at: '2023-01-10'
-  description: You've probably heard "Kubernetes is overcomplicated! Just use Heroku!"
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    You've probably heard "Kubernetes is overcomplicated! Just use Heroku!"
     But it turns out that, while Kubernetes can be complicated, it doesn't have to
     be. In this talk, you'll learn how to deploy with Kubernetes in a way that is
     nearly as friendly as with Heroku.
@@ -117,7 +132,9 @@
   thumbnail_md: https://i.ytimg.com/vi/IbWkO1aljyE/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/IbWkO1aljyE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/IbWkO1aljyE/maxresdefault.jpg
-  published_at: '2023-01-10'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Your SaaS app is adding new engaged users every day and your roadmap is growing with features to delight them! Users are requesting new 3rd party integrations, more powerful search, reporting capabilities, and live chat, oh my!
 
@@ -126,8 +143,8 @@
     In 2022, the classic "Build vs Buy" question is more nuanced than ever and we'll dig into the pros and cons when building (or buying) on Rails.
   video_id: IbWkO1aljyE
 
-- title: 'Opening Keynote: The Journey to Zeitwerk'
-  raw_title: 'RailsConf 2022 - Opening Keynote: The Journey to Zeitwerk by Xavier Noria'
+- title: "Opening Keynote: The Journey to Zeitwerk"
+  raw_title: "RailsConf 2022 - Opening Keynote: The Journey to Zeitwerk by Xavier Noria"
   speakers:
     - Xavier Noria
   event_name: RailsConf 2022
@@ -136,8 +153,10 @@
   thumbnail_md: https://i.ytimg.com/vi/57AsQrxjLEs/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/57AsQrxjLEs/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/57AsQrxjLEs/maxresdefault.jpg
-  published_at: '2023-01-10'
-  description: 'Opening Keynote: The Journey to Zeitwerk by Xavier Noria'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description: "Opening Keynote: The Journey to Zeitwerk by Xavier Noria"
   video_id: 57AsQrxjLEs
 
 - title: Breaking up with the bundle
@@ -150,7 +169,9 @@
   thumbnail_md: https://i.ytimg.com/vi/LMmKEfjW468/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/LMmKEfjW468/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/LMmKEfjW468/maxresdefault.jpg
-  published_at: '2023-01-10'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Breaking up with the bundle by Joel Hawksley
 
@@ -168,7 +189,9 @@
   thumbnail_md: https://i.ytimg.com/vi/nE1xzf8tE9Y/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/nE1xzf8tE9Y/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/nE1xzf8tE9Y/maxresdefault.jpg
-  published_at: '2023-01-10'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Spacecraft! The care and keeping of a legacy application
     Annie Lydens & Jenny Allar
@@ -186,7 +209,9 @@
   thumbnail_md: https://i.ytimg.com/vi/fhnpaFRZ4Kw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/fhnpaFRZ4Kw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/fhnpaFRZ4Kw/maxresdefault.jpg
-  published_at: '2023-01-10'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Marshal is Ruby's ultimate sharp knife, able to transform any object into a binary blob and back. This makes it a natural match for the diverse needs of a cache.
 
@@ -207,19 +232,22 @@
   thumbnail_md: https://i.ytimg.com/vi/meJwkdaRnHw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/meJwkdaRnHw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/meJwkdaRnHw/maxresdefault.jpg
-  published_at: '2023-01-10'
-  description: 'Pop quiz: How do you best make one Rails app communicate with another?
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    "Pop quiz: How do you best make one Rails app communicate with another?
     How do you split one big Rails app into two smaller ones? How do you switch from
     a Rails app to a constellation of Rails services? Event streaming provides the
     most robust answer. Simple but powerful Kafka streams unlock a world of capabilities
     with their durability and consistency, but integrating with Rails poses challenges.
     Join us and learn simple reading and writing to Kafka with Rails, broader distributed
-    systems design, and the magical transactional outbox. You''ll leave with the knowledge
-    you need to make the switch.'
+    systems design, and the magical transactional outbox. You'll leave with the knowledge
+    you need to make the switch."
   video_id: meJwkdaRnHw
 
-- title: 'Kuby: Active Deployment for Rails Apps'
-  raw_title: 'RailsConf 2022 - Kuby: Active Deployment for Rails Apps by Cameron Dutro'
+- title: "Kuby: Active Deployment for Rails Apps"
+  raw_title: "RailsConf 2022 - Kuby: Active Deployment for Rails Apps by Cameron Dutro"
   speakers:
     - Cameron Dutro
   event_name: RailsConf 2022
@@ -228,8 +256,11 @@
   thumbnail_md: https://i.ytimg.com/vi/PJeET-SZssM/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/PJeET-SZssM/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/PJeET-SZssM/maxresdefault.jpg
-  published_at: '2023-01-10'
-  description: One of the Rails mantras is "convention over configuration," sane defaults
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    One of the Rails mantras is "convention over configuration," sane defaults
     that limit the cognitive overhead of application development. It's easy to learn
     and easy to build with... right up until you want to deploy your app to production.
     At that point, the hand-holding ends. Like the Roadrunner, Rails stops right before
@@ -249,15 +280,17 @@
   thumbnail_md: https://i.ytimg.com/vi/AtW4gNzFpms/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/AtW4gNzFpms/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/AtW4gNzFpms/maxresdefault.jpg
-  published_at: '2023-01-10'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     The biggest difference between a mid-level engineer and a senior engineer is the scale and scope of the work they're responsible for. How do you dive into complex tasks, report progress to project leadership, and stay focused with so many unknowns?
 
     These are the questions I've continued to ask myself as I grow in my career. In this session, we'll explore the tools myself and other senior-level individual contributors use to shape our work from project inception to delivery.
   video_id: AtW4gNzFpms
 
-- title: 'Evaluating Cultural Fit + Culturesmithing: Everyone Influences...'
-  raw_title: 'RailsConf 2022 - Evaluating Cultural Fit + Culturesmithing: Everyone Influences... by Casey Watts'
+- title: "Evaluating Cultural Fit + Culturesmithing: Everyone Influences..."
+  raw_title: "RailsConf 2022 - Evaluating Cultural Fit + Culturesmithing: Everyone Influences... by Casey Watts"
   speakers:
     - Casey Watts
   event_name: RailsConf 2022
@@ -266,8 +299,11 @@
   thumbnail_md: https://i.ytimg.com/vi/SJ1f-LEf1X4/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/SJ1f-LEf1X4/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/SJ1f-LEf1X4/maxresdefault.jpg
-  published_at: '2023-01-10'
-  description: "Evaluating Cultural Fit + Culturesmithing: Everyone Influences Culture\nCasey
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    "Evaluating Cultural Fit + Culturesmithing: Everyone Influences Culture\nCasey
     Watts \n\n“Toxic culture” is, by far, the number one reason that people are quitting
     their jobs. People are no longer willing to work at organizations where they don’t
     feel valued, respected, and included. Economists have dubbed this “The Great Resignation.”
@@ -287,7 +323,9 @@
   thumbnail_md: https://i.ytimg.com/vi/EqyBLQHLMgE/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/EqyBLQHLMgE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/EqyBLQHLMgE/maxresdefault.jpg
-  published_at: '2023-01-10'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     I've got a deal for you. You give me some trust, I'll give you some time back. No strings attached.
 
@@ -304,7 +342,9 @@
   thumbnail_md: https://i.ytimg.com/vi/EMKIJTricf4/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/EMKIJTricf4/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/EMKIJTricf4/maxresdefault.jpg
-  published_at: '2023-01-10'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Rails Engines. It’s more than just a cute name made up of two words both related to trains.
 
@@ -323,8 +363,11 @@
   thumbnail_md: https://i.ytimg.com/vi/Y4Jt1I8lCK4/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/Y4Jt1I8lCK4/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/Y4Jt1I8lCK4/maxresdefault.jpg
-  published_at: '2023-01-10'
-  description: JRuby is back in 2022 with Ruby 3.1 support and new work on performance
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    JRuby is back in 2022 with Ruby 3.1 support and new work on performance
     and scaling. For over a decade, Ruby users have turned to JRuby to get access
     to world-class garbage collection, native JIT compilation for increased performance,
     and true parallel threading. Today, you can take your Rails app and reduce both
@@ -344,8 +387,11 @@
   thumbnail_md: https://i.ytimg.com/vi/SS7LoJKkmYs/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/SS7LoJKkmYs/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/SS7LoJKkmYs/maxresdefault.jpg
-  published_at: '2023-01-10'
-  description: I was fully onboard with React as my front-end Javascript framework
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    I was fully onboard with React as my front-end Javascript framework
     of choice for years. That all changed when I suddenly had to support a stand-alone
     React app that I had no hand in building. Thankfully Hotwire had just been released,
     and my manager was aware of how painful maintaining this application was going
@@ -364,7 +410,9 @@
   thumbnail_md: https://i.ytimg.com/vi/Qi3kEj41NwA/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/Qi3kEj41NwA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/Qi3kEj41NwA/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     That strange phenomenon where air molecules bounce against each other in a way that somehow comforts you, makes you cry, or makes you dance all night: music. Since the advent of recorded audio, a musician doesn't even need to be present anymore for this to happen (which makes putting "I will always love you" on repeat a little less awkward).
 
@@ -383,8 +431,11 @@
   thumbnail_md: https://i.ytimg.com/vi/XpF3H6w1NSY/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/XpF3H6w1NSY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/XpF3H6w1NSY/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: Did you know that people can knock your Rails application offline just
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    Did you know that people can knock your Rails application offline just
     by submitting specially formatted strings in a form or API request? In this talk,
     we’ll take a look at what’s really going on with a regex denial of service (DoS)
     attack. We’ll take a peek into the CRuby regex engine to see what it’s really
@@ -403,19 +454,22 @@
   thumbnail_md: https://i.ytimg.com/vi/ZwxX58q1a5A/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/ZwxX58q1a5A/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ZwxX58q1a5A/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: 'Rails'' Active Record callbacks provide a simple interface for executing
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    "Rails' Active Record callbacks provide a simple interface for executing
     a process when something happens to a database record. However, sometimes Active
     Record callbacks aren’t the best solution available. For those cases, this talk
-    introduces a great alternative: Postgres'' trigger functionality, a way of implementing
-    callbacks at the database level. Coupled with Postgres'' listen and notify features,
+    introduces a great alternative: Postgres' trigger functionality, a way of implementing
+    callbacks at the database level. Coupled with Postgres' listen and notify features,
     you can develop creative solutions for making your Rails app the center of an
     otherwise complex system, managing data syncing and other processes seamlessly,
-    regardless of consumers of the app.'
+    regardless of consumers of the app."
   video_id: ZwxX58q1a5A
 
-- title: 'Keynote: A tech görl origin story'
-  raw_title: 'RailsConf 2022 - Keynote: A tech görl origin story by Crystal Tia Martin'
+- title: "Keynote: A tech görl origin story"
+  raw_title: "RailsConf 2022 - Keynote: A tech görl origin story by Crystal Tia Martin"
   speakers:
     - Crystal Tia Martin
   event_name: RailsConf 2022
@@ -424,8 +478,10 @@
   thumbnail_md: https://i.ytimg.com/vi/4dLqPN7ozpo/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/4dLqPN7ozpo/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/4dLqPN7ozpo/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: 'Keynote: A tech görl origin story by Crystal Tia Martin'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description: "Keynote: A tech görl origin story by Crystal Tia Martin"
   video_id: 4dLqPN7ozpo
 
 - title: O(1), O(n) and O(#$*&!)
@@ -438,8 +494,11 @@
   thumbnail_md: https://i.ytimg.com/vi/c7CHdAhf85g/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/c7CHdAhf85g/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/c7CHdAhf85g/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: Reasoning about the performance of your code doesn't need to require
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    Reasoning about the performance of your code doesn't need to require
     a PhD in computer science or specialized tooling - We'll learn how to quickly
     recognize and diagnose common performance issues like excessive algorithmic complexity
     and IO waiting using OpenTelemetry compatible tools. Then we'll fix those issues,
@@ -457,7 +516,9 @@
   thumbnail_md: https://i.ytimg.com/vi/KNtwDdUEXRw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/KNtwDdUEXRw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/KNtwDdUEXRw/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     You want to contribute to an Open Source project, and you have a complex PR to submit. You've tried to keep it small, but sadly getting there took a lot of effort and your branch has more than 30 commits with fixes and reverting of dead ends.
 
@@ -466,8 +527,8 @@
     In this talk we will look at how Git branches work, and how to manicure them using Rebase to build a commit history your colleagues will love you for.
   video_id: KNtwDdUEXRw
 
-- title: 'Open the gate a little: strategies to protect and share data'
-  raw_title: 'RailsConf 2022 - Open the gate a little: strategies to protect and share data by Fernando Petrales'
+- title: "Open the gate a little: strategies to protect and share data"
+  raw_title: "RailsConf 2022 - Open the gate a little: strategies to protect and share data by Fernando Petrales"
   speakers:
     - Fernando Petrales
   event_name: RailsConf 2022
@@ -476,7 +537,9 @@
   thumbnail_md: https://i.ytimg.com/vi/TYgwg33E81c/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/TYgwg33E81c/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/TYgwg33E81c/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Open the gate a little: strategies to protect and share data
     Can you name a more terrifying set of three words in software development than "HIPAA violation fines"? I bet you can't.
@@ -496,8 +559,11 @@
   thumbnail_md: https://i.ytimg.com/vi/ImwNMYjRMSg/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/ImwNMYjRMSg/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ImwNMYjRMSg/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: Active Record associations seem magical—add a has_many here, a belongs_to
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    Active Record associations seem magical—add a has_many here, a belongs_to
     there, and suddenly your models are loaded with behavior. Could it be magic, or
     is it plain old Ruby with some thoughtful design and a bit of metaprogramming?
     In this talk we'll study Active Record associations by writing our own belongs_to
@@ -517,15 +583,17 @@
   thumbnail_md: https://i.ytimg.com/vi/-nrQDbRK5TM/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/-nrQDbRK5TM/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/-nrQDbRK5TM/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     ActiveRecord provides a great deal of flexibility and speed of implementation for developers making new apps. As our teams and codebase grow and our services need to continue to scale, some of the patterns we use can start to get in our way. We've seen a bit of that at GitHub, and as a result have been experimenting with some new ways to work with ActiveRecord queries, reduce N+1s, and isolate model details.
 
     In this talk, I'll go over some the problems we've been facing, cover how we've been addressing them so far, and show some new experiments & patterns I've been working through.
   video_id: "-nrQDbRK5TM"
 
-- title: 'Keynote: Meditations on Software'
-  raw_title: 'RailsConf 2022 - Keynote: Meditations on Software by Vaidehi Joshi'
+- title: "Keynote: Meditations on Software"
+  raw_title: "RailsConf 2022 - Keynote: Meditations on Software by Vaidehi Joshi"
   speakers:
     - Vaidehi Joshi
   event_name: RailsConf 2022
@@ -534,8 +602,10 @@
   thumbnail_md: https://i.ytimg.com/vi/t46d9GUXy0A/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/t46d9GUXy0A/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/t46d9GUXy0A/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: 'Keynote: Meditations on Software by Vaidehi Joshi'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description: "Keynote: Meditations on Software by Vaidehi Joshi"
   video_id: t46d9GUXy0A
 
 - title: The Mrs Triggs Problem
@@ -548,7 +618,9 @@
   thumbnail_md: https://i.ytimg.com/vi/rj1Mqly3XI4/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/rj1Mqly3XI4/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/rj1Mqly3XI4/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     "That's a good suggestion Mrs Triggs, perhaps one of the men in the room would like to make it?"
 
@@ -567,8 +639,11 @@
   thumbnail_md: https://i.ytimg.com/vi/GAtCF44yufw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/GAtCF44yufw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/GAtCF44yufw/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: Ruby on Rails is a huge framework. There are modules, classes, established
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    Ruby on Rails is a huge framework. There are modules, classes, established
     conventions, and a slew of code that's meant to be off-limits. But, what if we
     took our ornery childish self and played around? This is a talk about strategies
     for debugging, taught through the lens of experimentation and childish play. In
@@ -586,8 +661,11 @@
   thumbnail_md: https://i.ytimg.com/vi/jCgb4JjqQVA/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/jCgb4JjqQVA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/jCgb4JjqQVA/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: We know testing is vital and makes refactoring painless. But how to
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    We know testing is vital and makes refactoring painless. But how to
     set sail to that TDD treasure? Yarr, we need to test to get experience, but need
     experience to test. Let’s draw a map with simple strategies for identifying test
     cases and building a robust test suite. X marks the spot w/ TDD tools for newbies
@@ -604,7 +682,9 @@
   thumbnail_md: https://i.ytimg.com/vi/QeuVM0zai60/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/QeuVM0zai60/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/QeuVM0zai60/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     On a recent project, I sped up a test suite 15% by making a change to a single factory. This suite, like many others (including yours!), was making way too many database calls. It’s so easy to accidentally add extra queries to factories and test setup and these can compound to shockingly large numbers.
 
@@ -621,7 +701,9 @@
   thumbnail_md: https://i.ytimg.com/vi/ufIGaySoQWY/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/ufIGaySoQWY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ufIGaySoQWY/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Are you supporting legacy code? Would you like to stop? A good testing strategy can transform legacy code into living code that is resilient and easy to evolve.
 
@@ -640,8 +722,11 @@
   thumbnail_md: https://i.ytimg.com/vi/xBFUVl91JtI/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/xBFUVl91JtI/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/xBFUVl91JtI/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: As applications built on Rails get larger and larger, and more and
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    As applications built on Rails get larger and larger, and more and
     more engineers work in the same monolith, our community needs to think more about
     what sort of tooling and architectural changes will help us continue to scale.
     This talk shares ideas around a toolchain, and more importantly, the social and
@@ -660,8 +745,11 @@
   thumbnail_md: https://i.ytimg.com/vi/xFDn4TxKDrQ/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/xFDn4TxKDrQ/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/xFDn4TxKDrQ/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: Where would you put your business logic if not in Active Records? The
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    Where would you put your business logic if not in Active Records? The
     answer is a service layer. Your service layer provides a seam between your user
     interface and your database that contains all the code that makes your app your
     app. This single design decision will buoy your app's sustainability for years.
@@ -679,8 +767,11 @@
   thumbnail_md: https://i.ytimg.com/vi/GQgnUHF2SNE/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/GQgnUHF2SNE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/GQgnUHF2SNE/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: I was puzzled when a friend sent me a Buffy the Vampire Slayer picture
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    I was puzzled when a friend sent me a Buffy the Vampire Slayer picture
     out of the blue but, knowing that friend is an oddball, thought nothing of it.
     Days later, again without warning, a Babylon 5 picture. A few days after that
     a picture from Firefly. Then he repeated the pictures. A cryptic comment led me
@@ -700,8 +791,11 @@
   thumbnail_md: https://i.ytimg.com/vi/-Fpb4c7_vcU/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/-Fpb4c7_vcU/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/-Fpb4c7_vcU/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: "\"Welcome! We're so excited to have you \U0001F917 please excuse the
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    "\"Welcome! We're so excited to have you \U0001F917 please excuse the
     mess.\" – if a codebase could talk\n\nWhen we join a new team or start a new project,
     we have to onboard to the codebase. Diving into code that we're unfamiliar with
     can be stressful or make us feel like we don't know what we're doing. And the
@@ -721,14 +815,16 @@
   thumbnail_md: https://i.ytimg.com/vi/1LTM3KPiruo/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/1LTM3KPiruo/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/1LTM3KPiruo/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     What happens under the hood when you run a Ruby script as simple as puts “Hello World!”?
 
     Time to switch gears from the Rails-level of abstraction to a lower one and dive into some Ruby internals. We’ll be learning about how the Ruby code you write gets compiled and executed, then zoom in to the VM-level – what VMs are and what they do, and how the Ruby VM works. You’ll walk away with a better understanding of how Ruby and Rails works as a whole. No low-level systems knowledge needed!
   video_id: 1LTM3KPiruo
 
-- title: 'You have 2 seconds to respond'
+- title: "You have 2 seconds to respond"
   raw_title: RailsConf 2022 - You have 2 seconds to respond - Atob - Justin Powers
   speakers:
     - Justin Powers
@@ -738,12 +834,14 @@
   thumbnail_md: https://i.ytimg.com/vi/oCN-uA2oeeY/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/oCN-uA2oeeY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/oCN-uA2oeeY/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: You have 2 seconds to respond - Atob - Justin Powers
   video_id: oCN-uA2oeeY
 
-- title: 'More Engineers, More Problems: Solutions for Big Teams'
-  raw_title: 'RailsConf 2022 - More Engineers, More Problems: Solutions for Big Teams - Chime -'
+- title: "More Engineers, More Problems: Solutions for Big Teams"
+  raw_title: "RailsConf 2022 - More Engineers, More Problems: Solutions for Big Teams - Chime -"
   speakers:
     - Noel Rappin
     - David Trejo
@@ -755,14 +853,16 @@
   thumbnail_md: https://i.ytimg.com/vi/BJWeKT7H7EA/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/BJWeKT7H7EA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/BJWeKT7H7EA/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     More Engineers, More Problems: Solutions for Big Teams
      - Chime - Noel Rappin, David Trejo, Brian Lesperance, Chris Dwan
   video_id: BJWeKT7H7EA
 
-- title: 'Finding the Needle in the Stack Trace: APM Logs-in-Context'
-  raw_title: 'RailsConf 2022 - Finding the Needle in the Stack Trace: APM Logs-in-Context - New Relic -'
+- title: "Finding the Needle in the Stack Trace: APM Logs-in-Context"
+  raw_title: "RailsConf 2022 - Finding the Needle in the Stack Trace: APM Logs-in-Context - New Relic -"
   speakers:
     - Kayla Reopelle
     - Mike Neville-O'Neill
@@ -772,7 +872,9 @@
   thumbnail_md: https://i.ytimg.com/vi/J-KFRqA_SPY/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/J-KFRqA_SPY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/J-KFRqA_SPY/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Finding the Needle in the Stack Trace: APM Logs-in-Context
     - New Relic - Kayla Reopelle and Mike Neville-O'Neill
@@ -788,15 +890,18 @@
   thumbnail_md: https://i.ytimg.com/vi/ffvOnr4TbAg/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/ffvOnr4TbAg/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ffvOnr4TbAg/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: 'Have you ever wanted to know what a monad is? How about a functor?
-    What about algebraic data types and parametric polymorphism? If you''ve been interested
-    in these ideas but scared off by the language, you''re not alone: for an approach
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    "Have you ever wanted to know what a monad is? How about a functor?
+    What about algebraic data types and parametric polymorphism? If you've been interested
+    in these ideas but scared off by the language, you're not alone: for an approach
     that champions composing simple pieces, functional programming is full of complex
-    jargon. In this talk, we''ll cover these topics from a Ruby and Rails perspective,
-    composing small ideas in everyday language. Before we''re through, you''ll have
-    a rich new set of FP ideas to apply to your projects—and you''ll finally learn
-    what a monad is (hint: it''s not a burrito).'
+    jargon. In this talk, we'll cover these topics from a Ruby and Rails perspective,
+    composing small ideas in everyday language. Before we're through, you'll have
+    a rich new set of FP ideas to apply to your projects—and you'll finally learn
+    what a monad is (hint: it's not a burrito)."
   video_id: ffvOnr4TbAg
 
 - title: The pitfalls of realtime-ification
@@ -809,7 +914,9 @@
   thumbnail_md: https://i.ytimg.com/vi/p54ejYrGYEg/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/p54ejYrGYEg/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/p54ejYrGYEg/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Building realtime applications with Rails has become a no-brainer since Action Cable came around. With Hotwire, we don't even need to leave the comfort zone of HTML and controllers to introduce live updates to a Rails app. Realtime-ification in every house!
 
@@ -828,8 +935,11 @@
   thumbnail_md: https://i.ytimg.com/vi/OVH9vmiFY2g/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/OVH9vmiFY2g/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/OVH9vmiFY2g/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: "In 2018 a hot new Ruby meetup appeared online. \U0001F525 Three meetups
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    "In 2018 a hot new Ruby meetup appeared online. \U0001F525 Three meetups
     later, it was gone. \U0001F62D\n\nThis failed experiment paved the way for a new
     Ruby podcast: Remote Ruby. 170 episodes later, we've learned a lot! We had no
     previous experience podcasting before the first episode. Along the way we've learned
@@ -848,16 +958,19 @@
   thumbnail_md: https://i.ytimg.com/vi/_8nXpuYPaHo/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/_8nXpuYPaHo/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/_8nXpuYPaHo/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: Perhaps you've heard of a magical band of cartoon lemurs with a love
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    Perhaps you've heard of a magical band of cartoon lemurs with a love
     for teaching Ruby, but what exactly goes into making one of these talks? We'll
     look at my entire toolset and process for creating illustrated conference talks
     including ideation, storyboarding, art, code tie-ins, and more. Perhaps you'll
     even learn to make a few lemurs of your own!
   video_id: _8nXpuYPaHo
 
-- title: 'Learn it, Do it, Teach it: How to Unstick Our Middle Devs'
-  raw_title: 'RailsConf 2022 - Learn it, Do it, Teach it: How to Unstick Our Middle Devs by Chelsea Kaufman'
+- title: "Learn it, Do it, Teach it: How to Unstick Our Middle Devs"
+  raw_title: "RailsConf 2022 - Learn it, Do it, Teach it: How to Unstick Our Middle Devs by Chelsea Kaufman"
   speakers:
     - Chelsea Kaufman
   event_name: RailsConf 2022
@@ -866,18 +979,21 @@
   thumbnail_md: https://i.ytimg.com/vi/TQ3o1fXANtQ/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/TQ3o1fXANtQ/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/TQ3o1fXANtQ/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: 'One definition of the middle: a difficult or unpleasant position.
-    Yuck! It certainly can feel that way for mid-level developers. Fortunately, we''ve
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    "One definition of the middle: a difficult or unpleasant position.
+    Yuck! It certainly can feel that way for mid-level developers. Fortunately, we've
     uncovered a model that will help managers create an environment where their devs
     can thrive. Our Learn it Do it Teach it (LDT) model will foster more learning,
     while keeping their hands on the code, and adding in the magic touch, teaching.
     This talk will demonstrate how managers can implement a LDT model into a developer’s
     day to day. Growth plans like this model will allow your team to move from mids
-    into seniors both faster and more confidently.'
+    into seniors both faster and more confidently."
   video_id: TQ3o1fXANtQ
 
-- title: 'Building a diverse engineering team'
+- title: "Building a diverse engineering team"
   raw_title: RailsConf 2022 - Building a diverse engineering team - Wrapbook - Zaid Zawaideh & Jessica Lawrence
   speakers:
     - Zaid Zawaideh
@@ -888,11 +1004,13 @@
   thumbnail_md: https://i.ytimg.com/vi/55KN3d_VVs0/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/55KN3d_VVs0/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/55KN3d_VVs0/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: Building a diverse engineering team - Wrapbook -  Zaid Zawaideh & Jessica Lawrence
   video_id: 55KN3d_VVs0
 
-- title: 'Growing Your Background Job Knowledge'
+- title: "Growing Your Background Job Knowledge"
   raw_title: RailsConf 2022 - Growing Your Background Job Knowledge - Weedmaps - Jake Anderson
   speakers:
     - Jake Anderson
@@ -902,11 +1020,13 @@
   thumbnail_md: https://i.ytimg.com/vi/DaRj3DkVWyE/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/DaRj3DkVWyE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/DaRj3DkVWyE/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: "Growing Your Background Job Knowledge \n- Weedmaps - Jake Anderson"
   video_id: DaRj3DkVWyE
 
-- title: 'The Future of Ruby on Rails at Shopify'
+- title: "The Future of Ruby on Rails at Shopify"
   raw_title: RailsConf 2022 - Shopify
   speakers:
     - Mike Dalessio
@@ -916,12 +1036,14 @@
   thumbnail_md: https://i.ytimg.com/vi/yfEJxRtIOEw/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/yfEJxRtIOEw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/yfEJxRtIOEw/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: Shopify
   video_id: yfEJxRtIOEw
 
-- title: 'Keynote: The Success of Ruby on Rails'
-  raw_title: 'RailsConf 2022 - Keynote: The Success of Ruby on Rails by Eileen Uchitelle'
+- title: "Keynote: The Success of Ruby on Rails"
+  raw_title: "RailsConf 2022 - Keynote: The Success of Ruby on Rails by Eileen Uchitelle"
   speakers:
     - Eileen Uchitelle
   event_name: RailsConf 2022
@@ -930,12 +1052,14 @@
   thumbnail_md: https://i.ytimg.com/vi/p17xn05zc9c/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/p17xn05zc9c/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/p17xn05zc9c/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: 'Keynote: The Success of Ruby on Rails by Eileen Uchitelle'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description: "Keynote: The Success of Ruby on Rails by Eileen Uchitelle"
   video_id: p17xn05zc9c
 
-- title: 'A Rails Performance Guidebook: from 0 to 1B requests/day'
-  raw_title: 'RailsConf 2022 - A Rails Performance Guidebook: from 0 to 1B requests/day by Cristian Planas'
+- title: "A Rails Performance Guidebook: from 0 to 1B requests/day"
+  raw_title: "RailsConf 2022 - A Rails Performance Guidebook: from 0 to 1B requests/day by Cristian Planas"
   speakers:
     - Cristian Planas
   event_name: RailsConf 2022
@@ -944,7 +1068,9 @@
   thumbnail_md: https://i.ytimg.com/vi/Suz-R3LfFCk/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/Suz-R3LfFCk/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/Suz-R3LfFCk/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Building a feature is not good enough anymore: all your work won't be of use if it's not performant enough. So how to improve performance? After all, performance is not an easy discipline to master: all slow applications are slow in their own way, meaning that there is no silver bullet for these kinds of problems.
 
@@ -961,7 +1087,9 @@
   thumbnail_md: https://i.ytimg.com/vi/lBBiOmqnNCs/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/lBBiOmqnNCs/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/lBBiOmqnNCs/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Rails 7.0 removes webpacker and spring from the default stack, adds encrypted attributes, allows for asynchronous query loading, changes autoloading defaults, attaches comments to Active Record queries, and introduces new tools for front-end development.
 
@@ -978,7 +1106,9 @@
   thumbnail_md: https://i.ytimg.com/vi/BR1B9vR8d2w/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/BR1B9vR8d2w/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/BR1B9vR8d2w/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     Are you considering building a GraphQL API for your Rails project or already have one? Do you know GraphQL can be leveraged beyond HTTP APIs?
 
@@ -996,15 +1126,17 @@
   thumbnail_md: https://i.ytimg.com/vi/52Qzgf2Xvi4/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/52Qzgf2Xvi4/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/52Qzgf2Xvi4/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     You hear everybody talk about the newest feature to Widgets but you can’t find a single model reference to that in the code. What happened? Sometimes the business changes aren’t reflected in the code. Sometimes, you're missing information or the code grows into something different. What do you do? ‘Cuz you still gotta ship.
 
     Buckle up for a fast paced ride through the opportunities and pitfalls faced when you find yourself in this position. Through success and failure stories, learn how to leave space for names to breathe, make changes safely, and walking that fine line of changing just in time.
   video_id: 52Qzgf2Xvi4
 
-- title: 'Browser History Confessional: Searching My Recent Searches'
-  raw_title: 'RailsConf 2022 - Browser History Confessional: Searching My Recent Searches by Kevin Murphy'
+- title: "Browser History Confessional: Searching My Recent Searches"
+  raw_title: "RailsConf 2022 - Browser History Confessional: Searching My Recent Searches by Kevin Murphy"
   speakers:
     - Kevin Murphy
   event_name: RailsConf 2022
@@ -1013,7 +1145,9 @@
   thumbnail_md: https://i.ytimg.com/vi/UVvC6shN83U/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/UVvC6shN83U/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/UVvC6shN83U/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     We all only have so much working memory available in our brains. Developers may joke about spending their day composing search engine queries. The reason it's a joke is because of the truth behind it. Search-driven development is a reality.
 
@@ -1030,15 +1164,17 @@
   thumbnail_md: https://i.ytimg.com/vi/b7R9CFAZV2E/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/b7R9CFAZV2E/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/b7R9CFAZV2E/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     One common recommendation for aspiring software developers is to pursue a degree in Computer Science (CS). While CS curricula do often cover practical software development skills, many departments heavily prioritize more academic and theoretical topics. This begs the question: how relevant is a CS degree to the day-to-day work of a professional developer?
 
     We’ll look at a few topics that are often included in the first half of an undergraduate CS curriculum. We’ll examine this information through two lenses: why it can be helpful and why it might not be all that relevant for a typical Rails dev.
   video_id: b7R9CFAZV2E
 
-- title: 'Gem install: What could go wrong?'
-  raw_title: 'RailsConf 2022 - Gem install: What could go wrong? by Ashley Ellis Pierce & Betty Li'
+- title: "Gem install: What could go wrong?"
+  raw_title: "RailsConf 2022 - Gem install: What could go wrong? by Ashley Ellis Pierce & Betty Li"
   speakers:
     - Ashley Ellis Pierce
     - Betty Li
@@ -1048,15 +1184,17 @@
   thumbnail_md: https://i.ytimg.com/vi/e5_3kL0SdzM/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/e5_3kL0SdzM/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/e5_3kL0SdzM/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     The open source gem ecosystem is a major strength of Ruby and it’s not uncommon for a production Rails application to depend upon hundreds of gems. But what are the risks of installing a gem and having it in your Gemfile?
 
     In this talk, we’ll cover what “bad things” can actually happen when you install a gem. We’ll also talk about the ways of preventing these attacks from occurring in your application dependencies (so you can sleep well at night).
   video_id: e5_3kL0SdzM
 
-- title: 'The Queue Continuum: Applied Queuing Theory'
-  raw_title: 'RailsConf 2022 - The Queue Continuum: Applied Queuing Theory by Justin Bowen'
+- title: "The Queue Continuum: Applied Queuing Theory"
+  raw_title: "RailsConf 2022 - The Queue Continuum: Applied Queuing Theory by Justin Bowen"
   speakers:
     - Justin Bowen
   event_name: RailsConf 2022
@@ -1065,8 +1203,11 @@
   thumbnail_md: https://i.ytimg.com/vi/N6LxQkyky3w/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/N6LxQkyky3w/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/N6LxQkyky3w/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: A Star Trek themed exploration of queuing theory and scaling applications
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    A Star Trek themed exploration of queuing theory and scaling applications
     with parallelism and concurrency. A general overview of the differences between
     parallelism and concurrency as well as when to apply more threads or more processes.
     We’ll go over examples of sidekiq and puma with different concurrency settings
@@ -1083,7 +1224,9 @@
   thumbnail_md: https://i.ytimg.com/vi/53ueEIS0cng/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/53ueEIS0cng/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/53ueEIS0cng/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     In 2009 _why tweeted: "programming is rather thankless. you see your works become replaced by superior works in a year. unable to run at all in a few more."
     I take this as a call to action to run old code. In this talk we dig, together, through historical Ruby. We will have fun excavating interesting gems from the past.
@@ -1095,8 +1238,8 @@
     And for the brave: how can you set up an environment to run Ruby 1.8 code from ~2008 on a modern machine?
   video_id: 53ueEIS0cng
 
-- title: 'Upgrading Rails: Everyone can do it and here’s how'
-  raw_title: 'RailsConf 2022 - Upgrading Rails: Everyone can do it and here’s how by Andrea Fomera'
+- title: "Upgrading Rails: Everyone can do it and here’s how"
+  raw_title: "RailsConf 2022 - Upgrading Rails: Everyone can do it and here’s how by Andrea Fomera"
   speakers:
     - Andrea Fomera
   event_name: RailsConf 2022
@@ -1105,8 +1248,11 @@
   thumbnail_md: https://i.ytimg.com/vi/NHZCQeh91p0/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/NHZCQeh91p0/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/NHZCQeh91p0/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: Ever felt overwhelmed when figuring out how to upgrade a Rails app?
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    Ever felt overwhelmed when figuring out how to upgrade a Rails app?
     Unsure where you should begin? We’ll talk about how upgrading should be treated
     as a feature, and how you can get buy-in from management for upgrading Rails.
     Have you heard about how GitHub or Shopify uses dual-booting to run two versions
@@ -1115,8 +1261,8 @@
     put into practice for your next Rails upgrade.
   video_id: NHZCQeh91p0
 
-- title: 'Let Your Body Lead: Career Planning With Somatics'
-  raw_title: 'RailsConf 2022 - Let Your Body Lead: Career Planning With Somatics by Amy Newell'
+- title: "Let Your Body Lead: Career Planning With Somatics"
+  raw_title: "RailsConf 2022 - Let Your Body Lead: Career Planning With Somatics by Amy Newell"
   speakers:
     - Amy Newell
   event_name: RailsConf 2022
@@ -1125,7 +1271,9 @@
   thumbnail_md: https://i.ytimg.com/vi/W7Im8VjLEEg/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/W7Im8VjLEEg/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/W7Im8VjLEEg/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     How do you build a career you love? As engineers we try to make choices based on data, metrics, research. We make spreadsheets and “Compare Features.” And yet...so often we end up unhappy. All that careful research somehow doesn’t help.
 
@@ -1144,14 +1292,16 @@
   thumbnail_md: https://i.ytimg.com/vi/i1hFVA-dwvU/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/i1hFVA-dwvU/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/i1hFVA-dwvU/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: |-
     How do you find the location of someone visiting your site? And, how do you do it fast? If you've ever been curious about how analytics services can place your site visitors on a map, or about how to analyze and improve a slow running query, then this talk is for you!
 
     In this session, you'll learn about IP address networking, fundamental database operations, and query performance tuning. We'll develop a geolocation system from the ground up, and make sure it's running lightning fast along the way.
   video_id: i1hFVA-dwvU
 
-- title: 'Diversity in Engineering; a community perspective'
+- title: "Diversity in Engineering; a community perspective"
   raw_title: RailsConf 2022 - Diversity in Engineering; a community perspective
   speakers:
     - Maya Toussaint
@@ -1163,11 +1313,13 @@
   thumbnail_md: https://i.ytimg.com/vi/d0pE0HNNX4Y/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/d0pE0HNNX4Y/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/d0pE0HNNX4Y/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: "Diversity in Engineering; a community perspective\n- Shopify - \nMaya Toussaint, Caterina Paun & Stephanie Minn"
   video_id: d0pE0HNNX4Y
 
-- title: 'Bringing Your Rails Monolith Along As The Business Grows'
+- title: "Bringing Your Rails Monolith Along As The Business Grows"
   raw_title: RailsConf 2022 - Bringing Your Rails Monolith Along As The Business Grows - Ontra - Carrick Rogers
   speakers:
     - Carrick Rogers
@@ -1177,7 +1329,9 @@
   thumbnail_md: https://i.ytimg.com/vi/ihkBemw3tPk/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/ihkBemw3tPk/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ihkBemw3tPk/maxresdefault.jpg
-  published_at: '2023-01-11'
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
   description: Bringing Your Rails Monolith Along As The Business Grows - Ontra - Carrick Rogers
   video_id: ihkBemw3tPk
 
@@ -1191,8 +1345,11 @@
   thumbnail_md: https://i.ytimg.com/vi/QshRTj2f3hE/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/QshRTj2f3hE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/QshRTj2f3hE/maxresdefault.jpg
-  published_at: '2023-01-11'
-  description: This talk covers 5 challenging areas when scaling Rails applications
+  published_at: "2022-05-17"
+  starts_at: "2022-05-17"
+  ends_at: "2022-05-19"
+  description:
+    This talk covers 5 challenging areas when scaling Rails applications
     on PostgreSQL databases. From identifying symptoms to applying solutions and understanding
     trade-offs, this talk will equip you with practical working knowledge you can
     apply immediately. This talk covers topics like safe migrations, understanding
