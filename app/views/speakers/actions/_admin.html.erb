@@ -1,0 +1,16 @@
+<div class="flex items-center gap-4">
+  <%= ui_button url: edit_speaker_path(@speaker),
+                kind: :neutral,
+                data: {turbo_frame: "modal"},
+                outline: true,
+                size: :sm do %>
+    <%= heroicon :pencil_square %>
+    <span>Edit</span>
+  <% end %>
+
+  <% if speaker.github.present? %>
+    <%= ui_button url: speakers_enhance_path(@speaker), method: :put, kind: :ghost, size: :sm do %>
+      <span>Fetch from GitHub</span>
+    <% end %>
+  <% end %>
+</div>

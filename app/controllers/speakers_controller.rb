@@ -3,6 +3,8 @@ class SpeakersController < ApplicationController
   before_action :set_speaker, only: %i[show edit update]
   before_action :set_user_favorites, only: %i[show]
   include Pagy::Backend
+  include RemoteModal
+  allowed_remote_modal_actions :edit
 
   # GET /speakers
   def index
@@ -43,6 +45,7 @@ class SpeakersController < ApplicationController
 
   helper_method :user_kind
   def user_kind
+    return params[:user_kind] if params[:user_kind].present? && Rails.env.development?
     return :admin if Current.user&.admin?
     return :owner if @speaker.managed_by?(Current.user)
     return :signed_in if Current.user.present?
