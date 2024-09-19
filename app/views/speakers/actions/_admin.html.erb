@@ -1,11 +1,11 @@
 <div class="flex items-center gap-4">
   <%= ui_button url: edit_speaker_path(@speaker),
-        kind: :neutral,
+        kind: :secondary,
         data: {turbo_frame: "modal"},
         outline: true,
         size: :sm do %>
     <%= heroicon :pencil_square %>
-    <span>Edit</span>
+    <span>Update speaker page</span>
   <% end %>
 
   <% if speaker.github.present? %>

@@ -25,7 +25,7 @@
         <%= render "shared/user_dropdown" %>
       <% end %>
       <% signed_out do %>
-        <%= link_to "Sign in", sign_in_path, data: {turbo_frame: "modal"}, class: "btn btn-outline bg-white text-primary hover:bg-base-100 hover:text-primary hover:border-primary" %>
+        <%= link_to "Sign in", sign_in_path, data: {turbo_frame: "modal"}, class: "btn btn-secondary" %>
       <% end %>
     </div>
     <div class="mobile-menu">
