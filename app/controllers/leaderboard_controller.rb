@@ -6,7 +6,7 @@ class LeaderboardController < ApplicationController
     @ranked_speakers = Speaker.left_joins(:talks)
       .group(:id)
       .order("COUNT(talks.id) DESC")
-      .select("speakers.*, COUNT(talks.id) as talks_count")
+      .select("speakers.name, speakers.github, speakers.id, speakers.slug, COUNT(talks.id) as talks_count")
 
     if @filter == "last_12_months"
       @ranked_speakers = @ranked_speakers.where("talks.date >= ?", 12.months.ago.to_date)
