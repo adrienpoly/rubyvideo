@@ -19,7 +19,7 @@
         <% @ranked_speakers.each_with_index do |speaker, index| %>
           <tr>
             <td class="font-bold"><%= index + 1 %></td>
-            <td>
+            <td style="view-transition-name: <%= dom_id(speaker, :Leaderboard) %>">
               <%= link_to speaker_path(speaker), class: "link link-hover" do %>
                 <div class="flex items-center gap-4">
                   <% if speaker.github.present? %>
