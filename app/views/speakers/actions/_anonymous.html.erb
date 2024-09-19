@@ -9,8 +9,11 @@
       <span>Suggest improvements</span>
     <% end %>
 
-    <%= link_to sign_in_path, class: "text-sm link link-neutral link-ghost", data: {turbo_frame: "modal"} do %>
-      <span>Are you <strong><%= speaker.name %></strong>? Claim your profile to manage and edit content.</span>
-    <% end %>
+    <div class="content text-sm">
+      <span>Are you <strong><%= speaker.name %></strong>?
+      <%= link_to sign_in_path, class: "link link-neutral font-light", data: {turbo_frame: "modal"} do %>
+        Claim your profile to manage and edit content.</span>
+      <% end %>
+    </div>
   <% end %>
 <% end %>
