@@ -16,26 +16,8 @@
         </tr>
       </thead>
       <tbody>
-        <% @ranked_speakers.each_with_index do |speaker, index| %>
-          <tr>
-            <td class="font-bold"><%= index + 1 %></td>
-            <td style="view-transition-name: <%= dom_id(speaker, :Leaderboard) if index < 10 %>">
-              <%= link_to speaker_path(speaker), class: "link link-hover" do %>
-                <div class="flex items-center gap-4">
-                  <% if speaker.github.present? %>
-                    <%= image_tag speaker.github_avatar_url(size: 128), class: "rounded-full w-10 h-10", alt: "GitHub picture profile of #{speaker.name}", loading: :lazy %>
-                  <% else %>
-                    <div class="rounded-full w-10 h-10 bg-gray-200"></div>
-                  <% end %>
-
-                  <%= speaker.name %>
-                </div>
-              <% end %>
-            </td>
-            <td style="view-transition-name: <%= dom_id(speaker, :Leaderboard_count) if index < 10 %>">
-              <%= ui_badge(speaker.talk_count, kind: :secondary, outline: true, size: :lg, class: "min-w-10") %>
-            </td>
-          </tr>
+        <% cache [@ranked_speakers, @filter] do %>
+          <%= render partial: "leaderboard/speaker", collection: @ranked_speakers, as: :speaker, cached: ->(speaker) {[speaker.updated_at, @filter]} %>
         <% end %>
       </tbody>
     </table>
