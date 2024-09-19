@@ -19,7 +19,7 @@
         <% @ranked_speakers.each_with_index do |speaker, index| %>
           <tr>
             <td class="font-bold"><%= index + 1 %></td>
-            <td style="view-transition-name: <%= dom_id(speaker, :Leaderboard) %>">
+            <td style="view-transition-name: <%= dom_id(speaker, :Leaderboard) if index < 10 %>">
               <%= link_to speaker_path(speaker), class: "link link-hover" do %>
                 <div class="flex items-center gap-4">
                   <% if speaker.github.present? %>
@@ -32,7 +32,9 @@
                 </div>
               <% end %>
             </td>
-            <td><%= speaker.talk_count %></td>
+            <td style="view-transition-name: <%= dom_id(speaker, :Leaderboard_count) if index < 10 %>">
+              <%= ui_badge(speaker.talk_count, kind: :secondary, outline: true, size: :lg, class: "min-w-10") %>
+            </td>
           </tr>
         <% end %>
       </tbody>

@@ -2,5 +2,5 @@
   <div class="flex items-center gap-2">
     <span class="event-name"><%= event.name %></span>
   </div>
-  <%= ui_badge(event.talks_count, kind: :secondary, size: :lg) %>
+  <%= ui_badge(event.talks_count, kind: :secondary, outline: true, size: :lg, class: "min-w-10") %>
 <% end %>
