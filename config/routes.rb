@@ -54,6 +54,8 @@ Rails.application.routes.draw do
     resources :enhance, only: [:update], param: :slug
   end
 
+  get "leaderboard", to: "leaderboard#index"
+
   # admin
   namespace :admin, if: -> { Current.user & admin? } do
     resources :suggestions, only: %i[index update destroy]

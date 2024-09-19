@@ -8,6 +8,7 @@
         <%= render "shared/navbar/link", link_title: "Talks", path: talks_path %>
         <%= render "shared/navbar/link", link_title: "Speakers", path: speakers_path %>
         <%= render "shared/navbar/link", link_title: "Events", path: events_path %>
+        <%= render "shared/navbar/link", link_title: "Leaderboard", path: leaderboard_path %>
         <% signed_in do %>
           <%= render "shared/navbar/link", link_title: "Watch List", path: watch_lists_path %>
           <% if Current.user&.admin? %>
