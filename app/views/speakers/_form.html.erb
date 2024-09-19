@@ -29,6 +29,6 @@
 
   <div class="flex items-center gap-4">
     <%= ui_button "Suggest modifications", type: :submit %>
-    <%= ui_button "Cancel", url: speaker_path(speaker), role: :button, kind: :ghost %>
+    <%= ui_button "Cancel", data: {action: "click->modal#close"}, role: :button, kind: :ghost %>
   </div>
 <% end %>

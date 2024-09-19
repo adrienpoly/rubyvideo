@@ -3,7 +3,7 @@
     Help us improve the speaker profile by adding a Github handle
   <% end %>
 <% else %>
-  <%= ui_button url: edit_speaker_path(speaker), kind: :neutral, outline: true, size: :sm, data: {turbo_frame: "modal"} do %>
+  <%= ui_button url: edit_speaker_path(speaker), kind: :secondary, outline: true, size: :sm, data: {turbo_frame: "modal"} do %>
     <%= heroicon :pencil_square %>
     <span>Suggest improvements</span>
   <% end %>
