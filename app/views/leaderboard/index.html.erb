@@ -17,7 +17,7 @@
       </thead>
       <tbody>
         <% cache [@ranked_speakers, @filter] do %>
-          <%= render partial: "leaderboard/speaker", collection: @ranked_speakers, as: :speaker, cached: ->(speaker) {[speaker.updated_at, @filter]} %>
+          <%= render partial: "leaderboard/speaker", collection: @ranked_speakers, as: :speaker, cached: ->(speaker) { [speaker.updated_at, @filter] } %>
         <% end %>
       </tbody>
     </table>
