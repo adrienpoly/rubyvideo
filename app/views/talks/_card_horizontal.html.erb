@@ -1,9 +1,24 @@
-
-<div class="w-full items-center" id="<%= dom_id(talk, :card_horizontal) %>" data-talk-horizontal-card>
-
+<% active = talk == current_talk %>
+<div class="<%= class_names("w-full flex items-center gap-2", "border border-secondary rounded-lg p-1": active) %>" id="<%= dom_id(talk, :card_horizontal) %>" data-talk-horizontal-card>
   <%= link_to talk_path(talk),
-        class: "flex aspect-video shrink-0 relative" do %>
-    <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_lg} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover", style: "view-transition-name: #{dom_id(talk, :image)}", loading: :lazy %>
+        class: "flex aspect-video shrink-0 relative w-28" do %>
+    <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_lg} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover", style: "view-transition-name: #{dom_id(talk, :image)}#{active ? "active" : ""}", loading: :lazy %>
   <% end %>
-  <%= content_tag :div, talk.title, class: "text-sm line-clamp-2 mt-1" %>
+  <div class="flex flex-col gap-2 text-sm">
+    <%= link_to talk_path(talk), class: "link link-ghost" do %>
+      <%= content_tag :div, talk.title, class: "font-semibold line-clamp-2 mt-1" %>
+    <% end %>
+    <div class="flex items-start gap-2 font-light">
+      <% if talk.speakers.length > 1 %>
+        <%= heroicon :users, size: :xs, class: "shrink-0 grow-0" %>
+      <% elsif talk.speakers.length == 1 %>
+        <%= heroicon :user, size: :xs, class: "shrink-0 grow-0" %>
+      <% end %>
+
+      <div class="line-clamp-1">
+        <% speaker_names = talk.speakers.map { |speaker| link_to speaker.name, speaker_path(speaker), class: "link link-ghost" } %>
+        <%= sanitize speaker_names.join(", ") %>
+      </div>
+    </div>
+  </div>
 </div>
