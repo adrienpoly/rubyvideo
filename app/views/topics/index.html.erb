@@ -16,8 +16,7 @@
         <div class="flex items-center gap-2">
           <span><%= topic.name %></span>
         </div>
-        <!-- TODO: Fix n+1 -->
-        <%= ui_badge(topic.talks.count, kind: :secondary, size: :lg) %>
+        <%= ui_badge(topic.talks_count, kind: :secondary, size: :lg) %>
       <% end %>
     <% end %>
   </div>
