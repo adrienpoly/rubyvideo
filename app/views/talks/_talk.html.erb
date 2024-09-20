@@ -24,15 +24,13 @@
 
   <div class="py-4 flex flex-col gap-4 my-4">
 
-    <% if admin %>
-      <div class="flex flex-wrap gap-2">
-        <% talk.approved_topics.each do |topic| %>
-          <%= link_to topic do %>
-            <div class="badge badge-secondary px-2 py-3">#<%= topic.name.parameterize %></div>
-          <% end %>
-        <% end %>
-      </div>
+  <div class="flex flex-wrap gap-2">
+    <% talk.approved_topics.each do |topic| %>
+      <%= link_to topic do %>
+        <div class="badge badge-secondary px-2 py-3">#<%= topic.name.parameterize %></div>
+      <% end %>
     <% end %>
+  </div>
 
     <div role="tablist" class="tabs tabs-lifted">
       <% if talk.summary.present? %>
