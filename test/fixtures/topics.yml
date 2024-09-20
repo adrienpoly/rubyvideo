@@ -12,6 +12,7 @@
 #  updated_at   :datetime         not null
 #  status       :string           default("pending"), not null
 #  canonical_id :integer
+#  talks_count  :integer
 #
 # rubocop:enable Layout/LineLength
 

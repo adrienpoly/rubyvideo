@@ -12,6 +12,7 @@
 #  updated_at   :datetime         not null
 #  status       :string           default("pending"), not null
 #  canonical_id :integer
+#  talks_count  :integer
 #
 # rubocop:enable Layout/LineLength
 class Topic < ApplicationRecord
@@ -32,8 +33,10 @@ class Topic < ApplicationRecord
   normalizes :name, with: ->(name) { name.squish }
 
   # scopes
-  scope :with_talks, -> { joins(:talks).distinct }
-  scope :without_talks, -> { where.missing(:talk_topics) }
+  scope :with_talks, -> { where("talks_count >= 1") }
+  scope :without_talks, -> { where(talks_count: 0) }
+  scope :with_n_talk, ->(n) { where("talks_count = ?", n) }
+
   scope :canonical, -> { where(canonical_id: nil) }
   scope :not_canonical, -> { where.not(canonical_id: nil) }
 
