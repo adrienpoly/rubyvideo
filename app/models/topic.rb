@@ -45,7 +45,8 @@ class Topic < ApplicationRecord
 
   def self.create_from_list(topics, status: :pending)
     topics.map { |topic|
-      Topic.find_by(name: topic)&.primary_topic || Topic.find_or_create_by(name: topic, status: status)
+      slug = topic.parameterize
+      Topic.find_by(slug: slug)&.primary_topic || Topic.find_or_create_by(name: topic, status: status)
     }.uniq
   end
 
