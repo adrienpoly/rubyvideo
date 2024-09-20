@@ -1,3 +1,5 @@
+<%# locals: (talk:, current_talk: nil, compact: false) -%>
+
 <% active = talk == current_talk %>
 <div class="<%= class_names("w-full flex items-center gap-2", "border border-secondary rounded-lg p-1": active) %>" id="<%= dom_id(talk, :card_horizontal) %>" data-talk-horizontal-card>
   <%= link_to talk_path(talk),
