@@ -16,7 +16,7 @@ class Avo::Resources::Topic < Avo::BaseResource
   def fields
     field :id, as: :id
     field :name, as: :text, link_to_record: true
-    field :talks_count, as: :number, hide_on: :forms
+    field :talks_count, as: :number, hide_on: :forms, sortable: true
     field :canonical, as: :belongs_to, use_resource: "Topic"
     field :description, as: :markdown, hide_on: :index
     field :status, as: :status, loading_when: "pending", success_when: "approved", failed_when: "rejected", hide_on: :forms
