@@ -11,7 +11,13 @@
         <%= render "shared/navbar/link", link_title: "Topics", path: topics_path %>
         <%= render "shared/navbar/link", link_title: "Leaderboard", path: leaderboard_path %>
         <% signed_in do %>
-          <%= render "shared/navbar/link", link_title: "Watch List", path: watch_lists_path %>
+          <div class="flex items-center gap-2">
+            <%= render "shared/navbar/link", link_title: "Watch List", path: watch_lists_path %>
+
+            <% if Current.user.default_watch_list.talks_count.positive? %>
+              <div class="badge badge-secondary"><%= Current.user.default_watch_list.talks_count %></div>
+            <% end %>
+          </div>
         <% end %>
 
         <li>

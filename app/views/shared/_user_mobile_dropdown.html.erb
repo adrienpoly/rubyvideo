@@ -12,7 +12,14 @@
     <% c.with_menu_item_link_to "Topics", topics_path %>
 
     <% signed_in do %>
-      <% c.with_menu_item_link_to "Watch list", watch_lists_path %>
+      <% c.with_menu_item_link_to watch_lists_path do %>
+        <div class="flex items-center gap-2">
+          <span>Watch List</span>
+          <% if Current.user.default_watch_list.talks_count.positive? %>
+            <div class="badge badge-secondary"><%= Current.user.default_watch_list.talks_count %></div>
+          <% end %>
+        </div>
+      <% end %>
     <% end %>
 
     <% c.with_menu_item_divider %>

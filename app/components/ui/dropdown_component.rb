@@ -3,10 +3,10 @@
 class Ui::DropdownComponent < ApplicationComponent
   renders_many :menu_items, types: {
     divider: lambda { render Ui::DividerComponent.new(class: "my-2") },
-    link_to: lambda { |*args, **attributes|
+    link_to: lambda { |*args, **attributes, &block|
       content_tag :li do
         attributes[:class] = class_names("!whitespace-nowrap", attributes[:class])
-        concat link_to(*args, **attributes)
+        concat link_to(*args, **attributes, &block)
       end
     },
     button_to: lambda { |*args, **attributes|

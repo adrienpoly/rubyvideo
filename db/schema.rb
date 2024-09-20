@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_09_20_054416) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_20_154237) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -242,6 +242,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_20_054416) do
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "talks_count", default: 0
     t.index ["user_id"], name: "index_watch_lists_on_user_id"
   end
 
