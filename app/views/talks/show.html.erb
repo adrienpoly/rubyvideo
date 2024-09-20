@@ -18,9 +18,9 @@
 
         <div class="flex flex-col gap-2 max-h-[500px] overflow-y-scroll">
           <%= render partial: "talks/card_horizontal",
-                    collection: @talk.event.talks,
-                    as: :talk,
-                    locals: {compact: true, current_talk: @talk} %>
+                collection: @talk.event.talks,
+                as: :talk,
+                locals: {compact: true, current_talk: @talk} %>
         </div>
       </div>
     </div>
