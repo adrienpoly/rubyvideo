@@ -26,7 +26,7 @@
 
   <div class="flex flex-wrap gap-2">
     <% talk.approved_topics.each do |topic| %>
-      <%= link_to topic do %>
+      <%= link_to topic_path(topic, back_to: request.fullpath, back_to_title: talk.title) do %>
         <div class="badge badge-secondary px-2 py-3">#<%= topic.name.parameterize %></div>
       <% end %>
     <% end %>
