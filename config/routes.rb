@@ -41,6 +41,7 @@ Rails.application.routes.draw do
       get :daily_visits
       get :monthly_page_views
       get :monthly_visits
+      get :yearly_talks
     end
   end
   resources :talks, param: :slug, only: [:index, :show, :update, :edit] do
