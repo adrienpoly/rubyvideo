@@ -56,6 +56,10 @@ class Talk < ApplicationRecord
   validates :language, presence: true,
     inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
 
+  # scopes
+  scope :with_topics, -> { joins(:talk_topics) }
+  scope :without_topics, -> { where.missing(:talk_topics) }
+
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
