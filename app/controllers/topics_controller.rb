@@ -9,6 +9,7 @@ class TopicsController < ApplicationController
 
   def show
     @topic = Topic.find_by!(slug: params[:slug])
+    @talks = @topic.talks.includes([:speakers, :event]).order(date: :desc)
   end
 
   def set_user_favorites
