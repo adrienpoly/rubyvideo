@@ -3,6 +3,8 @@ require "test_helper"
 class TalksControllerTest < ActionDispatch::IntegrationTest
   setup do
     @talk = talks(:one)
+    @event = events(:rails_world_2023)
+    @talk.update(event: @event)
   end
 
   test "should get index" do
