@@ -1001,7 +1001,7 @@
 - title: "Practical Debugging"
   raw_title: 'RailsConf 2017: Practical Debugging by Kevin Deisz'
   speakers:
-    - Kevin Deisz
+    - Kevin Newton
   event_name: RailsConf 2017
   thumbnail_xs: https://i.ytimg.com/vi/oi4h30chCz8/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/oi4h30chCz8/mqdefault.jpg
@@ -1010,7 +1010,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/oi4h30chCz8/maxresdefault.jpg
   published_at: '2017-05-18'
   description: |-
-    RailsConf 2017: Practical Debugging by Kevin Deisz
+    RailsConf 2017: Practical Debugging by Kevin Newton
 
     People give ruby a bad reputation for speed, efficiency, weak typing, etc. But one of the biggest benefits of an interpreted language is the ability to debug and introspect quickly without compilation. Oftentimes developers reach for heavy-handed libraries to debug their application when they could just as easily get the information they need by using tools they already have.
 
