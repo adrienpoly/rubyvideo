@@ -9,6 +9,7 @@
 #  description :text
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
+#  talks_count :integer          default(0)
 #
 # rubocop:enable Layout/LineLength
 class WatchList < ApplicationRecord
