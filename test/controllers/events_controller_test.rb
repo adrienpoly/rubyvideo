@@ -80,4 +80,13 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
     assert_equal "FR", @event.reload.country_code
     assert_redirected_to event_url(@event)
   end
+
+  test "should display an empty state message when no events are found" do
+    Event.delete_all
+
+    get events_url
+
+    assert_response :success
+    assert_select "p", text: "No events found"
+  end
 end
