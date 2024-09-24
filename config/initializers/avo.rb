@@ -133,3 +133,8 @@ Avo.configure do |config|
   #   link "Profile", path: "/avo/profile", icon: "user-circle"
   # }
 end
+
+# configuration/initializers/avo.rb
+Rails.configuration.to_prepare do
+  Avo::ApplicationController.include Appsignal::AdminNamespace
+end
