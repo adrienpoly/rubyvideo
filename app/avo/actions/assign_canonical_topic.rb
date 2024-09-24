@@ -7,7 +7,7 @@ class Avo::Actions::AssignCanonicalTopic < Avo::BaseAction
   def fields
     field :topic_id, as: :select, name: "Canonical topic",
       help: "The name of the topic to be set as canonical",
-      options: -> { Topic.order(:name).pluck(:name, :id) }
+      options: -> { Topic.approved.order(:name).pluck(:name, :id) }
   end
 
   def handle(query:, fields:, current_user:, resource:, **args)
