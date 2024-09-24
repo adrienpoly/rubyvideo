@@ -50,7 +50,7 @@
 - title: "Building Rails ActionDispatch::SystemTestCase Framework"
   raw_title: 'RailsConf 2017: Building Rails ActionDispatch::SystemTestCase Framework by Eileen Uchitelle'
   speakers:
-    - Eileen Uchitelle
+    - Eileen M. Uchitelle
   event_name: RailsConf 2017
   thumbnail_xs: https://i.ytimg.com/vi/sSn4B8orX70/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/sSn4B8orX70/mqdefault.jpg
@@ -59,7 +59,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/sSn4B8orX70/maxresdefault.jpg
   published_at: '2017-05-05'
   description: |-
-    RailsConf 2017: Building Rails ActionDispatch::SystemTestCase Framework by Eileen Uchitelle
+    RailsConf 2017: Building Rails ActionDispatch::SystemTestCase Framework by Eileen M. Uchitelle
 
     At the 2014 RailsConf DHH declared system testing would be added to Rails. Three years later, Rails 5.1 makes good on that promise by introducing a new testing framework: ActionDispatch::SystemTestCase. The feature brings system testing to Rails with zero application configuration by adding Capybara integration. After a demonstration of the new framework, we'll walk through what's uniquely involved with building OSS features & how the architecture follows the Rails Doctrine. We'll take a rare look at what it takes to build a major feature for Rails, including goals, design decisions, & roadblocks.
   video_id: sSn4B8orX70
@@ -172,7 +172,7 @@
 - title: "Upgrading a big application to Rails 5"
   raw_title: 'RailsConf 2017: Upgrading a big application to Rails 5 by Rafael França'
   speakers:
-    - Rafael França
+    - Rafael Mendonça França
   event_name: RailsConf 2017
   thumbnail_xs: https://i.ytimg.com/vi/I-2Xy3RS1ns/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/I-2Xy3RS1ns/mqdefault.jpg
@@ -181,7 +181,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/I-2Xy3RS1ns/maxresdefault.jpg
   published_at: '2017-05-09'
   description: |-
-    RailsConf 2017: Upgrading a big application to Rails 5 by Rafael França
+    RailsConf 2017: Upgrading a big application to Rails 5 by Rafael Mendonça França
 
     In this talk we would take a look in different strategies to upgrade Rails application to the newest version taking as example a huge monolithic Rails application. We will learn what were the biggest challenges and how they could be avoided. We will also learn why the changes were made in Rails and how they work.
   video_id: I-2Xy3RS1ns
@@ -596,9 +596,9 @@
   speakers:
     - Sam Saffron
     - Richard Schneeman
-    - Eileen Uchitelle
+    - Eileen M. Uchitelle
     - Nate Berkopec
-    - Rafael França
+    - Rafael Mendonça França
   event_name: RailsConf 2017
   thumbnail_xs: https://i.ytimg.com/vi/SMxlblLe_Io/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/SMxlblLe_Io/mqdefault.jpg
@@ -607,7 +607,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/SMxlblLe_Io/maxresdefault.jpg
   published_at: '2017-05-15'
   description: |-
-    RailsConf 2017: Panel: Performance... performance with Sam Saffron, Richard Schneeman, Eileen Uchitelle, Nate Berkopec & Rafael França
+    RailsConf 2017: Panel: Performance... performance with Sam Saffron, Richard Schneeman, Eileen M. Uchitelle, Nate Berkopec & Rafael Mendonça França
 
     Is your application running too slow? How can you make it run leaner and faster? Is Ruby 2.4 going to make anything faster or better? Should you be upgrading to the latest version of Rails? Is your Rails application being weighed down by a large swarm of dependencies?
 
@@ -1001,7 +1001,7 @@
 - title: "Practical Debugging"
   raw_title: 'RailsConf 2017: Practical Debugging by Kevin Deisz'
   speakers:
-    - Kevin Deisz
+    - Kevin Newton
   event_name: RailsConf 2017
   thumbnail_xs: https://i.ytimg.com/vi/oi4h30chCz8/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/oi4h30chCz8/mqdefault.jpg
@@ -1010,7 +1010,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/oi4h30chCz8/maxresdefault.jpg
   published_at: '2017-05-18'
   description: |-
-    RailsConf 2017: Practical Debugging by Kevin Deisz
+    RailsConf 2017: Practical Debugging by Kevin Newton
 
     People give ruby a bad reputation for speed, efficiency, weak typing, etc. But one of the biggest benefits of an interpreted language is the ability to debug and introspect quickly without compilation. Oftentimes developers reach for heavy-handed libraries to debug their application when they could just as easily get the information they need by using tools they already have.
 

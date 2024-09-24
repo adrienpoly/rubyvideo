@@ -19,11 +19,11 @@ require "test_helper"
 class Youtube::VideoMetadataTest < ActiveSupport::TestCase
   test "remove the event name from the title and preserve the keynote mention" do
     metadata = OpenStruct.new({
-      title: "RailsConf 2021: Keynote: Eileen Uchitelle - All the Things I Thought I Couldn't Do",
+      title: "RailsConf 2021: Keynote: Eileen M. Uchitelle - All the Things I Thought I Couldn't Do",
       description: "RailsConf 2021 lorem ipsum"
     })
     results = Youtube::VideoMetadata.new(metadata: metadata, event_name: "RailsConf 2021")
-    assert_equal "Keynote: Eileen Uchitelle - All the Things I Thought I Couldn't Do", results.cleaned.title
+    assert_equal "Keynote: Eileen M. Uchitelle - All the Things I Thought I Couldn't Do", results.cleaned.title
     assert results.keynote?
   end
 
