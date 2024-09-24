@@ -8,6 +8,6 @@ module Appsignal::AdminNamespace
   def set_appsignal_admin_namspace
     return unless defined?(Appsignal)
 
-    Appsignal.set_namespace("critical")
+    Appsignal.set_namespace("admin")
   end
 end
