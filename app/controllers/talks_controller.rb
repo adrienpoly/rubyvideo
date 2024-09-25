@@ -17,6 +17,7 @@ class TalksController < ApplicationController
   # GET /talks/1
   def show
     set_meta_tags(@talk)
+    @related_talks = @talk.event.talks
     fresh_when(@talk)
   end
 
@@ -50,8 +51,6 @@ class TalksController < ApplicationController
   end
 
   def set_user_favorites
-    return unless Current.user
-
-    @user_favorite_talks_ids = Current.user.default_watch_list.talks.ids
+    @user_favorite_talks_ids = Current.user ? Current.user.default_watch_list.talks.ids : []
   end
 end

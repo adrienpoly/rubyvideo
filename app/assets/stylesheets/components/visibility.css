@@ -1,0 +1,17 @@
+@layer components {
+  body.signed-in .for-signed-out-users {
+    display: none;
+  }
+
+  body:not(.signed-in) .for-signed-out-users {
+    display: block;
+  }
+
+  body.signed-in .for-signed-in-users {
+    display: block;
+  }
+
+  body:not(.signed-in) .for-signed-in-users {
+    display: none;
+  }
+}

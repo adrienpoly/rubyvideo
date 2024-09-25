@@ -10,18 +10,21 @@
   <div class="flex items-center gap-2 title text-primary">
     <h1 class="mb-4" style="view-transition-name: title"><%= @topic.name %></h1>
   </div>
-  <div id="topic-talks" class="grid min-w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 gallery">
-    <%= render partial: "talks/card",
-          collection: @talks,
-          as: :talk,
-          locals: {
-            favoritable: true,
-            user_favorite_talks_ids: @user_favorite_talks_ids,
-            back_to: request.fullpath,
-            back_to_title: @topic.name
-          } %>
-  </div>
-  <div class="flex mt-4 w-full">
-    <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
-  </div>
+  <% cache [@talks, @user_favorite_talks_ids, request.fullpath, @topic.name] do %>
+    <div id="topic-talks" class="grid min-w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 gallery">
+      <%= render partial: "talks/card",
+            collection: @talks,
+            as: :talk,
+            cached: ->(talk) { [talk, @user_favorite_talks_ids, request.fullpath, @topic.name] },
+            locals: {
+              bookmarkable: true,
+              user_favorite_talks_ids: @user_favorite_talks_ids,
+              back_to: request.fullpath,
+              back_to_title: @topic.name
+            } %>
+    </div>
+    <div class="flex mt-4 w-full">
+      <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
+    </div>
+  <% end %>
 </div>

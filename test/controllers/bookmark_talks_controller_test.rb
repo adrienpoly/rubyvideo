@@ -1,16 +1,16 @@
 require "test_helper"
 
-class WatchListTalksControllerTest < ActionDispatch::IntegrationTest
+class BookmarkTalksControllerTest < ActionDispatch::IntegrationTest
   setup do
     @user = users(:one)
-    @watch_list = watch_lists(:one)
+    @watch_list = @user.default_watch_list
     @talk = talks(:one)
     sign_in_as @user
   end
 
-  test "should add talk to watch_list" do
+  test "should bookmark talk to default watch list" do
     assert_difference("WatchListTalk.count") do
-      post watch_list_talks_url(@watch_list), params: {talk_id: @talk.id}
+      post bookmark_talks_url params: {talk_id: @talk.id}
     end
 
     assert_redirected_to watch_list_url(@watch_list)
@@ -21,7 +21,7 @@ class WatchListTalksControllerTest < ActionDispatch::IntegrationTest
     WatchListTalk.create!(watch_list: @watch_list, talk: @talk)
 
     assert_difference("WatchListTalk.count", -1) do
-      delete watch_list_talk_url(@watch_list, @talk.id)
+      delete bookmark_talk_url(@talk.id)
     end
 
     assert_redirected_to watch_list_url(@watch_list)

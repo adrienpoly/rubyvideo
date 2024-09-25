@@ -2,7 +2,7 @@ default: &default
   database: cache
   store_options:
     max_age: <%= 1.month.to_i %>
-    max_size: <%= 512.megabytes %>
+    max_size: <%= 2.gigabytes %>
     namespace: <%= Rails.env %>
 
 development:

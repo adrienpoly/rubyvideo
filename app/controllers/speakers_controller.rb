@@ -68,8 +68,6 @@ class SpeakersController < ApplicationController
   end
 
   def set_user_favorites
-    return unless Current.user
-
-    @user_favorite_talks_ids = Current.user.default_watch_list.talks.ids
+    @user_favorite_talks_ids = Current.user ? Current.user.default_watch_list.talks.ids : []
   end
 end

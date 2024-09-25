@@ -51,6 +51,9 @@ Rails.application.routes.draw do
     resources :enhance, only: [:update], param: :slug
   end
 
+  resources :watch_lists, only: [:index, :new, :create, :show, :edit, :update, :destroy]
+  resources :bookmark_talks, only: [:create, :destroy]
+
   get "leaderboard", to: "leaderboard#index"
 
   # admin
@@ -68,8 +71,4 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "page#home"
-
-  resources :watch_lists, only: [:index, :new, :create, :show, :edit, :update, :destroy] do
-    resources :talks, only: [:create, :destroy], controller: "watch_list_talks"
-  end
 end

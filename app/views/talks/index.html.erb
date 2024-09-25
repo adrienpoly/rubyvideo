@@ -9,16 +9,18 @@
   <% end %>
 
   <%= turbo_frame_tag "talks", target: "_top" do %>
-    <div id="talks" class="grid min-w-full grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gallery">
-      <%= render partial: "talks/card",
-            collection: @talks,
-            as: :talk,
-            locals: {
-              favoritable: true,
-              user_favorite_talks_ids: @user_favorite_talks_ids,
-              back_to: request.fullpath
-            } %>
-    </div>
+    <% cache [@talks, @user_favorite_talks_ids, request.fullpath] do %>
+      <div id="talks" class="grid min-w-full grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gallery">
+        <%= render partial: "talks/card",
+              collection: @talks,
+              as: :talk,
+              locals: {
+                bookmarkable: true,
+                user_favorite_talks_ids: @user_favorite_talks_ids,
+                back_to: request.fullpath
+              } %>
+      </div>
+    <% end %>
     <div class="flex mt-4 w-full">
       <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
     </div>
