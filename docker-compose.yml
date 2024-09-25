@@ -1,15 +1,18 @@
 version: "3.8"
 services:
-  web:
-    build:
-      context: .
-      args:
-        UID: ${UID:-1000}
-        GID: ${GID:-${UID:-1000}}
+  meilisearch:
+    image: getmeili/meilisearch:v1.1
     ports:
-      - "3000:3000"
-    environment:
-      - RAILS_MASTER_KEY=$RAILS_MASTER_KEY
-      - RAILS_ENV=production
+      - "7700:7700"
     volumes:
       - ./storage:/rails/storage
+    environment:
+      MEILI_DB_PATH: /rails/storage/meilisearch
+      MEILI_NO_ANALYTICS: true
+      MEILI_ENV: development
+    restart: unless-stopped
+    networks:
+      - meilisearch
+networks:
+  meilisearch:
+    driver: bridge

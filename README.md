@@ -1,6 +1,12 @@
 # Rubyvideo.dev
 
-Rubyvideo.dev, inspired by [pyvideo.org](https://pyvideo.org/), is designed to index all Ruby-related videos from conferences and meetups worldwide. The site is currently in its Alpha release phase, and only a small portion of available videos has been indexed.
+[Rubyvideo.dev](https://www.rubyvideo.dev), inspired by [pyvideo.org](https://pyvideo.org/), is designed to index all Ruby-related videos from conferences and meetups worldwide. At the time of writing, the project has about 2400 videos indexed from 100+ conferences and 1700 speakers.
+
+Technically the project is built using the lastest Ruby and Rails goodies such as Hotwire, SolidQueue, SolidCache. For the front end part we use Vite, Tailwind with Daisyui components and Stimulus.
+
+It is deployed on an [Hetzner VPS]() with Kamal with SQlite as the main database.
+
+For compatible browsers it tries to demonstrate some of teh possibilities of Page View Transition API.
 
 ## Contributing
 
@@ -8,9 +14,14 @@ This project is open source, and contributions are greatly appreciated. One of t
 
 ## Getting Started
 
-### Environment Variables
+We have tried to make the setup process as simple as possible so that in a few commands you can have the project with real data running locally.
 
-You can use the `.env.sample` file as a guide for the environment variables required for the project. However, there are currently no environment variables necessary for simple app exploration.
+### Requirements
+
+- Ruby 3.3.5
+- Docker and docker-compose (for Meilisearch)
+- Node.js 20.11.0
+- Meilisearch 1.1
 
 ### Setup
 
@@ -20,43 +31,34 @@ To prepare your database and seed content, run:
 bin/setup
 ```
 
+### Environment Variables
+
+You can use the `.env.sample` file as a guide for the environment variables required for the project. However, there are currently no environment variables necessary for simple app exploration.
+
 ### Meilisearch
 
-Rubyvideo.dev search uses Meilisearch as a search engine.
+[Rubyvideo.dev](https://www.rubyvideo.dev) search uses Meilisearch as a search engine.
 
-To start the app, you need to have Meilisearch installed locally.
+To start the app, you need to have a Meilisearch service started. There is a Docker Compose available
 
-Most likely, when you run the seed process, Meilisearch won't start, and the index will not be created.
+In a new terminal :
 
-To create the index, start Meilisearch (bin/dev will start it), and in the console, run `Talk.reindex!`
+```
+docker-compose up
+```
 
-This will create the local index and enable search.
+Troubleshooting:
+
+- if no search results are returned, most probably the index is empty. You can reindex by running `Talk.reindex!` in the Rails console.
+- if they are no talks at all you need to run rails db:seed first
 
 ### Starting the Application
 
-The following command will start Rails, Vite (for CSS and JS), and Meilisearch.
+The following command will start Rails, SolidQueue and Vite (for CSS and JS).
 
 ```
 bin/dev
 ```
-
-## Experimental Page Transition API
-
-https://github.com/adrienpoly/rubyvideo/assets/7847244/64d299bb-dd57-47ee-b6c9-e3e9b430fcfa
-
-Rubyvideo.dev offers experimental support for the Page View Transition API, which was recently released by Chrome.
-
-Initially, Page View Transitions were implemented using custom code. However, the support for page transitions with Turbo is now available through the library [Turn](https://github.com/domchristie/turn).
-
-To enable page transitions with Turbo, include the following three lines of code:
-
-```js
-import Turn from "@domchristie/turn";
-Turn.config.experimental.viewTransitions = true;
-Turn.start();
-```
-
-The rest of the implementation was guided by examples you can find here: https://glitch.com/edit/#!/simple-set-demos?path=1-cross-fade%2Fscript.js%3A1%3A0
 
 ## Linter
 
