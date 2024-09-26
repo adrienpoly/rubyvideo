@@ -43,8 +43,8 @@
           </div>
           <div class="self-end">
             <%= render "talks/bookmark", talk: talk,
-                    bookmarkable: bookmarkable,
-                    bookmarked: bookmarkable && user_favorite_talks_ids.include?(talk.id) %>
+                  bookmarkable: bookmarkable,
+                  bookmarked: bookmarkable && user_favorite_talks_ids.include?(talk.id) %>
           </div>
         </div>
       </div>
