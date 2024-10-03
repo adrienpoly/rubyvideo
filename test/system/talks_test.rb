@@ -23,6 +23,14 @@ class TalksTest < ApplicationSystemTestCase
     assert_text "Your suggestion was successfully created and will be reviewed soon."
   end
 
+  test "should provide a link to the event of the talk" do
+    visit talk_url(@talk)
+
+    click_on "Explore all talks recorded at #{@event.name}"
+    assert_current_path event_path(@event)
+    assert_text @event.name
+  end
+
   # test "renders some related talks" do
   #   visit talk_url(@talk)
 
