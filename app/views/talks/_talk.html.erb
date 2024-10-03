@@ -74,13 +74,14 @@
 
 <%= link_to event_path(talk.event), class: "card bg-gray-200 w-full xl:flex xl:flex-row xl:px-6 xl:py-6 xl:gap-4 overflow-hidden" do %>
   <div class="flex aspect-video xl:w-1/5 overflow-hidden">
-    <%= image_tag talk.thumbnail_sm,
-          srcset: ["#{talk.thumbnail_lg} 2x"],
-          id: dom_id(talk),
+    <% event_talk = talk.event.talks.where.not(id: talk.id).sample || talk.event.talks.take %>
+    <%= image_tag event_talk.thumbnail_sm,
+          srcset: ["#{event_talk.thumbnail_lg} 2x"],
+          id: dom_id(event_talk),
           height: 174,
           width: 310,
           alt: "explore all talks recorded at #{talk.event.name}",
-          style: "view-transition-name: #{dom_id(talk, :image)}",
+          style: "view-transition-name: #{dom_id(event_talk, :image)}",
           class: "w-full object-cover rounded-t-xl xl:rounded-b-xl" %>
   </div>
 
