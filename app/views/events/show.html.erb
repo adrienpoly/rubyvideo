@@ -11,12 +11,12 @@
         <%= render partial: "talks/card",
               collection: @talks,
               locals: {
-                talk: talk,
                 favoritable: true,
                 user_favorite_talks_ids: @user_favorite_talks_ids,
                 back_to: request.fullpath,
                 back_to_title: @event.name
-              } %>
+              },
+              as: :talk %>
       </div>
       <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
     </div>
