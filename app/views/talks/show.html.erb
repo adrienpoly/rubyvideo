@@ -14,7 +14,7 @@
       </div>
       <div class="gap-4 w-96 flex-shrink-0 hidden md:flex md:flex-col px-4">
         <%#= turbo_frame_tag "recommended_talks", target: "_top", src: talk_recommendations_path(@talk) %>
-        <h2 class="text-neutral mb- mt-2 text-base"><%= @talk.event.name %></h2>
+        <%= link_to "Explore all talks from #{@talk.event.name}", event_path(@talk.event), class: "text-neutral text-base text-lg font-bold hover:underline" %> 
 
         <div class="flex flex-col gap-2 max-h-[500px] overflow-y-scroll">
           <%= render partial: "talks/card_horizontal",
