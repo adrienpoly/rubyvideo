@@ -45,12 +45,3 @@ module Rubyvideo
     config.active_record.encryption.support_unencrypted_data = true
   end
 end
-
-# to remove once https://github.com/rails/solid_cache/pull/179 is merged or replaced
-ActiveSupport.on_load(:solid_cache_entry) do
-  class << self
-    def model = self
-
-    def scope_for_create = {}
-  end
-end
