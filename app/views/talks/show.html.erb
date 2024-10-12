@@ -7,7 +7,7 @@
       <div style="view-transition-name: title"><%= back_to_title %></div>
     </div>
   <% end %>
-  <% cache [@talk, Current.user&.admin?] do %>
+  <% cache [@talk, @related_talks, Current.user&.admin?] do %>
     <div class="w-full flex">
       <div class="flex-grow">
         <%= render partial: "talks/talk", locals: {talk: @talk, admin: Current.user&.admin?} %>
@@ -18,7 +18,7 @@
 
         <div class="flex flex-col gap-2 max-h-[500px] overflow-y-scroll">
           <%= render partial: "talks/card_horizontal",
-                collection: @talk.event.talks,
+                collection: @related_talks,
                 as: :talk,
                 locals: {compact: true, current_talk: @talk} %>
         </div>
