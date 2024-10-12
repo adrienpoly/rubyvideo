@@ -39,9 +39,9 @@ class TalksController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
   def set_talk
     @talk = Talk.includes(:speakers, :approved_topics).find_by(slug: params[:slug])
-    @related_talks = @talk.event.talks.includes(:speakers).order(date: :desc)
+    return redirect_to talks_path, status: :moved_permanently if @talk.blank?
 
-    redirect_to talks_path, status: :moved_permanently if @talk.blank?
+    @related_talks = @talk.event.talks.includes(:speakers).order(date: :desc)
   end
 
   # Only allow a list of trusted parameters through.
