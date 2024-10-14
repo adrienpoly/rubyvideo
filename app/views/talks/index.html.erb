@@ -14,6 +14,7 @@
         <%= render partial: "talks/card",
               collection: @talks,
               as: :talk,
+              cached: ->(talk) { [talk, @user_favorite_talks_ids, request.fullpath] },
               locals: {
                 bookmarkable: true,
                 user_favorite_talks_ids: @user_favorite_talks_ids,
