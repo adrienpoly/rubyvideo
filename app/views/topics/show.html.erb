@@ -15,16 +15,16 @@
       <%= render partial: "talks/card",
             collection: @talks,
             as: :talk,
-            cached: ->(talk) { [talk, @user_favorite_talks_ids, request.fullpath, @topic.name] },
+            cached: ->(talk) { ["#{talk.id}-#{talk.updated_at.to_i}", @user_favorite_talks_ids, request.fullpath, @topic.name] },
             locals: {
               bookmarkable: true,
               user_favorite_talks_ids: @user_favorite_talks_ids,
               back_to: request.fullpath,
               back_to_title: @topic.name
             } %>
-    </div>
-    <div class="flex mt-4 w-full">
-      <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
-    </div>
+    <!--</div>-->
   <% end %>
+  <div class="flex mt-4 w-full">
+    <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
+  </div>
 </div>
