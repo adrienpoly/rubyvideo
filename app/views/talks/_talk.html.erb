@@ -61,9 +61,20 @@
       </div>
 
       <% if talk.slides_url %>
+        <% uri = URI(talk.slides_url) %>
+
         <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Slides">
         <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
-          <a class="btn btn-primary" href="<%= talk.slides_url %>" target="_blank">See Slides on <%= URI(talk.slides_url).host %></a>
+          <% cache [talk, talk.slides_url] do %>
+            <% if ["speakerdeck.com", "www.speakerdeck.com"].include?(uri.host) %>
+              <% oembed_url = URI("https://speakerdeck.com/oembed.json?url=#{talk.slides_url}") %>
+              <% oembed_json = JSON.parse(Net::HTTP.get(oembed_url)) rescue {} %>
+
+              <%= sanitize oembed_json.dig("html"), tags: ["iframe"], attributes: ["id", "class", "src", "width", "height", "style", "frameborder", "allowtransparency", "allowfullscreen"]  %>
+            <% end %>
+          <% end %>
+
+          <a class="btn btn-primary mt-6" href="<%= talk.slides_url %>" target="_blank">See Slides on <%= uri.host %></a>
         </div>
       <% end %>
     </div>
