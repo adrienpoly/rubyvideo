@@ -191,6 +191,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_09_20_154237) do
     t.text "enhanced_transcript", default: "", null: false
     t.text "summary", default: "", null: false
     t.string "language", default: "en", null: false
+    t.string "slides_url"
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["slug"], name: "index_talks_on_slug"
