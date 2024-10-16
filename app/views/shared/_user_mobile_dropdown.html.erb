@@ -29,7 +29,7 @@
 
     <% signed_in do %>
       <% c.with_menu_item_divider %>
-      <% c.with_menu_item_button_to t("sign_out"), Current.session, method: :delete, "data-turbo-method": :delete, id: :sign_out %>
+      <% c.with_menu_item_link_to t("sign_out"), Current.session, method: :delete, "data-turbo-method": :delete, id: :sign_out %>
       <% if Current.user&.admin? %>
         <% c.with_menu_item_link_to "Suggestions", admin_suggestions_path %>
         <% c.with_menu_item_link_to t("admin"), avo_path %>
