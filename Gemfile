@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.3.4"
+ruby "3.3.5"
 
 # Use main development branch of Rails
 gem "rails", "~> 7.2.0"
@@ -10,7 +10,7 @@ gem "rails", "~> 7.2.0"
 gem "propshaft"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 2.0"
+gem "sqlite3", ">= 2.1.0.rc2"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma"
@@ -67,7 +67,7 @@ group :development do
   gem "web-console"
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
-  gem "rack-mini-profiler"
+  # gem "rack-mini-profiler"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
@@ -95,7 +95,7 @@ gem "activerecord-enhancedsqlite3-adapter"
 gem "litestream", "~> 0.10.1"
 gem "solid_cache"
 gem "solid_queue"
-gem "mission_control-jobs", "~> 0.3"
+gem "mission_control-jobs"
 
 gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
@@ -129,3 +129,14 @@ gem "redcarpet", "~> 3.6"
 gem "country_select", "~> 8.0"
 gem "avo", "~> 3.11"
 gem "frozen_record", "~> 0.27.2"
+gem "diffy"
+
+# Use OmniAuth to support multi-provider authentication [https://github.com/omniauth/omniauth]
+gem "omniauth"
+gem "omniauth-github"
+
+# Provides a mitigation against CVE-2015-9284 [https://github.com/cookpad/omniauth-rails_csrf_protection]
+gem "omniauth-rails_csrf_protection"
+
+# silence Ruby 3.4 warnings
+gem "ostruct"

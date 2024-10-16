@@ -15,6 +15,9 @@
     <%= vite_client_tag %>
     <%= vite_javascript_tag "application", media: "all", "data-turbo-track": "reload" %>
     <%= vite_stylesheet_tag "application.css", media: "all", "data-turbo-track": "reload" %>
+<%#= turbo_stream_from @list %>
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <%= yield :head %>
   </head>
 
@@ -28,5 +31,6 @@
     </div>
 
     <%= render "shared/footer" %>
+    <%= turbo_frame_tag "modal", target: "_top" %>
   </body>
 </html>

@@ -3,16 +3,17 @@
 #
 # Table name: speakers
 #
-#  id          :integer          not null, primary key
-#  name        :string           default(""), not null
-#  twitter     :string           default(""), not null
-#  github      :string           default(""), not null
-#  bio         :text             default(""), not null
-#  website     :string           default(""), not null
-#  slug        :string           default(""), not null
-#  created_at  :datetime         not null
-#  updated_at  :datetime         not null
-#  talks_count :integer          default(0), not null
+#  id           :integer          not null, primary key
+#  name         :string           default(""), not null
+#  twitter      :string           default(""), not null
+#  github       :string           default(""), not null
+#  bio          :text             default(""), not null
+#  website      :string           default(""), not null
+#  slug         :string           default(""), not null
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#  talks_count  :integer          default(0), not null
+#  canonical_id :integer
 #
 # rubocop:enable Layout/LineLength
 require "test_helper"
@@ -36,5 +37,14 @@ class SpeakerTest < ActiveSupport::TestCase
   test "valid_website_url returns # if website is blank" do
     speaker = Speaker.new(website: "")
     assert_equal "#", speaker.valid_website_url
+  end
+
+  test "speaker user association" do
+    speaker = speakers(:one)
+    user = users(:one)
+    user.update(github_handle: speaker.github)
+    assert_equal user.github_handle, speaker.github
+    assert_equal user, speaker.user
+    assert_equal speaker, user.speaker
   end
 end

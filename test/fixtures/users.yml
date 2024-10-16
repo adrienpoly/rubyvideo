@@ -6,14 +6,19 @@
 #  id              :integer          not null, primary key
 #  email           :string           not null
 #  password_digest :string           not null
-#  first_name      :string           default(""), not null
-#  last_name       :string           default(""), not null
 #  verified        :boolean          default(FALSE), not null
 #  admin           :boolean          default(FALSE), not null
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
+#  name            :string
+#  github_handle   :string
 #
 # rubocop:enable Layout/LineLength
+
+one:
+  email: one@rubyvideo.dev
+  password_digest: <%= BCrypt::Password.create("Secret1*3*5*") %>
+  verified: true
 
 lazaro_nixon:
   email: lazaronixon@hotmail.com
@@ -25,3 +30,11 @@ admin:
   password_digest: <%= BCrypt::Password.create("Secret1*3*5*") %>
   verified: true
   admin: true
+
+developer_oauth:
+  email: developer@example.com
+  password_digest: <%= BCrypt::Password.create("password") %>
+
+github_user:
+  email: github_user@example.com
+  password_digest: <%= BCrypt::Password.create("password") %>

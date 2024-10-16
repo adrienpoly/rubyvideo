@@ -373,7 +373,8 @@
 
 - title: Ruby Committers vs the World
   raw_title: Ruby Committers vs the World - RubyKaigi 2015
-  speakers: []
+  speakers:
+    - Ruby Committers # TODO: list each person
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
   video_id: LcXKSHsniTY

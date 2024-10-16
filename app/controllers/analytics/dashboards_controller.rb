@@ -24,4 +24,10 @@ class Analytics::DashboardsController < ApplicationController
       Ahoy::Event.where("date(time) BETWEEN ? AND ?", 12.months.ago.to_date.beginning_of_month, Date.yesterday).group_by_month(:time).count
     end
   end
+
+  def yearly_talks
+    @yearly_talks = Rails.cache.fetch(["yearly_talks", Talk.all]) do
+      Talk.group_by_year(:date).count.map { |date, count| [date.year, count] }
+    end
+  end
 end

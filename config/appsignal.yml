@@ -7,7 +7,7 @@ default:
 
   # Actions that should not be monitored by AppSignal
   # ignore_actions:
-  #   - ApplicationController#isup
+  #   - Rails::HealthController#show
 
   # Errors that should not be recorded by AppSignal
   # For more information see our docs:

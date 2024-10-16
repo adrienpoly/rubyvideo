@@ -29,51 +29,29 @@ MeiliSearch::Rails.deactivate! do
     events = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/playlists.yml")
 
     events.each do |event_data|
-      event = Event.find_by(slug: event_data["slug"])
-      next if event
+      event = Event.find_or_create_by(slug: event_data["slug"])
 
-      event = Event.create!(name: event_data["title"], date: event_data["published_at"], organisation: organisation)
-
-      event.update!(slug: event_data["slug"])
+      event.update(
+        name: event_data["title"],
+        date: event_data["date"] || event_data["published_at"],
+        organisation: organisation
+      )
 
       puts event.slug unless Rails.env.test?
+
       talks = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/#{event.slug}/videos.yml")
 
       talks.each do |talk_data|
-        next if talk_data["title"].blank? || videos_to_ignore.include?(talk_data["video_id"])
-
-        talk = Talk.find_or_create_by!(title: talk_data["title"], event: event) do |tlk|
-          tlk.description = talk_data["description"]
-          tlk.video_id = talk_data["video_id"]
-          tlk.video_provider = :youtube
-          tlk.language = talk_data["language"]
-          tlk.thumbnail_xs = talk_data["thumbnail_xs"] || ""
-          tlk.thumbnail_sm = talk_data["thumbnail_sm"] || ""
-          tlk.thumbnail_md = talk_data["thumbnail_md"] || ""
-          tlk.thumbnail_lg = talk_data["thumbnail_lg"] || ""
-          tlk.thumbnail_xl = talk_data["thumbnail_xl"] || ""
-          tlk.slides_url = talk_data["slides_url"]
-
-          year = talk_data["year"].presence || event_data["year"]
-          tlk.date = talk_data["date"] || talk_data["published_at"] || Date.parse("#{year}-01-01")
-
-          slug = talk_data["title"].parameterize
-
-          if Talk.exists?(slug: slug)
-            slug += event_data["title"].parameterize
-          end
-
-          tlk.slug = slug
+        if talk_data["title"].blank? || videos_to_ignore.include?(talk_data["video_id"])
+          puts "Ignored video: #{talk_data["raw_title"]}"
+          next
         end
 
-        talk_data["speakers"]&.each do |speaker_name|
-          next if speaker_name.blank?
-
-          speaker = Speaker.find_by(slug: speaker_name.parameterize) || Speaker.find_or_create_by(name: speaker_name.strip)
-          SpeakerTalk.create(speaker: speaker, talk: talk) if speaker
-        end
+        Talk
+          .find_or_initialize_by(video_id: talk_data["video_id"], video_provider: :youtube)
+          .update_from_yml_metadata!(event: event)
       rescue ActiveRecord::RecordInvalid => e
-        puts "#{talk_data["title"]} is duplicated #{e.message}"
+        puts "Couldn't save: #{talk_data["title"]}, error: #{e.message}"
       end
     end
   end

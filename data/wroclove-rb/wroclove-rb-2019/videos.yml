@@ -1,22 +1,22 @@
 ---
-- title: Building uls for microservices
+- title: Building UIs for microservices
   raw_title: Building uls for microservices - Ethan Garofolo - wroc_love.rb 2019
   speakers:
     - Ethan Garofolo
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: ArTS_AJ-smQ
-  language:
+  language: English
   description: ''
 
-- title: Handling file uploads for modern developer
+- title: Handling File Uploads For A Modern Developer
   raw_title: Handling file uploads for modern developer -  Janko Marohnic  - wroc_love.rb 2019
   speakers:
     - Janko Marohnić
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: fP2JGjTZU2s
-  language:
+  language: English
   description: ''
 
 - title: Development with Axioms
@@ -24,9 +24,9 @@
   speakers:
     - Martin Gamsjaeger
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: qTVeWbg2tKk
-  language:
+  language: English
   description: ''
 
 - title: Mutant on Steroids
@@ -34,9 +34,9 @@
   speakers:
     - Markus Schirp
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: j1Ze3pKNJ4A
-  language:
+  language: English
   description: ''
 
 - title: Spice up your life with EQL
@@ -44,9 +44,9 @@
   speakers:
     - Norbert Wojtowicz
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: UvJEBMOtayk
-  language:
+  language: English
   description: ''
 
 - title: Optimistic UI and Live Uupdates with Logux & Ruby
@@ -54,9 +54,9 @@
   speakers:
     - Dimitry Salahutdinov
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: KVcZAfjWtYk
-  language:
+  language: English
   description: ''
 
 
@@ -65,29 +65,30 @@
   speakers:
     - Victor Shepelev
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: 5UiBQtfRDUI
-  language:
+  language: English
   description: ''
 
 - title: Orchestrating Video Transcoding in Ruby
   raw_title: Orchestrating video transcoding in ruby - Michal Matyas - wroc_love.rb 2019
   speakers:
-    - Michal Matyas
+    - Michał Matyas
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: CXhd-We0Nhw
-  language:
+  language: English
   description: ''
+  slides_url: https://slides.com/sandwich/transcoding-videos-in-ruby-a-story
 
 - title: The TruffleRuby Compilation Pipeline
   raw_title: The truffleruby compilation pipeline - Chris Seaton - wroc_love.rb 2019
   speakers:
     - Chris Seaton
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: bf5pQVgux3c
-  language:
+  language: English
   description: ''
 
 - title: Events Events Events
@@ -95,9 +96,9 @@
   speakers:
     - Anton Davydov
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: VnCPxjRpv3o
-  language:
+  language: English
   description: ''
 
 - title: How to Hijack
@@ -105,9 +106,9 @@
   speakers:
     - Dávid Halász
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: YhNhVBUcPkI
-  language:
+  language: English
   description: ''
 
 - title: Business Logic in Ruby
@@ -115,27 +116,36 @@
   speakers:
     - Andrzej Krzywda
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: bwUueshN6Rw
-  language:
+  language: English
   description: ''
 
 - title: Lighting Talks Day 2
   raw_title: Lighting talks 1 - wroc_love.rb 2019
   speakers:
-    - TODO
+    - Paweł Pokrywka # wroc_love Spam
+    - Maciek Rząsa # The only easy thing
+    - Wojtek Rząsa # Predicting Performance Changes of Distributed Applications
+    - Victor Shepelev # Farewell To SciRuby
+    - Dmitry Salahutdinov # Outdated Browser Detection with Browserslist - https://speakerdeck.com/dsalahutdinov/outdated-browser-detection-with-browserslist
+    - Nicolas Dermine # Sonic Pi
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: cPuhRsV6Pw4
-  language:
+  language: English
   description: ''
 
 - title: Lighting Talks Day 3
   raw_title: Lighting talks 2 - wroc_love.rb 2019
   speakers:
-    - TODO
+    - Adam Hodowany # Scratching The Surface of Hunky Dory Elixir Features
+    - Tomáš Dundáček # What and Why
+    - Adam Skołuda # Ruby & Elixir - Friend or Foe
+    - Adam Piotrowski # People Hate Him, Why Ruby is not dead?, Thank you, Please Help, How (not) to meet new people on DRUGCamp
+    - Nicolas Dermine # More Sonic Pi
   event_name: wroc_love.rb 2019
-  published_at: '2019-05-13'
+  published_at: '2019-03-22'
   video_id: 9q9eLQ2nSwA
-  language:
+  language: English
   description: ''

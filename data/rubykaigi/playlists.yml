@@ -96,3 +96,13 @@
   videos_count: 50
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2023
+
+- id: PLvpu5WTDxTKXsRzSBhaGbd7jF270RnaWI
+  title: RubyKaigi 2024
+  description: 'RubyKaigi 2024, May 15-17, Naha, Okinawa'
+  published_at: '2024-05-15'
+  channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
+  year: '2024'
+  videos_count: 53
+  metadata_parser: Youtube::VideoMetadataRubyKaigi
+  slug: rubykaigi-2024

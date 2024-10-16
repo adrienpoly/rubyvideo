@@ -19,7 +19,7 @@
 #
 # rubocop:enable Layout/LineLength
 
-one:
+railsconf:
   name: RailsConf
   description: Rails conf from Ruby central
   website: https://railsconf.org/
@@ -29,8 +29,8 @@ one:
   youtube_channel_name: confreaks
   slug: railsconf
 
-two:
-  name: RubyConfTh
+rubyconfth:
+  name: RubyConfTH
   description: Ruby Rails Thailand
   website: https://rubyconfth.com/
   kind: 1

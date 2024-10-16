@@ -73,9 +73,15 @@
     world. There are quite a few problems that people focus on and quite a few proposed
     solutions."
 
-- title: 'Fishbowl: Testing'
+- title: 'Fishbowl Discussion: Testing'
   raw_title: Testing fishbowl
-  speakers: []
+  speakers:
+    # TODO: moderator
+    - Michał Połtyn
+    - Jeppe Liisberg
+    - Michał Czyż
+    - Andrzej Krzywda
+    # TODO: and more
   event_name: wroc_love.rb 2012
   published_at: '2012-04-10'
   video_id: IoiZtvXWGjI
@@ -259,21 +265,3 @@
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
 
     In this video Michał will show you why he took more object oriented approach, taking user's perspective for writing integration and acceptance tests.
-
-- title: Fear of adding processes
-  raw_title: 'Florian Gilcher: Fear of adding processes'
-  speakers:
-    - Florian Gilcher
-  event_name: wroc_love.rb 2012
-  published_at: '2012-12-08'
-  video_id: BYmHOF58bDY
-  language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
-    us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nIn object-oriented
-    programming, there is a well-known anti-pattern called 'Fear of Adding Classes'.
-    It describes the fear of solving a problem by adding another class because of
-    the (often wrongfully) perceived added complexity. With systems moving towards
-    a distributed nature through the usage of external services, a similar pattern
-    can be seen: the fear of adding dedicated components, mostly independent processes
-    to the system, because of the fear of added management overhead through doing
-    so."

@@ -1,40 +1,24 @@
 @layer components {
-  nav {
-    @apply flex justify-between bg-brand px-4 text-white md:px-4 xl:px-8;
-  }
+  .desktop-menu {
+    @apply hidden gap-6 md:flex;
 
-  nav ul {
-    @apply m-0 flex list-none items-center gap-8 p-0;
-  }
-
-  nav li,
-  nav title {
-    @apply m-0 inline-block py-2;
-    div {
-      @apply invisible border-b-2 border-solid border-white;
-    }
-    &.active {
-      @apply relative;
-      & > div {
-        view-transition-name: navbar-active;
-        @apply visible absolute bottom-0 w-full;
+    li,
+    title {
+      @apply m-0 inline-block;
+      div {
+        @apply invisible border-b-2 border-solid border-white;
+      }
+      &.active {
+        @apply relative;
+        & > div {
+          view-transition-name: navbar-active;
+          @apply visible absolute bottom-0 w-full;
+        }
       }
     }
   }
 
-  title {
-    @apply text-2xl font-bold text-white;
-  }
-
-  nav a,
-  nav [role="link"] {
-    @apply m-0 inline-block rounded-none p-0 hover:no-underline focus:no-underline active:no-underline;
-    text-decoration: none;
-  }
-
-  nav button,
-  nav [role="button"] {
-    @apply bg-white text-dark hover:no-underline focus:no-underline active:no-underline;
-    text-decoration: none;
+  .mobile-menu {
+    @apply flex md:hidden;
   }
 }

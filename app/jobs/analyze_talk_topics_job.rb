@@ -7,7 +7,7 @@ class AnalyzeTalkTopicsJob < ApplicationJob
     response = client.chat(
       parameters: {
         model: "gpt-4o-mini",
-        response_format: {type: "json_object"},
+        response_format: response_format,
         messages: messages(talk)
       }
     )
@@ -26,6 +26,31 @@ class AnalyzeTalkTopicsJob < ApplicationJob
   end
 
   private
+
+  def response_format
+    {
+      type: "json_schema",
+      json_schema: {
+        name: "talk_topics",
+        schema: {
+          type: "object",
+          properties: {
+            topics: {
+              type: "array",
+              description: "A list of topics related to the talk.",
+              items: {
+                type: "string",
+                description: "A single topic."
+              }
+            }
+          },
+          required: ["topics"],
+          additionalProperties: false
+        },
+        strict: true
+      }
+    }
+  end
 
   def client
     OpenAI::Client.new
@@ -51,6 +76,7 @@ class AnalyzeTalkTopicsJob < ApplicationJob
       </metadata>
 
       2. Next, carefully read through the entire transcript:
+      Note: The transcript is not perfect, it's a transcription of the video, so it might have some errors.
       <transcript>
       #{talk.raw_transcript.to_text}
       </transcript>
@@ -67,7 +93,9 @@ class AnalyzeTalkTopicsJob < ApplicationJob
 
       4. Pick 5 to 7 topics that would describe the talk best.
          You can pick any topic from the list of exisiting topics or create a new one.
+
          If you create a new topic, please ensure that it is relevant to the content of the transcript and match the recommended topics kind.
+         Also for new topics please ensure they are not a synonym of an existing topic.
           - Make sure it fits the overall theme of this website, it's a website for Ruby related videos, so it should have something to do with Ruby, Web, Programming, Teams, People or Tech.
           - Ruby framework names (examples: Rails, Sinatra, Hanami, Ruby on Rails, ...)
           - Ruby gem names

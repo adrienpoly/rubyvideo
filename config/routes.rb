@@ -28,6 +28,8 @@ Rails.application.routes.draw do
     resource :email, only: [:edit, :update]
     resource :password_reset, only: [:new, :edit, :create, :update]
     resource :email, only: [:edit, :update]
+    resource :password_reset, only: [:new, :edit, :create, :update]
+    resource :email, only: [:edit, :update]
     resource :email_verification, only: [:show, :create]
     resource :password_reset, only: [:new, :edit, :create, :update]
   end
@@ -39,6 +41,7 @@ Rails.application.routes.draw do
       get :daily_visits
       get :monthly_page_views
       get :monthly_visits
+      get :yearly_talks
     end
   end
   resources :talks, param: :slug, only: [:index, :show, :update, :edit] do
@@ -51,6 +54,8 @@ Rails.application.routes.draw do
   namespace :speakers do
     resources :enhance, only: [:update], param: :slug
   end
+
+  get "leaderboard", to: "leaderboard#index"
 
   # admin
   namespace :admin, if: -> { Current.user & admin? } do
@@ -67,4 +72,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "page#home"
+
+  resources :watch_lists, only: [:index, :new, :create, :show, :edit, :update, :destroy] do
+    resources :talks, only: [:create, :destroy], controller: "watch_list_talks"
+  end
 end

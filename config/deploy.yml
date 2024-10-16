@@ -6,7 +6,13 @@ image: adrienpoly/rubyvideo
 
 # Deploy to these servers.
 servers:
-  - 91.107.208.207
+  web:
+    hosts:
+      - 91.107.208.207
+  job:
+    hosts:
+      - 91.107.208.207
+    cmd: ./bin/jobs
 
 # Credentials for your image host.
 registry:
@@ -22,7 +28,7 @@ registry:
 env:
   clear:
     RUBY_YJIT_ENABLE: 1
-    WEB_CONCURRENCY: 4
+    WEB_CONCURRENCY: 2
     RAILS_MAX_THREADS: 3
   secret:
     - RAILS_MASTER_KEY

@@ -14,13 +14,3 @@ import '~/controllers'
 
 // Page transitions
 Turn.start()
-
-document.addEventListener('turbo:before-frame-render', (event) => {
-  if (document.startViewTransition) {
-    event.preventDefault()
-
-    document.startViewTransition(() => {
-      event.detail.resume()
-    })
-  }
-})

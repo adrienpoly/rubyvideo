@@ -1,0 +1,17 @@
+<%= content_tag :details, class: classes, **attributes do %>
+  <summary class="flex after:hidden">
+    <% if toggle_open? && toggle_close? %>
+      <div class="swap" data-dropdown-target="swap">
+        <div class="swap-on"><%= toggle_open %></div>
+        <div class="swap-off"><%= toggle_close %></div>
+      </div>
+    <% else %>
+      <%= content %>
+    <% end %>
+  </summary>
+  <%= content_tag :ul, class: content_classes do %>
+    <% menu_items.each do |menu_item| %>
+      <%= menu_item %>
+    <% end %>
+  <% end %>
+<% end %>

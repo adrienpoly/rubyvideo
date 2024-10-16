@@ -12,13 +12,15 @@
 #  updated_at      :datetime         not null
 #  name            :string           default(""), not null
 #  slug            :string           default(""), not null
+#  talks_count     :integer          default(0), not null
+#  canonical_id    :integer
 #
 # rubocop:enable Layout/LineLength
 require "test_helper"
 
 class EventTest < ActiveSupport::TestCase
   setup do
-    @organisation = organisations(:one)
+    @organisation = organisations(:railsconf)
   end
 
   test "validates the country code " do

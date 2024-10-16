@@ -15,7 +15,7 @@ class Avo::Resources::Talk < Avo::BaseResource
 
   def fields
     field :id, as: :id
-    field :title, as: :text, link_to_record: true
+    field :title, as: :text, link_to_record: true, sortable: true
     field :event, as: :belongs_to
 
     field :speaker_tags, for_attribute: :speakers, name: "Speakers", through: :speaker_talks, as: :tags, hide_on: [:show, :forms] do
@@ -49,6 +49,8 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :date, as: :date, hide_on: :index
     field :like_count, as: :number, hide_on: :index
     field :view_count, as: :number, hide_on: :index
+    field :created_at, as: :date, hide_on: :index
+    field :updated_at, as: :date, sortable: true, filterable: true
     field :speakers, as: :has_many, through: :speaker_talks
     field :raw_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
     field :enhanced_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
@@ -61,6 +63,7 @@ class Avo::Resources::Talk < Avo::BaseResource
     action Avo::Actions::EnhanceTranscript
     action Avo::Actions::Summarize
     action Avo::Actions::ExtractTopics
+    action Avo::Actions::UpdateFromYml
   end
 
   def filters

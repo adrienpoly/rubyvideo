@@ -310,9 +310,14 @@
     up & announcing the next EuRuKo's location https://www.youtube.com/watch?v=wMggsShGTzk"
   video_id: 5o4krwjJbOI
 
-- title: Lightning talks
+- title: Lightning Talks
   raw_title: Lightning talks
-  speakers: []
+  speakers:
+    - Tomasz Stachewicz # Having Fun With Spreadsheets
+    - Anna Shcherbinina # The Information Flow: +1 Way to be up-to-date
+    - Miles Woodroffe # CP-8: GitHub Automation with CP-8 Bot
+    - Mazin Power # How To Do Microservices...... badly
+    - Gabriela Luhova # The Power Of Community
   event_name: Euruko 2018
   published_at: "2021-06-01"
   description:

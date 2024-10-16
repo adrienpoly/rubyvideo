@@ -181,6 +181,23 @@
 
     RubyKaigi Takeout 2021: https://rubykaigi.org/2021-takeout/presentations/k0kubun.html
 
+- title: Why Ruby's JIT was slow
+  raw_title: "[JA] Why Ruby's JIT was slow / Takashi Kokubun @k0kubun"
+  speakers:
+    - Takashi Kokubun
+  event_name: RubyKaigi Takeout 2021
+  published_at: "2021-09-09"
+  video_id: rE5OucBHm18
+  language: Japanese
+  description: |-
+    English: https://youtu.be/db3GHHllRyQ
+
+    In Ruby 2.6, we started to use a JIT compiler architecture called "MJIT", which uses a C compiler to generate native code. While it achieved Ruby 3x3 in one benchmark, we had struggled to optimize web application workloads like Rails with MJIT. The good news is we recently figured out why.
+
+    In this talk, you will hear how JIT architectures impact various benchmarks differently, and why it matters for you. You may or may not benefit from Ruby's JIT, depending on what JIT architecture we'll choose beyond the current MJIT. Let's discuss which direction we'd like to go.
+
+    https://rubykaigi.org/2021-takeout/presentations/k0kubun.html
+
 - title: The Art of Execution Control for Ruby's Debugger
   raw_title: "[JA] The Art of Execution Control for Ruby's Debugger / Koichi Sasada @ko1"
   speakers:
@@ -403,23 +420,6 @@
 
     RubyKaigi Takeout 2021: https://rubykaigi.org/2021-takeout/presentations/koic.html
 
-- title: Why Ruby's JIT was slow
-  raw_title: "[JA] Why Ruby's JIT was slow / Takashi Kokubun @k0kubun"
-  speakers:
-    - Takashi Kokubun
-  event_name: RubyKaigi Takeout 2021
-  published_at: "2021-09-09"
-  video_id: rE5OucBHm18
-  language: Japanese
-  description: |-
-    English: https://youtu.be/db3GHHllRyQ
-
-    In Ruby 2.6, we started to use a JIT compiler architecture called "MJIT", which uses a C compiler to generate native code. While it achieved Ruby 3x3 in one benchmark, we had struggled to optimize web application workloads like Rails with MJIT. The good news is we recently figured out why.
-
-    In this talk, you will hear how JIT architectures impact various benchmarks differently, and why it matters for you. You may or may not benefit from Ruby's JIT, depending on what JIT architecture we'll choose beyond the current MJIT. Let's discuss which direction we'd like to go.
-
-    https://rubykaigi.org/2021-takeout/presentations/k0kubun.html
-
 - title: Beware the Dead End!!
   raw_title: "[EN] Beware the Dead End!! / Richard Schneeman @schneems"
   speakers:
@@ -475,7 +475,8 @@
 
 - title: Ruby Committers vs the World
   raw_title: Ruby Committers vs the World / CRuby Committers @rubylangorg
-  speakers: []
+  speakers:
+    - Ruby Committers # TODO: list each person
   event_name: RubyKaigi Takeout 2021
   published_at: "2021-09-09"
   video_id: zQnN1pqK4FQ

@@ -1,27 +1,40 @@
-<nav class="navbar">
-  <ul>
-    <li>
-      <%= link_to root_path, class: "text-white flex gap-4 items-center" do %>
-        <title>Ruby Video</title>
-      <% end %>
-    </li>
-  </ul>
-  <ul class="hidden md:flex">
-    <%= render "shared/navbar/link", link_title: "Talks", path: talks_path %>
-    <%= render "shared/navbar/link", link_title: "Speakers", path: speakers_path %>
-    <%= render "shared/navbar/link", link_title: "Events", path: events_path %>
-    <% if Current.user&.admin? %>
-      <%= render "shared/navbar/link", link_title: "Topics", path: topics_path %>
+<div class="navbar bg-primary text-white relative z-50">
+  <div class="container flex justify-between items-center">
+    <div class="">
+      <%= link_to "Ruby Video", root_path, class: "text-left text-3xl font-serif" %>
+    </div>
+    <div class="items-center gap-6 hidden md:flex">
+      <ul class="desktop-menu">
+        <%= render "shared/navbar/link", link_title: "Talks", path: talks_path %>
+        <%= render "shared/navbar/link", link_title: "Speakers", path: speakers_path %>
+        <%= render "shared/navbar/link", link_title: "Events", path: events_path %>
+        <%= render "shared/navbar/link", link_title: "Topics", path: topics_path %>
+        <%= render "shared/navbar/link", link_title: "Leaderboard", path: leaderboard_path %>
+        <% signed_in do %>
+          <div class="flex items-center gap-2">
+            <%= render "shared/navbar/link", link_title: "Watch List", path: watch_lists_path %>
 
-      <%= render "shared/navbar/link", link_title: "Suggestions", path: admin_suggestions_path %>
-    <% end %>
-    <li>
-      <%= link_to "https://github.com/adrienpoly/rubyvideo", target: "_blank", alt: "github repository for the Ruby video project" do %>
-        <%= icon "github", size: :lg %>
+            <% if Current.user.default_watch_list.talks_count.positive? %>
+              <div class="badge badge-secondary"><%= Current.user.default_watch_list.talks_count %></div>
+            <% end %>
+          </div>
+        <% end %>
+
+        <li>
+          <%= link_to "https://github.com/adrienpoly/rubyvideo", target: "_blank", alt: "github repository for the Ruby video project" do %>
+            <%= icon "github", size: :lg %>
+          <% end %>
+        </li>
+      </ul>
+      <% signed_in do %>
+        <%= render "shared/user_dropdown" %>
       <% end %>
-    </li>
-    <li>
-      <%= ui_button "Contribute", kind: :secondary, target: "_blank", url: "https://github.com/adrienpoly/rubyvideo/blob/main/docs/contributing.md" %>
-    </li>
-  </ul>
-</nav>
+      <% signed_out do %>
+        <%= link_to "Sign in", sign_in_path, data: {turbo_frame: "modal"}, class: "btn btn-secondary" %>
+      <% end %>
+    </div>
+    <div class="mobile-menu">
+      <%= render "shared/user_mobile_dropdown" %>
+    </div>
+  </div>
+</div>

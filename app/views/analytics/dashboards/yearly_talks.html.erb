@@ -1,0 +1,4 @@
+<%= turbo_frame_tag "yearly_talks" do %>
+  <h2 class="text-center mb-4">Yearly talks from Ruby conferences</h2>
+  <%= column_chart @yearly_talks, id: :yearly_talks_chart %>
+<% end %>

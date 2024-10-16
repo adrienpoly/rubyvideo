@@ -20,9 +20,10 @@
 #  date                :date
 #  like_count          :integer
 #  view_count          :integer
-#  raw_transcript      :text             default(""), not null
-#  enhanced_transcript :text             default(""), not null
+#  raw_transcript      :text             default(#<Transcript:0x00000001645d16b8 @cues=[]>), not null
+#  enhanced_transcript :text             default(#<Transcript:0x00000001645d15c8 @cues=[]>), not null
 #  summary             :text             default(""), not null
+#  language            :string           default("en"), not null
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
@@ -47,10 +48,17 @@ class Talk < ApplicationRecord
   has_many :topics, through: :talk_topics
   has_many :approved_topics, -> { approved }, through: :talk_topics, source: :topic, inverse_of: :talks
 
+  has_many :watch_list_talks, dependent: :destroy
+  has_many :watch_lists, through: :watch_list_talks
+
   # validations
   validates :title, presence: true
   validates :language, presence: true,
     inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
+
+  # scopes
+  scope :with_topics, -> { joins(:talk_topics) }
+  scope :without_topics, -> { where.missing(:talk_topics) }
 
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
@@ -100,6 +108,13 @@ class Talk < ApplicationRecord
   scope :without_topics, -> { where.missing(:talk_topics) }
   scope :with_topics, -> { joins(:talk_topics) }
 
+  def managed_by?(visiting_user)
+    return false unless visiting_user.present?
+    return true if visiting_user.admin?
+
+    speakers.exists?(user: visiting_user)
+  end
+
   def to_meta_tags
     {
       title: title,
@@ -147,22 +162,81 @@ class Talk < ApplicationRecord
   end
 
   def related_talks(limit: 6)
-    Talk.order("RANDOM()").excluding(self).limit(limit)
+    ids = Rails.cache.fetch(["talk_recommendations", id, limit], expires_in: 1.week) do
+      Talk.order("RANDOM()").excluding(self).limit(limit).ids
+    end
+
+    Talk.where(id: ids)
   end
 
   def transcript
     enhanced_transcript.presence || raw_transcript
   end
 
-  def update_from_yml_metadata!
-    self.title = static_metadata.title
-    self.description = static_metadata.description
-    self.language = static_metadata.language
-    self.date = static_metadata.try(:date) || static_metadata.published_at
-    save
+  def slug_candidates
+    [
+      title.parameterize,
+      [title.parameterize, event&.name&.parameterize].compact.join("-"),
+      [title.parameterize, language.parameterize].compact.join("-"),
+      [title.parameterize, event&.name&.parameterize, language.parameterize].compact.join("-"),
+      [date.to_s.parameterize, title.parameterize].compact.join("-"),
+      [title.parameterize, *speakers.map(&:slug)].compact.join("-"),
+      [static_metadata.raw_title.parameterize].compact.join("-"),
+      [date.to_s.parameterize, static_metadata.raw_title.parameterize].compact.join("-")
+    ].uniq
+  end
+
+  def unused_slugs
+    slug_candidates.reject { |slug| Talk.excluding(self).exists?(slug: slug) }
+  end
+
+  def update_from_yml_metadata!(event: nil)
+    if event.blank?
+      event = Event.find_by(name: static_metadata.event_name)
+
+      if event.nil?
+        puts "No event found! Video ID: #{video_id}, Event: #{static_metadata.event_name}"
+        return
+      end
+    end
+
+    if Array.wrap(static_metadata.speakers).empty?
+      puts "No speakers for Video ID: #{video_id}"
+      return
+    end
+
+    assign_attributes(
+      event: event,
+      title: static_metadata.title,
+      description: static_metadata.description,
+      date: static_metadata.try(:date) || static_metadata.published_at || Date.parse("#{static_metadata.year}-01-01"),
+      thumbnail_xs: static_metadata.thumbnail_xs || "",
+      thumbnail_sm: static_metadata.thumbnail_sm || "",
+      thumbnail_md: static_metadata.thumbnail_md || "",
+      thumbnail_lg: static_metadata.thumbnail_lg || "",
+      thumbnail_xl: static_metadata.thumbnail_xl || "",
+      language: static_metadata.language || Language::DEFAULT,
+      slides_url: static_metadata.slides_url
+    )
+
+    self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
+      Speaker.find_by(slug: speaker_name.parameterize) || Speaker.find_or_create_by(name: speaker_name.strip)
+    }
+
+    self.slug = unused_slugs.first
+
+    save!
   end
 
   def static_metadata
     Static::Video.find_by(video_id: video_id)
+  end
+
+  def suggestion_summary
+    <<~HEREDOC
+      Talk: #{title} (#{date})
+      by #{speakers.map(&:name).to_sentence}
+      at #{event.name}
+    HEREDOC
   end
 end

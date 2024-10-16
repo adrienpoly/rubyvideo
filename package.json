@@ -10,6 +10,7 @@
     "chart.js": "^4.3.0",
     "chartkick": "^5.0.1",
     "morphdom": "^2.7.0",
+    "rfs": "^10.0.0",
     "stimulus-use": "^0.52.0",
     "vlitejs": "^6.0.3"
   },
@@ -20,7 +21,7 @@
   "packageManager": "yarn@1.22.19",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
-    "daisyui": "^4.12.2",
+    "daisyui": "^4.12.10",
     "postcss": "^8.4.38",
     "postcss-import": "^16.1.0",
     "postcss-nested": "^6.0.1",

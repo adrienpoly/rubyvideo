@@ -20,9 +20,10 @@
 #  date                :date
 #  like_count          :integer
 #  view_count          :integer
-#  raw_transcript      :text             default(""), not null
-#  enhanced_transcript :text             default(""), not null
+#  raw_transcript      :text             default(#<Transcript:0x00000001645d16b8 @cues=[]>), not null
+#  enhanced_transcript :text             default(#<Transcript:0x00000001645d15c8 @cues=[]>), not null
 #  summary             :text             default(""), not null
+#  language            :string           default("en"), not null
 #
 # rubocop:enable Layout/LineLength
 require "test_helper"
@@ -109,10 +110,12 @@ class TalkTest < ActiveSupport::TestCase
     @talk = talks(:one)
     @event = events(:rails_world_2023)
     @talk.update!(title: "New title", description: "New description", event: @event)
+
     assert_equal "New title", @talk.title
     assert_equal "New description", @talk.description
 
     @talk.update_from_yml_metadata!
+
     assert_equal "Hotwire Cookbook: Common Uses, Essential Patterns & Best Practices", @talk.title
   end
 

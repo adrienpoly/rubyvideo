@@ -13,7 +13,7 @@ class Avo::Resources::Speaker < Avo::BaseResource
 
   def fields
     field :id, as: :id, link_to_record: true
-    field :name, as: :text, link_to_record: true
+    field :name, as: :text, link_to_record: true, sortable: true
     field :twitter, as: :text
     field :github, as: :text
     field :bio, as: :textarea, hide_on: :index
@@ -33,6 +33,6 @@ class Avo::Resources::Speaker < Avo::BaseResource
 
   def actions
     action Avo::Actions::SpeakerGithub
-    action Avo::Actions::MergeSpeakerInto
+    action Avo::Actions::AssignCanonicalSpeaker
   end
 end

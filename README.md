@@ -74,6 +74,10 @@ To follow Tailwind CSS's recommended order of classes, you can use [Prettier](ht
 
 Please note that this project is released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms. More details can be found in the [Code of Conduct](/CODE_OF_CONDUCT.md) document.
 
+## Credits
+
+Thank you [Appsignal](https://appsignal.com/r/eeab047472) for providing the APM tool that helps us monitor the application.
+
 ## License
 
 Rubyvideo.dev is open source and available under the MIT License. For more information, please see the [License](/LICENSE.md) file.

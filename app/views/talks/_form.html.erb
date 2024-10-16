@@ -18,12 +18,18 @@
 
   <div class="my-5">
     <%= form.label :description %>
-    <%= form.text_area :description, rows: 4, class: "input input-bordered w-full" %>
+    <%= form.text_area :description, rows: 4, class: "textarea textarea-bordered w-full" %>
   </div>
 
   <div class="my-5">
     <%= form.label :date %>
     <%= form.text_field :date, class: "input input-bordered w-full" %>
+  </div>
+
+  <div class="my-5">
+    <%= form.label :summary %>
+    <div class="text-sm font-light mb-2">Markdown supported</div>
+    <%= form.text_area :summary, rows: 10, class: "textarea textarea-bordered w-full" %>
   </div>
 
   <div class="inline">
