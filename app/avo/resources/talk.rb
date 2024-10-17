@@ -60,6 +60,7 @@ class Avo::Resources::Talk < Avo::BaseResource
 
   def actions
     action Avo::Actions::EmbedTalk
+    action Avo::Actions::UnembedTalk
     action Avo::Actions::Transcript
     action Avo::Actions::EnhanceTranscript
     action Avo::Actions::Summarize
