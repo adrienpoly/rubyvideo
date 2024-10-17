@@ -2,7 +2,7 @@ module TalksHelper
   def link_to_talk(talk = nil, options = {}, html_options = {}, &block)
     raise ArgumentError, "must pass an instance of talk to this helper method" unless talk.present? && talk.is_a?(Talk)
 
-    url, target = if talk.date > 2.weeks.ago
+    url, target = if !talk.embedded?
       ["https://youtube.com/watch?v=#{talk.video_id}", "_blank"]
     else
       [talk_path(talk, options), nil]
