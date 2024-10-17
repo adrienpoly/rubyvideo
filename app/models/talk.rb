@@ -215,7 +215,8 @@ class Talk < ApplicationRecord
       thumbnail_md: static_metadata.thumbnail_md || "",
       thumbnail_lg: static_metadata.thumbnail_lg || "",
       thumbnail_xl: static_metadata.thumbnail_xl || "",
-      language: static_metadata.language || Language::DEFAULT
+      language: static_metadata.language || Language::DEFAULT,
+      slides_url: static_metadata.slides_url
     )
 
     self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
