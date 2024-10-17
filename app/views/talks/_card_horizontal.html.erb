@@ -11,9 +11,10 @@
       <%= content_tag :div, talk.title, class: "font-semibold line-clamp-2 mt-1" %>
     <% end %>
     <div class="flex items-start gap-2 font-light">
-      <% if talk.speakers.length > 1 %>
+      <% speakers_count = talk.speakers.size %>
+      <% if speakers_count > 1 %>
         <%= heroicon :users, size: :xs, class: "shrink-0 grow-0" %>
-      <% elsif talk.speakers.length == 1 %>
+      <% elsif speakers_count == 1 %>
         <%= heroicon :user, size: :xs, class: "shrink-0 grow-0" %>
       <% end %>
 

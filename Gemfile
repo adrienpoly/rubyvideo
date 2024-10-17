@@ -58,7 +58,6 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[mri windows]
   gem "byebug", "~> 11.1"
-  gem "dotenv-rails"
 end
 
 group :development do
@@ -106,6 +105,7 @@ gem "meta-tags", "~> 2.18"
 gem "groupdate", "~> 6.2"
 gem "appsignal", "~> 3.4"
 gem "chartkick", "~> 5.0"
+gem "dotenv-rails"
 
 gem "rails_autolink", "~> 1.1"
 
