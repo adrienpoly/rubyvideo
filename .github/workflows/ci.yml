@@ -70,8 +70,9 @@ jobs:
 
       - name: Prepare database
         run: |
+          bin/rails db:drop
           bin/rails db:create
-          bin/rails db:prepare
+          bin/rails db:migrate
 
       - name: Run tests
         run: |
