@@ -1,14 +1,14 @@
 ---
 
-# - id:
-#   title: GoRuCo 2007
-#   description: 'http://2007.goruco.com'
-#   published_at: '2007-04-21'
-#   channel_id:
-#   year: '2007'
-#   videos_count: 0
-#   metadata_parser: Youtube::VideoMetadata
-#   slug: goruco-2007
+- id: ''
+  title: GoRuCo 2007
+  description: 'http://2007.goruco.com'
+  published_at: '2007-04-21'
+  channel_id: ''
+  year: '2007'
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadata
+  slug: goruco-2007
 
 - id: PL12686083008C28A5
   title: GoRuCo 2008
@@ -30,25 +30,25 @@
   metadata_parser: Youtube::VideoMetadata
   slug: goruco-2009
 
-# - id:
-#   title: GoRuCo 2010
-#   description: 'http://2010.goruco.com'
-#   published_at: '2010-05-22'
-#   channel_id:
-#   year: '2010'
-#   videos_count: 0
-#   metadata_parser: Youtube::VideoMetadata
-#   slug: goruco-2010
+- id: ''
+  title: GoRuCo 2010
+  description: 'http://2010.goruco.com'
+  published_at: '2010-05-22'
+  channel_id: ''
+  year: '2010'
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadata
+  slug: goruco-2010
 
-# - id:
-#   title: GoRuCo 2011
-#   description: 'http://2011.goruco.com'
-#   published_at: '2011-06-04'
-#   channel_id:
-#   year: '2011'
-#   videos_count: 0
-#   metadata_parser: Youtube::VideoMetadata
-#   slug: goruco-2011
+- id: ''
+  title: GoRuCo 2011
+  description: 'http://2011.goruco.com'
+  published_at: '2011-06-04'
+  channel_id:
+  year: '2011'
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadata
+  slug: goruco-2011
 
 - id: PLFE5C32B5513E0555
   title: GoRuCo 2012
