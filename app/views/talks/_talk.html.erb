@@ -31,9 +31,7 @@
       <div class="text-sm text-gray-500">
         <%= link_to talk.event_name, talk.event, class: "hover:underline" %>
       </div>
-      <div class="flex">
-        <%= render partial: "talks/speaker", locals: { talk: } %>
-      </div>
+      <%= render partial: "talks/speaker", locals: { talk: } %>
     </div>
 
   <div class="flex flex-wrap gap-2">
