@@ -45,7 +45,7 @@
           <h2><%= talk.title %></h2>
           by <%= talk.speakers.map(&:name).to_sentence %>
 
-          <div class="markdown"><%= markdown_to_html(talk.summary) %></div>
+          <div class="mt-4 markdown"><%= markdown_to_html(talk.summary) %></div>
         </div>
       <% else %>
         <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Description" <%= "checked" if talk.summary.blank? %>>
