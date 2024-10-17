@@ -20,7 +20,7 @@ class ActiveSupport::TestCase
     end
   end
   # Run tests in parallel with specified workers
-  parallelize(workers: 1)
+  parallelize(workers: :number_of_processors)
 
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
   fixtures :all
