@@ -1,4 +1,5 @@
 <%# locals: (talk:, admin: false) -%>
+
 <%= content_tag :div, id: dom_id(talk),
       data: {
         controller: "video-player",
@@ -6,18 +7,23 @@
         video_player_provider_value: "youtube",
         video_player_src_value: talk.video_id
       } do %>
+
   <h1 class="text-neutral mb-4 text-2xl"><%= talk.title %></h1>
+
   <div <%= tag.attributes(
              class: "aspect-video banner-img card-horizontal-img relative",
              style: "view-transition-name: #{dom_id(talk, :image)}"
            ) %>>
+
     <%= content_tag :div, "",
           class: "image",
           id: dom_id(talk, :youtube),
           data: {video_player_target: "player",
                  youtube_id: talk.video_id} %>
   </div>
+
   <div class="py-4 flex flex-col gap-4">
+      
     <div class="flex flex-col gap-1">
       <div class="font-bold">
         <%= talk.title %>
@@ -29,13 +35,15 @@
         <%= render partial: "talks/speaker", locals: { talk: } %>
       </div>
     </div>
-    <div class="flex flex-wrap gap-2">
-      <% talk.approved_topics.each do |topic| %>
-        <%= link_to topic_path(topic, back_to: request.fullpath, back_to_title: talk.title) do %>
-          <div class="badge badge-secondary px-2 py-3">#<%= topic.name.parameterize %></div>
-        <% end %>
+
+  <div class="flex flex-wrap gap-2">
+    <% talk.approved_topics.each do |topic| %>
+      <%= link_to topic_path(topic, back_to: request.fullpath, back_to_title: talk.title) do %>
+        <div class="badge badge-secondary px-2 py-3">#<%= topic.name.parameterize %></div>
       <% end %>
-    </div>
+    <% end %>
+  </div>
+
     <div role="tablist" class="tabs tabs-lifted">
       <% if talk.summary.present? %>
         <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Summary" checked>
@@ -44,24 +52,29 @@
             <h2><%= talk.title %></h2>
             by <%= talk.speakers.map(&:name).to_sentence %>
           </div>
+
           <div class="markdown"><%= markdown_to_html(talk.summary) %></div>
         </div>
       <% else %>
         <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Description" <%= "checked" if talk.summary.blank? %>>
         <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
           <p><%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %></p>
+
           <p class="flex">
             <span><%= talk.event_name %></span>
             <span><%#= talk.event_edition %></span>
           </p>
         </div>
       <% end %>
+
       <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Transcript">
       <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
         <%= render partial: "talks/transcript", locals: {talk: talk} %>
       </div>
+
       <% if talk.slides_url %>
         <% uri = URI(talk.slides_url) %>
+
         <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Slides">
         <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
           <% cache [talk, talk.slides_url] do %>
@@ -72,15 +85,18 @@
                  rescue
                    {}
                  end %>
+
               <%= sanitize oembed_json.dig("html"), tags: ["iframe"], attributes: ["id", "class", "src", "width", "height", "style", "frameborder", "allowtransparency", "allowfullscreen"] %>
             <% end %>
           <% end %>
+
           <a class="btn btn-primary mt-6" href="<%= talk.slides_url %>" target="_blank">See Slides on <%= uri.host %></a>
         </div>
       <% end %>
     </div>
   </div>
 <% end %>
+
 <div class="tooltip tooltip-right tooltip-success" data-tip="You can suggest some modifications to this talk">
   <%= ui_button url: edit_talk_path(talk), kind: :neutral, outline: true, size: :sm do %>
     <%= heroicon :pencil_square %>
