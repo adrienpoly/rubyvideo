@@ -568,6 +568,7 @@
     - Eileen M. Uchitelle
   event_name: RubyConf 2021
   published_at: "2022-08-09"
+  slides_url: https://speakerdeck.com/eileencodes/improving-cvar-performance-in-ruby-3-dot-1
   description: |-
     Have you ever wondered how class variables (CVARs) in Ruby work? Would you be surprised to learn that their performance becomes increasingly worse as the inheritance chain grows? I’m excited to share that in Ruby 3.1 we fixed the performance of CVARs.
 
