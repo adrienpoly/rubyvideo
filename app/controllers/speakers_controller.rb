@@ -21,7 +21,7 @@ class SpeakersController < ApplicationController
 
   # GET /speakers/1
   def show
-    @talks = @speaker.talks.includes(:speakers, :event).order(date: :desc)
+    @talks = @speaker.talks.with_essential_card_data.order(date: :desc)
     @back_path = speakers_path
     set_meta_tags(@speaker)
     # fresh_when(@speaker)
