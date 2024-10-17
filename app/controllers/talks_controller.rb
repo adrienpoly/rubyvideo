@@ -17,7 +17,7 @@ class TalksController < ApplicationController
   # GET /talks/1
   def show
     set_meta_tags(@talk)
-    @related_talks = @talk.event.talks
+    @related_talks = @talk.event.talks.with_essential_card_data
     fresh_when(@talk)
   end
 
