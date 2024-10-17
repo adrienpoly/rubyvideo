@@ -7,10 +7,10 @@ class TalksController < ApplicationController
   # GET /talks
   def index
     if params[:q].present?
-      talks = Talk.includes(:speakers, :event).pagy_search(params[:q])
+      talks = Talk.with_essential_card_data.pagy_search(params[:q])
       @pagy, @talks = pagy_meilisearch(talks, limit: 21, page: params[:page]&.to_i || 1)
     else
-      @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), limit: 21, page: params[:page]&.to_i || 1)
+      @pagy, @talks = pagy(Talk.all.with_essential_card_data.order(date: :desc), limit: 21, page: params[:page]&.to_i || 1)
     end
   end
 
