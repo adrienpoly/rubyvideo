@@ -14,6 +14,7 @@
     - Aaron Patterson
   event_name: RubyConf 2021
   published_at: "2022-08-09"
+  slides_url: https://speakerdeck.com/tenderlove/some-assembly-required
   description: |-
     Some Assembly Required by Aaron Patterson
 
@@ -482,6 +483,7 @@
     - Stephen Margheim
   event_name: RubyConf 2021
   published_at: "2022-08-09"
+  slides_url: https://speakerdeck.com/fractaledmind/acidic-jobs-a-laymans-guide-to-job-bliss-091517d6-eec0-419e-a80f-982b8e036392
   description: |-
     Background jobs have become an essential component of any Ruby infrastructure, and, as the Sidekiq Best Practices remind us, it is essential that jobs be "idempotent and transactional." But how do we make our jobs idempotent and transactional? In this talk, we will explore various techniques to make our jobs robust and ACIDic.
 
@@ -567,6 +569,7 @@
     - Eileen M. Uchitelle
   event_name: RubyConf 2021
   published_at: "2022-08-09"
+  slides_url: https://speakerdeck.com/eileencodes/improving-cvar-performance-in-ruby-3-dot-1
   description: |-
     Have you ever wondered how class variables (CVARs) in Ruby work? Would you be surprised to learn that their performance becomes increasingly worse as the inheritance chain grows? I’m excited to share that in Ruby 3.1 we fixed the performance of CVARs.
 

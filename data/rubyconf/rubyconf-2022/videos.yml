@@ -420,6 +420,7 @@
     - Aaron Patterson
   event_name: RubyConf 2022
   published_at: '2023-03-06'
+  slides_url: https://speakerdeck.com/tenderlove/dont-at-me-faster-instance-variables-with-object-shapes
   description: Instance variables are a popular feature of the Ruby programming language,
     and many people enjoy using them. They are so popular that the Ruby core team
     has done lots of work to speed them up. But we can do even better to speed them
