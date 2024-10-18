@@ -92,6 +92,7 @@
     - Eileen M. Uchitelle
   event_name: rubyday 2020
   published_at: "2020-09-16"
+  slides_url: https://speakerdeck.com/eileencodes/technically-a-talk-ruby-day-2020
   description: |-
     Peer deep into Rails' database handling and you may find the code overly complex, hard to follow, and full of technical debt. On the surface you're right - it is complex, but that complexity represents the strong foundation that keeps your applications simple and focused on your product code. In this talk we'll look at how to use multiple databases, the beauty (and horror) of Rails connection management, and why we built this feature for you.
 
