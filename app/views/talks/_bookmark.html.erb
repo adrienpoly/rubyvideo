@@ -1,0 +1,20 @@
+<%# locals: (talk:, bookmarked: false, bookmarkable: false) %>
+<% if bookmarkable %>
+  <div class="for-signed-in-users">
+    <% if bookmarked %>
+      <%= button_to bookmark_talk_path(talk.id), method: :delete, id: dom_id(talk, :remove_bookmark) do %>
+        <%= heroicon :bookmark, class: "text-primary shrink-0 cursor-pointer mt-1", variant: :solid, size: :sm %>
+      <% end %>
+    <% else %>
+      <%= button_to bookmark_talks_path(talk_id: talk.id), method: :post, id: dom_id(talk, :bookmark) do %>
+        <%= heroicon :bookmark, class: "shrink-0 cursor-pointer mt-1", variant: :outline, size: :sm %>
+      <% end %>
+    <% end %>
+  </div>
+
+  <div class="for-signed-out-users">
+    <%= link_to sign_in_path(redirect_to: request.fullpath), data: {turbo_frame: "modal"} do %>
+      <%= heroicon :bookmark, class: "shrink-0 cursor-pointer mt-1", variant: :outline, size: :sm %>
+    <% end %>
+  </div>
+<% end %>

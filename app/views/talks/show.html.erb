@@ -7,10 +7,10 @@
       <div style="view-transition-name: title"><%= back_to_title %></div>
     </div>
   <% end %>
-  <% cache [@talk, @related_talks, Current.user&.admin?] do %>
+  <% cache [@talk, @related_talks] do %>
     <div class="w-full flex">
       <div class="flex-grow">
-        <%= render partial: "talks/talk", locals: {talk: @talk, admin: Current.user&.admin?} %>
+        <%= render partial: "talks/talk", locals: {talk: @talk} %>
       </div>
       <div class="gap-4 w-96 flex-shrink-0 hidden md:flex md:flex-col px-4">
         <%#= turbo_frame_tag "recommended_talks", target: "_top", src: talk_recommendations_path(@talk) %>
