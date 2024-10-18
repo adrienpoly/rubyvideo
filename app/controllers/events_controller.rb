@@ -15,9 +15,9 @@ class EventsController < ApplicationController
     event_talks = @event.talks
     if params[:q].present?
       talks = event_talks.pagy_search(params[:q])
-      @pagy, @talks = pagy_meilisearch(talks, items: 9)
+      @pagy, @talks = pagy_meilisearch(talks, limit: 21)
     else
-      @pagy, @talks = pagy(event_talks.with_essential_card_data.order(date: :desc), items: 9)
+      @pagy, @talks = pagy(event_talks.with_essential_card_data.order(date: :desc), limit: 21)
     end
   end
 
