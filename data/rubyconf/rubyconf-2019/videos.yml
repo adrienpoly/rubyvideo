@@ -410,6 +410,7 @@
     - Frederick Cheung
   event_name: RubyConf 2019
   published_at: '2019-12-03'
+  slides_url: https://speakerdeck.com/fcheung/fixing-performance-and-memory-problems
   description: "RubyConf 2019 - Fixing Performance & Memory problems by Frederick
     Cheung\n\nPerformance problems got you down? Do memory leaks strike fear in your
     heart?\n\r\n\nIn this session I'll share two real world stories of how you can
@@ -595,6 +596,7 @@
     - Ufuk Kayserilioglu
   event_name: RubyConf 2019
   published_at: '2019-11-28'
+  slides_url: https://speakerdeck.com/ufuk/adopting-sorbet-at-scale
   description: |-
     RubyConf 2019 - Adopting Sorbet at Scale by Ufuk Kayserilioglu
 
@@ -658,6 +660,7 @@
     - Yusuke Endoh
   event_name: RubyConf 2019
   published_at: '2019-11-29'
+  slides_url: https://speakerdeck.com/mame/a-static-type-analyzer-of-untyped-ruby-code-for-ruby-3
   description: |-
     RubyConf 2019 - A Static Type Analyzer of Untyped Ruby Code for Ruby 3 by Yusuke Endoh
 
@@ -840,6 +843,7 @@
     - Sandi Metz
   event_name: RubyConf 2019
   published_at: '2019-11-30'
+  slides_url: https://speakerdeck.com/skmetz/lucky-you
   description: |-
     Keynote: Lucky You by Sandi Metz
 
@@ -1070,6 +1074,7 @@
     - Aaron Patterson
   event_name: RubyConf 2019
   published_at: '2019-11-29'
+  slides_url: https://speakerdeck.com/tenderlove/compacting-gc-for-mri
   description: |-
     RubyConf 2019 - Compacting Heaps in Ruby 2.7 by Aaron Patterson
 
