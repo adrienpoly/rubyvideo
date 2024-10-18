@@ -22,7 +22,17 @@
                  youtube_id: talk.video_id} %>
   </div>
 
-  <div class="py-4 flex flex-col gap-4 my-4">
+  <div class="py-4 flex flex-col gap-4">
+
+    <div class="flex flex-col gap-1">
+      <div class="font-bold">
+        <%= talk.title %>
+      </div>
+      <div class="text-sm text-gray-500">
+        <%= link_to talk.event_name, talk.event, class: "hover:underline" %>
+      </div>
+      <%= render partial: "talks/speaker", locals: {speaker: talk.speakers.first} %>
+    </div>
 
   <div class="flex flex-wrap gap-2">
     <% talk.approved_topics.each do |topic| %>
