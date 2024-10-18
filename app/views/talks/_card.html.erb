@@ -2,7 +2,7 @@
 <%# locals: (talk:, user_favorite_talks_ids: [], favoritable: false, back_to: nil, back_to_title: nil) -%>
 
 <div class="card card-compact bg-white shadow-xl w-full" id="<%= dom_id talk %>" style="<%= "view-transition-name: #{dom_id(talk, :talk_card)}" %>">
-  <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden" do %>
+  <%= link_to_talk(talk, back_to: back_to, back_to_title: back_to_title, class: "flex aspect-video overflow-hidden") do %>
       <%= image_tag talk.thumbnail_sm,
             srcset: ["#{talk.thumbnail_lg} 2x"],
             id: dom_id(talk),
@@ -15,7 +15,7 @@
   <div class="card-body flex flex-row justify-between items-start gap-2">
     <div class="flex flex-col items-start h-full justify-between gap-2 w-full">
       <div class="flex items-start justify-between gap-2 w-full">
-        <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title) do %>
+        <%= link_to_talk(talk, back_to: back_to, back_to_title: back_to_title) do %>
           <%= content_tag :h2, talk.title, class: "text-sm font-sans font-medium" %>
         <% end %>
       </div>

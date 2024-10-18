@@ -17,7 +17,7 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :id, as: :id
     field :title, as: :text, link_to_record: true, sortable: true
     field :event, as: :belongs_to
-
+    field :embedded, as: :boolean
     field :speaker_tags, for_attribute: :speakers, name: "Speakers", through: :speaker_talks, as: :tags, hide_on: [:show, :forms] do
       record.speakers.map(&:name)
     end
@@ -61,6 +61,8 @@ class Avo::Resources::Talk < Avo::BaseResource
   end
 
   def actions
+    action Avo::Actions::EmbedTalk
+    action Avo::Actions::UnembedTalk
     action Avo::Actions::Transcript
     action Avo::Actions::EnhanceTranscript
     action Avo::Actions::Summarize
@@ -69,6 +71,7 @@ class Avo::Resources::Talk < Avo::BaseResource
   end
 
   def filters
+    filter Avo::Filters::EmbeddedTalk
     filter Avo::Filters::TalkEvent
     filter Avo::Filters::RawTranscript
     filter Avo::Filters::EnhancedTranscript

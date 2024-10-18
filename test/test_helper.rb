@@ -19,8 +19,12 @@ class ActiveSupport::TestCase
       true
     end
   end
-  # Run tests in parallel with specified workers
-  parallelize(workers: :number_of_processors)
+
+  if ENV["CI"]
+    parallelize(workers: 1)
+  else
+    parallelize(workers: :number_of_processors)
+  end
 
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
   fixtures :all
