@@ -234,6 +234,7 @@
     - Eileen M. Uchitelle
   event_name: Rails World 2024
   published_at: '2024-09-27'
+  slides_url: https://speakerdeck.com/eileencodes/the-myth-of-the-modular-monolith-day-2-keynote-rails-world-2024
   description: |-
     As Rails applications grow over time, organizations ask themselves: 'What’s next? Should we stay the course with a monolith or migrate to microservices?' At @Shopify they chose to modularize their monolith, but after 6 years they are asking: 'Did we fix what we set out to fix? Is this better than before?' Join Rails Core member Eileen Uchitelle as she poses these questions during her #RailsWorld Day 2 Opening Keynote.
 
@@ -251,6 +252,7 @@
     - Stephen Margheim
   event_name: Rails World 2024
   published_at: '2024-09-27'
+  slides_url: https://fractaledmind.github.io/2024/10/16/sqlite-supercharges-rails
   description: "The Rails 8 feature set perfectly complements SQLite's power in creating
     resilient, high-performance production apps, but still the question lingers: Can
     I really go all-in on #SQLite? Stephen Margheim illustrates how to leverage Rails
@@ -270,6 +272,7 @@
     - Ridhwana Khan
   event_name: Rails World 2024
   published_at: '2024-09-27'
+  slides_url: https://speakerdeck.com/ridhwana/demystifying-some-of-the-magic-behind-rails
   description: |-
     Rails is renowned for its elegance, productivity, and "magic" which simplifies web development. As a recent technical writer for the official Ruby on Rails guides, Ridhwana Khan has had the opportunity to dive into the "magic" of Rails to understand the source code and translate that into clear explanations in the guides. At #RailsWorld, she shared insights gained from her experience demystifying the framework's inner workings for the good of the greater community.
 
@@ -340,6 +343,7 @@
     - Robby Russell
   event_name: Rails World 2024
   published_at: '2024-09-27'
+  slides_url: https://maintainablerails.com/railsworld-2024-talk-resources
   description: "If your Rails app is drowning in a sea of compromises and quick fixes,
     making it difficult to update and slowing you down, it's high time to redefine
     \"technical debt\" - perhaps even time to ditch the term altogether. In his #RailsWorld
