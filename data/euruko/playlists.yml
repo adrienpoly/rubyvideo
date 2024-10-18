@@ -1,4 +1,14 @@
 ---
+- id: PLiiwaDvnsMkHvqFifIqcQWFfHNdp9gaKs
+  title: EuRuKo 2016
+  description: 'https://2016.euruko.org'
+  published_at: '2016-09-23'
+  channel_id: UChGs1td4ViQFqT0jlvkyUJg
+  year: '2016'
+  videos_count: 15
+  metadata_parser: Youtube::VideoMetadata
+  slug: euruko-2016
+
 - id: PLZW-kXE0oRykQpf54Jhf1geLAeq5sM7Kt
   title: Euruko 2017
   description: ''
