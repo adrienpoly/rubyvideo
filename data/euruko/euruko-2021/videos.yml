@@ -4,7 +4,7 @@
   speakers:
     - Peter Zhu
     - Matthew Valentine-House
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: |-
     Ruby’s current memory layout does not optimize for cache performance, and this has implications: object data like string and array contents are often not stored close to the objects that use them, causing poor data locality, reducing the efficiency of CPU caches, and making it more complex for the garbage collector to manage these objects. Additionally, objects can also contain pointers to data that then point back into the Ruby heap, slowing down object access due to pointer indirection.
@@ -16,7 +16,7 @@
   raw_title: Don't Develop Just for Yourself - A Developer's Checklist to Accessibility (Eeva-Jonna Panula)
   speakers:
     - Eeva-Jonna Panula
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: |-
     Developer, are you (unconsciously) developing sites for users just like yourself? It often means a sighted mouse user with good fine motor skills and who is proficient with computers. But not every user is like that.
@@ -28,7 +28,7 @@
   raw_title: "Lightning talk: State of the PDF (Thomas Leitner)"
   speakers:
     - Thomas Leitner
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: |-
     What are your options when dealing with PDFs in Ruby? Are you creating PDFs? Then you are likely using wkhtmltopdf or Prawn.
@@ -44,7 +44,7 @@
   raw_title: How to stop breaking other people's things (Lisa Karlin Curtis)
   speakers:
     - Lisa Karlin Curtis
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description:
     "Breaking changes are sad. We’ve all been there; someone else changes
@@ -58,7 +58,7 @@
   raw_title: Fun Passing Blocks Around (sponsored) (Alan Wu, Shopify)
   speakers:
     - Alan Wu
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: A sponsored lightning talk from Shopify
   video_id: MOfqH8euU58
@@ -67,7 +67,7 @@
   raw_title: Building high–performance GraphQL APIs (Dmitry Tsepelev)
   speakers:
     - Dmitry Tsepelev
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: |-
     One day you decided to give GraphQL a try and implement an API of your new application using GraphQL. You deployed the app to production, but after a while, you realized, that responses are not super fast. How to find out what makes your GraphQL endpoint slow?
@@ -79,7 +79,7 @@
   raw_title: "Lightning talk: Adding byebug to the Professional Puts Debugger Tool Set (Zhi Ren Guoy)"
   speakers:
     - Zhi Ren Guoy
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: A crash course on getting started with the ‘byebug’ debugger.
   video_id: YibyXazjnII
@@ -88,7 +88,7 @@
   raw_title: Going native with FFI (Juan Carlos Ruiz)
   speakers:
     - Juan Carlos Ruiz
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description:
     Ruby is a flexible language that allows us to write expressive and
@@ -101,16 +101,16 @@
   raw_title: "Keynote: Beyond Ruby 3.0 (Yukihiro Matsumoto)"
   speakers:
     - Yukihiro "Matz" Matsumoto
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
-  description: Matz's keynote from Euruko 2021
+  description: Matz's keynote from EuRuKo 2021
   video_id: Dp12a3KGNFw
 
 - title: "Keynote: Q&A (Food for thought: home-cooked software)"
   raw_title: Q&A with Linda Liukas
   speakers:
     - Linda Liukas
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description:
     Unfortunately we cannot provide the recording of the closing keynote
@@ -121,7 +121,7 @@
   raw_title: "Lightning talk: The 6 Characters That Could Bring Down Your App (Moncef Belyamani)"
   speakers:
     - Moncef Belyamani
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: |-
     This is a true story about how using the wrong method caused the app to hang for our users, and how it increased our database CPU usage by up to 10 times!
@@ -133,7 +133,7 @@
   raw_title: IDE development with Ruby (Soutaro Matsumoto)
   speakers:
     - Soutaro Matsumoto
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: |-
     Integrated development environment (IDE) is one of the most frequently used tools for programming. It’s a kind of text editor where you type and read the code, but it does more for you. On-the-fly error reporting, completion, go-to-definition, and more. These features help you writing and reading the code and make the tools more valuable than simple text editors.
@@ -147,7 +147,7 @@
   raw_title: Streaming data transformations with Ruby (sponsored) (Ville Lautanala, Smartly)
   speakers:
     - Ville Lautanala
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: Sponsored lightning talk from Smartly
   video_id: lEedrF7ZNZU
@@ -156,7 +156,7 @@
   raw_title: Delivering fast and slow - Ethics of quality (Lena Wiberg)
   speakers:
     - Lena Wiberg
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: |-
     Daily, we are pushing the boundaries of how fast we can deliver software. Constantly running on a knife’s edge between great success and horrible failure.
@@ -168,7 +168,7 @@
   raw_title: "Lightning talk: Shipping Ruby and Rails apps as native Linux packages (Cyril Rohr)"
   speakers:
     - Cyril Rohr
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: |-
     Ruby and Rails applications are notoriously difficult to package in the native formats (.deb, .rpm) used by the main Linux distributions.
@@ -182,7 +182,7 @@
   raw_title: Building a Ruby web app using the Ruby Standard Library (Maple Ong)
   speakers:
     - Maple Ong
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description:
     Do you want to understand how a web application works without Rails
@@ -195,7 +195,7 @@
   raw_title: Why a Diverse Team is Crucial to Startup Success (Melissa Jurkoic)
   speakers:
     - Melissa Jurkoic
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: |-
     Team diversity refers to differences between members of startup team. Those differences can include demographic differences (like age, race, sex, ethnicity), personality (extrovert, introvert, and differing Myers-Briggs types) and functional (as in skill sets, like engineering, design, copywriting, and marketing).
@@ -207,7 +207,7 @@
   raw_title: "Lockdown: The Mother of Invention (Amy Wall)"
   speakers:
     - Amy Wall
-  event_name: Euruko 2021
+  event_name: EuRuKo 2021
   published_at: "2021-06-03"
   description: |-
     The last year has been hard on all of us. Cutting through the bad news and the mundanity has required resilience, creativity, and determination. Thankfully, we have had a secret weapon on our side to keep us occupied: Ruby.
