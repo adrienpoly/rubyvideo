@@ -1,4 +1,3 @@
-# ---
 - id: PLE7tQUdRKcyYajZ5aZlJf1g2u5Boq-jic
   title: RubyConf 2014
   description: ''
@@ -8,6 +7,36 @@
   videos_count: 66
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2014
+
+- id: PLE7tQUdRKcyYqT3LHMg4iH270kfyENCpp
+  title: RubyConf 2015
+  description: ''
+  published_at: '2015-11-20'
+  channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+  year: '2015'
+  videos_count: 67
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyconf-2015
+
+- id: PLE7tQUdRKcyaMUYwB6tTX5p2Z6fOCdGRE
+  title: RubyConf 2016
+  description: ''
+  published_at: '2016-11-17'
+  channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+  year: '2016'
+  videos_count: 66
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyconf-2016
+
+- id: PLE7tQUdRKcyayGHjjxZOmVEGsxX-rczZt
+  title: RubyConf 2017
+  description: ''
+  published_at: '2017-11-28'
+  channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+  year: '2017'
+  videos_count: 68
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyconf-2017
 
 - id: PLE7tQUdRKcyZDE8nFrKaqkpd-XK4huygU
   title: RubyConf 2019
