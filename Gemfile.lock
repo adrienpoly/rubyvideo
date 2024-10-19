@@ -217,8 +217,8 @@ GEM
     google-protobuf (4.28.0-x86_64-linux)
       bigdecimal
       rake (>= 13)
-    groupdate (6.4.0)
-      activesupport (>= 6.1)
+    groupdate (6.5.1)
+      activesupport (>= 7)
     hashdiff (1.1.1)
     hashie (5.0.0)
     httparty (0.22.0)
@@ -566,7 +566,7 @@ DEPENDENCIES
   error_highlight (>= 0.4.0)
   frozen_record (~> 0.27.2)
   google-protobuf
-  groupdate (~> 6.2)
+  groupdate
   inline_svg (~> 1.9)
   iso-639
   jbuilder
