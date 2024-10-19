@@ -50,6 +50,7 @@ class Talk < ApplicationRecord
 
   has_many :watch_list_talks, dependent: :destroy
   has_many :watch_lists, through: :watch_list_talks
+  has_one :talk_fts, foreign_key: "rowid"
 
   # validations
   validates :title, presence: true
@@ -63,8 +64,12 @@ class Talk < ApplicationRecord
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
+  # callbacks
+  after_commit :update_fts_record_later
+
   # jobs
   performs :update_from_yml_metadata!, queue_as: :low
+  performs :update_fts_record, queue_as: :low
 
   # normalization
   normalizes :language, apply_to_nil: true, with: ->(language) do
@@ -243,5 +248,22 @@ class Talk < ApplicationRecord
       by #{speakers.map(&:name).to_sentence}
       at #{event.name}
     HEREDOC
+  end
+
+  def update_fts_record
+    TalkFts.update_or_create(self)
+  end
+
+  def self.full_text_search(query)
+    # Using a custom ranking function to give more weight to title and speaker_names
+    rank = "bm25(talk_fts, 10.0, 10.0, 1.0)"
+
+    # Prepare the query with wildcards for partial matching
+    wildcard_query = query.split.map { |term| "#{term}*" }.join(" ")
+
+    joins(:talk_fts)
+      .where("talk_fts MATCH ?", wildcard_query)
+      .order(Arel.sql("#{rank} ASC"))
+      .distinct
   end
 end

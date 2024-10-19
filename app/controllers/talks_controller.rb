@@ -7,14 +7,12 @@ class TalksController < ApplicationController
   # GET /talks
   def index
     if params[:q].present?
-
       talks = Talk.with_essential_card_data.pagy_search(params[:q])
       @pagy, @talks = pagy_meilisearch(talks, limit: 20, page: params[:page]&.to_i || 1)
     elsif params[:query].present?
-      talks = Talk.with_essential_card_data.where("lower(title) LIKE ?", "%#{params[:query].downcase}%").order(date: :desc)
-      @pagy, @talks = pagy(talks, limit: 20, page: params[:page]&.to_i || 1)
+      @pagy, @talks = pagy(Talk.with_essential_card_data.full_text_search(params[:query]), items: 20, page: params[:page]&.to_i || 1)
     else
-      @pagy, @talks = pagy(Talk.all.with_essential_card_data.order(date: :desc), limit: 20, page: params[:page]&.to_i || 1)
+      @pagy, @talks = pagy(Talk.all.with_essential_card_data.order(date: :desc), items: 20)
     end
   end
 
