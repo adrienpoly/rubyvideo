@@ -59,7 +59,7 @@ MeiliSearch::Rails.deactivate! do
 end
 
 # reindex all talk in MeiliSearch
-Talk.reindex! unless Rails.env.test?
+Talk.reindex! unless Rails.env.test? || Rails.env.production?
 
 topics = [
   "A/B Testing",
