@@ -1,3 +1,4 @@
+---
 - id: PLE7tQUdRKcyYajZ5aZlJf1g2u5Boq-jic
   title: RubyConf 2014
   description: ''
@@ -37,6 +38,16 @@
   videos_count: 68
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2017
+
+- id: PLE7tQUdRKcyZEjH3kIyvIN0eZ4tuVEkBD
+  title: RubyConf 2018
+  description: RubyConf has been the main annual gathering of Rubyists from around the world since 2001.
+  published_at: '2018-11-13'
+  channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+  year: '2018'
+  videos_count: 70
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyconf-2018
 
 - id: PLE7tQUdRKcyZDE8nFrKaqkpd-XK4huygU
   title: RubyConf 2019
