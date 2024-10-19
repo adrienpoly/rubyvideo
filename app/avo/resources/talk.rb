@@ -66,6 +66,7 @@ class Avo::Resources::Talk < Avo::BaseResource
     action Avo::Actions::Summarize
     action Avo::Actions::ExtractTopics
     action Avo::Actions::UpdateFromYml
+    action Avo::Actions::TalkIndex
   end
 
   def filters
