@@ -4,13 +4,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.3.5"
 
 # Use main development branch of Rails
-gem "rails", "~> 7.2.0"
+gem "rails", "~> 8.0.0.rc1"
 
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", ">= 2.1.0.rc2"
+gem "sqlite3", ">= 2.1.0"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma"
