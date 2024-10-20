@@ -262,8 +262,11 @@ class Talk < ApplicationRecord
     wildcard_query = query.split.map { |term| "#{term}*" }.join(" ")
 
     joins(:talk_fts)
-      .where("talk_fts MATCH ?", wildcard_query)
+      .where("talk_fts MATCH ?", "\"#{wildcard_query}\"")
       .order(Arel.sql("#{rank} ASC"))
       .distinct
+  rescue SQLite3::SQLException => e
+    Rails.logger.error "Search error: #{e.message}"
+    none # Return an empty relation if there's an error
   end
 end
