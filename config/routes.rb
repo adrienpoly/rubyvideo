@@ -46,7 +46,11 @@ Rails.application.routes.draw do
     end
   end
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
-  resources :events, param: :slug, only: [:index, :show, :update, :edit]
+  resources :events, param: :slug, only: [:index, :show, :update, :edit] do
+    member do
+      get "/schedule" => "events/schedule#show"
+    end
+  end
   namespace :speakers do
     resources :enhance, only: [:update], param: :slug
   end

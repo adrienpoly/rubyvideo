@@ -1,0 +1,54 @@
+<% days = event.schedule_file.dig("days") %>
+<% talk_count = 0 %>
+
+<div role="tablist" class="tabs tabs-lifted w-full">
+  <% days.each_with_index do |day, index| %>
+    <input type="radio" name="days" role="tab" class="tab" aria-label="<%= day.dig("name") %>" <% if index == 0 %>checked="checked"<% end %> />
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <h1 class="m-2"><%= day.dig("name") %> (<%= day.dig("date") %>)</h1>
+
+      <% max_cols = day.dig("grid").map { |grid| grid["slots"] }.max %>
+
+      <table class="border border-black text-center">
+        <tr>
+          <th>Time</th>
+          <% max_cols.times do |i| %>
+            <th>Track <%= i + 1 %></th>
+          <% end %>
+        </tr>
+
+        <% day.dig("grid").each do |grid| %>
+          <% start_time = grid["start_time"] %>
+          <% slots = grid["slots"] %>
+          <% items = grid["items"] || [] %>
+
+          <% colspan = (slots != max_cols) ? (max_cols / slots) : 1 %>
+
+          <tr>
+            <td><%= start_time %></td>
+
+            <% slots.times do |i| %>
+              <td class="bg-white text-black hover:bg-black border border-black" colspan="<%= colspan %>">
+                <% if items.any? %>
+                  <%= items[0] %>
+                <% else %>
+                  <% talk = event.talks[talk_count] %>
+
+                  <% if talk %>
+                    <%= link_to talk do %>
+                      <%= talk.title %>
+                    <% end %>
+                  <% else %>
+                    No talk found
+                  <% end %>
+
+                  <% talk_count += 1 %>
+                <% end %>
+              </td>
+            <% end %>
+          </tr>
+        <% end %>
+      </table>
+    </div>
+  <% end %>
+</div>

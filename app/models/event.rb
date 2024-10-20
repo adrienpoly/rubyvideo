@@ -54,6 +54,22 @@ class Event < ApplicationRecord
     Current.user&.admin?
   end
 
+  def data_folder
+    Rails.root.join("data", organisation.slug, slug)
+  end
+
+  def schedule_file?
+    schedule_file_path.exist?
+  end
+
+  def schedule_file_path
+    data_folder.join("schedule.yml")
+  end
+
+  def schedule_file
+    YAML.load_file(schedule_file_path)
+  end
+
   def suggestion_summary
     <<~HEREDOC
       Event: #{name}
