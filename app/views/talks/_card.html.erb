@@ -7,7 +7,7 @@
     <% if language && language.english_name != "English" %>
       <div class="absolute top-0 left-0 z-10 m-3 p-1 px-2 bg-black/15 backdrop-blur-md rounded-full group">
         <span><%= language_to_emoji(language.english_name) %></span>
-        <span class="group-hover:inline-block hidden transition-opacity duration-300 text-white text-sm ml-1"><%= language.english_name %></span>
+        <span class="group-hover:inline-block hidden text-white text-sm ml-1"><%= language.english_name %></span>
       </div>
     <% end %>
 
