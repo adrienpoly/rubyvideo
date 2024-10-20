@@ -9,6 +9,11 @@
       <strong>Twitter:</strong> <%= link_to speaker.twitter, "https://www.twitter.com/#{speaker.twitter}", target: "_blank" %>
     </span>
   <% end %>
+  <% if speaker.speakerdeck.present? %>
+    <span>
+      <strong>Speakerdeck:</strong> <%= link_to speaker.speakerdeck, "https://speakerdeck.com/#{speaker.speakerdeck}", target: "_blank" %>
+    </span>
+  <% end %>
   <% if speaker.website.present? %>
     <span>
       <strong>Website:</strong> <%= link_to speaker.website, speaker.valid_website_url, target: "_blank" %>
