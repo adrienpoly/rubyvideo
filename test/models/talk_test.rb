@@ -151,4 +151,11 @@ class TalkTest < ActiveSupport::TestCase
     assert_equal "en", talk.language
     assert talk.valid?
   end
+
+  test "full text search" do
+    @talk = talks(:one)
+    assert_equal [@talk], Talk.full_text_search("Hotwire Cookbook")
+    assert_equal [@talk], Talk.full_text_search("Hotwire Cookbook: Common Uses, Essential Patterns")
+    assert_equal [@talk], Talk.full_text_search('Hotwire"') # with an escaped quote
+  end
 end
