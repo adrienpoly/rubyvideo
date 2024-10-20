@@ -96,7 +96,7 @@ end
 gem "pagy"
 gem "dockerfile-rails", ">= 1.2", group: :development
 
-gem "activerecord-enhancedsqlite3-adapter"
+# gem "activerecord-enhancedsqlite3-adapter"
 gem "litestream", "~> 0.10.1"
 gem "solid_cache"
 gem "solid_queue"

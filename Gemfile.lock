@@ -58,9 +58,6 @@ GEM
       activemodel (= 8.0.0.rc1)
       activesupport (= 8.0.0.rc1)
       timeout (>= 0.4.0)
-    activerecord-enhancedsqlite3-adapter (0.8.0)
-      activerecord (>= 7.1)
-      sqlite3 (>= 1.6)
     activestorage (8.0.0.rc1)
       actionpack (= 8.0.0.rc1)
       activejob (= 8.0.0.rc1)
@@ -573,7 +570,6 @@ PLATFORMS
 
 DEPENDENCIES
   active_job-performs (~> 0.3.1)
-  activerecord-enhancedsqlite3-adapter
   ahoy_matey
   annotate
   appsignal (~> 3.4)
