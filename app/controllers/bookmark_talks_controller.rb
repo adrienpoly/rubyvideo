@@ -1,4 +1,4 @@
-class WatchListTalksController < ApplicationController
+class BookmarkTalksController < ApplicationController
   before_action :authenticate_user!
   before_action :set_watch_list
 
@@ -17,6 +17,6 @@ class WatchListTalksController < ApplicationController
   private
 
   def set_watch_list
-    @watch_list = Current.user.watch_lists.find(params[:watch_list_id])
+    @watch_list = Current.user.default_watch_list
   end
 end

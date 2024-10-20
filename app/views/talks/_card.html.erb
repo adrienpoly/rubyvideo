@@ -1,6 +1,5 @@
 
-<%# locals: (talk:, user_favorite_talks_ids: [], favoritable: false, back_to: nil, back_to_title: nil) -%>
-
+<%# locals: (talk:, user_favorite_talks_ids: [], bookmarkable: false, back_to: nil, back_to_title: nil) -%>
 <div class="card card-compact bg-white shadow-xl w-full" id="<%= dom_id talk %>" style="<%= "view-transition-name: #{dom_id(talk, :talk_card)}" %>">
   <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden" do %>
       <%= image_tag talk.thumbnail_sm,
@@ -21,7 +20,7 @@
       </div>
       <div class="flex gap-2 items-end justify-between w-full">
         <div class="flex flex-col text-sm w-full flex-grow">
-          <div class="flex items-center gap-2 font-light">
+          <div class="flex items-start gap-2 font-light">
             <% speakers_count = talk.speakers.size %>
             <% if speakers_count > 1 %>
               <%= heroicon :users, size: :sm, class: "shrink-0 grow-0 my-1" %>
@@ -41,25 +40,11 @@
             </div>
           <% end %>
         </div>
-        <% if favoritable %>
-          <div class="self-end">
-            <% if default_watch_list %>
-              <% if user_favorite_talks_ids.include?(talk.id) %>
-                <%= button_to watch_list_talk_path(default_watch_list, talk.id), method: :delete do %>
-                  <%= heroicon :bookmark, class: "text-primary shrink-0 cursor-pointer mt-1", variant: :solid, size: :sm %>
-                <% end %>
-              <% else %>
-                <%= button_to watch_list_talks_path(default_watch_list, talk_id: talk.id), method: :post do %>
-                  <%= heroicon :bookmark, class: "shrink-0 cursor-pointer mt-1", variant: :outline, size: :sm %>
-                <% end %>
-              <% end %>
-            <% else %>
-              <%= link_to sign_in_path(redirect_to: request.fullpath), data: {turbo_frame: "modal"} do %>
-                <%= heroicon :bookmark, class: "shrink-0 cursor-pointer mt-1", variant: :outline, size: :sm %>
-              <% end %>
-            <% end %>
-          </div>
-        <% end %>
+        <div class="self-end">
+          <%= render "talks/bookmark", talk: talk,
+                bookmarkable: bookmarkable,
+                bookmarked: bookmarkable && user_favorite_talks_ids.include?(talk.id) %>
+        </div>
       </div>
     </div>
   </div>

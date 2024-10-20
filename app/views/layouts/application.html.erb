@@ -21,7 +21,7 @@
     <%= yield :head %>
   </head>
 
-  <body>
+  <body class="<%= class_names("signed-in": signed_in?) %>">
     <%= render "shared/navbar" %>
     <%= render "shared/flashes" %>
 

@@ -109,7 +109,7 @@ class Talk < ApplicationRecord
   scope :with_topics, -> { joins(:talk_topics) }
 
   scope :with_essential_card_data, -> do
-    select(:id, :slug, :title, :date, :thumbnail_sm, :thumbnail_lg, :video_id, :event_id)
+    select(:id, :slug, :title, :date, :thumbnail_sm, :thumbnail_lg, :video_id, :event_id, :updated_at)
       .includes(:speakers, :event)
   end
 
