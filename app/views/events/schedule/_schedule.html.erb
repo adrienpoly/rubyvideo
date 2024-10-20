@@ -17,47 +17,42 @@
 
       <% max_cols = day.dig("grid").map { |grid| grid["slots"] }.max %>
 
-      <table class="border border-black text-center">
-        <tr>
-          <th class="border border-black bg-white">Time</th>
-          <% max_cols.times do |i| %>
-            <th class="border border-black bg-white">Track <%= i + 1 %></th>
-          <% end %>
-        </tr>
-
+      <div class="border text-center">
         <% day.dig("grid").each do |grid| %>
           <% start_time = grid["start_time"] %>
+          <% end_time = grid["end_time"] %>
           <% slots = grid["slots"] %>
           <% items = grid["items"] || [] %>
 
           <% colspan = (slots != max_cols) ? (max_cols / slots) : 1 %>
 
-          <tr>
-            <td class="border border-black bg-white"><%= start_time %></td>
+          <div class="mt-6">
+            <div class="border bg-white text-xs p-2" colspan="<%= max_cols %>"><%= start_time %> - <%= end_time %></div>
+          </div>
 
+          <div class="grid grid-cols-<%= max_cols %> divide-x">
             <% slots.times do |i| %>
-              <td class="bg-white text-black hover:bg-primary hover:text-white border border-black text-xs p-3 group" colspan="<%= colspan %>">
-                <% if items.any? %>
-                  <%= items[i] %>
-                <% else %>
-                  <% talk = event.talks[talk_count] %>
+              <% talk_tag = items.any? ? :div : :a %>
+              <% talk = event.talks[talk_count] %>
 
-                  <% if talk %>
-                    <%= link_to talk do %>
-                      <%= talk.title %><br/>
-                      <span class="text-gray-500 group-hover:text-white"><%= talk.speakers.map(&:name).join(", ") %></span>
-                    <% end %>
-                  <% else %>
-                    No talk found
-                  <% end %>
+              <%= content_tag talk_tag, href: (talk ? talk_path(talk) : "#"), class: "group bg-white text-black hover:bg-primary hover:text-white text-xs p-3 col-span-#{colspan}" do %>
+                <% if items.any? %>
+                  <span class="p-24"><%= items[i] %></span>
+                <% elsif talk %>
+                  <div class="flex-col">
+                    <div class="text-md font-bold"><%= talk.title %></div><br/>
+                    <div class="text-gray-500 group-hover:text-white"><%= talk.speakers.map(&:name).join(", ") %></div>
+                  </div>
 
                   <% talk_count += 1 %>
+                <% else %>
+                  No talk found
                 <% end %>
-              </td>
+              <% end %>
             <% end %>
-          </tr>
+          </div>
         <% end %>
-      </table>
+      </div>
     </div>
   <% end %>
 </div>
