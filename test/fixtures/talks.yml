@@ -20,10 +20,12 @@
 #  date                :date
 #  like_count          :integer
 #  view_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x00000001645d16b8 @cues=[]>), not null
-#  enhanced_transcript :text             default(#<Transcript:0x00000001645d15c8 @cues=[]>), not null
+#  raw_transcript      :text             default(#<Transcript:0x000000012406f0e8 @cues=[]>), not null
+#  enhanced_transcript :text             default(#<Transcript:0x000000012406eff8 @cues=[]>), not null
 #  summary             :text             default(""), not null
 #  language            :string           default("en"), not null
+#  slides_url          :string
+#  embedded            :boolean          default(FALSE)
 #
 # rubocop:enable Layout/LineLength
 

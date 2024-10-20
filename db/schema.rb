@@ -11,6 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[8.0].define(version: 2024_10_19_135118) do
+
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -192,6 +193,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_19_135118) do
     t.text "summary", default: "", null: false
     t.string "language", default: "en", null: false
     t.string "slides_url"
+    t.boolean "embedded", default: false
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["slug"], name: "index_talks_on_slug"
