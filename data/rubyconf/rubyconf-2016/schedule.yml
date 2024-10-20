@@ -111,6 +111,8 @@ days:
       - start_time: "12:05"
         end_time: "13:15"
         slots: 1
+        items:
+          - Lunch
 
       - start_time: "13:15"
         end_time: "14:00"
