@@ -103,7 +103,7 @@ module LanguageHelper
     "welsh" => "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "xhosa" => "🇿🇦",
     "yoruba" => "🇳🇬",
-    "zulu" => "🇿🇦",
+    "zulu" => "🇿🇦"
   }.freeze
 
   def language_to_emoji(language)
