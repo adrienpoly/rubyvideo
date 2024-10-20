@@ -1,19 +1,27 @@
 <% days = event.schedule_file.dig("days") %>
 <% talk_count = 0 %>
 
+<style>
+  .tab:is(input[type="radio"]):after {
+    width: 200px;
+  }
+</style>
+
 <div role="tablist" class="tabs tabs-lifted w-full">
   <% days.each_with_index do |day, index| %>
-    <input type="radio" name="days" role="tab" class="tab" aria-label="<%= day.dig("name") %>" <% if index == 0 %>checked="checked"<% end %> />
+    <% date_string = Date.parse(day.dig("date")).strftime("%A (%b %d, %Y)") %>
+
+    <input type="radio" name="days" role="tab" class="tab" aria-label="<%= date_string %>" <% if index == 0 %>checked="checked"<% end %> />
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
-      <h1 class="m-2"><%= day.dig("name") %> (<%= day.dig("date") %>)</h1>
+      <h1 class="mb-6"><%= day.dig("name") %> - <%= date_string %></h1>
 
       <% max_cols = day.dig("grid").map { |grid| grid["slots"] }.max %>
 
       <table class="border border-black text-center">
         <tr>
-          <th>Time</th>
+          <th class="border border-black bg-white">Time</th>
           <% max_cols.times do |i| %>
-            <th>Track <%= i + 1 %></th>
+            <th class="border border-black bg-white">Track <%= i + 1 %></th>
           <% end %>
         </tr>
 
@@ -25,18 +33,19 @@
           <% colspan = (slots != max_cols) ? (max_cols / slots) : 1 %>
 
           <tr>
-            <td><%= start_time %></td>
+            <td class="border border-black bg-white"><%= start_time %></td>
 
             <% slots.times do |i| %>
-              <td class="bg-white text-black hover:bg-black border border-black" colspan="<%= colspan %>">
+              <td class="bg-white text-black hover:bg-primary hover:text-white border border-black text-xs p-3 group" colspan="<%= colspan %>">
                 <% if items.any? %>
-                  <%= items[0] %>
+                  <%= items[i] %>
                 <% else %>
                   <% talk = event.talks[talk_count] %>
 
                   <% if talk %>
                     <%= link_to talk do %>
-                      <%= talk.title %>
+                      <%= talk.title %><br/>
+                      <span class="text-gray-500 group-hover:text-white"><%= talk.speakers.map(&:name).join(", ") %></span>
                     <% end %>
                   <% else %>
                     No talk found
