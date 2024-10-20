@@ -18,3 +18,13 @@
   videos_count: 29
   metadata_parser: Youtube::VideoMetadata
   slug: rubyunconf-2019
+
+- id: PLvpu5WTDxTKVWSm0O7wsAyxRDF_gBsBrP
+  title: Ruby Unconf 2024
+  description: Ruby Unconf 2024 in Hamburg, Germany. June 8th & June 9th 2024
+  published_at: '2024-06-08'
+  channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
+  year: '2024'
+  videos_count: 7
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyunconf-2024
