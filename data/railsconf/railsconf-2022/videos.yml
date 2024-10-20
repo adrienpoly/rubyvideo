@@ -12,6 +12,7 @@
   published_at: "2022-05-17"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
+  slides_url: https://speakerdeck.com/tenderlove/railsconf-2022-keynote
   description: "Keynote: RailsConf 2022 - It's been a minute! by Aaron Patterson"
   video_id: qqTFm2ZtRHg
 
@@ -562,6 +563,7 @@
   published_at: "2022-05-17"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
+  slides_url: https://speakerdeck.com/dodecadaniel/railsconf-2022-reflecting-on-active-record-associations
   description:
     Active Record associations seem magical—add a has_many here, a belongs_to
     there, and suddenly your models are loaded with behavior. Could it be magic, or
@@ -664,6 +666,7 @@
   published_at: "2022-05-17"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
+  slides_url: https://speakerdeck.com/doodlingdev/your-tdd-treasure-map
   description:
     We know testing is vital and makes refactoring painless. But how to
     set sail to that TDD treasure? Yarr, we need to test to get experience, but need
@@ -685,6 +688,7 @@
   published_at: "2022-05-17"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
+  slides_url: https://speakerdeck.com/joelq/your-test-suite-is-making-too-many-database-calls
   description: |-
     On a recent project, I sped up a test suite 15% by making a change to a single factory. This suite, like many others (including yours!), was making way too many database calls. It’s so easy to accidentally add extra queries to factories and test setup and these can compound to shockingly large numbers.
 
@@ -1042,7 +1046,7 @@
   description: Shopify
   video_id: yfEJxRtIOEw
 
-- title: "Keynote: The Success of Ruby on Rails"
+- title: "Keynote: The Success of Ruby on Rails - Ensuring Growth for the Next 100 Years"
   raw_title: "RailsConf 2022 - Keynote: The Success of Ruby on Rails by Eileen Uchitelle"
   speakers:
     - Eileen M. Uchitelle
@@ -1055,6 +1059,7 @@
   published_at: "2022-05-17"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
+  slides_url: https://speakerdeck.com/eileencodes/the-success-of-rails-ensuring-growth-for-the-next-100-years
   description: "Keynote: The Success of Ruby on Rails by Eileen M. Uchitelle"
   video_id: p17xn05zc9c
 

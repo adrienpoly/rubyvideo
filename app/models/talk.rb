@@ -110,6 +110,11 @@ class Talk < ApplicationRecord
   scope :without_topics, -> { where.missing(:talk_topics) }
   scope :with_topics, -> { joins(:talk_topics) }
 
+  scope :with_essential_card_data, -> do
+    select(:id, :slug, :title, :date, :thumbnail_sm, :thumbnail_lg, :video_id, :event_id)
+      .includes(:speakers, :event)
+  end
+
   def managed_by?(visiting_user)
     return false unless visiting_user.present?
     return true if visiting_user.admin?

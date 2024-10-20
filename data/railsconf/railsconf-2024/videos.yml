@@ -194,6 +194,7 @@
     - Kasper Timm Hansen
   event_name: RailsConf 2024
   published_at: "2024-05-24"
+  slides_url: https://speakerdeck.com/kaspth/railsconf-2024-riffing-on-rails-sketch-your-way-to-better-designed-code
   description: |-
     Say you've been tasked with building a feature or subsystem in a Rails app. How do you get started? How do you plan out your objects? How do you figure out the names, responsibilities, and relationships? While some reach for pen & paper and others dive straight into implementation, there's a third option: Riffing on Rails.
 
@@ -208,6 +209,7 @@
     - Garrett Dimon
   event_name: RailsConf 2024
   published_at: "2024-05-24"
+  slides_url: https://speakerdeck.com/garrettdimon/save-time-by-creating-custom-rails-generators
   description:
     Become skilled at quickly creating well-tested custom generators and
     turn those tedious and repetitive ten-minute distractions into ten-second commands—not
@@ -349,6 +351,7 @@
     - Marco Roth
   event_name: RailsConf 2024
   published_at: "2024-05-24"
+  slides_url: https://speakerdeck.com/marcoroth/revisiting-the-hotwire-landscape-after-turbo-8
   description: |-
     Hotwire has significantly altered the landscape of building interactive web applications with Ruby on Rails, marking a pivotal evolution toward seamless Full-Stack development.
 
@@ -379,6 +382,7 @@
     - Daniel Colson
   event_name: RailsConf 2024
   published_at: "2024-05-24"
+  slides_url: https://speakerdeck.com/dodecadaniel/the-very-hungry-transaction
   description: |-
     The story begins with a little database transaction. As the days go by, more and more business requirements cause the transaction to grow in size. We soon discover that it isn't a little transaction anymore, and it now poses a serious risk to our application and business. What went wrong, and how can we fix it?
 
@@ -391,6 +395,7 @@
     - John Pollard
   event_name: RailsConf 2024
   published_at: "2024-05-24"
+  slides_url: https://www.slideshare.net/slideshow/johnpollard-hybrid-app-railsconf2024-pptx/268167413
   description: |-
     Insights Gained from Developing a Hybrid Application Using Turbo-Native and Strada by John Pollard
 
@@ -431,6 +436,7 @@
     - Joël Quenneville
   event_name: RailsConf 2024
   published_at: "2024-05-24"
+  slides_url: https://speakerdeck.com/joelq/dungeons-and-dragons-and-rails
   description:
     You’ve found your way through the dungeon, charmed your way past that
     goblin checkpoint, and even slain a dragon. Now you face your biggest challenge

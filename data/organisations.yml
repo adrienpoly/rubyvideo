@@ -289,3 +289,51 @@
   slug: rubyconf-taiwan
   language: english
   youtube_channel_id: UCqw_z59yI24SivuD573FECA
+
+- name: Gotham Ruby Conference
+  website: http://goruco.com
+  twitter: goruco
+  kind: conference
+  frequency: yearly
+  playlist_matcher: GORUCO
+  default_country_code: US
+  youtube_channel_name: Confreaks
+  slug: goruco
+  language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
+- name: Golden Gate Ruby Conference
+  website: https://gogaruco.com
+  twitter: gogaruco
+  kind: conference
+  frequency: yearly
+  playlist_matcher: GoGaRuCo
+  default_country_code: US
+  youtube_channel_name: Confreaks
+  slug: gogaruco
+  language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
+- name: Keep Ruby Weird
+  website: https://keeprubyweird.com
+  twitter: keeprubyweird
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Keep Ruby Weird
+  default_country_code: US
+  youtube_channel_name: Confreaks
+  slug: keeprubyweird
+  language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
+- name: Los Angeles RubyConf
+  website: https://web.archive.org/web/20180626035953/https://www.larubyconf.com/
+  twitter: larubyconf
+  kind: conference
+  frequency: yearly
+  playlist_matcher: LA RubyConf
+  default_country_code: US
+  youtube_channel_name: Confreaks
+  slug: la-rubyconf
+  language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ

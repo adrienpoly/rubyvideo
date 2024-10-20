@@ -10,7 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_10_17_230019) do
+ActiveRecord::Schema[8.0].define(version: 2024_10_19_135118) do
+
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -263,4 +264,8 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_17_230019) do
   add_foreign_key "topics", "topics", column: "canonical_id"
   add_foreign_key "watch_list_talks", "talks"
   add_foreign_key "watch_list_talks", "watch_lists"
+
+  # Virtual tables defined in this database.
+  # Note that virtual tables may not work with other database engines. Be careful if changing database.
+  create_virtual_table "talk_fts", "fts5", ["title", "speaker_names", "summary"]
 end

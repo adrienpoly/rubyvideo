@@ -4,13 +4,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.3.5"
 
 # Use main development branch of Rails
-gem "rails", "~> 7.2.0"
+gem "rails", "~> 8.0.0.rc1"
 
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", ">= 2.1.0.rc2"
+gem "sqlite3", ">= 2.1.0"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma"
@@ -44,6 +44,12 @@ gem "tzinfo-data", platforms: %i[windows jruby]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+
+# Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
+gem "kamal", "~> 1.9.0", require: false
+
+# Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
+gem "thruster", require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -99,10 +105,10 @@ gem "mission_control-jobs"
 gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
 gem "meilisearch-rails"
-gem "ahoy_matey", "~> 4.2"
+gem "ahoy_matey"
 gem "vite_rails"
 gem "meta-tags", "~> 2.18"
-gem "groupdate", "~> 6.2"
+gem "groupdate"
 gem "appsignal", "~> 3.4"
 gem "chartkick", "~> 5.0"
 gem "dotenv-rails"
