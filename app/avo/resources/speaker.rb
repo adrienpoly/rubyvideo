@@ -28,11 +28,11 @@ class Avo::Resources::Speaker < Avo::BaseResource
   def filters
     filter Avo::Filters::Name
     filter Avo::Filters::Slug
-    filter Avo::Filters::Github
+    filter Avo::Filters::GitHub
   end
 
   def actions
-    action Avo::Actions::SpeakerGithub
+    action Avo::Actions::SpeakerGitHub
     action Avo::Actions::AssignCanonicalSpeaker
   end
 end
