@@ -1,15 +1,23 @@
-# syntax = docker/dockerfile:1
+# syntax=docker/dockerfile:1
+# check=error=true
 
-# Make sure RUBY_VERSION matches the Ruby version in .ruby-version and Gemfile
+# This Dockerfile is designed for production, not development. Use with Kamal or build'n'run by hand:
+# docker build -t rails_8_es_tw .
+# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name rails_8_es_tw rails_8_es_tw
+
+# For a containerized dev environment, see Dev Containers: https://guides.rubyonrails.org/getting_started_with_devcontainer.html
+
+# Make sure RUBY_VERSION matches the Ruby version in .ruby-version
 ARG RUBY_VERSION=3.3.5
-FROM registry.docker.com/library/ruby:$RUBY_VERSION-slim AS base
+FROM docker.io/library/ruby:$RUBY_VERSION-slim AS base
 
 # Rails app lives here
 WORKDIR /rails
 
 # Install base packages
 RUN apt-get update -qq && \
-    apt-get install --no-install-recommends -y curl libjemalloc2 libsqlite3-0 libvips
+    apt-get install --no-install-recommends -y curl libjemalloc2 libvips sqlite3 && \
+    rm -rf /var/lib/apt/lists /var/cache/apt/archives
 
 # Set production environment
 ENV RAILS_ENV="production" \
@@ -21,11 +29,13 @@ ENV RAILS_ENV="production" \
 FROM base AS build
 
 # Install packages needed to build gems and node modules
-RUN apt-get install --no-install-recommends -y build-essential git node-gyp pkg-config python-is-python3
+RUN apt-get update -qq && \
+    apt-get install --no-install-recommends -y build-essential git node-gyp pkg-config python-is-python3 && \
+    rm -rf /var/lib/apt/lists /var/cache/apt/archives
 
 # Install JavaScript dependencies
-ARG NODE_VERSION=20.11.0
-ARG YARN_VERSION=1.22.19
+ARG NODE_VERSION=22.1.0
+ARG YARN_VERSION=1.22.22
 ENV PATH=/usr/local/node/bin:$PATH
 RUN curl -sL https://github.com/nodenv/node-build/archive/master.tar.gz | tar xz -C /tmp/ && \
     /tmp/node-build-master/bin/node-build "${NODE_VERSION}" /usr/local/node && \
@@ -58,21 +68,20 @@ RUN rm -rf node_modules
 # Final stage for app image
 FROM base
 
-# Clean up installation packages to reduce image size
-RUN rm -rf /var/lib/apt/lists /var/cache/apt/archives
-
 # Copy built artifacts: gems, application
 COPY --from=build "${BUNDLE_PATH}" "${BUNDLE_PATH}"
 COPY --from=build /rails /rails
 
 # Run and own only the runtime files as a non-root user for security
-RUN useradd rails --create-home --shell /bin/bash && \
+RUN groupadd --system --gid 1000 rails && \
+    useradd rails --uid 1000 --gid 1000 --create-home --shell /bin/bash && \
     chown -R rails:rails db log storage tmp
-USER rails:rails
+USER 1000:1000
 
 # Entrypoint prepares the database.
 ENTRYPOINT ["/rails/bin/docker-entrypoint"]
 
-# Start the server by default, this can be overwritten at runtime
+# Start server via Thruster by default, this can be overwritten at runtime
 EXPOSE 3000
 CMD ["./bin/rails", "server"]
+# CMD ["./bin/thrust", "./bin/rails", "server"]
