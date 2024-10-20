@@ -16,6 +16,7 @@ class Avo::Resources::Speaker < Avo::BaseResource
     field :name, as: :text, link_to_record: true, sortable: true
     field :twitter, as: :text
     field :github, as: :text
+    field :speakerdeck, as: :text
     field :bio, as: :textarea, hide_on: :index
     field :website, as: :text, hide_on: :index
     field :slug, as: :text, hide_on: :index
