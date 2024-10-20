@@ -47,6 +47,10 @@ class Speaker < ApplicationRecord
     name
   end
 
+  def canonical_slug
+    canonical&.slug
+  end
+
   def verified?
     user.present?
   end
