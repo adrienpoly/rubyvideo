@@ -18,6 +18,7 @@ class Avo::Resources::Event < Avo::BaseResource
     field :city, as: :text, hide_on: :index
     field :country_code, as: :text
     field :slug, as: :text
+    field :updated_at, as: :date, sortable: true
     # field :suggestions, as: :has_many
     field :organisation, as: :belongs_to
     field :talks, as: :has_many

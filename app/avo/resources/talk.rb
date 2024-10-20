@@ -25,6 +25,8 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :topics, as: :tags, hide_on: [:index, :forms] do
       record.topics.map(&:name)
     end
+    field :updated_at, as: :date, sortable: true
+    field :slides_url, as: :text, hide_on: :index
     field :summary, as: :markdown, hide_on: :index
     field :has_raw_transcript, name: "Raw Transcript", as: :boolean do
       record.raw_transcript.present?
@@ -64,6 +66,7 @@ class Avo::Resources::Talk < Avo::BaseResource
     action Avo::Actions::Summarize
     action Avo::Actions::ExtractTopics
     action Avo::Actions::UpdateFromYml
+    action Avo::Actions::TalkIndex
   end
 
   def filters
