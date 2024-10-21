@@ -152,10 +152,49 @@ class TalkTest < ActiveSupport::TestCase
     assert talk.valid?
   end
 
-  test "full text search" do
+  test "full text search on title" do
     @talk = talks(:one)
-    assert_equal [@talk], Talk.full_text_search("Hotwire Cookbook")
-    assert_equal [@talk], Talk.full_text_search("Hotwire Cookbook: Common Uses, Essential Patterns")
-    assert_equal [@talk], Talk.full_text_search('Hotwire"') # with an escaped quote
+    assert_equal [@talk], Talk.ft_search("Hotwire Cookbook")
+    assert_equal [@talk], Talk.ft_search("Hotwire Cookbook: Common Uses, Essential Patterns")
+    assert_equal [@talk], Talk.ft_search('Hotwire"') # with an escaped quote
+  end
+
+  test "full text search on title with snippets" do
+    @talk = talks(:one)
+    assert_equal [@talk], Talk.ft_search("Hotwire Cookbook").with_snippets
+    first_result = Talk.ft_search("Hotwire Cookbook").with_snippets.first
+    assert_equal "<mark>Hotwire</mark> <mark>Cookbook</mark>: Common Uses, Essential Patterns & Best Practices",
+      first_result.title_snippet
+  end
+
+  test "full text search on summary" do
+    @talk = talks(:one)
+    @talk.update! summary: <<~HEREDOC
+      Do ad cupidatat aliqua magna incididunt Lorem cillum velit voluptate duis dolore magna.
+      Veniam aute labore non excepteur id pariatur ut exercitation labore.
+      Dolor eu amet cupidatat dolore nisi nostrud elit tempor officia.
+      Cupidatat exercitation voluptate esse officia tempor anim tempor adipisicing adipisicing commodo sint.
+      In ea adipisicing dolore esse dolor velit nulla enim mollit est velit laboris laborum.
+      Dolor ea non voluptate et et excepteur laborum tempor.
+    HEREDOC
+
+    assert_equal [@talk], Talk.ft_search("incididunt")
+    assert_equal [@talk], Talk.ft_search("incid*")
+  end
+
+  test "full text search on summary with snippets" do
+    @talk = talks(:one)
+    @talk.update! summary: <<~HEREDOC
+      Do ad cupidatat aliqua magna incididunt Lorem cillum velit voluptate duis dolore magna.
+      Veniam aute labore non excepteur id pariatur ut exercitation labore.
+      Dolor eu amet cupidatat dolore nisi nostrud elit tempor officia.
+      Cupidatat exercitation voluptate esse officia tempor anim tempor adipisicing adipisicing commodo sint.
+      In ea adipisicing dolore esse dolor velit nulla enim mollit est velit laboris laborum.
+      Dolor ea non voluptate et et excepteur laborum tempor.
+    HEREDOC
+
+    assert_equal [@talk], Talk.ft_search("incididunt").with_snippets
+    first_result = Talk.ft_search("incididunt").with_snippets.first
+    assert_match "<mark>incididunt</mark>", first_result.summary_snippet
   end
 end
