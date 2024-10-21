@@ -263,4 +263,8 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_20_174649) do
   add_foreign_key "topics", "topics", column: "canonical_id"
   add_foreign_key "watch_list_talks", "talks"
   add_foreign_key "watch_list_talks", "watch_lists"
+
+  # Virtual tables defined in this database.
+  # Note that virtual tables may not work with other database engines. Be careful if changing database.
+  create_virtual_table "talks_search_index", "fts5", ["title", "summary", "speaker_names", "tokenize = porter"]
 end
