@@ -62,8 +62,8 @@ class SpeakersController < ApplicationController
     {
       anonymous: params.require(:speaker).permit(:github),
       signed_in: params.require(:speaker).permit(:github),
-      owner: params.require(:speaker).permit(:name, :twitter, :bio, :website),
-      admin: params.require(:speaker).permit(:name, :twitter, :github, :bio, :website)
+      owner: params.require(:speaker).permit(:name, :twitter, :bio, :website, :speakerdeck),
+      admin: params.require(:speaker).permit(:name, :twitter, :github, :bio, :website, :speakerdeck)
     } [user_kind]
   end
 

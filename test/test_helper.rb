@@ -13,12 +13,12 @@ VCR.configure do |c|
   c.filter_sensitive_data("<OPENAI_ORGANIZATION_ID>") { ENV["OPENAI_ORGANIZATION_ID"] }
 end
 class ActiveSupport::TestCase
-  setup do
-    @@once ||= begin
-      MeiliSearch::Rails::Utilities.reindex_all_models
-      true
-    end
-  end
+  # setup do
+  #   @@once ||= begin
+  #     # MeiliSearch::Rails::Utilities.reindex_all_models
+  #     true
+  #   end
+  # end
   # Run tests in parallel with specified workers
   parallelize(workers: :number_of_processors)
 
@@ -32,4 +32,4 @@ class ActiveSupport::TestCase
   end
 end
 
-MeiliSearch::Rails::Utilities.clear_all_indexes
+# MeiliSearch::Rails::Utilities.clear_all_indexes

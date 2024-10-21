@@ -34,10 +34,10 @@ class Speaker::EnhanceProfileJob < ApplicationJob
   end
 
   def user_details(username)
-    Github::UserClient.new.profile(username)
+    GitHub::UserClient.new.profile(username)
   end
 
   def search_github_users(q:, per_page: 5, page: 1)
-    Github::UserClient.new.search(q, per_page: per_page, page: page)
+    GitHub::UserClient.new.search(q, per_page: per_page, page: page)
   end
 end

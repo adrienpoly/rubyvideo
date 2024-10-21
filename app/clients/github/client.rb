@@ -1,4 +1,4 @@
-module Github
+module GitHub
   class Client < ApplicationClient
     BASE_URI = "https://api.github.com"
 
