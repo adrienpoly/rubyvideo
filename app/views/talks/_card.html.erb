@@ -1,8 +1,16 @@
-
 <%# locals: (talk:, user_favorite_talks_ids: [], favoritable: false, back_to: nil, back_to_title: nil) -%>
 
+<% language = Language.find(talk.language) %>
+
 <div class="card card-compact bg-white shadow-xl w-full" id="<%= dom_id talk %>" style="<%= "view-transition-name: #{dom_id(talk, :talk_card)}" %>">
-  <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden" do %>
+  <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden relative" do %>
+    <% if language && language.english_name != "English" %>
+      <div class="absolute top-0 left-0 z-10 m-3 p-1 px-2 bg-black/15 backdrop-blur-md rounded-full group">
+        <span><%= language_to_emoji(language.english_name) %></span>
+        <span class="group-hover:inline-block hidden text-white text-sm ml-1"><%= language.english_name %></span>
+      </div>
+    <% end %>
+
       <%= image_tag talk.thumbnail_sm,
             srcset: ["#{talk.thumbnail_lg} 2x"],
             id: dom_id(talk),

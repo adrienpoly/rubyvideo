@@ -80,13 +80,19 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index as JSON" do
+    first = Speaker.first
+    last = Speaker.last
+    first.assign_canonical_speaker!(canonical_speaker: last)
+    first.reload
+
     get speakers_url, as: :json
     assert_response :success
 
     json_response = JSON.parse(response.body)
-    speakers = json_response["speakers"].map { |speaker_data| speaker_data["name"] }
+    speaker_names = json_response["speakers"].map { |speaker_data| speaker_data["name"] }
+    canonical_slugs = json_response["speakers"].map { |speaker_data| speaker_data["canonical_slug"] }
 
-    assert_includes speakers, @speaker_with_talk.name
-    assert_equal 1, speakers.length
+    assert_includes speaker_names, @speaker_with_talk.name
+    assert_includes canonical_slugs, last.slug
   end
 end

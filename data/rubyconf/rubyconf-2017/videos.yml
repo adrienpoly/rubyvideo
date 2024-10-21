@@ -1,11 +1,10 @@
 ---
-
 # TODO: talk dates
 # TODO: talks running order
 # TODO: conference schedule website
 
 - title: Lightning Talks
-  raw_title: 'RubyConf 2017:  Lightning Talks'
+  raw_title: "RubyConf 2017:  Lightning Talks"
   speakers:
     - Michael Hartl
     - Jonathan Slate
@@ -19,7 +18,8 @@
     - Starr Chen
     - Margo Urey
     - Ryan Laughlin
-    - Adam & Julia Cuppy
+    - Adam Cuppy
+    - Julia Cuppy
     - Jim Remsik
     - Amir Rajan
     - Dave Aronson
@@ -28,7 +28,7 @@
     - Heidi Waterhouse
     - Akira Matsuda
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Lightning Talks
 
@@ -55,20 +55,20 @@
   video_id: YMoa5JpjEtM
 
 - title: Keynote - The Impermanence of Software by Andy Croll
-  raw_title: 'RubyConf 2017: Keynote - The Impermanence of Software by Andy Croll'
+  raw_title: "RubyConf 2017: Keynote - The Impermanence of Software by Andy Croll"
   speakers:
     - Andy Croll
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: The Impermanence of Software by Andy Croll
   video_id: l2WgVr1rv3c
 
 - title: Lending Privilege
-  raw_title: 'RubyConf 2017: Lending Privilege by Anjuan Simmons'
+  raw_title: "RubyConf 2017: Lending Privilege by Anjuan Simmons"
   speakers:
     - Anjuan Simmons
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Lending Privilege by Anjuan Simmons
 
@@ -76,32 +76,32 @@
   video_id: zd4PsSk_0iQ
 
 - title: Writing Inclusively about Technology Topics
-  raw_title: 'RubyConf 2017: Writing Inclusively about Technology Topics by Thursday Bram'
+  raw_title: "RubyConf 2017: Writing Inclusively about Technology Topics by Thursday Bram"
   speakers:
     - Thursday Bram
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Writing Inclusively about Technology Topics by Thursday Bram
 
     Whether you're writing documentation, a talk for a technical conference, or a blog post on your work, identity can impact how your audience perceives and uses both written material and code repositories. If you want your work to be accessible to a wide audience, you need to write about it in an inclusive way. This talk will give you hands-on examples and resources to do just that!
   video_id: j1aLtqcTnk0
 
-- title: 'Opening Keynote: Good Change, Bad Change'
-  raw_title: 'RubyConf 2017: Opening Keynote - Good Change, Bad Change by Yukihiro Matsumoto'
+- title: "Opening Keynote: Good Change, Bad Change"
+  raw_title: "RubyConf 2017: Opening Keynote - Good Change, Bad Change by Yukihiro Matsumoto"
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: Opening Keynote - Good Change, Bad Change by Yukihiro Matsumoto
   video_id: 1-A9eRzCBL0
 
-- title: 'What If... ?: Ruby 3'
-  raw_title: 'RubyConf 2017: What If... ?: Ruby 3 by Eric Weinstein'
+- title: "What If... ?: Ruby 3"
+  raw_title: "RubyConf 2017: What If... ?: Ruby 3 by Eric Weinstein"
   speakers:
     - Eric Weinstein
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     What If... ?: Ruby 3 by Eric Weinstein
 
@@ -109,11 +109,11 @@
   video_id: 0i2NgDhXH9Q
 
 - title: 4 Programming Paradigms in 45 Minutes
-  raw_title: 'RubyConf 2017: 4 Programming Paradigms in 45 Minutes by Aja Hammerly'
+  raw_title: "RubyConf 2017: 4 Programming Paradigms in 45 Minutes by Aja Hammerly"
   speakers:
     - Aja Hammerly
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     4 Programming Paradigms in 45 Minutes by Aja Hammerly
 
@@ -123,11 +123,11 @@
   video_id: 3TBq__oKUzk
 
 - title: Compiling Ruby
-  raw_title: 'RubyConf 2017: Compiling Ruby by Kevin Newtown'
+  raw_title: "RubyConf 2017: Compiling Ruby by Kevin Newtown"
   speakers:
     - Kevin Newtown
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Compiling Ruby by Kevin Newtown
 
@@ -135,11 +135,11 @@
   video_id: iWDOXi7Kj2o
 
 - title: How to Build a World-Class Rock Paper Scissors Bot
-  raw_title: 'RubyConf 2017: How to Build a World-Class Rock Paper Scissors Bot by Dorothy Jane Wingrove'
+  raw_title: "RubyConf 2017: How to Build a World-Class Rock Paper Scissors Bot by Dorothy Jane Wingrove"
   speakers:
     - Dorothy Jane Wingrove
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     How to Build a World-Class Rock Paper Scissors Bot by Dorothy Jane Wingrove
 
@@ -149,11 +149,11 @@
   video_id: Vo3qdIBOiko
 
 - title: Git Driven Refactoring
-  raw_title: 'RubyConf 2017: Git Driven Refactoring by Ashley Ellis Pierce'
+  raw_title: "RubyConf 2017: Git Driven Refactoring by Ashley Ellis Pierce"
   speakers:
     - Ashley Ellis Pierce
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Git Driven Refactoring by Ashley Ellis Pierce
 
@@ -161,11 +161,11 @@
   video_id: 3OgbQOsW61Y
 
 - title: Packing your Ruby application into a single executable
-  raw_title: 'RubyConf 2017: Packing your Ruby application into a single executable by  Minqi Pan'
+  raw_title: "RubyConf 2017: Packing your Ruby application into a single executable by  Minqi Pan"
   speakers:
     - Minqi Pan
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Packing your Ruby application into a single executable by  Minqi Pan
 
@@ -173,35 +173,35 @@
   video_id: 1mme7HiLqzA
 
 - title: Just A Ruby Minute
-  raw_title: 'RubyConf 2017: Just A Ruby Minute by Andrew Faraday'
+  raw_title: "RubyConf 2017: Just A Ruby Minute by Andrew Faraday"
   speakers:
     - Andrew Faraday
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Just A Ruby Minute by Andrew Faraday
 
     Renowned game show Just a Minute has delighted audiences across the world for almost half a century, becoming part of the British national consciousness. Speakers are challenged to speak on an unseen (Rubyesque!) topic for one minute without hesitation, repetition, or deviation. It’s fast-paced, funny, insightful, and much harder than it sounds… and you might even learn something!
   video_id: DYc5X-in_oM
 
-- title: 'The Good Bad Bug: Fail Your Way to Better Code'
-  raw_title: 'RubyConf 2017: The Good Bad Bug: Fail Your Way to Better Code by Jessica Rudder'
+- title: "The Good Bad Bug: Fail Your Way to Better Code"
+  raw_title: "RubyConf 2017: The Good Bad Bug: Fail Your Way to Better Code by Jessica Rudder"
   speakers:
     - Jessica Rudder
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     The Good Bad Bug: Fail Your Way to Better Code by Jessica Rudder
 
     Programming history is filled with bugs that turned out to be features and limitations that pushed developers to make even more interesting products. We’ll journey through code that was so ‘bad’ it was actually good. Along the way we'll look at the important role failure plays in learning. Then we’ll tame our inner perfectionists and tackle an approach to writing code that will help us fail spectacularly on our way to coding success.
   video_id: PW3Pj5o70JA
 
-- title: 'Getting Unstuck: Using the Scientific Method for Debugging'
-  raw_title: 'RubyConf 2017:  Getting Unstuck: Using the Scientific Method for Debugging by Caroline Taymor'
+- title: "Getting Unstuck: Using the Scientific Method for Debugging"
+  raw_title: "RubyConf 2017:  Getting Unstuck: Using the Scientific Method for Debugging by Caroline Taymor"
   speakers:
     - Caroline Taymor
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Getting Unstuck: Using the Scientific Method for Debugging by Caroline Taymor
 
@@ -209,11 +209,11 @@
   video_id: spwAyEn2VXs
 
 - title: Deterministic Solutions to Intermittent Failures
-  raw_title: 'RubyConf 2017: Deterministic Solutions to Intermittent Failures by Tim Mertens'
+  raw_title: "RubyConf 2017: Deterministic Solutions to Intermittent Failures by Tim Mertens"
   speakers:
     - Tim Mertens
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Deterministic Solutions to Intermittent Failures by Tim Mertens
 
@@ -224,12 +224,12 @@
     Don’t wait for an emergency to prioritize fixing the ticking time bomb of intermittent test failure.
   video_id: JH9vugpPNyw
 
-- title: 'Leadership starts with Listening: Amplify your Impact'
-  raw_title: 'RubyConf 2017: Leadership starts with Listening: Amplify your Impact by Heidi Helfand'
+- title: "Leadership starts with Listening: Amplify your Impact"
+  raw_title: "RubyConf 2017: Leadership starts with Listening: Amplify your Impact by Heidi Helfand"
   speakers:
     - Heidi Helfand
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Leadership starts with Listening: Amplify your Impact by Heidi Helfand
 
@@ -237,11 +237,11 @@
   video_id: VJxQZixy4b8
 
 - title: High Cost Tests and High Value Tests
-  raw_title: 'RubyConf 2017: High Cost Tests and High Value Tests by Noel Rappin'
+  raw_title: "RubyConf 2017: High Cost Tests and High Value Tests by Noel Rappin"
   speakers:
     - Noel Rappin
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     High Cost Tests and High Value Tests by Noel Rappin
 
@@ -249,11 +249,11 @@
   video_id: IS_9cRP9OZM
 
 - title: Finding Responsibility
-  raw_title: 'RubyConf 2017: Finding Responsibility by Caleb Thompson'
+  raw_title: "RubyConf 2017: Finding Responsibility by Caleb Thompson"
   speakers:
     - Caleb Thompson
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Finding Responsibility by Caleb Thompson
 
@@ -263,12 +263,12 @@
   video_id: UBdBoWAtLNI
 
 - title: There's Nothing . new under the sun
-  raw_title: 'RubyConf 2017: There''s Nothing . new under the sun by Justin Searls and Josh Greenwood'
+  raw_title: "RubyConf 2017: There's Nothing . new under the sun by Justin Searls and Josh Greenwood"
   speakers:
     - Justin Searls
     - Josh Greenwood
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     There's Nothing.new under the sun by Justin Searls and Josh Greenwood
 
@@ -280,11 +280,11 @@
   video_id: tbzPeLaqp10
 
 - title: Saving Ruby from the Apocalypse
-  raw_title: 'RubyConf 2017: Saving Ruby from the Apocalypse by Jason Charnes'
+  raw_title: "RubyConf 2017: Saving Ruby from the Apocalypse by Jason Charnes"
   speakers:
     - Jason Charnes
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Saving Ruby from the Apocalypse by Jason Charnes
 
@@ -294,11 +294,11 @@
   video_id: PiT2XEWae1c
 
 - title: The Unbearable Vulnerability of Open Source
-  raw_title: 'RubyConf 2017: The Unbearable Vulnerability of Open Source by Eileen M Uchitelle'
+  raw_title: "RubyConf 2017: The Unbearable Vulnerability of Open Source by Eileen M Uchitelle"
   speakers:
     - Eileen M Uchitelle
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     The Unbearable Vulnerability of Open Source by Eileen M Uchitelle
 
@@ -306,23 +306,23 @@
   video_id: zOB4e-1cvsU
 
 - title: Augmenting Human Decision Making with Data Science
-  raw_title: 'RubyConf 2017: Augmenting Human Decision Making with Data Science by Kelsey Pedersen'
+  raw_title: "RubyConf 2017: Augmenting Human Decision Making with Data Science by Kelsey Pedersen"
   speakers:
     - Kelsey Pedersen
   event_name: RubyConf 2017
-  published_at: '2017-11-28'
+  published_at: "2017-11-28"
   description: |-
     Augmenting Human Decision Making with Data Science by Kelsey Pedersen
 
     Humans and data science are flawed on their own. Humans lack the ability to process large volumes of information. Machines lack intuition, empathy and nuance. You’ll learn how to guide users of expert-use systems by applying data science to their user experience. Layering data science within our systems allows us to take advantage of the human-touch while leveraging our large data sets. In this talk, you’ll learn the process for sprinkling data science into your applications, the challenges we have faced along the way, and how to measure the business impact.
   video_id: mUcamCBDNcg
 
-- title: 'Prototyping with Paper: How Board Games Become Reality'
-  raw_title: 'RubyConf 2017: Prototyping with Paper: How Board Games Become Reality by Mark Simoneau'
+- title: "Prototyping with Paper: How Board Games Become Reality"
+  raw_title: "RubyConf 2017: Prototyping with Paper: How Board Games Become Reality by Mark Simoneau"
   speakers:
     - Mark Simoneau
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: |-
     Prototyping with Paper: How Board Games Become Reality by Mark Simoneau
 
@@ -330,11 +330,11 @@
   video_id: u68bi1kDwZ8
 
 - title: How I Learned to Stop Worrying and Love Unit Testing
-  raw_title: 'RubyConf 2017: How I Learned to Stop Worrying and Love Unit Testing by Valerie Woolard Srinivasan'
+  raw_title: "RubyConf 2017: How I Learned to Stop Worrying and Love Unit Testing by Valerie Woolard Srinivasan"
   speakers:
     - Valerie Woolard
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: |-
     How I Learned to Stop Worrying and Love Unit Testing by Valerie Woolard Srinivasan
 
@@ -342,11 +342,11 @@
   video_id: cWneFu2EnOY
 
 - title: Live Coding Music with Sonic Pi
-  raw_title: 'RubyConf 2017: Live Coding Music with Sonic Pi by Sam Aaron'
+  raw_title: "RubyConf 2017: Live Coding Music with Sonic Pi by Sam Aaron"
   speakers:
     - Sam Aaron
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: |-
     Live Coding Music with Sonic Pi by Sam Aaron
 
@@ -354,11 +354,11 @@
   video_id: v9fKE0huqAE
 
 - title: Voice Controlled Home Automation in Ruby
-  raw_title: 'RubyConf 2017: Voice Controlled Home Automation in Ruby by Jeff Sacks'
+  raw_title: "RubyConf 2017: Voice Controlled Home Automation in Ruby by Jeff Sacks"
   speakers:
     - Jeff Sacks
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: |-
     Voice Controlled Home Automation in Ruby by Jeff Sacks
 
@@ -366,11 +366,11 @@
   video_id: UaoL8x-brO8
 
 - title: Rubyik's Cube
-  raw_title: 'RubyConf 2017: Rubyik''s Cube by Stafford Brunk'
+  raw_title: "RubyConf 2017: Rubyik's Cube by Stafford Brunk"
   speakers:
     - Stafford Brunk
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: |-
     Rubyik's Cube by Stafford Brunk
 
@@ -378,12 +378,13 @@
   video_id: NTiGuvHkPOw
 
 - title: How to load 1m lines of Ruby in 5s
-  raw_title: 'RubyConf 2017: How to load 1m lines of Ruby in 5s by Andrew Metcalf'
+  raw_title: "RubyConf 2017: How to load 1m lines of Ruby in 5s by Andrew Metcalf"
   speakers:
     - Andrew Metcalf
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
-  description: "How to load 1m lines of Ruby in 5s by Andrew Metcalf \n\nApplications
+  published_at: "2017-11-29"
+  description:
+    "How to load 1m lines of Ruby in 5s by Andrew Metcalf \n\nApplications
     written in Ruby, Python and several other popular dynamic languages become very
     slow to boot as they grow to millions of lines of code. Waiting to reload code
     in development becomes a major frustration and drain on productivity. This talk
@@ -392,11 +393,11 @@
   video_id: vVFEROmdCkQ
 
 - title: LLVM-based JIT compiler for MRI
-  raw_title: 'RubyConf 2017: LLVM-based JIT compiler for MRI by Takashi Kokubun'
+  raw_title: "RubyConf 2017: LLVM-based JIT compiler for MRI by Takashi Kokubun"
   speakers:
     - Takashi Kokubun
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: |-
     LLVM-based JIT compiler for MRI by Takashi Kokubun
 
@@ -406,12 +407,13 @@
   video_id: Ti4a7SXGWig
 
 - title: Reimagining 2D graphics and game development with Ruby
-  raw_title: 'RubyConf 2017: Reimagining 2D graphics and game development with Ruby by Tom Black'
+  raw_title: "RubyConf 2017: Reimagining 2D graphics and game development with Ruby by Tom Black"
   speakers:
     - Tom Black
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
-  description: "Reimagining 2D graphics and game development with Ruby by Tom Black
+  published_at: "2017-11-29"
+  description:
+    "Reimagining 2D graphics and game development with Ruby by Tom Black
     \n\nPlaying games and interacting with graphics, media, and devices is fun, but
     programming them rarely is. Even the simplest things can seem overwhelmingly complex
     and unnecessarily difficult, but it doesn't have to be that way! Let's explore
@@ -423,11 +425,11 @@
   video_id: "-PPVypAS_Pc"
 
 - title: Mozart Could’ve Been an Engineer - Music + Code
-  raw_title: 'RubyConf 2017: Mozart Could’ve Been an Engineer - Music + Code by Catherine Meyers'
+  raw_title: "RubyConf 2017: Mozart Could’ve Been an Engineer - Music + Code by Catherine Meyers"
   speakers:
     - Catherine Meyers
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: |-
     Mozart Could’ve Been an Engineer - Music + Code by Catherine Meyers
 
@@ -435,12 +437,12 @@
   video_id: n1U1rcThnzw
 
 - title: Yes, and...
-  raw_title: 'RubyConf 2017: Yes, and... by Adam Cuppy & Julia Cuppy'
+  raw_title: "RubyConf 2017: Yes, and... by Adam Cuppy & Julia Cuppy"
   speakers:
     - Adam Cuppy
     - Julia Cuppy
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: |-
     Yes, and... by Adam Cuppy & Julia Cuppy
 
@@ -451,17 +453,17 @@
     We'll call it a social strategy for an awesome life! This talk is for introverts and extroverts alike. You won't be brought onstage (unless you want to be).
   video_id: Tk8FTTfurmE
 
-- title: 'Keynote: Growing Old'
-  raw_title: 'RubyConf 2017: Keynote: Growing Old by Chad Fowler'
+- title: "Keynote: Growing Old"
+  raw_title: "RubyConf 2017: Keynote: Growing Old by Chad Fowler"
   speakers:
     - Chad Fowler
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
-  description: 'Keynote: Growing Old by Chad Fowler'
+  published_at: "2017-11-29"
+  description: "Keynote: Growing Old by Chad Fowler"
   video_id: qH_y45he4-o
 
-- title: 'Ignites'
-  raw_title: 'RubyConf 2017: Ignites'
+- title: "Ignites"
+  raw_title: "RubyConf 2017: Ignites"
   speakers:
     - Evan Phoenix
     - Rich Kilmer
@@ -470,7 +472,7 @@
     - Jim Remsik
     - Allison McMillian
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: |-
     Ignites by
 
@@ -482,32 +484,32 @@
   video_id: 9VSo5u4ODWQ
 
 - title: Keynote - You're Insufficiently Persuasive
-  raw_title: 'RubyConf 2017: Keynote - You''re Insufficiently Persuasive by Sandi Metz'
+  raw_title: "RubyConf 2017: Keynote - You're Insufficiently Persuasive by Sandi Metz"
   speakers:
     - Sandi Metz
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: Keynote - You're Insufficiently Persuasive by Sandi Metz
   video_id: VzWLGMtXflg
 
 - title: Building a Compacting GC for MRI
-  raw_title: 'RubyConf 2017: Building a Compacting GC for MRI by Aaron Patterson'
+  raw_title: "RubyConf 2017: Building a Compacting GC for MRI by Aaron Patterson"
   speakers:
     - Aaron Patterson
   event_name: RubyConf 2017
-  published_at: '2017-11-29'
+  published_at: "2017-11-29"
   description: |-
     Building a Compacting GC for MRI by Aaron Patterson
 
     We will talk about implementing a compacting GC for MRI. This talk will cover compaction algorithms, along with implementation details, and challenges specific to MRI. Well cover low level and high level memory measurement tools, how to use them, and what they're telling us. We'll cover copy-on-write optimizations and how our GC impacts them. After this talk you should have a better understanding of how Ruby's memory management interacts with the system memory, how you can measure it, and how to adjust your application to work in concert with the system's memory.
   video_id: 8Q7M513vewk
 
-- title: 'RubyCard: HyperCard, in Ruby'
-  raw_title: 'RubyConf 2017: RubyCard: HyperCard, in Ruby by Zachary Schroeder'
+- title: "RubyCard: HyperCard, in Ruby"
+  raw_title: "RubyConf 2017: RubyCard: HyperCard, in Ruby by Zachary Schroeder"
   speakers:
     - Zachary Schroeder
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     RubyCard: HyperCard, in Ruby by Zachary Schroeder
 
@@ -515,33 +517,33 @@
   video_id: WtUc4G2QDeQ
 
 - title: Orbital Rocket Guidance with Ruby
-  raw_title: 'RubyConf 2017: Orbital Rocket Guidance with Ruby by Nate Berkopec'
+  raw_title: "RubyConf 2017: Orbital Rocket Guidance with Ruby by Nate Berkopec"
   speakers:
     - Nate Berkopec
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Orbital Rocket Guidance with Ruby by Nate Berkopec
 
     Using the popular space simulator Kerbal Space Program and some remote procedure calls, we're going to use Ruby to launch (simulated) rockets into space! We'll discuss the history of computing in the space program, real-life algorithms for getting rockets into orbit like the Space Shuttle's Powered Explicit Guidance Ascent System, and the software architecture of historic space computers like the Apollo Guidance Computer. Finally, we'll build our own orbital rocket, controlled by a Ruby program that emulates space computers of the past.
   video_id: VMxct9B5S1A
 
-- title: 'Fireside Chat: Q&A with Matz'
-  raw_title: 'RubyConf 2017: FIRESIDE CHAT - Q&A WITH MATZ by Evan Phoenix & Matz Evan'
+- title: "Fireside Chat: Q&A with Matz"
+  raw_title: "RubyConf 2017: FIRESIDE CHAT - Q&A WITH MATZ by Evan Phoenix & Matz Evan"
   speakers:
     - Evan Phoenix
     - Yukihiro "Matz" Matsumoto
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: FIRESIDE CHAT - Q&A WITH MATZ by Evan Phoenix & Matz Evan
   video_id: XhSpxGPa56Y
 
 - title: Esoteric, Obfuscated, Artistic Programming in Ruby
-  raw_title: 'RubyConf 2017: Esoteric, Obfuscated, Artistic Programming in Ruby by Yusuke Endoh'
+  raw_title: "RubyConf 2017: Esoteric, Obfuscated, Artistic Programming in Ruby by Yusuke Endoh"
   speakers:
     - Yusuke Endoh
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Esoteric, Obfuscated, Artistic Programming in Ruby by Yusuke Endoh
 
@@ -549,23 +551,23 @@
   video_id: 6K7EmeptEHo
 
 - title: There are no rules in Ruby
-  raw_title: 'RubyConf 2017: There are no rules in Ruby by Max Jacobson'
+  raw_title: "RubyConf 2017: There are no rules in Ruby by Max Jacobson"
   speakers:
     - Max Jacobson
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     There are no rules in Ruby by Max Jacobson
 
     Programming requires developing ideas about How Things Work that we internalize and rely on in our day-to-day programming life: when I write a class, I can use it like this; all strings have that method; I'm allowed to use private methods in these contexts. We start to rely on them. But which are rules, and which are more like norms? Turns out that with as dynamic a language as Ruby, a lot of rules are made to be broken. Let's take a look at what we can assume to be true in our Ruby programs and what we can't.
   video_id: hwFaScbQdIs
 
-- title: 'Rewriting Rack: A Functional Approach'
-  raw_title: 'RubyConf 2017: Rewriting Rack: A Functional Approach by Alex Wheeler'
+- title: "Rewriting Rack: A Functional Approach"
+  raw_title: "RubyConf 2017: Rewriting Rack: A Functional Approach by Alex Wheeler"
   speakers:
     - Alex Wheeler
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Rewriting Rack: A Functional Approach by Alex Wheeler
 
@@ -573,11 +575,11 @@
   video_id: fVIVY7INWWQ
 
 - title: A New Pair of Shoes!
-  raw_title: 'RubyConf 2017: A New Pair of Shoes! by Jason R. Clark'
+  raw_title: "RubyConf 2017: A New Pair of Shoes! by Jason R. Clark"
   speakers:
     - Jason R. Clark
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     A New Pair of Shoes! by Jason R. Clark
 
@@ -589,11 +591,11 @@
   video_id: EjN2ep1T6M8
 
 - title: Types and Ruby Programming Language
-  raw_title: 'RubyConf 2017: Types and Ruby Programming Language by Soutaro Matsumoto'
+  raw_title: "RubyConf 2017: Types and Ruby Programming Language by Soutaro Matsumoto"
   speakers:
     - Soutaro Matsumoto
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Types and Ruby Programming Language by Soutaro Matsumoto
 
@@ -603,23 +605,23 @@
   video_id: Fjv9GxPXtck
 
 - title: Human Errors
-  raw_title: 'RubyConf 2017: Human Errors by Olivier Lacan'
+  raw_title: "RubyConf 2017: Human Errors by Olivier Lacan"
   speakers:
     - Olivier Lacan
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Human Errors by Olivier Lacan
 
     Runtime errors can sometimes turn into dark and unpleasant journeys which lead you to question the nature of reality. Thankfully, Ruby often provides friendly feedback for understanding the cause and remedy for exceptions. Yet, there are situations in which programmers don't receive clear enough context for what really caused an exception and how to address it. We'll look at Ruby's error feedback mechanisms and search for constructive ways in which they can be made more helpful to humans.
   video_id: eASsqQsaNOA
 
-- title: 'Rub[berDuck]yConf, I :mustache: you a question'
-  raw_title: 'RubyConf 2017: Rub[berDuck]yConf, I :mustache: you a question by Tara Scherner de la Fuente'
+- title: "Rub[berDuck]yConf, I :mustache: you a question"
+  raw_title: "RubyConf 2017: Rub[berDuck]yConf, I :mustache: you a question by Tara Scherner de la Fuente"
   speakers:
     - Tara Scherner de la Fuente
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Rub[berDuck]yConf, I :mustache: you a question by Tara Scherner de la Fuente
 
@@ -629,23 +631,23 @@
   video_id: onaCI461Bww
 
 - title: Finding Beauty in the Mundane
-  raw_title: 'RubyConf 2017: Finding Beauty in the Mundane by Max Tiu'
+  raw_title: "RubyConf 2017: Finding Beauty in the Mundane by Max Tiu"
   speakers:
     - Max Tiu
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Finding Beauty in the Mundane by Max Tiu
 
     Amongst the exciting challenges of making software, there are some tasks we go out of our way to avoid: linting files, updating dependencies, writing documentation. But even the "boring" parts of the job are opportunities to make big changes for the better, little by little. In this talk, you'll learn how to make even the most mundane development tasks exciting in order to better your applications and become your team's hero in the process.
   video_id: ZRgiVRqPVL4
 
-- title: 'Dispelling the dark magic: Inside a Ruby debugger'
-  raw_title: 'RubyConf 2017: Dispelling the dark magic: Inside a Ruby debugger by Daniel Azuma'
+- title: "Dispelling the dark magic: Inside a Ruby debugger"
+  raw_title: "RubyConf 2017: Dispelling the dark magic: Inside a Ruby debugger by Daniel Azuma"
   speakers:
     - Daniel Azuma
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Dispelling the dark magic: Inside a Ruby debugger by Daniel Azuma
 
@@ -653,11 +655,11 @@
   video_id: UsrSu4x30Vo
 
 - title: High Performance GPU Computing with Ruby
-  raw_title: 'RubyConf 2017: High Performance GPU Computing with Ruby by Prasun Anand'
+  raw_title: "RubyConf 2017: High Performance GPU Computing with Ruby by Prasun Anand"
   speakers:
     - Prasun Anand
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     High Performance GPU Computing with Ruby by Prasun Anand
 
@@ -667,11 +669,11 @@
   video_id: eA3sgX0oLxU
 
 - title: Gemification for Ruby 2.5/3.0
-  raw_title: 'RubyConf 2017: Gemification for Ruby 2.5/3.0 by Shibata Hiroshi'
+  raw_title: "RubyConf 2017: Gemification for Ruby 2.5/3.0 by Shibata Hiroshi"
   speakers:
     - Shibata Hiroshi
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Gemification for Ruby 2.5/3.0 by Shibata Hiroshi
 
@@ -682,12 +684,12 @@
     What Gemification changes in Ruby ecosystem? In this presentation, I will explain details of Gemification and future things of Ruby language.
   video_id: 93nGROEgyEc
 
-- title: 'Code Reviews: Honesty, Kindness, Inspiration: Pick Three'
-  raw_title: 'RubyConf 2017: Code Reviews: Honesty, Kindness, Inspiration: Pick Three by Jacob Stoebel'
+- title: "Code Reviews: Honesty, Kindness, Inspiration: Pick Three"
+  raw_title: "RubyConf 2017: Code Reviews: Honesty, Kindness, Inspiration: Pick Three by Jacob Stoebel"
   speakers:
     - Jacob Stoebel
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Honesty, Kindness, Inspiration: Pick Three by Jacob Stoebel
 
@@ -696,13 +698,13 @@
     This talk will introduce the Liz Lerman Critical Response process, a framework for giving feedback on anything creative. You'll leave this talk with tips on how to improve your code reviews by putting the creator in the driver's seat and inspiring everyone on the team to make the product even better.
   video_id: hP_2XKYia9I
 
-- title: 'make mruby more portable: Why and How'
-  raw_title: 'RubyConf 2017: make mruby more portable: Why and How by Yurie Yamane & Masayoshi Takahashi'
+- title: "make mruby more portable: Why and How"
+  raw_title: "RubyConf 2017: make mruby more portable: Why and How by Yurie Yamane & Masayoshi Takahashi"
   speakers:
     - Yurie Yamane
     - Masayoshi Takahashi
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     make mruby more portable: Why and How by Yurie Yamane & Masayoshi Takahashi
 
@@ -714,7 +716,7 @@
   speakers:
     - Betsy Haibel
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Set Design: Putting the "Art" in "Architecture" by Betsy Haibel
 
@@ -722,23 +724,23 @@
   video_id: JWDPRWPtOeg
 
 - title: What does GIL really guarantee you?
-  raw_title: 'RubyConf 2017: What does GIL really guarantee you? by Daniel Vartanov'
+  raw_title: "RubyConf 2017: What does GIL really guarantee you? by Daniel Vartanov"
   speakers:
     - Daniel Vartanov
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     What does GIL really guarantee you? by Daniel Vartanov
 
     You probably heard that Global Interpreter Lock (GIL) in Ruby "allows only one thread to run at a time", while technically it is correct it does not mean what you probably think it means. After this talk you will know why your code can be not thread safe even if GIL is enabled and how even a subtle change in your code can make GIL fail to protect you from race conditions. This talk is junior-friendly, but even experienced Ruby devs most probably will learn something new and important about GIL in Ruby.
   video_id: 1nNfTWHF2YY
 
-- title: 'Y2K and Other Disappointing Disasters: How To Create Fizzle'
-  raw_title: 'RubyConf 2017: Y2K and Other Disappointing Disasters: How To Create Fizzle by Heidi Waterhouse'
+- title: "Y2K and Other Disappointing Disasters: How To Create Fizzle"
+  raw_title: "RubyConf 2017: Y2K and Other Disappointing Disasters: How To Create Fizzle by Heidi Waterhouse"
   speakers:
     - Heidi Waterhouse
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Y2K and Other Disappointing Disasters: How To Create Fizzle by Heidi Waterhouse
 
@@ -750,11 +752,11 @@
   video_id: ddrFcg731tg
 
 - title: Improving TruffleRuby’s Startup Time with the SubstrateVM
-  raw_title: 'RubyConf 2017: Improving TruffleRuby’s Startup Time with the SubstrateVM by Kevin Menard'
+  raw_title: "RubyConf 2017: Improving TruffleRuby’s Startup Time with the SubstrateVM by Kevin Menard"
   speakers:
     - Kevin Menard
   event_name: RubyConf 2017
-  published_at: '2017-11-30'
+  published_at: "2017-11-30"
   description: |-
     Improving TruffleRuby’s Startup Time with the SubstrateVM by Kevin Menard
 
@@ -763,12 +765,12 @@
     In this talk, I'll introduce the SubstrateVM and show how we use it to massively improve TruffleRuby's startup time with minimal impact on peak performance.
   video_id: hIMldcAzd5o
 
-- title: 'Great Expectations: Power-Charging Apprenticeship Programs'
-  raw_title: 'RubyConf 2017: Great Expectations: Power-Charging Apprenticeship Programs by Louisa Barrett'
+- title: "Great Expectations: Power-Charging Apprenticeship Programs"
+  raw_title: "RubyConf 2017: Great Expectations: Power-Charging Apprenticeship Programs by Louisa Barrett"
   speakers:
     - Louisa Barrett
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: Great Expectations: Power-Charging Apprenticeship Programs by Louisa Barrett
 
@@ -777,13 +779,13 @@
     Let's dig into what makes a robust and empowering apprenticeship, from full team buy-in to setting clear learning goals to providing a clear path to the optimum final outcome: a new full time junior developer and a team dedicated to investing in education.
   video_id: o-J_OhgcvWU
 
-- title: 'JRuby: What Why How ... Do it Now!'
-  raw_title: 'RubyConf 2017: JRuby: What Why How ... Do it Now! by Thomas Enebo & Charles Nutter'
+- title: "JRuby: What Why How ... Do it Now!"
+  raw_title: "RubyConf 2017: JRuby: What Why How ... Do it Now! by Thomas Enebo & Charles Nutter"
   speakers:
     - Thomas E Enebo
     - Charles Nutter
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: JRuby: What Why How ... Do it Now! by Thomas Enebo & Charles Nutter
 
@@ -793,11 +795,11 @@
   video_id: Lja3HDcHNJA
 
 - title: Get Off the Tightrope
-  raw_title: 'RubyConf 2017: Get Off the Tightrope by Tom Stuart'
+  raw_title: "RubyConf 2017: Get Off the Tightrope by Tom Stuart"
   speakers:
     - Tom Stuart
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: Get Off the Tightrope by Tom Stuart
 
@@ -805,11 +807,11 @@
   video_id: TdBELZG0UMY
 
 - title: That time I used Ruby to crack my Reddit password
-  raw_title: 'RubyConf 2017: That time I used Ruby to crack my Reddit password by Haseeb Qureshi'
+  raw_title: "RubyConf 2017: That time I used Ruby to crack my Reddit password by Haseeb Qureshi"
   speakers:
     - Haseeb Qureshi
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: That time I used Ruby to crack my Reddit password by Haseeb Qureshi
 
@@ -820,12 +822,12 @@
     You know what, forget I even said anything.
   video_id: ywiwq9IpDEU
 
-- title: 'A History of Bundles: 2010 to 2017'
-  raw_title: 'RubyConf 2017: A History of Bundles: 2010 to 2017 by André Arko'
+- title: "A History of Bundles: 2010 to 2017"
+  raw_title: "RubyConf 2017: A History of Bundles: 2010 to 2017 by André Arko"
   speakers:
     - André Arko
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: A History of Bundles: 2010 to 2017 by André Arko
 
@@ -833,11 +835,11 @@
   video_id: BXFYjO8qDxk
 
 - title: Just when you thought you couldn’t refactor any more…
-  raw_title: 'RubyConf 2017: Just when you thought you couldn’t refactor any more… by Claudio B.'
+  raw_title: "RubyConf 2017: Just when you thought you couldn’t refactor any more… by Claudio B."
   speakers:
     - Claudio B.
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: Just when you thought you couldn’t refactor any more… by Claudio B.
 
@@ -851,7 +853,7 @@
   speakers:
     - Sam Phippen
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: "RSpec no longer works with ActiveRecord" by Sam Phippen
 
@@ -861,11 +863,11 @@
   video_id: VMcMqrpjAjU
 
 - title: The Overnight Failure
-  raw_title: 'RubyConf 2017: The overnight failure by Sebastian Sogamoso'
+  raw_title: "RubyConf 2017: The overnight failure by Sebastian Sogamoso"
   speakers:
     - Sebastian Sogamoso
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: The overnight failure by Sebastian Sogamoso
 
@@ -874,12 +876,12 @@
     Did someone get fired? Did the company survive the bug? Come to the talk and you will learn the answers, but more importantly a thing or two about how to go through tough times at work.
   video_id: 3c_9WG_aImQ
 
-- title: 'Hello Gmom!: Addressing loneliness in end-of-life care'
-  raw_title: 'RubyConf 2017: Hello Gmom!: Addressing loneliness in end-of-life care by Jeremy Flores'
+- title: "Hello Gmom!: Addressing loneliness in end-of-life care"
+  raw_title: "RubyConf 2017: Hello Gmom!: Addressing loneliness in end-of-life care by Jeremy Flores"
   speakers:
     - Jeremy Flores
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: Hello Gmom!: Addressing loneliness in end-of-life care by Jeremy Flores
 
@@ -889,11 +891,11 @@
   video_id: YLrRCmpVGw8
 
 - title: Ten Unicode Characters You Should Know About as a Programmer
-  raw_title: 'RubyConf 2017: Ten Unicode Characters You Should Know About as a Programmer by Jan Lelis'
+  raw_title: "RubyConf 2017: Ten Unicode Characters You Should Know About as a Programmer by Jan Lelis"
   speakers:
     - Jan Lelis
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: Ten Unicode Characters You Should Know About as a Programmer by Jan Lelis
 
@@ -906,11 +908,11 @@
   video_id: hlryzsdGtZo
 
 - title: Buuuuugs iiiiin Spaaaaace!
-  raw_title: 'RubyConf 2017: Buuuuugs iiiiin Spaaaaace! by Colin Fulton'
+  raw_title: "RubyConf 2017: Buuuuugs iiiiin Spaaaaace! by Colin Fulton"
   speakers:
     - Colin Fulton
   event_name: RubyConf 2017
-  published_at: '2017-12-01'
+  published_at: "2017-12-01"
   description: |-
     RubyConf 2017: Buuuuugs iiiiin Spaaaaace! by Colin Fulton
 
@@ -923,12 +925,12 @@
     This talk is for anyone whose love of a good space story is rivaled only by their passion for incredibly resilient software.
   video_id: _ZdF82h_GrM
 
-- title: 'Steal This Talk: The Best Features Ruby Doesn''t Have (Yet)'
-  raw_title: 'RubyConf 2017: Steal This Talk: The Best Features Ruby Doesn''t Have (Yet) by John Feminella'
+- title: "Steal This Talk: The Best Features Ruby Doesn't Have (Yet)"
+  raw_title: "RubyConf 2017: Steal This Talk: The Best Features Ruby Doesn't Have (Yet) by John Feminella"
   speakers:
     - John Feminella
   event_name: RubyConf 2017
-  published_at: '2017-12-08'
+  published_at: "2017-12-08"
   description: |-
     Steal This Talk: The Best Features Ruby Doesn't Have (Yet) by John Feminella
 
