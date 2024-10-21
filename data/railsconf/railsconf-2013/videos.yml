@@ -602,6 +602,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/URSWYvyc42M/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/URSWYvyc42M/maxresdefault.jpg
   published_at: '2013-06-25'
+  slides_url: https://speakerdeck.com/skmetz/magic-tricks-of-testing-railsconf
   description: |-
     Tests are supposed to save us money. How is it, then, that many times they become millstones around our necks, gradually morphing into fragile, breakable things that raise the cost of change?
     We write too many tests and we test the wrong kinds of things. This talk strips away the veil and offers simple, practical guidelines for choosing what to test and how to test it. Finding the right testing balance isn't magic, it's a magic trick; come and learn the secret of writing stable tests that protect your application at the lowest possible cost.

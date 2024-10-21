@@ -66,6 +66,7 @@
     - Jeremy Smith
   event_name: BalticRuby 2024
   published_at: "2024-07-22"
+  slides_url: https://speakerdeck.com/jeremysmithco/refactoring-volatile-views-into-cohesive-components
   description:
     It's easy for models to grow unwieldy, accumulating methods, attributes,
     and responsibilities. But views can be even worse. Let's refactor the mess into

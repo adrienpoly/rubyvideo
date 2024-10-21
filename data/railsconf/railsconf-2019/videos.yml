@@ -1499,7 +1499,7 @@
     Rails 6 has officially added Multiple database support, and the options are overwhelming. We're here to help you make the right architecture decisions for your app. In this talk, we will look at performance gains and pitfalls to some common patterns including: separation of concerns, high-load tables, and data segmentation. We'll talk about read replicas, eventual consistency, and real-time (or near real-time) requirements for a Rails application using multiple Postgres databases.
   video_id: a4OBp6edNaM
 
-- title: Inside Rails...
+- title: 'Inside Rails: The Lifecycle of a Request'
   raw_title: RailsConf 2019 - Inside Rails... by Yehuda Katz, Vaidehi Joshi, Godfrey Chan, & Krystan HuffMenne
   speakers:
     - Yehuda Katz
