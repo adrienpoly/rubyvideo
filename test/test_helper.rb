@@ -19,7 +19,7 @@ class ActiveSupport::TestCase
     #   true
     # end
 
-    TalkFts.create_index
+    Talk.rebuild_search_index
   end
   # Run tests in parallel with specified workers
   parallelize(workers: :number_of_processors)

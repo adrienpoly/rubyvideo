@@ -266,5 +266,5 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_20_174649) do
 
   # Virtual tables defined in this database.
   # Note that virtual tables may not work with other database engines. Be careful if changing database.
-  create_virtual_table "talk_fts", "fts5", ["title", "speaker_names", "summary"]
+  create_virtual_table "talks_search_index", "fts5", ["title", "summary", "speaker_names", "tokenize = porter"]
 end

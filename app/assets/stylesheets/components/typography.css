@@ -33,4 +33,9 @@
     @apply hover:underline;
     text-decoration: none;
   }
+
+  mark {
+    /* search results highlight */
+    background-color: rgb(242, 255, 140);
+  }
 }

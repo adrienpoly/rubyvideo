@@ -1,11 +1,14 @@
 class CreateTalkFts < ActiveRecord::Migration[7.2]
   def up
-    create_virtual_table :talk_fts, :fts5, ["title", "speaker_names", "summary"]
+    create_virtual_table :talks_search_index, :fts5, [
+      "title", "summary", "speaker_names",
+      "tokenize = porter"
+    ]
 
-    Talk.all.in_batches.each(&:update_fts_record_later_bulk)
+    Talk.rebuild_search_index
   end
 
   def down
-    drop_virtual_table :talk_fts, :fts5, ["title", "speaker_names", "summary"]
+    drop_table :talks_search_index
   end
 end
