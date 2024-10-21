@@ -23,7 +23,7 @@ class Event < ApplicationRecord
 
   # associations
   belongs_to :organisation
-  has_many :talks, dependent: :destroy, inverse_of: :event, foreign_key: :event_id
+  has_many :talks, ->(event) { in_order_of(:video_id, event.video_ids_in_running_order) }, dependent: :destroy, inverse_of: :event, foreign_key: :event_id
   has_many :speakers, -> { distinct }, through: :talks
   has_many :topics, -> { distinct }, through: :talks
   belongs_to :canonical, class_name: "Event", optional: true
@@ -52,6 +52,38 @@ class Event < ApplicationRecord
 
   def managed_by?(user)
     Current.user&.admin?
+  end
+
+  def data_folder
+    Rails.root.join("data", organisation.slug, slug)
+  end
+
+  def schedule_file?
+    schedule_file_path.exist?
+  end
+
+  def schedule_file_path
+    data_folder.join("schedule.yml")
+  end
+
+  def schedule_file
+    YAML.load_file(schedule_file_path)
+  end
+
+  def videos_file?
+    videos_file_path.exist?
+  end
+
+  def videos_file_path
+    data_folder.join("videos.yml")
+  end
+
+  def videos_file
+    YAML.load_file(videos_file_path)
+  end
+
+  def video_ids_in_running_order
+    videos_file.map { |talk| talk.dig("video_id") }
   end
 
   def suggestion_summary
