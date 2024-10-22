@@ -38,6 +38,10 @@ Rails.application.routes.draw do
       get :monthly_page_views
       get :monthly_visits
       get :yearly_talks
+      get :yearly_speakers
+      get :yearly_unique_speakers
+      get :yearly_first_time_speakers
+      get :speaking_experience
     end
   end
   resources :talks, param: :slug, only: [:index, :show, :update, :edit] do

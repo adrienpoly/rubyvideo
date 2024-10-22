@@ -30,4 +30,47 @@ class Analytics::DashboardsController < ApplicationController
       Talk.group_by_year(:date).count.map { |date, count| [date.year, count] }
     end
   end
+
+  def speaking_experience
+    @speaking_experience = Rails.cache.fetch(["speaking_experience", Talk.all]) do
+      Talk
+        .joins(:speakers)
+        .group("speakers.id")
+        .select("speakers.id, MIN(talks.date) AS first_talk_date")
+        .group_by { |talk| (Date.today - talk.first_talk_date.to_date).to_i / 365 }
+        .transform_keys { |years| "#{years} #{"year".pluralize(years)} of experience" }
+        .transform_values(&:count)
+        .sort_by { |years, _count| years.to_i }
+    end
+  end
+
+  def yearly_first_time_speakers
+    @yearly_first_time_speakers = Rails.cache.fetch(["yearly_first_time_speakers", Talk.all]) do
+      Talk
+        .joins(:speakers)
+        .group("speakers.id")
+        .select("MIN(talks.date) AS first_talk_date")
+        .group_by { |talk| Date.parse(talk.first_talk_date).year }
+        .transform_values(&:count)
+    end
+  end
+
+  def yearly_speakers
+    @yearly_speakers = Rails.cache.fetch(["yearly_speakers", Talk.all]) do
+      Talk
+        .joins(:speakers)
+        .group("strftime('%Y', talks.date)")
+        .count
+    end
+  end
+
+  def yearly_unique_speakers
+    @yearly_unique_speakers = Rails.cache.fetch(["yearly_unique_speakers", Talk.all]) do
+      Talk
+        .joins(:speakers)
+        .group("strftime('%Y', talks.date)")
+        .distinct
+        .count("speakers.id")
+    end
+  end
 end
