@@ -24,6 +24,7 @@ module Youtube
           event_name: @event_name,
           published_at: @metadata.published_at,
           description: description,
+          video_provider: :youtube,
           video_id: @metadata.video_id
         }
       )

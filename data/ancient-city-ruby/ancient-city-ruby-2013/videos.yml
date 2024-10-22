@@ -13,6 +13,7 @@
     This talk will answer the "why" by sharing my experience of passing through the five stages of grief (denial, anger, bargaining, depression, and acceptance) as I learned TDD, and how acceptance grew to love.
 
     You will walk away from the talk with techniques for maintaining and strengthening your relationship with TDD. Test frameworks and languages may come and go, but the fundamentals and value of TDD remain.
+  video_provider: youtube
   video_id: nBtO1UOK9Hs
 
 - title: 'Insight, Intuition and Programming'
@@ -27,6 +28,7 @@
     the next, well, there it is. One minute you haven''t a clue as to why the program
     is doing that and the next it is all just obvious. And we have all seen code that
     is wonderful or horrible in some indescribable way.'
+  video_provider: youtube
   video_id: rQp1CFJxgs0
 
 - title: 'Impressive Ruby Productivity with Vim and Tmux'
@@ -42,6 +44,7 @@
     format and refactor your code with macros, remote pair program, and more, all
     without leaving the terminal. Come prepared to learn and ask questions; this is
     serious business.
+  video_provider: youtube
   video_id: 9jzWDr24UHQ
 
 - title: 'Distributed Patterns in Ruby'
@@ -55,6 +58,7 @@
     is a matter of how you handle two things: data distribution and message passing.
     This talk is over a few ways of solving both: distributed data structures and
     messaging patterns.'
+  video_provider: youtube
   video_id: Adu_dbcnUHA
 
 - title: 'How to Fail at Background Jobs'
@@ -71,6 +75,7 @@
     jobs? Are we talking about "simple" asynchronous method calls on models or should
     we build "pure" workers with only the knowledge of a single task? What does "idempotent"
     mean again? Please allow me to enliven the debates.
+  video_provider: youtube
   video_id: dkFwNEFr9cg
 
 - title: 'Building a mocking library'
@@ -83,6 +88,7 @@
     This talk is not about testing, nor is it really about mocking. However, analyzing a mock object library is a great way to showcase advanced Ruby topics. Have you ever wondered exactly how a mock object library does what it does? You can understand it!
 
     This talk uses a simplified mock object library as the basis for delving into topics such as metaprogramming and the Ruby object model. The goal is to increase the knowledge of these topics in the Ruby community. With this know--how, you will be better suited to build from and contribute to common Ruby tools that use them.
+  video_provider: youtube
   video_id: 2aYdtS7FZJA
 
 - title: 'This is Your Brain on Software'
@@ -95,6 +101,7 @@
     Developers are rational thinkers who take objective decisions. Yeah, sure. If that is the case, how can we disagree on so many things?
 
     Examples are all around. Why do Rubyists and Java developers despise each others' designs? Why do people try hard to fit static typing and distributed environments? Why do Windows programmers loathe the command line? Let me try answering these questions, with a few hints from cognitive psychology.
+  video_provider: youtube
   video_id: v9Gkq9-dnlU
 
 - title: 'Live Coding with Ben'
@@ -112,6 +119,7 @@
     -  Whether the Law of Demeter should be followed religiously, and what it means if that's hard to do.
     -  Why fast tests are usually good tests, and vice versa.
     -  Audience participation is strongly encouraged, as is stealing the speaker's Vim tricks for your own use.
+  video_provider: youtube
   video_id: C0H-LyZy9Ko
 
 - title: 'Magic Tricks of Testing'
@@ -124,6 +132,7 @@
     Tests are supposed to save us money. How is it, then, that many times they become millstones around our necks, gradually morphing into fragile, breakable things that raise the cost of change?
 
     We write too many tests and we test the wrong kinds of things. This talk strips away the veil and offers simple, practical guidelines for choosing what to test and how to test it. Finding the right testing balance isn't magic, it's a magic trick; come and learn the secret of writing stable tests that protect your application at the lowest possible cost.
+  video_provider: youtube
   video_id: qPfQM4w4I04
 
 - title: 'Pairing is Caring'
@@ -140,6 +149,7 @@
     important to maintaining the health of the Ruby community. Whether you work solo
     or you pair regularly, you should leave this talk empowered and excited to broaden
     your pair-programming horizons.
+  video_provider: youtube
   video_id: zCzc5W7vHQg
 
 - title: 'Hacking with Gems'
@@ -152,4 +162,5 @@
     What's the worst that could happen if your app has a dependency on a malicious gem? How easy would it be to write a gem that could compromise a box?
 
     Much of the Ruby community blindly trusts our gems. This talk will make you second--guess that trust, and show you how to vet gems that you do choose to use.
+  video_provider: youtube
   video_id: UksbZx4ph8E

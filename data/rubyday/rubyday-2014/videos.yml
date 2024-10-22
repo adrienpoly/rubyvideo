@@ -12,6 +12,7 @@
     This makes it easier for Rubysts to pick it up than most other functional languages
     with arcane syntaxes. The talk will present elements of the Elixir language. We'll
     also look at the Phoenix web framework and how it was influenced by Ruby on Rails.
+  video_provider: youtube
   video_id: NzyqGrYyPjw
 
 - title: Streamline your development environment with Docker
@@ -29,6 +30,7 @@
     and how much it can benefit in keeping the development environment consistent.
     We are going to talk about Dockerfiles, best practices, tools like fig and vagrant,
     and finally show an example of how it applies to a ruby on rails application.
+  video_provider: youtube
   video_id: mY4iErRL4zc
 
 - title: The Design of Everyday Ruby
@@ -45,6 +47,7 @@
     it pays off to treat these concepts as general guidelines, which can and should
     be challenged on a daily basis. In doing so, we can improve our understanding
     of these concepts and become better programmers."
+  video_provider: youtube
   video_id: PpBaJNIkoGA
 
 - title: Miele per le nostre API
@@ -61,6 +64,7 @@
     sono tanti modi per farlo, e c'è il modo giusto. Illustreremo le best practice
     per la costruzione di un server API RESTful in RoR che lo rendano adatto ai nostri
     progetti, performante e manutenibile, vedendo insieme un esempio di loro implementazione.
+  video_provider: youtube
   video_id: qtJyc28ZcXE
 
 - title: Ruby over Rails
@@ -75,6 +79,7 @@
     logic where it should not be: the template. By refactoring a simple application
     I'll show you how to unlock the power of Ruby and how to write code that you
     will love to work with in the future."
+  video_provider: youtube
   video_id: LiyShndVLPo
 
 - title: "Frontend: riorganizzare (di nuovo) il caos"
@@ -95,6 +100,7 @@
     che permettono agli sviluppatori di organizzare bene i layout, il markup, codice
     per unit test, moduli css, utilizzo di mixin e stili comprensibili e mantenibili
     nel tempo.
+  video_provider: youtube
   video_id: fUJOJY_yVXg
 
 - title: "More fun, less pain: a strategy for writing maintainable Rails admin backends"
@@ -116,6 +122,7 @@
     good ol' OOP patterns to build an (arguably) more maintainable, testable and
     modular codebase, without sacrificing the super-DRY, declarative style ActiveAdmin
     and similar gems offer."
+  video_provider: youtube
   video_id: e9iabDiBHZU
 
 - title: Web server challenge
@@ -131,6 +138,7 @@
     le caratteristiche uniche, i punti di contatto, ma soprattutto le divergenze tra
     i principali software utilizzati. Cercheremo di fornire una bussola con cui orientarsi
     e poter davvero comprendere come soddisfare l'esigenza specifica di ogni progetto.
+  video_provider: youtube
   video_id: GEumX6mC4T4
 
 - title: Build the perfect web application with these 12 weird tricks
@@ -152,6 +160,7 @@
     across programming languages borders. Image that one pre-build logging and metrics
     solution. The one and only way of configuring your project. The one way to run
     it, successfully."
+  video_provider: youtube
   video_id: kTrSHOJxeLw
 
 - title: "Safety Nets: Learn to code with confidence"
@@ -166,6 +175,7 @@
     to blow off everything when shipping. That's why it's important to put in place
     different strategies to help us to catch errors asap, but also to avoid the cruft
     long term. Like a safety net, they allow you to go forward with more confidence.
+  video_provider: youtube
   video_id: cVTrY2qL-Hs
 
 - title: Service Oriented Architecture for robust and scalable systems
@@ -182,4 +192,5 @@
     to talk about Service Oriented Architecture in general and also share some experience
     and give some examples where SOA would save your ass and maybe places where SOA
     isn’t the best idea to implement.
+  video_provider: youtube
   video_id: SYr-XgybLG0

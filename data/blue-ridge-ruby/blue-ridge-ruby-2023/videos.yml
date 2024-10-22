@@ -10,6 +10,7 @@
     As Kevin states, \"This is not a talk about TEST COVERAGE. This is a talk about
     the tool that you can use to measure things like test coverage.\"\n\n@BlueRidgeRuby
     \n\nVisit him at kevinjmurphy.com/speaking/"
+  video_provider: youtube
   video_id: H4pBjWOMr_Y
 
 - title: "Empathetic Pair Programming with Nonviolent Communication"
@@ -24,6 +25,7 @@
     of experiences and styles which can be pleasant or unpleasant. Nonviolent communication
     helps us shed our assumptions, our judgments, and our claims in favor of authentic
     communication.
+  video_provider: youtube
   video_id: sVeKT36coAQ
 
 - title: "Forecasting the Future: An Intro to Machine Learning with Ruby"
@@ -38,6 +40,7 @@
     doing Machine Learning in Native Ruby?\" and decided to take action. This engaging
     talk shares his ideas and thoughts and culminates in an ML project using Ruby
     with Jupyter + iruby.\n\n@BlueRidgeRuby \n@thedayisntgray"
+  video_provider: youtube
   video_id: 11yubbTx8Ow
 
 - title: "RSpec: The Bad Parts"
@@ -52,6 +55,7 @@
     catching out everyone from new team members to a grizzled veterans. Caleb breaks
     down some common RSpec patterns and how to avoid making your test suite too complex
     to reason about and maintain going forward.
+  video_provider: youtube
   video_id: 5lNwSpgMwH0
 
 - title: "Maintenance Matters: Maintaining Your Rails App and Your Sanity"
@@ -66,6 +70,7 @@
     time that you spend. Annie breaks down the importance of code review, linting
     and other tools to ensure your software remains elegant to work with for years
     to come.
+  video_provider: youtube
   video_id: hIV7RDpvTzQ
 
 - title: "Making Ruby Fast(er)"
@@ -79,6 +84,7 @@
     programs that make our high-level Ruby code work, but that many developers rarely
     think about. As a consequence, Kevin argues we are missing out on some of the
     more exciting developments in the language, especially when it comes to performance.
+  video_provider: youtube
   video_id: s0NMy_PBxkk
 
 - title: "What's your type? Generating type signatures with Sorbet and Tapioca"
@@ -92,6 +98,7 @@
     but Emily makes the case for "reflection": using Ruby to understand other Ruby
     code, and the tools we can use to improve our workflows and bring more joy to
     our coding.'
+  video_provider: youtube
   video_id: TeMqO3lzfMI
 
 - title: "Digital Identity or: How I Learned to Stop Worrying and Love Web3"
@@ -104,6 +111,7 @@
     Thomas Mann demystifies Web3 through a Ruby-flavored introduction to
     the concepts around self-sovereign identity. Break through the hype and get value
     from decentralized protocols, blockchain technologies, and token-based economics.
+  video_provider: youtube
   video_id: YRmwQNmLbLQ
 
 - title: "Go Pro with POROs"
@@ -115,6 +123,7 @@
   description:
     Ifat explores several common Ruby design patterns and best practices,
     and how they can make your code more encapsulated, clear and simple to work with.
+  video_provider: youtube
   video_id: rvTOWaWwIkQ
 
 - title: "How Can I Move Forward When I Dont Know Where I Want To Go?"
@@ -128,4 +137,5 @@
     asked "Where do you want to be in 3 years?". Enter Mo O'Connor. Whether you want
     to be an individual contributor, a people manager, or a hybrid, Mo leverages her
     experiences to share a process to help you map your career.
+  video_provider: youtube
   video_id: 7naaDdkcNt0

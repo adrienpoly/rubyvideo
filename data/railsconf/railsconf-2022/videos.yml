@@ -14,6 +14,7 @@
   ends_at: "2022-05-19"
   slides_url: https://speakerdeck.com/tenderlove/railsconf-2022-keynote
   description: "Keynote: RailsConf 2022 - It's been a minute! by Aaron Patterson"
+  video_provider: youtube
   video_id: qqTFm2ZtRHg
 
 - title: "`rails c` with me - turbocharge your use of the interactive console"
@@ -37,6 +38,7 @@
     to save you time and write more performant code. While you're here, we'll look
     under the hood to see how the features of the console are encoded and we'll trace
     back the history of these libraries to see how they arrived in our Rails application.
+  video_provider: youtube
   video_id: AZquxGaSjGo
 
 - title: "ELI5: A Game Show on Rails"
@@ -58,6 +60,7 @@
     We might know our way around the classic conventions of our beloved Ruby on Rails, but do we understand them enough to explain those concepts to our peers? In this interactive (participation optional!) game show session, let’s find out!
 
     After we quickly discuss some of the philosophies of teaching, we’ll divide up into teams and play a Jeopardy! meets Catchphrase hybrid game… with a few surprises along the way! Beginner, intermediate and advanced Rails-devs are welcome, and Portland-themed prizes will be awarded to the winners.
+  video_provider: youtube
   video_id: kDmvIWv_9M8
 
 - title: Don't page me! How we limit pager noise at New Relic
@@ -77,6 +80,7 @@
     New Relic's largest monolith handles 200k req/min and communicates with more than 40 external services and 11 mysql databases; this should result in constant downtime. Being mindful and alerting on the right things has been critical for us.
 
     This talk will cover a successful process for identifying trustworthy data, refining alert conditions, and what kinds of checks to page on.
+  video_provider: youtube
   video_id: uxWqX1KZAH8
 
 - title: RAILS_ENV=demo
@@ -101,6 +105,7 @@
     been done to make the app more reliably \"demoable\"? Join us, as we use \"stateful
     fakes\" and \"personas\" to produce a testable, maintainable, and failure-resistant
     \"demo\" deployment, with production-like uptime guarantees!"
+  video_provider: youtube
   video_id: N_2idFNGlkk
 
 - title: If You Know Heroku, You Can Use Kubernetes
@@ -121,6 +126,7 @@
     But it turns out that, while Kubernetes can be complicated, it doesn't have to
     be. In this talk, you'll learn how to deploy with Kubernetes in a way that is
     nearly as friendly as with Heroku.
+  video_provider: youtube
   video_id: mN-BedLhkKQ
 
 - title: '"Build vs Buy" on Rails'
@@ -142,6 +148,7 @@
     Should you try and build all of these features? Should you work with partner services to add these features? The answer: it depends!
 
     In 2022, the classic "Build vs Buy" question is more nuanced than ever and we'll dig into the pros and cons when building (or buying) on Rails.
+  video_provider: youtube
   video_id: IbWkO1aljyE
 
 - title: "Opening Keynote: The Journey to Zeitwerk"
@@ -158,6 +165,7 @@
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: "Opening Keynote: The Journey to Zeitwerk by Xavier Noria"
+  video_provider: youtube
   video_id: 57AsQrxjLEs
 
 - title: Breaking up with the bundle
@@ -177,6 +185,7 @@
     Breaking up with the bundle by Joel Hawksley
 
     Over the course of 14 years, the GitHub.com CSS bundle grew to over 40,000 lines of custom CSS. It became almost impossible to refactor. Visual regressions were common. In this talk, we'll share an honest picture of our successes and failures as we've worked to break up with our CSS bundle by moving towards a component-driven UI architecture.
+  video_provider: youtube
   video_id: LMmKEfjW468
 
 - title: Spacecraft! The Care and Keeping of a Legacy Application
@@ -198,6 +207,7 @@
     Annie Lydens & Jenny Allar
 
     Join us for an allegorical journey aboard the spacecraft Legacy, where the astronauts desperately need to update their aging infrastructure. Their leader, a brave spaceperson named Yuki, knows these repairs must be completed before the team gets hit by a series of feature request asteroids. This talk is an ELI5 journey through the various strategies around assessing, improving, and bullet-proofing Rails apps in need of some cosmic maintenance.
+  video_provider: youtube
   video_id: nE1xzf8tE9Y
 
 - title: Caching Without Marshal
@@ -221,6 +231,7 @@
     We recently decided these risks were not worth it. Breaking with convention, we migrated the cache on our core monolith to MessagePack, a more compact binary serialization format with stricter typing and less magic.
 
     In this talk, I'll pry Marshal open to show how it works, how we replaced it, and why you might want to do the same.
+  video_provider: youtube
   video_id: fhnpaFRZ4Kw
 
 - title: Event Streaming on Rails
@@ -245,6 +256,7 @@
     Join us and learn simple reading and writing to Kafka with Rails, broader distributed
     systems design, and the magical transactional outbox. You'll leave with the knowledge
     you need to make the switch."
+  video_provider: youtube
   video_id: meJwkdaRnHw
 
 - title: "Kuby: Active Deployment for Rails Apps"
@@ -269,6 +281,7 @@
     for interacting with databases, active storage for storing files, etc, but where's
     active deployment? Come learn how Kuby, a new deployment tool, is trying to bridge
     the gap.
+  video_provider: youtube
   video_id: PJeET-SZssM
 
 - title: Leveling Up from Planning to Production
@@ -288,6 +301,7 @@
     The biggest difference between a mid-level engineer and a senior engineer is the scale and scope of the work they're responsible for. How do you dive into complex tasks, report progress to project leadership, and stay focused with so many unknowns?
 
     These are the questions I've continued to ask myself as I grow in my career. In this session, we'll explore the tools myself and other senior-level individual contributors use to shape our work from project inception to delivery.
+  video_provider: youtube
   video_id: AtW4gNzFpms
 
 - title: "Evaluating Cultural Fit + Culturesmithing: Everyone Influences..."
@@ -312,6 +326,7 @@
     do to make things better. You will learn a framework for evaluating whether an
     organization’s culture meets your personal needs, and you will learn 20 immediately
     implementable techniques to improve this culture."
+  video_provider: youtube
   video_id: SJ1f-LEf1X4
 
 - title: Do You Trust Me? A look at Trust, Time, and Teams
@@ -331,6 +346,7 @@
     I've got a deal for you. You give me some trust, I'll give you some time back. No strings attached.
 
     Trust is core to working on a team. We give a little trust, so we can save time. We use systems to create/protect/and outsource trust: PRs, pairing, code cov, type systems, etc. Join me for an exploration of trust in engineering, the psychology of trust, its relationship to time, and how we can have better trust rituals when we reframe the goal. So give me a little of your time and I'll teach you a little about trust. Do we have a deal?
+  video_provider: youtube
   video_id: EqyBLQHLMgE
 
 - title: The Little Engines That Could
@@ -352,6 +368,7 @@
     Are they plug-ins? Are they microservices? When do we use them? How do we implement them? Why aren’t they used more often?
 
     Those are the questions I wish were answered for me when I first learned about Rails Engines. Inspired by Wired’s Explain In 5 Levels series, we will explore Rails Engines and address these quandaries using a variety of techniques, breaking down what engines are and how and when to use them.
+  video_provider: youtube
   video_id: EMKIJTricf4
 
 - title: Scaling Rails with JRuby in 2022
@@ -376,6 +393,7 @@
     users. JRuby is the only alternative Ruby deployed at scale, powering companies
     all over the world in mission critical areas. Come see how JRuby can help you
     scale today!
+  video_provider: youtube
   video_id: Y4Jt1I8lCK4
 
 - title: React-ing to Hotwire
@@ -399,6 +417,7 @@
     to be. So I started the process of migrating the React app into the Rails app,
     using Hotwire as the new front-end framework. How did it go, what lessons were
     learned, and would I do it again?
+  video_provider: youtube
   video_id: SS7LoJKkmYs
 
 - title: How music works, using Ruby
@@ -420,6 +439,7 @@
     Sound engineers have found many ways of making music sound good when played from a record. Some of their methods have become industry staples used on every recording released today.
 
     Let's look at what they do and reproduce some of their methods in Ruby!
+  video_provider: youtube
   video_id: Qi3kEj41NwA
 
 - title: Service Denied! Understanding How Regex DoS Attacks Work
@@ -443,6 +463,7 @@
     doing when we ask it to match against a string. With a basic understanding of
     how regular expressions work, we can better understand what these attacks do,
     why they tie up so much CPU, and what we can do to guard against them.
+  video_provider: youtube
   video_id: XpF3H6w1NSY
 
 - title: Call me back, Postgres
@@ -467,6 +488,7 @@
     you can develop creative solutions for making your Rails app the center of an
     otherwise complex system, managing data syncing and other processes seamlessly,
     regardless of consumers of the app."
+  video_provider: youtube
   video_id: ZwxX58q1a5A
 
 - title: "Keynote: A tech görl origin story"
@@ -483,6 +505,7 @@
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: "Keynote: A tech görl origin story by Crystal Tia Martin"
+  video_provider: youtube
   video_id: 4dLqPN7ozpo
 
 - title: O(1), O(n) and O(#$*&!)
@@ -505,6 +528,7 @@
     and IO waiting using OpenTelemetry compatible tools. Then we'll fix those issues,
     and ensure that they stay fixed using automated performance testing, even as your
     application grows.
+  video_provider: youtube
   video_id: c7CHdAhf85g
 
 - title: Git your PR accepted. Rebase your changes like a pro
@@ -526,6 +550,7 @@
     You know reviewing this will be a nightmare for the project maintainers, and more importantly, it will be almost impossible for anyone in the future to understand what you did by looking at the history.
 
     In this talk we will look at how Git branches work, and how to manicure them using Rebase to build a commit history your colleagues will love you for.
+  video_provider: youtube
   video_id: KNtwDdUEXRw
 
 - title: "Open the gate a little: strategies to protect and share data"
@@ -548,6 +573,7 @@
     We know we know we must protect access to our information at all costs, sometimes we need to provide access for legitimate reasons to our production data and this brings a dilemma to us: how to do it while minimizing the risks of data leakage.
 
     In this talk I'll share some strategies that can give you some guidance on when to close the door, when to open the door and when to open the door to your information a little
+  video_provider: youtube
   video_id: TYgwg33E81c
 
 - title: Reflecting on Active Record Associations
@@ -573,6 +599,7 @@
     a a Relation with a CollectionProxy, and automatically prevent N+1 queries with
     inverses. You'll leave with a deeper understanding of associations, and a new
     appreciation for their magic.
+  video_provider: youtube
   video_id: ImwNMYjRMSg
 
 - title: Experimental Patterns in ActiveRecord
@@ -592,6 +619,7 @@
     ActiveRecord provides a great deal of flexibility and speed of implementation for developers making new apps. As our teams and codebase grow and our services need to continue to scale, some of the patterns we use can start to get in our way. We've seen a bit of that at GitHub, and as a result have been experimenting with some new ways to work with ActiveRecord queries, reduce N+1s, and isolate model details.
 
     In this talk, I'll go over some the problems we've been facing, cover how we've been addressing them so far, and show some new experiments & patterns I've been working through.
+  video_provider: youtube
   video_id: "-nrQDbRK5TM"
 
 - title: "Keynote: Meditations on Software"
@@ -608,6 +636,7 @@
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: "Keynote: Meditations on Software by Vaidehi Joshi"
+  video_provider: youtube
   video_id: t46d9GUXy0A
 
 - title: The Mrs Triggs Problem
@@ -629,6 +658,7 @@
     As a society we have an attribution problem. People who look like me get it easy. Join me to explore how we can push back on the default stories & myths of who is providing value in our community.
 
     Warning, may contain content that will make you uncomfortable about your own past behaviour. But you'll leave better able to provide a better industry for your fellow humans.
+  video_provider: youtube
   video_id: rj1Mqly3XI4
 
 - title: Don't touch that!
@@ -651,6 +681,7 @@
     for debugging, taught through the lens of experimentation and childish play. In
     this talk, we will override, extend, and disable all sorts of Rails internals
     and see what happens.
+  video_provider: youtube
   video_id: GAtCF44yufw
 
 - title: Your TDD Treasure Map
@@ -673,6 +704,7 @@
     experience to test. Let’s draw a map with simple strategies for identifying test
     cases and building a robust test suite. X marks the spot w/ TDD tools for newbies
     and seasoned pirates alike.
+  video_provider: youtube
   video_id: jCgb4JjqQVA
 
 - title: Your test suite is making too many database calls!
@@ -693,6 +725,7 @@
     On a recent project, I sped up a test suite 15% by making a change to a single factory. This suite, like many others (including yours!), was making way too many database calls. It’s so easy to accidentally add extra queries to factories and test setup and these can compound to shockingly large numbers.
 
     The chaos is your opportunity! Learn to profile and fix hot spots, build big-picture understanding through diagrams, and write code that is resistant to extraneous queries. This talk will equip you to take back control of your build times and maybe impress your teammates in the process.
+  video_provider: youtube
   video_id: QeuVM0zai60
 
 - title: Testing legacy code when you dislike tests (and legacy code)
@@ -714,6 +747,7 @@
     Learn why legacy code is so difficult to maintain and identify where tests can make the most impact. Not just any tests, though! We'll dive into the characteristics of high-value versus low-value tests and learn techniques for writing tests that minimize the cost of change.
 
     Developers of any experience level can benefit from these concepts. Familiarity with Rails and an automated testing framework is helpful but not required.
+  video_provider: youtube
   video_id: ufIGaySoQWY
 
 - title: Laying the Cultural and Technical Foundation for Big Rails
@@ -737,6 +771,7 @@
     cultural programs needed to support that toolchain, that can be used to help engineers
     in an ever-growing Rails codebase continue to have high velocity, manage their
     complexity, and claim ownership over their own business subdomains.
+  video_provider: youtube
   video_id: xBFUVl91JtI
 
 - title: Your Service Layer Needn't be Fancy, It Just Needs to Exist
@@ -759,6 +794,7 @@
     app. This single design decision will buoy your app's sustainability for years.
     You'll learn why this is and how to start a service layer today without any patterns,
     principles, or fancy libraries.
+  video_provider: youtube
   video_id: xFDn4TxKDrQ
 
 - title: Pictures Of You, Pictures Of Me, Crypto Steganography
@@ -783,6 +819,7 @@
     applications, and math behind crypto steganography how unravelling the mystery
     of the pictures culminated in the resolution of a 15 year rivalry when the US
     Olympic men’s curling team won the gold in 2018.
+  video_provider: youtube
   video_id: GQgnUHF2SNE
 
 - title: Come on in! Making yourself at home in a new codebase
@@ -807,6 +844,7 @@
     there are steps we can take to understand new code and start contributing quickly.
     In this talk, we'll cover how to build our code comprehension skills and how to
     make our own code welcoming to guests in the future."
+  video_provider: youtube
   video_id: "-Fpb4c7_vcU"
 
 - title: A Rails Developer’s Guide To The Ruby VM
@@ -826,6 +864,7 @@
     What happens under the hood when you run a Ruby script as simple as puts “Hello World!”?
 
     Time to switch gears from the Rails-level of abstraction to a lower one and dive into some Ruby internals. We’ll be learning about how the Ruby code you write gets compiled and executed, then zoom in to the VM-level – what VMs are and what they do, and how the Ruby VM works. You’ll walk away with a better understanding of how Ruby and Rails works as a whole. No low-level systems knowledge needed!
+  video_provider: youtube
   video_id: 1LTM3KPiruo
 
 - title: "You have 2 seconds to respond"
@@ -842,6 +881,7 @@
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: You have 2 seconds to respond - Atob - Justin Powers
+  video_provider: youtube
   video_id: oCN-uA2oeeY
 
 - title: "More Engineers, More Problems: Solutions for Big Teams"
@@ -863,6 +903,7 @@
   description: |-
     More Engineers, More Problems: Solutions for Big Teams
      - Chime - Noel Rappin, David Trejo, Brian Lesperance, Chris Dwan
+  video_provider: youtube
   video_id: BJWeKT7H7EA
 
 - title: "Finding the Needle in the Stack Trace: APM Logs-in-Context"
@@ -882,6 +923,7 @@
   description: |-
     Finding the Needle in the Stack Trace: APM Logs-in-Context
     - New Relic - Kayla Reopelle and Mike Neville-O'Neill
+  video_provider: youtube
   video_id: J-KFRqA_SPY
 
 - title: Functional Programming in Plain Terms
@@ -906,6 +948,7 @@
     composing small ideas in everyday language. Before we're through, you'll have
     a rich new set of FP ideas to apply to your projects—and you'll finally learn
     what a monad is (hint: it's not a burrito)."
+  video_provider: youtube
   video_id: ffvOnr4TbAg
 
 - title: The pitfalls of realtime-ification
@@ -927,6 +970,7 @@
     Switching to realtime hides many pitfalls you'd better learn beforehand. How to broadcast personalized data? How not to miss updates during connection losses? Who's online? Does it scale?
 
     Let me dig into these problems and demonstrate how to resolve them for Action Cable and Hotwire.
+  video_provider: youtube
   video_id: p54ejYrGYEg
 
 - title: Start Your Ruby Podcast Today! No Experience Required
@@ -950,6 +994,7 @@
     things like what kind of gear to use, how to perform interviews, and affirmed
     just how lovely the Ruby community is.\n\nIt's your turn! Come to learn from our
     mistakes, leave ready to start a podcast!"
+  video_provider: youtube
   video_id: OVH9vmiFY2g
 
 - title: Behind the Lemurs - Creating an Illustrated Talk
@@ -971,6 +1016,7 @@
     look at my entire toolset and process for creating illustrated conference talks
     including ideation, storyboarding, art, code tie-ins, and more. Perhaps you'll
     even learn to make a few lemurs of your own!
+  video_provider: youtube
   video_id: _8nXpuYPaHo
 
 - title: "Learn it, Do it, Teach it: How to Unstick Our Middle Devs"
@@ -995,6 +1041,7 @@
     This talk will demonstrate how managers can implement a LDT model into a developer’s
     day to day. Growth plans like this model will allow your team to move from mids
     into seniors both faster and more confidently."
+  video_provider: youtube
   video_id: TQ3o1fXANtQ
 
 - title: "Building a diverse engineering team"
@@ -1012,6 +1059,7 @@
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: Building a diverse engineering team - Wrapbook -  Zaid Zawaideh & Jessica Lawrence
+  video_provider: youtube
   video_id: 55KN3d_VVs0
 
 - title: "Growing Your Background Job Knowledge"
@@ -1028,6 +1076,7 @@
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: "Growing Your Background Job Knowledge \n- Weedmaps - Jake Anderson"
+  video_provider: youtube
   video_id: DaRj3DkVWyE
 
 - title: "The Future of Ruby on Rails at Shopify"
@@ -1044,6 +1093,7 @@
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: Shopify
+  video_provider: youtube
   video_id: yfEJxRtIOEw
 
 - title: "Keynote: The Success of Ruby on Rails - Ensuring Growth for the Next 100 Years"
@@ -1061,6 +1111,7 @@
   ends_at: "2022-05-19"
   slides_url: https://speakerdeck.com/eileencodes/the-success-of-rails-ensuring-growth-for-the-next-100-years
   description: "Keynote: The Success of Ruby on Rails by Eileen M. Uchitelle"
+  video_provider: youtube
   video_id: p17xn05zc9c
 
 - title: "A Rails Performance Guidebook: from 0 to 1B requests/day"
@@ -1080,6 +1131,7 @@
     Building a feature is not good enough anymore: all your work won't be of use if it's not performant enough. So how to improve performance? After all, performance is not an easy discipline to master: all slow applications are slow in their own way, meaning that there is no silver bullet for these kinds of problems.
 
     In this presentation, we will guide you across patterns, strategies, and little tricks to improve performance. We will do that by sharing real stories of our daily experience facing and solving real performance issues in an application that daily serves billions of requests per day.
+  video_provider: youtube
   video_id: Suz-R3LfFCk
 
 - title: "Unboxing Rails 7: What's new in the latest major version"
@@ -1099,6 +1151,7 @@
     Rails 7.0 removes webpacker and spring from the default stack, adds encrypted attributes, allows for asynchronous query loading, changes autoloading defaults, attaches comments to Active Record queries, and introduces new tools for front-end development.
 
     Learn about these and many other Pull Requests that were merged in rails/rails in 2021. Understand the motivation behind some architectural decisions. Review the process to upgrade from Rails 6.1 to Rails 7.
+  video_provider: youtube
   video_id: lBBiOmqnNCs
 
 - title: GraphQL and Rails beyond HTTP APIs
@@ -1118,6 +1171,7 @@
     Are you considering building a GraphQL API for your Rails project or already have one? Do you know GraphQL can be leveraged beyond HTTP APIs?
 
     We will explore how GraphQL does not depend on HTTP and can be used as a secure and structured data layer for Rails projects. You will learn to deliver real-time GGraphQL through Websockets, Webhooks containing all the data you need, provide data for WebAssembly code and parallelize queries exporting large amounts of data. Every Rails project needs consistent access to data and GraphQL brings solutions beyond the typical HTTP API.
+  video_provider: youtube
   video_id: BR1B9vR8d2w
 
 - title: Ooops! You named it wrong. What now?
@@ -1138,6 +1192,7 @@
     You hear everybody talk about the newest feature to Widgets but you can’t find a single model reference to that in the code. What happened? Sometimes the business changes aren’t reflected in the code. Sometimes, you're missing information or the code grows into something different. What do you do? ‘Cuz you still gotta ship.
 
     Buckle up for a fast paced ride through the opportunities and pitfalls faced when you find yourself in this position. Through success and failure stories, learn how to leave space for names to breathe, make changes safely, and walking that fine line of changing just in time.
+  video_provider: youtube
   video_id: 52Qzgf2Xvi4
 
 - title: "Browser History Confessional: Searching My Recent Searches"
@@ -1157,6 +1212,7 @@
     We all only have so much working memory available in our brains. Developers may joke about spending their day composing search engine queries. The reason it's a joke is because of the truth behind it. Search-driven development is a reality.
 
     Join me, and my actual search history, on a journey to solve recent challenges I faced. I'll categorize the different types of information I often search for. You'll leave with tips on retrieving the knowledge you need for your next bug, feature, or pull request.
+  video_provider: youtube
   video_id: UVvC6shN83U
 
 - title: Computer science you might (not) want to know
@@ -1176,6 +1232,7 @@
     One common recommendation for aspiring software developers is to pursue a degree in Computer Science (CS). While CS curricula do often cover practical software development skills, many departments heavily prioritize more academic and theoretical topics. This begs the question: how relevant is a CS degree to the day-to-day work of a professional developer?
 
     We’ll look at a few topics that are often included in the first half of an undergraduate CS curriculum. We’ll examine this information through two lenses: why it can be helpful and why it might not be all that relevant for a typical Rails dev.
+  video_provider: youtube
   video_id: b7R9CFAZV2E
 
 - title: "Gem install: What could go wrong?"
@@ -1196,6 +1253,7 @@
     The open source gem ecosystem is a major strength of Ruby and it’s not uncommon for a production Rails application to depend upon hundreds of gems. But what are the risks of installing a gem and having it in your Gemfile?
 
     In this talk, we’ll cover what “bad things” can actually happen when you install a gem. We’ll also talk about the ways of preventing these attacks from occurring in your application dependencies (so you can sleep well at night).
+  video_provider: youtube
   video_id: e5_3kL0SdzM
 
 - title: "The Queue Continuum: Applied Queuing Theory"
@@ -1217,6 +1275,7 @@
     parallelism and concurrency as well as when to apply more threads or more processes.
     We’ll go over examples of sidekiq and puma with different concurrency settings
     in various IO scenarios.
+  video_provider: youtube
   video_id: N6LxQkyky3w
 
 - title: Ruby Archaeology
@@ -1241,6 +1300,7 @@
     What code greater than 12 years old still runs in Ruby 3.1?
     What idioms have changed?
     And for the brave: how can you set up an environment to run Ruby 1.8 code from ~2008 on a modern machine?
+  video_provider: youtube
   video_id: 53ueEIS0cng
 
 - title: "Upgrading Rails: Everyone can do it and here’s how"
@@ -1264,6 +1324,7 @@
     of Rails at once and wondered how that works? We’ll talk about three approaches
     you can use to upgrade your app. You’ll leave this talk with takeaways you can
     put into practice for your next Rails upgrade.
+  video_provider: youtube
   video_id: NHZCQeh91p0
 
 - title: "Let Your Body Lead: Career Planning With Somatics"
@@ -1285,6 +1346,7 @@
     But what if you made decisions a different way? What if you had a sophisticated decision-making apparatus to guide you, built precisely to your needs -- an always-available guide?
 
     You do! It’s called your somatic intelligence. With practice you can learn to tune into it and let your body lead the way to satisfaction and fulfillment -- in every area of your life.
+  video_provider: youtube
   video_id: W7Im8VjLEEg
 
 - title: Geolocation EXPLAINed
@@ -1304,6 +1366,7 @@
     How do you find the location of someone visiting your site? And, how do you do it fast? If you've ever been curious about how analytics services can place your site visitors on a map, or about how to analyze and improve a slow running query, then this talk is for you!
 
     In this session, you'll learn about IP address networking, fundamental database operations, and query performance tuning. We'll develop a geolocation system from the ground up, and make sure it's running lightning fast along the way.
+  video_provider: youtube
   video_id: i1hFVA-dwvU
 
 - title: "Diversity in Engineering; a community perspective"
@@ -1322,6 +1385,7 @@
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: "Diversity in Engineering; a community perspective\n- Shopify - \nMaya Toussaint, Caterina Paun & Stephanie Minn"
+  video_provider: youtube
   video_id: d0pE0HNNX4Y
 
 - title: "Bringing Your Rails Monolith Along As The Business Grows"
@@ -1338,6 +1402,7 @@
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: Bringing Your Rails Monolith Along As The Business Grows - Ontra - Carrick Rogers
+  video_provider: youtube
   video_id: ihkBemw3tPk
 
 - title: Puny to Powerful PostgreSQL Rails Apps
@@ -1360,4 +1425,5 @@
     apply immediately. This talk covers topics like safe migrations, understanding
     database connections, query optimization, database maintenance, and database replication
     and partitioning.
+  video_provider: youtube
   video_id: QshRTj2f3hE
