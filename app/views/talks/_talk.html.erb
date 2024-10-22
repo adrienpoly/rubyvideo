@@ -4,22 +4,24 @@
       data: {
         controller: "video-player",
         video_player_poster_value: talk.thumbnail_lg,
-        video_player_provider_value: "youtube",
+        video_player_provider_value: (talk.video_provider == "mp4") ? nil : talk.video_provider,
         video_player_src_value: talk.video_id
       } do %>
 
   <h1 class="text-neutral mb-4 text-2xl"><%= talk.title %></h1>
 
-  <div <%= tag.attributes(
-             class: "aspect-video banner-img card-horizontal-img relative",
-             style: "view-transition-name: #{dom_id(talk, :image)}"
-           ) %>>
-
-    <%= content_tag :div, "",
-          class: "image",
-          id: dom_id(talk, :youtube),
-          data: {video_player_target: "player",
-                 youtube_id: talk.video_id} %>
+  <div class="aspect-video banner-img card-horizontal-img relative" style="view-transition-name: <%= dom_id(talk, :image) %>">
+    <% if talk.video_provider == "mp4" %>
+      <video id="player" data-video-player-target="player" src="<%= talk.video_id %>"></video>
+    <% elsif talk.video_provider == "youtube" %>
+      <div
+        class="image"
+        id="<%= dom_id(talk, :youtube) %>"
+        data-video-player-target="player"
+        data-youtube-id="<%= talk.video_id %>"></div>
+    <% else %>
+      Provider <%= talk.video_provider %> is not configured.
+    <% end %>
   </div>
 
   <div class="py-4 flex flex-col gap-4 my-4">

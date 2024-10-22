@@ -16,6 +16,7 @@
     https://rubyonrails.org/foundation
 
     #RubyonRails #Rails #Rails7 #Propshaft #Turbo #Strada #SolidCache #SolidQueue #Kamal #missioncontrol #opensource #RailsWorld
+  video_provider: youtube
   video_id: iqXjGiQ_D-A
 
 - title: Implementing Native Composite Primary Key Support in Rails 7.1
@@ -33,6 +34,7 @@
     https://rubyonrails.org/
 
     #RailsWorld #RubyonRails #Rails7 #compositeprimarykey
+  video_provider: youtube
   video_id: aOD0bZfQvoY
 
 - title: "Strada: Bridging The Web and Native Worlds"
@@ -51,6 +53,7 @@
     by your web app. 37signals Mobile Lead & Principal Programmer Jay Ohms walks us
     through it.\n\nLinks:\nhttps://rubyonrails.org/\nhttps://strada.hotwired.dev/\n\n#RailsWorld
     #RubyonRails #Hotwire #strada"
+  video_provider: youtube
   video_id: LKBMXqc43Q8
 
 - title: "Solid Cache: A Disk Backed Rails Cache"
@@ -66,6 +69,7 @@
     rather than days' of data. \n \nThe result: emails are 40% faster to display and
     it costs less to run.\n\nLinks:\nhttps://rubyonrails.org/\nhttps://github.com/rails/solid_cache\nhttps://dev.37signals.com/solid-cache/\n\n#RailsWorld
     #RubyonRails #SolidCache #database #ActiveSupport"
+  video_provider: youtube
   video_id: wYeVne3aRow
 
 - title: 'Keynote: Future of Developer Acceleration with Rails'
@@ -80,6 +84,7 @@
     takes a look at how language servers work, how we can improve language server
     support in Rails, and how this will increase our productivity as Rails developers.
     \n\n#RailsWorld #RubyonRails #Rails #languageserver #LSP #opensource\n\nLinks:\nhttps://rubyonrails.org/"
+  video_provider: youtube
   video_id: GnqRMQ0iQTg
 
 - title: Building an Offline Experience with a Rails-powered PWA
@@ -100,6 +105,7 @@
     areas lacking stable internet access, such as farmers and agricultural technicians.
     \n\nLinks:\nhttps://rubyonrails.org/\nhttps://hotwired.dev/\n\n#RailsWorld #RubyonRails
     #progressivewebapps  #Rails #Rails7 #Hotwire"
+  video_provider: youtube
   video_id: Gj8ov0cOuA0
 
 - title: Rails Core AMA
@@ -126,6 +132,7 @@
     Jeremy Daer, John Hawthorn, Matthew Draper, Rafael Mendonça França, and Xavier Noria.\n\nHosted
     by @Planetargon founder and CEO @RobbyRussell. \n\nLinks:\nhttps://rubyonrails.org/community\nhttps://rubyonrails.org/\nhttps://github.com/rails\nhttps://www.planetargon.com/\n\n#RubyonRails
     #Rails #RailsCore #AMA #RailsWorld #opensource"
+  video_provider: youtube
   video_id: 9GzYoUFIkwE
 
 - title: Powerful Rails Features You Might Not Know
@@ -146,6 +153,7 @@
     background enqueue callers, and more.\n\nLinks:\nhttps://rubyonrails.org/\nhttps://rubyonrails.org/2023/10/5/Rails-7-1-0-has-been-released
     \n\n#RailsWorld #RubyonRails #Rails7 #opensource #OSS #Rails #ActiveRecord #ActiveStorage
     #ActiveSupport"
+  video_provider: youtube
   video_id: iPCqwZ9Ouc4
 
 - title: Making a Difference with Turbo
@@ -167,6 +175,7 @@
     https://rubyonrails.org/
 
     #RubyonRails #Rails #turbo #hotwire #Rails7 #RailsWorld
+  video_provider: youtube
   video_id: m97UsXa6HFg
 
 - title: The Future of Rails as a Full-Stack Framework powered by Hotwire
@@ -183,6 +192,7 @@
     shares guidance on how to effectively utilize Stimulus, Turbo, and other related
     frameworks. \n\nSlides available at: https://speakerdeck.com/marcoroth/the-future-of-rails-as-a-full-stack-framework-powered-by-hotwire\n\nLinks:\nhttps://rubyonrails.org/\nhttps://hotwired.dev/\nhttps://hotwire.io/\nhttps://github.com/marcoroth/hotwire.io\n\n#RailsWorld
     #RubyonRails #Hotwire #Turbo #Stimulus #Fullstack"
+  video_provider: youtube
   video_id: iRjei4nj41o
 
 - title: Using Multiple Databases with Active Record
@@ -200,6 +210,7 @@
     at: https://speakerdeck.com/yukideluxe/using-multiple-databases-with-active-record\n\nLinks:\nhttps://rubyonrails.org/\nhttps://guides.rubyonrails.org/active_record_basics.html
     \nhttps://guides.rubyonrails.org/active_record_multiple_databases.html \n\n#RubyonRails
     #Rails #database #ActiveRecord #multipledatabases"
+  video_provider: youtube
   video_id: XjCqiyYVypI
 
 - title: 'Keynote: The Magic of Rails'
@@ -221,6 +232,7 @@
     available at: https://speakerdeck.com/eileencodes/rails-world-2023-day-1-closing-keynote-the-magic-of-rails\n\nOther
     links:\nhttps://rubyonrails.org/\nhttps://github.com/rails \nhttps://rubyonrails.org/community\n\n#RailsWorld
     #RubyonRails #rails #Rails7 #opensource #oss #community #RailsCore"
+  video_provider: youtube
   video_id: nvuPisDQ1hI
 
 - title: Zeitwerk Internals
@@ -239,6 +251,7 @@
     links:\nhttps://rubyonrails.org/\nhttps://rubyonrails.org/community\nhttps://github.com/rails
     \nhttps://hashref.com/\nhttps://github.com/fxn/zeitwerk\n\n#RailsWorld #RubyonRails
     #rails #Rails7 #opensource #oss #community #RailsCore #Zeitwerk #rubygem"
+  video_provider: youtube
   video_id: YTMS1N7jI78
 
 - title: Migrating Shopify's Core Rails Monolith to Trilogy
@@ -256,6 +269,7 @@
     Adrianna Chang explores why the Trilogy client was built and why Shopify wanted
     to adopt it. \n\nLinks:\nhttps://rubyonrails.org/\n\n#RailsWorld #RubyonRails
     #rails #opensource #MySQL #ActiveRecord #Trilogy"
+  video_provider: youtube
   video_id: AUV3Xgy-zuE
 
 - title: "Guardrails: Keeping Customer Data Separate in a Multi Tenant System"
@@ -270,6 +284,7 @@
     and Rails’ MemCacheStore, as well as the exciting knock-on benefits it offered
     for observability. \n\nLinks:\nhttps://rubyonrails.org/\nhttps://api.rubyonrails.org/classes/ActiveSupport/Cache/MemCacheStore.html
     \n\n#RailsWorld #RubyonRails #Rails7 #security #datasecurity #observability #ActiveRecord"
+  video_provider: youtube
   video_id: 5MLT-QP4S74
 
 - title: Propshaft and the Modern Asset Pipeline
@@ -292,6 +307,7 @@
     and redo a large part of your frontend. But to make that decision we have to understand
     what makes the new asset pipeline so different from the previous one.\n\nLinks:\nhttps://rubyonrails.org/\nhttps://github.com/rails/propshaft\nhttps://world.hey.com/dhh/introducing-propshaft-ee60f4f6\nhttps://github.com/rails/propshaft/blob/main/UPGRADING.md\nhttps://discuss.rubyonrails.org/t/guide-to-rails-7-and-the-asset-pipeline/80851\n\n#RailsWorld
     #RubyonRails #rails #Rails7 #opensource #propshaft #asssetpipeline #Rubygem"
+  video_provider: youtube
   video_id: yFgQco_ccgg
 
 - title: "Rails::HTML5: The Strange and Remarkable Three-Year Journey"
@@ -311,6 +327,7 @@
     of libgumbo.\n\nSlides are online at http://mike.daless.io/prez/2023/10/06/rails-world-rails-html5/\n\nLinks:\nhttps://rubyonrails.org/\nhttps://github.com/rails/rails-html-sanitizer\nhttps://api.rubyonrails.org/classes/ActionView/Helpers/SanitizeHelper.html
     \n\n#RailsWorld #RubyonRails #rails #Rails7 #opensource #security #HTML5 #nokogiri
     #libgumbo #actionview"
+  video_provider: youtube
   video_id: USPLEASZ0Dc
 
 - title: "Hotwire Cookbook: Common Uses, Essential Patterns & Best Practices"
@@ -337,6 +354,7 @@
     https://hotwired.dev/
 
     #RailsWorld #RubyonRails #rails #hotwire #stimulusjs #turbo #turbolinks #domid #kredis #turboframes #turbostreams
+  video_provider: youtube
   video_id: F75k4Oc6g9Q
 
 - title: Demystifying the Ruby Package Ecosystem
@@ -360,6 +378,7 @@
     https://rubygems.org/
 
     #RailsWorld #RubyonRails #rails #opensource #OSS #community#Rubygems
+  video_provider: youtube
   video_id: kaRhg3QDzFY
 
 - title: Applying Shape Up in the Real World
@@ -380,6 +399,7 @@
     https://basecamp.com/shapeup
 
     #RailsWorld #RubyonRails #rails #shapeup #scrum
+  video_provider: youtube
   video_id: mYbxQwQAkes
 
 - title: "Tailwind CSS: It looks awful, and it works"
@@ -396,6 +416,7 @@
     https://tailwindcss.com/
 
     #RailsWorld #RubyonRails #Rails #railwindcss #tailwind #frontend
+  video_provider: youtube
   video_id: TNXM4bqGqek
 
 - title: Wildest Dreams of Making Profit on Open Source
@@ -414,6 +435,7 @@
     https://evilmartians.com/
 
     #RailsWorld #RubyonRails #rails #opensource #OSS
+  video_provider: youtube
   video_id: gHUSoXJtatc
 
 - title: Monolith-ifying Perfectly Good Microservices
@@ -431,6 +453,7 @@
     https://rubyonrails.org/
 
     #RailsWorld #RubyonRails #rails #Rails7 #opensource #monolith #microservices
+  video_provider: youtube
   video_id: wV1Yva-Dp4Y
 
 - title: Just enough Turbo Native to be dangerous
@@ -449,6 +472,7 @@
     and how to integrate with native Swift SDKs, and more.\n\nSlides available at:
     https://masilotti.com/slides/rails-world-2023/\n\nLinks:\nhttps://rubyonrails.org/\nhttps://masilotti.com/
     \n\n#RailsWorld #RubyonRails #rails #turbo #turbonative #ios #swift #xcode"
+  video_provider: youtube
   video_id: hAq05KSra2g
 
 - title: Untangling Cables and Demystifying Twisted Transistors
@@ -467,6 +491,7 @@
     helps you understand Rails’ real-time component, Action Cable so you can work
     with it efficiently and confidently.\n\nSlides available at: https://speakerdeck.com/palkan/railsworld-2023-untangling-cables-and-demystifying-twisted-transistors\n\nLinks:\nhttps://rubyonrails.org/\n\n#RailsWorld
     #RubyonRails #rails #actioncable"
+  video_provider: youtube
   video_id: GrHpop5HtxM
 
 - title: Don't Call It a Comeback
@@ -484,6 +509,7 @@
     https://rubyonrails.org/
 
     #RailsWorld #RubyonRails #rails #opensource #OSS #community
+  video_provider: youtube
   video_id: Dj8VGizRT6E
 
 - title: "Rails and the Ruby Garbage Collector: How to Speed Up Your Rails App"
@@ -501,4 +527,5 @@
     Autotuner, a new tool designed to help you tune the garbage collector of your
     Rails app.\n\nSlides available at: https://blog.peterzhu.ca/assets/rails_world_2023_slides.pdf\n\nLinks:\nhttps://rubyonrails.org/\nhttps://railsatscale.com/2023-08-08-two-garbage-collection-improvements-made-our-storefronts-8-faster/\nhttps://github.com/shopify/autotuner\nhttps://blog.peterzhu.ca/notes-on-ruby-gc/\nhttps://shopify.engineering/adventures-in-garbage-collection\n\n#RailsWorld
     #RubyonRails #rails #rubygarbagecollection #autotuner"
+  video_provider: youtube
   video_id: IcN7yFTS8jY

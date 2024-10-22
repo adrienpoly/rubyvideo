@@ -11,6 +11,7 @@
     Luckily, the reasons for slow tests vary greatly between codebases: misconfigured environment, test-unfriendly dependencies, and, of course, factories and database interactions in general.
 
     I like to demonstrate the tools and techniques to help you identify bottlenecks in test suites to help you stay awake.
+  video_provider: youtube
   video_id: WNluKNQ1OFU
   slides_url: https://speakerdeck.com/palkan/helvetic-ruby-2023-profiling-ruby-tests-with-swiss-precision
 
@@ -26,6 +27,7 @@
     concerns. But are they really as fast as threads? And are they worth the trouble?
     In this talk, we'll explore the ins and outs of Ractors, shedding light on how
     they work and helping you decide if they're right for your project
+  video_provider: youtube
   video_id: GhPAMDdOnU0
 
 - title: How to Keep your Database Happy
@@ -37,6 +39,7 @@
   description: |-
     You don't want to spend too much time looking after your database; you've got better things to do with your time, but you do want your database to run smoothly and perform well. Fortunately, there are a few simple things that you can do to make sure your database ticks along nicely in the background.
     I've put together my top 5 tips, based on things that have been useful to me as a DBA. The focus will be on Postgres, but most of the tips are also relevant to other databases. These are things you can put in place, without too much effort, to make sure your database works well.
+  video_provider: youtube
   video_id: y13fs-q4WGo
 
 - title: Postcards From An Early-Career Developer's First Months
@@ -49,6 +52,7 @@
     Postcards From An Early-Career Developer's First Months: Recognising the Struggles and the Joys.
 
     In the fast-paced learning environment of software development, it can be hard for more established developers to remember the experience of someone finding their feet in their first software role. This talk aims to remind most of us of the common things that new developers learn, grapple with and celebrate in the first few months on the job, and for the juniors themselves, to expose how common these struggles are (and hopefully provide some pointers along the way!).
+  video_provider: youtube
   video_id: jNY4CViM76U
 
 - title: "Lightning talk: Five Minutes of a Random Stranger Talking About Creativity"
@@ -65,6 +69,7 @@
     A lightning talk from the Helvetic Ruby 2023 conference.
 
     "Creative people are just born that way", right? Contrary to this opinion, like so many other things humans do, this too is a learned behavior! Lucky for us, right? Kinda like how “Some people are just born to program”, right? It may be more a mix of early and continued cultivated exposure and time+interest than lucky genes. Cultivating our creative juices has its benefits! This is a short 5-minute reminder on the why and how you can be even more awesome and add creativity back into your life, to help improve mental health, capacity for problem solving and joy. Like exercise, but more fun.
+  video_provider: youtube
   video_id: l1UG9lYDnNk
 
 - title: How to bootstrap your software startup
@@ -77,6 +82,7 @@
     In 2022, a close friend and former co-worker and myself founded The Happy Lab GmbH and we only had one purpose for the company: A place where happy co-workers develop products to make users happy.
 
     In 6 months we went from exploring the problem space to come up with the first hypotheses a to a platform with recurring revenue by following the principles of lean startup and applying all the techniques and methods we have learned in our 15+ years in product management, engineering and leadership positions. In my talk, I will walk the audience through our bootstrapping steps and learnings.
+  video_provider: youtube
   video_id: 20gPjHP5szQ
 
 - title: "A Rails performance guidebook: from 0 to 1B requests/day"
@@ -92,6 +98,7 @@
     Building a feature is not good enough anymore: all your work won't be of use if it's not performant enough. So how to improve performance? After all, performance is not an easy discipline to master: all slow applications are slow in their own way, meaning that there is no silver bullet for these kinds of problems.
 
     In this presentation, we will guide you across patterns, strategies, and little tricks to improve performance. We will do that by sharing real stories of our daily experience facing and solving real performance issues in an application that daily serves billions of requests per day.
+  video_provider: youtube
   video_id: uDb71s9MtVk
 
 - title: "Lightning talk: Sliced Ruby - Enforcing module boundaries with private_const and packwerk"
@@ -106,6 +113,7 @@
     A lightning talk from the Helvetic Ruby 2023 conference.
 
     Ideas on how ruby can help you protect your architecture. I'll work through an example of tightly coupled classes where it's not apparent who calls who and who should be allowed to call who. This is refactored in a few steps towards a design where the ruby interpreter and the packwerk gem prevent certain errors alltogether.
+  video_provider: youtube
   video_id: ZBoiu0yUrwI
 
 - title: "Lightning talk: Conventionally-typed Ruby"
@@ -118,6 +126,7 @@
     A lightning talk from Helvetic Ruby 2023.
 
     Dynamically typed vs statically typed, come-on… Why can we not have the best of both worlds? I'd like to introduce the theoretical concept of a conventionally-typed Ruby.
+  video_provider: youtube
   video_id: MIl1AFWoAXQ
 
 - title: "Lightning talk: Ideas for growing our Ruby community"
@@ -133,6 +142,7 @@
     in learning Ruby: type of articles, project ideas, developer experience, starting
     kits, and some other points. \n\nThe purpose of this talk is to start a conversation
     or to invite people to share more."
+  video_provider: youtube
   video_id: qrXscRsObvo
 
 - title: Anatomy of a Sonic Pi Song
@@ -149,6 +159,7 @@
     loops including: rhythm sections, melody, chord progressions and audio embellishments.
     We''ll build a song that can be mixed and modified at will and in the process,
     learn some key elements of what makes Sonic Pi "sing.”'
+  video_provider: youtube
   video_id: A7owAl1Q6PQ
 
 - title: The Functional Alternative
@@ -165,4 +176,5 @@
     matters, why immutable code matters, and why it can help you writing bug-free
     code. The next time you find yourself writing imperative code, you'll think about...
     the functional alternative.
+  video_provider: youtube
   video_id: Fm099cLXdV8

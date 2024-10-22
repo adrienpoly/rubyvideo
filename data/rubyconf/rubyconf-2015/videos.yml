@@ -18,6 +18,7 @@
     A small micro-library, done the right way, at the right time, can greatly improve an app.
 
     But, when can you benefit from extracting a micro-library? And, how do you build and publish that code into a RubyGem? I'll go through the process, from A to Z.
+  video_provider: youtube
   video_id: r5l0CaxqSvA
 
 - title: 'Keynote: Leagues of Sea and Sky'
@@ -30,6 +31,7 @@
     Keynote: Leagues of Sea and Sky by Jeff Norris
 
     In this keynote, Jeff tells three stories of inventions for nautical and aeronautical exploration to reveal how partnership has shaped the greatest journeys in history and how it should shape your own. From the sextant to holographic mixed reality, Jeff shares meticulously researched history along with some of the projects he's led in space exploration via a unique medium that he created just for this presentation.
+  video_provider: youtube
   video_id: BZg75PlmzXI
 
 - title: The Not So Rational Programmer
@@ -44,6 +46,7 @@
     Cognitive biases are heuristics that the brain uses to process information and quickly come up with decisions. They are generally pretty useful, but they aren’t perfect processes and can often lead to suboptimal decisions or behaviors.
 
     This talk will help you to recognize their patterns in your thinking and behavior and (since we unfortunately can’t quite de-bug our own brains yet) to monkey-patch them - in order to become a more efficient, more cooperative and ultimately more successful developer.
+  video_provider: youtube
   video_id: E-5VhMUYmVY
 
 - title: 'Inside Ruby''s VM: The TMI Edition.'
@@ -56,6 +59,7 @@
     Inside Ruby's VM: The TMI Edition. by Aaron Patterson
 
     This is about Ruby's Virtual Machine. Specifically MRI's Virtual Machine. We will take a dive in to how your Ruby code is compiled in to byte code and how that byte code is executed. Once we get a grip on how the VM works, we'll see how to make it perform tricks the likes of which you've never seen! Ok, maybe you have seen them, just not with MRI's virtual machine.
+  video_provider: youtube
   video_id: CT8JSJkymZM
 
 - title: How To Stop Hating Your Test Suite
@@ -72,6 +76,7 @@
     Years helping teams write better tests has taught me one thing: consistency is crucial. Inconsistent tests slow teams down, wasting time to understand how each test works. Deciding on conventions—even arbitrary ones—can prevent tremendous pain later.
 
     This talk will introduce a ready-to-fork Test Style Guide of carefully-considered rules and templates for Rubyists. You can customize it to fit your preferred tools, too. Soon, you'll be on your way to having more consistent tests that are much more fun to maintain!
+  video_provider: youtube
   video_id: VD51AkG8EZw
 
 - title: A Guided Read of Minitest
@@ -88,6 +93,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H09k/
+  video_provider: youtube
   video_id: ojd1G4gOMdk
 
 - title: Your own 'Images as a Service'
@@ -106,6 +112,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H05Y/
+  video_provider: youtube
   video_id: zhW1E6_YpC4
 
 - title: Ruby Preserves
@@ -126,6 +133,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H09j/
+  video_provider: youtube
   video_id: MZVSK4cjeF4
 
 - title: JRuby 9000 Is Out; Now What?
@@ -143,6 +151,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0c2/
+  video_provider: youtube
   video_id: KifjmbSHHs0
 
 - title: Making it on your own and the pitfalls of gem dependencies
@@ -160,6 +169,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0c0/
+  video_provider: youtube
   video_id: sjFqWUq6CjQ
 
 - title: Ruby in 79 AD (Open Sourcing my Role as Indiana Jones)
@@ -176,6 +186,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0cZ/
+  video_provider: youtube
   video_id: QaR3Wcms4HM
 
 - title: Mind Over Error
@@ -192,6 +203,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0cY/
+  video_provider: youtube
   video_id: _ztlV76b2Gg
 
 - title: How to Crash an Airplane
@@ -206,6 +218,7 @@
     On July 19, 1989, United Airlines Flight 232 was en route to Chicago when a mechanical failure caused the plane to become all but uncontrollable. In this unsurvivable situation, the flight crew saved more than half of those onboard. How did they do it?
 
     Flight crews and software teams actually have a lot in common, and there's much we can learn from how the best crews do their jobs. What can we learn from the story of United 232? While this talk won't earn you your pilot's license, you'll definitely come away with some fresh ideas on how to make your team even more amazing.
+  video_provider: youtube
   video_id: S2FUSr3WlPk
 
 - title: 'RuntimeError: can''t save WORLD'
@@ -220,6 +233,7 @@
     Rumor has it that software engineers hold the power to build the things of our future. Now, the world is filling up with technologies and devices – who knows what all of them are for? With power comes responsibility, or in this case the chance to build and write better things.
 
     Here is where strategies and concepts from the social design practice apply. They offer ideas for a holistic approach to programming, while yielding the prospect to establish a connection with your work that goes beyond the purely technical side of things.
+  video_provider: youtube
   video_id: H2aKUfiFlFc
 
 - title: Working Compassionately with Legacy Code
@@ -232,6 +246,7 @@
     Working Compassionately with Legacy Code by Amar Shah
 
     Your code is your partner. It struggles against you, but also alongside you. Your code comes to you as it is, not as you wish it were. Like a real-life partner, it has a history that you’ll never fully know; like a real-life child, it bears your imprint, but it is wild, unruly, and fiercely self-sovereign. You’ll never stop working with code that’s hard to figure out or difficult to change. But this code, this stubborn creature, is entrusted to you. Let go of your anger at the developer who wrote it. Let go of the terror of being blamed for its unforeseeable regressions. Let go--and find joy.
+  video_provider: youtube
   video_id: JC4mS7sYQlU
 
 - title: How does Bundler work, anyway?
@@ -248,6 +263,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0pf/
+  video_provider: youtube
   video_id: 4DqzaqeeMgY
 
 - title: Ruby 2 Methodology
@@ -266,6 +282,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0pe/
+  video_provider: youtube
   video_id: UhMnFy3vNAU
 
 - title: Domo Arigato mruby Roboto
@@ -285,6 +302,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0pd/
+  video_provider: youtube
   video_id: 7qWZ5w5v7Eg
 
 - title: 'Keynote: Stupid Ideas for Many Computers'
@@ -305,6 +323,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0nF/
+  video_provider: youtube
   video_id: _O1MGHcsQCI
 
 - title: Nobody Expects an Inquisition! - A Programmer's Guide to Asking Questions
@@ -321,6 +340,7 @@
     Like many programmers, I’ve relied on deductive reasoning to avoid asking questions - fearing that someone would find out I didn't belong. At the start of this year, I made the decision to change all that. This talk will evaluate tools which improved my professional and personal life.
 
     Let’s learn how to rely less on being intuitive and more on being inquisitive.
+  video_provider: youtube
   video_id: 2h1EocEyiSo
 
 - title: Stately State Machines with Ragel
@@ -337,6 +357,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0nE/
+  video_provider: youtube
   video_id: Tr83XxNRg3k
 
 - title: Communicating Intent Through Git
@@ -353,6 +374,7 @@
     Software is the result of thousands of decisions. Add this feature; clarify this method; change this behavior. Every team should be able to know why a decision was made.
 
     Creating software is a journey—let Git be your travel journal.
+  video_provider: youtube
   video_id: vMOAcaA33Dk
 
 - title: Writing concurrent libraries for all Ruby runtimes
@@ -369,6 +391,7 @@
     The talk will take you on a path of writing a simple concurrent class. We'll start with a basic implementation and gradually improve it based on presented problems and newly learned facts. Our final solution will behave well in the face of concurrency and execute consistently on all Ruby implementations.
 
     We’ll investigate various Ruby runtime differences that we’ve abstracted away with the synchronization layer of the concurrent-ruby gem. We'll go down to JRuby extensions, even volatile fields and compare-and-swap operations.
+  video_provider: youtube
   video_id: r5kwIm3Q6Y0
 
 - title: 'Hardware Hacking: You Can Be A Maker'
@@ -384,6 +407,7 @@
     There is something fundamentally satisfying about building things that bridge the gap between your code and the physical world. This father/daughter duo will show you how they've bridge that gap.
 
     I frequently find Rubyists that are interested in tinkering with hardware but are often intimidated by the idea. Turns out, it is so easy even a grown-up can do it. In fact it is easier than it has ever been. And the best part is, you can use little Ruby.
+  video_provider: youtube
   video_id: 8UrsjxJSPcY
 
 - title: Learn to Make Music. With Ruby.
@@ -402,6 +426,7 @@
     And if you've never made a note of music in your life, fear not: you'll also get a crash course in music composition and learn how the elements of rhythm, melody, and harmony work together to make a cohesive whole.
 
     Bring your laptop and headphones: this will be very hands-on, and you'll be making your first track before we even get to questions!
+  video_provider: youtube
   video_id: exZTxhH06tw
 
 - title: Mo Money Mo Problems (with Ruby)
@@ -418,6 +443,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0nG/
+  video_provider: youtube
   video_id: aQ0dz7eykvI
 
 - title: Shall We Play A Game?
@@ -436,6 +462,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0nI/
+  video_provider: youtube
   video_id: FXVj2kauFCM
 
 - title: 'GDB: A Gentle Intro'
@@ -456,6 +483,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0nH/
+  video_provider: youtube
   video_id: APNZmTEs9tc
 
 - title: Not so Neo in the Matrix
@@ -468,6 +496,7 @@
     Not so Neo In the Matrix by Micah Adams
 
     Matrices are powerful data structures that are used for all sorts of interesting problems- from 3d graphics, to image processing, and cryptography. However, the mighty matrix can be used to solve more mundane problems as well. This talk attempts to demystify the matrix and offer real life examples for using this powerful but understandable data structure.
+  video_provider: youtube
   video_id: GCqd_BcOrsU
 
 - title: 'Time Flies Like An Arrow; Fruit Flies Like A Banana: Parsers for Great Good'
@@ -482,6 +511,7 @@
     When you type print "Hello, world!", how does your computer know what to do? Humans are able to naturally parse spoken language by analyzing the role and meaning of each word in context of its sentence, but we usually take for granted the way computers make sense of the code we write.
 
     By exploring the way our brains construct grammars to parse sentences, we can better understand how parsers are used for computering -- whether it be in the way Ruby and other languages are implemented or in webserver routing -- and recognize when they may be the right tool to use in our own code.
+  video_provider: youtube
   video_id: lCtzFWAPDP4
 
 - title: Bikeshed! Live!
@@ -501,6 +531,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0ph/
+  video_provider: youtube
   video_id: sn7prRGGp4Q
 
 - title: How to Performance
@@ -519,6 +550,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0pg/
+  video_provider: youtube
   video_id: obyrJ_aJU6A
 
 - title: Code, Culture and the Pursuit of Happiness
@@ -535,6 +567,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1AZ/
+  video_provider: youtube
   video_id: O98rt9Z11LU
 
 - title: Just a Ruby Minute
@@ -547,6 +580,7 @@
     We're bringing Just a Minute -- the popular British gameshow format -- to RubyConf! The rules of the game are simple, the results are hilarious, and who knows, you might even learn something new! Come join us to see some of your favorite Rubyists be utterly silly... for a minute at a time, at least.
 
     Contestants: Aaron Patterson, Andy Croll, Kerri Miller, Sam Phippen
+  video_provider: youtube
   video_id: V7N70mZ4NxI
 
 - title: Softly, Softly Typing
@@ -567,6 +601,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0zo/
+  video_provider: youtube
   video_id: XGLYHQ1BLfM
 
 - title: I Estimate this Talk will be 20 Minutes Long, Give or Take 10 Minutes
@@ -587,6 +622,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0zn/
+  video_provider: youtube
   video_id: jBMwT53oGsM
 
 - title: 'Moneyball At The Keyboard: Lessons on How To Scout Talented Developers'
@@ -603,6 +639,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0zk/
+  video_provider: youtube
   video_id: tw5wFOAmpTc
 
 - title: Seven Habits of Highly Effective Gems
@@ -619,6 +656,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0zl/
+  video_provider: youtube
   video_id: tqLbgS0fw5c
 
 - title: The Art of Ruby Technical Interviews
@@ -635,6 +673,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H0zm/
+  video_provider: youtube
   video_id: nZNfSQKC-Yk
 
 - title: Design Thinking for Rubyists
@@ -647,6 +686,7 @@
     Design Thinking for Rubyists by Louisa Barrett
 
     Everyone has the power to be creative, and design thinking is about shifting your mindset to fully embrace your ability to generate new ideas. Let's explore how to flex those creative muscles -- because while technology needs change, the ability to generate great ideas that resonate with users will never lose value.
+  video_provider: youtube
   video_id: ruETk-YbQpI
 
 - title: 'Keynote: Ruby 3 Challenges (and Q&A with Matz)'
@@ -657,6 +697,7 @@
   event_name: RubyConf 2015
   published_at: '2015-11-22'
   description: 'Keynote and Q&A: Matz'
+  video_provider: youtube
   video_id: LE0g2TUsJ4U
 
 - title: The Seven Righteous Fights
@@ -671,6 +712,7 @@
     There are seven fights that I have over and over again, whenever I start at a company. I'm here to convince you that it's valuable for everyone to have these things in mind from the inception of a project.
 
     Having these fights early prevents you from doing the software equivalent of poking chocolate chips into an already-baked cookie
+  video_provider: youtube
   video_id: 7vuOth98ZzY
 
 - title: Lightning Talks
@@ -719,6 +761,7 @@
     18. 1:12:12 - Craig Buchek - Too Late to Estimate
     19. 1:14:38 - Loraine Kanervisto - Book Duets
     20. 1:19:07 - Britni Alexander - Go Get a Damn Job
+  video_provider: youtube
   video_id: G4j_GrieCyk
 
 - title: A Muggle's Guide to Tail Call Optimization in Ruby
@@ -739,6 +782,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1T8/
+  video_provider: youtube
   video_id: 6Tblgvvit4E
 
 - title: Extremely Defensive Coding
@@ -759,6 +803,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1T7/
+  video_provider: youtube
   video_id: 44VFrNs7JTU
 
 - title: Everything You Know About the GIL is Wrong
@@ -775,6 +820,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1T6/
+  video_provider: youtube
   video_id: dP4U1yI1WZ0
 
 - title: Ruby's Environment Variable API
@@ -789,6 +835,7 @@
     You use tools like Bundler, RVM, rbenv, or chruby every day. But what are these tools actually doing behind the scenes?
 
     Let's take a closer look at how tools like these alter Ruby's behavior by tweaking the environment it runs in. We'll take the mystery out of load paths and gems sets. You'll come away with a better understanding of how tools like RVM work, and a better idea of where to look when they don't do what you expected.
+  video_provider: youtube
   video_id: thZx3k6cmis
 
 - title: Storytelling via the Psychology of Professional Wrestling
@@ -805,6 +852,7 @@
     No back-story, little dialog, and a live crowd that knows it's all scripted. Yet, they get the audience invested in the outcomes almost every time.
 
     Sound impossible? Pro-wrestlers know the essence of great storytelling—called “ring psychology”—and have used it for decades.
+  video_provider: youtube
   video_id: FplG2HLe3y0
 
 - title: The Math Behind Mandelbrot
@@ -817,6 +865,7 @@
     The Math Behind Mandelbrot by David Bock
 
     One day in my high school classroom I heard a student ask "What is 'i' good for anyway? I mean, is it a concept that's useful in the real world?" I jumped at the chance to explain the Mandelbrot set. Come with me on a journey to understand how infinite complexity can arise from a few simple rules. Infinity will fit inside your head, and you'll feel like you just learned one of the Great Secrets of the Universe. If you can multiply, you'll understand all the math in this talk.
+  video_provider: youtube
   video_id: t2v32N56sSY
 
 - title: Beating Go Thanks To The Power Of Randomness
@@ -834,6 +883,7 @@
     Monte Carlo method, basically random simulation, plays a vital role in conquering
     Go's complexity and creating the strong Go bots of today.\n\nHelp us caption &
     translate this video!\n\nhttp://amara.org/v/H1VW/"
+  video_provider: youtube
   video_id: fFGB3VFuSFU
 
 - title: Why Is Nobody Using Refinements?
@@ -852,6 +902,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1VV/
+  video_provider: youtube
   video_id: qXC9Gk4dCEw
 
 - title: 's/regex/DSLs/: What Regex Teaches Us About DSL Design'
@@ -868,6 +919,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1VU/
+  video_provider: youtube
   video_id: wUWwDrP_6Zw
 
 - title: 'Changing the Unchangeable: The Hows and Whys of Immutable Data Structures'
@@ -884,6 +936,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1VT/
+  video_provider: youtube
   video_id: gTClDj9Zl1g
 
 - title: The Hitchhiker's Guide to Ruby GC
@@ -900,6 +953,7 @@
     of garbage collection in Ruby, including its evolution, parameter tuning, and
     a case study using the Unicorn web server.\n\nHelp us caption & translate this
     video!\n\nhttp://amara.org/v/H1VS/"
+  video_provider: youtube
   video_id: NnqId_OvUU4
 
 - title: Botany with Bytes
@@ -918,6 +972,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H12I/
+  video_provider: youtube
   video_id: UM8rn2N0g4U
 
 - title: Building CLI Apps for Everyone
@@ -944,6 +999,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H12H/
+  video_provider: youtube
   video_id: zv_bCpOCXxo
 
 - title: 'Cucumbers Have Layers: A Love Story'
@@ -964,6 +1020,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H12G/
+  video_provider: youtube
   video_id: v_3i_U7Nf80
 
 - title: Tagging Your World With RFID
@@ -980,6 +1037,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H12F/
+  video_provider: youtube
   video_id: "-C3WI5LxI-s"
 
 - title: Manage Your Energy, Not Your Time
@@ -996,6 +1054,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H12q/
+  video_provider: youtube
   video_id: 505ybcH0f6s
 
 - title: 'Messenger: The (Complete) Story of Method Lookup'
@@ -1014,6 +1073,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1fg/
+  video_provider: youtube
   video_id: TZWQAvlMru8
 
 - title: A Tale of Two Feature Flags
@@ -1032,6 +1092,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1fh/
+  video_provider: youtube
   video_id: rBBLMmr9e-k
 
 - title: The Joy of Miniature Painting
@@ -1052,6 +1113,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1gm/
+  video_provider: youtube
   video_id: xCBRqZpiB2M
 
 - title: Using Ruby In Security Critical Applications
@@ -1068,6 +1130,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H1hn/
+  video_provider: youtube
   video_id: GenjU6iRb6o
 
 - title: Hacking Spacetime for a Successful Career
@@ -1082,6 +1145,7 @@
     We’ll build a time machine and follow a typical development career through various tracks, and see how a few basic principles can radically alter your career’s trajectory over time.
 
     If you’ve ever felt the existential dread of “climbing the walls” at your job, you’re not alone. We’ll explore why and share some concrete steps you can take now to create a long, happy, rewarding career.
+  video_provider: youtube
   video_id: TrLDU6u_-rY
 
 - title: 'Keynote: Consequences of an Insightful Algorithm'
@@ -1094,6 +1158,7 @@
     Keynote: Consequences of an Insightful Algorithm by Carina C. Zona
 
     Coders have ethical responsibilities. We can extract remarkably precise intuitions about people. Do we have a right to know what they didn't consent to share, even when they shared data leading us there? Balancing human needs and business specs can be tough. How do we mitigate against unintended outcomes? In this talk, we look at examples of uncritical programming, & painful results of using insightful data in ways that were benignly intended. You'll learn practices for examining how code might harm individuals. We’ll look at how to flip the paradigm, for consequences that are better for all.
+  video_provider: youtube
   video_id: Vpr-xDmA2G4
 
 - title: 'String Theory and Time Travel: The Humble Text Editor'
@@ -1114,4 +1179,5 @@
     Help us caption & translate this video!
 
     http://amara.org/v/H5Qq/
+  video_provider: youtube
   video_id: zaql_NwlO18

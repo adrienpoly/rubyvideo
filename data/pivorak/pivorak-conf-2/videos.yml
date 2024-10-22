@@ -11,6 +11,7 @@
     In addition to Nerves and Elixir, we will use deep learning with TensorFlow for face recognition.
 
     Slides here -  https://speakerdeck.com/arto/building-a-home-security-system-with-elixir-and-nerves
+  video_provider: youtube
   video_id: oyNSmhkS7Dw
 
 - title: 'Lightning Talk: Writing That Works'
@@ -20,6 +21,7 @@
   event_name: Pivorak Conf 2.0
   published_at: '2019-02-01'
   description: ''
+  video_provider: youtube
   video_id: xOmr51X47RA
 
 - title: 'Lightning Talk: How To Keep Funds In Place - Working With Money In Fintech Apps'
@@ -29,6 +31,7 @@
   event_name: Pivorak Conf 2.0
   published_at: '2019-02-01'
   description: ''
+  video_provider: youtube
   video_id: bevgYZMMzCE
 
 - title: 'Ruby Us Hagrid: Writing Harry Potter With Ruby'
@@ -40,6 +43,7 @@
   description: |-
     We all know that Ruby can give us superpowers, but can we use it do something truly magical - write a brand new Harry Potter completely automatically?
     It turns out that Ruby and the dark arts of Natural Language Programming are a match made in heaven! Using some basic NLP techniques, a dash of probability, and a few lines of simple Ruby code, we can create a virtual author capable of generating a very convincing Potter pastiche. And if the life of an author’s not for you, don’t worry. In the last part of the talk, we'll explore how we can apply what we've learned to everyday coding problems.
+  video_provider: youtube
   video_id: aEWMKC59HXk
 
 - title: Domain Modeling With Datalog
@@ -55,4 +59,5 @@
     turn, will help you understand when and how you should apply Datalog in practice:
     on the client, on the server, as a graph database, as a communication protocol
     ala GraphQL/Falcor, or as an event-sourcing storage mechanism.'
+  video_provider: youtube
   video_id: oo-7mN9WXTw

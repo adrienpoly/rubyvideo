@@ -10,8 +10,14 @@ export default class extends Controller {
   playbackRateOptions = [1, 1.25, 1.5, 1.75, 2]
 
   connect () {
+    const providerOptions = {}
+
+    if (this.hasProviderValue) {
+      providerOptions.provider = this.providerValue
+    }
+
     this.player = new Vlitejs(this.playerTarget, {
-      provider: this.hasProviderValue ? this.providerValue : 'youtube',
+      ...providerOptions,
       options: {
         poster: this.posterValue,
         controls: true
