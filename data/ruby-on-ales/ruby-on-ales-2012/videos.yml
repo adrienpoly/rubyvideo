@@ -1,26 +1,36 @@
 ---
 
-- title: Learning Ruby Made Me A Better Objective C Programmer
-  raw_title: Learning Ruby Made me a better Objective C Programmer by Michael Harper at Ruby on Ales 2012
+# https://web.archive.org/web/20120531050211/http://ruby.onales.com/schedule
+
+## Day 1 - Thursday - 2012-10-03
+
+# Registration
+
+# Welcome and Introductions
+
+- title: Outgrowing the Cloud
+  raw_title: Outgrowing the Cloud by Mike Moore at Ruby on Ales 2012
   speakers:
-    - Michael Harper
+    - Mike Moore
   event_name: Ruby on Ales 2012
-  published_at: '2012-10-02'
+  published_at: '2012-03-01'
   description: |-
-    After working with C++ in the early 90s, I ended up on a project on NeXT for two years. The programming language on NeXT was Objective C which seemed like C++'s weird uncle. Java came along and kept me busy for the next several years while Apple simultaneously built Mac OS X atop NeXTStep. In 2006, I heard on the Java Posse podcast about Ruby on Rails. Compared to Java EE, Rails was a dream come true. After spending several years with Rails and simultaneously finding my way into Mac and iOS development, I started to understand why Objective C was much cooler than I had realized.
+    The cloud is great. It has lowered the bar for deploying applications. The cloud has encouraged experimentation which has lead to innovation. But what happens when an application's needs grows beyond what simple cloud services can offer?
+
+    In this riveting presentation Mike will discuss systems architecture and strategies for growing apps. He'll share specifics about the challenges Bloomfire met by making key changes to their infrastructure, including how network topology was used to solve critical issues with no changes to the application code.
 
     Help us caption & translate this video!
 
-    http://amara.org/v/FGgc/
+    http://amara.org/v/FGga/
   video_provider: youtube
-  video_id: 0GNilQImFZ8
+  video_id: z1umCUEc7_E
 
 - title: Start Your Engines
   raw_title: Start Your Engines by Ryan Bigg at Ruby on Ales 2012
   speakers:
     - Ryan Bigg
   event_name: Ruby on Ales 2012
-  published_at: '2012-10-02'
+  published_at: '2012-03-01'
   description: |-
     Engines are a new-to-Rails feature that really isn't all that new-to-Rails. The concept has been around for a very long time, it's just only now that they, the Rails Core Team, has Done It Right(tm). In this talk, I go through the lessons learned while developing not just one but two engines.
 
@@ -32,22 +42,86 @@
   video_provider: youtube
   video_id: bHKZfIeAbds
 
-- title: Outgrowing the Cloud
-  raw_title: Outgrowing the Cloud by Mike Moore at Ruby on Ales 2012
+- title: Learning Ruby Made Me A Better Objective C Programmer
+  raw_title: Learning Ruby Made me a better Objective C Programmer by Michael Harper at Ruby on Ales 2012
   speakers:
-    - Mike Moore
+    - Michael Harper
   event_name: Ruby on Ales 2012
-  published_at: '2012-10-02'
+  published_at: '2012-03-01'
   description: |-
-    The cloud is great. It has lowered the bar for deploying applications. The cloud has encouraged experimentation which has lead to innovation. But what happens when an application's needs grows beyond what simple cloud services can offer?
-
-    In this riveting presentation Mike will discuss systems architecture and strategies for growing apps. He'll share specifics about the challenges Bloomfire met by making key changes to their infrastructure, including how network topology was used to solve critical issues with no changes to the application code.
+    After working with C++ in the early 90s, I ended up on a project on NeXT for two years. The programming language on NeXT was Objective C which seemed like C++'s weird uncle. Java came along and kept me busy for the next several years while Apple simultaneously built Mac OS X atop NeXTStep. In 2006, I heard on the Java Posse podcast about Ruby on Rails. Compared to Java EE, Rails was a dream come true. After spending several years with Rails and simultaneously finding my way into Mac and iOS development, I started to understand why Objective C was much cooler than I had realized.
 
     Help us caption & translate this video!
 
-    http://amara.org/v/FGga/
+    http://amara.org/v/FGgc/
   video_provider: youtube
-  video_id: z1umCUEc7_E
+  video_id: 0GNilQImFZ8
+
+# TODO: missing talk: Gary Bernhard - Deconstructing the Framework
+
+# Lunch
+
+- title: Dreaming of Freshies
+  raw_title: Dreaming of Freshies by Timmy Crawford at Ruby on Ales 2012
+  speakers:
+    - Timmy Crawford
+  event_name: Ruby on Ales 2012
+  published_at: '2012-03-01'
+  description: |-
+    Timmy's personal sweet-spot of hacking is found where multiple passions of mine collide. He is going to cover his happy place of hacking and will include all aspects of the Ruby on Ales Lifestyle: Ruby, Beer, and the pursuit of Snow through them both.
+
+    He will discuss finding a niche where your passions combine, discovering a need for a business/service, and going for it. All the while finding a way to give back to OSS and your community.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGgf/
+  video_provider: youtube
+  video_id: pLO0j9DjGsI
+
+- title: '`bundle install` Y U SO SLOW'
+  raw_title: Ruby on Ales 2012 - `bundle install` Y U SO SLOW
+  speakers:
+    - André Arko
+    - Terence Lee
+  event_name: Ruby on Ales 2012
+  published_at: '2012-03-01'
+  description: "`bundle install` Y U SO SLOW by: Andre Arko, Terence Lee"
+  video_provider: youtube
+  video_id: K_JzHHIddiw
+
+# Break
+
+# TODO: missing talk: Yehuda Katz - Keynote
+
+
+## Day 2 - Friday - 2012-10-02
+
+# Registration
+
+# Announcements
+
+# TODO: missing talk: Dave Hoover - Redis: Groupon's Swiss Army Datastore
+
+# TODO: missing talk: Evan Light - Frustration Driven Development
+
+# TODO: missing talk: Akira Matsuda - Made in Japan: How we use Rails in the land of Ruby
+
+# TODO: missing talk: Steven Baker - Developing Maintainable Software
+
+# Lunch
+
+# TODO: missing talk: Scott Burton - Client-Side Framework Shootout
+
+# TODO: missing talk: Rein Henrichs - How To Build A Distributed System And Why You Shouldn't
+
+# Lightning Talks
+
+# Break
+
+# TODO: missing talk: Jim Remsik & Robert Pitts - Love in the Time of Polyglots
+
+
+## Not in schedule
 
 - title: 'Random Panel'
   raw_title: Ruby on Ales 2012 - Random Panel
@@ -60,36 +134,8 @@
     - Steven Baker
     - Renée De Voursney
   event_name: Ruby on Ales 2012
-  published_at: '2012-07-30'
+  published_at: '2012-03-01'
   description: 'Random Panel  by: Yehuda Katz, Ben Bleything, Eric Hodel, Coby Randquist,
     Rein Henrichs, Steven Baker,  Renée De Voursney'
   video_provider: youtube
   video_id: DqGflocLJGA
-
-- title: '`bundle install` Y U SO SLOW'
-  raw_title: Ruby on Ales 2012 - `bundle install` Y U SO SLOW
-  speakers:
-    - André Arko
-    - Terence Lee
-  event_name: Ruby on Ales 2012
-  published_at: '2012-07-30'
-  description: "`bundle install` Y U SO SLOW by: Andre Arko, Terence Lee"
-  video_provider: youtube
-  video_id: K_JzHHIddiw
-
-- title: Dreaming of Freshies
-  raw_title: Dreaming of Freshies by Timmy Crawford at Ruby on Ales 2012
-  speakers:
-    - Timmy Crawford
-  event_name: Ruby on Ales 2012
-  published_at: '2012-10-03'
-  description: |-
-    Timmy's personal sweet-spot of hacking is found where multiple passions of mine collide. He is going to cover his happy place of hacking and will include all aspects of the Ruby on Ales Lifestyle: Ruby, Beer, and the pursuit of Snow through them both.
-
-    He will discuss finding a niche where your passions combine, discovering a need for a business/service, and going for it. All the while finding a way to give back to OSS and your community.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGgf/
-  video_provider: youtube
-  video_id: pLO0j9DjGsI
