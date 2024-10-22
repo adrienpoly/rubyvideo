@@ -408,3 +408,15 @@
   youtube_channel_id: UCr38SHAvOKMDyX3-8lhvJHA
   slug: rubyconf-au
   language: english
+
+- name: Ruby on Ales
+  website: http://rubyonales.com
+  twitter: rubyonales
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Ruby on Ales
+  default_country_code: US
+  youtube_channel_name: Confreaks
+  slug: ruby-on-ales
+  language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
