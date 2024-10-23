@@ -1,6 +1,7 @@
 ---
 
 - title: Asynchronous Rails
+  raw_title: Asynchronous Rails
   speakers:
     - Samuel Williams
   description: The fiber scheduler presents new opportunities for building scalable and concurrent Ruby programs. However, Rails has traditionally been a request-per-process or request-per-thread framework. We will give a brief introduction to the fiber scheduler, and look at how we are evolving Rails and Ruby in general to take advantage of request-per-fiber using Falcon.
@@ -9,6 +10,7 @@
   video_provider: youtube
 
 - title: Megaruby - mruby/c on Sega Mega Drive
+  raw_title: Megaruby - mruby/c on Sega Mega Drive
   speakers:
     - Yuji Yokoo
   description: |
@@ -22,6 +24,7 @@
   video_provider: youtube
 
 - title: Neurodiversity - Shifting the Paradigm from Silent Disability to Super Power
+  raw_title: Neurodiversity - Shifting the Paradigm from Silent Disability to Super Power
   speakers:
     - Shaila Man
   description: |
@@ -37,6 +40,7 @@
   video_provider: youtube
 
 - title: Upgrading the Ruby Community
+  raw_title: Upgrading the Ruby Community
   speakers:
     - Pat Allan
   description: |
@@ -50,6 +54,7 @@
   video_provider: youtube
 
 - title: But, you don't look Autistic
+  raw_title: But, you don't look Autistic
   speakers:
     - Rhiana Heppenstall
   description: |
@@ -82,6 +87,7 @@
   video_provider: youtube
 
 - title: All you need is Rails (Engines) - Compartmentalising your Monolith
+  raw_title: All you need is Rails (Engines) - Compartmentalising your Monolith
   speakers:
     - Julián Pinzón Eslava
   description: |
@@ -99,6 +105,7 @@
   video_provider: youtube
 
 - title: REACT to Imposter Syndrome
+  raw_title: REACT to Imposter Syndrome
   speakers:
     - Prakriti Mateti
   description: |
@@ -112,6 +119,7 @@
   video_provider: youtube
 
 - title: How to Make Your Website Not Ugly - Basic UX for Programmers
+  raw_title: How to Make Your Website Not Ugly - Basic UX for Programmers
   speakers:
     - Hilary Stohs-Krause
   description: |
@@ -125,6 +133,7 @@
   video_provider: youtube
 
 - title: How Puma Works
+  raw_title: How Puma Works
   speakers:
     - Nate Berkopec
   description: Have you ever wondered how Puma (or other webservers) work? Let's explore the internals of how a pre-forking webserver like Puma buffers and processes requests, what Rack is and how Puma uses it to interact with Rails, and how Puma's multi-threaded and parallel design works in practice.
@@ -133,6 +142,7 @@
   video_provider: youtube
 
 - title: The World Set Free
+  raw_title: The World Set Free
   speakers:
     - Coraline Ada Ehmke
   description: In an age of algorithmic manipulation, surveillance capitalism, privacy erosion, rising fascism, and impending climate disaster, it's easy to fall prey to despair, to grimly accept our slide into an inevitable dystopian future. But there is another way. The philosophy of techno-optimism challenges us to imagine alternate futures in which technology helps promote broad social good. This talk applies a literary lens, by way of an early 20th century "future history" by H. G. Wells, to explore our evolving relationship with world-changing technologies, and help us imagine &mdash; and build toward &mdash; a future we can all not just survive in, but truly thrive in.
@@ -141,6 +151,7 @@
   video_provider: youtube
 
 - title: Implementing Object Shapes for CRuby
+  raw_title: Implementing Object Shapes for CRuby
   speakers:
     - Jemma Issroff
   description: |
@@ -152,6 +163,7 @@
   video_provider: youtube
 
 - title: Encrypted Search Party
+  raw_title: Encrypted Search Party
   speakers:
     - Fiona McCawley
   description: |
@@ -164,6 +176,7 @@
   video_provider: youtube
 
 - title: Hanami 2 - New Framework, New You
+  raw_title: Hanami 2 - New Framework, New You
   speakers:
     - Tim Riley
   description: |
@@ -175,6 +188,7 @@
   video_provider: youtube
 
 - title: A People Pleaser's Guide to Salary Negotiation
+  raw_title: A People Pleaser's Guide to Salary Negotiation
   speakers:
     - Colleen Lavin
   description: |
@@ -186,6 +200,7 @@
   video_provider: youtube
 
 - title: Aussie Internet - How we learned to stop fearing the NBN and love the SPA
+  raw_title: Aussie Internet - How we learned to stop fearing the NBN and love the SPA
   speakers:
     - Geoffrey Donaldson
   description: Having performant queries means nothing if your customers can't load them. Slow internet is a reality for many Aussies, especially in rural areas. This is even more challenging when building interactive data-visualisation tools. Learn how we adopted modern web tech to deliver, even when NBN doesn't.
@@ -194,6 +209,7 @@
   video_provider: youtube
 
 - title: "Testing in Production: there is a better way"
+  raw_title: "Testing in Production: there is a better way"
   speakers:
     - Igor Kapkov
   description: Testing in Production is a common CI/CD practice nowadays. However, feature flags and canary deployments can only get you so far. This talk will walk you through the [Branch By Abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html) pattern and the tools to give you confidence when shipping your code to production because we should be able to move fast and break nothing.
@@ -202,6 +218,7 @@
   video_provider: youtube
 
 - title: Mentoring - For me or not for me, that is the question
+  raw_title: Mentoring - For me or not for me, that is the question
   speakers:
     - Sameera Gayan
   description: |
@@ -220,6 +237,7 @@
   video_provider: youtube
 
 - title: Security Doesn't Have To Be a Nightmare
+  raw_title: Security Doesn't Have To Be a Nightmare
   speakers:
     - Wiktoria Dalach
   description: |
@@ -231,6 +249,7 @@
   video_provider: youtube
 
 - title: Ruby Makes My Brain Happy
+  raw_title: Ruby Makes My Brain Happy
   speakers:
     - Bianca Power
   description: |
