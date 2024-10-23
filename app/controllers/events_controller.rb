@@ -12,6 +12,8 @@ class EventsController < ApplicationController
 
   # GET /events/1
   def show
+    set_meta_tags(@event)
+
     event_talks = @event.talks
     if params[:q].present?
       talks = event_talks.pagy_search(params[:q])
