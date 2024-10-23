@@ -90,7 +90,7 @@ class Event < ApplicationRecord
         title: title,
         type: :website,
         image: {
-          _: talks.first.thumbnail_xl,
+          _: talks.first&.thumbnail_xl,
           alt: title
         },
         description: description,
@@ -102,7 +102,7 @@ class Event < ApplicationRecord
         title: title,
         description: description,
         image: {
-          src: talks.first.thumbnail_xl
+          src: talks.first&.thumbnail_xl
         }
       }
     }
