@@ -32,6 +32,7 @@ class Talk < ApplicationRecord
   include Talk::SummaryCommands
   include Sluggable
   include Suggestable
+  include Searchable
   slug_from :title
 
   # include MeiliSearch
@@ -176,6 +177,10 @@ class Talk < ApplicationRecord
 
   def transcript
     enhanced_transcript.presence || raw_transcript
+  end
+
+  def speaker_names
+    speakers.pluck(:name).join(" ")
   end
 
   def slug_candidates
