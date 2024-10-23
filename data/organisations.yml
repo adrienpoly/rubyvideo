@@ -420,3 +420,15 @@
   slug: ruby-on-ales
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
+- name: RubyNation
+  website: https://www.rubynation.org
+  twitter: rubynation
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: US
+  youtube_channel_name: NationConfs
+  slug: rubynation
+  language: english
+  youtube_channel_id: UCgRpkkcigKZk52JyAOYNs6w
