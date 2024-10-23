@@ -397,3 +397,14 @@
   slug: mountainwest-rubyconf
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
+- name: RubyConf AU
+  website: https://www.rubyconf.org.au/
+  twitter: rubyconf_au
+  kind: conference
+  frequency: yearly
+  playlist_matcher: RubyConf AU
+  youtube_channel_name: RubyAustralia
+  youtube_channel_id: UCr38SHAvOKMDyX3-8lhvJHA
+  slug: rubyconf-au
+  language: english
