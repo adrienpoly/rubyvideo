@@ -62,6 +62,16 @@
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2019
 
+- id: PLbHJudTY1K0cyDs1ZwFLzlfQqvkDKt17N
+  title: RubyConf 2020
+  description: ''
+  published_at: '2020-11-27'
+  channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+  year: '2020'
+  videos_count: 25
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyconf-2020
+
 - id: PLE7tQUdRKcyYVnWhDQk4RCPVlMW40I6s5
   title: RubyConf 2021
   description:
