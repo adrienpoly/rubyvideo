@@ -609,22 +609,6 @@
     http://amara.org/v/G8uZ/
   video_id: ouGWyZfGZ8M
 
-- title: Implementing a Visual CSS Testing Framework
-  raw_title: RailsConf 2015 - Implementing a Visual CSS Testing Framework
-  speakers:
-    - Jessica Dillon
-  event_name: RailsConf 2015
-  published_at: '2015-05-06'
-  description: |-
-    by Jessica Dillon
-
-    Working with large CSS codebases can be hard. Large-scale refactors, or even just tweaking styles on our more general elements, could end up having unintended consequences on the rest of the site. To catch these problems, we manually check every page on our site, which is a slow and error-prone approach. We need a better way to test our CSS. This talk will walk through how we implemented a visual CSS testing framework using RSpec & Selenium, using automatic screenshot comparison to catch style regressions.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/G8uY/
-  video_id: Q4ttqkIEM7g
-
 - title: Curly — Rethinking the View Layer
   raw_title: RailsConf 2015 - Curly — Rethinking the View Layer
   speakers:
