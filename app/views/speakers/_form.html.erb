@@ -1,48 +1,39 @@
-<%= form_with(model: speaker, class: "flex flex-col gap-8") do |form| %>
-  <% if speaker.errors.any? %>
-    <div id="error_explanation" class="bg-red-50 text-red-500 px-3 py-2 font-medium rounded-lg mt-3">
-      <h2><%= pluralize(speaker.errors.count, "error") %> prohibited this speaker from being saved:</h2>
+<%= form_with(model: speaker, class: "flex flex-col gap-4") do |form| %>
 
-      <ul>
-        <% speaker.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
+  <% if speaker.github.present? %>
+    <div>
+      <%= form.label :name %>
+      <%= form.text_field :name, class: "input input-bordered w-full" %>
+    </div>
+
+    <div>
+      <%= form.label :twitter %>
+      <%= form.text_field :twitter, class: "input input-bordered w-full" %>
+    </div>
+
+    <div>
+      <%= form.label :bio %>
+      <%= form.text_area :bio, rows: 4, class: "textarea textarea-bordered w-full" %>
+    </div>
+
+    <div>
+      <%= form.label :website %>
+      <%= form.text_field :website, class: "input input-bordered w-full" %>
+    </div>
+  <% else %>
+    <div>
+      <%= form.label :github, "GitHub" %>
+      <%= form.text_field :github, class: "input input-bordered w-full" %>
     </div>
   <% end %>
 
   <div>
-    <%= form.label :name %>
-    <%= form.text_field :name, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
-  </div>
-
-  <div>
-    <%= form.label :twitter %>
-    <%= form.text_field :twitter, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
-  </div>
-
-  <div>
-    <%= form.label :github %>
-    <%= form.text_field :github, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
-  </div>
-
-  <div>
-    <%= form.label :bio %>
-    <%= form.text_area :bio, rows: 4, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
-  </div>
-
-  <div>
-    <%= form.label :website %>
-    <%= form.text_field :website, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
-  </div>
-
-  <div>
-    <%= form.label :slug %>
-    <%= form.text_field :slug, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+    <%= form.label :speakerdeck, "Speakerdeck" %>
+    <%= form.text_field :speakerdeck, class: "input input-bordered w-full" %>
   </div>
 
   <div class="flex items-center gap-4">
-    <%= form.submit "Suggest modifications" %>
-    <%= link_to "cancel", speaker_path(@speaker), class: "tertiary" %>
+    <%= ui_button "Suggest modifications", type: :submit %>
+    <%= ui_button "Cancel", data: {action: "click->modal#close"}, role: :button, kind: :ghost %>
   </div>
 <% end %>

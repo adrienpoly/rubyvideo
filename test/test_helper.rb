@@ -7,8 +7,20 @@ require "vcr"
 VCR.configure do |c|
   c.cassette_library_dir = "test/vcr_cassettes"
   c.hook_into :webmock
+  c.ignore_localhost = true
+  c.ignore_hosts "chromedriver.storage.googleapis.com", "googlechromelabs.github.io", "edgedl.me.gvt1.com"
+  c.filter_sensitive_data("<OPENAI_API_KEY>") { ENV["OPENAI_ACCESS_TOKEN"] }
+  c.filter_sensitive_data("<OPENAI_ORGANIZATION_ID>") { ENV["OPENAI_ORGANIZATION_ID"] }
 end
 class ActiveSupport::TestCase
+  setup do
+    # @@once ||= begin
+    #   MeiliSearch::Rails::Utilities.reindex_all_models
+    #   true
+    # end
+
+    Talk.rebuild_search_index
+  end
   # Run tests in parallel with specified workers
   parallelize(workers: :number_of_processors)
 
@@ -21,3 +33,5 @@ class ActiveSupport::TestCase
     user
   end
 end
+
+# MeiliSearch::Rails::Utilities.clear_all_indexes

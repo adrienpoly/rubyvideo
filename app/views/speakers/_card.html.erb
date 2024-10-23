@@ -1,0 +1,11 @@
+<%= link_to speaker_path(speaker), class: "flex w-full relative" do %>
+  <div class="card card-compact card-side shadow-xl h-full w-full">
+    <figure>
+      <%= image_tag speaker.github_avatar_url(size: 250), alt: "picture profile of #{speaker.name}", class: "w-40 lg:w-full shrink-0 h-full" %>
+    </figure>
+    <div class="card-body flex flex-col items-center justify-center">
+      <div class="text-xl font-semibold text-center"><%= speaker.name %></div>
+      <div class="link"><%= speaker.talks_count %> talks</div>
+    </div>
+  </div>
+<% end %>

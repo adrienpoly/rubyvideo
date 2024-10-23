@@ -1,0 +1,4 @@
+<%= turbo_frame_tag "monthly_visits" do %>
+  <h2 class="text-center mb-4">Monthly visits</h2>
+  <%= column_chart @monthly_visits, id: :monthly_visits_chart %>
+<% end %>

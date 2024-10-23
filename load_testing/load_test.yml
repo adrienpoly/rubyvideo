@@ -1,5 +1,5 @@
 config:
-  target: "https://rubyvideo.dev"
+  target: "https://www.rubyvideo.dev"
   phases:
     - duration: 30
       arrivalRate: 5

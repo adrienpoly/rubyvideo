@@ -1,19 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap");
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
 @layer components {
   body {
-    @apply text-dark leading-relaxed;
+    @apply bg-base-100 leading-relaxed text-base-content;
   }
 
   h1,
   .h1 {
-    @apply text-3xl font-bold text-brand;
+    @apply font-serif text-3xl font-bold text-primary;
   }
 
   h2,
   .h2 {
-    @apply text-xl font-bold;
+    @apply font-serif text-xl  font-bold;
   }
 
   p.secondary {
-    @apply text-gray;
+    @apply text-neutral-content;
+  }
+
+  a.link-ghost {
+    @apply hover:underline;
+    text-decoration: none;
+  }
+
+  mark {
+    /* search results highlight */
+    background-color: rgb(242, 255, 140);
   }
 }

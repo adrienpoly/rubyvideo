@@ -3,6 +3,8 @@ require "application_system_test_case"
 class TalksTest < ApplicationSystemTestCase
   setup do
     @talk = talks(:one)
+    @event = events(:rails_world_2023)
+    @talk.update(event: @event)
   end
 
   test "visiting the index" do
@@ -10,38 +12,21 @@ class TalksTest < ApplicationSystemTestCase
     assert_selector "h1", text: "Talks"
   end
 
-  test "should create talk" do
-    visit talks_url
-    click_on "New talk"
-
-    fill_in "Description", with: @talk.description
-    fill_in "Slug", with: @talk.slug
-    fill_in "Title", with: @talk.title
-    fill_in "Year", with: @talk.year
-    click_on "Create Talk"
-
-    assert_text "Talk was successfully created"
-    click_on "Back"
-  end
-
   test "should update Talk" do
     visit talk_url(@talk)
-    click_on "Edit this talk", match: :first
+    click_on "Edit", match: :first
 
     fill_in "Description", with: @talk.description
-    fill_in "Slug", with: @talk.slug
     fill_in "Title", with: @talk.title
-    fill_in "Year", with: @talk.year
-    click_on "Update Talk"
+    click_on "Suggest modifications"
 
-    assert_text "Talk was successfully updated"
-    click_on "Back"
+    assert_text "Your suggestion was successfully created and will be reviewed soon."
   end
 
-  test "should destroy Talk" do
-    visit talk_url(@talk)
-    click_on "Destroy this talk", match: :first
+  # test "renders some related talks" do
+  #   visit talk_url(@talk)
 
-    assert_text "Talk was successfully destroyed"
-  end
+  #   assert_selector "#recommended_talks"
+  #   assert_selector "[data-talk-horizontal-card]", count: [Talk.excluding(@talk).count, 6].min
+  # end
 end

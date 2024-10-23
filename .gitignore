@@ -35,7 +35,7 @@
 
 /node_modules
 
-/script
+/script_tmp
 .env
 .byebug_history
 
@@ -45,9 +45,34 @@
 # https://vitejs.dev/guide/env-and-mode.html#env-files
 *.local
 
-/data.ms
+/data.ms*
 /data_tmp
+/data_preparation/**/*
+!/data_preparation/organisations.yml
 
 /config/credentials/production.key
 
 test-run-report*
+
+# Ignore SQLite databases create by Litestack for action cable to be removed once we are able to move them to storage
+db/*.db
+db/*.db-*
+
+# Vite Ruby
+/public/vite*
+node_modules
+# Vite uses dotenv and suggests to ignore local-only env files. See
+# https://vitejs.dev/guide/env-and-mode.html#env-files
+*.local
+
+# Ignore meilisearch
+meilisearch
+
+# ignore doc folder
+doc/*
+
+service_account.json
+/.cache
+
+# asdf
+.tool-versions

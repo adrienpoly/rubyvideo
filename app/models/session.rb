@@ -12,7 +12,7 @@
 #
 # rubocop:enable Layout/LineLength
 class Session < ApplicationRecord
-  belongs_to :user
+  belongs_to :user, inverse_of: :sessions
 
   before_create do
     self.user_agent = Current.user_agent

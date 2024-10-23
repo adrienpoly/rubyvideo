@@ -1,0 +1,27 @@
+<div class="container flex flex-col w-full gap-4 my-8">
+  <% back_path = params[:back_to].presence || topics_path %>
+  <% back_to_title = params[:back_to_title].presence || "Topics" %>
+  <%= link_to back_path do %>
+    <div class="flex items-center gap-2 title text-primary">
+      <%= heroicon :arrow_long_left, class: "transition-arrow" %>
+      <div style="view-transition-name: title"><%= back_to_title %></div>
+    </div>
+  <% end %>
+  <div class="flex items-center gap-2 title text-primary">
+    <h1 class="mb-4" style="view-transition-name: title"><%= @topic.name %></h1>
+  </div>
+  <div id="topic-talks" class="grid min-w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 gallery">
+    <%= render partial: "talks/card",
+          collection: @talks,
+          as: :talk,
+          locals: {
+            favoritable: true,
+            user_favorite_talks_ids: @user_favorite_talks_ids,
+            back_to: request.fullpath,
+            back_to_title: @topic.name
+          } %>
+  </div>
+  <div class="flex mt-4 w-full">
+    <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
+  </div>
+</div>

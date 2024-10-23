@@ -1,0 +1,281 @@
+---
+
+# https://web.archive.org/web/20141008055937/http://goruco.com/
+
+- title: The Future of Ruby Performance Tooling
+  raw_title: GoRuCo 2014 - The Future of Ruby Performance Tooling by Aaron Quint
+  speakers:
+    - Aaron Quint
+  event_name: GoRuCo 2014
+  published_at: '2014-07-16'
+  description: |-
+    It's just a fact that as a baseline, Ruby is not the fastest language or platform out there. We've always been comfortable with the trade of raw speed for the thrill and happiness of development.
+
+    We can however, be completely left in the dark when an application is in production and needs to grow to meet the requests of a very demanding audience. Ruby 2.1 has begun to provide hope for the future of Ruby, especially large production Ruby applications, by exposing new features and hooks for debugging performance problems. Though Ruby hasn't become as fast as other dynamic languages (yet) at least now we can build and use some of these new tools to make our applications as fast as possible.
+
+    I'd like to share an overview of these new features as well as some tooling and problems we've faced at Paperless Post as we've scaled, and how we've tried to use Ruby to solve them.
+
+    I'm extremely excited about the potential of Ruby 2.1, not just the tools it exposes, but what it means for the future of Ruby performance tooling. Now that there are a number of people working on Ruby who are concerned about its speed and performance visibility, these tools are only going to get better. I'd like to introduce the new Ruby features, then walk through some custom performance tooling we've been working on through real world examples.
+
+    (Some) of the topics I'd like to cover:
+
+        Brief overview of new Generational GC
+        Object Space dumps
+        Analyzing Object Space dumps
+        Using the object allocation maps
+        Rblineprof and ppprofiler
+        StackProf
+        rbtrace and attaching to a Unicorn
+
+    I'll also give a sneak preview of some tools we've been working on that are not Open Source (yet) which I'd like to share.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGZA/
+  video_id: cOaVIeX6qGg
+
+# Micro Break
+
+- title: Real-time Communication for Everyone with WebRTC
+  raw_title: GoRuCo 2014 - Real-Time Communication for Everyone by Lisa Larson-Kelley
+  speakers:
+    - Lisa Larson-Kelley
+  event_name: GoRuCo 2014
+  published_at: '2014-06-21'
+  description: |-
+    WebRTC is a powerful open-source project that seamlessly enables real-time communication (RTC)-- baked right into modern web browsers. This means web developers can now incorporate video, voice and data sharing using peer-to-peer connectivity via simple JavaScript APIs, with no plugins or additional installs required.
+
+    In this session, Lisa Larson-Kelley introduces the fundamentals of WebRTC, explaining its elements and capabilities in easy-to-understand terms, and walks through a simple 'hello world' application using the WebRTC API and open source libraries. With over 10 years of experience with real-time communication apps, Lisa shares her perspective and enthusiasm for RTC -- you'll leave wanting to create your own innovative apps with this rapidly evolving technology that is poised revolutionize how we communicate on the web.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYv/
+  video_id: ALmKhif7yo0
+
+# Morning Break
+
+- title: Know Your Types - Bringing Static Types to Dynamic Languages
+  raw_title: GoRuCo 2014 - Know Your Types - Bringing Static Types to Dynamic Languages by Michael Bernstein
+  speakers:
+    - Michael Bernstein
+  event_name: GoRuCo 2014
+  published_at: '2014-06-21'
+  description: |-
+    After several years of being a professional programmer, I realized that I didn't really know what I was doing, and decided to teach myself Computer Science. After spending a year learning Computer Science from the ground up, I thought I was starting to understand things. Then I came across Haskell.
+
+    It fascinated and frustrated me, and I wanted to understand how types worked. I also began wondering - why doesn't Ruby have a modern type system? Do we need one? Do we want one? How would it work?
+
+    I ended up coming across three amazing pieces of writing that helped illuminate things for me:
+
+        "Types and Programming Languages" by Benjamin C. Pierce
+        "Propositions as Types" by Philip Wadler
+        "A Practical Optional Type System for Clojure" - Ambrose Bonnaire-Sergeant
+
+    After studying these works, I still can't write Haskell, but I do understand a lot more about what types are. In the course of my research, I also came across two fascinating projects - a static type checker for Ruby, and a type inferencer for Ruby, both experimental projects from the University of Maryland's Programming Languages lab (PLUM). These provocative projects helped me understand how static types could be integrated into dynamically typed languages. While they aren't practical implementations, they made me think. Which is what I'd like to make you do during this talk - think about types, how they could help us, and what we sacrifice by not having an expressive type system in Ruby.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYw/
+  video_id: _HM8Vczybj4
+
+# Micro Break
+
+- title: What We Can Learn From COBOL
+  raw_title: GoRuCo 2014 - What We Can Learn From COBOL by Andrew Turley
+  speakers:
+    - Andrew Turley
+  event_name: GoRuCo 2014
+  published_at: '2014-06-21'
+  description: |-
+    COBOL was originally conceived as a programming language for building business applications. At the time this primarily meant processing large amounts of data and transforming it into useful information (commonly known at ETL). Interest in this kind of programming waned as the personal computing revolution swept through the industry, but it is waxing with the new focus on data science and "big data".
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYp/
+  video_id: sB9_hVO9Cik
+
+- title: Teaching Kids to Code on Raspberry Pi
+  raw_title: GoRuCo 2014 - Teaching Kids to Code on Raspberry Pi by Audrey Troutt
+  speakers:
+    - Audrey Troutt
+  event_name: GoRuCo 2014
+  published_at: '2014-06-21'
+  description: |-
+    Back in September 2013 I taught a class of 12 middle-school aged girls to write code in Scratch on the Raspberry Pi and program simple electronic circuits. This was a workshop for the Philadelphia non-profit TechGirlz.
+
+    I created 5 structured activities using Scratch and simple electronics that covered both good programming principles and the basics of electronic circuits. https://github.com/atroutt/scratch-pi
+
+    I will be sharing these structured projects as a template for other beginner workshops, and talk about what I learned by building and teaching this workshop.
+    I'll cover
+
+        What can be effectively covered in a day?
+        How can you setup a workshop up to maximize fun and learning on the day
+        Demos of some of the best projects!
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYq/
+  video_id: E8xCgOjnZZY
+
+- title: BI Tooling with Rails
+  raw_title: GoRuCo 2014 - BI Tooling with Rails by Kahn Solomon
+  speakers:
+    - Solomon Kahn
+  event_name: GoRuCo 2014
+  published_at: '2014-07-16'
+  description: |-
+    Non-technical people in companies need data, but don't have the programming skills to get it themselves. So, it becomes your part-time job to get them data. As your company grows, this problem only gets worse.
+
+    We built a (soon to be released as open source) Ruby on Rails app that has completely transformed the way non-technical people at Paperless Post access data. With this 'simple' rails app, we are able to offer sophisticated, on demand, realtime reporting, that takes almost no developer time.
+
+    The intended audience is anyone who works at a company with ten or more people, where it starts to becomes very painful that non-technical people don't have access to data.
+
+    I'll go over why the current solutions (often getting a developer to run a database query / lots of cronjobs) don't solve this problem well, and how their shortcomings become incredibly painful as an organization grows.
+
+    Then, I'll show the tool we built at Paperless Post, which does a really great job solving this problem. It uses some not-commonly-used features of ActiveRecord and erb to take this complicated problem and solve it elegantly.
+
+    To say this app has made life better at Paperless Post would be an understatement. At the end of the talk, I hope attendees can go back to their companies, implement our tool, and bring more joy and happiness into their lives.
+
+    Here's a step by step outline of the talk:
+
+        The Problem
+        How Most Companies Try To Solve It
+        How Activerecord & erb Create a Better Solution
+        Going Through The Code
+        Dashboards, Visualizations and Complex Reports
+        Deploying The Application
+        The Social & Political Benefits Within Your Company
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYy/
+  video_id: Xbn6SZ6TJpE
+
+# Lunch
+
+- title: Secrets of a World Memory Champion
+  raw_title: GoRuCo 2014 - Secrets of a World Memory Champion by Chris Hunt
+  speakers:
+    - Chris Hunt
+  event_name: GoRuCo 2014
+  published_at: '2014-06-21'
+  description: |-
+    You don't have a bad memory, you were just never taught how to use it. We are going to practice several powerful memory techniques that have been perfected by memory contest champions over the last hundred years.
+
+    By the end of this talk, you will know how to quickly memorize a foreign language, driving directions, phone conversations, the entire Chuck Norris filmography, your friend's credit card number, a shuffled deck of playing cards, and the name of every person you meet at GORUCO.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYr/
+  video_id: k44oJ961eFM
+
+# Micro Break
+
+- title: Growing a Tech Community
+  raw_title: GoRuCo 2014 - Growing a Tech Community by Luke Melia
+  speakers:
+    - Luke Melia
+  event_name: GoRuCo 2014
+  published_at: '2014-07-16'
+  description: |-
+    For the last two years, I've been growing the Ember.js community in NYC from nearly nothing to a vibrant group. Most of what works well for me are things that I learned from getting my sea legs in the Ruby community, so what better place to share than GORUCO?
+
+    In this talk, we'll cover the keys to fostering a strong local community, and why it's worth doing. From simple hacks to simple human truths, this talk aims to be pragmatic for tech community organizers and inspire everyone to get involved.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYx/
+  video_id: 23MsBL3kEHk
+
+- title: An Approach to Developing and Testing Third Party JavaScript Widgets
+  raw_title: GoRuCo 2014 - An Approach to Developing and Testing Third Party JavaScript Widgets by Nathan Artz
+  speakers:
+    - Nathan Artz
+  event_name: GoRuCo 2014
+  published_at: '2014-06-21'
+  description: |-
+    Google Analytics, Like Buttons, Twitter Widgets, Olark chat boxes; all examples of third party JavaScript elements that are embedded by users in their websites.
+
+    Testing third party code once embedded in a page, is often difficult and cumbersome. Verifying those elements are working properly (or even more basically, are not breaking the page) is difficult to get right. Clients will often not give you access to their page, or allow you to debug 'live', leaving scope for bugs to creep in.
+
+    Complicating matters further, other JavaScripts are often competing to execute on the page (sometimes erroring out), and then you have to make this all work cross-browser!
+    So what is the right approach to take?
+
+    I will show you how using a Ruby script to generate and minify my JavaScript, and a Node.js proxy server to intercept responses, I am able to safely inject my JavaScript into the page.
+
+    In addition to this, I will show you ways to use Rspec/Capybara to come run regression tests that utilize the proxy, and test my JavaScript while it is live embedded on client pages.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYs/
+  video_id: QmesIibMULY
+
+- title: Designing a Better Programmer Community
+  raw_title: GoRuCo 2014 - Designing a Better Programmer Community by Samantha John & Jason Brennan
+  speakers:
+    - Samantha John
+    - Jason Brennan
+  event_name: GoRuCo 2014
+  published_at: '2014-06-21'
+  description: |-
+    We will show how new approaches to language design create a better programming community.
+
+    Traditionally, programming communities have been dominated by a certain type. Programmers tend to be analytical thinkers who don't mind banging their heads against errors all day long. New, more inclusive languages make programming attractive to a wider audience who wouldn't normally have considered it (and don't particularly enjoy error messages).
+
+    In this talk we will share our learnings from designing a programming language for kids. We'll talk about the tradeoffs between simplicity and power and how we found the optimal balance for our audience. We hope others can learn from our design principles to create more languages and platforms to bring the joy of programming to everybody.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYt/
+  video_id: mtdaNlYyRCs
+
+# Afternoon break
+
+- title: Edge Caching Dynamic Rails Apps
+  raw_title: GoRuCo 2014 - Edge Caching Dynamic Rails Apps by Michael May
+  speakers:
+    - Michael May
+  event_name: GoRuCo 2014
+  published_at: '2014-06-21'
+  description: |-
+    Your rails app is slow. Even after memory caching, optimizing queries, and adding servers the problem persists, killing your user experience. You've heard of services called "Content Delivery Networks" (CDNs), that could help, but they only seem to work with static content. Worry not, for there is a solution: dynamic content caching at the edge. In this talk, we explain how CDNs can be used to accelerate dynamic rails applications.
+    We will cover:
+
+        What is Caching?
+        What are CDNs?
+        What is Dynamic Caching?
+        Instant Purging
+        Surrogate-Control headers
+        Key Based Purging
+        A Rails Plugin for dynamic caching integration
+
+    You'll leave with:
+
+    A deep understanding of how caching and content delivery networks actually work. Understand recent innovations in CDN technology; things that enable edge caching dynamic content. Understand how rails plugins can be used to easily add dynamic edge caching functionality to your app. Gain insight into how to hook things into rails with plugins.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYu/
+  video_id: 60rjetFNA_Q
+
+# Break
+
+- title: How to Debug Anything
+  raw_title: GoRuCo 2014 - How to Debug Anything by James Golick
+  speakers:
+    - James Golick
+  event_name: GoRuCo 2014
+  published_at: '2014-07-16'
+  description: |-
+    Does your code work? Probably not. The libraries you're using probably don't work either. If you're lucky, the OS does, but even then you'll probably find something wrong if you look hard enough.
+
+    Debugging is the reason that the last 20% of shipping a product usually accounts for 80% of the time. And yet, there are a million blog posts and talks about writing code, but very few about figuring out why it doesn't work right once you have.
+
+    So, how do you find bugs? In this talk I'll explore a set of tools and techniques that have helped me diagnose defects in everything from php code to malloc implementations.
+
+    One time I even used this strategy to diagnose an outage in a codebase I'd never seen that was written in a language I barely knew and a framework I'd never heard of - in less than 5 minutes. You'll walk away with this talk with everything you need to learn how to debug anything.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/FGYz/
+  video_id: VV7b7fs4VI8

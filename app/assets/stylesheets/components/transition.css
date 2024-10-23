@@ -4,13 +4,7 @@
     contain: layout;
   }
 
-  .title {
-    view-transition-name: title;
-    contain: layout;
-  }
-
   .banner-img .v-vlite {
-    view-transition-name: banner-img;
     contain: layout;
   }
 
@@ -59,4 +53,18 @@
   ::view-transition-image-pair(banner-img) {
     isolation: none;
   }
+}
+
+/* turn annimations */
+
+html.turn-advance.turn-exit.turn-no-view-transitions [data-turn-exit] {
+  animation-name: fade-out;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+html.turn-advance.turn-enter.turn-no-view-transitions [data-turn-enter] {
+  animation-name: fade-in;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
 }

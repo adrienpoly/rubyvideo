@@ -14,10 +14,12 @@
 #  youtube_channel_id   :string           default(""), not null
 #  youtube_channel_name :string           default(""), not null
 #  slug                 :string           default(""), not null
+#  twitter              :string           default(""), not null
+#  language             :string           default(""), not null
 #
 # rubocop:enable Layout/LineLength
 
-one:
+railsconf:
   name: RailsConf
   description: Rails conf from Ruby central
   website: https://railsconf.org/
@@ -27,8 +29,8 @@ one:
   youtube_channel_name: confreaks
   slug: railsconf
 
-two:
-  name: RubyConfTh
+rubyconfth:
+  name: RubyConfTH
   description: Ruby Rails Thailand
   website: https://rubyconfth.com/
   kind: 1
@@ -36,3 +38,14 @@ two:
   youtube_channel_id: UCWnPjmqvljcsqsdafA0z2U1fwKQ
   youtube_channel_name: rubyconfth
   slug: railsconfth
+
+rails_world:
+  name: RailsWorld
+  description: Rails World
+  website: https://rubyonrails.org/world
+  kind: 1
+  frequency: 1
+  youtube_channel_id: UC9zbLaqReIdoFfzdUbh13Nw
+  youtube_channel_name: railsofficial
+  slug: railsworld
+  twitter: rails

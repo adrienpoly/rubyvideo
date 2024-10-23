@@ -14,6 +14,10 @@ class ApplicationClient
   BASE_URI = "https://example.org"
   NET_HTTP_ERRORS = [Timeout::Error, Errno::EINVAL, Errno::ECONNRESET, EOFError, Net::HTTPBadResponse, Net::HTTPHeaderSyntaxError, Net::ProtocolError]
 
+  def initialize(token: nil)
+    @token = token
+  end
+
   def default_headers
     {
       "Accept" => content_type,
@@ -78,9 +82,7 @@ class ApplicationClient
     self.class::BASE_URI
   end
 
-  def token
-    raise NotImplementedError
-  end
+  attr_reader :token
 
   def make_request(klass:, path:, headers: {}, body: nil, query: nil, form_data: nil)
     raise ArgumentError, "Cannot pass both body and form_data" if body.present? && form_data.present?

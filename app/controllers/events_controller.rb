@@ -1,60 +1,59 @@
 class EventsController < ApplicationController
-  skip_before_action :authenticate_user!, only: %i[index show]
-  before_action :set_event, only: %i[show edit update destroy]
+  include Pagy::Backend
+  skip_before_action :authenticate_user!, only: %i[index show update]
+  before_action :set_event, only: %i[show edit update]
+  before_action :set_user_favorites, only: %i[show]
 
   # GET /events
   def index
-    @events = Event.all
+    @events = Event.canonical.includes(:organisation).order(:name)
+    @events = @events.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
   end
 
   # GET /events/1
   def show
-  end
+    set_meta_tags(@event)
 
-  # GET /events/new
-  def new
-    @event = Event.new
+    event_talks = @event.talks
+    if params[:q].present?
+      talks = event_talks.pagy_search(params[:q])
+      @pagy, @talks = pagy_meilisearch(talks, limit: 21)
+    else
+      @pagy, @talks = pagy(event_talks.with_essential_card_data.order(date: :desc), limit: 21)
+    end
   end
 
   # GET /events/1/edit
   def edit
   end
 
-  # POST /events
-  def create
-    @event = Event.new(event_params)
-
-    if @event.save
-      redirect_to @event, notice: "Event was successfully created."
-    else
-      render :new, status: :unprocessable_entity
-    end
-  end
-
   # PATCH/PUT /events/1
   def update
-    if @event.update(event_params)
-      redirect_to @event, notice: "Event was successfully updated."
+    suggestion = @event.create_suggestion_from(params: event_params, user: Current.user)
+
+    if suggestion.persisted?
+      redirect_to event_path(@event), notice: suggestion.notice
     else
       render :edit, status: :unprocessable_entity
     end
-  end
-
-  # DELETE /events/1
-  def destroy
-    @event.destroy!
-    redirect_to events_url, notice: "Event was successfully destroyed.", status: :see_other
   end
 
   private
 
   # Use callbacks to share common setup or constraints between actions.
   def set_event
-    @event = Event.find_by(slug: params[:slug])
+    @event = Event.find_by!(slug: params[:slug])
+    redirect_to event_path(@event.canonical), status: :moved_permanently if @event.canonical.present?
   end
 
   # Only allow a list of trusted parameters through.
   def event_params
-    params.require(:event).permit(:name, :description, :website, :kind, :frequency)
+    params.require(:event).permit(:name, :city, :country_code)
+  end
+
+  def set_user_favorites
+    return unless Current.user
+
+    @user_favorite_talks_ids = Current.user.default_watch_list.talks.ids
   end
 end

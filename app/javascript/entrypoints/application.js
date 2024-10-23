@@ -1,7 +1,8 @@
 // Example: Load Rails libraries in Vite.
 //
-import * as Turbo from "@hotwired/turbo";
-Turbo.start();
+import '@hotwired/turbo-rails'
+
+import Turn from '@domchristie/turn'
 
 // import ActiveStorage from "@rails/activestorage";
 // ActiveStorage.start();
@@ -9,27 +10,7 @@ Turbo.start();
 // // Import all channels.
 // const channels = import.meta.globEager('./**/*_channel.js')
 
-// Example: Import a stylesheet in app/frontend/index.css
-import "../../assets/stylesheets/application.tailwind.css";
+import '~/controllers'
 
-addEventListener("turbo:before-render", (event) => {
-  if (document.startViewTransition) {
-    event.preventDefault();
-
-    document.startViewTransition(() => {
-      event.detail.resume();
-    });
-  }
-});
-
-addEventListener("turbo:before-frame-render", (event) => {
-  if (document.startViewTransition) {
-    event.preventDefault();
-
-    document.startViewTransition(() => {
-      event.detail.resume();
-    });
-  }
-});
-
-import "~/controllers";
+// Page transitions
+Turn.start()

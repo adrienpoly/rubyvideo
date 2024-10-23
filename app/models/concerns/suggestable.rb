@@ -6,12 +6,17 @@ module Suggestable
   end
 
   def create_suggestion_from(params:, user: Current.user)
-    suggestions.create(content: select_differences_for(params)).tap do |suggestion|
-      suggestion.approved! if user&.admin?
+    suggestions.create(content: select_differences_for(params), suggested_by_id: user&.id).tap do |suggestion|
+      suggestion.approved!(approver: user) if managed_by?(user)
     end
   end
 
   private
+
+  def managed_by?(visiting_user)
+    # this should be overitten in the model where the concern is included
+    raise NotImplementedError, "This method should be implemented in the model where the concern is included"
+  end
 
   def select_differences_for(params)
     params.reject do |key, value|

@@ -1,42 +1,29 @@
 class TalksController < ApplicationController
   include Pagy::Backend
   skip_before_action :authenticate_user!
-  before_action :set_talk, only: %i[show edit update destroy]
+  before_action :set_talk, only: %i[show edit update]
+  before_action :set_user_favorites, only: %i[index show]
 
   # GET /talks
   def index
-    @from_talk_id = session[:from_talk_id]
-    session[:from_talk_id] = nil
     if params[:q].present?
-      talks = Talk.pagy_search(params[:q])
-      @pagy, @talks = pagy_meilisearch(talks, items: 9)
+      talks = Talk.with_essential_card_data.pagy_search(params[:q])
+      @pagy, @talks = pagy_meilisearch(talks, limit: 20, page: params[:page]&.to_i || 1)
+    elsif params[:query].present?
+      @pagy, @talks = pagy(Talk.with_essential_card_data.ft_search(params[:query]).with_snippets.ranked, items: 20, page: params[:page]&.to_i || 1)
     else
-      @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), items: 9)
+      @pagy, @talks = pagy(Talk.all.with_essential_card_data.order(date: :desc), items: 20)
     end
   end
 
   # GET /talks/1
   def show
-    speaker_slug = params[:speaker_slug]
-    session[:from_talk_id] = @talk.id
-    @back_path = speaker_slug.present? ? speaker_path(speaker_slug) : talks_path
-    @talks = Talk.order("RANDOM()").excluding(@talk).limit(6)
     set_meta_tags(@talk)
+    fresh_when(@talk)
   end
 
   # GET /talks/1/edit
   def edit
-  end
-
-  # POST /talks
-  def create
-    @talk = Talk.new(talk_params)
-
-    if @talk.save
-      redirect_to @talk, notice: "Talk was successfully created."
-    else
-      render :new, status: :unprocessable_entity
-    end
   end
 
   # PATCH/PUT /talks/1
@@ -49,21 +36,24 @@ class TalksController < ApplicationController
     end
   end
 
-  # DELETE /talks/1
-  def destroy
-    @talk.destroy!
-    redirect_to talks_url, notice: "Talk was successfully destroyed.", status: :see_other
-  end
-
   private
 
   # Use callbacks to share common setup or constraints between actions.
   def set_talk
-    @talk = Talk.includes(:speakers, :event).find_by(slug: params[:slug])
+    @talk = Talk.includes(:speakers, :approved_topics).find_by(slug: params[:slug])
+    return redirect_to talks_path, status: :moved_permanently if @talk.blank?
+
+    @related_talks = @talk.event.talks.includes(:speakers).order(date: :desc)
   end
 
   # Only allow a list of trusted parameters through.
   def talk_params
-    params.require(:talk).permit(:title, :description, :slug, :year)
+    params.require(:talk).permit(:title, :description, :summary, :date)
+  end
+
+  def set_user_favorites
+    return unless Current.user
+
+    @user_favorite_talks_ids = Current.user.default_watch_list.talks.ids
   end
 end

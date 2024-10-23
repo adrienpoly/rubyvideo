@@ -7,6 +7,7 @@
 #  talk_id    :integer          not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  id         :integer          not null, primary key
 #
 # rubocop:enable Layout/LineLength
 class SpeakerTalk < ApplicationRecord
@@ -15,4 +16,6 @@ class SpeakerTalk < ApplicationRecord
   # associations
   belongs_to :speaker, counter_cache: :talks_count
   belongs_to :talk
+
+  validates :speaker_id, uniqueness: {scope: :talk_id}
 end

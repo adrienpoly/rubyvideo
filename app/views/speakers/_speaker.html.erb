@@ -1,6 +1,8 @@
 <%= link_to speaker_path(speaker), id: dom_id(speaker), class: "flex justify-between" do %>
-  <span><%= speaker.name %></span>
-  <div class="bg-brand-lighter w-12 h-6 flex items-center justify-center rounded-full text-gray">
-    <%= speaker.talks_count %>
+  <div class="flex items-center gap-2">
+    <span><%= speaker.name %></span>
+    <%#= image_tag speaker.github_avatar_url(size: 64), class: "rounded-full h-8 w-8" if speaker.github_avatar_url.present? %>
   </div>
+
+  <%= ui_badge(speaker.talks_count, kind: :secondary, outline: true, size: :lg, class: "min-w-10") %>
 <% end %>

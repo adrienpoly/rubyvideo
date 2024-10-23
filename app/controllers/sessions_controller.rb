@@ -1,4 +1,7 @@
 class SessionsController < ApplicationController
+  include RemoteModal
+  allowed_remote_modal_actions :new
+
   skip_before_action :authenticate_user!, only: %i[new create]
 
   before_action :set_session, only: :destroy
@@ -26,7 +29,7 @@ class SessionsController < ApplicationController
 
   def destroy
     @session.destroy
-    redirect_to(sessions_path, notice: "That session has been logged out")
+    redirect_to(root_path, notice: "That session has been logged out")
   end
 
   private

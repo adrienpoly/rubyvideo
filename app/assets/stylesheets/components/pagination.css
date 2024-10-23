@@ -1,13 +1,13 @@
 @layer components {
-  nav.pagy-nav.pagination {
-    @apply bg-transparent text-dark justify-normal gap-4 sm:gap-8 mx-auto;
+  nav.pagy.nav {
+    @apply mx-auto flex justify-normal gap-4 bg-transparent text-base-content sm:gap-8;
 
-    .page.active {
-      @apply text-brand font-semibold;
+    .current {
+      @apply font-semibold text-primary;
     }
 
     .page.disabled {
-      @apply text-gray-light;
+      @apply text-base-300;
     }
   }
 }

@@ -12,12 +12,24 @@
 #  updated_at      :datetime         not null
 #  name            :string           default(""), not null
 #  slug            :string           default(""), not null
+#  talks_count     :integer          default(0), not null
+#  canonical_id    :integer
 #
 # rubocop:enable Layout/LineLength
 require "test_helper"
 
 class EventTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  setup do
+    @organisation = organisations(:railsconf)
+  end
+
+  test "validates the country code " do
+    assert Event.new(name: "test", country_code: "NL", organisation: @organisation).valid?
+    assert Event.new(name: "test", country_code: "AU", organisation: @organisation).valid?
+    refute Event.new(name: "test", country_code: "France", organisation: @organisation).valid?
+  end
+
+  test "allows nil country code" do
+    assert Event.new(name: "test", country_code: nil, organisation: @organisation).valid?
+  end
 end

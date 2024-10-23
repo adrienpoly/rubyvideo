@@ -1,0 +1,82 @@
+name: CI
+
+on:
+  pull_request:
+    branches: ["*"]
+  push:
+    branches: [main]
+
+concurrency: ci-${{ github.ref }}
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    env:
+      RAILS_ENV: test
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler: default
+          bundler-cache: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: StandardRB Check
+        run: bundle exec standardrb
+
+      - name: StandardJS Check
+        run: yarn standard
+
+      - name: erb-lint Check
+        run: bundle exec erblint --lint-all
+
+  test:
+    runs-on: ubuntu-latest
+    env:
+      RAILS_ENV: test
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler: default
+          bundler-cache: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Meilisearch setup with Docker
+        run: docker run -d -p 7700:7700 getmeili/meilisearch:v1.1 meilisearch --no-analytics
+
+      - name: Build assets
+        run: bin/vite build --clear --mode=test
+
+      - name: Prepare database
+        run: |
+          bin/rails db:create
+          bin/rails db:schema:load
+
+      - name: Run tests
+        run: |
+          bin/rails test
+          bin/rails test:system
+
+      # - name: Smoke test database seeds
+      #   run: sudo bin/rails db:reset

@@ -1,19 +1,22 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.2.0"
+ruby "3.3.5"
 
 # Use main development branch of Rails
-gem "rails", github: "rails/rails", branch: "main"
+gem "rails", "~> 8.0.0.rc1"
 
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+gem "sqlite3", ">= 2.1.0"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", ">= 5.0"
+gem "puma"
+
+# use jbuilder for the api
+gem "jbuilder"
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 # gem "jsbundling-rails"
@@ -28,7 +31,7 @@ gem "turbo-rails"
 # gem "cssbundling-rails"
 
 # Use Redis adapter to run Action Cable in production
-gem "redis", ">= 4.0.1"
+# gem "redis", ">= 4.0.1"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -42,14 +45,25 @@ gem "tzinfo-data", platforms: %i[windows jruby]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+# Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
+gem "kamal", "~> 1.9.0", require: false
+
+# Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
+gem "thruster", require: false
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
+
+# All sorts of useful information about every country packaged as convenient little country objects
+gem "countries"
+
+# ISO 639-1 and ISO 639-2 language code entries and convenience methods
+gem "iso-639"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[mri windows]
   gem "byebug", "~> 11.1"
-  gem "dotenv-rails"
 end
 
 group :development do
@@ -64,30 +78,71 @@ group :development do
   # gem "spring"
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
-  gem "ruby-lsp", "~> 0.5.1", require: false
-  gem "standardrb", "~> 1.0"
-  gem "authentication-zero", "~> 2.16"
+  gem "ruby-lsp-rails", require: false
+  gem "standardrb", "~> 1.0", require: false
+  gem "erb_lint", require: false
+  gem "authentication-zero", "~> 2.16", require: false
 end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
+  gem "rails-controller-testing"
   gem "selenium-webdriver"
-  gem "webdrivers"
   gem "vcr", "~> 6.1"
   gem "webmock"
 end
 
-gem "pagy", "~> 6.0"
+gem "pagy"
 gem "dockerfile-rails", ">= 1.2", group: :development
-gem "litestack", "~> 0.2.3"
+
+# gem "activerecord-enhancedsqlite3-adapter"
+gem "litestream", "~> 0.10.1"
+gem "solid_cache"
+gem "solid_queue"
+gem "mission_control-jobs"
+
 gem "inline_svg", "~> 1.9"
 gem "net-http", "~> 0.3.2"
-gem "meilisearch-rails", "~> 0.9.1"
-gem "ahoy_matey", "~> 4.2"
-gem "vite_rails", "~> 3.0"
+gem "meilisearch-rails"
+gem "ahoy_matey"
+gem "vite_rails"
 gem "meta-tags", "~> 2.18"
-
-gem "groupdate", "~> 6.2"
-
+gem "groupdate"
 gem "appsignal", "~> 3.4"
+gem "chartkick", "~> 5.0"
+gem "dotenv-rails"
+
+gem "rails_autolink", "~> 1.1"
+
+gem "sitemap_generator", "~> 6.3"
+
+gem "view_component", "~> 3.7"
+
+gem "dry-initializer-rails"
+
+gem "dry-types", "~> 1.7"
+
+gem "google-protobuf", require: false
+
+gem "active_job-performs", "~> 0.3.1"
+
+gem "ruby-openai"
+
+gem "json-repair", "~> 0.2.0"
+
+gem "redcarpet", "~> 3.6"
+gem "country_select", "~> 8.0"
+gem "avo", "~> 3.11"
+gem "frozen_record", "~> 0.27.2"
+gem "diffy"
+
+# Use OmniAuth to support multi-provider authentication [https://github.com/omniauth/omniauth]
+gem "omniauth"
+gem "omniauth-github"
+
+# Provides a mitigation against CVE-2015-9284 [https://github.com/cookpad/omniauth-rails_csrf_protection]
+gem "omniauth-rails_csrf_protection"
+
+# silence Ruby 3.4 warnings
+gem "ostruct"

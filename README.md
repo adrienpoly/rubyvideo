@@ -1,6 +1,12 @@
 # Rubyvideo.dev
 
-Rubyvideo.dev, inspired by [pyvideo.org](https://pyvideo.org/), is designed to index all Ruby-related videos from conferences and meetups worldwide. The site is currently in its Alpha release phase, and only a small portion of available videos has been indexed.
+[Rubyvideo.dev](https://www.rubyvideo.dev), inspired by [pyvideo.org](https://pyvideo.org/), is designed to index all Ruby-related videos from conferences and meetups worldwide. At the time of writing, the project has about 2400 videos indexed from 100+ conferences and 1700 speakers.
+
+Technically the project is built using the lastest Ruby and Rails goodies such as Hotwire, SolidQueue, SolidCache. For the front end part we use Vite, Tailwind with Daisyui components and Stimulus.
+
+It is deployed on an [Hetzner VPS]() with Kamal with SQlite as the main database.
+
+For compatible browsers it tries to demonstrate some of teh possibilities of Page View Transition API.
 
 ## Contributing
 
@@ -8,9 +14,14 @@ This project is open source, and contributions are greatly appreciated. One of t
 
 ## Getting Started
 
-### Environment Variables
+We have tried to make the setup process as simple as possible so that in a few commands you can have the project with real data running locally.
 
-You can use the `.env.sample` file as a guide for the environment variables required for the project. However, there are currently no environment variables necessary for simple app exploration.
+### Requirements
+
+- Ruby 3.3.5
+- Docker and docker-compose (for Meilisearch)
+- Node.js 20.11.0
+- Meilisearch 1.1
 
 ### Setup
 
@@ -20,57 +31,54 @@ To prepare your database and seed content, run:
 bin/setup
 ```
 
+### Environment Variables
+
+You can use the `.env.sample` file as a guide for the environment variables required for the project. However, there are currently no environment variables necessary for simple app exploration.
+
 ### Meilisearch
 
-Rubyvideo.dev search uses Meilisearch as a search engine.
+[Rubyvideo.dev](https://www.rubyvideo.dev) search uses Meilisearch as a search engine.
 
-To start the app, you need to have Meilisearch installed locally.
+To start the app, you need to have a Meilisearch service started. There is a Docker Compose available
 
-Most likely, when you run the seed process, Meilisearch won't start, and the index will not be created.
+In a new terminal :
 
-To create the index, start Meilisearch (bin/dev will start it), and in the console, run `Talk.reindex!`
+```
+docker-compose up
+```
 
-This will create the local index and enable search.
+Troubleshooting:
+
+- if no search results are returned, most probably the index is empty. You can reindex by running `Talk.reindex!` in the Rails console.
+- if they are no talks at all you need to run rails db:seed first
 
 ### Starting the Application
 
-The following command will start Rails, Vite (for CSS and JS), and Meilisearch.
+The following command will start Rails, SolidQueue and Vite (for CSS and JS).
 
 ```
 bin/dev
 ```
 
-## Experimental Page Transition API
-
-https://github.com/adrienpoly/rubyvideo/assets/7847244/64d299bb-dd57-47ee-b6c9-e3e9b430fcfa
-
-Rubyvideo.dev offers experimental support for the Page View Transition API, recently released by Chrome.
-
-Enabling page transitions with Turbo started with the addition of the following code:
-
-```js
-addEventListener("turbo:before-render", (event) => {
-  if (document.startViewTransition) {
-    event.preventDefault();
-
-    document.startViewTransition(() => {
-      event.detail.resume();
-    });
-  }
-});
-```
-
-The rest of the implementation was guided by examples you can find here: https://glitch.com/edit/#!/simple-set-demos?path=1-cross-fade%2Fscript.js%3A1%3A0
-
-Currently, the implementation requires two Stimulus controllers. One controller adds a page transition class to an element on a click (before the navigation), and the other clears the DOM from any remaining `view-transition-name` on the page. It's crucial to ensure there is only one `view-transition-name= the name` per page. Plans are in place to improve this system and potentially remove the latter controller. This feature is still very much experimental.
-
 ## Linter
 
-To follow Tailwind CSS's recommended order of classes, you can use [Prettier](https://prettier.io/) along with the [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss), both of which are included as devDependencies.
+The CI performs 3 checks:
+
+- erblint
+- standardrb
+- standard (js)
+
+Before committing your code you can run `bin/lint` to detect and potentially autocorrect lint errors.
+
+To follow Tailwind CSS's recommended order of classes, you can use [Prettier](https://prettier.io/) along with the [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss), both of which are included as devDependencies. This formating is not yet enforced by the CI.
 
 ## Code of Conduct
 
 Please note that this project is released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms. More details can be found in the [Code of Conduct](/CODE_OF_CONDUCT.md) document.
+
+## Credits
+
+Thank you [Appsignal](https://appsignal.com/r/eeab047472) for providing the APM tool that helps us monitor the application.
 
 ## License
 

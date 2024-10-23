@@ -12,13 +12,33 @@
 #  updated_at      :datetime         not null
 #  name            :string           default(""), not null
 #  slug            :string           default(""), not null
+#  talks_count     :integer          default(0), not null
+#  canonical_id    :integer
 #
 # rubocop:enable Layout/LineLength
 
-one:
+railsconf_2017:
   date: 2017-05-01
-  organisation: one
+  organisation: railsconf
+  city: Phoenix
+  name: RailsConf 2017
+  slug: rails-conf-2017
 
-two:
+rubyconfth_2022:
   date: 2023-05-01
-  organisation: two
+  organisation: rubyconfth
+  city: Bangkok
+  name: RubyConf TH 2022
+  slug: rubyconfth-2022
+
+rails_world_2023:
+  date: 2023-10-26
+  organisation: rails_world
+  name: Rails World 2023
+  slug: rails-world-2023
+
+tropical_rb_2024:
+  date: 2024-04-04
+  organisation: rails_world
+  name: Tropical Ruby 2024
+  slug: tropical-rb-2024

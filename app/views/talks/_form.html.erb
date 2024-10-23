@@ -13,21 +13,27 @@
 
   <div class="my-5">
     <%= form.label :title %>
-    <%= form.text_field :title, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+    <%= form.text_field :title, class: "input input-bordered w-full" %>
   </div>
 
   <div class="my-5">
     <%= form.label :description %>
-    <%= form.text_area :description, rows: 4, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+    <%= form.text_area :description, rows: 4, class: "textarea textarea-bordered w-full" %>
   </div>
 
   <div class="my-5">
-    <%= form.label :year %>
-    <%= form.number_field :year, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+    <%= form.label :date %>
+    <%= form.text_field :date, class: "input input-bordered w-full" %>
+  </div>
+
+  <div class="my-5">
+    <%= form.label :summary %>
+    <div class="text-sm font-light mb-2">Markdown supported</div>
+    <%= form.text_area :summary, rows: 10, class: "textarea textarea-bordered w-full" %>
   </div>
 
   <div class="inline">
-    <%= form.submit "Suggest modifications" %>
-    <%= link_to "Cancel", @talk, class: "tertiary", role: "button" %>
+    <%= ui_button "Suggest modifications", type: :submit %>
+    <%= ui_button "Cancel", url: talk_path(talk), outline: true, role: :button %>
   </div>
 <% end %>
