@@ -1626,6 +1626,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/8bZh5LMaSmE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/8bZh5LMaSmE/maxresdefault.jpg
   published_at: "2014-05-21"
+  slides_url: https://speakerdeck.com/skmetz/all-the-little-things-railsconf
   description: |-
     Theory tells us to build applications out of small, interchangeable objects but reality often supplies the exact opposite. Many apps contain huge classes of long methods and hair-raising conditionals; they're hard to understand, difficult to reuse and costly to change. This talk takes an ugly section of conditional code and converts it into a few simple objects. It bridges the gap between OO theory and practice and teaches straightforward strategies that all can use to improve their code.
 
