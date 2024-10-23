@@ -2,7 +2,7 @@
   raw_title: "RubyConf Mini 2022: Weaving and seaming mocks by Vladimir Dementyev"
   speakers:
     - Vladimir Dementyev
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     To mock or not mock is an important question, but let's leave it apart and admit that we, Rubyists, use mocks in our tests.
@@ -16,7 +16,7 @@
   raw_title: "RubyConf Mini 2022: Here Be Dragons: The Hidden Gems of Tech Debt by Ernesto Tagwerker"
   speakers:
     - Ernesto Tagwerker
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   slides_url: https://speakerdeck.com/etagwerker/here-be-dragons-the-hidden-gems-of-technical-debt
   description: |-
@@ -29,7 +29,7 @@
   raw_title: "RubyConf Mini 2022: Looking Into Peephole Optimizations by Maple Ong"
   speakers:
     - Maple Ong
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     Did you know Ruby optimizes your code before executing it? If so, ever wonder how that works? The Ruby VM performs various optimizations on bytecode before executing them, one of them called peephole optimizations. Let’s learn about how some peephole optimizations work and how these small changes impact the execution of Ruby’s bytecode. Do these small changes make any impact on the final runtime? Let's find out - experience reading bytecode is not needed!
@@ -39,7 +39,7 @@
   raw_title: "RubyConf Mini: How We Implemented Salary Transparency (And Why It Matters) by Hilary Stohs Krause"
   speakers:
     - Hilary Stohs-Krause
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     Depending on where you live, money can be a prickly topic in the workplace; however, survey after survey shows it’s also a conversation many employees actively want started. Data also shows that transparency around wages increases trust and job satisfaction and improves gender and racial salary equity.
@@ -52,7 +52,7 @@
   speakers:
     - Chelsea Kaufman
     - Adam Cuppy
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     Starting an internship doesn’t have to reduce your team's progress. On the contrary, a quality internship can benefit interns and senior folks. And, it doesn't take much to set up and start. We've done over 100!
@@ -64,7 +64,7 @@
   raw_title: "RubyConf Mini 2022: Knowing When To Walk Away by Lindsay Kelly"
   speakers:
     - Lindsay Kelly
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     Picture this: the job you've always wanted. Doing exactly the kind of work you want. Having great coworkers and management. But then something shifts, and the dream becomes closer to a nightmare. How do you identify these things happening? How do you raise concerns in an appropriate way? And as a last resort, how do you know when it's the right choice to walk away?
@@ -74,7 +74,7 @@
   raw_title: "RubyConf Mini 2022: Functional programming for fun and profit!! by Jenny Shih"
   speakers:
     - Jenny Shih
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     Functional programming brings you not just fun, but also profit!
@@ -88,7 +88,7 @@
   raw_title: "RubyConf Mini 2022: Teaching Ruby to Count by Joël Quenneville"
   speakers:
     - Joël Quenneville
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   slides_url: https://speakerdeck.com/joelq/teaching-ruby-to-count
   description: |-
@@ -102,7 +102,7 @@
   speakers:
     - Alan Ridlehoover
     - Fito von Zastrow
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     Mechanical coffee machines are amazing! You drop in a coin, listen for the clink, make a selection, and the machine springs to life, hissing, clicking, and whirring. Then the complex mechanical ballet ends, splashing that glorious, aromatic liquid into the cup. Ah! C’est magnifique!
@@ -114,7 +114,7 @@
   raw_title: "RubyConf Mini 2022: We Need Someone Technical on the Call by Brittany Martin"
   speakers:
     - Brittany Martin
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     A DM. The dreaded message. “They want someone technical on the call.”
@@ -126,7 +126,7 @@
   raw_title: "RubyConf Mini 2022: Making .is_a? Fast by John Hawthorn"
   speakers:
     - John Hawthorn
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     Until Ruby 3.2 the `is_a?` method can be a surprising performance bottleneck. It be called directly or through its various synonyms like case statements, rescue statements, protected methods, `Module#===` and more! Recently `is_a?` and its various flavours have been optimized and it's now faster and runs in constant time. Join me in the journey of identifying it as a bottleneck in production, implementing the optimization, squashing bugs, and finally turning it into assembly language in YJIT.
@@ -136,7 +136,7 @@
   raw_title: "RubyConf Mini 2022: From Start to Published, Create a game with Ruby! by Cameron Gose"
   speakers:
     - Cameron Gose
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: We'll be building a game in Ruby from start to finish using the DragonRuby GameToolkit. Finally we'll publish it so that your new creation can be shared.
   video_id: -dz9KGYMT24
@@ -145,7 +145,7 @@
   raw_title: "RubyConf Mini 2022: Anyone Can Play Guitar (With Ruby) by Kevin Murphy"
   speakers:
     - Kevin Murphy
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     I've got the blues. I've been looking for the perfect guitar tone, but haven't found it. To amp up my mood, let's teach a computer to play the guitar through an amplifier.
@@ -158,7 +158,7 @@
   speakers:
     - Rose Wiegley
     - Ufuk Kayserilioglu
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: Curious about Shopify’s relationship with Ruby? Got questions on projects Shopify Ruby on Rails Engineers are currently working on? Join Rose Wiegley (Sr Staff Developer), Ufuk Kayserilioglu (Production Engineering Manager), and other Shopify Engineers for a 30-minute office hours session dedicated to answering your questions on Ruby, Shopify’s relationship with Ruby, and life at Shopify!
   video_id: 37DkMimLG4A
@@ -167,7 +167,7 @@
   raw_title: "RubyConf Mini 2022: Keynote: Learning DNS by Julia Evans"
   speakers:
     - Julia Evans
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: ""
   video_id: HoG2T0aJvfY
@@ -176,7 +176,7 @@
   raw_title: "RubyConf Mini 2022: Zen and the Art of Incremental Automation by Aji Slater"
   speakers:
     - Aji Slater
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     Automation doesn’t have to be all or nothing. Automating manual processes is a practice that one can employ via simple principles. Broad enough to be applied to a range of workflows, flexible enough to be tailored to an individual’s personal development routines; these principles are not in themselves complex, and can be performed regularly in the day to day of working in a codebase.
@@ -187,7 +187,7 @@
   raw_title: "RubyConf Mini 2022: Syntax Tree by Kevin Newton"
   speakers:
     - Kevin Newton
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: Syntax Tree is a new toolkit for interacting with the Ruby parse tree. It can be used to analyze, inspect, debug, and format your Ruby code. In this talk we'll walk through how it works, how to use it in your own applications, and the exciting future possibilities enabled by Syntax Tree.
   video_id: Ieq6SKtYJD4
@@ -201,7 +201,7 @@
     - Keith Bennett # Coding with RUby
     - # Jo Ha TODO: double-check name # Church Numerals
     - Max Wofford # Whimsical Features & Junior Developers
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: ""
   video_id: IfzO_yyiYmw
@@ -210,7 +210,7 @@
   raw_title: "RubyConf Mini 2022: Keynote by Barbara Tannenbaum"
   speakers:
     - Barbara Tannenbaum
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: ""
   video_id: JpimJspmess
@@ -219,7 +219,7 @@
   raw_title: "RubyConf Mini 2022: Solo: Building Successful Web Apps By Your Lonesome by Jeremy Smith"
   speakers:
     - Jeremy Smith
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   slides_url: https://speakerdeck.com/jeremysmithco/solo-building-successful-web-apps-by-your-lonesome
   description: |-
@@ -230,7 +230,7 @@
   raw_title: "RubyConf Mini 2022: Empathetic Pair Programming with Nonviolent Communication by Stephanie Minn"
   speakers:
     - Stephanie Minn
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: |-
     Pair programming is intimate. It’s the closest collaboration we do as software developers. When it goes well, it feels great! But when it doesn’t, you might be left feeling frustrated, discouraged, or withdrawn.
@@ -246,7 +246,7 @@
     - Ryan Laughlin
     - Ufuk Kayserilioglu
     - Someone at Shopify
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: '2023-02-28'
   description: ''
   video_id: exxUz9k03s4
@@ -259,7 +259,7 @@
     - Drew Bragg
     - Joël Quenneville
     - Andy Croll
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: '2023-02-28'
   description: ''
   video_id: gOq7PJ-0ngA
@@ -268,7 +268,7 @@
   raw_title: 'RubyConf Mini 2022: Who Wants to be a Ruby Engineer? by Drew Bragg'
   speakers:
     - Drew Bragg
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: '2023-02-28'
   description: 'Welcome to the Ruby game show where one lucky contestant tries to
     guess the output of a small bit of Ruby code. Sound easy? Here''s the challenge:
@@ -281,7 +281,7 @@
   raw_title: 'RubyConf Mini 2022: TDD on the Shoulders of Giants by Jared Norman'
   speakers:
     - Jared Norman
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: '2023-02-28'
   description: Getting started with TDD is hard enough without having to also navigate
     a programming language barrier. Many of the best books on testing focus on very
@@ -297,7 +297,7 @@
   raw_title: 'RubyConf Mini 2022: Crystal for Rubyists by Kirk Haines'
   speakers:
     - Kirk Haines
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: '2023-02-28'
   description: Crystal is a Ruby-like compiled language that was originally built
     using Ruby. Its syntax is remarkably similar to Ruby's, which generally makes
@@ -311,7 +311,7 @@
   raw_title: 'RubyConf Mini 2022: RubyGems.org MFA: The Past, Present and Future by Jenny Shen'
   speakers:
     - Jenny Shen
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: '2023-02-28'
   description: "What do Ruby’s rest-client, Python’s ctx, and npm’s ua-parser-js have
     in common? \n\nThey all suffered account takeovers that were preventable. Attackers
@@ -327,7 +327,7 @@
   raw_title: 'RubyConf Mini 2022: The Case Of The Vanished Variable - A Ruby Mystery Story by Nadia Odunayo'
   speakers:
     - Nadia Odunayo
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: '2023-02-28'
   description: After a stressful couple of days at work, Deirdre Bug is looking forward
     to a quiet evening in. But her plans are thwarted when the phone rings. “I know
@@ -342,7 +342,7 @@
   raw_title: 'RubyConf Mini 2022: Splitwise Sponsor Session: Declare Victory with Class Macros by Jess Hottenstein'
   speakers:
     - Jess Hottenstein
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: '2023-02-28'
   description: |-
     How can we write classes that are easy to understand? How can we write Ruby in a declarative way? How can we use metaprogramming without introducing chaos?
@@ -354,7 +354,7 @@
   raw_title: 'RubyConf Mini 2022: Keynote by Rose Wiegley'
   speakers:
     - Rose Wiegley
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: '2023-02-28'
   description: ''
   video_id: c_HhfehMBHE
@@ -363,7 +363,7 @@
   raw_title: 'RubyConfMini 2022: The Three-Encoding Problem by Kevin Menard'
   speakers:
     - Kevin Menard
-  event_name: RubyConf Mini 2022
+  event_name: RubyConf 2022 Mini
   published_at: '2023-02-28'
   description: You’ve probably heard of UTF-8 and know about strings, but did you
     know that Ruby supports more than 100 other encodings? In fact, your application
