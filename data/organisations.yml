@@ -350,6 +350,18 @@
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
 
+- name: Garden City Ruby
+  website: https://gardencityruby.org
+  twitter: gardencityrb
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Garden City Ruby
+  default_country_code: IN
+  youtube_channel_name: Confreaks
+  slug: garden-city-ruby
+  language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
 - name: MountainWest RubyConf
   website: http://mtnwestrubyconf.org
   twitter: mwrc
