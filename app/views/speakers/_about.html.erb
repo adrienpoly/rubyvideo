@@ -1,4 +1,9 @@
 <div class="flex flex-col gap-2 pb-4" id="<%= dom_id(speaker, :about) %>">
+  <% if speaker.pronouns.present? && ["dont_specify", "not_specified"].exclude?(speaker.pronouns_type) %>
+    <span>
+      <strong>Pronouns:</strong> <%= speaker.pronouns %>
+    </span>
+  <% end %>
   <% if speaker.github.present? %>
     <span>
       <strong>GitHub:</strong> <%= link_to speaker.github, "https://www.github.com/#{speaker.github}", target: "_blank" %>

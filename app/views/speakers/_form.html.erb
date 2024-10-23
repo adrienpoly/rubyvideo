@@ -17,6 +17,14 @@
     </div>
 
     <div>
+      <%= form.label :pronouns %>
+      <div data-controller="pronouns-select">
+        <%= form.select :pronouns_type, Speaker::PRONOUNS, {}, class: "select select-bordered w-full", data: {action: "pronouns-select#change", pronouns_select_target: "type"} %>
+        <%= form.text_field :pronouns, placeholder: "Custom pronouns", class: "hidden mt-3 input input-bordered w-full", data: {pronouns_select_target: "input"} %>
+      </div>
+    </div>
+
+    <div>
       <%= form.label :website %>
       <%= form.text_field :website, class: "input input-bordered w-full" %>
     </div>
