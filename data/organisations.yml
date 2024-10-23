@@ -350,6 +350,17 @@
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
 
+- name: LoneStarRuby Conf
+  website: http://lonestarruby.org
+  twitter: LoneStarRuby
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Lone Star Ruby Conf
+  default_country_code: US
+  youtube_channel_name: Confreaks
+  slug: lone-star-ruby-conf
+  language: english
+  
 - name: Garden City Ruby
   website: https://gardencityruby.org
   twitter: gardencityrb
