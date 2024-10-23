@@ -77,7 +77,9 @@ class Event < ApplicationRecord
     held_in = country_code ? %( held in #{ISO3166::Country.new(country_code)&.iso_short_name}) : ""
     keynotes = keynote_speakers.any? ? %(, including keynotes by #{keynote_speakers.to_sentence}) : ""
 
-    %(#{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in} and features #{talks.count} #{"talk".pluralize(talks.count)} from various speakers#{keynotes}.)
+    <<~DESCRIPTION
+      #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in} and features #{talks.count} #{"talk".pluralize(talks.count)} from various speakers#{keynotes}.
+    DESCRIPTION
   end
 
   def to_meta_tags
