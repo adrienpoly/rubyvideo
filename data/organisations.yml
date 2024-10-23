@@ -6,9 +6,9 @@
   kind: conference
   frequency: yearly
   playlist_matcher: rails
-  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
   slug: railsconf
   language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
 
 - name: Rails Pacific
   website: https://x.com/railspacific
@@ -17,9 +17,9 @@
   kind: conference
   frequency: yearly
   playlist_matcher: Rails Pacific
-  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
   slug: rails-pacific
   language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
 
 - name: Rails World
   website: https://rubyonrails.org/world
@@ -62,11 +62,11 @@
   twitter: friendlyrb
   slug: friendly-rb
   youtube_channel_name: friendlyrb
-  youtube_channel_id: UC-PJCpt-6EgR4Ks6e0RSs1g
   kind: conference
   frequency: yearly
   default_country_code: RO
   language: english
+  youtube_channel_id: UC-PJCpt-6EgR4Ks6e0RSs1g
 
 - name: Helvetic Ruby
   website: https://helvetic-ruby.ch
@@ -96,9 +96,9 @@
   youtube_channel_name: balticruby
   kind: conference
   frequency: yearly
-  youtube_channel_id: UCyTip8pDXBqTxTR6fDZItDw
   slug: balticruby
   language: english
+  youtube_channel_id: UCyTip8pDXBqTxTR6fDZItDw
 
 - name: Rocky Mountain Ruby
   website: http://rockymtnruby.dev
@@ -360,6 +360,7 @@
   youtube_channel_name: Confreaks
   slug: big-ruby
   language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
 
 - name: LoneStarRuby Conf
   website: http://lonestarruby.org
@@ -371,7 +372,8 @@
   youtube_channel_name: Confreaks
   slug: lone-star-ruby-conf
   language: english
-  
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
 - name: Garden City Ruby
   website: https://gardencityruby.org
   twitter: gardencityrb
