@@ -114,12 +114,13 @@
     -  Audience participation is strongly encouraged, as is stealing the speaker's Vim tricks for your own use.
   video_id: C0H-LyZy9Ko
 
-- title: 'Magic Tricks of Testing'
+- title: 'The Magic Tricks of Testing'
   raw_title: Sandi Metz - Magic Tricks of Testing - Ancient City Ruby 2013
   speakers:
     - Sandi Metz
   event_name: Ancient City Ruby 2013
   published_at: '2013-07-02'
+  slides_url: https://speakerdeck.com/skmetz/magic-tricks-of-testing-ancientcityruby
   description: |-
     Tests are supposed to save us money. How is it, then, that many times they become millstones around our necks, gradually morphing into fragile, breakable things that raise the cost of change?
 
