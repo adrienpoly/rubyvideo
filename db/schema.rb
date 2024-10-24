@@ -141,6 +141,8 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_23_154126) do
     t.integer "talks_count", default: 0, null: false
     t.integer "canonical_id"
     t.string "speakerdeck", default: "", null: false
+    t.string "pronouns_type", default: "not_specified", null: false
+    t.string "pronouns", default: "", null: false
     t.index ["canonical_id"], name: "index_speakers_on_canonical_id"
     t.index ["name"], name: "index_speakers_on_name"
     t.index ["slug"], name: "index_speakers_on_slug", unique: true
