@@ -11,7 +11,7 @@
   speakers:
     - Zach Holman
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -24,9 +24,15 @@
 - title: Lightning Talks
   raw_title: 'RubyConf AU 2013: Lightning Talks'
   speakers:
-    - TODO
+    - Darcy Laycock # Dr Smalltak - or: How I Learned to Stop Worrying and Love Objective-C (https://speakerdeck.com/sutto/dr-smalltalk) (01:03)
+    - John Rowe # Black/White (03:47)
+    - Toby Hede # An Ode to 17 Databases in 5 minutes (08:37)
+    - Robert Postill # RailsGirls - It's more fun than falling into favorite foodstuff (13:04)
+    - Cameron Barrie # Desing your API (18:18)
+    - Jason Weathered # freshshell.com - Keep your dot files fresh (23:48)
+    - Odin Dutton # freshshell.com - Keep your dot files fresh (23:48)
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: 'RubyConf AU 2013: http://www.rubyconf.org.au'
   video_id: PVUErJVkM2k
 
@@ -35,7 +41,7 @@
   speakers:
     - Pat Allan
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -48,7 +54,7 @@
   speakers:
     - Geoffrey Giesemann
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     From Stubbies to Longnecks - Finding and curing scaling bottlenecks
 
@@ -69,7 +75,7 @@
     - Keith Pitt
     - Mario Visic
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -93,7 +99,7 @@
   speakers:
     - Michael Fairley
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -101,12 +107,12 @@
     This talk answers the question "why immutability?", covers the building blocks of immutable code, such as value objects and persistent data structures, as well as higher order concepts that make heavy use of immutability, such as event sourcing and pure functions, and finally discusses the tradeoffs involved in going immutable.
   video_id: a1XZ1fhPiV0
 
-- title: 'Opening Keynote: TODO'
+- title: 'Opening Keynote: Stading on the shoulders of giants'
   raw_title: 'RubyConf AU 2013: Opening Keynote by Corey Haines'
   speakers:
     - Corey Haines
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -118,7 +124,7 @@
   speakers:
     - Benjamin Smith
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -137,7 +143,7 @@
   speakers:
     - Will Farrington
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -149,7 +155,7 @@
   speakers:
     - Chris Kelly
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -162,7 +168,7 @@
   speakers:
     - Paul Gross
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -184,19 +190,19 @@
   speakers:
     - Richard Schneeman
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
     Heroku has deployed millions of web apps. When you've run that many applications, it's hard not to notice when frameworks and developers do things wrong, and when they do them right. We've taken a look at the most common patterns and boiled down the best of our advice in to 12 simple factors that can help you build your next app to be stable, successful, and scaleable. After this talk you'll walk away with in depth knowledge of web framework design patterns and practical examples of how to improve your application code.
   video_id: fFOl-oiugZk
 
-- title: 'Closing Keynote: TODO'
+- title: 'Closing Keynote'
   raw_title: 'RubyConf AU 2013: Closing Keynote by Dave Thomas'
   speakers:
     - Dave Thomas
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -208,19 +214,19 @@
   speakers:
     - Nick Sutterer
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
     Rails - a word that stirs programmer's blood. It brought us testing, easy web app building, database abstraction and hundreds of extension gems. Why not take it to another level and discover how Rails turns into a real OOP framework? By exploring chosen gems let's discuss what MVC really is and how it boosts your AJAX user interface, how to apply patterns like DCI, dependency injection and POROs to your database layer and how to expose your Rails system through a real RESTful API. Also, have you ever tried using Rails helpers outside of Rails, maybe in Sinatra? Let's do it and learn about some refreshing aspects of this framework.
   video_id: Xj24IuwjW-0
 
-- title: 'Keynote: TODO'
+- title: 'Keynote'
   raw_title: 'RubyConf AU 2013: Keynote by Mikel Lindsaar'
   speakers:
     - Mikel Lindsaar
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -232,7 +238,7 @@
   speakers:
     - Terrence Lee
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -246,7 +252,7 @@
   speakers:
     - John Barton
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -271,7 +277,7 @@
   speakers:
     - Charles Nutter
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -281,12 +287,11 @@
   video_id: 3Fm-n_Vr7e4
 
 - title: Sinatra in SIX lines - How to do crazy stuff with Ruby
-  raw_title: 'RubyConf AU 2013: Sinatra in SIX lines - How to do crazy stuff with
-    Ruby by Konstantin Haase'
+  raw_title: 'RubyConf AU 2013: Sinatra in SIX lines - How to do crazy stuff with Ruby by Konstantin Haase'
   speakers:
     - Konstantin Haase
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -300,7 +305,7 @@
   speakers:
     - Amit Kumar
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -326,7 +331,7 @@
   speakers:
     - Geoffrey Grosenbach
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -338,7 +343,7 @@
   speakers:
     - Carina C. Zona
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -360,7 +365,7 @@
   speakers:
     - Adam Hawkins
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -381,7 +386,7 @@
   speakers:
     - Ben Orenstein
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -404,7 +409,7 @@
   speakers:
     - Ben Hoskings
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -417,9 +422,11 @@
   speakers:
     - Renée De Voursney
   event_name: RubyConf AU 2013
-  published_at: '2017-05-22'
+  published_at: '2013-02-20'
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
     How many companies are hiring Ruby developers right now? How many are finding qualified candidates? Why aren't workers swarming into our industry to fill up all these empty developer positions? Is learning Ruby really that hard? Why is learning Ruby so hard? Isn't it a language built by people for people? Shouldn't that be easy for anyone to pickup and use? Why isn't everyone building Ruby apps? I'm going to tell you. The good, the bad, and the goofy of trying to teach Ruby, Rails, and everything else we take for granted as RoR developers. There may even be a guest appearance from a real life Ruby Newbie to demonstrate!
   video_id: wD-8mIpyBb8
+
+# TODO: missing talk: Toby Hede - Realtime Rails and Ruby
