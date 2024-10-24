@@ -1,11 +1,25 @@
 ---
 
+# Website: https://rubyconf.org.au/2023
+# Schedule: https://rubyconf.org.au/2023/schedule
+
+## Day 0 - Wednesday, 2023-02-15
+
+# Welcome Games Night - Sponsored by Assembly Four
+
+
+## Day 1 - Thursday, 2023-02-16
+
+# Registration and Coffee
+
+# Welcome and Opening Remarks
+
 - title: Asynchronous Rails
   raw_title: Asynchronous Rails
   speakers:
     - Samuel Williams
   description: The fiber scheduler presents new opportunities for building scalable and concurrent Ruby programs. However, Rails has traditionally been a request-per-process or request-per-thread framework. We will give a brief introduction to the fiber scheduler, and look at how we are evolving Rails and Ruby in general to take advantage of request-per-fiber using Falcon.
-  published_at: "2023-02-17"
+  published_at: "2023-02-16"
   video_id: 9tOMD491mFY
   video_provider: youtube
 
@@ -19,9 +33,11 @@
       I will show you how to get started, what makes Sega Mega Drive a great platform for mruby/c, and some of the challenges I faced.
 
       This presentation will be delivered on a Mega Drive unit.
-  published_at: "2023-02-17"
+  published_at: "2023-02-16"
   video_id: sz8tmrQtAUE
   video_provider: youtube
+
+# Morning Tea
 
 - title: Neurodiversity - Shifting the Paradigm from Silent Disability to Super Power
   raw_title: Neurodiversity - Shifting the Paradigm from Silent Disability to Super Power
@@ -35,7 +51,7 @@
       Are you unknowingly suppressing the super powers of your neurodiverse colleagues by forcing them to conform to neurotypical expectations? Are you aware of their daily struggles due to workplaces and processes being built for neurotypicals? eg. do you offer pairing opportunities to help with task paralysis? or quiet working spaces? or attention to office lighting? or recorded Zoom meetings, etc? The chances are, if they are female - they might not be aware of their own needs! Did you know that the average age for ADHD diagnosis for anyone born male is single digits, and goes up to 45 for anyone born female?!
 
       Let's encourage more open conversations, and educate ourselves and our peers. Neurodiversity is not a disability - it's a super power from being wired differently. The benefits can be incredible when we become inclusive!
-  published_at: "2023-02-17"
+  published_at: "2023-02-16"
   video_id: CsoB-kP3-J0
   video_provider: youtube
 
@@ -49,9 +65,11 @@
     And when we look at the broader world - with pandemics, wars, and the devastation of the climate emergency - well, it's easy to become despondent, or to shut that out and focus on the code. But instead, we should tap into that special community vibe that has nurtured us, and take a step forward in having a broader impact. So what could that look like?
 
     To understand what we can (and perhaps should) do, we must understand what has been done already: this session will cast a critical eye on our industry, pointing out missteps and missed perspectives, as well as looking at what has been done elsewhere to make lasting, positive changes. With that foundation set, we will then talk through several recommendations on what meaningful action for software developers can be, as well as possible guidelines to help each other critique, share and refactor our actions to have even greater impact.
-  published_at: "2023-02-17"
+  published_at: "2023-02-16"
   video_id: ml9wma3WL8c
   video_provider: youtube
+
+# Lunch
 
 - title: But, You Don't Look Autistic
   raw_title: But, you don't look Autistic
@@ -82,7 +100,7 @@
       * Asking people what they need and believing them helps everyone
 
       I'm hoping by sharing my experiences you'll be able to gain some insight on how to help others, or yourself if you identify with what I've been saying a little too much.
-  published_at: "2023-02-17"
+  published_at: "2023-02-16"
   video_id: i85MQxE9TR0
   video_provider: youtube
 
@@ -100,7 +118,7 @@
       Like… Devise or Spree?
 
       Not quite. In this talk you'll learn a whole new perspctive on Rails Engines; a much lighter and leaner way to use them that allow teams to break up their app into meaningful modules without losing the beauty of Rails' conventions. Sprinkle in the Packwerk Gem by Shopify for the perfect combo to scale your domain and your team.
-  published_at: "2023-02-17"
+  published_at: "2023-02-16"
   video_id: StDoHXO8H6E
   video_provider: youtube
 
@@ -114,9 +132,11 @@
       People working in tech, including those in leadership positions, often struggle to overcome prejudice and lack of privilege but still end up feeling like they don't belong, like they are a fraud, even when they're achieving success and making an impact. Imposter syndrome can affect people at any stage in their career - whether they're an intern or in a senior leadership or executive role.
 
       In this talk I'll go over personal experiences with imposter syndrome and practical strategies I've developed that anyone can apply to banish imposter thoughts and prevent them from getting in the way of your success, career progression, mental health, and happiness at work. An easy to remember acronym (REACT) with 5 realistic steps you can take away and practice can help you create a more accurate representation of your performance. You can take these steps away for yourself, or if you are a people leader, use them to help coach your people through the confusing world of imposter syndrome.
-  published_at: "2023-02-17"
+  published_at: "2023-02-16"
   video_id: Ee0QCyRuwCU
   video_provider: youtube
+
+# Afternoon Tea
 
 - title: How to Make Your Website Not Ugly - Basic UX for Programmers
   raw_title: How to Make Your Website Not Ugly - Basic UX for Programmers
@@ -128,7 +148,7 @@
       Even with zero design training or background, there are numerous small, simple and practical ways you can vastly improve the look and usability of a website.
 
       In this talk, we'll explore 10 of them together, using research and proven solutions to see how the impact as a whole for both clients and users is greater than the sum of its parts.
-  published_at: "2023-02-17"
+  published_at: "2023-02-16"
   video_id: zkrRd5itj8w
   video_provider: youtube
 
@@ -137,9 +157,16 @@
   speakers:
     - Nate Berkopec
   description: Have you ever wondered how Puma (or other webservers) work? Let's explore the internals of how a pre-forking webserver like Puma buffers and processes requests, what Rack is and how Puma uses it to interact with Rails, and how Puma's multi-threaded and parallel design works in practice.
-  published_at: "2023-02-17"
+  published_at: "2023-02-16"
   video_id: SquGNt4FhY0
   video_provider: youtube
+
+# Close
+
+
+## Day 2 - Friday, 2023-02-17
+
+# Registration and Coffee
 
 - title: The World Set Free
   raw_title: The World Set Free
@@ -161,6 +188,8 @@
   published_at: "2023-02-17"
   video_id: 0lg9Y8gj3FI
   video_provider: youtube
+
+# Morning Tea
 
 - title: Encrypted Search Party
   raw_title: Encrypted Search Party
@@ -200,6 +229,8 @@
   video_id: 4EoMYQ6fmss
   video_provider: youtube
 
+# Lunch
+
 - title: Aussie Internet - How We Learned To Stop Fearing The NBN and Love the SPA
   raw_title: Aussie Internet - How we learned to stop fearing the NBN and love the SPA
   speakers:
@@ -237,6 +268,8 @@
   video_id: uuLl8W1sz60
   video_provider: youtube
 
+# Afternoon Tea
+
 - title: Security Doesn't Have To Be a Nightmare
   raw_title: Security Doesn't Have To Be a Nightmare
   speakers:
@@ -264,3 +297,7 @@
   published_at: "2023-02-17"
   video_id: VOJS_Jq_Eg4
   video_provider: youtube
+
+# Closing Remarks
+
+# Closing Cocktail Party - Sponsored By HotDoc
