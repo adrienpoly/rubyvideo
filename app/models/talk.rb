@@ -178,7 +178,7 @@ class Talk < ApplicationRecord
   def groupable_title
     prefixes = ["Keynote", "Opening Keynote", "Closing Keynote", "Lightning Talks"]
 
-    return slug if title.in?(prefixes)
+    return "#{title} - #{event.name}" if title.in?(prefixes)
 
     title.dup.tap do |t|
       prefixes.each do |prefix|

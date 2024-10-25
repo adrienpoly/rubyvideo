@@ -37,8 +37,6 @@
             <% @grouped_talks.each do |title, talks| %>
               <%= render partial: "talks", locals: {title: title, talks: talks, speaker: @speaker, user_favorite_talks_ids: @user_favorite_talks_ids} %>
             <% end %>
-
-            <%= render partial: "talks", locals: {title: "Ungrouped", talks: @ungrouped_talks, speaker: @speaker, user_favorite_talks_ids: @user_favorite_talks_ids} %>
           </div>
 
           <input type="radio" name="talk_type" role="tab" class="tab" aria-label="Ungrouped" style="width: 150px">
