@@ -1,10 +1,20 @@
 ---
+
+# Website: https://web.archive.org/web/20140627164046/http://www.ancientcityruby.com/
+# Schedule: https://web.archive.org/web/20140627164046/http://www.ancientcityruby.com/
+
+# April 3 & 4, 2024 - St. Augustine, FL
+
+## Day 1 - 2014-04-03
+
+# Breakfast & Registration
+
 - title: "Leon's Allegory of the Cave"
   raw_title: Leon Gersing - Leon's Allegory of the Cave - Ancient City Ruby 2014
   speakers:
     - Leon Gersing
   event_name: Ancient City Ruby 2014
-  published_at: '2014-05-08'
+  published_at: '2014-04-03'
   description: What is the role of the software developer in the modern world? We
     are more educated now than during any time in recorded human history. We have
     more access to tools and the ability to craft our own in order to better communicate
@@ -23,12 +33,14 @@
     discover, perhaps, why we are here.
   video_id: _oTEnczCS0s
 
+# Sponsor Lightning Talks
+
 - title: 'Breaking Up (With) Your Test Suite'
   raw_title: Justin Searls - Breaking Up (With) Your Test Suite - Ancient City Ruby 2014
   speakers:
     - Justin Searls
   event_name: Ancient City Ruby 2014
-  published_at: '2014-05-08'
+  published_at: '2014-04-03'
   description: |-
     It's about time for the Ruby community to adopt a more mature and nuanced approach to testing.
 
@@ -37,12 +49,20 @@
     This talk will introduce a testing architecture that's appropriate for the post-monolithic age of Ruby application development. We'll discuss why each test suite can provide at most one type of confidence and one type of feedback. I'll introduce a set of five narrow, focused types of test suites and explore how each of their roles can combine to provide all of the value that test automation can hope to offer. Together, we'll gain the ability to discuss the value of each test with much greater precision and subtlety.
   video_id: vkAfGHd7sZY
 
+# Sponsor Lightning Talks
+
+# Break
+
+# TODO: missing talk: David Copeland - Let's Write Some Weird Ruby
+
+# Lunch
+
 - title: 'Overkill'
   raw_title: Katrina Owen - Overkill - Ancient City Ruby 2014
   speakers:
     - Katrina Owen
   event_name: Ancient City Ruby 2014
-  published_at: '2014-05-08'
+  published_at: '2014-04-03'
   description: |-
     When is it okay to build an orbital laser to destroy an ant-hill?
 
@@ -51,12 +71,14 @@
     This talk explores how stepping outside of the realm of work and applying outrageous engineering practices to toy problems can deepen our understanding of the trade-offs that we make. Comically simple problems provide the perfect ground for developing actionable heuristics which can be applied to those monstrous complexities that we face in the real world.
   video_id: GTpZ0ffQrIE
 
+# Sponsor Lightning Talks
+
 - title: 'Testing the Untestable'
   raw_title: Richard Schneeman - Testing the Untestable - Ancient City Ruby 2014
   speakers:
     - Richard Schneeman
   event_name: Ancient City Ruby 2014
-  published_at: '2014-05-08'
+  published_at: '2014-04-03'
   description: 'Good tests are isolated, they''re repeatable, they''re deterministic.
     Good tests don''t touch the network and are flexible when it comes to change.
     Bad tests are all of the above and more. Bad tests are no tests at all: which
@@ -68,24 +90,33 @@
     a monolith app. When life gives you a big ball of mud, write a big ball of tests.'
   video_id: MdtfcLJwOf0
 
+# Sponsor Lightning Talks
+
+# Break
+
 - title: 'Fast, Testable and SANE APIs'
   raw_title: Ben Lovell - Fast, Testable and SANE APIs
   speakers:
     - Ben Lovell
   event_name: Ancient City Ruby 2014
-  published_at: '2014-05-08'
+  published_at: '2014-04-03'
   description: |-
     By now, we've all written JSON APIs in Rails. But how do you write fast, testable and sane APIs? I'll guide you through the trials of designing and building awesome, scalable APIs. We'll cover rails-api, activemodelserializers, and all the associated goodness that our ecosystem has to offer.
 
     I'll speak on the approaches to authentication, how to ensure we remain good REST/HTTP citizens and maybe if I have time I'll share some of my top secret beard grooming tips!
   video_id: dUPp4DhFLnY
 
+
+## Day 2 - 2014-04-04
+
+# Breakfast
+
 - title: 'Ruby & You'
   raw_title: Terence Lee - Ruby & You - Ancient City Ruby 2014
   speakers:
     - Terence Lee
   event_name: Ancient City Ruby 2014
-  published_at: '2014-05-09'
+  published_at: '2014-04-04'
   description: 'On November 22, 2013, a devastating security exploit was publicized
     to the Ruby community: Heap Overflow in Floating Point Parsing (CVE-2013-4164).
     There was no fixes provided for Ruby 1.9.2. In fact, Ruby 1.9.2 has never had
@@ -102,49 +133,14 @@
     love. Help us make Ruby better.'
   video_id: Vl5ASs3FtRw
 
-- title: 'Introduction to Elixir for Rubyists'
-  raw_title: Josh Adams - Introduction to Elixir for Rubyists - Ancient City Ruby 2014
-  speakers:
-    - Josh Adams
-  event_name: Ancient City Ruby 2014
-  published_at: '2015-02-02'
-  description: Elixir is a concurrency-oriented programming language built atop the
-    Erlang VM. Its syntax is very Ruby-influenced, and it takes some great features
-    from the Python world as well. In this talk, I'll provide a quick introduction
-    to the language. I'll provide just a quick overview of the language syntactically,
-    as well as cover some areas where it differs wildly from Ruby.
-  video_id: rS5aeUi1sZs
-
-- title: "Oh, Oh, Oh, It's Magic!"
-  raw_title: Aaron Patterson - Oh, Oh, Oh, It's Magic! - Ancient City Ruby 2014
-  speakers:
-    - Aaron Patterson
-  event_name: Ancient City Ruby 2014
-  published_at: '2015-02-02'
-  description: You know? Let's explore computer vision using Ruby and OpenCV! In this
-    talk, we will learn techniques for speeding up our code, fetching data from the
-    network, and doing image recognition, all in Ruby. Let's harness the power of
-    Sauron's Eye (my webcam) together!
-  video_id: csN-NYFba0U
-
-- title: 'Hack Me If You Can'
-  raw_title: Konstantin Haase - Hack Me If You Can - Ancient City Ruby 2014
-  speakers:
-    - Konstantin Haase
-  event_name: Ancient City Ruby 2014
-  published_at: '2015-02-02'
-  description: |-
-    Security is important. Yet, it's where a lot of web developers have little to no experience. We'll look at a whole range of opportunistic attack vectors that can be used against web applications, and how we can protect us against them.
-
-    This talk will include one currently undisclosed attack (at the time of writing).
-  video_id: u_Le8-WsSs8
+# Lightning Talks
 
 - title: 'Postgres Performance for Humans'
   raw_title: Craig Kerstiens - Postgres Performance for Humans - Ancient City Ruby 2014
   speakers:
     - Craig Kerstiens
   event_name: Ancient City Ruby 2014
-  published_at: '2015-02-02'
+  published_at: '2014-04-04'
   description: |-
     To many developers the database is a black box. You expect to be able to put data into your database, have it to stay there, and get it out when you query it... hopefully in a performant manner. When its not performant enough the two options are usually add some indexes or throw some hardware at it. We'll walk through a bit of a clearer guide of how you can understand how database is doing from a 30,000 foot perspective as well as analyze specific problematic queries and how to tune them. In particular we'll cover:
 
@@ -155,12 +151,61 @@
     * More
   video_id: occqUdd7t4E
 
+# Lightning Talks
+
+# Break
+
+- title: 'Introduction to Elixir for Rubyists'
+  raw_title: Josh Adams - Introduction to Elixir for Rubyists - Ancient City Ruby 2014
+  speakers:
+    - Josh Adams
+  event_name: Ancient City Ruby 2014
+  published_at: '2014-04-04'
+  description: Elixir is a concurrency-oriented programming language built atop the
+    Erlang VM. Its syntax is very Ruby-influenced, and it takes some great features
+    from the Python world as well. In this talk, I'll provide a quick introduction
+    to the language. I'll provide just a quick overview of the language syntactically,
+    as well as cover some areas where it differs wildly from Ruby.
+  video_id: rS5aeUi1sZs
+
+# Lunch
+
+- title: "Oh, Oh, Oh, It's Magic!"
+  raw_title: Aaron Patterson - Oh, Oh, Oh, It's Magic! - Ancient City Ruby 2014
+  speakers:
+    - Aaron Patterson
+  event_name: Ancient City Ruby 2014
+  published_at: '2014-04-04'
+  description: You know? Let's explore computer vision using Ruby and OpenCV! In this
+    talk, we will learn techniques for speeding up our code, fetching data from the
+    network, and doing image recognition, all in Ruby. Let's harness the power of
+    Sauron's Eye (my webcam) together!
+  video_id: csN-NYFba0U
+
+# Lightning Talks
+
+- title: 'Hack Me If You Can'
+  raw_title: Konstantin Haase - Hack Me If You Can - Ancient City Ruby 2014
+  speakers:
+    - Konstantin Haase
+  event_name: Ancient City Ruby 2014
+  published_at: '2014-04-04'
+  description: |-
+    Security is important. Yet, it's where a lot of web developers have little to no experience. We'll look at a whole range of opportunistic attack vectors that can be used against web applications, and how we can protect us against them.
+
+    This talk will include one currently undisclosed attack (at the time of writing).
+  video_id: u_Le8-WsSs8
+
+# Sponsor Lightning Talks
+
+# Break
+
 - title: 'Juggling Children... and Rubies'
   raw_title: Evan Machnic - Juggling Children... and Rubies - Ancient City Ruby 2014
   speakers:
     - Evan Machnic
   event_name: Ancient City Ruby 2014
-  published_at: '2015-02-03'
+  published_at: '2014-04-04'
   description: |-
     "DAD! I'm hungry."
     "DAD! Can you tie my shoes?"
