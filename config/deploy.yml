@@ -1,24 +1,26 @@
 # Name of your application. Used to uniquely configure containers.
-service: rubyvideo_staging
+service: rubyvideo
 
 # Name of the container image.
-image: adrienpoly/rubyvideo_staging
+image: adrienpoly/rubyvideo
 
 # Deploy to these servers.
 servers:
   web:
-    - 5.75.232.156
+    - 91.107.208.207
   job:
     hosts:
-      - 5.75.232.156
+      - 91.107.208.207
     cmd: bin/jobs
 
 # Enable SSL auto certification via Let's Encrypt (and allow for multiple apps on one server).
 # If using something like Cloudflare, it is recommended to set encryption mode
 # in Cloudflare's SSL/TLS setting to "Full" to enable end-to-end encryption.
 proxy:
-  # ssl: true
-  host: staging.rubyvideo.dev
+  ssl: true # TODO: enable SSL
+  hosts:
+    - rubyvideo.dev
+    - www.rubyvideo.dev
   # kamal-proxy connects to your container over port 80, use `app_port` to specify a different port.
   app_port: 80
 
@@ -43,7 +45,7 @@ env:
     RAILS_SERVE_STATIC_FILES: true
     WEB_CONCURRENCY: 1
     RAILS_MAX_THREADS: 3
-    RAILS_ENV: staging
+    RAILS_ENV: production
   secret:
     - RAILS_MASTER_KEY
     - APPSIGNAL_PUSH_API_KEY
@@ -105,11 +107,11 @@ volumes:
 accessories:
   search:
     image: getmeili/meilisearch:v1.10
-    host: 5.75.232.156
+    host: 91.107.208.207
     port: 7700
     env:
       clear:
-        MEILI_HTTP_ADDR: localhost:7700
+        MEILI_HTTP_ADDR: rubyvideo-search:7700
         MEILI_ENV: production
         MEILI_DB_PATH: /rails/storage/meilisearch
         MEILI_NO_ANALYTICS: true
