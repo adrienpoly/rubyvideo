@@ -175,6 +175,18 @@ class Talk < ApplicationRecord
     Talk.where(id: ids)
   end
 
+  def groupable_title
+    prefixes = ["Keynote", "Opening Keynote", "Closing Keynote", "Lightning Talks"]
+
+    return slug if title.in?(prefixes)
+
+    title.dup.tap do |t|
+      prefixes.each do |prefix|
+        t.delete_prefix!("#{prefix}: ")
+      end
+    end
+  end
+
   def transcript
     enhanced_transcript.presence || raw_transcript
   end

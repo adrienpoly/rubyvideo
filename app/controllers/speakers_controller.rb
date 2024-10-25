@@ -23,6 +23,12 @@ class SpeakersController < ApplicationController
   def show
     @talks = @speaker.talks.with_essential_card_data.order(date: :desc)
     @back_path = speakers_path
+
+    @grouped_talks = @talks.group_by { |talk| talk.groupable_title.downcase }.map { |title, talks| [talks.first.groupable_title, talks] }.to_h
+
+    @ungrouped_talks = @grouped_talks.select { |title, talks| talks.count == 1 }.values.flatten
+    @grouped_talks = @grouped_talks.reject { |_title, talks| talks.count == 1 }.sort_by { |_title, talks| -talks.map(&:date).max.to_time.to_i }
+
     set_meta_tags(@speaker)
     # fresh_when(@speaker)
   end
