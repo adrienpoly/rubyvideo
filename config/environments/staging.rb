@@ -28,7 +28,7 @@ Rails.application.configure do
   config.assume_ssl = true
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-  config.force_ssl = true
+  # config.force_ssl = true
 
   # Skip http-to-https redirect for the default health check endpoint.
   # config.ssl_options = { redirect: { exclude: ->(request) { request.path == "/up" } } }
@@ -60,7 +60,7 @@ Rails.application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Set host to be used by links generated in mailer templates.
-  config.action_mailer.default_url_options = {host: "rubyvideo.dev"}
+  config.action_mailer.default_url_options = {host: "staging.rubyvideo.dev"}
 
   # Specify outgoing SMTP server. Remember to add smtp/* credentials via rails credentials:edit.
   # config.action_mailer.smtp_settings = {
@@ -84,7 +84,8 @@ Rails.application.configure do
   # Enable DNS rebinding protection and other `Host` header attacks.
   config.hosts = [
     "rubyvideo.dev", # Allow requests to the server itself
-    /.*\.rubyvideo\.dev/ # Allow requests from subdomains like `www.example.com`
+    /.*\.rubyvideo\.dev/, # Allow requests from subdomains like `www.example.com`
+    /.*\.adrienpoly\.com/ # Allow requests from subdomains like `www.example.com`
   ]
   # Skip DNS rebinding protection for the default health check endpoint.
   config.host_authorization = {exclude: ->(request) { request.path == "/up" }}

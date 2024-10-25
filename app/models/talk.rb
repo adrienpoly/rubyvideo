@@ -39,10 +39,10 @@ class Talk < ApplicationRecord
   include Searchable
   slug_from :title
 
-  # include MeiliSearch
-  # include MeiliSearch::Rails
-  # ActiveRecord_Relation.include Pagy::Meilisearch
-  # extend Pagy::Meilisearch
+  include MeiliSearch
+  include MeiliSearch::Rails
+  ActiveRecord_Relation.include Pagy::Meilisearch
+  extend Pagy::Meilisearch
 
   # associations
   belongs_to :event, optional: true, counter_cache: :talks_count
@@ -84,24 +84,24 @@ class Talk < ApplicationRecord
   end
 
   # search
-  # meilisearch do
-  #   attribute :title
-  #   attribute :description
-  #   attribute :summary
-  #   attribute :speaker_names do
-  #     speakers.pluck(:name)
-  #   end
-  #   attribute :event_name do
-  #     event_name
-  #   end
+  meilisearch do
+    attribute :title
+    attribute :description
+    attribute :summary
+    attribute :speaker_names do
+      speakers.pluck(:name)
+    end
+    attribute :event_name do
+      event_name
+    end
 
-  #   searchable_attributes [:title, :description, :speaker_names, :event_name, :summary]
-  #   sortable_attributes [:title]
+    searchable_attributes [:title, :description, :speaker_names, :event_name, :summary]
+    sortable_attributes [:title]
 
-  #   attributes_to_highlight ["*"]
-  # end
+    attributes_to_highlight ["*"]
+  end
 
-  # meilisearch enqueue: true
+  meilisearch enqueue: true
 
   # ensure that during the reindex process the associated records are eager loaded
   scope :meilisearch_import, -> { includes(:speakers, :event) }

@@ -54,6 +54,7 @@
 !/data_preparation/organisations.yml
 
 /config/credentials/production.key
+/config/credentials/staging.key
 
 test-run-report*
 
