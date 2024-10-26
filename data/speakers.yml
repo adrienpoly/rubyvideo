@@ -1085,6 +1085,13 @@
   website: ""
   slug: andrew-radev
   canonical_slug:
+- name: Andrew Shafer
+  twitter: ""
+  github: littleidea
+  bio: ""
+  website: ""
+  slug: andrew-shafer
+  canonical_slug:
 - name: Andrew Turley
   twitter: ""
   github: ""
@@ -1585,13 +1592,6 @@
   website: https://austio.com
   slug: austin-story
   canonical_slug:
-- name: Avdi Grim
-  twitter: ""
-  github: ""
-  bio: ""
-  website: ""
-  slug: avdi-grim
-  canonical_slug:
 - name: Avdi Grimm
   twitter: avdi
   github: avdi
@@ -1807,11 +1807,11 @@
   canonical_slug:
 - name: Benjamin Lewis
   twitter: ""
-  github: benjaminhawkeslewis
+  github: BenjiLewis
   bio: ""
   website: ""
   slug: benjamin-lewis
-  canonical_slug:
+  canonical_slug: banji-lewis
 - name: Benjamin Roth
   twitter: ""
   github: apneadiving
@@ -2027,13 +2027,6 @@
     ☕️"
   website: http://brblck.com
   slug: brandon-black
-  canonical_slug:
-- name: Brandon Hayes
-  twitter: ""
-  github: ""
-  bio: ""
-  website: ""
-  slug: brandon-hayes
   canonical_slug:
 - name: Brandon Hays
   twitter: ""
@@ -2359,13 +2352,6 @@
   website: https://calebden.io
   slug: caleb-denio
   canonical_slug:
-- name: Caleb Heart
-  twitter: ""
-  github: ""
-  bio: ""
-  website: ""
-  slug: caleb-heart
-  canonical_slug:
 - name: Caleb Hearth
   twitter: ""
   github: calebhearth
@@ -2437,13 +2423,6 @@
   bio: "Sr. Developer Advocate\r\nCurrently @ Auth0 by Okta"
   website: carlastabile.tech
   slug: carla-urrea-stabile
-  canonical_slug:
-- name: Carlos Antionio da Silva
-  twitter: ""
-  github: ""
-  bio: ""
-  website: ""
-  slug: carlos-antionio-da-silva
   canonical_slug:
 - name: Carlos Antonio Da Silva
   twitter: cantoniodasilva
@@ -5919,7 +5898,7 @@
   bio: ""
   website: http://graysoftinc.com/
   slug: james-edward-gray
-  canonical_slug:
+  canonical_slug: james-edward-gray-ii
 - name: James Edward Gray II
   twitter: ""
   github: JEG2
@@ -9690,13 +9669,6 @@
   website: ""
   slug: melanie-keatley
   canonical_slug:
-- name: Melanie Keatley # Magic Solution to the Tech Gender Gap (18:22)
-  twitter: ""
-  github: ""
-  bio: ""
-  website: ""
-  slug: melanie-keatley-magic-solution-to-the-tech-gender-gap-18-22
-  canonical_slug:
 - name: Melinda Seckington
   twitter: ""
   github: ""
@@ -10943,7 +10915,7 @@
   bio: ""
   website: ""
   slug: panayiotis-thomakos
-  canonical_slug:
+  canonical_slug: pan-thomakos
 - name: Paolo "Nusco" Perrotta
   twitter: ""
   github: nusco
@@ -10982,15 +10954,6 @@
     He/him.
   website: https://freelancing-gods.com
   slug: pat-allan
-  canonical_slug:
-- name: Pat Allen
-  twitter: layer8packet
-  github: pallen182
-  bio:
-    Network guy trying to learn some coding to help build new/better skills. Host
-    of Breaking Down the Bytes Podcast. Here to learn.
-  website: https://breakingbytespod.io
-  slug: pat-allen
   canonical_slug:
 - name: Pat Nakajima
   twitter: ""
@@ -13921,7 +13884,7 @@
   bio: ""
   website: ""
   slug: tom-e-enebo
-  canonical_slug:
+  canonical_slug: thomas-e-enebo
 - name: Tom Frei
   twitter: ""
   github: ""
@@ -14927,13 +14890,6 @@
     bespoke software solutions. Founded @enhost "
   website: http://hcaz.me.uk
   slug: zachary-scott
-  canonical_slug:
-- name: Zackary Schroder
-  twitter: ""
-  github: ""
-  bio: ""
-  website: ""
-  slug: zackary-schroder
   canonical_slug:
 - name: Zahary Karadjov
   twitter: ""

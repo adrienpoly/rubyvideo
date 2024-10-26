@@ -10,7 +10,14 @@ module Static::Backends
     end
 
     def load(file_path = @glob)
-      Dir.glob(file_path).flat_map { |file| @backend.load(file) }
+      Dir.glob(file_path).flat_map { |file|
+        begin
+          @backend.load(file)
+        rescue Psych::SyntaxError => e
+          puts "#{e.message} in #{file}"
+          raise e
+        end
+      }
     end
   end
 end

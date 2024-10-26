@@ -1,10 +1,17 @@
 ---
+
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: Building A Home Security System With Elixir And Nerves
   raw_title: BUILDING A HOME SECURITY SYSTEM WITH ELIXIR AND NERVES by Arto Bendiken
   speakers:
     - Arto Bendiken
   event_name: Pivorak Conf 2.0
   published_at: '2019-02-01'
+  slides_url: https://speakerdeck.com/arto/building-a-home-security-system-with-elixir-and-nerves
   description: |-
     Nerves is a framework for crafting bulletproof embedded software written in Elixir and deployed onto the rock-solid, nine-nines Erlang/OTP platform running directly on top of the Linux kernel.
     Arto will show how to get started with Nerves with the motivating example of a home security system running on a Raspberry Pi. To disarm the security system, you need to step in front of the camera and give a big smile.

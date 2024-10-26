@@ -1,4 +1,10 @@
 ---
+
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: Using Elasticsearch with Rails Apps
   raw_title: Rails Conf 2013 Using Elasticsearch with Rails Apps by Brian Gugliemetti
   speakers:
@@ -863,9 +869,9 @@
   video_id: xi7z-vGNNGw
 
 - title: A Guide to Crafting Gems
-  raw_title: Rails Conf 2013 Crafting Gems by Pat Allen
+  raw_title: Rails Conf 2013 Crafting Gems by Pat Allan
   speakers:
-    - Pat Allen
+    - Pat Allan
   event_name: RailsConf 2013
   thumbnail_xs: https://i.ytimg.com/vi/Mmm1cVvPEYU/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/Mmm1cVvPEYU/mqdefault.jpg
@@ -976,7 +982,7 @@
     http://amara.org/v/FG9U/
   video_id: elxE-WBXs_k
 
-- title: Closing Keynote
+- title: 'Closing Keynote: A ♭'
   raw_title: Rails Conf 2013 Closing Keynote by Aaron Patterson
   speakers:
     - Aaron Patterson
