@@ -89,19 +89,25 @@
 
 - id: PLbFmgWm555yYvWS7VGTFipF7ckduvSeT-
   title: RubyKaigi 2023
+  location: "Nagano, Japan"
   description: https://rubykaigi.org/2023/
   published_at: '2023-06-09'
+  start_date: '2023-05-11'
+  end_date: '2023-05-13'
   channel_id: UCBSg5zH-VFJ42BGQFk4VH2A
   year: '2023'
   videos_count: 50
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2023
+  banner_background: "#F8F8F8"
 
 - id: PLvpu5WTDxTKXsRzSBhaGbd7jF270RnaWI
   title: RubyKaigi 2024
   location: Naha, Okinawa, Japan
   description: 'RubyKaigi 2024, May 15-17, Naha, Okinawa'
   published_at: '2024-05-15'
+  start_date: '2024-05-15'
+  end_date: '2024-05-17'
   channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
   year: '2024'
   videos_count: 53
