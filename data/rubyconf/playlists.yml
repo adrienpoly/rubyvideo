@@ -8,6 +8,7 @@
   videos_count: 66
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2014
+  banner_background: ''
 
 - id: PLE7tQUdRKcyYqT3LHMg4iH270kfyENCpp
   title: RubyConf 2015
@@ -18,6 +19,7 @@
   videos_count: 67
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2015
+  banner_background: ''
 
 - id: PLE7tQUdRKcyaMUYwB6tTX5p2Z6fOCdGRE
   title: RubyConf 2016
@@ -28,6 +30,7 @@
   videos_count: 66
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2016
+  banner_background: ''
 
 - id: PLE7tQUdRKcyayGHjjxZOmVEGsxX-rczZt
   title: RubyConf 2017
@@ -38,6 +41,7 @@
   videos_count: 68
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2017
+  banner_background: ''
 
 - id: PLE7tQUdRKcyZEjH3kIyvIN0eZ4tuVEkBD
   title: RubyConf 2018
@@ -48,6 +52,7 @@
   videos_count: 70
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2018
+  banner_background: ''
 
 - id: PLE7tQUdRKcyZDE8nFrKaqkpd-XK4huygU
   title: RubyConf 2019
@@ -61,6 +66,7 @@
   videos_count: 69
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2019
+  banner_background: ''
 
 - id: PLbHJudTY1K0cyDs1ZwFLzlfQqvkDKt17N
   title: RubyConf 2020
@@ -71,6 +77,7 @@
   videos_count: 25
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2020
+  banner_background: ''
 
 - id: PLE7tQUdRKcyYVnWhDQk4RCPVlMW40I6s5
   title: RubyConf 2021
@@ -85,18 +92,22 @@
   videos_count: 102
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2021
+  banner_background: ''
 
 - id: PLE7tQUdRKcyZYz0O3d9ZDdo0-BkOWhrSk
   title: "RubyConf 2022 Mini"
+  location: "Providence, RI"
   description: RubyConf Mini held in Providence, RI
   published_at: "2023-02-28"
   channel_id: UCWnPjmqvljcafA0z2U1fwKQ
   year: "2022"
   videos_count: 79
   slug: rubyconf-2022-mini
+  banner_background: '#FFFDF8'
 
 - id: PLE7tQUdRKcyZYz0O3d9ZDdo0-BkOWhrSk
   title: 'RubyConf 2022'
+  location: "Houston, TX"
   description: RubyConf Houston 2022
   published_at: '2023-02-28'
   channel_id: UCWnPjmqvljcafA0z2U1fwKQ
@@ -104,9 +115,11 @@
   videos_count: 79
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2022
+  banner_background: '#2C2626'
 
 - id: PLE7tQUdRKcyZ13yKsi3ID6a4MWDxSw-LE
   title: RubyConf 2023
+  location: "San Diego, CA"
   description:
     RubyConf is the annual fall conference for Ruby enthusiasts to gather
     and enjoy talks about new projects, meet and network with other Ruby developers,
@@ -116,3 +129,4 @@
   year: "2023"
   videos_count: 23
   slug: rubyconf-2023
+  banner_background: 'white'

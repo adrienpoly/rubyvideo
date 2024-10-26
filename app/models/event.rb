@@ -107,4 +107,55 @@ class Event < ApplicationRecord
       }
     }
   end
+
+  def static_metadata
+    Static::Playlist.find_by(slug: slug)
+  end
+
+  def event_image_path
+    ["events", organisation.slug, slug].join("/")
+  end
+
+  def default_event_image_path
+    ["events", "default"].join("/")
+  end
+
+  def event_image_or_default_for(filename)
+    event_path = [event_image_path, filename].join("/")
+    default_path = [default_event_image_path, filename].join("/")
+
+    Rails.root.join("app", "assets", "images", event_image_path, filename).exist? ? event_path : default_path
+  end
+
+  def banner_image_path
+    event_image_or_default_for("banner.png")
+  end
+
+  def card_image_path
+    event_image_or_default_for("card.png")
+  end
+
+  def avatar_image_path
+    event_image_or_default_for("avatar.png")
+  end
+
+  def featured_image_path
+    event_image_or_default_for("featured.png")
+  end
+
+  def banner_background
+    static_metadata.banner_background.present? ? static_metadata.banner_background : "#FF607F"
+  end
+
+  def location
+    static_metadata.location.present? ? static_metadata.location : "Earth"
+  end
+
+  def start_date
+    static_metadata.start_date.present? ? static_metadata.start_date.to_date : talks.minimum(:date)
+  end
+
+  def end_date
+    static_metadata.end_date.present? ? static_metadata.end_date.to_date : talks.maximum(:date)
+  end
 end
