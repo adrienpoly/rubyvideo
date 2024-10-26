@@ -1,4 +1,4 @@
-<%= link_to speaker, class: "flex flex-col gap-4 hover:bg-neutral-200 transition-bg duration-300 ease-in-out p-2 rounded-lg" do %>
+<%= link_to speaker, class: "flex flex-col gap-4 hover:bg-[#E5E5E5] transition-bg duration-300 ease-in-out p-2 px-4 rounded-lg" do %>
   <div class="flex items-center gap-4">
     <div class="avatar">
       <div class="w-12 rounded-full">
@@ -6,11 +6,15 @@
       </div>
     </div>
     <div>
-      <div class="font-medium">
+      <div class="font-bold text-base">
         <%= speaker.name %>
       </div>
-      <div class="text-sm text-gray-500">
-        <%= "@#{speaker.github}" %>
+      <div class="text-xs text-gray-500">
+        <% if speaker.github.present? %>
+          <%= "@#{speaker.github}" %>
+        <% else %>
+          <%= pluralize(speaker.talks.count, "talk") %>
+        <% end %>
       </div>
     </div>
   </div>

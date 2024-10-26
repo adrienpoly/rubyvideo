@@ -1,28 +1,30 @@
 <div class="container my-8 w-full flex flex-col gap-4">
   <% back_path = params[:back_to].presence || talks_path %>
   <% back_to_title = params[:back_to_title].presence || "Talks" %>
-  <%= link_to back_path do %>
-    <div class="flex items-center gap-2 title text-primary">
-      <%= heroicon :arrow_long_left, class: "transition-arrow" %>
-      <div style="view-transition-name: title"><%= back_to_title %></div>
-    </div>
-  <% end %>
-  <% cache [@talk, @related_talks, Current.user&.admin?] do %>
-    <div class="w-full flex">
-      <div class="flex-grow">
-        <%= render partial: "talks/talk", locals: {talk: @talk, admin: Current.user&.admin?} %>
-      </div>
-      <div class="gap-4 w-96 flex-shrink-0 hidden md:flex md:flex-col px-4">
-        <%#= turbo_frame_tag "recommended_talks", target: "_top", src: talk_recommendations_path(@talk) %>
-        <h2 class="text-neutral mb- mt-2 text-base"><%= @talk.event.name %></h2>
 
-        <div class="flex flex-col gap-2 max-h-[500px] overflow-y-scroll">
-          <%= render partial: "talks/card_horizontal",
-                collection: @related_talks,
-                as: :talk,
-                locals: {compact: true, current_talk: @talk} %>
+  <div class="w-full flex">
+    <div class="flex-grow">
+      <%= link_to back_path do %>
+        <div class="flex items-center gap-2 title text-base text-primary mb-4">
+          <%= heroicon :arrow_long_left, class: "transition-arrow" %>
+          <div style="view-transition-name: title"><%= back_to_title %></div>
         </div>
+      <% end %>
+
+      <% cache [@talk, @related_talks, Current.user&.admin?] do %>
+        <%= render partial: "talks/talk", locals: {talk: @talk, admin: Current.user&.admin?} %>
+      <% end %>
+    </div>
+
+    <div class="gap-4 w-96 flex-shrink-0 hidden md:flex md:flex-col px-4">
+      <h2 class="text-neutral text-base"><%= @talk.event.name %></h2>
+
+      <div class="flex flex-col gap-2 max-h-[500px] overflow-y-scroll">
+        <%= render partial: "talks/card_horizontal",
+              collection: @related_talks,
+              as: :talk,
+              locals: {compact: true, current_talk: @talk} %>
       </div>
     </div>
-  <% end %>
+  </div>
 </div>
