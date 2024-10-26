@@ -49,13 +49,17 @@
 
 - id: PLbFmgWm555yYc9_jx9HkS_1WkOLKWnRw3
   title: RubyKaigi 2019
+  location: 'Fukuoka, Japan'
   description: ''
   published_at: '2019-05-13'
+  start_date: '2019-04-18'
+  end_date: '2019-04-20'
   channel_id: UCBSg5zH-VFJ42BGQFk4VH2A
   year: '2019'
   videos_count: 65
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2019
+  banner_background: '#1F1548'
 
 - id: PLbFmgWm555yZeLpdOLhYwORIF9UjBAFHw
   title: RubyKaigi 2020 Takeout
@@ -69,11 +73,11 @@
   videos_count: 31
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2020
-  banner_background: "#7E0303"
+  banner_background: '#7E0303'
 
 - id: PLbFmgWm555yYgc4sx2Dkb7WWcfflbt6AP
   title: RubyKaigi 2021 Takeout
-  location: "online"
+  location: 'online'
   description: ''
   published_at: '2021-09-11'
   start_date: '2021-09-09'
@@ -83,11 +87,11 @@
   videos_count: 39
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2021
-  banner_background: "#EBE0CE"
+  banner_background: '#EBE0CE'
 
 - id: PLbFmgWm555yYwwmwMvpC-RaqnmUTKB2EO
   title: RubyKaigi 2022
-  location: "Mie, Japan"
+  location: 'Mie, Japan'
   description: ''
   published_at: '2022-10-05'
   start_date: '2022-09-08'
@@ -97,11 +101,11 @@
   videos_count: 42
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2022
-  banner_background: "#FCF7EE"
+  banner_background: '#FCF7EE'
 
 - id: PLbFmgWm555yYvWS7VGTFipF7ckduvSeT-
   title: RubyKaigi 2023
-  location: "Nagano, Japan"
+  location: 'Nagano, Japan'
   description: https://rubykaigi.org/2023/
   published_at: '2023-06-09'
   start_date: '2023-05-11'
@@ -111,7 +115,7 @@
   videos_count: 50
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2023
-  banner_background: "#F8F8F8"
+  banner_background: '#F8F8F8'
 
 - id: PLvpu5WTDxTKXsRzSBhaGbd7jF270RnaWI
   title: RubyKaigi 2024
@@ -125,4 +129,4 @@
   videos_count: 53
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2024
-  banner_background: "#FEEC00"
+  banner_background: '#FEEC00'
