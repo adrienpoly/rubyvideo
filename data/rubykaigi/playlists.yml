@@ -99,6 +99,7 @@
 
 - id: PLvpu5WTDxTKXsRzSBhaGbd7jF270RnaWI
   title: RubyKaigi 2024
+  location: Naha, Okinawa, Japan
   description: 'RubyKaigi 2024, May 15-17, Naha, Okinawa'
   published_at: '2024-05-15'
   channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
@@ -106,3 +107,4 @@
   videos_count: 53
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2024
+  banner_background: "#FEEC00"
