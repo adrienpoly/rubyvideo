@@ -94,6 +94,7 @@
 
 - id: PL9_jjLrTYxc26AtvP5jUHGHqWe5EoVLYf
   title: RubyConf AU 2024
+  location: "Sydney, Australia"
   description: '11th-12th April 2024, Swissôtel Sydney'
   published_at: '2024-04-19'
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
@@ -101,3 +102,4 @@
   videos_count: 19
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-au-2024
+  banner_background: "#FCFAED"
