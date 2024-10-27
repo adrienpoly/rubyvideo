@@ -23,7 +23,7 @@
   </p>
 
   <% if @featured_event %>
-    <%= render partial: "events/featured", locals: { event: @featured_event } %>
+    <%= render partial: "events/featured", locals: {event: @featured_event} %>
   <% end %>
 
   <% if @remaning_events.any? %>
