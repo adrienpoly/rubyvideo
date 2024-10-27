@@ -42,8 +42,17 @@ class Organisation < ApplicationRecord
   end
 
   def description
+    start_year = events.minimum(:date).year
+    end_year = events.maximum(:date).year
+
+    if start_year == end_year
+      time_range = %(in #{start_year})
+    else
+      time_range = %(between #{start_year} and #{end_year})
+    end
+
     <<~DESCRIPTION
-      #{name} is a #{frequency} #{kind} and hosted #{pluralize(events.count, "event")} between #{events.minimum(:date).year} and #{events.maximum(:date).year}. We have currently indexed #{pluralize(events.sum { |event| event.talks_count }, "#{name} talk")}.
+      #{name} is a #{frequency} #{kind} and hosted #{pluralize(events.count, "event")} #{time_range}. We have currently indexed #{pluralize(events.sum { |event| event.talks_count }, "#{name} talk")}.
     DESCRIPTION
   end
 
