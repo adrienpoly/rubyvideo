@@ -3,8 +3,8 @@
     Events
 
     <span class="text-base text-gray-500">
-      (<%= pluralize(@events.includes(:organisation).where(organisation: { kind: "conference" }).count, "conference") %>,
-      <%= pluralize(@events.includes(:organisation).where(organisation: { kind: "meetup" }).count, "meetup") %>)
+      (<%= pluralize(@events.includes(:organisation).where(organisation: {kind: "conference"}).count, "conference") %>,
+      <%= pluralize(@events.includes(:organisation).where(organisation: {kind: "meetup"}).count, "meetup") %>)
     </span>
   </h1>
 

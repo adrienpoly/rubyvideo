@@ -45,10 +45,10 @@ class Organisation < ApplicationRecord
     start_year = events.minimum(:date).year
     end_year = events.maximum(:date).year
 
-    if start_year == end_year
-      time_range = %(in #{start_year})
+    time_range = if start_year == end_year
+      %(in #{start_year})
     else
-      time_range = %(between #{start_year} and #{end_year})
+      %(between #{start_year} and #{end_year})
     end
 
     <<~DESCRIPTION
