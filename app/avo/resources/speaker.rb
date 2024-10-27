@@ -21,6 +21,7 @@ class Avo::Resources::Speaker < Avo::BaseResource
     field :website, as: :text, hide_on: :index
     field :slug, as: :text, hide_on: :index
     field :talks_count, as: :number, sortable: true
+    field :canonical, as: :belongs_to, hide_on: :index
     # field :suggestions, as: :has_many
     # field :speaker_talks, as: :has_many
     field :talks, as: :has_many, use_resource: "Avo::Resources::Talk"
