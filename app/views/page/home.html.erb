@@ -1,6 +1,6 @@
 <main class="container">
   <% playlists = Static::Playlist.where.not(featured_background: nil) %>
-  <% events = Event.where(slug: playlists.map(&:slug)).order(date: :desc).limit(10) %>
+  <% events = Event.where(slug: playlists.map(&:slug)).order(date: :desc).limit(15) %>
 
   <section class="splide" aria-label="Featured Events" data-controller="splide">
     <div class="splide__track">
