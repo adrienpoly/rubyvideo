@@ -35,4 +35,5 @@
   videos_count: 12
   metadata_parser: Youtube::VideoMetadata
   slug: balkanruby-2024
-  banner_background: "#000"
+  banner_background: black
+  featured_color: white

@@ -104,6 +104,8 @@
   videos_count: 79
   slug: rubyconf-2022-mini
   banner_background: '#FFFDF8'
+  featured_background: '#FFFDF8'
+  featured_color: "#372E6A"
 
 - id: PLE7tQUdRKcyZYz0O3d9ZDdo0-BkOWhrSk
   title: 'RubyConf 2022'
@@ -116,6 +118,8 @@
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2022
   banner_background: '#2C2626'
+  featured_background: 'white'
+  featured_color: 'black'
 
 - id: PLE7tQUdRKcyZ13yKsi3ID6a4MWDxSw-LE
   title: RubyConf 2023
@@ -130,3 +134,5 @@
   videos_count: 23
   slug: rubyconf-2023
   banner_background: 'white'
+  featured_background: 'white'
+  featured_color: "#317CE1"

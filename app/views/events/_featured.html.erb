@@ -1,0 +1,39 @@
+<div class="w-full h-92 p-12 border rounded-[50px] mt-12 hover:opacity-95 transform ease-in-out duration-100" style="background-color: <%= event.featured_background %>; color: <%= event.featured_color %>">
+  <a href="<%= event_path(event) %>">
+    <div class="grid grid-cols-[1fr_2fr]">
+      <div>
+        <div>
+          <%= image_tag event.featured_image_path %>
+        </div>
+
+        <h1 class="text-inherit font-bold text-xl mt-9"><%= event.name %></h1>
+        <h2 class="text-inherit font-medium text-sm mt-3"><%= event.description %></h2>
+        <button class="btn rounded-full bg-white mt-9 hover:bg-white/80">Explore All Talks</button>
+      </div>
+
+      <div class="flex justify-center items-center">
+        <div>
+          <div class="avatar-group -space-x-6 rtl:space-x-reverse">
+            <% event.keynote_speakers.each do |keynote_speaker| %>
+              <div class="avatar bg-white">
+                <div class="w-40">
+                  <img src="<%= keynote_speaker.github_avatar_url %>" onerror="this.parentElement.parentElement.remove()" />
+                </div>
+              </div>
+            <% end %>
+
+            <% if event.keynote_speakers.none? %>
+              <% event.speakers.where.not(github: "").sample(3).each do |speaker| %>
+                <div class="avatar bg-white">
+                  <div class="w-40">
+                    <img src="<%= speaker.github_avatar_url %>" />
+                  </div>
+                </div>
+              <% end %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

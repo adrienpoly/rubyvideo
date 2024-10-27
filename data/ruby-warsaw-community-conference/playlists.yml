@@ -11,7 +11,9 @@
   videos_count: 4
   metadata_parser: Youtube::VideoMetadata
   slug: ruby-warsaw-community-conference-summer-edition-2023
-  banner_background: "#000"
+  banner_background: "#000000"
+  featured_background: "#000000"
+  featured_color: "white"
 
 - id: PLvMNoWK93wtnvS4NiaIkvAf_44u5L7T9n
   title: 'Ruby Warsaw Community Conference Winter Edition 2024'
@@ -25,7 +27,9 @@
   videos_count: 4
   metadata_parser: Youtube::VideoMetadata
   slug: ruby-warsaw-community-conference-winter-edition-2024
-  banner_background: "#000"
+  banner_background: "#000000"
+  featured_background: "#000000"
+  featured_color: "white"
 
 - id: PLvMNoWK93wtnWTpEaJBlEIf5JxrE7rPFY
   title: 'Ruby Warsaw Community Conference Summer Edition 2024'
@@ -39,4 +43,6 @@
   videos_count: 4
   metadata_parser: Youtube::VideoMetadata
   slug: ruby-warsaw-community-conference-summer-edition-2024
-  banner_background: "#090909"
+  banner_background: "#000000"
+  featured_background: "#000000"
+  featured_color: "white"

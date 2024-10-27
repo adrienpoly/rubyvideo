@@ -11,4 +11,6 @@
   videos_count: 28
   metadata_parser: Youtube::VideoMetadataRailsWorld
   slug: rails-world-2023
-  banner_background: "#BF281C"
+  banner_background: '#BF281C'
+  featured_background: '#BF281C'
+  featured_color: white
