@@ -1,4 +1,10 @@
 ---
+
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: "The Art & Craft of Secrets: Using the Cryptographic Toolbox"
   raw_title: 'RailsConf 2017: The Art & Craft of Secrets: Using the Cryptographic Toolbox by Michael  Swieton'
   speakers:
@@ -47,7 +53,7 @@
   description: 'RailsConf 2017: Opening Keynote by David Heinemeier Hansson'
   video_id: Cx6aGMC6MjU
 
-- title: "Building Rails ActionDispatch::SystemTestCase Framework"
+- title: "Building the Rails ActionDispatch::SystemTestCase Framework"
   raw_title: 'RailsConf 2017: Building Rails ActionDispatch::SystemTestCase Framework by Eileen Uchitelle'
   speakers:
     - Eileen M. Uchitelle

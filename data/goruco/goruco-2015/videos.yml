@@ -10,6 +10,7 @@
   published_at: '2015-06-20'
   description: |-
     @nodunayo
+
     What does haggling at a garage sale have to do with load balancing in distributed systems? How does bidding in an art auction relate to cloud service orchestration? Familiarity with the ideas and technologies involved in cloud computing is becoming ever more important for developers. This talk will demonstrate how you can use game theory - the study of strategic decision making - to design more efficient, and innovative, distributed systems.
      "Talk given at GORUCO 2015: http://goruco.com"
   video_id: aHJEzIzhbf8
@@ -165,7 +166,7 @@
 
 # Break
 
-- title: 'Closing Keynote'
+- title: 'Closing Keynote: Code Required'
   raw_title: 'GORUCO 2015: Aaron Patterson: Closing Keynote'
   speakers:
     - Aaron Patterson
@@ -176,6 +177,9 @@
 
      Talk given at GORUCO 2015: http://goruco.com
   video_id: kwkbrOwLsZY
+
+
+## Not on the schedule
 
 - title: Of Mice and Metrics
   raw_title: 'GORUCO 2015: Kara Bernert: Of Mice and Metrics'

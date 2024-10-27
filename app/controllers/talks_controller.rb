@@ -43,7 +43,7 @@ class TalksController < ApplicationController
     @talk = Talk.includes(:speakers, :approved_topics).find_by(slug: params[:slug])
     return redirect_to talks_path, status: :moved_permanently if @talk.blank?
 
-    @related_talks = @talk.event.talks.includes(:speakers).order(date: :desc)
+    @related_talks = @talk.event.talks.with_essential_card_data.order(date: :desc)
   end
 
   # Only allow a list of trusted parameters through.
