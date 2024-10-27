@@ -1,5 +1,4 @@
 ---
-
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
@@ -11,7 +10,7 @@
     - Sam Saffron
     - Jeff Atwood
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     This talk will explore various techniques for measuring performance of Ruby apps. It will cover a wide set of tools: from Sam Saffron's own Flame Graphs and MiniProfiler, to rb-lineprof, and recent MRI commits that provide better information on object space allocation that will appear in Ruby 2.1. The talk will be highly technical.
 
@@ -25,7 +24,7 @@
   speakers:
     - Steve Klabnik
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     If there's anything that recent events have shown us, it's that what we thought was secret actually isn't. So what to do? Even if you're not a dissident, many of our applications need some form of private communications. And why aren't RubyGems signed, anyway? In this talk, Steve will discuss some of the basic tools, theory, and techniques that you can use to help keep secrets secret.
 
@@ -34,12 +33,12 @@
     http://amara.org/v/FG7x/
   video_id: LjZk8PP-u3c
 
-- title: 'Afternoon Storytime: Curiosity'
+- title: "Afternoon Storytime: Curiosity"
   raw_title: GoGaRuCo 2013 - Afternoon Storytime - Curiosity
   speakers:
     - Jesse Toth
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     By Jesse Toth
 
@@ -48,12 +47,12 @@
     http://amara.org/v/FG7w/
   video_id: niC0Bsref5s
 
-- title: 'Afternoon Storytime: Team Building'
+- title: "Afternoon Storytime: Team Building"
   raw_title: GoGaRuCo 2013 - Afternoon Storytime - Team Building
   speakers:
     - Davy Stevenson
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     By Davy Stevenson
 
@@ -62,12 +61,12 @@
     http://amara.org/v/FG7v/
   video_id: ZEqdyP-N-t8
 
-- title: 'Afternoon Storytime: How I Test-Drove My Career'
+- title: "Afternoon Storytime: How I Test-Drove My Career"
   raw_title: GoGaRuCo 2013 - Afternoon Storytime - How I test-drove my Career
   speakers:
     - Davis Frank
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     By Davis Frank
 
@@ -81,7 +80,7 @@
   speakers:
     - Tom Dale
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     You know that smartphone in your pocket? The one with gigahertz of processing power, a surprisingly good camera, and the ability to instantly access the whole of human knowledge? Despite all of that high technology, if I want to call you, I still have to punch in a phone number—a technological relic that remains integral to our telecommunication infrastructure.
 
@@ -97,7 +96,7 @@
   speakers:
     - Emily Stolfo
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     Concurrency in Ruby is hard and our thread-unsafe code often works by accident. We are not used to thinking about concurrency because of the GVL but there are different implementations of Ruby with their own semantics that can unearth concurrency bugs. We have to get more accustomed to writing threadsafe code and understanding concurrency, especially with the rise in popularity of JRuby.
 
@@ -113,7 +112,7 @@
   speakers:
     - Ron Evans
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     The robotics revolution has already begun. You can buy drones and robotic devices at local retail stores. Unfortunately, it's hard to develop code for robots, and nearly impossible to create solutions that integrate multiple different kind of devices. Introducing Artoo, a new robotics framework written in Ruby. Artoo can communicate with many different kinds of hardware devices, and integrate them together. With surprisingly few lines of code, you can write interesting applications that tie together Arduinos, ARDrones, Spheros, and more... even all at the same time! The time has come for Ruby-based robotics, and Artoo can help lead the way!
 
@@ -127,7 +126,7 @@
   speakers:
     - Ryan Davis
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     Help us caption & translate this video!
 
@@ -139,7 +138,7 @@
   speakers:
     - Tom Stuart
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     Every aspect of our lives has been transformed by the invention of general-purpose programmable computers. As a result, it's tempting to believe that computers can solve any logical or mathematical problem; that if we throw enough time, money and nerds at a question, we can produce a program which answers it.
 
@@ -152,12 +151,12 @@
     http://amara.org/v/FG7p/
   video_id: xaH9YmNe8TM
 
-- title: 'Beneath the Surface: Regular Expressions in Ruby'
-  raw_title: 'GoGaRuCo 2013 - Beneath the Surface: Regular Expressions in Ruby'
+- title: "Beneath the Surface: Regular Expressions in Ruby"
+  raw_title: "GoGaRuCo 2013 - Beneath the Surface: Regular Expressions in Ruby"
   speakers:
     - Nell Shamrell
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     By Nell Shamrell
 
@@ -173,7 +172,7 @@
   speakers:
     - Ben Orenstein
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     This talk will explore various techniques for measuring performance of Ruby apps. It will cover a wide set of tools: from Sam Saffron's own Flame Graphs and MiniProfiler, to rb-lineprof, and recent MRI commits that provide better information on object space allocation that will appear in Ruby 2.1. The talk will be highly technical.
 
@@ -187,7 +186,7 @@
   speakers:
     - Sarah Mei
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     For every enthusiastic attendee at a Ruby conference, there are a hundred people who have tried Ruby and walked away. There's also at least one person who's hit the top of Hacker News complaining about it. Are missing features or poor performance chasing people off? Is the community too international, or not responsive enough on GitHub? Maybe the problem is the ones who walk away — the inexperienced masses, poisoned by Flash, Visual Basic and PHP.
 
@@ -206,7 +205,7 @@
     - John Wilkinson
     - Anthony Zacharakis
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     Going full SOA has unarguable benefits, but the steep startup cost and need for excessive forward planning goes against the agile mentality of strictly necessary, small, incremental changes. At Lumosity, we've developed a set of best practices using engines to entirely divide behavior and responsibility by wrapping new services within well-defined, small Ruby APIs. This technique obviates the need for complex network (HTTP) APIs with their well-known problems of maintenance and testing. Get rid of spaghetti code without diving into the deep end of recorded responses and fake servers. Later, if the architecture demands a separate service, the engine will already have an API fully defined and ready to port over from Ruby to HTTP.
 
@@ -220,7 +219,7 @@
   speakers:
     - Yehuda Katz
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     Help us caption & translate this video!
 
@@ -232,7 +231,7 @@
   speakers:
     - James Edward Gray II
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     James Edward Gray II has been programming long enough to learn a thing or two about how this computer stuff actually works. Nobody cares about that. Seriously, that's not the most common thing people ask him about. Instead, they often come with questions about why James tools around in an eletric wheelchair. Were legs just not hackable enough for his taste? Does he have a Charles Xavier complex? Does he not eat enough beta-carotene? James is ready to answer all of these questions. He believes the answers might even be just a little related to programming. Don't be surprised if you find yourself wishing for some neuromuscular disease of your very own. (Note: live genetic engineering is a violation of GoGaRuCo's insurance policy, but James can teach you how to fake a disability for the purposes of gaining deeper insight into code—allowable due to the Reprogrammed Humans for the Greater Good Act of 2442.)
 
@@ -246,7 +245,7 @@
   speakers:
     - Sarah Mei
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     For every enthusiastic attendee at a Ruby conference, there are a hundred people who have tried Ruby and walked away. There's also at least one person who's hit the top of Hacker News complaining about it. Are missing features or poor performance chasing people off? Is the community too international, or not responsive enough on GitHub? Maybe the problem is the ones who walk away — the inexperienced masses, poisoned by Flash, Visual Basic and PHP.
 
@@ -261,7 +260,7 @@
     - John Wilkinson
     - Anthony Zacharakis
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     By John Wilkinson and Anthony Zacharakis
 
@@ -277,19 +276,19 @@
   speakers:
     - Yehuda Katz
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     Help us caption & translate this video!
 
     http://amara.org/v/FG7e/
   video_id: s1dhXamEAKQ
 
-- title: 'Nokogiri: History, Present, and Future'
-  raw_title: 'GoGaRuCo 2013 - Nokogiri: History, Present, and Future by Mike Dalessio'
+- title: "Nokogiri: History, Present, and Future"
+  raw_title: "GoGaRuCo 2013 - Nokogiri: History, Present, and Future by Mike Dalessio"
   speakers:
     - Mike Dalessio
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     Over the past few years, Nokogiri has slowly eclipsed older XML parsing libraries to garner nearly 12 million downloads from rubygems.org. But why another XML parsing library? Isn't it boring? And what does "nokogiri" mean in Japanese, anyway?
 
@@ -307,12 +306,12 @@
     http://amara.org/v/FG8P/
   video_id: BbG5slRsJ_0
 
-- title: 'Seeing the Big Picture: Quick and Dirty Data Visualization with Ruby'
-  raw_title: 'GoGaRuCo 2013 - Seeing the Big Picture: Quick and Dirty Data Visualization with Ruby'
+- title: "Seeing the Big Picture: Quick and Dirty Data Visualization with Ruby"
+  raw_title: "GoGaRuCo 2013 - Seeing the Big Picture: Quick and Dirty Data Visualization with Ruby"
   speakers:
     - Aja Hammerly
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   slides_url: https://thagomizer.com/files/dataviz_gogaruco_13.pdf
   description: |-
     By Aja Hammerly
@@ -329,7 +328,7 @@
   speakers:
     - Chris Hunt
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     Come to San Francisco as a Rubyist, leave as a speedcuber. We are going to use Ruby, a video camera, and an insane amount of live demonstration to learn how to solve the Rubik's Cube in less than 20 seconds. You will leave this talk knowing which cube to buy, which of the five most popular solving methods you should be learning, how to practice for speed, where to ask questions, and how Ruby can help teach you to be the fastest speedcuber in town. People are solving the Rubik's Cube quicker today than any time in history and there's a reason why.
 
@@ -343,7 +342,7 @@
   speakers:
     - Noah Gibbs
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     Ever wonder how Sequel, ActiveRecord or DataMapper work? Let's build a working mini-ORM, complete with an application and tests! Ruby makes it surprisingly easy. We'll go over all the code in 30 minutes. There will be a GitHub link so you don't have to type furiously.
 
@@ -357,7 +356,7 @@
   speakers:
     - Ryan Davis
   event_name: GoGaRuCo 2013
-  published_at: '2013-11-28'
+  published_at: "2013-11-28"
   description: |-
     Let's dive into one of the the deep ends of CS and implement a turing-complete interpreter in just 30 minutes using ruby, ruby_parser, sexp_processor, and a minor amount of elbow grease.
 

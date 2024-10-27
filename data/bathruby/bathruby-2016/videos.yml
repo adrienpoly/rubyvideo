@@ -1,5 +1,4 @@
 ---
-
 # Website: https://web.archive.org/web/20170627223359/http://2016.bathruby.uk
 # Schedule: https://web.archive.org/web/20170627223359/http://2016.bathruby.uk/schedule/index.html
 # Repo: https://github.com/bathruby/bathruby-2016
@@ -15,7 +14,7 @@
   speakers:
     - Xavier Riley
   event_name: BathRuby 2016
-  published_at: '2016-03-11'
+  published_at: "2016-03-11"
   description: |-
     Rocking Out In Ruby - A Playful Introduction to Sonic PI by Xavier Riley
 
@@ -34,7 +33,7 @@
     - Chris Seaton # Ruby Papers We Love
     - Andy Croll # Stupid Things I've Done in Search of Startup   Success
   event_name: BathRuby 2016
-  published_at: '2016-03-11'
+  published_at: "2016-03-11"
   description: |-
     1. John Cinnamond - Complexity
     2. Florian Gilcher - Accessible events
@@ -53,7 +52,7 @@
   speakers:
     - Coraline Ada Ehmke
   event_name: BathRuby 2016
-  published_at: '2016-03-11'
+  published_at: "2016-03-11"
   description: |-
     How NEO4J Saved my Relationship by Coraline Ada Ehmke
 
@@ -71,7 +70,7 @@
   speakers:
     - Courteney Ervin
   event_name: BathRuby 2016
-  published_at: '2016-03-11'
+  published_at: "2016-03-11"
   description: |-
     Open Source for your Benefit by Courteney Ervin
 
@@ -95,7 +94,7 @@
     - Nils Löwe # The "Manifesto for Responsible Software Development"
     - Matthew Bloch # Our anonymous hiring process on Rails
   event_name: BathRuby 2016
-  published_at: '2016-03-11'
+  published_at: "2016-03-11"
   description: |-
     1. Christopher Turtle - Descent from Antiquity
     2. Philip Szalwinski - Programming and Paragliding - Hopping from Cloud to Cloud
@@ -115,7 +114,7 @@
   speakers:
     - Janet Crawford
   event_name: BathRuby 2016
-  published_at: '2016-03-11'
+  published_at: "2016-03-11"
   description: |-
     The Surprising Neuroscience of Gender Inequality by Janet Crawford
 
@@ -133,7 +132,7 @@
   speakers:
     - Zach Holman
   event_name: BathRuby 2016
-  published_at: '2016-03-11'
+  published_at: "2016-03-11"
   description: |-
     Firing People by Zach Holman
 
@@ -155,7 +154,7 @@
     - Phil Nash # We Need More Gems (13:16)
     - Peter Saxton # Building on domain concepts (18:47)
   event_name: BathRuby 2016
-  published_at: '2016-03-11'
+  published_at: "2016-03-11"
   description: |-
     1. Adam Butler - Life experiments
     2. Ed Robinson - GRPC and Ruby
@@ -175,7 +174,7 @@
   speakers:
     - Aaron Patterson
   event_name: BathRuby 2016
-  published_at: '2016-03-11'
+  published_at: "2016-03-11"
   description: |-
     How are Method Calls Formed? by Aaron Patterson
 
@@ -183,7 +182,6 @@
 
     After we've learned about how Ruby executes methods today, we'll dive in to optimizations we can make on method dispatch including various types of inline method caching. You should leave with a better understanding of Ruby's VM internals as well as ways to analyze and optimize your own code. Also the presentation will have really great transitions in Keynote.
   video_id: b77V0rkr5rk
-
 # Wrap Up
 
 # After Party

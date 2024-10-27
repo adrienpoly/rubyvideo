@@ -1,15 +1,14 @@
 ---
-
 # https://web.archive.org/web/20161115224654/http://rubyconf.org/schedule
 
 ## Day 1 - 2016-11-10
 
-- title: 'Opening Keynote: RINSWAN'
+- title: "Opening Keynote: RINSWAN"
   raw_title: RubyConf 2016 - Opening Keynote by Yukihiro 'Matz' Matsumoto
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: RubyConf 2016 - Opening Keynote by Yukihiro 'Matz' Matsumoto
   video_id: 1l3U1X3z0CE
 
@@ -21,7 +20,7 @@
   speakers:
     - Ariel Caplan
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Building a Better OpenStruct by Ariel Caplan
 
@@ -38,7 +37,7 @@
   speakers:
     - Megan Tiu
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Bootcamp Grads Have Feelings, Too by Max Tiu
 
@@ -48,12 +47,12 @@
   video_id: 133HhIjmfRE
 
 # Track: General 2
-- title: 'Attention Rubyists: You Can Write Video Games'
-  raw_title: 'RubyConf 2016 - Attention Rubyists: you can write video games by Cory Chamblin'
+- title: "Attention Rubyists: You Can Write Video Games"
+  raw_title: "RubyConf 2016 - Attention Rubyists: you can write video games by Cory Chamblin"
   speakers:
     - Cory Chamblin
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Attention Rubyists: you can write video games by Cory Chamblin
 
@@ -68,7 +67,7 @@
   speakers:
     - Eric Hodel
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Building maintainable command-line tools with MRuby by Eric Hodel
 
@@ -85,7 +84,7 @@
   speakers:
     - Loren Segal
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - C Ruby? C Ruby Go! Go Ruby Go! by Loren Segal
 
@@ -100,7 +99,7 @@
   speakers:
     - Katherine Wu
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Continuing Education at Work by Katherine Wu
 
@@ -108,12 +107,12 @@
   video_id: 9uRho69xSAI
 
 # Track: General 2
-- title: 'Deletion Driven Development: Code to Delete Code!'
-  raw_title: 'RubyConf 2016 - Deletion Driven Development: Code to delete code! by Chris Arcand'
+- title: "Deletion Driven Development: Code to Delete Code!"
+  raw_title: "RubyConf 2016 - Deletion Driven Development: Code to delete code! by Chris Arcand"
   speakers:
     - Chris Arcand
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Deletion Driven Development: Code to delete code! by Chris Arcand
 
@@ -126,7 +125,7 @@
   speakers:
     - James Dabbs
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Composition by James Dabbs
 
@@ -144,7 +143,7 @@
     - Tara Scherner De La Fuente
     - Sam Phippen
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Just a Ruby Minute by Andrew Faraday
 
@@ -159,7 +158,7 @@
   speakers:
     - Takashi Kokubun
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Evaluate Ruby Without Ruby by Takashi Kokubun
 
@@ -172,7 +171,7 @@
   speakers:
     - Katlyn Parvin
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - “Am I Senior Yet?” Grow Your Career by Teaching Your Peers Katlyn Parvin
 
@@ -187,7 +186,7 @@
   speakers:
     - Craig Buchek
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - A Look at Hooks by Craig Buchek
 
@@ -202,7 +201,7 @@
   speakers:
     - James Coglan
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Why recursion matters by James Coglan
 
@@ -219,7 +218,7 @@
   speakers:
     - Ryan Davis
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Improving Coverage Analysis by Ryan Davis
 
@@ -227,12 +226,12 @@
   video_id: ljTO3HDw1sI
 
 # Track: General 1
-- title: 'Dōmo Arigatō, Mr. Roboto: Machine Learning with Ruby'
-  raw_title: 'RubyConf 2016 - Dōmo arigatō, Mr. Roboto: Machine Learning with Ruby by Eric Weinstein'
+- title: "Dōmo Arigatō, Mr. Roboto: Machine Learning with Ruby"
+  raw_title: "RubyConf 2016 - Dōmo arigatō, Mr. Roboto: Machine Learning with Ruby by Eric Weinstein"
   speakers:
     - Eric Weinstein
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Dōmo arigatō, Mr. Roboto: Machine Learning with Ruby by Eric Weinstein
 
@@ -250,7 +249,7 @@
   speakers:
     - Guyren G. Howe
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Keyword Args — the killer Ruby feature you aren't using by  Guyren G. Howe
 
@@ -262,12 +261,12 @@
   video_id: 4e-_bbFjPRg
 
 # Track: Comparative Ruby
-- title: 'To Clojure and Back: Writing and Rewriting in Ruby'
-  raw_title: 'RubyConf 2016 - To Clojure and back: writing and rewriting in Ruby by Phill MV'
+- title: "To Clojure and Back: Writing and Rewriting in Ruby"
+  raw_title: "RubyConf 2016 - To Clojure and back: writing and rewriting in Ruby by Phill MV"
   speakers:
     - Phill MV
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - To Clojure and back: writing and rewriting in Ruby by Phill MV
 
@@ -296,7 +295,7 @@
   speakers:
     - Lito Nicolai
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Rainbows! Color Theory for Computers by Lito Nicolai
 
@@ -311,7 +310,7 @@
   speakers:
     - Gavin McGimpsey
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Problem Solved! Using Logic Programming to Find Answers by Gavin McGimpsey
 
@@ -326,7 +325,7 @@
   speakers:
     - Haseeb Qureshi
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Lies, Damned Lies, and Substrings by Haseeb Qureshi
 
@@ -341,7 +340,7 @@
   speakers:
     - Colin Jones
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Diving into the Details with DTrace by Colin Jones
     "Argh, why is this so slow?!" We've all asked questions like this without getting satisfying answers. And so we slog along, finding workarounds and architecting around the slow bits.
@@ -353,28 +352,28 @@
 
 # ---
 
-- title: 'Computer Science: The Good Parts'
-  raw_title: 'RubyConf 2016 - Computer Science: The Good Parts by Jeffrey Cohen'
+- title: "Computer Science: The Good Parts"
+  raw_title: "RubyConf 2016 - Computer Science: The Good Parts by Jeffrey Cohen"
   speakers:
     - Jeffrey Cohen
   event_name: RubyConf 2016
-  published_at: '2016-11-10'
+  published_at: "2016-11-10"
   description: |-
     RubyConf 2016 - Computer Science: The Good Parts by Jeffrey Cohen
 
     You don't need a 4-year degree to learn the best parts of computer science. Maybe you've seen jargon like "Big O Notation," "binary trees", "graph theory", "map-reduce", or the "Turing test", but have been afraid to ask. But did you know that that these concepts are responsible for Mars rovers, self-driving cars, mobile databases, our air traffic control system, and and even how we elect presidents? In this beginner-focused talk, I will present some simple and very practical ways apply the "good parts" of computer science to your next app.
   video_id: 4V2kwMSDEsE
 
-
 ## Day 2 - 2016-11-11
 
-- title: 'You Have the Empathy of a Goat: Documenting for the User'
+- title: "You Have the Empathy of a Goat: Documenting for the User"
   raw_title: RubyConf 2016 - You Have the Empathy of a Goat... by Tara Scherner De La Fuente
   speakers:
     - Tara Scherner De La Fuente
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
-  description: "RubyConf 2016 - You Have the Empathy of a Goat: Documenting for the
+  published_at: "2016-11-11"
+  description:
+    "RubyConf 2016 - You Have the Empathy of a Goat: Documenting for the
     User by Tara Scherner De La Fuente
 
     Are you the sort of developer who makes
@@ -395,7 +394,7 @@
   speakers:
     - Shashank Daté
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - (m)Ruby on small devices by Shashank Daté
 
@@ -408,7 +407,7 @@
   speakers:
     - Betsy Haibel
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Better Code Through Boring(er) Tests by Betsy Haibel
 
@@ -421,7 +420,7 @@
   speakers:
     - André Arko
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - From no OSS experience to the core team in 15 minutes a day by André Arko
 
@@ -434,7 +433,7 @@
   speakers:
     - Paulette Luftig
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Finding your edge through a culture of feedback by Paulette Luftig
 
@@ -446,12 +445,12 @@
 # ---
 
 # Track: Ruby and Hardware
-- title: 'Building HAL: Running Ruby with Your Voice'
-  raw_title: 'RubyConf 2016 - Building HAL: Running Ruby with Your Voice by Jonan Scheffler'
+- title: "Building HAL: Running Ruby with Your Voice"
+  raw_title: "RubyConf 2016 - Building HAL: Running Ruby with Your Voice by Jonan Scheffler"
   speakers:
     - Jonan Scheffler
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Building HAL: Running Ruby with Your Voice by Jonan Scheffler
 
@@ -468,7 +467,7 @@
   speakers:
     - Justin Searls
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Surgically Refactoring Ruby with Suture by Justin Searls
 
@@ -490,7 +489,7 @@
   speakers:
     - Eleanor McHugh
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Implementing Virtual Machines in Ruby (and C) by Eleanor McHugh
 
@@ -505,7 +504,7 @@
   speakers:
     - John Dewyze
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - My Meta Moments by John Dewyze
 
@@ -522,7 +521,7 @@
   speakers:
     - Greg Baugues
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - How I Taught My Dog To Text Selfies by Greg Baugues
 
@@ -535,7 +534,7 @@
   speakers:
     - Noel Rappin
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Test Doubles are Not To Be Mocked by Noel Rappin
 
@@ -548,7 +547,7 @@
   speakers:
     - Koichi Sasada
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Ruby 3 Concurrency by Koichi Sasada
 
@@ -561,7 +560,7 @@
   speakers:
     - Ra'Shaun Stovall
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Why Is Open Source So Closed? by Ra'Shaun Stovall
 
@@ -576,7 +575,7 @@
   speakers:
     - Julian Cheal
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - It's More Fun to Compute by Julian Cheal
 
@@ -591,7 +590,7 @@
   speakers:
     - Adam Forsyth
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Ruby for Home-Ec by Adam  Forsyth
 
@@ -604,7 +603,7 @@
   speakers:
     - Chris Seaton
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Ruby’s C Extension Problem and How We're Solving It by Chris Seaton
 
@@ -619,7 +618,7 @@
   speakers:
     - Sean Marcia
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Ruby, Red Pandas, and You by Sean Marcia
 
@@ -629,13 +628,13 @@
 # ---
 
 # Track: Ruby and Hardware
-- title: 'Programming in the Small: Kids, Chickens, and Ruby'
-  raw_title: 'RubyConf 2016 - Programming in the Small: Kids, Chickens, and Ruby by Coraline Clark & Jason Clark'
+- title: "Programming in the Small: Kids, Chickens, and Ruby"
+  raw_title: "RubyConf 2016 - Programming in the Small: Kids, Chickens, and Ruby by Coraline Clark & Jason Clark"
   speakers:
     - Coraline Clark
     - Jason Clark
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Programming in the Small: Kids, Chickens, and Ruby by Coraline Clark & Jason Clark
 
@@ -650,7 +649,7 @@
   speakers:
     - Thomas E Enebo
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - JRuby Everywhere! Server, Client, and Embedded by Thomas Enebo
 
@@ -663,7 +662,7 @@
   speakers:
     - Richard Schneeman
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Slo Mo by Richard Schneeman
 
@@ -676,7 +675,7 @@
   speakers:
     - Stella Cotton
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - The Little Server That Could by Stella Cotton
 
@@ -691,7 +690,7 @@
   speakers:
     - Lee Edwards
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Running Global Manufacturing on Ruby (among other things) by Lee Edwards
 
@@ -704,7 +703,7 @@
   speakers:
     - Brandon Hays
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - The long strange trip of a senior developer by Brandon Hays
 
@@ -719,7 +718,7 @@
   speakers:
     - Nate Berkopec
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 -  Halve Your Memory Usage With These 12 Weird Tricks by Nate Berkopec
 
@@ -732,7 +731,7 @@
   speakers:
     - Cheryl Gore Schaefer
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Grow Your Team In 90 Days by Cheryl Gore Schaefer
 
@@ -772,7 +771,7 @@
     - Mischa Lewis
     - Jeff Foster
   event_name: RubyConf 2016
-  published_at: '2016-11-11'
+  published_at: "2016-11-11"
   description: |-
     RubyConf 2016 - Lightning Talks by Various Presenters
 
@@ -803,7 +802,6 @@
     01:29:10 - Jeff Foster
   video_id: SswGJpZVNFg
 
-
 # Day 3 - 2016-11-12
 
 - title: Ruby versus The Titans of FP
@@ -811,7 +809,7 @@
   speakers:
     - Cassandra Cruz
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - Ruby versus the Titans of FP by Cassandra Cruz
 
@@ -826,7 +824,7 @@
   speakers:
     - Mike Calhoun
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - How I Corrupted Survey Results and (Maybe) Ruined a Business by Mike Calhoun
 
@@ -839,7 +837,7 @@
   speakers:
     - Byron Woodfork
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - The Truth About Mentoring Minorities by Byron Woodfork
 
@@ -852,7 +850,7 @@
   speakers:
     - Aaron Patterson
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   slides_url: https://speakerdeck.com/tenderlove/methods-of-memory-management-in-mri
   description: |-
     RubyConf 2016 - Methods of Memory Management in MRI by Aaron Patterson
@@ -866,7 +864,7 @@
   speakers:
     - Elizabeth Barron
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - The Neuroscience and Psychology of Open Source Communities by Elizabeth Barron
 
@@ -883,7 +881,7 @@
   speakers:
     - Aja Hammerly
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   slides_url: https://thagomizer.com/files/rubyconf_16.pdf
   description: |-
     RubyConf 2016 - Datacenter Fires and Other "Minor" Disasters by Aja Hammerly
@@ -892,13 +890,13 @@
   video_id: ygu45C7bMHk
 
 # Track: Life Beyond Bootcamps
-- title: 'Becoming a Mid: Two Perspectives on Leveling Up'
+- title: "Becoming a Mid: Two Perspectives on Leveling Up"
   raw_title: RubyConf 2016 - Becoming a Mid... by Kimberly D. Barnes & Kinsey Ann Durham
   speakers:
     - Kimberly D. Barnes
     - Kinsey Ann Durham
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - Becoming a Mid: Two Perspectives on Leveling Up by Kimberly D. Barnes & Kinsey Ann Durham
 
@@ -911,7 +909,7 @@
   speakers:
     - Shyouhei Urabe
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - Optimizing ruby core by Shyouhei Urabe
 
@@ -924,7 +922,7 @@
   speakers:
     - Justin Weiss
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - Metaprogramming? Not good enough! by Justin Weiss
 
@@ -941,7 +939,7 @@
   speakers:
     - Nickolas Means
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - The Building Built on Stilts by Nickolas Means
 
@@ -956,7 +954,7 @@
   speakers:
     - Sara Simon
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - Learning Fluency by Sara Simon
 
@@ -971,7 +969,7 @@
   speakers:
     - Lukas Nimmo
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - Seeing Metaprogramming and Lambda Function Patterns in Ruby by Lukas Nimmo
 
@@ -984,7 +982,7 @@
   speakers:
     - Celeen Rusk
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - Rhythmic Recursion by Celeen Rusk
 
@@ -1001,7 +999,7 @@
   speakers:
     - Ernie Miller
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - Lies by Ernie Miller
 
@@ -1016,7 +1014,7 @@
   speakers:
     - Melanie Gilman
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - You graduated from bootcamp, now what? by Melanie Gilman
 
@@ -1029,7 +1027,7 @@
   speakers:
     - Allison McMillan
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 -  Even the Justice League Works Remotely by Allison McMillan
 
@@ -1042,7 +1040,7 @@
   speakers:
     - Colin Fulton
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - That Works?! Quines and Other Delightfully Useless Programs by Colin Fulton
 
@@ -1060,7 +1058,7 @@
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: RubyConf 2016
-  published_at: '2016-11-12'
+  published_at: "2016-11-12"
   description: |-
     RubyConf 2016 - Matz Q&A by Yukihiro 'Matz' Matsumoto
 

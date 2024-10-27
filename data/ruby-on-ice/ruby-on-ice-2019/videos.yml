@@ -1,16 +1,15 @@
 ---
-
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
 
-- title: 'Keynote: The Past, Present, and Future of Rails at GitHub'
-  raw_title: 'Ruby on Ice 2019 Keynote: The Past, Present, and Future of Rails at GitHub by Eileen Uchitelle'
+- title: "Keynote: The Past, Present, and Future of Rails at GitHub"
+  raw_title: "Ruby on Ice 2019 Keynote: The Past, Present, and Future of Rails at GitHub by Eileen Uchitelle"
   speakers:
     - Eileen M. Uchitelle
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   slides_url: https://speakerdeck.com/eileencodes/ruby-on-ice-2019-the-past-present-and-future-of-rails-at-github
   description: |-
     On August 15, 2018 GitHub accomplished a great feat: upgrading our application from Rails 3.2 to 5.2. While this upgrade took a difficult year and a half your upgrade doesn't need to be this hard. In this talk we'll look at ways in which our upgrade was uniquely hard, how we accomplished this monumental task, and what we're doing to prevent hard upgrades in the future. We'll take a deep dive into why we upgraded Rails and our plans for upstreaming features from the GitHub application into the Rails framework.
@@ -23,11 +22,11 @@
   video_id: jxBAkhaRtNg
 
 - title: Breaking the Chains of Oppressive Software
-  raw_title: 'Ruby on Ice 2019: Breaking the Chains of Oppressive Software by Kinsey Ann Durham'
+  raw_title: "Ruby on Ice 2019: Breaking the Chains of Oppressive Software by Kinsey Ann Durham"
   speakers:
     - Kinsey Ann Durham
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     We have the power to stand up against oppression that exists in our software. Data discrimination, biases in algorithms, etc. are becoming an issue. You’ll learn about the biases we build, software that is bettering us and what you can do about it, as a developer, to truly make a difference.
 
@@ -39,11 +38,11 @@
   video_id: 8atSI4k87X8
 
 - title: Hardware Hacking with Your Rails App
-  raw_title: 'Ruby on Ice 2019: Hardware Hacking with Your Rails App by Ramón Huidobro'
+  raw_title: "Ruby on Ice 2019: Hardware Hacking with Your Rails App by Ramón Huidobro"
   speakers:
     - Carmen Huidobro
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     When working on a Rails app with lots of users and a plethora of requests, you’ll likely soon be addressing how you can have dedicated custom hardware for them.
 
@@ -57,11 +56,11 @@
   video_id: WoUL1pO99N8
 
 - title: Teach by Learning; Lead by Teaching
-  raw_title: 'Ruby on Ice 2019: Teach by Learning; Lead by Teaching by Betsy Haibel'
+  raw_title: "Ruby on Ice 2019: Teach by Learning; Lead by Teaching by Betsy Haibel"
   speakers:
     - Betsy Haibel
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     Ever caught yourself dictating code to a junior dev, rather than pairing? Or resorted to saying “best practice”? Kill two birds with one stone: use “dialogic teaching,” an adult-education technique. Let’s turn “technical leadership” into a two-way process that surfaces tradeoffs and gets buy-in.
 
@@ -72,12 +71,12 @@
     https://rubyonice.com/speakers/betsy_haibel
   video_id: hTXqhp084KE
 
-- title: 'Web Components: Designing Frontends for Reusability'
-  raw_title: 'Ruby on Ice 2019: Web Components: Designing Frontends for Reusability by Joy Heron'
+- title: "Web Components: Designing Frontends for Reusability"
+  raw_title: "Ruby on Ice 2019: Web Components: Designing Frontends for Reusability by Joy Heron"
   speakers:
     - Joy Heron
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     Have you ever tried to develop front end code that can be easily used in multiple projects? Reinventing the wheel is no fun. In this talk, I will use an example to share my design process for developing web components that are accessible, pretty, and most importantly easy to reuse.
 
@@ -89,11 +88,11 @@
   video_id: 164EjUObiT4
 
 - title: Improving Development Quality and Speed with Agile Testing
-  raw_title: 'Ruby on Ice 2019: Improving Development Quality and Speed with Agile Testing by Anastasia Chicu'
+  raw_title: "Ruby on Ice 2019: Improving Development Quality and Speed with Agile Testing by Anastasia Chicu"
   speakers:
     - Anastasia Chicu
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     Improving development quality and speed with agile testing
     Releasing better software in ever shorter cycles demands an upgrade in testing. The talk shares techniques from an agile tester that will help you uncover risk early, improve product quality and build an approach to testing that includes your whole team. Ready? Let’s enhance your testing starting now!
@@ -106,11 +105,11 @@
   video_id: RmJowZk5HVo
 
 - title: Rails Against the Machine
-  raw_title: 'Ruby on Ice 2019: Rails Against the Machine by Brittany Martin'
+  raw_title: "Ruby on Ice 2019: Rails Against the Machine by Brittany Martin"
   speakers:
     - Brittany Martin
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     Rails Against the Machine
     What should a development team do when a few bad users threaten their application? Online businesses are plagued with trolls and bots. Learn how your team can leverage features from RoR and AWS to monitor and (secretly) segment bad actors using automation and behavioral triggers.
@@ -123,11 +122,11 @@
   video_id: bmIfkcAQEE8
 
 - title: Do You Need That Validation? Let Me Call You Back About It
-  raw_title: 'Ruby on Ice 2019: Do You Need That Validation? Let Me Call You Back About It by Tobias Pfeiffer'
+  raw_title: "Ruby on Ice 2019: Do You Need That Validation? Let Me Call You Back About It by Tobias Pfeiffer"
   speakers:
     - Tobias Pfeiffer
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     Rails apps start nice and cute. Fast forward a year and business logic and view logic are entangled in our validations and callbacks - getting in our way at every turn. Wasn’t this supposed to be easy?
 
@@ -140,11 +139,11 @@
   video_id: F05kXVqFWnc
 
 - title: Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby
-  raw_title: 'Ruby on Ice 2019: Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby by Benoit Daloze'
+  raw_title: "Ruby on Ice 2019: Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby by Benoit Daloze"
   speakers:
     - Benoit Daloze
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     Array and Hash are used in every Ruby program, but current implementations either prevent to use them in parallel (MRI) or lack thread-safety guarantees (JRuby raises on concurrent Array#«). We show how to make Array and Hash thread-safe while allowing Ruby collections to scale up to tens of cores!
 
@@ -156,7 +155,7 @@
   video_id: DolpDFfPdh0
 
 - title: Lightning Talks
-  raw_title: 'Ruby on Ice 2019: Lightning Talks'
+  raw_title: "Ruby on Ice 2019: Lightning Talks"
   speakers:
     - Carolina Karklis
     - Ferdous Nasri
@@ -168,7 +167,7 @@
     - Jakub Malina
     - Amr Abdelwahab
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     Carolina – Ruby Community in Brazil (https://twitter.com/carolkarklis)
     Ferdous – Coming Out (https://twitter.com/ferbsx)
@@ -182,12 +181,12 @@
     What's Wrong with Ruby? (https://twitter.com/amrAbdelwahab)
   video_id: 7QgNDhtaQMQ
 
-- title: 'Beauty and the Beast: your application and distributed systems'
-  raw_title: 'Ruby on Ice 2019: Beauty and the Beast: your application and distributed systems by Emily Stolfo'
+- title: "Beauty and the Beast: your application and distributed systems"
+  raw_title: "Ruby on Ice 2019: Beauty and the Beast: your application and distributed systems by Emily Stolfo"
   speakers:
     - Emily Stolfo
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     With more applications now using service-oriented architectures, developers must know how to talk to distributed technologies and to handle errors and failures. While you can usually depend on libraries to encapsulate such details, it's important to understand and to be able to predict the behavior of your distributed systems. This talk will arm you with algorithms and testing strategies so you can tame your services and build robust applications.
 
@@ -199,11 +198,11 @@
   video_id: ex91n2XGes8
 
 - title: Making CocoaPods Fast with Modern Ruby Tooling
-  raw_title: 'Ruby on Ice 2019: Making CocoaPods Fast with Modern Ruby Tooling by Samuel Giddins'
+  raw_title: "Ruby on Ice 2019: Making CocoaPods Fast with Modern Ruby Tooling by Samuel Giddins"
   speakers:
     - Samuel Giddins
   event_name: Ruby on Ice 2019
-  published_at: '2019-04-01'
+  published_at: "2019-04-01"
   description: |-
     Writing performant code is hard. Writing performant ruby code that does lots of stuff is really hard. CocoaPods got to be pretty slow “at scale”, and this is the story of how we made our pod install times bearable again.
 

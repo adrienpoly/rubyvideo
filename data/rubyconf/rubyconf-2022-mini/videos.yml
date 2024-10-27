@@ -1,5 +1,4 @@
 ---
-
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
@@ -204,9 +203,9 @@
   speakers:
     - Ratnadeep Deshmane # Dissecting Rails - A Different Approach to Learning Rails
     - Chris Seaton # Presenting The "Who You Gonna Call" Paper by Sophie Kaleba et al.
-    - Nick Quaranto  # What open source software can learn from co-operatives
+    - Nick Quaranto # What open source software can learn from co-operatives
     - Keith Bennett # Coding with RUby
-    - # Jo Ha TODO: double-check name # Church Numerals
+    -  # Jo Ha TODO: double-check name # Church Numerals
     - Max Wofford # Whimsical Features & Junior Developers
   event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
@@ -245,8 +244,8 @@
     To navigate the vulnerability of sharing our keyboard and code, let’s learn about nonviolent communication (NVC), an established practice of deep listening to ourselves and others. We’ll cover real-life examples and how to apply the four tenets of NVC– observations, feelings, needs, and requests– to bring more joy and fulfillment the next time you pair.
   video_id: Tzlyrra00Z0
 
-- title: 'Sponsor Panel'
-  raw_title: 'RubyConf Mini 2022: Sponsor Panel'
+- title: "Sponsor Panel"
+  raw_title: "RubyConf Mini 2022: Sponsor Panel"
   speakers:
     - Emily Samp
     - Geoffrey Lessel
@@ -254,12 +253,12 @@
     - Ufuk Kayserilioglu
     - Someone at Shopify
   event_name: RubyConf 2022 Mini
-  published_at: '2023-02-28'
-  description: ''
+  published_at: "2023-02-28"
+  description: ""
   video_id: exxUz9k03s4
 
-- title: 'Podcast Panel'
-  raw_title: 'RubyConf Mini 2022: Podcast Panel'
+- title: "Podcast Panel"
+  raw_title: "RubyConf Mini 2022: Podcast Panel"
   speakers:
     - Brittany Martin
     - Julie J
@@ -267,30 +266,32 @@
     - Joël Quenneville
     - Andy Croll
   event_name: RubyConf 2022 Mini
-  published_at: '2023-02-28'
-  description: ''
+  published_at: "2023-02-28"
+  description: ""
   video_id: gOq7PJ-0ngA
 
-- title: 'Who Wants to be a Ruby Engineer?'
-  raw_title: 'RubyConf Mini 2022: Who Wants to be a Ruby Engineer? by Drew Bragg'
+- title: "Who Wants to be a Ruby Engineer?"
+  raw_title: "RubyConf Mini 2022: Who Wants to be a Ruby Engineer? by Drew Bragg"
   speakers:
     - Drew Bragg
   event_name: RubyConf 2022 Mini
-  published_at: '2023-02-28'
-  description: 'Welcome to the Ruby game show where one lucky contestant tries to
-    guess the output of a small bit of Ruby code. Sound easy? Here''s the challenge:
+  published_at: "2023-02-28"
+  description:
+    "Welcome to the Ruby game show where one lucky contestant tries to
+    guess the output of a small bit of Ruby code. Sound easy? Here's the challenge:
     the snippets come from some of the weirdest parts of the Ruby language.  The questions
-    aren''t easy. Get enough right to be crowned a (some sort of something) Ruby Engineer
-    and win a fabulous, mysterious prize.'
+    aren't easy. Get enough right to be crowned a (some sort of something) Ruby Engineer
+    and win a fabulous, mysterious prize."
   video_id: JoZo9uGuXQw
 
-- title: 'TDD on the Shoulders of Giants'
-  raw_title: 'RubyConf Mini 2022: TDD on the Shoulders of Giants by Jared Norman'
+- title: "TDD on the Shoulders of Giants"
+  raw_title: "RubyConf Mini 2022: TDD on the Shoulders of Giants by Jared Norman"
   speakers:
     - Jared Norman
   event_name: RubyConf 2022 Mini
-  published_at: '2023-02-28'
-  description: Getting started with TDD is hard enough without having to also navigate
+  published_at: "2023-02-28"
+  description:
+    Getting started with TDD is hard enough without having to also navigate
     a programming language barrier. Many of the best books on testing focus on very
     different languages like Java, making it tricky to apply their advice in Ruby,
     especially if you're new to testing. I'll go through the most important practices
@@ -300,13 +301,14 @@
     TDD in the first place.
   video_id: V8Sx8h7KZZQ
 
-- title: 'Crystal for Rubyists'
-  raw_title: 'RubyConf Mini 2022: Crystal for Rubyists by Kirk Haines'
+- title: "Crystal for Rubyists"
+  raw_title: "RubyConf Mini 2022: Crystal for Rubyists by Kirk Haines"
   speakers:
     - Kirk Haines
   event_name: RubyConf 2022 Mini
-  published_at: '2023-02-28'
-  description: Crystal is a Ruby-like compiled language that was originally built
+  published_at: "2023-02-28"
+  description:
+    Crystal is a Ruby-like compiled language that was originally built
     using Ruby. Its syntax is remarkably similar to Ruby's, which generally makes
     it straightforward for a Ruby programmer to start using Crystal. There are some
     notable, and interesting differences between the languages, however. In this workshop,
@@ -314,13 +316,14 @@
     differences between the two languages.
   video_id: YmsSmp4yjOc
 
-- title: 'RubyGems.org MFA: The Past, Present and Future'
-  raw_title: 'RubyConf Mini 2022: RubyGems.org MFA: The Past, Present and Future by Jenny Shen'
+- title: "RubyGems.org MFA: The Past, Present and Future"
+  raw_title: "RubyConf Mini 2022: RubyGems.org MFA: The Past, Present and Future by Jenny Shen"
   speakers:
     - Jenny Shen
   event_name: RubyConf 2022 Mini
-  published_at: '2023-02-28'
-  description: "What do Ruby’s rest-client, Python’s ctx, and npm’s ua-parser-js have
+  published_at: "2023-02-28"
+  description:
+    "What do Ruby’s rest-client, Python’s ctx, and npm’s ua-parser-js have
     in common? \n\nThey all suffered account takeovers that were preventable. Attackers
     aim to take control of a legitimate RubyGems.org user account and then use it
     to upload malicious code. It might dial home. It might steal your keys. Perhaps
@@ -330,13 +333,14 @@
     horizon."
   video_id: YxVGMvwJsHQ
 
-- title: 'The Case Of The Vanished Variable - A Ruby Mystery Story'
-  raw_title: 'RubyConf Mini 2022: The Case Of The Vanished Variable - A Ruby Mystery Story by Nadia Odunayo'
+- title: "The Case Of The Vanished Variable - A Ruby Mystery Story"
+  raw_title: "RubyConf Mini 2022: The Case Of The Vanished Variable - A Ruby Mystery Story by Nadia Odunayo"
   speakers:
     - Nadia Odunayo
   event_name: RubyConf 2022 Mini
-  published_at: '2023-02-28'
-  description: After a stressful couple of days at work, Deirdre Bug is looking forward
+  published_at: "2023-02-28"
+  description:
+    After a stressful couple of days at work, Deirdre Bug is looking forward
     to a quiet evening in. But her plans are thwarted when the phone rings. “I know
     I’m the last person you want to hear from…but...I need your help!” Follow Deirdre
     as she embarks on an adventure that features a looming Demo Day with serious prize
@@ -345,34 +349,35 @@
     than meets the eye.
   video_id: a63aSvHu18c
 
-- title: 'Declare Victory with Class Macros'
-  raw_title: 'RubyConf Mini 2022: Splitwise Sponsor Session: Declare Victory with Class Macros by Jess Hottenstein'
+- title: "Declare Victory with Class Macros"
+  raw_title: "RubyConf Mini 2022: Splitwise Sponsor Session: Declare Victory with Class Macros by Jess Hottenstein"
   speakers:
     - Jess Hottenstein
   event_name: RubyConf 2022 Mini
-  published_at: '2023-02-28'
+  published_at: "2023-02-28"
   description: |-
     How can we write classes that are easy to understand? How can we write Ruby in a declarative way? How can we use metaprogramming without introducing chaos?
 
     Come learn the magic behind the first bit of metaprogramming we all encounter with Ruby - attr_reader. From there, we can learn how different gems use class macros to simplify our code. Finally, we’ll explore multiple ways we can make our own class macros to make our codebase easier to read and extend.
   video_id: aMfHqajixeM
 
-- title: 'Keynote: Leading From Where You Are'
-  raw_title: 'RubyConf Mini 2022: Keynote by Rose Wiegley'
+- title: "Keynote: Leading From Where You Are"
+  raw_title: "RubyConf Mini 2022: Keynote by Rose Wiegley"
   speakers:
     - Rose Wiegley
   event_name: RubyConf 2022 Mini
-  published_at: '2023-02-28'
-  description: ''
+  published_at: "2023-02-28"
+  description: ""
   video_id: c_HhfehMBHE
 
-- title: 'The Three-Encoding Problem'
-  raw_title: 'RubyConfMini 2022: The Three-Encoding Problem by Kevin Menard'
+- title: "The Three-Encoding Problem"
+  raw_title: "RubyConfMini 2022: The Three-Encoding Problem by Kevin Menard"
   speakers:
     - Kevin Menard
   event_name: RubyConf 2022 Mini
-  published_at: '2023-02-28'
-  description: You’ve probably heard of UTF-8 and know about strings, but did you
+  published_at: "2023-02-28"
+  description:
+    You’ve probably heard of UTF-8 and know about strings, but did you
     know that Ruby supports more than 100 other encodings? In fact, your application
     probably uses three encodings without you realizing it. Moreover, encodings apply
     to more than just strings. In this talk, we’ll take a look at Ruby’s fairly unique

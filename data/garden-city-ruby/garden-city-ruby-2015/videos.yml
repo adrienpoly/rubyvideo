@@ -1,5 +1,4 @@
 ---
-
 # Photos: https://www.flickr.com/photos/131361710@N02/sets/72157650452569590
 # Schedule: http://gardencityruby.github.io/GCRC2015/program
 
@@ -7,12 +6,12 @@
 
 # Welcome Note
 
-- title: 'Opening Keynote: Abstract Thoughts on Abstract Things'
+- title: "Opening Keynote: Abstract Thoughts on Abstract Things"
   raw_title: Garden City Ruby Conference - Opening Keynote
   speakers:
     - Konstantin Haase
   event_name: Garden City Ruby 2015
-  published_at: '2015-01-10'
+  published_at: "2015-01-10"
   description: |-
     By,  Konstantin Haase
 
@@ -28,7 +27,7 @@
     - Vipul A M
     - Prathamesh S
   event_name: Garden City Ruby 2015
-  published_at: '2015-01-10'
+  published_at: "2015-01-10"
   description: |-
     By, Vipul A Prathamesh S
 
@@ -47,7 +46,7 @@
   speakers:
     - Ranjeet Singh
   event_name: Garden City Ruby 2015
-  published_at: '2015-01-10'
+  published_at: "2015-01-10"
   description: |-
     By, Ranjeet Singh
 
@@ -64,7 +63,7 @@
   speakers:
     - Anmol Agarwal
   event_name: Garden City Ruby 2015
-  published_at: '2015-01-10'
+  published_at: "2015-01-10"
   description: |-
     By, Anmol Agarwal
 
@@ -78,12 +77,12 @@
 
 # Break
 
-- title: 'WAT!! ActiveRecord Callbacks'
+- title: "WAT!! ActiveRecord Callbacks"
   raw_title: Garden City Ruby Conference - WAT!! ActiveRecord Callbacks
   speakers:
     - Monika M
   event_name: Garden City Ruby 2015
-  published_at: '2015-01-10'
+  published_at: "2015-01-10"
   description: |-
     By, Monika M
 
@@ -99,13 +98,14 @@
 
 # Lunch
 
-- title: 'Keynote: Wrapping Your Head Around Git'
-  raw_title: 'Garden City Ruby Conference - Keynote: Wrapping Your Head Around Git'
+- title: "Keynote: Wrapping Your Head Around Git"
+  raw_title: "Garden City Ruby Conference - Keynote: Wrapping Your Head Around Git"
   speakers:
     - Paolo "Nusco" Perrotta
   event_name: Garden City Ruby 2015
-  published_at: '2015-01-10'
-  description: "By, Paolo Perrotta\n\nA confession: I used Git for months without
+  published_at: "2015-01-10"
+  description:
+    "By, Paolo Perrotta\n\nA confession: I used Git for months without
     really understanding what was going on. I knew all the basic commands, but I still
     got stranded when something went wrong. Why did my rebase fail? How did I manage
     to mess up the remote? \n\nThen I found the key to Git: the unfamiliar .git directory.
@@ -117,12 +117,12 @@
   video_provider: youtube
   video_id: RwYbl_tpoVE
 
-- title: 'Capacity Planning with Capybara and RabbitMQ'
+- title: "Capacity Planning with Capybara and RabbitMQ"
   raw_title: Garden City Ruby Conference - Capacity planning with Capybara and RabbitMQ
   speakers:
     - Vijayanand Nandam
   event_name: Garden City Ruby 2015
-  published_at: '2015-01-10'
+  published_at: "2015-01-10"
   description: |-
     By, Vijayanand Nandam
 
@@ -141,7 +141,7 @@
   speakers:
     - Smit Shah
   event_name: Garden City Ruby 2015
-  published_at: '2015-01-10'
+  published_at: "2015-01-10"
   description: |-
     By, Smit Shah
 
@@ -153,13 +153,13 @@
   video_provider: youtube
   video_id: yTkaq26YgDU
 
-- title: 'Rubinius — Ruby Implemented with Ruby'
+- title: "Rubinius — Ruby Implemented with Ruby"
   raw_title: Garden City Ruby Conference - Rubinius — Ruby implemented with Ruby
   speakers:
     - Akanksha Agarwal
     - Sana Khan
   event_name: Garden City Ruby 2015
-  published_at: '2015-01-10'
+  published_at: "2015-01-10"
   description: |-
     By, Akanksha Agarwal & Sana Khan
 
@@ -173,7 +173,7 @@
 
 # Coffee break
 
-- title: 'Fishbowl Discussion'
+- title: "Fishbowl Discussion"
   raw_title: Garden City Ruby Conference - Panel Discussion
   speakers:
     # - TODO: MC1
@@ -183,14 +183,13 @@
     # - TODO: Panelist 1
     # - TODO: Panelist 2
   event_name: Garden City Ruby 2015
-  published_at: '2015-01-10'
+  published_at: "2015-01-10"
   description: |-
     Help us caption & translate this video!
 
     http://amara.org/v/GF2s/
   video_provider: youtube
   video_id: _Jv7ftgQ3Bc
-
 # TODO: missing talk: Sidu Ponnappa & Niranjan Paranjape - Keynote
 
 # Closing Note
