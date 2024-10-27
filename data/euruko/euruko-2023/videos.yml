@@ -1,4 +1,10 @@
 ---
+
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: "Keynote: Reflections on a Reluctant Revolution"
   raw_title: STEVEN R. BAKER, KEYNOTE, “Reflections on a Reluctant Revolution”
   speakers:
@@ -9,9 +15,7 @@
   video_id: Olc0qbSyJQw
 
 - title: "No Passwords, No Problems: Move Beyond Passwords With Web Authn And Passkeys"
-  raw_title:
-    "CARLA URREA STABILE, “No passwords, no problems: Move beyond passwords
-    with WebAuthn and passkeys”"
+  raw_title: "CARLA URREA STABILE, “No passwords, no problems: Move beyond passwords with WebAuthn and passkeys”"
   speakers:
     - Carla Urrea Stabile
   event_name: EuRuKo 2023

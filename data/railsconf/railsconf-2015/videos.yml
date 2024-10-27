@@ -1,7 +1,8 @@
 ---
 
-# TODO: running order
+# TODO: talks running order
 # TODO: talk dates
+# TODO: conference website
 # TODO: schedule website
 
 - title: Opening Keynote
@@ -163,6 +164,7 @@
 - title: 'Panel: Rails Core'
   raw_title: RailsConf 2015 - Rails Core Panel Discussion
   speakers:
+    - Evan Phoenix
     - Aaron Patterson
     - Santiago Pastorino,
     - Godfrey Chan
@@ -172,7 +174,7 @@
   event_name: RailsConf 2015
   published_at: '2015-04-29'
   description: |-
-    With,  Aaron Patterson, Santiago Pastorino, Godfrey Chan , Jeremy Kemper, Guillermo Iguaran, and Andrew White
+    With,  Aaron Patterson, Santiago Pastorino, Godfrey Chan, Jeremy Kemper, Guillermo Iguaran, and Andrew White
     Help us caption & translate this video!
 
     http://amara.org/v/G61P/
