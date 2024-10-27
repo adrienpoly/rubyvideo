@@ -1,5 +1,4 @@
 ---
-
 # Website: https://rubyconf.org.au/2017
 # Schedule: https://rubyconf.org.au/2017/schedule
 
@@ -11,8 +10,8 @@
   speakers:
     - Aaron Patterson
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
-  description: ''
+  published_at: "2017-02-09"
+  description: ""
   video_id: nAEt36XNtAE
 
 - title: Writing a Gameboy Emulator in Ruby
@@ -20,7 +19,7 @@
   speakers:
     - Colby Swandale
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -34,7 +33,7 @@
   speakers:
     - Shana Moore
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -46,7 +45,7 @@
   speakers:
     - Hiro Asari
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -60,7 +59,7 @@
   speakers:
     - Tim Riley
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -74,7 +73,7 @@
   speakers:
     - Marcos Matos
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -86,7 +85,7 @@
   speakers:
     - Julian Doherty
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -98,7 +97,7 @@
   speakers:
     - Andy Nicholson
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -109,38 +108,38 @@
     This talk is not designed to persuade anyone to drop our beloved Ruby, but maybe we can learn some lessons from our stronger-typed friends to bring even greater happiness than before.
   video_id: gzXjqfPydFo
 
-- title: 'Functional in the Front, Rails in the Back: Give Your App An Elm Mullet'
-  raw_title: 'RubyConf AU 2017 - Functional in the front: rails in the back... by Louis Simoneau & Rahul Trikha'
+- title: "Functional in the Front, Rails in the Back: Give Your App An Elm Mullet"
+  raw_title: "RubyConf AU 2017 - Functional in the front: rails in the back... by Louis Simoneau & Rahul Trikha"
   speakers:
     - Louis Simoneau
     - Rahul Trikha
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
     You want to keep up with new and exciting technologies, but rewriting your monolith in the language du jour is too daunting a task, and you're not sure a microservice split is right for you. Why not experiment with a purely functional, powerfully typed language in your existing Rails app? Elm is a new language that compiles to JavaScript and has lots of great mind-bending features. In this talk we'll look at the basics of Elm and how you can integrate it into an existing Rails app, even alongside your existing JavaScript code.
   video_id: Bd6DTg1uNe0
 
-- title: 'VR Backend Rails vs. Serverless: Froth or Future?'
-  raw_title: 'RubyConf AU 2017 - VR backend rails vs serverless: froth or future? Ram Ramakrishnan & Janet Brown'
+- title: "VR Backend Rails vs. Serverless: Froth or Future?"
+  raw_title: "RubyConf AU 2017 - VR backend rails vs serverless: froth or future? Ram Ramakrishnan & Janet Brown"
   speakers:
     - Ram Ramakrishnan
     - Janet Brown
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
     Serverless (via AWS Lambda), the new hotness, was definitely something we wanted to explore when developing the backend for our new Virtual Reality app. TLDR - despite expectations to the contrary we came back to Rails, specifically Rails 5 API mode. We'll walk you through our journey, what the different considerations were, what the different strengths of each platform are and how we reached our decision. We think it's essential that as Rails developers we have an understanding of Serverless, both as a replacement and as an augmentation to our skill-set and development environment.
   video_id: E0wPImDxSt8
 
-- title: 'Impactful Refactors: Refactoring for Readability'
-  raw_title: 'RubyConf AU 2017 - Impactful Refactors: Refactoring for Readability, by Kinsey Ann Durham'
+- title: "Impactful Refactors: Refactoring for Readability"
+  raw_title: "RubyConf AU 2017 - Impactful Refactors: Refactoring for Readability, by Kinsey Ann Durham"
   speakers:
     - Kinsey Ann Durham
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -152,7 +151,7 @@
   speakers:
     - Kylie Stradley
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -166,19 +165,19 @@
   speakers:
     - Elle Meredith
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
     The web industry never stops evolving and changing. We have to keep on our toes and learn the new hot thing. Whether you have limited time because of family, or just started on your way, self-learning is challenging, difficult, and sometimes even overwhelming. This talk is my list of tips, techniques, and strategies I use when I self-learn. Hopefully, you can find one or two things here to keep you motivated, and on your way.
   video_id: bU9QprllR3s
 
-- title: 'Open Source: Power and the Passion'
-  raw_title: 'RubyConf AU 2017 - Open Source: Power and the Passion, by Pat Allan'
+- title: "Open Source: Power and the Passion"
+  raw_title: "RubyConf AU 2017 - Open Source: Power and the Passion, by Pat Allan"
   speakers:
     - Pat Allan
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -187,12 +186,12 @@
     But perhaps it’s not quite the stable foundation we were hoping for? This talk will cover the various strengths and weaknesses of both open source and our reliance upon it, so we can trade in our assumptions for a greater awareness of the issues. Then together, we can find a path towards a more sustainable open source ecosystem.
   video_id: uIqcGzQO01k
 
-- title: 'Ruby: How a Language Affects its People'
-  raw_title: 'RubyConf AU 2017 - Ruby: how a language affects its people, by Alex Coles'
+- title: "Ruby: How a Language Affects its People"
+  raw_title: "RubyConf AU 2017 - Ruby: how a language affects its people, by Alex Coles"
   speakers:
     - Alex Coles
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -204,7 +203,7 @@
   speakers:
     - Aja Hammerly
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -216,7 +215,7 @@
   speakers:
     - Valerie Woolard
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -228,7 +227,7 @@
   speakers:
     - Stella Cotton
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -240,16 +239,16 @@
   speakers:
     - Katie McLaughlin
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: http://www.rubyconf.org.au
   video_id: Acf14xTjnFA
 
-- title: 'Simple and Awesome Database Tricks'
+- title: "Simple and Awesome Database Tricks"
   raw_title: RubyConf AU 2017 - Simple and Awesome Database Tricks, By Barrett Clark
   speakers:
     - Barrett Clark
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -261,19 +260,19 @@
   speakers:
     - André Arko
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
     We all use Bundler at some point, and most of us use it every day. But what does it do, exactly? Why do we have to use bundle exec? What's the point of checking in the Gemfile.lock? Why can't we just gem install the gems we need? Join me for a walk through the reasons that Bundler exists, and a guide to what actually happens when you use it. Finally, we'll cover some Bundler "pro tips" that can improve your workflow when developing on multiple applications at once.
   video_id: j2V-A8vvLP0
 
-- title: 'Persistence Pays Off: A New Look At rom-rb'
-  raw_title: 'RubyConf AU 2017 - Persistence pays off: a new look at rom-rb, by Piotr Solnica'
+- title: "Persistence Pays Off: A New Look At rom-rb"
+  raw_title: "RubyConf AU 2017 - Persistence pays off: a new look at rom-rb, by Piotr Solnica"
   speakers:
     - Piotr Solnica
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: http://www.rubyconf.org.au
   video_id: 9TBvWRgll64
 
@@ -283,7 +282,7 @@
     - Philip Arndt
     - Samuel Seay
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -299,7 +298,7 @@
   speakers:
     - Prathmesh Ranaut
   event_name: RubyConf AU 2017
-  published_at: '2017-02-09'
+  published_at: "2017-02-09"
   description: |-
     http://www.rubyconf.org.au
 
@@ -311,7 +310,7 @@
   speakers:
     - Kate Deutscher
   event_name: RubyConf AU 2017
-  published_at: '2017-07-05'
+  published_at: "2017-07-05"
   description: |-
     http://www.rubyconf.org.au
 

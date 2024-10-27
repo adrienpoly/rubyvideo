@@ -1,16 +1,15 @@
 ---
-
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
 
-- title: 'Schemaless SQL - The Best of Both Worlds'
+- title: "Schemaless SQL - The Best of Both Worlds"
   raw_title: Schemaless SQL - The Best of Both Worlds
   speakers:
     - Will Leinweber
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-09-18'
+  published_at: "2012-09-18"
   description: |-
     Schemaless database are a joy to use because they make it easy to iterate on your app, especially early on. The relational model isn't always the best fit for evolving and messy data in the real world. And let's be honest—it's painful to persist rich domain models across millions of little tables. However as your data model stabilizes, the lack of well-defined schemas becomes painful. On the other hand, relational databases are proven, robust, and powerful. How are we supposed to pick one or the other? Simple: pick both.
 
@@ -26,19 +25,19 @@
   speakers:
     - Bracken Mosbacker
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-09-18'
+  published_at: "2012-09-18"
   description: |-
     Help us caption & translate this video!
 
     http://amara.org/v/FGg6/
   video_id: zJVZpDFjGVk
 
-- title: 'UXDD (User Experience Driven Development): Build For Your Users, Not Your Tests'
-  raw_title: 'UXDD (User Experience Driven Development): Build for your users, not your tests'
+- title: "UXDD (User Experience Driven Development): Build For Your Users, Not Your Tests"
+  raw_title: "UXDD (User Experience Driven Development): Build for your users, not your tests"
   speakers:
     - Ted O'Meara
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-09-18'
+  published_at: "2012-09-18"
   description: |-
     All too often programmers get into a productive rhythm where they receive their requirements, write tests aligned to those requirements, and then look for the green and red. While this process is proven to be highly effective, it can lead to developers missing the mark, as they aim for functional completeness and not the polish that an end user requires.
 
@@ -54,7 +53,7 @@
   speakers:
     - Matthew Kocher
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-09-18'
+  published_at: "2012-09-18"
   description: |-
     Devops is a buzzword, but in reduction it means putting the people who are responsible for new features in charge of getting them out there. At Pivotal Labs we work with 30 startups at a time, and have seen what works well and what makes developers cringe and slows down progress. I'd like to convince every developer to start running the sites they work on, embrace change throughout their infrastructure, and give some tips for how to do it along the way.
 
@@ -63,13 +62,14 @@
     http://amara.org/v/FGg1/
   video_id: KMZYow3clsU
 
-- title: 'Does Pair Programming Have to Suck?'
+- title: "Does Pair Programming Have to Suck?"
   raw_title: Does Pair Programming Have to Suck?
   speakers:
     - Angela Harms
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-09-18'
-  description: On some teams pairing is the norm; developers enjoy the collaboration
+  published_at: "2012-09-18"
+  description:
+    On some teams pairing is the norm; developers enjoy the collaboration
     & experience enhanced productivity. Others, though, work on teams where pairing
     is shunned, avoided, or just faked. Why do some craftsmen thrive with pairing
     while others want nothing to do with it? Why does coach- enforced pairing turn
@@ -80,12 +80,12 @@
     on code.
   video_id: FLcfN9IBxyc
 
-- title: 'Frustration Driven Development'
+- title: "Frustration Driven Development"
   raw_title: Frustration Driven Development By Evan D. Light
   speakers:
     - Evan D. Light
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-09-18'
+  published_at: "2012-09-18"
   description: |-
     Everyone draws inspiration and motivation from different sources.
 
@@ -94,25 +94,26 @@
     We make life decisions, define new features, or refactor code when we get too annoyed by current circumstances. This is where I admit that I have a low tolerance for frustration. Having been frustrated a great deal during my career, I'm going to discuss several anti-patterns that I've seen in code and how to use the Dark Side of the Force (frustration, anger, and rage) to escape from them.
   video_id: 9oCjrlKXf4U
 
-- title: 'Continuous Deployment'
+- title: "Continuous Deployment"
   raw_title: Continuous Deployment
   speakers:
     - Matt White
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-09-18'
-  description: When you write code, how long is it before that code makes it to production?
+  published_at: "2012-09-18"
+  description:
+    When you write code, how long is it before that code makes it to production?
     Days? Weeks? Months? LONGER?!?! Deploying code to production multiple times a
     day as automatically as possible will make all your dreams of green grassy meadows
     filled with rainbows and prancing unicorns and ponies come true. Or at least one
     or two of them.
   video_id: aYclrqk3gnU
 
-- title: 'MiniTest: Write Awesome Tests'
-  raw_title: 'MiniTest: Write Awesome Tests by Michael J.I. Jackson'
+- title: "MiniTest: Write Awesome Tests"
+  raw_title: "MiniTest: Write Awesome Tests by Michael J.I. Jackson"
   speakers:
     - Michael J.I. Jackson
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-08-16'
+  published_at: "2012-08-16"
   description: |-
     Help us caption & translate this video!
 
@@ -124,7 +125,7 @@
   speakers:
     - David Brady
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-08-16'
+  published_at: "2012-08-16"
   description: |-
     Help us caption & translate this video!
 
@@ -136,7 +137,7 @@
   speakers:
     - Jack Danger Canty
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-08-16'
+  published_at: "2012-08-16"
   description: |-
     Help us caption & translate this video!
 
@@ -148,7 +149,7 @@
   speakers:
     - Xavier Shay
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-08-16'
+  published_at: "2012-08-16"
   description: |-
     Help us caption & translate this video!
 
@@ -160,7 +161,7 @@
   speakers:
     - Mitchell Hashimoto
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-08-16'
+  published_at: "2012-08-16"
   description: |-
     Help us caption & translate this video!
 
@@ -172,7 +173,7 @@
   speakers:
     - Corey Woodcox
   event_name: MountainWest RubyConf 2012
-  published_at: '2012-08-16'
+  published_at: "2012-08-16"
   description: |-
     Help us caption & translate this video!
 

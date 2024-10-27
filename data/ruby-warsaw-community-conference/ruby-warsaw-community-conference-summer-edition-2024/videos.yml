@@ -1,5 +1,4 @@
 ---
-
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
@@ -10,8 +9,9 @@
   speakers:
     - Hana Harencarova
   event_name: Ruby Warsaw Community Conference Summer Edition 2024
-  published_at: '2024-07-29'
-  description: "Hana Harencarová's presentation at the Ruby Warsaw Community Conference,
+  published_at: "2024-07-29"
+  description:
+    "Hana Harencarová's presentation at the Ruby Warsaw Community Conference,
     which took place on July 19, 2024, in Warsaw.\n\n\nBuilding for web and mobile
     in 2024: Production story and a brighter future with Rails 8\n\nCurious about
     how to build apps for web and mobile in 2024? Join me as we delve into a real-world
@@ -28,13 +28,14 @@
     https://github.com/visualitypl"
   video_id: TDQ2wtmgeKw
 
-- title: '2000 Engineers, 2 millions lines of code: The history of a Rails monolith'
+- title: "2000 Engineers, 2 millions lines of code: The history of a Rails monolith"
   raw_title: "[EN] 2000 Engineers, 2 millions lines of code: The history of a Rails monolith - Cristian Planas"
   speakers:
     - Cristian Planas
   event_name: Ruby Warsaw Community Conference Summer Edition 2024
-  published_at: '2024-07-29'
-  description: "Cristian Planas's presentation at the Ruby Warsaw Community Conference
+  published_at: "2024-07-29"
+  description:
+    "Cristian Planas's presentation at the Ruby Warsaw Community Conference
     took place on July 19, 2024, in Warsaw.\n\n2000 Engineers, 2 millions lines of
     code: The history of a Rails monolith \n\nRails is the best framework for building
     your startup. But what happens when the startup becomes a leading business? How
@@ -54,13 +55,14 @@
     https://github.com/visualitypl"
   video_id: CaJvhm1fRWg
 
-- title: 'Avoiding Pitfalls in Active Record: Practical Usage and Best Practices'
+- title: "Avoiding Pitfalls in Active Record: Practical Usage and Best Practices"
   raw_title: "[EN] Avoiding Pitfalls in Active Record: Practical Usage and Best Practices - Viktor Schmidt"
   speakers:
     - Viktor Schmidt
   event_name: Ruby Warsaw Community Conference Summer Edition 2024
-  published_at: '2024-07-29'
-  description: "Viktor Schmidt's presentation at the Ruby Warsaw Community Conference
+  published_at: "2024-07-29"
+  description:
+    "Viktor Schmidt's presentation at the Ruby Warsaw Community Conference
     took place on July 19, 2024, in Warsaw.\n____________________________________________\n\n►
     Looking for a dedicated software development team? Contact us at: \n\nhttps://visuality.page.link/page\n\n►
     SUBSCRIBE to learn more about software development: \nhttp://bit.ly/SubscribeVisuality\n\n\n►
@@ -72,13 +74,15 @@
   video_id: RuMJGm6tNKE
 
 - title: Fix Production Bugs Quickly - The Power of Structured Logging in Rails
-  raw_title: "[EN] Fix Production Bugs Quickly - The Power of Structured Logging in
+  raw_title:
+    "[EN] Fix Production Bugs Quickly - The Power of Structured Logging in
     Rails - John Gallagher"
   speakers:
     - John Gallagher
   event_name: Ruby Warsaw Community Conference Summer Edition 2024
-  published_at: '2024-07-29'
-  description: "John Gallagher's presentation at the Ruby Warsaw Community Conference
+  published_at: "2024-07-29"
+  description:
+    "John Gallagher's presentation at the Ruby Warsaw Community Conference
     took place on July 19, 2024, in Warsaw.\n\n\nFix Production Bugs Quickly - The
     Power of Structured Logging in Rails\n\nRails apps can be a black box. Have you
     ever tried to fix a bug where you just can’t understand what’s going on? This

@@ -1,16 +1,15 @@
 ---
-
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
 
-- title: 'Keynote'
+- title: "Keynote"
   raw_title: Big Ruby 2014 - Keynote by Keavy McMinn
   speakers:
     - Keavy McMinn
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   description: |-
     Help us caption & translate this video!
 
@@ -23,7 +22,7 @@
   speakers:
     - Richard Schneeman
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   description: |-
     Good tests are isolatable, repeatable and deterministic. Good tests don't touch the network and are flexible when it comes to change. Bad tests are all of the above. Bad tests are no tests at all - which is where I found myself with a 5 year legacy codebase running in production and touching millions of customers with minimal use-case documentation. We'll cover this experience and several like it while digging into how to go from zero to total test coverage as painlessly as possible. You will learn how to stay sane in the face of insane testing conditions and how to use these tests to deconstruct a monolith app. When life gives you a big ball of mud, write a big ball of tests.
 
@@ -33,13 +32,14 @@
   video_provider: youtube
   video_id: QHMKIHkY1nM
 
-- title: 'Lightweight Business Intelligence with Ruby, Rails, and MongoDB'
+- title: "Lightweight Business Intelligence with Ruby, Rails, and MongoDB"
   raw_title: Big Ruby 2014 - Lightweight Business Intelligence with Ruby, Rails, and MongoDB
   speakers:
     - Coraline Ada Ehmke
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
-  description: "By Coraline Ada Ehmke\n\nAgile companies need timely and reliable
+  published_at: "2014-02-20"
+  description:
+    "By Coraline Ada Ehmke\n\nAgile companies need timely and reliable
     access to data to make critical business decisions. In the enterprise world, this
     is accomplished with expensive and esoteric data warehousing solutions, while
     younger organizations make do with generic analytics platforms. In this talk I
@@ -57,7 +57,7 @@
   speakers:
     - Tanner Burson
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   slides_url: https://speakerdeck.com/tannerburson/mo-jobs-mo-problems-at-big-ruby-conf-2014
   description: |-
     By Tanner Burson
@@ -75,7 +75,7 @@
   speakers:
     - Vito Genovese
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   slides_url: https://speakerdeck.com/vito/building-def-con-ctf-with-ruby
   description: |-
     DEF CON Capture the Flag is the world series of computer hacking, with hundreds of teams from all over the world trying to qualify, and a select few competing on site in Las Vegas. For our first time hosting this event, we picked a Ruby-based stack running the game, which has teams attempting to defend their network services while hacking opponents' and stealing secrets.
@@ -91,8 +91,9 @@
   speakers:
     - Camilo Lopez
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
-  description: "Last year at this very conference John Duff spoke about how Shopify
+  published_at: "2014-02-20"
+  description:
+    "Last year at this very conference John Duff spoke about how Shopify
     scales while maintaing one of the longest lived and largest Rails deployments,
     and how we affront the challenges that come with growth. Shopify in 2013 became
     more than twice the size in every single aspect; requests per minute, GMV, merchants,
@@ -111,9 +112,10 @@
   speakers:
     - Chris Morris
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   slides_url: https://www.slideshare.net/slideshow/big-ruby-2014-a-4-pack-of-lightning-talks
-  description: "If you get 10 minutes into this talk and decide you don't really like
+  description:
+    "If you get 10 minutes into this talk and decide you don't really like
     the topic, the topic will change! If you don't like the speaker, well ... there's
     no accounting for taste. \n\nThe Cobbler's Production Console Has No Shoes. Don't
     give all your great stuff to your end-users, build something nice for yourself
@@ -136,7 +138,7 @@
   speakers:
     - Ashe Dryden
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   description: |-
     By Ashe Dryden
 
@@ -148,13 +150,14 @@
   video_provider: youtube
   video_id: KiFTzsOdmcg
 
-- title: 'Castle On a Cloud: The GitHub Story'
-  raw_title: 'Big Ruby 2014 - CASTLE ON A CLOUD: THE GITHUB STORY by Ben Bleything'
+- title: "Castle On a Cloud: The GitHub Story"
+  raw_title: "Big Ruby 2014 - CASTLE ON A CLOUD: THE GITHUB STORY by Ben Bleything"
   speakers:
     - Ben Bleything
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
-  description: "When you think \"GitHub\", you're probably thinking of what we lovingly
+  published_at: "2014-02-20"
+  description:
+    "When you think \"GitHub\", you're probably thinking of what we lovingly
     refer to as GitHub Dot Com: The Web Site. GitHub Dot Com: The Web Site runs on
     an incredibly interesting infrastructure composed of very powerful, cleverly configured,
     and deeply handsome servers. This is not their story. \n\nThis is the story of
@@ -165,12 +168,12 @@
   video_provider: youtube
   video_id: 8TYfPhFSZFs
 
-- title: 'Keynote: Working Effectively on a Distrubuted Team'
+- title: "Keynote: Working Effectively on a Distrubuted Team"
   raw_title: Big Ruby 2014 - Keynote by Glenn Vanderburg
   speakers:
     - Glenn Vanderburg
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   description: |-
     Help us caption & translate this video!
 
@@ -183,7 +186,7 @@
   speakers:
     - Wynn Netherland
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   description: |-
     Changing code is easy. Changing code with confidence isn't. Even the most robust, mature test suites have blind spots that make large scale changes difficult. At GitHub we use Science to instrument, compare results, and measure performance of parallel code path experiments to see how new code runs against a current production baseline. This talk will show you how to Science, too.
 
@@ -194,12 +197,13 @@
   video_id: eMKG4puLfmM
 
 - title: "It Looks Like You're Writing a Service: Would You Like"
-  raw_title: 'Big Ruby 2014 - IT LOOKS LIKE YOU''RE WRITING A SERVICE: WOULD YOU LIKE HELP?'
+  raw_title: "Big Ruby 2014 - IT LOOKS LIKE YOU'RE WRITING A SERVICE: WOULD YOU LIKE HELP?"
   speakers:
     - Mando Escamilla
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
-  description: "By Mando Escamilla\n\nOnce you've properly structured your Rails app,
+  published_at: "2014-02-20"
+  description:
+    "By Mando Escamilla\n\nOnce you've properly structured your Rails app,
     you'll begin to find logical seams in your domain logic. These seams can be the
     perfect opportunity to extract a software component into a stand-alone service.
     \n\nUsing a live-in-production example, we'll walk through how we build and integrate
@@ -214,7 +218,7 @@
   speakers:
     - B.J. Allen
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   slides_url: https://speakerdeck.com/bjallen/in-praise-of-smallness
   description: |-
     Getting big things done is important. We praise big accomplishments, but those involved can usually point to the small decisions and actions along the way that made it all possible. Structuring teams, projects, systems, and processes to embrace smallness enables the big things to evolve and succeed. This talk will cover ways in which the teams behind TripCase have succeeded and failed while making big things happen one small step at a time.
@@ -225,13 +229,14 @@
   video_provider: youtube
   video_id: Y2EWl2R9c0o
 
-- title: 'Harry Potter and the Legacy Codebase'
+- title: "Harry Potter and the Legacy Codebase"
   raw_title: Big Ruby 2014 - Harry Potter and the Legacy Codebase
   speakers:
     - Kerri Miller
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
-  description: "It's your first day at Hogwarts.com, and everything is wonderful and
+  published_at: "2014-02-20"
+  description:
+    "It's your first day at Hogwarts.com, and everything is wonderful and
     thrilling. You dig in to classes, and soon find a dusty book with a cryptic warning:
     \n\n\"Do NOT on any circumstances make ANY change to this magic incantation without
     talking to Doug first!!!\" \n\nSound familiar? Approaching a legacy code base
@@ -252,7 +257,7 @@
     - Jeremy Perez # From Intern to FTE
     - Jeffery Davis # 3 Functional Programming "words" that exist in Ruby
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   description: |-
     00:00:00:00 - Christopher Krailo (User Groups are Awesome)
     00:03:22:00 - Aaron Lasseigne (Interactions)
@@ -266,13 +271,14 @@
   video_provider: youtube
   video_id: Gn75H9D3nOg
 
-- title: 'Throw Some Keys on it: Data Modeling For Key/Value Data Stores by Example'
-  raw_title: 'Big Ruby 2014 - Throw Some Keys on it: Data Modeling For Key/Value Data Stores by Example'
+- title: "Throw Some Keys on it: Data Modeling For Key/Value Data Stores by Example"
+  raw_title: "Big Ruby 2014 - Throw Some Keys on it: Data Modeling For Key/Value Data Stores by Example"
   speakers:
     - Hector Castro
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
-  description: "By Hector Castro\n\nMost Computer Science curriculums offer at least
+  published_at: "2014-02-20"
+  description:
+    "By Hector Castro\n\nMost Computer Science curriculums offer at least
     one course that focuses on databases. Most of the time, these courses promote
     relational database management systems (RDBMS) by emphasizing the relational model,
     relational algebra, data normalization, and Structured Query Language (SQL). \n\nKey/value
@@ -284,11 +290,11 @@
   video_id: "-_3Us7Ystyg"
 
 - title: Herding Elephants
-  raw_title: 'Big Ruby 2014 - Herding Elephants:  by Clint Shryock'
+  raw_title: "Big Ruby 2014 - Herding Elephants:  by Clint Shryock"
   speakers:
     - Clint Shryock
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
+  published_at: "2014-02-20"
   description: |-
     Herding Elephants: How Heroku Uses Ruby to Run the Largest Fleet of Postgres Databases in the World
 
@@ -300,13 +306,14 @@
   video_provider: youtube
   video_id: GGyT6Cxpb6U
 
-- title: 'Developers are From Mars, Developers are From Venus'
+- title: "Developers are From Mars, Developers are From Venus"
   raw_title: Big Ruby 2014 - Developers are From Mars, Developers are From Venus
   speakers:
     - Adam Keys
   event_name: Big Ruby 2014
-  published_at: '2014-02-20'
-  description: "By Adam Keys\n\nWorking well with other developers: it's difficult
+  published_at: "2014-02-20"
+  description:
+    "By Adam Keys\n\nWorking well with other developers: it's difficult
     and it's crucial. Many projects that fail do so due to social problems, not technical
     problems. The ability to communicate and work with lots of different kinds of
     developers and stakeholders can be a superpower almost as awesome as writing software.

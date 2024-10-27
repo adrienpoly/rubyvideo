@@ -1,5 +1,4 @@
 ---
-
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
@@ -10,8 +9,9 @@
   speakers:
     - Glenn Vanderburg
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: "Software engineering as it's taught in universities simply doesn't
+  published_at: "2010-08-26"
+  description:
+    "Software engineering as it's taught in universities simply doesn't
     work. It doesn't produce software systems of high quality, and it doesn't produce
     them for low cost. Sometimes, even when practiced rigorously, it doesn't produce
     systems at all.\n\nThat's odd, because in every other field, the term \"engineering\"\x9D
@@ -25,63 +25,63 @@
   video_provider: youtube
   video_id: NP9AIUT9nos
 
-- title: 'Seven Languages in Seven Weeks'
-  raw_title: 'LoneStarRuby Conf 2010 - Seven Languages in Seven Weeks by: Bruce Tate'
+- title: "Seven Languages in Seven Weeks"
+  raw_title: "LoneStarRuby Conf 2010 - Seven Languages in Seven Weeks by: Bruce Tate"
   speakers:
     - Bruce Tate
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: jBoU1JpFVIg
 
-- title: 'Keynote'
-  raw_title: 'LoneStarRuby Conf 2010 - Keynote Address by: Tom Preston-Werner'
+- title: "Keynote"
+  raw_title: "LoneStarRuby Conf 2010 - Keynote Address by: Tom Preston-Werner"
   speakers:
     - Tom Preston-Werner
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: hwvMR-943qw
 
-- title: 'Grease your Suite: Tips and Tricks for Faster Testing'
-  raw_title: 'LoneStarRuby Conf 2010 - Grease your Suite: Tips and Tricks for Faster Testing by: Nick Gauthier'
+- title: "Grease your Suite: Tips and Tricks for Faster Testing"
+  raw_title: "LoneStarRuby Conf 2010 - Grease your Suite: Tips and Tricks for Faster Testing by: Nick Gauthier"
   speakers:
     - Nick Gauthier
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: mMp-nTDyP8M
 
-- title: 'JSON and the Argonauts - Building Mashups with Ruby'
-  raw_title: 'LoneStarRuby Conf 2010 - JSON and the Argonauts - Building Mashups with Ruby by: Wynn Netherland'
+- title: "JSON and the Argonauts - Building Mashups with Ruby"
+  raw_title: "LoneStarRuby Conf 2010 - JSON and the Argonauts - Building Mashups with Ruby by: Wynn Netherland"
   speakers:
     - Wynn Netherland
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: 8ojICo5cyUE
 
-- title: 'Components in a Monolithic World'
-  raw_title: 'LoneStarRuby Conf 2010 - Components in a Monolithic World by: Nick Sutterer, Kevin Triplett'
+- title: "Components in a Monolithic World"
+  raw_title: "LoneStarRuby Conf 2010 - Components in a Monolithic World by: Nick Sutterer, Kevin Triplett"
   speakers:
     - Nick Sutterer
     - Kevin Triplett
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: jqtgQQAS4fg
 
-- title: 'Beehive, Scalable Application Deployment'
-  raw_title: 'LoneStarRuby Conf 2010 - Beehive, scalable application deployment by: Ari Lerner'
+- title: "Beehive, Scalable Application Deployment"
+  raw_title: "LoneStarRuby Conf 2010 - Beehive, scalable application deployment by: Ari Lerner"
   speakers:
     - Ari Lerner
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: |-
     Okay, your rack app is done and you are ready to deploy it. Now, instead of developing your application you have to switch gears and start thinking about how it should be deployed. What http server should you use? How do you scale it beyond a single instance, load-balance it? How do you even get your app on a server? This discussion happens every time that you finish an application to deploy!
 
@@ -92,11 +92,11 @@
   video_id: fHO3K0FSWHs
 
 - title: "Battle of NoSQL stars: Amazon's SDB vs Mongoid vs CouchDB vs RavenDB"
-  raw_title: 'LoneStarRuby Conf 2010 - Battle of NoSQL stars: Amazon''s SDB vs Mongoid vs CouchDB vs RavenDB'
+  raw_title: "LoneStarRuby Conf 2010 - Battle of NoSQL stars: Amazon's SDB vs Mongoid vs CouchDB vs RavenDB"
   speakers:
     - Jesse Wolgamott
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: |-
     by: Jesse Wolgamott
 
@@ -109,11 +109,11 @@
   video_id: NTJ8H9lrbzs
 
 - title: "Rails' Next Top Model: Using ActiveModel and ActiveRelation"
-  raw_title: 'LoneStarRuby Conf 2010 - Rails'' Next Top Model: Using ActiveModel and ActiveRelation by: Adam Keys'
+  raw_title: "LoneStarRuby Conf 2010 - Rails' Next Top Model: Using ActiveModel and ActiveRelation by: Adam Keys"
   speakers:
     - Adam Keys
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: |-
     Rails jumped on the scene five years ago in part due to excellent support for connecting database tables to Ruby classes via ActiveRecord. Rails 3 makes two major improvements to this support. ActiveModel makes it easy to turn any old object into one that looks like ActiveRecord to your Rails app. ActiveRelation makes many kinds of queries easier and makes it possible to write some queries that were very difficult in the past.
 
@@ -123,21 +123,22 @@
   video_provider: youtube
   video_id: Pu5V0SYbGc8
 
-- title: 'Deciphering Yehuda'
-  raw_title: 'LoneStarRuby Conf 2010 - Deciphering Yehuda by: Gregg Pollack'
+- title: "Deciphering Yehuda"
+  raw_title: "LoneStarRuby Conf 2010 - Deciphering Yehuda by: Gregg Pollack"
   speakers:
     - Gregg Pollack
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: 'Yehuda Katz has done some great Ruby refactoring for Rails 3 over
-    the past year, but do you really understand what he''s done? In this talk, Gregg
-    Pollack will attempt to examine Yehuda''s work, identify and deconstruct each
-    programming technique that he''s applied, and then teach them in a way that everyone
+  published_at: "2010-08-26"
+  description:
+    "Yehuda Katz has done some great Ruby refactoring for Rails 3 over
+    the past year, but do you really understand what he's done? In this talk, Gregg
+    Pollack will attempt to examine Yehuda's work, identify and deconstruct each
+    programming technique that he's applied, and then teach them in a way that everyone
     can understand.Some of the techniques to be discussed will include: Method Compilation
     vs Method Missing, Microkernel Architecture, alias_method_chain vs super, ActiveSupport
     Concern, Catch/Throw in Bundler, and increased Rack compatibility.Attendees should
     walk away with a greater understanding of some advanced Ruby design patterns and
-    a better insight into the internals of Rails 3.'
+    a better insight into the internals of Rails 3."
   video_provider: youtube
   video_id: ldxGXxZ1CCI
 
@@ -147,17 +148,17 @@
     - Jim Remsik
     - Les Hill
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: 'by: Jim Remsik, Les Hill'
+  published_at: "2010-08-26"
+  description: "by: Jim Remsik, Les Hill"
   video_provider: youtube
   video_id: jVJr2ja1zRY
 
-- title: 'Get Your Facts First, Then You Can Distort Them as You Please'
+- title: "Get Your Facts First, Then You Can Distort Them as You Please"
   raw_title: LoneStarRuby Conf 2010 -  "Get your facts first...
   speakers:
     - Steve Sanderson
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: |-
     "Get your facts first, then you can distort them as you please", or why I love continuous learning with continuous deployment. by: Steve Sanderson
 
@@ -172,13 +173,14 @@
   video_provider: youtube
   video_id: lRfY_hhqmHM
 
-- title: 'Taking Mongoid into the Future'
-  raw_title: 'LoneStarRuby Conf 2010 - Taking Mongoid into the Future by: Bernerd Schaefer'
+- title: "Taking Mongoid into the Future"
+  raw_title: "LoneStarRuby Conf 2010 - Taking Mongoid into the Future by: Bernerd Schaefer"
   speakers:
     - Bernerd Schaefer
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: With a growing pool of ORMs innovating in the realm of NoSQL solutions
+  published_at: "2010-08-26"
+  description:
+    With a growing pool of ORMs innovating in the realm of NoSQL solutions
     and a new NoSQL database seemingly every week, it can be difficult to decide what
     is right for your app. We'll talk about the features of MongoDB that make it the
     best document database, and what's being done to keep Mongoid at the head of the
@@ -186,13 +188,12 @@
   video_provider: youtube
   video_id: dbID_mUJQnU
 
-
 - title: TROPO
   raw_title: Lone Star Ruby Conference 2010 -  TROPO by Adam Kalsey
   speakers:
     - Adam Kalsey
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: |-
     Help us caption & translate this video!
 
@@ -205,7 +206,7 @@
   speakers:
     - John Crepezzi
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: |-
     Help us caption & translate this video!
 
@@ -219,17 +220,17 @@
     - Jim Remsik
     - Robert Pitts
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: By Jim Remsik & Robert Pitts
   video_provider: youtube
   video_id: 7MeZSkA7l2Y
 
-- title: 'Building Fast, Lightweight Data-driven Apps Using The Infochimps API'
+- title: "Building Fast, Lightweight Data-driven Apps Using The Infochimps API"
   raw_title: Lone Star Ruby Conference 2010 - Building Fast, Lightweight Data-driven Apps...
   speakers:
     - Jesse Crouch
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: By Jesse Crouch
   video_provider: youtube
   video_id: QQIMwp_eY28
@@ -239,8 +240,8 @@
   speakers:
     - Aman Gupta
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: gEMnwRAUlKE
 
@@ -249,7 +250,7 @@
   speakers:
     - Caleb Clausen
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: By Caleb Clausen
   video_provider: youtube
   video_id: kbYRbQVShxE
@@ -259,8 +260,8 @@
   speakers:
     - Zhao Lu
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: FiobTjSskwY
 
@@ -269,8 +270,8 @@
   speakers:
     - Gautam Rege
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: 3hdUN00DEWE
 
@@ -279,37 +280,37 @@
   speakers:
     - Jason Goecke
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: 4sSoGAfpQ0s
 
-- title: 'Closing Keynote'
+- title: "Closing Keynote"
   raw_title: Lone Star Ruby Conference 2010 - Closing Keynote by Blake Mizerany
   speakers:
     - Blake Mizerany
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: LsTzE0BPybE
 
-- title: 'Awesome Command Line Applications in Ruby'
+- title: "Awesome Command Line Applications in Ruby"
   raw_title: Lone Star Ruby Conference 2010 - Awesome Command Line Applications in Ruby
   speakers:
     - David Copeland
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: By David Copeland
   video_provider: youtube
   video_id: fJjRewOcjgM
 
-- title: 'Less-Dumb Fuzzing & Ruby Metaprogramming'
+- title: "Less-Dumb Fuzzing & Ruby Metaprogramming"
   raw_title: Lone Star Ruby Conference 2010 - Less-Dumb Fuzzing & Ruby Metaprogramming
   speakers:
     - Nephi Johnson
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: By Nephi Johnson
   video_provider: youtube
   video_id: jl5633Y9NQk
@@ -319,8 +320,8 @@
   speakers:
     - Rogelio J. Samour
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
-  description: ''
+  published_at: "2010-08-26"
+  description: ""
   video_provider: youtube
   video_id: rh2DOYbnh98
 
@@ -329,7 +330,7 @@
   speakers:
     - Joshua Hull
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: |-
     Help us caption & translate this video!
 
@@ -337,12 +338,12 @@
   video_provider: youtube
   video_id: XUMcW2sHiOo
 
-- title: 'Getting Started With C++ Extensions'
+- title: "Getting Started With C++ Extensions"
   raw_title: Lone Star Ruby Conference 2010 - Getting Started With C++ Extensions
   speakers:
     - Charles Cornell
   event_name: LoneStarRuby Conf 2010
-  published_at: '2010-08-26'
+  published_at: "2010-08-26"
   description: |-
     By Charles Cornell
 

@@ -1,5 +1,4 @@
 ---
-
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
@@ -10,8 +9,9 @@
   speakers:
     - Ernie Miller
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-12'
-  description: "How to Build a Skyscraper by Ernie Miller \n\nSince 1884, humans have
+  published_at: "2016-04-12"
+  description:
+    "How to Build a Skyscraper by Ernie Miller \n\nSince 1884, humans have
     been building skyscrapers. This means that we had 6 decades of skyscraper-building
     experience before we started building software (depending on your definition of
     “software”). Maybe there are some lessons we can learn from past experience?\nThis
@@ -25,7 +25,7 @@
   speakers:
     - Davy Stevenson
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-12'
+  published_at: "2016-04-12"
   description: |-
     Orders of Magnitude by Davy Stevenson
 
@@ -42,8 +42,9 @@
   speakers:
     - Michael Ries
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-12'
-  description: "Ruby is For Fun and Robots by Michael Ries \n\nMost of us use ruby
+  published_at: "2016-04-12"
+  description:
+    "Ruby is For Fun and Robots by Michael Ries \n\nMost of us use ruby
     for work, but do we still use it for fun? Is maximizing your webscale for optimal
     synergy getting you down? Let’s talk about something fun you can do with ruby
     and robots instead.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/IMZt/"
@@ -54,7 +55,7 @@
   speakers:
     - Brandon Hays
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-12'
+  published_at: "2016-04-12"
   description: |-
     Surviving the Framework Hype Cycle by  Brandon Hays test
 
@@ -70,7 +71,7 @@
   speakers:
     - Ryan Davis
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-12'
+  published_at: "2016-04-12"
   description: |-
     Writing a Test Framework From Scratch by Ryan Davis
 
@@ -81,13 +82,14 @@
     http://amara.org/v/IMZw/
   video_id: 56ZB3XBjMxc
 
-- title: 'Security is Broken: Understanding Common Vulnerabilities'
-  raw_title: 'Mountain West Ruby 2016 - Security is Broken: Understanding Common Vulnerabilities'
+- title: "Security is Broken: Understanding Common Vulnerabilities"
+  raw_title: "Mountain West Ruby 2016 - Security is Broken: Understanding Common Vulnerabilities"
   speakers:
     - Eileen M. Uchitelle
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-12'
-  description: "Understanding Common Vulnerabilities by Eileen Uchitelle \n\nThe Internet
+  published_at: "2016-04-12"
+  description:
+    "Understanding Common Vulnerabilities by Eileen Uchitelle \n\nThe Internet
     is built on technology that was never meant to work together. Basic features in
     seemingly simple and innocuous technologies, such as XML, resulted in these technologies
     being insecure. In this session we’ll talk about how attackers exploit well known
@@ -96,13 +98,14 @@
     & translate this video!\n\nhttp://amara.org/v/IM3o/"
   video_id: b0_8zi7Mpi0
 
-- title: 'Sharpening The Axe: Self-Teaching For Developers'
-  raw_title: 'Mountain West Ruby 2016 - Sharpening The Axe: Self-Teaching For Developers Aja Hammerly'
+- title: "Sharpening The Axe: Self-Teaching For Developers"
+  raw_title: "Mountain West Ruby 2016 - Sharpening The Axe: Self-Teaching For Developers Aja Hammerly"
   speakers:
     - Aja Hammerly
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-12'
-  description: "Sharpening The Axe: Self-Teaching For Developers Aja Hammerly \n\nMany
+  published_at: "2016-04-12"
+  description:
+    "Sharpening The Axe: Self-Teaching For Developers Aja Hammerly \n\nMany
     of us get a few years into our career and get stuck in a rut. Maybe we stop reading
     about the latest and greatest in tech. Maybe we start managing and do less coding
     than we’d like. Maybe life gets in the way and coding becomes drudgery.\nOne way
@@ -113,12 +116,12 @@
     us caption & translate this video!\n\nhttp://amara.org/v/IM6T/"
   video_id: 3Ee1WYl51TM
 
-- title: 'TDD For Your Soul: Virtue Through Software Development'
-  raw_title: 'Mountain West Ruby 2016 - TDD For Your Soul: Virtue Through Software Development by Abraham Sangh'
+- title: "TDD For Your Soul: Virtue Through Software Development"
+  raw_title: "Mountain West Ruby 2016 - TDD For Your Soul: Virtue Through Software Development by Abraham Sangh"
   speakers:
     - Abraham Sangh
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-13'
+  published_at: "2016-04-13"
   description: |-
     TDD For Your Soul: Virtue Through Software Development by Abraham Sangh
 
@@ -135,7 +138,7 @@
     - Kerri Miller
     - Jeremy Flores
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-13'
+  published_at: "2016-04-13"
   description: |-
     The Minimum Viable Conference by Kerri Miller & Jeremy Flores
 
@@ -161,8 +164,9 @@
   speakers:
     - Aaron Patterson
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-13'
-  description: "How Are Method Calls Formed? by Aaron Patterson \n\ntoday, we’ll dive
+  published_at: "2016-04-13"
+  description:
+    "How Are Method Calls Formed? by Aaron Patterson \n\ntoday, we’ll dive
     in to optimizations we can make on method dispatch including various types of
     inline method caching. Audience members should leave with a better understanding
     of Ruby’s VM internals as well as ways to analyze and optimize their own code.\n\nHelp
@@ -174,8 +178,9 @@
   speakers:
     - Jamis Buck
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-14'
-  description: "Second Wind by Jamis Buck \n\nBurnout is the professional’s palsy.
+  published_at: "2016-04-14"
+  description:
+    "Second Wind by Jamis Buck \n\nBurnout is the professional’s palsy.
     It leaves you paralyzed, unable to do what you need to do, and it strikes without
     warning. Or does it? Through story, metaphor, and perhaps even code sample, let’s
     take a look at how to recognize, prepare for, and weather burnout, and hopefully
@@ -197,7 +202,7 @@
     - Isaac Sloan # petergate gem (38:44)
     - Andrew Butterfield # In Search of the Unattainable (43:50)
   event_name: MountainWest RubyConf 2016
-  published_at: '2016-04-14'
+  published_at: "2016-04-14"
   description: |-
     Help us caption & translate this video!
 
