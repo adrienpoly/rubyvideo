@@ -6,34 +6,75 @@
           <%= image_tag event.featured_image_path %>
         </div>
 
-        <h1 class="text-inherit font-bold text-xl mt-9"><%= event.name %></h1>
-        <h2 class="text-inherit font-medium text-sm mt-3"><%= event.description %></h2>
+        <div class="h-36 max-h-36 overflow-hidden">
+          <h1 class="text-inherit font-bold text-xl mt-9 line-clamp-2"><%= event.name %></h1>
+          <h2 class="text-inherit font-medium text-sm mt-3 line-clamp-3"><%= event.description %></h2>
+        </div>
+
         <button class="btn rounded-full bg-white mt-9 hover:bg-white/80">Explore All Talks</button>
       </div>
 
-      <div class="flex justify-center items-center">
+      <div class="flex flex-col justify-center items-center">
         <div>
           <div class="avatar-group -space-x-6 rtl:space-x-reverse">
+            <% shown_speakers = [] %>
+
+            <% all_speakers = event.speakers.to_a %>
+            <% speakers_with_avatars = all_speakers.select { |speaker| speaker.github.present? } %>
+
             <% event.keynote_speakers.each do |keynote_speaker| %>
+              <% shown_speakers << keynote_speaker %>
+
               <div class="avatar bg-white">
                 <div class="w-40">
-                  <img src="<%= keynote_speaker.github_avatar_url %>" onerror="this.parentElement.parentElement.remove()" />
+                  <img src="<%= keynote_speaker.github_avatar_url %>" onerror="this.parentElement.parentElement.remove()">
                 </div>
               </div>
             <% end %>
 
             <% if event.keynote_speakers.none? %>
-              <% event.speakers.where.not(github: "").sample(3).each do |speaker| %>
+              <% speakers_with_avatars.sample(4).each do |speaker| %>
+                <% shown_speakers << speaker %>
+
                 <div class="avatar bg-white">
                   <div class="w-40">
-                    <img src="<%= speaker.github_avatar_url %>" />
+                    <img src="<%= speaker.github_avatar_url %>">
                   </div>
                 </div>
               <% end %>
             <% end %>
           </div>
         </div>
+
+        <div class="mt-12 hidden md:block">
+          <div class="avatar-group -space-x-3 rtl:space-x-reverse">
+            <% remaining_speakers = speakers_with_avatars - shown_speakers %>
+
+            <% if remaining_speakers.any? %>
+              <% remaining_speakers.sample(10).each do |speaker| %>
+                <% shown_speakers << speaker %>
+
+                <div class="avatar bg-white">
+                  <div class="w-12">
+                    <img src="<%= speaker.github_avatar_url %>">
+                  </div>
+                </div>
+              <% end %>
+            <% end %>
+
+            <% more_speakers_count = all_speakers.count - shown_speakers.count %>
+
+            <% if more_speakers_count.positive? %>
+              <div class="avatar placeholder">
+                <div class="bg-neutral text-neutral-content w-12">
+                  <span>+<%= more_speakers_count %></span>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
       </div>
+
     </div>
   </a>
 </div>

@@ -1,10 +1,20 @@
 <main class="container">
   <% playlists = Static::Playlist.where.not(featured_background: nil) %>
-  <% events = Event.where(slug: playlists.map(&:slug)) %>
+  <% events = Event.where(slug: playlists.map(&:slug)).order(date: :desc).limit(10) %>
 
-  <% events.each do |event| %>
-    <%= render partial: "events/featured", locals: { event: event } %>
-  <% end %>
+  <section class="splide" aria-label="Featured Events" data-controller="splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <% events.each_with_index do |event, index| %>
+          <li class="splide__slide">
+            <div class="<%= "hidden" unless index == 0 %>">
+              <%= render partial: "events/featured", locals: {event: event} %>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </section>
 
   <div class="w-full flex flex-col items-center pt-20 pb-12 text-center">
     <h1 class="text-5xl font-bold tracking-tight text-slate-700">On a mission to index all Ruby conferences</h1>
