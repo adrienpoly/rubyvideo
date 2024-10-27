@@ -30,17 +30,23 @@
     </div>
 
     <div class="w-full">
-      <div id="talks" class="min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 h-full sm:p-4">
-        <%= render partial: "talks/card",
-              collection: @talks,
-              as: :talk,
-              locals: {
-                favoritable: true,
-                user_favorite_talks_ids: @user_favorite_talks_ids,
-                back_to: request.fullpath,
-                back_to_title: @speaker.name
-              } %>
-      </div>
+      <% if @grouped_talks.any? %>
+        <div role="tablist" class="tabs tabs-bordered">
+          <input type="radio" name="talk_type" role="tab" class="tab" aria-label="Grouped" checked="checked" style="width: 150px">
+          <div role="tabpanel" class="tab-content border-none rounded-box mt-6">
+            <% @grouped_talks.each do |title, talks| %>
+              <%= render partial: "talks", locals: {title: title, talks: talks, speaker: @speaker, user_favorite_talks_ids: @user_favorite_talks_ids} %>
+            <% end %>
+          </div>
+
+          <input type="radio" name="talk_type" role="tab" class="tab" aria-label="Ungrouped" style="width: 150px">
+          <div role="tabpanel" class="tab-content border-none rounded-box mt-6">
+            <%= render partial: "talks", locals: {talks: @talks, speaker: @speaker, user_favorite_talks_ids: @user_favorite_talks_ids} %>
+          </div>
+        </div>
+      <% else %>
+        <%= render partial: "talks", locals: {talks: @talks, speaker: @speaker, user_favorite_talks_ids: @user_favorite_talks_ids} %>
+      <% end %>
     </div>
   </div>
 
