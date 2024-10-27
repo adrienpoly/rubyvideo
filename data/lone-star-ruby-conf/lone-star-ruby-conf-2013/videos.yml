@@ -1,5 +1,4 @@
 ---
-
 # Website: https://web.archive.org/web/20130829023207/http://www.lonestarruby.org/
 
 # Schedule: https://web.archive.org/web/20130821204939/http://www.lonestarruby.org/2013/lsrc#schedule
@@ -7,12 +6,12 @@
 # TODO: talks running order
 # TODO: talk date
 
-- title: 'Closing Keynote: You Gotta Try This'
+- title: "Closing Keynote: You Gotta Try This"
   raw_title: LoneStarRuby 2013 - Closing Keynote by Avdi Grimm
   speakers:
     - Avdi Grimm
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Help us caption & translate this video!
 
@@ -25,7 +24,7 @@
   speakers:
     - Dr. Nic Williams
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Help us caption & translate this video!
 
@@ -33,7 +32,7 @@
   video_provider: youtube
   video_id: OZCIqFCVsdw
 
-- title: 'Panel: Cloud'
+- title: "Panel: Cloud"
   raw_title: LoneStarRuby Conf 2013 - Cloud Panel
   speakers:
     - Greg Knox
@@ -43,7 +42,7 @@
     - Jim Meyer
     # - TODO: MC
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Help us caption & translate this video!
 
@@ -51,12 +50,12 @@
   video_provider: youtube
   video_id: BL_yHui-80M
 
-- title: 'Big Data and the Coming Golden Age of Humanity'
+- title: "Big Data and the Coming Golden Age of Humanity"
   raw_title: LoneStarRuby 2013 - Big Data and the Coming Golden Age of Humanity
   speakers:
     - Byron Reese
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     By Byron Reese
 
@@ -68,12 +67,12 @@
   video_provider: youtube
   video_id: WxUGrRQtG7Q
 
-- title: 'Elixir: Power of Erlang, Joy of Ruby'
-  raw_title: 'LoneStarRuby Conf 2013 - Elixir: Power of Erlang, Joy of Ruby by Dave Thomas'
+- title: "Elixir: Power of Erlang, Joy of Ruby"
+  raw_title: "LoneStarRuby Conf 2013 - Elixir: Power of Erlang, Joy of Ruby by Dave Thomas"
   speakers:
     - Dave Thomas
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Dave Thomas
     Elixir: Power of Erlang, Joy of Ruby
@@ -103,7 +102,7 @@
   speakers:
     - Kyle Rames
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     In this talk, I am going to briefly talk about "what cloud is" and highlight the various types of cloud (IaaS, PaaS, SaaS). The bulk of the talk will be about using the fog gem using IaaS. I will discuss fog concepts (collections, models, requests, services, providers) and supporting these with actual examples using fog.
 
@@ -118,7 +117,7 @@
   speakers:
     - Adam Keys
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Ruby is a delightful language to work with. And yet, for years, we've been hearing about how MRI is too slow and inefficient for "serious" use. What does that mean? What would a "serious" Ruby runtime look like?
 
@@ -132,12 +131,12 @@
   video_provider: youtube
   video_id: aRM06L1L_74
 
-- title: 'Refactoring Legacy Apps with APIs and Messages'
+- title: "Refactoring Legacy Apps with APIs and Messages"
   raw_title: LoneStarRuby Conf 2013 - Refactoring Legacy Apps with APIs and Messages
   speakers:
     - Coraline Ada Ehmke
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     By Corey Ehmke
 
@@ -154,7 +153,7 @@
   speakers:
     - Bryan Helmkamp
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Time and time again, skilled developers with good intentions set out into the green field of their new Rails app. Alas, as days turn to weeks, weeks to months and months to years, they find themselves with an ever increasing maintenance burden. Adding new features in a well-designed way starts to feel like an exercise in futility, so they resort to liberal use of conditionals to avoid breaking existing code.
 
@@ -168,12 +167,12 @@
   video_provider: youtube
   video_id: YCugeqQuzh4
 
-- title: 'Ember on Rails: #REALTALK'
-  raw_title: 'LoneStarRuby Conf 2013 - Ember on Rails: #REALTALK by Brandon Hays'
+- title: "Ember on Rails: #REALTALK"
+  raw_title: "LoneStarRuby Conf 2013 - Ember on Rails: #REALTALK by Brandon Hays"
   speakers:
     - Brandon Hays
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     If you work in Rails and have ever wondered about Ember.js, you should know that Ember and Rails go together like Nutella and pretzels. (Which is to say, quite well indeed.)
 
@@ -190,12 +189,13 @@
   video_id: PdqbG71Dr84
 
 - title: Placing Things into Other Things
-  raw_title: LoneStarRuby Conf 2013 - Placing Things into Other Things by Charles
+  raw_title:
+    LoneStarRuby Conf 2013 - Placing Things into Other Things by Charles
     Lowell
   speakers:
     - Charles Lowell
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     The world of Ruby is a big and beautiful one. Like Cane from Kung-Fu, you could spend a lifetime wandering it's surface and never lack for an abundance of wonder. But there is an even larger world outside its walls that is also filled with amazing things. Based on lessons learned writing C extensions, Java extensions as well embedding interpreters (v8) and applications (Jenkins) inside Ruby, This talk will take you through the best ways to dress up any citizen of the galaxy in order to make it indistiguishable from one of our beloved planet Ruby.
 
@@ -205,12 +205,12 @@
   video_provider: youtube
   video_id: LPCuUjs909Y
 
-- title: 'Functional Reactive Programming with Frappuccino'
+- title: "Functional Reactive Programming with Frappuccino"
   raw_title: LoneStarRuby Conf 2013 - Functional Reactive Programming with Frappuccino
   speakers:
     - Steve Klabnik
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     By Steve Klabnik
 
@@ -225,7 +225,7 @@
   speakers:
     - Katrina Owens
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Help us caption & translate this video!
 
@@ -238,7 +238,7 @@
   speakers:
     - Reid Gillette
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Shifting from an amateur web developer hacking away at my own projects in my living room to a professional Software Engineer at a startup in San Francisco was a huge change in the way I developed. After joining Mavenlink a year ago I went from tiny apps that were 100% my code, with fast test suites, hosted on Heroku to a giant Rails app with a complicated data model, a CI test suite that took an hour, and a legacy codebase touched by 30+ people. I've worked hard the last year to step up to the challenge and I've learned so much in the process. As the developer pool gets more and more junior there will be more people making the same journey as I did.
 
@@ -266,7 +266,7 @@
   speakers:
     - Akira Matsuda
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Rails Engines are useful. We can make our code well structured and reusable using Engines.
 
@@ -289,7 +289,7 @@
   speakers:
     - Scott Bellware
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     TDD has been tattered, torn, twisted, stood on its head, and pounded into an pulp of techno-fetishism. TDD was a game-changer, but the focus in the interceding years has shifted from technique to tools, and TDD has been devolving into a lost art. By tearing TDD down to its bones, this presentation presents TDD in its essence, free of tools, and reinforcing the primary focus on design principles. It attempts to convince you to return to a simpler time when TDD was still about design, and software developers were dutifully steeped in the critical importance of design principles. To avoid being held to any particularly offensive positions, this talk liberally attacking the status quo of testing and contemporary tool-focused TDD in Ruby, while introducing yet-another testing library in Ruby. :)
 
@@ -304,7 +304,7 @@
   speakers:
     - Sarah Mei
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     I hate to break it to you, guys, but Ruby is old enough to drink. What started out as a small community full of fun, silliness, and connection has been growing. Our small codebases are now large. Our small companies are now large. And the large companies have finally figured out that they want in, too.
 
@@ -320,7 +320,7 @@
   video_provider: youtube
   video_id: P4RA7NYyG24
 
-- title: 'Panel: Ruby Rogues'
+- title: "Panel: Ruby Rogues"
   raw_title: LoneStarRuby Conf 2013 - Ruby Rogues Panel
   speakers:
     - Josh Susser
@@ -330,7 +330,7 @@
     - Katrina Owen
     - James Edward Gray II
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Help us caption & translate this video!
 
@@ -343,7 +343,7 @@
   speakers:
     - Evan Light
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Many of us came to Ruby by way of Rails (including yours truly about six years ago). We came because our current solutions were clumsy and inconvenient. We came because we appreciated the relative simplicity that Rails offered. And we came because we believe that change is often a good thing.
 
@@ -357,12 +357,12 @@
   video_provider: youtube
   video_id: 7F3M0qdmxwU
 
-- title: 'Why You Should Love The Command-Line And Get Rid of Your Rake Tasks Once and For All'
+- title: "Why You Should Love The Command-Line And Get Rid of Your Rake Tasks Once and For All"
   raw_title: LoneStarRuby Conf 2013 - Why You Should Love The Command Line -
   speakers:
     - Alan Skorkin
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     By Alan Skorkin - Why You Should Love The Command-Line And Get Rid of Your Rake Tasks Once and For All
 
@@ -392,7 +392,7 @@
   speakers:
     - Ethan Garofolo
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Neural networks (NNs) not only sound really cool, but they can also solve some pretty interesting problems ranging from driving cars to spam detection to facial recognition.
 
@@ -411,7 +411,7 @@
   speakers:
     - Matt Rogers
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     By Matt Rogers
 
@@ -428,7 +428,7 @@
   speakers:
     - Ben Hamill
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     The talk is a narrative retelling of how I took an application that needed to communicate with a slow external API and improved the user's experience in terms of speed. I'll talk about the situation that we started with, and then retell the story of measurement, and improvement and measurement and improvement.
 
@@ -447,7 +447,7 @@
   speakers:
     - Sam Livingston-Gray
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     Fluency is "what you can say without having to think about how to say it." "Refactoring" is a language that describes ways to make your code better. I want to inspire you to learn more of that language, so you can make your code better without having to think about it.
 
@@ -459,13 +459,14 @@
   video_provider: youtube
   video_id: xJZrMbS2dDk
 
-- title: 'Asynchronous Workers to the Resque'
+- title: "Asynchronous Workers to the Resque"
   raw_title: LoneStarRuby Conf 2013 - Asynchronous Workers to the Resque
   speakers:
     - Dave Kapp
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
-  description: "By Dave Kapp \n\nWhile Ruby is a terrific language, it doesn't offer
+  published_at: "2013-08-11"
+  description:
+    "By Dave Kapp \n\nWhile Ruby is a terrific language, it doesn't offer
     a lot of ways to deal with asynchronous tasks using the default libraries. Thankfully,
     the community has come up with several great options for bringing asynchronicity
     to your applications. Resque is one of the forerunners of this, and it offers
@@ -488,7 +489,7 @@
   speakers:
     - Ashe Dryden
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     It's been scientifically proven that more diverse communities and workplaces create better products and the solutions to difficult problems are more complete and diverse themselves. Companies are struggling to find adequate talent. So why do we see so few women, people of color, and LGBTQ people at our events and on the about pages of our websites? Even more curiously, why do 60% of women leave the tech industry within 10 years? Why are fewer women choosing to pursue computer science and related degrees than ever before? Why have stories of active discouragement, dismissal, harassment, or worse become regular news?
 
@@ -512,7 +513,7 @@
   speakers:
     - James Edward Gray II
   event_name: LoneStarRuby Conf 2013
-  published_at: '2013-08-11'
+  published_at: "2013-08-11"
   description: |-
     I will host a game of Jeopardy with questions and answers based on Ruby's syntax, features, standard libraries, etc. Anything that ships with Ruby 2.0 is fair game, new or old.
 

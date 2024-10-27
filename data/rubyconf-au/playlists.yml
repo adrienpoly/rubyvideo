@@ -1,12 +1,12 @@
 ---
-
 - id: PL9_jjLrTYxc27yAJT75euaS_Xg-vVmuMF
   title: RubyConf AU 2013
-  description: It’s time to bring the leading developers from around the region and
+  description:
+    It’s time to bring the leading developers from around the region and
     beyond together for the first ever Ruby conference to be held in Australia!
-  published_at: '2017-05-22'
+  published_at: "2017-05-22"
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
-  year: '2013'
+  year: "2013"
   videos_count: 26
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-au-2013
@@ -14,19 +14,19 @@
 - id: PL9_jjLrTYxc1jTSURVicc5xrt6am7UxR1
   title: RubyConf AU 2014
   description: RubyConf Australia 2014
-  published_at: '2017-05-22'
+  published_at: "2017-05-22"
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
-  year: '2014'
+  year: "2014"
   videos_count: 26
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-au-2014
 
 - id: PL9_jjLrTYxc2uUcqG2wjZ1ppt-TkFG-gm
   title: RubyConf AU 2015
-  description: ''
-  published_at: '2017-05-20'
+  description: ""
+  published_at: "2017-05-20"
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
-  year: '2015'
+  year: "2015"
   videos_count: 21
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-au-2015
@@ -37,9 +37,9 @@
     Leading Rubyists from around the world came together on the Gold Coast to share, inspire and learn.
 
     February 10th-13th 2016, Sea World Resort, Gold Coast
-  published_at: '2017-01-31'
+  published_at: "2017-01-31"
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
-  year: '2016'
+  year: "2016"
   videos_count: 22
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-au-2016
@@ -47,39 +47,39 @@
 - id: PL9_jjLrTYxc3hxsmj3AnPFf3RD4f3zfUl
   title: RubyConf AU 2017
   description: February 9-10, Melbourne, Australia
-  published_at: '2017-02-22'
+  published_at: "2017-02-22"
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
-  year: '2017'
+  year: "2017"
   videos_count: 25
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-au-2017
 
 - id: PL9_jjLrTYxc2Xi0rotTPuPRQAoJnDU-my
   title: RubyConf AU 2018
-  description: ''
-  published_at: '2018-07-10'
+  description: ""
+  published_at: "2018-07-10"
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
-  year: '2018'
+  year: "2018"
   videos_count: 16
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-au-2018
 
 - id: PL9_jjLrTYxc3dTbvb8fIuzDFGTCaEdO3a
   title: RubyConf AU 2019
-  description: 'Our yearly gathering where we share knowledge about the Ruby programming language, and celebrate the Australian and broader Ruby community. 7th-9th February 2019, The Forum, Melbourne'
-  published_at: '2019-02-06'
+  description: "Our yearly gathering where we share knowledge about the Ruby programming language, and celebrate the Australian and broader Ruby community. 7th-9th February 2019, The Forum, Melbourne"
+  published_at: "2019-02-06"
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
-  year: '2019'
+  year: "2019"
   videos_count: 21
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-au-2019
 
 - id: PL9_jjLrTYxc1G0L8h-rMtO3fBSi4PJK26
   title: RubyConf AU 2020
-  description: 'A conference to share Ruby knowledge amongst like-minded Rubyists, 20th-21st February 2020, Melbourne Town Hall, 90-130 Swanston St'
-  published_at: '2020-02-19'
+  description: "A conference to share Ruby knowledge amongst like-minded Rubyists, 20th-21st February 2020, Melbourne Town Hall, 90-130 Swanston St"
+  published_at: "2020-02-19"
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
-  year: '2020'
+  year: "2020"
   videos_count: 19
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-au-2020
@@ -94,10 +94,10 @@
 
 - id: PL9_jjLrTYxc26AtvP5jUHGHqWe5EoVLYf
   title: RubyConf AU 2024
-  description: '11th-12th April 2024, Swissôtel Sydney'
-  published_at: '2024-04-19'
+  description: "11th-12th April 2024, Swissôtel Sydney"
+  published_at: "2024-04-19"
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
-  year: '2024'
+  year: "2024"
   videos_count: 19
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-au-2024

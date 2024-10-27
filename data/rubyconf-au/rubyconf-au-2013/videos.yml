@@ -1,17 +1,16 @@
 ---
-
 # Website: https://rubyconf.org.au/2013
 
 # TODO: schedule website
 # TODO: talks running order
 # TODO: talks date
 
-- title: 'RubyConf AU 2014: How Github (No Longer) Works'
-  raw_title: 'RubyConf AU 2014: How Github (No Longer) Works by Zach Holman'
+- title: "RubyConf AU 2014: How Github (No Longer) Works"
+  raw_title: "RubyConf AU 2014: How Github (No Longer) Works by Zach Holman"
   speakers:
     - Zach Holman
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -22,7 +21,7 @@
   video_id: Jy__R9RFe7c
 
 - title: Lightning Talks
-  raw_title: 'RubyConf AU 2013: Lightning Talks'
+  raw_title: "RubyConf AU 2013: Lightning Talks"
   speakers:
     - Darcy Laycock # Dr Smalltak - or: How I Learned to Stop Worrying and Love Objective-C (https://speakerdeck.com/sutto/dr-smalltalk) (01:03)
     - John Rowe # Black/White (03:47)
@@ -32,16 +31,16 @@
     - Jason Weathered # freshshell.com - Keep your dot files fresh (23:48)
     - Odin Dutton # freshshell.com - Keep your dot files fresh (23:48)
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
-  description: 'RubyConf AU 2013: http://www.rubyconf.org.au'
+  published_at: "2013-02-20"
+  description: "RubyConf AU 2013: http://www.rubyconf.org.au"
   video_id: PVUErJVkM2k
 
 - title: The C Word
-  raw_title: 'RubyConf AU 2013: The C Word by Pat Allan'
+  raw_title: "RubyConf AU 2013: The C Word by Pat Allan"
   speakers:
     - Pat Allan
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -50,11 +49,11 @@
   video_id: qX0e4kf_G7s
 
 - title: From Stubbies to Longnecks
-  raw_title: 'RubyConf AU 2013: From Stubbies to Longnecks by Geoffrey Giesemann'
+  raw_title: "RubyConf AU 2013: From Stubbies to Longnecks by Geoffrey Giesemann"
   speakers:
     - Geoffrey Giesemann
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     From Stubbies to Longnecks - Finding and curing scaling bottlenecks
 
@@ -70,12 +69,12 @@
   video_id: fQRd-0ukAEM
 
 - title: Keith and Mario’s Guide to Fast Websites
-  raw_title: 'RubyConf AU 2013: Keith and Mario’s Guide to Fast Websites by Keith Pitt & Mario Visic'
+  raw_title: "RubyConf AU 2013: Keith and Mario’s Guide to Fast Websites by Keith Pitt & Mario Visic"
   speakers:
     - Keith Pitt
     - Mario Visic
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -95,11 +94,11 @@
   video_id: d3e5zaiBR-c
 
 - title: Immutable Ruby
-  raw_title: 'RubyConf AU 2013: Immutable Ruby by Michael Fairley'
+  raw_title: "RubyConf AU 2013: Immutable Ruby by Michael Fairley"
   speakers:
     - Michael Fairley
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -107,12 +106,12 @@
     This talk answers the question "why immutability?", covers the building blocks of immutable code, such as value objects and persistent data structures, as well as higher order concepts that make heavy use of immutability, such as event sourcing and pure functions, and finally discusses the tradeoffs involved in going immutable.
   video_id: a1XZ1fhPiV0
 
-- title: 'Opening Keynote: Stading on the shoulders of giants'
-  raw_title: 'RubyConf AU 2013: Opening Keynote by Corey Haines'
+- title: "Opening Keynote: Stading on the shoulders of giants"
+  raw_title: "RubyConf AU 2013: Opening Keynote by Corey Haines"
   speakers:
     - Corey Haines
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -120,11 +119,11 @@
   video_id: UJ_6NZ6UX18
 
 - title: Hacking With Gems
-  raw_title: 'RubyConf AU 2013: Hacking With Gems by Benjamin Smith'
+  raw_title: "RubyConf AU 2013: Hacking With Gems by Benjamin Smith"
   speakers:
     - Benjamin Smith
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -138,24 +137,24 @@
     My talk will increase awareness that these sort of gems can exist in the wild, show how easy it is for anyone to build malicious gems, and give easy techniques for identifying these gems.
   video_id: DKKyGAeNEPw
 
-- title: 'The Setup: Managing an Army of Laptops with Puppet'
-  raw_title: 'RubyConf AU 2013: The Setup: Managing an Army of Laptops with Puppet by Will Farrington'
+- title: "The Setup: Managing an Army of Laptops with Puppet"
+  raw_title: "RubyConf AU 2013: The Setup: Managing an Army of Laptops with Puppet by Will Farrington"
   speakers:
     - Will Farrington
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
     As a rapidly growing company, GitHub's faced some challenges in how to make sure that everyone can get up and running on projects or continue to work on one of the dozens of existing projects if they've never set it up before. What a nightmare! That's what prompted @jbarnette and @wfarr to develop The Setup. The Setup aims to solve all the problems that used to plague on-boarding GitHubbers onto projects with a lot of automation and a case of the "It Just Works". This presentation talks about the history of The Setup, how it works, and some of the lessons learned along the way.
   video_id: 3d0Uez2N4Hc
 
-- title: 'Down the rb_newobj() Rabbit Hole: Garbage Collection in Ruby'
-  raw_title: 'RubyConf AU 2013: Down the rb_newobj() Rabbit Hole: Garbage Collection in Ruby by Chris Kelly'
+- title: "Down the rb_newobj() Rabbit Hole: Garbage Collection in Ruby"
+  raw_title: "RubyConf AU 2013: Down the rb_newobj() Rabbit Hole: Garbage Collection in Ruby by Chris Kelly"
   speakers:
     - Chris Kelly
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -163,12 +162,12 @@
     New Relic recently made the big move to Ruby 1.9.3 which showed meaningful improvements over 1.8, particularly in garbage collection. So this talk is taking a look at what changed in Ruby's garbage collection that caused much of the improvements. We will start with the fundamentals of garbage collection but work down to the nitty gritty C code to get to the details of what's going on, starting with rb_newobj(). You should walk away with an understanding of how garbage collection works in MRI and a nice appreciation for the overall lifecycle of Ruby objects.
   video_id: o9El1zJ0Gmk
 
-- title: 'Uptime == Money: High Availability at Braintree'
-  raw_title: 'RubyConf AU 2013: Uptime == Money: High Availability at Braintree by Paul Gross'
+- title: "Uptime == Money: High Availability at Braintree"
+  raw_title: "RubyConf AU 2013: Uptime == Money: High Availability at Braintree by Paul Gross"
   speakers:
     - Paul Gross
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -185,24 +184,24 @@
     - How the app is structured to retry requests
   video_id: mBmAlqaapcc
 
-- title: 'Millions of Apps: What we’ve Learned'
-  raw_title: 'RubyConf AU 2013: Millions of Apps: What we’ve Learned by Richard Schneeman'
+- title: "Millions of Apps: What we’ve Learned"
+  raw_title: "RubyConf AU 2013: Millions of Apps: What we’ve Learned by Richard Schneeman"
   speakers:
     - Richard Schneeman
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
     Heroku has deployed millions of web apps. When you've run that many applications, it's hard not to notice when frameworks and developers do things wrong, and when they do them right. We've taken a look at the most common patterns and boiled down the best of our advice in to 12 simple factors that can help you build your next app to be stable, successful, and scaleable. After this talk you'll walk away with in depth knowledge of web framework design patterns and practical examples of how to improve your application code.
   video_id: fFOl-oiugZk
 
-- title: 'Closing Keynote'
-  raw_title: 'RubyConf AU 2013: Closing Keynote by Dave Thomas'
+- title: "Closing Keynote"
+  raw_title: "RubyConf AU 2013: Closing Keynote by Dave Thomas"
   speakers:
     - Dave Thomas
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -210,35 +209,35 @@
   video_id: ca_UEQlf6LM
 
 - title: Off the Tracks - Challenging the Rails Mindset
-  raw_title: 'RubyConf AU 2013: Off the Tracks - Challenging the Rails Mindset by Nick Sutterer'
+  raw_title: "RubyConf AU 2013: Off the Tracks - Challenging the Rails Mindset by Nick Sutterer"
   speakers:
     - Nick Sutterer
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
     Rails - a word that stirs programmer's blood. It brought us testing, easy web app building, database abstraction and hundreds of extension gems. Why not take it to another level and discover how Rails turns into a real OOP framework? By exploring chosen gems let's discuss what MVC really is and how it boosts your AJAX user interface, how to apply patterns like DCI, dependency injection and POROs to your database layer and how to expose your Rails system through a real RESTful API. Also, have you ever tried using Rails helpers outside of Rails, maybe in Sinatra? Let's do it and learn about some refreshing aspects of this framework.
   video_id: Xj24IuwjW-0
 
-- title: 'Keynote'
-  raw_title: 'RubyConf AU 2013: Keynote by Mikel Lindsaar'
+- title: "Keynote"
+  raw_title: "RubyConf AU 2013: Keynote by Mikel Lindsaar"
   speakers:
     - Mikel Lindsaar
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
     Mikel Lindsaar needs no introduction to the Australian Ruby community. He is the author of the Ruby E-Mail handling library, mail, and has worked extensively on the Rails ActionMailer component. Mikel is the only Australian member of the Ruby on Rails commit team.
   video_id: Wr_Aqwhvqc8
 
-- title: 'bundle install Y U SO SLOW: Server Edition'
-  raw_title: 'RubyConf AU 2013: bundle install Y U SO SLOW: Server Edition by Terrence Lee'
+- title: "bundle install Y U SO SLOW: Server Edition"
+  raw_title: "RubyConf AU 2013: bundle install Y U SO SLOW: Server Edition by Terrence Lee"
   speakers:
     - Terrence Lee
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -248,11 +247,11 @@
   video_id: AZYsvDTqmvA
 
 - title: Web scale for the rest of us
-  raw_title: 'RubyConf AU 2013: Web scale for the rest of us by John Barton'
+  raw_title: "RubyConf AU 2013: Web scale for the rest of us by John Barton"
   speakers:
     - John Barton
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -273,11 +272,11 @@
   video_id: 7y2JeLtRCRs
 
 - title: High Performance Ruby
-  raw_title: 'RubyConf AU 2013: High Performance Ruby by Charles Nutter'
+  raw_title: "RubyConf AU 2013: High Performance Ruby by Charles Nutter"
   speakers:
     - Charles Nutter
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -287,11 +286,11 @@
   video_id: 3Fm-n_Vr7e4
 
 - title: Sinatra in SIX lines - How to do crazy stuff with Ruby
-  raw_title: 'RubyConf AU 2013: Sinatra in SIX lines - How to do crazy stuff with Ruby by Konstantin Haase'
+  raw_title: "RubyConf AU 2013: Sinatra in SIX lines - How to do crazy stuff with Ruby by Konstantin Haase"
   speakers:
     - Konstantin Haase
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -301,11 +300,11 @@
   video_id: 2CUijbZH2bs
 
 - title: Using Ruby for iOS development (RubyMotion)
-  raw_title: 'RubyConf AU 2013: Using Ruby for iOS development (RubyMotion) by Amit Kumar'
+  raw_title: "RubyConf AU 2013: Using Ruby for iOS development (RubyMotion) by Amit Kumar"
   speakers:
     - Amit Kumar
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -327,11 +326,11 @@
   video_id: "-xgh0p4DpDw"
 
 - title: Lessons from the Masters
-  raw_title: 'RubyConf AU 2013: Lessons from the Masters by Geoffrey Grosenbach'
+  raw_title: "RubyConf AU 2013: Lessons from the Masters by Geoffrey Grosenbach"
   speakers:
     - Geoffrey Grosenbach
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -339,11 +338,11 @@
   video_id: vzjARuXpFZY
 
 - title: Schemas for the Real World
-  raw_title: 'RubyConf AU 2013: Schemas for the Real World by Carina C. Zona'
+  raw_title: "RubyConf AU 2013: Schemas for the Real World by Carina C. Zona"
   speakers:
     - Carina C. Zona
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -361,11 +360,11 @@
   video_id: NxAyZ8Z3vsI
 
 - title: Dear God What Am I Doing? Concurrency and Parallel Processing
-  raw_title: 'RubyConf AU 2013: Dear God What Am I Doing? Concurrency and Parallel Processing by Adam Hawkins'
+  raw_title: "RubyConf AU 2013: Dear God What Am I Doing? Concurrency and Parallel Processing by Adam Hawkins"
   speakers:
     - Adam Hawkins
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -382,11 +381,11 @@
   video_id: C4dB2rrZdFM
 
 - title: Refactoring from Good to Great - A Live-Coding Odyssey
-  raw_title: 'RubyConf AU 2013: Refactoring from Good to Great - A Live-Coding Odyssey by Ben Orenstein'
+  raw_title: "RubyConf AU 2013: Refactoring from Good to Great - A Live-Coding Odyssey by Ben Orenstein"
   speakers:
     - Ben Orenstein
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -405,11 +404,11 @@
   video_id: AfK_Iyr07Ho
 
 - title: State of the Ruby
-  raw_title: 'RubyConf AU 2013: State of the Ruby by Ben Hoskings'
+  raw_title: "RubyConf AU 2013: State of the Ruby by Ben Hoskings"
   speakers:
     - Ben Hoskings
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
@@ -418,15 +417,14 @@
   video_id: a3aOltpjAGw
 
 - title: Teaching Ruby for fun and profit
-  raw_title: 'RubyConf AU 2013: Teaching Ruby for fun and profit by Renée De Voursney'
+  raw_title: "RubyConf AU 2013: Teaching Ruby for fun and profit by Renée De Voursney"
   speakers:
     - Renée De Voursney
   event_name: RubyConf AU 2013
-  published_at: '2013-02-20'
+  published_at: "2013-02-20"
   description: |-
     RubyConf AU 2013: http://www.rubyconf.org.au
 
     How many companies are hiring Ruby developers right now? How many are finding qualified candidates? Why aren't workers swarming into our industry to fill up all these empty developer positions? Is learning Ruby really that hard? Why is learning Ruby so hard? Isn't it a language built by people for people? Shouldn't that be easy for anyone to pickup and use? Why isn't everyone building Ruby apps? I'm going to tell you. The good, the bad, and the goofy of trying to teach Ruby, Rails, and everything else we take for granted as RoR developers. There may even be a guest appearance from a real life Ruby Newbie to demonstrate!
   video_id: wD-8mIpyBb8
-
 # TODO: missing talk: Toby Hede - Realtime Rails and Ruby

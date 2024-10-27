@@ -1,5 +1,4 @@
 ---
-
 # Website: https://rubyconf.org.au/2020
 # Schedule: https://rubyconf.org.au/2020/schedule
 
@@ -7,18 +6,17 @@
 
 # Welcome Cocktail Party
 
-
 ## Day 1 - Thursday, 2020-02-20
 
 # Registration and Coffee
 
-- title: 'Welcome and Opening Remarks'
+- title: "Welcome and Opening Remarks"
   raw_title: '"Welcome (Thursday)" - Caitlin Palmer-Bright, Melissa Kaulfuss (RubyConf AU 2020)'
   speakers:
     - Caitlin Palmer-Bright
     - Melissa Kaulfuss
   event_name: RubyConf AU 2020
-  published_at: '2020-02-20'
+  published_at: "2020-02-20"
   description: |-
     Caitlin Palmer-Bright, Melissa Kaulfuss
 
@@ -29,13 +27,14 @@
     Thu Feb 20 09:00:00 2020 at Plenary Room
   video_id: 1zqoH6LxnIE
 
-- title: 'The Cost of Data'
+- title: "The Cost of Data"
   raw_title: '"The Cost of Data" - Vaidehi Joshi (RubyConf AU 2020)'
   speakers:
     - Vaidehi Joshi
   event_name: RubyConf AU 2020
-  published_at: '2020-02-20'
-  description: "Vaidehi Joshi\n\nThe internet grows every day. Every second, one of
+  published_at: "2020-02-20"
+  description:
+    "Vaidehi Joshi\n\nThe internet grows every day. Every second, one of
     us is making calls to an API, uploading images, and streaming the latest content.
     But what is the cost of this—is it free? This talk explores the reality of data,
     and what responsibilities we have as creators and consumers of tech.\r\n\r\nVaidehi
@@ -48,13 +47,14 @@
     #rubyconf #rubyconfau #programming\n\nThu Feb 20 09:30:00 2020 at Plenary Room"
   video_id: iEUPwHyIOBQ
 
-- title: 'Working Remotely And How To Scale A Remote First Environment'
+- title: "Working Remotely And How To Scale A Remote First Environment"
   raw_title: '"Working remotely and how to scale a remote first environment" - Liam McNally (RubyConf AU 2020)'
   speakers:
     - Liam McNally
   event_name: RubyConf AU 2020
-  published_at: '2020-02-20'
-  description: "Liam McNally\n\nEver thought about being a remote worker, or what
+  published_at: "2020-02-20"
+  description:
+    "Liam McNally\n\nEver thought about being a remote worker, or what
     it is really like to work remote, the no nonsense version. This talk will explore
     why being a remote worker is amazing, why sometimes it isn’t and why for some
     people it’s not for them.\r\n\r\nHow do you identify who will be strong remote
@@ -70,13 +70,14 @@
 
 # Morning Tea
 
-- title: 'A Message to the Stars'
+- title: "A Message to the Stars"
   raw_title: '"A Message to the Stars" - Rob Howard (RubyConf AU 2020)'
   speakers:
     - Rob Howard
   event_name: RubyConf AU 2020
-  published_at: '2020-02-20'
-  description: "Rob Howard\n\nNASA sent out two probes, each with a gold-plated audio
+  published_at: "2020-02-20"
+  description:
+    "Rob Howard\n\nNASA sent out two probes, each with a gold-plated audio
     disc (the ‘Golden Record’) attached to them. The audio disc has, among more usual
     things like music and greetings, a bunch of images that have been turned into
     sound. The disc has a cover with a bunch of pictorial instructions explaining
@@ -96,8 +97,9 @@
   speakers:
     - Nancy Cai
   event_name: RubyConf AU 2020
-  published_at: '2020-02-20'
-  description: "Nancy Cai\n\nNowadays more and more companies started to realise the
+  published_at: "2020-02-20"
+  description:
+    "Nancy Cai\n\nNowadays more and more companies started to realise the
     importance of performance testing as new features and products, marketing campaigns,
     and annual events such as the festival could all cause spikes in traffic to any
     site. To find your application’s bottleneck, come and enjoy a talk of how to build
@@ -119,13 +121,14 @@
 
 # Lunch
 
-- title: 'Escaping The Tar Pit'
+- title: "Escaping The Tar Pit"
   raw_title: '"Escaping The Tar Pit" - Ernesto Tagwerker (RubyConf AU 2020)'
   speakers:
     - Ernesto Tagwerker
   event_name: RubyConf AU 2020
-  published_at: '2020-02-20'
-  description: "Ernesto Tagwerker\n\nThis talk will look at different definitions
+  published_at: "2020-02-20"
+  description:
+    "Ernesto Tagwerker\n\nThis talk will look at different definitions
     of code quality and then focus on one which will be composed of three sections:Code
     Coverage: How well covered is my application? Complexity: How complex are the
     methods in my application? Code Smells: Are there any known code smells in my
@@ -152,8 +155,9 @@
   speakers:
     - Jameson Hampton
   event_name: RubyConf AU 2020
-  published_at: '2020-02-20'
-  description: "Jameson Hampton\n\nOne of the reasons that tech is a cool industry
+  published_at: "2020-02-20"
+  description:
+    "Jameson Hampton\n\nOne of the reasons that tech is a cool industry
     to work in is because “working in tech” doesn’t confine you to working in the
     tech industry. Everyone needs applications! Even within tech, different people
     have different accessibility needs. But when you’re working in other industries,
@@ -171,13 +175,14 @@
     2020 at Plenary Room"
   video_id: w-zYKo8f7nM
 
-- title: 'Tales From The Ruby Grimoire'
+- title: "Tales From The Ruby Grimoire"
   raw_title: '"Tales from the Ruby Grimoire" - Brandon Weaver (RubyConf AU 2020)'
   speakers:
     - Brandon Weaver
   event_name: RubyConf AU 2020
-  published_at: '2020-02-20'
-  description: "Brandon Weaver\n\nThere are arts best left unspoken, black magicks
+  published_at: "2020-02-20"
+  description:
+    "Brandon Weaver\n\nThere are arts best left unspoken, black magicks
     left forgotten and locked away in the deepest vaults of the Ruby language, lest
     they be seen by mortal eyes not ready for the horrors inside.\r\nThat is, until
     a particularly curious Lemur named Red happened to open it. Journey with Red into
@@ -193,14 +198,15 @@
 
 # Afternoon Tea
 
-- title: '10x Your Teamwork Through Pair Programming'
+- title: "10x Your Teamwork Through Pair Programming"
   raw_title: '"10X your teamwork through pair programming" - Selena Small, Michael Milewski (RubyConf AU 2020)'
   speakers:
     - Selena Small
     - Michael Milewski
   event_name: RubyConf AU 2020
-  published_at: '2020-02-20'
-  description: "Selena Small, Michael Milewski\n\nThese two presenters will take you
+  published_at: "2020-02-20"
+  description:
+    "Selena Small, Michael Milewski\n\nThese two presenters will take you
     on a roller coaster journey of how to get started and get the most out of pair-programming.
     Live on stage they will switch from conversational overview straight into acting
     out various highs, lows, do’s and don’ts of pair-programming collaboration. Laughs
@@ -216,13 +222,14 @@
     2020 at Plenary Room"
   video_id: wujR20wFhNM
 
-- title: 'Developing your Dreamcast Games with mruby'
+- title: "Developing your Dreamcast Games with mruby"
   raw_title: '"Developing your Dreamcast games with mruby" - Yuji Yokoo (RubyConf AU 2020)'
   speakers:
     - Yuji Yokoo
   event_name: RubyConf AU 2020
-  published_at: '2020-02-20'
-  description: "Yuji Yokoo\n\nWhat is mruby, and why use it? This session will cover
+  published_at: "2020-02-20"
+  description:
+    "Yuji Yokoo\n\nWhat is mruby, and why use it? This session will cover
     questions such as; What is Dreamcast, and why use it? Getting started on Dreamcast
     programming, Getting mruby to build for Dreamcast, Getting the built binary over
     to the console unit, plus a quick overview of the game code Short Demo. Yuji believes
@@ -241,7 +248,6 @@
 
 # Close
 
-
 ## Day 2 - Friday, 2020-02-21
 
 # Registration and Coffee
@@ -251,8 +257,9 @@
   speakers:
     - Adel Smee
   event_name: RubyConf AU 2020
-  published_at: '2020-02-21'
-  description: "Adel Smee\n\nResilient, effective teams are diverse teams, teams that
+  published_at: "2020-02-21"
+  description:
+    "Adel Smee\n\nResilient, effective teams are diverse teams, teams that
     feel safe throwing around ideas, teams that look out for each other, teams where
     the needs of the individuals in the team are (mostly) met, teams that can learn
     and grow with your company. Nurturing environments in which such teams can form
@@ -283,8 +290,9 @@
   speakers:
     - Matthew Borden
   event_name: RubyConf AU 2020
-  published_at: '2020-02-21'
-  description: "Matthew Borden\n\nThis is the story of migrating large parts of an
+  published_at: "2020-02-21"
+  description:
+    "Matthew Borden\n\nThis is the story of migrating large parts of an
     application’s data layer from MongoDB to MySQL with zero downtime using Ruby.\r\n\r\nWe’ll
     cover designing schemas to represent untyped data, dual writing to both databases,
     migrating old data and staging the cutover to the new database. \r\n\r\nMatthew
@@ -299,13 +307,14 @@
 
 # Morning Tea
 
-- title: 'Just my type: things I learned from writing my own programming language'
-  raw_title: 'Just my type: things I learned from writing my own programming language'
+- title: "Just my type: things I learned from writing my own programming language"
+  raw_title: "Just my type: things I learned from writing my own programming language"
   speakers:
     - Lena Plaksina
   event_name: RubyConf AU 2020
-  published_at: '2020-02-21'
-  description: "Lena Plaksina\n\nIf programming languages are about technology, why
+  published_at: "2020-02-21"
+  description:
+    "Lena Plaksina\n\nIf programming languages are about technology, why
     did Matz optimise Ruby for “developer happiness”?  Computers pay little regard
     to how an instruction is expressed — whatever we write in Ruby can just as well
     be expressed in Java, C#, or Smalltalk. So, why do people gravitate to one language
@@ -324,13 +333,14 @@
     2020 at Plenary Room"
   video_id: 3wSLmQWlixc
 
-- title: 'Escape Your Framework'
+- title: "Escape Your Framework"
   raw_title: '"Escape Your Framework" - Julian Doherty (RubyConf AU 2020)'
   speakers:
     - Julian Doherty
   event_name: RubyConf AU 2020
-  published_at: '2020-02-21'
-  description: "Julian Doherty\n\nRails and other frameworks let you quickly throw
+  published_at: "2020-02-21"
+  description:
+    "Julian Doherty\n\nRails and other frameworks let you quickly throw
     together ideas to get up and running quickly. But as your app grows, this can
     limit what you can do. How can we set ourselves up to get the benefits that come
     from using a framework, while staying flexible and not beholden to it?\r\n\r\nJulian
@@ -346,13 +356,14 @@
 
 # Lunch
 
-- title: 'How To Write Tech Documentation That Will Save Your Career'
+- title: "How To Write Tech Documentation That Will Save Your Career"
   raw_title: '"How To Write Tech Documentation That Will Save Your Career" - Carmen Chung (RubyConf AU 2020)'
   speakers:
     - Carmen Chung
   event_name: RubyConf AU 2020
-  published_at: '2020-02-21'
-  description: "Carmen Chung\n\nEver heard of “cscareerthrowaway567”, the software
+  published_at: "2020-02-21"
+  description:
+    "Carmen Chung\n\nEver heard of “cscareerthrowaway567”, the software
     engineer who lost his job on the first day of work? This happened because of terrible
     internal documentation - something that is surprisingly common in the tech industry.Follow
     along with Carmen on the journey of three employees of Big Tech Co (a company
@@ -376,8 +387,9 @@
     - Paul Joe George
     - Do Xuan Thanh
   event_name: RubyConf AU 2020
-  published_at: '2020-02-21'
-  description: "Paul Joe George, Do Xuan Thanh\n\nAs of 2019 smart assistants support
+  published_at: "2020-02-21"
+  description:
+    "Paul Joe George, Do Xuan Thanh\n\nAs of 2019 smart assistants support
     more than 30 languages and is still learning many more. In the future, it is expected
     to have a good role in humans life.The usage of smart assistants is rapidly increasing
     day by day. It can reduce unnecessary effort and time consumption. Nowadays it
@@ -401,13 +413,14 @@
     2020 at Plenary Room"
   video_id: 0V-MJgklza4
 
-- title: 'Start your own engineering apprenticeship program'
+- title: "Start your own engineering apprenticeship program"
   raw_title: '"Start your own engineering apprenticeship program" - Elle Meredith (RubyConf AU 2020)'
   speakers:
     - Elle Meredith
   event_name: RubyConf AU 2020
-  published_at: '2020-02-21'
-  description: "Elle Meredith\n\nWith a surge of over 1.3 million technology sector
+  published_at: "2020-02-21"
+  description:
+    "Elle Meredith\n\nWith a surge of over 1.3 million technology sector
     jobs by 2020, companies will continue to struggle filling these roles because
     of a widening skills gap. Technology companies survive by their ability to hire
     and retain fantastic employees. With software engineers that means delivering
@@ -429,13 +442,14 @@
 
 # Afternoon Tea
 
-- title: '300x Faster Ruby'
+- title: "300x Faster Ruby"
   raw_title: '"300x faster ruby" - Dana Sherson (RubyConf AU 2020)'
   speakers:
     - Dana Sherson
   event_name: RubyConf AU 2020
-  published_at: '2020-02-21'
-  description: "Dana Sherson\n\nRuby sometimes has a reputation for being slow, but
+  published_at: "2020-02-21"
+  description:
+    "Dana Sherson\n\nRuby sometimes has a reputation for being slow, but
     it doesn't have to be. There are likely ways to optimise fragments of your application
     and not even have to rewrite it in rust. Improve your intuition about bottlenecks
     and optimisations and how to use and read the output of tools like ruby-prof,
@@ -452,13 +466,14 @@
     2020 at Plenary Room"
   video_id: hnGVFzZ0DuI
 
-- title: 'My Experience With Experience'
+- title: "My Experience With Experience"
   raw_title: '"My Experience With Experience" - Xavier Shay (RubyConf AU 2020)'
   speakers:
     - Xavier Shay
   event_name: RubyConf AU 2020
-  published_at: '2020-02-21'
-  description: "Xavier Shay\n\nBecoming a senior contributor to your organization
+  published_at: "2020-02-21"
+  description:
+    "Xavier Shay\n\nBecoming a senior contributor to your organization
     takes years. It's a process that is stubbornly hard to accelerate - it takes much
     more than drilling code katas!\r\n\r\nIn this talk Xavier reflect on situations
     he's encountered over the last decade, and apply some academic models he's found
@@ -471,11 +486,9 @@
     #rubyconf #rubyconfau #rubyconf_au #rails #programming\n\nFri Feb 21 16:35:00
     2020 at Plenary Room"
   video_id: 0na_1A_-Ebo
-
 # Closing Remarks
 
 # Closing Games Night
-
 
 ## Day 3 - Saturday, 2020-02-22
 

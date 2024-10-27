@@ -1,17 +1,16 @@
 ---
-
 # TODO: talks running order
 # TODO: talk dates
 # TODO: schedule website
 
 # Website: https://web.archive.org/web/20130531054439/http://ruby.onales.com/
 
-- title: 'Maintaining a large OSS project: war stories'
-  raw_title: 'Ruby on Ales 2013 Maintaining a large OSS project: war stories by Ryan Bigg'
+- title: "Maintaining a large OSS project: war stories"
+  raw_title: "Ruby on Ales 2013 Maintaining a large OSS project: war stories by Ryan Bigg"
   speakers:
     - Ryan Bigg
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     At the end of 2011, I switched from being a Ruby consultant to being one of the lead maintainers of the biggest OSS Ruby projects. Best part is: I get paid to do it.
 
@@ -30,7 +29,7 @@
   speakers:
     - Jonan Scheffler
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     We are fortunate as software developers to spend our lives learning. Our careers require us to keep pace with an industry that innovates like few others and we adapt ourselves to constant change. Given the amount of time we dedicate to learning it is surprising that we don't make a greater effort to improve our cognitive ability itself. Cognitive function can be improved with some simple techniques that apply broadly in our profession, and it only makes sense that we should expend at least as much effort improving our ability to learn as we do actually learning.
 
@@ -47,11 +46,11 @@
   video_id: bS-f35m5_7Y
 
 - title: "Services and Rails: The Shit They Don't Tell You"
-  raw_title: 'Ruby on Ales Services and Rails: The Shit They Don''t Tell You by Brian Morton'
+  raw_title: "Ruby on Ales Services and Rails: The Shit They Don't Tell You by Brian Morton"
   speakers:
     - Brian Morton
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     Building services and integrating them into Rails is hard. Often times we talk about how nice it would be if our Rails apps were smaller and we had nicely encapsulated services. And it would be, but services introduce complexity. If you build your application this way from the beginning, you're going to do extra work and probably get some of it wrong. If you wait too long, you've got a mess on your hands.
 
@@ -72,7 +71,7 @@
   speakers:
     - Andrew Nordman
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     Craft beer is great. Ruby is great. When you can combine the two, you get a product that can only be described as Liquid Awesome. In this session, we will go over the brewing process and show how Ruby can help make better beer using automation, temperature control, and recipe analysis. We will look at a Ruby application created with recipe design and testing in mind, as well as a Ruby-based brewery control system run on a Raspberry Pi.
 
@@ -87,7 +86,7 @@
   speakers:
     - Davy Stevenson
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     As technology continues to grow at an increasing rate, why is our educational system stuck in a pre-technology age? Why is programming rarely taught even at a High School level? Why do stereotypes of the isolated, nerdy programmer continue to linger, driving away smart, creative people from computer science degrees?
 
@@ -108,7 +107,7 @@
   speakers:
     - Kerri Miller
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     Adrift at sea, a GPS device will report your precise latitude and longitude, but if you don't know what those numbers mean, you're just as lost as before. Similarly, there are many tools that offer a wide variety of metrics about your code, but other than making you feel good, what are you supposed to do with this knowledge? Let's answer that question by exploring what the numbers mean, how static code analysis can add value to your development process, and how it can help us chart the unexplored seas of legacy code.
 
@@ -123,7 +122,7 @@
   speakers:
     - Nic Benders
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     Help us caption & translate this video!
 
@@ -131,7 +130,7 @@
   video_provider: youtube
   video_id: OcrpAT5LhFg
 
-- title: 'Dedication to David Ryder'
+- title: "Dedication to David Ryder"
   raw_title: Ruby on Ales 2013 - Dedication to David Ryder
   speakers:
     - David Ryder
@@ -139,7 +138,7 @@
     - Chris Stringer
     - Chris Craybill
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     Help us caption & translate this video!
 
@@ -161,7 +160,7 @@
     # - TODO: https://cln.sh/281yQGqM
     - Sethupathi Asokan
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     Help us caption & translate this video!
 
@@ -169,12 +168,12 @@
   video_provider: youtube
   video_id: JIPyTpOztx4
 
-- title: 'Everything I Needed To Know About Open Source, I Learned From Punk Rock'
+- title: "Everything I Needed To Know About Open Source, I Learned From Punk Rock"
   raw_title: Ruby on Ales 2013 Everything I needed to know about open source, I learned from punk rock
   speakers:
     - Shane Becker
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     By Shane Becker
 
@@ -203,7 +202,7 @@
   speakers:
     - Evan Light
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     Many of us came to Ruby by way of Rails (including yours truly about six years ago). We came because our current solutions were clumsy and inconvenient. We came because we appreciated the relative simplicity that Rails offered. And we came because we believe that change is often a good thing. But not all changes are beneficial. Over several blog posts, books, and a couple of years, the Rails community has begun to choose complexity over simplicity.
 
@@ -215,12 +214,12 @@
   video_provider: youtube
   video_id: HUgtPaiOL_8
 
-- title: '`bundle install` Y U SO SLOW: Server Edition'
-  raw_title: 'Ruby on Ales 2013 `bundle install` Y U SO SLOW: Server Edition by Terence Lee'
+- title: "`bundle install` Y U SO SLOW: Server Edition"
+  raw_title: "Ruby on Ales 2013 `bundle install` Y U SO SLOW: Server Edition by Terence Lee"
   speakers:
     - Terence Lee
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     If you've ever done anything in ruby, you've probably used rubygems and to search or install your favorite gem. On October 17, 2012, rubygems.org went down. A Dependency API was built to be used by Bundler 1.1+ to speed up bundle install. Unfortunately, it was a bit too popular and the service caused too much load on the current infrasture. In order to get rubygems.org back up the API had to be disabled. You can watch the post-mortem for details. http://youtu.be/z73uiWKdJhw
 
@@ -230,13 +229,13 @@
   video_provider: youtube
   video_id: bSUfsvvsk3E
 
-- title: 'The History of Women in Programming'
+- title: "The History of Women in Programming"
   raw_title: Ruby on Ales 2013 The History of Women in Programming
   speakers:
     - Jessica Suttles
     - Elise Worthy
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     By Jessica Suttles and Elise Worthy
 
@@ -253,7 +252,7 @@
   speakers:
     - Andy Delcambre
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     We as rubyists tend to write software that runs on the web, without a deep understanding of what it would take to write the plumbing for that same software. I think it's useful to have a basic understanding of how some of the lower level components of a system work. I'll discuss the basics of systems programming, using Ruby. I'll talk about syscalls and kernel space vs user space. I'll cover a bit about file descriptors and what they're for. And hopefully I'll walk through a small example of a working webserver using those primitive syscalls.
 
@@ -268,7 +267,7 @@
   speakers:
     - Sarah Mei
   event_name: Ruby on Ales 2013
-  published_at: '2013-03-07'
+  published_at: "2013-03-07"
   description: |-
     I hate to break it to you, guys, but Ruby is almost old enough to drink. What started out as a small community full of fun, silliness, and connection has been growing. Our small codebases are now large. Our small *companies* are now large. And the large companies have finally figured out that they want in, too.
 

@@ -1,11 +1,10 @@
 ---
-
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
 
-- title: 'Panel: FP vs OOP'
+- title: "Panel: FP vs OOP"
   raw_title: Day 1 - FP vs OOP (fight)
   speakers:
     - Andrzej Krzywda
@@ -15,19 +14,19 @@
     - Przemysław Kowalczyk
     - Jan Filipowski
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: q0BQMbwzPJw
   language:
   description: Andrzej Krzywda, Piotr Zolnierek, Norbert Wójtowicz, Tymon Tobolski, Przemysław Kowalczyk and Jan Filipowski
 
-- title: 'Fishbowl: Programmer Productivity'
+- title: "Fishbowl: Programmer Productivity"
   raw_title: Day 1 - Programmer Productivity fishbowl
   speakers:
     - Michał Taszycki
     - Robert Pankowecki
     - Alex Koppel
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: 2pmQk27i1PM
   language:
   description: Michał Taszycki, Robert Pankowecki and Alex Koppel
@@ -46,17 +45,17 @@
     - Arve Brasseur
     - Piotr Włodarek
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: VO4tM5RcUlc
   language:
-  description: ''
+  description: ""
 
 - title: A la carte, please!
   raw_title: Florian Gilcher - A la carte, please!
   speakers:
     - Florian Gilcher
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: tgHMLkMCvzs
   language:
   description: |-
@@ -69,7 +68,7 @@
   speakers:
     - David Dahl
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: 7GMXFMIx48M
   language:
   description: |-
@@ -77,12 +76,12 @@
 
     When most people hear big data real time analytics, they think huge enterprise systems and tools like Java, Oracle and so on. Thats not the case at Burt. We're building a real time ad analytics engine in Ruby, and we're handling tens of thousands of requests per second so far. Thanks to JRuby we can have the best of two worlds, the ease of developing with Ruby, and the robustness of the Java echosystem. In this talk you'll discover how we built a massive crunching pipeline using only virtual servers on AWS and free tools like JRuby, MongoDB, RabbitMQ, Redis, Cassandra and Nginx.
 
-- title: 'Keynote: How to lie, cheat and steal'
+- title: "Keynote: How to lie, cheat and steal"
   raw_title: Florian Plank - How to lie, cheat and steal
   speakers:
     - Florian Plank
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: fW-i7bbfdlQ
   language:
   description: |-
@@ -94,7 +93,7 @@
 
     Experimentation is the foundation for this talk, so put on your lab coats. You might not want to put every bit of code you'll see into your production apps, but you may just get some new (and wild) ideas. Make the browser work for your (Rails) app!
 
-- title: 'Panel: Single Page Applications Frameworks'
+- title: "Panel: Single Page Applications Frameworks"
   raw_title: Single Page Applications Frameworks (fight)
   speakers:
     - Piotr Sarnacki
@@ -102,7 +101,7 @@
     - Patrick Mulder
     - Adam Pohorecki
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: h8XeZFW1Ad0
   language:
   description: Piotr Sarnacki, Andrzej Krzywda, Patrick Mulder, Adam Pohorecki
@@ -112,7 +111,7 @@
   speakers:
     - Adam Hawkins
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: 8pFJaEMMX6g
   language:
   description: |-
@@ -137,15 +136,16 @@
     developers who have ruby experience but never written any multi threaded
     code.
 
-- title: 'DCI != #extend && DCI != use case in code'
-  raw_title: 'Rune Funch Søltoft - DCI != #extend && DCI != use case in code'
+- title: "DCI != #extend && DCI != use case in code"
+  raw_title: "Rune Funch Søltoft - DCI != #extend && DCI != use case in code"
   speakers:
     - Rune Funch Søltoft
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: ZUADinlqHwk
   language:
-  description: This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!
 
 - title: Topaz Ruby
@@ -153,10 +153,11 @@
   speakers:
     - Tim Felgentreff
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: WS76YAUs1hg
   language:
-  description: This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!
 
 - title: The Not-So-Big Software Design
@@ -164,10 +165,10 @@
   speakers:
     - Reginald Braithwaite
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: arsK-CN5YDg
   language:
-  description: ''
+  description: ""
 
 - title: Lightning Talks
   raw_title: Day 3 - Lightning Talks
@@ -184,17 +185,17 @@
     - Tomasz Stachewicz
     - Michal Papis
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: 6CZjK97dMTE
   language:
-  description: ''
+  description: ""
 
 - title: Ports and Adapters architecture
   raw_title: Sławek Sobótka - Ports and Adapters architecture
   speakers:
     - Sławek Sobótka
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: _Js-GEqB-8I
   language:
   description: |-
@@ -206,12 +207,12 @@
     Everything is integrated within elegant "Hexagon" where there is "A place for everything and everything in its place".
     During the presentation, I'll encourage you to communicate and solve problems using visualizing techniques and your visual intelligence.
 
-- title: 'Services and Rails: The Shit They Don''t Tell You'
-  raw_title: 'Brian Morton - Services and Rails: The Shit They Don''t Tell You'
+- title: "Services and Rails: The Shit They Don't Tell You"
+  raw_title: "Brian Morton - Services and Rails: The Shit They Don't Tell You"
   speakers:
     - Brian Morton
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: A9rwSDMp-ls
   language:
   description: |-
@@ -228,7 +229,7 @@
   speakers:
     - Richard Schneeman
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: mEXRqti0Ikw
   language:
   description: |-
@@ -236,7 +237,7 @@
 
     zOMG Rails is insecure, PHP is insecure, Java is insecure - Everyone re-write everything in Haskell now! As much as coders love hating on languages and frameworks, the biggest security risk to you code is you. Come get a history of web security, and a live demo of security exploits. Then learn how to avoid them in your own code. You'll walk away with actionable steps to make your apps more safer, and a better understanding and appreciation of what being secure really means.
 
-- title: 'Panel: Security'
+- title: "Panel: Security"
   raw_title: Day 3 - Security Panel
   speakers:
     - Bryan Helmkamp
@@ -244,7 +245,7 @@
     - Richard Schneeman
     - Arne Brasseur
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: cqYKd6jPXKM
   language:
   description: Bryan Helmkamp, Piotr Niełacny, Richard Schneeman and Arne Brasseur
@@ -254,7 +255,7 @@
   speakers:
     - Piotr Niełacny
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: 0Q42jqP5qnE
   language:
   description: |-
@@ -267,7 +268,7 @@
   speakers:
     - Steve Klabnik
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: 6WQ_1vcgS9c
   language:
   description: |-
@@ -286,7 +287,7 @@
   speakers:
     - Bryan Helmkamp
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: IqajIYxbPOI
   language:
   description: |-
@@ -303,7 +304,7 @@
   speakers:
     - Jan Stępień
   event_name: wroc_love.rb 2013
-  published_at: '2013-04-10'
+  published_at: "2013-04-10"
   video_id: P6_illGY_00
   language:
   description: |-

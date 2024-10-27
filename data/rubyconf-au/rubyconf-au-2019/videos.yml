@@ -1,12 +1,10 @@
 ---
-
 # Website: https://rubyconf.org.au/2019
 # Schedule: https://rubyconf.org.au/2019/schedule
 
 ## Day 0 - Wednesday, 2019-02-06
 
 # Opening Party
-
 
 ## Day 1 - Thursday, 2019-02-07
 
@@ -19,8 +17,9 @@
   speakers:
     - Nadia Odunayo
   event_name: RubyConf AU 2019
-  published_at: '2019-02-07'
-  description: "Nadia Odunayo\n\nBusiness is slow for Ruby Private Investigator, Deirdre
+  published_at: "2019-02-07"
+  description:
+    "Nadia Odunayo\n\nBusiness is slow for Ruby Private Investigator, Deirdre
     Bug. She’s on the verge of switching industry when she gets a call from an anxious
     young man. \"Some class methods have gone missing,\" he tells her breathlessly.
     \"I need your help.\"\r\n\r\nDeirdre takes the case and begins exploring Ruby
@@ -41,7 +40,7 @@
   speakers:
     - Heidi Waterhouse
   event_name: RubyConf AU 2019
-  published_at: '2019-02-07'
+  published_at: "2019-02-07"
   description: |-
     Heidi Waterhouse
     (Fixed video)
@@ -58,8 +57,9 @@
   speakers:
     - Dávid Halász
   event_name: RubyConf AU 2019
-  published_at: '2019-02-07'
-  description: "Dávid Halász\n\nDoes your network only let through HTTP connections?
+  published_at: "2019-02-07"
+  description:
+    "Dávid Halász\n\nDoes your network only let through HTTP connections?
     No problem! Let’s hijack some sockets from incoming HTTP connections and use it
     to smuggle any kind of traffic through an HTTP session! Concurrently! In Ruby!\r\n\r\nWarning:
     your infosec team already does not like me, but I have some cute stickers.\r\n\r\nDavid
@@ -73,8 +73,9 @@
   speakers:
     - Tom Stuart
   event_name: RubyConf AU 2019
-  published_at: '2019-02-07'
-  description: "Tom Stuart\n\nIn your grandparents’ attic you discover a mysterious
+  published_at: "2019-02-07"
+  description:
+    "Tom Stuart\n\nIn your grandparents’ attic you discover a mysterious
     old computer. You boot it up and discover it runs Ruby, but doesn’t support negative
     numbers! How can you implement negative numbers in an elegant way? We’ll explore
     two solutions and discover how important it is to pick the right representation.\r\n\r\n[Tom](https://twitter.com/tomstuart)
@@ -92,8 +93,9 @@
   speakers:
     - Daniel Fone
   event_name: RubyConf AU 2019
-  published_at: '2019-02-07'
-  description: "Daniel Fone\n\nSoftware development is the anticipation of a thousand
+  published_at: "2019-02-07"
+  description:
+    "Daniel Fone\n\nSoftware development is the anticipation of a thousand
     dangers: regressions, edge-cases, exceptions, attacks, downtime, the list is endless.
     Drawing from a wide range of disciplines, we’ll build a simple model for quantifying
     danger, explore why the human brain is so bad at it, and examine some practical
@@ -111,8 +113,9 @@
   speakers:
     - Laura Mosher
   event_name: RubyConf AU 2019
-  published_at: '2019-02-07'
-  description: "Laura Mosher\n\nCommunication is one of the most difficult skills
+  published_at: "2019-02-07"
+  description:
+    "Laura Mosher\n\nCommunication is one of the most difficult skills
     to master in software development. There are many shortfalls in communication
     — both written and spoken — that have an impact on how you are perceived. Harry
     the Hedgehog will uncover some of those shortfalls and how he overcame them.\r\n\r\nLaura
@@ -129,8 +132,9 @@
   speakers:
     - Kelly Sutton
   event_name: RubyConf AU 2019
-  published_at: '2019-02-07'
-  description: "Kelly Sutton\n\nIn the recent years, microservices have been an investment
+  published_at: "2019-02-07"
+  description:
+    "Kelly Sutton\n\nIn the recent years, microservices have been an investment
     among many engineering teams as they scale. They are often the default of many
     new companies.\r\n\r\nBut how has that gone wrong? This talk will dive into how
     one company of ~100 engineers refined their thinking and their Rails app for the
@@ -145,8 +149,9 @@
   speakers:
     - Betsy Haibel
   event_name: RubyConf AU 2019
-  published_at: '2019-02-07'
-  description: "Betsy Haibel\n\nPair programming can be hazardous if you’re from an
+  published_at: "2019-02-07"
+  description:
+    "Betsy Haibel\n\nPair programming can be hazardous if you’re from an
     underrepresented group. Bad pairs will keyboard-hog, ignore your ideas, and talk
     down to you. In this talk, you’ll learn how to rescue pairing sessions from bad
     power dynamics – whether you’re a well-intentioned jerk or their long-suffering
@@ -163,8 +168,9 @@
   speakers:
     - Tekin Süleyman
   event_name: RubyConf AU 2019
-  published_at: '2019-02-07'
-  description: "Tekin Süleyman\n\nIn one timeline a quick path to clarity. In the
+  published_at: "2019-02-07"
+  description:
+    "Tekin Süleyman\n\nIn one timeline a quick path to clarity. In the
     other a painful journey trying to uncover the obscure intent of a line of code.
     The only difference between these two realities? The revision history…\r\n\r\nThis
     is a story about revision histories and their impact on software maintainability.
@@ -180,8 +186,9 @@
   speakers:
     - Merrin Macleod
   event_name: RubyConf AU 2019
-  published_at: '2019-02-07'
-  description: "Merrin Macleod\n\nHow can we minimise our software’s contribution
+  published_at: "2019-02-07"
+  description:
+    "Merrin Macleod\n\nHow can we minimise our software’s contribution
     to climate change? How do we make software that can withstand climate change-related
     disasters? How do we deal with the knowledge that we’re careening towards catastrophe?\r\n\r\n
     I don’t have all the answers, but let’s do some maths about it.\r\n\r\nMerrin
@@ -190,7 +197,6 @@
   video_id: N4hiqGwTRBU
 
 # Closing Remarks
-
 
 ## Day 2 - Friday - 2019-02-08
 
@@ -204,8 +210,9 @@
     - Eliza Sorensen
     - Jack Chen
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "Eliza Sorensen, Jack Chen\n\n[Eliza](https://twitter.com/Zemmiph0bia)
+  published_at: "2019-02-08"
+  description:
+    "Eliza Sorensen, Jack Chen\n\n[Eliza](https://twitter.com/Zemmiph0bia)
     is an Infrastructure & Security engineer, cyber witch and co-founder of social
     enterprise [Assembly Four](https://assemblyfour.com/) who created sex worker friendly
     social network Switter and inclusive modern advertising platform Tryst.\r\n\r\nMostly
@@ -222,8 +229,9 @@
   speakers:
     - Keith Pitty
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "Keith Pitty\n\nThis is a sentiment many Rails developers have experienced
+  published_at: "2019-02-08"
+  description:
+    "Keith Pitty\n\nThis is a sentiment many Rails developers have experienced
     whilst reading a legacy codebase, trying to glean the motivations behind the code
     or simply understand what it is meant to do. This talk turns that perspective
     on its head and asks, “what can I do to prevent this scenario?\"\r\n\r\nKeith
@@ -243,8 +251,9 @@
   speakers:
     - Tim Riley
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "Tim Riley\n\n/Veni, vidi, view-ci/ – I came, I saw, I left the views
+  published_at: "2019-02-08"
+  description:
+    "Tim Riley\n\n/Veni, vidi, view-ci/ – I came, I saw, I left the views
     in a mess.\r\n\r\nWith server-rendered HTML still delivering most of the web,
     our views deserve more than a grab bag of helpers.\r\n\r\nCome along and learn
     the tools and techniques to conquer the design challenges that a complex view
@@ -254,13 +263,14 @@
     #rubyconfau #programming"
   video_id: VGWt1OLFzdU
 
-- title: 'Learn to make the point: data visualisation strategy'
-  raw_title: 'Learn to make the point: data visualisation strategy'
+- title: "Learn to make the point: data visualisation strategy"
+  raw_title: "Learn to make the point: data visualisation strategy"
   speakers:
     - Mila Dymnikova
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "Mila Dymnikova\n\nLet me guess, your code is awesome but no one else
+  published_at: "2019-02-08"
+  description:
+    "Mila Dymnikova\n\nLet me guess, your code is awesome but no one else
     gets it? You need a data visualisation! Complex concepts can easily be explained
     through visual information. There are four types to choose from storytelling,
     status, analytical and exploratory. I’ll help you find the perfect one.\r\n\r\nMila
@@ -275,8 +285,9 @@
   speakers:
     - John Sawers
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "John Sawers\n\nBeing a good developer isn’t just about slinging code;
+  published_at: "2019-02-08"
+  description:
+    "John Sawers\n\nBeing a good developer isn’t just about slinging code;
     we’re part of a community. Interacting with others in a community means feelings
     are involved.\r\n\r\nIn this talk you’ll learn how emotions are affecting you
     by modeling them as an API and looking at the code.\r\n\r\nJohn the co-founder
@@ -295,8 +306,9 @@
   speakers:
     - Elle Meredith
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "Elle Meredith\n\nIn this talk we will discuss algorithmic thinking
+  published_at: "2019-02-08"
+  description:
+    "Elle Meredith\n\nIn this talk we will discuss algorithmic thinking
     in everyday life in language we can all understand. We will explore widely applicable
     algorithms, and how they reveal themselves in our everyday lives, so that we better
     understand what when and how we can use them in our programs.\r\n\r\nElle is a
@@ -315,8 +327,9 @@
   speakers:
     - Tom Ridge
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "Tom Ridge\n\nREST-ful, more like stress-ful am I right? What if I
+  published_at: "2019-02-08"
+  description:
+    "Tom Ridge\n\nREST-ful, more like stress-ful am I right? What if I
     told you you could build amazing APIs your cat would be proud of with GraphQL
     instead.\r\n\r\nLet’s take a look at how to go about implementing a GraphQL API
     that’s evolvable and empowers your team.\r\n\r\nTom Ridge is a developer currently
@@ -333,8 +346,9 @@
   speakers:
     - Tom Gamon
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "Tom Gamon\n\nIf you are like me and you don’t know your MRI from your
+  published_at: "2019-02-08"
+  description:
+    "Tom Gamon\n\nIf you are like me and you don’t know your MRI from your
     RBX, you think a Truffle Ruby sounds delicious and panic when someone mentions
     JRuby, then this talk is for you. We will delve into JRuby and figure out what
     it is, why it is and how it is different from 'normal' ruby and other alternative
@@ -348,8 +362,9 @@
   speakers:
     - Kelsey Pedersen
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "Kelsey Pedersen\n\nWho loves getting paged at 3am? No one.\r\n\r\nIn
+  published_at: "2019-02-08"
+  description:
+    "Kelsey Pedersen\n\nWho loves getting paged at 3am? No one.\r\n\r\nIn
     responding to incidents – either at 3am or the middle of the day – we want to
     feel prepared and practiced in resolving production issues. In this talk, you’ll
     learn how to practice incident response by simulating outages in your application.\r\n\r\nKelsey
@@ -368,8 +383,9 @@
   speakers:
     - Adam Cuppy
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "Adam Cuppy\n\nThere’s a thread amongst all skilled practitioners:
+  published_at: "2019-02-08"
+  description:
+    "Adam Cuppy\n\nThere’s a thread amongst all skilled practitioners:
     specific habits, routines, and processes that wrap uncertainty and create confidence.
     Oscar-winning actors rehearse, pro-drivers do laps, chefs prep. This talk will
     help you recognize and design habits and routines that embed confidence in the
@@ -384,8 +400,9 @@
   speakers:
     - Beth Haubert
   event_name: RubyConf AU 2019
-  published_at: '2019-02-08'
-  description: "Beth Haubert\n\nHow are you supposed to sing along with your favorite
+  published_at: "2019-02-08"
+  description:
+    "Beth Haubert\n\nHow are you supposed to sing along with your favorite
     TV theme song every week if it doesn't have lyrics? At my house, we \"meow\" along
     (loudly). We also code, so I built 'Meowifier' to convert any song into a cat's
     meows. Join me in this exploration of melody analysis APIs and gratuitous cat
@@ -400,9 +417,7 @@
     the airborne linguist part. Also, she likes to make emojis look like they're farting.
     \U0001F408\U0001F4A8\"\n\n#ruby #rubyconf #rubyconfau #programming"
   video_id: JTNPLwqJIDg
-
 # Closing Remarks
-
 
 ## Day 3 - Saturday, 2019-02-09
 
