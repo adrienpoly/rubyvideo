@@ -146,19 +146,19 @@ class Event < ApplicationRecord
   end
 
   def banner_image_path
-    event_image_or_default_for("banner.png")
+    event_image_or_default_for("banner.webp")
   end
 
   def card_image_path
-    event_image_or_default_for("card.png")
+    event_image_or_default_for("card.webp")
   end
 
   def avatar_image_path
-    event_image_or_default_for("avatar.png")
+    event_image_or_default_for("avatar.webp")
   end
 
   def featured_image_path
-    event_image_or_default_for("featured.png")
+    event_image_or_default_for("featured.webp")
   end
 
   def banner_background
