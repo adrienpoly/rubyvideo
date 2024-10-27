@@ -11,8 +11,8 @@
         </div>
       <% end %>
 
-      <% cache [@talk, @related_talks, Current.user&.admin?] do %>
-        <%= render partial: "talks/talk", locals: {talk: @talk, admin: Current.user&.admin?} %>
+      <% cache [@talk, @related_talks] do %>
+        <%= render partial: "talks/talk", locals: {talk: @talk} %>
       <% end %>
     </div>
 
