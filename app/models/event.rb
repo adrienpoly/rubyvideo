@@ -71,7 +71,7 @@ class Event < ApplicationRecord
 
   def formatted_dates
     return "#{start_date.strftime("%B %d, %Y")}" if start_date == end_date
-    return "#{start_date.strftime("%B %d")}-#{end_date.day}, #{year}" if start_date.strftime("%Y-%m") == end_date.strftime("%Y-%m")
+    return "#{start_date.strftime("%B %d")}-#{end_date.strftime("%d")}, #{year}" if start_date.strftime("%Y-%m") == end_date.strftime("%Y-%m")
 
     return "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
   rescue => _e

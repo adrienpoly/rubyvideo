@@ -1,4 +1,4 @@
-<div class="w-full h-92 p-12 border rounded-[50px] mt-12 hover:opacity-95 transform ease-in-out duration-100" style="background-color: <%= event.featured_background %>; color: <%= event.featured_color %>">
+<div class="w-full h-92 p-12 border rounded-[50px] mt-12" style="background-color: <%= event.featured_background %>; color: <%= event.featured_color %>">
   <a href="<%= event_path(event) %>">
     <div class="grid grid-cols-[1fr_2fr]">
       <div>
@@ -6,12 +6,13 @@
           <%= image_tag event.featured_image_path %>
         </div>
 
-        <div class="h-36 max-h-36 overflow-hidden">
+        <div class="h-48 max-h-48 overflow-hidden">
           <h1 class="text-inherit font-bold text-xl mt-9 line-clamp-2"><%= event.name %></h1>
+          <h2 class="text-inherit opacity-60 text-sm mt-3 line-clamp-1"><%= event.location %> • <%= event.formatted_dates %></h2>
           <h2 class="text-inherit font-medium text-sm mt-3 line-clamp-3"><%= event.description %></h2>
         </div>
 
-        <button class="btn rounded-full bg-white mt-9 hover:bg-white/80">Explore All Talks</button>
+        <button class="btn rounded-full bg-white mt-3 hover:bg-white/80">Explore All Talks</button>
       </div>
 
       <div class="flex flex-col justify-center items-center">
