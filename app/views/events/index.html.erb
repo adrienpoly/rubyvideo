@@ -1,5 +1,13 @@
 <div class="container py-8">
-  <h1 class="title">Events</h1>
+  <h1 class="title">
+    Events
+
+    <span class="text-base text-gray-500">
+      (<%= pluralize(@events.includes(:organisation).where(organisation: { kind: "conference" }).count, "conference") %>,
+      <%= pluralize(@events.includes(:organisation).where(organisation: { kind: "meetup" }).count, "meetup") %>)
+    </span>
+  </h1>
+
   <div class="flex flex-wrap w-full justify-between py-8 gap-1">
     <% ("a".."z").each do |letter| %>
       <%= link_to events_path(letter: letter), id: letter, class: class_names("flex items-center justify-center w-10 text-gray-500 rounded hover:bg-brand-lighter border", "bg-brand-lighter": letter == params[:letter]) do %>
