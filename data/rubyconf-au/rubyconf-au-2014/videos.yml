@@ -1,4 +1,5 @@
 ---
+
 # Website: https://rubyconf.org.au/2014
 
 # TODO: schedule website
@@ -6,11 +7,11 @@
 # TODO: talks date
 
 - title: Extreme Makeover - Rubygems Edition
-  raw_title: "RubyConf AU 2014: Extreme Makeover - Rubygems Edition by André Arko"
+  raw_title: 'RubyConf AU 2014: Extreme Makeover - Rubygems Edition by André Arko'
   speakers:
     - André Arko
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -20,11 +21,11 @@
   video_id: _2y7fP69qO8
 
 - title: Why I am excited about Ruby 2.1?
-  raw_title: "RubyConf AU 2014: Why I am excited about Ruby 2.1? by Sam Saffron"
+  raw_title: 'RubyConf AU 2014: Why I am excited about Ruby 2.1? by Sam Saffron'
   speakers:
     - Sam Saffron
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -35,20 +36,20 @@
   video_id: kici_QRQbOM
 
 - title: Rescuing Ruby
-  raw_title: "RubyConf AU 2014: Rescuing Ruby by Greg Brockman"
+  raw_title: 'RubyConf AU 2014: Rescuing Ruby by Greg Brockman'
   speakers:
     - Greg Brockman
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
-  description: "RubyConf AU 2014: http://www.rubyconf.org.au"
+  published_at: '2014-02-19'
+  description: 'RubyConf AU 2014: http://www.rubyconf.org.au'
   video_id: VeoYIE370XY
 
 - title: Building C Extensions in Ruby
-  raw_title: "RubyConf AU 2014: Building C Extensions in Ruby by André Medeiros"
+  raw_title: 'RubyConf AU 2014: Building C Extensions in Ruby by André Medeiros'
   speakers:
     - André Medeiros
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -57,11 +58,11 @@
   video_id: KZgovmyB8d8
 
 - title: MRI Magic Tricks
-  raw_title: "RubyConf AU 2014: MRI Magic Tricks by Charlie Somerville"
+  raw_title: 'RubyConf AU 2014: MRI Magic Tricks by Charlie Somerville'
   speakers:
     - Charlie Somerville
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -71,11 +72,11 @@
   video_id: 3ROuTjbdkPk
 
 - title: Using Ruby to Automate Your Life
-  raw_title: "RubyConf AU 2014: Using Ruby to Automate Your Life by Seth Vargo"
+  raw_title: 'RubyConf AU 2014: Using Ruby to Automate Your Life by Seth Vargo'
   speakers:
     - Seth Vargo
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -85,11 +86,11 @@
   video_id: R_qFzviMkGY
 
 - title: How I Architected My Big Rails App For Success
-  raw_title: "RubyConf AU 2014: How I Architected My Big Rails App For Success by Benjamin Smith"
+  raw_title: 'RubyConf AU 2014: How I Architected My Big Rails App For Success by Benjamin Smith'
   speakers:
     - Benjamin Smith
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -100,11 +101,11 @@
   video_id: 1gXmh528o84
 
 - title: Hacking Sidekiq for Fun and Profit
-  raw_title: "RubyConf AU 2014: Hacking Sidekiq for Fun and Profit by Darcy Laycock"
+  raw_title: 'RubyConf AU 2014: Hacking Sidekiq for Fun and Profit by Darcy Laycock'
   speakers:
     - Darcy Laycock
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -121,11 +122,11 @@
   video_id: MimELPl9J9c
 
 - title: Continuous Deployment with Rails
-  raw_title: "RubyConf AU 2014: Continuous Deployment with Rails by Sebastian von Conrad"
+  raw_title: 'RubyConf AU 2014: Continuous Deployment with Rails by Sebastian von Conrad'
   speakers:
     - Sebastian von Conrad
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -138,11 +139,11 @@
   video_id: lcyp3MKYRhY
 
 - title: Becoming a Software Engineer
-  raw_title: "RubyConf AU 2014: Becoming a Software Engineer by Kinsey Ann Durham"
+  raw_title: 'RubyConf AU 2014: Becoming a Software Engineer by Kinsey Ann Durham'
   speakers:
     - Kinsey Ann Durham
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     Becoming a Software Engineer: Insipring a New Generation of Developers
     RubyConf AU 2014: http://www.rubyconf.org.au
@@ -154,11 +155,11 @@
   video_id: mbBJWRZD5pQ
 
 - title: The Golden Age of the Internet
-  raw_title: "RubyConf AU 2014: The Golden Age of the Internet by Pat Allan"
+  raw_title: 'RubyConf AU 2014: The Golden Age of the Internet by Pat Allan'
   speakers:
     - Pat Allan
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -168,11 +169,11 @@
   video_id: UAVtX0yKFSo
 
 - title: A Big Look at MiniTest
-  raw_title: "RubyConf AU 2014: A Big Look at MiniTest by Mark Bates"
+  raw_title: 'RubyConf AU 2014: A Big Look at MiniTest by Mark Bates'
   speakers:
     - Mark Bates
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -182,13 +183,12 @@
   video_id: nbUYbzS7Vlg
 
 - title: Ansible - Your First Step Into Server Provisioning
-  raw_title:
-    "RubyConf AU 2014: Ansible - Your First Step Into Server Provisioning
-    by Ben Turner"
+  raw_title: 'RubyConf AU 2014: Ansible - Your First Step Into Server Provisioning
+    by Ben Turner'
   speakers:
     - Ben Turner
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -199,11 +199,11 @@
   video_id: KFn8isYw97g
 
 - title: Teach Your Way To Better Code
-  raw_title: "RubyConf AU 2014: Teach Your Way To Better Code by Felix Clack"
+  raw_title: 'RubyConf AU 2014: Teach Your Way To Better Code by Felix Clack'
   speakers:
     - Felix Clack
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -213,11 +213,11 @@
   video_id: oRGpWUPYiwk
 
 - title: Lightning Talks
-  raw_title: "RubyConf AU 2014: Lightning Talks"
+  raw_title: 'RubyConf AU 2014: Lightning Talks'
   speakers:
-    # - TODO
+    - TODO
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -225,11 +225,11 @@
   video_id: YGe3Vn7lHyo
 
 - title: The Parental Programmer
-  raw_title: "RubyConf AU 2014: The Parental Programmer by Amanda Wagener"
+  raw_title: 'RubyConf AU 2014: The Parental Programmer by Amanda Wagener'
   speakers:
     - Amanda Wagener
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -239,11 +239,11 @@
   video_id: yxWTCKsVymg
 
 - title: An Ode to 17 Databases in 39 minutes
-  raw_title: "RubyConf AU 2014: An Ode to 17 Databases in 39 minutes by Toby Hede"
+  raw_title: 'RubyConf AU 2014: An Ode to 17 Databases in 39 minutes by Toby Hede'
   speakers:
     - Toby Hede
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -262,12 +262,12 @@
     Toby put the slides from his talk here: slid.es/tobyhede/an-ode-to-17-database-in-39-minutes-rubyconf-2014/
   video_id: j1unEPBMjRM
 
-- title: "Rails Asset Pipeline: Defunct or Da Funk"
-  raw_title: "RubyConf AU 2014: Rails Asset Pipeline: Defunct or Da Funk by Samuel Cochran"
+- title: 'Rails Asset Pipeline: Defunct or Da Funk'
+  raw_title: 'RubyConf AU 2014: Rails Asset Pipeline: Defunct or Da Funk by Samuel Cochran'
   speakers:
     - Samuel Cochran
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -279,20 +279,20 @@
   video_id: J1WrRyrDk34
 
 - title: Outcome Oriented Security
-  raw_title: "RubyConf AU 2014: Outcome Oriented Security by Eleanor Saitta"
+  raw_title: 'RubyConf AU 2014: Outcome Oriented Security by Eleanor Saitta'
   speakers:
     - Eleanor Saitta
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
-  description: "RubyConf AU 2014: http://www.rubyconf.org.au"
+  published_at: '2014-02-19'
+  description: 'RubyConf AU 2014: http://www.rubyconf.org.au'
   video_id: f4sVHdb4ik4
 
 - title: Tales of Interest
-  raw_title: "RubyConf AU 2014: Tales of Interest by Jon Rowe"
+  raw_title: 'RubyConf AU 2014: Tales of Interest by Jon Rowe'
   speakers:
     - Jon Rowe
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -302,11 +302,11 @@
   video_id: EC1dY-nKTYY
 
 - title: Real Developers Ship (a.k.a Tenets for Software Delivery)
-  raw_title: "RubyConf AU 2014: Real Developers Ship (a.k.a Tenets for Software Delivery) by Sebastian von Conrad"
+  raw_title: 'RubyConf AU 2014: Real Developers Ship (a.k.a Tenets for Software Delivery) by Sebastian von Conrad'
   speakers:
     - Sebastian von Conrad
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -317,11 +317,11 @@
   video_id: z7TbxlCTv3Y
 
 - title: Modern Concurrency Practices in Ruby
-  raw_title: "RubyConf AU 2014: Modern Concurrency Practices in Ruby by Arnab Deka"
+  raw_title: 'RubyConf AU 2014: Modern Concurrency Practices in Ruby by Arnab Deka'
   speakers:
     - Arnab Deka
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -331,11 +331,11 @@
   video_id: Foq_F94E1Ho
 
 - title: State of JRuby 2014
-  raw_title: "RubyConf AU 2014: State of JRuby 2014 by Hiro Asari"
+  raw_title: 'RubyConf AU 2014: State of JRuby 2014 by Hiro Asari'
   speakers:
     - Hiro Asari
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -347,11 +347,11 @@
   video_id: QEuUQLl5I-Y
 
 - title: Standing on the Shoulders of Giants
-  raw_title: "RubyConf AU 2014: Standing on the Shoulders of Giants by Zachary Scott"
+  raw_title: 'RubyConf AU 2014: Standing on the Shoulders of Giants by Zachary Scott'
   speakers:
     - Zachary Scott
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -361,11 +361,11 @@
   video_id: gNUy2ZULQcQ
 
 - title: What it is you really do?
-  raw_title: "RubyConf AU 2014: What it is you really do? by Cameron Barrie"
+  raw_title: 'RubyConf AU 2014: What it is you really do? by Cameron Barrie'
   speakers:
     - Cameron Barrie
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
@@ -375,11 +375,11 @@
   video_id: Yh3pLUu-cx0
 
 - title: Learning from Smalltalk
-  raw_title: "RubyConf AU 2014: Learning from Smalltalk by Sasha Gerrand"
+  raw_title: 'RubyConf AU 2014: Learning from Smalltalk by Sasha Gerrand'
   speakers:
     - Sasha Gerrand
   event_name: RubyConf AU 2014
-  published_at: "2014-02-19"
+  published_at: '2014-02-19'
   description: |-
     RubyConf AU 2014: http://www.rubyconf.org.au
 
