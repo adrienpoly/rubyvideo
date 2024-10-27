@@ -70,7 +70,7 @@ class Event < ApplicationRecord
   end
 
   def title
-    %(#{organisation.kind.capitalize} Talks from #{name})
+    %(All #{name} #{organisation.kind} talks)
   end
 
   def description
@@ -90,7 +90,7 @@ class Event < ApplicationRecord
         title: title,
         type: :website,
         image: {
-          _: talks.first&.thumbnail_xl,
+          _: Router.image_path(card_image_path),
           alt: title
         },
         description: description,
@@ -102,7 +102,7 @@ class Event < ApplicationRecord
         title: title,
         description: description,
         image: {
-          src: talks.first&.thumbnail_xl
+          src: Router.image_path(card_image_path)
         }
       }
     }
