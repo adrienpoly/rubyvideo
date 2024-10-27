@@ -149,6 +149,10 @@ class Event < ApplicationRecord
     "#FF607F"
   end
 
+  def featurable?
+    static_metadata && (static_metadata.featured_background.present? || static_metadata.featured_color.present?)
+  end
+
   def featured_background
     return static_metadata.featured_background if static_metadata.featured_background.present?
 

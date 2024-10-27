@@ -47,6 +47,7 @@ Rails.application.routes.draw do
   end
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
   resources :events, param: :slug, only: [:index, :show, :update, :edit]
+  resources :organisations, param: :slug, only: [:index, :show]
   namespace :speakers do
     resources :enhance, only: [:update], param: :slug
   end
