@@ -69,6 +69,17 @@ class Event < ApplicationRecord
     talks.select { |talk| talk.title.start_with?("Keynote: ") || talk.title.include?("Opening Keynote") || talk.title.include?("Closing Keynote") }.flat_map(&:speakers)
   end
 
+  def formatted_dates
+    return "#{start_date.strftime("%B %d, %Y")}" if start_date == end_date
+    return "#{start_date.strftime("%B %d")}-#{end_date.day}, #{year}" if start_date.strftime("%Y-%m") == end_date.strftime("%Y-%m")
+
+    return "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
+  rescue => _e
+    # TODO: notify to error tracking
+
+    "Unknown"
+  end
+
   def title
     %(All #{name} #{organisation.kind} talks)
   end

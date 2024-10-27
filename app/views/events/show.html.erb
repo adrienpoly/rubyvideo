@@ -14,7 +14,7 @@
           loading: :lazy %>
     <div class="flex-col flex justify-center">
       <h1 class="mb-2 text-black font-bold" style="view-transition-name: title"><%= @event.name %></h1>
-      <h3 class="text-[#636B74]"><%= @event.location %> • <%= @event.start_date.to_fs(:short) %> - <%= @event.end_date.to_fs(:short) %>, <%= @event.static_metadata.year %></h3>
+      <h3 class="text-[#636B74]"><%= @event.location %> • <%= @event.formatted_dates %></h3>
     </div>
   </div>
 
