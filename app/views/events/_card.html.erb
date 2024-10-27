@@ -2,7 +2,7 @@
   <div class="card card-compact bg-white shadow-xl w-full">
     <%= image_tag image_path(event.card_image_path), class: "w-full object-cover rounded-t-xl" %>
     <div class="card-body flex flex-col items-center justify-center">
-        <div class="text-xl font-semibold text-center"><%= event.name %></div>
+        <div class="text-xl font-semibold text-center line-clamp-1"><%= event.name %></div>
         <div class="link"><%= event.talks_count %> talks</div>
     </div>
   </div>
