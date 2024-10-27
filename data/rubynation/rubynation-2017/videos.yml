@@ -1,15 +1,15 @@
 ---
-
 # TODO: talks running order
 # TODO: schedule website
 
 - title: "Let's Get Creative with Arguments"
-  raw_title: 'RubyNation 2017: Polly Schandorf - Let''s Get Creative with Arguments'
+  raw_title: "RubyNation 2017: Polly Schandorf - Let's Get Creative with Arguments"
   speakers:
     - Polly Schandorf
   event_name: RubyNation 2017
-  published_at: '2017-06-16'
-  description: "Let's Get Creative with Arguments by Polly Schandorf\n\nWould you
+  published_at: "2017-06-16"
+  description: |-
+    Let's Get Creative with Arguments by Polly Schandorf\n\nWould you
     like better error messages? Or methods that are clearer to the caller. How about
     more flexibility ? Most of us have a preference for parameters, but sometimes
     there are better options in certain circumstances. We’ll look at keyword arguments,
@@ -17,15 +17,14 @@
     teacher of elementary through high school students. After being introduced to
     coding using a Rasberry Pi in a teacher workshop - she was hooked, and never looked
     back. She is totally fascinated with fermented foods and makes her own Kombucha,
-    Kefir and Red Wine Vinegar."
+    Kefir and Red Wine Vinegar.
   video_id: bj6ocNQATdo
-
 - title: What if Shakespeare Wrote Ruby?
-  raw_title: 'RubyNation 2017: What if Shakespeare Wrote Ruby? by Adam Cuppy'
+  raw_title: "RubyNation 2017: What if Shakespeare Wrote Ruby? by Adam Cuppy"
   speakers:
     - Adam Cuppy
   event_name: RubyNation 2017
-  published_at: '2017-06-16'
+  published_at: "2017-06-16"
   description: |-
     What if Shakespeare Wrote Ruby?
 
@@ -35,13 +34,12 @@
 
     Adam Cuppy is: Master of Smile Generation. Ambassador of Company Culture. Tech Entreprenur. Speaker/Educator. One-time Professional Actor @osfashland. Husband. Chief Zealous Officer @CodingZeal.
   video_id: lBzC14efRcY
-
 - title: A Rubyist Takes a Look at Crystal
-  raw_title: 'RubyNation 2017: A Rubyist Takes a Look at Crystal by David Bock'
+  raw_title: "RubyNation 2017: A Rubyist Takes a Look at Crystal by David Bock"
   speakers:
     - David Bock
   event_name: RubyNation 2017
-  published_at: '2017-06-16'
+  published_at: "2017-06-16"
   description: |-
     A Rubyist Takes a Look at Crystal by David Bock
 
@@ -49,13 +47,12 @@
 
     David Bock turned to programming Ruby full time in 2006, after an upstanding career using Java in the Federal Contracting space, and he has never looked back. He is now corrupting the minds of our youth by posing at a "Teacher’s Assistant" for a java-based high school curriculum, only to expose teenagers to Ruby and tempt them with the Dark Side of the Force. Dave is also the director of the Loudoun Computer Science Initiative.
   video_id: VgNN8iokc54
-
 - title: Crescent Wrenches and Debuggers
-  raw_title: 'RubyNation 2017: Crescent Wrenches and Debuggers by Kerri Miller'
+  raw_title: "RubyNation 2017: Crescent Wrenches and Debuggers by Kerri Miller"
   speakers:
     - Kerri Miller
   event_name: RubyNation 2017
-  published_at: '2017-06-16'
+  published_at: "2017-06-16"
   description: |-
     Crescent Wrenches and Debuggers: Building Your Own Toolkit For Rational Inquiry by Kerri Miller
 
@@ -63,13 +60,12 @@
 
     This presentation will discuss the challenges and potential solutions for refreshing multiple application environments (Development/Staging/UAT/etc.) with data from a Production database, while keeping some amount of table data intact from the prior database after the Production restore.
   video_id: QqpIaKXDyBM
-
 - title: Solving GraphQL's Challenges
-  raw_title: 'RubyNation 2017: Solving GraphQL’s Challenges by Robert Mosolgo'
+  raw_title: "RubyNation 2017: Solving GraphQL’s Challenges by Robert Mosolgo"
   speakers:
     - Robert Mosolgo
   event_name: RubyNation 2017
-  published_at: '2017-06-16'
+  published_at: "2017-06-16"
   description: |-
     Solving GraphQL’s Challenges by Robert Mosolgo
 
@@ -79,11 +75,11 @@
   video_id: hCvczSqpdYs
 
 - title: SEO is Not a Four-Letter Word
-  raw_title: 'RubyNation 2017: SEO is Not a Four-Letter Word by Katherine McClintic'
+  raw_title: "RubyNation 2017: SEO is Not a Four-Letter Word by Katherine McClintic"
   speakers:
     - Katherine McClintic
   event_name: RubyNation 2017
-  published_at: '2017-06-16'
+  published_at: "2017-06-16"
   description: |-
     SEO is Not a Four-Letter Word
 
@@ -93,11 +89,11 @@
   video_id: 0eizbJQAzkA
 
 - title: Type. Context.
-  raw_title: 'RubyNation 2017: Type. Context. by Sam Phippen'
+  raw_title: "RubyNation 2017: Type. Context. by Sam Phippen"
   speakers:
     - Sam Phippen
   event_name: RubyNation 2017
-  published_at: '2017-06-16'
+  published_at: "2017-06-16"
   description: |-
     Type. Context. by Sam Phippen
 
@@ -107,33 +103,28 @@
 
     Sam Phippen is an Engineer at DigitalOcean, RSpec core team member, and all round Ruby aficionado. You may know him for being English, but he lives in New York City now. He’s sad that he can’t hug every cat.
   video_id: yY4TicWfczM
-
-- title: 'Keeping Data and Integrations in Sync'
-  raw_title: 'RubyNation 2017: Steve Hackley - Keeping Data and Integrations in Sync'
+- title: "Keeping Data and Integrations in Sync"
+  raw_title: "RubyNation 2017: Steve Hackley - Keeping Data and Integrations in Sync"
   speakers:
     - Steve Hackley
   event_name: RubyNation 2017
-  published_at: '2017'
-  description: "Keeping Data and Integrations in Sync by Steve Hackley\n\nThis presentation
-    will discuss the challenges and potential solutions for refreshing multiple application
+  published_at: "2017-06-16"
+  description: |-
+    Keeping Data and Integrations in Sync by Steve Hackley
+
+    This presentation will discuss the challenges and potential solutions for refreshing multiple application
     environments (Development/Staging/UAT/etc.) with data from a Production database,
     while keeping some amount of table data intact from the prior database after the
-    Production restore. \n\nWhen not white boarding out solutions with his team, Steve
-    Hackley can be found with the hiking boots on traversing the switchbacks of the
-    Appalachian Trail, or cooking out on the deck at home. With almost 20 years of
-    web development and management experience in all areas including pre-sales, strategy,
-    consulting, operations, and development, Steve has been responsible for assembling
-    and leading several development teams implementing various technologies ( .Net
-    Stack, BI technologies, Ruby on Rails) for clients believing in the notion ‘work
-    smarter, not harder’."
+    Production restore.
+    When not white boarding out solutions with his team, Steve Hackley can be found with the hiking boots on traversing the switchbacks of the Appalachian Trail, or cooking out on the deck at home. With almost 20 years of web development and management experience in all areas including pre-sales, strategy, consulting, operations, and development, Steve has been responsible for assembling and leading several development teams implementing various technologies ( .Net Stack, BI technologies, Ruby on Rails) for clients believing in the notion 'work smarter, not harder'.
   video_id: fpsY3RdGvBc
 
 - title: Building the Rails ActionDispatch::SystemTestCase Framework
-  raw_title: 'RubyNation 2017: Building the Rails ActionDispatch::SystemTestCase Framework by Eileen Uchitelle'
+  raw_title: "RubyNation 2017: Building the Rails ActionDispatch::SystemTestCase Framework by Eileen Uchitelle"
   speakers:
     - Eileen M. Uchitelle
   event_name: RubyNation 2017
-  published_at: '2017-06-16'
+  published_at: "2017-06-16"
   description: |-
     Building the Rails ActionDispatch::SystemTestCase Framework
 
