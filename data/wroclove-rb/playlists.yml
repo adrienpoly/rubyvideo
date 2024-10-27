@@ -9,7 +9,9 @@
   videos_count: 8
   metadata_parser: Youtube::VideoMetadataWroclove
   slug: wroclove-rb-2012
-  banner_background: "#fff"
+  banner_background: ''
+  featured_background: '#fff'
+  featured_color: black
 
 - id: PLoGBNJiQoqRD4y6XcTGuxn2SE2zsFA03z
   title: wroc_love.rb 2013
@@ -21,7 +23,9 @@
   videos_count: 3
   metadata_parser: Youtube::VideoMetadataWroclove2
   slug: wroclove-rb-2013
-  banner_background: "#fff"
+  banner_background: ''
+  featured_background: '#fff'
+  featured_color: black
 
 - id: PLoGBNJiQoqRCYNOfsPoxVWChbT5x5D5WP
   title: wroc_love.rb 2014
@@ -33,7 +37,9 @@
   videos_count: 17
   metadata_parser: Youtube::VideoMetadataWroclove2
   slug: wroclove-rb-2014
-  banner_background: "#fff"
+  banner_background: ''
+  featured_background: '#fff'
+  featured_color: black
 
 - id: PLvpu5WTDxTKUi0WDpNIHd2UJ989XlCuqW
   title: wroc_love.rb 2015
@@ -45,7 +51,9 @@
   videos_count: 15
   metadata_parser: Youtube::VideoMetadata
   slug: wroclove-rb-2015
-  banner_background: "#fff"
+  banner_background: ''
+  featured_background: '#fff'
+  featured_color: black
 
 - id: PLvpu5WTDxTKUEgWk1rjpGLgWclPKTbUWU
   title: wroc_love.rb 2016
@@ -57,7 +65,9 @@
   videos_count: 15
   metadata_parser: Youtube::VideoMetadata
   slug: wroclove-rb-2016
-  banner_background: "#fff"
+  banner_background: ''
+  featured_background: '#fff'
+  featured_color: black
 
 - id: PLvpu5WTDxTKXWU8lq1V9rzJ4g4vOPvfP9
   title: wroc_love.rb 2017
@@ -69,7 +79,9 @@
   videos_count: 15
   metadata_parser: Youtube::VideoMetadata
   slug: wroclove-rb-2017
-  banner_background: "#fff"
+  banner_background: ''
+  featured_background: '#fff'
+  featured_color: black
 
 - id: PLoGBNJiQoqRDSMznObXnqyq5HbOqLucTz
   title: wroc_love.rb 2018
@@ -81,7 +93,9 @@
   videos_count: 16
   metadata_parser: Youtube::VideoMetadataWroclove3
   slug: wroclove-rb-2018
-  banner_background: "#fff"
+  banner_background: ''
+  featured_background: '#fff'
+  featured_color: black
 
 - id: PLoGBNJiQoqRDJvwOYLuu7jnprRKhuc7Cp
   title: wroc_love.rb 2019
@@ -93,7 +107,9 @@
   videos_count: 14
   metadata_parser: Youtube::VideoMetadataWroclove3
   slug: wroclove-rb-2019
-  banner_background: "#fff"
+  banner_background: '#fff'
+  featured_background: '#fff'
+  featured_color: black
 
 - id: PLoGBNJiQoqRDWafhnWni-CwHkPJJuc0e5
   title: wroc_love.rb 2022
@@ -105,7 +121,9 @@
   videos_count: 16
   metadata_parser: Youtube::VideoMetadataWroclove4
   slug: wroclove-rb-2022
-  banner_background: "#fff"
+  banner_background: '#fff'
+  featured_background: '#fff'
+  featured_color: black
 
 - id: PLoGBNJiQoqRDwTvPjY1F_7ccYO7O26RJ9
   title: wroc_love.rb 2023
@@ -117,7 +135,9 @@
   videos_count: 15
   metadata_parser: Youtube::VideoMetadataWroclove4
   slug: wroclove-rb-2023
-  banner_background: "#fff"
+  banner_background: '#fff'
+  featured_background: '#fff'
+  featured_color: black
 
 - id: PLoGBNJiQoqRBCvceSUkayHJKvMAbbZq39
   title: wroc_love.rb 2024
@@ -131,4 +151,6 @@
   videos_count: 15
   metadata_parser: Youtube::VideoMetadataWroclove4
   slug: wroclove-rb-2024
-  banner_background: "#fff"
+  banner_background: '#fff'
+  featured_background: '#fff'
+  featured_color: black
