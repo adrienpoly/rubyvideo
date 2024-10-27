@@ -7,9 +7,9 @@ class Avo::Resources::Speaker < Avo::BaseResource
       query.find_by(slug: id)
     end
   }
-  # self.search = {
-  #   query: -> { query.ransack(id_eq: params[:q], m: "or").result(distinct: false) }
-  # }
+  self.search = {
+    query: -> { query.where("lower(name) LIKE ?", "%#{params[:q].downcase}%") }
+  }
 
   def fields
     field :id, as: :id, link_to_record: true
