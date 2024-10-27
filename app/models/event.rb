@@ -66,7 +66,7 @@ class Event < ApplicationRecord
   end
 
   def keynote_speakers
-    talks.select { |talk| talk.title.start_with?("Keynote: ") }.flat_map(&:speakers).map(&:name)
+    talks.select { |talk| talk.title.start_with?("Keynote: ") || talk.title.include?("Opening Keynote") || talk.title.include?("Closing Keynote") }.flat_map(&:speakers)
   end
 
   def title
@@ -75,7 +75,7 @@ class Event < ApplicationRecord
 
   def description
     held_in = country_code ? %( held in #{ISO3166::Country.new(country_code)&.iso_short_name}) : ""
-    keynotes = keynote_speakers.any? ? %(, including keynotes by #{keynote_speakers.to_sentence}) : ""
+    keynotes = keynote_speakers.any? ? %(, including keynotes by #{keynote_speakers.map(&:name).to_sentence}) : ""
 
     <<~DESCRIPTION
       #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in} and features #{talks.count} #{"talk".pluralize(talks.count)} from various speakers#{keynotes}.
@@ -145,17 +145,45 @@ class Event < ApplicationRecord
 
   def banner_background
     static_metadata.banner_background.present? ? static_metadata.banner_background : "#FF607F"
+  rescue => _e
+    "#FF607F"
+  end
+
+  def featured_background
+    return static_metadata.featured_background if static_metadata.featured_background.present?
+
+    "black"
+  rescue => _e
+    "black"
+  end
+
+  def featured_color
+    static_metadata.featured_color.present? ? static_metadata.featured_color : "white"
+  rescue => _e
+    "white"
   end
 
   def location
     static_metadata.location.present? ? static_metadata.location : "Earth"
+  rescue => _e
+    "Earth"
   end
 
   def start_date
     static_metadata.start_date.present? ? static_metadata.start_date.to_date : talks.minimum(:date)
+  rescue => _e
+    talks.minimum(:date)
   end
 
   def end_date
     static_metadata.end_date.present? ? static_metadata.end_date.to_date : talks.maximum(:date)
+  rescue => _e
+    talks.maximum(:date)
+  end
+
+  def year
+    static_metadata.year.present? ? static_metadata.year : talks.first.date.year
+  rescue => _e
+    talks.first.date.year
   end
 end
