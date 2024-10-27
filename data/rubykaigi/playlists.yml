@@ -130,3 +130,7 @@
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2024
   banner_background: '#FEEC00'
+  featured_background: '#FEEC00'
+  featured_color: 'black'
+  # featured_background: '#2994FF'
+  # featured_color: 'white'
