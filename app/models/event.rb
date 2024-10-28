@@ -80,7 +80,11 @@ class Event < ApplicationRecord
       return "#{start_date.strftime("%B %d")}-#{end_date.strftime("%d")}, #{year}"
     end
 
-    "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
+    if start_date.strftime("%Y") == end_date.strftime("%Y")
+      "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
+    end
+
+    "#{start_date.strftime("%b %d, %Y")} - #{end_date.strftime("%b %d, %Y")}"
   rescue => _e
     # TODO: notify to error tracking
 
