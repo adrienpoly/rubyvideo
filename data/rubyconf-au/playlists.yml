@@ -86,17 +86,25 @@
 
 - id: PL9_jjLrTYxc0s-zA-RxRyb62tIcugZyG3
   title: RubyConf AU 2023
+  location: "Melbourne, Australia"
   description: "A conference to share Ruby knowledge amongst like-minded Rubyists, 16th-17th February 2023, Melbourne Convention Centre, South Wharf"
   published_at: "2023-02-17"
+  start_date: "2023-02-16"
+  end_date: "2023-02-17"
   year: "2023"
   videos_count: 22
   slug: rubyconf-au-2023
+  banner_background: "#B22918"
+  featured_background: "#B22918"
+  featured_color: "white"
 
 - id: PL9_jjLrTYxc26AtvP5jUHGHqWe5EoVLYf
   title: RubyConf AU 2024
   location: "Sydney, Australia"
   description: "11th-12th April 2024, Swissôtel Sydney"
   published_at: "2024-04-19"
+  start_date: "2024-04-11"
+  end_date: "2024-04-12"
   channel_id: UCr38SHAvOKMDyX3-8lhvJHA
   year: "2024"
   videos_count: 19
