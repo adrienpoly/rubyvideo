@@ -195,6 +195,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_23_154126) do
     t.text "summary", default: "", null: false
     t.string "language", default: "en", null: false
     t.string "slides_url"
+    t.boolean "summarized_using_ai", default: true, null: false
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["slug"], name: "index_talks_on_slug"
