@@ -7,14 +7,12 @@ class TalksController < ApplicationController
   # GET /talks
   def index
     if params[:q].present?
-
       talks = Talk.with_essential_card_data.pagy_search(params[:q])
       @pagy, @talks = pagy_meilisearch(talks, limit: 20, page: params[:page]&.to_i || 1)
     elsif params[:query].present?
-      talks = Talk.with_essential_card_data.where("lower(title) LIKE ?", "%#{params[:query].downcase}%").order(date: :desc)
-      @pagy, @talks = pagy(talks, limit: 20, page: params[:page]&.to_i || 1)
+      @pagy, @talks = pagy(Talk.with_essential_card_data.ft_search(params[:query]).with_snippets.ranked, items: 20, page: params[:page]&.to_i || 1)
     else
-      @pagy, @talks = pagy(Talk.all.with_essential_card_data.order(date: :desc), limit: 20, page: params[:page]&.to_i || 1)
+      @pagy, @talks = pagy(Talk.all.with_essential_card_data.order(date: :desc), items: 20)
     end
   end
 
@@ -45,7 +43,7 @@ class TalksController < ApplicationController
     @talk = Talk.includes(:speakers, :approved_topics).find_by(slug: params[:slug])
     return redirect_to talks_path, status: :moved_permanently if @talk.blank?
 
-    @related_talks = @talk.event.talks.includes(:speakers).order(date: :desc)
+    @related_talks = @talk.event.talks.with_essential_card_data.order(date: :desc)
   end
 
   # Only allow a list of trusted parameters through.

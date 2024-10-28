@@ -1,7 +1,8 @@
 ---
-# TODO: talk dates
 # TODO: talks running order
-# TODO: conference schedule website
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
 
 - title: Lightning Talks
   raw_title: "RubyConf 2017:  Lightning Talks"
@@ -114,6 +115,7 @@
     - Aja Hammerly
   event_name: RubyConf 2017
   published_at: "2017-11-28"
+  slides_url: https://thagomizer.com/files/ParadigmsRubyConf2017.pdf
   description: |-
     4 Programming Paradigms in 45 Minutes by Aja Hammerly
 
@@ -123,13 +125,13 @@
   video_id: 3TBq__oKUzk
 
 - title: Compiling Ruby
-  raw_title: "RubyConf 2017: Compiling Ruby by Kevin Newtown"
+  raw_title: "RubyConf 2017: Compiling Ruby by Kevin Newton"
   speakers:
-    - Kevin Newtown
+    - Kevin Newton
   event_name: RubyConf 2017
   published_at: "2017-11-28"
   description: |-
-    Compiling Ruby by Kevin Newtown
+    Compiling Ruby by Kevin Newton
 
     Since Ruby 2.3 and the introduction of RubyVM::InstructionSequence::load_iseq, we've been able to programmatically load ruby bytecode. By divorcing the process of running YARV byte code from the process of compiling ruby code, we can take advantage of the strengths of the ruby virtual machine while simultaneously reaping the benefits of a compiler such as macros, type checking, and instruction sequence optimizations. This can make our ruby faster and more readable! This talk demonstrates how to integrate this into your own workflows and the exciting possibilities this enables.
   video_id: iWDOXi7Kj2o
@@ -470,7 +472,7 @@
     - Nadia Odunayo
     - Michael Hartl
     - Jim Remsik
-    - Allison McMillian
+    - Allison McMillan
   event_name: RubyConf 2017
   published_at: "2017-11-29"
   description: |-
@@ -480,15 +482,16 @@
     07:10:21 - Nadia Odunayo
     12:45:23 - Michael Hartl
     18:16:08 - Jim Remsik
-    23:49:08 - Allison McMillian
+    23:49:08 - Allison McMillan
   video_id: 9VSo5u4ODWQ
 
-- title: Keynote - You're Insufficiently Persuasive
+- title: "Keynote: You're Insufficiently Persuasive"
   raw_title: "RubyConf 2017: Keynote - You're Insufficiently Persuasive by Sandi Metz"
   speakers:
     - Sandi Metz
   event_name: RubyConf 2017
   published_at: "2017-11-29"
+  slides_url: https://speakerdeck.com/skmetz/you-are-insufficiently-persuasive-rubyconf
   description: Keynote - You're Insufficiently Persuasive by Sandi Metz
   video_id: VzWLGMtXflg
 

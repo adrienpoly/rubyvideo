@@ -1,17 +1,17 @@
 ---
-
 # https://web.archive.org/web/20160527184114/http://railsconf.com/schedule
 
 ## Day 1 - 2016-05-04
 
-- title: 'Opening Keynote'
+- title: "Opening Keynote"
   raw_title: RailsConf 2016 - Opening Keynote - Jeremy Daer
   speakers:
     - Jeremy Daer
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-11'
-  description: Intro by David Heinemeier Hansson (DHH).  Jeremy is an app builder
+  published_at: "2016-05-11"
+  description:
+    Intro by David Heinemeier Hansson (DHH).  Jeremy is an app builder
     and software steward at Basecamp and a Rails core team member.
   video_id: nUVsZ4vS1Y8
 
@@ -28,7 +28,7 @@
     - Joe Mastey
   event_name: RailsConf 2016
   track: Hiring & Retaining
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Hiring Developers, with Science! by Joe Mastey
 
@@ -46,7 +46,7 @@
     - Coraline Ada Ehmke
   event_name: RailsConf 2016
   track: Junior Developer
-  published_at: '2016-05-29'
+  published_at: "2016-05-29"
   description: |-
     Your First Legacy Codebase by Coraline Ehmke
 
@@ -57,13 +57,13 @@
     http://amara.org/v/JvLo/
   video_id: D6I__S3krbA
 
-- title: 'Stuck in the Middle: Leverage the power of Rack Middleware'
-  raw_title: 'RailsConf 2016 -Stuck in the Middle: Leverage the power of Rack Middleware by Amy Unger'
+- title: "Stuck in the Middle: Leverage the power of Rack Middleware"
+  raw_title: "RailsConf 2016 -Stuck in the Middle: Leverage the power of Rack Middleware by Amy Unger"
   speakers:
     - Amy Unger
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-23'
+  published_at: "2016-05-23"
   description: |-
     Before a request ever hits your Rails application, it winds its way through a series of pieces of Rack middleware. Middleware sets session cookies, writes your logs, and enables the functionality in many gems such as Warden.
 
@@ -74,12 +74,12 @@
 
 # Track: Sponsored
 - title: "I Can't Believe It's Not A Queue: Using Kafka with Rails"
-  raw_title: 'RailsConf 2016 - I Can’t Believe It’s Not A Queue: Using Kafka with Rails by Terence Lee'
+  raw_title: "RailsConf 2016 - I Can’t Believe It’s Not A Queue: Using Kafka with Rails by Terence Lee"
   speakers:
     - Terence Lee
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-25'
+  published_at: "2016-05-25"
   description: |-
     I Can’t Believe It’s Not A Queue: Using Kafka with Rails by Terence Lee
 
@@ -95,13 +95,13 @@
   video_id: s3VQIGD5iGo
 
 # Track: Behind The Magic
-- title: 'Rediscovering Active Record'
+- title: "Rediscovering Active Record"
   raw_title: RailsConf 2016 - Rediscovering ActiveRecord By Mario Chavez
   speakers:
     - Mario Alberto Chavez
   event_name: RailsConf 2016
   track: Behind The Magic
-  published_at: '2016-05-24'
+  published_at: "2016-05-24"
   description: |-
     Being a Rails developer is more than just understanding how to use the Framework to develop applications.
 
@@ -113,13 +113,13 @@
 # ---
 
 # Track: Hiring & Retaining
-- title: 'Internships: Good for the Intern, Great for the Team'
-  raw_title: 'RailsConf 2016 - Internships: Good for the Intern, Great for the Team by Lillie Chilen'
+- title: "Internships: Good for the Intern, Great for the Team"
+  raw_title: "RailsConf 2016 - Internships: Good for the Intern, Great for the Team by Lillie Chilen"
   speakers:
     - Lillie Chilen
   event_name: RailsConf 2016
   track: Hiring & Retaining
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Internships: Good for the Intern, Great for the Team by Lillie Chilen
 
@@ -139,7 +139,7 @@
     - Jeremy Fairbank
   event_name: RailsConf 2016
   track: Junior Developer
-  published_at: '2016-05-29'
+  published_at: "2016-05-29"
   description: |-
     Pat Packet Visits Ruby Rails by Jeremy fairbank
 
@@ -152,14 +152,15 @@
     http://amara.org/v/JvLn/
   video_id: 5N--xAEtGbo
 
-- title: 'Multi-Table Full Text Search with Postgres'
+- title: "Multi-Table Full Text Search with Postgres"
   raw_title: RailsConf 2016 -  Multi-table Full Text Search with Postgres By Caleb Thompson
   speakers:
     - Caleb Thompson
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
-  description: Searching content across multiple database tables and columns doesn't
+  published_at: "2016-05-24"
+  description:
+    Searching content across multiple database tables and columns doesn't
     have to suck. Thanks to Postgres, rolling your own search isn't difficult. Following
     an actual feature evolution I worked on for a client, we will start with a search
     feature that queries a single column with LIKE and build up to a SQL-heavy solution
@@ -176,7 +177,7 @@
     - Kat Drobnjakovic
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-31'
+  published_at: "2016-05-31"
   description: |-
     How We Deploy Shopify by Kat Drobnjakovic
 
@@ -184,14 +185,15 @@
   video_id: HNH7El_BEsw
 
 # Track: Behind The Magic
-- title: 'Inside Active Job'
+- title: "Inside Active Job"
   raw_title: RailsConf 2016 - Inside ActiveJob By Jerry D'Antonio
   speakers:
     - Jerry D'Antonio
   event_name: RailsConf 2016
   track: Behind The Magic
-  published_at: '2016-05-24'
-  description: ActiveJob made a huge impact when it landed Rails 4.2. Most job processors
+  published_at: "2016-05-24"
+  description:
+    ActiveJob made a huge impact when it landed Rails 4.2. Most job processors
     support it and many developers use it. But few ever need to dig into the internals.
     How exactly does ActiveJob allow us to execute performant, thread-safe, asynchronous
     jobs in a language not known for concurrency? This talk will answer that question.
@@ -203,13 +205,13 @@
 # Lunch
 
 # Track: Hiring & Retaining
-- title: 'Booting Up: Hiring and Growing Boot Camp Graduates'
-  raw_title: 'RailsConf 2016 - Booting Up: Hiring and Growing Boot Camp Graduates by Eric Weinstein'
+- title: "Booting Up: Hiring and Growing Boot Camp Graduates"
+  raw_title: "RailsConf 2016 - Booting Up: Hiring and Growing Boot Camp Graduates by Eric Weinstein"
   speakers:
     - Eric Weinstein
   event_name: RailsConf 2016
   track: Hiring & Retaining
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Booting Up: Hiring and Growing Boot Camp Graduates by Eric Weinstein
 
@@ -221,13 +223,13 @@
   video_id: RlnA9IXmDQ0
 
 # Track: Junior Developer
-- title: 'Level-up Your Active Record Skills: Learn SQL!'
-  raw_title: 'RailsConf 2016 - Level-up Your ActiveRecord Skills: Learn SQL! by Ryan Dlugosz'
+- title: "Level-up Your Active Record Skills: Learn SQL!"
+  raw_title: "RailsConf 2016 - Level-up Your ActiveRecord Skills: Learn SQL! by Ryan Dlugosz"
   speakers:
     - Ryan Dlugosz
   event_name: RailsConf 2016
   track: Junior Developer
-  published_at: '2016-05-25'
+  published_at: "2016-05-25"
   description: |-
     Level-up Your ActiveRecord Skills: Learn SQL! by Ryan Dlugosz
 
@@ -246,7 +248,7 @@
     - Konstantin Tennhard
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-29'
+  published_at: "2016-05-29"
   description: |-
     Foreign API Simulation with Sinatra by Konstantin Tennhard
 
@@ -264,7 +266,7 @@
     - Nathan Beyer
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-28'
+  published_at: "2016-05-28"
   description: |-
     Pragmatic Lessons of Rails & Ruby in the Enterprise by Nathan Beyer
 
@@ -282,8 +284,9 @@
     - Xavier Noria
   event_name: RailsConf 2016
   track: Behind The Magic
-  published_at: '2016-05-12'
-  description: Rails ships as a number of components, Active Record, Active Support,
+  published_at: "2016-05-12"
+  description:
+    Rails ships as a number of components, Active Record, Active Support,
     ..., largely independent of each other, but somehow something orchestrates them
     and presents a unified view of the system. Then we have config/boot.rb, config/application.rb...
     what do they do? Application initializers, environment configuration, what runs
@@ -301,7 +304,7 @@
     - Jamie Riedesel
   event_name: RailsConf 2016
   track: Hiring & Retaining
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Reduce Small-Team Culture Shock with Agile by Jamie Riedesel
 
@@ -313,13 +316,13 @@
   video_id: qHTKw6Djhbw
 
 # Track: Junior Developer
-- title: 'From Zero to API Hero: Consuming APIs Like a Pro'
-  raw_title: 'RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa'
+- title: "From Zero to API Hero: Consuming APIs Like a Pro"
+  raw_title: "RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa"
   speakers:
     - Cecy Correa
   event_name: RailsConf 2016
   track: Junior Developer
-  published_at: '2016-05-25'
+  published_at: "2016-05-25"
   description: |-
     Just like there’s an app for that, there’s an API for that! But not all APIs are created equal, and some APIs are harder to work with than others. In this talk, I will walk through some common gotchas developers encounter when consuming a 3rd party API. I will explain why it’s important to familiarize yourself with the API you’re consuming prior to coding, as well as share tools to help you get acquainted with an API much faster. Lastly, I will go over debugging and testing the API you’re consuming, because testing is not just for the provider of the API!
 
@@ -328,13 +331,13 @@
     http://amara.org/v/JUpK/
   video_id: Af5HDgvGuXk
 
-- title: '3x Rails: Tuning the Framework Internals'
-  raw_title: 'RailsConf 2016 - 3x Rails: Tuning the Framework Internals by Akira Matsuda'
+- title: "3x Rails: Tuning the Framework Internals"
+  raw_title: "RailsConf 2016 - 3x Rails: Tuning the Framework Internals by Akira Matsuda"
   speakers:
     - Akira Matsuda
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-29'
+  published_at: "2016-05-29"
   description: |-
     3x Rails: Tuning the Framework Internals by Akira Matsuda
 
@@ -359,7 +362,8 @@
     - Aja Hammerly
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-28'
+  published_at: "2016-05-28"
+  slides_url: https://thagomizer.com/files/RailsConf2016.pdf
   description: |-
     Postcards from GorbyPuff by Aja Hammerly
 
@@ -377,8 +381,9 @@
     - Nate Berkopec
   event_name: RailsConf 2016
   track: Behind The Magic
-  published_at: '2016-05-13'
-  description: Ever felt jealous of "other" Ruby web frameworks whose applications
+  published_at: "2016-05-13"
+  description:
+    Ever felt jealous of "other" Ruby web frameworks whose applications
     can be run from a single file? Did you know Rails can do this too? Starting from
     a fresh "rails new" install, we'll gradually delete and pare away to find the
     beautiful, light, modular and object-oriented web framework underneath. Eventually
@@ -393,13 +398,13 @@
 
 # ---
 
-- title: 'Active Record vs. Ecto: A Tale of Two ORMs'
-  raw_title: 'RailsConf 2016 - ActiveRecord vs. Ecto: A Tale of Two ORMs by Brad Urani'
+- title: "Active Record vs. Ecto: A Tale of Two ORMs"
+  raw_title: "RailsConf 2016 - ActiveRecord vs. Ecto: A Tale of Two ORMs by Brad Urani"
   speakers:
     - Brad Urani
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     ActiveRecord vs. Ecto: A Tale of Two ORMs by Brad Urani
 
@@ -417,7 +422,7 @@
     - Michael Kelly
   event_name: RailsConf 2016
   track: Junior Developer
-  published_at: '2016-05-25'
+  published_at: "2016-05-25"
   description: |-
     Zen and the Art of the Controller by Michael Kelly
 
@@ -434,7 +439,7 @@
     - Michael Rau
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-29'
+  published_at: "2016-05-29"
   description: |-
     Storytelling with Code by Michael Rau
 
@@ -451,7 +456,7 @@
     - Joseph Dean
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     As developers we often forget that with our development skills we have the power to change the world. This talk describes how our company organized a hackathon to create three open source projects that helped charitable organizations become more efficient at helping people. Bringing our team together around a shared philanthropic goal created more team unity, improved team communication and most importantly allowed us to apply our development skills to do good in the world.
 
@@ -467,8 +472,9 @@
     - Rafael Mendonça França
   event_name: RailsConf 2016
   track: Behind The Magic
-  published_at: '2016-05-13'
-  description: Almost all applications have assets like CSS, JavaScript and others.
+  published_at: "2016-05-13"
+  description:
+    Almost all applications have assets like CSS, JavaScript and others.
     That means the asset pipeline is an integral part of the Ruby on Rails framework.
     In this talk we'll show you how the asset pipeline works, and how you can take
     full advantage of the asset pipeline's features. Ever wondered how to convert
@@ -484,7 +490,7 @@
     - Emil Stolarsky
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Testing Rails at Scale by Emil Stolarsky
 
@@ -498,14 +504,15 @@
   video_id: zWR477ypEsc
 
 # Track: Junior Developer
-- title: 'Facepalm to Foolproof: Avoiding Common Production Pitfalls'
-  raw_title: 'RailsConf 2016 - Facepalm to Foolproof: Avoiding Common Production Pitfalls by Jon McCartie'
+- title: "Facepalm to Foolproof: Avoiding Common Production Pitfalls"
+  raw_title: "RailsConf 2016 - Facepalm to Foolproof: Avoiding Common Production Pitfalls by Jon McCartie"
   speakers:
     - Jon McCartie
   event_name: RailsConf 2016
   track: Junior Developer
-  published_at: '2016-05-25'
-  description: "Facepalm to Foolproof: Avoiding Common Production Pitfalls by Jon
+  published_at: "2016-05-25"
+  description:
+    "Facepalm to Foolproof: Avoiding Common Production Pitfalls by Jon
     McCartie\n\n\"WTF asset pipeline?\" \n\"What are all these errors?\" \n\"Why is
     my app running so slow?\"\n\nIf you're new to Rails development, or just want
     some tips on deploying and running in production, this is the talk for you. Relying
@@ -521,7 +528,7 @@
     - Helio Cola
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-29'
+  published_at: "2016-05-29"
   description: |-
     Tweaking Ruby GC Parameters for Fun, Speed, and Profit by Helio Cola
 
@@ -539,7 +546,7 @@
     - Andreas Fast
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Excellence Through Diversity by Andreas Fast
 
@@ -559,39 +566,40 @@
     - Ryan Davis
   event_name: RailsConf 2016
   track: Behind The Magic
-  published_at: '2016-05-13'
-  description: 'Assertions (or expectations) are the most important part of any test
+  published_at: "2016-05-13"
+  description:
+    "Assertions (or expectations) are the most important part of any test
     framework. How are they written? What happens when one fails? How does a test
     communicate its results? Past talks have shown how test frameworks work from the
     very top: how they find, load, select, and run tests. Instead of reading code
     from the top, we’ll write code from scratch starting with assertions and building
-    up a full test framework. By the end, you''ll know how every square inch of your
-    testing framework works.'
+    up a full test framework. By the end, you'll know how every square inch of your
+    testing framework works."
   video_id: VPr5pmlAq20
 
 # ---
 
-- title: 'Closing Keynote: Skunk Works'
-  raw_title: 'RailsConf 2016 - Day 1 Closing Keynote: Skunk Works by Nickolas Means'
+- title: "Closing Keynote: Skunk Works"
+  raw_title: "RailsConf 2016 - Day 1 Closing Keynote: Skunk Works by Nickolas Means"
   speakers:
     - Nickolas Means
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-12'
-  description: ''
+  published_at: "2016-05-12"
+  description: ""
   video_id: ggPE-JHzfAM
-
 
 ## Day 2 - 2016-05-05
 
-- title: 'Opening Keynote: TODO'
+- title: "Opening Keynote: UX, Rails & Awesomeness"
   raw_title: RailsConf 2016 - Day 2 Opening Keynote by Chanelle Henry
   speakers:
     - Chanelle Henry
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-13'
-  description: With a background in Psychology, Computer Science and Cybersecurity,
+  published_at: "2016-05-13"
+  description:
+    With a background in Psychology, Computer Science and Cybersecurity,
     Art Direction & Design, Chanelle Henry has an intense passion for problem-solving
     and creating methodologies; helping outline, encourage, and propel the UX Process.
     Currently serving as a Director of User Experience at Bluewolf, she uses creative
@@ -613,7 +621,7 @@
     - Jessica Roper
   event_name: RailsConf 2016
   track: Building Rails Teams
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     Building Applications Better the First Time by Jessica Roper
 
@@ -631,7 +639,7 @@
     - Jesse Wolgamott
   event_name: RailsConf 2016
   track: New In Rails 5
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     ActionCable for Not-Another-Chat-App-Please by Jesse Wolgamott
 
@@ -644,13 +652,13 @@
     http://amara.org/v/J5Ck/
   video_id: IeYGfM32Iqs
 
-- title: 'Precompiling Ruby Scripts - Myth and Fact'
+- title: "Precompiling Ruby Scripts - Myth and Fact"
   raw_title: RailsConf 2016 - Precompiling Ruby scripts - Myth and Fact By Koichi Sasada
   speakers:
     - Koichi Sasada
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
+  published_at: "2016-05-24"
   description: |-
     Ruby 2.3 introduced the precompilation feature which compiles Ruby scripts to a binary data format. You can store them to storage (file systems and so on) and then load from them.
 
@@ -666,21 +674,22 @@
     - Tatiana Vasilyeva
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-17'
-  description: There are many development tricks and habits that lie at the root of
+  published_at: "2016-05-17"
+  description:
+    There are many development tricks and habits that lie at the root of
     productive coding. IDEs, like RubyMine, are a big one. Adopting a new tool does
     require an initial investment of time though, as you customize your environment
     and learn the shortcuts.
   video_id: issom99iWDs
 
 # Track: Your Tech Career
-- title: 'How to Get and Love Your First Rails Job'
+- title: "How to Get and Love Your First Rails Job"
   raw_title: RailsConf 2016 -  How to Get and Love Your First Rails Job By Molly Black
   speakers:
     - Molly Black
   event_name: RailsConf 2016
   track: Your Tech Career
-  published_at: '2016-05-25'
+  published_at: "2016-05-25"
   description: |-
     RailsConf 2016 -  How to Get and Love Your First Rails Job By Molly BlackHalfway through a dev bootcamp? Straight out of college with a CS degree? Hacking away at Hartl after your day job? Now what?
 
@@ -696,13 +705,13 @@
 # ---
 
 # Track: Building Rails Teams
-- title: 'The Guest: A Guide To Code Hospitality'
-  raw_title: 'RailsConf 2016 - The Guest: A Guide To Code Hospitality by Nadia Odunayo'
+- title: "The Guest: A Guide To Code Hospitality"
+  raw_title: "RailsConf 2016 - The Guest: A Guide To Code Hospitality by Nadia Odunayo"
   speakers:
     - Nadia Odunayo
   event_name: RailsConf 2016
   track: Building Rails Teams
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     The Guest: A Guide To Code Hospitality by Nadia Odunayo
 
@@ -724,7 +733,7 @@
     - Sean Griffin
   event_name: RailsConf 2016
   track: New In Rails 5
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Rails 5 Features You Haven't Heard About by Sean Griffin
 
@@ -737,14 +746,15 @@
     http://amara.org/v/J5Cj/
   video_id: b010Nh-A0vY
 
-- title: 'Quit Frustrating Your New Developers - Tips From a Teacher'
+- title: "Quit Frustrating Your New Developers - Tips From a Teacher"
   raw_title: RailsConf 2016 - Quit Frustrating Your New Developers - Tips From a Teacher By Miki Rezentes
   speakers:
     - Miki Rezentes
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
-  description: Your team gains a new developer. You are responsible for bringing them
+  published_at: "2016-05-24"
+  description:
+    Your team gains a new developer. You are responsible for bringing them
     up to speed. While not everyone is a natural teacher, everyone can be taught basic
     teaching fundamentals. We will take a look at principles anyone can use to become
     a more effective trainer/teacher. Better teaching technique makes the training
@@ -753,13 +763,13 @@
   video_id: L0cYUD0-XNs
 
 # Track: Sponsored
-- title: 'From Excel to Rails: A Path to Enlightened Internal Software'
-  raw_title: 'RailsConf 2016 - From Excel to Rails: A Path to Enlightened Internal Software by Nick Reavill'
+- title: "From Excel to Rails: A Path to Enlightened Internal Software"
+  raw_title: "RailsConf 2016 - From Excel to Rails: A Path to Enlightened Internal Software by Nick Reavill"
   speakers:
     - Nick Reavill
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-25'
+  published_at: "2016-05-25"
   description: |-
     From Excel to Rails: A Path to Enlightened Internal Software by Nick Reavill
 
@@ -777,8 +787,9 @@
     - James Edward Gray II
   event_name: RailsConf 2016
   track: Your Tech Career
-  published_at: '2016-05-24'
-  description: If you apply for a programming job, you may be asked to complete a
+  published_at: "2016-05-24"
+  description:
+    If you apply for a programming job, you may be asked to complete a
     take home code challenge, "pair program" with another developer, and/or sketch
     out some code on a whiteboard. A lot has been said of the validity and fairness
     of these tactics, but, company ethics aside, what if you just need a job? In this
@@ -801,7 +812,7 @@
     - Rebecca Miller-Webster
   event_name: RailsConf 2016
   track: Building Rails Teams
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     Frameworks for Feedback by Rebecca Miller-Webster
 
@@ -816,12 +827,12 @@
 
 # Track: New In Rails 5
 - title: "Turbolinks 5: I Can't Believe It's Not Native!"
-  raw_title: 'RailsConf 2016 -  Turbolinks 5: I Can’t Believe It’s Not Native! by Sam Stephenson'
+  raw_title: "RailsConf 2016 -  Turbolinks 5: I Can’t Believe It’s Not Native! by Sam Stephenson"
   speakers:
     - Sam Stephenson
   event_name: RailsConf 2016
   track: New In Rails 5
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Turbolinks 5: I Can’t Believe It’s Not Native! by Sam Stephenson
 
@@ -840,8 +851,9 @@
     - Brandon Hays
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
-  description: Baskin-Robbins wishes it had as many flavors as there are JS frameworks,
+  published_at: "2016-05-24"
+  description:
+    Baskin-Robbins wishes it had as many flavors as there are JS frameworks,
     build tools, and cool new "low-level" languages. You just want to solve a problem,
     not have a 500-framework bake-off! And how will you know whether you picked the
     right one? Don't flip that table, because we'll use the "hype cycle" and the history
@@ -850,13 +862,13 @@
   video_id: O6TtfK9gGvA
 
 # Track: Sponsored
-- title: 'Packaging and Shipping Rails Applications in Docker'
+- title: "Packaging and Shipping Rails Applications in Docker"
   raw_title: RailsConf 2016 - Packaging and Shipping Rails Applications in Docker By Allan Espinosa
   speakers:
     - Allan Espinosa
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Packaging and Shipping Rails Applications in Docker By Allan Espinosa
 
@@ -875,24 +887,25 @@
     - Thijs Cadier
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-14'
-  description: 'In this talk we''ll learn about the options we have to let a computer
-    running Ruby do multiple things simultaneously. We''ll answer questions such as:
-    What''s the difference between how Puma and Unicorn handle serving multiple Rails
+  published_at: "2016-05-14"
+  description:
+    "In this talk we'll learn about the options we have to let a computer
+    running Ruby do multiple things simultaneously. We'll answer questions such as:
+    What's the difference between how Puma and Unicorn handle serving multiple Rails
     HTTP requests at the same time? Why does ActionCable use Eventmachine? How do
-    these underlying mechanism actually work if you strip away the complexity?'
+    these underlying mechanism actually work if you strip away the complexity?"
   video_id: 5AxtY4dfuwc
 
 # ---
 
 # Track: Building Rails Teams
-- title: 'Managing Growing Pains: Thinking Big While Being Small'
-  raw_title: 'RailsConf 2016 - Managing Growing Pains: Thinking Big While Being Small by Jon Arnold'
+- title: "Managing Growing Pains: Thinking Big While Being Small"
+  raw_title: "RailsConf 2016 - Managing Growing Pains: Thinking Big While Being Small by Jon Arnold"
   speakers:
     - Jon Arnold
   event_name: RailsConf 2016
   track: Building Rails Teams
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     Managing Growing Pains: Thinking Big While Being Small by Jon Arnold
 
@@ -912,7 +925,7 @@
     - Prathamesh Sonpatki
   event_name: RailsConf 2016
   track: New In Rails 5
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Secrets of Testing Rails 5 apps by Prathamesh Sonpatki
 
@@ -931,8 +944,9 @@
     - Richard Schneeman
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
-  description: What do you do when a maintainer leaves a project with over 44 million
+  published_at: "2016-05-24"
+  description:
+    What do you do when a maintainer leaves a project with over 44 million
     downloads? That is what we had to consider this year when Sprockets lost the developer
     responsible for more than 70% of the commits. In this talk we will look at recent
     efforts to revive Sprockets, and make it more maintainable. We will look into
@@ -941,14 +955,14 @@
   video_id: imE397wVWgY
 
 # Track: Sponsored
-- title: 'Small Details, Big Impact'
+- title: "Small Details, Big Impact"
   raw_title: RailsConf 2016 -  Small Details, Big Impact By Yehuda Katz and Liz Baillie
   speakers:
     - Yehuda Katz
     - Liz Baillie
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Small Details, Big Impact By Yehuda Katz and Liz Baillie
 
@@ -965,8 +979,9 @@
     - Tony Wieczorek
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-17'
-  description: This is a talk for anyone who wants a more diverse engineering culture
+  published_at: "2016-05-17"
+  description:
+    This is a talk for anyone who wants a more diverse engineering culture
     at work. If you've ever been frustrated by the sameness of your engineering peers,
     you'll hear practical advice you can use immediately. Creating a diverse team
     is more than a moral issue - it makes business sense. Diverse engineering teams
@@ -982,7 +997,7 @@
     - David Copeland
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     Can Time-Travel Keep You From Blowing Up The Enterprise? by David Copeland
 
@@ -997,13 +1012,13 @@
 
 # Track: New In Rails 5
 - title: "RSpec and Rails 5"
-  raw_title: 'RSpec and Rails 5 (Justin Searls)'
+  raw_title: "RSpec and Rails 5 (Justin Searls)"
   speakers:
     - Justin Searls
     - Sam Phippen
   event_name: RailsConf 2016
   track: New In Rails 5
-  published_at: '2016-05-04'
+  published_at: "2016-05-04"
   description: |-
     Only a few days before RailsConf, I was asked by to fill in for this talk because of illnesss. The only catch: I would have to speak on the original topic, covering the same content, and without much in the way of ready-to-use prepared content. I stared at my white board for a few hours and agreed to do it.
 
@@ -1013,13 +1028,14 @@
   video_id: 2Ia4kVL53KA
 
 - title: "Don't Forget the Network: Your App is Slower Than You Think"
-  raw_title: 'RailsConf 2016 - Don''t Forget the Network: Your App is Slower Than You Think By Andre Arko'
+  raw_title: "RailsConf 2016 - Don't Forget the Network: Your App is Slower Than You Think By Andre Arko"
   speakers:
     - André Arko
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
-  description: 'When you look at your response times, satisfied that they are "fast
+  published_at: "2016-05-24"
+  description:
+    'When you look at your response times, satisfied that they are "fast
     enough", you''re forgetting an important thing: your users are on the other side
     of a network connection, and their browser has to process and render the data
     that you sent so quickly. This talk examines some often overlooked parts of web
@@ -1029,13 +1045,13 @@
   video_id: KP1nKRprj0Q
 
 # Track: Sponsored
-- title: 'How Compose uses Rails to Scale Work, Now Open-Sourced'
+- title: "How Compose uses Rails to Scale Work, Now Open-Sourced"
   raw_title: RailsConf 2016 - How Compose uses Rails to Scale Work, Now Open-Sourced By JP Phillips
   speakers:
     - JP Phillips
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     How Compose uses Rails to Scale Work, Now Open-Sourced By JP Phillips
 
@@ -1046,14 +1062,15 @@
     http://amara.org/v/JXxs/
   video_id: _3L5k_zozzw
 
-- title: 'From Director to Intern: Changing Careers as a Single Mom'
-  raw_title: 'RailsConf 2016 - From Director to Intern: Changing Careers as a Single Mom by Teresa Martyny'
+- title: "From Director to Intern: Changing Careers as a Single Mom"
+  raw_title: "RailsConf 2016 - From Director to Intern: Changing Careers as a Single Mom by Teresa Martyny"
   speakers:
     - Teresa Martyny
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-14'
-  description: At the beginning of 2015 I was a Director in the non-profit sector,
+  published_at: "2016-05-14"
+  description:
+    At the beginning of 2015 I was a Director in the non-profit sector,
     13 years into my career. My days revolved around crisis intervention and violence
     prevention. I kept people alive and was well respected in my field. A mom of two,
     flying solo, people thought I was brave, stubborn... and a little insane... to
@@ -1092,7 +1109,7 @@
     - Stephanie Marx
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     1:05 Tim Oliver
     3:02 Patel Alun
@@ -1120,17 +1137,17 @@
     http://amara.org/v/JfWe/
   video_id: DHHHnPwSY5I
 
-
 ## Day 3 - 2016-05-06
 
-- title: 'Opening Keynote: TODO'
+- title: "Opening Keynote: Make Rails Great Again"
   raw_title: RailsConf 2016 - Opening Day 3 Keynote by Aaron Patterson
   speakers:
     - Aaron Patterson
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
-  description: Aaron was born and raised on the mean streets of Salt Lake City. His
+  published_at: "2016-05-24"
+  description:
+    Aaron was born and raised on the mean streets of Salt Lake City. His
     only hope for survival was to join the local gang of undercover street ballet
     performers known as the Tender Tights. As a Tender Tights member, Aaron learned
     to perfect the technique of self-defense pirouettes so that nobody, not even the
@@ -1156,7 +1173,7 @@
     - Ryan R Hughes
   event_name: RailsConf 2016
   track: Designer/Developer
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     Bridging the Gap between Designers and Developers by Ryan R Hughes
 
@@ -1165,14 +1182,15 @@
     In this talk, I'll share some of the things we've discovered over years of working on projects for over 100 clients that have helped to better define requirements and meet the needs of designers and developers throughout the life of a project.
   video_id: mweTM1hsn84
 
-- title: 'Finding Translations: Localization and Internationalization'
-  raw_title: 'RailsConf 2016 - Finding Translations: Localization and Internationalization by Valerie Woolard'
+- title: "Finding Translations: Localization and Internationalization"
+  raw_title: "RailsConf 2016 - Finding Translations: Localization and Internationalization by Valerie Woolard"
   speakers:
     - Valerie Woolard
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
-  description: Translation, be it a word, sentence, concept, or idea, for different
+  published_at: "2016-05-24"
+  description:
+    Translation, be it a word, sentence, concept, or idea, for different
     audiences has always been a challenge. This talk tackles problems of translation,
     especially those that tend to crop up in building software. We'll dive into the
     eminently practical—how to design apps for easier localization, common pitfalls,
@@ -1182,14 +1200,15 @@
   video_id: uFOwICzjrvU
 
 # Track: Alternative Frameworks
-- title: 'Build Realtime Apps with Ruby & Pakyow'
+- title: "Build Realtime Apps with Ruby & Pakyow"
   raw_title: RailsConf 2016 -  Build Realtime Apps with Ruby & Pakyow By Bryan Powell
   speakers:
     - Bryan Powell
   event_name: RailsConf 2016
   track: Alternative Frameworks
-  published_at: '2016-05-24'
-  description: Client-side frameworks dominate the conversation about the future of
+  published_at: "2016-05-24"
+  description:
+    Client-side frameworks dominate the conversation about the future of
     web apps. Where does that leave us Ruby developers? Let's explore a way to build
     realtime apps driven by a traditional backend, without writing a single line of
     JavaScript! You’ll walk away with a new way to build modern, realtime apps employing
@@ -1197,13 +1216,13 @@
   video_id: ttnlh_Y0XJM
 
 # Track: Sponsored
-- title: 'Step 1) Hack, Step 2) ?, Step 3) Profit'
+- title: "Step 1) Hack, Step 2) ?, Step 3) Profit"
   raw_title: RailsConf 2016 - Step 1) Hack, Step 2) ?, Step 3) Profit By Bradley Herman
   speakers:
     - Bradley Herman
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Step 1) Hack, Step 2) ?, Step 3) Profit By Bradley Herman
 
@@ -1223,8 +1242,9 @@
     - Mike Milner
   event_name: RailsConf 2016
   track: Security
-  published_at: '2016-05-24'
-  description: Join me for a wild ride through the dizzying highs and terrifying lows
+  published_at: "2016-05-24"
+  description:
+    Join me for a wild ride through the dizzying highs and terrifying lows
     of web security in 2015. Take a look at some major breaches of the year, from
     Top Secret clearances, to medical records, all the way to free beer. We’ll look
     at how attack trends have changed over the past year and new ways websites are
@@ -1243,7 +1263,7 @@
     - Mike Fotinakis
   event_name: RailsConf 2016
   track: Designer/Developer
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     Continuous Visual Integration for Rails by Mike Fotinakis
 
@@ -1258,8 +1278,9 @@
     - Stella Cotton
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
-  description: Your phone rings in the middle of the night and the site is down—-
+  published_at: "2016-05-24"
+  description:
+    Your phone rings in the middle of the night and the site is down—-
     do you know what to do? Whether it's Black Friday or a DDoS attack, our Ruby apps
     and Ruby devs have to be prepared for the best and the worst. Don't let a crisis
     catch you off guard! Fortunately, you can sharpen your skills ahead of time with
@@ -1268,14 +1289,15 @@
   video_id: hgpNRhQWWNw
 
 # Track: Alternative Frameworks
-- title: 'Going Serverless'
+- title: "Going Serverless"
   raw_title: RailsConf 2016 - Going Serverless By Jeremy Green
   speakers:
     - Jeremy Green
   event_name: RailsConf 2016
   track: Alternative Frameworks
-  published_at: '2016-05-24'
-  description: Serverless is a new framework that allows developers to easily harness
+  published_at: "2016-05-24"
+  description:
+    Serverless is a new framework that allows developers to easily harness
     AWS Lambda and Api Gateway to build and deploy full fledged API services without
     needing to deal with any ops level overhead or paying for servers when they're
     not in use. It's kinda like Heroku on-demand for single functions.
@@ -1288,7 +1310,7 @@
     - James Smith
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Your Software is Broken — Pay Attention by James Smith
 
@@ -1308,8 +1330,9 @@
     - Justin Collins
   event_name: RailsConf 2016
   track: Security
-  published_at: '2016-05-13'
-  description: Rails comes with protection against SQL injection, cross site scripting,
+  published_at: "2016-05-13"
+  description:
+    Rails comes with protection against SQL injection, cross site scripting,
     and cross site request forgery. It provides strong parameters and encrypted session
     cookies out of the box. What else is there to worry about? Unfortunately, security
     does not stop at the well-known vulnerabilities and even the most secure web framework
@@ -1330,7 +1353,7 @@
     - Roy Tomeij
   event_name: RailsConf 2016
   track: Designer/Developer
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     Make Them Click by Roy Tomeij
 
@@ -1347,7 +1370,7 @@
     - Ernie Miller
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-28'
+  published_at: "2016-05-28"
   description: |-
     How to Build a Skyscraper by Ernie Miller
 
@@ -1361,26 +1384,26 @@
   video_id: x8mSR9iAm74
 
 # Track: Alternative Frameworks
-- title: 'Developing and Maintaining a Platform With Rails and Lotus'
+- title: "Developing and Maintaining a Platform With Rails and Lotus"
   raw_title: RailsConf 2016 - Developing and Maintaining a Platform With Rails and Lotus By Simone Carletti
   speakers:
     - Simone Carletti
   event_name: RailsConf 2016
   track: Alternative Frameworks
-  published_at: '2016-05-24'
+  published_at: "2016-05-24"
   description: |-
     This talk illustrates the development techniques, Ruby patterns and best practices we adopt at DNSimple to develop new features and ensure long-term maintainability of our codebase. It also features how we used Lotus to develop the new API as a standalone Rack app mounted under the Rails router.
 
     Two years ago we started a major redesign of our REST API with the goal to decouple it from our main Rails application and expose all the main features via API. It was not a trivial task, but still feasible due to the guidelines we adopted in the last 6 years to structure our Rails application.
   video_id: FkWt7ep5XRM
 
-- title: 'Crushing It With Rake Tasks'
+- title: "Crushing It With Rake Tasks"
   raw_title: RailsConf 2016 - Crushing It With Rake Tasks By Barrett Clark
   speakers:
     - Barrett Clark
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Crushing It With Rake Tasks By Barrett Clark
 
@@ -1402,8 +1425,9 @@
     - Jessica Rudder
   event_name: RailsConf 2016
   track: Security
-  published_at: '2016-05-13'
-  description: If you've struggled through writing complex queries in raw SQL, ActiveRecord
+  published_at: "2016-05-13"
+  description:
+    If you've struggled through writing complex queries in raw SQL, ActiveRecord
     methods are a helpful breath of fresh air. If you're not careful though, those
     methods could potentially leave your site open to a nasty SQL Injection attack.
     We'll take a look at the most common ActiveRecord methods (and some of the lesser
@@ -1421,7 +1445,7 @@
     - Betsy Haibel
   event_name: RailsConf 2016
   track: Designer/Developer
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     Style Documentation for the Resource-Limited by Betsy Haibel
 
@@ -1434,7 +1458,7 @@
     - Katrina Owen
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-28'
+  published_at: "2016-05-28"
   description: |-
     Succession by Katrina Owen
 
@@ -1454,15 +1478,16 @@
     - Brian Cardarella
   event_name: RailsConf 2016
   track: Alternative Frameworks
-  published_at: '2016-05-24'
-  description: You may have heard about Phoenix and Elixir. It is a language and framework
+  published_at: "2016-05-24"
+  description:
+    You may have heard about Phoenix and Elixir. It is a language and framework
     that give you performance without sacrificing productivity. Learn why Phoenix
     is a great choice for Rails developers and how you can introduce it into your
     organization.
   video_id: OxhTQdcieQE
 
 # Track: Sponsored
-- title: 'Priming You for Your Job Search'
+- title: "Priming You for Your Job Search"
   raw_title: RailsConf 2016 -  Priming You for Your Job Search
   speakers:
     - Mark McDonald
@@ -1471,8 +1496,9 @@
     - Kim Lambright
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-26'
-  description: "Priming You for Your Job Search by Mark McDonald, MiMi Moore and Travis
+  published_at: "2016-05-26"
+  description:
+    "Priming You for Your Job Search by Mark McDonald, MiMi Moore and Travis
     Hillery \n\nIndeed Prime is the job-search industry’s newest disruptive product.
     Prime takes the best job-seekers, works hard to make sure their profiles are perfectly
     polished, and puts them on the Prime platform, where our exclusive group of clients
@@ -1488,8 +1514,9 @@
     - Godfrey Chan
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-13'
-  description: Ruby is not the fastest language in the world, there is no doubt about
+  published_at: "2016-05-13"
+  description:
+    Ruby is not the fastest language in the world, there is no doubt about
     it. This doesn't turn out to matter all that much – Ruby and its ecosystem has
     so much more to offer, making it a worthwhile tradeoff a lot of the times. However,
     you might occasionally encounter workloads that are simply not suitable for Ruby.
@@ -1507,7 +1534,7 @@
     - Jason Clark
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-27'
+  published_at: "2016-05-27"
   description: |-
     Real World Docker for the Rubyist by Jason Clark
 
@@ -1528,7 +1555,7 @@
     - Sandi Metz
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-28'
+  published_at: "2016-05-28"
   description: |-
     Get a Whiff of This by Sandi Metz
 
@@ -1545,14 +1572,15 @@
     http://amara.org/v/JkoP/
   video_id: PJjHfa5yxlU
 
-- title: 'How We Scaled GitLab For a 30k-employee Company'
+- title: "How We Scaled GitLab For a 30k-employee Company"
   raw_title: RailsConf 2016 - How We Scaled GitLab For a 30k-employee Company By Minqi Pan
   speakers:
     - Minqi Pan
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
-  description: GitLab, the open source alternative to GitHub written in Rails, does
+  published_at: "2016-05-24"
+  description:
+    GitLab, the open source alternative to GitHub written in Rails, does
     not scale automatically out of the box, as it stores its git repositories on a
     single filesystem, making storage capabilities hard to expand. Rather than attaching
     a NAS server, we decided to use a cloud-based object storage (such as S3) to replace
@@ -1570,14 +1598,14 @@
   video_id: byZcOH92CiY
 
 # Track: Sponsored
-- title: 'Strong Practices for Rails Applications Continuous Delivery'
+- title: "Strong Practices for Rails Applications Continuous Delivery"
   raw_title: RailsConf 2016 - Strong Practices for Rails Applications Continuous Delivery
   speakers:
     - Nathan Smith
     - Robb Kidd
   event_name: RailsConf 2016
   track: Sponsored
-  published_at: '2016-05-26'
+  published_at: "2016-05-26"
   description: |-
     Strong Practices for Rails Applications Continuous Delivery by Nathan Smith & Robb Kidd
 
@@ -1588,13 +1616,13 @@
     http://amara.org/v/J37W/
   video_id: zX3Kggw1Y-c
 
-- title: 'Client/Server Architecture: Past, Present, & Future'
-  raw_title: 'RailsConf 2016 - Client/Server Architecture: Past, Present, & Future By Mike Groseclose'
+- title: "Client/Server Architecture: Past, Present, & Future"
+  raw_title: "RailsConf 2016 - Client/Server Architecture: Past, Present, & Future By Mike Groseclose"
   speakers:
     - Mike Groseclose
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-24'
+  published_at: "2016-05-24"
   description: |-
     Client/Server Architecture: Past, Present, & Future By Mike Groseclose The client/server architecture that powers much of the web is evolving. Full stack, monolithic, apps are becoming a thing of the past as new requirements have forced us to think differently about how we build apps. New client/server architectures create a clear separation of concerns between the server and the client.
 
@@ -1611,13 +1639,13 @@
 
 # ---
 
-- title: 'Closing Keynote: Data Mining Music'
-  raw_title: 'RailsConf 2016 - Closing Keynote: Paul Lamere'
+- title: "Closing Keynote: Data Mining Music"
+  raw_title: "RailsConf 2016 - Closing Keynote: Paul Lamere"
   speakers:
     - Paul Lamere
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-29'
+  published_at: "2016-05-29"
   description: |-
     Closing Keynote: Paul Lamere
 
@@ -1628,13 +1656,12 @@
 
 # ---
 
-
 ## Not in schedule:
 
 - title: Ruby Hero Awards
   raw_title: RailsConf 2016 - Ruby Hero Awards
   speakers:
-    - # TODO: name of MC
+    -  # TODO: name of MC
     - Coraline Ada Ehmke
     - Akira Matsuda
     - Anika Lindtner
@@ -1646,19 +1673,19 @@
     - Charles Nutter
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-13'
+  published_at: "2016-05-13"
   description: |-
     The Ruby Hero Awards recognize everyday heroes of the Ruby community. The Ruby community is full of good people who help each other in diverse ways to make the community a better place.
     Once a year at RailsConf, we take a moment to appreciate their contributions and hopefully encourage others to make a difference.
   video_id: JSNogJGaMms
 
-- title: 'Sponsored: 5.0 / 30 (Hired)'
-  raw_title: 'RailsConf 2016 - Sponsor: Hired by Bradley Herman'
+- title: "Sponsored: 5.0 / 30 (Hired)"
+  raw_title: "RailsConf 2016 - Sponsor: Hired by Bradley Herman"
   speakers:
     - Bradley Herman
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-28'
+  published_at: "2016-05-28"
   description: |-
     Sponsor: Hired by Bradley Herman
 
@@ -1667,13 +1694,13 @@
     http://amara.org/v/Jko6/
   video_id: 7-apgRR5O5k
 
-- title: 'Sponsored: Indeed Prime (Indeed)'
-  raw_title: 'RailsConf 2016 - Sponsor: Indeed by Chris Colòn'
+- title: "Sponsored: Indeed Prime (Indeed)"
+  raw_title: "RailsConf 2016 - Sponsor: Indeed by Chris Colòn"
   speakers:
     - Chris Colòn
   event_name: RailsConf 2016
   track: null
-  published_at: '2016-05-28'
+  published_at: "2016-05-28"
   description: |-
     Sponsor: Indeed by Chris Colòn
 
