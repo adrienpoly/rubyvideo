@@ -1,21 +1,21 @@
-<div class="w-full h-92 p-12 border rounded-[50px] mt-12" style="background-color: <%= event.featured_background %>; color: <%= event.featured_color %>">
+<div class="w-full lg:h-92 p-4 lg:p-16 border rounded-[25px] lg:rounded-[50px] mt-12 text-center lg:text-left" style="view-transition-name: hero; background-color: <%= event.featured_background %>; color: <%= event.featured_color %>">
   <a href="<%= event_path(event) %>">
-    <div class="grid grid-cols-[1fr_2fr]">
+    <div class="lg:grid grid-cols-[1fr_2fr]">
       <div>
-        <div>
-          <%= image_tag event.featured_image_path %>
+        <div class="flex justify-center mb-9">
+          <%= image_tag event.featured_image_path, class: "max-h-24 lg:max-h-auto", style: "view-transition-name: avatar" %>
         </div>
 
-        <div class="h-48 max-h-48 overflow-hidden">
-          <h1 class="text-inherit font-bold text-xl mt-9 line-clamp-2"><%= event.name %></h1>
-          <h2 class="text-inherit opacity-60 text-sm mt-3 line-clamp-1"><%= event.location %> • <%= event.formatted_dates %></h2>
-          <h2 class="text-inherit font-medium text-sm mt-3 line-clamp-3"><%= event.description %></h2>
+        <div class="flex flex-col gap-3 lg:h-48 lg:max-h-48 overflow-hidden items-center lg:items-start">
+          <h1 class="text-inherit font-bold text-xl line-clamp-1 lg:line-clamp-2"><%= event.name %></h1>
+          <h2 class="text-inherit opacity-60 text-sm line-clamp-1"><%= event.location %> • <%= event.formatted_dates %></h2>
+          <h2 class="text-inherit font-medium text-sm line-clamp-3 hidden lg:block"><%= event.description %></h2>
         </div>
 
-        <button class="btn rounded-full bg-white mt-3 hover:bg-white/80">Explore All Talks</button>
+        <button class="btn rounded-full bg-white hover:bg-white/80 mt-6 mb-9 lg:mt-0 lg:mb-0">Explore All Talks</button>
       </div>
 
-      <div class="flex flex-col justify-center items-center">
+      <div class="hidden lg:flex flex-col justify-center items-center">
         <div>
           <div class="avatar-group -space-x-6 rtl:space-x-reverse">
             <% shown_speakers = [] %>
@@ -27,7 +27,7 @@
               <% shown_speakers << keynote_speaker %>
 
               <div class="avatar bg-white">
-                <div class="w-40">
+                <div class="w-12 lg:w-28 xl:w-40">
                   <img src="<%= keynote_speaker.github_avatar_url %>" onerror="this.parentElement.parentElement.remove()">
                 </div>
               </div>
@@ -38,7 +38,7 @@
                 <% shown_speakers << speaker %>
 
                 <div class="avatar bg-white">
-                  <div class="w-40">
+                  <div class="w-12 lg:w-28 xl:w-40">
                     <img src="<%= speaker.github_avatar_url %>">
                   </div>
                 </div>
@@ -47,8 +47,8 @@
           </div>
         </div>
 
-        <div class="mt-12 hidden md:block">
-          <div class="avatar-group -space-x-3 rtl:space-x-reverse">
+        <div class="mt-12">
+          <div class="avatar-group -space-x-6 lg:-space-x-3 rtl:space-x-reverse">
             <% remaining_speakers = speakers_with_avatars - shown_speakers %>
 
             <% if remaining_speakers.any? %>
@@ -56,7 +56,7 @@
                 <% shown_speakers << speaker %>
 
                 <div class="avatar bg-white">
-                  <div class="w-12">
+                  <div class="w-8 xl:w-12">
                     <img src="<%= speaker.github_avatar_url %>">
                   </div>
                 </div>
@@ -67,7 +67,7 @@
 
             <% if more_speakers_count.positive? %>
               <div class="avatar placeholder">
-                <div class="bg-neutral text-neutral-content w-12">
+                <div class="bg-neutral text-neutral-content w-8 xl:w-12">
                   <span>+<%= more_speakers_count %></span>
                 </div>
               </div>

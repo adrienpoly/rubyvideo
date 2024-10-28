@@ -37,7 +37,7 @@ export default class extends Controller {
 
   get hiddenSlides () {
     return Array.from(
-      this.element.querySelectorAll('.splide__slide .hidden')
+      this.element.querySelectorAll('.splide__slide > .hidden')
     )
   }
 }
