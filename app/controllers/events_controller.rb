@@ -6,8 +6,8 @@ class EventsController < ApplicationController
 
   # GET /events
   def index
-    @events = Event.canonical.includes(:organisation).order(:name)
-    @events = @events.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
+    @events = Event.canonical.includes(:organisation).order("events.name ASC")
+    @events = @events.where("lower(events.name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
   end
 
   # GET /events/1

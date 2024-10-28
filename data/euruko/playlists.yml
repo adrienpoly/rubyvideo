@@ -1,16 +1,23 @@
 ---
 - id: PLiiwaDvnsMkHvqFifIqcQWFfHNdp9gaKs
   title: EuRuKo 2016
+  location: Sofia, Bulgaria
   description: "https://2016.euruko.org"
   published_at: "2016-09-23"
+  start_date: "2016-09-23"
+  end_date: "2016-09-24"
   channel_id: UChGs1td4ViQFqT0jlvkyUJg
   year: "2016"
   videos_count: 15
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2016
+  banner_background: "#2B343E"
+  featured_background: "#2B343E"
+  featured_color: "#C15A5B"
 
 - id: PLZW-kXE0oRykQpf54Jhf1geLAeq5sM7Kt
   title: EuRuKo 2017
+  location: Budapest, Hungary
   description: ""
   published_at: "2021-06-01"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
@@ -18,9 +25,13 @@
   videos_count: 16
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2017
+  banner_background: "#FAFAFA"
+  featured_background: "#FAFAFA"
+  featured_color: black
 
 - id: PLZW-kXE0oRyn-mwcNhytWaCIAQJXJGMxo
   title: EuRuKo 2018
+  location: Vienna, Austria
   description: ""
   published_at: "2021-06-01"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
@@ -28,9 +39,13 @@
   videos_count: 18
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2018
+  banner_background: "#86E4FF"
+  featured_background: "#86E4FF"
+  featured_color: "#595959"
 
 - id: PLZW-kXE0oRykFFY4CTzKBqXC_RDNL_TD6
   title: EuRuKo 2019
+  location: Rotterdam, Netherlands
   description: ""
   published_at: "2021-06-01"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
@@ -38,9 +53,13 @@
   videos_count: 32
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2019
+  banner_background: "#FDD8A3"
+  featured_background: "#FDD8A3"
+  featured_color: "#633152"
 
 - id: PLZW-kXE0oRyknRwEUrg5o491KomjkNU16
   title: EuRuKo 2021
+  location: Helsinki, Finland (online)
   description: "EuRuKo 2021"
   published_at: "2021-06-01"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
@@ -48,9 +67,13 @@
   videos_count: 18
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2021
+  banner_background: "#503469"
+  featured_background: "#503469"
+  featured_color: "#FF9A1B"
 
 - id: PLZW-kXE0oRykcraQ1b6tT5ozKPeK-Jttq
   title: EuRuKo 2022
+  location: Helsinki, Finland
   description: Talks from EuRuKo 2022
   published_at: "2022-10-20"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
@@ -58,13 +81,22 @@
   videos_count: 12
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2022
+  banner_background: "#010024"
+  featured_background: "#010024"
+  featured_color: "#FF9001"
 
 - id: PLZW-kXE0oRyljniGHqYqtQVIXoI4M97ck
   title: EuRuKo 2023
+  location: Vilnius, Lithuania
   description: ""
   published_at: "2023-10-04"
+  start_date: "2023-09-21"
+  end_date: "2023-09-23"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
   year: "2023"
   videos_count: 30
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2023
+  banner_background: "#2ABA7D"
+  featured_background: black
+  featured_color: white

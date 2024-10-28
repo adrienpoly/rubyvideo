@@ -74,29 +74,40 @@
 
 - id: PLE7tQUdRKcyYVnWhDQk4RCPVlMW40I6s5
   title: RubyConf 2021
+  location: "Denver, CO"
   description:
     Focused on fostering the Ruby programming language and the robust community
     that has sprung up around it, RubyConf brings together Rubyists both established
     and new to discuss emerging ideas, collaborate, and socialize in some of the best
     locations in the US.
   published_at: "2022-08-09"
+  start_date: "2022-11-08"
+  end_date: "2022-11-10"
   channel_id: UCWnPjmqvljcafA0z2U1fwKQ
   year: "2021"
   videos_count: 102
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2021
+  banner_background: "#FFFBEC"
+  featured_background: "#FFFBEC"
+  featured_color: "#171714"
 
 - id: PLE7tQUdRKcyZYz0O3d9ZDdo0-BkOWhrSk
   title: "RubyConf 2022 Mini"
+  location: "Providence, RI"
   description: RubyConf Mini held in Providence, RI
   published_at: "2023-02-28"
   channel_id: UCWnPjmqvljcafA0z2U1fwKQ
   year: "2022"
   videos_count: 79
   slug: rubyconf-2022-mini
+  banner_background: "#FFFDF8"
+  featured_background: "#FFFDF8"
+  featured_color: "#372E6A"
 
 - id: PLE7tQUdRKcyZYz0O3d9ZDdo0-BkOWhrSk
   title: "RubyConf 2022"
+  location: "Houston, TX"
   description: RubyConf Houston 2022
   published_at: "2023-02-28"
   channel_id: UCWnPjmqvljcafA0z2U1fwKQ
@@ -104,15 +115,24 @@
   videos_count: 79
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2022
+  banner_background: "#2C2626"
+  featured_background: "white"
+  featured_color: "black"
 
 - id: PLE7tQUdRKcyZ13yKsi3ID6a4MWDxSw-LE
   title: RubyConf 2023
+  location: "San Diego, CA"
   description:
     RubyConf is the annual fall conference for Ruby enthusiasts to gather
     and enjoy talks about new projects, meet and network with other Ruby developers,
     and hear from the community's leading minds.
   published_at: "2023-12-19"
+  start_date: "2023-11-13"
+  end_date: "2023-11-15"
   channel_id: UCWnPjmqvljcafA0z2U1fwKQ
   year: "2023"
   videos_count: 23
   slug: rubyconf-2023
+  banner_background: "white"
+  featured_background: "#FFF2FA"
+  featured_color: "#5F6FBF"
