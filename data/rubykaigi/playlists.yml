@@ -33,16 +33,22 @@
 
 - id: PLbFmgWm555yaJalSEHY17E96ChjY-kF2D
   title: RubyKaigi 2017
+  location: Hiroshima, Japan
   description: |-
     http://rubykaigi.org/2017/
     Sep.18th-20th
     International Conference Center Hiroshima, Hiroshima, Japan
   published_at: "2017-09-21"
+  start_date: "2017-09-18"
+  end_date: "2017-09-20"
   channel_id: UCBSg5zH-VFJ42BGQFk4VH2A
   year: "2017"
   videos_count: 57
   metadata_parser: Youtube::VideoMetadataRubyKaigi
   slug: rubykaigi-2017
+  banner_background: "#FFF6EF"
+  featured_background: "#FFF6EF"
+  featured_color: "#5E5E5E"
 
 - id: PLbFmgWm555yZ8IJuzGOn3rj2dOvRLDdxL
   title: RubyKaigi 2018
