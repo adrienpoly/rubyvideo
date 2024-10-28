@@ -22,6 +22,15 @@ class Speaker < ApplicationRecord
   include Suggestable
   slug_from :name
 
+  PRONOUNS = {
+    "Not specified": :not_specified,
+    "Don't specify": :dont_specify,
+    "they/them": :they_them,
+    "she/her": :she_her,
+    "he/him": :he_him,
+    Custom: :custom
+  }.freeze
+
   # associations
   has_many :speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
   has_many :talks, through: :speaker_talks, inverse_of: :speakers
@@ -45,6 +54,10 @@ class Speaker < ApplicationRecord
 
   def title
     name
+  end
+
+  def canonical_slug
+    canonical&.slug
   end
 
   def verified?

@@ -1,4 +1,9 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: "Keynote: Writing Software"
   raw_title: "RailsConf 2014 - Keynote: Writing Software by David Heinemeier Hansson"
   speakers:
@@ -104,9 +109,9 @@
   video_id: WccaOMuf01Y
 
 - title: "Rack-AMQP: Ditch HTTP Inside SOA!"
-  raw_title: "RailsConf 2014 - Rack-AMQP: Ditch HTTP Inside SOA! by Josh Szmajda"
+  raw_title: "RailsConf 2014 - Rack-AMQP: Ditch HTTP Inside SOA! by Jess Szmajda"
   speakers:
-    - Josh Szmajda
+    - Jess Szmajda
   event_name: RailsConf 2014
   thumbnail_xs: https://i.ytimg.com/vi/cINCWpn-LQM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/cINCWpn-LQM/mqdefault.jpg
@@ -667,9 +672,9 @@
   video_id: "-q_oUyEHiEw"
 
 - title: Tricks That Rails Didn't Tell You About
-  raw_title: RailsConf 2014 - Tricks That Rails Didn't Tell You About by Carlos Antionio da Silva
+  raw_title: RailsConf 2014 - Tricks That Rails Didn't Tell You About by Carlos Antonio da Silva
   speakers:
-    - Carlos Antionio da Silva
+    - Carlos Antonio da Silva
   event_name: RailsConf 2014
   thumbnail_xs: https://i.ytimg.com/vi/YKm0v_weFZs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/YKm0v_weFZs/mqdefault.jpg
@@ -1532,7 +1537,7 @@
     http://amara.org/v/FG0U/
   video_id: ozWzehOEeuI
 
-- title: 'Workshop: Ruby Coding Dojo'
+- title: "Workshop: Ruby Coding Dojo"
   raw_title: RailsConf 2014 - Workshop - Ruby Coding Dojo by Carlos Souza and David Rogers
   speakers:
     - Carlos Souza
@@ -1626,6 +1631,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/8bZh5LMaSmE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/8bZh5LMaSmE/maxresdefault.jpg
   published_at: "2014-05-21"
+  slides_url: https://speakerdeck.com/skmetz/all-the-little-things-railsconf
   description: |-
     Theory tells us to build applications out of small, interchangeable objects but reality often supplies the exact opposite. Many apps contain huge classes of long methods and hair-raising conditionals; they're hard to understand, difficult to reuse and costly to change. This talk takes an ugly section of conditional code and converts it into a few simple objects. It bridges the gap between OO theory and practice and teaches straightforward strategies that all can use to improve their code.
 
@@ -1826,25 +1832,6 @@
     http://amara.org/v/FGZk/
   video_id: g3pM6bVPZsQ
 
-- title: WebRTC Change Communcations Forever
-  raw_title: RailsConf 2014 - WebRTC Change Communcations Forever by Greg Baugues
-  speakers:
-    - Greg Baugues
-  event_name: RailsConf 2014
-  thumbnail_xs: https://i.ytimg.com/vi/AviVwTUP38w/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/AviVwTUP38w/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/AviVwTUP38w/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/AviVwTUP38w/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/AviVwTUP38w/maxresdefault.jpg
-  published_at: "2014-05-22"
-  description: |-
-    WebRTC (Real Time Communications) is revolutionizing the way we handle voice, video and data communication by providing native peer-to-peer communication inside the browser. In this talk we'll discuss: - History: How has WebRTC evolved since it's birth just three years ago? - Applications: How are developers using WebRTC beyond video conferencing? (Such as a peer distributed CDN and "bittorrent in the browser"). - Getting Started: What is the WebRTC Hello World?
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGZl/
-  video_id: AviVwTUP38w
-
 - title: "Workshop: Teamwork Ain't Always Easy"
   raw_title: RailsConf 2014 - Workshop - Teamwork Ain't Always Easy by Michael Norton
   speakers:
@@ -1919,7 +1906,7 @@
 - title: Lightning Talks
   raw_title: RailsConf 2014 - Lightning Talks by Many People
   speakers:
-    - Joshua Szmajda
+    - Jess Szmajda
     - Sachin Shintre
     - Gyani
     - Siddhant Chothe
@@ -1936,7 +1923,7 @@
     - Mike Bourgeous
     - Gostavo Robles
     - Hector Bustillos
-    - Victor Velasquez
+    - Victor Velazquez
     - Kay Rhodes
     - Kevin Fallon
     - Andrew Vit
@@ -1957,7 +1944,7 @@
     - Matthew Nielsen\n00:25:58 - Andrew Cantino\n00:29:34 - Yehuda Katz\n00:34:18
     - Ryan Alyea\n00:37:29 - Adam Cuppy\n00:40:32 - Mark Lorenz & Mike Gee\n00:44:28
     - Trever yarrish\n00:49:34 - Mike Bourgeous\n00:54:15 - Gostavo Robles\n00:57:16
-    - Hector Bustillos\n01:02:00 - Victor Velasquez\n01:06:03 - Kay Rhodes\n01:10:31
+    - Hector Bustillos\n01:02:00 - Victor Velazquez\n01:06:03 - Kay Rhodes\n01:10:31
     - Kevin Fallon\n01:15:50 - Andrew Vit\n01:20:53 - Brian Garside\n01:25:37 - Mike
     Virata-Stone\n01:30:36 - Kiyoto Tamura\n01:35:41 - David Padilla\n\nHelp us caption
     & translate this video!\n\nhttp://amara.org/v/FG1z/"
@@ -2144,7 +2131,7 @@
     http://amara.org/v/FGZz/
   video_id: KdmuHgpHJVE
 
-- title: 'Workshop: Machine Learning For Fun and Profit'
+- title: "Workshop: Machine Learning For Fun and Profit"
   raw_title: RailsConf 2014 - Workshop - Machine Learning For Fun and Profit by John Paul Ahenfelter
   speakers:
     - John Paul Ahenfelter
@@ -2165,7 +2152,7 @@
     http://amara.org/v/FGZx/
   video_id: E6CjE0M20jk
 
-- title: 'Workshop: All Aboard The Elixir Express!'
+- title: "Workshop: All Aboard The Elixir Express!"
   raw_title: RailsConf 2014 - Workshop - All Aboard The Elixir Express! by Chris McCord
   speakers:
     - Chris McCord
@@ -2184,7 +2171,7 @@
     http://amara.org/v/FGZr/
   video_id: 5kYmOyJjGDM
 
-- title: 'Workshop: Test Drive a Browser Game With JavaScript'
+- title: "Workshop: Test Drive a Browser Game With JavaScript"
   raw_title: RailsConf 2014 - Workshop - Test Drive a Browser Game With JavaScript
   speakers:
     - Zach Briggs

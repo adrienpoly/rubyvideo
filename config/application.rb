@@ -21,7 +21,7 @@ Bundler.require(*Rails.groups)
 module Rubyvideo
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 7.2
+    config.load_defaults 8.0
 
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
@@ -43,14 +43,5 @@ module Rubyvideo
 
     # to remove once encrytion completed
     config.active_record.encryption.support_unencrypted_data = true
-  end
-end
-
-# to remove once https://github.com/rails/solid_cache/pull/179 is merged or replaced
-ActiveSupport.on_load(:solid_cache_entry) do
-  class << self
-    def model = self
-
-    def scope_for_create = {}
   end
 end

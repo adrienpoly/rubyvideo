@@ -66,7 +66,7 @@ class Sessions::OmniauthController < ApplicationController
 
   def fetch_github_email(oauth_token)
     return unless oauth_token
-    response = Github::UserClient.new(token: oauth_token).emails
+    response = GitHub::UserClient.new(token: oauth_token).emails
 
     emails = response.parsed_body
     primary_email = emails.find { |email| email.primary && email.verified }

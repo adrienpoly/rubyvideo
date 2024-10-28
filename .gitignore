@@ -29,6 +29,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/config/credentials/production.key
+/config/credentials/staging.key
+
 
 /app/assets/builds/*
 !/app/assets/builds/.keep
@@ -76,3 +79,7 @@ service_account.json
 
 # asdf
 .tool-versions
+
+# kamal
+.kamal/secrets
+.kamal/secrets.staging

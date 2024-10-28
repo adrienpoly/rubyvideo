@@ -13,11 +13,11 @@ application.register("dropdown", DropdownController)
 import ModalController from "./modal_controller"
 application.register("modal", ModalController)
 
-import PageTransitionMissingController from "./page_transition_missing_controller"
-application.register("page-transition-missing", PageTransitionMissingController)
-
 import TransitionController from "./transition_controller"
 application.register("transition", TransitionController)
 
 import VideoPlayerController from "./video_player_controller"
 application.register("video-player", VideoPlayerController)
+
+import PronounsSelectController from "./pronouns_select_controller"
+application.register("pronouns-select", PronounsSelectController)

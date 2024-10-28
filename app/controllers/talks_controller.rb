@@ -7,10 +7,12 @@ class TalksController < ApplicationController
   # GET /talks
   def index
     if params[:q].present?
-      talks = Talk.includes(:speakers, :event).pagy_search(params[:q])
-      @pagy, @talks = pagy_meilisearch(talks, limit: 21, page: params[:page]&.to_i || 1)
+      talks = Talk.with_essential_card_data.pagy_search(params[:q])
+      @pagy, @talks = pagy_meilisearch(talks, limit: 20, page: params[:page]&.to_i || 1)
+    elsif params[:query].present?
+      @pagy, @talks = pagy(Talk.with_essential_card_data.ft_search(params[:query]).with_snippets.ranked, items: 20, page: params[:page]&.to_i || 1)
     else
-      @pagy, @talks = pagy(Talk.all.order(date: :desc).includes(:speakers, :event), limit: 21, page: params[:page]&.to_i || 1)
+      @pagy, @talks = pagy(Talk.all.with_essential_card_data.order(date: :desc), items: 20)
     end
   end
 
@@ -38,14 +40,15 @@ class TalksController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_talk
-    @talk = Talk.includes(:speakers, :approved_topics, event: :talks).find_by(slug: params[:slug])
+    @talk = Talk.includes(:speakers, :approved_topics).find_by(slug: params[:slug])
+    return redirect_to talks_path, status: :moved_permanently if @talk.blank?
 
-    redirect_to talks_path, status: :moved_permanently if @talk.blank?
+    @related_talks = @talk.event.talks.with_essential_card_data.order(date: :desc)
   end
 
   # Only allow a list of trusted parameters through.
   def talk_params
-    params.require(:talk).permit(:title, :description, :summary, :date)
+    params.require(:talk).permit(:title, :description, :summarized_using_ai, :summary, :date)
   end
 
   def set_user_favorites

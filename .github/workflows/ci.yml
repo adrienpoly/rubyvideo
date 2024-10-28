@@ -40,6 +40,9 @@ jobs:
       - name: erb-lint Check
         run: bundle exec erblint --lint-all
 
+      - name: Run Prettier on YAML data files
+        run: yarn prettier --check data/**/*.yml
+
   test:
     runs-on: ubuntu-latest
     env:

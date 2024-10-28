@@ -14,14 +14,14 @@ class SpeakersController < ApplicationController
         @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
       end
       format.json do
-        @pagy, @speakers = pagy(Speaker.with_talks.order(:name), limit: params[:per_page])
+        @pagy, @speakers = pagy(Speaker.includes(:canonical).order(:name), limit: params[:per_page])
       end
     end
   end
 
   # GET /speakers/1
   def show
-    @talks = @speaker.talks.order(date: :desc)
+    @talks = @speaker.talks.with_essential_card_data.order(date: :desc)
     @back_path = speakers_path
     set_meta_tags(@speaker)
     # fresh_when(@speaker)
@@ -60,10 +60,10 @@ class SpeakersController < ApplicationController
 
   def speaker_params
     {
-      anonymous: params.require(:speaker).permit(:github),
-      signed_in: params.require(:speaker).permit(:github),
-      owner: params.require(:speaker).permit(:name, :twitter, :bio, :website),
-      admin: params.require(:speaker).permit(:name, :twitter, :github, :bio, :website)
+      anonymous: params.require(:speaker).permit(:github, :pronouns_type, :pronouns),
+      signed_in: params.require(:speaker).permit(:github, :pronouns_type, :pronouns),
+      owner: params.require(:speaker).permit(:name, :twitter, :bio, :website, :speakerdeck, :pronouns_type, :pronouns),
+      admin: params.require(:speaker).permit(:name, :twitter, :github, :bio, :website, :speakerdeck, :pronouns_type, :pronouns)
     } [user_kind]
   end
 

@@ -1,17 +1,18 @@
 ---
-# Schedule:
-# https://docs.google.com/spreadsheets/d/1SH3ujYbBMPPICPZTqR6A2vVUGvAnBAv5ZqdzWBKSOn4
+# TODO: conference website
+
+# Schedule: https://docs.google.com/spreadsheets/d/1SH3ujYbBMPPICPZTqR6A2vVUGvAnBAv5ZqdzWBKSOn4
 
 # Day 1
 
 # emacs track
-- title: 'Keynote: Reducing Memory Usage'
-  raw_title: 'Keynote Speech: Aaron Patterson'
+- title: "Keynote: Reducing Memory Usage"
+  raw_title: "Keynote Speech: Aaron Patterson"
   speakers:
     - Aaron Patterson
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: ''
+  published_at: "2018-05-05"
+  description: ""
   video_id: 8kdfKInkENI
 
 # emacs track
@@ -20,8 +21,8 @@
   speakers:
     - Kerstin Puschke
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: ''
+  published_at: "2018-05-05"
+  description: ""
   video_id: PFviclwil20
 
 # vim track
@@ -30,18 +31,18 @@
   speakers:
     - Tobias Meyer
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: ''
+  published_at: "2018-05-05"
+  description: ""
   video_id: HH4Sy_oNa9U
 
 # emacs track
-- title: 'The (even longer) Road from Capistrano to Kubernetes'
-  raw_title: 'The (even longer) Road from Capistrano to Kubernetes: Talk By Tobias Schwab'
+- title: "The (even longer) Road from Capistrano to Kubernetes"
+  raw_title: "The (even longer) Road from Capistrano to Kubernetes: Talk By Tobias Schwab"
   speakers:
     - Tobias Schwab
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: ''
+  published_at: "2018-05-05"
+  description: ""
   video_id: NrFTEd8RVOE
 
 # vim track
@@ -50,18 +51,18 @@
   speakers:
     - Julia Hurrelmann
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: ''
+  published_at: "2018-05-05"
+  description: ""
   video_id: s73M1sWRaMI
 
 # emacs track
-- title: 'Ruby is Full of Surprises'
-  raw_title: 'Ruby is Full of Surprises: Talk by Jan Lelis'
+- title: "Ruby is Full of Surprises"
+  raw_title: "Ruby is Full of Surprises: Talk by Jan Lelis"
   speakers:
     - Jan Lelis
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: ''
+  published_at: "2018-05-05"
+  description: ""
   video_id: tPpvxN-Kqj4
 
 # vim track
@@ -70,18 +71,19 @@
   speakers:
     - Sergio Gil Pérez de la Manga
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: ''
+  published_at: "2018-05-05"
+  description: ""
   video_id: NLheas7jQ-U
 
 # emacs track
-- title: 'RabbitMQ to the Rescue'
-  raw_title: 'RabbitMQ to the Rescue: Talk By Andreas Finger'
+- title: "RabbitMQ to the Rescue"
+  raw_title: "RabbitMQ to the Rescue: Talk By Andreas Finger"
   speakers:
     - Andreas Finger
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: Please visit https://github.com/mediafinger/rabbitmq_presentation/
+  published_at: "2018-05-05"
+  description:
+    Please visit https://github.com/mediafinger/rabbitmq_presentation/
     for the slides' text and some example apps.
   video_id: eJhxlVkGXdQ
 
@@ -94,8 +96,8 @@
   speakers:
     - Ana María Martínez Gómez
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: ''
+  published_at: "2018-05-05"
+  description: ""
   slides_url: https://2018.rubyunconf.eu/uploads/PropertyTests-Ana-UNCONF-HAMBURG.odp
   video_id: FSrNXI1SyCg
 
@@ -105,33 +107,32 @@
   speakers:
     - Florian Munz
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: ''
+  published_at: "2018-05-05"
+  description: ""
   video_id: g_SIUxa39WI
 
 # 1st floor track
 # missing workshop: "Workshop: Getting Your Feet Wet With Elm - Andy
 
 # emacs track
-- title: 'How to Speed Up Websites with Resource Hints'
-  raw_title: 'Robin Drexler: How to speed up websites with Resource hints'
+- title: "How to Speed Up Websites with Resource Hints"
+  raw_title: "Robin Drexler: How to speed up websites with Resource hints"
   speakers:
     - Robin Drexler
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
+  published_at: "2018-05-05"
   description: preconnect, prefetch, preload, pre-what? How to speed up websites with Resource hints
   video_id: V3mQatuVZLY
 
 # vim track
 - title: Cached Rest Models
-  raw_title: 'Talk by Filipe: Cached Rest Models'
+  raw_title: "Talk by Filipe: Cached Rest Models"
   speakers:
     - Filipe Abreu
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-05'
-  description: ''
+  published_at: "2018-05-05"
+  description: ""
   video_id: y0fRAMk1cHQ
-
 
 # Day 2
 
@@ -145,8 +146,9 @@
   speakers:
     - Stefan Exner
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: "Slides:\n\nhttps://gitpitch.com/stex/petra-rails_demo/master\n\nThe
+  published_at: "2018-05-06"
+  description:
+    "Slides:\n\nhttps://gitpitch.com/stex/petra-rails_demo/master\n\nThe
     mentioned examples and demo application can be found at \n\nhttps://github.com/stex/petra-rails_demo"
   video_id: UGo1dL8i4Jo
 
@@ -156,18 +158,18 @@
   speakers:
     - Ole Michaelis
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   video_id: InIFQ9m17Xo
 
 # vim track
 - title: Seeding in a Microservice Architecture'
-  raw_title: 'Talk by Darius Murawski: Seeding in a Microservice Architecture'
+  raw_title: "Talk by Darius Murawski: Seeding in a Microservice Architecture"
   speakers:
     - Darius Murawski
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   slides_url: https://2018.rubyunconf.eu/uploads/Seeding_in_a_microservice_architecture.pdf
   video_id: TYQsniXUbZE
 
@@ -175,99 +177,99 @@
 # missing talk: The basic income experience - Ariane
 
 # vim track
-- title: 'Talk/Workshop: UX Sketching 101'
-  raw_title: 'Talk/Workshop by Fabian: UX Sketching 101'
+- title: "Talk/Workshop: UX Sketching 101"
+  raw_title: "Talk/Workshop by Fabian: UX Sketching 101"
   speakers:
     - Fabian (afknapping)
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   video_id: 8JGrDZUA498
 
 # emacs track
 - title: The Crystal Language from ~Scratch~
-  raw_title: 'Talk by Sérgio Gil: The Crystal Language from ~scratch~'
+  raw_title: "Talk by Sérgio Gil: The Crystal Language from ~scratch~"
   speakers:
     - Sérgio Gil
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   video_id: NjkuYfGV9jU
 
 # vim track
 - title: Find a bAr with the Power of PostGIS
-  raw_title: 'Talk by  Patryk Pastewski: Find a bar with the power of PostGIS'
+  raw_title: "Talk by  Patryk Pastewski: Find a bar with the power of PostGIS"
   speakers:
     - Patryk Pastewski
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   video_id: FnzgLnaCxXU
 
 # emacs track
 # missing talk: Lightning Talk 1
 
 # emacs track
-- title: 'Lightning Talk: Profiling Ruby with Flamegraphs'
-  raw_title: 'Lightning Talk 2: Janusz Mordarski - Profiling Ruby with Flamegraphs'
+- title: "Lightning Talk: Profiling Ruby with Flamegraphs"
+  raw_title: "Lightning Talk 2: Janusz Mordarski - Profiling Ruby with Flamegraphs"
   speakers:
     - Janusz Mordarski
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   video_id: ZLt7Ir4UzFs
 
 # emacs track
-- title: 'Lightning Talk: An Empathy Exercise'
-  raw_title: 'Lightning Talk 3: Amr Abdelwahab - An Empathy Exercise'
+- title: "Lightning Talk: An Empathy Exercise"
+  raw_title: "Lightning Talk 3: Amr Abdelwahab - An Empathy Exercise"
   speakers:
     - Amr Abdelwahab
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   slides_url: https://prezi.com/view/QB1AL4r0uwEZ1tuqsf5v/
   video_id: j4ro5uJ8yzE
 
 # emacs track
-- title: 'Lightning Talk: How To Increase Diversity in Your Engineering Teams'
-  raw_title: 'Lightning Talk 4: Julia Hurrelmann - How to increase diversity in your engineering teams'
+- title: "Lightning Talk: How To Increase Diversity in Your Engineering Teams"
+  raw_title: "Lightning Talk 4: Julia Hurrelmann - How to increase diversity in your engineering teams"
   speakers:
     - Julia Hurrelmann
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   video_id: cPXNIVMfLZg
 
 # emacs track
 # missing talk: Lightning Talk 5
 
 # emacs track
-- title: 'Lightning Talk: Open Source'
-  raw_title: 'Lightning Talk 6: Ana Maria Martinez Gomez - Open Source'
+- title: "Lightning Talk: Open Source"
+  raw_title: "Lightning Talk 6: Ana Maria Martinez Gomez - Open Source"
   speakers:
     - Ana María Martínez Gómez
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   slides_url: https://2018.rubyunconf.eu/uploads/OpenSource-Ana-UNCONF-HAMBURG.odp
   video_id: B-eIchAJBa0
 
 # emacs track
-- title: 'Lightning Talk: A Thing I Hacked For Contriboot Yesterday'
-  raw_title: 'Lightning Talk 7: Fabian - A thing I hacked for Contriboot yesterday'
+- title: "Lightning Talk: A Thing I Hacked For Contriboot Yesterday"
+  raw_title: "Lightning Talk 7: Fabian - A thing I hacked for Contriboot yesterday"
   speakers:
     - Fabian (afknapping)
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   video_id: E2a-W57dRAU
 
 # emacs track
-- title: 'Lightning Talk: Random Experiment by a Random Potential Speaker'
-  raw_title: 'Lightning Talk 8: Daniel Carral - Random Experiment by a Random Potential Speaker'
+- title: "Lightning Talk: Random Experiment by a Random Potential Speaker"
+  raw_title: "Lightning Talk 8: Daniel Carral - Random Experiment by a Random Potential Speaker"
   speakers:
     - Daniel Carral
   event_name: Ruby Unconf 2018
-  published_at: '2018-05-06'
-  description: ''
+  published_at: "2018-05-06"
+  description: ""
   video_id: 8G_e-pPHURU

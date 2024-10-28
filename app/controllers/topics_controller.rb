@@ -1,4 +1,5 @@
 class TopicsController < ApplicationController
+  include Pagy::Backend
   skip_before_action :authenticate_user!
   before_action :set_user_favorites, only: %i[show]
 
@@ -9,7 +10,11 @@ class TopicsController < ApplicationController
 
   def show
     @topic = Topic.find_by!(slug: params[:slug])
-    @talks = @topic.talks.includes([:speakers, :event]).order(date: :desc)
+    @pagy, @talks = pagy(
+      @topic.talks.with_essential_card_data.order(date: :desc),
+      limit: 12,
+      page: params[:page]&.to_i || 1
+    )
   end
 
   def set_user_favorites
