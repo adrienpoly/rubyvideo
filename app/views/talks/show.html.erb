@@ -28,7 +28,7 @@
     </div>
   </div>
 
-  <%= link_to event_path(@talk.event), class: "card bg-gray-200 hover:bg-gray-300/80 transition-bg duration-300 ease-in-out w-full flex flex-row px-6 py-6 gap-8 mt-4 overflow-hidden" do %>
+  <%= link_to event_path(@talk.event), id: "explore-event", class: "card bg-gray-200 hover:bg-gray-300/80 transition-bg duration-300 ease-in-out w-full flex flex-row px-6 py-6 gap-8 mt-4 overflow-hidden" do %>
     <div class="aspect-video hidden md:block">
       <% event_talk = @talk.event.talks.excluding(@talk).sample || @talk %>
 

@@ -26,7 +26,8 @@ class TalksTest < ApplicationSystemTestCase
   test "should provide a link to the event of the talk" do
     visit talk_url(@talk)
 
-    click_on "Explore all talks from #{@event.name}"
+    find("#explore-event").click
+
     assert_current_path event_path(@event)
     assert_text @event.name
   end
