@@ -28,7 +28,7 @@
 
               <div class="avatar bg-white">
                 <div class="w-12 lg:w-28 xl:w-40">
-                  <img src="<%= keynote_speaker.github_avatar_url %>" onerror="this.parentElement.parentElement.remove()">
+                  <img src="<%= keynote_speaker.github_avatar_url %>" onerror="this.parentElement.parentElement.remove()" loading="lazy">
                 </div>
               </div>
             <% end %>
@@ -39,7 +39,7 @@
 
                 <div class="avatar bg-white">
                   <div class="w-12 lg:w-28 xl:w-40">
-                    <img src="<%= speaker.github_avatar_url %>">
+                    <img src="<%= speaker.github_avatar_url %>" loading="lazy">
                   </div>
                 </div>
               <% end %>
@@ -57,7 +57,7 @@
 
                 <div class="avatar bg-white">
                   <div class="w-8 xl:w-12">
-                    <img src="<%= speaker.github_avatar_url %>">
+                    <img src="<%= speaker.github_avatar_url %>" loading="lazy">
                   </div>
                 </div>
               <% end %>
