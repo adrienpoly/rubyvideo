@@ -69,6 +69,7 @@ The CI performs 3 checks:
 - erblint
 - standardrb
 - standard (js)
+- prettier (yaml)
 
 Before committing your code you can run `bin/lint` to detect and potentially autocorrect lint errors.
 
