@@ -9,7 +9,7 @@ def create_playlists(organisation)
   playlists.sort_by! { |playlist| playlist.year.to_i }
   playlists.select! { |playlist| playlist.videos_count.positive? }
 
-  File.write("#{Rails.root}/data_preparation/#{organisation["slug"]}/playlists.yml", playlists.map { |item| item.to_h.stringify_keys }.to_yaml)
+  File.write("#{Rails.root}/data_preparation/#{organisation["slug"]}/playlists.yml", playlists.map { |item| item.to_h.stringify_keys }.to_yaml.gsub("- id: ", "\n- id: "))
 end
 
 # This is the main loop
