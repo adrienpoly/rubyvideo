@@ -9,4 +9,8 @@
     color: var(--vlite-controlsColor);
     text-align: center;
   }
+
+  .v-loader {
+    display: none !important;
+  }
 }
