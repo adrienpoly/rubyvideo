@@ -61,6 +61,7 @@ class SpeakersController < ApplicationController
   def speaker_params
     params.require(:speaker).permit(
       :name,
+      :github,
       :twitter,
       :bsky,
       :linkedin,
