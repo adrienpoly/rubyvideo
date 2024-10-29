@@ -59,11 +59,24 @@ class SpeakersController < ApplicationController
   end
 
   def speaker_params
+    all_params = [
+      :name,
+      :twitter,
+      :bsky,
+      :linkedin,
+      :mastodon,
+      :bio,
+      :website,
+      :speakerdeck,
+      :pronouns_type,
+      :pronouns
+    ]
+
     {
       anonymous: params.require(:speaker).permit(:github, :pronouns_type, :pronouns),
       signed_in: params.require(:speaker).permit(:github, :pronouns_type, :pronouns),
-      owner: params.require(:speaker).permit(:name, :twitter, :bio, :website, :speakerdeck, :pronouns_type, :pronouns),
-      admin: params.require(:speaker).permit(:name, :twitter, :github, :bio, :website, :speakerdeck, :pronouns_type, :pronouns)
+      owner: params.require(:speaker).permit(*all_params),
+      admin: params.require(:speaker).permit(*all_params)
     } [user_kind]
   end
 
