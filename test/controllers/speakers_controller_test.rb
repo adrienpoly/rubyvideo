@@ -94,7 +94,7 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
 
     suggestion = @speaker.suggestions.pending.last
 
-    assert_equal ({ "github" => "new-github", "slug" => "new-slug" }), suggestion.content
+    assert_equal ({"github" => "new-github", "slug" => "new-slug"}), suggestion.content
     assert_equal user.id, suggestion.suggested_by_id
 
     # those attributes can't be changed by the owner
