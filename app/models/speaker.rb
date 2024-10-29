@@ -72,7 +72,7 @@ class Speaker < ApplicationRecord
   end
 
   def create_suggestion_from(params:, user: Current.user)
-    if (params.keys.include?("github") || params.keys.include?("slug")) && managed_by?(self.user)
+    if (params.key?("github") || params.key?("slug")) && managed_by?(self.user)
       slug = params["slug"]
       github = params["github"]
 
@@ -85,11 +85,9 @@ class Speaker < ApplicationRecord
       suggestion = suggestions.create(content: content, suggested_by_id: user&.id)
 
       return suggestion if params.keys.none?
-
-      super(params:, user:)
-    else
-      super
     end
+
+    super
   end
 
   def github_avatar_url(size: 200)
