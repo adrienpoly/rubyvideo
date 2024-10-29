@@ -71,6 +71,27 @@ class Speaker < ApplicationRecord
     user == visiting_user
   end
 
+  def create_suggestion_from(params:, user: Current.user)
+    if (params.keys.include?("github") || params.keys.include?("slug")) && managed_by?(self.user)
+      slug = params["slug"]
+      github = params["github"]
+
+      content = {}
+      content["slug"] = slug if slug
+      content["github"] = github if github
+
+      params = params.reject { |key, _value| key.in?(["github", "slug"]) }
+
+      suggestion = suggestions.create(content: content, suggested_by_id: user&.id)
+
+      return suggestion if params.keys.none?
+
+      super(params:, user:)
+    else
+      super
+    end
+  end
+
   def github_avatar_url(size: 200)
     return "" unless github.present?
 
