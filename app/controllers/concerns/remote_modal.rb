@@ -7,6 +7,7 @@
 #
 module RemoteModal
   extend ActiveSupport::Concern
+  include Turbo::ForceFrameResponse
   DEFAULT_ALLOWED_ACTIONS = %i[new show edit index].freeze
 
   included do
