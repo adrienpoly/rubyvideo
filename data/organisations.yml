@@ -444,3 +444,15 @@
   slug: rubynation
   language: english
   youtube_channel_id: UCgRpkkcigKZk52JyAOYNs6w
+
+- name: ArrrrCamp
+  website: https://arrrrcamp.be
+  twitter: arrrrcamp
+  kind: conference
+  frequency: yearly
+  playlist_matcher: ArrrrCamp
+  default_country_code: BE
+  youtube_channel_name: Confreaks
+  slug: arrrrcamp
+  language: english
+  youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ

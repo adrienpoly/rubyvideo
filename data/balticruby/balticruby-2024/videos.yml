@@ -14,6 +14,7 @@
     In this talk we'll delve into the web frameworks Rails, Hanami and
     Sinatra and we'll explain how we try to combine the best out of the frameworks
     to create web apps at 84codes.
+  video_provider: youtube
   video_id: auRaa-iyrTM
 
 - title: Building native Ruby extensions in Rust
@@ -27,6 +28,7 @@
     native extensions, we no longer have to default to C. It's easier than ever to
     build production-ready Rust native extensions, bringing the best of both ecosystems
     together!
+  video_provider: youtube
   video_id: "-tM3Npsb2wE"
 
 - title: "Pokedex Chronicles: Part 1 - Database Normalisation, Part 2 - Indexes Strike Back"
@@ -39,6 +41,7 @@
     Step into the world of database mastery with our Pokedex adventure!
     Embark on a journey to unravel the secrets of normalization and indexing, enhancing
     data integrity, efficiency and performance along the way!
+  video_provider: youtube
   video_id: xa9ixrLU7X4
 
 - title: "2000 engineers, 2 millions lines of code: the history of a Rails monolith"
@@ -52,6 +55,7 @@
     How to scale an application and a team to manage a global business?
     This presentation summarizes 10 years of experience in a company that has succeeded
     by keeping Rails in its core.
+  video_provider: youtube
   video_id: LaoeB5nYOnI
 
 - title: What does high priority mean? The secret to happy queues
@@ -63,6 +67,7 @@
   description:
     In this talk, I will present a latency-focused approach to managing
     your queues reliably, keeping your jobs flowing and your users happy.
+  video_provider: youtube
   video_id: U80H3bagJDk
 
 - title: Refactoring Volatile Views into Cohesive Components
@@ -76,6 +81,7 @@
     It's easy for models to grow unwieldy, accumulating methods, attributes,
     and responsibilities. But views can be even worse. Let's refactor the mess into
     clean, cohesive components with ViewComponent.
+  video_provider: youtube
   video_id: 6tPz5_iXK38
 
 - title: Easy threading with JRuby, is it?
@@ -88,6 +94,7 @@
     Threading is a known issue with MRI due to Global Interpreter Lock.
     As JRuby uses Java native threads, in theory, this should be easier and much more
     effective in JRuby. But is it really so?
+  video_provider: youtube
   video_id: IjRmrwT9dWY
 
 - title: Going back to the BASICs
@@ -100,6 +107,7 @@
     BASIC was once the most important programming language on home computers.
     Let's re-implement it in Ruby, learn some history on how computers worked back
     then and a few tricks along the way.
+  video_provider: youtube
   video_id: UEoE87WBLac
 
 - title: Stories in Open Source
@@ -112,6 +120,7 @@
     Walk with me through some stories that I experienced in Open Source,
     the friends made and the lessons learned along the way. Let it help you make your
     own Open Source contributions!
+  video_provider: youtube
   video_id: C5ZwxCV_-qk
 
 - title: Mathematical Programming in Ruby
@@ -124,6 +133,7 @@
     When using math programming, we can achieve optimal solutions for complex
     problems by defining them with math equations. We'll try to use this approach
     in Ruby to solve a real-life problem.
+  video_provider: youtube
   video_id: rKkvr0wQb2k
 
 - title: Solid SQLite Apps on Rails
@@ -137,6 +147,7 @@
     Join me to learn how to pair the enhancements to Rails’ SQLite adapter
     with the suite of Solid libraries to create resilient, high-performance production
     apps.
+  video_provider: youtube
   video_id: _F02oXFSfX8
 
 - title: "Keynote: What it takes to keep Ruby gems a thing"
@@ -146,6 +157,7 @@
   event_name: BalticRuby 2024
   published_at: "2024-07-25"
   description: Keynote.
+  video_provider: youtube
   video_id: W21O4i1znLE
 
 - title: How to get to zero unhandled exceptions in production
@@ -158,6 +170,7 @@
     Exceptions in production seem like something unavoidable. But does
     it have to be? I don't think so. If you have the right process and tooling, you
     can avoid them.
+  video_provider: youtube
   video_id: 4iQHtPrf8wI
 
 - title: How to build an exchange
@@ -170,6 +183,7 @@
     They say working in finance is boring, but is it really? Let's learn
     how to build an exchange system in Ruby and solve interesting computer science
     problems along the way.
+  video_provider: youtube
   video_id: mZzIJ4QpQck
 
 - title: "Keynote: Second system syndrome"
@@ -179,4 +193,5 @@
   event_name: BalticRuby 2024
   published_at: "2024-07-25"
   description: Keynote.
+  video_provider: youtube
   video_id: B0kLnbXEO50

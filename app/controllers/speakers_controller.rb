@@ -59,7 +59,7 @@ class SpeakersController < ApplicationController
   end
 
   def speaker_params
-    all_params = [
+    params.require(:speaker).permit(
       :name,
       :twitter,
       :bsky,
@@ -69,15 +69,9 @@ class SpeakersController < ApplicationController
       :website,
       :speakerdeck,
       :pronouns_type,
-      :pronouns
-    ]
-
-    {
-      anonymous: params.require(:speaker).permit(:github, :pronouns_type, :pronouns),
-      signed_in: params.require(:speaker).permit(:github, :pronouns_type, :pronouns),
-      owner: params.require(:speaker).permit(*all_params),
-      admin: params.require(:speaker).permit(*all_params)
-    } [user_kind]
+      :pronouns,
+      :slug
+    )
   end
 
   def set_user_favorites

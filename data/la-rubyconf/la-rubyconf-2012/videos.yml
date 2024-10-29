@@ -13,6 +13,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGkc/
+  video_provider: youtube
   video_id: tVmZHqf7yPE
 
 - title: Metric Driven Development with Ruby on Rails
@@ -33,6 +34,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGkf/
+  video_provider: youtube
   video_id: _Iqb9n9O7a0
 
 - title: Rack Middleware as a General Purpose Abstraction
@@ -49,6 +51,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGkq/
+  video_provider: youtube
   video_id: fcNaiP5tea0
 
 - title: How to Scale a Ruby Webservice
@@ -63,6 +66,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGkn/
+  video_provider: youtube
   video_id: nfvD9UBh3XM
 
 - title: Kill! Kill! Die! Die! Load Testing With A Vengeance
@@ -78,6 +82,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGko/
+  video_provider: youtube
   video_id: TPOWB-PAWxA
 
 - title: Maintainable Ruby on Rails
@@ -92,6 +97,7 @@
     This change of speed is not a natural part of the growth of a software project, but a common symptom of the design decisions made, and techniques practiced, to develop the software in the first place.
 
     In this talk you will learn how to identify common (and not so common) issues that teams face as their applications age. You will learn about principles of software design, techniques, and practices to solve these problems. You will also gain valuable knowledge about how to make your software more maintainable and extensible to ensure you don't run into these problems in the future.
+  video_provider: youtube
   video_id: S9PY-qZKXww
 
 - title: Designing Hypermedia APIs
@@ -104,6 +110,7 @@
     Rails did a lot to bring REST to developers, but its conception leaves the REST devotee feeling a bit empty. "Where's the hypermedia?" she says. "REST isn't RPC," he may cry. "WTF??!?!" you may think. "I have it right there! resources :posts ! What more is there? RPC? Huh?"
 
     In this talk, Steve will explain how to design your APIs so that they truly embrace the web and HTTP. Just as there's an impedance mismatch between our databases, our ORMs, and our models, there's an equal mismatch between our applications, our APIs, and our clients. Pros and cons of this approach will be discussed, as well as why we aren't building things this way yet.
+  video_provider: youtube
   video_id: x5ezCxo5sM4
 
 - title: Quit Your Job. Srsly.
@@ -118,6 +125,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGkr/
+  video_provider: youtube
   video_id: 0CMjiIqhvdQ
 
 - title: "Time to Move Away from Ruby"
@@ -136,6 +144,7 @@
     and pushing code to the UI layer. What does it mean for the new, existing and
     prospecting Ruby developers? Is it time to jump ship and move on to something
     else?"
+  video_provider: youtube
   video_id: foOPsKQOQyw
 
 - title: "Rails Sustainable Productivity"
@@ -148,6 +157,7 @@
     I've been writing Rails for near on five years, and there are some things that really grind my goat. Rails is great, but there are so many things we get wrong, both as a framework and a community. In particular, for applications that have grown beyond an initial prototype (if you earn a salary writing Rails, this is probably you), many Rails Best Practices are actively harmful to creating solid, robust, and enjoyable applications. I'll talk about testing, data modelling, code organisation, build systems, and more, drawing from a large pool of things I have seen done wrong and also personally failed at over the last half decade. Of course I'll be providing suggestions for fixing things, also.
 
     It's more of a freight train, see.
+  video_provider: youtube
   video_id: 84ewfGEojsw
 
 - title: Great Developers Steal
@@ -164,6 +174,7 @@
     of things happening in other communities, and we need to bring good ideas back
     to Ruby. In this session, we'll look at how to identify great code and concepts,
     and how to bring them back to our community.
+  video_provider: youtube
   video_id: QPY0uETQA-c
 
 - title: "Managing Success: We made it, now we're screwed."
@@ -178,4 +189,5 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGkp/
+  video_provider: youtube
   video_id: VAex3QIrUB8

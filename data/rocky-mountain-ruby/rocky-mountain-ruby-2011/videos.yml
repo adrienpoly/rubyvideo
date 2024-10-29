@@ -17,6 +17,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZC6/
+  video_provider: youtube
   video_id: 3QNZLneA0kA
 
 - title: "Lightning Talk: In Defense of Unless"
@@ -28,6 +29,7 @@
   event_name: Rocky Mountain Ruby 2011
   published_at: "2015-04-07"
   description: ""
+  video_provider: youtube
   video_id: aDzGLc1C3Ps
 
 - title: "Lightning Talk: Do Your Commit Messages Suck"
@@ -39,6 +41,7 @@
   event_name: Rocky Mountain Ruby 2011
   published_at: "2015-04-07"
   description: ""
+  video_provider: youtube
   video_id: 8YjSty6bfog
 
 - title: "Lightning Talk: BDSM Project SM Framework"
@@ -50,6 +53,7 @@
   event_name: Rocky Mountain Ruby 2011
   published_at: "2015-04-07"
   description: ""
+  video_provider: youtube
   video_id: _CtI8f60xOk
 
 - title: "Lightning Talk: Be Moar Ridiculous"
@@ -59,6 +63,7 @@
   event_name: Rocky Mountain Ruby 2011
   published_at: "2015-04-07"
   description: ""
+  video_provider: youtube
   video_id: fjR3iT3gnxo
 
 - title: "Lightning Talk: Active Hash"
@@ -68,6 +73,7 @@
   event_name: Rocky Mountain Ruby 2011
   published_at: "2015-04-07"
   description: ""
+  video_provider: youtube
   video_id: l9oGzOqEd88
 
 - title: "Focus? Why Do I Need More Stinkin' Focus?"
@@ -85,6 +91,7 @@
     of tasks. Our modern lives don't allow us to practice focus; in fact they conspire
     against us being focused. This talk will explain why focus is important to productivity
     and teach one way you can practice focus through meditation.
+  video_provider: youtube
   video_id: "-JAQnLsFJMg"
 
 - title: "Opening Keynote: Code Blindness"
@@ -100,6 +107,7 @@
     Mountain Ruby. Michael is well known in the software community for his work with
     XP/Agile, improving software development and working on large legacy codebases.
     Don't miss his opening remarks which will definitely be thought provoking.
+  video_provider: youtube
   video_id: B31QrNFyRyc
 
 - title: "API Design Matters"
@@ -112,6 +120,7 @@
     The effects of API design will likely live with your project for a long time, often beyond your tenure with the project. Yet good API design is very rarely discussed and often leads developers to the conclusion that good APIs are something that "we know when we see them."
 
     This talk will attempt to layout a set of fundamentals for good API design so that we can begin to really understand the difference between well-designed APIs and those that are mediocre. It will also explain about various trade-offs that are made when designing APIs and some of the pros and cons that come with each trade-off. Finally we'll take a look at some good APIs and bad APIs in Ruby.
+  video_provider: youtube
   video_id: GZxN51eAZzE
 
 - title: "CRUD is not REST - Hypermedia for Y'All!"
@@ -126,6 +135,7 @@
     REST is an architectural style for distributed systems. However, many implementations forget about the distributed part of REST and simply map CRUD operations to HTTP verbs in a monolithic application. We're gonna go further and learn why hypermedia is the crucial part of REST architectures and how machines can browse resources just like humans using self-describing representations.
 
     Monolithic applications are boring, so let's separate things and create a REST system as it is intended to be. Let's build a simple system using the Roar gem, Rails and Sinatra and discuss the benefits and drawbacks we get from distributed hypermedia systems.
+  video_provider: youtube
   video_id: RNcM5J76y2A
 
 - title: "If You See the Mountain Lion, It's Too Late"
@@ -142,6 +152,7 @@
     not be a designer, applying tenets of design thinking to your life and work will
     help you make better decisions, build better stuff, and give you a framework to
     keep life and work moving forward.
+  video_provider: youtube
   video_id: HYxf9v50B1U
 
 - title: "Things You Didn't Know About Exceptions"
@@ -158,6 +169,7 @@
     mechanisms -- including some features you may not have known about -- we'll move
     on to present strategies for implementing a cohesive error-handling policy for
     your application, based on real-world experience.
+  video_provider: youtube
   video_id: NZx4phN7q_w
 
 - title: "Code First, Ask Questions Later"
@@ -170,6 +182,7 @@
     Ever wonder how software is designed and developed at GitHub? Are you curious about how new features are deployed to the site? (Hint: ask the robot.) Want to know why we don't have any managers and don't track vacation days?
 
     This talk will explore running your company like an open source project and give some insight into how GitHub continues to leverage ruby and other open source tools to keep up with massive data loads and a growing community of users.
+  video_provider: youtube
   video_id: 8G51GrNpEyM
 
 - title: "Cognitive Psychology and the Zen of Code"
@@ -192,6 +205,7 @@
     This talk will walk through some of the basics of cognitive psychology and relate
     them back to concrete ways that we as developers can optimize our code for high
     performance in the interpreter between our ears.
+  video_provider: youtube
   video_id: ar4QzWJ87RQ
 
 - title: "Using Your Intuition for Innovation and Decision Making"
@@ -206,6 +220,7 @@
     Learn how to go inside out vs. outside in so you can tap into your
     intuition to make strong decisions and come up with innovative solutions. It might
     just help you invent the next big thing rather than being the next Groupon clone.
+  video_provider: youtube
   video_id: twoQjXLie7Y
 
 - title: "Real Time Rack"
@@ -222,6 +237,7 @@
     it is possible to use Server-Sent Events, WebSockets and akin with Rack today.
     This talk will demonstrate the underlying technologies and how to use them in
     your Ruby application.
+  video_provider: youtube
   video_id: R84ersKcKFc
 
 - title: "Implementing Rails 3.1..."
@@ -236,6 +252,7 @@
     In under two months, my team: * Learned all about Rails 3.1, Backbone.js, CoffeeScript, Sass, and CouchDB * Wrote a new application that deploys open source stacks in the cloud * Created some stacks (e.g., Rails, Tomcat, BIRT) * Went to production on Amazon EC2
 
     Come to this session to see what went right, what went wrong, and how this all compares to one of our other production stacks based on Rails 2.3, JavaScript, jQuery, Redis, and MySQL. In particular, you'll learn how to take advantage of some hot new tools while avoiding many of their pitfalls.
+  video_provider: youtube
   video_id: "-YnvvVm9_0A"
 
 - title: "There Are No Tests"
@@ -261,6 +278,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZCY/
+  video_provider: youtube
   video_id: 0u3NpGhxBq0
 
 - title: "Ruby Messaging Patterns"
@@ -275,6 +293,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZCZ/
+  video_provider: youtube
   video_id: lt4DX-QLlOI
 
 - title: "Cloning Twitter: Rails + Cassandra = Scalable Sharing"
@@ -293,6 +312,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZC0/
+  video_provider: youtube
   video_id: RL7EL1oC6kY
 
 - title: "Lightning Talk: Developing Developers"
@@ -307,6 +327,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZC1/
+  video_provider: youtube
   video_id: LatNKij7AHY
 
 - title: "Start using Jasmine.  Write better JavaScript.  Profit."
@@ -336,6 +357,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZC2/
+  video_provider: youtube
   video_id: GeqPTG8dps8
 
 - title: "Testing Panel"
@@ -355,6 +377,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZC3/
+  video_provider: youtube
   video_id: t9mWIOtvYNs
 
 - title: "Surviving Growing from Zero to 15,000 Selenium Tests"
@@ -373,6 +396,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZC4/
+  video_provider: youtube
   video_id: QWp4PbUhGXg
 
 - title: "A Documentation Talk"
@@ -389,6 +413,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZC5/
+  video_provider: youtube
   video_id: lJd7nlysZeg
 
 - title: "Lightning Talk: Deprecatable"
@@ -398,4 +423,5 @@
   event_name: Rocky Mountain Ruby 2011
   published_at: "2015-04-07"
   description: ""
+  video_provider: youtube
   video_id: UVqMN3xIFl8

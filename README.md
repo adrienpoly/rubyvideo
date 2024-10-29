@@ -64,11 +64,12 @@ bin/dev
 
 ## Linter
 
-The CI performs 3 checks:
+The CI performs these checks:
 
 - erblint
 - standardrb
 - standard (js)
+- prettier (yaml)
 
 Before committing your code you can run `bin/lint` to detect and potentially autocorrect lint errors.
 
