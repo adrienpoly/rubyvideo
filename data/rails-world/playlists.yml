@@ -13,7 +13,7 @@
   slug: rails-world-2023
   banner_background: "#BF281C"
   featured_background: "#BF281C"
-  featured_color: white
+  featured_color: "#FFFFFF"
 
 - id: PLHFP2OPUpCeb182aDN5cKZTuyjn3Tdbqx
   title: Rails World 2024
@@ -27,4 +27,6 @@
   videos_count: 31
   metadata_parser: Youtube::VideoMetadataRailsWorld
   slug: rails-world-2024
-  banner_background: "#432463"
+  banner_background: "#4E2A73"
+  featured_background: "#4E2A73"
+  featured_color: "#FFFFFF"
