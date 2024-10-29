@@ -64,7 +64,7 @@ bin/dev
 
 ## Linter
 
-The CI performs 3 checks:
+The CI performs these checks:
 
 - erblint
 - standardrb
