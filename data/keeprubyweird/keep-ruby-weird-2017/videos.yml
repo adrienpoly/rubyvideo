@@ -1,18 +1,19 @@
 ---
-
-# TODO: talk dates
 # TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
 # TODO: schedule website
 
-- title: 'The Feedback Loop: Growing healthy open source projects'
+- title: "The Feedback Loop: Growing healthy open source projects"
   raw_title: Keep Ruby Weird 2017- The Feedback Loop... by Yehuda Katz & Dave Herman
   speakers:
     - Yehuda Katz
     - Dave Herman
   event_name: Keep Ruby Weird 2017
-  published_at: '2017-11-03'
-  description: 'Keep Ruby Weird 2017- The Feedback Loop: Growing healthy open source
-    projects by Yehuda Katz & Dave Herman'
+  published_at: "2017-11-03"
+  description:
+    "Keep Ruby Weird 2017- The Feedback Loop: Growing healthy open source
+    projects by Yehuda Katz & Dave Herman"
   video_id: YrlsXq8gZdM
 
 - title: An Atypical 'Performance' Talk
@@ -20,18 +21,19 @@
   speakers:
     - Chris Arcand
   event_name: Keep Ruby Weird 2017
-  published_at: '2017-11-03'
+  published_at: "2017-11-03"
   description: Keep Ruby Weird 2017- An Atypical 'Performance' Talk by Chris Arcand
   video_id: s_Yg1nxd2Lk
 
-- title: 'Dungeons & Collaboration: A Player''s Handbook on How To Work With a Distributed Team'
+- title: "Dungeons & Collaboration: A Player's Handbook on How To Work With a Distributed Team"
   raw_title: Keep Ruby Weird 2017- Dungeons & Collaboration... by Rolen Le
   speakers:
     - Rolen Le
   event_name: Keep Ruby Weird 2017
-  published_at: '2017-11-03'
-  description: 'Keep Ruby Weird 2017- Dungeons & Collaboration: A Player’s Handbook
-    on How To Work With a Distributed Team by Rolen Le'
+  published_at: "2017-11-03"
+  description:
+    "Keep Ruby Weird 2017- Dungeons & Collaboration: A Player’s Handbook
+    on How To Work With a Distributed Team by Rolen Le"
   video_id: 3NMY0TfT87s
 
 - title: Learning To See
@@ -39,7 +41,7 @@
   speakers:
     - Ben Scofield
   event_name: Keep Ruby Weird 2017
-  published_at: '2017-11-03'
+  published_at: "2017-11-03"
   description: Keep Ruby Weird 2017- Learning to see by Ben Scofield
   video_id: d4NRZLVlRfw
 
@@ -48,7 +50,7 @@
   speakers:
     - Bradley Grzesiak
   event_name: Keep Ruby Weird 2017
-  published_at: '2017-11-03'
+  published_at: "2017-11-03"
   description: Keep Ruby Weird 2017- kerbal_space_program.rb by Bradley Grzesiak
   video_id: GuuACTd14uc
 
@@ -57,8 +59,9 @@
   speakers:
     - Cecy Correa
   event_name: Keep Ruby Weird 2017
-  published_at: '2017-11-03'
-  description: Keep Ruby Weird 2017- The Psychology of Fake News (and What Tech Can
+  published_at: "2017-11-03"
+  description:
+    Keep Ruby Weird 2017- The Psychology of Fake News (and What Tech Can
     Do About It) by Cecy Correa
   video_id: FwR4JX6ulMw
 
@@ -70,7 +73,7 @@
     - Jordan Reuter
     - Nickolas Means
   event_name: Keep Ruby Weird 2017
-  published_at: '2017-11-03'
+  published_at: "2017-11-03"
   description: |-
     Keep Ruby Weird 2017- Lightning Talks by Various Speakers
 
@@ -85,7 +88,8 @@
   speakers:
     - Elle Meredith
   event_name: Keep Ruby Weird 2017
-  published_at: '2017-11-03'
-  description: Keep Ruby Weird 2017- Algorithms to live by and why should we care
+  published_at: "2017-11-03"
+  description:
+    Keep Ruby Weird 2017- Algorithms to live by and why should we care
     by Elle Meredith
   video_id: LCH2re51p7g

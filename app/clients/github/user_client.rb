@@ -1,5 +1,5 @@
-module Github
-  class UserClient < Github::Client
+module GitHub
+  class UserClient < GitHub::Client
     def profile(username)
       get("/users/#{username}")
     end

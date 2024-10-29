@@ -15,6 +15,8 @@
 #
 # rubocop:enable Layout/LineLength
 class User < ApplicationRecord
+  GITHUB_URL_PATTERN = %r{\A(https?://)?(www\.)?github\.com/}i
+
   has_secure_password
 
   has_many :email_verification_tokens, dependent: :destroy
@@ -28,6 +30,8 @@ class User < ApplicationRecord
   validates :password, allow_nil: true, length: {minimum: 6}
   validates :github_handle, presence: true, uniqueness: true, allow_nil: true
 
+  normalizes :github_handle, with: ->(value) { normalize_github_handle(value) }
+
   encrypts :email, deterministic: true
   encrypts :name
 
@@ -37,6 +41,13 @@ class User < ApplicationRecord
 
   before_validation if: :email_changed?, on: :update do
     self.verified = false
+  end
+
+  def self.normalize_github_handle(value)
+    value
+      .gsub(GITHUB_URL_PATTERN, "")
+      .delete("@")
+      .strip
   end
 
   after_update if: :password_digest_previously_changed? do

@@ -1,4 +1,4 @@
-class AddGithubHandleToUser < ActiveRecord::Migration[7.2]
+class AddGitHubHandleToUser < ActiveRecord::Migration[7.2]
   def change
     add_column :users, :github_handle, :string
 

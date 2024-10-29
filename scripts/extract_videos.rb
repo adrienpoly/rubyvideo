@@ -19,7 +19,14 @@ def create_playlist_items(playlist, organisation_slug)
 
   path = "#{File.join(Rails.root, "data_preparation", organisation_slug, playlist.slug)}/videos.yml"
   puts "#{playlist_videos.length} videos have ben added to  : #{playlist.title}"
-  File.write(path, playlist_videos.map { |item| item.to_h.stringify_keys }.to_yaml)
+
+  yaml = playlist_videos.map { |item| item.to_h.stringify_keys }.to_yaml
+
+  yaml = yaml
+    .gsub("- title:", "\n- title:") # Visually separate the talks with a newline
+    .gsub("speakers:\n  -", "speakers:\n    -") # Indent the first speaker name for readability
+
+  File.write(path, yaml)
 end
 
 # this is the main loop

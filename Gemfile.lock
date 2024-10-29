@@ -206,16 +206,16 @@ GEM
       raabro (~> 1.4)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    google-protobuf (4.28.0-aarch64-linux)
+    google-protobuf (4.28.2-aarch64-linux)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.28.0-arm64-darwin)
+    google-protobuf (4.28.2-arm64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.28.0-x86_64-darwin)
+    google-protobuf (4.28.2-x86_64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.28.0-x86_64-linux)
+    google-protobuf (4.28.2-x86_64-linux)
       bigdecimal
       rake (>= 13)
     groupdate (6.5.1)
@@ -364,7 +364,7 @@ GEM
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
-    puma (6.4.2)
+    puma (6.4.3)
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
@@ -428,7 +428,7 @@ GEM
     regexp_parser (2.9.2)
     reline (0.5.10)
       io-console (~> 0.5)
-    rexml (3.3.7)
+    rexml (3.3.9)
     rubocop (1.65.1)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)

@@ -1,27 +1,65 @@
 <div class="container my-8 w-full flex flex-col gap-4">
   <% back_path = params[:back_to].presence || talks_path %>
   <% back_to_title = params[:back_to_title].presence || "Talks" %>
-  <%= link_to back_path do %>
-    <div class="flex items-center gap-2 title text-primary">
-      <%= heroicon :arrow_long_left, class: "transition-arrow" %>
-      <div style="view-transition-name: title"><%= back_to_title %></div>
-    </div>
-  <% end %>
-  <% cache [@talk, @related_talks, Current.user&.admin?] do %>
-    <div class="w-full flex">
-      <div class="flex-grow">
-        <%= render partial: "talks/talk", locals: {talk: @talk, admin: Current.user&.admin?} %>
-      </div>
-      <div class="gap-4 w-96 flex-shrink-0 hidden md:flex md:flex-col px-4">
-        <%#= turbo_frame_tag "recommended_talks", target: "_top", src: talk_recommendations_path(@talk) %>
-        <h2 class="text-neutral mb- mt-2 text-base"><%= @talk.event.name %></h2>
 
-        <div class="flex flex-col gap-2 max-h-[500px] overflow-y-scroll">
-          <%= render partial: "talks/card_horizontal",
-                collection: @related_talks,
-                as: :talk,
-                locals: {compact: true, current_talk: @talk} %>
+  <div class="w-full flex">
+    <div class="flex-grow">
+      <%= link_to back_path do %>
+        <div class="flex items-center gap-2 title text-base text-primary mb-4">
+          <%= heroicon :arrow_long_left, class: "transition-arrow" %>
+          <div style="view-transition-name: title"><%= back_to_title %></div>
         </div>
+      <% end %>
+
+      <% cache [@talk, @related_talks] do %>
+        <%= render partial: "talks/talk", locals: {talk: @talk} %>
+      <% end %>
+    </div>
+
+    <div class="gap-4 w-96 flex-shrink-0 hidden md:flex md:flex-col px-4">
+      <%= link_to @talk.event.name, event_path(@talk.event), class: "text-neutral text-base text-lg font-bold hover:underline" %>
+
+      <div class="flex flex-col gap-2 max-h-[500px] overflow-y-scroll">
+        <%= render partial: "talks/card_horizontal",
+              collection: @related_talks,
+              as: :talk,
+              locals: {compact: true, current_talk: @talk} %>
+      </div>
+    </div>
+  </div>
+
+  <%= link_to event_path(@talk.event), id: "explore-event", class: "card bg-gray-200 hover:bg-gray-300/80 transition-bg duration-300 ease-in-out w-full flex flex-row px-6 py-6 gap-8 mt-4 overflow-hidden" do %>
+    <div class="aspect-video hidden md:block">
+      <% event_talk = @talk.event.talks.excluding(@talk).sample || @talk %>
+
+      <%= image_tag event_talk.thumbnail_sm,
+            srcset: ["#{event_talk.thumbnail_lg} 2x"],
+            id: dom_id(event_talk),
+            alt: "explore all talks recorded at #{@talk.event.name}",
+            class: "h-24 aspect-video rounded-xl" %>
+    </div>
+
+    <div class="flex flex-col w-full flex-1 self-start">
+      <span class="text-lg font-semibold sm:text-md">Explore all talks recorded at <%= @talk.event.name %></span>
+
+      <div class="avatar-group -space-x-3 rtl:space-x-reverse mt-4">
+        <% speakers_with_avatars = @talk.event.speakers.where.not(github: "").sample(12) %>
+
+        <% speakers_with_avatars.each do |speaker| %>
+          <div class="avatar bg-white">
+            <div class="w-8">
+              <img src="<%= speaker.github_avatar_url %>" loading="lazy">
+            </div>
+          </div>
+        <% end %>
+
+        <% if @talk.event.speakers.count > speakers_with_avatars.count %>
+          <div class="avatar placeholder">
+            <div class="bg-neutral text-neutral-content w-8">
+              <span>+<%= @talk.event.speakers.count - speakers_with_avatars.count %></span>
+            </div>
+          </div>
+        <% end %>
       </div>
     </div>
   <% end %>

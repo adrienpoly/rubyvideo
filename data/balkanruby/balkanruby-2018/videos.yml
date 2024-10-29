@@ -1,22 +1,33 @@
 ---
-- title: "Trailblazer"
-  raw_title: Trailblazer – Nick Sutterer – Balkan Ruby 2018
+# TODO: talk dates
+
+# Website: https://2018.balkanruby.com
+# Schedule: https://2018.balkanruby.com/schedule
+
+## Day 1 - Friday
+
+# Registration and morning coffee
+
+- title: "UTC is Enough for Everybody, Right?"
+  raw_title: UTC is Enough for Everybody, Right? – Zach Holman – Balkan Ruby 2018
   speakers:
-    - Nick Sutterer
+    - Zach Holman
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
-    Whenever Open-Source meets deep and profound debates about architecting
-    software, and there's free beers involved, Nick Sutterer must be just around the
-    corner. Say "Hi!" to him, he loves people.
-  video_id: bhxD9n-UWQ0
+    Zach Holman is a developer living in San Francisco. He joined GitHub
+    in 2010 as one of their first engineering hires, and helped build and grow their
+    product and culture over five years. Currently he’s the founder and CEO of During,
+    a new calendar to help you during your day. He also advises startups, including
+    GitLab and Dockbit.
+  video_id: 44i-H2bn6vM
 
 - title: "GraphQL"
   raw_title: GraphQL – Robert Mosolgo – Balkan Ruby 2018
   speakers:
     - Robert Mosolgo
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
     Robert is a Ruby developer at GitHub, focused on the GraphQL API. In
     his free time, he likes spending time with his family, reading about programming
@@ -28,7 +39,7 @@
   speakers:
     - Gabriela Luhova
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
     Rails Girls mentor since 2015. Ruby on Rails developer at Tutuf. Faculty
     of Mathematics and Informatics at the Sofia University graduate. Took part in
@@ -36,12 +47,14 @@
     is giving me motivation and inspiration.
   video_id: B6S0jdGhkl0
 
+# Lunch
+
 - title: "The Modern Prometheus"
   raw_title: The Modern Prometheus – Piotr Szotkowski – Balkan Ruby 2018
   speakers:
     - Piotr Szotkowski
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description: Hacker scientist. Assistant professor at Warsaw University of Technology.
   video_id: MszdAuNTukk
 
@@ -50,7 +63,7 @@
   speakers:
     - Dinah Shi
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
     Dinah is wrapping up her engineering degree at the University of Waterloo.
     In 2017, she spent four months backpacking around Europe and China while looking
@@ -59,12 +72,14 @@
     options in Ruby on Rails.
   video_id: BwNbnkUSzm8
 
+# Coffee break
+
 - title: "Start your Open Source journey with Ruby Bench"
   raw_title: Start your Open Source journey with Ruby Bench – Marko Bogdanović – Balkan Ruby 2018
   speakers:
     - Marko Bogdanović
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
     Spent last summer crafting RubyBench as a participant of Google Summer
     of Code. Recently joined guys at the Semaphore CI as a full time Ruby newbie.
@@ -80,7 +95,7 @@
     - Serdar Doğruyol
     - Nick Sutterer
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description: Bozhidar Batsov moderates a panel about the future of Ruby with Vladimir Dementyev, Serdar Doğruyol and Nick Sutterer.
   video_id: uT4Cth4iChU
 
@@ -89,7 +104,7 @@
   speakers:
     - Vladimir Dementyev
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
     Vladimir is a mathematician who found his happiness in programming
     Ruby and Erlang, contributing to open source and being an Evil Martian. Author
@@ -97,12 +112,17 @@
   video_id: rOcrme82vC8
   slides_url: https://speakerdeck.com/palkan/balkanruby-2018-take-your-slow-tests-to-the-doctor
 
+
+## Day 2 - Saturday
+
+# Morning coffee
+
 - title: "How to get to zero unhandled exceptions in production"
   raw_title: How to get to zero unhandled exceptions in production – Radoslav Stankov – Balkan Ruby 2018
   speakers:
     - Radoslav Stankov
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
     Radoslav is a web developer for more than a decade. He believes that
     frontend and backend are equally important. In the last several years he juggles
@@ -115,41 +135,47 @@
   speakers:
     - Armin Pašalić
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
     Software builder, mostly Ruby and a bit of Go. Passionate about "proper"
     testing, clean architecture and DDD. Currently busy constructing a distributed
     software system with the best colleagues ever at solarisBank AG.
   video_id: 6EX70LJvLbQ
 
+# TODO: missing talk: Sameer Deshmukh - Ferrari Driven Development: superfast Ruby with Rubex
+
+# Lunch
+
 - title: "My Ruby is a Paintbrush. My Ruby is a Synth"
   raw_title: My Ruby is a Paintbrush. My Ruby is a Synth. – Jan Krutisch – Balkan Ruby 2018
   speakers:
     - Jan Krutisch
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
     Jan is a software developer, tech writer, speaker and multi purpose
     geek.
   video_id: O8Z8doHL4qE
 
-- title: "Crystal: A language for humans and computers"
+- title: "Crystal: A Language for Humans and Computers"
   raw_title: "Crystal: A language for humans and computers – Serdar Doğruyol – Balkan Ruby 2018"
   speakers:
     - Serdar Doğruyol
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
     Rubyist, Crystal Evangelist, Creator of Kemal – a lightning fast, super
     simple web framework written in Crystal.
   video_id: xmkEGKacKeU
 
-- title: "What I learned from building a twitter Art Bot"
+# Coffee Break
+
+- title: "What I Learned From Building a Twitter Art Bot"
   raw_title: What I learned from building a twitter Art Bot – Nynne Just Christoffersen – Balkan Ruby 2018
   speakers:
     - Nynne Just Christoffersen
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
     Nynne Just Christoffersen is a Copenhagen-based developer with a background
     in Art and Design History. In her spare time she enjoys her unhealthy obsession
@@ -169,20 +195,18 @@
     - Andreas Finger # Gem Dependencies
     - Robert Pawlas # GraphQL - Is It Worth Using It?
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description: ""
   video_id: lpkePkbYeoI
 
-- title: "UTC is Enough for Everybody, Right?"
-  raw_title: UTC is Enough for Everybody, Right? – Zach Holman – Balkan Ruby 2018
+- title: "Trailblazer"
+  raw_title: Trailblazer – Nick Sutterer – Balkan Ruby 2018
   speakers:
-    - Zach Holman
+    - Nick Sutterer
   event_name: Balkan Ruby 2018
-  published_at: "2018-10-08"
+  published_at: "2018-05-26"
   description:
-    Zach Holman is a developer living in San Francisco. He joined GitHub
-    in 2010 as one of their first engineering hires, and helped build and grow their
-    product and culture over five years. Currently he’s the founder and CEO of During,
-    a new calendar to help you during your day. He also advises startups, including
-    GitLab and Dockbit.
-  video_id: 44i-H2bn6vM
+    Whenever Open-Source meets deep and profound debates about architecting
+    software, and there's free beers involved, Nick Sutterer must be just around the
+    corner. Say "Hi!" to him, he loves people.
+  video_id: bhxD9n-UWQ0

@@ -1,11 +1,15 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: Future-proofing Your 3rd Party Services
-  raw_title: Rocky Mountain Ruby 2014 - Future-proofing Your 3rd Party Services by
-    Jeffery Matthias
+  raw_title: Rocky Mountain Ruby 2014 - Future-proofing Your 3rd Party Services by Jeffery Matthias
   speakers:
     - Jeffery Matthias
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-20'
+  published_at: "2014-10-20"
   description: |-
     It's 2015... your stakeholders have decided that PayPal is out and Stripe is in. Fortunately, you're a planner. You have all of your PayPal interactions isolated in an adapter gem and your interface is clearly defined, easy to re-implement and enforce. Rewriting your adapter isn't small, but it is surmountable and can be estimated accurately so it won't lead to surprises. You win.
 
@@ -17,12 +21,11 @@
   video_id: CXdULnPpMsc
 
 - title: Machine Learning for Fun and Profit
-  raw_title: Rocky Mountain Ruby 2014 - Machine Learning for Fun and Profit by John
-    Paul Ashenfelter
+  raw_title: Rocky Mountain Ruby 2014 - Machine Learning for Fun and Profit by John Paul Ashenfelter
   speakers:
     - John Paul Ashenfelter
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-20'
+  published_at: "2014-10-20"
   description: |-
     Your Rails app is full of data that can (and should!) be turned into useful information with some simple machine learning techniques. We'll look at basic techniques that are both immediately applicable and the foundation for more advanced analysis -- starting with your Users table.
 
@@ -33,12 +36,12 @@
     http://amara.org/v/F0op/
   video_id: KC5MtKHm1O4
 
-- title: '80,00 Plaintext Passwords'
+- title: "80,00 Plaintext Passwords"
   raw_title: Rocky Mountain Ruby 2014 - 80,00 Plaintext Passwords
   speakers:
     - T.J. Schuck
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-20'
+  published_at: "2014-10-20"
   description: |-
     fluffmuffin, peppercorn, gilligan — those are just a few of our users' plaintext passwords.
 
@@ -58,7 +61,7 @@
   speakers:
     - Sarah Mei
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-20'
+  published_at: "2014-10-20"
   description: |-
     As engineers working on a team, we all make technical decisions. What’s the best way to implement this? Where should this function live? Is this library worth using? Some decisions, though, are larger, riskier and more important than that. But generally, they’re also far less frequent.
 
@@ -69,12 +72,12 @@
     http://amara.org/v/F0or/
   video_id: F7D5ZGlioj4
 
-- title: 'What it Means to Have Good Test Covearage...'
+- title: "What it Means to Have Good Test Covearage..."
   raw_title: Rocky Mountain Ruby 2014 - What it Means to Have Good Test Covearage...
   speakers:
     - Arjun Sharma
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-20'
+  published_at: "2014-10-20"
   description: |-
     What it Means to Have Good Test Covearage, and why it Matters by Arjun Sharma
 
@@ -96,7 +99,7 @@
     - Tim Schmelmer
     - Jon McCartie
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-21'
+  published_at: "2014-10-21"
   description: |-
     00:00:00 - Teen Hackathons by Anna Fowles-Winkler
 
@@ -118,7 +121,7 @@
   speakers:
     - Marcos Castilho
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-21'
+  published_at: "2014-10-21"
   description: |-
     Micro services are a wonderful thing! Until you try to test them in integration. Do you write a stub for each service? Point them to a test environment? Raise local instances for every dependency? I've tried all these approaches and they are all painful. Can't we can do better?
 
@@ -129,7 +132,7 @@
     http://amara.org/v/F0ou/
   video_id: L22NNcfrbYI
 
-- title: 'Feats of Daring with the Ruby Standard Library'
+- title: "Feats of Daring with the Ruby Standard Library"
   raw_title: Rocky Mountain Ruby 2014 - Feats of Daring with the Ruby Standard Library
   speakers:
     - Jen Diamond
@@ -137,7 +140,7 @@
     - Omowale Oniyide
     - Josh Loper
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-21'
+  published_at: "2014-10-21"
   description: |-
     Feats of Daring with the Ruby Standard Libaray by Jen Diamond, Stephanie Betancourt, Omowale Oniyide and Josh Loper
 
@@ -153,7 +156,7 @@
   speakers:
     - Sarah Allen
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-22'
+  published_at: "2014-10-22"
   description: |-
     Playing is simple, even a child can do it, but designing something simple is hard. How can we combine prototyping with production software to get our ideas in front of real people? How can we evolve our software over time? How do we measure if something is fun?
 
@@ -169,7 +172,7 @@
   speakers:
     - Doc Norton
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-22'
+  published_at: "2014-10-22"
   description: |-
     Technical Debt has become a catch-all phrase for any code that needs to be re-worked. Much like Refactoring has become a catch-all phrase for any activity that involves changing code. These fundamental misunderstandings and comfortable yet mis-applied metaphors have resulted in a plethora of poor decisions. What is technical debt? What is not technical debt? Why should we care? What is the cost of misunderstanding? What do we do about it? Doc discusses the origins of the metaphor, what it means today, and how we properly identify and manage technical debt.
 
@@ -179,12 +182,13 @@
   video_id: S2pS9hN2Fws
 
 - title: Under the Hood of Ruby's Generational Garbage Collector
-  raw_title: Rocky Mountain Ruby 2014 - Under the Hood of Ruby's Generational Garbage
+  raw_title:
+    Rocky Mountain Ruby 2014 - Under the Hood of Ruby's Generational Garbage
     Collector by Hemant Kumar
   speakers:
     - Hemant Kumar
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-22'
+  published_at: "2014-10-22"
   description: |-
     Ruby - 2.1 brought generational GC to Ruby and instrumentation support. In this talk, I am going explain:
 
@@ -208,7 +212,7 @@
     - Ryan Melton
     - Shelby Kelly
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-22'
+  published_at: "2014-10-22"
   description: |-
     00:00:00 Asset Pipeline Tips and Tricks by Risa Batta
 
@@ -234,12 +238,13 @@
   video_id: DqoKIKWf2HM
 
 - title: 'Your Company is "Awesome" (But is "Company Culture" a lie?)'
-  raw_title: Rocky Mountain Ruby 2014 - Your Company is "Awesome" (But is "Company
+  raw_title:
+    Rocky Mountain Ruby 2014 - Your Company is "Awesome" (But is "Company
     Culture" a lie?)
   speakers:
     - Pamela Vickers
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-27'
+  published_at: "2014-10-27"
   description: |-
     Your Company is "Awesome" (But is "Company Culture" a lie?) by Pamela Vickers
 
@@ -254,13 +259,14 @@
     http://amara.org/v/F2yY/
   video_id: h1UayuSXBcg
 
-- title: 'Native iOS Development with RubyMotion and  UnderOS'
-  raw_title: Rocky Mountain Ruby 2014 - Native iOS Development with RubyMotion and
+- title: "Native iOS Development with RubyMotion and  UnderOS"
+  raw_title:
+    Rocky Mountain Ruby 2014 - Native iOS Development with RubyMotion and
     UnderOS
   speakers:
     - Nikolay Nemshilov
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-27'
+  published_at: "2014-10-27"
   description: |-
     Native iOS Development with RubyMotion and UnderOS by Nikolay Nemshilov
 
@@ -280,7 +286,7 @@
   speakers:
     - Julian Cheal
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-28'
+  published_at: "2014-10-28"
   description: |-
     Web apps are great and everything, but imagine using Ruby to fly drones and make them dance to the sounds of dubstep! Or to control disco lights and other robots! Sounds fun, right? In this talk, we will not only explore how we can write code to make this possible, but it will also be full of exciting, interactive (and possibly dangerous ;) ) demos!
 
@@ -294,7 +300,7 @@
   speakers:
     - Mike AbiEzzi
   event_name: Rocky Mountain Ruby 2014
-  published_at: '2014-10-28'
+  published_at: "2014-10-28"
   description: |-
     Rails models are simple, but your domain’s models might not be as simple as Rails would like them to be.
 

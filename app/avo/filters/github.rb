@@ -1,5 +1,5 @@
-class Avo::Filters::Github < Avo::Filters::BooleanFilter
-  self.name = "Github handle"
+class Avo::Filters::GitHub < Avo::Filters::BooleanFilter
+  self.name = "GitHub handle"
 
   def apply(request, query, values)
     return query if values["has_github"] && values["no_github"]
@@ -14,8 +14,8 @@ class Avo::Filters::Github < Avo::Filters::BooleanFilter
 
   def options
     {
-      has_github: "With Github handle",
-      no_github: "Without Github handle"
+      has_github: "With GitHub handle",
+      no_github: "Without GitHub handle"
     }
   end
 end

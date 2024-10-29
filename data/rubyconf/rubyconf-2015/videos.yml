@@ -1,7 +1,7 @@
 ---
-
-# TODO: talk dates
 # TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
 # TODO: schedule website
 
 - title: Pluck It
@@ -9,7 +9,7 @@
   speakers:
     - Adam Cuppy
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     Pluck It by Adam Cuppy
 
@@ -20,12 +20,12 @@
     But, when can you benefit from extracting a micro-library? And, how do you build and publish that code into a RubyGem? I'll go through the process, from A to Z.
   video_id: r5l0CaxqSvA
 
-- title: 'Keynote: Leagues of Sea and Sky'
-  raw_title: 'RubyConf 2015 - Keynote: Leagues of Sea and Sky by Jeff Norris'
+- title: "Keynote: Leagues of Sea and Sky"
+  raw_title: "RubyConf 2015 - Keynote: Leagues of Sea and Sky by Jeff Norris"
   speakers:
     - Jeff Norris
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     Keynote: Leagues of Sea and Sky by Jeff Norris
 
@@ -37,7 +37,7 @@
   speakers:
     - Laura Eck
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     The Not So Rational Programmer by Laura Eck
 
@@ -46,12 +46,12 @@
     This talk will help you to recognize their patterns in your thinking and behavior and (since we unfortunately can’t quite de-bug our own brains yet) to monkey-patch them - in order to become a more efficient, more cooperative and ultimately more successful developer.
   video_id: E-5VhMUYmVY
 
-- title: 'Inside Ruby''s VM: The TMI Edition.'
-  raw_title: 'RubyConf 2015 - Inside Ruby''s VM: The TMI Edition. by Aaron Patterson'
+- title: "Inside Ruby's VM: The TMI Edition."
+  raw_title: "RubyConf 2015 - Inside Ruby's VM: The TMI Edition. by Aaron Patterson"
   speakers:
     - Aaron Patterson
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     Inside Ruby's VM: The TMI Edition. by Aaron Patterson
 
@@ -63,7 +63,7 @@
   speakers:
     - Justin Searls
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     How to Stop Hating your Test Suite by Justin Searls
 
@@ -79,7 +79,7 @@
   speakers:
     - Nate Berkopec
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     A Guided Read of Minitest by Nate Berkopec
 
@@ -95,7 +95,7 @@
   speakers:
     - Andy Croll
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     Your own 'Images as a Service'
 
@@ -113,7 +113,7 @@
   speakers:
     - Craig Buchek
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     Ruby Preserves by Craig Buchek
 
@@ -134,7 +134,7 @@
     - Thomas E Enebo
     - Charles Nutter
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     JRuby 9000 Is Out; Now What? by  Thomas Enebo and Charles Nutter
 
@@ -151,7 +151,7 @@
     - Nikki Murray
     - Maggie Epps
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     Making it on your own and the pitfalls of gem dependencies by Nikki Murray and Maggie Epps
 
@@ -167,7 +167,7 @@
   speakers:
     - Sean Marcia
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     Ruby in 79 AD (Open Sourcing my Role as Indiana Jones) by sean Marcia
 
@@ -183,7 +183,7 @@
   speakers:
     - Michel Martens
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     Mind Over Error by Michel Martens
 
@@ -199,7 +199,7 @@
   speakers:
     - Nickolas Means
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     How to Crash an Airplane
 
@@ -208,12 +208,12 @@
     Flight crews and software teams actually have a lot in common, and there's much we can learn from how the best crews do their jobs. What can we learn from the story of United 232? While this talk won't earn you your pilot's license, you'll definitely come away with some fresh ideas on how to make your team even more amazing.
   video_id: S2FUSr3WlPk
 
-- title: 'RuntimeError: can''t save WORLD'
-  raw_title: 'RubyConf 2015 - RuntimeError: can''t save WORLD by Sonja Heinen'
+- title: "RuntimeError: can't save WORLD"
+  raw_title: "RubyConf 2015 - RuntimeError: can't save WORLD by Sonja Heinen"
   speakers:
     - Sonja Heinen
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     RuntimeError: can't save WORLD
 
@@ -227,7 +227,7 @@
   speakers:
     - Amar Shah
   event_name: RubyConf 2015
-  published_at: '2015-11-20'
+  published_at: "2015-11-20"
   description: |-
     Working Compassionately with Legacy Code by Amar Shah
 
@@ -239,7 +239,7 @@
   speakers:
     - André Arko
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     How does Bundler work, anyway? by Andre Arko
 
@@ -255,7 +255,7 @@
   speakers:
     - Akira Matsuda
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Ruby 2 Methodology by Akira Matsuda
 
@@ -274,7 +274,7 @@
     - Yurie Yamane
     - Maysayoshi Takahashi
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Domo Arigato mruby Roboto by Yurie Yamane and Maysayoshi Takahashi
 
@@ -287,12 +287,13 @@
     http://amara.org/v/H0pd/
   video_id: 7qWZ5w5v7Eg
 
-- title: 'Keynote: Stupid Ideas for Many Computers'
-  raw_title: 'RubyConf 2015 - Keynote: Stupid Ideas for Many Computers by Aja Hammerly'
+- title: "Keynote: Stupid Ideas for Many Computers"
+  raw_title: "RubyConf 2015 - Keynote: Stupid Ideas for Many Computers by Aja Hammerly"
   speakers:
     - Aja Hammerly
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
+  slides_url: https://thagomizer.com/files/rubyconf_15.pdf
   description: |-
     Keynote: Stupid Ideas for Many Computers by Aja Hammerly
 
@@ -312,7 +313,7 @@
   speakers:
     - Amanda Quaranto
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Nobody Expects an Inquisition! - A Programmer’s Guide to Asking Questions by Amanda Quaranto
 
@@ -328,7 +329,7 @@
   speakers:
     - Ian Duggan
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Stately State Machines with Ragel by Ian Duggan
 
@@ -344,7 +345,7 @@
   speakers:
     - Josh Freeman
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Communicating Intent Through Git by Josh Freeman
 
@@ -360,7 +361,7 @@
   speakers:
     - Petr Chalupa
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Writing concurrent libraries for all Ruby runtimes by Petr Chalupa
 
@@ -371,13 +372,13 @@
     We’ll investigate various Ruby runtime differences that we’ve abstracted away with the synchronization layer of the concurrent-ruby gem. We'll go down to JRuby extensions, even volatile fields and compare-and-swap operations.
   video_id: r5kwIm3Q6Y0
 
-- title: 'Hardware Hacking: You Can Be A Maker'
-  raw_title: 'RubyConf 2015 - Hardware Hacking: You can be a Maker by Christopher Sexton and Leah Sexton'
+- title: "Hardware Hacking: You Can Be A Maker"
+  raw_title: "RubyConf 2015 - Hardware Hacking: You can be a Maker by Christopher Sexton and Leah Sexton"
   speakers:
     - Christopher Sexton
     - Leah Sexton
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Hardware Hacking: You can be a Maker by Christopher Sexton and Leah Sexton
 
@@ -391,7 +392,7 @@
   speakers:
     - Darin Wilson
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Learn to Make Music. With Ruby. by Darin Wilson
 
@@ -409,7 +410,7 @@
   speakers:
     - Federico Soria
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Mo Money Mo Problems (with Ruby) by Federico Soria
 
@@ -425,7 +426,7 @@
   speakers:
     - Randy Coulman
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Shall We Play A Game? by Randy Coulman
 
@@ -438,12 +439,12 @@
     http://amara.org/v/H0nI/
   video_id: FXVj2kauFCM
 
-- title: 'GDB: A Gentle Intro'
-  raw_title: 'RubyConf 2015 - GDB: A Gentle Intro by Jason Clark'
+- title: "GDB: A Gentle Intro"
+  raw_title: "RubyConf 2015 - GDB: A Gentle Intro by Jason Clark"
   speakers:
     - Jason Clark
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     GDB: A Gentle Intro by Jason Clark
 
@@ -463,19 +464,19 @@
   speakers:
     - Micah Adams
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Not so Neo In the Matrix by Micah Adams
 
     Matrices are powerful data structures that are used for all sorts of interesting problems- from 3d graphics, to image processing, and cryptography. However, the mighty matrix can be used to solve more mundane problems as well. This talk attempts to demystify the matrix and offer real life examples for using this powerful but understandable data structure.
   video_id: GCqd_BcOrsU
 
-- title: 'Time Flies Like An Arrow; Fruit Flies Like A Banana: Parsers for Great Good'
+- title: "Time Flies Like An Arrow; Fruit Flies Like A Banana: Parsers for Great Good"
   raw_title: RubyConf 2015 - Time flies like an arrow; Fruit flies like a banana... by Hsing-Hui Hsu
   speakers:
     - Hsing-Hui Hsu
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Time flies like an arrow; Fruit flies like a banana: Parsers for Great Good by Hsing-Hui Hsu
 
@@ -490,7 +491,7 @@
     - Evan Phoenix
     - Adam Keys
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     Bikeshed! Live! by Evan Phoenix and Adam Keys
 
@@ -508,7 +509,7 @@
   speakers:
     - Eileen M Uchitelle
   event_name: RubyConf 2015
-  published_at: '2015-11-21'
+  published_at: "2015-11-21"
   description: |-
     How to Performance by Eileen Uchitelle
 
@@ -526,7 +527,7 @@
   speakers:
     - Kinsey Ann Durham
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
+  published_at: "2015-11-22"
   description: |-
     Code, Culture and the Pursuit of Happiness by Kinsey Ann Durham
 
@@ -542,7 +543,7 @@
   speakers:
     - Andrew Faraday
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
+  published_at: "2015-11-22"
   description: |-
     We're bringing Just a Minute -- the popular British gameshow format -- to RubyConf! The rules of the game are simple, the results are hilarious, and who knows, you might even learn something new! Come join us to see some of your favorite Rubyists be utterly silly... for a minute at a time, at least.
 
@@ -554,7 +555,7 @@
   speakers:
     - John Cinnamond
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
+  published_at: "2015-11-22"
   description: |-
     Softly, softly typing by John Cinnamond
 
@@ -574,7 +575,7 @@
   speakers:
     - Noel Rappin
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
+  published_at: "2015-11-22"
   description: |-
     I Estimate this Talk will be 20 Minutes Long, Give or Take 10 Minutes by Noel Rappin
 
@@ -589,12 +590,12 @@
     http://amara.org/v/H0zn/
   video_id: jBMwT53oGsM
 
-- title: 'Moneyball At The Keyboard: Lessons on How To Scout Talented Developers'
-  raw_title: 'RubyConf 2015 - Moneyball at the keyboard: Lessons on how to Scout Talented Developers'
+- title: "Moneyball At The Keyboard: Lessons on How To Scout Talented Developers"
+  raw_title: "RubyConf 2015 - Moneyball at the keyboard: Lessons on how to Scout Talented Developers"
   speakers:
     - Adam Jonas
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
+  published_at: "2015-11-22"
   description: |-
     Moneyball at the keyboard: Lessons on how to Scout Talented Developers by Adam Jonas
 
@@ -610,7 +611,7 @@
   speakers:
     - Mat Brown
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
+  published_at: "2015-11-22"
   description: |-
     Seven Habits of Highly Effective Gems by Mat Brown
 
@@ -626,7 +627,7 @@
   speakers:
     - Chris Mar
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
+  published_at: "2015-11-22"
   description: |-
     The Art of Ruby Technical Interviews by Chris Mar
 
@@ -642,21 +643,21 @@
   speakers:
     - Louisa Barrett
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
+  published_at: "2015-11-22"
   description: |-
     Design Thinking for Rubyists by Louisa Barrett
 
     Everyone has the power to be creative, and design thinking is about shifting your mindset to fully embrace your ability to generate new ideas. Let's explore how to flex those creative muscles -- because while technology needs change, the ability to generate great ideas that resonate with users will never lose value.
   video_id: ruETk-YbQpI
 
-- title: 'Keynote: Ruby 3 Challenges (and Q&A with Matz)'
-  raw_title: 'RubyConf 2015 - Keynote and Q&A: Matz'
+- title: "Keynote: Ruby 3 Challenges (and Q&A with Matz)"
+  raw_title: "RubyConf 2015 - Keynote and Q&A: Matz"
   speakers:
     - Yukihiro "Matz" Matsumoto
     - Evan Phoenix
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
-  description: 'Keynote and Q&A: Matz'
+  published_at: "2015-11-22"
+  description: "Keynote and Q&A: Matz"
   video_id: LE0g2TUsJ4U
 
 - title: The Seven Righteous Fights
@@ -664,7 +665,7 @@
   speakers:
     - Heidi Waterhouse
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
+  published_at: "2015-11-22"
   description: |-
     The Seven Righteous Fights by Heidi Waterhouse
 
@@ -697,7 +698,7 @@
     - Loraine Kanervisto
     - Britni Alexander
   event_name: RubyConf 2015
-  published_at: '2015-11-22'
+  published_at: "2015-11-22"
   description: |-
     1. 00:00 - Michael Hartl - Learn Enough to be Dangerous
     2. 01:45 - David Bock - Cooking Management to Give Back
@@ -726,7 +727,7 @@
   speakers:
     - Danny Guinther
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     A Muggle's Guide to Tail Call Optimization in Ruby by Danny Guinther
 
@@ -746,7 +747,7 @@
   speakers:
     - Sam Phippen
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     Extremely Defensive Coding by Sam Phippen
 
@@ -766,7 +767,7 @@
   speakers:
     - Jerry D'Antonio
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     Everything You Know About the GIL is Wrong by Jerry D'Antonio
 
@@ -782,7 +783,7 @@
   speakers:
     - Jack Danger Canty
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     Ruby's Environment Variable API by Jack DangerCanty
 
@@ -796,7 +797,7 @@
   speakers:
     - David Copeland
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     Storytelling via the Psychology of Professional Wrestling by David Copeland
 
@@ -812,7 +813,7 @@
   speakers:
     - David Bock
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     The Math Behind Mandelbrot by David Bock
 
@@ -824,8 +825,9 @@
   speakers:
     - Tobias Pfeiffer
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
-  description: "Beating Go thanks to the power of randomness by Tobias Pfeiffer \n\nGo
+  published_at: "2015-11-23"
+  description:
+    "Beating Go thanks to the power of randomness by Tobias Pfeiffer \n\nGo
     is a board game that is more than 2,500 years old (yes, this is not about the
     programming language!) and it is fascinating from multiple viewpoints. For instance,
     go bots still can’t beat professional players, unlike in chess.\n\nThis talk will
@@ -841,7 +843,7 @@
   speakers:
     - James Adam
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     Why is nobody using Refinements? by James Adam
 
@@ -854,12 +856,12 @@
     http://amara.org/v/H1VV/
   video_id: qXC9Gk4dCEw
 
-- title: 's/regex/DSLs/: What Regex Teaches Us About DSL Design'
-  raw_title: 'RubyConf 2015 - s/regex/DSLs/: What Regex Teaches Us About DSL Design by Betsy Haibel'
+- title: "s/regex/DSLs/: What Regex Teaches Us About DSL Design"
+  raw_title: "RubyConf 2015 - s/regex/DSLs/: What Regex Teaches Us About DSL Design by Betsy Haibel"
   speakers:
     - Betsy Haibel
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     s/regex/DSLs/: What Regex Teaches Us About DSL Design by Betsy Haibel
 
@@ -870,12 +872,12 @@
     http://amara.org/v/H1VU/
   video_id: wUWwDrP_6Zw
 
-- title: 'Changing the Unchangeable: The Hows and Whys of Immutable Data Structures'
+- title: "Changing the Unchangeable: The Hows and Whys of Immutable Data Structures"
   raw_title: RubyConf 2015 - Changing the Unchangeable... by Brad Urani
   speakers:
     - Brad Urani
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     Changing the Unchangeable: The Hows and Whys of Immutable Data Structures by Brad Urani
 
@@ -891,8 +893,9 @@
   speakers:
     - Eric Weinstein
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
-  description: "The Hitchhiker's Guide to Ruby GC by Eric Weinstein \n\nWhen Ruby
+  published_at: "2015-11-23"
+  description:
+    "The Hitchhiker's Guide to Ruby GC by Eric Weinstein \n\nWhen Ruby
     programs slow down, the usual culprits—database queries, superlinear time complexity—aren't
     always the real problem. Ruby's object space and garbage collection are a surprisingly
     rich and oft-misunderstood area of the language, and one where performance issues
@@ -907,7 +910,7 @@
   speakers:
     - Lito Nicolai
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     Botany with Bytes by Lito Nicolai
 
@@ -925,7 +928,7 @@
   speakers:
     - Terence Lee
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     Building CLI Apps for Everyone by Terence Lee
 
@@ -946,12 +949,12 @@
     http://amara.org/v/H12H/
   video_id: zv_bCpOCXxo
 
-- title: 'Cucumbers Have Layers: A Love Story'
-  raw_title: 'RubyConf 2015 - Cucumbers Have Layers: A Love Story by Sam Livingston-Gray'
+- title: "Cucumbers Have Layers: A Love Story"
+  raw_title: "RubyConf 2015 - Cucumbers Have Layers: A Love Story by Sam Livingston-Gray"
   speakers:
     - Sam Livingston-Gray
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     Cucumbers Have Layers: A Love Story Sam Livingston-Gray
 
@@ -971,7 +974,7 @@
   speakers:
     - Adam Walker
   event_name: RubyConf 2015
-  published_at: '2015-11-23'
+  published_at: "2015-11-23"
   description: |-
     Tagging your world with RFID by Adam Walker
 
@@ -987,7 +990,7 @@
   speakers:
     - Joe Mastey
   event_name: RubyConf 2015
-  published_at: '2015-11-24'
+  published_at: "2015-11-24"
   description: |-
     Manage Your Energy, Not Your Time by Joe Mastey
 
@@ -998,12 +1001,12 @@
     http://amara.org/v/H12q/
   video_id: 505ybcH0f6s
 
-- title: 'Messenger: The (Complete) Story of Method Lookup'
-  raw_title: 'RubyConf 2015 - Messenger: The (Complete) Story of Method Lookup by Jay McGavren'
+- title: "Messenger: The (Complete) Story of Method Lookup"
+  raw_title: "RubyConf 2015 - Messenger: The (Complete) Story of Method Lookup by Jay McGavren"
   speakers:
     - Jay McGavren
   event_name: RubyConf 2015
-  published_at: '2015-11-24'
+  published_at: "2015-11-24"
   description: |-
     Messenger: The (Complete) Story of Method Lookup by Jay McGavren
 
@@ -1021,7 +1024,7 @@
   speakers:
     - Rebecca Sliter
   event_name: RubyConf 2015
-  published_at: '2015-11-24'
+  published_at: "2015-11-24"
   description: |-
     A Tale of Two Feature Flags by Rebecca Sliter
 
@@ -1039,7 +1042,7 @@
   speakers:
     - Caleb Thompson
   event_name: RubyConf 2015
-  published_at: '2015-11-24'
+  published_at: "2015-11-24"
   description: |-
     The Joy of Miniature Painting by Caleb Thompson
 
@@ -1059,7 +1062,7 @@
   speakers:
     - Tom Macklin
   event_name: RubyConf 2015
-  published_at: '2015-11-24'
+  published_at: "2015-11-24"
   description: |-
     Using Ruby In Security Critical Applications by Tom Macklin
 
@@ -1075,7 +1078,7 @@
   speakers:
     - Brandon Hays
   event_name: RubyConf 2015
-  published_at: '2015-11-25'
+  published_at: "2015-11-25"
   description: |-
     We talk a lot about building well-crafted software. But what about a well-crafted career in software? Who is making sure you’re on track for the life you want five, ten, thirty years from now?
 
@@ -1084,24 +1087,24 @@
     If you’ve ever felt the existential dread of “climbing the walls” at your job, you’re not alone. We’ll explore why and share some concrete steps you can take now to create a long, happy, rewarding career.
   video_id: TrLDU6u_-rY
 
-- title: 'Keynote: Consequences of an Insightful Algorithm'
-  raw_title: 'RubyConf 2015 - Keynote: Consequences of an Insightful Algorithm by Carina C. Zona'
+- title: "Keynote: Consequences of an Insightful Algorithm"
+  raw_title: "RubyConf 2015 - Keynote: Consequences of an Insightful Algorithm by Carina C. Zona"
   speakers:
     - Carina C. Zona
   event_name: RubyConf 2015
-  published_at: '2015-12-07'
+  published_at: "2015-12-07"
   description: |-
     Keynote: Consequences of an Insightful Algorithm by Carina C. Zona
 
     Coders have ethical responsibilities. We can extract remarkably precise intuitions about people. Do we have a right to know what they didn't consent to share, even when they shared data leading us there? Balancing human needs and business specs can be tough. How do we mitigate against unintended outcomes? In this talk, we look at examples of uncritical programming, & painful results of using insightful data in ways that were benignly intended. You'll learn practices for examining how code might harm individuals. We’ll look at how to flip the paradigm, for consequences that are better for all.
   video_id: Vpr-xDmA2G4
 
-- title: 'String Theory and Time Travel: The Humble Text Editor'
-  raw_title: 'RubyConf 2015 - String Theory and Time Travel: the humble text editor by Colin Fulton'
+- title: "String Theory and Time Travel: The Humble Text Editor"
+  raw_title: "RubyConf 2015 - String Theory and Time Travel: the humble text editor by Colin Fulton"
   speakers:
     - Colin Fulton
   event_name: RubyConf 2015
-  published_at: '2015-12-07'
+  published_at: "2015-12-07"
   description: |-
     String Theory and Time Travel: the humble text editor by Colin Fulton
 

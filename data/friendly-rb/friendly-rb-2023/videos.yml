@@ -1,4 +1,9 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: Zeitwerk Internals
   raw_title: Xavier Noria - Zeitwerk Internals
   speakers:
@@ -197,6 +202,7 @@
     - Jeremy Smith
   event_name: Friendly.rb 2023
   published_at: "2023-12-28"
+  slides_url: https://speakerdeck.com/jeremysmithco/making-it-as-an-indie-developer
   description: |-
     Jeremy Smith is the co-host of the IndieRails podcast and Blue Ridge Ruby organizer.
 
