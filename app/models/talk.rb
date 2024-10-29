@@ -245,17 +245,17 @@ class Talk < ApplicationRecord
       return
     end
 
+    date = static_metadata.try(:date) ||
+      event.start_date ||
+      event.end_date ||
+      static_metadata.published_at ||
+      Date.parse("#{static_metadata.year}-01-01")
+
     assign_attributes(
       event: event,
       title: static_metadata.title,
       description: static_metadata.description,
-      date: (
-        static_metadata.try(:date) ||
-          event.start_date ||
-          event.end_date ||
-          static_metadata.published_at ||
-          Date.parse("#{static_metadata.year}-01-01")
-      ),
+      date: date,
       thumbnail_xs: static_metadata.thumbnail_xs || "",
       thumbnail_sm: static_metadata.thumbnail_sm || "",
       thumbnail_md: static_metadata.thumbnail_md || "",
