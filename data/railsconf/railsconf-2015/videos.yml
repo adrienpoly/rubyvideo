@@ -176,7 +176,7 @@
   speakers:
     - Evan Phoenix
     - Aaron Patterson
-    - Santiago Pastorino,
+    - Santiago Pastorino
     - Godfrey Chan
     - Jeremy Kemper
     - Guillermo Iguaran
@@ -1517,7 +1517,8 @@
 - title: Test Driving your Rails Infrastructure with Chef
   raw_title: RailsConf 2015 - Test Driving your Rails Infrastructure with Chef
   speakers:
-    - Nathen Harvey and Nell Shamrell-Harrington
+    - Nathen Harvey
+    - Nell Shamrell-Harrington
   event_name: RailsConf 2015
   published_at: "2015-05-21"
   description: |-
