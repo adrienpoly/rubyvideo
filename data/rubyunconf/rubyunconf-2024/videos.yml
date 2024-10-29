@@ -1,5 +1,4 @@
 ---
-
 # https://docs.google.com/spreadsheets/d/1oecmEFCue9jNs4PuLBrs99WMLrifxzTHrT_wVJTJ3mE/edit?gid=0#gid=0
 
 ## Day 1 - 2024-06-08
@@ -17,20 +16,21 @@
   speakers:
     - Alexander Sulim
   event_name: Ruby Unconf 2024
-  published_at: '2024-06-08'
-  description: 'Alexander Sulim: "Laziness-driven development is a set of rules that
+  published_at: "2024-06-08"
+  description:
+    'Alexander Sulim: "Laziness-driven development is a set of rules that
     might help anyone to harness great power of laziness to create better software.
     Some of these rules are obvious, some might be controversial, but they all are
     based on personal experience and serve me well for many years already."'
   video_id: LfYeO5hW3fA
 
-- title: 'Fish Bowl: Ruby is Dying'
-  raw_title: 'Fish Bowl Discussion: Ruby is dying by Ole Michaelis'
+- title: "Fish Bowl: Ruby is Dying"
+  raw_title: "Fish Bowl Discussion: Ruby is dying by Ole Michaelis"
   speakers:
     - Ole Michaelis
   event_name: Ruby Unconf 2024
-  published_at: '2024-06-08'
-  description: ''
+  published_at: "2024-06-08"
+  description: ""
   video_id: 15oe92S4hkw
 
 # Lunch Break
@@ -40,8 +40,8 @@
   speakers:
     - Jochen Lillich
   event_name: Ruby Unconf 2024
-  published_at: '2024-06-08'
-  description: ''
+  published_at: "2024-06-08"
+  description: ""
   video_id: KuocghIxvFE
 
 # TODO: Missing Talk: Nina Siessegger - When software development teams grow too big - learnings from slicing teams
@@ -52,7 +52,7 @@
 
 # TODO: Missing Talk: Joschka Schulz - From Pico Ruby to Twitch
 
-- title: 'Panel: How To Find a Job as a Ruby Developer'
+- title: "Panel: How To Find a Job as a Ruby Developer"
   raw_title: Panel   How to find a job as a ruby developer by Iratxe and Nina
   speakers:
     - Iratxe Garrido
@@ -61,8 +61,8 @@
     - Kaja Santo
     # - Nina # TODO: missing last name
   event_name: Ruby Unconf 2024
-  published_at: '2024-06-08'
-  description: ''
+  published_at: "2024-06-08"
+  description: ""
   video_id: sCfVTYgSKVg
 
 # Party
@@ -74,8 +74,8 @@
   speakers:
     - Simon Kaleschke
   event_name: Ruby Unconf 2024
-  published_at: '2024-06-09'
-  description: ''
+  published_at: "2024-06-09"
+  description: ""
   video_id: IKlKOhN9NQE
 
 # TODO: Missing Talk: Jan Krutisch - Back to the BASICs
@@ -87,8 +87,8 @@
   speakers:
     - Michał Łęcicki
   event_name: Ruby Unconf 2024
-  published_at: '2024-06-09'
-  description: ''
+  published_at: "2024-06-09"
+  description: ""
   video_id: DYr_HAgJtlo
 
 - title: Generate Anonymised Databases with MasKING
@@ -96,10 +96,9 @@
   speakers:
     - Chikahiro Tokoro
   event_name: Ruby Unconf 2024
-  published_at: '2024-06-09'
-  description: ''
+  published_at: "2024-06-09"
+  description: ""
   video_id: qgHm6EFm-Eg
-
 # Coffeebreak
 
 # TODO: Missing Talk: Lightning Talks
