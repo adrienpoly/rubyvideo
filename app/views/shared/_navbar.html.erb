@@ -1,15 +1,23 @@
-<div class="navbar bg-primary text-white relative z-50">
-  <div class="container flex justify-between items-center">
-    <div class="">
-      <%= link_to "Ruby Video", root_path, class: "text-left text-3xl font-serif" %>
-    </div>
+<div class="navbar text-black relative z-50 bg-transparent">
+  <div class="container grid grid-cols-2 lg:grid-cols-3 justify-between items-center">
     <div class="items-center gap-6 hidden md:flex">
       <ul class="desktop-menu">
+        <%= render "shared/navbar/link", link_title: "Home", path: root_path %>
         <%= render "shared/navbar/link", link_title: "Talks", path: talks_path %>
         <%= render "shared/navbar/link", link_title: "Speakers", path: speakers_path %>
         <%= render "shared/navbar/link", link_title: "Events", path: events_path %>
         <%= render "shared/navbar/link", link_title: "Topics", path: topics_path %>
-        <%= render "shared/navbar/link", link_title: "Leaderboard", path: leaderboard_path %>
+      </ul>
+    </div>
+
+    <div class="flex md:hidden lg:flex justify-start lg:justify-center items-center">
+      <%= link_to root_path do %>
+        <%= image_tag image_path("logo.png"), class: "size-10 hover:opacity-80" %>
+      <% end %>
+    </div>
+
+    <div class="flex justify-end items-center">
+      <ul class="desktop-menu">
         <% signed_in do %>
           <div class="flex items-center gap-2">
             <%= render "shared/navbar/link", link_title: "Watch List", path: watch_lists_path %>
@@ -20,21 +28,24 @@
           </div>
         <% end %>
 
-        <li>
+        <li class="flex content-center">
           <%= link_to "https://github.com/adrienpoly/rubyvideo", target: "_blank", alt: "github repository for the Ruby video project" do %>
             <%= icon "github", size: :lg %>
           <% end %>
         </li>
+
+        <% signed_in do %>
+          <%= render "shared/user_dropdown" %>
+        <% end %>
+
+        <% signed_out do %>
+          <%= link_to "Sign in", sign_in_path, data: {turbo_frame: "modal"}, class: "btn btn-secondary" %>
+        <% end %>
       </ul>
-      <% signed_in do %>
-        <%= render "shared/user_dropdown" %>
-      <% end %>
-      <% signed_out do %>
-        <%= link_to "Sign in", sign_in_path, data: {turbo_frame: "modal"}, class: "btn btn-secondary" %>
-      <% end %>
-    </div>
-    <div class="mobile-menu">
-      <%= render "shared/user_mobile_dropdown" %>
+
+      <div class="mobile-menu">
+        <%= render "shared/user_mobile_dropdown" %>
+      </div>
     </div>
   </div>
 </div>

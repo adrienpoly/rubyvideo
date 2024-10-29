@@ -1,42 +1,45 @@
 <%= ui_dropdown align: :end, content_classes: "mt-5 shadow-xl min-w-32", id: "user_navbar_toggle" do |c| %>
-    <% c.with_toggle_open do %>
-      <%= heroicon "x-mark", size: :lg, class: "text-white" %>
-    <% end %>
-    <% c.with_toggle_close do %>
-      <%= heroicon "bars-3", size: :lg, class: "text-white" %>
-    <% end %>
+  <% c.with_toggle_open do %>
+    <%= heroicon "x-mark", size: :lg, class: "text" %>
+  <% end %>
 
-    <% c.with_menu_item_link_to "Talks", talks_path %>
-    <% c.with_menu_item_link_to "Speakers", speakers_path %>
-    <% c.with_menu_item_link_to "Events", events_path %>
-    <% c.with_menu_item_link_to "Topics", topics_path %>
+  <% c.with_toggle_close do %>
+    <%= heroicon "bars-3", size: :lg, class: "text" %>
+  <% end %>
 
-    <% signed_in do %>
-      <% c.with_menu_item_link_to watch_lists_path do %>
-        <div class="flex items-center gap-2">
-          <span>Watch List</span>
-          <% if Current.user.default_watch_list.talks_count.positive? %>
-            <div class="badge badge-secondary"><%= Current.user.default_watch_list.talks_count %></div>
-          <% end %>
-        </div>
-      <% end %>
+  <% c.with_menu_item_link_to "Talks", talks_path %>
+  <% c.with_menu_item_link_to "Speakers", speakers_path %>
+  <% c.with_menu_item_link_to "Events", events_path %>
+  <% c.with_menu_item_link_to "Topics", topics_path %>
+  <% c.with_menu_item_link_to "Leaderboard", leaderboard_path %>
+
+  <% signed_in do %>
+    <% c.with_menu_item_link_to watch_lists_path do %>
+      <div class="flex items-center gap-2">
+        <span>Watch List</span>
+        <% if Current.user.default_watch_list.talks_count.positive? %>
+          <div class="badge badge-secondary"><%= Current.user.default_watch_list.talks_count %></div>
+        <% end %>
+      </div>
     <% end %>
+  <% end %>
 
+  <% c.with_menu_item_divider %>
+
+  <% c.with_menu_item_link_to "Use", uses_path %>
+  <% c.with_menu_item_link_to "Analytics", analytics_dashboards_path %>
+
+  <% signed_in do %>
     <% c.with_menu_item_divider %>
-
-    <% c.with_menu_item_link_to "Use", uses_path %>
-    <% c.with_menu_item_link_to "Analytics", analytics_dashboards_path %>
-
-    <% signed_in do %>
-      <% c.with_menu_item_divider %>
-      <% c.with_menu_item_button_to t("sign_out"), Current.session, method: :delete, id: :sign_out %>
-      <% if Current.user&.admin? %>
-        <% c.with_menu_item_link_to "Suggestions", admin_suggestions_path %>
-        <% c.with_menu_item_link_to t("admin"), avo_path %>
-      <% end %>
+    <% c.with_menu_item_button_to t("sign_out"), Current.session, method: :delete, id: :sign_out %>
+    <% if Current.user&.admin? %>
+      <% c.with_menu_item_link_to "Suggestions", admin_suggestions_path %>
+      <% c.with_menu_item_link_to t("admin"), avo_path %>
     <% end %>
-    <% signed_out do %>
-      <% c.with_menu_item_divider %>
-      <% c.with_menu_item_link_to "Sign in", sign_in_path, data: {turbo_frame: "modal"} %>
-    <% end %>
+  <% end %>
+
+  <% signed_out do %>
+    <% c.with_menu_item_divider %>
+    <% c.with_menu_item_link_to "Sign in", sign_in_path, data: {turbo_frame: "modal"} %>
+  <% end %>
 <% end %>
