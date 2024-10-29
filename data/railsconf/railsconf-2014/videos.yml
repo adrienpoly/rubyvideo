@@ -1,4 +1,9 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: "Keynote: Writing Software"
   raw_title: "RailsConf 2014 - Keynote: Writing Software by David Heinemeier Hansson"
   speakers:
@@ -693,9 +698,9 @@
   video_id: "-q_oUyEHiEw"
 
 - title: Tricks That Rails Didn't Tell You About
-  raw_title: RailsConf 2014 - Tricks That Rails Didn't Tell You About by Carlos Antionio da Silva
+  raw_title: RailsConf 2014 - Tricks That Rails Didn't Tell You About by Carlos Antonio da Silva
   speakers:
-    - Carlos Antionio da Silva
+    - Carlos Antonio da Silva
   event_name: RailsConf 2014
   thumbnail_xs: https://i.ytimg.com/vi/YKm0v_weFZs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/YKm0v_weFZs/mqdefault.jpg
@@ -1694,6 +1699,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/8bZh5LMaSmE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/8bZh5LMaSmE/maxresdefault.jpg
   published_at: "2014-05-21"
+  slides_url: https://speakerdeck.com/skmetz/all-the-little-things-railsconf
   description: |-
     Theory tells us to build applications out of small, interchangeable objects but reality often supplies the exact opposite. Many apps contain huge classes of long methods and hair-raising conditionals; they're hard to understand, difficult to reuse and costly to change. This talk takes an ugly section of conditional code and converts it into a few simple objects. It bridges the gap between OO theory and practice and teaches straightforward strategies that all can use to improve their code.
 
@@ -1997,7 +2003,7 @@
     - Mike Bourgeous
     - Gostavo Robles
     - Hector Bustillos
-    - Victor Velasquez
+    - Victor Velazquez
     - Kay Rhodes
     - Kevin Fallon
     - Andrew Vit
@@ -2018,7 +2024,7 @@
     - Matthew Nielsen\n00:25:58 - Andrew Cantino\n00:29:34 - Yehuda Katz\n00:34:18
     - Ryan Alyea\n00:37:29 - Adam Cuppy\n00:40:32 - Mark Lorenz & Mike Gee\n00:44:28
     - Trever yarrish\n00:49:34 - Mike Bourgeous\n00:54:15 - Gostavo Robles\n00:57:16
-    - Hector Bustillos\n01:02:00 - Victor Velasquez\n01:06:03 - Kay Rhodes\n01:10:31
+    - Hector Bustillos\n01:02:00 - Victor Velazquez\n01:06:03 - Kay Rhodes\n01:10:31
     - Kevin Fallon\n01:15:50 - Andrew Vit\n01:20:53 - Brian Garside\n01:25:37 - Mike
     Virata-Stone\n01:30:36 - Kiyoto Tamura\n01:35:41 - David Padilla\n\nHelp us caption
     & translate this video!\n\nhttp://amara.org/v/FG1z/"

@@ -1,15 +1,14 @@
 ---
-
 # https://web.archive.org/web/20191024074737/http://rubyconf.org/schedule
 
 ## Day 1
 
-- title: 'Opening Keynote: Ruby Progress Report'
+- title: "Opening Keynote: Ruby Progress Report"
   raw_title: RubyConf 2019 - Opening Keynote - Ruby Progress Report by Yukihiro Matsumoto (Matz)
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - Opening Keynote - Ruby Progress Report by Yukihiro Matsumoto (Matz)
 
@@ -22,7 +21,7 @@
   speakers:
     - Coraline Ada Ehmke
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - Thomas Edison vs Three Teslas in a Trenchcoat by Coraline Ada Ehmke
 
@@ -32,13 +31,14 @@
   video_provider: youtube
   video_id: i5uBjcYARkU
 
-- title: 'Conscious Coding Practice: The Three Concrete Steps'
-  raw_title: 'RubyConf 2019 - Conscious Coding Practice: The Three Concrete Steps by Noah Gibbs'
+- title: "Conscious Coding Practice: The Three Concrete Steps"
+  raw_title: "RubyConf 2019 - Conscious Coding Practice: The Three Concrete Steps by Noah Gibbs"
   speakers:
     - Noah Gibbs
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
-  description: "RubyConf 2019 - Conscious Coding Practice: The Three Concrete Steps
+  published_at: "2019-11-18"
+  description:
+    "RubyConf 2019 - Conscious Coding Practice: The Three Concrete Steps
     by Noah Gibbs\n\nYou feel guilty about not knowing enough \"Computer Science.\"
     But that isn't what you're still missing in your coding. If you could just pick
     up any problem and solve it, you wouldn't care if you used a formal-sounding algorithm
@@ -53,12 +53,12 @@
   video_provider: youtube
   video_id: 33fAzjOTaDE
 
-- title: 'No Return: Beyond Transactions in Code and Life'
-  raw_title: 'RubyConf 2019 - No Return: Beyond Transactions in Code and Life by Avdi Grimm'
+- title: "No Return: Beyond Transactions in Code and Life"
+  raw_title: "RubyConf 2019 - No Return: Beyond Transactions in Code and Life by Avdi Grimm"
   speakers:
     - Avdi Grimm
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - No Return: Beyond Transactions in Code and Life by Avdi Grimm
 
@@ -73,8 +73,9 @@
   speakers:
     - Ivan Nemytchenko
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
-  description: "RubyConf 2019 -  Less abstract! Surprising effects of expressing rules
+  published_at: "2019-11-18"
+  description:
+    "RubyConf 2019 -  Less abstract! Surprising effects of expressing rules
     of OOP in pictures by Ivan Nemytchenko\n\nAbstractions are both our blessing and
     our curse. Because of them, we're so powerful. But also we so often fall into
     the trap of miscommunication :( Abstract rules, operating with abstract terms,
@@ -90,7 +91,7 @@
   speakers:
     - Keavy McMinn
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - Principles of Awesome APIs and How to Build Them by Keavy McMinn
 
@@ -107,8 +108,9 @@
   speakers:
     - Kevin Kuchta
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
-  description: "RubyConf 2019 - Source-Diving for Fun and Profit by Kevin Kuchta\n\nEver
+  published_at: "2019-11-18"
+  description:
+    "RubyConf 2019 - Source-Diving for Fun and Profit by Kevin Kuchta\n\nEver
     spent hours pouring over a gem's documentation trying to figure out how to make
     it work? Dug through dozens of blog posts trying to understand why a library's
     not working? Well what if I promised you an end to all that?!\n\r\n\nWell, ok,
@@ -128,7 +130,7 @@
   speakers:
     - Betsy Haibel
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - Investigative Metaprogramming by Betsy Haibel
 
@@ -143,7 +145,7 @@
   speakers:
     - Deedee Lavinder
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - How to Become an Encoding Champion by Deedee Lavinder
 
@@ -157,7 +159,7 @@
 
 # Lunch
 
-- title: Syntax Error Game Show
+- title: "Game Show: Syntax Error"
   raw_title: RubyConf 2019 - Syntax Error Game Show
   speakers:
     - Adam Cuppy
@@ -173,8 +175,9 @@
     - Sandi Metz
     - Colin Pulton
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
-  description: "Syntax Error Game Show\n\nHost - Adam Cuppy\n\nRound 1 contestants
+  published_at: "2019-11-18"
+  description:
+    "Syntax Error Game Show\n\nHost - Adam Cuppy\n\nRound 1 contestants
     - Jonan Scheffler and Filipe Costa\n\nRound 2 contestants - Yvone Sanchez Reyes
     and Carolyn Cole\n\nPanelists - Penelope Phippen, Lachlan Hardy, Davy Stevenson,
     Marla Zeschin, Britni Alexander, Sandi Metz, and Colin Pulton, \n\n\n#confreaks
@@ -187,7 +190,7 @@
   speakers:
     - Kazuki Tsujimoto
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - Pattern Matching - New feature in Ruby 2.7 by Kazuki Tsujimoto
 
@@ -197,13 +200,14 @@
   video_provider: youtube
   video_id: wo4eZ2iVIyo
 
-- title: 'Bridging the Knowledge Gap: Debugging'
-  raw_title: 'RubyConf 2019 - Bridging the Knowledge Gap: Debugging by Mina Slater'
+- title: "Bridging the Knowledge Gap: Debugging"
+  raw_title: "RubyConf 2019 - Bridging the Knowledge Gap: Debugging by Mina Slater"
   speakers:
     - Mina Slater
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
-  description: "RubyConf 2019 - Bridging the Knowledge Gap: Debugging by Mina Slater\n\nWe're
+  published_at: "2019-11-18"
+  description:
+    "RubyConf 2019 - Bridging the Knowledge Gap: Debugging by Mina Slater\n\nWe're
     usually never get an official lesson in debugging. No one tells us at bootcamp
     or in online tutorials what to do when our code doesn’t work. It’s one of those
     learn-it-on-the-job sort of things and comes with experience. As early-career
@@ -219,7 +223,7 @@
   speakers:
     - Daniel Azuma
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - Ruby ate my DSL! by Daniel Azuma
 
@@ -234,7 +238,7 @@
   speakers:
     - Joe Leo
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - The Functional Rubyist by Joe Leo
 
@@ -244,12 +248,12 @@
   video_provider: youtube
   video_id: BV1-Z38ZWQU
 
-- title: 'mruby/c: Running on Less Than 64KB RAM Microcontroller'
-  raw_title: 'RubyConf 2019 - mruby/c: Running on Less Than 64KB RAM Microcontroller by HASUMI Hitoshi'
+- title: "mruby/c: Running on Less Than 64KB RAM Microcontroller"
+  raw_title: "RubyConf 2019 - mruby/c: Running on Less Than 64KB RAM Microcontroller by HASUMI Hitoshi"
   speakers:
     - HASUMI Hitoshi
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - mruby/c: Running on Less Than 64KB RAM Microcontroller by HASUMI Hitoshi
 
@@ -264,7 +268,7 @@
   speakers:
     - Michael Hartl
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - Learn Enough Ruby by Michael Hartl
 
@@ -274,13 +278,14 @@
   video_provider: youtube
   video_id: NGXp6_-nc4s
 
-- title: 'Ruby Next: Make old Ruby quack like a new one'
-  raw_title: 'RubyConf 2019 - Ruby Next: make old Ruby quack like a new one by Vladimir Dementyev'
+- title: "Ruby Next: Make old Ruby quack like a new one"
+  raw_title: "RubyConf 2019 - Ruby Next: make old Ruby quack like a new one by Vladimir Dementyev"
   speakers:
     - Vladimir Dementyev
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
-  description: "RubyConf 2019 - Ruby Next: make old Ruby quack like a new one by Vladimir
+  published_at: "2019-11-18"
+  description:
+    "RubyConf 2019 - Ruby Next: make old Ruby quack like a new one by Vladimir
     Dementyev\n\nRuby 2.7 is just around the corner. It will bring a lot of new features,
     including new syntax additions: pattern matching, numbered parameters.\n\nThat's
     good news. The bad news is that not many of us will be able to use these goodies
@@ -296,8 +301,9 @@
   speakers:
     - Ben Greenberg
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
-  description: "RubyConf 2019 - What's Love Got To Do With It? Ruby and Sentiment
+  published_at: "2019-11-18"
+  description:
+    "RubyConf 2019 - What's Love Got To Do With It? Ruby and Sentiment
     Analysis by Ben Greenberg\n\nThe societies we live in, the companies we work for,
     the media we consume and much more are all shaped by words. Words can infuriate,
     enlighten, bring joy or cause great despair. Natural Language Understanding gives
@@ -313,12 +319,12 @@
 
 # Afternoon Break
 
-- title: 'Coding like it’s 1977: Ruby on the Apple ]['
-  raw_title: 'RubyConf 2019 - Coding like it’s 1977: Ruby on the Apple ][ by Colin Fulton'
+- title: "Coding like it’s 1977: Ruby on the Apple ]["
+  raw_title: "RubyConf 2019 - Coding like it’s 1977: Ruby on the Apple ][ by Colin Fulton"
   speakers:
     - Colin Fulton
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     Coding like it’s 1977: Ruby on the Apple ][ by Colin Fulton
 
@@ -334,8 +340,9 @@
   speakers:
     - Erica Sosa
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
-  description: "What happens when a linguist learns to code?\r by Erica Sosa\n\nWhen
+  published_at: "2019-11-18"
+  description:
+    "What happens when a linguist learns to code?\r by Erica Sosa\n\nWhen
     people find out about my former career as a linguist and language teacher, they
     often ask if my background helped me learn how to code. I started to wonder if
     there was some overlap between learning a natural language and a programming language.
@@ -353,8 +360,9 @@
   speakers:
     - Daniel Ackerman
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
-  description: "RubyConf 2019 - Statistically Optimal API Timeouts by Daniel Ackerman\n\nHave
+  published_at: "2019-11-18"
+  description:
+    "RubyConf 2019 - Statistically Optimal API Timeouts by Daniel Ackerman\n\nHave
     you ever written code that retries an API request? How did you pick the amount
     of time to wait before retrying? If you resorted to making an 'educated best guess'
     then this talk is for you.\n\nYou will walk away from this talk with: 1. Knowledge
@@ -371,7 +379,7 @@
   speakers:
     - Lori Olson
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - Creating AR Apps with RubyMotion by Lori Olson
 
@@ -381,12 +389,12 @@
   video_provider: youtube
   video_id: 9eqjppyV6iY
 
-- title: 'Keynote: Collective Problem Solving in Music, Science, Art and Software'
+- title: "Keynote: Collective Problem Solving in Music, Science, Art and Software"
   raw_title: RubyConf 2019 - Keynote - Collective Problem Solving in Music, Science, Art... by Jessica Kerr
   speakers:
     - Jessica Kerr
   event_name: RubyConf 2019
-  published_at: '2019-11-18'
+  published_at: "2019-11-18"
   description: |-
     RubyConf 2019 - Keynote - Collective Problem Solving in Music, Science, Art and Software by Jessica Kerr
 
@@ -394,15 +402,14 @@
   video_provider: youtube
   video_id: 1oeigCANJVQ
 
-
 ## Day 2
 
-- title: 'Keynote: Slow, energy-efficient, and mysterious life deep within Earth''s crust'
+- title: "Keynote: Slow, energy-efficient, and mysterious life deep within Earth's crust"
   raw_title: RubyConf 2019 - Keynote - Slow, energy-efficient, and mysterious life deep... by Karen G  Lloyd
   speakers:
-  - Karen G Lloyd
+    - Karen G Lloyd
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     RubyConf 2019 - Keynote - Slow, energy-efficient, and mysterious life deep within Earth's crust by Karen G  Lloyd
 
@@ -415,7 +422,7 @@
   speakers:
     - Brandon Weaver
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     RubyConf 2019 - Tales of the Ruby Grimoire by Brandon Weaver
 
@@ -434,9 +441,10 @@
   speakers:
     - Frederick Cheung
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   slides_url: https://speakerdeck.com/fcheung/fixing-performance-and-memory-problems
-  description: "RubyConf 2019 - Fixing Performance & Memory problems by Frederick
+  description:
+    "RubyConf 2019 - Fixing Performance & Memory problems by Frederick
     Cheung\n\nPerformance problems got you down? Do memory leaks strike fear in your
     heart?\n\r\n\nIn this session I'll share two real world stories of how you can
     solve performance problems and plug memory leaks. You'll learn how to use tools
@@ -453,7 +461,7 @@
   speakers:
     - Chris Hoffman
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     RubyConf 2019 - Injecting Dependencies for Fun and Profit by Chris Hoffman
 
@@ -468,8 +476,9 @@
   speakers:
     - Udit Gulati
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "RubyConf 2019 -  Speeding up NMatrix by 100x by Udit Gulati 1\n\nWith
+  published_at: "2019-11-19"
+  description:
+    "RubyConf 2019 -  Speeding up NMatrix by 100x by Udit Gulati 1\n\nWith
     the growing need for fast numerical computing tools, there is a need for a library
     in Ruby which can perform at the level of NumPy in Python and can provide as much
     rich API. In this talk, we'll explore how NMatrix is being re-implemented to match
@@ -485,7 +494,7 @@
   speakers:
     - Alberto Colon Viera
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     RubyConf 2019 - How to use Your Superpowers to Transform People's Lives by Alberto Colon Viera
 
@@ -502,7 +511,7 @@
   speakers:
     - David Copeland
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     RubyConf 2019 - The Fewer the Concepts, the Better the Code by David Copeland
 
@@ -517,8 +526,9 @@
   speakers:
     - Mercedes Bernard
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "RubyConf 2019 - Fun, Friendly Computer Science by Mercedes Bernard\n\nComputer
+  published_at: "2019-11-19"
+  description:
+    "RubyConf 2019 - Fun, Friendly Computer Science by Mercedes Bernard\n\nComputer
     science concepts like Big O Notation, set theory, data structures, and principles
     of object-oriented programming sound intimidating, but they don’t have to be!
     This talk will dive into some fundamental computer science topics and debunk the
@@ -535,7 +545,7 @@
   speakers:
     - Mike Calhoun
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     RubyConf 2019 - The Singleton Module and Its Pattern In Ruby by Mike Calhoun
 
@@ -552,19 +562,20 @@
   speakers:
     - Third Coast Comedy Club
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "RubyConf 2019 - Improv by the\r Third Coast Comedy Club\n\n#confreaks
+  published_at: "2019-11-19"
+  description:
+    "RubyConf 2019 - Improv by the\r Third Coast Comedy Club\n\n#confreaks
     #rubyconf2019 #rubyconf"
   video_provider: youtube
   video_id: hhJ_UuN3Jas
 
-- title: 'Sorbet: A type checker for Ruby 3 you can use today!'
-  raw_title: 'RubyConf 2019 - Sorbet: A type checker for Ruby 3...  by Jake Zimmerman & Dmitry Petrashko'
+- title: "Sorbet: A type checker for Ruby 3 you can use today!"
+  raw_title: "RubyConf 2019 - Sorbet: A type checker for Ruby 3...  by Jake Zimmerman & Dmitry Petrashko"
   speakers:
     - Jake Zimmerman
     - Dmitry Petrashko
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     RubyConf 2019 - Sorbet: A type checker for Ruby 3 you can use today! by Jake Zimmerman & Dmitry Petrashko
 
@@ -581,8 +592,9 @@
   speakers:
     - Daniel Magliola
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "RubyConf 2019 - Disk is fast, memory is slow. Forget all you think
+  published_at: "2019-11-19"
+  description:
+    "RubyConf 2019 - Disk is fast, memory is slow. Forget all you think
     you know by Daniel Magliola\n\nAdding metrics to your code should effectively
     have no impact on performance.\n\r\n\nWhen we were recently tasked with doing
     that in multi-process Ruby servers, we ran into an interesting challenge: could
@@ -600,7 +612,7 @@
   speakers:
     - Colleen Schnettler
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     RubyConf 2019 - Rekindling a love of creation with Ruby and Raspberry Pi by Colleen Schnettler
 
@@ -615,8 +627,9 @@
   speakers:
     - Dave Aronson
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "RubyConf2019 - Kill All Mutants! (Intro to Mutation Testing) by Dave
+  published_at: "2019-11-19"
+  description:
+    "RubyConf2019 - Kill All Mutants! (Intro to Mutation Testing) by Dave
     Aronson\n\nHow good are your tests? Would they still pass if the tested code was
     changed much? If so, you may have a problem!\n\nMutation testing helps reveal
     these cases. It runs your unit tests, using many slightly altered versions of
@@ -632,7 +645,7 @@
   speakers:
     - Ufuk Kayserilioglu
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   slides_url: https://speakerdeck.com/ufuk/adopting-sorbet-at-scale
   description: |-
     RubyConf 2019 - Adopting Sorbet at Scale by Ufuk Kayserilioglu
@@ -650,8 +663,9 @@
   speakers:
     - Ernesto Tagwerker
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "RubyConf 2019 - Escaping The Tar Pit by Ernesto Tagwerker\n\nNobody
+  published_at: "2019-11-19"
+  description:
+    "RubyConf 2019 - Escaping The Tar Pit by Ernesto Tagwerker\n\nNobody
     wants to inherit a project that reeks but here we are: Stuck in the tar pit. How
     can we get out? Could we have avoided it in the first place?\n\r\n\nIn this talk
     you will learn how to use a few, great Ruby gems that will guide you out of that
@@ -665,8 +679,9 @@
   speakers:
     - Julian Cheal
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "Cocktail Masterclass with Ruby and Friends by Julian Cheal\n\nWelcome
+  published_at: "2019-11-19"
+  description:
+    "Cocktail Masterclass with Ruby and Friends by Julian Cheal\n\nWelcome
     to Nashville, Tennessee! Have you ever wanted to try making aTennessee Two Step
     Cocktail, an Old Fashioned, or a Citrus peach cooler for the non-drinkers? Well
     now you can!\n\r\n\nIntroducing Ruby Mixologist the world's first (probably) Ruby
@@ -681,8 +696,9 @@
   speakers:
     - Noah Matisoff
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "RubyConf2019 - Digging Up Code Graves in Ruby by Noah Matisoff\n\nAs
+  published_at: "2019-11-19"
+  description:
+    "RubyConf2019 - Digging Up Code Graves in Ruby by Noah Matisoff\n\nAs
     codebases grow, having dead code is a common issue that teams need to tackle.
     Especially for consumer-facing products that frequently run A/B tests using feature
     flags, dead code paths can be a significant source of technical debt sneakily
@@ -700,7 +716,7 @@
   speakers:
     - Yusuke Endoh
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   slides_url: https://speakerdeck.com/mame/a-static-type-analyzer-of-untyped-ruby-code-for-ruby-3
   description: |-
     RubyConf 2019 - A Static Type Analyzer of Untyped Ruby Code for Ruby 3 by Yusuke Endoh
@@ -716,8 +732,9 @@
   speakers:
     - Penelope Phippen
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "RubyConf 2019 - Introducing Rubyfmt by Penelope Phippen\n\nGo has
+  published_at: "2019-11-19"
+  description:
+    "RubyConf 2019 - Introducing Rubyfmt by Penelope Phippen\n\nGo has
     gofmt, Rust: rustfmt, elixir: mix format, so what about Ruby? One response is
     Rubocop! A sometimes beloved, sometimes maligned formatting and linting tool.
     A design principle of Rubocop is configurability. So, what if we had a code formatter
@@ -734,7 +751,7 @@
   speakers:
     - Zachary Schroeder
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     RubyConf 2019 - lo-fi hip hop ruby - beats to relax/study to by Zachary Schroeder
 
@@ -744,12 +761,12 @@
   video_provider: youtube
   video_id: taYx6Dy6dwI
 
-- title: 'Parallel Ruby: Managing the Memory Monster'
-  raw_title: 'RubyConf 2019 - Parallel Ruby: Managing the Memory Monster by Kevin Miller'
+- title: "Parallel Ruby: Managing the Memory Monster"
+  raw_title: "RubyConf 2019 - Parallel Ruby: Managing the Memory Monster by Kevin Miller"
   speakers:
     - Kevin Miller
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     Parallel Ruby: Managing the Memory Monster by Kevin Miller
 
@@ -760,12 +777,12 @@
   video_provider: youtube
   video_id: 4_yxbh9Enoc
 
-- title: 'Hire Me: I''m Excellent at Quitting'
-  raw_title: 'RubyConf 2019 - Hire Me: I''m Excellent at Quitting by Brittany Martin'
+- title: "Hire Me: I'm Excellent at Quitting"
+  raw_title: "RubyConf 2019 - Hire Me: I'm Excellent at Quitting by Brittany Martin"
   speakers:
     - Brittany Martin
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     RubyConf 2019 - Hire Me: I'm Excellent at Quitting by Brittany Martin
 
@@ -780,8 +797,9 @@
   speakers:
     - Roman Kofman
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "RubyConf 2019 - How to write pleasant code by Roman Kofman\n\nAs we
+  published_at: "2019-11-19"
+  description:
+    "RubyConf 2019 - How to write pleasant code by Roman Kofman\n\nAs we
     grow from beginner to intermediate developers, we tend to learn tools and Best
     Practices for writing good code. But. The more we learn, the more contradictions
     show up -- and the murkier it gets to find the right answers. Senior developers
@@ -799,8 +817,9 @@
   speakers:
     - Elle Meredith
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "RubyConf 2019 - Story telling with Git rebase by Elle Meredith\n\nIn
+  published_at: "2019-11-19"
+  description:
+    "RubyConf 2019 - Story telling with Git rebase by Elle Meredith\n\nIn
     a successful software development project, a key challenge is to manage complexity
     because projects get very complex very quickly even within small teams. Version
     control is the tool for communicating intent in our codebase over the life time
@@ -814,13 +833,14 @@
   video_provider: youtube
   video_id: "-WsjKCledP4"
 
-- title: 'Algorithms: CLRS in Ruby'
+- title: "Algorithms: CLRS in Ruby"
   raw_title: "RubyConf 2019 - Algorithms: CLRS in Ruby\r by Brad Grzesiak"
   speakers:
     - Brad Grzesiak
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
-  description: "Algorithms: CLRS in Ruby\r by Brad Grzesiak\n\nOne of the most celebrated
+  published_at: "2019-11-19"
+  description:
+    "Algorithms: CLRS in Ruby\r by Brad Grzesiak\n\nOne of the most celebrated
     books in Computer Science academia is \"Introduction to Algorithms,\" also known
     as \"CLRS\" after its 4 authors. It's the go-to (pun!) textbook for many intermediate
     college courses, and this talk will introduce some of its many wonderful algorithms
@@ -854,7 +874,7 @@
     - Dave Aronson
     - DeeDee Lavinder
   event_name: RubyConf 2019
-  published_at: '2019-11-19'
+  published_at: "2019-11-19"
   description: |-
     Lightning Talks
 
@@ -884,15 +904,14 @@
   video_provider: youtube
   video_id: 7TrKS8ZiTyI
 
-
 ## Day 3
 
-- title: 'Keynote: Lucky You'
-  raw_title: 'RubyConf 2019 - Keynote: Lucky You by Sandi Metz'
+- title: "Keynote: Lucky You"
+  raw_title: "RubyConf 2019 - Keynote: Lucky You by Sandi Metz"
   speakers:
     - Sandi Metz
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
+  published_at: "2019-11-20"
   slides_url: https://speakerdeck.com/skmetz/lucky-you
   description: |-
     Keynote: Lucky You by Sandi Metz
@@ -902,12 +921,12 @@
   video_provider: youtube
   video_id: c5WWTvHB_sA
 
-- title: 'Language as a Tool of Thought: Consistency versus Progress'
-  raw_title: 'RubyConf 2019 - Language as a Tool of Thought: Consistency versus Progress by Victor Shepelev'
+- title: "Language as a Tool of Thought: Consistency versus Progress"
+  raw_title: "RubyConf 2019 - Language as a Tool of Thought: Consistency versus Progress by Victor Shepelev"
   speakers:
     - Victor Shepelev
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
+  published_at: "2019-11-20"
   description: |-
     Language as a Tool of Thought: Consistency versus Progress by Victor Shepelev
 
@@ -918,12 +937,12 @@
   video_provider: youtube
   video_id: iMBqqjkbvl4
 
-- title: 'Building a Ruby: Artichoke is a Ruby Made with Rust'
-  raw_title: 'RubyConf 2019 - Building a Ruby: Artichoke is a Ruby Made with Rust by Ryan Lopopolo'
+- title: "Building a Ruby: Artichoke is a Ruby Made with Rust"
+  raw_title: "RubyConf 2019 - Building a Ruby: Artichoke is a Ruby Made with Rust by Ryan Lopopolo"
   speakers:
     - Ryan Lopopolo
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
+  published_at: "2019-11-20"
   description: |-
     RubyConf 2019 - Building a Ruby: Artichoke is a Ruby Made with Rust by Ryan Lopopolo
 
@@ -938,8 +957,9 @@
   speakers:
     - Jon Druse
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
-  description: "RubyConf 2019 - How to lose 50 Million Records in 5 minutes by Jon
+  published_at: "2019-11-20"
+  description:
+    "RubyConf 2019 - How to lose 50 Million Records in 5 minutes by Jon
     Druse\n\nJoin me in re-living the worst catastrophe of my more than a decade long
     career as a developer. Enough time has passed that I can laugh about it now and
     hopefully you will too while being inspired to stop cutting corners.\n\r\n\nIt’s
@@ -954,8 +974,9 @@
   speakers:
     - David McDonald
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
-  description: "Bursting at the Seams\r by David McDonald\n\nOur industry remains
+  published_at: "2019-11-20"
+  description:
+    "Bursting at the Seams\r by David McDonald\n\nOur industry remains
     in its infancy but we've had many important contributions to how we all think
     and talk about design. In order to tighten the existing gap between where theory
     and practice meet, we need to continue to add to our shared vocabulary. With this
@@ -972,7 +993,7 @@
   speakers:
     - Esther Olatunde
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
+  published_at: "2019-11-20"
   description: |-
     Let's build a simple HTTP server with Ruby by Esther Olatunde
 
@@ -989,7 +1010,7 @@
     - Yurie Yamane
     - Masayoshi Takahashi
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
+  published_at: "2019-11-20"
   description: |-
     RubyConf 2019 - What's happening when initializing mruby? by Yurie Yamane and Masayoshi Takahashi
 
@@ -999,14 +1020,15 @@
   video_provider: youtube
   video_id: E05ACAZSXDI
 
-- title: 'Late, Over Budget, & Happy: Our Service Extraction Story'
-  raw_title: 'RubyConf 2019 - Late, Over Budget, & Happy: Our Service Extraction Story by Amy Newell & Nat Budin'
+- title: "Late, Over Budget, & Happy: Our Service Extraction Story"
+  raw_title: "RubyConf 2019 - Late, Over Budget, & Happy: Our Service Extraction Story by Amy Newell & Nat Budin"
   speakers:
     - Amy Newell
     - Nat Budin
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
-  description: "RubyConf 2019 - Late, Over Budget, & Happy: Our Service Extraction
+  published_at: "2019-11-20"
+  description:
+    "RubyConf 2019 - Late, Over Budget, & Happy: Our Service Extraction
     Story by Amy Newell & Nat Budin\n\nA 3-month project stretches out to 9 months.
     It's widely viewed as over-engineered and difficult to work with. But months after
     deployment, it's considered successful. What happened?\n\r\n\nIn this talk, a
@@ -1023,8 +1045,9 @@
   speakers:
     - Kevin Murphy
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
-  description: "Don’t Hang Me Out To DRY\r by Kevin Murphy\n\nClose your eyes and
+  published_at: "2019-11-20"
+  description:
+    "Don’t Hang Me Out To DRY\r by Kevin Murphy\n\nClose your eyes and
     imagine the perfect codebase to work on. I bet you’ll say it has complete test
     coverage. It’s fully-optimized, both in terms of performance and architectural
     design. And, of course, it contains only DRY code. Surely we can all agree that
@@ -1047,7 +1070,7 @@
     - Britni Alexander
     - Brandon Weaver
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
+  published_at: "2019-11-20"
   description: |-
     Ignite Roulette
 
@@ -1067,7 +1090,7 @@
   speakers:
     - Adam McCrea
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
+  published_at: "2019-11-20"
   description: |-
     RubyConf 2019 - In the beginning, there was "require"... by Adam McCrea
 
@@ -1086,8 +1109,9 @@
   speakers:
     - Christian Bruckmayer
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
-  description: "RubyConf 2019 - Digesting MRI by Studying Alternative Ruby Implementations
+  published_at: "2019-11-20"
+  description:
+    "RubyConf 2019 - Digesting MRI by Studying Alternative Ruby Implementations
     by Christian Bruckmayer\n\nPointers, managing memory and static typing - writing
     C code is hard! However, most programming languages, including Matz's Ruby Interpreter
     (MRI), are implemented in a low level programming language. So you think without
@@ -1104,7 +1128,7 @@
   speakers:
     - Molly Struve
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
+  published_at: "2019-11-20"
   description: |-
     RubyConf 2019 - Elasticsearch 5 or and Bust by Molly Struve
 
@@ -1119,8 +1143,9 @@
   speakers:
     - ITOYANAGI Sakura
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
-  description: "Technical Background of Interactive CLI of Ruby 2.7\r by ITOYANAGI
+  published_at: "2019-11-20"
+  description:
+    "Technical Background of Interactive CLI of Ruby 2.7\r by ITOYANAGI
     Sakura\n\nRuby 2.7 will be released with new multiline IRB that uses a new input
     library Reline. I'll talk about the technical background of it.\r\n\n\r\n\nthe
     history of terminal\n\nthe Morse code\r\n\ntypewriter\r\n\nteletype\r\n\nescape
@@ -1137,7 +1162,7 @@
   speakers:
     - Aaron Patterson
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
+  published_at: "2019-11-20"
   slides_url: https://speakerdeck.com/tenderlove/compacting-gc-for-mri
   description: |-
     RubyConf 2019 - Compacting Heaps in Ruby 2.7 by Aaron Patterson
@@ -1154,8 +1179,9 @@
     - Charles Oliver Nutter
     - Thomas E Enebo
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
-  description: "JRuby: Zero to Scale! \U0001F525 by Charles Oliver Nutter and Thomas
+  published_at: "2019-11-20"
+  description:
+    "JRuby: Zero to Scale! \U0001F525 by Charles Oliver Nutter and Thomas
     E Enebo\n\nJRuby is deployed by hundreds of companies, running Rails and other
     services at higher speeds and with better scalability than any other runtime.
     With JRuby you get better utilization of system resources, the performance and
@@ -1171,8 +1197,9 @@
   speakers:
     - Brian McElaney
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
-  description: "RubyConf 2019 - Seven Deadly Sins by Brian McElaney\n\nSoftware projects
+  published_at: "2019-11-20"
+  description:
+    "RubyConf 2019 - Seven Deadly Sins by Brian McElaney\n\nSoftware projects
     accumulate many kinds of debt. Each debt comes in the form of small qualitative
     shortcomings we (knowingly or unknowingly) choose to ignore in the name of shipping.
     They cause friction -- and over time they can combine to easily grind momentum
@@ -1192,8 +1219,9 @@
   speakers:
     - Tony Drake
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
-  description: "Containerizing Local Development... Is It Worth it?\r by Tony Drake\n\nContainers
+  published_at: "2019-11-20"
+  description:
+    "Containerizing Local Development... Is It Worth it?\r by Tony Drake\n\nContainers
     are the current hotness for deployment. But, how about development? They can provide
     a good way to manage local dependencies even if you're just writing a gem instead
     of an app. While writing and running code directly on your laptop has its own
@@ -1207,13 +1235,13 @@
 
 # Afternoon Break
 
-- title: 'Q&A with Matz'
+- title: "Q&A with Matz"
   raw_title: RubyConf 2019 - Q&A with Yukihiro Matsumoto (Matz)
   speakers:
     - Evan Phoenix
     - Yukihiro "Matz" Matsumoto
   event_name: RubyConf 2019
-  published_at: '2019-11-20'
+  published_at: "2019-11-20"
   description: |-
     RubyConf 2019 - Q&A with Yukihiro Matsumoto (Matz)
 

@@ -1,4 +1,9 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: Opening Keynote
   raw_title: Rails World 2023 Opening Keynote - David Heinemeier Hansson
   speakers:
@@ -72,7 +77,7 @@
   video_provider: youtube
   video_id: wYeVne3aRow
 
-- title: 'Keynote: Future of Developer Acceleration with Rails'
+- title: "Keynote: Future of Developer Acceleration with Rails"
   raw_title: Aaron Patterson - Future of Developer Acceleration with Rails - Rails World 2023
   speakers:
     - Aaron Patterson
@@ -213,7 +218,7 @@
   video_provider: youtube
   video_id: XjCqiyYVypI
 
-- title: 'Keynote: The Magic of Rails'
+- title: "Keynote: The Magic of Rails"
   raw_title: Eileen Uchitelle - The Magic of Rails - Rails World 2023
   speakers:
     - Eileen M. Uchitelle
@@ -425,6 +430,7 @@
     - Irina Nazarova
   event_name: Rails World 2023
   published_at: "2023-10-18"
+  slides_url: https://speakerdeck.com/irinanazarova/wildest-dreams-of-making-profit-on-open-source-rails-world-2023-irina-nazarova
   description: |-
     Commercialized open source has effectively supported authors while also maintaining the benefits that open principles have on the industry. By obtaining an adequate share of the value we create, we’ll be able to work on industry-changing projects we’re passionate about for years to come.
 

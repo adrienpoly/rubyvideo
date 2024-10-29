@@ -1,10 +1,15 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: The pursuit of happiness.
   raw_title: The pursuit of happiness. by Dustin Haefele-Tschanz
   speakers:
     - Dustin Haefele-Tschanz
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - The pursuit of happiness. by Dustin Haefele-Tschanz
 
@@ -17,7 +22,7 @@
   speakers:
     - Joel Hawksley
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - Accessible by default by Joel Hawksley
 
@@ -30,7 +35,7 @@
   speakers:
     - Marc Reynolds
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - Modularizing Rails Monoliths One Bite at a Time by Marc Reynolds
 
@@ -43,7 +48,7 @@
   speakers:
     - Ifat Ribon
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - Go Pro with POROs by Ifat Ribon
 
@@ -51,13 +56,14 @@
   video_provider: youtube
   video_id: rMhxGAAJFbM
 
-- title: 'Let’s Extract a Class: The Single Responsibility Principle and Design Patterns'
-  raw_title: 'Let’s Extract a Class: The Single Responsibility Principle and Design
-    Patterns by Jon Evans'
+- title: "Let’s Extract a Class: The Single Responsibility Principle and Design Patterns"
+  raw_title:
+    "Let’s Extract a Class: The Single Responsibility Principle and Design
+    Patterns by Jon Evans"
   speakers:
     - Jon Evans
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - Let’s Extract a Class: The Single Responsibility Principle and Design Patterns by Jon Evans
 
@@ -70,7 +76,7 @@
   speakers:
     - Drew Bragg
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - Who Wants to be a Ruby Engineer? by Drew Bragg
 
@@ -83,7 +89,7 @@
   speakers:
     - Ridhwana Khan
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - Caching strategies on https://dev.to by Ridhwana Khan
 
@@ -91,12 +97,12 @@
   video_provider: youtube
   video_id: BuxrL8W_EaE
 
-- title: 'Return To Simplicity: Architect Hypermedia REST applications using Hanami + HTMX'
-  raw_title: 'Return To Simplicity: Architect Hypermedia REST applications using Hanami + HTMX by Brooke Kuhlmann'
+- title: "Return To Simplicity: Architect Hypermedia REST applications using Hanami + HTMX"
+  raw_title: "Return To Simplicity: Architect Hypermedia REST applications using Hanami + HTMX by Brooke Kuhlmann"
   speakers:
     - Brooke Kuhlmann
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - A Return To Simplicity: Architect Hypermedia REST applications using Hanami + HTMX by Brooke Kuhlmann
 
@@ -105,12 +111,13 @@
   video_id: vVMZ6qhdxkg
 
 - title: Licensing and Distributing a Paid CLI With Ruby, Rails, and SwiftUI
-  raw_title: Licensing and Distributing a Paid CLI With Ruby, Rails, and SwiftUI by
+  raw_title:
+    Licensing and Distributing a Paid CLI With Ruby, Rails, and SwiftUI by
     Moncef Belyamani
   speakers:
     - Moncef Belyamani
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - Licensing and Distributing a Paid CLI With Ruby, Rails, and SwiftUI by Moncef Belyamani
 
@@ -129,7 +136,7 @@
     - Blake Gearin
     - Jeremy Hinegardner
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - Lightning Talks
 
@@ -154,8 +161,9 @@
   speakers:
     - Jon Sullivan
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
-  description: "Rocky Mountain Ruby 2023 - Turbo Frames Explored... for Fun and Profit
+  published_at: "2023-10-26"
+  description:
+    "Rocky Mountain Ruby 2023 - Turbo Frames Explored... for Fun and Profit
     by Jon Sullivan \n\nThe ‘new magic’ came at the end of 2020: ✨Hotwire⚡️: Stimulus,
     Turbo Streams, Strada, Turbo Drive, and Turbo Frames. Each extremely capable and
     powerful in its own right, but with a wide spread of functions and some overlaps,
@@ -169,7 +177,7 @@
   speakers:
     - Davy Stevenson
   event_name: Rocky Mountain Ruby 2023
-  published_at: '2023-10-26'
+  published_at: "2023-10-26"
   description: |-
     Rocky Mountain Ruby 2023 - A blueprint for making scary choices by Davy Stevenson
 

@@ -1,11 +1,17 @@
 ---
-- title: 'Ruby Survey: 6 Years of Data Revealed'
-  raw_title: 'Hampton Catlin - Ruby Survey: 6 Years of Data Revealed - Ancient City Ruby 2015'
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
+- title: "Ruby Survey: 6 Years of Data Revealed"
+  raw_title: "Hampton Catlin - Ruby Survey: 6 Years of Data Revealed - Ancient City Ruby 2015"
   speakers:
     - Hampton Catlin
   event_name: Ancient City Ruby 2015
-  published_at: '2015-05-01'
-  description: For the past 6 years, I’ve run the Ruby Survey (almost) every year.
+  published_at: "2015-05-01"
+  description:
+    For the past 6 years, I’ve run the Ruby Survey (almost) every year.
     It asks the same questions every year, plus some new ones. It’s goal is to track
     changes in technology, community, fashions, attitudes, and tooling. This is the
     first time I’ll ever be fully sharing the data and it should make for an interesting
@@ -14,12 +20,12 @@
   video_provider: youtube
   video_id: C7nRq25ZJls
 
-- title: 'Rubyist meets Swift'
+- title: "Rubyist meets Swift"
   raw_title: Jay Hayes - Rubyist meets Swift - Ancient City Ruby 2015
   speakers:
     - Jay Hayes
   event_name: Ancient City Ruby 2015
-  published_at: '2015-05-01'
+  published_at: "2015-05-01"
   description: |-
     There are a lot of reasons I love Ruby. It makes me a happy programmer. Apple recently released its latest programming language into the wild, Swift. Swift is an object oriented-programming language with a functional personality.
 
@@ -32,7 +38,7 @@
   speakers:
     - Pamela Vickers
   event_name: Ancient City Ruby 2015
-  published_at: '2015-05-01'
+  published_at: "2015-05-01"
   description: |-
     We all want to work for a company that cares about and promotes a balanced, fun, and, in a word, "awesome" culture, but unless a company has safeguards in place against bad clients, bad projects, and bad apples, this great company culture only exists on paper.
 
@@ -42,12 +48,12 @@
   video_provider: youtube
   video_id: W-gzcfFIv9o
 
-- title: 'RESCUE SQUAD: Rails Edition!'
-  raw_title: 'Ben Lovell - RESCUE SQUAD: Rails Edition! - Ancient City Ruby 2015'
+- title: "RESCUE SQUAD: Rails Edition!"
+  raw_title: "Ben Lovell - RESCUE SQUAD: Rails Edition! - Ancient City Ruby 2015"
   speakers:
     - Ben Lovell
   event_name: Ancient City Ruby 2015
-  published_at: '2015-05-01'
+  published_at: "2015-05-01"
   description: |-
     Have you ever worked on a soul-destroying Rails application? I have! Inconsistent and non-idiomatic code, spaghetti concerns, and terrible, excruciatingly slow tests are just a few of the symptoms you might encounter – with complete developer indifference being the sad consequence.
 
@@ -55,12 +61,12 @@
   video_provider: youtube
   video_id: SQFIx1K4vyc
 
-- title: 'The Junior Jump: from Student to Team Member'
-  raw_title: 'Rebecca Poulson - The Junior Jump: from Student to Team Member - Ancient City Ruby 2015'
+- title: "The Junior Jump: from Student to Team Member"
+  raw_title: "Rebecca Poulson - The Junior Jump: from Student to Team Member - Ancient City Ruby 2015"
   speakers:
     - Rebecca Poulson
   event_name: Ancient City Ruby 2015
-  published_at: '2015-05-01'
+  published_at: "2015-05-01"
   description: |-
     Whether you're a student or a CTO, it's worth taking a moment to consider the transition from student to professional. The Junior Jump will explore strategies that will help you become or mentor a confident junior developer. We'll discuss how candidates and employers can use the interview stage to set a foundation for a productive transition, how to figure out what kind of mentorship/pairing model will work best with the resources available at your company and examples of projects that are challenging and appropriate for developers transitioning into their first jobs.
 
@@ -68,13 +74,14 @@
   video_provider: youtube
   video_id: 3Qc6x8DMe74
 
-- title: 'Containerized Ruby Applications with Docker'
+- title: "Containerized Ruby Applications with Docker"
   raw_title: Laura Frank - Containerized Ruby Applications with Docker - Ancient City Ruby 2015
   speakers:
     - Laura Frank
   event_name: Ancient City Ruby 2015
-  published_at: '2015-05-01'
-  description: Docker’s lightweight virtualization may supplant our hypervisor-backed
+  published_at: "2015-05-01"
+  description:
+    Docker’s lightweight virtualization may supplant our hypervisor-backed
     VMs at some point in the future, and change the way that tomorrow's Ruby applications
     are architected, packaged and deployed. Using Docker, your Ruby applications will
     sit atop an excellent platform for packing, shipping and running low-overhead,
@@ -84,12 +91,12 @@
   video_provider: youtube
   video_id: CIn7U8dayFE
 
-- title: 'Ruby after Rails'
+- title: "Ruby after Rails"
   raw_title: Ernie Miller - Ruby after Rails - Ancient City Ruby 2015
   speakers:
     - Ernie Miller
   event_name: Ancient City Ruby 2015
-  published_at: '2015-06-08'
+  published_at: "2015-06-08"
   description: |-
     What happens to Ruby when Rails dies?
 
@@ -109,13 +116,14 @@
   video_provider: youtube
   video_id: IY6gx6wHdSY
 
-- title: '3D Printing, Ruby and Solar Panels'
+- title: "3D Printing, Ruby and Solar Panels"
   raw_title: Romeeka Gayhart - 3D Printing, Ruby and Solar Panels - Ancient City Ruby 2015
   speakers:
     - Romeeka Gayhart
   event_name: Ancient City Ruby 2015
-  published_at: '2015-06-08'
-  description: Did you know that SketchUp has a Ruby API? Did you know that you can
+  published_at: "2015-06-08"
+  description:
+    Did you know that SketchUp has a Ruby API? Did you know that you can
     use SketchUp to do all kinds of things, including designing 3D printing templates?
     In her past career in the solar energy field, Meeka Gayhart used SketchUp for
     doing renderings and shading calculations for solar arrays. Come learn about how
@@ -123,13 +131,14 @@
   video_provider: youtube
   video_id: lSIR_ESh2Y8
 
-- title: 'Estimation and Trust-Driven Development'
+- title: "Estimation and Trust-Driven Development"
   raw_title: Noel Rappin - Estimation and Trust-Driven Development - Ancient City Ruby 2015
   speakers:
     - Noel Rappin
   event_name: Ancient City Ruby 2015
-  published_at: '2015-06-08'
-  description: "** We apologize for technical difficulties - This video starts a bit
+  published_at: "2015-06-08"
+  description:
+    "** We apologize for technical difficulties - This video starts a bit
     into Noel's talk. ** \n\nWhat makes some projects succeed and others fail? Often
     the problem is that the stakeholders in your project have stopped trusting one
     another. The root of this problem is not always technical, but can be that your
@@ -145,12 +154,12 @@
   video_provider: youtube
   video_id: 6igUkv7vGZw
 
-- title: 'Building Better Web APIs with Rails'
+- title: "Building Better Web APIs with Rails"
   raw_title: Carlos Souza - Building Better Web APIs with Rails - Ancient City Ruby 2015
   speakers:
     - Carlos Souza
   event_name: Ancient City Ruby 2015
-  published_at: '2015-06-08'
+  published_at: "2015-06-08"
   description: |-
     At some point every Rails developer needs to build an API, but what's the best way to do it and avoid the mess many run into when serving multiple client applications?
 
@@ -158,12 +167,12 @@
   video_provider: youtube
   video_id: CDC7zA8a-mA
 
-- title: 'Ancient Rails'
+- title: "Ancient Rails"
   raw_title: Scott Parker - Ancient Rails - Ancient City Ruby 2015
   speakers:
     - Scott Parker
   event_name: Ancient City Ruby 2015
-  published_at: '2015-06-08'
+  published_at: "2015-06-08"
   description: |-
     As Rails enters its tweens, “legacy Rails” projects are increasingly common. Even if you haven’t dealt with such projects, every line of code we leave in production is destined to become legacy code.
 
@@ -171,13 +180,14 @@
   video_provider: youtube
   video_id: 3TXcsRa8s_M
 
-- title: 'Beyond Good and ORMs'
+- title: "Beyond Good and ORMs"
   raw_title: Kerri Miller - Beyond Good and ORMs - Ancient City Ruby 2015
   speakers:
     - Kerri Miller
   event_name: Ancient City Ruby 2015
-  published_at: '2015-06-08'
-  description: ORMs such as ActiveRecord or DataMapper are fabulous tools that have
+  published_at: "2015-06-08"
+  description:
+    ORMs such as ActiveRecord or DataMapper are fabulous tools that have
     improved the speed at which we're able to develop working, shippable products.
     As DSLs for working with our persistence layers, they've proven their worth time
     and time again, but at the cost of stunting our collective knowledge about the

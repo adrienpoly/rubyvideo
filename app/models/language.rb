@@ -23,6 +23,10 @@ class Language
     ALL_LANGUAGES
   end
 
+  def self.by_code(code)
+    ALL_LANGUAGES[code]
+  end
+
   def self.used
     assigned_languages = Talk.distinct.pluck(:language)
 

@@ -1,12 +1,17 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
 
 - title: The Life-Changing Magic of Tidying Technical Debt
   raw_title: The life-changing magic of tidying technical debt - Sroop Sunar
   speakers:
     - Sroop Sunar
   event_name: Pivorak Conf 3.0
-  published_at: '2019-05-24'
-  description: "Sroop Sunar — The life-changing magic of tidying technical debt \n\nContents\n\n1:03
+  published_at: "2019-05-24"
+  description:
+    "Sroop Sunar — The life-changing magic of tidying technical debt \n\nContents\n\n1:03
     Marie Kondo and her books \n3:10 “Technical debt does not spark joy”\n3:45 The
     Big Ball of Mud \n6:10 Clean code vs Tidy code\n11:54 Applying the konmari method\n16:08
     2019 is a year if the empathetic programmer\n17:22 \"Deleting code is good, because
@@ -24,8 +29,9 @@
   speakers:
     - Tobias Pfeiffer
   event_name: Pivorak Conf 3.0
-  published_at: '2019-05-24'
-  description: "Tobias Pfeiffer — Do You Need That Validation? Let Me Call You Back
+  published_at: "2019-05-24"
+  description:
+    "Tobias Pfeiffer — Do You Need That Validation? Let Me Call You Back
     About It\n\nContents\n\n0:24 Intro about Lviv and community\n1:41 Let's build
     an app to organize an event\n3:20 Let’s write an auditory test \n5:45 What does
     a smell mean? \n7:05 Let's talk about validations\n8:45 The example of validation:
@@ -44,13 +50,14 @@
   video_provider: youtube
   video_id: Bm7XpipPU9g
 
-- title: 'Compacting GC in Ruby 2.7'
+- title: "Compacting GC in Ruby 2.7"
   raw_title: Compacting GC in Ruby 2.7 - Aaron Patterson
   speakers:
     - Aaron Patterson
   event_name: Pivorak Conf 3.0
-  published_at: '2019-05-24'
-  description: "Aaron Patterson — Compacting GC in Ruby 2.7\n\n1:15 Hugging selfie\n1:55
+  published_at: "2019-05-24"
+  description:
+    "Aaron Patterson — Compacting GC in Ruby 2.7\n\n1:15 Hugging selfie\n1:55
     #Pivorak rules are…\n3:19 Meet the speaker\n7:43 Java vs Ruby\n8:34 My First Serious
     Ruby Program\n12:00 Moral of the story\n12:20 Why do I love Rails?\n15:38 Comparing
     GC for MRI\n16:26 Compaction\n18:00 CPU Caches\n19:30 CoW Friendliness\n21:18

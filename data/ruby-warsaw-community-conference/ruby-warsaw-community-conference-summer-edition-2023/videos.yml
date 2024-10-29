@@ -1,11 +1,17 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: The Transformation of Trailblazer
   raw_title: "[EN] The Transformation of Trailblazer - Nick Sutterer"
   speakers:
     - Nick Sutterer
   event_name: Ruby Warsaw Community Conference Summer Edition 2023
-  published_at: '2023-08-30'
-  description: "The Transformation of Trailblazer - A ride through the history of
+  published_at: "2023-08-30"
+  description:
+    "The Transformation of Trailblazer - A ride through the history of
     the Trailblazer project, through important milestones and releases that formed
     the functional concepts of the business logic framework over two decades.\n\n____________________________________________\n\n►
     Looking for a dedicated software development team? Contact us at: \n\nhttps://visuality.page.link/page\n\n►
@@ -21,10 +27,11 @@
 - title: Fantastic Databases And Where To Find Them
   raw_title: "[EN] Fantastic Databases And Where To Find Them - Krzysztof Hasiński"
   speakers:
-    - Krzysztof Hasiński
+    - Chris Hasinski
   event_name: Ruby Warsaw Community Conference Summer Edition 2023
-  published_at: '2023-08-30'
-  description: "Fantastic Databases And Where To Find Them\n\nRuby on Rails app tend
+  published_at: "2023-08-30"
+  description:
+    "Fantastic Databases And Where To Find Them\n\nRuby on Rails app tend
     to rely heavily on databases and yet we rarely talk about them during meetups.
     This talk explores some of the more unusual parts of working with databases in
     a context of a typical RoR app.\n\nAuthors: Chris Hasiński\n\nVisuality talks:
@@ -44,13 +51,15 @@
   video_id: 50umESFnRL0
 
 - title: Rails Permanent Job - build a Ruby on Rails server using ServerEngine
-  raw_title: "[EN] Rails Permanent Job - build a Ruby on Rails server using ServerEngine
+  raw_title:
+    "[EN] Rails Permanent Job - build a Ruby on Rails server using ServerEngine
     \ - Paweł Strzałkowski"
   speakers:
     - Paweł Strzałkowski
   event_name: Ruby Warsaw Community Conference Summer Edition 2023
-  published_at: '2023-08-30'
-  description: "Video from the first edition of Ruby Warsaw Community Conference with
+  published_at: "2023-08-30"
+  description:
+    "Video from the first edition of Ruby Warsaw Community Conference with
     a presentation by Paweł Strzałkowski. The speaker introduces the concept of building
     multiple process servers using Ruby on Rails framework. The speech describes a
     helpful tool - Rails Permanent Job gem, which is a wrapper for ServerEngine gem.\n\nAdditional
@@ -80,8 +89,9 @@
   speakers:
     - Sergey Sergyenko
   event_name: Ruby Warsaw Community Conference Summer Edition 2023
-  published_at: '2023-08-30'
-  description: "ChatGPT for Legacy Ruby Application Refactoring\n____________________________________________\n\n►
+  published_at: "2023-08-30"
+  description:
+    "ChatGPT for Legacy Ruby Application Refactoring\n____________________________________________\n\n►
     Looking for a dedicated software development team? Contact us at: \n\nhttps://visuality.page.link/page\n\n►
     SUBSCRIBE to learn more about software development: \nhttp://bit.ly/SubscribeVisuality\nhttp://bit.ly/SubscribeVisuality\nhttp://bit.ly/SubscribeVisuality\n\n►
     Read what clients say about us on Clutch.co:\n\nhttps://clutch.co/profile/visuality\n\n►

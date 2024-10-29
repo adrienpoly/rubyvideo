@@ -1,13 +1,16 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
 
-- title: 'Build to Last: How to design rails apps to avoid a rewrite in 5 years'
+- title: "Build to Last: How to design rails apps to avoid a rewrite in 5 years"
   raw_title: LA RubyConf 2015- Build to Last... by Mike Moore
   speakers:
     - Mike Moore
   event_name: LA RubyConf 2015
-  published_at: '2015-10-29'
-  description: 'Build to Last: How to design rails apps to avoid a rewrite in 5 years'
-  video_provider: youtube
+  published_at: "2015-10-29"
+  description: "Build to Last: How to design rails apps to avoid a rewrite in 5 years"
   video_id: 8YUed3l2BZY
 
 - title: Mind of a Hacker
@@ -15,14 +18,13 @@
   speakers:
     - Ryan Davis
   event_name: LA RubyConf 2015
-  published_at: '2015-10-29'
+  published_at: "2015-10-29"
   description: |-
     Mind of a Hacker
 
     Help us caption & translate this video!
 
     http://amara.org/v/HTA0/
-  video_provider: youtube
   video_id: vcsKFsxAIOE
 
 - title: Botany with Bytes
@@ -30,7 +32,7 @@
   speakers:
     - Lito Nicolai
   event_name: LA RubyConf 2015
-  published_at: '2015-10-29'
+  published_at: "2015-10-29"
   description: |-
     Botany with Bytes
 
@@ -39,15 +41,14 @@
     Help us caption & translate this video!
 
     http://amara.org/v/HTA1/
-  video_provider: youtube
   video_id: OzkZJTp9jNI
 
-- title: 'Hacking Development Culture: Treating Developers As People'
-  raw_title: 'LA RubyConf 2015- Hacking Development Culture: Treating Developers As People by Austin Fonacier'
+- title: "Hacking Development Culture: Treating Developers As People"
+  raw_title: "LA RubyConf 2015- Hacking Development Culture: Treating Developers As People by Austin Fonacier"
   speakers:
     - Austin Fonacier
   event_name: LA RubyConf 2015
-  published_at: '2015-10-29'
+  published_at: "2015-10-29"
   description: |-
     Hacking Development Culture: Treating Developers As People
 
@@ -56,7 +57,6 @@
     Help us caption & translate this video!
 
     http://amara.org/v/HTA2/
-  video_provider: youtube
   video_id: z5zll50fRJA
 
 - title: Stupid Ideas For Many Computers
@@ -64,7 +64,8 @@
   speakers:
     - Aja Hammerly
   event_name: LA RubyConf 2015
-  published_at: '2015-10-29'
+  published_at: "2015-10-29"
+  slides_url: https://thagomizer.com/files/Stupid_LaRubyConf15.pdf
   description: |-
     Stupid Ideas For Many Computers
 
@@ -73,7 +74,6 @@
     Help us caption & translate this video!
 
     http://amara.org/v/HTA3/
-  video_provider: youtube
   video_id: wqkWKrNW68A
 
 - title: Data Migrations with MagLev
@@ -81,12 +81,11 @@
   speakers:
     - JohnnyT
   event_name: LA RubyConf 2015
-  published_at: '2015-10-29'
+  published_at: "2015-10-29"
   description: |-
     Data Migrations with MagLev
 
     MagLev is a Ruby implementation built on top of a VM which offers native object persistence - you are able to persist plain Ruby objects (including procs and lambdas) and then see and use them from any other connected VM. We are now using MagLev in production and have already learned some good lessons on working with and migrating these committed objects long term. Come and hear about recent MagLev updates and and appreciate the following quote on another level:  I always knew that one day Smalltalk would replace Java. I just didn't know it would be called Ruby. -- Kent Beck
-  video_provider: youtube
   video_id: 32gjrn3LPFQ
 
 - title: Learn Enough Tutorial Writing to Be Dangerous
@@ -94,12 +93,11 @@
   speakers:
     - Michael Hartl
   event_name: LA RubyConf 2015
-  published_at: '2015-10-29'
+  published_at: "2015-10-29"
   description: |-
     Learn Enough Tutorial Writing to Be Dangerous
 
     This talk discusses some time-tested techniques for producing effective tutorials, focusing on telling stories via long-form technical narrative. Topics include motivation & structure, the process of successive refinement (including the "comb-over principle"), and tricks of the trade for using neurological hacks and navigating large text files. The audience will leave with a stronger grasp of how to make tutorials that keep a reader's interest while instructing gracefully and effectively.
-  video_provider: youtube
   video_id: TpmoxsYeap0
 
 - title: Practical Unix for Ruby & Rails
@@ -107,20 +105,19 @@
   speakers:
     - Ylan Segal
   event_name: LA RubyConf 2015
-  published_at: '2015-10-29'
+  published_at: "2015-10-29"
   description: |-
     Practical Unix for Ruby & Rails
 
     The Unix command-line interface is much more than a way to generate and run Rails migrations. It offers a myriad of tools that make it easy to work with text files, large and small. It is the original embodiment of the 'build small things' philosophy. Experience a boost in productivity by using the powerful tools already at your disposal.
-  video_provider: youtube
   video_id: yptv5R5koeI
 
-- title: What If Shakespeare Wrote Ruby
+- title: What If Shakespeare Wrote Ruby?
   raw_title: LA RubyConf 2015- What If Shakespeare Wrote Ruby by Adam Cuppy
   speakers:
     - Adam Cuppy
   event_name: LA RubyConf 2015
-  published_at: '2015-10-29'
+  published_at: "2015-10-29"
   description: |-
     What If Shakespeare Wrote Ruby
 
@@ -129,5 +126,4 @@
     Help us caption & translate this video!
 
     http://amara.org/v/HTAZ/
-  video_provider: youtube
   video_id: nyx6YF4XSpE

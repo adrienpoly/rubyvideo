@@ -1,11 +1,15 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
 
 - title: Software Developers Are People Too
   raw_title: SOFTWARE DEVELOPERS ARE PEOPLE TOO by Miha Rekar
   speakers:
     - Miha Rekar
   event_name: Pivorak Conf 1.0
-  published_at: '2018-10-26'
+  published_at: "2018-10-26"
   description: |-
     Developers have other stuff to do, not only coding. They have some exciting hobbies as well. Miha presents some of them and intertwines it with interesting software tips and tricks.
     -------------------------------------
@@ -18,7 +22,6 @@
     Instagram -- https://www.instagram.com/pivorakmeetup
 
     No crap. No crab. #pivorak.
-  video_provider: youtube
   video_id: CZIZPKpsXdo
 
 - title: Product Engineer - A Perfect Technical Executor For Cross Functional Teams
@@ -26,7 +29,7 @@
   speakers:
     - Artur Hebda
   event_name: Pivorak Conf 1.0
-  published_at: '2018-10-26'
+  published_at: "2018-10-26"
   description: |-
     Artur is talking about the product-code relationship.
     When is the code good? How to maintain tech debt?
@@ -42,7 +45,6 @@
     Instagram -- https://www.instagram.com/pivorakmeetup
 
     No crap. No crab. #pivorak.
-  video_provider: youtube
   video_id: KFWiK8addO0
 
 - title: How Mining Works
@@ -50,7 +52,7 @@
   speakers:
     - Aaron Cruz
   event_name: Pivorak Conf 1.0
-  published_at: '2018-10-26'
+  published_at: "2018-10-26"
   description: |-
     Aaron explains crypto mining Proof of Work using Ruby examples: the problems it solves and how it solves them. He answers the question "Why are we using so much electricity mining crypto?".
     -------------------------------------
@@ -63,7 +65,6 @@
     Instagram -- https://www.instagram.com/pivorakmeetup
 
     No crap. No crab. #pivorak.
-  video_provider: youtube
   video_id: 2ShCFVIw4uI
 
 - title: Нow To Migrate To Rails From non-Rails
@@ -72,7 +73,6 @@
     - Artur Hebda
     - Volodya Sveredyuk
   event_name: Pivorak Conf 1.0
-  published_at: '2018-10-26'
-  description: ''
-  video_provider: youtube
+  published_at: "2018-10-26"
+  description: ""
   video_id: "-oiK8MBRtgc"

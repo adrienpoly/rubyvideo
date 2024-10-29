@@ -1,13 +1,12 @@
 ---
+# Website: https://web.archive.org/web/20160715194849/http://goruco.com/
 
-# https://web.archive.org/web/20160715194849/http://goruco.com/
-
-- title: 'Keynote: Code Quality Lessons Learned'
-  raw_title: 'GORUCO 2016 - Keynote: Code Quality Lessons Learned Bryan Helmkamp'
+- title: "Keynote: Code Quality Lessons Learned"
+  raw_title: "GORUCO 2016 - Keynote: Code Quality Lessons Learned Bryan Helmkamp"
   speakers:
     - Bryan Helmkamp
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     Keynote: Code Quality Lessons Learned Bryan Helmkamp
 
@@ -19,12 +18,12 @@
   video_provider: youtube
   video_id: vcH0RBe4Eew
 
-- title: 'The Guest: A Guide To Code Hospitality'
-  raw_title: 'GORUCO 2016 - The Guest: A Guide To Code Hospitality by Nadia Odunayo'
+- title: "The Guest: A Guide To Code Hospitality"
+  raw_title: "GORUCO 2016 - The Guest: A Guide To Code Hospitality by Nadia Odunayo"
   speakers:
     - Nadia Odunayo
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     The Guest: A Guide To Code Hospitality by Nadia Odunayo
 
@@ -40,7 +39,7 @@
   speakers:
     - Aditya Mukerjee
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     Symmetric API Testing by Aditya Mukerjee
 
@@ -52,12 +51,12 @@
   video_provider: youtube
   video_id: 6BdUV1pAWa8
 
-- title: 'Micro Talk: Pipe Operator for Ruby'
+- title: "Micro Talk: Pipe Operator for Ruby"
   raw_title: GORUCO 2016 - Pipe Operator for Ruby by Fabio Akita
   speakers:
     - Fabio Akita
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     Pipe Operator for Ruby by Fabio Akita
 
@@ -69,12 +68,12 @@
   video_provider: youtube
   video_id: ThB2cpPsb1o
 
-- title: 'Micro Talk: Introducing the Crystal Programming Language'
+- title: "Micro Talk: Introducing the Crystal Programming Language"
   raw_title: GORUCO 2016 - Introducing the Crystal Programming Language by Will Leinweber
   speakers:
     - Will Leinweber
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     Introducing the Crystal Programming Language by Will Leinweber
 
@@ -86,12 +85,12 @@
   video_provider: youtube
   video_id: oC9IknG40po
 
-- title: 'Micro Talk: Ruby Racing - Challenging Ruby Methods'
-  raw_title: 'GORUCO 2016 - Ruby Racing: Challenging Ruby Methods Danielle Adams'
+- title: "Micro Talk: Ruby Racing - Challenging Ruby Methods"
+  raw_title: "GORUCO 2016 - Ruby Racing: Challenging Ruby Methods Danielle Adams"
   speakers:
     - Danielle Adams
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     Ruby Racing: Challenging Ruby Methods Danielle Adams
 
@@ -110,7 +109,7 @@
   speakers:
     - Andrew Faraday
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     Just A Ruby Minute by Andrew Faraday
 
@@ -122,12 +121,12 @@
   video_provider: youtube
   video_id: RhtITcsM2UE
 
-- title: 'Micro Talk: Impactful Refactors - Refactoring for Readability'
-  raw_title: 'GORUCO 2016 - Impactful Refactors: Refactoring for Readability by Kinsey Ann Durham'
+- title: "Micro Talk: Impactful Refactors - Refactoring for Readability"
+  raw_title: "GORUCO 2016 - Impactful Refactors: Refactoring for Readability by Kinsey Ann Durham"
   speakers:
     - Kinsey Ann Durham
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     Impactful Refactors: Refactoring for Readability by Kinsey Ann Durham
 
@@ -139,12 +138,12 @@
   video_provider: youtube
   video_id: T4reLGtp4fA
 
-- title: 'Micro Talk: Database Performance at Scale for RoR Applications'
+- title: "Micro Talk: Database Performance at Scale for RoR Applications"
   raw_title: GORUCO 2016 - Database Performance at Scale for RoR Applications by Rocio Delgado
   speakers:
     - Rocio Delgado
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     Database Performance at Scale for RoR Applications by Rocio Delgado
 
@@ -156,12 +155,12 @@
   video_provider: youtube
   video_id: 01SISs0ni1o
 
-- title: 'Micro Talk: Enumerable''s Ugly Cousin'
+- title: "Micro Talk: Enumerable's Ugly Cousin"
   raw_title: GORUCO 2016 -  Enumerable's Ugly Cousin by Ross Kaffenberger
   speakers:
     - Ross Kaffenberger
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     Enumerable's Ugly Cousin by Ross Kaffenberger
 
@@ -178,7 +177,8 @@
   speakers:
     - Aja Hammerly
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
+  slides_url: https://thagomizer.com/files/GoRuCo2016.pdf
   description: |-
     Exploring Big Data with rubygems.org Download Data by Aja Hammerly
 
@@ -190,12 +190,12 @@
   video_provider: youtube
   video_id: 0mzNNg62_kM
 
-- title: 'Keynote: Cult(ure) by Adam Cuppy'
-  raw_title: 'GORUCO 2016 - Keynote: Cult(ure) by Adam Cuppy'
+- title: "Keynote: Cult(ure) by Adam Cuppy"
+  raw_title: "GORUCO 2016 - Keynote: Cult(ure) by Adam Cuppy"
   speakers:
     - Adam Cuppy
   event_name: GoRuCo 2016
-  published_at: '2016-06-25'
+  published_at: "2016-06-25"
   description: |-
     Keynote: Cult(ure) by Adam Cuppy
 

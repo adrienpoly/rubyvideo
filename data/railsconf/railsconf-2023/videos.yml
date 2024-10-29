@@ -1,4 +1,9 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: Functional Patterns in Ruby
   raw_title: RailsConf 2023 - Functional Patterns in Ruby by John Crepezzi
   speakers:
@@ -274,7 +279,7 @@
   video_provider: youtube
   video_id: EBFWAGkIFZM
 
-- title: "Closing Keynote"
+- title: "Closing Keynote: Modern Dev Environments"
   raw_title: "RailsConf 2023 - Keynote: Aaron Patterson"
   speakers:
     - Aaron Patterson
@@ -370,7 +375,7 @@
 - title: "Faster websites: integrating next-gen images in your Rails apps"
   raw_title: "RailsConf 2023 - Faster websites: integrating next-gen images in your... by JP Balarini"
   speakers:
-    - JP Balarini
+    - Juan Pablo Balarini
   description:
     "Faster and cheaper websites: integrating next-gen images in your Rails
     apps by JP Balarini \n\nDid you know loading images accounts for nearly 50% of
@@ -806,7 +811,7 @@
     - Greta Parks
     - Rock Davenport
     - Mia Szinek
-    - # TODO Kiwi? https://cln.sh/ldhyPdB1
+    -  # TODO Kiwi? https://cln.sh/ldhyPdB1
     - Jack Permenter
     - Rachael Wright-Munn
     - Jonan Scheffler
@@ -1146,7 +1151,7 @@
   video_provider: youtube
   video_id: g6wrSpFFgmQ
 
-- title: Mentorship Panel
+- title: "Panel: Mentorship"
   raw_title: RailsConf 2023 - Mentorship Panel - Shana Moore, John Sawers, Ebun Segun, Erik Guzman & Adam Cuppy
   speakers:
     - Shana Moore

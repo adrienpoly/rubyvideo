@@ -1,26 +1,26 @@
 ---
-
-# TODO: talk dates
 # TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
 # TODO: schedule website
 
-- title: 'Keynote: Keep Ruby Weird'
+- title: "Keynote: Keep Ruby Weird"
   raw_title: Keep Ruby Weird 2018 - Keynote by Yukihiro Matsumoto 'Matz'
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: Keep Ruby Weird 2018
-  published_at: '2018-11-28'
+  published_at: "2018-11-28"
   description: Keep Ruby Weird 2018 - Keynote by Yukihiro Matsumoto 'Matz'
   video_provider: youtube
   video_id: wDrmvmhABcg
 
-- title: 'Distributed Fizz Buzz: Passing the Microservices Interview'
+- title: "Distributed Fizz Buzz: Passing the Microservices Interview"
   raw_title: Keep Ruby Weird 2018 - Distributed Fizz Buzz... by Nathan Ladd & Scott Bellware
   speakers:
     - Nathan Ladd
     - Scott Bellware
   event_name: Keep Ruby Weird 2018
-  published_at: '2018-11-28'
+  published_at: "2018-11-28"
   description: |-
     Keep Ruby Weird 2018 - Distributed Fizz Buzz: Passing the Microservices Interview by Nathan Ladd & Scott Bellware
 
@@ -33,7 +33,7 @@
   speakers:
     - Louisa Barrett
   event_name: Keep Ruby Weird 2018
-  published_at: '2018-11-28'
+  published_at: "2018-11-28"
   description: |-
     Keep Ruby Weird 2018 - The Teenage Mutant Ninja Turtles Guide to Color Theory by Louisa Barrett
 
@@ -49,7 +49,7 @@
     - Kylie Stradley
     - Matthew Draper
   event_name: Keep Ruby Weird 2018
-  published_at: '2018-11-28'
+  published_at: "2018-11-28"
   description: Keep Ruby Weird 2018 - Game Show
   video_provider: youtube
   video_id: lLHG0Nxutbw
@@ -59,7 +59,7 @@
   speakers:
     - Will Leinweber
   event_name: Keep Ruby Weird 2018
-  published_at: '2018-11-28'
+  published_at: "2018-11-28"
   description: |-
     Keep Ruby Weird 2018 - Using psql to \watch Star Wars And other silly things! by Will Leinweber
 
@@ -72,7 +72,7 @@
   speakers:
     - Beth Haubert
   event_name: Keep Ruby Weird 2018
-  published_at: '2018-11-28'
+  published_at: "2018-11-28"
   description: |-
     Keep Ruby Weird 2018 - Cats, The Musical! Algorithmic Song Meow-ification by Beth Haubert
 
@@ -85,7 +85,7 @@
   speakers:
     - Andrew Louis
   event_name: Keep Ruby Weird 2018
-  published_at: '2018-11-28'
+  published_at: "2018-11-28"
   description: |-
     Keep Ruby Weird 2018 - Using Ruby to build a modern Memex! by Andrew Louis
 
@@ -98,7 +98,7 @@
   speakers:
     - Yusuke Endoh
   event_name: Keep Ruby Weird 2018
-  published_at: '2018-11-28'
+  published_at: "2018-11-28"
   description: |-
     Keep Ruby Weird 2018 - Transcendental Programming in Ruby by Yusuke Endoh
 
@@ -106,14 +106,12 @@
   video_provider: youtube
   video_id: IgF75PjxHHA
 
-
-
-- title: 'Closing Keynote: OOPS'
+- title: "Closing Keynote: OOPS"
   raw_title: Keep Ruby Weird 2018 - Closing Keynote by Avdi Grimm
   speakers:
     - Avdi Grimm
   event_name: Keep Ruby Weird 2018
-  published_at: '2018-11-28'
+  published_at: "2018-11-28"
   description: |-
     Keep Ruby Weird 2018 - Closing Keynote by Avdi Grimm
 

@@ -1,13 +1,14 @@
 ---
+# TODO: conference website
 
 # Day 1
 
-- title: 'Keynote: 30 Years of Ruby'
+- title: "Keynote: 30 Years of Ruby"
   raw_title: RubyConf Taiwan 2023-Keynote-30 Years of Ruby by MATSUMOTO Yukihiro (Matz)
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -17,12 +18,12 @@
   video_id: YpRXqcULyVI
 
 # Track 1
-- title: 'A Rails performance guidebook: from 0 to 1B requests/day'
-  raw_title: 'RubyConf Taiwan 2023-A Rails performance guidebook: from 0 to 1B requests/day by Cristian Planas'
+- title: "A Rails performance guidebook: from 0 to 1B requests/day"
+  raw_title: "RubyConf Taiwan 2023-A Rails performance guidebook: from 0 to 1B requests/day by Cristian Planas"
   speakers:
     - Cristian Planas
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -41,7 +42,7 @@
   speakers:
     - Ryo Kajiwara
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -58,7 +59,7 @@
   speakers:
     - Yuji Yokoo
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -79,7 +80,7 @@
   speakers:
     - Tetsuya Hirota
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -91,12 +92,12 @@
   video_id: 0W7P29jxUmI
 
 # Track 1
-- title: 'Refining Fork Management: From Workarounds to `Process#_fork`'
-  raw_title: 'RubyConf Taiwan 2023-Refining Fork Management: From Workarounds to `Process#_fork` by Jian Wei-Hang'
+- title: "Refining Fork Management: From Workarounds to `Process#_fork`"
+  raw_title: "RubyConf Taiwan 2023-Refining Fork Management: From Workarounds to `Process#_fork` by Jian Wei-Hang"
   speakers:
     - Jian Wei-Hang
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: Chinese
   description: |-
     #rubyconftw 2023
@@ -117,7 +118,7 @@
   speakers:
     - Mark Chao
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -134,7 +135,7 @@
   speakers:
     - Hiroshi Shibata
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -153,7 +154,7 @@
   speakers:
     - Helio Cola
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -170,7 +171,7 @@
   speakers:
     - Ho Tse-Ching
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: Chinese
   description: |-
     #rubyconftw 2023
@@ -184,12 +185,12 @@
   video_id: Mx4ir49-hQs
 
 # Track 2
-- title: 'Understanding Parser Generators surronding Ruby with Contributing Lrama'
+- title: "Understanding Parser Generators surronding Ruby with Contributing Lrama"
   raw_title: RubyConf Taiwan 2023-Understanding Parser Generators surronding Ruby with Contributing Lrama
   speakers:
     - Junichi Kobayashi
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -206,7 +207,7 @@
   speakers:
     - Hitoshi Hasumi
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -223,7 +224,7 @@
   speakers:
     - Radoslav Stankov
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-15'
+  published_at: "2023-12-15"
   language: English
   description: |-
     #rubyconftw 2023
@@ -236,7 +237,6 @@
   video_provider: youtube
   video_id: JlksEZMXt8Y
 
-
 # Day 2
 
 # Track 1
@@ -245,7 +245,7 @@
   speakers:
     - Aotoki Tsuruya
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: Chinese
   description: |-
     #rubyconftw 2023
@@ -262,7 +262,8 @@
   speakers:
     - Andrei Bondarev
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
+  slides_url: https://speakerdeck.com/andreibondarev/rubyconf-taiwan-2023-catching-the-ai-train
   language: English
   description: |-
     Official Website：http://2023.rubyconf.tw
@@ -277,7 +278,7 @@
   speakers:
     - Samuel Giddins
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: English
   description: |-
     #rubyconftw 2023
@@ -294,7 +295,7 @@
   speakers:
     - Warren Wong
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: English
   description: |-
     #rubyconftw 2023
@@ -311,7 +312,7 @@
   speakers:
     - Delton Ding
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: Chinese
   description: |-
     #rubyconftw 2023
@@ -326,7 +327,7 @@
   speakers:
     - Du Gia Huy
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: English
   description: |-
     #rubyconftw 2023
@@ -347,7 +348,7 @@
   speakers:
     - John Lin
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: Chinese
   description: |-
     #rubyconftw 2023
@@ -370,7 +371,7 @@
   speakers:
     - Masafumi Okura
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: English
   description: |-
     #rubyconftw 2023
@@ -387,7 +388,7 @@
   speakers:
     - Cindy Liu
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: Chinese
   description: |-
     #rubyconftw 2023
@@ -406,7 +407,7 @@
   speakers:
     - Ted Johansson
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: English
   description: |-
     #rubyconftw 2023
@@ -420,12 +421,12 @@
   video_id: CF1DcKV-U0o
 
 # Track 1
-- title: 'A Brief Introduction to Generative AI Engineer: A Guide for Rubyists'
-  raw_title: 'RubyConf Taiwan 2023-A Brief Introduction to Generative AI Engineer: A Guide for Rubyists by ihower'
+- title: "A Brief Introduction to Generative AI Engineer: A Guide for Rubyists"
+  raw_title: "RubyConf Taiwan 2023-A Brief Introduction to Generative AI Engineer: A Guide for Rubyists by ihower"
   speakers:
     - Wen-Tien Chang
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: Chinese
   description: |-
     #rubyconftw 2023
@@ -444,7 +445,7 @@
   speakers:
     - Hiếu Nguyễn
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: English
   description: |-
     #rubyconftw 2023
@@ -464,7 +465,7 @@
   speakers:
     - Stephen Margheim
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   slides_url: https://speakerdeck.com/fractaledmind/how-and-why-to-run-sqlite-in-production
   language: English
   description: |-
@@ -477,12 +478,12 @@
   video_id: uT6TUfopY6E
 
 # Track 1
-- title: 'Keynote: Quest of the Rubyist by Tim Riley'
+- title: "Keynote: Quest of the Rubyist by Tim Riley"
   raw_title: RubyConf Taiwan 2023-Keynote-Quest of the Rubyist by  Tim Riley
   speakers:
     - Tim Riley
   event_name: RubyConf Taiwan 2023
-  published_at: '2023-12-16'
+  published_at: "2023-12-16"
   language: English
   description: |-
     Official Website：http://2023.rubyconf.tw

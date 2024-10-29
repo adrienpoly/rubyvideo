@@ -1,4 +1,9 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: "Keynote: Getting to Two Million Users as a One Woman Dev Team"
   raw_title: RailsConf 2024 - Opening Conference Keynote by Nadia Odunayo
   speakers:
@@ -250,6 +255,7 @@
     - Irina Nazarova
   event_name: RailsConf 2024
   published_at: "2024-05-24"
+  slides_url: https://speakerdeck.com/irinanazarova/railsconf-2024-keynote-startups-on-rails-in-2024
   description: |-
     Let’s hear from startups that chose Rails in recent years. Would you be surprised to hear that Rails is quietly recommended founder to founder in the corridors of Y Combinator? But it’s not only the praise that is shared.
 

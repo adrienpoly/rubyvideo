@@ -1,9 +1,14 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: The State of Ruby 3 Typing
   raw_title: "[EN] The State of Ruby 3 Typing / Soutaro Matsumoto @soutaro"
   speakers:
     - Soutaro Matsumoto
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: PvkpW1OEaP8
@@ -19,7 +24,7 @@
   raw_title: "[EN] The whys and hows of transpiling Ruby / Vladimir Dementyev @palkan_tula"
   speakers:
     - Vladimir Dementyev
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: zLInIisYlDo
@@ -36,7 +41,7 @@
   raw_title: "[EN] Reflecting on Ruby Reflection for Rendering RBIs / Ufuk Kayserilioglu @paracycle"
   speakers:
     - Ufuk Kayserilioglu
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: OJRQAn6BfpE
@@ -50,7 +55,7 @@
   raw_title: "[EN] Is it time run Ruby on Web via WebAssembly? / 蒼時弦也 @elct9620"
   speakers:
     - elct9620
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: PJLWoz6K7w4
@@ -66,7 +71,7 @@
   raw_title: "[EN] mruby machine: An Operating System for Microcontoller / Hitoshi HASUMI @hasumikin"
   speakers:
     - Hitoshi HASUMI
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: kDOf_tZKlLU
@@ -80,7 +85,7 @@
   raw_title: "[EN] Keyword Arguments: Past, Present, and Future / Jeremy Evans @jeremyevans0"
   speakers:
     - Jeremy Evans
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: rxJRrccXRfg
@@ -96,7 +101,7 @@
   raw_title: "[EN] Live coding: Grepping Ruby code like a boss / Jônatas Davi Paganini @jonatas"
   speakers:
     - Jônatas Davi Paganini
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: YczrZQC9aP8
@@ -111,7 +116,7 @@
   raw_title: "[EN] Now is the time to create your own (m)Ruby computer / Katsuhiko Kageyama @kishima"
   speakers:
     - Katsuhiko Kageyama
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: N24gfQJMXfs
@@ -124,7 +129,7 @@
   raw_title: "[JA] Asynchronous Opal / Yoh Osaki @youchan"
   speakers:
     - Yoh Osaki
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: yDUmMuPdSUA
@@ -142,7 +147,7 @@
   raw_title: "[JA] Rinda in the real-world embedded systems / Masatoshi SEKI @m_seki"
   speakers:
     - Masatoshi SEKI
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: qwe6qmtxHbk
@@ -157,7 +162,7 @@
   raw_title: "[EN] mruby-rr: Time Traveling Debugger For mruby Using rr / Lin Yu Hsiang @johnlinvc"
   speakers:
     - Lin Yu Hsiang
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: E5ifh9yZCKk
@@ -171,7 +176,7 @@
   raw_title: "[EN] Developing your Dreamcast apps and games with mruby / Yuji Yokoo @yuji_yokoo"
   speakers:
     - Yuji Yokoo
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: oqBTlYUkGXk
@@ -185,7 +190,7 @@
   raw_title: "[EN] Don't @ me! Instance Variable Performance in Ruby / Aaron Patterson @tenderlove"
   speakers:
     - Aaron Patterson
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: 4ysxA8DDplQ
@@ -200,7 +205,7 @@
   raw_title: "[JA] Don't @ me! Instance Variable Performance in Ruby / Aaron Patterson @tenderlove"
   speakers:
     - Aaron Patterson
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: iDW93fAp2I8
@@ -215,7 +220,7 @@
   raw_title: "[JA] Ruby to C Translator by AI / Hideki Miura @miura1729"
   speakers:
     - Hideki Miura
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: kr2RXLoiLNA
@@ -231,7 +236,7 @@
   raw_title: "[EN] The Complex Nightmare of the Asian Cultural Area / ITOYANAGI Sakura @aycabta"
   speakers:
     - ITOYANAGI Sakura
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: s7Zc7VJMBv8
@@ -245,7 +250,7 @@
   raw_title: "[JA] Dependency Resolution with Standard Libraries"
   speakers:
     - Hiroshi Shibata
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: wvayhyTEL_k
@@ -259,7 +264,7 @@
   raw_title: "[JA] msgraph: Microsoft Graph API Client with Ruby / ODA Hirohito @jimlock"
   speakers:
     - ODA Hirohito
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: TrVhnrTPtoI
@@ -273,7 +278,7 @@
   raw_title: "[JA] Magic is organizing chaos / Shugo Maeda @shugomaeda"
   speakers:
     - Shugo Maeda
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: QKiQiK7gSHQ
@@ -287,7 +292,7 @@
   raw_title: '[JA Keynote] Ruby3 and Beyond / Yukihiro "Matz" Matsumoto @yukihiro_matz'
   speakers:
     - Yukihiro "Matz" Matsumoto
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: wVrJZReHlM8
@@ -298,7 +303,7 @@
   raw_title: "[JA] Road to RuboCop 1.0 / Koichi ITO @koic"
   speakers:
     - Koichi ITO
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: jkY7J9k6mHs
@@ -314,7 +319,7 @@
   raw_title: "[JA] Goodbye fat gem / Sutou Kouhei @ktou"
   speakers:
     - Sutou Kouhei
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: tGZiCqyMU_g
@@ -332,7 +337,7 @@
   raw_title: "[JA] On sending methods / Urabe, Shyouhei @shyouhei"
   speakers:
     - Urabe Shyouhei
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: IAkrGf9XJi0
@@ -346,7 +351,7 @@
   raw_title: "[JA] Type Profiler: a Progress Report of a Ruby 3 Type Analyzer / Yusuke Endoh @mametter"
   speakers:
     - Yusuke Endoh
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: 6KcFdQWp8W0
@@ -365,7 +370,7 @@
   raw_title: "[JA] Ractor report / Koichi Sasada @ko1"
   speakers:
     - Koichi Sasada
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: 40t8EPpnujg
@@ -379,7 +384,7 @@
   raw_title: "[EN] Running Rack and Rails Faster with TruffleRuby / Benoit Daloze @eregontp"
   speakers:
     - Benoit Daloze
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: 281YdMYRAsk
@@ -393,7 +398,7 @@
   raw_title: "[EN] RubyMem: The Leaky Gems Database for Bundler / Ernesto Tagwerker @etagwerker"
   speakers:
     - Ernesto Tagwerker
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   slides_url: https://speakerdeck.com/etagwerker/rubymem-the-leaky-gems-database-for-bundler-at-ruby-kaigi-takeout-2020
   video_provider: youtube
@@ -408,7 +413,7 @@
   raw_title: "[EN] Prettier Ruby / Kevin Deisz @kddeisz"
   speakers:
     - Kevin Newton
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: 3945FmGGHhw
@@ -422,7 +427,7 @@
   raw_title: "[EN] Don't Wait For Me! Scalable Concurrency for Ruby 3! / Samuel Williams @ioquatix"
   speakers:
     - Samuel Williams
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: Y29SSOS4UOc
@@ -441,7 +446,7 @@
   raw_title: Ruby committers vs the World - Day 1 (extended)
   speakers:
     - Ruby Committers # TODO: list each person
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: D-AK1x4vuRU
@@ -452,7 +457,7 @@
   raw_title: Ruby committers vs the World - Day 2
   speakers:
     - Ruby Committers # TODO: list each person
-  event_name: RubyKaigi Takeout 2020
+  event_name: RubyKaigi 2020 Takeout
   published_at: "2020-09-04"
   video_provider: youtube
   video_id: 20VDvtpjGn0

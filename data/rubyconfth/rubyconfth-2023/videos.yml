@@ -1,13 +1,15 @@
 ---
+# TODO: conference website
+# TODO: schedule website
 
 # Day 1
 
-- title: 'Keynote: 30 Years of Ruby'
+- title: "Keynote: 30 Years of Ruby"
   raw_title: 'RubyConfTH 2023 - Keynote: 30 Years of Ruby by Yukihiro "Matz" Matsumoto'
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: RubyConf TH 2023
-  published_at: '2023-10-06'
+  published_at: "2023-10-06"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
@@ -19,7 +21,7 @@
   speakers:
     - Radoslav Stankov
   event_name: RubyConf TH 2023
-  published_at: '2023-10-06'
+  published_at: "2023-10-06"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
@@ -32,7 +34,7 @@
     - Elle Meredith
     - Lachlan Hardy
   event_name: RubyConf TH 2023
-  published_at: '2023-10-06'
+  published_at: "2023-10-06"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
@@ -44,7 +46,7 @@
   speakers:
     - Matthew Lindfield Seager
   event_name: RubyConf TH 2023
-  published_at: '2023-10-06'
+  published_at: "2023-10-06"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
@@ -56,19 +58,19 @@
   speakers:
     - Chakrit Wichian
   event_name: RubyConf TH 2023
-  published_at: '2023-10-06'
+  published_at: "2023-10-06"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
   video_provider: youtube
   video_id: nynzHHNQbDA
 
-- title: 'BYOJ: Build your own JIT with Ruby'
-  raw_title: 'RubyConfTH 2023 - BYOJ: Build your own JIT with Ruby by Syed Faraaz Ahmad'
+- title: "BYOJ: Build your own JIT with Ruby"
+  raw_title: "RubyConfTH 2023 - BYOJ: Build your own JIT with Ruby by Syed Faraaz Ahmad"
   speakers:
     - Syed Faraaz Ahmad
   event_name: RubyConf TH 2023
-  published_at: '2023-10-06'
+  published_at: "2023-10-06"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
@@ -80,7 +82,7 @@
   speakers:
     - Katrina Owen
   event_name: RubyConf TH 2023
-  published_at: '2023-10-06'
+  published_at: "2023-10-06"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
@@ -92,34 +94,33 @@
   speakers:
     - Benji Lewis
   event_name: RubyConf TH 2023
-  published_at: '2023-10-06'
+  published_at: "2023-10-06"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
   video_provider: youtube
   video_id: xz9FMFGV2Eo
 
-- title: 'Keynote: Breaking Barriers — Empowering the Unbanked with Innovative Tech'
-  raw_title: 'RubyConfTH 2023 - Keynote: Breaking Barriers — Empowering the Unbanked with Inno .. by Bernard Banta'
+- title: "Keynote: Breaking Barriers — Empowering the Unbanked with Innovative Tech"
+  raw_title: "RubyConfTH 2023 - Keynote: Breaking Barriers — Empowering the Unbanked with Inno .. by Bernard Banta"
   speakers:
     - Bernard Banta
   event_name: RubyConf TH 2023
-  published_at: '2023-10-06'
+  published_at: "2023-10-06"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
   video_provider: youtube
   video_id: oRtgSlJeiuw
 
-
 # Day 2
 
-- title: 'Keynote: Popping into Ruby'
-  raw_title: 'RubyConfTH 2023 - Keynote: Popping into Ruby by Jemma Issroff'
+- title: "Keynote: Popping into Ruby"
+  raw_title: "RubyConfTH 2023 - Keynote: Popping into Ruby by Jemma Issroff"
   speakers:
-  - Jemma Issroff
+    - Jemma Issroff
   event_name: RubyConf TH 2023
-  published_at: '2023-10-07'
+  published_at: "2023-10-07"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
@@ -131,19 +132,19 @@
   speakers:
     - Hitoshi Hasumi
   event_name: RubyConf TH 2023
-  published_at: '2023-10-07'
+  published_at: "2023-10-07"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
   video_provider: youtube
   video_id: GkIRr1Xm8GU
 
-- title: 'Avoiding Disaster: Practical Strategies for Error Handling'
-  raw_title: 'RubyConfTH 2023 - Avoiding Disaster: Practical Strategies for Error Handling Slides by Huy Du'
+- title: "Avoiding Disaster: Practical Strategies for Error Handling"
+  raw_title: "RubyConfTH 2023 - Avoiding Disaster: Practical Strategies for Error Handling Slides by Huy Du"
   speakers:
     - Huy Du
   event_name: RubyConf TH 2023
-  published_at: '2023-10-07'
+  published_at: "2023-10-07"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
@@ -155,14 +156,14 @@
   speakers:
     - Brad Urani
   event_name: RubyConf TH 2023
-  published_at: '2023-10-07'
+  published_at: "2023-10-07"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
   video_provider: youtube
   video_id: RBj4S9S-fJI
 
-- title: 'Panel Discussion'
+- title: "Panel Discussion"
   raw_title: RubyConfTH 2023 - Panel Discussion
   speakers:
     - Dan Itsara
@@ -171,7 +172,7 @@
     - Brad Urani
     - Elle Meredith
   event_name: RubyConf TH 2023
-  published_at: '2023-10-07'
+  published_at: "2023-10-07"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
@@ -184,7 +185,7 @@
     - Michael Milewski
     - Selena Small
   event_name: RubyConf TH 2023
-  published_at: '2023-10-07'
+  published_at: "2023-10-07"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
@@ -196,31 +197,31 @@
   speakers:
     - Helio Cola
   event_name: RubyConf TH 2023
-  published_at: '2023-10-07'
+  published_at: "2023-10-07"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
   video_provider: youtube
   video_id: 3UiVL6TnDr8
 
-- title: 'Rails Performance Monitoring 101: A Primer for Developers'
-  raw_title: 'RubyConfTH 2023 - Rails Performance Monitoring 101: A Primer for Developers by Rishi Jain'
+- title: "Rails Performance Monitoring 101: A Primer for Developers"
+  raw_title: "RubyConfTH 2023 - Rails Performance Monitoring 101: A Primer for Developers by Rishi Jain"
   speakers:
     - Rishi Jain
   event_name: RubyConf TH 2023
-  published_at: '2023-10-07'
+  published_at: "2023-10-07"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
   video_provider: youtube
   video_id: 41HtDXJj-fw
 
-- title: 'Keynote: Thriving in Uncertainty'
-  raw_title: 'RubyConfTH 2023 - Keynote: Thriving in Uncertainty by Ben Halpern'
+- title: "Keynote: Thriving in Uncertainty"
+  raw_title: "RubyConfTH 2023 - Keynote: Thriving in Uncertainty by Ben Halpern"
   speakers:
     - Ben Halpern
   event_name: RubyConf TH 2023
-  published_at: '2023-10-07'
+  published_at: "2023-10-07"
   description: |-
     A talk from RubyConfTH 2023, held in Bangkok, Thailand on October 6-7, 2023.
     Find out more and register for updates for our next conference at https://rubyconfth.com/
