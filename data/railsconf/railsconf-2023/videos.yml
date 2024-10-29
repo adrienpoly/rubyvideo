@@ -22,6 +22,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/3ndcqh9fTGA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/3ndcqh9fTGA/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 3ndcqh9fTGA
 
 - title: Who Wants to be a Ruby Engineer?
@@ -40,6 +41,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/4VT0aDEDd28/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/4VT0aDEDd28/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 4VT0aDEDd28
 
 - title: Building an offline experience with a Rails-powered PWA
@@ -58,6 +60,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/4cQuxQdWkPE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/4cQuxQdWkPE/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 4cQuxQdWkPE
 
 - title: Accessible by default
@@ -76,6 +79,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/4j2zlvE_Yj8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/4j2zlvE_Yj8/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 4j2zlvE_Yj8
 
 - title: ActiveRecord::Encryption; Stop Hackers from Reading your Data
@@ -93,6 +97,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/4mZNP_Dgi2w/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/4mZNP_Dgi2w/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 4mZNP_Dgi2w
 
 - title: Applying microservices patterns to a modular monolith
@@ -109,6 +114,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/4zrQAJ0RlI4/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/4zrQAJ0RlI4/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 4zrQAJ0RlI4
 
 - title: "Bridging the Gap: Creating Trust Between Non-Technical Stakeholders and Engineering Teams"
@@ -125,6 +131,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/5gSRKyuO7qY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/5gSRKyuO7qY/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 5gSRKyuO7qY
 
 - title: "Forecasting the Future: An Introduction to Machine Learning for Weather Prediction"
@@ -147,6 +154,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/656z7Hu0HtY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/656z7Hu0HtY/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 656z7Hu0HtY
 
 - title: The End of Legacy Code
@@ -166,6 +174,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/6msn5oGT7Q8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/6msn5oGT7Q8/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 6msn5oGT7Q8
 
 - title: Demystifying the Unionizing Process
@@ -183,6 +192,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/8qSmTXFG2Pc/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/8qSmTXFG2Pc/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 8qSmTXFG2Pc
 
 - title: How to Upstream Your Code to Rails
@@ -202,6 +212,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/Ai64DuHt4CU/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/Ai64DuHt4CU/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: Ai64DuHt4CU
 
 - title: A custom design pattern for building dynamic ActiveRecord queries
@@ -223,6 +234,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/CWqISNM1RfY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/CWqISNM1RfY/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: CWqISNM1RfY
 
 - title: A Picture Is Worth a 1000 Lines of Code
@@ -243,6 +255,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/ChsqAlhnjsI/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ChsqAlhnjsI/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: ChsqAlhnjsI
 
 - title: "Rails on Ruby: How Ruby Makes Rails Great"
@@ -263,6 +276,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/EBFWAGkIFZM/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/EBFWAGkIFZM/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: EBFWAGkIFZM
 
 - title: "Closing Keynote: Modern Dev Environments"
@@ -277,6 +291,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/LcDNedD-8mU/maxresdefault.jpg
   published_at: "2023-07-10"
   slides_url: https://speakerdeck.com/tenderlove/railsconf-2023
+  video_provider: youtube
   video_id: LcDNedD-8mU
 
 - title: How Rails fosters a diverse and competitive tech ecosystem in the era of big tech
@@ -293,6 +308,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/Lo1rn0XCSDw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/Lo1rn0XCSDw/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: Lo1rn0XCSDw
 
 - title: An imposter's guide to growth in engineering
@@ -310,6 +326,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/MH8j1_uthhk/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/MH8j1_uthhk/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: MH8j1_uthhk
 
 - title: "Rails Performance Monitoring 101: A Primer for Junior Developers"
@@ -326,6 +343,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/OF5YhG-91ao/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/OF5YhG-91ao/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: OF5YhG-91ao
 
 - title: "Beyond CRUD: the PostgreSQL techniques your Rails app is missing.  Shayon Mukherjee"
@@ -351,6 +369,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/OQUTBLhP2QI/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/OQUTBLhP2QI/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: OQUTBLhP2QI
 
 - title: "Faster websites: integrating next-gen images in your Rails apps"
@@ -375,6 +394,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/Pdnpen6jPDM/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/Pdnpen6jPDM/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: Pdnpen6jPDM
 
 - title: Hotwiring My React Brain
@@ -396,6 +416,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/PvAf3vZp1b8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/PvAf3vZp1b8/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: PvAf3vZp1b8
 
 - title: Let's Standardize Rails, Once and For All!
@@ -415,6 +436,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/QVilOzkLdlI/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/QVilOzkLdlI/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: QVilOzkLdlI
 
 - title: Building a world class engineering organization — learning from cave paintings and horsey land art
@@ -435,6 +457,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/R7JqiVPuKD8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/R7JqiVPuKD8/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: R7JqiVPuKD8
 
 - title: "Terms of Deployment: The Process of Evaluating Hatchbox, Fly and Render for Developers"
@@ -451,6 +474,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/RHv7hJGOUr0/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/RHv7hJGOUr0/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: RHv7hJGOUr0
 
 - title: "Deep End Diving: Getting Up to Speed on New Codebases"
@@ -472,6 +496,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/RxgHgzByNPs/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/RxgHgzByNPs/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: RxgHgzByNPs
 
 - title: Exploring the Power of Turbo Streams and ActionCable
@@ -492,6 +517,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/S--B3BGIk3M/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/S--B3BGIk3M/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: S--B3BGIk3M
 
 - title: Hacking Your Emotional API
@@ -512,6 +538,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/UftGecVyvSk/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/UftGecVyvSk/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: UftGecVyvSk
 
 - title: Building a more effective, bidirectional mentor-mentee relationship
@@ -531,6 +558,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/Uv2I3ECnzuY/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/Uv2I3ECnzuY/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: Uv2I3ECnzuY
 
 - title: 10x your teamwork through pair programming
@@ -549,6 +577,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/W8y0odUwks8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/W8y0odUwks8/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: W8y0odUwks8
 
 - title: "Keynote: Investing in the Ruby community"
@@ -565,6 +594,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/XohX3nlVIdc/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/XohX3nlVIdc/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: XohX3nlVIdc
 
 - title: Using Rails Engines to Supercharge Your Team
@@ -583,6 +613,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/ZE9dKoBIr48/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ZE9dKoBIr48/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: ZE9dKoBIr48
 
 - title: Go Passwordless with WebAuthn in Ruby
@@ -604,6 +635,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/ZsGphXQ9kfw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ZsGphXQ9kfw/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: ZsGphXQ9kfw
 
 - title: Strategies for saying no
@@ -625,6 +657,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/_2zWwwjnuUA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/_2zWwwjnuUA/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: _2zWwwjnuUA
 
 - title: Building Ruby Head for your Rails App
@@ -645,6 +678,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/bLTqSh3Jon0/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/bLTqSh3Jon0/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: bLTqSh3Jon0
 
 - title: "Breaking the Grind: Crafting Your Ideal Software Engineering Career Build"
@@ -661,6 +695,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/bhagIbz3T0A/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/bhagIbz3T0A/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: bhagIbz3T0A
 
 - title: A pragmatic and simple approach to fixing a memory leak
@@ -683,6 +718,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/bvdWPGQ8cEA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/bvdWPGQ8cEA/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: bvdWPGQ8cEA
 
 - title: Don’t be afraid of the scary red error messages; they’re actually our friends
@@ -700,6 +736,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/eS7OMjZaGoQ/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/eS7OMjZaGoQ/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: eS7OMjZaGoQ
 
 - title: Rails as a piece of birthday cake
@@ -723,6 +760,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/fANjY7Hn_ig/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/fANjY7Hn_ig/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: fANjY7Hn_ig
 
 - title: "Keynote: Leading through Change - When two cultures combine"
@@ -736,6 +774,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/hYFdPM3dUbk/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/hYFdPM3dUbk/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: hYFdPM3dUbk
 
 - title: Off to the races
@@ -757,6 +796,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/jEDX3yswrcM/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/jEDX3yswrcM/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: jEDX3yswrcM
 
 - title: Lightning Talks
@@ -797,6 +837,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/k55B4ydueGE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/k55B4ydueGE/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: k55B4ydueGE
 
 - title: Offsite planning for Everyone
@@ -820,6 +861,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/ofqnAOiRwOw/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/ofqnAOiRwOw/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: ofqnAOiRwOw
 
 - title: Migrating Shopify’s Core Rails Monolith to Trilogy
@@ -836,6 +878,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/tHiIhZPKClI/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/tHiIhZPKClI/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: tHiIhZPKClI
 
 - title: A Ruby Community Podcast Live!
@@ -865,6 +908,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/tNiqYktR8xo/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/tNiqYktR8xo/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: tNiqYktR8xo
 
 - title: Forging Your Path to Senior Developer
@@ -886,6 +930,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/v0OLIzH3UAc/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/v0OLIzH3UAc/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: v0OLIzH3UAc
 
 - title: "Building Workplaces for Caregivers: Supporting Parents in Tech"
@@ -906,6 +951,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/vMn4LGLNc4M/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/vMn4LGLNc4M/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: vMn4LGLNc4M
 
 - title: "Merged PRs: An Untapped Resource for Practice and Exploration"
@@ -927,6 +973,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/vdZbQHz4pfk/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/vdZbQHz4pfk/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: vdZbQHz4pfk
 
 - title: Teaching Capybara Testing - An Illustrated Adventure
@@ -949,6 +996,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/wWPxLJJlnmU/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/wWPxLJJlnmU/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: wWPxLJJlnmU
 
 - title: The Math Every Programmer Needs
@@ -966,6 +1014,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/wzYYT40T8G8/maxresdefault.jpg
   published_at: "2023-07-10"
   slides_url: https://speakerdeck.com/joelq/the-math-every-programmer-needs
+  video_provider: youtube
   video_id: wzYYT40T8G8
 
 - title: Zero downtime Rails upgrades
@@ -988,6 +1037,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/zHK-quUz-5M/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/zHK-quUz-5M/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: zHK-quUz-5M
 
 - title: Upgrading the Ruby Community
@@ -1005,6 +1055,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/10evYV5qT7c/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/10evYV5qT7c/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: 10evYV5qT7c
 
 - title: Managing the Burnout Burndown
@@ -1023,6 +1074,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/BDnWcZobdrA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/BDnWcZobdrA/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: BDnWcZobdrA
 
 - title: Taylor’s Guide to Big Rewrites
@@ -1043,6 +1095,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/G1QbH2QZX08/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/G1QbH2QZX08/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: G1QbH2QZX08
 
 - title: How We Implemented Internal Salary Transparency (And Why It Matters)
@@ -1061,6 +1114,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/MfGRm8Dm68g/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/MfGRm8Dm68g/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: MfGRm8Dm68g
 
 - title: "Keynote: The Magic of Rails"
@@ -1075,6 +1129,7 @@
   thumbnail_xl: https://i.ytimg.com/vi/TKulocPqV38/maxresdefault.jpg
   published_at: "2023-07-10"
   slides_url: https://speakerdeck.com/eileencodes/the-magic-of-rails
+  video_provider: youtube
   video_id: TKulocPqV38
 
 - title: "Keynote: The Power of Improv: Unlocking Your Creative Potential as a Developer"
@@ -1093,6 +1148,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/g6wrSpFFgmQ/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/g6wrSpFFgmQ/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: g6wrSpFFgmQ
 
 - title: "Panel: Mentorship"
@@ -1115,6 +1171,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/lXhTh3BUuJE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/lXhTh3BUuJE/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: lXhTh3BUuJE
 
 - title: Mentorship in Three Acts
@@ -1136,4 +1193,5 @@
   thumbnail_lg: https://i.ytimg.com/vi/nOhGMcjL0jk/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/nOhGMcjL0jk/maxresdefault.jpg
   published_at: "2023-07-10"
+  video_provider: youtube
   video_id: nOhGMcjL0jk

@@ -28,6 +28,7 @@
     However, some versions may encounter `LoadError` at `require` when running `bundle exec` or `bin/rails`, for example with `matrix` or `net-smtp`. We need to understand how they differ from standard libraries.
 
     In this presentation, I will explain how Ruby's `require` and `bundle exec` work with default/bundled gems. I will also suggest what users can do to load them successfully.
+  video_provider: youtube
   video_id: HB_Qa1sE2kM
 
 - title: Magic is Ruby, Ruby is Magic!
@@ -40,6 +41,7 @@
     Magic: The Gathering is a popular card game with over 20,000 unique cards where the cards themselves define the rules of the game.
 
     Can we write a Ruby app to simulate games of Magic: The Gathering? This is the story of one man's attempt to do just that.
+  video_provider: youtube
   video_id: btIbue1JkA0
 
 # Morning Tea
@@ -60,6 +62,7 @@
     Optimising the developer experience is essential for productivity - so the presentation explores ways to collect and implement developers' ideas. Finally, it explains how to use modern technologies to speed up releases, track success metrics, perform regular stress testing, and ensure ongoing security.
 
     This presentation aims to help you navigate the complexities of scaling Ruby applications, saving both time and resources in your operations.
+  video_provider: youtube
   video_id: iBhCEvFR6zk
 
 - title: What I Learned From A Clown About Engineering Culture
@@ -78,6 +81,7 @@
     grounded in play that navigated the waters of remote working, global expansion
     and high growth… while the world was going through some things. This talk is going
     to be weird, fun and above all super useful.
+  video_provider: youtube
   video_id: YRhFZG6mX5g
 
 # Lunch
@@ -94,6 +98,7 @@
     We'll explore how we can make the most of our HTML elements and attributes to improve the performance and accessibility of our website and applications as well as boosting the efficiency of our development process.
 
     All by using a technology we are already use day to day, but just using it better than we were before. At the end of the talk you'll be able to make things more useful and usable, not just for performance and accessibility but for our users and different technologies as well.
+  video_provider: youtube
   video_id: Qv8hjid6WDI
 
 - title: Reconstructing Taiwan’s Internet-Based Party Politics
@@ -108,6 +113,7 @@
     In Taiwan, a political party named “New Power Party” has, since its establishment in 2015, relied on volunteers to develop a complete system enabling online party membership, donations, and voting. After several years of developing and operating in a dynamic and evolving manner, the system accumulated substantial technical debt. This led to issues with proper and complete system functionality and maintenance, impacting the party’s operations. Eventually, we decided to re-evaluate the specifications and rebuild the entire system using the latest versions of Ruby and Rails.
 
     In this session, I will explore the process of revamping an outdated Rails application, lacking in testing and specification documentation, with the new Ruby 3 and Rails 7. This will include code refactoring, selecting the Runtime Stack, and integrating automated deployment processes using Ruby-based tools. I will also share practical experiences and reflections on integrating data from old and new versions and relaunching the system.
+  video_provider: youtube
   video_id: rGBgTCILW3k
 
 - title: Exploring Rails anti-patterns
@@ -124,6 +130,7 @@
     code to become more robust and functional. One that will be easier to extend and
     maintain. This talk will explore anti-patterns in practice and suggest fixes to
     ensure your Rails project is a success.
+  video_provider: youtube
   video_id: Ndn49iqnzn8
 
 - title: One does not simply... rebuild a product
@@ -140,6 +147,7 @@
     We're rebuilding Culture Amp's second largest product - Performance. It's 9 years old, came in as a Series A acquisition 5 years ago, has over 2700 customers with the largest one at 77k users. Against conventional wisdom, we're rebuilding it from the ground up with an aggressive timeline. The underlying model is outdated, slow to iterate on, and not extensible. The monoliths are riddled with tech debt, tightly coupled, patched and band-aided over many times, and won't scale to the $3b global Performance market we're targeting.
 
     That wasn't challenging enough already I'm also using this opportunity to rebuild our engineering culture. Setting a high bar for engineering standards, ways of working, and hoping to improve engagement as we go.
+  video_provider: youtube
   video_id: NHIeIQtel7E
 
 # Afternoon Tea
@@ -160,6 +168,7 @@
     and concurrency optimizations, empowering them with effective strategies to maximize
     performance. Join us for a comprehensive understanding of concurrency in Ruby
     3.0's models and their real-world impact.
+  video_provider: youtube
   video_id: kU22NJq1sS0
 
 - title: Ruby on the Modern JVM with JRuby
@@ -175,6 +184,7 @@
     now have true native fibers, fast native function and memory support, and fast
     startup and warm up are on the horizon. This talk will show you how to get started
     with JRuby and why it's so exciting for the Ruby community.
+  video_provider: youtube
   video_id: rVUzQGv-icc
 
 # Close
@@ -197,6 +207,7 @@
     In today's data-driven world, organisations recognise the immense value of data as a strategic asset. With the potential to revolutionize decision-making, enhance operational efficiency, and provide a competitive edge, effective data management has become paramount. However, the ever-expanding range of data architectures and philosophies presents a challenge when determining the most suitable approach.
     In this talk, we will look at the landscape of data architectures and philosophies from the perspective of a developer. We delve into the key players: databases, data warehouses, data factories, data lakes, and data meshes. We aim to illuminate the strengths and weaknesses of each architecture, enabling you to make informed choices for your organisation's data strategy.
     Join us as we compare and contrast these architectures, unveiling the unique capabilities they offer. Choosing the right data architecture and philosophy is no easy feat. That's why we'll equip you with the necessary insights and learnings to navigate this complex decision-making process. Learn how to align your organisation's unique needs as we discuss the factors to consider, such as scalability, practicality, data retention, integration requirements, and latency.
+  video_provider: youtube
   video_id: ZEqsdfa5Z78
 
 - title: Mapping Concepts Into Code
@@ -209,6 +220,7 @@
     Implementing a feature like "notifications" in an app sounds simple, right? As you dig in to problems like this, you'll realize the complexity that lies below the surface.
 
     In this talk, we'll walk through designing a feature like Notifications and how naming, DSLs, metaprogramming, and a bunch of other small decisions can make code feel delightful to use. Plus, we'll take a look at some of the decisions along the way that didn't turn out so well, analyze why they didn't work, and how we can improve them.
+  video_provider: youtube
   video_id: DF6hZVHQTjo
 
 # Morning Tea
@@ -227,6 +239,7 @@
     We'll talk about creating a nurturing space where regular feedback and one-on-one sessions are the norm. I'll guide you through the balancing act of challenging your juniors - hitting that sweet spot where it's neither overwhelming nor underwhelming. It's about finding the right rhythm that fosters growth.
 
     And here’s a twist: this journey isn’t just about the juniors. It’s a fantastic opportunity for your senior members to level up as well, evolving into mentors and leaders. My talk isn’t just a guide; it's a story of growth, learning, and collective success. Let’s explore how junior developers can be your team’s next great asset.
+  video_provider: youtube
   video_id: YAMEgkLKafA
 
 - title: A Software Developer's Guide to Launching Your Own Product
@@ -241,6 +254,7 @@
     have a product idea or are still looking, this talk will take you through the
     process of coming up with an idea, testing it, building it, and finding your first
     paying customers.
+  video_provider: youtube
   video_id: abifIOByKuU
 
 - title: Threads, callbacks, and execution context in Ruby
@@ -253,6 +267,7 @@
     When you provide a block to a function in Ruby, do you know when and where that block will be executed? What is safe to do inside a block, and what is dangerous? What is a block, after all? Blocks in Ruby are everywhere, and we’re so used to them that we may even be ignorant of all their power and complexity. Let’s take a look at various code examples and understand what dragons are hidden in Ruby dungeons.
 
     Ruby programmers usually don't need to think much about blocks… until they have to. As a contributor to Ruby gems that have callback-based API for developers, I've found that internal implementation details of these gems affects how these callbacks are executed and resulting behavior can be quite surprising sometimes, and I think that good Ruby developer should know inner workings of blocks to better understand execution flow of complex Ruby programs.
+  video_provider: youtube
   video_id: y4e_sXubhyI
 
 # Lunch
@@ -273,6 +288,7 @@
     With Turbo Frames, Turbo Streams, and Stimulus, Hotwire lets us rethink when to use JavaScript and allows us to use just the amount we need, where we need it. It allows us the flexibility we want, with all the functionality we need, in a Rails-friendly paradigm that's a delight to work with.
 
     What do you call a Deer with no eyes? We have no Eye-Deer, but we look forward to seeing you at our talk!
+  video_provider: youtube
   video_id: lrc1D6hiQRw
 
 - title: Scaling Redis writes with cluster mode
@@ -290,6 +306,7 @@
     * How we added support for missing features we needed into the redis-cluster-client gem
 
     Redis Cluster should now be a solid choice for your Ruby applications as well!
+  video_provider: youtube
   video_id: CBl2zzW-ELQ
 
 # Special Announcements & Surprise Session
@@ -306,6 +323,7 @@
     Ruby on Rails is growing! As a Rails company grows, the application too becomes larger as more engineers work on it at the same time. There is an increasing need for companies to build out a "Rails Infrastructure" team. The team’s primary goal is to ensure the long-term success of the application and its engineers. But how?
 
     Let’s talk about the responsibilities and philosophy behind such a team. These learnings are from working on a team that supports 400+ engineers at one of the largest Rails applications. You’ll get some insight on what our team does in order to ensure a Rails application scales with its growth. Spoiler: There’s more to just enforcing Rubocop rules!
+  video_provider: youtube
   video_id: DWwm9d1NG58
 
 - title: Giving My Wife a Voice with Ruby and AI Cloning (+ Discussion on The AI and Ruby Landscape)
@@ -318,6 +336,7 @@
     Last year my wife was diagnosed with a neurological condition causing her to lose 80% of her speech capacity. Through the use of AI voice cloning technology and Ruby in the backend I was able to build an application that has given her back her voice. In this talk I will walk through the AI voice cloning technology and the key Ruby code to build an application that utilises her own voice.
 
     We will also look at the overall AI landscape, what tools and technologies (particularly open-source) can be integrated into Ruby applications.
+  video_provider: youtube
   video_id: bkOpAXrzEls
 ## Day 3 - Saturday - 2024-04-13
 

@@ -16,6 +16,7 @@
     37signals' products include Basecamp, Highrise, Backpack, Campfire, Ta-da List, and Writeboard. 37signals' products do less than the competition -- intentionally.
 
     He is also the creator of Ruby on Rails.
+  video_provider: youtube
   video_id: VOFTop3AMZ8
 
 - title: Zero downtime deploys for Rails apps
@@ -30,6 +31,7 @@
     More than most Ruby developers would expect, turns out; what is aggravated by the lack of documentation and other resources on this topic.
 
     In this talk we'll dive into both development practices (hot compatibility, database migrations, caching) and deployment setup (Heroku, Unicorn, HAProxy), covering everything you need to know in order to ship code without affecting a single customer.
+  video_provider: youtube
   video_id: R6bVTthtnZ0
 
 - title: How to Find Valuable Gems
@@ -44,6 +46,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGiq/
+  video_provider: youtube
   video_id: SbOmrlVG5Ik
 
 - title: "Lightning Talks - Part II"
@@ -93,6 +96,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGin/
+  video_provider: youtube
   video_id: KFO-hPBzzII
 
 - title: It's Not in Production Unless it's Monitored
@@ -107,6 +111,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGic/
+  video_provider: youtube
   video_id: 0spo9hvDz_4
 
 - title: Extending Ruby with Ruby
@@ -123,6 +128,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGib/
+  video_provider: youtube
   video_id: ZjYgNnCtpg4
 
 - title: "MiniTest: Refactoring Test Unit and RSpec back to version 0.0.1"
@@ -137,6 +143,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGi8/
+  video_provider: youtube
   video_id: IHB__duBuT0
 
 - title: Code spelunking in the All New Basecamp
@@ -155,6 +162,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGi9/
+  video_provider: youtube
   video_id: oXTzFCXE66M
 
 - title: Redis Application Patterns in Rails
@@ -171,6 +179,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGi6/
+  video_provider: youtube
   video_id: dH6VYRMRQFw
 
 - title: What a long Strange Trip it has been.
@@ -189,6 +198,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGjE/
+  video_provider: youtube
   video_id: Alko6wQo8mk
 
 - title: Basic Rake
@@ -203,6 +213,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGjD/
+  video_provider: youtube
   video_id: AFPWDzHWjEY
 
 - title: Building Asynchronous Communication Layer w XMPP, Ruby, Javascript
@@ -218,6 +229,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGjB/
+  video_provider: youtube
   video_id: 3ZynQ04BuN8
 
 - title: Preparing for Rapid Growth - Tips for Enabling Your App and Team to Grow
@@ -234,6 +246,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGjC/
+  video_provider: youtube
   video_id: kVNA6X6OD9k
 
 - title: "Engine Yard - The Cloud, Application Support, and You - Ask Me Anything"
@@ -248,6 +261,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGjA/
+  video_provider: youtube
   video_id: eVHLTxpolcA
 
 - title: A Polygot Heroku
@@ -262,6 +276,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGiz/
+  video_provider: youtube
   video_id: jXnljOVEGKw
 
 - title: How Rails helps make cooking more fun in Japan
@@ -282,6 +297,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGiy/
+  video_provider: youtube
   video_id: w2HXbFd7QJI
 
 - title: Active Record Scopes and Arel
@@ -296,6 +312,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGix/
+  video_provider: youtube
   video_id: V-Kmy8IQii0
 
 - title: ActiveSupport and ActiveModel
@@ -310,6 +327,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGiw/
+  video_provider: youtube
   video_id: 2Km8OVT20mY
 
 - title: RVM & Essential Rails Development Tools
@@ -324,6 +342,7 @@
     simple command line tools like Pry, Guard, and Pow and that will make your development
     life so much easier.\n\n3:42 Homebrew\n7:50 RVM\n14:52 POW & Powder\n18:47\uFEFF
     Pry\n20:45 Bundler\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FGiv/"
+  video_provider: youtube
   video_id: GtB6cwgm2fE
 
 - title: Rails Flavored Ruby
@@ -338,6 +357,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGiu/
+  video_provider: youtube
   video_id: ARMgU6Prfws
 
 - title: Rails Engines Patterns
@@ -356,6 +376,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGit/
+  video_provider: youtube
   video_id: pm94BsoMGik
 
 - title: Securing Your Site
@@ -374,6 +395,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGis/
+  video_provider: youtube
   video_id: 1bUGy-E10Zo
 
 - title: From Rails Rumble to 50,000,000 results
@@ -388,6 +410,7 @@
     This talk isn't about how you can scale from 0 requests to 500 billion requests per microsecond, but give a practical view to some of the performance problems we faced as the application steadily grew from a hack job into a functioning system.
 
     The journey will go through the mistakes we made, challenges faced and real world optimisations discovered, including some tricks we learnt along the way from concurrent index creation to using the ZeroMQ messaging framework with Rails
+  video_provider: youtube
   video_id: KORzSXfp1pY
 
 - title: Realtime web applications with streaming REST
@@ -404,6 +427,7 @@
     Topics that will be discussed include:
 
     Why I didn't choose Socket.IO Stream application resources into Backbone.js models to keep data fresh Hook into ActiveRecord to push representations of data into a message queue Message queue naming conventions public/private resource streams Exposing message queues to HTTP Securing streams with existing application authorization logic Considerations for streaming in a production environment
+  video_provider: youtube
   video_id: N6kHjXtLspw
 
 - title: "Use the Source, Luke: High-fidelity history with event-sourced data"
@@ -416,6 +440,7 @@
     Ever run into a really gnarly data problem and wished you had a do-over? Tired of wrestling with ActiveRecord to model a really complex domain? Looking for a good way to echo state changes to external systems? Then grab a cup of joe and settle in for a look at event-sourcing your data.
 
     Event-sourced data uses Plain Old Ruby Objects (POROs) to model your data and exclusively uses events to mutate state on those objects. By serializing the events, the state of your data can be recreated for any point in time, and outside listeners can create specialized purposeful datastores of the data, enabling complex business requirements with fewer hassles. We'll also touch on other architectural patterns like DCI and CQRS that play well with this idea.
+  video_provider: youtube
   video_id: gwgEyHvk__E
 
 - title: RoRoRoomba - Ruby on Rails on Roomba
@@ -430,6 +455,7 @@
     communicating with an Arduino chip via Ruby tethered serial and wireless bluetooth control of a Roomba via Ruby and Arduino two-way communication with our robot friends over the web using Ruby on Rails and popular web services useful applications of robots controlled over the web 3 RoRoR pitfalls to watch-out for live performance of "Chiron Beta Prime" by Jonathan Coulton* The presentation will close with an argument for why hacking on fun, often eccentric, projects in your spare time is essential for staying motivated, habitual improvement, and tangential learning -- i.e., being a real pragmatic programmer.
 
     *not included, perhaps
+  video_provider: youtube
   video_id: hW71mfdUJFo
 
 - title: Designing Hypermedia APIs
@@ -442,6 +468,7 @@
     Rails did a lot to bring REST to developers, but its conception leaves the REST devotee feeling a bit empty. "Where's the hypermedia?" she says. "REST isn't RPC," he may cry. "WTF??!?!" you may think. "I have it right there! resources :posts ! What more is there? RPC? Huh?"
 
     In this talk, Steve will explain how to design your APIs so that they truly embrace the web and HTTP. Just as there's an impedance mismatch between our databases, our ORMs, and our models, there's an equal mismatch between our applications, our APIs, and our clients. Pros and cons of this approach will be discussed, as well as why we aren't building things this way yet.
+  video_provider: youtube
   video_id: g4sqydY3hHU
 
 - title: Practical Machine Learning and Rails
@@ -462,6 +489,7 @@
     you provide for your learning algorithm, and it is often the hardest part of using
     these techniques. Our goal is for you to come out of this talk with the tools
     necessary to think about machine learning and how to apply it to your problems.
+  video_provider: youtube
   video_id: vy_zQ1-F0JI
 
 - title: Using Rails without Rails
@@ -476,6 +504,7 @@
     In this talk I will dive into Rails internals and will show you what's there and how you can use it outside rails.
 
     Although I will focus on using those parts standalone, this knowledge will most likely help you also build your apps if you ever need something sophisticated that requires modification of regular rails behavior.
+  video_provider: youtube
   video_id: ssJuHxHsS5o
 
 - title: Evented Ruby vs Node.js
@@ -493,6 +522,7 @@
     know and love. Topics covered will include pubsub with redis or faye, building
     evented rack applications, and running evented applications alongside existing
     Rails apps.
+  video_provider: youtube
   video_id: 4iFBC-xbE9I
 
 - title: Schemaless SQL The Best of Both Worlds
@@ -509,6 +539,7 @@
     How are we supposed to pick one or the other? Simple: pick both. Fortunately recent advances in Postgres allow for a hybrid approach that we've been using at Heroku. The hstore datatype gives you key/value in a single column, and PLV8 enables JavaScript and JSON in Postgres. These and others in turn make Postgres the best document database in the world.
 
     We will explore the power of hstore and PLV8, explain how to use them in your project today, and examine their role in the future of data.
+  video_provider: youtube
   video_id: OHz6A023YNI
 
 - title: Semi Automatic Code Review
@@ -521,6 +552,7 @@
     Rails is so popular to be used to fast build a website, at the beginning we sometimes write codes too fast without considering code quality, but after your company grows fast, you have to pay more attentions on code review to make your website more robust and more maintainable.
 
     In this talk I will introduce you a way to build a semi automatic code review process, in this process a tool will analyze the source codes of your rails project, then give you some suggestions to refactor your codes according to rails best practices. It can also check your codes according to your team's rails code guideline. So engineers can focus on implementation performance, scalability, etc. when they do code review.
+  video_provider: youtube
   video_id: 900BvuBzINI
 
 - title: "Presenters and Decorators: A Code Tour"
@@ -533,6 +565,7 @@
     Presenter and Decorators are design approaches that can be used in Rails applications outside of the standard Models, Views and Controllers. These approaches are becoming more and more popular as teams search for new ways to identify and manage the complexity within their applications.
 
     In this session Mike Moore will defined the Presenter and Decorator approaches using simple and clear terminology. Common design problems in Rails applications will be shown using real-life code examples and refactored toward Presenters and Decorators. Code will be improved and strengthened by identifying and respecting the dependencies within large applications.
+  video_provider: youtube
   video_id: xf7i44HJ_1o
 
 - title: CoffeeScript for the Rubyist
@@ -545,6 +578,7 @@
     CoffeeScript is taking the world, and particularly the Rails eco system, by storm. This little language has provided an almost Ruby like abstraction onto of JavaScript. CoffeeScript is trying to make writing front end code as much fun as Ruby makes writing backend code.
 
     In this talk we start with the basic concepts of CoffeeScript and move on to the more powerful and fun features of the language. While we're looking at CoffeeScript we'll see how it relates to the Ruby code we write everyday. What do Ruby 1.9 lambdas and CoffeeScript functions have in common? Which of the two languages supports splats, default arguments, and ranges? The answers may surprise you.
+  video_provider: youtube
   video_id: aER4_AP3S4E
 
 - title: "Using Backbone.js with Rails: Patterns from the Wild"
@@ -557,6 +591,7 @@
     Backbone.js is a flexible, lightweight tool for structuring the JavaScript in a modern web application. It goes great with Rails! But beware - "flexible and lightweight" are code words for "you build your own plumbing." Backbone is new enough that we haven't established strong patterns for that plumbing yet, so different Backbone codebases look very different, and when you're new to the idea of structuring your JavaScript, it can be tough to tell where the win is.
 
     So in this talk I'll demystify Backbone. I'll show several very different ways I've used it on real Rails apps. You'll get a feel for the circumstances when Backbone makes sense, and moreover, when each of the different approaches to Backbone make sense.
+  video_provider: youtube
   video_id: lPiM4T1lR58
 
 - title: Deconstructing Travis
@@ -571,6 +606,7 @@
     Travis started as a single GitHub project which was a rails app and a resque background task. Compare that to 12 months later where Travis is now four separate deployable apps, uses two different rubies (1.9.2 and jruby), and comprises a total of 10 GitHub projects.
 
     Apart from looking at how Travis works now, we will also look at how it got there, and how we broke Travis up into smaller more manageable, more concise encapsulated services.
+  video_provider: youtube
   video_id: huFeH5BRhUo
 
 - title: "Complex Made Simple: Sleep Better with TorqueBox"
@@ -585,6 +621,7 @@
     In this presentation, we will examine a complex Rails application - complexity that is eventually common to most modern Rails apps: background tasks, scheduled jobs, WebSockets, long-running services, caching and more. We will look at the challenges inherent in these features for both development and deployment. Then we'll look to TorqueBox for simple solutions to these complex problems. You'll never have that long-runing service using the wrong Ruby code again; no more environment variable nightmares in your cron jobs. You can sleep better now.
 
     TorqueBox is a Ruby application server that is built on JRuby and JBoss AS7. It provides asynchronous messaging, scheduled jobs, long-running processes, caching, simple deployment, and much more. TorqueBox is designed to bring the power, scalability and stability of these time-tested JavaEE services to Ruby applications through a simple and expressive Ruby interface.
+  video_provider: youtube
   video_id: YgU3Ai54Udc
 
 - title: Chanko - How Cookpad safely releases multiple feature prototypes - in production
@@ -601,6 +638,7 @@
     With Chanko, you can release many concurrent features and independently manage which users see them. If there are errors with any chanko, it will be automatially removed, without impacting your site.
 
     Chanko was extracted from Cookpad.com where the team uses it daily to test new features live, in production, on the largest Rails site in Japan which serves 500 million page views a month to a user based of over 15 million highly engaged uses.
+  video_provider: youtube
   video_id: wikJl1VjKko
 
 - title: "Rails: The Next Five Years"
@@ -625,6 +663,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGkY/
+  video_provider: youtube
   video_id: UlMpIHH1K5s
 
 - title: Stack Smashing
@@ -641,6 +680,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGkX/
+  video_provider: youtube
   video_id: p-uWNZdK7Gs
 
 - title: Digging Deep with ActiveSupport::Notifications
@@ -655,6 +695,7 @@
     In this session we'll start with the basics of ActiveSupport::Notifications and work our way to powerful advanced use cases. Topics we'll explore include:
 
     How to set up and use notifications Logging what you want from any tier of your system How to capture and aggregate performance/business data for the metrics you care about most Conditional monitoring in production: flag on and off data by system or customer to get to the root of problems more quickly Using ActiveSupport::Notifications in non-Rails applications and your own libraries
+  video_provider: youtube
   video_id: sKrrsF0MZ7Q
 
 - title: Ten Things You Didn't Know Rails Could Do
@@ -669,6 +710,7 @@
     Do you really know what all of the built-in Rake tasks do? Have you seen all of the methods ActiveSupport makes available to you? Are you aware of all the queries ActiveRecord is capable of?
 
     In this talk, I'll dig into the extras of Rails and see if I can't turn up some features that you don't see all of the time, but that might just be handy to know about anyway. I'll make sure you come out of this able to impress your friends at the hackfest.
+  video_provider: youtube
   video_id: GRfJ9lni4QA
 
 - title: Let's make the web faster - tips from trenches @ Google
@@ -683,6 +725,7 @@
     We'll start at the top with website optimization best practices, take a look at what the browser and HTML5 can do for us, take a detour into the optimizations for the mobile web, and finally dive deep into the SPDY and TCP protocol optimizations.
 
     We'll cover a lot of ground, so bring a coffee. By the end of the session, you should have a good checklist to help you optimize your own site.
+  video_provider: youtube
   video_id: pxrj1a1PS94
 
 - title: Taming the Kraken - How Operations enables developer productivity
@@ -721,6 +764,7 @@
     Enabling developers to do it themselves
     Pair programing infrastructure automation
     Keeping the process light and the communication flowing
+  video_provider: youtube
   video_id: 5vzNzQzmAk0
 
 - title: The Future of Sass
@@ -735,6 +779,7 @@
     making as we have secretly toiled away on something that we think will be awesome.
     Hear it first at this talk. Repositories will be made public when the talk is
     over. Shh! Its a secret!
+  video_provider: youtube
   video_id: MFwId6xSh2o
 
 - title: Progressive Enhancement on the Mobile Web
@@ -749,6 +794,7 @@
     and performance vary widely. We'll talk about the darker corners of the mobile
     web and show how jQuery Mobile can help you build Rails applications that are
     reliable, accessible, and support more devices.
+  video_provider: youtube
   video_id: mEivOr3fcMs
 
 - title: Mobile Rage - What causes it & how to fix it.
@@ -763,6 +809,7 @@
     Although we all know that the best mobile development strategy is "mobile-first", we also all know how many sites and applications out there were designed and built by people who didn't imagine how fast mobile would take over.
 
     Come learn about the common mistakes most people make for mobile, and some of the simple solutions you can use to help reduce Mobile Rage, without having to do a complete rewrite.
+  video_provider: youtube
   video_id: qev9PSaNLSA
 
 - title: "Getting Down To Earth: Geospatial Analysis With Rails"
@@ -781,6 +828,7 @@
     This presentation aims to jump-start Rails developers hoping to go beyond putting a few pushpins on a Google Map. Rather than spending a lot of time explaining the many concepts involved, we'll bypass the learning curve and jump straight into walking through code for a few nontrivial applications. The hope is that the conceptual knowledge will come naturally as a result of seeing it in action, but pointers to online resources will also be provided to fill in any gaps.
 
     A thorough understanding of Ruby, Rails, ActiveRecord, and SQL will be assumed. No prior knowledge of GIS or computational geometry will be required, though it may be helpful.
+  video_provider: youtube
   video_id: QI0e2jkUbkk
 
 - title: "Keynote: 12 Tips Learned From Doing More Faster at TechStars"
@@ -793,6 +841,7 @@
     David Cohen is the founder and CEO of TechStars. Previously, David was a founder of several software and web technology companies. He was the founder and CTO of Pinpoint Technologies which was acquired by ZOLL Medical Corporation (NASDAQ: ZOLL) in 1999. You can read about it in No Vision, All Drive [Amazon]. David was also the founder and CEO of earFeeder.com, a music service which was sold to SonicSwap.com in 2006. He also had what he likes to think of as a "graceful failure" in between.
 
     David is a active startup advocate, advisor, board member, and technology advisor who comments on these topics on his blog at DavidGCohen.com. He recently co-authored Do More Faster with Brad Feld. He is also very active at the University of Colorado, serving as a member of the Board of Advisors of the Computer Science Department, the Entrepreneurial Advisory Board at Silicon Flatirons, and the Board of Advisors of the Deming Center Venture Fund. He is a member of the selection committee for Venture Capital in the Rockies, and runs the Colorado chapter of the Open Angel Forum. His hobbies are technology, software/web startups, business history, and tennis. He is married to the coolest girl he's ever met and has three amazing kids who always seem to be teaching him something new.
+  video_provider: youtube
   video_id: Ok7YH8_48pc
 
 - title: Ruby Hero Awards 2012
@@ -803,6 +852,7 @@
   event_name: RailsConf 2012
   published_at: "2012-08-22"
   description: This is the presentation of the 2012 Ruby Hero Awards
+  video_provider: youtube
   video_id: tWmh4m2a4FI
 
 - title: "Keynote: I've made a huge mistake"
@@ -817,6 +867,7 @@
     like nokogiri. To keep up his Gameboy Lifestyle, Aaron spends his weekdays writing
     high quality software for ATTi. Be sure to catch him on Karaoke night, where you
     can watch him sing his favorite smooth rock hits of the 70's and early 80's.
+  video_provider: youtube
   video_id: 8kSfGgiFk48
 
 - title: "Keynote: Simplicity Matters"
@@ -831,6 +882,7 @@
     on scheduling systems, broadcast automation, audio analysis and fingerprinting,
     database design, yield management, exit poll systems, and machine listening, in
     a variety of languages.
+  video_provider: youtube
   video_id: rI8tNMsozo0
 
 - title: Ruby Rogues - Live Podcast!
@@ -869,4 +921,5 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGho/
+  video_provider: youtube
   video_id: pM_ak1KsBKI

@@ -16,6 +16,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgi/
+  video_provider: youtube
   video_id: o0Zci00Y3ak
 
 - title: "Lightning Talk: Ack"
@@ -28,6 +29,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgj/
+  video_provider: youtube
   video_id: sKmyl5D8Da8
 
 - title: "Lightning Talk: Learning to Program"
@@ -37,6 +39,7 @@
   event_name: Rocky Mountain Ruby 2012
   published_at: "2012-10-26"
   description: ""
+  video_provider: youtube
   video_id: Ot5JBMXo7AM
 
 - title: "Lightning Talk: RubyMotion"
@@ -49,6 +52,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgk/
+  video_provider: youtube
   video_id: gBj5Sgsda9I
 
 - title: Building in Rails, Backbone, and CoffeeScript
@@ -63,6 +67,7 @@
     Realtime, rich client applications are extremely popular. This is reflected in a new generation of frameworks like node.js and meteor. That said, the maturity of Rails and Backbone combined with real time services like XMPP or Pushr, still makes it a very compelling backend stack to use, especially when developing cross platform (web, desktop, mobile) applications.
 
     In this talk, I will discuss the foundation and best practices of a Rails/Backbone/Coffeescript real time stack, as we do it at Kicksend.
+  video_provider: youtube
   video_id: g6sKZALxozE
 
 - title: "Growing Developers - Panel"
@@ -80,6 +85,7 @@
     Gehard will lead a panel on learning, what are the strengths are weaknesses of
     these programs are and how we all can help alleviate the shortage of quality software
     developers. If you want to be part of the solution, please join us.
+  video_provider: youtube
   video_id: sjeS7eXB1rE
 
 - title: Let's talk concurrency
@@ -92,6 +98,7 @@
     For a long time, the de facto way of doing multi-core concurrency was using threads. However, the complexity of manipulating threads and state affected negatively how developers perceive concurrency. Fortunately, languages like Clojure and Erlang implement new paradigms that aim to make concurrency easier.
 
     In this talk, José Valim is going to discuss the role state play in concurrency and introduce different paradigms for multi-core concurrency, like Actors and Software Transactional Memory, explaining their trade-offs and why they matter to us developers.
+  video_provider: youtube
   video_id: 4o89mWFL-2A
 
 - title: To Mock or Not to Mock
@@ -101,6 +108,7 @@
   event_name: Rocky Mountain Ruby 2012
   published_at: "2012-10-26"
   description: ""
+  video_provider: youtube
   video_id: TU3glG08BJI
 
 - title: Expert Consulting
@@ -113,6 +121,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgD/
+  video_provider: youtube
   video_id: 7t7Ms-CMaSE
 
 - title: Wrangling Large Rails Codebases
@@ -127,6 +136,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgE/
+  video_provider: youtube
   video_id: FElnETSIMuo
 
 - title: Modular & reusable front end code
@@ -139,6 +149,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgF/
+  video_provider: youtube
   video_id: qNY8FFP5KhQ
 
 - title: ChatOps
@@ -151,6 +162,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgG/
+  video_provider: youtube
   video_id: cIhkj0hu_a0
 
 - title: Ruby on the Command Line
@@ -163,6 +175,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgH/
+  video_provider: youtube
   video_id: 6I2FyAmOMgM
 
 - title: Ruby on Android
@@ -175,6 +188,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgI/
+  video_provider: youtube
   video_id: xFgLTw3x97M
 
 - title: Keeping it Simple
@@ -187,6 +201,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgJ/
+  video_provider: youtube
   video_id: "-UJ0Jwd2y4w"
 
 - title: Dependency Injection
@@ -199,6 +214,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgK/
+  video_provider: youtube
   video_id: QvSvSS8Ou4c
 
 - title: CleanShaved
@@ -211,6 +227,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgO/
+  video_provider: youtube
   video_id: PEiuc3y0kwk
 
 - title: A model walks into a JavaScript framework
@@ -225,6 +242,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgL/
+  video_provider: youtube
   video_id: 9Uu8ktgB5gQ
 
 - title: On the shoulders of giants
@@ -237,6 +255,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgM/
+  video_provider: youtube
   video_id: Qq9oxtpUfX4
 
 - title: This is the problem
@@ -249,6 +268,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgN/
+  video_provider: youtube
   video_id: 91A_Cmf0OH8
 
 - title: Teacherless Education
@@ -261,6 +281,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgP/
+  video_provider: youtube
   video_id: aFv0Ul6h9RM
 
 - title: Algorithms
@@ -273,6 +294,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgQ/
+  video_provider: youtube
   video_id: 1g-VbdDRtXs
 
 - title: Project Grok
@@ -285,6 +307,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGgR/
+  video_provider: youtube
   video_id: dHh4FRNu_vs
 
 - title: Go Ahead, Make a Mess
@@ -299,4 +322,5 @@
     What you can do, however, is use the techniques of object-oriented design (OOD) to make your messes manageable. OOD is good at messes. It understands their origins, predicts their courses, and foresees their outcomes. It shines a light down the dusty nooks and crannies of your app, showing you what to do and what to avoid.
 
     This talk shows you how to use OOD to create the best kinds of messes, those that let you get software out the door today without regretting your actions tomorrow.
+  video_provider: youtube
   video_id: f5I1iyso29U
