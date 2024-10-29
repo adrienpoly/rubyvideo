@@ -59,7 +59,20 @@ class SpeakersController < ApplicationController
   end
 
   def speaker_params
-    params.require(:speaker).permit(:name, :twitter, :github, :bio, :website, :speakerdeck, :pronouns_type, :pronouns, :slug)
+    params.require(:speaker).permit(
+      :name,
+      :github,
+      :twitter,
+      :bsky,
+      :linkedin,
+      :mastodon,
+      :bio,
+      :website,
+      :speakerdeck,
+      :pronouns_type,
+      :pronouns,
+      :slug
+    )
   end
 
   def set_user_favorites
