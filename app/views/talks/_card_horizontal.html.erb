@@ -4,7 +4,7 @@
 
 <div class="<%= class_names("w-full flex items-center gap-2", "border border-secondary rounded-lg p-1": active) %>" id="<%= dom_id(talk, :card_horizontal) %>" data-talk-horizontal-card>
   <%= link_to talk_path(talk), class: "flex aspect-video shrink-0 relative w-28" do %>
-    <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_lg} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover", style: "view-transition-name: #{dom_id(talk, :image)}#{active ? "active" : ""}", loading: :lazy %>
+    <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_lg} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover", loading: :lazy %>
   <% end %>
 
   <div class="flex flex-col gap-2 text-sm">
