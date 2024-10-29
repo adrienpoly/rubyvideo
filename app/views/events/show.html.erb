@@ -1,48 +1,8 @@
 <%= turbo_refreshes_with method: :morph, scroll: :preserve %>
 
-<div class="w-full max-h-92 justify-center align-center flex" style="view-transition-name: hero; background: <%= @event.banner_background %>">
-  <%= image_tag image_path(@event.banner_image_path), class: "w-full max-h- aspect-auto container" %>
-</div>
+<%= render partial: "header", locals: {event: @event} %>
 
 <div class="container py-8">
-  <div class="block lg:flex gap-8 align-center justify-between">
-    <div class="flex flex-col lg:flex-row gap-8 items-center lg:justify-right text-center lg:text-left mb-6 lg:mb-0">
-      <%= image_tag image_path(@event.avatar_image_path),
-            class: "rounded-full border border-[#D9DFE3] size-24 md:size-36",
-            alt: "#{@event.name} Avatar",
-            style: "view-transition-name: avatar",
-            loading: :lazy %>
-
-      <div class="flex-col flex justify-center">
-        <h1 class="mb-2 text-black font-bold" style="view-transition-name: title"><%= @event.name %></h1>
-        <h3 class="text-[#636B74]"><%= @event.location %> • <%= @event.formatted_dates %></h3>
-      </div>
-    </div>
-
-    <div class="flex flex-col gap-3 place-items-center">
-      <%= link_to "Visit Website", @event.organisation.website, class: "btn btn-primary w-full", target: "_blank" %>
-      <%= link_to "View all #{@event.organisation.name} events", @event.organisation, class: "btn w-full" %>
-    </div>
-  </div>
-
-  <p class="mt-6 text-[#636B74] max-w-[700px]">
-    <%= @event.description %>
-  </p>
-
-  <% if false %>
-    <div role="tablist" class="mt-12 tabs tabs-bordered">
-      <a role="tab" class="tab tab-active">Talks</a>
-      <a role="tab" class="tab">Schedule</a>
-      <a role="tab" class="tab">Speakers</a>
-      <a role="tab" class="tab">Organizers</a>
-      <a role="tab" class="tab">Photos</a>
-      <a role="tab" class="tab">Sponsors</a>
-    </div>
-  <% end %>
-</div>
-
-<div class="container py-8">
-
   <div class="flex items-start flex-wrap gap-8 sm:flex-nowrap w-full">
     <div class="w-full">
       <div id="talks" class="min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 h-full">
