@@ -59,7 +59,7 @@ class Speaker < ApplicationRecord
 
   normalizes :mastodon, with: ->(value) {
     return value if value&.match?(URI::DEFAULT_PARSER.make_regexp)
-    return nil unless value.count("@") == 2
+    return "" unless value.count("@") == 2
 
     _, handle, instance = value.split("@")
 
