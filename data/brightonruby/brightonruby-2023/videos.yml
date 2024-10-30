@@ -5,11 +5,11 @@
     - Eileen M. Uchitelle
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
+  # thumbnail_xs: https://brightonruby.com/images/2023/photos/Eileen3_IMG1335.jpg
+  # thumbnail_sm: https://brightonruby.com/images/2023/photos/Eileen3_IMG1335.jpg
+  # thumbnail_md: https://brightonruby.com/images/2023/photos/Eileen3_IMG1335.jpg
+  # thumbnail_lg: https://brightonruby.com/images/2023/photos/Eileen3_IMG1335.jpg
+  # thumbnail_xl: https://brightonruby.com/images/2023/photos/Eileen3_IMG1335.jpg
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/eileen-uchitelle-the-magic-of-rails.mp4
   slides_url: https://speakerdeck.com/eileencodes/brighton-ruby-2023-the-magic-of-rails
@@ -24,11 +24,11 @@
     - Nick Schwaderer
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
+  # thumbnail_xs: https://brightonruby.com/images/2023/photos/Schwad5_IMG1394.jpg
+  # thumbnail_sm: https://brightonruby.com/images/2023/photos/Schwad5_IMG1394.jpg
+  # thumbnail_md: https://brightonruby.com/images/2023/photos/Schwad5_IMG1394.jpg
+  # thumbnail_lg: https://brightonruby.com/images/2023/photos/Schwad5_IMG1394.jpg
+  # thumbnail_xl: https://brightonruby.com/images/2023/photos/Schwad5_IMG1394.jpg
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/nick-schwaderer-scarpe-diem.mp4
   description: |-
@@ -46,11 +46,6 @@
     - Kaitlyn Tierney
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/kaitlyn-tierney-librarians-guide-to-documentation.mp4
   description: |-
@@ -64,11 +59,6 @@
     - Noah Gibbs
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/noah-gibbs-when-should-you-not-use-rails.mp4
   description: |-
@@ -82,11 +72,6 @@
     - Paul Battley
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/paul-battley-twenty-years-of-ruby-in-five-minutes.mp4
   description: |-
@@ -102,11 +87,6 @@
     - Hana Harencarova
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/hana-harencarova-five-things-i-love-about-ruby.mp4
   description: |-
@@ -118,11 +98,6 @@
     - Lizz Jennings
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/lizz-jennings-ux-doesnt-equal-front-end.mp4
   description: |-
@@ -138,11 +113,6 @@
     - Jade Dickinson
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/jade-dickinson-how-to-write-a-custom-rubocop-rule.mp4
   description: |-
@@ -156,11 +126,6 @@
     - Maple Ong
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/maple-ong-beware-job-smearing.mp4
   description: |-
@@ -174,11 +139,6 @@
     - Tim Riley
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/tim-riley-livin-la-vida-hanami.mp4
   description: |-
@@ -198,11 +158,6 @@
     - Nadia Odunayo
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/nadia-odunayo-the-case-of-the-vanished-variable.mp4
   description: |-
@@ -216,11 +171,6 @@
     - Joe Hart
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
-  thumbnail_xs: posters/brighton_ruby.png
-  thumbnail_sm: posters/brighton_ruby.png
-  thumbnail_md: posters/brighton_ruby.png
-  thumbnail_lg: posters/brighton_ruby.png
-  thumbnail_xl: posters/brighton_ruby.png
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2023/joe-hart-new-game.mp4
   description: |-

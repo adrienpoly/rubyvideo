@@ -170,7 +170,7 @@ class Talk < ApplicationRecord
   end
 
   def fallback_thumbnail
-    "/assets/#{Rails.application.assets.load_path.find("posters/fallback.png").digested_path}"
+    "/assets/#{Rails.application.assets.load_path.find("events/default/poster.webp").digested_path}"
   end
 
   def thumbnail(size = :thumbnail_lg)
@@ -179,9 +179,15 @@ class Talk < ApplicationRecord
 
       if (asset = Rails.application.assets.load_path.find(self[size]))
         return "/assets/#{asset.digested_path}"
+      elsif (event && asset = Rails.application.assets.load_path.find(event.poster_image_path))
+        return "/assets/#{asset.digested_path}"
       else
         return fallback_thumbnail
       end
+    end
+
+    if (event && asset = Rails.application.assets.load_path.find(event.poster_image_path))
+      return "/assets/#{asset.digested_path}"
     end
 
     return fallback_thumbnail if video_provider != "youtube"

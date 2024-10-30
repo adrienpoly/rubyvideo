@@ -180,6 +180,10 @@ class Event < ApplicationRecord
     event_image_or_default_for("featured.webp")
   end
 
+  def poster_image_path
+    event_image_or_default_for("poster.webp")
+  end
+
   def banner_background
     static_metadata.banner_background.present? ? static_metadata.banner_background : "#FF607F"
   rescue => _e
