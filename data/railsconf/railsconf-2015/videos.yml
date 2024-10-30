@@ -1272,6 +1272,7 @@
     - Godfrey Chan
   event_name: RailsConf 2015
   published_at: "2015-05-14"
+  slides_url: https://speakerdeck.com/chancancode/prying-open-the-black-box
   description: |-
     By, Godfrey Chan
     Every once a while, Rails might behave in strange ways that you did not expect, and it could be difficult to figure out what is really going on. Was it a bug in the framework? Could it be one of the gems I am using? Did I do something wrong? In this session, we will look at some tips, tricks and tools to help you debug your Rails issues. Along the way, you will also learn how to dive into the Rails codebase without getting lost. The next time you a mysterious bug finds its way into your Rails applications, you will be well-equipped to pry open the black box yourself!
