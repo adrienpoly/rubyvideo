@@ -1456,10 +1456,10 @@
 - title: "Lightning Talks"
   raw_title: "RailsConf 2018: Lightning Talks"
   speakers:
-    - Teck
-    - Mike
+    # - Teck # TODO: missing last name
+    # - Mike # TODO: missing last name
     - Claudio Baccigalupo
-    - Fiona
+    # - Fiona # TODO: missing last name
     - Nynne Just Christoffersen
     - Jacklyn Ma
     - Jingyi Chen
@@ -1467,7 +1467,7 @@
     - Samay Sharma
     - Lee Richmond
     - Raimond Garcia
-    - Chris
+    # - Chris # TODO: missing last name
     - Chris Lawrence
     - Andrew Louis
     - Thomas McGoey-Smith
