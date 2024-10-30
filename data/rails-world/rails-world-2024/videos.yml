@@ -1,5 +1,4 @@
 ---
-
 ## Day 1
 
 # Track 1
@@ -8,7 +7,7 @@
   speakers:
     - David Heinemeier Hansson
   event_name: Rails World 2024
-  published_at: '2024-09-26'
+  published_at: "2024-09-26"
   description: |-
     During DHH's Opening Keynote of Rails World 2024 in Toronto, Rails 8 beta was shipped with Authentication, Propshaft, Solid Cache, Solid Queue, Solid Cable, Kamal 2, and Thruster. No PaaS needed when building with the One Person Framework.
 
@@ -30,8 +29,9 @@
   speakers:
     - Rosa Gutiérrez
   event_name: Rails World 2024
-  published_at: '2024-09-26'
-  description: "After years of tackling background job complexities with Resque and
+  published_at: "2024-09-26"
+  description:
+    "After years of tackling background job complexities with Resque and
     Redis at 37signals, the team finally decided to build an out-of-the-box solution.
     Enter #SolidQueue, a default now in Rails 8. Rosa Gutiérrez presented Solid Queue
     at Rails World and shared the journey and the challenges they faced to get it
@@ -50,8 +50,9 @@
   speakers:
     - Mostafa Abdelraouf
   event_name: Rails World 2024
-  published_at: '2024-09-26'
-  description: "Mostafa Abdelraouf shares the journey of evolving Instacart's Rails
+  published_at: "2024-09-26"
+  description:
+    "Mostafa Abdelraouf shares the journey of evolving Instacart's Rails
     application beyond a single Postgres instance. He discusses how they managed the
     added complexity from adding read replicas, and later vertically and horizontally
     sharding, and also touched on the topics of query routing, connection pooling,
@@ -64,12 +65,12 @@
   video_id: SISCRSPuqh4
 
 # Track 1
-- title: 'Kamal 2.0: Deploy Web Apps Anywhere'
-  raw_title: 'Donal McBreen - Kamal 2.0: Deploy web apps anywhere - Rails World 2024'
+- title: "Kamal 2.0: Deploy Web Apps Anywhere"
+  raw_title: "Donal McBreen - Kamal 2.0: Deploy web apps anywhere - Rails World 2024"
   speakers:
     - Donal McBreen
   event_name: Rails World 2024
-  published_at: '2024-09-26'
+  published_at: "2024-09-26"
   description: |-
     Kamal is an imperative deployment tool from 37signals for running your apps with Docker. Donal McBreen, from the Security, Infrastructure and Performance team at 37signals will run through how it works, what they've learned from v1.0 and the changes they've made for v2.0 at his talk at #RailsWorld.
 
@@ -86,7 +87,7 @@
   speakers:
     - Jamis Buck
   event_name: Rails World 2024
-  published_at: '2024-09-26'
+  published_at: "2024-09-26"
   description: |-
     At MongoDB, they wanted to add a tighter integration between Rails and Mongoid (their ODM), so they created their our own CLI tool that extends the Rails CLI, adding the additional functionality they seeked. Former Rails core alumnus and Capistrano-creator Jamis Buck shows how they did it at #RailsWorld, and how you can do it yourself.
 
@@ -101,8 +102,9 @@
   speakers:
     - Kevin McConnell
   event_name: Rails World 2024
-  published_at: '2024-09-26'
-  description: "Kamal Proxy is a new, purpose-built HTTP proxy service that powers
+  published_at: "2024-09-26"
+  description:
+    "Kamal Proxy is a new, purpose-built HTTP proxy service that powers
     Kamal 2.0. It is designed to make zero-downtime deployments simpler, and comes
     with additional features to make your Rails applications faster and easier to
     operate. Kevin McConnell explains what Kamal Proxy does, why they built it, and
@@ -120,8 +122,9 @@
   speakers:
     - Greg Molnar
   event_name: Rails World 2024
-  published_at: '2024-09-26'
-  description: "In his #RailsWorld talk, Greg Molnar highlights the recent security
+  published_at: "2024-09-26"
+  description:
+    "In his #RailsWorld talk, Greg Molnar highlights the recent security
     related improvements in Rails and why Rails is one of the best options for an
     application with high security standards. \n\n#rails #rubyonrails #rails8 #applicationsecurity
     \n\nThank you Shopify for sponsoring the editing and post-production of these
@@ -137,7 +140,7 @@
   speakers:
     - Jenny Shen
   event_name: Rails World 2024
-  published_at: '2024-09-26'
+  published_at: "2024-09-26"
   description: |-
     Rails 8 is here, and in her talk at #RailsWorld, Jenny Shen explores how to get your Rails app upgraded to the latest version in no time! Have too many applications to upgrade? She will also share how Shopify was able to automate the Rails upgrade process for hundreds of their applications.
 
@@ -154,8 +157,9 @@
   speakers:
     - Justin Searls
   event_name: Rails World 2024
-  published_at: '2024-09-26'
-  description: "In 2019, Justin Searls gave a talk, \"The Selfish Programmer\" all
+  published_at: "2024-09-26"
+  description:
+    "In 2019, Justin Searls gave a talk, \"The Selfish Programmer\" all
     about building a Rails 5 app as a one-man show. Now, he is back to share how he
     made a new app that's twice the size but felt like half the work. You'll learn
     how Rails includes more batteries than ever, when sticking with omakase pays off,
@@ -173,8 +177,9 @@
   speakers:
     - Rafael França
   event_name: Rails World 2024
-  published_at: '2024-09-26'
-  description: "Rails is known to be one of the best frameworks in terms of empowering
+  published_at: "2024-09-26"
+  description:
+    "Rails is known to be one of the best frameworks in terms of empowering
     developers to build great products, and has kept this place for 20 years. But...can
     we do better? In his talk at #RailsWorld, Rails Core member Rafael França shows
     how they are pushing Rails to continue making developers lives easier across new
@@ -192,8 +197,9 @@
   speakers:
     - Emmanuel Hayford
   event_name: Rails World 2024
-  published_at: '2024-09-26'
-  description: "Rails 8 will simplify PWA development by generating essential PWA
+  published_at: "2024-09-26"
+  description:
+    "Rails 8 will simplify PWA development by generating essential PWA
     scaffolding by default. In his #RailsWorld talk, Emmanuel Hayford covers PWA basics,
     the service worker lifecycle, offline strategies via background sync, and the
     CacheStorage API for cross-device performance.  \n\nThank you Shopify for sponsoring
@@ -211,8 +217,9 @@
     - Yukihiro "Matz" Matsumoto
     - Tobias Lütke
   event_name: Rails World 2024
-  published_at: '2024-09-26'
-  description: "In a special #RailsWorld session, DHH (creator of Rails), Matz (creator
+  published_at: "2024-09-26"
+  description:
+    "In a special #RailsWorld session, DHH (creator of Rails), Matz (creator
     of Ruby), and Shopify CEO Tobias Lütke sat down for a fireside chat about #Ruby,
     #Rails, and all things #opensource. \n\nThis is the first time that Matz and DHH
     shared a stage, and it would not have been possible without Tobi, who not only
@@ -224,16 +231,15 @@
     on Rails. https://www.happyscribe.com/"
   video_id: zPBbHu-BKpQ
 
-
 ## Day 2
 
 # Track 1
-- title: The Myth of the Modular Monolith
+- title: "Opening Keynote: The Myth of the Modular Monolith"
   raw_title: Eileen Uchitelle - The Myth of the Modular Monolith - Rails World 2024
   speakers:
     - Eileen M. Uchitelle
   event_name: Rails World 2024
-  published_at: '2024-09-27'
+  published_at: "2024-09-27"
   slides_url: https://speakerdeck.com/eileencodes/the-myth-of-the-modular-monolith-day-2-keynote-rails-world-2024
   description: |-
     As Rails applications grow over time, organizations ask themselves: 'What’s next? Should we stay the course with a monolith or migrate to microservices?' At @Shopify they chose to modularize their monolith, but after 6 years they are asking: 'Did we fix what we set out to fix? Is this better than before?' Join Rails Core member Eileen Uchitelle as she poses these questions during her #RailsWorld Day 2 Opening Keynote.
@@ -246,14 +252,15 @@
   video_id: olxoNDBp6Rg
 
 # Track 1
-- title: 'SQLite on Rails: Supercharging the One-Person Framework'
-  raw_title: 'Stephen Margheim - SQLite on Rails: Supercharging the One-Person Framework - Rails World 2024'
+- title: "SQLite on Rails: Supercharging the One-Person Framework"
+  raw_title: "Stephen Margheim - SQLite on Rails: Supercharging the One-Person Framework - Rails World 2024"
   speakers:
     - Stephen Margheim
   event_name: Rails World 2024
-  published_at: '2024-09-27'
+  published_at: "2024-09-27"
   slides_url: https://fractaledmind.github.io/2024/10/16/sqlite-supercharges-rails
-  description: "The Rails 8 feature set perfectly complements SQLite's power in creating
+  description:
+    "The Rails 8 feature set perfectly complements SQLite's power in creating
     resilient, high-performance production apps, but still the question lingers: Can
     I really go all-in on #SQLite? Stephen Margheim illustrates how to leverage Rails
     and SQLite's full potential in your next venture, and when SQLite does and doesn't
@@ -271,7 +278,7 @@
   speakers:
     - Ridhwana Khan
   event_name: Rails World 2024
-  published_at: '2024-09-27'
+  published_at: "2024-09-27"
   slides_url: https://speakerdeck.com/ridhwana/demystifying-some-of-the-magic-behind-rails
   description: |-
     Rails is renowned for its elegance, productivity, and "magic" which simplifies web development. As a recent technical writer for the official Ruby on Rails guides, Ridhwana Khan has had the opportunity to dive into the "magic" of Rails to understand the source code and translate that into clear explanations in the guides. At #RailsWorld, she shared insights gained from her experience demystifying the framework's inner workings for the good of the greater community.
@@ -292,7 +299,7 @@
   speakers:
     - Miles McGuire
   event_name: Rails World 2024
-  published_at: '2024-09-27'
+  published_at: "2024-09-27"
   description: |-
     Incidents are an opportunity to level up, and on 22 Feb 2024 Intercom had one of its most painful outages in recent memory. The root cause? A 32-bit foreign key referencing a 64-bit primary key. Miles McGuire shared what happened, why it happened, and what they are doing to ensure it won't happen again (including some changes you can make to your own Rails apps to help make sure you don’t make the same mistakes.)
 
@@ -309,7 +316,7 @@
   speakers:
     - Andrea Fomera
   event_name: Rails World 2024
-  published_at: '2024-09-27'
+  published_at: "2024-09-27"
   description: |-
     In her talk at #RailsWorld, Andrea Fomera showed how she works with #ActiveStorage using custom services for external providers.
 
@@ -324,8 +331,9 @@
   speakers:
     - Bruno Prieto
   event_name: Rails World 2024
-  published_at: '2024-09-27'
-  description: "Is your web app accessible? In his talk at #RailsWorld, Bruno Prieto
+  published_at: "2024-09-27"
+  description:
+    "Is your web app accessible? In his talk at #RailsWorld, Bruno Prieto
     shares his first-hand perspective as a blind developer on building accessible
     web apps with real-world examples taking advantage of tools provided by Rails,
     Hotwire, and the browser. It's easier than you think! \n\n#rails #accessibility
@@ -337,14 +345,15 @@
   video_id: OK2wApjyswM
 
 # Track 2
-- title: 'Prepare to Tack: Steering Rails Apps Out of Technical Debt'
-  raw_title: 'Robby Russell - Prepare to tack: Steering Rails apps out of technical debt - Rails World 2024'
+- title: "Prepare to Tack: Steering Rails Apps Out of Technical Debt"
+  raw_title: "Robby Russell - Prepare to tack: Steering Rails apps out of technical debt - Rails World 2024"
   speakers:
     - Robby Russell
   event_name: Rails World 2024
-  published_at: '2024-09-27'
+  published_at: "2024-09-27"
   slides_url: https://maintainablerails.com/railsworld-2024-talk-resources
-  description: "If your Rails app is drowning in a sea of compromises and quick fixes,
+  description:
+    "If your Rails app is drowning in a sea of compromises and quick fixes,
     making it difficult to update and slowing you down, it's high time to redefine
     \"technical debt\" - perhaps even time to ditch the term altogether. In his #RailsWorld
     talk, Planet Argon foundr and CEO Robby Russell explores the common issues facing
@@ -365,7 +374,7 @@
   speakers:
     - Xavier Noria
   event_name: Rails World 2024
-  published_at: '2024-09-27'
+  published_at: "2024-09-27"
   description: |-
     What happens when a Rails application boots? When is the logger ready? When is $LOAD_PATH set? When do initializers run or when are the autoloaders are set up? Rails Core member Xavier Noria covered all this and more in his talk at #RailsWorld.
 
@@ -377,13 +386,14 @@
   video_id: EZlOIViFPlg
 
 # Track 2
-- title: 'Testing Integrations: The Good, the Bad, and the Ugly'
-  raw_title: 'Julia López - Testing Integrations: The Good, the Bad, and the Ugly - Rails World 2024'
+- title: "Testing Integrations: The Good, the Bad, and the Ugly"
+  raw_title: "Julia López - Testing Integrations: The Good, the Bad, and the Ugly - Rails World 2024"
   speakers:
     - Julia López
   event_name: Rails World 2024
-  published_at: '2024-09-27'
-  description: "Enhancing your app's features through third-party APIs can be so powerful,
+  published_at: "2024-09-27"
+  description:
+    "Enhancing your app's features through third-party APIs can be so powerful,
     but testing these integrations can be so cumbersome. At #RailsWorld Julia López
     sharaed practical strategies for testing integrations, drawing from real-life
     experiences at Harvest, where they implemented several integrations – Braintree,
@@ -396,12 +406,12 @@
   video_id: qT7iQI3fOEw
 
 # Track 1
-- title: 'Empowering the Individual: Rails on AI'
-  raw_title: 'Obie Fernandez - Empowering the Individual: Rails on AI - Rails World 2024'
+- title: "Empowering the Individual: Rails on AI"
+  raw_title: "Obie Fernandez - Empowering the Individual: Rails on AI - Rails World 2024"
   speakers:
     - Obie Fernandez
   event_name: Rails World 2024
-  published_at: '2024-09-27'
+  published_at: "2024-09-27"
   description: |-
     Integrating AI with Ruby on Rails can transform a solo developer's workflow into an incredibly potent force, capable of competing at an unprecedented scale, bringing the dream of the "One Person Framework" even closer. At #RailsWorld Obie Fernandez shared a roadmap for integrating AI tools and techniques into your projects, insights into the potential pitfalls and best practices, and inspiration to explore the boundaries of what a single developer or a small team can achieve with the right tools.
 
@@ -418,8 +428,9 @@
   speakers:
     - David Henner
   event_name: Rails World 2024
-  published_at: '2024-09-27'
-  description: "David Henner highlights some of the major improvements Zendesk has
+  published_at: "2024-09-27"
+  description:
+    "David Henner highlights some of the major improvements Zendesk has
     achieved using straightforward #Ruby techniques to get even better performance
     out of Rails, including data which illustrates how they saved thousands of years
     of processing time annually, leading to increased customer satisfaction and cost-effectiveness,
@@ -437,7 +448,7 @@
   speakers:
     - Aaron Patterson
   event_name: Rails World 2024
-  published_at: '2024-09-27'
+  published_at: "2024-09-27"
   description: |-
     Rails Core member Aaron Patterson (@TenderlovesCoolStuff)  delivered the Closing Keynote at this year's #RailsWorld about speeding up the Rails Router. With his unique blend of humor and presentation style (a little bit technical, a lot of tomfoolery) he also introduced a new feature that may or may not* be in Rails 8: LamboRoutes.
 
