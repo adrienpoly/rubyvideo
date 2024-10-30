@@ -1,10 +1,16 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: The send-pop optimisation
   raw_title: "[JA] The send-pop optimisation / Urabe, Shyouhei @shyouhei"
   speakers:
     - Urabe Shyouhei
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: rH81nlm1lcE
   language: Japanese
   description: |-
@@ -19,6 +25,7 @@
     - Paul Tarjan
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: odmlf_ezsBo
   language: English
   description: |-
@@ -37,6 +44,7 @@
     - Ruby Committers # TODO: list each person
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: 5eAXAUTtNYU
   language: Japanese
   description: |-
@@ -50,6 +58,7 @@
     - Kazuki Tsujimoto
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: paBlgsqoKk8
   language: Japanese
   description: |-
@@ -63,6 +72,7 @@
     - Soutaro Matsumoto
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: 7N-QOx6cVI4
   language: Japanese
   description: |-
@@ -78,6 +88,7 @@
     - Samuel Williams
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: qKQcUDEo-ZI
   language: English
   description: |-
@@ -91,6 +102,7 @@
     - Sam Phippen
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: B8yKlTNlY5E
   language: English
   description: |-
@@ -104,6 +116,7 @@
     - nagachika
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: g_wPQzNlu9Q
   language: Japanese
   description: https://rubykaigi.org/2019/presentations/nagachika.html#apr19
@@ -114,6 +127,7 @@
     - Takashi Kokubun
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: bz-sy5b2EXY
   language: Japanese
   description: |-
@@ -128,6 +142,7 @@
     - Hiromasa Ishii
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: Mf4v3u6tgOk
   language: Japanese
   description: |-
@@ -142,6 +157,7 @@
     - Masayoshi Takahashi
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: N-TGgiNp5u0
   language: Japanese
   description: |-
@@ -155,6 +171,7 @@
     - Koichi Sasada
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: PZDhXPgt98U
   language: English
   description: |-
@@ -179,6 +196,7 @@
     - nagachika
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: B2NTL_J62JE
   language:
   description: RubyKaigi 2019 https://rubykaigi.org/2019/presentations/lt/
@@ -189,6 +207,7 @@
     - Vladimir Makarov
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: FdWLXKvZ6Gc
   language: English
   description: |-
@@ -202,6 +221,7 @@
     - Giovanni Sakti
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: AhBds1xGT94
   language: English
   description: |-
@@ -217,6 +237,7 @@
     - Jeremy Evans
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: RuGZCcEL2F8
   language: English
   description: |-
@@ -230,6 +251,7 @@
     - Yusuke Endoh
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: 2oDBKrPYEu8
   language: Japanese
   description: |-
@@ -243,6 +265,7 @@
     - Tanaka Akira
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: 9S6RK0AGzng
   language: Japanese
   description: |-
@@ -256,6 +279,7 @@
     - Shizuo Fujita
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: Wt9eR8sj9s8
   language: Japanese
   description: |-
@@ -269,6 +293,7 @@
     - Shugo Maeda
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: 67M6Deo2aTw
   language: Japanese
   description: |-
@@ -285,6 +310,7 @@
     - Yusaku Hatanaka
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: PdHcIn51B7Y
   language: Japanese
   description: |-
@@ -309,6 +335,7 @@
     - Sadayuki Furuhashi
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: yn5mEH8dUIY
   language: Japanese
   description: |-
@@ -323,6 +350,7 @@
     - Nobuyoshi Nakada
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: AjQUCWeh9sQ
   language: Japanese
   description: |-
@@ -336,6 +364,7 @@
     - ITOYANAGI Sakura
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: 8l1ep4nN_KQ
   language: English
   description: |-
@@ -353,6 +382,7 @@
     - Justin Searls
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: LVe0g91yZ84
   language: English
   description: |-
@@ -370,6 +400,7 @@
     - Xavier Noria
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: YSc_GNQP6ts
   language: English
   description: |-
@@ -391,6 +422,7 @@
     - Kazuhiro NISHIYAMA
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: PFcpmbRgB5A
   language: Japanese
   description: |-
@@ -411,6 +443,7 @@
     - Uchio KONDO
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: pmlUq5fNkzA
   language: English
   description: |-
@@ -425,6 +458,7 @@
     - Kazuma Furuhashi
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: z8yV3yEqxJY
   language: Japanese
   description: |-
@@ -447,6 +481,7 @@
     - Hitoshi HASUMI
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: rl0Nfiqs4e0
   language: English
   description: |-
@@ -461,6 +496,7 @@
     - Zahary Karadjov
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: hlWCp210IIY
   language: English
   description: |-
@@ -480,6 +516,7 @@
     - Petr Chalupa
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: R-vInXwpPPg
   language: English
   description: |-
@@ -497,6 +534,7 @@
     - Yoh Osaki
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: nzPwSDRsv_0
   language: Japanese
   description: |-
@@ -510,6 +548,7 @@
     - Colby Swandale
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: m_KTuPuEmQ0
   language: English
   description:
@@ -525,6 +564,7 @@
     - Tomohiro Hashidate
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: xUV2DvZ5L1A
   language: Japanese
   description: |-
@@ -540,6 +580,7 @@
     - Genadi Samokovarov
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: vV_tZX7jooo
   language: English
   description: |-
@@ -553,6 +594,7 @@
     - Kevin Menard
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: pe28r1VSBdU
   language: English
   description: |-
@@ -568,6 +610,7 @@
     - Emily Stolfo
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: WOnxe6qWtzY
   language: English
   description:
@@ -586,6 +629,7 @@
     - Hiroshi SHIBATA
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: H4rsTfJw9A4
   language: Japanese
   description: |-
@@ -603,6 +647,7 @@
     - Kenta Murata
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: c1Y5o4tgblQ
   language: Japanese
   description: |-
@@ -618,6 +663,7 @@
     - Masatoshi SEKI
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: 6BJLGr_M30g
   language: Japanese
   description: |-
@@ -633,6 +679,7 @@
     - Kevin Newton
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: q3i5pYpxP-s
   language: English
   description: |-
@@ -650,6 +697,7 @@
     - Tung Nguyen
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: a0VKbrgzKso
   language: English
   description: |-
@@ -663,6 +711,7 @@
     - Yukihiro "Matz" Matsumoto
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: WZu-WVzbEOA
   language: Japanese
   description: RubyKaigi 2019 https://rubykaigi.org/2019/presentations/yukihiro_matz.html#apr18
@@ -673,6 +722,7 @@
     - Alex Wood
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: OA7jwECjvRY
   language: English
   description: |-
@@ -686,6 +736,7 @@
     - Michael Grosser
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: 01LYb28rMUQ
   language: English
   description: |-
@@ -707,6 +758,7 @@
     - Maciej Mensfeld
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: wePVhZeZTNM
   language: English
   description: |-
@@ -722,6 +774,7 @@
     - Shawnee Gao
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: GKj4dipBEts
   language: English
   description: |-
@@ -736,6 +789,7 @@
     - Thomas E Enebo
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: vPy5KO4uHuA
   language: English
   description: |-
@@ -749,6 +803,7 @@
     - Nate Berkopec
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: BE5C2ydN0y0
   language: English
   description: |-
@@ -762,6 +817,7 @@
     - ota42y
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: om1dgTbmXrw
   language: Japanese
   description: |-
@@ -783,6 +839,7 @@
     - Colin Fulton
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: qiwpWHfyXpM
   language: English
   description: |-
@@ -798,6 +855,7 @@
     - Noah Gibbs
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: iy4N7AtzZYc
   language: English
   description: |-
@@ -811,6 +869,7 @@
     - Yukihiro "Matz" Matsumoto
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: 1qEhEad5uPI
   language: Japanese
   description: RubyKaigi 2019 https://rubykaigi.org/2019/presentations/matzbot.html#apr18
@@ -821,6 +880,7 @@
     - Paolo "Nusco" Perrotta
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: Uj-7X-9lkIg
   language: English
   description: |-
@@ -836,6 +896,7 @@
     - Sangyong Sim
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: 4akNWMKVZQU
   language: Japanese
   description: |-
@@ -859,6 +920,7 @@
     - Alex Rodionov
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: q2q-9Td71kE
   language: English
   description: |-
@@ -874,6 +936,7 @@
     - Go Sueyoshi
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: Ry0uQeTCHHs
   language: Japanese
   description: |-
@@ -897,6 +960,7 @@
     - Mike McQuaid
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: m1P_06bjjCs
   language: English
   description: |-
@@ -910,6 +974,7 @@
     - Matthew Draper
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: fQBrWrJKPVU
   language: English
   description: |-
@@ -923,6 +988,7 @@
     - Tatsuhiro Ujihisa
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: oNJyBZ5OAMw
   language: English
   description: |-
@@ -944,6 +1010,7 @@
     - Aaron Patterson
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: HgAZsg7D_Jo
   language: Japanese
   description: |-
@@ -957,6 +1024,7 @@
     - Andrey Novikov
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: CvjefIat8yE
   language: English
   description: |-
@@ -970,6 +1038,7 @@
     - Yutaka HARA
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: Vu2z8krSAYs
   language: Japanese
   description: |-
@@ -983,6 +1052,7 @@
     - Amir Rajan
   event_name: RubyKaigi 2019
   published_at: "2019-04-18"
+  video_provider: youtube
   video_id: o0d4sjcUfCg
   language: English
   description: |-

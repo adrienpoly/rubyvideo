@@ -1,4 +1,5 @@
 ---
+# TODO: conference website
 
 # Day 1
 
@@ -7,8 +8,9 @@
   speakers:
     - Thorsten Ball
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-11'
-  description: ''
+  published_at: "2015-03-11"
+  description: ""
+  video_provider: youtube
   video_id: ZSRE-rGcEPs
 
 - title: What if Clean Code is a Scam
@@ -16,8 +18,9 @@
   speakers:
     - Michał Taszycki
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-11'
-  description: ''
+  published_at: "2015-03-11"
+  description: ""
+  video_provider: youtube
   video_id: JIu889NJYbM
 
 - title: Lightning Talks - Day 1
@@ -25,8 +28,9 @@
   speakers:
     - TODO
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-11'
-  description: ''
+  published_at: "2015-03-11"
+  description: ""
+  video_provider: youtube
   video_id: 4grD-1Cde08
 
 # Day 2
@@ -36,8 +40,9 @@
   speakers:
     - Ryan Stout
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-12'
-  description: ''
+  published_at: "2015-03-12"
+  description: ""
+  video_provider: youtube
   video_id: FgOLP4bMX90
 
 - title: Trailblazer
@@ -45,19 +50,21 @@
   speakers:
     - Nick Sutterer
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-12'
-  description: ''
+  published_at: "2015-03-12"
+  description: ""
+  video_provider: youtube
   video_id: K7P7PcO8ra4
 
-- title: 'Panel: Post-Rails World'
+- title: "Panel: Post-Rails World"
   raw_title: Panel "Post-Rails world" - Nick Sutterer, Ryan Stout, Jim Gay - wroc_love.rb 2015
   speakers:
     - Nick Sutterer
     - Ryan Stout
     - Jim Gay
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-12'
-  description: ''
+  published_at: "2015-03-12"
+  description: ""
+  video_provider: youtube
   video_id: X2sJMVGPZ_E
 
 - title: Live Code Music
@@ -65,8 +72,9 @@
   speakers:
     - Nicolas Dermine
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-12'
-  description: ''
+  published_at: "2015-03-12"
+  description: ""
+  video_provider: youtube
   video_id: 5cZfqXiivdA
 
 - title: Event Storming
@@ -74,8 +82,9 @@
   speakers:
     - Alberto Brandolini
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-12'
-  description: ''
+  published_at: "2015-03-12"
+  description: ""
+  video_provider: youtube
   video_id: veTVAN0oEkQ
 
 - title: Lightning Talks - Day 2
@@ -83,8 +92,9 @@
   speakers:
     - TODO
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-12'
-  description: ''
+  published_at: "2015-03-12"
+  description: ""
+  video_provider: youtube
   video_id: 5SpdE5doLog
 
 # Day 3
@@ -94,8 +104,9 @@
   speakers:
     - Ivan Nemytchenko
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-13'
-  description: ''
+  published_at: "2015-03-13"
+  description: ""
+  video_provider: youtube
   video_id: al2LZ-7qX7k
 
 - title: Microservices
@@ -103,11 +114,12 @@
   speakers:
     - Sebastian Sogamoso
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-13'
-  description: ''
+  published_at: "2015-03-13"
+  description: ""
+  video_provider: youtube
   video_id: gphGTGzas98
 
-- title: 'Panel: DDD/CQRS/ES'
+- title: "Panel: DDD/CQRS/ES"
   raw_title: Panel "DDD/CQRS/ES" - wroc_love.rb 2015
   speakers:
     - Albert Brandolini
@@ -115,8 +127,9 @@
     - Mirek Pragłowski
     - Sebastian Sogamoso
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-13'
+  published_at: "2015-03-13"
   description: Albert Brandolini, Andrzej Krzywda, Mirek Pragłowski, Sebastian Sogamoso
+  video_provider: youtube
   video_id: Rh2A96rpGpY
 
 - title: The Missing System
@@ -124,8 +137,9 @@
   speakers:
     - Jim Gay
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-13'
-  description: ''
+  published_at: "2015-03-13"
+  description: ""
+  video_provider: youtube
   video_id: huRWC7iFZxM
 
 - title: ClojureScript + React.js
@@ -133,8 +147,9 @@
   speakers:
     - Norbert Wójtowicz
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-13'
-  description: ''
+  published_at: "2015-03-13"
+  description: ""
+  video_provider: youtube
   video_id: 6_mbxaRDA-s
 
 - title: Lightning Talks - Day 3
@@ -142,6 +157,7 @@
   speakers:
     - TODO
   event_name: wroc_love.rb 2015
-  published_at: '2015-03-13'
-  description: ''
+  published_at: "2015-03-13"
+  description: ""
+  video_provider: youtube
   video_id: C6zIIOwVX3Q

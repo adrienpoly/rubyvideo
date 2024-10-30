@@ -1,10 +1,16 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: Developer Oriented Project Management
   raw_title: Robert Pankowecki - DEVELOPER ORIENTED PROJECT MANAGEMENT
   speakers:
-  - Robert Pankowecki
+    - Robert Pankowecki
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-17'
+  published_at: "2014-04-17"
+  video_provider: youtube
   video_id: 0OxNxlGSAdQ
   language:
   description: |-
@@ -24,7 +30,8 @@
   speakers:
     - Jeppe Liisberg
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-17'
+  published_at: "2014-04-17"
+  video_provider: youtube
   video_id: IFeiLvz9MuY
   language:
   description: |-
@@ -42,7 +49,8 @@
   speakers:
     - Marcin Stecki
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-17'
+  published_at: "2014-04-17"
+  video_provider: youtube
   video_id: cA-9wAPHamc
   language:
   description: |-
@@ -59,7 +67,8 @@
   speakers:
     - Piotr Misiurek
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-17'
+  published_at: "2014-04-17"
+  video_provider: youtube
   video_id: OCeJ-OAg4ag
   language:
   description: |-
@@ -76,10 +85,12 @@
   speakers:
     - Markus Schirp
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-17'
+  published_at: "2014-04-17"
+  video_provider: youtube
   video_id: rz-lFKEioLk
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\n\nSlides: http://slid.es/markusschirp/mutation-testing-fight-2\n\nMarkus
     Schirp with CAN WE WRITE PERFECT TESTS? - MAYBE!\n\nOr: Why mutation testing is
     as a game changer for unit tests. The pros of a solid unit test suite are well
@@ -100,12 +111,13 @@
     The idea is to create the \"MUST HAVE\"-Feeling in the audience. Finally, you
     can prove that you have good tests! Do not miss it!"
 
-- title: 'Application Architecture: Boundaries, Object Roles, & Patterns'
-  raw_title: 'Adam Hawkins - APPLICATION ARCHITECTURE: BOUNDARIES, OBJECT ROLES, & PATTERNS'
+- title: "Application Architecture: Boundaries, Object Roles, & Patterns"
+  raw_title: "Adam Hawkins - APPLICATION ARCHITECTURE: BOUNDARIES, OBJECT ROLES, & PATTERNS"
   speakers:
     - Adam Hawkins
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-17'
+  published_at: "2014-04-17"
+  video_provider: youtube
   video_id: _u2w57QBIkU
   language:
   description: |-
@@ -124,26 +136,29 @@
     - Marcin Stecki # DHH Code Ping Pong
     - Aleksander Dąbrowski # Java is cool
     - Marcin Grzywaczewski # React.js and Hexagonal.js
-    - Mateusz Lenik  # Random considered harmful
+    - Mateusz Lenik # Random considered harmful
     - Arne Brasseur # Nobody Knows Ruby
     - Michal Papis # RVM
     - Thilo Utke # Make Conf Wifi work
     - Mateusz Kubiczek # How To Get Paid in $, €, £ and not get ripped off
   event_name: wroc_love.rb 2014
-  published_at: '2014-03-15'
+  published_at: "2014-03-15"
+  video_provider: youtube
   video_id: He4420gpkpQ
   language:
-  description: ''
+  description: ""
 
 - title: Integration Tests Are Bogus
   raw_title: Piotr Szotkowski - INTEGRATION TESTS ARE BOGUS
   speakers:
     - Piotr Szotkowski
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-17'
+  published_at: "2014-04-17"
+  video_provider: youtube
   video_id: 7XI3H_rKmRU
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\n\nSlides: http://talks.chastell.net/wrocloverb-2014/\n\nPiotr
     Szotkowski with INTEGRATION TESTS ARE BOGUS\n\nThe Ruby community embraced testing
     early, with many developers switching full-time to test-driven development (and,
@@ -166,13 +181,14 @@
     of the related fakes complain, and all the missing pieces of a system written
     from outside in will present themselves ready to be implemented."
 
-- title: 'Q&A: Code Metrics'
+- title: "Q&A: Code Metrics"
   raw_title: Code Metrics Q&A by Piotr Solnica & Markus Schirp
   speakers:
     - Piotr Solnica
     - Markus Schirp
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-17'
+  published_at: "2014-04-17"
+  video_provider: youtube
   video_id: LiRYqor9ogs
   language:
   description: |-
@@ -187,7 +203,8 @@
   speakers:
     - Jan Stępień
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-17'
+  published_at: "2014-04-17"
+  video_provider: youtube
   video_id: Hv4slaRydRM
   language:
   description: |-
@@ -203,7 +220,8 @@
   speakers:
     - Emanuele Delbono
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-17'
+  published_at: "2014-04-17"
+  video_provider: youtube
   video_id: GaGBfDe7r9Y
   language:
   description: |-
@@ -220,7 +238,8 @@
   speakers:
     - Michael Feathers
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-18'
+  published_at: "2014-04-18"
+  video_provider: youtube
   video_id: UX7xmhpUoi4
   language:
   description: |-
@@ -241,7 +260,8 @@
   speakers:
     - Piotr Solnica
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-18'
+  published_at: "2014-04-18"
+  video_provider: youtube
   video_id: urUEB8Kz6jY
   language:
   description: |-
@@ -251,12 +271,13 @@
 
     I'm dreaming about a ruby ecosystem that consists of plenty of awesome, kick-ass, small, focused, well-written, nicely documented, composable libraries. Micro-libraries. I want those libraries to work on all major ruby implementations. I want those libraries to use as little magic and monkey-patching as possible. I want to be able to compose bigger frameworks using those libraries. In this talk I will tell you WHY I want all those things and HOW we could achieve that.
 
-- title: 'Objectify Your Forms: Beyond Basic User Input'
-  raw_title: 'OBJECTIFY YOUR FORMS: BEYOND BASIC USER INPUT - Danny Olson'
+- title: "Objectify Your Forms: Beyond Basic User Input"
+  raw_title: "OBJECTIFY YOUR FORMS: BEYOND BASIC USER INPUT - Danny Olson"
   speakers:
     - Danny Olson
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-18'
+  published_at: "2014-04-18"
+  video_provider: youtube
   video_id: NENkGg-wzx8
   language:
   description: |-
@@ -271,14 +292,15 @@
     What if we could use good old object oriented design principles to make forms a pleasure to deal with? Form objects give us a much simpler way to build any sort of form we want that is straight forward to build, test, and maintain.
     We will build a complicated form using the default Rails helpers, and then we'll rebuild it with a form object and let the audience decide which method they prefer.
 
-- title: 'Q&A: Legacy Rails'
+- title: "Q&A: Legacy Rails"
   raw_title: Legacy Rails Q&A Michael Feathers, Adam Hawkins, Andrzej Krzywda
   speakers:
     - Michael Feathers
     - Adam Hawkins
     - Andrzej Krzywda
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-18'
+  published_at: "2014-04-18"
+  video_provider: youtube
   video_id: csiK5GCcjt8
   language:
   description: |-
@@ -288,12 +310,13 @@
 
     Participants: Michael Feathers, Adam Hawkins, Andrzej Krzywda
 
-- title: 'Ruby: Write Once, Run Anywhere'
-  raw_title: 'RUBY: WRITE ONCE, RUN ANYWHERE - Michał Taszycki'
+- title: "Ruby: Write Once, Run Anywhere"
+  raw_title: "RUBY: WRITE ONCE, RUN ANYWHERE - Michał Taszycki"
   speakers:
     - Michał Taszycki
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-20'
+  published_at: "2014-04-20"
+  video_provider: youtube
   video_id: nNYgW7RwcTc
   language:
   description: |-
@@ -310,7 +333,8 @@
   speakers:
     - Alex Coles
   event_name: wroc_love.rb 2014
-  published_at: '2014-04-20'
+  published_at: "2014-04-20"
+  video_provider: youtube
   video_id: Cad8wUUrXNY
   language:
   description: |-

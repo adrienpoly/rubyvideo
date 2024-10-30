@@ -1,25 +1,27 @@
 ---
-
-# TODO: talk dates
 # TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
 # TODO: schedule website
 
-- title: 'Keynote: Cultivating Instinct by Katrina Owen'
-  raw_title: 'Keep Ruby Weird 2016 - Keynote: Cultivating Instinct by Katrina Owen'
+- title: "Keynote: Cultivating Instinct by Katrina Owen"
+  raw_title: "Keep Ruby Weird 2016 - Keynote: Cultivating Instinct by Katrina Owen"
   speakers:
     - Katrina Owen
   event_name: Keep Ruby Weird 2016
-  published_at: '2016-11-04'
-  description: 'Keynote: Cultivating Instinct by Katrina Owen'
+  published_at: "2016-11-04"
+  description: "Keynote: Cultivating Instinct by Katrina Owen"
+  video_provider: youtube
   video_id: SKlIQLb7U00
 
 - title: Implementing An Esoteric Programming
-  raw_title: Keep Ruby Weird 2016 - Implementing An Esoteric Programming by Tom Enebo
+  raw_title: Keep Ruby Weird 2016 - Implementing An Esoteric Programming by Thomas E Enebo
   speakers:
-    - Tom E Enebo
+    - Thomas E Enebo
   event_name: Keep Ruby Weird 2016
-  published_at: '2016-11-04'
+  published_at: "2016-11-04"
   description: Implementing An Esoteric Programming by Tom Enebo
+  video_provider: youtube
   video_id: uKGecSc-r1o
 
 - title: A Practical Taxonomy of Bugs
@@ -27,8 +29,9 @@
   speakers:
     - Kylie Stradley
   event_name: Keep Ruby Weird 2016
-  published_at: '2016-11-04'
+  published_at: "2016-11-04"
   description: A Practical Taxonomy of Bugs by Kylie Stradley
+  video_provider: youtube
   video_id: mE49u3hK2js
 
 - title: A Hands-on Experience with Complex SQL
@@ -36,17 +39,19 @@
   speakers:
     - Craig Kerstiens
   event_name: Keep Ruby Weird 2016
-  published_at: '2016-11-04'
+  published_at: "2016-11-04"
   description: A Hands-on Experience with Complex SQL by Craig Kerstiens
+  video_provider: youtube
   video_id: 0koLFAB4lAk
 
-- title: 'Hot Takes Welcome: @searls'
-  raw_title: 'Keep Ruby Weird 2016 - Hot takes welcome: @Searls  by Justin Searls'
+- title: "Hot Takes Welcome: @searls"
+  raw_title: "Keep Ruby Weird 2016 - Hot takes welcome: @Searls  by Justin Searls"
   speakers:
     - Justin Searls
   event_name: Keep Ruby Weird 2016
-  published_at: '2016-11-04'
-  description: 'Hot takes welcome: @Searls  by Justin Searls'
+  published_at: "2016-11-04"
+  description: "Hot takes welcome: @Searls  by Justin Searls"
+  video_provider: youtube
   video_id: JueNkCiQYcc
 
 - title: Make Better Decisions
@@ -54,15 +59,17 @@
   speakers:
     - Marty Haught
   event_name: Keep Ruby Weird 2016
-  published_at: '2016-11-04'
+  published_at: "2016-11-04"
   description: Make Better Decisions by Marty Haught
+  video_provider: youtube
   video_id: ZtqUdoqK5RM
 
-- title: 'Keynote: The Building Built on Stilts'
-  raw_title: 'Keep Ruby Weird 2016 - Keynote: The Building Built on Stilts by Nick Means'
+- title: "Keynote: The Building Built on Stilts"
+  raw_title: "Keep Ruby Weird 2016 - Keynote: The Building Built on Stilts by Nick Means"
   speakers:
     - Nick Means
   event_name: Keep Ruby Weird 2016
-  published_at: '2016-11-04'
-  description: 'Keynote: The Building Built on Stilts by Nick Means'
+  published_at: "2016-11-04"
+  description: "Keynote: The Building Built on Stilts by Nick Means"
+  video_provider: youtube
   video_id: _x1_ii16s-s

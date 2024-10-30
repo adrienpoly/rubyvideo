@@ -14,7 +14,7 @@ class SpeakersController < ApplicationController
         @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
       end
       format.json do
-        @pagy, @speakers = pagy(Speaker.with_talks.order(:name), limit: params[:per_page])
+        @pagy, @speakers = pagy(Speaker.includes(:canonical).order(:name), limit: params[:per_page])
       end
     end
   end
@@ -59,12 +59,20 @@ class SpeakersController < ApplicationController
   end
 
   def speaker_params
-    {
-      anonymous: params.require(:speaker).permit(:github),
-      signed_in: params.require(:speaker).permit(:github),
-      owner: params.require(:speaker).permit(:name, :twitter, :bio, :website),
-      admin: params.require(:speaker).permit(:name, :twitter, :github, :bio, :website)
-    } [user_kind]
+    params.require(:speaker).permit(
+      :name,
+      :github,
+      :twitter,
+      :bsky,
+      :linkedin,
+      :mastodon,
+      :bio,
+      :website,
+      :speakerdeck,
+      :pronouns_type,
+      :pronouns,
+      :slug
+    )
   end
 
   def set_user_favorites

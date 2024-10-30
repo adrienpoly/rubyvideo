@@ -1,13 +1,20 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: Designing Hypermedia APIs
-  raw_title: 'Steve Klabnik: Designing Hypermedia APIs'
+  raw_title: "Steve Klabnik: Designing Hypermedia APIs"
   speakers:
     - Steve Klabnik
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-06'
+  published_at: "2012-04-06"
+  video_provider: youtube
   video_id: 0PB_pO_jU38
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nRails did a lot
     to bring REST to developers, but its conception leaves the REST devotee feeling
     a bit empty. \"Where's the hypermedia?\" she says. \"REST isn't RPC,\" he may
@@ -19,14 +26,16 @@
     will be discussed, as well as why we aren't building things this way yet."
 
 - title: Modular & reusable front-end code with HTML5, Sass and CoffeeScript
-  raw_title: 'Roy Tomeij: Modular & reusable front-end code with HTML5, Sass and CoffeeScript'
+  raw_title: "Roy Tomeij: Modular & reusable front-end code with HTML5, Sass and CoffeeScript"
   speakers:
     - Roy Tomeij
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-07'
+  published_at: "2012-04-07"
+  video_provider: youtube
   video_id: T6-75HdADc8
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nMost Ruby developers
     use Rails for their everyday projects. Often they toy around with front-end themselves
     or outsource it, ending up tangled in a web of css-all-over-the-place.\r\n\r\nKeeping
@@ -36,14 +45,16 @@
     reusable code."
 
 - title: Responsive Web Design
-  raw_title: 'Nicolas Barrera: Responsive Web Design'
+  raw_title: "Nicolas Barrera: Responsive Web Design"
   speakers:
     - Nicolas Barrera
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-07'
+  published_at: "2012-04-07"
+  video_provider: youtube
   video_id: MNZnHrnQ56U
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nResponsive Web
     Design is all about having the same content visible in all devices, from tiny
     mobiles to huge monitors, preserving proper readability and adapting to the medium.
@@ -55,25 +66,27 @@
     how to make a layout responsive with the one-two punch of fluid layouts and media
     queries."
 
-- title: 'Panel: Rails vs. OOP'
-  raw_title: 'Piotr Szotkowski, Steve Klabnik, Nick Sutterer, Jim Gay: Rails vs. OOP'
+- title: "Panel: Rails vs. OOP"
+  raw_title: "Piotr Szotkowski, Steve Klabnik, Nick Sutterer, Jim Gay: Rails vs. OOP"
   speakers:
     - Piotr Szotkowski
     - Steve Klabnik
     - Nick Sutterer
     - Jim Gay
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-08'
+  published_at: "2012-04-08"
+  video_provider: youtube
   video_id: jk8FEssfc90
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nA lot has been
     said recently about the topic of Rails and OOP. We consider this issue very important
     in our community. This fight is all about the recent OOP movements in the Rails
     world. There are quite a few problems that people focus on and quite a few proposed
     solutions."
 
-- title: 'Fishbowl Discussion: Testing'
+- title: "Fishbowl Discussion: Testing"
   raw_title: Testing fishbowl
   speakers:
     # TODO: moderator
@@ -83,10 +96,12 @@
     - Andrzej Krzywda
     # TODO: and more
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-10'
+  published_at: "2012-04-10"
+  video_provider: youtube
   video_id: IoiZtvXWGjI
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\n\nAll you wanted to
     question about testing but was afraid to flame. In this heated debate where everyone
     could participate we focused on the following discussion starters: cucumber vs.
@@ -95,14 +110,16 @@
     under rules of a Fishbowl http://en.wikipedia.org/wiki/Fishbowl_(conversation)"
 
 - title: Programming Workout
-  raw_title: 'Michał Taszycki: Programming Workout'
+  raw_title: "Michał Taszycki: Programming Workout"
   speakers:
     - Michał Taszycki
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-11'
+  published_at: "2012-04-11"
+  video_provider: youtube
   video_id: wXQLil_SGCI
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nTimes are changing...
     Technology is moving forward... Command line tools are becoming obsolete... Programmers
     today don't need to touch type... Using mouse to copy and paste is perfectly fine...
@@ -118,14 +135,16 @@
     will show you how PROGRAMMERS WORK OUT."
 
 - title: ØMQ - A way towards fully distributed architectures
-  raw_title: 'Matrin Sustrik: ØMQ - A way towards fully distributed architectures'
+  raw_title: "Matrin Sustrik: ØMQ - A way towards fully distributed architectures"
   speakers:
     - Matrin Sustrik
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-11'
+  published_at: "2012-04-11"
+  video_provider: youtube
   video_id: RcfT3b79UYM
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nIn this talk Martin
     shows basic ØMQ concepts and tells how Rubyists can take advantage of them."
 
@@ -136,7 +155,8 @@
     - Georg Leciejewski
     - Jan Kus
   event_name: wroc_love.rb 2012
-  published_at: '2012-06-05'
+  published_at: "2012-06-05"
+  video_provider: youtube
   video_id: TyfXJ5mydVc
   language:
   description: |-
@@ -149,7 +169,8 @@
   speakers:
     - Krzysztof Kowalik
   event_name: wroc_love.rb 2012
-  published_at: '2012-12-08'
+  published_at: "2012-12-08"
+  video_provider: youtube
   video_id: EGyrwqu_6vs
   language:
   description: |-
@@ -158,28 +179,32 @@
     During this talk you gonna find out how to design and build cloud-ready distributed web applications correctly, how to scale them according to your needs and finally how to test and deploy them fast and easily.
 
 - title: Rails - past, present and the future
-  raw_title: 'Piotr Sarnacki: Rails - past, present and the future'
+  raw_title: "Piotr Sarnacki: Rails - past, present and the future"
   speakers:
     - Piotr Sarnacki
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-07'
+  published_at: "2012-04-07"
+  video_provider: youtube
   video_id: wOYQDSeKthY
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nRails is getting
     older and there was a lot changes along the way, including The Big Rewrite from
     2.3 to 3.0. Was it worth it? Where is rails heading now? In this talk I will try
     to address these and other questions connected with rails status and progress."
 
 - title: It's Business Time
-  raw_title: 'Jim Gay: It''s Business Time'
+  raw_title: "Jim Gay: It's Business Time"
   speakers:
     - Jim Gay
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-07'
+  published_at: "2012-04-07"
+  video_provider: youtube
   video_id: lhFSc0dWsto
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nDiscover a complement
     to your MVC ways that puts your business needs in plain view. Learn how DCI (Data,
     Context, and Interaction) allows you to keep your application architecture lean
@@ -187,14 +212,16 @@
     read, easy to understand, and easy to reuse."
 
 - title: Decoupling Persistence (Like There's Some Tomorrow)
-  raw_title: 'Piotr Szotkowski: Decoupling Persistence (Like There''s Some Tomorrow)'
+  raw_title: "Piotr Szotkowski: Decoupling Persistence (Like There's Some Tomorrow)"
   speakers:
     - Piotr Szotkowski
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-07'
+  published_at: "2012-04-07"
+  video_provider: youtube
   video_id: w7Eol9N3jGI
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nFrom DCI to presenters,
     from Uncle Bob's architecture talk and Avdi Grimm's upcoming 'Objects on Rails'
     book to the proliferation of (competing? complementing?) database systems, it
@@ -207,14 +234,16 @@
     perceived compexity? YAGNI?)."
 
 - title: DataMapper 2
-  raw_title: 'Piotr Solnica: DataMapper 2'
+  raw_title: "Piotr Solnica: DataMapper 2"
   speakers:
     - Piotr Solnica
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-10'
+  published_at: "2012-04-10"
+  video_provider: youtube
   video_id: MU4RvuvpT8w
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nI would like to
     describe all of the pieces that we're working on: new relational algebra engine,
     new model definition and introspection layers, new validation library and other
@@ -223,14 +252,16 @@
     logic in Rails apps."
 
 - title: Fear of adding processes
-  raw_title: 'Florian Gilcher: Fear of adding processes'
+  raw_title: "Florian Gilcher: Fear of adding processes"
   speakers:
     - Florian Gilcher
   event_name: wroc_love.rb 2012
-  published_at: '2012-04-13'
+  published_at: "2012-04-13"
+  video_provider: youtube
   video_id: BYmHOF58bDY
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow
+  description:
+    "This video was recorded on http://wrocloverb.com. You should follow
     us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nIn object-oriented
     programming, there is a well-known anti-pattern called 'Fear of Adding Classes'.
     It describes the fear of solving a problem by adding another class because of
@@ -245,7 +276,8 @@
   speakers:
     - Nick Sutterer
   event_name: wroc_love.rb 2012
-  published_at: '2012-12-08'
+  published_at: "2012-12-08"
+  video_provider: youtube
   video_id: yDZKIHFdLX8
   language:
   description: |-
@@ -258,7 +290,8 @@
   speakers:
     - Michał Czyż
   event_name: wroc_love.rb 2012
-  published_at: '2012-12-08'
+  published_at: "2012-12-08"
+  video_provider: youtube
   video_id: CJRswpVCKcM
   language:
   description: |-

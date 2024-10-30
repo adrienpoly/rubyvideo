@@ -1,10 +1,16 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: "Keynote: Ruby 2020"
   raw_title: "Ruby: 2020 - RubyKaigi 2015 Keynote"
   speakers:
     - Evan Phoenix
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: QaLvtNpoc5o
   language:
   description: http://rubykaigi.org/2015/presentations/evanphx
@@ -15,6 +21,7 @@
     - Lein Weber
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: 7dwDzlVI7OU
   language:
   description: |-
@@ -33,6 +40,7 @@
     - Kohei Suzuki
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: vM9XfqlqyNw
   language:
   description:
@@ -52,6 +60,7 @@
     - KOSAKI Motohiro
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: idmfWkP5lOw
   language:
   description: http://rubykaigi.org/2015/presentations/kosaki
@@ -62,6 +71,7 @@
     - Kevin Menard
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: lRMWwjqbXUo
   language:
   description: |-
@@ -77,6 +87,7 @@
     - Koichi Sasada
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: sFfwQ1-PFt0
   language:
   description: |-
@@ -91,6 +102,7 @@
     - Godfrey Chan
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: uiNpoDB4dA0
   language:
   description: |-
@@ -106,6 +118,7 @@
     - Hsing-Hui Hsu
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: a_mJIR0Rk9U
   language:
   description:
@@ -125,6 +138,7 @@
     - Kouhei Sutou
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: g33d9SSbvd8
   language:
   description: |-
@@ -142,6 +156,7 @@
     - Fernando Hamasaki de Amorim
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: jLAFXQ1Av50
   language:
   description: |-
@@ -157,6 +172,7 @@
     - Laurent Sansonetti
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: uzUmUmEX-Ls
   language:
   description: |-
@@ -170,6 +186,7 @@
     - youchan
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: xEK1hg8noSc
   language:
   description:
@@ -191,6 +208,7 @@
     - Sadayuki Furuhashi
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: C6SP3CzCb5k
   language:
   description:
@@ -210,6 +228,7 @@
     - Matthew Gaudet
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: EDxoaEdR-_M
   language:
   description: |-
@@ -237,6 +256,7 @@
     - Pilar Andrea Huidobro Peltier
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: Yf7l4Yp461I
   language:
   description: http://rubykaigi.org/2015/presentations/lt
@@ -247,6 +267,7 @@
     - Yusuke Endoh
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: dmHqtr_GNtg
   language:
   description: |-
@@ -260,6 +281,7 @@
     - Masaki Matsushita
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: xIVrUWmmass
   language:
   description:
@@ -276,6 +298,7 @@
     - Franck Verrot
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: bchlcxAZ9tU
   language:
   description: |-
@@ -289,6 +312,7 @@
     - Yuki Nishijima
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: b9621w7_vxc
   language:
   description: |-
@@ -306,6 +330,7 @@
     - Aaron Patterson
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: 0cmXVXMdbs8
   language:
   description:
@@ -322,6 +347,7 @@
     - Yutaka HARA
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: NNsX92hKirM
   language:
   description: |-
@@ -335,6 +361,7 @@
     - Shota Nakano
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: EXvDKb2LTYM
   language:
   description:
@@ -354,6 +381,7 @@
     - Zachary Scott
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: EhEWn5Uudow
   language:
   description: |-
@@ -377,6 +405,7 @@
     - Ruby Committers # TODO: list each person
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: LcXKSHsniTY
   language:
   description: http://rubykaigi.org/2015/presentations/committers
@@ -387,6 +416,7 @@
     - Paolo "Nusco" Perrotta
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: _gLgE3c5jTU
   language:
   description: |-
@@ -405,6 +435,7 @@
     - Craig Lehmann
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: nhqNaZxHbHY
   language:
   description: |-
@@ -420,6 +451,7 @@
     - Josh Kalderimis
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: gVm7dd2G7CQ
   language:
   description:
@@ -438,6 +470,7 @@
     - Yurie Yamane
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: u7WCIN5HMDI
   language: Japanese
   description:
@@ -451,6 +484,7 @@
     - Masahiro Nagano
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: EPxWD_2Yekg
   language:
   description: |-
@@ -466,6 +500,7 @@
     - Ippei Obayashi
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: bvXYCpcOQ3E
   language:
   description: |-
@@ -481,6 +516,7 @@
     - Emily Stolfo
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: MrfdHpz0-AQ
   language:
   description: |-
@@ -498,6 +534,7 @@
     - Naohisa Goto
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: LlcEduexIcU
   language:
   description:
@@ -516,6 +553,7 @@
     - Shibata Hiroshi
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: Tgtprqw8_IQ
   language:
   description:
@@ -533,6 +571,7 @@
     - Julian Cheal
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: t2NoXELaF0E
   language:
   description: |-
@@ -549,6 +588,7 @@
     - Christophe Philemotte
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: erx00WTzvcY
   language:
   description: |-
@@ -566,6 +606,7 @@
     - Mayumi EMORI
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: 9C98Eyr9jOY
   language:
   description:
@@ -581,6 +622,7 @@
     - TAGOMORI "moris" Satoshi
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: 6qrdqLlgTo8
   language:
   description: |-
@@ -596,6 +638,7 @@
     - Masatoshi SEKI
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: EdB-s2GX-68
   language:
   description:
@@ -611,6 +654,7 @@
     - Thomas E Enebo
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: QAqjtdExtJw
   language:
   description: |-
@@ -624,6 +668,7 @@
     - Keiju Ishitsuka
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: xiAyp97ElA8
   language:
   description: |-
@@ -637,6 +682,7 @@
     - Yukihiro "Matz" Matsumoto
   event_name: RubyKaigi 2015
   published_at: "2015-12-11"
+  video_provider: youtube
   video_id: E9bO1uqs4Oc
   language: Japanese
   description: http://rubykaigi.org/2015/presentations/matz

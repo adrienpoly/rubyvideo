@@ -1,10 +1,16 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: "Keynote: My way with Ruby"
   raw_title: "[JA][Keynote] My way with Ruby / Kouhei Sutou @ktou"
   speakers:
     - Kouhei Sutou
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: d7lDhsE1jXg
   language: Japanese
   description: |-
@@ -23,6 +29,7 @@
     - Yukihiro "Matz" Matsumoto
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: zb8dXWYUX10
   language: Japanese
   description: RubyKaigi 2018 https://rubykaigi.org/2018/presentations/yukihiro_matz
@@ -33,6 +40,7 @@
     - Benoit Daloze
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: mRKjWrNJ8DI
   language: English
   description: |-
@@ -48,6 +56,7 @@
     - Marc-André Lafortune
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: HWj3nrvAmRM
   language: English
   description: |-
@@ -63,6 +72,7 @@
     - Ezekiel Templin
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: rlZR9jXmvL4
   language: English
   description: |-
@@ -80,6 +90,7 @@
     - ITOYANAGI Sakura
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: zUBxip-bhJA
   language: English
   description: |-
@@ -96,6 +107,7 @@
     - Takeshi Watanabe
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: F-lZtxewCcs
   language: Japanese
   description: |-
@@ -112,6 +124,7 @@
     - Kazuho Oku
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: r9zNEY6KtkI
   language: Japanese
   description: |-
@@ -126,6 +139,7 @@
     - MATSUMOTO Ryosuke
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: xXvaY-xpfpc
   language: Japanese
   description: |-
@@ -142,6 +156,7 @@
     - Keiju Ishitsuka
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: zGbmD7LQP2s
   language: Japanese
   description: |-
@@ -158,6 +173,7 @@
     - Thomas E Enebo
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: ue5XVN0SJEw
   language: English
   description:
@@ -177,6 +193,7 @@
     - Prasun Anand
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: LP9lIqCAbFE
   language: English
   description: |-
@@ -192,6 +209,7 @@
     - Yoh Osaki
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: zTO2t24IhgI
   language: Japanese
   description: |-
@@ -211,6 +229,7 @@
     - Vladimir Makarov
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: emhYoI_RiOA
   language: English
   description: |-
@@ -226,6 +245,7 @@
     - Takashi Kokubun
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: svtRUkD0ACg
   language: Japanese
   description: |-
@@ -243,6 +263,7 @@
     - Martin J. Dürst
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: hjTw0T220zs
   language: Japanese
   description: |-
@@ -259,6 +280,7 @@
     - Shugo Maeda
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: H0mn5u28tPo
   language: Japanese
   description: |-
@@ -274,6 +296,7 @@
     - Aaron Patterson
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: ILzQYMDp18o
   language: Japanese
   description: |-
@@ -292,6 +315,7 @@
     - Kenichi Kanai
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: amn6gHJOjIQ
   language: Japanese
   description: |-
@@ -316,6 +340,7 @@
     - Yusaku Hatanaka
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: J-d_Lk4SFtQ
   language: Japanese
   description: |-
@@ -333,6 +358,7 @@
     - Bozhidar Batsov
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: nrHjVCuVsGA
   language: English
   description: |-
@@ -356,6 +382,7 @@
     - Satoshi "moris" Tagomori
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: 04HGQEw3A6Y
   language: Japanese
   description: |-
@@ -376,6 +403,7 @@
     - Piotr Murach
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: AeUls-THfpQ
   language: English
   description: |-
@@ -401,6 +429,7 @@
     - unak
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: hCZWrvO_27k
   language: Japanese
   description: RubyKaigi 2018 https://rubykaigi.org/2018/presentations/lt/
@@ -411,6 +440,7 @@
     - Yuta Kurotaki
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: gqBWoyMdn4c
   language: Japanese
   description: |-
@@ -428,6 +458,7 @@
     - Emma Haruka Iwao
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: Om_cm120t1E
   language: Japanese
   description: |-
@@ -441,6 +472,7 @@
     - Naotoshi Seo
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: osUvCcwMFnc
   language: Japanese
   description: |-
@@ -464,6 +496,7 @@
     - Maciej Mensfeld
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: bzvb1u_kSro
   language: English
   description: |-
@@ -477,6 +510,7 @@
     - Hiroshi SHIBATA
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: wuyhit3-_xA
   language: Japanese
   description: |-
@@ -494,6 +528,7 @@
     - Masataka Kuwabara
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: 8tarr2k0kMI
   language: Japanese
   description: |-
@@ -514,6 +549,7 @@
     - Stan Lo
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: ldqb5u4pQb0
   language: English
   description: |-
@@ -532,6 +568,7 @@
     - Noah Gibbs
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: Z4nBjXL-ymI
   language: English
   description: |-
@@ -546,6 +583,7 @@
     - Koichi Sasada
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: BO8ThL2H3tc
   language: English
   description: |-
@@ -562,6 +600,7 @@
     - Anton Davydov
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: Rcbqa0QFXJQ
   language: English
   description: |-
@@ -578,6 +617,7 @@
     - Chase McCarthy
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: NhQovmLaHfY
   language: English
   description: |-
@@ -593,6 +633,7 @@
     - Koichi ITO
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: W4ZvpNpKWXo
   language: Japanese
   description: |-
@@ -609,6 +650,7 @@
     - Kirk Haines
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: _rwfsse7OYk
   language: English
   description: |-
@@ -622,6 +664,7 @@
     - Edouard Chin
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: Lu5aHMxldmg
   language: English
   description: |-
@@ -638,6 +681,7 @@
     - Julian Nadeau
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: InFnu8bYi6s
   language: English
   description: |-
@@ -652,6 +696,7 @@
     - Yurie Yamane
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: sFz5-xGTEbI
   language: Japanese
   description: |-
@@ -667,6 +712,7 @@
     - Hitoshi HASUMI
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: ng0N0761N3c
   language: Japanese
   description: |-
@@ -682,6 +728,7 @@
     - Masatoshi SEKI
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: FXELyEXajD4
   language: Japanese
   description: |-
@@ -698,6 +745,7 @@
     - Soutaro Matsumoto
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: QK_v0XN8kXc
   language: English
   description: |-
@@ -712,6 +760,7 @@
     - Sameer Deshmukh
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: 7edbdHZvr8k
   language: English
   description: |-
@@ -727,6 +776,7 @@
     - Vladimir Dementyev
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: jXCPuNICT8s
   language: English
   slides_url: https://speakerdeck.com/palkan/rubykaigi-2018-anycable-one-cable-to-rule-them-all
@@ -745,6 +795,7 @@
     - Yuichiro Kaneko
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: YjmBJg52aws
   language: Japanese
   description: |-
@@ -767,6 +818,7 @@
     - Yusuke Endoh
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: TB-nmGG6uu0
   language: Japanese
   description: |-
@@ -780,6 +832,7 @@
     - Thiago Scalone
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: vMjT2DqV_vw
   language: English
   description: |-
@@ -803,6 +856,7 @@
     - Uchio KONDO
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: 7Anlio4nnng
   language: English
   description: |-
@@ -820,6 +874,7 @@
     - Genadi Samokovarov
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: OCjc0RH5epY
   language: English
   description: |-
@@ -835,6 +890,7 @@
     - Yusuke Endoh
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: U6mKwwO7QCg
   language: Japanese
   description: |-
@@ -853,6 +909,7 @@
     - Nelson Elhage
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: eCnnBS2LXcI
   language: English
   description: |-
@@ -877,6 +934,7 @@
     - Thibaut Barrère
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: fxVtbog7pIQ
   language: English
   description: |-
@@ -892,6 +950,7 @@
     - Ruby Committers # TODO: list each person
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
+  video_provider: youtube
   video_id: dhHAaybjCfE
   language: Japanese
   description: |-

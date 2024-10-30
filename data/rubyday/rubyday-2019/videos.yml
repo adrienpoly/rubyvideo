@@ -1,4 +1,9 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: "Ruby 3.0 Redux"
   raw_title: Bozhidar Batsov - Ruby 3.0 Redux - rubyday 2019
   speakers:
@@ -15,6 +20,7 @@
     open questions surrounding them.\n\nrubyday Verona 2019 - April 11th https://2019.rubyday.it/\n\nNext
     edition: April 2nd 2020, Verona - https://rubyday-2020.eventbrite.it  \nKeep in
     touch! Subscribe to our newsletter http://eepurl.com/rCZZT"
+  video_provider: youtube
   video_id: ypdDL3BJm_Q
 
 - title: "Beauty and the Beast: your application and distributed systems"
@@ -32,6 +38,7 @@
     your services and build robust applications.\n\nrubyday Verona 2019 - April 11th
     https://2019.rubyday.it/\n\nNext edition: April 2nd 2020, Verona - https://rubyday-2020.eventbrite.it
     \ \nKeep in touch! Subscribe to our newsletter http://eepurl.com/rCZZT"
+  video_provider: youtube
   video_id: V72vASzx0A4
 
 - title: "Zeitwerk: A new code loader for Ruby"
@@ -47,6 +54,7 @@
     2019 - April 11th https://2019.rubyday.it/\n\nNext edition: April 2nd 2020, Verona
     - https://rubyday-2020.eventbrite.it  \nKeep in touch! Subscribe to our newsletter
     http://eepurl.com/rCZZT"
+  video_provider: youtube
   video_id: 3-PuF2HIg0A
 
 - title: "Live code a game on the browser with Opal and Vue.js"
@@ -63,6 +71,7 @@
     be preceded by an introduction to Opal.\n\nrubyday Verona 2019 - April 11th https://2019.rubyday.it/\n\nNext
     edition: April 2nd 2020, Verona - https://rubyday-2020.eventbrite.it  \nKeep in
     touch! Subscribe to our newsletter http://eepurl.com/rCZZT"
+  video_provider: youtube
   video_id: Mm0_Y9IpN18
 
 - title: "Hanami 2.0"
@@ -75,6 +84,7 @@
     Hanami is being reinvented. We learned from experience, and community
     feedback, how to build a much more simplified, fast, and productive framework.
     This is a preview of how Hanami 2.0 will work.
+  video_provider: youtube
   video_id: LqGBhTSOmTI
 
 - title: "Building modern web-applications with GraphQL & serverless Ruby"
@@ -94,6 +104,7 @@
     Verona 2019 - April 11th https://2019.rubyday.it/\n\nNext edition: April 2nd 2020,
     Verona - https://rubyday-2020.eventbrite.it  \nKeep in touch! Subscribe to our
     newsletter http://eepurl.com/rCZZT"
+  video_provider: youtube
   video_id: p4Fou2ZKwvM
 
 - title: "Enterprise Ruby 2.1"
@@ -110,4 +121,5 @@
     Verona 2019 - April 11th https://2019.rubyday.it/\n\nNext edition: April 2nd 2020,
     Verona - https://rubyday-2020.eventbrite.it  \nKeep in touch! Subscribe to our
     newsletter http://eepurl.com/rCZZT"
+  video_provider: youtube
   video_id: YMo_2fMPQUU

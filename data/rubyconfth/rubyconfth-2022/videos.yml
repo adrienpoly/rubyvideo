@@ -1,37 +1,46 @@
 ---
+# TODO: conference website
+# TODO: schedule website
+
 # Day 1
 
 - title: "Keynote: A Beginner's Guide to Puma Internals"
-  raw_title: 'RubyConfTH 2022 - Keynote: A Beginner''s Guide to Puma Internals by Nate Berkopec'
+  raw_title: "RubyConfTH 2022 - Keynote: A Beginner's Guide to Puma Internals by Nate Berkopec"
   speakers:
     - Nate Berkopec
   event_name: RubyConf TH 2022
-  published_at: '2022-12-09'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-09"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: w4X_oBuPmTM
 
-- title: 'A Rails Performance Guidebook: From 0 to 1B Requests/Day'
-  raw_title: 'RubyConfTH 2022 - A Rails performance guidebook: from 0 to 1B requests/day by Cristian Planas'
+- title: "A Rails Performance Guidebook: From 0 to 1B Requests/Day"
+  raw_title: "RubyConfTH 2022 - A Rails performance guidebook: from 0 to 1B requests/day by Cristian Planas"
   speakers:
     - Cristian Planas
   event_name: RubyConf TH 2022
-  published_at: '2022-12-09'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-09"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: QOGY1GHVQu0
 
-- title: 'Hanami 2: New Framework, New You'
-  raw_title: 'RubyConfTH 2022 - Hanami 2: New Framework, New You by Tim Riley'
+- title: "Hanami 2: New Framework, New You"
+  raw_title: "RubyConfTH 2022 - Hanami 2: New Framework, New You by Tim Riley"
   speakers:
     - Tim Riley
   event_name: RubyConf TH 2022
-  published_at: '2022-12-09'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-09"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: jxJ4-iadvIk
 
 - title: Megaruby - mruby/c on Sega Mega Drive
@@ -39,10 +48,12 @@
   speakers:
     - Yuji Yokoo
   event_name: RubyConf TH 2022
-  published_at: '2022-12-09'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-09"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: s65qlUFRWtI
 
 - title: Roasting the Duck - A Talk About Ruby and Types
@@ -50,10 +61,12 @@
   speakers:
     - Paolo "Nusco" Perrotta
   event_name: RubyConf TH 2022
-  published_at: '2022-12-09'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-09"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: tQU8PEY55rg
 
 - title: Scaling Ruby with JRuby
@@ -61,10 +74,12 @@
   speakers:
     - Charles Oliver Nutter
   event_name: RubyConf TH 2022
-  published_at: '2022-12-09'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-09"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: OwEDqtlBg04
 
 - title: 10x Your Teamwork Through Pair Programming
@@ -73,10 +88,12 @@
     - Michael Milewski
     - Selena Small
   event_name: RubyConf TH 2022
-  published_at: '2022-12-09'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-09"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: 6E_2azg8r40
 
 - title: Why I choose Phoenix
@@ -84,35 +101,40 @@
   speakers:
     - Aaron Cruz
   event_name: RubyConf TH 2022
-  published_at: '2022-12-09'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-09"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: PIrLtOvDwGA
 
-- title: 'Keynote: The Ecstatic Organisation by Siddharth Sharma'
-  raw_title: 'RubyConfTH 2022 - Keynote: The Ecstatic Organisation by Siddharth Sharma'
+- title: "Keynote: The Ecstatic Organisation by Siddharth Sharma"
+  raw_title: "RubyConfTH 2022 - Keynote: The Ecstatic Organisation by Siddharth Sharma"
   speakers:
     - Siddharth Sharma
   event_name: RubyConf TH 2022
-  published_at: '2022-12-09'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-09"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: M_vHUl3riKQ
-
 
 # Day 2
 
 - title: "Keynote: Ruby & JVM: A (JRuby) Love Story"
-  raw_title: 'RubyConfTH 2022 - Keynote: Ruby & JVM: A (JRuby) Love Story by Yarden Laifenfeld'
+  raw_title: "RubyConfTH 2022 - Keynote: Ruby & JVM: A (JRuby) Love Story by Yarden Laifenfeld"
   speakers:
     - Yarden Laifenfeld
   event_name: RubyConf TH 2022
-  published_at: '2022-12-10'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-10"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: QdXX7OjhZJY
 
 - title: On Making Your Rails App More Transparent
@@ -120,21 +142,25 @@
   speakers:
     - Stephan Eberle
   event_name: RubyConf TH 2022
-  published_at: '2022-12-10'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-10"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: uLjaTFAOnIs
 
-- title: 'GitOps: The Single Source of Truth'
-  raw_title: 'RubyConfTH 2022 - GitOps: The Single source of truth by Thatthep Vorrasing'
+- title: "GitOps: The Single Source of Truth"
+  raw_title: "RubyConfTH 2022 - GitOps: The Single source of truth by Thatthep Vorrasing"
   speakers:
     - Thatthep Vorrasing
   event_name: RubyConf TH 2022
-  published_at: '2022-12-10'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-10"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: wxHcV1qhiiU
 
 - title: Dealing With A Project's Complexity In A Changing Environment
@@ -142,10 +168,12 @@
   speakers:
     - Anita Jaszeweska
   event_name: RubyConf TH 2022
-  published_at: '2023-01-07'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2023-01-07"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: gDzlsoBdxtM
 
 - title: Dissecting Rails - A Different Approach to Learning Rails
@@ -153,32 +181,38 @@
   speakers:
     - Ratnadeep Deshmane
   event_name: RubyConf TH 2022
-  published_at: '2022-12-10'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-10"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: gXwRs-FwcmE
 
-- title: 'Roda: Simplicity, Reliability, Extensibility, Performance'
-  raw_title: 'RubyConfTH 2022 - Roda: Simplicity, Reliability, Extensibility, Performance by Jeremy Evans'
+- title: "Roda: Simplicity, Reliability, Extensibility, Performance"
+  raw_title: "RubyConfTH 2022 - Roda: Simplicity, Reliability, Extensibility, Performance by Jeremy Evans"
   speakers:
     - Jeremy Evans
   event_name: RubyConf TH 2022
-  published_at: '2022-12-10'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-10"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: 9fukis_VHl4
 
-- title: 'Processing data: Ruby or SQL?'
-  raw_title: 'RubyConfTH 2022 - Processing data: Ruby or SQL? by Jônatas Paganini'
+- title: "Processing data: Ruby or SQL?"
+  raw_title: "RubyConfTH 2022 - Processing data: Ruby or SQL? by Jônatas Paganini"
   speakers:
     - Jônatas Paganini
   event_name: RubyConf TH 2022
-  published_at: '2022-12-10'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-10"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: MXAtSZ5Szgk
 
 - title: Refactoring for Rails - Using Deodorant to Prevent Code Smells
@@ -186,19 +220,23 @@
   speakers:
     - Rodrigo Urubatan
   event_name: RubyConf TH 2022
-  published_at: '2022-12-10'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-10"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: 5THDThGPOVQ
 
 - title: "Keynote: YJIT's Three Languages: The Fun of Code That Writes Code"
-  raw_title: 'RubyConfTH 2022 - Keynote: YJIT''s Three Languages: the Fun of Code that Writes Code by Noah Gibbs'
+  raw_title: "RubyConfTH 2022 - Keynote: YJIT's Three Languages: the Fun of Code that Writes Code by Noah Gibbs"
   speakers:
     - Noah Gibbs
   event_name: RubyConf TH 2022
-  published_at: '2022-12-10'
-  description: "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
+  published_at: "2022-12-10"
+  description:
+    "A talk from RubyConfTH, held in Bangkok, Thailand on December 9-10,
     2022.\n\nFind out more and register for updates for our 2023 conference at https://rubyconfth.com/
     \n\nRubyConfTH 2022 videos are presented by Cloud 66. https://cloud66.com"
+  video_provider: youtube
   video_id: yZSe1BhiTvI

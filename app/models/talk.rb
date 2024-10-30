@@ -32,12 +32,13 @@ class Talk < ApplicationRecord
   include Talk::SummaryCommands
   include Sluggable
   include Suggestable
+  include Searchable
   slug_from :title
 
   # include MeiliSearch
-  include MeiliSearch::Rails
-  ActiveRecord_Relation.include Pagy::Meilisearch
-  extend Pagy::Meilisearch
+  # include MeiliSearch::Rails
+  # ActiveRecord_Relation.include Pagy::Meilisearch
+  # extend Pagy::Meilisearch
 
   # associations
   belongs_to :event, optional: true, counter_cache: :talks_count
@@ -56,12 +57,14 @@ class Talk < ApplicationRecord
   validates :language, presence: true,
     inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
 
-  # scopes
-  scope :with_topics, -> { joins(:talk_topics) }
-  scope :without_topics, -> { where.missing(:talk_topics) }
-
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
+
+  # enums
+  enum :video_provider, %w[youtube mp4].index_by(&:itself)
+
+  # attributes
+  attribute :video_provider, default: :youtube
 
   # jobs
   performs :update_from_yml_metadata!, queue_as: :low
@@ -77,24 +80,24 @@ class Talk < ApplicationRecord
   end
 
   # search
-  meilisearch do
-    attribute :title
-    attribute :description
-    attribute :summary
-    attribute :speaker_names do
-      speakers.pluck(:name)
-    end
-    attribute :event_name do
-      event_name
-    end
+  # meilisearch do
+  #   attribute :title
+  #   attribute :description
+  #   attribute :summary
+  #   attribute :speaker_names do
+  #     speakers.pluck(:name)
+  #   end
+  #   attribute :event_name do
+  #     event_name
+  #   end
 
-    searchable_attributes [:title, :description, :speaker_names, :event_name, :summary]
-    sortable_attributes [:title]
+  #   searchable_attributes [:title, :description, :speaker_names, :event_name, :summary]
+  #   sortable_attributes [:title]
 
-    attributes_to_highlight ["*"]
-  end
+  #   attributes_to_highlight ["*"]
+  # end
 
-  meilisearch enqueue: true
+  # meilisearch enqueue: true
 
   # ensure that during the reindex process the associated records are eager loaded
   scope :meilisearch_import, -> { includes(:speakers, :event) }
@@ -109,7 +112,7 @@ class Talk < ApplicationRecord
   scope :with_topics, -> { joins(:talk_topics) }
 
   scope :with_essential_card_data, -> do
-    select(:id, :slug, :title, :date, :thumbnail_sm, :thumbnail_lg, :video_id, :event_id)
+    select(:id, :slug, :title, :date, :thumbnail_sm, :thumbnail_lg, :video_id, :video_provider, :event_id, :language)
       .includes(:speakers, :event)
   end
 
@@ -147,23 +150,51 @@ class Talk < ApplicationRecord
   end
 
   def thumbnail_xs
-    self[:thumbnail_xs].presence || "https://i.ytimg.com/vi/#{video_id}/default.jpg"
+    thumbnail(:thumbnail_xs)
   end
 
   def thumbnail_sm
-    self[:thumbnail_sm].presence || "https://i.ytimg.com/vi/#{video_id}/mqdefault.jpg"
+    thumbnail(:thumbnail_sm)
   end
 
   def thumbnail_md
-    self[:thumbnail_md].presence || "https://i.ytimg.com/vi/#{video_id}/hqdefault.jpg"
+    thumbnail(:thumbnail_md)
   end
 
   def thumbnail_lg
-    self[:thumbnail_lg].presence || "https://i.ytimg.com/vi/#{video_id}/sddefault.jpg"
+    thumbnail(:thumbnail_lg)
   end
 
   def thumbnail_xl
-    self[:thumbnail_xl].presence || "https://i.ytimg.com/vi/#{video_id}/maxresdefault.jpg"
+    thumbnail(:thumbnail_xl)
+  end
+
+  def fallback_thumbnail
+    "/assets/#{Rails.application.assets.load_path.find("posters/fallback.png").digested_path}"
+  end
+
+  def thumbnail(size = :thumbnail_lg)
+    if self[size].present?
+      return self[size] if self[size].start_with?("https://")
+
+      if (asset = Rails.application.assets.load_path.find(self[size]))
+        return "/assets/#{asset.digested_path}"
+      else
+        return fallback_thumbnail
+      end
+    end
+
+    return fallback_thumbnail if video_provider != "youtube"
+
+    youtube = {
+      thumbnail_xs: "default",
+      thumbnail_sm: "mqdefault",
+      thumbnail_md: "hqdefault",
+      thumbnail_lg: "sddefault",
+      thumbnail_xl: "maxresdefault"
+    }
+
+    "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
   end
 
   def related_talks(limit: 6)
@@ -176,6 +207,10 @@ class Talk < ApplicationRecord
 
   def transcript
     enhanced_transcript.presence || raw_transcript
+  end
+
+  def speaker_names
+    speakers.pluck(:name).join(" ")
   end
 
   def slug_candidates
@@ -210,18 +245,25 @@ class Talk < ApplicationRecord
       return
     end
 
+    date = static_metadata.try(:date) ||
+      event.start_date ||
+      event.end_date ||
+      static_metadata.published_at ||
+      Date.parse("#{static_metadata.year}-01-01")
+
     assign_attributes(
       event: event,
       title: static_metadata.title,
       description: static_metadata.description,
-      date: static_metadata.try(:date) || static_metadata.published_at || Date.parse("#{static_metadata.year}-01-01"),
+      date: date,
       thumbnail_xs: static_metadata.thumbnail_xs || "",
       thumbnail_sm: static_metadata.thumbnail_sm || "",
       thumbnail_md: static_metadata.thumbnail_md || "",
       thumbnail_lg: static_metadata.thumbnail_lg || "",
       thumbnail_xl: static_metadata.thumbnail_xl || "",
       language: static_metadata.language || Language::DEFAULT,
-      slides_url: static_metadata.slides_url
+      slides_url: static_metadata.slides_url,
+      video_provider: static_metadata.video_provider || :youtube
     )
 
     self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|

@@ -1,11 +1,17 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: Renaissance of Ruby on Rails
   raw_title: "[EN] Renaissance of Ruby on Rails - Steven Baker"
   speakers:
     - Steven Baker
   event_name: Ruby Warsaw Community Conference Winter Edition 2024
-  published_at: '2024-02-22'
-  description: "Renaissance of Ruby on Rails - Ruby on Rails blazed trails in popular
+  published_at: "2024-02-22"
+  description:
+    "Renaissance of Ruby on Rails - Ruby on Rails blazed trails in popular
     web application development with Convention Over Configuration, brought a version
     of MVC to the masses. All of this in the beautiful, expressive, and enjoyable
     Ruby programming language.\n\nBut web development moved away. Organisations wanted
@@ -25,6 +31,7 @@
     https://www.facebook.com/visualitypl\nLinkedin: https://www.linkedin.com/company/visualitypl/\nX:
     https://twitter.com/visualitypl\nDribble: https://dribbble.com/VISUALITY\nGitHub:
     https://github.com/visualitypl"
+  video_provider: youtube
   video_id: nrgaeiDlQbI
 
 - title: Zeitwerk Internals
@@ -32,8 +39,9 @@
   speakers:
     - Xavier Noria
   event_name: Ruby Warsaw Community Conference Winter Edition 2024
-  published_at: '2024-02-22'
-  description: "Zeitwerk Internals - Zeitwerk is the Ruby gem responsible for autoloading
+  published_at: "2024-02-22"
+  description:
+    "Zeitwerk Internals - Zeitwerk is the Ruby gem responsible for autoloading
     code in modern Rails applications. It also works with other web frameworks and
     with Ruby gems.\n\nAfter attending this talk you’ll have a good understanding
     of how Zeitwerk works. Going from a conceptual overview of the main ideas, down
@@ -45,16 +53,19 @@
     https://www.facebook.com/visualitypl\nLinkedin: https://www.linkedin.com/company/visualitypl/\nX:
     https://twitter.com/visualitypl\nDribble: https://dribbble.com/VISUALITY\nGitHub:
     https://github.com/visualitypl"
+  video_provider: youtube
   video_id: W8ZEOq9LTQU
 
-- title: 'Future- Proofing Ruby Gems: Strategies For Long-Term Maintenance'
-  raw_title: "[EN] Future- Proofing Ruby Gems: Strategies For Long-Term Maintenance
+- title: "Future- Proofing Ruby Gems: Strategies For Long-Term Maintenance"
+  raw_title:
+    "[EN] Future- Proofing Ruby Gems: Strategies For Long-Term Maintenance
     - Maciej Mensfeld"
   speakers:
     - Maciej Mensfeld
   event_name: Ruby Warsaw Community Conference Winter Edition 2024
-  published_at: '2024-02-26'
-  description: "Future- Proofing Ruby Gems: Strategies For Long-Term Maintenance \n\nEmbark
+  published_at: "2024-02-26"
+  description:
+    "Future- Proofing Ruby Gems: Strategies For Long-Term Maintenance \n\nEmbark
     on an advanced journey with Maciej, where he offers a deep dive into the planning
     and foresight required when building Ruby OSS gems. This session transcends typical
     development discussions, focusing on the unique considerations necessary for creating
@@ -73,6 +84,7 @@
     https://www.facebook.com/visualitypl\nLinkedin: https://www.linkedin.com/company/visualitypl/\nX:
     https://twitter.com/visualitypl\nDribble: https://dribbble.com/VISUALITY\nGitHub:
     https://github.com/visualitypl"
+  video_provider: youtube
   video_id: haJr093oVX0
 
 - title: Implementing Business Archetypes in Rails
@@ -80,8 +92,9 @@
   speakers:
     - Michał Łęcicki
   event_name: Ruby Warsaw Community Conference Winter Edition 2024
-  published_at: '2024-02-26'
-  description: "Implementing Business Archetypes in Rails - An introduction into business
+  published_at: "2024-02-26"
+  description:
+    "Implementing Business Archetypes in Rails - An introduction into business
     archetypes patterns: a great pill of knowledge on how to implement universal concepts
     occurring in business and business software systems. A complex theory explained
     with various Rails examples and practical recipes.\n____________________________________________\n\n►
@@ -92,4 +105,5 @@
     https://www.facebook.com/visualitypl\nLinkedin: https://www.linkedin.com/company/visualitypl/\nX:
     https://twitter.com/visualitypl\nDribble: https://dribbble.com/VISUALITY\nGitHub:
     https://github.com/visualitypl"
+  video_provider: youtube
   video_id: _PLp0JQIuM0

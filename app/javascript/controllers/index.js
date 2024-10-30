@@ -13,6 +13,12 @@ application.register("dropdown", DropdownController)
 import ModalController from "./modal_controller"
 application.register("modal", ModalController)
 
+import PronounsSelectController from "./pronouns_select_controller"
+application.register("pronouns-select", PronounsSelectController)
+
+import SplideController from "./splide_controller"
+application.register("splide", SplideController)
+
 import TransitionController from "./transition_controller"
 application.register("transition", TransitionController)
 

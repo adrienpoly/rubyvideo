@@ -22,6 +22,15 @@ class Speaker < ApplicationRecord
   include Suggestable
   slug_from :name
 
+  PRONOUNS = {
+    "Not specified": :not_specified,
+    "Don't specify": :dont_specify,
+    "they/them": :they_them,
+    "she/her": :she_her,
+    "he/him": :he_him,
+    Custom: :custom
+  }.freeze
+
   # associations
   has_many :speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
   has_many :talks, through: :speaker_talks, inverse_of: :speakers
@@ -42,9 +51,27 @@ class Speaker < ApplicationRecord
 
   # normalizes
   normalizes :twitter, with: ->(value) { value.gsub(%r{https?://(?:www\.)?(?:x\.com|twitter\.com)/}, "").gsub(/@/, "") }
+  normalizes :bsky, with: ->(value) {
+                            value.gsub(%r{https?://(?:www\.)?(?:x\.com|bsky\.app/profile)/}, "").gsub(/@/, "")
+                          }
+  normalizes :linkedin, with: ->(value) { value.gsub(%r{https?://(?:www\.)?(?:linkedin\.com/in)/}, "") }
+  normalizes :bsky, with: ->(value) { value.gsub(%r{https?://(?:www\.)?(?:[^\/]+\.com)/}, "").gsub(/@/, "") }
+
+  normalizes :mastodon, with: ->(value) {
+    return value if value&.match?(URI::DEFAULT_PARSER.make_regexp)
+    return "" unless value.count("@") == 2
+
+    _, handle, instance = value.split("@")
+
+    "https://#{instance}/@#{handle}"
+  }
 
   def title
     name
+  end
+
+  def canonical_slug
+    canonical&.slug
   end
 
   def verified?
@@ -56,6 +83,25 @@ class Speaker < ApplicationRecord
     return true if visiting_user.admin?
 
     user == visiting_user
+  end
+
+  def create_suggestion_from(params:, user: Current.user)
+    if (params.key?("github") || params.key?("slug")) && managed_by?(self.user)
+      slug = params["slug"]
+      github = params["github"]
+
+      content = {}
+      content["slug"] = slug if slug
+      content["github"] = github if github
+
+      params = params.reject { |key, _value| key.in?(["github", "slug"]) }
+
+      suggestion = suggestions.create(content: content, suggested_by_id: user&.id)
+
+      return suggestion if params.keys.none?
+    end
+
+    super
   end
 
   def github_avatar_url(size: 200)

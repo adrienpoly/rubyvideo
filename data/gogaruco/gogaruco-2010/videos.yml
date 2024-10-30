@@ -1,5 +1,4 @@
 ---
-
 # https://web.archive.org/web/20150227160256/http://2010.gogaruco.com/schedule.html
 
 ## Day 1
@@ -20,6 +19,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSf/
+  video_provider: youtube
   video_id: wu3gmXWiihg
 
 - title: Real World Ruby Testing
@@ -38,6 +38,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSg/
+  video_provider: youtube
   video_id: vULxZFB-S_w
 
 - title: Ruby APIs for NoSQL
@@ -58,6 +59,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSh/
+  video_provider: youtube
   video_id: irKvd4DfAtU
 
 - title: Data-Driven Government and the Ruby Developer
@@ -78,6 +80,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSi/
+  video_provider: youtube
   video_id: E7T8NilHhyc
 
 # Lunch
@@ -94,6 +97,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSj/
+  video_provider: youtube
   video_id: n3112epmkkA
 
 - title: "Bryan's ActieModel Extravaganza"
@@ -110,6 +114,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSk/
+  video_provider: youtube
   video_id: 1K0NSPmD8Go
 
 - title: "Keynote: (Parenthetically Speaking)"
@@ -122,6 +127,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSl/
+  video_provider: youtube
   video_id: GT9b2G-fHo4
 
 - title: Test-First Teaching
@@ -137,6 +143,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSm/
+  video_provider: youtube
   video_id: 1Y6IE5yqpSA
 
 - title: "Polyglot: When Ruby isn't enough or even sane"
@@ -151,8 +158,8 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSn/
+  video_provider: youtube
   video_id: drmOYNo-gv0
-
 
 ## Day 2
 
@@ -168,6 +175,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSo/
+  video_provider: youtube
   video_id: 1iy2kqRwdZ4
 
 - title: "Eschew Obfuscation and Omit Needless Words: Writing Clear Acceptance Tests"
@@ -184,6 +192,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSp/
+  video_provider: youtube
   video_id: h4DG57zRGEo
 
 - title: "Intelligent Ruby: Getting Started with Machine Learning"
@@ -200,6 +209,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSq/
+  video_provider: youtube
   video_id: FAbwtyCj-sk
 
 - title: The Revolution will not be Tweeted
@@ -214,6 +224,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSr/
+  video_provider: youtube
   video_id: 6UC36otvtzM
 
 # Lunch
@@ -234,12 +245,17 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSs/
+  video_provider: youtube
   video_id: olH-9b3VJfs
 
-- title: Workflow
+- title: "Panel: Sharing our Workflows"
   raw_title: "GoGaRuCo 2010 - Workflow by: Ryan Davis"
   speakers:
     - Ryan Davis
+    - Jim Weirich
+    - Rein Hendrichs
+    - Evan Phoenix
+    - Dennis Collinson
   event_name: GoGaRuCo 2010
   published_at: "2010-09-18"
   description: |-
@@ -250,6 +266,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSt/
+  video_provider: youtube
   video_id: o9X4mkaPRKU
 
 - title: Lightning Talks
@@ -280,6 +297,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSv/
+  video_provider: youtube
   video_id: me-2gFihaHw
 
 - title: "Arel: The Ruby Relational Algebra"
@@ -294,6 +312,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSu/
+  video_provider: youtube
   video_id: zAqts0oFL_w
 
 - title: Hidden Gems of Ruby 1.9
@@ -308,4 +327,5 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZSe/
+  video_provider: youtube
   video_id: bPPGuecH1QM

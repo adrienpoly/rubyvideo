@@ -1,4 +1,9 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: "Keynote: Writing Software"
   raw_title: "RailsConf 2014 - Keynote: Writing Software by David Heinemeier Hansson"
   speakers:
@@ -14,6 +19,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1c/
+  video_provider: youtube
   video_id: 9LfmrkyP81M
 
 - title: Concerns, Decorators, Presenters, Service Objects, Helpers, Help Me Decide!
@@ -37,6 +43,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1e/
+  video_provider: youtube
   video_id: bHpVdOzrvkE
 
 - title: "Demystifying Data Science: A Live Tutorial"
@@ -58,6 +65,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1d/
+  video_provider: youtube
   video_id: 2ZDCxwB29Bg
 
 - title: Empowering Rich Internet Applications (RIAs) with Accessibility
@@ -80,6 +88,7 @@
     Nitin is a Rails programmer working at Techvision - a team of MAD (Motivated and Dedicated) people and a company run by him and his visually challenged mates. They are based in India and love programming. Web accessibility is their expertise and passion. Do visit their website (http://techvision.net.in).
 
     Gyani is a Java/J2EE professional and Ruby/Rails newbie. Having worked as a Technical Specialist in IT industry for more than 9 years, 9 months back he decided to join Techvision -- a small start-up run by visually challenged Rubyists. Currently he is playing the role of Technical Mentor cum facilitator for the Techvision team and helping Techvision grow in all the domains, one among them is Accessibility which is their niche.
+  video_provider: youtube
   video_id: c2AKsQki7H0
 
 - title: Mutation Testing with Mutant
@@ -101,12 +110,13 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1f/
+  video_provider: youtube
   video_id: WccaOMuf01Y
 
 - title: "Rack-AMQP: Ditch HTTP Inside SOA!"
-  raw_title: "RailsConf 2014 - Rack-AMQP: Ditch HTTP Inside SOA! by Josh Szmajda"
+  raw_title: "RailsConf 2014 - Rack-AMQP: Ditch HTTP Inside SOA! by Jess Szmajda"
   speakers:
-    - Josh Szmajda
+    - Jess Szmajda
   event_name: RailsConf 2014
   thumbnail_xs: https://i.ytimg.com/vi/cINCWpn-LQM/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/cINCWpn-LQM/mqdefault.jpg
@@ -126,6 +136,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1i/
+  video_provider: youtube
   video_id: cINCWpn-LQM
 
 - title: Keith and Mario's Guide to Continuous Deployment with Rails
@@ -160,6 +171,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1g/
+  video_provider: youtube
   video_id: DazHGyb7Gqg
 
 - title: "Where did the OO go? Views Should be Objects Too!"
@@ -185,6 +197,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1h/
+  video_provider: youtube
   video_id: WAN_P1m76GQ
 
 - title: Supercharge Your Workers with Storm
@@ -208,6 +221,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1m/
+  video_provider: youtube
   video_id: qjZnezdSKnw
 
 - title: Modeling on the Right Side of the Brain
@@ -229,6 +243,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1o/
+  video_provider: youtube
   video_id: ABIvpz50cKU
 
 - title: Let Me Code
@@ -322,6 +337,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1p/
+  video_provider: youtube
   video_id: kRUS8Zvg3sg
 
 - title: Domain Driven Design and Hexagonal Architecture with Rails
@@ -348,6 +364,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1q/
+  video_provider: youtube
   video_id: _rbF97T4480
 
 - title: Lightning Fast Deployment of Your Rails-backed JavaScript app
@@ -371,6 +388,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1r/
+  video_provider: youtube
   video_id: QZVYP3cPcWQ
 
 - title: "Advanced aRel: When ActiveRecord Just Isn't Enough"
@@ -394,6 +412,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1s/
+  video_provider: youtube
   video_id: ShPAxNcLm3o
 
 - title: What is REST? Why is it Part of the Rails Way?
@@ -421,6 +440,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1y/
+  video_provider: youtube
   video_id: HTi-UIHNouE
 
 - title: Too Big to Fail
@@ -446,6 +466,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1u/
+  video_provider: youtube
   video_id: MOTpwIwQMTI
 
 - title: Deploying Rails is Easier Than it Looks
@@ -469,6 +490,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1w/
+  video_provider: youtube
   video_id: hTofBnxyBUU
 
 - title: "Keynote: 10 Years!"
@@ -486,6 +508,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1x/
+  video_provider: youtube
   video_id: 9naDS3r4MbY
 
 - title: Reading Code Good
@@ -507,6 +530,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1O/
+  video_provider: youtube
   video_id: mW_xKGUKLpk
 
 - title: Ruby on Rails Hacking Guide
@@ -534,6 +558,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1P/
+  video_provider: youtube
   video_id: iACG4Dn_51w
 
 - title: Web Applications with Ruby (not Rails)
@@ -561,6 +586,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1Q/
+  video_provider: youtube
   video_id: TqiuMn1acV8
 
 - title: Technical Onboarding, Training, and Mentoring
@@ -582,6 +608,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1T/
+  video_provider: youtube
   video_id: Lpg4jRSH7EE
 
 - title: Surviving the Big Rewrite
@@ -599,6 +626,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1U/
+  video_provider: youtube
   video_id: LRXaN0Wdl4U
 
 - title: Artisans and Apprentices
@@ -620,6 +648,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1R/
+  video_provider: youtube
   video_id: 96cqqEfGSFg
 
 - title: Building kick-ass internal education programs (for large and small budgets)
@@ -645,6 +674,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1S/
+  video_provider: youtube
   video_id: LPZmNfhPPOs
 
 - title: "Middleman: the Missing View in the Rails API Stack"
@@ -664,12 +694,13 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0t/
+  video_provider: youtube
   video_id: "-q_oUyEHiEw"
 
 - title: Tricks That Rails Didn't Tell You About
-  raw_title: RailsConf 2014 - Tricks That Rails Didn't Tell You About by Carlos Antionio da Silva
+  raw_title: RailsConf 2014 - Tricks That Rails Didn't Tell You About by Carlos Antonio da Silva
   speakers:
-    - Carlos Antionio da Silva
+    - Carlos Antonio da Silva
   event_name: RailsConf 2014
   thumbnail_xs: https://i.ytimg.com/vi/YKm0v_weFZs/default.jpg
   thumbnail_sm: https://i.ytimg.com/vi/YKm0v_weFZs/mqdefault.jpg
@@ -685,6 +716,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1a/
+  video_provider: youtube
   video_id: YKm0v_weFZs
 
 - title: "Panel: Teaching the Next Great Developers"
@@ -709,6 +741,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG17/
+  video_provider: youtube
   video_id: dYkFnxUzc0I
 
 - title: Biggish Data With Rails and Postgresql
@@ -734,6 +767,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG18/
+  video_provider: youtube
   video_id: 40xq1jXM7GY
 
 - title: What the Cache?!
@@ -755,6 +789,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG19/
+  video_provider: youtube
   video_id: atr8qv7wzPM
 
 - title: Refactoring Towards Component-based Rails Architectures
@@ -778,6 +813,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0v/
+  video_provider: youtube
   video_id: MIhlAiMc7tU
 
 - title: Rails as an SOA Client
@@ -799,6 +835,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0w/
+  video_provider: youtube
   video_id: CzF3g_JM1YQ
 
 - title: Service Oriented Authenication
@@ -820,6 +857,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0x/
+  video_provider: youtube
   video_id: L1B_HpCW8bs
 
 - title: Authorization in a Service-Oriented Environment
@@ -841,6 +879,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0y/
+  video_provider: youtube
   video_id: 6tQTwmIgclE
 
 - title: Ruby Heros Awards 2014
@@ -858,6 +897,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0z/
+  video_provider: youtube
   video_id: qoc21UvC3p4
 
 - title: Designing the APIs for an Internal Set of Services
@@ -885,6 +925,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1C/
+  video_provider: youtube
   video_id: LuyAuXwA4rY
 
 - title: Humor in The Code
@@ -904,6 +945,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1A/
+  video_provider: youtube
   video_id: Oax1R1S6LI4
 
 - title: Build The API First
@@ -930,6 +972,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1B/
+  video_provider: youtube
   video_id: xlZ1A-d5x5U
 
 - title: Debugger Driven Developement with Pry
@@ -953,6 +996,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1D/
+  video_provider: youtube
   video_id: 4hfMUP5iTq8
 
 - title: Eliminating Inconsistent Test Failures
@@ -976,6 +1020,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1E/
+  video_provider: youtube
   video_id: Z6Xk5JWVrcA
 
 - title: Effectively Testing Services
@@ -1001,6 +1046,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1F/
+  video_provider: youtube
   video_id: sMWthvdWS-w
 
 - title: "Front-End: Fun, Not Frustration"
@@ -1024,6 +1070,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1G/
+  video_provider: youtube
   video_id: Ljl_7wRVrPo
 
 - title: "Elements of Design: A Developer's Primer"
@@ -1047,6 +1094,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1H/
+  video_provider: youtube
   video_id: fN1MTmJeLew
 
 - title: "Sketchnothing: Creative Notes for Technical Content"
@@ -1070,6 +1118,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG1I/
+  video_provider: youtube
   video_id: VJq-5EHN7J4
 
 - title: "How They Work Better Together: Lean UX, Agile Development and User-Centered Design"
@@ -1093,6 +1142,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG00/
+  video_provider: youtube
   video_id: zdwnogUMtc4
 
 - title: Discovering User Interactions
@@ -1114,6 +1164,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG01/
+  video_provider: youtube
   video_id: Rf0NhjMAVoY
 
 - title: The Power of M
@@ -1141,6 +1192,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG02/
+  video_provider: youtube
   video_id: gD2HRyPHjUc
 
 - title: I've Pair Programmed for 27,000 Hours. Ask Me Anythings!
@@ -1168,6 +1220,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG03/
+  video_provider: youtube
   video_id: 156LdcEjfhs
 
 - title: "Bring Fun Back to JS: Step-by-Step Refactoring Toward Ember"
@@ -1193,6 +1246,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG04/
+  video_provider: youtube
   video_id: VMmaKj8hCR4
 
 - title: The "Rails of JavaScript" Won't be a Framework
@@ -1214,6 +1268,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG05/
+  video_provider: youtube
   video_id: Ylrm-mWALGI
 
 - title: An Iterative Approach to Service Oriented Architecture
@@ -1237,6 +1292,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG06/
+  video_provider: youtube
   video_id: 886iF1tNLZ4
 
 - title: "Improve Performance Quick and Cheap: Optimize Memory and Upgrade to Ruby 2.1"
@@ -1262,6 +1318,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG07/
+  video_provider: youtube
   video_id: pZ_BcEcFGj0
 
 - title: "Cognitive Shortcuts: Models, Visualizations, Metaphors, and Other Lies"
@@ -1295,6 +1352,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG08/
+  video_provider: youtube
   video_id: __qEkyJipX0
 
 - title: How to be a Boss Without the B-S
@@ -1316,6 +1374,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG09/
+  video_provider: youtube
   video_id: 10_6gWK6t18
 
 - title: Closing Keynote
@@ -1333,6 +1392,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0a/
+  video_provider: youtube
   video_id: BTTygyxuGj8
 
 - title: Distributed Request Tracing
@@ -1354,6 +1414,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0b/
+  video_provider: youtube
   video_id: L9HiJrR2RQY
 
 - title: How to be a Better Junior Developer
@@ -1375,6 +1436,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0m/
+  video_provider: youtube
   video_id: GJW46x27W1w
 
 - title: Building an OSS-Centric Company (and Why You Want To)
@@ -1396,6 +1458,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0n/
+  video_provider: youtube
   video_id: zD26LvYbfms
 
 - title: Saving the World (Literally) with Ruby on Rails
@@ -1417,6 +1480,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0k/
+  video_provider: youtube
   video_id: J8i3mKJyjbQ
 
 - title: You are Not an Impostor
@@ -1438,6 +1502,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0l/
+  video_provider: youtube
   video_id: l_Vqp1dPuPo
 
 - title: Make an Event of It
@@ -1463,6 +1528,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0R/
+  video_provider: youtube
   video_id: dgUhP606F9w
 
 - title: Real-time Rails with Sync
@@ -1486,6 +1552,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0S/
+  video_provider: youtube
   video_id: L1YcCNcWUMs
 
 - title: "Looking Backward: Ten Years on Rails"
@@ -1509,6 +1576,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0T/
+  video_provider: youtube
   video_id: VnhVkzop1_w
 
 - title: "Workshop: Simplifying Code - Monster to Elegant in Less Than 5 steps"
@@ -1530,9 +1598,10 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0U/
+  video_provider: youtube
   video_id: ozWzehOEeuI
 
-- title: 'Workshop: Ruby Coding Dojo'
+- title: "Workshop: Ruby Coding Dojo"
   raw_title: RailsConf 2014 - Workshop - Ruby Coding Dojo by Carlos Souza and David Rogers
   speakers:
     - Carlos Souza
@@ -1550,6 +1619,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZb/
+  video_provider: youtube
   video_id: d-Yc7XpELRg
 
 - title: How to Build a Smart Profiler for Rails
@@ -1568,6 +1638,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZc/
+  video_provider: youtube
   video_id: pYaCcA07adI
 
 - title: Culture of Continue Delivery
@@ -1592,6 +1663,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZd/
+  video_provider: youtube
   video_id: cuRyW0FfBiM
 
 - title: Writing Small Code
@@ -1613,6 +1685,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZe/
+  video_provider: youtube
   video_id: Y2dllXkUlu8
 
 - title: All the Little Things
@@ -1626,6 +1699,7 @@
   thumbnail_lg: https://i.ytimg.com/vi/8bZh5LMaSmE/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/8bZh5LMaSmE/maxresdefault.jpg
   published_at: "2014-05-21"
+  slides_url: https://speakerdeck.com/skmetz/all-the-little-things-railsconf
   description: |-
     Theory tells us to build applications out of small, interchangeable objects but reality often supplies the exact opposite. Many apps contain huge classes of long methods and hair-raising conditionals; they're hard to understand, difficult to reuse and costly to change. This talk takes an ugly section of conditional code and converts it into a few simple objects. It bridges the gap between OO theory and practice and teaches straightforward strategies that all can use to improve their code.
 
@@ -1634,6 +1708,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0O/
+  video_provider: youtube
   video_id: 8bZh5LMaSmE
 
 - title: Ultra Light and Maintainable Rails Wizards
@@ -1655,6 +1730,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0P/
+  video_provider: youtube
   video_id: muyfoiKHMMA
 
 - title: "Rack::Attack: Protect your app with this one weird gem!"
@@ -1682,6 +1758,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG0Q/
+  video_provider: youtube
   video_id: m1UwxsZD6sw
 
 - title: "Heroku 2014: A Year in Review"
@@ -1700,6 +1777,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZg/
+  video_provider: youtube
   video_id: pu-ZWR8UISc
 
 - title: Software Development Lessons from the Apollo Program
@@ -1725,6 +1803,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZf/
+  video_provider: youtube
   video_id: hrsT9wmPVoo
 
 - title: Engine Yard's New and Improved Cloud Platform
@@ -1743,6 +1822,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZh/
+  video_provider: youtube
   video_id: kNM4cnF4vrw
 
 - title: An Ode to 17 Databases in 33 Minutes
@@ -1778,6 +1858,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZi/
+  video_provider: youtube
   video_id: lzwAJxIESNU
 
 - title: Secrets of a World Memory Champion
@@ -1799,6 +1880,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZj/
+  video_provider: youtube
   video_id: OfTryhTC8wY
 
 - title: "Panel Discussion: The Future of Rails Jobs"
@@ -1824,6 +1906,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZk/
+  video_provider: youtube
   video_id: g3pM6bVPZsQ
 
 - title: "Workshop: Teamwork Ain't Always Easy"
@@ -1845,6 +1928,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZo/
+  video_provider: youtube
   video_id: l4eujsVPvtI
 
 - title: "Class Reloading in Ruby on Rails: The Whole Story"
@@ -1868,6 +1952,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZm/
+  video_provider: youtube
   video_id: 4sIU8PxJEEk
 
 - title: Tales from the Crypt
@@ -1895,12 +1980,13 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZn/
+  video_provider: youtube
   video_id: zZtDOX9kXRU
 
 - title: Lightning Talks
   raw_title: RailsConf 2014 - Lightning Talks by Many People
   speakers:
-    - Joshua Szmajda
+    - Jess Szmajda
     - Sachin Shintre
     - Gyani
     - Siddhant Chothe
@@ -1917,7 +2003,7 @@
     - Mike Bourgeous
     - Gostavo Robles
     - Hector Bustillos
-    - Victor Velasquez
+    - Victor Velazquez
     - Kay Rhodes
     - Kevin Fallon
     - Andrew Vit
@@ -1938,10 +2024,11 @@
     - Matthew Nielsen\n00:25:58 - Andrew Cantino\n00:29:34 - Yehuda Katz\n00:34:18
     - Ryan Alyea\n00:37:29 - Adam Cuppy\n00:40:32 - Mark Lorenz & Mike Gee\n00:44:28
     - Trever yarrish\n00:49:34 - Mike Bourgeous\n00:54:15 - Gostavo Robles\n00:57:16
-    - Hector Bustillos\n01:02:00 - Victor Velasquez\n01:06:03 - Kay Rhodes\n01:10:31
+    - Hector Bustillos\n01:02:00 - Victor Velazquez\n01:06:03 - Kay Rhodes\n01:10:31
     - Kevin Fallon\n01:15:50 - Andrew Vit\n01:20:53 - Brian Garside\n01:25:37 - Mike
     Virata-Stone\n01:30:36 - Kiyoto Tamura\n01:35:41 - David Padilla\n\nHelp us caption
     & translate this video!\n\nhttp://amara.org/v/FG1z/"
+  video_provider: youtube
   video_id: o1qbP7RxPOw
 
 - title: "Curmudgeon: An Opinionated Framework"
@@ -1967,6 +2054,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZp/
+  video_provider: youtube
   video_id: uDLtgjx5_Ss
 
 - title: You'll Never Believe Which Web Framework Powers Upworthy
@@ -1993,6 +2081,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZs/
+  video_provider: youtube
   video_id: r56wJMk8QCg
 
 - title: Living Social Lightning Talks
@@ -2022,6 +2111,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZt/
+  video_provider: youtube
   video_id: pFhPEguxqSI
 
 - title: Get More Hands on Your Keyboard
@@ -2041,6 +2131,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZu/
+  video_provider: youtube
   video_id: DndoNihAzv8
 
 - title: WebRTC Change Communications Forever
@@ -2060,6 +2151,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZw/
+  video_provider: youtube
   video_id: ImCJxCb3RFg
 
 - title: "Workshop: Applications First, Frameworks Second - Better Systems through Design"
@@ -2081,6 +2173,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZy/
+  video_provider: youtube
   video_id: 6JD0VzPIYAg
 
 - title: Service Extraction at Groupon Scale
@@ -2101,6 +2194,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZM/
+  video_provider: youtube
   video_id: 13SV7MjJugo
 
 - title: Using Software Analytics to Help Make Better Business Decisions
@@ -2123,9 +2217,10 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZz/
+  video_provider: youtube
   video_id: KdmuHgpHJVE
 
-- title: 'Workshop: Machine Learning For Fun and Profit'
+- title: "Workshop: Machine Learning For Fun and Profit"
   raw_title: RailsConf 2014 - Workshop - Machine Learning For Fun and Profit by John Paul Ahenfelter
   speakers:
     - John Paul Ahenfelter
@@ -2144,9 +2239,10 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZx/
+  video_provider: youtube
   video_id: E6CjE0M20jk
 
-- title: 'Workshop: All Aboard The Elixir Express!'
+- title: "Workshop: All Aboard The Elixir Express!"
   raw_title: RailsConf 2014 - Workshop - All Aboard The Elixir Express! by Chris McCord
   speakers:
     - Chris McCord
@@ -2163,9 +2259,10 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZr/
+  video_provider: youtube
   video_id: 5kYmOyJjGDM
 
-- title: 'Workshop: Test Drive a Browser Game With JavaScript'
+- title: "Workshop: Test Drive a Browser Game With JavaScript"
   raw_title: RailsConf 2014 - Workshop - Test Drive a Browser Game With JavaScript
   speakers:
     - Zach Briggs
@@ -2187,6 +2284,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZN/
+  video_provider: youtube
   video_id: GzChuWBfA_w
 
 - title: "Workshop: Taming Chaotic Specs - RSpec Design Patterns"
@@ -2206,6 +2304,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZO/
+  video_provider: youtube
   video_id: d2gL6CYaYwQ
 
 - title: Unreasonable Estimates and Improbable Goals
@@ -2231,6 +2330,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZP/
+  video_provider: youtube
   video_id: h6Q2dQZ6GlY
 
 - title: Branding for Open Source Success
@@ -2252,6 +2352,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZQ/
+  video_provider: youtube
   video_id: ZxHiXIJTaxE
 
 - title: "Keynote: What Happens to Everyone, When Everyone Learns to Code?"
@@ -2271,4 +2372,5 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYd/
+  video_provider: youtube
   video_id: sgoYBNj5xk0

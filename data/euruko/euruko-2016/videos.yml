@@ -1,16 +1,16 @@
 ---
-
 # https://2016.euruko.org/schedule
 
 ## Day 1
 
-- title: 'Opening Keynote: Ruby 3 Today'
+- title: "Opening Keynote: Ruby 3 Today"
   raw_title: EuRuKo 2016 - Day 1 Keynote by Yukihiro "Matz" Matsumoto
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: EuRuKo 2016
-  published_at: '2016-09-23'
-  description: ''
+  published_at: "2016-09-23"
+  description: ""
+  video_provider: youtube
   video_id: 8aHmArEq4y0
 
 - title: Little Snippets
@@ -18,8 +18,9 @@
   speakers:
     - Xavier Noria
   event_name: EuRuKo 2016
-  published_at: '2016-09-23'
-  description: ''
+  published_at: "2016-09-23"
+  description: ""
+  video_provider: youtube
   video_id: mC9TyVeER_8
 
 - title: Rules, Laws, and Gentle Guidelines
@@ -27,19 +28,21 @@
   speakers:
     - Andrew Radev
   event_name: EuRuKo 2016
-  published_at: '2016-09-23'
-  description: ''
+  published_at: "2016-09-23"
+  description: ""
+  video_provider: youtube
   video_id: BDXQ4pcbEBA
 
 # Lunch
 
-- title: 'Simplifying Logs, Events and Streams: Kafka + Rails'
-  raw_title: 'EuRuKo 2016 - Simplifying Logs, Events and Streams: Kafka + Rails by Terence Lee'
+- title: "Simplifying Logs, Events and Streams: Kafka + Rails"
+  raw_title: "EuRuKo 2016 - Simplifying Logs, Events and Streams: Kafka + Rails by Terence Lee"
   speakers:
     - Terence Lee
   event_name: EuRuKo 2016
-  published_at: '2016-09-23'
-  description: ''
+  published_at: "2016-09-23"
+  description: ""
+  video_provider: youtube
   video_id: yl3JmF3n2bQ
 
 - title: GraphQL on Rails
@@ -47,8 +50,9 @@
   speakers:
     - Marc-André Giroux
   event_name: EuRuKo 2016
-  published_at: '2016-09-23'
-  description: ''
+  published_at: "2016-09-23"
+  description: ""
+  video_provider: youtube
   video_id: _V96jduEvjY
 
 - title: Herding Cats to a Firefight
@@ -56,8 +60,9 @@
   speakers:
     - Grace Chang
   event_name: EuRuKo 2016
-  published_at: '2016-09-23'
-  description: ''
+  published_at: "2016-09-23"
+  description: ""
+  video_provider: youtube
   video_id: u_7wrPXaSto
 
 # Coffee Break
@@ -67,28 +72,39 @@
   speakers:
     - Rafael França
   event_name: EuRuKo 2016
-  published_at: '2016-09-23'
-  description: ''
+  published_at: "2016-09-23"
+  description: ""
+  video_provider: youtube
   video_id: rbM_1wRVfeI
 
-- title: 'Lightning Talks: Day 1'
+- title: "Lightning Talks: Day 1"
   raw_title: EuRuKo 2016 - Day 1 Lightning Talks
   speakers:
-    - Max Gorin # Making a Multiplayer Memoery Game with Elixir and Elm (0:29)
-    - Johanna Lang # Team Joda 2016 (Rails Girls Summer of Code 2016) (6:20)
-    - Dayana Mick # Team Joda 2016 (Rails Girls Summer of Code 2016) (6:20)
+    - Max Gorin # Making a Multiplayer Memory Game with Elixir and Elm (0:29)
+    - Johanna Lang # Team Joda 2016 (Rails Girls Summer of Code 2016) (6:20)
+    - Dayana Mick # Team Joda 2016 (Rails Girls Summer of Code 2016) (6:20)
     - Kinga Kalinowska # We Are Rubycats! (Rails Girls Summer of Code 2016) (12:11)
     - Izabela Komorek # We Are Rubycats! (Rails Girls Summer of Code 2016) (12:11)
-    - Melanie Keatley # Magic Solution to the Tech Gender Gap (18:22)
-    - Stephanie Nemeth # Magic Solution to the Tech Gender Gap (18:22)
+    - Melanie Keatley # Magic Solution to the Tech Gender Gap (18:22)
+    - Stephanie Nemeth # Magic Solution to the Tech Gender Gap (18:22)
     - Krzysztof (Christopher) Wawer # Validations (23:39)
     - Demir Zekić # The Importance of Teaching and Metoring (28:53)
     - Jan Lelis # Whirly - The Friendly Terminal Spinner (35:25)
   event_name: EuRuKo 2016
-  published_at: '2016-09-23'
-  description: ''
-  video_id: UehkClMTJDw
+  published_at: "2016-09-23"
+  description: |-
+    Lightning talks from Day 1 of EuRuKo
 
+    * "Making a Multiplayer Memory Game with Elixir and Elm" by Max Gorin (0:29)
+    * "Team Joda 2016 (Rails Girls Summer of Code 2016)" by Johanna Lang & Dayana Mick (6:20)
+    * "We Are Rubycats! (Rails Girls Summer of Code 2016)" by Kinga Kalinowska & Izabela Komorek (12:11)
+    * "Magic Solution to the Tech Gender Gap" by Melanie Keatley & Stephanie Nemeth (18:22)
+    * "Validations" by Krzysztof (Christopher) Wawer (23:39)
+    * "The Importance of Teaching and Metoring" by Demir Zekić (28:53)
+    * "Whirly - The Friendly Terminal Spinner" by Jan Lelis (35:25)
+
+  video_provider: youtube
+  video_id: UehkClMTJDw
 
 ## Day 2
 
@@ -97,8 +113,9 @@
   speakers:
     - José Valim
   event_name: EuRuKo 2016
-  published_at: '2016-09-24'
-  description: ''
+  published_at: "2016-09-24"
+  description: ""
+  video_provider: youtube
   video_id: xhwnHovnq_0
 
 - title: How to Begin to Develop Ruby Core
@@ -106,8 +123,9 @@
   speakers:
     - Hiroshi Shibata
   event_name: EuRuKo 2016
-  published_at: '2016-09-24'
-  description: ''
+  published_at: "2016-09-24"
+  description: ""
+  video_provider: youtube
   video_id: IRfsakcZJKw
 
 - title: Consequences of an Insightful Algorithm
@@ -115,8 +133,9 @@
   speakers:
     - Carina C. Zona
   event_name: EuRuKo 2016
-  published_at: '2016-09-24'
-  description: ''
+  published_at: "2016-09-24"
+  description: ""
+  video_provider: youtube
   video_id: bp4yFKw_1QM
 
 # Lunch
@@ -126,8 +145,9 @@
   speakers:
     - Anton Davydov
   event_name: EuRuKo 2016
-  published_at: '2016-09-24'
-  description: ''
+  published_at: "2016-09-24"
+  description: ""
+  video_provider: youtube
   video_id: 3L6I4UoK8xM
 
 - title: What I Have Learned From Organizing Remote Internship
@@ -135,8 +155,9 @@
   speakers:
     - Ivan Nemytchenko
   event_name: EuRuKo 2016
-  published_at: '2016-09-24'
-  description: ''
+  published_at: "2016-09-24"
+  description: ""
+  video_provider: youtube
   video_id: H-K0ZKOclBU
 
 - title: A Year of Ruby, Together
@@ -144,13 +165,14 @@
   speakers:
     - André Arko
   event_name: EuRuKo 2016
-  published_at: '2016-09-24'
-  description: ''
+  published_at: "2016-09-24"
+  description: ""
+  video_provider: youtube
   video_id: SJddsEfvcW8
 
 # Coffee Break
 
-- title: 'Lightning Talks: Day 2'
+- title: "Lightning Talks: Day 2"
   raw_title: EuRuKo 2016 - Day 2 Lightning Talks
   speakers:
     - Kriselda Rabino # The HTT(Pancake) Request - Keeping Your Clients Happy, Not Hangry (0:57)
@@ -161,8 +183,18 @@
     - Igor Omokov # Opening a calculator with Rails (34:16)
     - Alex Jahraus # Feel Worse, Do Better (40:35)
   event_name: EuRuKo 2016
-  published_at: '2016-09-24'
-  description: ''
+  published_at: "2016-09-24"
+  description: |-
+    Lightning talks from Day 2 of EuRuKo
+
+    * "The HTT(Pancake) Request - Keeping Your Clients Happy, Not Hangry" by Kriselda Rabino (0:57)
+    * "How to decode ADSK data (Commodore 64 Edition)" by Stefan Daschek (7:50)
+    * "Working with PDFs in Ruby" by Thomas Leitner (13:47)
+    * "Ruby for Science and Open Data" by Victor Shepelev (22:55)
+    * "CodeMarathon & HiredInTech - Using Rails to scale teaching CS online" by Anton Dimitrov (29:37)
+    * "Opening a calculator with Rails" by Igor Omokov (34:16)
+    * "Feel Worse, Do Better" by Alex Jahraus (40:35)
+  video_provider: youtube
   video_id: WnlgKWCt8wQ
 
 - title: The Illusion of Stable APIs
@@ -170,6 +202,7 @@
   speakers:
     - Nick Sutterer
   event_name: EuRuKo 2016
-  published_at: '2016-09-24'
-  description: ''
+  published_at: "2016-09-24"
+  description: ""
+  video_provider: youtube
   video_id: mvHwTtsIH8g

@@ -1,12 +1,14 @@
-# Rubyvideo.dev
+# RubyVideo.dev
 
-[Rubyvideo.dev](https://www.rubyvideo.dev), inspired by [pyvideo.org](https://pyvideo.org/), is designed to index all Ruby-related videos from conferences and meetups worldwide. At the time of writing, the project has about 2400 videos indexed from 100+ conferences and 1700 speakers.
+[RubyVideo.dev](https://www.rubyvideo.dev), inspired by [pyvideo.org](https://pyvideo.org/), is designed to index all Ruby-related videos from conferences and meetups worldwide. At the time of writing, the project has about 4000 videos indexed from 175+ conferences and 2500+ speakers.
 
-Technically the project is built using the lastest Ruby and Rails goodies such as Hotwire, SolidQueue, SolidCache. For the front end part we use Vite, Tailwind with Daisyui components and Stimulus.
+Technically the project is built using the latest [Ruby](https://www.ruby-lang.org/) and [Rails](https://rubyonrails.org/) goodies such as [Hotwire](https://hotwired.dev/), [Solid Queue](https://github.com/rails/solid_queue), [Solid Cache](https://github.com/rails/solid_cache).
 
-It is deployed on an [Hetzner VPS]() with Kamal with SQlite as the main database.
+For the front end part we use [Vite](https://vite.dev/), [Tailwind](https://tailwindcss.com/) with [daisyUI](https://daisyUI.com/) components and [Stimulus](https://stimulus.hotwire.dev/).
 
-For compatible browsers it tries to demonstrate some of teh possibilities of Page View Transition API.
+It is deployed on an [Hetzner](https://hetzner.com/) VPS with [Kamal](https://kamal-deploy.org/) using [SQLite](https://www.sqlite.org/) as the main database.
+
+For compatible browsers it tries to demonstrate some of the possibilities of [Page View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API).
 
 ## Contributing
 
@@ -62,11 +64,12 @@ bin/dev
 
 ## Linter
 
-The CI performs 3 checks:
+The CI performs these checks:
 
 - erblint
 - standardrb
 - standard (js)
+- prettier (yaml)
 
 Before committing your code you can run `bin/lint` to detect and potentially autocorrect lint errors.
 

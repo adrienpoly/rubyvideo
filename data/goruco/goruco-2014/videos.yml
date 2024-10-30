@@ -1,13 +1,12 @@
 ---
-
-# https://web.archive.org/web/20141008055937/http://goruco.com/
+# Website: https://web.archive.org/web/20141008055937/http://goruco.com/
 
 - title: The Future of Ruby Performance Tooling
   raw_title: GoRuCo 2014 - The Future of Ruby Performance Tooling by Aaron Quint
   speakers:
     - Aaron Quint
   event_name: GoRuCo 2014
-  published_at: '2014-07-16'
+  published_at: "2014-07-16"
   description: |-
     It's just a fact that as a baseline, Ruby is not the fastest language or platform out there. We've always been comfortable with the trade of raw speed for the thrill and happiness of development.
 
@@ -32,6 +31,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGZA/
+  video_provider: youtube
   video_id: cOaVIeX6qGg
 
 # Micro Break
@@ -41,7 +41,7 @@
   speakers:
     - Lisa Larson-Kelley
   event_name: GoRuCo 2014
-  published_at: '2014-06-21'
+  published_at: "2014-06-21"
   description: |-
     WebRTC is a powerful open-source project that seamlessly enables real-time communication (RTC)-- baked right into modern web browsers. This means web developers can now incorporate video, voice and data sharing using peer-to-peer connectivity via simple JavaScript APIs, with no plugins or additional installs required.
 
@@ -50,6 +50,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYv/
+  video_provider: youtube
   video_id: ALmKhif7yo0
 
 # Morning Break
@@ -59,7 +60,7 @@
   speakers:
     - Michael Bernstein
   event_name: GoRuCo 2014
-  published_at: '2014-06-21'
+  published_at: "2014-06-21"
   description: |-
     After several years of being a professional programmer, I realized that I didn't really know what I was doing, and decided to teach myself Computer Science. After spending a year learning Computer Science from the ground up, I thought I was starting to understand things. Then I came across Haskell.
 
@@ -76,6 +77,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYw/
+  video_provider: youtube
   video_id: _HM8Vczybj4
 
 # Micro Break
@@ -85,13 +87,14 @@
   speakers:
     - Andrew Turley
   event_name: GoRuCo 2014
-  published_at: '2014-06-21'
+  published_at: "2014-06-21"
   description: |-
     COBOL was originally conceived as a programming language for building business applications. At the time this primarily meant processing large amounts of data and transforming it into useful information (commonly known at ETL). Interest in this kind of programming waned as the personal computing revolution swept through the industry, but it is waxing with the new focus on data science and "big data".
 
     Help us caption & translate this video!
 
     http://amara.org/v/FGYp/
+  video_provider: youtube
   video_id: sB9_hVO9Cik
 
 - title: Teaching Kids to Code on Raspberry Pi
@@ -99,7 +102,7 @@
   speakers:
     - Audrey Troutt
   event_name: GoRuCo 2014
-  published_at: '2014-06-21'
+  published_at: "2014-06-21"
   description: |-
     Back in September 2013 I taught a class of 12 middle-school aged girls to write code in Scratch on the Raspberry Pi and program simple electronic circuits. This was a workshop for the Philadelphia non-profit TechGirlz.
 
@@ -115,6 +118,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYq/
+  video_provider: youtube
   video_id: E8xCgOjnZZY
 
 - title: BI Tooling with Rails
@@ -122,7 +126,7 @@
   speakers:
     - Solomon Kahn
   event_name: GoRuCo 2014
-  published_at: '2014-07-16'
+  published_at: "2014-07-16"
   description: |-
     Non-technical people in companies need data, but don't have the programming skills to get it themselves. So, it becomes your part-time job to get them data. As your company grows, this problem only gets worse.
 
@@ -149,6 +153,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYy/
+  video_provider: youtube
   video_id: Xbn6SZ6TJpE
 
 # Lunch
@@ -158,7 +163,7 @@
   speakers:
     - Chris Hunt
   event_name: GoRuCo 2014
-  published_at: '2014-06-21'
+  published_at: "2014-06-21"
   description: |-
     You don't have a bad memory, you were just never taught how to use it. We are going to practice several powerful memory techniques that have been perfected by memory contest champions over the last hundred years.
 
@@ -167,6 +172,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYr/
+  video_provider: youtube
   video_id: k44oJ961eFM
 
 # Micro Break
@@ -176,7 +182,7 @@
   speakers:
     - Luke Melia
   event_name: GoRuCo 2014
-  published_at: '2014-07-16'
+  published_at: "2014-07-16"
   description: |-
     For the last two years, I've been growing the Ember.js community in NYC from nearly nothing to a vibrant group. Most of what works well for me are things that I learned from getting my sea legs in the Ruby community, so what better place to share than GORUCO?
 
@@ -185,6 +191,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYx/
+  video_provider: youtube
   video_id: 23MsBL3kEHk
 
 - title: An Approach to Developing and Testing Third Party JavaScript Widgets
@@ -192,7 +199,7 @@
   speakers:
     - Nathan Artz
   event_name: GoRuCo 2014
-  published_at: '2014-06-21'
+  published_at: "2014-06-21"
   description: |-
     Google Analytics, Like Buttons, Twitter Widgets, Olark chat boxes; all examples of third party JavaScript elements that are embedded by users in their websites.
 
@@ -208,6 +215,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYs/
+  video_provider: youtube
   video_id: QmesIibMULY
 
 - title: Designing a Better Programmer Community
@@ -216,7 +224,7 @@
     - Samantha John
     - Jason Brennan
   event_name: GoRuCo 2014
-  published_at: '2014-06-21'
+  published_at: "2014-06-21"
   description: |-
     We will show how new approaches to language design create a better programming community.
 
@@ -227,6 +235,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYt/
+  video_provider: youtube
   video_id: mtdaNlYyRCs
 
 # Afternoon break
@@ -236,7 +245,7 @@
   speakers:
     - Michael May
   event_name: GoRuCo 2014
-  published_at: '2014-06-21'
+  published_at: "2014-06-21"
   description: |-
     Your rails app is slow. Even after memory caching, optimizing queries, and adding servers the problem persists, killing your user experience. You've heard of services called "Content Delivery Networks" (CDNs), that could help, but they only seem to work with static content. Worry not, for there is a solution: dynamic content caching at the edge. In this talk, we explain how CDNs can be used to accelerate dynamic rails applications.
     We will cover:
@@ -256,6 +265,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYu/
+  video_provider: youtube
   video_id: 60rjetFNA_Q
 
 # Break
@@ -265,7 +275,7 @@
   speakers:
     - James Golick
   event_name: GoRuCo 2014
-  published_at: '2014-07-16'
+  published_at: "2014-07-16"
   description: |-
     Does your code work? Probably not. The libraries you're using probably don't work either. If you're lucky, the OS does, but even then you'll probably find something wrong if you look hard enough.
 
@@ -278,4 +288,5 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGYz/
+  video_provider: youtube
   video_id: VV7b7fs4VI8

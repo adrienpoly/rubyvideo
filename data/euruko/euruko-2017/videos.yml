@@ -1,4 +1,9 @@
 ---
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
 - title: "Keynote: MJIT, what, how and why"
   raw_title: Yukihiro Matsumoto Keynote @EuRuKo2017
   speakers:
@@ -6,6 +11,7 @@
   event_name: EuRuKo 2017
   published_at: "2021-06-01"
   description: ""
+  video_provider: youtube
   video_id: nlMsi8S3kZg
 
 - title: Lightning Talks Day 1
@@ -20,6 +26,7 @@
   event_name: EuRuKo 2017
   published_at: "2021-06-01"
   description: ""
+  video_provider: youtube
   video_id: NEnZViT581o
 
 - title: Helping communities & products thrive
@@ -28,7 +35,9 @@
     - Sasha Romijn
   event_name: EuRuKo 2017
   published_at: "2021-06-01"
-  description: "Slides: https://github.com/mxsasha/empathy-talk/blob/e181c1a273a22f01d9ff54cb278496d285ebfffd/deckset.pdf"
+  slides_url: https://github.com/mxsasha/empathy-talk/blob/e181c1a273a22f01d9ff54cb278496d285ebfffd/deckset.pdf
+  description: ""
+  video_provider: youtube
   video_id: biwApccM1Sg
 
 - title: "Data-driven production apps"
@@ -37,7 +46,9 @@
     - Sai Warang
   event_name: EuRuKo 2017
   published_at: "2021-06-01"
-  description: "Slides: https://speakerdeck.com/cyprusad/euruko-2017-data-driven-production-apps"
+  slides_url: https://speakerdeck.com/cyprusad/euruko-2017-data-driven-production-apps
+  description: ""
+  video_provider: youtube
   video_id: u4Z2M5HSGJs
 
 - title: "The Real Black Friday aka How To Scale an Unscalable Service"
@@ -46,7 +57,9 @@
     - Judit Ördög-Andrási
   event_name: EuRuKo 2017
   published_at: "2021-06-01"
-  description: "Slides: https://euruko2017.org/downloads/slides/the_real_black_friday.pdf"
+  slides_url: https://euruko2017.org/downloads/slides/the_real_black_friday.pdf
+  description: ""
+  video_provider: youtube
   video_id: ZeGIw8jkRmA
 
 - title: "Introducing Tensorflow Ruby API"
@@ -55,7 +68,9 @@
     - Arafat Khan
   event_name: EuRuKo 2017
   published_at: "2021-06-01"
-  description: "Slides: https://docs.google.com/presentation/d/1FSfVfwFrWQ5AXgedVoqk_-50vT5q2vyQD0uA3_CewTU/edit?usp=sharing"
+  slides_url: https://docs.google.com/presentation/d/1FSfVfwFrWQ5AXgedVoqk_-50vT5q2vyQD0uA3_CewTU/edit?usp=sharing
+  description: ""
+  video_provider: youtube
   video_id: Bb8izrSSt3M
 
 - title: "Distributed Systems: Your Only Guarantee Is Inconsistency"
@@ -64,7 +79,9 @@
     - Anthony Zacharakis
   event_name: EuRuKo 2017
   published_at: "2021-06-01"
-  description: "Slides: https://speakerdeck.com/azach/distributed-systems-your-only-guarantee-is-inconsistency"
+  slides_url: https://speakerdeck.com/azach/distributed-systems-your-only-guarantee-is-inconsistency
+  description: ""
+  video_provider: youtube
   video_id: JvBq27cbv_0
 
 - title: "Things I Learned the Hard Way Building a Search Engine"
@@ -73,7 +90,9 @@
     - Katarzyna Turbiasz-Bugała
   event_name: EuRuKo 2017
   published_at: "2021-06-01"
-  description: "Slides: https://euruko2017.org/downloads/slides/search_engine.pdf"
+  slides_url: https://euruko2017.org/downloads/slides/search_engine.pdf
+  description: ""
+  video_provider: youtube
   video_id: 4zanERox264
 
 - title: "How to Make It As A Junior Dev and Stay Sane"
@@ -83,6 +102,7 @@
   event_name: EuRuKo 2017
   published_at: "2017-12-22"
   description: ""
+  video_provider: youtube
   video_id: 1Ai5GsL6tP4
 
 - title: "Issues with asynchronous interaction"
@@ -92,6 +112,7 @@
   event_name: EuRuKo 2017
   published_at: "2017-12-22"
   description: ""
+  video_provider: youtube
   video_id: m3QwxkfhhYg
 
 - title: "The overnight failure"
@@ -101,6 +122,7 @@
   event_name: EuRuKo 2017
   published_at: "2017-12-22"
   description: ""
+  video_provider: youtube
   video_id: Q_rqdNVElSg
 
 - title: "Rescuing legacy codebases with GraphQL and Rails"
@@ -110,6 +132,7 @@
   event_name: EuRuKo 2017
   published_at: "2017-12-22"
   description: ""
+  video_provider: youtube
   video_id: Lk3Xx7k1aOk
 
 - title: Lightning Talks Day 2
@@ -123,6 +146,7 @@
   event_name: EuRuKo 2017
   published_at: "2017-12-22"
   description: ""
+  video_provider: youtube
   video_id: 0bDRKUqIu24
 
 - title: "Predicting Performance Changes of Distributed Applications"
@@ -132,6 +156,7 @@
   event_name: EuRuKo 2017
   published_at: "2017-12-22"
   description: ""
+  video_provider: youtube
   video_id: 9yJcTsMFVjc
 
 - title: "Ruby 4.0: To Infinity and Beyond"
@@ -141,6 +166,7 @@
   event_name: EuRuKo 2017
   published_at: "2017-12-22"
   description: ""
+  video_provider: youtube
   video_id: aFSuXUXRySc
 
 - title: "Keynote: The Story of JRuby"
@@ -150,4 +176,5 @@
   event_name: EuRuKo 2017
   published_at: "2017-12-22"
   description: ""
+  video_provider: youtube
   video_id: sPS7F-ITqK4

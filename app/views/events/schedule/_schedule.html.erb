@@ -12,7 +12,7 @@
   <% days.each_with_index do |day, index| %>
     <% date_string = Date.parse(day.dig("date")).strftime("%A (%b %d, %Y)") %>
 
-    <input type="radio" name="days" role="tab" class="tab" aria-label="<%= date_string %>" <% if index == 0 %>checked="checked"<% end %> />
+    <input type="radio" name="days" role="tab" class="tab" aria-label="<%= date_string %>" <% if index == 0 %> checked="checked"<% end %>>
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <h1 class="mb-6"><%= day.dig("name") %> - <%= date_string %></h1>
 
@@ -54,7 +54,7 @@
                   <div class="h-4">&nbsp;</div>
 
                   <div class="flex-col">
-                    <div class="text-md font-bold"><%= talk.title %></div><br/>
+                    <div class="text-md font-bold"><%= talk.title %></div><br>
                     <div class="text-gray-500 group-hover:text-white"><%= talk.speakers.map(&:name).join(", ") %></div>
                   </div>
 

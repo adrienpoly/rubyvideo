@@ -1,5 +1,10 @@
 ---
-- title: 'Lightning Talks'
+# TODO: talks running order
+# TODO: talk dates
+# TODO: conference website
+# TODO: schedule website
+
+- title: "Lightning Talks"
   raw_title: Rails Pacific 2016 - Lightning Talks
   speakers:
     - Rick Liu
@@ -15,7 +20,7 @@
   thumbnail_md: https://i.ytimg.com/vi/k7HjIypXtl8/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/k7HjIypXtl8/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/k7HjIypXtl8/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     00:12 - JavaScript by Rick Liu
 
@@ -34,6 +39,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lid0/
+  video_provider: youtube
   video_id: k7HjIypXtl8
 
 - title: When Making Money Becomes a Headache Dealing with Payments
@@ -46,7 +52,7 @@
   thumbnail_md: https://i.ytimg.com/vi/pILdUMkOG3M/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/pILdUMkOG3M/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/pILdUMkOG3M/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     When Making Money Becomes a Headache. Dealing with Payments by Sebastian Sogamoso
 
@@ -57,10 +63,11 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lew3/
+  video_provider: youtube
   video_id: pILdUMkOG3M
 
-- title: 'Workshop: Taming Chaotic Specs: RSpec Design Patterns'
-  raw_title: 'Rails Pacific 2016 - Workshop / Taming Chaotic Specs: RSpec Design Patterns by Adam Cuppy'
+- title: "Workshop: Taming Chaotic Specs: RSpec Design Patterns"
+  raw_title: "Rails Pacific 2016 - Workshop / Taming Chaotic Specs: RSpec Design Patterns by Adam Cuppy"
   speakers:
     - Adam Cuppy
   event_name: Rails Pacific 2016
@@ -69,7 +76,7 @@
   thumbnail_md: https://i.ytimg.com/vi/KjENZNjRCWM/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/KjENZNjRCWM/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/KjENZNjRCWM/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     Workshop / Taming Chaotic Specs: RSpec Design Patterns by Adam Cuppy
 
@@ -78,6 +85,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/LewZ/
+  video_provider: youtube
   video_id: KjENZNjRCWM
 
 - title: Server Infrastructure for Rails in 2016
@@ -90,7 +98,7 @@
   thumbnail_md: https://i.ytimg.com/vi/v6NA4_Np31k/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/v6NA4_Np31k/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/v6NA4_Np31k/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     Server Infrastructure for Rails in 2016 by Richard Lee
 
@@ -107,6 +115,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lf5y/
+  video_provider: youtube
   video_id: v6NA4_Np31k
 
 - title: Continuous Learning, Teaching and the Art of Improving Yourself
@@ -119,7 +128,7 @@
   thumbnail_md: https://i.ytimg.com/vi/5r5pBg9RMdM/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/5r5pBg9RMdM/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/5r5pBg9RMdM/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     Continuous Learning, Teaching and the Art of Improving Yourself by Luis Ferreira
 
@@ -142,6 +151,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lf5x/
+  video_provider: youtube
   video_id: 5r5pBg9RMdM
 
 - title: What if Shakespeare Wrote Ruby?
@@ -154,7 +164,7 @@
   thumbnail_md: https://i.ytimg.com/vi/mrdmHK6ogC0/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/mrdmHK6ogC0/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/mrdmHK6ogC0/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     What if Shakespeare Wrote Ruby? by Adam Cuppy
 
@@ -165,6 +175,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lg6W/
+  video_provider: youtube
   video_id: mrdmHK6ogC0
 
 - title: Robot on Rails
@@ -177,7 +188,7 @@
   thumbnail_md: https://i.ytimg.com/vi/MPdYs6J-v34/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/MPdYs6J-v34/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/MPdYs6J-v34/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     This lecture-performance will be a collaboration between Max and a presentation generator bot trained on thousands of presentations about Ruby on Rails downloaded from SlideShare. The talk will begin with a description of the bot and its programming. At the end the bot will have complete control and decide the direction of the presentation!
 
@@ -191,6 +202,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lg6V/
+  video_provider: youtube
   video_id: MPdYs6J-v34
 
 - title: Successful Speedy MVP Website Development
@@ -203,7 +215,7 @@
   thumbnail_md: https://i.ytimg.com/vi/V3TWE5k3fnM/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/V3TWE5k3fnM/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/V3TWE5k3fnM/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     Successful Speedy MVP Website Development by Xdite
 
@@ -216,6 +228,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lg6T/
+  video_provider: youtube
   video_id: V3TWE5k3fnM
 
 - title: ActionCable, Rails API and React - Modern Single Page Apps
@@ -228,7 +241,7 @@
   thumbnail_md: https://i.ytimg.com/vi/NMXXpqX2yvg/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/NMXXpqX2yvg/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/NMXXpqX2yvg/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     ActionCable, Rails API and React - Modern Single Page Apps by Vipul A M
 
@@ -241,6 +254,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lg6S/
+  video_provider: youtube
   video_id: NMXXpqX2yvg
 
 - title: Large-Scaled Deploy Over 100 Servers in 3 Minutes
@@ -253,7 +267,7 @@
   thumbnail_md: https://i.ytimg.com/vi/EUnUeYET-88/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/EUnUeYET-88/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/EUnUeYET-88/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     Large-Scaled Deploy Over 100 Servers in 3 Minutes by Hiroshi Shibata
 
@@ -270,6 +284,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lg6Q/
+  video_provider: youtube
   video_id: EUnUeYET-88
 
 - title: Make Money and Enjoy Freedom Creating a Software Business
@@ -282,7 +297,7 @@
   thumbnail_md: https://i.ytimg.com/vi/Frnl49c2r50/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/Frnl49c2r50/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/Frnl49c2r50/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     Make Money and Enjoy Freedom Creating a Software Business by Ryan MacInnes
 
@@ -293,10 +308,11 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lg6P/
+  video_provider: youtube
   video_id: Frnl49c2r50
 
 - title: "Going Global on Rails: Lessons Learned Taking Japan's Biggest Recipe Site International"
-  raw_title: 'Rails Pacific 2016 - Going Global on Rails: Lessons Learned...  by Miles Woodroffe'
+  raw_title: "Rails Pacific 2016 - Going Global on Rails: Lessons Learned...  by Miles Woodroffe"
   speakers:
     - Miles Woodroffe
   event_name: Rails Pacific 2016
@@ -305,7 +321,7 @@
   thumbnail_md: https://i.ytimg.com/vi/dTcpLmNBXDA/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/dTcpLmNBXDA/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/dTcpLmNBXDA/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     Going Global on Rails: Lessons Learned Taking Japan's Biggest Recipe Site International by Miles Woodroffe
 
@@ -316,6 +332,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/LidY/
+  video_provider: youtube
   video_id: dTcpLmNBXDA
 
 - title: Secrets of Testing Rails 5 Apps
@@ -328,7 +345,7 @@
   thumbnail_md: https://i.ytimg.com/vi/8A1bx_VoArs/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/8A1bx_VoArs/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/8A1bx_VoArs/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     Secrets of Testing Rails 5 Apps by Prathamesh Sonpatki
 
@@ -341,10 +358,11 @@
     Help us caption & translate this video!
 
     http://amara.org/v/LidZ/
+  video_provider: youtube
   video_id: 8A1bx_VoArs
 
-- title: 'Rails Pacific 2016 - Keynote: Computer Science Education for the Next Generation by Godfrey Chan'
-  raw_title: 'Rails Pacific 2016 - Keynote: Computer Science Education for the Next Generation by Godfrey Chan'
+- title: "Rails Pacific 2016 - Keynote: Computer Science Education for the Next Generation by Godfrey Chan"
+  raw_title: "Rails Pacific 2016 - Keynote: Computer Science Education for the Next Generation by Godfrey Chan"
   speakers:
     - Godfrey Chan
   event_name: Rails Pacific 2016
@@ -353,7 +371,7 @@
   thumbnail_md: https://i.ytimg.com/vi/cAeIBMtNQY0/hqdefault.jpg
   thumbnail_lg: https://i.ytimg.com/vi/cAeIBMtNQY0/sddefault.jpg
   thumbnail_xl: https://i.ytimg.com/vi/cAeIBMtNQY0/maxresdefault.jpg
-  published_at: '2016-06-09'
+  published_at: "2016-06-09"
   description: |-
     Keynote: Computer Science Education for the Next Generation by Godfrey Chan
 
@@ -362,4 +380,5 @@
     Help us caption & translate this video!
 
     http://amara.org/v/Lew7/
+  video_provider: youtube
   video_id: cAeIBMtNQY0

@@ -1,4 +1,5 @@
 ---
+# TODO: conference website
 
 # Day 1
 
@@ -7,8 +8,9 @@
   speakers:
     - Maciej Mensfeld
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-17'
-  description: ''
+  published_at: "2017-03-17"
+  description: ""
+  video_provider: youtube
   video_id: FU0NGg385ZM
 
 - title: Machine Learning For The Rescue
@@ -16,8 +18,9 @@
   speakers:
     - Mariusz Gil
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-17'
-  description: ''
+  published_at: "2017-03-17"
+  description: ""
+  video_provider: youtube
   video_id: 0RUtb4GxdGs
 
 - title: Lightning Talks - Day 1
@@ -30,8 +33,9 @@
     - Piotr Steininger # Symphony
     - Niklas Hofer # Dairy Log
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-17'
-  description: ''
+  published_at: "2017-03-17"
+  description: ""
+  video_provider: youtube
   video_id: 3ECYpI55dj0
 
 # Day 2
@@ -41,8 +45,9 @@
   speakers:
     - Sebastian Sogamoso
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-18'
-  description: ''
+  published_at: "2017-03-18"
+  description: ""
+  video_provider: youtube
   video_id: Q-KAfm0bx4E
 
 - title: Fault Tolerance in Ruby
@@ -50,8 +55,9 @@
   speakers:
     - Hubert Łępicki
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-18'
-  description: ''
+  published_at: "2017-03-18"
+  description: ""
+  video_provider: youtube
   video_id: XPvpZ2QgvBI
 
 - title: Automated Type Contracts Generation For Ruby
@@ -59,11 +65,12 @@
   speakers:
     - Valentin Fondaratov
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-18'
-  description: ''
+  published_at: "2017-03-18"
+  description: ""
+  video_provider: youtube
   video_id: EPeQuy5SOGM
 
-- title: 'Panel: Elixir vs. Ruby'
+- title: "Panel: Elixir vs. Ruby"
   raw_title: PANEL - ELIXIR vs. RUBY FIGHT - wroc_love.rb 2017
   speakers:
     # - TODO # moderator # https://cln.sh/8KRFp56P
@@ -72,8 +79,9 @@
     - Andrzej Krzywda
     # - TODO # https://cln.sh/qpG3rsWm
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-18'
-  description: ''
+  published_at: "2017-03-18"
+  description: ""
+  video_provider: youtube
   video_id: O5dzsG5grK4
 
 - title: Bindings in Ruby - Behind the Magic of Blocks
@@ -81,8 +89,9 @@
   speakers:
     - Piotr Szmielew
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-18'
-  description: ''
+  published_at: "2017-03-18"
+  description: ""
+  video_provider: youtube
   video_id: yiwvk240ZBM
   slides_url: https://speakerdeck.com/esse/bindings-in-ruby-behind-the-magic-of-blocks
 
@@ -101,19 +110,21 @@
     - Artur Dębski # Unexpected Case of Rescue Exception
     - Robert Pankowecki # Gravity of Code
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-18'
-  description: ''
+  published_at: "2017-03-18"
+  description: ""
+  video_provider: youtube
   video_id: LEYrdNzgCUk
 
 # Day 3
 
-- title: 'The Babel Fish is Data: A Case Study'
-  raw_title: 'THE BABEL FISH IS DATA: A CASE STUDY - Norbert Wójtowicz - wroc_love.rb 2017'
+- title: "The Babel Fish is Data: A Case Study"
+  raw_title: "THE BABEL FISH IS DATA: A CASE STUDY - Norbert Wójtowicz - wroc_love.rb 2017"
   speakers:
     - Norbert Wójtowicz
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-19'
-  description: ''
+  published_at: "2017-03-19"
+  description: ""
+  video_provider: youtube
   video_id: l5ML_4WnAWg
 
 - title: We All Build Distributed Systems
@@ -121,8 +132,9 @@
   speakers:
     - Maciej Rząsa
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-19'
-  description: ''
+  published_at: "2017-03-19"
+  description: ""
+  video_provider: youtube
   video_id: 2AvMrZtvQSc
 
 - title: Predicting Performance Changes of Distributed Applications
@@ -130,11 +142,12 @@
   speakers:
     - Wojciech Rząsa
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-19'
-  description: ''
+  published_at: "2017-03-19"
+  description: ""
+  video_provider: youtube
   video_id: GmRVbmntenY
 
-- title: 'Panel: How to Survive in the JavaScript World'
+- title: "Panel: How to Survive in the JavaScript World"
   raw_title: PANEL - HOW TO SURVIVE IN THE JAVASCRIPT WORLD - wroc_love.rb 2017
   speakers:
     # - TODO # moderator # https://cln.sh/dQQ25jng
@@ -145,8 +158,9 @@
     # - TODO # https://cln.sh/pHFt2cgG
     # - TODO # https://cln.sh/xnmKzjCR
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-19'
-  description: ''
+  published_at: "2017-03-19"
+  description: ""
+  video_provider: youtube
   video_id: 3swsZ5dOjOY
 
 - title: concurrent-ruby
@@ -154,8 +168,9 @@
   speakers:
     - Petr Chalupa
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-19'
-  description: ''
+  published_at: "2017-03-19"
+  description: ""
+  video_provider: youtube
   video_id: WQ0pNulvl-Q
 
 - title: Lightning Talks - Day 3
@@ -171,6 +186,7 @@
     - Michał Muskała # Elixir is Awesome
     - Emmanuel Hayford # Google Summer of Code
   event_name: wroc_love.rb 2017
-  published_at: '2017-03-19'
-  description: ''
+  published_at: "2017-03-19"
+  description: ""
+  video_provider: youtube
   video_id: 0u_h5cEFlLc
