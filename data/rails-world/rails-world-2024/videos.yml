@@ -198,6 +198,7 @@
     - Emmanuel Hayford
   event_name: Rails World 2024
   published_at: "2024-09-26"
+  slides_url: https://speakerdeck.com/siaw23/progressive-web-apps-for-rails-developers
   description:
     "Rails 8 will simplify PWA development by generating essential PWA
     scaffolding by default. In his #RailsWorld talk, Emmanuel Hayford covers PWA basics,
@@ -311,12 +312,13 @@
   video_id: I_rlFaMzVL0
 
 # Track 2
-- title: Pushing the boundaries with ActiveStorage
+- title: Pushing the Boundaries with ActiveStorage
   raw_title: Andrea Fomera - Pushing the boundaries with ActiveStorage - Rails World 2024
   speakers:
     - Andrea Fomera
   event_name: Rails World 2024
   published_at: "2024-09-27"
+  slides_url: https://docs.google.com/presentation/d/1CXN9yAh4o_rmc85WfTHGyH-MchHS-ZM4YAwmroCdSBc
   description: |-
     In her talk at #RailsWorld, Andrea Fomera showed how she works with #ActiveStorage using custom services for external providers.
 
@@ -392,6 +394,7 @@
     - Julia López
   event_name: Rails World 2024
   published_at: "2024-09-27"
+  slides_url: https://speakerdeck.com/yukideluxe/testing-integrations-the-good-the-bad-and-the-ugly
   description:
     "Enhancing your app's features through third-party APIs can be so powerful,
     but testing these integrations can be so cumbersome. At #RailsWorld Julia López
