@@ -179,14 +179,14 @@ class Talk < ApplicationRecord
 
       if (asset = Rails.application.assets.load_path.find(self[size]))
         return "/assets/#{asset.digested_path}"
-      elsif (event && asset = Rails.application.assets.load_path.find(event.poster_image_path))
+      elsif event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
         return "/assets/#{asset.digested_path}"
       else
         return fallback_thumbnail
       end
     end
 
-    if (event && asset = Rails.application.assets.load_path.find(event.poster_image_path))
+    if event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
       return "/assets/#{asset.digested_path}"
     end
 
