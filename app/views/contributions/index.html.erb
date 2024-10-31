@@ -4,7 +4,7 @@
   </h1>
 
   <div role="tablist" class="tabs tabs-lifted mt-6">
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Introduction" checked="checked" style="width: 125px" />
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Introduction" checked="checked" style="width: 125px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <article class="prose">
         <h2>Welcome to RubyVideo.dev! 🌟</h2>
@@ -25,7 +25,7 @@
       </article>
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Speakers without GitHub handles" style="width: 275px" />
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Speakers without GitHub handles" style="width: 275px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
         <h2 class="mb-4">Speakers without GitHub handles</h2>
@@ -34,7 +34,7 @@
 
         <div id="speakers" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 min-w-full mb-6">
           <% @speakers_without_github.each do |speaker| %>
-            <%= link_to edit_speaker_path(speaker), id: dom_id(speaker), class: "flex justify-between hover:bg-gray-100 p-4 rounded-lg border bg-white", data: { turbo_frame: "modal" } do %>
+            <%= link_to edit_speaker_path(speaker), id: dom_id(speaker), class: "flex justify-between hover:bg-gray-100 p-4 rounded-lg border bg-white", data: {turbo_frame: "modal"} do %>
               <div class="flex items-center">
                 <span><%= speaker.name %></span>
               </div>
@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Talks without slides" style="width: 200px" />
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Talks without slides" style="width: 200px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
         <h2 class="mb-4">Talks without slides</h2>
@@ -81,7 +81,7 @@
 
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without locations" style="width: 200px" />
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without locations" style="width: 200px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
         <h2 class="mb-4">Events without locations</h2>
@@ -106,7 +106,7 @@
       </div>
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without conference dates" style="width: 250px" />
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without conference dates" style="width: 250px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
         <h2 class="mb-4">Events without conference dates</h2>
