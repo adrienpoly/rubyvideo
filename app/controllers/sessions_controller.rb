@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
   include RemoteModal
-  allowed_remote_modal_actions :new
+  respond_with_remote_modal only: [:new]
 
   skip_before_action :authenticate_user!, only: %i[new create]
 
