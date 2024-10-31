@@ -3,115 +3,132 @@
     <span class="title">Getting Started: Ways to Contribute</span>
   </h1>
 
-  <article class="prose mt-6 mb-12">
-    <p>Welcome to RubyVideo.dev! 🌟</p>
+  <div role="tablist" class="tabs tabs-lifted mt-6">
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Introduction" checked="checked" style="width: 125px" />
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <article class="prose">
+        <h2>Welcome to RubyVideo.dev! 🌟</h2>
 
-    <p>We are thrilled to have you here and appreciate your interest in making this resource the best it can be for the community. If you would like to lend a hand, there are various ways you can contribute.</p>
+        <p>We are thrilled to have you here and appreciate your interest in making this resource the best it can be for the community. If you would like to lend a hand, there are various ways you can contribute.</p>
 
-    <p>This page serves as a friendly starting point for anyone looking to get involved but unsure where to begin. Here are some ways you can help:</p>
+        <p>This page serves as a friendly starting point for anyone looking to get involved but unsure where to begin. Here are some ways you can help:</p>
 
-    <ul>
-      <li>Assist in adding missing GitHub handles to speakers</li>
-      <li>Help identify speakers based on conference screenshots</li>
-      <li>Contribute by adding last names to speakers</li>
-      <li>Attach Slides to talks</li>
-      <li>Add location information to conferences</li>
-      <li>Add event dates to conferences</li>
-      <li>Add information about new conferences</li>
-    </ul>
-  </article>
-
-  <div class="mt-6">
-    <h2 class="mb-4">Speakers without GitHub handles</h2>
-
-    <article class="prose mb-6">These speakers are currently missing a GitHub handle. By adding a GitHub handle to their profile, we can enhance their speaker profiles with an avatar and automatically retrieve additional information.</article>
-
-    <div id="speakers" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 min-w-full mb-6">
-      <% @speakers_without_github.each do |speaker| %>
-        <%= link_to edit_speaker_path(speaker), id: dom_id(speaker), class: "flex justify-between hover:bg-gray-100 p-4 rounded-lg border bg-white", data: { turbo_frame: "modal" } do %>
-          <div class="flex items-center">
-            <span><%= speaker.name %></span>
-          </div>
-        <% end %>
-      <% end %>
-
-      <% remaining_speakers_count = (@speakers_without_github_count - @speakers_without_github.count) %>
-
-      <% if remaining_speakers_count.positive? %>
-        <div class="flex items-center hover:bg-gray-100 p-4 rounded-lg border bg-white">
-          <span>and <%= remaining_speakers_count %> more</span>
-        </div>
-      <% end %>
+        <ul>
+          <li>Assist in adding missing GitHub handles to speakers</li>
+          <li>Help identify speakers based on conference screenshots</li>
+          <li>Contribute by adding last names to speakers</li>
+          <li>Attach Slides to talks</li>
+          <li>Add location information to conferences</li>
+          <li>Add event dates to conferences</li>
+          <li>Add information about new conferences</li>
+        </ul>
+      </article>
     </div>
-  </div>
 
-  <div class="mt-16">
-    <h2 class="mb-4">Talks without slides</h2>
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Speakers without GitHub handles" style="width: 275px" />
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Speakers without GitHub handles</h2>
 
-    <article class="prose mb-6">These talks currently do not have slides attached. However, we know that the speaker has an account on Speakerdeck where they usually upload their slides. Feel free to explore if these talks have associated slidedecks on Speakerdeck.com.</article>
+        <article class="prose mb-6">These speakers are currently missing a GitHub handle. By adding a GitHub handle to their profile, we can enhance their speaker profiles with an avatar and automatically retrieve additional information.</article>
 
-    <div id="speakers" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 min-w-full mb-6">
-      <% @talks_without_slides.each do |talk| %>
-        <%= link_to edit_talk_path(talk), id: dom_id(talk), class: "hover:bg-gray-100 p-4 rounded-lg border bg-white" do %>
-          <div class="flex flex-col">
-            <span class="font-bold"><%= talk.title %></span>
-            <span><%= talk.speakers.first.name %></span>
-          </div>
-        <% end %>
-      <% end %>
-
-      <% remaining_talks_count = (@talks_without_slides_count - @talks_without_slides.count) %>
-
-      <% if remaining_talks_count.positive? %>
-        <div class="flex items-center hover:bg-gray-100 p-4 rounded-lg border bg-white">
-          <span>and <%= remaining_talks_count %> more</span>
-        </div>
-      <% end %>
-    </div>
-  </div>
-
-  <div class="mt-16">
-    <h2 class="mb-4">Events without locations</h2>
-
-    <article class="prose mb-6">This section lists events that are missing location information. By adding a location, we can show in which city/country this event took place.</article>
-
-    <div id="events-without-locations" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
-      <% Static::Playlist.where(location: nil).group_by(&:__file_path).each do |file_path, events| %>
-        <%= link_to "https://github.com/adrienpoly/rubyvideo/edit/main/#{file_path}", id: "event-#{file_path}", class: "hover:bg-gray-100 p-4 rounded-lg border bg-white", target: :_blank do %>
-          <div class="flex flex-col">
-            <h3 class="line-clamp-1"><pre>Data File: <%= file_path %></pre></h3>
-
-            <b class="mt-4 mb-2">Events missing locations:</b>
-
-            <% events.each do |event| %>
-              <span><%= event.title %></span>
+        <div id="speakers" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 min-w-full mb-6">
+          <% @speakers_without_github.each do |speaker| %>
+            <%= link_to edit_speaker_path(speaker), id: dom_id(speaker), class: "flex justify-between hover:bg-gray-100 p-4 rounded-lg border bg-white", data: { turbo_frame: "modal" } do %>
+              <div class="flex items-center">
+                <span><%= speaker.name %></span>
+              </div>
             <% end %>
-          </div>
-        <% end %>
-      <% end %>
+          <% end %>
+
+          <% remaining_speakers_count = (@speakers_without_github_count - @speakers_without_github.count) %>
+
+          <% if remaining_speakers_count.positive? %>
+            <div class="flex items-center hover:bg-gray-100 p-4 rounded-lg border bg-white">
+              <span>and <%= remaining_speakers_count %> more</span>
+            </div>
+          <% end %>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="mt-16">
-    <h2 class="mb-4">Events without conference dates</h2>
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Talks without slides" style="width: 200px" />
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Talks without slides</h2>
 
-    <article class="prose mb-6">This section lists events that are missing conference dates. Adding conference dates allows us to show when this event took place, so we could show them in a calendar or similar.</article>
+        <article class="prose mb-6">These talks currently do not have slides attached. However, we know that the speaker has an account on Speakerdeck where they usually upload their slides. Feel free to explore if these talks have associated slidedecks on Speakerdeck.com.</article>
 
-    <div id="events-without-dates" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
-      <% Static::Playlist.where(start_date: nil).group_by(&:__file_path).each do |file_path, events| %>
-        <%= link_to "https://github.com/adrienpoly/rubyvideo/edit/main/#{file_path}", id: "event-#{file_path}", class: "hover:bg-gray-100 p-4 rounded-lg border bg-white", target: :_blank do %>
-          <div class="flex flex-col">
-            <h3 class="line-clamp-1"><pre>Data File: <%= file_path %></pre></h3>
-
-            <b class="mt-4 mb-2">Events missing locations:</b>
-
-            <% events.each do |event| %>
-              <span><%= event.title %></span>
+        <div id="speakers" class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4 min-w-full mb-6">
+          <% @talks_without_slides.each do |talk| %>
+            <%= link_to edit_talk_path(talk), id: dom_id(talk), class: "hover:bg-gray-100 p-4 rounded-lg border bg-white" do %>
+              <div class="flex flex-col">
+                <span class="font-bold"><%= talk.title %></span>
+                <span><%= talk.speakers.first.name %></span>
+              </div>
             <% end %>
-          </div>
-        <% end %>
-      <% end %>
+          <% end %>
+
+          <% remaining_talks_count = (@talks_without_slides_count - @talks_without_slides.count) %>
+
+          <% if remaining_talks_count.positive? %>
+            <div class="flex items-center hover:bg-gray-100 p-4 rounded-lg border bg-white">
+              <span>and <%= remaining_talks_count %> more</span>
+            </div>
+          <% end %>
+        </div>
+      </div>
+
+    </div>
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without locations" style="width: 200px" />
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Events without locations</h2>
+
+        <article class="prose mb-6">This section lists events that are missing location information. By adding a location, we can show in which city/country this event took place.</article>
+
+        <div id="events-without-locations" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
+          <% Static::Playlist.where(location: nil).group_by(&:__file_path).each do |file_path, events| %>
+            <%= link_to "https://github.com/adrienpoly/rubyvideo/edit/main/#{file_path}", id: "event-#{file_path}", class: "hover:bg-gray-100 p-4 rounded-lg border bg-white", target: :_blank do %>
+              <div class="flex flex-col">
+                <h3 class="line-clamp-1"><pre>Data File: <%= file_path %></pre></h3>
+
+                <b class="mt-4 mb-2">Events missing locations:</b>
+
+                <% events.each do |event| %>
+                  <span><%= event.title %></span>
+                <% end %>
+              </div>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without conference dates" style="width: 250px" />
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Events without conference dates</h2>
+
+        <article class="prose mb-6">This section lists events that are missing conference dates. Adding conference dates allows us to show when this event took place, so we could show them in a calendar or similar.</article>
+
+        <div id="events-without-dates" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
+          <% Static::Playlist.where(start_date: nil).group_by(&:__file_path).each do |file_path, events| %>
+            <%= link_to "https://github.com/adrienpoly/rubyvideo/edit/main/#{file_path}", id: "event-#{file_path}", class: "hover:bg-gray-100 p-4 rounded-lg border bg-white", target: :_blank do %>
+              <div class="flex flex-col">
+                <h3 class="line-clamp-1"><pre>Data File: <%= file_path %></pre></h3>
+
+                <b class="mt-4 mb-2">Events missing dates:</b>
+
+                <% events.each do |event| %>
+                  <span><%= event.title %></span>
+                <% end %>
+              </div>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
     </div>
   </div>
-
 </div>
