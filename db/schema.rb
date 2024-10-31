@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_10_29_112719) do
+ActiveRecord::Schema[8.0].define(version: 2024_10_31_112333) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -199,6 +199,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_29_112719) do
     t.string "language", default: "en", null: false
     t.string "slides_url"
     t.boolean "summarized_using_ai", default: true, null: false
+    t.string "kind", null: false
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["slug"], name: "index_talks_on_slug"
@@ -231,7 +232,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_29_112719) do
     t.string "name"
     t.string "github_handle"
     t.index ["email"], name: "index_users_on_email", unique: true
-    t.index ["github_handle"], name: "index_users_on_github_handle", unique: true, where: "github_handle IS NOT NULL"
+    t.index ["github_handle"], name: "index_users_on_github_handle", unique: true, where: "github_handle IS NOT NULL /*application='Rubyvideo'*/"
   end
 
   create_table "watch_list_talks", force: :cascade do |t|

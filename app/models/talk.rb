@@ -60,8 +60,12 @@ class Talk < ApplicationRecord
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
+  # callbacks
+  before_validation :set_kind
+
   # enums
   enum :video_provider, %w[youtube mp4].index_by(&:itself)
+  enum :kind, %w[standard keynote lightning_talk panel workshop].index_by(&:itself)
 
   # attributes
   attribute :video_provider, default: :youtube
@@ -285,5 +289,21 @@ class Talk < ApplicationRecord
       by #{speakers.map(&:name).to_sentence}
       at #{event.name}
     HEREDOC
+  end
+
+  def set_kind
+    self.kind =
+      case title
+      when /.*(keynote:|opening\ keynote|closing\ keynote).*/i
+        :keynote
+      when /.*workshop:.*/i
+        :workshop
+      when /.*panel:.*/i
+        :panel
+      when /.*lightning\ talk: .*/i
+        :lightning_talk
+      else
+        :standard
+      end
   end
 end

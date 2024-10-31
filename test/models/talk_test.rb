@@ -53,6 +53,25 @@ class TalkTest < ActiveSupport::TestCase
     assert @talk.transcript.cues.length > 100
   end
 
+  test "should guess kind from title" do
+    kind_with_titles = {
+      standard: ["I love Ruby"],
+      keynote: ["Keynote: foo ", "foo Opening keynote bar", "closing keynote foo bar"],
+      lightning_talk: ["lightning talk: foo"],
+      panel: ["Panel: foo"],
+      workshop: ["workshop: foo"]
+    }
+
+    kind_with_titles.each do |kind, titles|
+      titles.each do |title|
+        talk = Talk.new(title:)
+        talk.save!
+
+        assert_equal kind.to_s, talk.kind
+      end
+    end
+  end
+
   test "transcript should default to raw_transcript" do
     raw_transcript = Transcript.new(cues: [Cue.new(start_time: 0, end_time: 1, text: "Hello")])
     talk = Talk.new(title: "Sample Talk", raw_transcript: raw_transcript)
