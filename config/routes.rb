@@ -30,6 +30,8 @@ Rails.application.routes.draw do
     resource :password_reset, only: [:new, :edit, :create, :update]
   end
 
+  resources :contributions, only: [:index]
+
   # resources
   namespace :analytics do
     resource :dashboards, only: [:show] do
