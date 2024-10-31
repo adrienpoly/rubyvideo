@@ -19,7 +19,7 @@
   <% end %>
 
   <% if Rails.env.development? %>
-    <%= ui_button url: "https://rubyvideo.dev/speakers/#{@speaker.slug}", target: :_blank, kind: :ghost, size: :sm do %>
+    <%= ui_button url: speaker_url(@speaker, host: "https://rubyvideo.dev", port: 443), target: :_blank, kind: :ghost, size: :sm do %>
       <span>Show on RubyVideo.dev</span>
     <% end %>
   <% end %>
