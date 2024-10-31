@@ -4,7 +4,7 @@ class ContributionsController < ApplicationController
   def index
     speaker_ids_with_pending_github_suggestions = Suggestion.where("json_extract(content, '$.github') IS NOT NULL").where(suggestable_type: "Speaker").pluck(:suggestable_id)
 
-    speakers = Speaker.where(github: "").order(talks_count: :desc)
+    speakers = Speaker.without_github.order(talks_count: :desc)
     @speakers_without_github_count = speakers.count
     @speakers_without_github = speakers.where.not(id: speaker_ids_with_pending_github_suggestions).limit(11)
 
