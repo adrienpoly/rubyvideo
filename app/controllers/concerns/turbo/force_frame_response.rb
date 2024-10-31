@@ -13,7 +13,7 @@ module Turbo
     def force_frame_response
       return if turbo_frame_request?
 
-      redirect_to(request.referer || root_path)
+      redirect_back(fallback_location: root_path)
     end
   end
 end
