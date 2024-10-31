@@ -14,7 +14,7 @@
     <% end %>
   <% end %>
 
-  <%= ui_button url: "/admin/resources/speakers/#{@speaker.slug}", target: :_blank, kind: :ghost, size: :sm do %>
+  <%= ui_button url: avo.resources_speaker_path(@speaker), target: :_blank, kind: :ghost, size: :sm do %>
     <span>Open in Avo</span>
   <% end %>
 
