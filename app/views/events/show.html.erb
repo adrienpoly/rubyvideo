@@ -5,7 +5,7 @@
 <%= turbo_frame_tag dom_id(@event) do %>
   <div class="container py-8">
     <%= render partial: "navigation", locals: {event: @event} %>
-    
+
     <div class="flex items-start flex-wrap gap-8 sm:flex-nowrap w-full">
       <div class="w-full">
         <div id="talks" class="min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 h-full">
