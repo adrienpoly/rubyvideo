@@ -14,6 +14,15 @@ module IconHelper
     inline_svg_tag "icons/heroicons/#{variant}/#{icon_name.to_s.tr("_", "-")}.svg", class: classes, **options.except(:class)
   end
 
+  def fontawesome(icon_name, size: :md, type: :regular, style: :solid, **options)
+    classes = class_names(SIZE_CLASSES[size], options[:class])
+    inline_svg_tag "icons/fontawesome/#{icon_name}-#{type}-#{style}.svg", class: classes, **options.except(:class)
+  end
+
+  def fab(icon_name, **options)
+    fontawesome(icon_name, type: :brands, **options.except(:type))
+  end
+
   def icon(icon_name, size: :md, **options)
     classes = class_names(SIZE_CLASSES[size], options.delete(:class))
     inline_svg_tag("icons/icn-#{icon_name}.svg", class: classes, **options)

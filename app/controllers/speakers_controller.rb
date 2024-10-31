@@ -4,7 +4,7 @@ class SpeakersController < ApplicationController
   before_action :set_user_favorites, only: %i[show]
   include Pagy::Backend
   include RemoteModal
-  allowed_remote_modal_actions :edit
+  respond_with_remote_modal only: [:edit]
 
   # GET /speakers
   def index
@@ -59,12 +59,20 @@ class SpeakersController < ApplicationController
   end
 
   def speaker_params
-    {
-      anonymous: params.require(:speaker).permit(:github, :pronouns_type, :pronouns),
-      signed_in: params.require(:speaker).permit(:github, :pronouns_type, :pronouns),
-      owner: params.require(:speaker).permit(:name, :twitter, :bio, :website, :speakerdeck, :pronouns_type, :pronouns),
-      admin: params.require(:speaker).permit(:name, :twitter, :github, :bio, :website, :speakerdeck, :pronouns_type, :pronouns)
-    } [user_kind]
+    params.require(:speaker).permit(
+      :name,
+      :github,
+      :twitter,
+      :bsky,
+      :linkedin,
+      :mastodon,
+      :bio,
+      :website,
+      :speakerdeck,
+      :pronouns_type,
+      :pronouns,
+      :slug
+    )
   end
 
   def set_user_favorites

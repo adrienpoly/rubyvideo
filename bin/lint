@@ -17,4 +17,4 @@ bundle exec erblint --lint-all --autocorrect
 
 # Check YAML file formatting
 echo "Checking YAML file formatting in data/ ..."
-yarn prettier --write data/**/*.yml
+yarn prettier --write data/**/**/*.yml

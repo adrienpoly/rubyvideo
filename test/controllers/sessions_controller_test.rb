@@ -12,9 +12,16 @@ class SessionsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get new" do
-    get sign_in_url
+  test "should get new in a remote modal" do
+    get sign_in_url, headers: {"Turbo-Frame" => "modal"}
     assert_response :success
+    assert_template "sessions/new"
+  end
+
+  test "should redirect to root when not in a remote modal" do
+    get sign_in_url
+    assert_response :redirect
+    assert_redirected_to root_url
   end
 
   test "should sign in" do
