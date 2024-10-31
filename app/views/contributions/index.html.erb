@@ -38,7 +38,7 @@
       <% remaining_speakers_count = (@speakers_without_github_count - @speakers_without_github.count) %>
 
       <% if remaining_speakers_count.positive? %>
-        <div class="flex items-center hover:bg-gray-100 p-4 rounded-lg border">
+        <div class="flex items-center hover:bg-gray-100 p-4 rounded-lg border bg-white">
           <span>and <%= remaining_speakers_count %> more</span>
         </div>
       <% end %>
@@ -48,7 +48,7 @@
   <div class="mt-16">
     <h2 class="mb-4">Talks without slides</h2>
 
-    <article class="prose mb-6">These talks currently do not have slides attached. However, we know that this speaker has an account on Speakerdeck where they usually upload their slides. Feel free to explore if these talks have associated slidedecks on Speakerdeck.com.</article>
+    <article class="prose mb-6">These talks currently do not have slides attached. However, we know that the speaker has an account on Speakerdeck where they usually upload their slides. Feel free to explore if these talks have associated slidedecks on Speakerdeck.com.</article>
 
     <div id="speakers" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 min-w-full mb-6">
       <% @talks_without_slides.each do |talk| %>
@@ -63,7 +63,7 @@
       <% remaining_talks_count = (@talks_without_slides_count - @talks_without_slides.count) %>
 
       <% if remaining_talks_count.positive? %>
-        <div class="flex items-center hover:bg-gray-100 p-4 rounded-lg border">
+        <div class="flex items-center hover:bg-gray-100 p-4 rounded-lg border bg-white">
           <span>and <%= remaining_talks_count %> more</span>
         </div>
       <% end %>
