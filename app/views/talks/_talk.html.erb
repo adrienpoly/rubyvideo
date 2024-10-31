@@ -41,7 +41,7 @@
                   <% next unless speaker.github.present? %>
 
                   <div class="avatar">
-                    <%= link_to speaker, class: "w-12 bg-primary" do %>
+                    <%= content_tag :div, class: "w-12 bg-primary cursor-pointer", onclick: 'document.querySelector("[name=talk_tabs][aria-label=Speakers]").checked = true' do %>
                       <%= image_tag speaker.github_avatar_url(size: 48) %>
                     <% end %>
                   </div>
@@ -125,6 +125,18 @@
           <a class="btn btn-primary mt-6" href="<%= talk.slides_url %>" target="_blank">See Slides on <%= uri.host %></a>
         </div>
       <% end %>
+
+      <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="<%= "Speaker".pluralize(talk.speakers.count) %>">
+      <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <% talk.speakers.each do |speaker| %>
+            <div class="border rounded-lg hover:bg-gray-200 transition-bg duration-300 ease-in-out">
+              <%= render partial: "talks/speaker", locals: {speaker: speaker} %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+
     </div>
   </div>
 <% end %>
