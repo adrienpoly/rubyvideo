@@ -1,32 +1,34 @@
-<%= turbo_refreshes_with method: :morph, scroll: :preserve %>
-
 <%= render partial: "events/header", locals: {event: @event} %>
 
-<div class="container py-8">
-  <div class="flex items-start flex-wrap gap-8 sm:flex-nowrap w-full">
-    <div class="w-full">
+<%= turbo_frame_tag dom_id(@event) do %>
+  <div class="container py-8">
+    <%= render partial: "events/navigation", locals: {event: @event} %>
 
-      <% if @event.keynote_speakers.any? %>
-        <h2 class="mb-6">Keynote Speakers</h2>
+    <div class="flex items-start flex-wrap gap-8 sm:flex-nowrap w-full">
+      <div class="w-full">
 
-        <div id="keynote-speakers" class="mb-12 min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 h-full">
-          <% @event.keynote_speakers.each do |speaker| %>
+        <% if @event.keynote_speakers.any? %>
+          <h2 class="mb-6">Keynote Speakers</h2>
+
+          <div id="keynote-speakers" class="mb-12 min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 h-full">
+            <% @event.keynote_speakers.each do |speaker| %>
+              <div class="border rounded-lg bg-white hover:bg-gray-200 transition-bg duration-300 ease-in-out">
+                <%= render partial: "talks/speaker", locals: {speaker: speaker} %>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+
+        <h2 class="mb-6">Speakers</h2>
+
+        <div id="speakers" class="mb-12 min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 h-full">
+          <% @event.speakers.excluding(@event.keynote_speakers).each do |speaker| %>
             <div class="border rounded-lg bg-white hover:bg-gray-200 transition-bg duration-300 ease-in-out">
               <%= render partial: "talks/speaker", locals: {speaker: speaker} %>
             </div>
           <% end %>
         </div>
-      <% end %>
-
-      <h2 class="mb-6">Speakers</h2>
-
-      <div id="speakers" class="mb-12 min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 h-full">
-        <% @event.speakers.excluding(@event.keynote_speakers).each do |speaker| %>
-          <div class="border rounded-lg bg-white hover:bg-gray-200 transition-bg duration-300 ease-in-out">
-            <%= render partial: "talks/speaker", locals: {speaker: speaker} %>
-          </div>
-        <% end %>
       </div>
     </div>
   </div>
-</div>
+<% end %>
