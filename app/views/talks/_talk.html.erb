@@ -1,8 +1,9 @@
 <%# locals: (talk:) -%>
 
+<% video_player_controller = talk.external_player ? nil : "video-player" %>
 <%= content_tag :div, id: dom_id(talk),
       data: {
-        controller: "video-player",
+        controller: video_player_controller,
         video_player_poster_value: talk.thumbnail_lg,
         video_player_provider_value: (talk.video_provider == "mp4") ? nil : talk.video_provider,
         video_player_src_value: talk.video_id
