@@ -186,11 +186,11 @@ class Talk < ApplicationRecord
       end
     end
 
-    if event && (asset = Rails.application.assets.load_path.find(event.poster_image_path)) && video_provider != "youtube"
+    if event && (asset = Rails.application.assets.load_path.find(event.poster_image_path)) && !youtube?
       return "/assets/#{asset.digested_path}"
     end
 
-    return fallback_thumbnail if video_provider != "youtube"
+    return fallback_thumbnail unless youtube?
 
     youtube = {
       thumbnail_xs: "default",
