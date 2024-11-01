@@ -72,7 +72,9 @@
   year: "2015"
   videos_count: 101
   slug: railsconf-2015
-  banner_background: ""
+  banner_background: "#481A4F"
+  featured_background: "#481A4F"
+  featured_color: "#EE9121"
 
 - id: PLE7tQUdRKcyZGYLfj6oRQWPxB6ijg1YsC
   title: RailsConf 2016
