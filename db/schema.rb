@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_10_29_112719) do
+ActiveRecord::Schema[8.0].define(version: 2024_11_01_185604) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -199,6 +199,8 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_29_112719) do
     t.string "language", default: "en", null: false
     t.string "slides_url"
     t.boolean "summarized_using_ai", default: true, null: false
+    t.boolean "external_player", default: false, null: false
+    t.string "external_player_url", default: "", null: false
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["slug"], name: "index_talks_on_slug"

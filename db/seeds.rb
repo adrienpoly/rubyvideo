@@ -51,7 +51,7 @@ MeiliSearch::Rails.deactivate! do
         end
 
         Talk
-          .find_or_initialize_by(video_id: talk_data["video_id"], video_provider: :youtube)
+          .find_or_initialize_by(video_id: talk_data["video_id"], video_provider: talk_data["video_provider"] || :youtube)
           .update_from_yml_metadata!(event: event)
       rescue ActiveRecord::RecordInvalid => e
         puts "Couldn't save: #{talk_data["title"]}, error: #{e.message}"

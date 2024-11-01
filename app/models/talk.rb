@@ -170,7 +170,7 @@ class Talk < ApplicationRecord
   end
 
   def fallback_thumbnail
-    "/assets/#{Rails.application.assets.load_path.find("posters/fallback.png").digested_path}"
+    "/assets/#{Rails.application.assets.load_path.find("events/default/poster.webp").digested_path}"
   end
 
   def thumbnail(size = :thumbnail_lg)
@@ -179,12 +179,18 @@ class Talk < ApplicationRecord
 
       if (asset = Rails.application.assets.load_path.find(self[size]))
         return "/assets/#{asset.digested_path}"
+      elsif event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
+        return "/assets/#{asset.digested_path}"
       else
         return fallback_thumbnail
       end
     end
 
-    return fallback_thumbnail if video_provider != "youtube"
+    if event && (asset = Rails.application.assets.load_path.find(event.poster_image_path)) && !youtube?
+      return "/assets/#{asset.digested_path}"
+    end
+
+    return fallback_thumbnail unless youtube?
 
     youtube = {
       thumbnail_xs: "default",
@@ -263,7 +269,9 @@ class Talk < ApplicationRecord
       thumbnail_xl: static_metadata.thumbnail_xl || "",
       language: static_metadata.language || Language::DEFAULT,
       slides_url: static_metadata.slides_url,
-      video_provider: static_metadata.video_provider || :youtube
+      video_provider: static_metadata.video_provider || :youtube,
+      external_player: static_metadata.external_player || false,
+      external_player_url: static_metadata.external_player_url || ""
     )
 
     self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
