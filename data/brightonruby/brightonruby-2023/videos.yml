@@ -11,6 +11,8 @@
   # thumbnail_lg: https://brightonruby.com/images/2023/photos/Eileen3_IMG1335.jpg
   # thumbnail_xl: https://brightonruby.com/images/2023/photos/Eileen3_IMG1335.jpg
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/the-magic-of-rails-eileen-uchitelle
   video_id: https://videos.brightonruby.com/videos/2023/eileen-uchitelle-the-magic-of-rails.mp4
   slides_url: https://speakerdeck.com/eileencodes/brighton-ruby-2023-the-magic-of-rails
   description: |-
@@ -30,6 +32,8 @@
   # thumbnail_lg: https://brightonruby.com/images/2023/photos/Schwad5_IMG1394.jpg
   # thumbnail_xl: https://brightonruby.com/images/2023/photos/Schwad5_IMG1394.jpg
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/scarpe-diem-nick-schwaderer
   video_id: https://videos.brightonruby.com/videos/2023/nick-schwaderer-scarpe-diem.mp4
   description: |-
     Why the Lucky Stiff, one of the most beloved members of the historical Ruby community, is widely known for his seminal Poignant Guide to Ruby. His second-most ambitious writing, NOBODY KNOWS SHOES, is lesser-known. This text was the manual for an amazing set of tools _why developed in 2007 called Shoes.rb.
@@ -47,6 +51,8 @@
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/librarians-guide-to-documentation-kaitlyn-tierney
   video_id: https://videos.brightonruby.com/videos/2023/kaitlyn-tierney-librarians-guide-to-documentation.mp4
   description: |-
     Learn how to leverage librarian skills to create and maintain internal documentation that works for you.
@@ -60,6 +66,8 @@
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/when-should-you-not-use-rails-noah-gibbs
   video_id: https://videos.brightonruby.com/videos/2023/noah-gibbs-when-should-you-not-use-rails.mp4
   description: |-
     Rails is a great tool for a lot of projects, but not every project.
@@ -73,6 +81,8 @@
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/twenty-years-of-ruby-in-five-minutes-paul-battley
   video_id: https://videos.brightonruby.com/videos/2023/paul-battley-twenty-years-of-ruby-in-five-minutes.mp4
   description: |-
     I’ve been working with Ruby since the early 2000s. Ruby has changed a lot in that time, but we don’t always remember how much. Let’s rewrite a short program so that it runs in a twenty-year-old version of Ruby and see how much syntax and performance has changed for the better in twenty years.
@@ -88,6 +98,8 @@
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/five-things-i-love-about-ruby-hana-harencarova
   video_id: https://videos.brightonruby.com/videos/2023/hana-harencarova-five-things-i-love-about-ruby.mp4
   description: |-
     The talk caters to both newcomers and veterans of the Ruby world and offers a humorous yet informative perspective on the language and its community. It will cover various Ruby events and initiatives, diversity of the Ruby community, and more. Let’s appreciate our Ruby world together.
@@ -99,6 +111,8 @@
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/ux-doesnt-equal-front-end-lizz-jennings
   video_id: https://videos.brightonruby.com/videos/2023/lizz-jennings-ux-doesnt-equal-front-end.mp4
   description: |-
     When people think of usability improvements, they often think of the front end. But when you really understand your domain, using the power of the back end can be the best way to save your users’ time.
@@ -114,6 +128,8 @@
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/how-to-write-a-custom-rubocop-rule-jade-dickinson
   video_id: https://videos.brightonruby.com/videos/2023/jade-dickinson-how-to-write-a-custom-rubocop-rule.mp4
   description: |-
     You want to enforce a standard in your codebase, like making sure a company name is in title case. So you add “always check for correct capitalisation” to your pull request guidelines. Over time, people forget to check and mistakes sneak in.
@@ -127,6 +143,8 @@
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/beware-job-smearing-maple-ong
   video_id: https://videos.brightonruby.com/videos/2023/maple-ong-beware-job-smearing.mp4
   description: |-
     What does Matthew McConaughey have in common with an uncomfortable sounding procedure and job frameworks?
@@ -140,6 +158,8 @@
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/livin-la-vida-hanami-tim-riley
   video_id: https://videos.brightonruby.com/videos/2023/tim-riley-livin-la-vida-hanami.mp4
   description: |-
     You’re into applications Fast tests and method calls I feel a premonition This gem’s gonna stun you all
@@ -159,6 +179,8 @@
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/the-case-of-the-vanished-variable-nadia-odunayo
   video_id: https://videos.brightonruby.com/videos/2023/nadia-odunayo-the-case-of-the-vanished-variable.mp4
   description: |-
     After a stressful couple of days at work, Deirdre Bug is looking forward to a quiet evening in. But her plans are thwarted when the phone rings. “I know I’m the last person you want to hear from…but…I need your help!”
@@ -172,6 +194,8 @@
   event_name: Brighton Ruby 2023
   published_at: "2023-06-30"
   video_provider: mp4
+  external_player: true
+  external_player_url: https://brightonruby.com/2023/new-game-joe-hart
   video_id: https://videos.brightonruby.com/videos/2023/joe-hart-new-game.mp4
   description: |-
     Fun and interactive games abound in this talk come work in progress interactive entertainment show. You’ll need yourself, a phone and good vibes.

@@ -269,7 +269,9 @@ class Talk < ApplicationRecord
       thumbnail_xl: static_metadata.thumbnail_xl || "",
       language: static_metadata.language || Language::DEFAULT,
       slides_url: static_metadata.slides_url,
-      video_provider: static_metadata.video_provider || :youtube
+      video_provider: static_metadata.video_provider || :youtube,
+      external_player: static_metadata.external_player || false,
+      external_player_url: static_metadata.external_player_url || ""
     )
 
     self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
