@@ -43,6 +43,7 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :year, as: :number, hide_on: :index
     field :video_id, as: :text, hide_on: :index
     field :video_provider, as: :text, hide_on: :index
+    field :external_player, as: :boolean, hide_on: :index
     field :thumbnail_xs, as: :external_image, hide_on: :index
     field :thumbnail_sm, as: :external_image, hide_on: :index
     field :thumbnail_md, as: :external_image, hide_on: :index
