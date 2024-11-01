@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Talks without slides" style="width: 200px">
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Talks without slides" style="width: 175px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
         <h2 class="mb-4">Talks without slides</h2>
@@ -79,6 +79,31 @@
         </div>
       </div>
 
+    </div>
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without videos" style="width: 200px">
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Events without videos</h2>
+
+        <article class="prose mb-6">This section highlights events that do not have associated videos available. Explore these events to see if the talks weren't recorded or just not yet added the site.</article>
+
+        <div id="events-without-locations" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
+          <% Event.left_joins(:talks).where(talks_count: 0).group_by(&:organisation).each do |organisation, events| %>
+            <%= content_tag :div, id: dom_id(organisation, "without-videos"), class: "p-4 rounded-lg border bg-white", target: :_blank do %>
+              <div class="flex flex-col">
+                <h3 class="line-clamp-1"><p>Organisation: <%= link_to organisation.name, organisation, class: "hover:underline" %></p></h3>
+
+                <b class="mt-4 mb-2">Events without videos:</b>
+
+                <% events.each do |event| %>
+                  <span><%= link_to event.name, event, class: "hover:underline" %></span>
+                <% end %>
+              </div>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
     </div>
 
     <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without locations" style="width: 200px">
