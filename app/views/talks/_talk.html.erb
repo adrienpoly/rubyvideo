@@ -10,8 +10,17 @@
 
   <div class="aspect-video banner-img card-horizontal-img relative" style="view-transition-name: <%= dom_id(talk, :image) %>">
     <% if talk.external_player %>
-      <%= link_to talk.external_player_url, target: "_blank" do %>
+      <%= link_to talk.external_player_url, target: "_blank", class: "relative w-full h-full" do %>
         <%= image_tag talk.thumbnail_lg, class: "w-full h-full object-cover" %>
+
+        <div class="absolute top-0 text-white w-full h-full bg-black/80 flex flex-col gap-6 justify-center items-center font-bold text-xl">
+          This talk is only viewable on <%= URI.parse(talk.external_player_url).host %>
+
+          <%= ui_button do %>
+            <%= fa("play", size: :sm, class: "fill-white") %> Play on <%= URI.parse(talk.external_player_url).host %>
+          <% end %>
+        </div>
+
       <% end %>
     <% else %>
       <% if talk.video_provider == "mp4" %>
