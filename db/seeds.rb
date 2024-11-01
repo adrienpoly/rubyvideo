@@ -15,7 +15,7 @@ end
 
 MeiliSearch::Rails.deactivate! do
   organisations.each do |org|
-    organisation = Organisation.find_or_create_by!(slug: org["slug"])
+    organisation = Organisation.find_or_initialize_by(slug: org["slug"])
 
     organisation.update!(
       name: org["name"],
