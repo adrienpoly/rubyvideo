@@ -26,10 +26,10 @@
       </article>
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Speakers without GitHub handles" style="width: 275px">
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Speakers without GitHub handles (<%= @speakers_without_github_count %>)" style="width: 300px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
-        <h2 class="mb-4">Speakers without GitHub handles</h2>
+        <h2 class="mb-4">Speakers without GitHub handles (<%= @speakers_without_github_count %>)</h2>
 
         <article class="prose mb-6">These speakers are currently missing a GitHub handle. By adding a GitHub handle to their profile, we can enhance their speaker profiles with an avatar and automatically retrieve additional information.</article>
 
@@ -53,10 +53,10 @@
       </div>
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Talks without slides" style="width: 175px">
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Talks without slides (<%= @talks_without_slides_count %>)" style="width: 200px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
-        <h2 class="mb-4">Talks without slides</h2>
+        <h2 class="mb-4">Talks without slides (<%= @talks_without_slides_count %>)</h2>
 
         <article class="prose mb-6">These talks currently do not have slides attached. However, we know that the speaker has an account on Speakerdeck where they usually upload their slides. Feel free to explore if these talks have associated slidedecks on Speakerdeck.com.</article>
 
@@ -82,15 +82,15 @@
 
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without videos" style="width: 200px">
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without videos (<%= @events_without_videos_count %>)" style="width: 225px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
-        <h2 class="mb-4">Events without videos</h2>
+        <h2 class="mb-4">Events without videos (<%= @events_without_videos_count %>)</h2>
 
         <article class="prose mb-6">This section highlights events that do not have associated videos available. Explore these events to see if the talks weren't recorded or just not yet added the site.</article>
 
         <div id="events-without-locations" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
-          <% Event.left_joins(:talks).where(talks_count: 0).group_by(&:organisation).each do |organisation, events| %>
+          <% @events_without_videos.each do |organisation, events| %>
             <%= content_tag :div, id: dom_id(organisation, "without-videos"), class: "p-4 rounded-lg border bg-white", target: :_blank do %>
               <div class="flex flex-col">
                 <h3 class="line-clamp-1"><p>Organisation: <%= link_to organisation.name, organisation, class: "hover:underline" %></p></h3>
@@ -107,15 +107,15 @@
       </div>
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without locations" style="width: 200px">
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without locations (<%= @events_without_location_count %>)" style="width: 225px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
-        <h2 class="mb-4">Events without locations</h2>
+        <h2 class="mb-4">Events without locations (<%= @events_without_location_count %>)</h2>
 
         <article class="prose mb-6">This section lists events that are missing location information. By adding a location, we can show in which city/country this event took place.</article>
 
         <div id="events-without-locations" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
-          <% Static::Playlist.where(location: nil).group_by(&:__file_path).each do |file_path, events| %>
+          <% @events_without_location.each do |file_path, events| %>
             <%= link_to "https://github.com/adrienpoly/rubyvideo/edit/main/#{file_path}", id: "event-#{file_path}", class: "hover:bg-gray-100 p-4 rounded-lg border bg-white", target: :_blank do %>
               <div class="flex flex-col">
                 <h3 class="line-clamp-1"><pre>Data File: <%= file_path %></pre></h3>
@@ -132,15 +132,16 @@
       </div>
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without conference dates" style="width: 250px">
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without conference dates (<%= @events_without_dates_count %>)" style="width: 300px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
-        <h2 class="mb-4">Events without conference dates</h2>
+        <h2 class="mb-4">Events without conference dates (<%= @events_without_dates_count %>)</h2>
 
         <article class="prose mb-6">This section lists events that are missing conference dates. Adding conference dates allows us to show when this event took place, so we could show them in a calendar or similar.</article>
 
         <div id="events-without-dates" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
-          <% Static::Playlist.where(start_date: nil).group_by(&:__file_path).each do |file_path, events| %>
+          <% @events_without_dates.each do |file_path, events| %>
             <%= link_to "https://github.com/adrienpoly/rubyvideo/edit/main/#{file_path}", id: "event-#{file_path}", class: "hover:bg-gray-100 p-4 rounded-lg border bg-white", target: :_blank do %>
               <div class="flex flex-col">
                 <h3 class="line-clamp-1"><pre>Data File: <%= file_path %></pre></h3>
@@ -157,34 +158,23 @@
       </div>
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Review Talk Dates" style="width: 175px">
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Review Talk Dates (<%= @out_of_bound_talks_count %>)" style="width: 200px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
-        <h2 class="mb-4">Review Talk Dates</h2>
+        <h2 class="mb-4">Review Talk Dates (<%= @out_of_bound_talks_count %>)</h2>
 
         <article class="prose mb-6">This section shows talks with dates that don't quite match the event dates. Sometimes we only have the year for certain events, so we use that as a reference.</article>
 
-        <%
-          dates_by_event_name = (
-            Static::Playlist.all.where.not(start_date: nil).pluck(:title, :start_date, :end_date).select { |_, start_date| start_date.present? }.map { |name, start_date, end_date| [name, Date.parse(start_date)..Date.parse(end_date)] }.union(
-              Static::Playlist.all.where(start_date: nil).pluck(:title, :year).map { |title, year| [title, Date.parse("#{year}-01-01").all_year] }
-            )
-          ).to_h
-        %>
-
-        <% talks = Talk.preload(:event).to_a.select { |talk| talk.event.name.in?(dates_by_event_name.keys) }.group_by(&:event) %>
-
-        <% out_of_bound_talks = talks.map { |event, talks| [event, talks.reject { |talk| dates_by_event_name[event.name].cover?(talk.date) }] } %>
-
         <div id="talks-dates-out-of-bounds" class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4 min-w-full mb-6">
-          <% out_of_bound_talks.select { |_event, talks| talks.any? }.each do |event, talks| %>
+          <% @out_of_bound_talks.select { |_event, talks| talks.any? }.each do |event, talks| %>
             <%= content_tag :div, id: dom_id(event), class: "p-4 rounded-lg border bg-white", target: :_blank do %>
               <article class="prose">
                 <h3 class="line-clamp-1">Event: <%= event.name %></h3>
 
                 <b class="mt-4 mb-2">Talk date is outside event dates:</b>
 
-                <p class="mb-2">Event Dates: <%= dates_by_event_name[event.name].inspect %></p>
+                <p class="mb-2">Event Dates: <%= @dates_by_event_name[event.name].inspect %></p>
 
                 <ul>
                   <% talks.each do |talk| %>
@@ -198,10 +188,10 @@
       </div>
     </div>
 
-    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Add missing events" style="width: 175px">
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Add missing events (<%= @conferences_to_index %>)" style="width: 225px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
-        <h2 class="mb-4">Add missing events</h2>
+        <h2 class="mb-4">Add missing events (<%= @conferences_to_index %>)</h2>
 
         <article class="prose mb-6">
           <p>If you know of an event that's not yet on RubyVideo.dev, please feel free to add it. This includes events in the future, events with unrecorded talks, or events with talks not yet uploaded online.</p>
@@ -211,27 +201,17 @@
           <p>If you would like to contribute data for any of the events listed below, please refer to <a href="https://github.com/adrienpoly/rubyvideo/blob/main/docs/contributing.md" target="_blank">this guide</a> to add the event to the site.</p>
         </article>
 
-        <% upstream_conferences = RubyConferences::Client.new.conferences_cached.reverse %>
-        <% conference_names = Event.all.pluck(:name) %>
-        <% pending_conferences = upstream_conferences.reject { |conference| conference["name"].in?(conference_names) } %>
-
-        <% with_video_link, without_video_link = pending_conferences.partition { |conference| conference["video_link"].present? } %>
-
-        <% conferences_to_index = with_video_link.count + without_video_link.count %>
-        <% already_index_conferences = upstream_conferences.count - conferences_to_index %>
-
         <h3 class="font-bold mb-3">Conferences from RubyConferences.org we already indexed</h3>
 
         <article class="prose mb-6">
-          <p>We already indexed <%= pluralize(already_index_conferences, "conference") %> out of the <%= pluralize(upstream_conferences.count, "conference") %> listed on RubyConferences.org.</p>
+          <p>We already indexed <%= pluralize(@already_index_conferences, "conference") %> out of the <%= pluralize(@upstream_conferences.count, "conference") %> listed on RubyConferences.org.</p>
 
-          <p>There are <%= pluralize(conferences_to_index, "more conference") %> from RubyConferences.org to be added to RubyVideo.dev.</p>
+          <p>There are <%= pluralize(@conferences_to_index, "more conference") %> from RubyConferences.org to be added to RubyVideo.dev.</p>
         </article>
 
-
-        <h3 class="font-bold mb-3">Conferences from RubyConferences.org with a video link (<%= pluralize(with_video_link.count, "event") %>)</h3>
+        <h3 class="font-bold mb-3">Conferences from RubyConferences.org with a video link (<%= pluralize(@with_video_link.count, "event") %>)</h3>
         <div id="missing-conferences-with-link" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
-          <% with_video_link.each do |event| %>
+          <% @with_video_link.each do |event| %>
             <%= link_to event["video_link"], id: "#{event["name"]}-pending", class: "hover:bg-gray-100 p-4 rounded-lg border bg-white", target: :_blank do %>
               <div class="flex flex-col">
                 <h3 class="line-clamp-1 font-semibold"><%= event["name"] %></h3>
@@ -242,9 +222,9 @@
           <% end %>
         </div>
 
-        <h3 class="font-bold mb-3">Conferences from RubyConferences.org without a video link (<%= pluralize(without_video_link.count, "event") %>)</h3>
+        <h3 class="font-bold mb-3">Conferences from RubyConferences.org without a video link (<%= pluralize(@without_video_link.count, "event") %>)</h3>
         <div id="missing-conferences-without-link" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
-          <% without_video_link.each do |event| %>
+          <% @without_video_link.each do |event| %>
             <%= link_to event["url"], id: "#{event["name"]}-pending", class: "hover:bg-gray-100 p-4 rounded-lg border bg-white", target: :_blank do %>
               <div class="flex flex-col">
                 <h3 class="line-clamp-1 font-semibold"><%= event["name"] %></h3>
