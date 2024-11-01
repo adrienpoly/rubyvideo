@@ -20,13 +20,13 @@ MeiliSearch::Rails.deactivate! do
     organisation.update!(
       name: org["name"],
       website: org["website"],
-      twitter: org["twitter"],
+      twitter: org["twitter"] || "",
       youtube_channel_name: org["youtube_channel_name"],
       kind: org["kind"],
       frequency: org["frequency"],
       youtube_channel_id: org["youtube_channel_id"],
       slug: org["slug"],
-      language: org["language"]
+      language: org["language"] || ""
     )
 
     events = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/playlists.yml")
