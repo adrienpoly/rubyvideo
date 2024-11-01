@@ -8,7 +8,7 @@
 #  description         :text             default(""), not null
 #  slug                :string           default(""), not null
 #  video_id            :string           default(""), not null
-#  video_provider      :string           default(""), not null
+#  video_provider      :string           default("youtube"), not null
 #  thumbnail_sm        :string           default(""), not null
 #  thumbnail_md        :string           default(""), not null
 #  thumbnail_lg        :string           default(""), not null
@@ -20,10 +20,14 @@
 #  date                :date
 #  like_count          :integer
 #  view_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x00000001645d16b8 @cues=[]>), not null
-#  enhanced_transcript :text             default(#<Transcript:0x00000001645d15c8 @cues=[]>), not null
+#  raw_transcript      :text             default(#<Transcript:0x000000013ac74120 @cues=[]>), not null
+#  enhanced_transcript :text             default(#<Transcript:0x000000013ac74030 @cues=[]>), not null
 #  summary             :text             default(""), not null
 #  language            :string           default("en"), not null
+#  slides_url          :string
+#  summarized_using_ai :boolean          default(TRUE), not null
+#  external_player     :boolean          default(FALSE), not null
+#  external_player_url :string           default(""), not null
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
