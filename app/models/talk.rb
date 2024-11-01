@@ -207,6 +207,19 @@ class Talk < ApplicationRecord
     "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
   end
 
+  def external_player_url
+    self[:external_player_url].presence || provider_url
+  end
+
+  def provider_url
+    case video_provider
+    when "youtube"
+      "https://www.youtube.com/watch?v=#{video_id}"
+    else
+      "#"
+    end
+  end
+
   def related_talks(limit: 6)
     ids = Rails.cache.fetch(["talk_recommendations", id, limit], expires_in: 1.week) do
       Talk.order("RANDOM()").excluding(self).limit(limit).ids
