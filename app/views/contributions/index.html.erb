@@ -18,6 +18,7 @@
           <li>Help identify speakers based on conference screenshots</li>
           <li>Contribute by adding last names to speakers</li>
           <li>Attach Slides to talks</li>
+          <li>Review the date when the talk was given</li>
           <li>Add location information to conferences</li>
           <li>Add event dates to conferences</li>
           <li>Add data for new conferences</li>
@@ -150,6 +151,47 @@
                   <span><%= event.title %></span>
                 <% end %>
               </div>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Review Talk Dates" style="width: 175px">
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Review Talk Dates</h2>
+
+        <article class="prose mb-6">This section shows talks with dates that don't quite match the event dates. Sometimes we only have the year for certain events, so we use that as a reference.</article>
+
+        <%
+          dates_by_event_name = (
+            Static::Playlist.all.where.not(start_date: nil).pluck(:title, :start_date, :end_date).select { |_, start_date| start_date.present? }.map { |name, start_date, end_date| [name, Date.parse(start_date)..Date.parse(end_date)] }.union(
+              Static::Playlist.all.where(start_date: nil).pluck(:title, :year).map { |title, year| [title, Date.parse("#{year}-01-01").all_year] }
+            )
+          ).to_h
+        %>
+
+        <% talks = Talk.preload(:event).to_a.select { |talk| talk.event.name.in?(dates_by_event_name.keys) }.group_by(&:event) %>
+
+        <% out_of_bound_talks = talks.map { |event, talks| [event, talks.reject { |talk| dates_by_event_name[event.name].cover?(talk.date) }] } %>
+
+        <div id="talks-dates-out-of-bounds" class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4 min-w-full mb-6">
+          <% out_of_bound_talks.select { |_event, talks| talks.any? }.each do |event, talks| %>
+            <%= content_tag :div, id: dom_id(event), class: "p-4 rounded-lg border bg-white", target: :_blank do %>
+              <article class="prose">
+                <h3 class="line-clamp-1">Event: <%= event.name %></h3>
+
+                <b class="mt-4 mb-2">Talk date is outside event dates:</b>
+
+                <p class="mb-2">Event Dates: <%= dates_by_event_name[event.name].inspect %></p>
+
+                <ul>
+                  <% talks.each do |talk| %>
+                    <li><%= link_to talk.title %> (<%= link_to talk.date.to_fs(:long) %>)</li>
+                  <% end %>
+                </ul>
+              </article>
             <% end %>
           <% end %>
         </div>
