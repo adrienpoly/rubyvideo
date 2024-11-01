@@ -39,12 +39,14 @@
   location: "Portland, OR"
   description: "RailsConf Portland - April 29-May 2, 2013"
   published_at: "2013-06-25"
-  start_date: "2013-04-20"
+  start_date: "2013-04-29"
   end_date: "2013-05-02"
   year: "2013"
   videos_count: 70
   slug: railsconf-2013
-  banner_background: ""
+  banner_background: "#55B2AE"
+  featured_background: "#55B2AE"
+  featured_color: "#FEF7E5"
 
 - id: PLE7tQUdRKcyZ5jfnbS_osIoWzK_FrwKz5
   title: RailsConf 2014
