@@ -20,7 +20,7 @@
           <li>Attach Slides to talks</li>
           <li>Add location information to conferences</li>
           <li>Add event dates to conferences</li>
-          <li>Add information about new conferences</li>
+          <li>Add data for new conferences</li>
         </ul>
       </article>
     </div>
@@ -123,6 +123,69 @@
 
                 <% events.each do |event| %>
                   <span><%= event.title %></span>
+                <% end %>
+              </div>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Add missing events" style="width: 175px">
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Add missing events</h2>
+
+        <article class="prose mb-6">
+          <p>If you know of an event that's not yet on RubyVideo.dev, please feel free to add it. This includes events in the future, events with unrecorded talks, or events with talks not yet uploaded online.</p>
+
+          <p>We are checking against <a href="https://rubyconferences.org" target="_blank">rubyconferences.org</a> to identify missing events. Below, we will list conferences with video links first, followed by those without a video link.</p>
+
+          <p>If you would like to contribute data for any of the events listed below, please refer to <a href="https://github.com/adrienpoly/rubyvideo/blob/main/docs/contributing.md" target="_blank">this guide</a> to add the event to the site.</p>
+        </article>
+
+        <% upstream_conferences = RubyConferences::Client.new.conferences_cached.reverse %>
+        <% conference_names = Event.all.pluck(:name) %>
+        <% pending_conferences = upstream_conferences.reject { |conference| conference["name"].in?(conference_names) } %>
+
+        <% with_video_link, without_video_link = pending_conferences.partition { |conference| conference["video_link"].present? } %>
+
+        <% conferences_to_index = with_video_link.count + without_video_link.count %>
+        <% already_index_conferences = upstream_conferences.count - conferences_to_index %>
+
+        <h3 class="font-bold mb-3">Conferences from RubyConferences.org we already indexed</h3>
+
+        <article class="prose mb-6">
+          <p>We already indexed <%= pluralize(already_index_conferences, "conference") %> out of the <%= pluralize(upstream_conferences.count, "conference") %> listed on RubyConferences.org.</p>
+
+          <p>There are <%= pluralize(conferences_to_index, "more conference") %> from RubyConferences.org to be added to RubyVideo.dev.</p>
+        </article>
+
+
+        <h3 class="font-bold mb-3">Conferences from RubyConferences.org with a video link (<%= pluralize(with_video_link.count, "event") %>)</h3>
+        <div id="missing-conferences-with-link" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
+          <% with_video_link.each do |event| %>
+            <%= link_to event["video_link"], id: "#{event["name"]}-pending", class: "hover:bg-gray-100 p-4 rounded-lg border bg-white", target: :_blank do %>
+              <div class="flex flex-col">
+                <h3 class="line-clamp-1 font-semibold"><%= event["name"] %></h3>
+
+                Videos: <%= URI.parse(event["video_link"]).host %>
+              </div>
+            <% end %>
+          <% end %>
+        </div>
+
+        <h3 class="font-bold mb-3">Conferences from RubyConferences.org without a video link (<%= pluralize(without_video_link.count, "event") %>)</h3>
+        <div id="missing-conferences-without-link" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
+          <% without_video_link.each do |event| %>
+            <%= link_to event["url"], id: "#{event["name"]}-pending", class: "hover:bg-gray-100 p-4 rounded-lg border bg-white", target: :_blank do %>
+              <div class="flex flex-col">
+                <h3 class="line-clamp-1 font-semibold"><%= event["name"] %></h3>
+
+                <% if event["url"].present? %>
+                  Website: <%= URI.parse(event["url"]).host %>
+                <% else %>
+                  Website: -
                 <% end %>
               </div>
             <% end %>
