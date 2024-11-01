@@ -172,12 +172,12 @@
   language: english
   youtube_channel_id: UCR076_JBPtcQKfiwiVOB3Cg
 
-- name: wroc_love.rb
+- name: wroclove.rb
   website: https://wrocloverb.com
   twitter: wrocloverb
   kind: conference
   frequency: yearly
-  playlist_matcher: wroc_love.rb
+  playlist_matcher: wroclove.rb
   default_country_code: PL
   youtube_channel_name: wrocloverb
   slug: wroclove-rb

@@ -14,18 +14,20 @@ speakers.each do |speaker|
 end
 
 MeiliSearch::Rails.deactivate! do
-  organisations.each do |organisation|
-    organisation = Organisation.find_or_create_by!(slug: organisation["slug"]) do |org|
-      org.name = organisation["name"]
-      org.website = organisation["website"]
-      # org.twitter = organisation["twitter"]
-      org.youtube_channel_name = organisation["youtube_channel_name"]
-      org.kind = organisation["kind"]
-      org.frequency = organisation["frequency"]
-      org.youtube_channel_id = organisation["youtube_channel_id"]
-      org.slug = organisation["slug"]
-      # org.language = organisation["language"]
-    end
+  organisations.each do |org|
+    organisation = Organisation.find_or_create_by!(slug: org["slug"])
+
+    organisation.update!(
+      name: org["name"],
+      website: org["website"],
+      twitter: org["twitter"],
+      youtube_channel_name: org["youtube_channel_name"],
+      kind: org["kind"],
+      frequency: org["frequency"],
+      youtube_channel_id: org["youtube_channel_id"],
+      slug: org["slug"],
+      language: org["language"]
+    )
 
     events = YAML.load_file("#{Rails.root}/data/#{organisation.slug}/playlists.yml")
 
