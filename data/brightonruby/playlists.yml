@@ -24,14 +24,9 @@
   year: "2022"
   videos_count: 12
   slug: brightonruby-2022
+  banner_background: "#000000"
   featured_background: "#000000"
   featured_color: "#FFFBEB"
-  banner_background: |-
-    linear-gradient(
-      to bottom,
-      #B91C1C 10%,
-      #000000 10%, #000000 100%
-    )
 
 - id: brightonruby-2023
   title: Brighton Ruby 2023
