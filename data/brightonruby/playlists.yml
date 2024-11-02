@@ -9,6 +9,11 @@
   year: "2023"
   videos_count: 12
   slug: brightonruby-2023
-  banner_background: "#FFFFFF"
-  featured_background: "#FFFBEB"
-  featured_color: "#0F1729"
+  banner_background: "linear-gradient(
+    to bottom,
+    #7F1D1D 70%,
+    #B91C1C 70%, #B91C1C 90%,
+    #0F172A 90%
+  )"
+  featured_background: "#7F1D1D"
+  featured_color: "#FFFBEB"
