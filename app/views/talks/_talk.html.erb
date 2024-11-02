@@ -4,7 +4,7 @@
 <%= content_tag :div, id: dom_id(talk),
       data: {
         controller: video_player_controller,
-        video_player_poster_value: talk.thumbnail_lg,
+        video_player_poster_value: talk.thumbnail_xl,
         video_player_provider_value: (talk.video_provider == "mp4") ? nil : talk.video_provider,
         video_player_src_value: talk.video_id
       } do %>
@@ -12,7 +12,7 @@
   <div class="aspect-video banner-img card-horizontal-img relative" style="view-transition-name: <%= dom_id(talk, :image) %>">
     <% if talk.external_player %>
       <%= link_to talk.external_player_url, target: "_blank", class: "relative w-full h-full" do %>
-        <%= image_tag talk.thumbnail_lg, class: "w-full h-full object-cover" %>
+        <%= image_tag talk.thumbnail_xl, class: "w-full h-full object-cover" %>
 
         <div class="absolute top-0 text-white w-full h-full bg-black/80 flex flex-col gap-6 justify-center items-center font-bold text-xl">
           This talk is only viewable on <%= URI.parse(talk.external_player_url).host %>
@@ -102,19 +102,21 @@
           <h2><%= talk.title %></h2>
           by <%= talk.speakers.map(&:name).to_sentence %>
 
-          <div class="mt-4 markdown"><%= markdown_to_html(talk.summary) %></div>
+          <article class="mt-4 prose markdown"><%= markdown_to_html(talk.summary) %></article>
         </div>
-      <% else %>
-        <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Description" <%= "checked" if talk.summary.blank? %>>
-        <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
-          <p><%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %></p>
+      <% end %>
+
+      <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Description" <%= "checked" if talk.summary.blank? %>>
+      <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+        <article class="prose">
+          <%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %>
 
           <p class="flex">
             <span><%= talk.event_name %></span>
             <span><%#= talk.event_edition %></span>
           </p>
-        </div>
-      <% end %>
+        </article>
+      </div>
 
       <% if talk.transcript.present? %>
         <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Transcript">
