@@ -59,8 +59,8 @@
   videos_count: 32
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2019
-  banner_background: "#FDD8A3"
-  featured_background: "#FDD8A3"
+  banner_background: "linear-gradient(#FEEBD1, #FDD7A2)"
+  featured_background: "linear-gradient(#FEEBD1, #FDD7A2)"
   featured_color: "#633152"
 
 - id: PL9_A7olkztLlmJIAc567KQgKcMi7-qnjg
