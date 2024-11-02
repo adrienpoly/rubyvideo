@@ -228,6 +228,14 @@ class Talk < ApplicationRecord
     Talk.where(id: ids)
   end
 
+  def formatted_date
+    date.strftime("%B %d, %Y")
+  rescue => _e
+    # TODO: notify to error tracking
+
+    "Unknown"
+  end
+
   def transcript
     enhanced_transcript.presence || raw_transcript
   end
