@@ -75,8 +75,8 @@
   videos_count: 16
   metadata_parser: Youtube::VideoMetadata
   slug: noruko-2020
-  banner_background: "#FAEDFF"
-  featured_background: "#FAEDFF"
+  banner_background: "linear-gradient(170deg, #ffddfb 40%, #ffb3a1)"
+  featured_background: "linear-gradient(170deg, #ffddfb 40%, #ffb3a1)"
   featured_color: "#000000"
 
 - id: PLZW-kXE0oRyknRwEUrg5o491KomjkNU16
