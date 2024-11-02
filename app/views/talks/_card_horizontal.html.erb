@@ -19,14 +19,7 @@
     <% end %>
 
     <div class="flex items-start gap-2 font-light">
-      <% if talk.speakers.size > 1 %>
-        <%#= heroicon :users, size: :xs, class: "shrink-0 grow-0" %>
-      <% else %>
-        <%#= heroicon :user, size: :xs, class: "shrink-0 grow-0" %>
-      <% end %>
-
       <div class="line-clamp-1 text-gray-500">
-        <% speaker_names = talk.speakers.map { |speaker| link_to speaker.name, speaker_path(speaker), class: "link link-ghost" } %>
         <%= talk.speakers.map(&:name).to_sentence %>
       </div>
     </div>
