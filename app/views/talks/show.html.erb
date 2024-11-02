@@ -19,14 +19,14 @@
     <div class="gap-4 w-96 flex-shrink-0 hidden lg:flex lg:flex-col px-4">
       <%= link_to @talk.event.name, event_path(@talk.event), class: "text-neutral text-base text-lg font-bold hover:underline" %>
 
-      <div class="relative">
-        <div class="flex flex-col gap-2 lg:max-h-[340px] xl:max-h-[485px] 2xl:max-h-[630px] overflow-y-scroll pb-20">
+      <div class="relative group border border-transparent hover:border-gray-200 rounded-xl">
+        <div class="flex flex-col gap-2 lg:max-h-[390px] xl:max-h-[480px] 2xl:max-h-[625px] overflow-y-scroll">
           <%= render partial: "talks/card_horizontal",
                 collection: @related_talks,
                 as: :talk,
                 locals: {compact: true, current_talk: @talk} %>
         </div>
-        <div class="absolute bottom-0 left-0 w-full h-36 bg-gradient-to-t from-base-100 to-transparent pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 w-full h-36 bg-gradient-to-t from-base-100 to-transparent pointer-events-none group-hover:hidden"></div>
       </div>
     </div>
   </div>
