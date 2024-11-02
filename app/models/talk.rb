@@ -207,8 +207,24 @@ class Talk < ApplicationRecord
     "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
   end
 
+  def external_player_utm_params
+    {
+      utm_source: "rubyvideo.dev",
+      utm_medium: "referral",
+      utm_campaign: event.slug,
+      utm_content: slug
+    }
+  end
+
   def external_player_url
-    self[:external_player_url].presence || provider_url
+    uri = URI.parse(self[:external_player_url].presence || provider_url)
+
+    existing_params = URI.decode_www_form(uri.query || "").to_h
+    updated_params = existing_params.merge(external_player_utm_params)
+
+    uri.query = URI.encode_www_form(updated_params)
+
+    uri.to_s
   end
 
   def provider_url
