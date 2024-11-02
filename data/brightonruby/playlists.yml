@@ -13,6 +13,21 @@
   featured_background: "#343A40"
   featured_color: "#FFFFFF"
 
+- id: brightonruby-2022
+  title: Brighton Ruby 2022
+  location: "Brighton, UK"
+  description: "Thursday, 30th June, 2022, Brighton Dome"
+  published_at: "2022-06-30"
+  start_date: "2022-06-30"
+  end_date: "2022-06-30"
+  channel_id:
+  year: "2022"
+  videos_count: 12
+  slug: brightonruby-2022
+  banner_background: "#000000"
+  featured_background: "#000000"
+  featured_color: "#FFFBEB"
+
 - id: brightonruby-2023
   title: Brighton Ruby 2023
   location: "Brighton, UK"
