@@ -140,7 +140,7 @@
       <div role="tabpanel" class="tab-content !rounded-s-xl rounded-xl bg-base-200/50 p-6 mt-6 overflow-hidden">
         <article class="prose">
           <p>
-            <b><%= talk.title %></b><br />
+            <b><%= talk.title %></b><br>
             <%= talk.speakers.map(&:name).to_sentence %> • <%= talk.formatted_date %> <% if talk.event.location %> • <%= talk.event.location %><% end %>
           </p>
 
