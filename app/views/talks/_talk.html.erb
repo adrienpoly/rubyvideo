@@ -107,8 +107,10 @@
       </div>
     </div>
 
+    <hr>
+
     <% if talk.approved_topics.any? %>
-      <div class="flex flex-wrap gap-2 mt-6">
+      <div class="flex flex-wrap gap-2 mt-3">
         <% talk.approved_topics.each do |topic| %>
           <%= link_to topic_path(topic, back_to: request.fullpath, back_to_title: talk.title) do %>
             <div class="badge badge-ghost hover:bg-gray-300 px-2 py-3">#<%= topic.name.parameterize %></div>
@@ -199,7 +201,7 @@
 
 <%= link_to event_path(talk.event), id: "explore-event", class: "card group bg-gray-100 border hover:bg-gray-200/50 transition-bg duration-300 ease-in-out w-full flex flex-row px-6 py-6 gap-8 mt-4 overflow-hidden", style: "background: #{talk.event.featured_background}; color: #{talk.event.featured_color}" do %>
   <div class="aspect-video hidden md:block">
-    <%= image_tag image_path(talk.event.featured_image_path), id: dom_id(talk.event, "explore-card-image"), alt: "explore all talks recorded at #{talk.event.name}", class: "h-24 aspect-video rounded-xl group-hover:scale-110 transition ease-in-out duration-300" %>
+    <%= image_tag image_path(talk.event.featured_image_path), id: dom_id(talk.event, "explore-card-image"), alt: "explore all talks recorded at #{talk.event.name}", class: "h-24 aspect-video rounded-xl group-hover:scale-105 transition ease-in-out duration-300" %>
   </div>
 
   <div class="flex flex-col w-full flex-1 self-start">
