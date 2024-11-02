@@ -135,7 +135,7 @@ class Talk < ApplicationRecord
         title: title,
         type: :website,
         image: {
-          _: thumbnail_lg,
+          _: thumbnail_xl,
           alt: title
         },
         description: description,
@@ -147,7 +147,7 @@ class Talk < ApplicationRecord
         title: title,
         description: description,
         image: {
-          src: thumbnail_lg
+          src: thumbnail_xl
         }
       }
     }
