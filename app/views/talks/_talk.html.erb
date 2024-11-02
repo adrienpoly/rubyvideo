@@ -11,10 +11,10 @@
 
   <div class="aspect-video banner-img card-horizontal-img relative" style="view-transition-name: <%= dom_id(talk, :image) %>">
     <% if talk.external_player %>
-      <%= link_to talk.external_player_url, target: "_blank", class: "relative w-full h-full" do %>
+      <%= link_to talk.external_player_url, target: "_blank", class: "relative w-full h-full block" do %>
         <%= image_tag talk.thumbnail_xl, class: "w-full h-full object-cover" %>
 
-        <div class="absolute top-0 text-white w-full h-full bg-black/80 flex flex-col gap-6 justify-center items-center font-bold text-xl">
+        <div class="absolute inset-0 text-center text-white bg-black/80 flex flex-col gap-6 justify-center items-center font-bold text-xl">
           This talk is only viewable on <%= URI.parse(talk.external_player_url).host %>
 
           <%= ui_button do %>
