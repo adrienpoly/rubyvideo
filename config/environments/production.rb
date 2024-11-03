@@ -19,7 +19,7 @@ Rails.application.configure do
   config.public_file_server.headers = {"cache-control" => "public, max-age=#{1.year.to_i}"}
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
-  config.asset_host = "https://staging.rubyvideo.dev"
+  config.asset_host = "https://www.rubyvideo.dev"
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
