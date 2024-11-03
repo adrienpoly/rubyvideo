@@ -2,8 +2,8 @@
 # check=error=true
 
 # This Dockerfile is designed for production, not development. Use with Kamal or build'n'run by hand:
-# docker build -t rails_8_es_tw .
-# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name rails_8_es_tw rails_8_es_tw
+# docker build -t rubyvideo .
+# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name rubyvideo rubyvideo
 
 # For a containerized dev environment, see Dev Containers: https://guides.rubyonrails.org/getting_started_with_devcontainer.html
 
@@ -82,6 +82,6 @@ USER 1000:1000
 ENTRYPOINT ["/rails/bin/docker-entrypoint"]
 
 # Start server via Thruster by default, this can be overwritten at runtime
-EXPOSE 3000
-CMD ["./bin/rails", "server"]
-# CMD ["./bin/thrust", "./bin/rails", "server"]
+EXPOSE 80
+# CMD ["./bin/rails", "server"]
+CMD ["./bin/thrust", "./bin/rails", "server"]

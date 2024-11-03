@@ -39,9 +39,7 @@ class Talk < ApplicationRecord
   include Searchable
   slug_from :title
 
-  # include MeiliSearch
   # include MeiliSearch::Rails
-  # ActiveRecord_Relation.include Pagy::Meilisearch
   # extend Pagy::Meilisearch
 
   # associations
