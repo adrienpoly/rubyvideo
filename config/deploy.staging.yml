@@ -37,6 +37,10 @@ registry:
 builder:
   arch:
     - arm64
+  cache:
+    type: registry
+    image: adrienpoly/rubyvideo_staging-build-cache
+    options: mode=max
 #
 env:
   clear:
