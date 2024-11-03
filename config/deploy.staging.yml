@@ -18,7 +18,8 @@ servers:
 # in Cloudflare's SSL/TLS setting to "Full" to enable end-to-end encryption.
 proxy:
   ssl: true
-  host: staging.rubyvideo.dev
+  hosts:
+    - staging.rubyvideo.dev
   # kamal-proxy connects to your container over port 80, use `app_port` to specify a different port.
   app_port: 80
 
