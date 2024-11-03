@@ -79,5 +79,6 @@ class Avo::Resources::Talk < Avo::BaseResource
     filter Avo::Filters::Title
     filter Avo::Filters::Slug
     filter Avo::Filters::Language
+    filter Avo::Filters::VideoProvider
   end
 end
