@@ -1,9 +1,9 @@
-<div class="w-full lg:h-92 p-4 lg:p-16 border rounded-[25px] lg:rounded-[50px] mt-12 text-center lg:text-left" style="view-transition-name: hero; background: <%= event.featured_background %>; color: <%= event.featured_color %>">
+<div class="w-full lg:h-92 p-4 lg:p-16 border rounded-[25px] lg:rounded-[50px] mt-12 text-center lg:text-left" style="background: <%= event.featured_background %>; color: <%= event.featured_color %>">
   <a href="<%= event_path(event) %>">
     <div class="lg:grid grid-cols-[1fr_2fr]">
       <div>
         <div class="flex justify-center mb-9">
-          <%= image_tag event.featured_image_path, class: "max-h-24 lg:max-h-none", style: "view-transition-name: avatar", loading: "lazy" %>
+          <%= image_tag event.featured_image_path, class: "max-h-24 lg:max-h-none", loading: "lazy" %>
         </div>
 
         <div class="flex flex-col gap-3 lg:h-48 lg:max-h-48 overflow-hidden items-center lg:items-start">

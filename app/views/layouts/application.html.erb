@@ -15,7 +15,10 @@
     <%= vite_client_tag %>
     <%= vite_javascript_tag "application", media: "all", "data-turbo-track": "reload" %>
     <%= vite_stylesheet_tag "application.css", media: "all", "data-turbo-track": "reload" %>
-<%#= turbo_stream_from @list %>
+
+    <meta name="turbo-cache-control" content="no-cache">
+    <meta name="view-transition" content="same-origin">
+
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <%= yield :head %>
