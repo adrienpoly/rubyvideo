@@ -19,6 +19,11 @@
     <meta name="turbo-cache-control" content="no-cache">
     <meta name="view-transition" content="same-origin">
 
+    <%= favicon_link_tag "favicon/favicon.ico", rel: "icon", type: "image/x-icon" %>
+    <%= favicon_link_tag "favicon/favicon-16x16.png", rel: "icon", sizes: "16x16", type: "image/png" %>
+    <%= favicon_link_tag "favicon/favicon-32x32.png", rel: "icon", sizes: "32x32", type: "image/png" %>
+    <%= favicon_link_tag "favicon/apple-touch-icon.png", rel: "apple-touch-icon", type: "image/png" %>
+
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <%= yield :head %>
