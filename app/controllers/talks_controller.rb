@@ -19,7 +19,7 @@ class TalksController < ApplicationController
   # GET /talks/1
   def show
     set_meta_tags(@talk)
-    fresh_when(@talk)
+    fresh_when(@talk, etag: [@talk, Current.user])
   end
 
   # GET /talks/1/edit
