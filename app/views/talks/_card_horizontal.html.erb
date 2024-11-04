@@ -1,28 +1,26 @@
 <%# locals: (talk:, current_talk: nil, compact: false) -%>
 
 <% active = talk == current_talk %>
+<%= link_to talk_path(talk), class: class_names("w-full flex items-center gap-4 p-2 rounded-lg hover:bg-gray-200", "bg-gray-200": active), id: dom_id(talk, :card_horizontal), data: {talk_horizontal_card: true} do %>
+  <div class="flex aspect-video shrink-0 relative w-20 relative">
+    <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_sm} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover border rounded", loading: :lazy %>
 
-<div class="<%= class_names("w-full flex items-center gap-2", "border border-secondary rounded-lg p-1": active) %>" id="<%= dom_id(talk, :card_horizontal) %>" data-talk-horizontal-card>
-  <%= link_to talk_path(talk), class: "flex aspect-video shrink-0 relative w-28" do %>
-    <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_lg} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover", loading: :lazy %>
-  <% end %>
-
-  <div class="flex flex-col gap-2 text-sm">
-    <%= link_to talk_path(talk), class: "link link-ghost" do %>
-      <%= content_tag :div, talk.title, class: "font-semibold line-clamp-2 mt-1" %>
+    <% if active %>
+      <div class="absolute inset-0 bg-black/50 flex justify-center items-center rounded">
+        <%= fa("play", size: :sm, class: "fill-white") %>
+      </div>
     <% end %>
-    <div class="flex items-start gap-2 font-light">
-      <% speakers_count = talk.speakers.size %>
-      <% if speakers_count > 1 %>
-        <%= heroicon :users, size: :xs, class: "shrink-0 grow-0" %>
-      <% elsif speakers_count == 1 %>
-        <%= heroicon :user, size: :xs, class: "shrink-0 grow-0" %>
-      <% end %>
+  </div>
 
-      <div class="line-clamp-1">
-        <% speaker_names = talk.speakers.map { |speaker| link_to speaker.name, speaker_path(speaker), class: "link link-ghost" } %>
-        <%= sanitize speaker_names.join(", ") %>
+  <div class="flex flex-col gap-1 text-sm">
+    <%= content_tag :div, class: "" do %>
+      <%= content_tag :div, talk.title, class: "font-regular line-clamp-1" %>
+    <% end %>
+
+    <div class="flex items-start gap-2 font-light">
+      <div class="line-clamp-1 text-gray-500">
+        <%= talk.speakers.map(&:name).to_sentence %>
       </div>
     </div>
   </div>
-</div>
+<% end %>
