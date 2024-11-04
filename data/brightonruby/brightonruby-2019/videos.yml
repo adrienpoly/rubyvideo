@@ -1,5 +1,4 @@
 ---
-
 # Website: https://brightonruby.com/2019/
 # Schedule: https://brightonruby.com/2019/
 
@@ -13,8 +12,7 @@
   external_player_url: https://brightonruby.com/2019/setting-up-to-fail-vaidehi-joshi
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/vaidehi-setting-up-to-fail.mp4
-  description:
-    "What are the semantics of failure in distributed systems
+  description: "What are the semantics of failure in distributed systems
     (how we identify failures and faults) and how to think about what we really mean
     when we design towards fault-tolerant systems.\n\n\n      Creator of Base CS"
 
@@ -28,8 +26,7 @@
   external_player_url: https://brightonruby.com/2019/why-should-you-care-about-cultivating-trust-gareth-marlow
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/gareth-why-should-you-care-about-cultivating-trust.mp4
-  description:
-    "Practical tips for building a culture of trust across
+  description: "Practical tips for building a culture of trust across
     your team, peers, investors, and company.\n\n\n      Executive coach at eqsystems.io;
     formerly COO at Redgate Software; Father of four; renaissance man."
 
@@ -43,8 +40,7 @@
   external_player_url: https://brightonruby.com/2019/from-developer-to-architect-and-back-again-matthew-rudy-jacobs
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/matthew-from-developer-to-architect-and-back-again.mp4
-  description:
-    "A year ago I was looking for a job, and ended up taking
+  description: "A year ago I was looking for a job, and ended up taking
     a job as a “Technical Architect”.\n\nBut what exactly is a Technical Architect?\n\nWeren’t
     Software Architects a thing in the 90s, cast away when we learnt about Agile?\n\nIn
     this talk I’m going to tell the story of my year in government as a Technical
@@ -62,8 +58,7 @@
   external_player_url: https://brightonruby.com/2019/embracing-openness-in-open-source-amina-adewusi
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/amina-embracing-openness-in-open-source.mp4
-  description:
-    "This is the story of how I struggled to get my first Junior
+  description: "This is the story of how I struggled to get my first Junior
     Developer role and turned to Open Source projects looking for help. We’ll learn
     how the best GitHub repos are attracting new contributors, why developers early
     in their coding journey can struggle to get to grips with a new repo and how you
@@ -82,8 +77,7 @@
   external_player_url: https://brightonruby.com/2019/fixing-performance-problems-with-ruby-prof-frederick-cheung
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/frederick-fixing-performance-problems-with-ruby-prof.mp4
-  description:
-    "How do you find out why your code is slow? Profiling tools
+  description: "How do you find out why your code is slow? Profiling tools
     such as `ruby-prof` can help you understand your code and get to the root of performance
     problems. Learn how use ruby-prof and make sense of its output.\n\n\n      Ruby
     Hero, runner, cat servant & CTO at Dressipi"
@@ -99,8 +93,7 @@
   external_player_url: https://brightonruby.com/2019/nadia-chats-with-sarah-mei
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/nadia-chats-with-sarah-mei.mp4
-  description:
-    "Nadia sits down for a chat with Sarah Mei.\n\n\n      Architect
+  description: "Nadia sits down for a chat with Sarah Mei.\n\n\n      Architect
     at Salesforce UX, out of San Franciso. Director at Ruby Central (organisers of
     RailsConf & RubyConf). Founder of Bridge Foundry (Rails Bridge)."
 
@@ -114,8 +107,7 @@
   external_player_url: https://brightonruby.com/2019/better-coding-through-unit-tests-valerie-woolard-srinivasan
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/valerie-better-coding-through-unit-tests.mp4
-  description:
-    "We all know that testing is important. But it’s also hard
+  description: "We all know that testing is important. But it’s also hard
     to get right. We’ll talk about how to write effective tests that not only protect
     against defects in our code, but encourage us to write better quality code to
     begin with.\n\nYou’ll leave this talk with ideas on the philosophies that should
@@ -132,8 +124,7 @@
   external_player_url: https://brightonruby.com/2019/life-changing-magic-of-tidying-technical-debt-sroop-sunar
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/sroop-the-life-changing-magic-of-tidying-technical-debt.mp4
-  description:
-    "As developers, we talk a lot about the topic of clean
+  description: "As developers, we talk a lot about the topic of clean
     code. We aspire for 100% test coverage, short reusable methods, we optimise for
     readability and beauty - but does any of that actually matter if your codebase
     is drowning in technical debt?\n\nShould we be aiming for clean code, or tidy
@@ -156,8 +147,7 @@
   external_player_url: https://brightonruby.com/2019/six-years-of-ruby-performance-noah-gibbs
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/noah-six-years-of-ruby-performance-a-history.mp4
-  description:
-    "Ruby keeps getting faster. And people keep asking, “but
+  description: "Ruby keeps getting faster. And people keep asking, “but
     how fast is it for Rails?” Rails makes a great way to measure Ruby’s speed, and
     how Ruby has changed version-by-version. Let’s look at six years of performance
     for apps big and small.\n\nHow fast is 2.6.0? With JIT or not? How do I measure?
@@ -176,8 +166,7 @@
   external_player_url: https://brightonruby.com/2019/you-may-have-encountered-a-bug-in-the-ruby-interpreter-alyssa-ross
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/alyssa-you-may-have-encountered-a-bug-in-the-ruby-interpreter.mp4
-  description:
-    "People sometimes say “it’s never a compiler error”. They
+  description: "People sometimes say “it’s never a compiler error”. They
     don’t mean it literally — what they mean is that it’s very tempting to blame the
     compiler or interpreter for a bug that is actually in our own code. But sometimes,
     when the stars align, there it is. The mythical interpreter bug.\n\nI’m going
@@ -200,8 +189,7 @@
   external_player_url: https://brightonruby.com/2019/ruby-like-its-1995-matias-korhonen
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/matias-ruby-like-its-1995.mp4
-  description:
-    "Cast your mind back to the year 1995. Gansta’s Paradise
+  description: "Cast your mind back to the year 1995. Gansta’s Paradise
     is the top hit of the year. Friends is the hottest show on TV.\n\nAnd just days
     after I turn nine, Matz releases Ruby publicly for the first time.\n\nIn this
     talk I go back to Ruby 0.95 and see what it takes to get it running on modern
@@ -218,8 +206,7 @@
   external_player_url: https://brightonruby.com/2019/defragging-ruby-aaron-patterson
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2019/aaron-defragging-ruby.mp4
-  description:
-    "It’s been said that programmers like garbage collectors,
+  description: "It’s been said that programmers like garbage collectors,
     so let’s take a look at Ruby’s GC! In this talk we'll walk through how Ruby allocates
     objects, then talk about how we can optimize object layout and memory usage via
     compaction. Finally we’ll take a look at how to actually build a compacting GC

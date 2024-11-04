@@ -1,5 +1,4 @@
 ---
-
 # Website: https://brightonruby.com/2018/
 # Schedule: https://brightonruby.com/2018/
 
@@ -37,8 +36,7 @@
   external_player_url: https://brightonruby.com/2018/a-brief-history-of-types-sarah-mei
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/sarah-a-brief-history-of-types.mp4
-  description:
-    "What they are, what they're good for, how they're traditionally
+  description: "What they are, what they're good for, how they're traditionally
     specified & enforced, and how the whole concept is evolving.\n\n\n      Architect
     at Salesforce UX, out of San Franciso. Director at Ruby Central (organisers of
     RailsConf & RubyConf). Founder of Bridge Foundry (Rails Bridge)."
@@ -53,8 +51,7 @@
   external_player_url: https://brightonruby.com/2018/cultivating-instinct-katrina-owen
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/katrina-cultivating-instinct.mp4
-  description:
-    "As novices we slowly and laboriously sift through a chaotic
+  description: "As novices we slowly and laboriously sift through a chaotic
     flood of\nminutia. To experts the significant details are obvious. Irrelevant\ndetails
     fade to the background. The novice receives a jumble of\nmeaningless impressions;
     the expert sees patterns and meaning.\n\nSomehow experts have made the trek from
@@ -76,8 +73,7 @@
   external_player_url: https://brightonruby.com/2018/git-driven-refactoring-ashley-ellis-pierce
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/ashley-git-driven-refactoring.mp4
-  description:
-    "Often we know that our code needs refactoring, but we
+  description: "Often we know that our code needs refactoring, but we
     have no idea where to start. Maybe we studied some common code smells and learned
     about the things that we should be avoiding, but memorizing the rules doesn’t
     automatically lead to fixing all problems.\n\nIn this talk, we explore how you
@@ -98,8 +94,7 @@
   external_player_url: https://brightonruby.com/2018/lets-refactor-some-ruby-code-ana-martinez
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/ana-lets-refactor-some-ruby-code.mp4
-  description:
-    "This year both Ruby and I are turning 25 years old. We
+  description: "This year both Ruby and I are turning 25 years old. We
     all also have to admit that at some point we have found, or written, Ruby code
     that was not that great. Even the code that was pretty good at one point, could
     now be improved, due to the evolution of Ruby.\n\nLet us refactor some code in
@@ -118,8 +113,7 @@
   external_player_url: https://brightonruby.com/2018/a-branch-in-time-tekin-suleyman
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/tekin-a-branch-in-time.mp4
-  description:
-    "In one timeline a quick path to clarity. In the other
+  description: "In one timeline a quick path to clarity. In the other
     a long and painful journey trying to understand the obscure intent of a line of
     code. The only difference between these two realities? The revision history.\n\nThis
     is a talk about writing maintainable code. But rather than the code itself, we'll
@@ -140,8 +134,7 @@
   external_player_url: https://brightonruby.com/2018/cockcrofts-folly-nick-means
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/nick-cockcrofts-folly.mp4
-  description:
-    "Storyteller, empathetic leader, student of disasters,
+  description: "Storyteller, empathetic leader, student of disasters,
     builder of distributed teams. Unabashed AV geek. VP of Engineering at Muve Health."
 
 - title: A Clear-eyed Look at Distributed Teams
@@ -154,8 +147,7 @@
   external_player_url: https://brightonruby.com/2018/a-clear-eyed-look-at-distributed-teams-maria-gutierrez
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/maria-a-clear-eyed-look-at-distributed-teams.mp4
-  description:
-    "Distributed teams can have big benefits for both employers
+  description: "Distributed teams can have big benefits for both employers
     and employees. But there are many challenges. Being successful requires changes
     to work practices, communication, and style — and not just from the remote people.
     Everyone will experience changes. It helps to be prepared … and most of what we
@@ -175,8 +167,7 @@
   external_player_url: https://brightonruby.com/2018/configuration-first-open-source-alex-balhatchet
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/alex-configuration-first-open-source.mp4
-  description:
-    "You might not realise it, but your Ruby project probably
+  description: "You might not realise it, but your Ruby project probably
     relies on a popular configuration-first OSS project. The `tzdata` library is updated
     regularly as time zones and daylight savings rules change more often than you
     might think!\n\nBy building a project configuration first, rather than focussing
@@ -223,8 +214,7 @@
   external_player_url: https://brightonruby.com/2018/random-thoughts-daniel-berzon
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/danny-random-thoughts.mp4
-  description:
-    "How a single line of ruby code, the flip of a coin and
+  description: "How a single line of ruby code, the flip of a coin and
     some bad luck lead to an understanding of how random numbers really work, and
     why fairness isn’t always the best policy.\n\n\n      Danny has worked in Web
     Development since late last century, Java and Servlets then Ruby on Rails. Currently
@@ -240,8 +230,7 @@
   external_player_url: https://brightonruby.com/2018/the-best-worst-software-ive-ever-written-andrew-faraday
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/andrew-the-best-worst-software-i’ve-ever-written.mp4
-  description:
-    "You may remember Andrew from previous Brighton Ruby conferences
+  description: "You may remember Andrew from previous Brighton Ruby conferences
     (as well as those in London, Scotland, and the USA) where he's been providing
     light relief in the form of the panel game Just A Minute.\n\nThis year, instead,
     he’ll be revealing the technology behind the show, and sharing what he’s learned
@@ -259,8 +248,7 @@
   external_player_url: https://brightonruby.com/2018/the-ballad-of-rspec-paula-muldoon
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/paula-the-ballad-of-rspec.mp4
-  description:
-    "A violin and a testing framework.\n\n\n      Engineer
+  description: "A violin and a testing framework.\n\n\n      Engineer
     at Kurt Geiger, graduated from Makers Academy and University of Michigan. Code
     by day, music by night."
 
@@ -274,8 +262,7 @@
   external_player_url: https://brightonruby.com/2018/cryptography-lessons-hannah-dwan
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/hannah-cryptography-lessons.mp4
-  description:
-    "The Matasano Crypto Challenges - or Cryptopals, to give
+  description: "The Matasano Crypto Challenges - or Cryptopals, to give
     them their much kinder, Saturday morning cartoon name - are a series of coding
     challenges, made by Matasano Security (now a part of NCC group). They challenge
     you to think about cryptography, security, and teach you the motions of how to
@@ -297,8 +284,7 @@
   external_player_url: https://brightonruby.com/2018/the-ruby-alchemists-secret-potion-piotr-murach
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2015/.mp4
-  description:
-    "What if there was a set of simple and potent gems that
+  description: "What if there was a set of simple and potent gems that
     could exponentially increase productivity when building modern terminal applications
     such as Bundler, in next to no time?\n\nIf you’re curious about creating your
     own tools and games in the terminal, I can show you how to harness this power
@@ -320,8 +306,7 @@
   external_player_url: https://brightonruby.com/2018/writing-harry-potter-with-ruby-alex-peattie
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/alex-ruby-us-hagrid_-writing-harry-potter-with-ruby.mp4
-  description:
-    "The average salary for a Ruby programmer (according to
+  description: "The average salary for a Ruby programmer (according to
     Techworld) is £52k, but the average net worth of a “J. K. Rowling” is more than
     $1bn! Clearly we’re in the wrong business; we shouldn’t be writing Ruby code,
     we should be writing Harry Potter books.\n\nThe bad news is that writing novels
@@ -345,8 +330,7 @@
   external_player_url: https://brightonruby.com/2018/alpha-beta-gamer-joe-hart
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2018/joe-alpha-beta-gamer.mp4
-  description:
-    "A live performance of video games and stand up comedy
+  description: "A live performance of video games and stand up comedy
     from comedian and coder, including pre prepared web games to play and even creating
     a video game with the audience on stage in only 10 minutes.\n\n\n      Joe Hart
     is a comedian who codes, or a software engineer who tells jokes depending on which

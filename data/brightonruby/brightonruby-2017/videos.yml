@@ -1,5 +1,4 @@
 ---
-
 # Website: https://brightonruby.com/2017/
 # Schedule: https://brightonruby.com/2017/
 
@@ -13,8 +12,7 @@
   external_player_url: https://brightonruby.com/2017/lucky-saron-yitbarek
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/saron-lucky.mp4
-  description:
-    "Being an open source contributor requires many resources
+  description: "Being an open source contributor requires many resources
     we often take for granted: technical knowledge, confidence in that knowledge,
     access to technical tools, and a socioeconomic status that allows us to code without
     financial compensation. These resources are inaccessible to many, if not most.\n\nShifting
@@ -37,8 +35,7 @@
   external_player_url: https://brightonruby.com/2017/ruby-how-a-language-reflects-its-people-alex-coles
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/alex-ruby-how-a-language-reflects-its-people.mp4
-  description:
-    "“The limits of my language mean the limits of my world”,
+  description: "“The limits of my language mean the limits of my world”,
     said Wittgenstein.\n\nIn human-to-human languages the same core ideas get shaped
     differently depending on the language in which they are spoken. What if every
     computational language engenders a set (or a subset) of culture and values, and
@@ -60,8 +57,7 @@
   external_player_url: https://brightonruby.com/2017/ruby-paper-scissors-dot-wingrove
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/dot-ruby-paper-scissors.mp4
-  description:
-    "In 1999 (and again in 2001) there was a competition for
+  description: "In 1999 (and again in 2001) there was a competition for
     people to create bots to play RoShamBo, otherwise know as [Rock-paper-scissors](https://en.wikipedia.org/wiki/Rock–paper–scissors).
     The bot that won this competition, beating all the other entries including the
     competition-provided dummy bots, was called Iocaine Powder.\n\nLet's explore approaches
@@ -78,8 +74,7 @@
   external_player_url: https://brightonruby.com/2017/rom-rb-4-piotr-solnica
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/piotr-rom.rb-4-is-coming.mp4
-  description:
-    "Ruby Object Mapper is an open-source persistence and mapping
+  description: "Ruby Object Mapper is an open-source persistence and mapping
     toolkit for Ruby built for speed and simplicity.\n\nAnd its upcoming version is
     4.0.\n\nAnd Piotr knows about it.\n\nAnd wants to tell you.\n\n\n      Piotr is
     a Technical Lead @icelab. Author and core team member @rom_rb and a co-founder
@@ -95,8 +90,7 @@
   external_player_url: https://brightonruby.com/2017/debugging-for-new-developers-ali-najaf
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/najaf-debugging-a-short-guide-for-new-developers.mp4
-  description:
-    "Diagnosing and fixing bugs is one of the hardest things
+  description: "Diagnosing and fixing bugs is one of the hardest things
     that all developers have to do. It's especially difficult for new developers that
     don’t have as much confidence in their abilities.\n\nLearn about tactics and techniques
     for diagnosing bugs, reproducing them, researching around the problem, asking
@@ -114,8 +108,7 @@
   external_player_url: https://brightonruby.com/2017/what-we-did-at-rails-camp-elliot-hilaire
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/elliott-what-we-did-at-railscamp.mp4
-  description:
-    "Two of the best things to come from Australia are Vegemite
+  description: "Two of the best things to come from Australia are Vegemite
     and Rails Camp.\n\nFind out what a bunch of Ruby developers got up to when they
     spent 4 days at a farmhouse in Scotland.\n\n\n      Elliott writes Ruby at Square
     Enix and likes to photograph small bitey things. He moved from Australia to London,
@@ -131,8 +124,7 @@
   external_player_url: https://brightonruby.com/2017/dont-drop-the-bass-xavier-riley
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/xavier-dont-drop-the-bass.mp4
-  description:
-    "Ever wondered whether you can program a bass guitar with
+  description: "Ever wondered whether you can program a bass guitar with
     Ruby? Sonic Pi, everyone's favourite Ruby based live coding tool, has learnt some
     new tricks - it knows about live instruments and MIDI now. Let's see how it sounds
     when you combine them all!\n\n\n      Xavier likes music and Ruby, and where possible
@@ -149,8 +141,7 @@
   external_player_url: https://brightonruby.com/2017/doing-silly-things-with-postgres-for-fun-and-profit-ryan-macgillivray
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/ryan-doing-silly-stuff-with-postgres-for-fun-and-profit.mp4
-  description:
-    "A quick jump into the Postgres array datatype, the things
+  description: "A quick jump into the Postgres array datatype, the things
     you can use it for and why it's dangerous to do some of them in code that can
     make it to production.\n\n\n      Ruby guy living in London."
 
@@ -164,8 +155,7 @@
   external_player_url: https://brightonruby.com/2017/developing-junior-developers-emma-beynon
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/emma-developing-junior-developers.mp4
-  description:
-    "Starting out as junior developer can be an overwhelming
+  description: "Starting out as junior developer can be an overwhelming
     experience, and sometimes teams don’t have the right tools to support their personal
     growth.\n\nIn this talk, I will cover the main obstacles that junior developers
     face at the beginning of their careers, and offer some practical tips so that
@@ -191,8 +181,7 @@
   external_player_url: https://brightonruby.com/2017/just-a-ruby-minute-andrew-faraday
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/just-a-ruby-minute-2017.mp4
-  description:
-    "Just a Minute, the venerable BBC Radio 4 panel game institution,
+  description: "Just a Minute, the venerable BBC Radio 4 panel game institution,
     is given a lunchtime run out with your host Andrew Faraday.\n\n\n      A tribute
     to the Radio 4 original, created with Playstation controllers and noises from
     the radio."
@@ -207,8 +196,7 @@
   external_player_url: https://brightonruby.com/2017/difficult-conversations-adam-cuppy
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/adam-difficult-conversations.mp4
-  description:
-    "It’s never easy to have a tough conversations, and they
+  description: "It’s never easy to have a tough conversations, and they
     never go away. Therefore, I see a better way to live with them, and I want everyone
     to hear it: empower yourself to understand why we do what we do so you can effect
     change.\n\nUnderstanding creates empathy. Empathy reduces (not eliminates) conflict.\n\nThis
@@ -228,8 +216,7 @@
   external_player_url: https://brightonruby.com/2017/this-code-sucks-a-story-about-non-violent-communication-nadia-odunayo
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/nadia-this-code-sucks-a-story-about-non-violent-communication.mp4
-  description:
-    "Think about something that happened at work recently.
+  description: "Think about something that happened at work recently.
     How did it make you feel? Why did it make you feel that way?\n\nChances are you
     answered those two questions poorly. Our inability to answer such questions effectively
     leads us to communicate in ways that are negative and unhelpful.\n\nLet’s explore
@@ -247,8 +234,7 @@
   external_player_url: https://brightonruby.com/2017/can-my-friends-come-too-andrew-nesbitt
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/andrew-can-my-friends-come-too.mp4
-  description:
-    "The default app generated by create-react-app installs
+  description: "The default app generated by create-react-app installs
     768 transitive dependencies: am I the only one who thinks this is ridiculous?\n\nWhat
     does an increasingly granular, sprawling tree of dependencies mean for your project?
     Is it a problem we all share? What should we be aware of when selecting software
@@ -266,8 +252,7 @@
   external_player_url: https://brightonruby.com/2017/eigen-what-now-eliza-de-jager
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/eliza-eigen-what-now.mp4
-  description:
-    "Eigenclasses are an important construct in Ruby and, although
+  description: "Eigenclasses are an important construct in Ruby and, although
     obscured from the everyday developer, are core to many meta-programming principles
     and techniques.\n\nWe delve into what an eigenclass is, how to access it, and
     how to make use of this knowledge in order to improve our meta-programming techniques.
@@ -285,8 +270,7 @@
   external_player_url: https://brightonruby.com/2017/boring-ruby-code-adam-niedzielski
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/adam-boring-ruby-code.mp4
-  description:
-    "Ruby is a powerful language and this means that Ruby gives
+  description: "Ruby is a powerful language and this means that Ruby gives
     you a good chance to shoot yourself in a foot. “With great power comes great responsibility”
     and we all love to abuse our powers.\n\nWe will explore examples of “smart” Ruby
     code and see why they are confusing to junior programmers, your colleagues and
@@ -309,8 +293,7 @@
   external_player_url: https://brightonruby.com/2017/livable-code-sarah-mei
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2017/sarah-livable-code.mp4
-  description:
-    "The modern practice of software isn’t much like architecture
+  description: "The modern practice of software isn’t much like architecture
     or construction. The buildings are largely built. These days, we make a pre-built
     space work for whoever lives there.\n\nEver been to a staged house? They hire
     interior designers to put furniture, rugs, etc. into the space, so people can

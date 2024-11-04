@@ -1,5 +1,4 @@
 ---
-
 # Website: https://brightonruby.com/2016/
 # Schedule: https://brightonruby.com/2016/
 
@@ -13,8 +12,7 @@
   external_player_url: https://brightonruby.com/2016/security-is-broken-eileen-uchitelle
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/eileen-security-is-broken-understanding-common-vulnerabilities.mp4
-  description:
-    "The Internet is built on technology that was never meant
+  description: "The Internet is built on technology that was never meant
     to work together. Basic features in seemingly simple and innocuous technologies,
     such as XML, resulted in these technologies being insecure.\n\nIn this session
     we’ll talk about how attackers exploit well known vulnerabilities like XSS, XXE,
@@ -35,8 +33,7 @@
   external_player_url: https://brightonruby.com/2016/the-point-of-objects-john-cinnamond
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/john-the-point-of-objects.mp4
-  description:
-    "Objects are abstractions and we should be suspicious of
+  description: "Objects are abstractions and we should be suspicious of
     them. Not only are abstractions hard, but bad abstractions are harmful to programming.
     So why use objects? Why not just stick to the simpler and more natural world of
     procedural programming?\n\nIn this talk we take some real world ruby code written
@@ -55,8 +52,7 @@
   external_player_url: https://brightonruby.com/2016/what-is-processor-sam-phippen
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/sam-what-is-processor.mp4
-  description:
-    "Sometimes, writing Rails apps is awful. Do you know what’s
+  description: "Sometimes, writing Rails apps is awful. Do you know what’s
     nearly always more awful? Hand-rolling assembly. Ruby lets us not think about
     how the processor works, but we’re programmers. We’re uniquely positioned to intellectually
     appreciate the wonderful, complex, engineering that goes into a processor.\n\nIn
@@ -76,8 +72,7 @@
   external_player_url: https://brightonruby.com/2016/the-function-of-bias-sara-simon
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/sara-the-function-of-bias.mp4
-  description:
-    "This is a talk about the process and product of code.
+  description: "This is a talk about the process and product of code.
     It’s a talk about the open source community, about maintenance and tests. About
     starting projects from existing repositories, using existing APIs, and copy/pasting
     existing lines of code as that big, scary word we call plagiarism looms over a
@@ -98,8 +93,7 @@
   external_player_url: https://brightonruby.com/2016/do-it-yourself-testing-emily-stolfo
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/emily-do-it-yourself-testing.mp4
-  description:
-    "The drivers team at MongoDB focused over the last year
+  description: "The drivers team at MongoDB focused over the last year
     on conforming to common APIs and algorithms but we needed a shared way to test
     our 9 drivers. We therefore ended up building our own testing DSL, REST service,
     and individual test frameworks to validate our consistency.\n\nUsing these common
@@ -121,8 +115,7 @@
   external_player_url: https://brightonruby.com/2016/just-a-ruby-minute-andrew-faraday
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/just-a-ruby-minute-2016.mp4
-  description:
-    "Just a Minute, the venerable BBC Radio 4 panel game institution,
+  description: "Just a Minute, the venerable BBC Radio 4 panel game institution,
     is given another Brighton Ruby run out with your host Andrew Faraday.\n\nWith
     panelists [@eileencodes](https://twitter.com/eileencodes), [@samphippen](https://twitter.com/samphippen),
     [@TwitniTheGirl](https://twitter.com/TwitniTheGirl) & [@andycroll](https://twitter.com/andycroll).\n\n\n
@@ -139,8 +132,7 @@
   external_player_url: https://brightonruby.com/2016/five-minutes-with-elixir-andy-pike
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/andy-five-minutes-with-elixir.mp4
-  description:
-    "We love Ruby but it has it’s problems. Concurrency, performance,
+  description: "We love Ruby but it has it’s problems. Concurrency, performance,
     fault tolerant being some of them. Elixir is a functional language built on the
     Erlang VM which is now around 30 years old. It was built to solve these problems
     for telephone networks.\n\nWhen was the last time your phone network went down
@@ -160,8 +152,7 @@
   external_player_url: https://brightonruby.com/2016/craft-and-cathedrals-jay-caines-gooby
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/jay-craft-and-cathedrals.mp4
-  description:
-    "Historical craftsman's education, skills, processes and
+  description: "Historical craftsman's education, skills, processes and
     products, can inform our processes and outcomes as modern-day software developers.\n\nActually
     cathedrals are really big-balls of mud and that’s totally OK\n\nPrefer to read,
     rather than watch? [Craft & Cathedrals](https://medium.com/@jaygooby/craft-and-cathedrals-e97460216e29#.t178yk48m)"
@@ -176,8 +167,7 @@
   external_player_url: https://brightonruby.com/2016/five-wtfs-in-six-lines-of-code-dot-wingrove
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/dot-5-wtfs-in-6-locs.mp4
-  description:
-    "I'd love to tell you about the Ruby in this talk, but
+  description: "I'd love to tell you about the Ruby in this talk, but
     I still don’t understand it.\n\nOne of my personal highlights of the day.\n\n\n
     \     Co-organiser of @CodebarBrighton, studying maths with @OpenUniversity, humum
     to @morty_macgrove"
@@ -192,8 +182,7 @@
   external_player_url: https://brightonruby.com/2016/puppies-and-two-factor-authentication-phil-nash
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/phil-puppies-and-two-factor-auth.mp4
-  description:
-    "Puppies need to be secure and safe, Phil shows you how
+  description: "Puppies need to be secure and safe, Phil shows you how
     you can get 2-factor authentication done in two minutes."
 
 - title: "Lightning Talk: The Heroku Flow"
@@ -206,8 +195,7 @@
   external_player_url: https://brightonruby.com/2016/the-heroku-flow-neil-middleton
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/neil-the-heroku-flow.mp4
-  description:
-    "Over the last few years Heroku has developed and refined
+  description: "Over the last few years Heroku has developed and refined
     a process and set of tools called the ‘Heroku Flow’. This process aims to streamlined
     code development/deploy and review down to the very basics, opening up more time
     for you to worry about your code."
@@ -222,8 +210,7 @@
   external_player_url: https://brightonruby.com/2016/rails-5-features-you-havent-heard-about-sean-griffin
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/sean-rails-5-features-you-haven’t-heard-about.mp4
-  description:
-    "We’ve all heard about ActionCable, Turbolinks 5 & Rails::API.
+  description: "We’ve all heard about ActionCable, Turbolinks 5 & Rails::API.
     But Rails 5 was almost a thousand commits! They included dozens of minor features,
     many of which will be huge quality of life improvements even if you aren’t using
     WebSockets or Turbolinks.\n\nA deep look at several of the “minor” features of
@@ -241,8 +228,7 @@
   external_player_url: https://brightonruby.com/2016/hubs-and-spokes-on-rails-patrick-mckenzie
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/patrick-hubs-and-spokes-on-rails.mp4
-  description:
-    "How do you move on from Monoliths? How can you run a stock
+  description: "How do you move on from Monoliths? How can you run a stock
     exchange for fun? Are Enterprise Message Buses as scary as they sound?\n\n\n      A
     recovering Japanese salaryman who ran a succession of small software companies.
     Currently working at Stripe, on Atlas to make it easier to start and scale companies
@@ -258,8 +244,7 @@
   external_player_url: https://brightonruby.com/2016/mary-richards-and-the-delicate-art-of-yolo-britni-alexander
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/britni-mary-richards-and-the-delicate-art-of-yolo.mp4
-  description:
-    "In the wild world of pre-junior developers nothing seems
+  description: "In the wild world of pre-junior developers nothing seems
     more majestic and out of reach than that first paying developer role.\n\nIn this
     talk we will discover some of the key attitudes learned from CAN DO attitude of
     The Mary Tyler Moore Show and practices which are instrumental in _any_ job search
@@ -275,8 +260,7 @@
   external_player_url: https://brightonruby.com/2016/how-we-make-software-a-new-theory-of-teams-sarah-mei
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2016/sarah-how-we-make-software_-a-new-theory-of-teams.mp4
-  description:
-    "How do we talk about the teams and organisations that
+  description: "How do we talk about the teams and organisations that
     build software?\n\nIf the \"Henry Ford\" factory model is incorrect (and it is)
     how can we think and talk about our organisations to make better places to build
     software?\n\nAn _amazing_ keynote to finish 2016's edition of Brighton Ruby.\n\n\n
