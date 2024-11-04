@@ -3,7 +3,7 @@
     <div class="lg:grid grid-cols-[1fr_2fr]">
       <div>
         <div class="flex justify-center mb-9">
-          <%= image_tag event.featured_image_path, class: "max-h-24 lg:max-h-none", loading: "lazy" %>
+          <%= image_tag event.featured_image_path, class: "max-h-24 lg:max-h-none", loading: "lazy", width: 307, height: 175, alt: event.name %>
         </div>
 
         <div class="flex flex-col gap-3 lg:h-48 lg:max-h-48 overflow-hidden items-center lg:items-start">
