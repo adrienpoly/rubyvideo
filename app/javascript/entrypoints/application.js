@@ -2,8 +2,6 @@
 //
 import '@hotwired/turbo-rails'
 
-import Turn from '@domchristie/turn'
-
 // import ActiveStorage from "@rails/activestorage";
 // ActiveStorage.start();
 //
@@ -11,6 +9,3 @@ import Turn from '@domchristie/turn'
 // const channels = import.meta.globEager('./**/*_channel.js')
 
 import '~/controllers'
-
-// Page transitions
-Turn.start()
