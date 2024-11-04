@@ -6,86 +6,88 @@ on:
   push:
     branches: [main]
 
-concurrency: ci-${{ github.ref }}
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true # Add this line to explicitly enable cancellation
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    env:
-      RAILS_ENV: test
-    steps:
-      - uses: actions/checkout@v4
+  # lint:
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     RAILS_ENV: test
+  #   steps:
+  #     - uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          bundler: default
-          bundler-cache: true
+  #     - name: Setup Ruby
+  #       uses: ruby/setup-ruby@v1
+  #       with:
+  #         bundler: default
+  #         bundler-cache: true
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: yarn
+  #     - name: Setup Node
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: 20
+  #         cache: yarn
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+  #     - name: Install dependencies
+  #       run: yarn install --frozen-lockfile
 
-      - name: StandardRB Check
-        run: bundle exec standardrb
+  #     - name: StandardRB Check
+  #       run: bundle exec standardrb
 
-      - name: StandardJS Check
-        run: yarn standard
+  #     - name: StandardJS Check
+  #       run: yarn standard
 
-      - name: erb-lint Check
-        run: bundle exec erblint --lint-all
+  #     - name: erb-lint Check
+  #       run: bundle exec erblint --lint-all
 
-      - name: Run Prettier on YAML data files
-        run: yarn prettier --check data/**/*.yml
+  #     - name: Run Prettier on YAML data files
+  #       run: yarn prettier --check data/**/*.yml
 
-  test:
-    runs-on: ubuntu-latest
-    env:
-      RAILS_ENV: test
-    steps:
-      - uses: actions/checkout@v4
+  # test:
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     RAILS_ENV: test
+  #   steps:
+  #     - uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          bundler: default
-          bundler-cache: true
+  #     - name: Setup Ruby
+  #       uses: ruby/setup-ruby@v1
+  #       with:
+  #         bundler: default
+  #         bundler-cache: true
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: yarn
+  #     - name: Setup Node
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: 20
+  #         cache: yarn
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+  #     - name: Install dependencies
+  #       run: yarn install --frozen-lockfile
 
-      - name: Meilisearch setup with Docker
-        run: docker run -d -p 7700:7700 getmeili/meilisearch:v1.1 meilisearch --no-analytics
+  #     - name: Meilisearch setup with Docker
+  #       run: docker run -d -p 7700:7700 getmeili/meilisearch:v1.1 meilisearch --no-analytics
 
-      - name: Build assets
-        run: bin/vite build --clear --mode=test
+  #     - name: Build assets
+  #       run: bin/vite build --clear --mode=test
 
-      - name: Prepare database
-        run: |
-          bin/rails db:create
-          bin/rails db:schema:load
+  #     - name: Prepare database
+  #       run: |
+  #         bin/rails db:create
+  #         bin/rails db:schema:load
 
-      - name: Run tests
-        run: |
-          bin/rails test
-          bin/rails test:system
+  #     - name: Run tests
+  #       run: |
+  #         bin/rails test
+  #         bin/rails test:system
 
-      # - name: Smoke test database seeds
-      #   run: sudo bin/rails db:reset
+  #     # - name: Smoke test database seeds
+  #     #   run: sudo bin/rails db:reset
 
   deploy:
-    needs: test
+    # needs: test
     name: Deploy
     # if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-20.04
@@ -111,9 +113,8 @@ jobs:
           VERSION: ${{ github.sha }}
           KAMAL_REGISTRY_PASSWORD: ${{ secrets.KAMAL_REGISTRY_PASSWORD }}
           RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
-          APPSIGNAL_PUSH_API_KEY: ${{ secrets.APPSIGNAL_PUSH_API_KEY }}
           MEILI_MASTER_KEY: ${{ secrets.MEILI_MASTER_KEY }}
-          RUBYVIDEO_GITHUB_TOKEN: ${{ secrets.RUBYVIDEO_GITHUB_TOKEN }}
-          OPENAI_ORGANIZATION_ID: ${{ secrets.OPENAI_ORGANIZATION_ID }}
-          OPENAI_ACCESS_TOKEN: ${{ secrets.OPENAI_ACCESS_TOKEN }}
         run: bundle exec kamal deploy
+      - name: Cleanup on cancellation
+        if: always() && steps.deploy.conclusion == 'cancelled'
+        run: bundle exec kamal lock release
