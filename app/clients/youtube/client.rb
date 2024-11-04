@@ -24,7 +24,7 @@ module Youtube
     end
 
     def token
-      ENV["YOUTUBE_API_KEY"]
+      Rails.application.credentials.youtube&.dig(:api_key) || ENV["YOUTUBE_API_KEY"]
     end
   end
 end

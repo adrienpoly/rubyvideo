@@ -37,6 +37,10 @@ registry:
 builder:
   arch:
     - arm64
+  cache:
+    type: registry
+    image: adrienpoly/rubyvideo_staging-build-cache
+    options: mode=max
 #
 env:
   clear:
@@ -47,11 +51,7 @@ env:
     RAILS_ENV: staging
   secret:
     - RAILS_MASTER_KEY
-    - APPSIGNAL_PUSH_API_KEY
     - MEILI_MASTER_KEY
-    - RUBYVIDEO_GITHUB_TOKEN
-    - OPENAI_ORGANIZATION_ID
-    - OPENAI_ACCESS_TOKEN
 # Aliases are triggered with "bin/kamal <alias>". You can overwrite arguments on invocation:
 # "bin/kamal logs -r job" will tail logs from the first server in the job section.
 #
