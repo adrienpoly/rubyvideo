@@ -112,7 +112,7 @@ jobs:
         env:
           VERSION: ${{ github.sha }}
           KAMAL_REGISTRY_PASSWORD: ${{ secrets.KAMAL_REGISTRY_PASSWORD }}
-          RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
+          KAMAL_RAILS_MASTER_KEY: ${{ secrets.KAMAL_RAILS_MASTER_KEY }}
           MEILI_MASTER_KEY: ${{ secrets.MEILI_MASTER_KEY }}
         run: bundle exec kamal deploy
       - name: Cleanup on cancellation
