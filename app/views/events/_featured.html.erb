@@ -34,7 +34,7 @@
             <% end %>
 
             <% if event.keynote_speakers.none? %>
-              <% speakers_with_avatars.sample(4).each do |speaker| %>
+              <% speakers_with_avatars.first(4).each do |speaker| %>
                 <% shown_speakers << speaker %>
 
                 <div class="avatar bg-white">
@@ -52,7 +52,7 @@
             <% remaining_speakers = speakers_with_avatars - shown_speakers %>
 
             <% if remaining_speakers.any? %>
-              <% remaining_speakers.sample(10).each do |speaker| %>
+              <% remaining_speakers.first(10).each do |speaker| %>
                 <% shown_speakers << speaker %>
 
                 <div class="avatar bg-white">
