@@ -258,6 +258,16 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_05_143943) do
     t.index ["user_id"], name: "index_watch_lists_on_user_id"
   end
 
+  create_table "watched_talks", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "talk_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["talk_id", "user_id"], name: "index_watched_talks_on_talk_id_and_user_id", unique: true
+    t.index ["talk_id"], name: "index_watched_talks_on_talk_id"
+    t.index ["user_id"], name: "index_watched_talks_on_user_id"
+  end
+
   add_foreign_key "connected_accounts", "users"
   add_foreign_key "email_verification_tokens", "users"
   add_foreign_key "events", "events", column: "canonical_id"
@@ -273,6 +283,8 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_05_143943) do
   add_foreign_key "topics", "topics", column: "canonical_id"
   add_foreign_key "watch_list_talks", "talks"
   add_foreign_key "watch_list_talks", "watch_lists"
+  add_foreign_key "watched_talks", "talks"
+  add_foreign_key "watched_talks", "users"
 
   # Virtual tables defined in this database.
   # Note that virtual tables may not work with other database engines. Be careful if changing database.
