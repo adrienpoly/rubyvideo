@@ -77,7 +77,7 @@ class Event < ApplicationRecord
     end
 
     if start_date.strftime("%Y") == end_date.strftime("%Y")
-      "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
+      return "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
     end
 
     "#{start_date.strftime("%b %d, %Y")} - #{end_date.strftime("%b %d, %Y")}"
@@ -91,12 +91,27 @@ class Event < ApplicationRecord
     %(All #{name} #{organisation.kind} talks)
   end
 
+  def country_name
+    return nil if country_code.blank?
+
+    ISO3166::Country.new(country_code)&.iso_short_name
+  end
+
+  def held_in_sentence
+    return "" if country_name.blank?
+
+    if country_name.starts_with?("United")
+      %( held in the #{country_name})
+    else
+      %( held in #{country_name})
+    end
+  end
+
   def description
-    held_in = country_code ? %( held in #{ISO3166::Country.new(country_code)&.iso_short_name}) : ""
     keynotes = keynote_speakers.any? ? %(, including keynotes by #{keynote_speakers.map(&:name).to_sentence}) : ""
 
     <<~DESCRIPTION
-      #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in} and features #{talks.count} #{"talk".pluralize(talks.count)} from various speakers#{keynotes}.
+      #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in_sentence} and features #{talks.count} #{"talk".pluralize(talks.count)} from various speakers#{keynotes}.
     DESCRIPTION
   end
 
@@ -159,6 +174,10 @@ class Event < ApplicationRecord
 
   def featured_image_path
     event_image_or_default_for("featured.webp")
+  end
+
+  def poster_image_path
+    event_image_or_default_for("poster.webp")
   end
 
   def banner_background

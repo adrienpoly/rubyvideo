@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.3.5"
 
 # Use main development branch of Rails
-gem "rails", "~> 8.0.0.rc1"
+gem "rails", "~> 8.0.0.rc2"
 
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
@@ -46,7 +46,7 @@ gem "tzinfo-data", platforms: %i[windows jruby]
 gem "bootsnap", require: false
 
 # Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
-gem "kamal", "~> 1.9.0", require: false
+gem "kamal", require: false
 
 # Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
 gem "thruster", require: false
@@ -133,7 +133,7 @@ gem "json-repair", "~> 0.2.0"
 
 gem "redcarpet", "~> 3.6"
 gem "country_select", "~> 8.0"
-gem "avo", "~> 3.11"
+gem "avo"
 gem "frozen_record", "~> 0.27.2"
 gem "diffy"
 

@@ -20,6 +20,8 @@
   location: Budapest, Hungary
   description: ""
   published_at: "2021-06-01"
+  start_date: "2017-09-29"
+  end_date: "2017-09-30"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
   year: "2017"
   videos_count: 16
@@ -34,13 +36,15 @@
   location: Vienna, Austria
   description: ""
   published_at: "2021-06-01"
+  start_date: "2018-08-24"
+  end_date: "2018-08-25"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
   year: "2018"
   videos_count: 18
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2018
-  banner_background: "#86E4FF"
-  featured_background: "#86E4FF"
+  banner_background: "linear-gradient(to top, #86E4FF, #FFFFFF)"
+  featured_background: "linear-gradient(to top, #86E4FF, #FFFFFF)"
   featured_color: "#595959"
 
 - id: PLZW-kXE0oRykFFY4CTzKBqXC_RDNL_TD6
@@ -48,20 +52,40 @@
   location: Rotterdam, Netherlands
   description: ""
   published_at: "2021-06-01"
+  start_date: "2019-06-21"
+  end_date: "2019-06-22"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
   year: "2019"
   videos_count: 32
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2019
-  banner_background: "#FDD8A3"
-  featured_background: "#FDD8A3"
+  banner_background: "linear-gradient(#FEEBD1, #FDD7A2)"
+  featured_background: "linear-gradient(#FEEBD1, #FDD7A2)"
   featured_color: "#633152"
+
+- id: PL9_A7olkztLlmJIAc567KQgKcMi7-qnjg
+  title: "NoRuKo 2020"
+  location: online
+  description: 'NoRuKo 2020 is a virtual mini-conference filling a bit of the void all the cancelled and postponed events created. The name is a play on the biggest European Ruby Conference, "EuRuKo"'
+  published_at: "2020-08-24"
+  start_date: "2020-08-21"
+  end_date: "2020-08-21"
+  channel_id: UCyExf-593j4hjN_cFCSnr2w
+  year: "2020"
+  videos_count: 16
+  metadata_parser: Youtube::VideoMetadata
+  slug: noruko-2020
+  banner_background: "linear-gradient(170deg, #ffddfb 40%, #ffb3a1)"
+  featured_background: "linear-gradient(170deg, #ffddfb 40%, #ffb3a1)"
+  featured_color: "#000000"
 
 - id: PLZW-kXE0oRyknRwEUrg5o491KomjkNU16
   title: EuRuKo 2021
   location: Helsinki, Finland (online)
   description: "EuRuKo 2021"
   published_at: "2021-06-01"
+  start_date: "2021-05-28"
+  end_date: "2021-05-29"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
   year: "2021"
   videos_count: 18
@@ -76,6 +100,8 @@
   location: Helsinki, Finland
   description: Talks from EuRuKo 2022
   published_at: "2022-10-20"
+  start_date: "2022-10-13"
+  end_date: "2022-10-14"
   channel_id: UCgXsZr2e0AgUJMZm5t03WVw
   year: "2022"
   videos_count: 12

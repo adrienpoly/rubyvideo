@@ -172,12 +172,12 @@
   language: english
   youtube_channel_id: UCR076_JBPtcQKfiwiVOB3Cg
 
-- name: wroc_love.rb
+- name: wroclove.rb
   website: https://wrocloverb.com
   twitter: wrocloverb
   kind: conference
   frequency: yearly
-  playlist_matcher: wroc_love.rb
+  playlist_matcher: wroclove.rb
   default_country_code: PL
   youtube_channel_name: wrocloverb
   slug: wroclove-rb
@@ -456,3 +456,28 @@
   slug: arrrrcamp
   language: english
   youtube_channel_id: UCWnPjmqvljcafA0z2U1fwKQ
+
+- name: Brighton Ruby
+  website: https://brightonruby.com
+  twitter: BrightonRuby
+  kind: conference
+  frequency: yearly
+  playlist_matcher:
+  default_country_code: UK
+  youtube_channel_name: BrightonRubyUK
+  slug: brightonruby
+  language: english
+  youtube_channel_id: UCTj2HxTYg7Q4fi1cLccSoQA
+
+- name: EMEA on Rails
+  website: https://emeaonrails.com
+  # website: https://github.com/amcaplan/emea-on-rails
+  twitter: emeaonrails
+  kind: meetup
+  frequency: yearly
+  playlist_matcher: EMEA on Rails
+  default_country_code: IL
+  youtube_channel_name: emeaonrails9306
+  slug: emea-on-rails
+  language: english
+  youtube_channel_id: PL-pWnolRukJX1d7-cxY2jruggH47EplAe

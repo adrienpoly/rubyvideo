@@ -13,12 +13,6 @@ class OrganisationsController < ApplicationController
     set_meta_tags(@organisation)
 
     @events = @organisation.events.order(date: :desc)
-
-    if @events.first.featurable?
-      @featured_event, *@remaning_events = @events
-    else
-      @remaning_events = @events
-    end
   end
 
   private

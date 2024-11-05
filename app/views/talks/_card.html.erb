@@ -2,7 +2,7 @@
 
 <% language = Language.by_code(talk.language) %>
 
-<div class="card card-compact bg-white shadow-xl w-full" id="<%= dom_id talk %>" style="<%= "view-transition-name: #{dom_id(talk, :talk_card)}" %>">
+<div class="card card-compact bg-white shadow-xl w-full" id="<%= dom_id talk %>">
   <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden relative" do %>
     <% if language && language != "English" %>
       <div class="absolute top-0 left-0 z-10 m-3 p-1 px-2 bg-black/15 backdrop-blur-md rounded-full group">
@@ -11,11 +11,12 @@
       </div>
     <% end %>
 
-      <%= image_tag talk.thumbnail_sm,
+      <%= image_tag talk.thumbnail_lg,
             srcset: ["#{talk.thumbnail_lg} 2x"],
             id: dom_id(talk),
             height: 174,
             width: 310,
+            loading: "lazy",
             alt: "talk by #{talk.speakers.map(&:name).join(", ")}: #{talk.title}",
             style: "view-transition-name: #{dom_id(talk, :image)}",
             class: "w-full object-cover rounded-t-xl" %>

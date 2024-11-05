@@ -8,7 +8,7 @@
 #  description         :text             default(""), not null
 #  slug                :string           default(""), not null
 #  video_id            :string           default(""), not null
-#  video_provider      :string           default(""), not null
+#  video_provider      :string           default("youtube"), not null
 #  thumbnail_sm        :string           default(""), not null
 #  thumbnail_md        :string           default(""), not null
 #  thumbnail_lg        :string           default(""), not null
@@ -20,10 +20,14 @@
 #  date                :date
 #  like_count          :integer
 #  view_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x00000001645d16b8 @cues=[]>), not null
-#  enhanced_transcript :text             default(#<Transcript:0x00000001645d15c8 @cues=[]>), not null
+#  raw_transcript      :text             default(#<Transcript:0x000000013ac74120 @cues=[]>), not null
+#  enhanced_transcript :text             default(#<Transcript:0x000000013ac74030 @cues=[]>), not null
 #  summary             :text             default(""), not null
 #  language            :string           default("en"), not null
+#  slides_url          :string
+#  summarized_using_ai :boolean          default(TRUE), not null
+#  external_player     :boolean          default(FALSE), not null
+#  external_player_url :string           default(""), not null
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
@@ -35,9 +39,7 @@ class Talk < ApplicationRecord
   include Searchable
   slug_from :title
 
-  # include MeiliSearch
   # include MeiliSearch::Rails
-  # ActiveRecord_Relation.include Pagy::Meilisearch
   # extend Pagy::Meilisearch
 
   # associations
@@ -135,7 +137,7 @@ class Talk < ApplicationRecord
         title: title,
         type: :website,
         image: {
-          _: thumbnail_lg,
+          _: thumbnail_xl,
           alt: title
         },
         description: description,
@@ -147,7 +149,7 @@ class Talk < ApplicationRecord
         title: title,
         description: description,
         image: {
-          src: thumbnail_lg
+          src: thumbnail_xl
         }
       }
     }
@@ -174,7 +176,7 @@ class Talk < ApplicationRecord
   end
 
   def fallback_thumbnail
-    "/assets/#{Rails.application.assets.load_path.find("posters/fallback.png").digested_path}"
+    "/assets/#{Rails.application.assets.load_path.find("events/default/poster.webp").digested_path}"
   end
 
   def thumbnail(size = :thumbnail_lg)
@@ -183,12 +185,18 @@ class Talk < ApplicationRecord
 
       if (asset = Rails.application.assets.load_path.find(self[size]))
         return "/assets/#{asset.digested_path}"
+      elsif event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
+        return "/assets/#{asset.digested_path}"
       else
         return fallback_thumbnail
       end
     end
 
-    return fallback_thumbnail if video_provider != "youtube"
+    if event && (asset = Rails.application.assets.load_path.find(event.poster_image_path)) && !youtube?
+      return "/assets/#{asset.digested_path}"
+    end
+
+    return fallback_thumbnail unless youtube?
 
     youtube = {
       thumbnail_xs: "default",
@@ -201,12 +209,49 @@ class Talk < ApplicationRecord
     "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
   end
 
+  def external_player_utm_params
+    {
+      utm_source: "rubyvideo.dev",
+      utm_medium: "referral",
+      utm_campaign: event.slug,
+      utm_content: slug
+    }
+  end
+
+  def external_player_url
+    uri = URI.parse(self[:external_player_url].presence || provider_url)
+
+    existing_params = URI.decode_www_form(uri.query || "").to_h
+    updated_params = existing_params.merge(external_player_utm_params)
+
+    uri.query = URI.encode_www_form(updated_params)
+
+    uri.to_s
+  end
+
+  def provider_url
+    case video_provider
+    when "youtube"
+      "https://www.youtube.com/watch?v=#{video_id}"
+    else
+      "#"
+    end
+  end
+
   def related_talks(limit: 6)
     ids = Rails.cache.fetch(["talk_recommendations", id, limit], expires_in: 1.week) do
       Talk.order("RANDOM()").excluding(self).limit(limit).ids
     end
 
     Talk.where(id: ids)
+  end
+
+  def formatted_date
+    date.strftime("%B %d, %Y")
+  rescue => _e
+    # TODO: notify to error tracking
+
+    "Unknown"
   end
 
   def transcript
@@ -268,7 +313,9 @@ class Talk < ApplicationRecord
       language: static_metadata.language || Language::DEFAULT,
       slides_url: static_metadata.slides_url,
       video_provider: static_metadata.video_provider || :youtube,
-      kind: static_metadata.try(:kind)
+      kind: static_metadata.try(:kind),
+      external_player: static_metadata.external_player || false,
+      external_player_url: static_metadata.external_player_url || ""
     )
 
     self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
