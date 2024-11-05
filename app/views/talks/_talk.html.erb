@@ -14,7 +14,7 @@
       <%= link_to talk.external_player_url, target: "_blank", class: "relative w-full h-full block" do %>
         <%= image_tag talk.thumbnail_xl, class: "w-full h-full object-cover rounded-xl" %>
 
-        <div class="absolute inset-0 text-center text-white bg-black/80 flex flex-col gap-6 justify-center items-center font-bold text-xl rounded-xl p-6">         
+        <div class="absolute inset-0 text-center text-white bg-black/80 flex flex-col gap-6 justify-center items-center font-bold text-xl rounded-xl p-6">
           This talk is available to watch on <%= URI.parse(talk.external_player_url).host %>
 
           <%= ui_button do %>
