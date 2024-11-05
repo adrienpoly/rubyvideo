@@ -54,6 +54,14 @@ class SpeakerTest < ActiveSupport::TestCase
     assert_equal speaker, user.speaker
   end
 
+  test "normalizes github with URL" do
+    assert_equal "username", Speaker.new(github: "https://github.com/username").github
+    assert_equal "username", Speaker.new(github: "http://github.com/username").github
+    assert_equal "username", Speaker.new(github: "http://www.github.com/username").github
+    assert_equal "username", Speaker.new(github: "@username").github
+    assert_equal "username", Speaker.new(github: "github.com/username").github
+  end
+
   test "normalizes Twitter with URL" do
     assert_equal "username", Speaker.new(twitter: "https://twitter.com/username").twitter
   end
