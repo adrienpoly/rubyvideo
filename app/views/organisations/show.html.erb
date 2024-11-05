@@ -20,7 +20,7 @@
   </p>
 
   <% if (featured_event = @events.find { |event| event.featurable? }) %>
-    <div class="hidden lg:block"
+    <div class="hidden lg:block">
       <%= render partial: "events/featured", locals: {event: featured_event} %>
     </div>
   <% end %>
