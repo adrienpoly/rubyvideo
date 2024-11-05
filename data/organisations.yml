@@ -481,3 +481,15 @@
   slug: emea-on-rails
   language: english
   youtube_channel_id: PL-pWnolRukJX1d7-cxY2jruggH47EplAe
+
+- name: Montreal.rb
+  website: https://www.meetup.com/montrealrb # TODO: https://montrealrb.com
+  twitter: # TODO: montrealrb
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: Montreal.rb
+  default_country_code: CA
+  youtube_channel_name: montreal-rb
+  slug: montreal-rb
+  language: english
+  youtube_channel_id: UCVGtTNLJjB35j-RgD62B9Zw
