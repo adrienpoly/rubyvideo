@@ -20,7 +20,7 @@ We have tried to make the setup process as simple as possible so that in a few c
 
 ### Requirements
 
-- Ruby 3.3.5
+- Ruby 3.3.6
 - Docker and docker-compose (for Meilisearch)
 - Node.js 20.11.0
 - Meilisearch 1.1
