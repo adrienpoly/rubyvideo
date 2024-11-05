@@ -12,6 +12,7 @@
   banner_background: "#343A40"
   featured_background: "#343A40"
   featured_color: "#FFFFFF"
+  website: https://brightonruby.com/2020
 
 - id: brightonruby-2022
   title: Brighton Ruby 2022
@@ -27,6 +28,7 @@
   banner_background: "#000000"
   featured_background: "#000000"
   featured_color: "#FFFBEB"
+  website: https://brightonruby.com/2022
 
 - id: brightonruby-2023
   title: Brighton Ruby 2023
@@ -48,6 +50,7 @@
       #B91C1C 70%, #B91C1C 90%,
       #0F172A 90%
     )
+  website: https://brightonruby.com/2023
 
 - id: brightonruby-2024
   title: Brighton Ruby 2024
@@ -63,3 +66,4 @@
   banner_background: "#FFFFFF"
   featured_background: "#FFFBEB"
   featured_color: "#0F1729"
+  website: https://brightonruby.com/2024
