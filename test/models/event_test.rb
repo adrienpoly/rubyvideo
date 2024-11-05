@@ -34,7 +34,6 @@ class EventTest < ActiveSupport::TestCase
     assert Event.new(name: "test", country_code: nil, organisation: @organisation).valid?
   end
 
-
   test "returns event website if present" do
     event = Event.new(name: "test", organisation: @organisation, website: "https://event-website.com")
     assert_equal "https://event-website.com", event.website
