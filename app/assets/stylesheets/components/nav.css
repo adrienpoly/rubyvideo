@@ -6,7 +6,7 @@
     title {
       @apply m-0 inline-block;
       div {
-        @apply invisible;
+        @apply invisible h-0.5 bg-primary;
       }
       &.active {
         @apply relative;

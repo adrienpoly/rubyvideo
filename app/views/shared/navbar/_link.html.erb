@@ -2,5 +2,5 @@
 
 <%= content_tag :li, class: class_names("pt-1", active: active) do %>
   <%= link_to link_title, path %>
-  <%= content_tag :div, "", data: {turn_exit: !active.to_s, turn_enter: active.to_s} %>
+  <%= content_tag :div, "" %>
 <% end %>
