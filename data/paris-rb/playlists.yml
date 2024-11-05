@@ -8,6 +8,7 @@
   videos_count: 30
   metadata_parser: Youtube::VideoMetadata
   slug: paris-rb-conf-2018
+  website: https://2018.rubyparis.org
 
 - id: PLjyiiigeVQV-rqM4LD2SUbUfxXLuta1yU
   title: Paris.rb Conf 2020
@@ -18,3 +19,4 @@
   videos_count: 23
   metadata_parser: Youtube::VideoMetadata
   slug: paris-rb-conf-2020
+  website: https://2020.rubyparis.org

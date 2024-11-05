@@ -231,4 +231,8 @@ class Event < ApplicationRecord
   rescue => _e
     talks.first.date.year
   end
+
+  def website
+    self[:website].presence || organisation.website
+  end
 end
