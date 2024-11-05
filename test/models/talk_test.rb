@@ -72,6 +72,12 @@ class TalkTest < ActiveSupport::TestCase
     end
   end
 
+  test "should not guess a kind if it's provided" do
+    talk = Talk.create!(title: "foo", kind: "panel")
+
+    assert_equal "panel", talk.kind
+  end
+
   test "transcript should default to raw_transcript" do
     raw_transcript = Transcript.new(cues: [Cue.new(start_time: 0, end_time: 1, text: "Hello")])
     talk = Talk.new(title: "Sample Talk", raw_transcript: raw_transcript)

@@ -61,7 +61,7 @@ class Talk < ApplicationRecord
   delegate :name, to: :event, prefix: true, allow_nil: true
 
   # callbacks
-  before_validation :set_kind
+  before_validation :set_kind, if: -> { !kind_changed? }
 
   # enums
   enum :video_provider, %w[youtube mp4].index_by(&:itself)
@@ -267,7 +267,8 @@ class Talk < ApplicationRecord
       thumbnail_xl: static_metadata.thumbnail_xl || "",
       language: static_metadata.language || Language::DEFAULT,
       slides_url: static_metadata.slides_url,
-      video_provider: static_metadata.video_provider || :youtube
+      video_provider: static_metadata.video_provider || :youtube,
+      kind: static_metadata.try(:kind)
     )
 
     self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
