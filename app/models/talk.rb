@@ -283,9 +283,9 @@ class Talk < ApplicationRecord
     end
 
     date = static_metadata.try(:date) ||
+      static_metadata.published_at ||
       event.start_date ||
       event.end_date ||
-      static_metadata.published_at ||
       Date.parse("#{static_metadata.year}-01-01")
 
     assign_attributes(
