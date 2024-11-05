@@ -1,10 +1,10 @@
 <%= ui_dropdown align: :end, content_classes: "mt-5 shadow-xl", id: "user_navbar_toggle" do |c| %>
     <% c.with_toggle_open do %>
-      <%= heroicon "x-mark", size: :lg, class: "text-white" %>
+      <%= heroicon "x-mark", size: :lg %>
     <% end %>
 
     <% c.with_toggle_close do %>
-      <%= heroicon "bars-3", size: :lg, class: "" %>
+      <%= heroicon "bars-3", size: :lg %>
     <% end %>
 
     <% c.with_menu_item_link_to "Leaderboard", leaderboard_path %>
