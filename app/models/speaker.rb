@@ -118,8 +118,8 @@ class Speaker < ApplicationRecord
     "https://github.com/#{github}.png?size=#{size}"
   end
 
-  def broadcast_about
-    broadcast_update_to self, target: dom_id(self, :about), partial: "speakers/about", locals: {speaker: self}
+  def broadcast_header
+    broadcast_update_to self, target: dom_id(self, :header), partial: "speakers/header", locals: {speaker: self}
   end
 
   def valid_website_url

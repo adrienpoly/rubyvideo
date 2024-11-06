@@ -14,7 +14,7 @@ class Speaker::EnhanceProfileJob < ApplicationJob
         website: speaker.website.presence || matching_profile.blog || ""
       )
     end
-    speaker.broadcast_about
+    speaker.broadcast_header
     sleep(sleep)
   end
 
