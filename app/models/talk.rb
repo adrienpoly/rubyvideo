@@ -67,7 +67,7 @@ class Talk < ApplicationRecord
 
   # enums
   enum :video_provider, %w[youtube mp4].index_by(&:itself)
-  enum :kind, %w[standard keynote lightning_talk panel workshop].index_by(&:itself)
+  enum :kind, %w[talk keynote lightning_talk panel workshop].index_by(&:itself)
 
   # attributes
   attribute :video_provider, default: :youtube
@@ -313,10 +313,11 @@ class Talk < ApplicationRecord
       language: static_metadata.language || Language::DEFAULT,
       slides_url: static_metadata.slides_url,
       video_provider: static_metadata.video_provider || :youtube,
-      kind: static_metadata.try(:kind),
       external_player: static_metadata.external_player || false,
       external_player_url: static_metadata.external_player_url || ""
     )
+
+    self.kind = static_metadata.kind if static_metadata.try(:kind).present?
 
     self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
       Speaker.find_by(slug: speaker_name.parameterize) || Speaker.find_or_create_by(name: speaker_name.strip)
@@ -351,7 +352,7 @@ class Talk < ApplicationRecord
       when /.*lightning\ talk: .*/i
         :lightning_talk
       else
-        :standard
+        :talk
       end
   end
 end

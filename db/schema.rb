@@ -199,7 +199,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_01_185604) do
     t.string "language", default: "en", null: false
     t.string "slides_url"
     t.boolean "summarized_using_ai", default: true, null: false
-    t.string "kind", default: "standard"
+    t.string "kind", default: "talk", null: false
     t.boolean "external_player", default: false, null: false
     t.string "external_player_url", default: "", null: false
     t.index ["date"], name: "index_talks_on_date"

@@ -59,7 +59,7 @@ class TalkTest < ActiveSupport::TestCase
 
   test "should guess kind from title" do
     kind_with_titles = {
-      standard: ["I love Ruby"],
+      talk: ["I love Ruby"],
       keynote: ["Keynote: foo ", "foo Opening keynote bar", "closing keynote foo bar"],
       lightning_talk: ["lightning talk: foo"],
       panel: ["Panel: foo"],
