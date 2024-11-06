@@ -4,12 +4,12 @@
   <% end %>
 <% else %>
   <% if !speaker.verified? %>
-    <%= ui_button url: edit_speaker_path(speaker), kind: :secondary, outline: true, size: :sm, data: {turbo_frame: "modal"} do %>
+    <%= ui_button url: edit_speaker_path(speaker), kind: :none, size: :sm, data: {turbo_frame: "modal"} do %>
       <%= heroicon :pencil_square %>
       <span>Suggest improvements</span>
     <% end %>
 
-    <div class="content text-sm">
+    <div class="content text-sm mt-3">
       <span>Are you <strong><%= speaker.name %></strong>?
       <%= link_to sign_in_path, class: "link link-neutral font-light", data: {turbo_frame: "modal"} do %>
         Claim your profile to manage and edit content.</span>

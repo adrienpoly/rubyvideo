@@ -11,7 +11,8 @@ class Ui::ButtonComponent < ApplicationComponent
     warning: "btn-warning",
     error: "btn-error",
     ghost: "btn-ghost",
-    link: "btn-link"
+    link: "btn-link",
+    none: "",
   }
 
   SIZE_MAPPING = {
