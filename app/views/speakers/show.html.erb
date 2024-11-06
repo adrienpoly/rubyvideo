@@ -42,7 +42,7 @@
 
     <div class="flex flex-col gap-3 align-center lg:max-w-[250px]">
       <% if @speaker.website %>
-        <%= link_to "Visit Website", @speaker.website, class: "btn btn-sm btn-primary w-full tooltip tooltip-bottom flex place-content-center", target: "_blank", data: { tip: @speaker.website } %>
+        <%= link_to "Visit Website", @speaker.website, class: "btn btn-sm btn-primary w-full tooltip tooltip-bottom flex place-content-center", target: "_blank", data: {tip: @speaker.website} %>
       <% end %>
       <%= render "speakers/actions", speaker: @speaker %>
     </div>
@@ -50,7 +50,7 @@
 
   <% if @topics.any? %>
     <div class="mt-9 mb-3">
-      <%= render partial: "topics/badge_list", locals: { topics: @topics, back_to_url: request.fullpath, back_to_title: @speaker.name } %>
+      <%= render partial: "topics/badge_list", locals: {topics: @topics, back_to_url: request.fullpath, back_to_title: @speaker.name} %>
     </div>
   <% end %>
 

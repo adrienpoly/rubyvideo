@@ -2,11 +2,11 @@
 <% more_topics = topics.to_a.from(limit) %>
 
 <div class="flex flex-wrap gap-2" data-controller="toggable">
-  <%= render partial: "topics/badge", collection: topics.first(limit), as: :topic, locals: { back_to_url: back_to_url, back_to_title: back_to_title } %>
+  <%= render partial: "topics/badge", collection: topics.first(limit), as: :topic, locals: {back_to_url: back_to_url, back_to_title: back_to_title} %>
 
   <% more_topics.each do |topic| %>
     <span class="hidden" data-toggable-target="toggable">
-      <%= render partial: "topics/badge", locals: { topic: topic, back_to_url: back_to_url, back_to_title: back_to_title } %>
+      <%= render partial: "topics/badge", locals: {topic: topic, back_to_url: back_to_url, back_to_title: back_to_title} %>
     </span>
   <% end %>
 
