@@ -81,9 +81,6 @@ service_account.json
 # asdf
 .tool-versions
 
-# kamal
-.kamal/secrets.staging
-
 .DS_Store
 
 .ssh-keys/
