@@ -1,25 +1,16 @@
 import { Controller } from '@hotwired/stimulus'
 
-// Connects to data-controller="scroll-position"
+// this controller is used to scroll into the center to the active target
+// if no active target is found, it will scroll into the center of the element
+// Connects to data-controller="scroll-into-view"
 export default class extends Controller {
   static targets = ['active']
 
   connect () {
-    this.centerCurrentTalk()
+    this.elementToScroll.scrollIntoView({ block: 'center' })
   }
 
-  centerCurrentTalk () {
-    if (!this.hasActiveTarget) return
-
-    const activeCard = this.activeTarget
-
-    const container = this.element
-    const containerHeight = container.clientHeight
-    const cardPosition = activeCard.offsetTop
-    const cardHeight = activeCard.clientHeight
-
-    // Calculate scroll position to center the card
-    const scrollPosition = cardPosition - (containerHeight / 2) + (cardHeight / 2)
-    container.scrollTop = Math.max(0, scrollPosition)
+  get elementToScroll () {
+    return this.hasActiveTarget ? this.activeTarget : this.element
   }
 }
