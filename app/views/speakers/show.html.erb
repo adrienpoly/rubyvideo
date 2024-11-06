@@ -48,6 +48,11 @@
     </div>
   </div>
 
+  <% if @topics.any? %>
+    <div class="mt-9 mb-3">
+      <%= render partial: "topics/badge_list", locals: { topics: @topics, back_to_url: request.fullpath, back_to_title: @speaker.name } %>
+    </div>
+  <% end %>
 
   <hr class="my-6">
 

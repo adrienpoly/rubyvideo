@@ -22,6 +22,9 @@ application.register("scroll-position", ScrollPositionController)
 import SplideController from "./splide_controller"
 application.register("splide", SplideController)
 
+import ToggableController from "./toggable_controller"
+application.register("toggable", ToggableController)
+
 import TransitionController from "./transition_controller"
 application.register("transition", TransitionController)
 

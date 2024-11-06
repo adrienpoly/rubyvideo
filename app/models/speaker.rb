@@ -41,6 +41,7 @@ class Speaker < ApplicationRecord
   has_many :speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
   has_many :talks, through: :speaker_talks, inverse_of: :speakers
   has_many :aliases, class_name: "Speaker", foreign_key: "canonical_id"
+  has_many :topics, through: :talks
 
   belongs_to :canonical, class_name: "Speaker", optional: true
   belongs_to :user, primary_key: :github_handle, foreign_key: :github, optional: true
