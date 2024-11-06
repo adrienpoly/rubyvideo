@@ -41,7 +41,9 @@
     </div>
 
     <div class="flex flex-col gap-3 align-center lg:max-w-[250px]">
-      <%= link_to "Visit Website", @speaker.website, class: "btn btn-sm btn-primary w-full tooltip tooltip-bottom flex place-content-center", target: "_blank", data: { tip: @speaker.website } %>
+      <% if @speaker.website %>
+        <%= link_to "Visit Website", @speaker.website, class: "btn btn-sm btn-primary w-full tooltip tooltip-bottom flex place-content-center", target: "_blank", data: { tip: @speaker.website } %>
+      <% end %>
       <%= render "speakers/actions", speaker: @speaker %>
     </div>
   </div>
