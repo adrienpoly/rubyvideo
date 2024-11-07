@@ -117,10 +117,21 @@ class Talk < ApplicationRecord
   scope :without_topics, -> { where.missing(:talk_topics) }
   scope :with_topics, -> { joins(:talk_topics) }
 
-  scope :with_essential_card_data, -> do
-    select(:id, :slug, :kind, :title, :date, :thumbnail_sm, :thumbnail_lg, :video_id, :video_provider, :event_id, :language)
-      .includes(:speakers, :event)
-  end
+  scope :with_essential_card_data, -> {
+    select(
+      :id,
+      :slug,
+      :kind,
+      :title,
+      :date,
+      :thumbnail_sm,
+      :thumbnail_lg,
+      :video_id,
+      :video_provider,
+      :event_id,
+      :language
+    ).includes(:speakers, :event)
+  }
 
   def managed_by?(visiting_user)
     return false unless visiting_user.present?
