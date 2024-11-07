@@ -10,7 +10,7 @@ module Watchable
   end
 
   def unmark_as_watched!
-    watched_talks.find_by(user: Current.user).destroy
+    watched_talks.find_by(user: Current.user).destroy!
   end
 
   def watched?

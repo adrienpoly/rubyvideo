@@ -226,4 +226,27 @@ class TalkTest < ActiveSupport::TestCase
     first_result = Talk.ft_search("incididunt").with_snippets.first
     assert_match "<mark>incididunt</mark>", first_result.summary_snippet
   end
+
+  test "mark talk as watched" do
+    talk = talks(:two)
+    Current.user = users(:one)
+
+    assert_equal 0, talk.watched_talks.count
+
+    talk.mark_as_watched!
+
+    assert_equal 1, talk.watched_talks.count
+    assert talk.watched?
+  end
+
+  test "unmark talk as watched" do
+    watched_talk = watched_talks(:one)
+    talk = watched_talk.talk
+    Current.user = users(:one)
+
+    talk.unmark_as_watched!
+
+    assert_equal 0, talk.watched_talks.count
+    assert_not talk.watched?
+  end
 end

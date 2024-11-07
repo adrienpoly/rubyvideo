@@ -1,4 +1,4 @@
-class CreateWatcheds < ActiveRecord::Migration[8.0]
+class CreateWatchedTalks < ActiveRecord::Migration[8.0]
   def change
     create_table :watched_talks do |t|
       t.belongs_to :user, null: false, foreign_key: true
