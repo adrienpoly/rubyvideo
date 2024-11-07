@@ -28,6 +28,7 @@
 #  summarized_using_ai :boolean          default(TRUE), not null
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
+#  kind                :string           default("talk"), not null
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord

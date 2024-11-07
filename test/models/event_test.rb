@@ -14,6 +14,7 @@
 #  slug            :string           default(""), not null
 #  talks_count     :integer          default(0), not null
 #  canonical_id    :integer
+#  website         :string           default("")
 #
 # rubocop:enable Layout/LineLength
 require "test_helper"
