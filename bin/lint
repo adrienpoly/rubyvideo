@@ -13,7 +13,7 @@ yarn standard --fix
 
 # Check erb file formatting
 echo "Checking erb file formatting..."
-bundle exec erblint --lint-all --autocorrect
+bundle exec erb_lint --lint-all --autocorrect
 
 # Check YAML file formatting
 echo "Checking YAML file formatting in data/ ..."
