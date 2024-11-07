@@ -16,7 +16,7 @@
     <% if @speaker.talks.any? %>
       <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="All Talks" style="width: 100px" checked>
 
-      <div role="tabpanel" class="tab-content !rounded-s-xl rounded-xl bg-base-200/50 p-6 mt-6 overflow-hidden">
+      <div role="tabpanel" class="tab-content mt-6">
         <div class="grid min-w-full grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:[&>:nth-child(4)]:hidden lg:grid-cols-4 lg:[&>:nth-child(4)]:block">
           <%= render partial: "talks/card",
                 collection: @talks,
