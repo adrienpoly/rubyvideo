@@ -62,8 +62,12 @@ class Talk < ApplicationRecord
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
+  # callbacks
+  before_validation :set_kind, if: -> { !kind_changed? }
+
   # enums
   enum :video_provider, %w[youtube mp4].index_by(&:itself)
+  enum :kind, %w[talk keynote lightning_talk panel workshop].index_by(&:itself)
 
   # attributes
   attribute :video_provider, default: :youtube
@@ -313,6 +317,8 @@ class Talk < ApplicationRecord
       external_player_url: static_metadata.external_player_url || ""
     )
 
+    self.kind = static_metadata.kind if static_metadata.try(:kind).present?
+
     self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
       Speaker.find_by(slug: speaker_name.parameterize) || Speaker.find_or_create_by(name: speaker_name.strip)
     }
@@ -332,5 +338,21 @@ class Talk < ApplicationRecord
       by #{speakers.map(&:name).to_sentence}
       at #{event.name}
     HEREDOC
+  end
+
+  def set_kind
+    self.kind =
+      case title
+      when /.*(keynote:|opening\ keynote|closing\ keynote).*/i
+        :keynote
+      when /.*workshop:.*/i
+        :workshop
+      when /.*panel:.*/i
+        :panel
+      when /.*lightning\ talk: .*/i
+        :lightning_talk
+      else
+        :talk
+      end
   end
 end

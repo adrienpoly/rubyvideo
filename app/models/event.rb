@@ -66,11 +66,7 @@ class Event < ApplicationRecord
   end
 
   def keynote_speakers
-    talks.select { |talk|
-      talk.title.start_with?("Keynote: ") ||
-        talk.title.include?("Opening Keynote") ||
-        talk.title.include?("Closing Keynote")
-    }.flat_map(&:speakers)
+    speakers.merge(talks.keynote)
   end
 
   def formatted_dates

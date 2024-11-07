@@ -200,6 +200,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_05_143943) do
     t.string "language", default: "en", null: false
     t.string "slides_url"
     t.boolean "summarized_using_ai", default: true, null: false
+    t.string "kind", default: "talk", null: false
     t.boolean "external_player", default: false, null: false
     t.string "external_player_url", default: "", null: false
     t.index ["date"], name: "index_talks_on_date"
@@ -234,7 +235,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_05_143943) do
     t.string "name"
     t.string "github_handle"
     t.index ["email"], name: "index_users_on_email", unique: true
-    t.index ["github_handle"], name: "index_users_on_github_handle", unique: true, where: "github_handle IS NOT NULL"
+    t.index ["github_handle"], name: "index_users_on_github_handle", unique: true, where: "github_handle IS NOT NULL /*application='Rubyvideo'*/"
   end
 
   create_table "watch_list_talks", force: :cascade do |t|
