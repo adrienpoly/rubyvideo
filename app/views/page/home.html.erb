@@ -2,19 +2,21 @@
   <% playlist_slugs = Static::Playlist.where.not(featured_background: nil).sort_by(&:published_at).reverse.take(15).map(&:slug) %>
   <% events = Event.where(slug: playlist_slugs).in_order_of(:slug, playlist_slugs) %>
 
-  <section class="splide" aria-label="Featured Events" data-controller="splide">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <% events.each_with_index do |event, index| %>
-          <li class="splide__slide">
-            <div class="<%= "hidden" unless index == 0 %>">
-              <%= render partial: "events/featured", locals: {event: event} %>
-            </div>
-          </li>
-        <% end %>
-      </ul>
-    </div>
-  </section>
+  <% cache events do %>
+    <section class="splide" aria-label="Featured Events" data-controller="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <% events.each_with_index do |event, index| %>
+            <li class="splide__slide">
+              <div class="<%= "hidden" unless index == 0 %>">
+                <%= render partial: "events/featured", locals: {event: event} %>
+              </div>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </section>
+  <% end %>
 
   <div class="w-full flex flex-col items-center pt-20 pb-12 text-center">
     <h1 class="text-5xl font-bold tracking-tight text-slate-700">On a mission to index all Ruby conferences</h1>
@@ -57,5 +59,4 @@
       </div>
     </section>
   </div>
-
 </main>
