@@ -235,7 +235,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_05_151601) do
     t.string "name"
     t.string "github_handle"
     t.index ["email"], name: "index_users_on_email", unique: true
-    t.index ["github_handle"], name: "index_users_on_github_handle", unique: true, where: "github_handle IS NOT NULL /*application='Rubyvideo'*/"
+    t.index ["github_handle"], name: "index_users_on_github_handle", unique: true, where: "github_handle IS NOT NULL /*application='Rubyvideo'*/ /*application='Rubyvideo'*/"
   end
 
   create_table "watch_list_talks", force: :cascade do |t|
@@ -283,8 +283,8 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_05_151601) do
   add_foreign_key "topics", "topics", column: "canonical_id"
   add_foreign_key "watch_list_talks", "talks"
   add_foreign_key "watch_list_talks", "watch_lists"
-  add_foreign_key "watched_talks", "talks"
-  add_foreign_key "watched_talks", "users"
+  add_foreign_key "watched_talks", "talks", deferrable: :deferred
+  add_foreign_key "watched_talks", "users", deferrable: :deferred
 
   # Virtual tables defined in this database.
   # Note that virtual tables may not work with other database engines. Be careful if changing database.
