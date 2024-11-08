@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.3.5"
+ruby file: ".ruby-version"
 
 # Use main development branch of Rails
 gem "rails", "~> 8.0"
