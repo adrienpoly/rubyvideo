@@ -162,7 +162,7 @@
         </div>
       <% end %>
 
-      <% if talk.slides_url %>
+      <% if talk.slides_url.present? %>
         <% uri = URI(talk.slides_url) %>
 
         <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Slides">
