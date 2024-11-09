@@ -1,36 +1,3 @@
-# rubocop:disable Layout/LineLength
-# == Schema Information
-#
-# Table name: talks
-#
-#  id                  :integer          not null, primary key
-#  title               :string           default(""), not null
-#  description         :text             default(""), not null
-#  slug                :string           default(""), not null
-#  video_id            :string           default(""), not null
-#  video_provider      :string           default("youtube"), not null
-#  thumbnail_sm        :string           default(""), not null
-#  thumbnail_md        :string           default(""), not null
-#  thumbnail_lg        :string           default(""), not null
-#  created_at          :datetime         not null
-#  updated_at          :datetime         not null
-#  event_id            :integer
-#  thumbnail_xs        :string           default(""), not null
-#  thumbnail_xl        :string           default(""), not null
-#  date                :date
-#  like_count          :integer
-#  view_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x000000013ac74120 @cues=[]>), not null
-#  enhanced_transcript :text             default(#<Transcript:0x000000013ac74030 @cues=[]>), not null
-#  summary             :text             default(""), not null
-#  language            :string           default("en"), not null
-#  slides_url          :string
-#  summarized_using_ai :boolean          default(TRUE), not null
-#  external_player     :boolean          default(FALSE), not null
-#  external_player_url :string           default(""), not null
-#  kind                :string           default("talk"), not null
-#
-# rubocop:enable Layout/LineLength
 require "test_helper"
 
 class TalkTest < ActiveSupport::TestCase

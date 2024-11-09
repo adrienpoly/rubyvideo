@@ -4,16 +4,29 @@
 # Table name: events
 #
 #  id              :integer          not null, primary key
-#  date            :date
 #  city            :string
 #  country_code    :string
-#  organisation_id :integer          not null
+#  date            :date
+#  name            :string           default(""), not null, indexed
+#  slug            :string           default(""), not null, indexed
+#  talks_count     :integer          default(0), not null
+#  website         :string           default("")
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
-#  name            :string           default(""), not null
-#  slug            :string           default(""), not null
-#  talks_count     :integer          default(0), not null
-#  canonical_id    :integer
+#  canonical_id    :integer          indexed
+#  organisation_id :integer          not null, indexed
+#
+# Indexes
+#
+#  index_events_on_canonical_id     (canonical_id)
+#  index_events_on_name             (name)
+#  index_events_on_organisation_id  (organisation_id)
+#  index_events_on_slug             (slug)
+#
+# Foreign Keys
+#
+#  canonical_id     (canonical_id => events.id)
+#  organisation_id  (organisation_id => organisations.id)
 #
 # rubocop:enable Layout/LineLength
 class Event < ApplicationRecord
