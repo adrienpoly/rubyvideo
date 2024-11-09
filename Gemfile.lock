@@ -89,7 +89,7 @@ GEM
     appsignal (3.13.1)
       rack
     ast (2.4.2)
-    authentication-zero (2.16.36)
+    authentication-zero (4.0.3)
     avo (3.14.0)
       actionview (>= 6.1)
       active_link_to
@@ -578,7 +578,7 @@ DEPENDENCIES
   ahoy_matey
   annotate
   appsignal (~> 3.4)
-  authentication-zero (~> 2.16)
+  authentication-zero
   avo
   bcrypt (~> 3.1.7)
   bootsnap

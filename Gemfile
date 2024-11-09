@@ -81,7 +81,7 @@ group :development do
   gem "ruby-lsp-rails", require: false
   gem "standardrb", "~> 1.0", require: false
   gem "erb_lint", require: false
-  gem "authentication-zero", "~> 2.16", require: false
+  gem "authentication-zero", require: false
 end
 
 group :test do
