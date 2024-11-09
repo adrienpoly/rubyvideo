@@ -342,7 +342,7 @@ class Talk < ApplicationRecord
   end
 
   def static_metadata
-    Static::Video.find_by(video_id: video_id)
+    @static_metadata ||= Static::Video.find_by(video_id: video_id)
   end
 
   def suggestion_summary
