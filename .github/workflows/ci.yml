@@ -102,7 +102,7 @@ jobs:
     env:
       DOCKER_BUILDKIT: 1
       RAILS_ENV: production
-      BUNDLE_WITHOUT: “default development test production profiling”
+      BUNDLE_WITHOUT: "default development test production profiling"
       BUNDLE_WITH: tools
 
     steps:
