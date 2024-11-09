@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_11_05_143943) do
+ActiveRecord::Schema[8.0].define(version: 2024_11_08_215612) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -128,6 +128,8 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_05_143943) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["speaker_id", "talk_id"], name: "index_speaker_talks_on_speaker_id_and_talk_id", unique: true
+    t.index ["speaker_id"], name: "index_speaker_talks_on_speaker_id"
+    t.index ["talk_id"], name: "index_speaker_talks_on_talk_id"
   end
 
   create_table "speakers", force: :cascade do |t|
@@ -200,9 +202,9 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_05_143943) do
     t.string "language", default: "en", null: false
     t.string "slides_url"
     t.boolean "summarized_using_ai", default: true, null: false
-    t.string "kind", default: "talk", null: false
     t.boolean "external_player", default: false, null: false
     t.string "external_player_url", default: "", null: false
+    t.string "kind", default: "talk", null: false
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["slug"], name: "index_talks_on_slug"
@@ -235,7 +237,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_05_143943) do
     t.string "name"
     t.string "github_handle"
     t.index ["email"], name: "index_users_on_email", unique: true
-    t.index ["github_handle"], name: "index_users_on_github_handle", unique: true, where: "github_handle IS NOT NULL /*application='Rubyvideo'*/"
+    t.index ["github_handle"], name: "index_users_on_github_handle", unique: true, where: "github_handle IS NOT NULL"
   end
 
   create_table "watch_list_talks", force: :cascade do |t|
