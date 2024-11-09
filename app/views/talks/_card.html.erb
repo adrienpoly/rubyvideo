@@ -3,23 +3,31 @@
 <% language = Language.by_code(talk.language) %>
 
 <div class="card card-compact bg-white shadow-xl w-full" id="<%= dom_id talk %>">
-  <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden relative" do %>
+  <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden relative group" do %>
     <% if language && language != "English" %>
-      <div class="absolute top-0 left-0 z-10 m-3 p-1 px-2 bg-black/15 backdrop-blur-md rounded-full group">
+      <div class="absolute top-0 left-0 z-20 m-3 p-1 px-2 bg-black/15 backdrop-blur-md rounded-full">
         <span><%= language_to_emoji(language) %></span>
         <span class="group-hover:inline-block hidden text-white text-sm ml-1"><%= language %></span>
       </div>
     <% end %>
 
-      <%= image_tag talk.thumbnail_lg,
-            srcset: ["#{talk.thumbnail_lg} 2x"],
-            id: dom_id(talk),
-            height: 174,
-            width: 310,
-            loading: "lazy",
-            alt: "talk by #{talk.speakers.map(&:name).join(", ")}: #{talk.title}",
-            style: "view-transition-name: #{dom_id(talk, :image)}",
-            class: "w-full object-cover rounded-t-xl" %>
+    <div class="absolute z-10 hidden group-hover:flex inset-0 bg-black/30 justify-center items-center rounded-t-xl">
+      <div class="bg-gray-500 hover:bg-primary rounded-full p-3">
+        <%= fa("play", size: :md, class: "fill-white") %>
+      </div>
+    </div>
+
+    <%= image_tag(
+          talk.thumbnail_lg,
+          srcset: ["#{talk.thumbnail_lg} 2x"],
+          id: dom_id(talk),
+          height: 174,
+          width: 310,
+          loading: "lazy",
+          alt: "talk by #{talk.speakers.map(&:name).join(", ")}: #{talk.title}",
+          style: "view-transition-name: #{dom_id(talk, :image)}",
+          class: "w-full object-cover rounded-t-xl"
+        ) %>
   <% end %>
   <div class="card-body flex flex-row justify-between items-start gap-2">
     <div class="flex flex-col items-start h-full justify-between gap-2 w-full">
