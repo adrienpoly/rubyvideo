@@ -83,9 +83,7 @@ GEM
       activesupport (>= 6.1)
       device_detector (>= 1)
       safely_block (>= 0.4)
-    annotate (2.6.5)
-      activerecord (>= 2.3.0)
-      rake (>= 0.8.7)
+    annotaterb (4.13.0)
     appsignal (3.13.1)
       rack
     ast (2.4.2)
@@ -576,7 +574,7 @@ PLATFORMS
 DEPENDENCIES
   active_job-performs (~> 0.3.1)
   ahoy_matey
-  annotate
+  annotaterb
   appsignal (~> 3.4)
   authentication-zero
   avo

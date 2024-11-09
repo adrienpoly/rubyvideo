@@ -4,15 +4,25 @@
 # Table name: topics
 #
 #  id           :integer          not null, primary key
-#  name         :string
 #  description  :text
+#  name         :string           indexed
 #  published    :boolean          default(FALSE)
 #  slug         :string           not null
+#  status       :string           default("pending"), not null, indexed
+#  talks_count  :integer
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
-#  status       :string           default("pending"), not null
-#  canonical_id :integer
-#  talks_count  :integer
+#  canonical_id :integer          indexed
+#
+# Indexes
+#
+#  index_topics_on_canonical_id  (canonical_id)
+#  index_topics_on_name          (name) UNIQUE
+#  index_topics_on_status        (status)
+#
+# Foreign Keys
+#
+#  canonical_id  (canonical_id => topics.id)
 #
 # rubocop:enable Layout/LineLength
 class Topic < ApplicationRecord
