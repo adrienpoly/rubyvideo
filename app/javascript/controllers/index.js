@@ -22,6 +22,9 @@ application.register("scroll-into-view", ScrollIntoViewController)
 import SplideController from "./splide_controller"
 application.register("splide", SplideController)
 
+import TalksFilterController from "./talks_filter_controller"
+application.register("talks-filter", TalksFilterController)
+
 import TransitionController from "./transition_controller"
 application.register("transition", TransitionController)
 
