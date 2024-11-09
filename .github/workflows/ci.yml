@@ -91,7 +91,7 @@ jobs:
     name: Deploy
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-20.04
-    timeout-minutes: 20
+    timeout-minutes: 60
     env:
       DOCKER_BUILDKIT: 1
     steps:
