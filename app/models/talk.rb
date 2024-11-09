@@ -276,7 +276,7 @@ class Talk < ApplicationRecord
   end
 
   def slug_candidates
-    [
+    @slug_candidates ||= [
       title.parameterize,
       [title.parameterize, event&.name&.parameterize].compact.join("-"),
       [title.parameterize, language.parameterize].compact.join("-"),
@@ -289,7 +289,8 @@ class Talk < ApplicationRecord
   end
 
   def unused_slugs
-    slug_candidates.reject { |slug| Talk.excluding(self).exists?(slug: slug) }
+    used_slugs = Talk.excluding(self).where(slug: slug_candidates).pluck(:slug)
+    slug_candidates - used_slugs
   end
 
   def update_from_yml_metadata!(event: nil)
