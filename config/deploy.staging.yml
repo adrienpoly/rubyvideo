@@ -38,9 +38,12 @@ builder:
   arch:
     - arm64
   cache:
-    type: registry
-    image: adrienpoly/rubyvideo_staging-build-cache
+    type: gha
     options: mode=max
+    image: rubyvideo-staging-build-cache
+  secrets:
+    - RAILS_MASTER_KEY
+
 #
 env:
   clear:

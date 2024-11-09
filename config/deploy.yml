@@ -39,10 +39,12 @@ builder:
   arch:
     - arm64
   cache:
-    type: registry
-    image: adrienpoly/rubyvideo-build-cache
+    type: gha
     options: mode=max
-#
+    image: rubyvideo-build-cache
+  secrets:
+    - RAILS_MASTER_KEY
+
 env:
   clear:
     RUBY_YJIT_ENABLE: 1
