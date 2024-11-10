@@ -8,7 +8,7 @@
   raw_title: '"Ruby off Rails"'
   speakers:
     - Erica Weistrand
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-22"
   description:
     In this talk we'll delve into the web frameworks Rails, Hanami and
@@ -21,7 +21,7 @@
   raw_title: '"Building native Ruby extensions in Rust"'
   speakers:
     - Guilherme Carreiro
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-22"
   description:
     When we occasionally reach the limits of Ruby and need the power of
@@ -35,7 +35,7 @@
   raw_title: '"Pokedex Chronicles: part 1 - database normalisation,part 2 - indexes strike back"'
   speakers:
     - Mateusz Woźniczka
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-22"
   description:
     Step into the world of database mastery with our Pokedex adventure!
@@ -49,7 +49,7 @@
   speakers:
     - Cristian Planas
     - Anatoly Mikhaylov
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-22"
   description:
     How to scale an application and a team to manage a global business?
@@ -62,7 +62,7 @@
   raw_title: '"What does "high priority" mean? The secret to happy queues"'
   speakers:
     - Daniel Magliola
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-22"
   description:
     In this talk, I will present a latency-focused approach to managing
@@ -74,7 +74,7 @@
   raw_title: '"Refactoring Volatile Views into Cohesive Components"'
   speakers:
     - Jeremy Smith
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-22"
   slides_url: https://speakerdeck.com/jeremysmithco/refactoring-volatile-views-into-cohesive-components
   description:
@@ -88,7 +88,7 @@
   raw_title: '"Easy threading with JRuby, is it?"'
   speakers:
     - Janis Baiza
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-22"
   description:
     Threading is a known issue with MRI due to Global Interpreter Lock.
@@ -101,7 +101,7 @@
   raw_title: '"Going back to the BASICs"'
   speakers:
     - Jan Krutisch
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-22"
   description:
     BASIC was once the most important programming language on home computers.
@@ -114,7 +114,7 @@
   raw_title: '"Stories in Open Source"'
   speakers:
     - Tobias Pfeiffer
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-25"
   description:
     Walk with me through some stories that I experienced in Open Source,
@@ -127,7 +127,7 @@
   raw_title: '"Mathematical Programming in Ruby"'
   speakers:
     - Tomasz Jóźwik
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-25"
   description:
     When using math programming, we can achieve optimal solutions for complex
@@ -140,7 +140,7 @@
   raw_title: '"Solid SQLite Apps on Rails"'
   speakers:
     - Stephen Margheim
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-25"
   slides_url: https://speakerdeck.com/fractaledmind/solid-sqlite-apps-on-rails
   description:
@@ -154,7 +154,7 @@
   raw_title: '"What it takes to keep Ruby gems a thing"'
   speakers:
     - Samuel Giddins
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-25"
   description: Keynote.
   video_provider: youtube
@@ -164,7 +164,7 @@
   raw_title: '"How to get to zero unhandled exceptions in production"'
   speakers:
     - Radoslav Stankov
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-25"
   description:
     Exceptions in production seem like something unavoidable. But does
@@ -177,7 +177,7 @@
   raw_title: '"How to build an exchange"'
   speakers:
     - Tim Kächele
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-25"
   description:
     They say working in finance is boring, but is it really? Let's learn
@@ -190,7 +190,7 @@
   raw_title: '"Second system syndrome"'
   speakers:
     - Yukihiro "Matz" Matsumoto
-  event_name: BalticRuby 2024
+  event_name: Baltic Ruby 2024
   published_at: "2024-07-25"
   description: Keynote.
   video_provider: youtube
