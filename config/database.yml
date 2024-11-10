@@ -17,12 +17,12 @@ primary: &primary
 cache: &cache
   <<: *default
   migrations_paths: db/cache_migrate
-  database: storage/<%= Rails.env %>-cache.sqlite3
+  database: storage/<%= Rails.env %>_rubyvideo-cache.sqlite3
 
 queue: &queue
   <<: *default
   migrations_paths: db/queue_migrate
-  database: storage/<%= Rails.env %>-queue.sqlite3
+  database: storage/<%= Rails.env %>_rubyvideo-queue.sqlite3
 
 development:
   primary: *primary
@@ -30,6 +30,11 @@ development:
   queue: *queue
 
 test:
+  primary: *primary
+  cache: *cache
+  queue: *queue
+
+staging:
   primary: *primary
   cache: *cache
   queue: *queue

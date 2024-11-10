@@ -16,6 +16,9 @@ application.register("modal", ModalController)
 import PronounsSelectController from "./pronouns_select_controller"
 application.register("pronouns-select", PronounsSelectController)
 
+import ScrollIntoViewController from "./scroll_into_view_controller"
+application.register("scroll-into-view", ScrollIntoViewController)
+
 import SplideController from "./splide_controller"
 application.register("splide", SplideController)
 

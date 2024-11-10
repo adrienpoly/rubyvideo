@@ -4,26 +4,43 @@
 # Table name: talks
 #
 #  id                  :integer          not null, primary key
-#  title               :string           default(""), not null
+#  date                :date             indexed
 #  description         :text             default(""), not null
-#  slug                :string           default(""), not null
-#  video_id            :string           default(""), not null
-#  video_provider      :string           default(""), not null
-#  thumbnail_sm        :string           default(""), not null
-#  thumbnail_md        :string           default(""), not null
-#  thumbnail_lg        :string           default(""), not null
-#  created_at          :datetime         not null
-#  updated_at          :datetime         not null
-#  event_id            :integer
-#  thumbnail_xs        :string           default(""), not null
-#  thumbnail_xl        :string           default(""), not null
-#  date                :date
-#  like_count          :integer
-#  view_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x00000001645d16b8 @cues=[]>), not null
-#  enhanced_transcript :text             default(#<Transcript:0x00000001645d15c8 @cues=[]>), not null
-#  summary             :text             default(""), not null
+#  enhanced_transcript :text             default(#<Transcript:0x0000000120e51930 @cues=[]>), not null
+#  external_player     :boolean          default(FALSE), not null
+#  external_player_url :string           default(""), not null
+#  kind                :string           default("talk"), not null
 #  language            :string           default("en"), not null
+#  like_count          :integer
+#  raw_transcript      :text             default(#<Transcript:0x0000000120e51a98 @cues=[]>), not null
+#  slides_url          :string
+#  slug                :string           default(""), not null, indexed
+#  summarized_using_ai :boolean          default(TRUE), not null
+#  summary             :text             default(""), not null
+#  thumbnail_lg        :string           default(""), not null
+#  thumbnail_md        :string           default(""), not null
+#  thumbnail_sm        :string           default(""), not null
+#  thumbnail_xl        :string           default(""), not null
+#  thumbnail_xs        :string           default(""), not null
+#  title               :string           default(""), not null, indexed
+#  video_provider      :string           default("youtube"), not null
+#  view_count          :integer
+#  created_at          :datetime         not null
+#  updated_at          :datetime         not null, indexed
+#  event_id            :integer          indexed
+#  video_id            :string           default(""), not null
+#
+# Indexes
+#
+#  index_talks_on_date        (date)
+#  index_talks_on_event_id    (event_id)
+#  index_talks_on_slug        (slug)
+#  index_talks_on_title       (title)
+#  index_talks_on_updated_at  (updated_at)
+#
+# Foreign Keys
+#
+#  event_id  (event_id => events.id)
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
@@ -35,13 +52,11 @@ class Talk < ApplicationRecord
   include Searchable
   slug_from :title
 
-  # include MeiliSearch
   # include MeiliSearch::Rails
-  # ActiveRecord_Relation.include Pagy::Meilisearch
   # extend Pagy::Meilisearch
 
   # associations
-  belongs_to :event, optional: true, counter_cache: :talks_count
+  belongs_to :event, optional: true, counter_cache: :talks_count, touch: true
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :speakers, through: :speaker_talks, inverse_of: :talks
 
@@ -60,8 +75,12 @@ class Talk < ApplicationRecord
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
+  # callbacks
+  before_validation :set_kind, if: -> { !kind_changed? }
+
   # enums
   enum :video_provider, %w[youtube mp4].index_by(&:itself)
+  enum :kind, %w[talk keynote lightning_talk panel workshop].index_by(&:itself)
 
   # attributes
   attribute :video_provider, default: :youtube
@@ -131,7 +150,7 @@ class Talk < ApplicationRecord
         title: title,
         type: :website,
         image: {
-          _: thumbnail_lg,
+          _: thumbnail_xl,
           alt: title
         },
         description: description,
@@ -143,7 +162,7 @@ class Talk < ApplicationRecord
         title: title,
         description: description,
         image: {
-          src: thumbnail_lg
+          src: thumbnail_xl
         }
       }
     }
@@ -170,7 +189,7 @@ class Talk < ApplicationRecord
   end
 
   def fallback_thumbnail
-    "/assets/#{Rails.application.assets.load_path.find("posters/fallback.png").digested_path}"
+    "/assets/#{Rails.application.assets.load_path.find("events/default/poster.webp").digested_path}"
   end
 
   def thumbnail(size = :thumbnail_lg)
@@ -179,12 +198,18 @@ class Talk < ApplicationRecord
 
       if (asset = Rails.application.assets.load_path.find(self[size]))
         return "/assets/#{asset.digested_path}"
+      elsif event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
+        return "/assets/#{asset.digested_path}"
       else
         return fallback_thumbnail
       end
     end
 
-    return fallback_thumbnail if video_provider != "youtube"
+    if event && (asset = Rails.application.assets.load_path.find(event.poster_image_path)) && !youtube?
+      return "/assets/#{asset.digested_path}"
+    end
+
+    return fallback_thumbnail unless youtube?
 
     youtube = {
       thumbnail_xs: "default",
@@ -197,12 +222,49 @@ class Talk < ApplicationRecord
     "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
   end
 
+  def external_player_utm_params
+    {
+      utm_source: "rubyvideo.dev",
+      utm_medium: "referral",
+      utm_campaign: event.slug,
+      utm_content: slug
+    }
+  end
+
+  def external_player_url
+    uri = URI.parse(self[:external_player_url].presence || provider_url)
+
+    existing_params = URI.decode_www_form(uri.query || "").to_h
+    updated_params = existing_params.merge(external_player_utm_params)
+
+    uri.query = URI.encode_www_form(updated_params)
+
+    uri.to_s
+  end
+
+  def provider_url
+    case video_provider
+    when "youtube"
+      "https://www.youtube.com/watch?v=#{video_id}"
+    else
+      "#"
+    end
+  end
+
   def related_talks(limit: 6)
     ids = Rails.cache.fetch(["talk_recommendations", id, limit], expires_in: 1.week) do
       Talk.order("RANDOM()").excluding(self).limit(limit).ids
     end
 
     Talk.where(id: ids)
+  end
+
+  def formatted_date
+    date.strftime("%B %d, %Y")
+  rescue => _e
+    # TODO: notify to error tracking
+
+    "Unknown"
   end
 
   def transcript
@@ -214,7 +276,7 @@ class Talk < ApplicationRecord
   end
 
   def slug_candidates
-    [
+    @slug_candidates ||= [
       title.parameterize,
       [title.parameterize, event&.name&.parameterize].compact.join("-"),
       [title.parameterize, language.parameterize].compact.join("-"),
@@ -227,7 +289,8 @@ class Talk < ApplicationRecord
   end
 
   def unused_slugs
-    slug_candidates.reject { |slug| Talk.excluding(self).exists?(slug: slug) }
+    used_slugs = Talk.excluding(self).where(slug: slug_candidates).pluck(:slug)
+    slug_candidates - used_slugs
   end
 
   def update_from_yml_metadata!(event: nil)
@@ -256,15 +319,19 @@ class Talk < ApplicationRecord
       title: static_metadata.title,
       description: static_metadata.description,
       date: date,
-      thumbnail_xs: static_metadata.thumbnail_xs || "",
-      thumbnail_sm: static_metadata.thumbnail_sm || "",
-      thumbnail_md: static_metadata.thumbnail_md || "",
-      thumbnail_lg: static_metadata.thumbnail_lg || "",
-      thumbnail_xl: static_metadata.thumbnail_xl || "",
+      thumbnail_xs: static_metadata["thumbnail_xs"] || "",
+      thumbnail_sm: static_metadata["thumbnail_sm"] || "",
+      thumbnail_md: static_metadata["thumbnail_md"] || "",
+      thumbnail_lg: static_metadata["thumbnail_lg"] || "",
+      thumbnail_xl: static_metadata["thumbnail_xl"] || "",
       language: static_metadata.language || Language::DEFAULT,
       slides_url: static_metadata.slides_url,
-      video_provider: static_metadata.video_provider || :youtube
+      video_provider: static_metadata.video_provider || :youtube,
+      external_player: static_metadata.external_player || false,
+      external_player_url: static_metadata.external_player_url || ""
     )
+
+    self.kind = static_metadata.kind if static_metadata.try(:kind).present?
 
     self.speakers = Array.wrap(static_metadata.speakers).reject(&:blank?).map { |speaker_name|
       Speaker.find_by(slug: speaker_name.parameterize) || Speaker.find_or_create_by(name: speaker_name.strip)
@@ -276,7 +343,7 @@ class Talk < ApplicationRecord
   end
 
   def static_metadata
-    Static::Video.find_by(video_id: video_id)
+    @static_metadata ||= Static::Video.find_by(video_id: video_id)
   end
 
   def suggestion_summary
@@ -285,5 +352,21 @@ class Talk < ApplicationRecord
       by #{speakers.map(&:name).to_sentence}
       at #{event.name}
     HEREDOC
+  end
+
+  def set_kind
+    self.kind =
+      case title
+      when /.*(keynote:|opening\ keynote|closing\ keynote).*/i
+        :keynote
+      when /.*workshop:.*/i
+        :workshop
+      when /.*panel:.*/i
+        :panel
+      when /.*lightning\ talk: .*/i
+        :lightning_talk
+      else
+        :talk
+      end
   end
 end

@@ -54,17 +54,3 @@
     isolation: none;
   }
 }
-
-/* turn annimations */
-
-html.turn-advance.turn-exit.turn-no-view-transitions [data-turn-exit] {
-  animation-name: fade-out;
-  animation-duration: 0.3s;
-  animation-fill-mode: forwards;
-}
-
-html.turn-advance.turn-enter.turn-no-view-transitions [data-turn-enter] {
-  animation-name: fade-in;
-  animation-duration: 0.3s;
-  animation-fill-mode: forwards;
-}

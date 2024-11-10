@@ -4,26 +4,43 @@
 # Table name: talks
 #
 #  id                  :integer          not null, primary key
-#  title               :string           default(""), not null
+#  date                :date             indexed
 #  description         :text             default(""), not null
-#  slug                :string           default(""), not null
-#  video_id            :string           default(""), not null
-#  video_provider      :string           default(""), not null
-#  thumbnail_sm        :string           default(""), not null
-#  thumbnail_md        :string           default(""), not null
-#  thumbnail_lg        :string           default(""), not null
-#  created_at          :datetime         not null
-#  updated_at          :datetime         not null
-#  event_id            :integer
-#  thumbnail_xs        :string           default(""), not null
-#  thumbnail_xl        :string           default(""), not null
-#  date                :date
-#  like_count          :integer
-#  view_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x00000001645d16b8 @cues=[]>), not null
-#  enhanced_transcript :text             default(#<Transcript:0x00000001645d15c8 @cues=[]>), not null
-#  summary             :text             default(""), not null
+#  enhanced_transcript :text             default(#<Transcript:0x0000000120e51930 @cues=[]>), not null
+#  external_player     :boolean          default(FALSE), not null
+#  external_player_url :string           default(""), not null
+#  kind                :string           default("talk"), not null
 #  language            :string           default("en"), not null
+#  like_count          :integer
+#  raw_transcript      :text             default(#<Transcript:0x0000000120e51a98 @cues=[]>), not null
+#  slides_url          :string
+#  slug                :string           default(""), not null, indexed
+#  summarized_using_ai :boolean          default(TRUE), not null
+#  summary             :text             default(""), not null
+#  thumbnail_lg        :string           default(""), not null
+#  thumbnail_md        :string           default(""), not null
+#  thumbnail_sm        :string           default(""), not null
+#  thumbnail_xl        :string           default(""), not null
+#  thumbnail_xs        :string           default(""), not null
+#  title               :string           default(""), not null, indexed
+#  video_provider      :string           default("youtube"), not null
+#  view_count          :integer
+#  created_at          :datetime         not null
+#  updated_at          :datetime         not null, indexed
+#  event_id            :integer          indexed
+#  video_id            :string           default(""), not null
+#
+# Indexes
+#
+#  index_talks_on_date        (date)
+#  index_talks_on_event_id    (event_id)
+#  index_talks_on_slug        (slug)
+#  index_talks_on_title       (title)
+#  index_talks_on_updated_at  (updated_at)
+#
+# Foreign Keys
+#
+#  event_id  (event_id => events.id)
 #
 # rubocop:enable Layout/LineLength
 
@@ -42,8 +59,10 @@ one:
   video_provider: youtube
   video_id: F75k4Oc6g9Q
   raw_transcript: '[{"start_time": "00:00:15.280", "end_time": "00:00:21.320", "text": "so nice to be here with you thank you all for coming so uh my name is uh"}, {"start_time": "00:00:21.320", "end_time": "00:00:27.800", "text": "yaroslav I m from Ukraine you might know me from my blog or from my super Al"}, {"start_time": "00:00:27.800", "end_time": "00:00:34.399", "text": "YouTube channel where I post a lot of stuff about trby and especially about hot fire so I originate from Ukraine"}, {"start_time": "00:00:34.399", "end_time": "00:00:40.239", "text": "from the north of Ukraine so right now it is liberated so that is Kev Chernobyl"}, {"start_time": "00:00:40.239", "end_time": "00:00:45.920", "text": "and chern so I used to live 80 kmers away from Chernobyl great"}, {"start_time": "00:00:45.920", "end_time": "00:00:52.680", "text": "place yeah and uh that is my family s home so it got boned in one of the first"}, {"start_time": "00:00:52.680", "end_time": "00:01:00.000", "text": "days of war that is my godfather he went to defend Ukraine and uh I mean we are"}, {"start_time": "00:01:00.000", "end_time": "00:01:05.799", "text": "he has such a beautiful venue but there is the war going on and like just today"}, {"start_time": "00:01:05.799", "end_time": "00:01:13.159", "text": "the city of har was randomly boned by the Russians and there are many Ruby"}, {"start_time": "00:01:13.159", "end_time": "00:01:19.520", "text": "rails people from Ukraine some of them are actually fighting this is verok he contributed to Ruby and he is actually"}, {"start_time": "00:01:19.520", "end_time": "00:01:27.960", "text": "defending Ukraine right now but on a positive note I just recently became a father"}, {"start_time": "00:01:27.960", "end_time": "00:01:35.000", "text": "so yeah um it is uh just 2 and a half months ago in uh France and uh today we"}, {"start_time": "00:01:35.000", "end_time": "00:01:35.000", "text": "are going to talk about hot fire"}]'
+  kind: "talk"
 
 two:
   title: talk title 2
   description: talk descritpion 2
   slug: talk-title-2
+  kind: "talk"

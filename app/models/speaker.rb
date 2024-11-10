@@ -3,17 +3,33 @@
 #
 # Table name: speakers
 #
-#  id           :integer          not null, primary key
-#  name         :string           default(""), not null
-#  twitter      :string           default(""), not null
-#  github       :string           default(""), not null
-#  bio          :text             default(""), not null
-#  website      :string           default(""), not null
-#  slug         :string           default(""), not null
-#  created_at   :datetime         not null
-#  updated_at   :datetime         not null
-#  talks_count  :integer          default(0), not null
-#  canonical_id :integer
+#  id            :integer          not null, primary key
+#  bio           :text             default(""), not null
+#  bsky          :string           default(""), not null
+#  github        :string           default(""), not null
+#  linkedin      :string           default(""), not null
+#  mastodon      :string           default(""), not null
+#  name          :string           default(""), not null, indexed
+#  pronouns      :string           default(""), not null
+#  pronouns_type :string           default("not_specified"), not null
+#  slug          :string           default(""), not null, indexed
+#  speakerdeck   :string           default(""), not null
+#  talks_count   :integer          default(0), not null
+#  twitter       :string           default(""), not null
+#  website       :string           default(""), not null
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
+#  canonical_id  :integer          indexed
+#
+# Indexes
+#
+#  index_speakers_on_canonical_id  (canonical_id)
+#  index_speakers_on_name          (name)
+#  index_speakers_on_slug          (slug) UNIQUE
+#
+# Foreign Keys
+#
+#  canonical_id  (canonical_id => speakers.id)
 #
 # rubocop:enable Layout/LineLength
 class Speaker < ApplicationRecord
@@ -34,6 +50,7 @@ class Speaker < ApplicationRecord
   # associations
   has_many :speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
   has_many :talks, through: :speaker_talks, inverse_of: :speakers
+  has_many :events, -> { distinct }, through: :talks, inverse_of: :speakers
   has_many :aliases, class_name: "Speaker", foreign_key: "canonical_id"
 
   belongs_to :canonical, class_name: "Speaker", optional: true
@@ -50,6 +67,7 @@ class Speaker < ApplicationRecord
   scope :not_canonical, -> { where.not(canonical_id: nil) }
 
   # normalizes
+  normalizes :github, with: ->(value) { value.gsub(/^(?:https?:\/\/)?(?:www\.)?github\.com\//, "").gsub(/^@/, "") }
   normalizes :twitter, with: ->(value) { value.gsub(%r{https?://(?:www\.)?(?:x\.com|twitter\.com)/}, "").gsub(/@/, "") }
   normalizes :bsky, with: ->(value) {
                             value.gsub(%r{https?://(?:www\.)?(?:x\.com|bsky\.app/profile)/}, "").gsub(/@/, "")

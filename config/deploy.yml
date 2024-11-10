@@ -7,12 +7,22 @@ image: adrienpoly/rubyvideo
 # Deploy to these servers.
 servers:
   web:
-    hosts:
-      - 91.107.208.207
+    - 91.107.208.207
   job:
     hosts:
       - 91.107.208.207
-    cmd: ./bin/jobs
+    cmd: bin/jobs
+
+# Enable SSL auto certification via Let's Encrypt (and allow for multiple apps on one server).
+# If using something like Cloudflare, it is recommended to set encryption mode
+# in Cloudflare's SSL/TLS setting to "Full" to enable end-to-end encryption.
+proxy:
+  ssl: true # TODO: enable SSL
+  hosts:
+    - rubyvideo.dev
+    - www.rubyvideo.dev
+  # kamal-proxy connects to your container over port 80, use `app_port` to specify a different port.
+  app_port: 80
 
 # Credentials for your image host.
 registry:
@@ -20,61 +30,76 @@ registry:
   # server: registry.digitalocean.com / ghcr.io / ...
   username: adrienpoly
 
-  # Always use an access token rather than real password when possible.
+  # Always use an access token rather than real password (pulled from .kamal/secrets).
   password:
     - KAMAL_REGISTRY_PASSWORD
 
-# Inject ENV variables into containers (secrets come from .env).
+# Configure builder setup.
+builder:
+  arch:
+    - arm64
+  cache:
+    type: gha
+    options: mode=max
+    image: rubyvideo-build-cache
+  secrets:
+    - RAILS_MASTER_KEY
+
 env:
   clear:
     RUBY_YJIT_ENABLE: 1
+    RAILS_SERVE_STATIC_FILES: true
     WEB_CONCURRENCY: 2
     RAILS_MAX_THREADS: 3
+    RAILS_ENV: production
   secret:
     - RAILS_MASTER_KEY
-    - APPSIGNAL_PUSH_API_KEY
     - MEILI_MASTER_KEY
-    - RUBYVIDEO_GITHUB_TOKEN
-    - OPENAI_ORGANIZATION_ID
-    - OPENAI_ACCESS_TOKEN
+# Aliases are triggered with "bin/kamal <alias>". You can overwrite arguments on invocation:
+# "bin/kamal logs -r job" will tail logs from the first server in the job section.
+#
+aliases:
+  shell: app exec --interactive --reuse "bash"
+  console: app exec --reuse -i "bin/rails console"
+
 # Use a different ssh user than root
-ssh:
-  user: root
-# Configure builder setup.
-# builder:
-#   args:
-#     RUBY_VERSION: 3.2.0
-#   secrets:
-#     - GITHUB_TOKEN
-#   remote:
-#     arch: amd64
-#     host: ssh://app@192.168.0.1
+#
+# ssh:
+#   user: app
+
+# Use a persistent storage volume.
+#
 volumes:
   - "storage:/rails/storage"
-# Use accessory services (secrets come from .env).
-accessories:
-  search:
-    image: getmeili/meilisearch:v1.1
-    host: 91.107.208.207
-    port: 7700
-    env:
-      clear:
-        --http-addr: localhost:7700
-        --env: production
-        --db-path: storage/meilisearch
-        --no-analytics: true
-        --dump-dir: storage/meilisearch/dumps
-        --max-indexing-memory: 2Gb
-        --snapshot-dir: storage/meilisearch/snapshots
-      secret:
-        - MEILI_MASTER_KEY
-    volumes:
-      - "storage:/rails/storage"
-    # files:
-    #   - config/mysql/production.cnf:/etc/mysql/my.cnf
-    #   - db/production.sql.erb:/docker-entrypoint-initdb.d/setup.sql
-    # directories:
-    #   - data:/var/lib/mysql
+# Bridge fingerprinted assets, like JS and CSS, between versions to avoid
+# hitting 404 on in-flight requests. Combines all files from new and old
+# version inside the asset_path.
+#
+# asset_path: /app/public/assets
+
+# Configure rolling deploys by setting a wait time between batches of restarts.
+#
+# boot:
+#   limit: 10 # Can also specify as a percentage of total hosts, such as "25%"
+#   wait: 2
+
+# Use accessory services (secrets come from .kamal/secrets).
+#
+# accessories:
+#   db:
+#     image: mysql:8.0
+#     host: 192.168.0.2
+#     port: 3306
+#     env:
+#       clear:
+#         MYSQL_ROOT_HOST: '%'
+#       secret:
+#         - MYSQL_ROOT_PASSWORD
+#     files:
+#       - config/mysql/production.cnf:/etc/mysql/my.cnf
+#       - db/production.sql:/docker-entrypoint-initdb.d/setup.sql
+#     directories:
+#       - data:/var/lib/mysql
 #   redis:
 #     image: redis:7.0
 #     host: 192.168.0.2
@@ -82,28 +107,21 @@ accessories:
 #     directories:
 #       - data:/data
 
-# Configure custom arguments for Traefik
-# traefik:
-#   args:
-#     accesslog: true
-#     accesslog.format: json
-# labels:
-#   traefik.tcp.routers.other.rule: "HostSNI(`*`)"
-#   traefik.tcp.routers.other.entrypoints: search
-#   traefik.tcp.services.other.loadbalancer.server.port: 7700
-# traefik:
-#   options:
-#     publish:
-#       - 80:80
-#       - "7700:7700"
-# args:
-#   entrypoints.web.address: ":80"
-#   entrypoints.otherentrypoint.address: ":7700"
-# Configure a custom healthcheck (default is /up on port 3000)
-# healthcheck:
-#   path: /healthz
-#   port: 4000
-builder:
-  cache:
-    type: registry
-    options: mode=max,image-manifest=true,oci-mediatypes=true
+accessories:
+  search:
+    image: getmeili/meilisearch:v1.10
+    host: 91.107.208.207
+    port: 7700
+    env:
+      clear:
+        MEILI_HTTP_ADDR: rubyvideo-search:7700
+        MEILI_ENV: production
+        MEILI_DB_PATH: /rails/storage/meilisearch
+        MEILI_NO_ANALYTICS: true
+        MEILI_DUMP_DIR: /rails/storage/meilisearch/dumps
+        MEILI_MAX_INDEXING_MEMORY: 2Gb
+        MEILI_SNAPSHOT_DIR: /rails/storage/meilisearch/snapshots
+      secret:
+        - MEILI_MASTER_KEY
+    volumes:
+      - "storage:/rails/storage"

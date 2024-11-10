@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_10_29_112719) do
+ActiveRecord::Schema[8.0].define(version: 2024_11_08_215612) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -82,6 +82,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_29_112719) do
     t.string "slug", default: "", null: false
     t.integer "talks_count", default: 0, null: false
     t.integer "canonical_id"
+    t.string "website", default: ""
     t.index ["canonical_id"], name: "index_events_on_canonical_id"
     t.index ["name"], name: "index_events_on_name"
     t.index ["organisation_id"], name: "index_events_on_organisation_id"
@@ -127,6 +128,8 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_29_112719) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["speaker_id", "talk_id"], name: "index_speaker_talks_on_speaker_id_and_talk_id", unique: true
+    t.index ["speaker_id"], name: "index_speaker_talks_on_speaker_id"
+    t.index ["talk_id"], name: "index_speaker_talks_on_talk_id"
   end
 
   create_table "speakers", force: :cascade do |t|
@@ -199,6 +202,9 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_29_112719) do
     t.string "language", default: "en", null: false
     t.string "slides_url"
     t.boolean "summarized_using_ai", default: true, null: false
+    t.boolean "external_player", default: false, null: false
+    t.string "external_player_url", default: "", null: false
+    t.string "kind", default: "talk", null: false
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["slug"], name: "index_talks_on_slug"

@@ -54,6 +54,8 @@ Rails.application.routes.draw do
     resources :enhance, only: [:update], param: :slug
   end
 
+  get "/featured" => "page#featured"
+
   get "leaderboard", to: "leaderboard#index"
 
   # admin

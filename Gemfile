@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.3.5"
+ruby file: ".ruby-version"
 
 # Use main development branch of Rails
-gem "rails", "~> 8.0.0.rc1"
+gem "rails", "~> 8.0"
 
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
@@ -46,7 +46,7 @@ gem "tzinfo-data", platforms: %i[windows jruby]
 gem "bootsnap", require: false
 
 # Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
-gem "kamal", "~> 1.9.0", require: false
+gem "kamal", require: false
 
 # Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
 gem "thruster", require: false
@@ -67,7 +67,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "annotate"
+  gem "annotaterb"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
@@ -81,7 +81,7 @@ group :development do
   gem "ruby-lsp-rails", require: false
   gem "standardrb", "~> 1.0", require: false
   gem "erb_lint", require: false
-  gem "authentication-zero", "~> 2.16", require: false
+  gem "authentication-zero", require: false
 end
 
 group :test do
@@ -109,7 +109,7 @@ gem "ahoy_matey"
 gem "vite_rails"
 gem "meta-tags", "~> 2.18"
 gem "groupdate"
-gem "appsignal", "~> 3.4"
+gem "appsignal"
 gem "chartkick", "~> 5.0"
 gem "dotenv-rails"
 
@@ -132,8 +132,8 @@ gem "ruby-openai"
 gem "json-repair", "~> 0.2.0"
 
 gem "redcarpet", "~> 3.6"
-gem "country_select", "~> 8.0"
-gem "avo", "~> 3.11"
+gem "country_select"
+gem "avo"
 gem "frozen_record", "~> 0.27.2"
 gem "diffy"
 

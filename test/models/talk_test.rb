@@ -1,31 +1,3 @@
-# rubocop:disable Layout/LineLength
-# == Schema Information
-#
-# Table name: talks
-#
-#  id                  :integer          not null, primary key
-#  title               :string           default(""), not null
-#  description         :text             default(""), not null
-#  slug                :string           default(""), not null
-#  video_id            :string           default(""), not null
-#  video_provider      :string           default(""), not null
-#  thumbnail_sm        :string           default(""), not null
-#  thumbnail_md        :string           default(""), not null
-#  thumbnail_lg        :string           default(""), not null
-#  created_at          :datetime         not null
-#  updated_at          :datetime         not null
-#  event_id            :integer
-#  thumbnail_xs        :string           default(""), not null
-#  thumbnail_xl        :string           default(""), not null
-#  date                :date
-#  like_count          :integer
-#  view_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x00000001645d16b8 @cues=[]>), not null
-#  enhanced_transcript :text             default(#<Transcript:0x00000001645d15c8 @cues=[]>), not null
-#  summary             :text             default(""), not null
-#  language            :string           default("en"), not null
-#
-# rubocop:enable Layout/LineLength
 require "test_helper"
 
 class TalkTest < ActiveSupport::TestCase
@@ -51,6 +23,31 @@ class TalkTest < ActiveSupport::TestCase
     assert @talk.transcript.is_a?(Transcript)
     assert @talk.transcript.cues.first.is_a?(Cue)
     assert @talk.transcript.cues.length > 100
+  end
+
+  test "should guess kind from title" do
+    kind_with_titles = {
+      talk: ["I love Ruby"],
+      keynote: ["Keynote: foo ", "foo Opening keynote bar", "closing keynote foo bar"],
+      lightning_talk: ["lightning talk: foo"],
+      panel: ["Panel: foo"],
+      workshop: ["workshop: foo"]
+    }
+
+    kind_with_titles.each do |kind, titles|
+      titles.each do |title|
+        talk = Talk.new(title:)
+        talk.save!
+
+        assert_equal kind.to_s, talk.kind
+      end
+    end
+  end
+
+  test "should not guess a kind if it's provided" do
+    talk = Talk.create!(title: "foo", kind: "panel")
+
+    assert_equal "panel", talk.kind
   end
 
   test "transcript should default to raw_transcript" do

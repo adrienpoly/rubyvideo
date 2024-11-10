@@ -1,8 +1,9 @@
 ---
 # TODO: talks running order
 # TODO: talk dates
-# TODO: conference website
-# TODO: schedule website
+
+# Website: https://web.archive.org/web/20150924165354/http://rubyconf.org/
+# Schedule: https://web.archive.org/web/20151227062245/http://rubyconf.org/schedule
 
 - title: Pluck It
   raw_title: RubyConf 2015 - Pluck It by Adam Cuppy
@@ -571,10 +572,14 @@
   video_provider: youtube
   video_id: O98rt9Z11LU
 
-- title: Just a Ruby Minute
+- title: "Gameshow: Just a Ruby Minute"
   raw_title: RubyConf 2015 - Just a Ruby Minute by Andrew Faraday
   speakers:
     - Andrew Faraday
+    - Andy Croll
+    - Kisney Ann Durham
+    - Aaron Patterson
+    - Sam Phippen
   event_name: RubyConf 2015
   published_at: "2015-11-22"
   description: |-

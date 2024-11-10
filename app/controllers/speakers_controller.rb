@@ -4,7 +4,7 @@ class SpeakersController < ApplicationController
   before_action :set_user_favorites, only: %i[show]
   include Pagy::Backend
   include RemoteModal
-  allowed_remote_modal_actions :edit
+  respond_with_remote_modal only: [:edit]
 
   # GET /speakers
   def index

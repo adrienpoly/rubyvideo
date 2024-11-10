@@ -4,16 +4,29 @@
 # Table name: events
 #
 #  id              :integer          not null, primary key
-#  date            :date
 #  city            :string
 #  country_code    :string
-#  organisation_id :integer          not null
+#  date            :date
+#  name            :string           default(""), not null, indexed
+#  slug            :string           default(""), not null, indexed
+#  talks_count     :integer          default(0), not null
+#  website         :string           default("")
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
-#  name            :string           default(""), not null
-#  slug            :string           default(""), not null
-#  talks_count     :integer          default(0), not null
-#  canonical_id    :integer
+#  canonical_id    :integer          indexed
+#  organisation_id :integer          not null, indexed
+#
+# Indexes
+#
+#  index_events_on_canonical_id     (canonical_id)
+#  index_events_on_name             (name)
+#  index_events_on_organisation_id  (organisation_id)
+#  index_events_on_slug             (slug)
+#
+# Foreign Keys
+#
+#  canonical_id     (canonical_id => events.id)
+#  organisation_id  (organisation_id => organisations.id)
 #
 # rubocop:enable Layout/LineLength
 class Event < ApplicationRecord
@@ -66,11 +79,7 @@ class Event < ApplicationRecord
   end
 
   def keynote_speakers
-    talks.select { |talk|
-      talk.title.start_with?("Keynote: ") ||
-        talk.title.include?("Opening Keynote") ||
-        talk.title.include?("Closing Keynote")
-    }.flat_map(&:speakers)
+    speakers.merge(talks.keynote)
   end
 
   def formatted_dates
@@ -81,7 +90,7 @@ class Event < ApplicationRecord
     end
 
     if start_date.strftime("%Y") == end_date.strftime("%Y")
-      "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
+      return "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
     end
 
     "#{start_date.strftime("%b %d, %Y")} - #{end_date.strftime("%b %d, %Y")}"
@@ -95,12 +104,27 @@ class Event < ApplicationRecord
     %(All #{name} #{organisation.kind} talks)
   end
 
+  def country_name
+    return nil if country_code.blank?
+
+    ISO3166::Country.new(country_code)&.iso_short_name
+  end
+
+  def held_in_sentence
+    return "" if country_name.blank?
+
+    if country_name.starts_with?("United")
+      %( held in the #{country_name})
+    else
+      %( held in #{country_name})
+    end
+  end
+
   def description
-    held_in = country_code ? %( held in #{ISO3166::Country.new(country_code)&.iso_short_name}) : ""
     keynotes = keynote_speakers.any? ? %(, including keynotes by #{keynote_speakers.map(&:name).to_sentence}) : ""
 
     <<~DESCRIPTION
-      #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in} and features #{talks.count} #{"talk".pluralize(talks.count)} from various speakers#{keynotes}.
+      #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in_sentence} and features #{talks.count} #{"talk".pluralize(talks.count)} from various speakers#{keynotes}.
     DESCRIPTION
   end
 
@@ -165,6 +189,10 @@ class Event < ApplicationRecord
     event_image_or_default_for("featured.webp")
   end
 
+  def poster_image_path
+    event_image_or_default_for("poster.webp")
+  end
+
   def banner_background
     static_metadata.banner_background.present? ? static_metadata.banner_background : "#FF607F"
   rescue => _e
@@ -211,5 +239,9 @@ class Event < ApplicationRecord
     static_metadata.year.present? ? static_metadata.year : talks.first.date.year
   rescue => _e
     talks.first.date.year
+  end
+
+  def website
+    self[:website].presence || organisation.website
   end
 end

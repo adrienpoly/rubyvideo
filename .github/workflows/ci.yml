@@ -6,7 +6,9 @@ on:
   push:
     branches: [main]
 
-concurrency: ci-${{ github.ref }}
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true # Add this line to explicitly enable cancellation
 
 jobs:
   lint:
@@ -83,3 +85,52 @@ jobs:
 
       # - name: Smoke test database seeds
       #   run: sudo bin/rails db:reset
+
+  deploy:
+    needs: test
+    name: Deploy
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
+    timeout-minutes: 60
+
+    env:
+      DOCKER_BUILDKIT: 1
+      RAILS_ENV: production
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx for cache
+        uses: docker/setup-buildx-action@v3
+
+      - name: Expose GitHub Runtime for cache
+        uses: crazy-max/ghaction-github-runtime@v3
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler: default
+          bundler-cache: true
+
+      - name: Deploy with Kamal
+        run: bundle exec kamal deploy
+        env:
+          KAMAL_RAILS_MASTER_KEY: ${{ secrets.KAMAL_RAILS_MASTER_KEY }}
+          MEILI_MASTER_KEY: ${{ secrets.MEILI_MASTER_KEY }}
+          KAMAL_REGISTRY_PASSWORD: ${{ secrets.KAMAL_REGISTRY_PASSWORD }}
+
+      - name: Cleanup on cancellation
+        if: always() && steps.deploy.conclusion == 'cancelled'
+        run: bundle exec kamal lock release

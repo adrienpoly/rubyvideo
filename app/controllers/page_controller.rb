@@ -18,4 +18,7 @@ class PageController < ApplicationController
     @latest_events = Event.where(id: home_page_cached_data[:latest_event_ids])
     @active_speakers = Speaker.where(id: home_page_cached_data[:active_speaker_ids])
   end
+
+  def featured
+  end
 end
