@@ -125,7 +125,7 @@ jobs:
     needs: [lint, test, seed_smoke_test]
     name: Deploy
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     permissions:
       contents: read
