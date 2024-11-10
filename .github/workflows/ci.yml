@@ -85,9 +85,44 @@ jobs:
 
       # - name: Smoke test database seeds
       #   run: sudo bin/rails db:reset
+  seed_smoke_test:
+    runs-on: ubuntu-latest
+    env:
+      RAILS_ENV: test
+      SEED_SMOKE_TEST: true
+    steps:
+      - uses: actions/checkout@v4
 
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler: default
+          bundler-cache: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Meilisearch setup with Docker
+        run: docker run -d -p 7700:7700 getmeili/meilisearch:v1.1 meilisearch --no-analytics
+
+      - name: Build assets
+        run: bin/vite build --clear --mode=test
+
+      - name: Prepare database
+        run: |
+          bin/rails db:create
+          bin/rails db:schema:load
+
+      - name: Run Seed Smoke Test
+        run: bin/rails test test/tasks/db_seed_test.rb
   deploy:
-    needs: test
+    needs: [lint, test, seed_smoke_test]
     name: Deploy
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     runs-on: macos-latest

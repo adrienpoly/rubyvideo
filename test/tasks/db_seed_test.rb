@@ -1,7 +1,7 @@
 require "test_helper"
 
 class DbSeedTest < ActiveSupport::TestCase
-  if ENV["CI"]
+  if ENV["SEED_SMOKE_TEST"]
     self.use_transactional_tests = false # don't use fixtures for this test
 
     setup do
