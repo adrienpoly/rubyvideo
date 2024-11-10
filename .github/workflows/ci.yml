@@ -37,13 +37,13 @@ jobs:
         run: bundle exec standardrb
 
       - name: StandardJS Check
-        run: yarn standard
+        run: yarn lint
+
+      - name: Lint YAML data files
+        run: yarn lint:yml
 
       - name: erb-lint Check
         run: bundle exec erblint --lint-all
-
-      - name: Run Prettier on YAML data files
-        run: yarn prettier --check data/**/*.yml
 
   test:
     runs-on: ubuntu-latest
