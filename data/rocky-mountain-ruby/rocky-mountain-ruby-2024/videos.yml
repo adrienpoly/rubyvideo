@@ -220,6 +220,21 @@
 
 # Break
 
+- title: Catching Waves with Time-Series Data
+  raw_title: Catching Waves with Time-Series Data by Liz Heym
+  speakers:
+    - Liz Heym
+  event_name: Rocky Mountain Ruby 2024
+  published_at: "2024-10-08"
+  description: |-
+    Rocky Mountain Ruby 2024
+
+    Time-series data is remarkably common, with applications ranging from IoT to finance. Effectively storing, reading, and presenting this time-series data can be as finicky as catching the perfect wave.
+
+    In order to understand the best-practices of time-series data, we’ll follow a surfer’s journey as she attempts to record every wave she’s ever caught. We’ll discover how to structure the time-series data, query for performant access, aggregate data over timespans, and present the data via an API endpoint. Surf’s up!
+  video_provider: youtube
+  video_id: _KBnYcM5pCE
+
 - title: "Beyond Code: Crafting effective discussions to further technical decision-making"
   raw_title:
     "Beyond Code: Crafting effective discussions to further technical decision-making
