@@ -13,8 +13,7 @@
     - Bekki Freeman
   event_name: Rocky Mountain Ruby 2024
   published_at: "2024-10-07"
-  description:
-    Opening Remarks with Spike Ilacqua and Bekki Freeman
+  description: Opening Remarks with Spike Ilacqua and Bekki Freeman
   video_provider: youtube
   video_id: SGskS0ePogc
 
@@ -112,7 +111,7 @@
   published_at: "2024-10-07"
   slides_url: https://craigbuchek.com/laziness
   description: |-
-     We can write Ruby code in any number of styles, but the community has some accepted norms. For example, almost nobody uses `for` loops any more. We've decided that some styles are "better" than others. And we can keep finding "better" styles.
+    We can write Ruby code in any number of styles, but the community has some accepted norms. For example, almost nobody uses `for` loops any more. We've decided that some styles are "better" than others. And we can keep finding "better" styles.
 
     In this talk, we'll dig into a more functional "lazy" style. Instead of setting up variables ahead of time, we'll call methods as needed. Instead of thinking about how to compute things, we'll think about properties of objects. This style has improved the readability of my code, and it will help you too.
   video_provider: youtube
@@ -145,8 +144,7 @@
   event_name: Rocky Mountain Ruby 2024
   published_at: "2024-10-07"
   slides_url: https://speakerdeck.com/irinanazarova/evolution-of-realtime-and-anycable-pro-rocky-mountain-ruby-2024-irina-nazarova
-  description:
-    "When we launched AnyCable Pro at Evil
+  description: "When we launched AnyCable Pro at Evil
     Martians in 2021, our goal was to simplify real-time functionality for all Rails
     developers while making it commercially successful for our company. We aimed to
     build what people wanted and saw their priorities shift from GraphQL to Hotwire,
