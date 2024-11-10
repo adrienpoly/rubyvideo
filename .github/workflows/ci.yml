@@ -18,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Enable Corepack
+        run: corepack enable
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -27,11 +30,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version-file: ".node-version"
           cache: yarn
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: StandardRB Check
         run: bundle exec standardrb
@@ -52,6 +55,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Enable Corepack
+        run: corepack enable
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -61,11 +67,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version-file: ".node-version"
           cache: yarn
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: Meilisearch setup with Docker
         run: docker run -d -p 7700:7700 getmeili/meilisearch:v1.1 meilisearch --no-analytics

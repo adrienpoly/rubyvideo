@@ -84,3 +84,8 @@ service_account.json
 .DS_Store
 
 .ssh-keys/
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
