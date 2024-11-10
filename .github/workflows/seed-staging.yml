@@ -1,23 +1,26 @@
-name: Release Lock Production
+name: Seed Staging
 
 on: workflow_dispatch
 
 jobs:
-  release-lock-production:
-    name: Release Lock Production
+  seed-staging:
+    name: Seed Staging
     runs-on: ubuntu-20.04
-    timeout-minutes: 2
+    timeout-minutes: 5
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.7.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           bundler: default
           bundler-cache: true
-      - name: Deploy to Production
-        run: bundle exec kamal lock release
+
+      - name: Run db:seed on Staging
+        run: bundle exec kamal app exec --reuse "bin/rails db:seed" -d staging
