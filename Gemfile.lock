@@ -297,7 +297,6 @@ GEM
       httparty (~> 0.17)
     meilisearch-rails (0.14.1)
       meilisearch (~> 0.28)
-    memory_profiler (1.1.0)
     meta-tags (2.22.1)
       actionpack (>= 6.0.0, < 8.1)
     method_source (1.1.0)
@@ -619,7 +618,6 @@ DEPENDENCIES
   listen (~> 3.5)
   litestream (~> 0.10.1)
   meilisearch-rails
-  memory_profiler
   meta-tags (~> 2.18)
   mission_control-jobs
   net-http (~> 0.3.2)
