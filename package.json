@@ -3,8 +3,10 @@
   "private": "true",
   "dependencies": {
     "@appsignal/javascript": "^1.3.26",
+    "@github/combobox-nav": "^3.0.1",
     "@hotwired/stimulus": "^3.2.1",
     "@hotwired/turbo-rails": "^8.0.4",
+    "@rails/request.js": "^0.0.11",
     "@splidejs/splide": "^4.1.4",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.15",
@@ -26,7 +28,7 @@
   "packageManager": "yarn@1.22.19",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
-    "daisyui": "^4.12.13",
+    "daisyui": "^4.12.14",
     "postcss": "^8.4.38",
     "postcss-import": "^16.1.0",
     "postcss-nested": "^6.0.1",

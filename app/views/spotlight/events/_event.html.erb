@@ -1,0 +1,4 @@
+<%= link_to event_path(event), target: "_top", id: dom_id(event), role: "option", class: "w-full flex items-center gap-4", style: "view-transition-name: #{dom_id(event, :search_result)}" do %>
+  <img src="<%= image_path(event.card_image_path) %>" loading="lazy"
+  <%= event.name %>
+<% end %>

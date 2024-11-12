@@ -4,10 +4,6 @@
   <div class="flex items-center gap-2 title text-primary">
     <h1 style="view-transition-name: title">Talks</h1>
   </div>
-  <%= form_with url: talks_path, method: :get, data: {controller: "auto-submit", turbo_frame: "talks", turbo_action: "advance"} do |form| %>
-    <%= form.search_field :query, value: params[:query], placeholder: "Search a talk (full text search in title, summary and speakers)", class: "w-full input input-bordered" %>
-  <% end %>
-
   <%= turbo_frame_tag "talks", target: "_top" do %>
     <div id="talks" class="grid min-w-full grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gallery">
       <%= render partial: "talks/card",

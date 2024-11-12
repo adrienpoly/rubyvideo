@@ -10,6 +10,9 @@ application.register("auto-submit", AutoSubmitController)
 import DropdownController from "./dropdown_controller"
 application.register("dropdown", DropdownController)
 
+import EventController from "./event_controller"
+application.register("event", EventController)
+
 import ModalController from "./modal_controller"
 application.register("modal", ModalController)
 
@@ -24,6 +27,9 @@ application.register("scroll-into-view", ScrollIntoViewController)
 
 import SplideController from "./splide_controller"
 application.register("splide", SplideController)
+
+import SpotlightSearchController from "./spotlight_search_controller"
+application.register("spotlight-search", SpotlightSearchController)
 
 import TalksNavigationController from "./talks_navigation_controller"
 application.register("talks-navigation", TalksNavigationController)
