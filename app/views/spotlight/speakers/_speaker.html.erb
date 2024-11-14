@@ -2,6 +2,8 @@
   <div class="avatar placeholder">
     <div class="w-8 rounded-full bg-gray-400">
       <span class="hidden only:block text-primary"><%= speaker.name.split.map(&:first).then { |initials| [initials.first, initials.last].join }.upcase %></span>
-      <img src="<%= speaker.github_avatar_url %>" loading="lazy"
+      <img src="<%= speaker.github_avatar_url %>" loading="lazy" alt="<%= speaker.name %>" height="200" width="200">
+    </div>
+  </div>
   <%= speaker.name %>
 <% end %>
