@@ -7,11 +7,20 @@ image: adrienpoly/rubyvideo_staging
 # Deploy to these servers.
 servers:
   web:
-    - 5.75.232.156
+    hosts:
+      - 5.75.232.156
+    options:
+      cpus: 1
+      memory: 0.5g
+      memory-swap: 2g
 
   job:
     hosts:
       - 5.75.232.156
+    options:
+      cpus: 0.2
+      memory: 0.5g
+      memory-swap: 2g
     cmd: bin/jobs
 
 # Enable SSL auto certification via Let's Encrypt (and allow for multiple apps on one server).
@@ -49,7 +58,6 @@ env:
   secret:
     - RAILS_MASTER_KEY
     - MEILI_MASTER_KEY
-
 
 # Use a persistent storage volume.
 #
