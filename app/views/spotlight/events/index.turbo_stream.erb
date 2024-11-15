@@ -4,7 +4,7 @@
     <% if @events.size.positive? %>
       <span class="text-sm text-gray-500">(<%= @events.size %> of <%= @events_count %>)</span>
       <%= link_to events_path(s: search_query), class: "link text-sm text-gray-500", target: "_top" do %>
-        all events results for <strong class="text-base-content"><%= search_query %></strong>
+        see results
       <% end %>
     <% end %>
   </div>

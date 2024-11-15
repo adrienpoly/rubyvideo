@@ -5,7 +5,7 @@ import { get } from '@rails/request.js'
 
 // Connects to data-controller="spotlight-search"
 export default class extends Controller {
-  static targets = ['searchInput', 'form', 'searchResults', 'talksSearchResults', 'speakersSearchResults', 'eventsSearchResults']
+  static targets = ['searchInput', 'form', 'searchResults', 'talksSearchResults', 'speakersSearchResults', 'eventsSearchResults', 'allSearchResults', 'searchQuery']
   static debounces = ['search']
   static values = {
     urlSpotlightTalks: String,
@@ -38,6 +38,9 @@ export default class extends Controller {
       this.#clearResults()
       return
     }
+
+    this.allSearchResultsTarget.classList.remove('hidden')
+    this.searchQueryTarget.innerHTML = query
 
     // search talks and abort previous requests
     if (this.hasUrlSpotlightTalksValue) {
@@ -110,6 +113,7 @@ export default class extends Controller {
     this.talksSearchResultsTarget.innerHTML = ''
     this.speakersSearchResultsTarget.innerHTML = ''
     this.eventsSearchResultsTarget.innerHTML = ''
+    this.allSearchResultsTarget.classList.add('hidden')
   }
 
   // getters

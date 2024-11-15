@@ -1,4 +1,6 @@
 <% main_resource = request.path.split("/").last.presence_in(%w[talks speakers events]) || "talks" %>
+<% resources = %w[talks speakers events] %>
+
 
 <%= ui_modal position: :top, close_button: false, data: {action: "keydown.meta+k@window->modal#open spotlight@window->modal#open"}, class: "spotlight"  do %>
   <div data-controller="spotlight-search"
@@ -17,10 +19,17 @@
       </div>
 
     <div role="listbox" data-spotlight-search-target="searchResults" aria-live="polite">
+      <div class="flex items-center gap-2 my-2 hidden" data-spotlight-search-target="allSearchResults">
+        <%= heroicon("magnifying-glass", size: :md) %>
+        <div role="option">search <%= main_resource %> for <strong class="text-base-content" data-spotlight-search-target="searchQuery"></strong></div>
+        <kbd class="kbd kbd-sm text-base-content">⏎</kbd>
+      </div>
+
       <div class="grid md:grid-cols-3 gap-4">
-        <div id="talks_search_results" data-spotlight-search-target="talksSearchResults"></div>
-        <div id="speakers_search_results" data-spotlight-search-target="speakersSearchResults"></div>
-        <div id="events_search_results" data-spotlight-search-target="eventsSearchResults"></div>
+        <% resources.unshift(main_resource) %>
+        <% resources.uniq.each do |resource| %>
+          <div id="<%= resource %>_search_results" data-spotlight-search-target="<%= resource %>SearchResults"></div>
+        <% end %>
       </div>
     </div>
   </div>

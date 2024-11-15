@@ -5,7 +5,7 @@
     <% if @talks.size.positive? %>
       <span class="text-sm text-gray-500">(<%= @talks.size %> of <%= @talks_count %>)</span>
       <%= link_to talks_path(s: search_query), class: "link text-sm text-gray-500", target: "_top" do %>
-        all talks results for <strong class="text-base-content"><%= search_query %></strong>
+        see results
       <% end %>
     <% end %>
   </div>

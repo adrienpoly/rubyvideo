@@ -4,7 +4,7 @@
     <% if @speakers.size.positive? %>
       <span class="text-sm text-gray-500">(<%= @speakers.size %> of <%= @speakers_count %>)</span>
       <%= link_to speakers_path(s: search_query), class: "link text-sm text-gray-500", target: "_top" do %>
-        all speakers results for <strong class="text-base-content"><%= search_query %></strong>
+        see results
       <% end %>
     <% end %>
   </div>
