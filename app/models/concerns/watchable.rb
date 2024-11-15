@@ -6,7 +6,7 @@ module Watchable
   end
 
   def mark_as_watched!
-    watched_talks.create!
+    watched_talks.find_or_create_by!(user: Current.user)
   end
 
   def unmark_as_watched!
