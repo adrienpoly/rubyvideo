@@ -12,4 +12,8 @@
 @import "components/typography.css";
 @import "components/video.css";
 
+/* external libraries */
 @import "vlitejs/vlite.css";
+
+/* config */
+@import "config/hotwire.css";
