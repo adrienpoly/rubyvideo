@@ -3,7 +3,7 @@ class Spotlight::EventsController < ApplicationController
 
   def index
     @events = Event.canonical
-    @events = @events.where("lower(name) LIKE ?", "%#{search_query.downcase}%") if search_query.present?
+    @events = @events.ft_search(search_query) if search_query.present?
     @events_count = @events.count
     @events = @events.limit(5)
     respond_to do |format|

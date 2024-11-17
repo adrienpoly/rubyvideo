@@ -4,7 +4,7 @@ class Spotlight::SpeakersController < ApplicationController
 
   def index
     @speakers = Speaker.canonical
-    @speakers = @speakers.where("lower(name) LIKE ?", "%#{search_query.downcase}%") if search_query.present?
+    @speakers = @speakers.ft_search(search_query) if search_query.present?
     @speakers_count = @speakers.count
     @speakers = @speakers.limit(5)
     respond_to do |format|
