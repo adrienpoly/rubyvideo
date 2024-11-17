@@ -70,10 +70,16 @@ export default class extends Controller {
     }
   }
 
-  searchMainResource () {
-    const url = new URL(`/${this.mainResourceValue}`, window.location.origin)
-    url.searchParams.set('s', this.searchInputTarget.value)
-    window.location.href = url.toString()
+  navigate () {
+    if (this.selectedOption?.matches('a, [href]')) {
+      this.selectedOption.click()
+    } else {
+      requestAnimationFrame(() => {
+        const url = new URL(`/${this.mainResourceValue}`, window.location.origin)
+        url.searchParams.set('s', this.searchInputTarget.value)
+        window.location.href = url.toString()
+      })
+    }
   }
 
   // callbacks
@@ -119,5 +125,9 @@ export default class extends Controller {
   // getters
   get dialog () {
     return this.element.closest('dialog')
+  }
+
+  get selectedOption () {
+    return this.searchResultsTarget.querySelector('[aria-selected="true"]')
   }
 }

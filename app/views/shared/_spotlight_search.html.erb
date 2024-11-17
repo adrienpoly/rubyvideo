@@ -15,7 +15,7 @@
               autofocus: true,
               autocomplete: "off",
               class: "w-full p-2 outline-none",
-              data: {action: "spotlight-search#search keydown.enter->spotlight-search#searchMainResource", spotlight_search_target: "searchInput"} %>
+              data: {action: "spotlight-search#search keydown.enter->spotlight-search#navigate:stop", spotlight_search_target: "searchInput"} %>
       </div>
 
     <div role="listbox" data-spotlight-search-target="searchResults" aria-live="polite">
