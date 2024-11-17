@@ -1,7 +1,6 @@
 <% main_resource = request.path.split("/").last.presence_in(%w[talks speakers events]) || "talks" %>
 <% resources = %w[talks speakers events] %>
 
-
 <%= ui_modal position: :top, close_button: false, data: {action: "keydown.meta+k@window->modal#open spotlight@window->modal#open"}, class: "spotlight"  do %>
   <div data-controller="spotlight-search"
        data-spotlight-search-url-spotlight-talks-value="<%= spotlight_talks_path %>"
