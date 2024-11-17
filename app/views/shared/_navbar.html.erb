@@ -17,7 +17,6 @@
 
     <div class="flex justify-end items-center">
       <ul class="hidden lg:flex items-center gap-4">
-        <%= render "shared/navbar/search_bar" %>
 
         <% signed_in do %>
           <div class="flex items-center gap-2">
@@ -28,6 +27,8 @@
             <% end %>
           </div>
         <% end %>
+
+        <%= render "shared/navbar/search_bar" %>
 
         <% signed_in do %>
           <%= render "shared/user_dropdown" %>
