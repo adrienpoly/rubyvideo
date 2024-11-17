@@ -12,6 +12,13 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get index with search results" do
+    get talks_url(s: "rails")
+    assert_response :success
+    assert_select "h1", /Talks/i
+    assert_select "h1", /search results for "rails"/i
+  end
+
   test "should show talk" do
     get talk_url(@talk)
     assert_response :success
