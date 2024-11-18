@@ -3,78 +3,24 @@
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
+# this blog post seems to have the schedule
+# https://athega.se/blogg/2011/09/12/rocky-mountain-ruby-2011
 
-- title: "Ruby Coding High"
-  raw_title: "Rocky Mountain Ruby 2011 - Ruby Coding High by: Jim Weirich, Zef Houssney"
-  speakers:
-    - Jim Weirich
-    - Zef Houssney
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description: |-
-    A musical selection for your enjoyment.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC6/
-  video_provider: youtube
-  video_id: 3QNZLneA0kA
-
-- title: "Lightning Talk: In Defense of Unless"
+- title: "Opening Keynote: Code Blindness"
   raw_title:
-    "Rocky Mountain Ruby 2011 - Lightning Talk: In Defense of Unless by:
-    Spike Ilacqua"
+    "Rocky Mountain Ruby 2011 - Opening Keynote: Code Blindness by: Michael
+    Feathers"
   speakers:
-    - Spike Ilacqua
+    - Michael Feathers
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description: ""
+  published_at: "2011-09-01"
+  description:
+    Michael Feathers will be giving the opening keynote this year at Rocky
+    Mountain Ruby. Michael is well known in the software community for his work with
+    XP/Agile, improving software development and working on large legacy codebases.
+    Don't miss his opening remarks which will definitely be thought provoking.
   video_provider: youtube
-  video_id: aDzGLc1C3Ps
-
-- title: "Lightning Talk: Do Your Commit Messages Suck"
-  raw_title:
-    "Rocky Mountain Ruby 2011 - Lightning Talk: Do Your Commit Messages Suck
-    by: Ryan McGeary"
-  speakers:
-    - Ryan McGeary
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description: ""
-  video_provider: youtube
-  video_id: 8YjSty6bfog
-
-- title: "Lightning Talk: BDSM Project SM Framework"
-  raw_title:
-    "Rocky Mountain Ruby 2011 - BDSM Project SM Framework by: Wayne E.Wayne
-    E. Seguin"
-  speakers:
-    - Wayne E. Seguin
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description: ""
-  video_provider: youtube
-  video_id: _CtI8f60xOk
-
-- title: "Lightning Talk: Be Moar Ridiculous"
-  raw_title: "Rocky Mountain Ruby 2011 - Be Moar Ridiculous by: Anthony Navarre"
-  speakers:
-    - Anthony Navarre
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description: ""
-  video_provider: youtube
-  video_id: fjR3iT3gnxo
-
-- title: "Lightning Talk: Active Hash"
-  raw_title: "Rocky Mountain Ruby 2011 - Active Hash by: Jeff Dean"
-  speakers:
-    - Jeff Dean
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description: ""
-  video_provider: youtube
-  video_id: l9oGzOqEd88
+  video_id: B31QrNFyRyc
 
 - title: "Focus? Why Do I Need More Stinkin' Focus?"
   raw_title:
@@ -83,7 +29,7 @@
   speakers:
     - Mike Gehard
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-01"
   description:
     Ever have one of those days where you sit back at the end of the day
     and realize that you didn't get anything tangible done? Why do those days happen?
@@ -94,28 +40,12 @@
   video_provider: youtube
   video_id: "-JAQnLsFJMg"
 
-- title: "Opening Keynote: Code Blindness"
-  raw_title:
-    "Rocky Mountain Ruby 2011 - Opening Keynote: Code Blindness by: Michael
-    Feathers"
-  speakers:
-    - Michael Feathers
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description:
-    Michael Feathers will be giving the opening keynote this year at Rocky
-    Mountain Ruby. Michael is well known in the software community for his work with
-    XP/Agile, improving software development and working on large legacy codebases.
-    Don't miss his opening remarks which will definitely be thought provoking.
-  video_provider: youtube
-  video_id: B31QrNFyRyc
-
 - title: "API Design Matters"
   raw_title: "Rocky Mountain Ruby 2011 - API Design Matters by: Anthony Eden"
   speakers:
     - Anthony Eden
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-01"
   description: |-
     The effects of API design will likely live with your project for a long time, often beyond your tenure with the project. Yet good API design is very rarely discussed and often leads developers to the conclusion that good APIs are something that "we know when we see them."
 
@@ -130,7 +60,7 @@
   speakers:
     - Nick Sutterer
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-01"
   description: |-
     REST is an architectural style for distributed systems. However, many implementations forget about the distributed part of REST and simply map CRUD operations to HTTP verbs in a monolithic application. We're gonna go further and learn why hypermedia is the crucial part of REST architectures and how machines can browse resources just like humans using self-describing representations.
 
@@ -145,7 +75,7 @@
   speakers:
     - Grant Blakeman
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-01"
   description:
     People often think of design as something that helps solve problems,
     but design should actually prevent problems in the first place. While you may
@@ -154,14 +84,13 @@
     keep life and work moving forward.
   video_provider: youtube
   video_id: HYxf9v50B1U
-
 - title: "Things You Didn't Know About Exceptions"
   raw_title: "Rocky Mountain Ruby 2011 - Things You Didn't Know About Exceptions
     by: Avdi Grimm"
   speakers:
     - Avdi Grimm
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-01"
   description:
     You know how to raise and rescue exceptions. But do you know how they
     work, and how how to structure a robust error handling strategy for your app?
@@ -172,19 +101,6 @@
   video_provider: youtube
   video_id: NZx4phN7q_w
 
-- title: "Code First, Ask Questions Later"
-  raw_title: "Rocky Mountain Ruby 2011 - Code First, Ask Questions Later by: Tim Clem"
-  speakers:
-    - Tim Clem
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description: |-
-    Ever wonder how software is designed and developed at GitHub? Are you curious about how new features are deployed to the site? (Hint: ask the robot.) Want to know why we don't have any managers and don't track vacation days?
-
-    This talk will explore running your company like an open source project and give some insight into how GitHub continues to leverage ruby and other open source tools to keep up with massive data loads and a growing community of users.
-  video_provider: youtube
-  video_id: 8G51GrNpEyM
-
 - title: "Cognitive Psychology and the Zen of Code"
   raw_title:
     "Rocky Mountain Ruby 2011 - Cognitive Psychology and the Zen of Code
@@ -192,7 +108,7 @@
   speakers:
     - Jay Zeschin
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-01"
   description:
     Many of us are familiar with the old adage about writing code "for
     people to read, and only incidentally for machines to execute" (thanks, Abelson
@@ -208,27 +124,13 @@
   video_provider: youtube
   video_id: ar4QzWJ87RQ
 
-- title: "Using Your Intuition for Innovation and Decision Making"
-  raw_title:
-    "Rocky Mountain Ruby 2011 - Using Your Intuition for Innovation and Decision
-    Making by: Suzan Bond"
-  speakers:
-    - Suzan Bond
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description:
-    Learn how to go inside out vs. outside in so you can tap into your
-    intuition to make strong decisions and come up with innovative solutions. It might
-    just help you invent the next big thing rather than being the next Groupon clone.
-  video_provider: youtube
-  video_id: twoQjXLie7Y
-
+# 2011-09-02
 - title: "Real Time Rack"
   raw_title: "Rocky Mountain Ruby 2011 - Real Time Rack by: Konstantin Haase"
   speakers:
     - Konstantin Haase
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-02"
   description:
     At least since node.js everyone knows that real time HTTP responses
     are the next big thing. The secrets of handling incoming requests asynchronously
@@ -240,53 +142,12 @@
   video_provider: youtube
   video_id: R84ersKcKFc
 
-- title: "Implementing Rails 3.1..."
-  raw_title: Rocky Mountain Ruby 2011 - Implementing Rails 3.1...
-  speakers:
-    - Rod Cope
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description: |-
-    Implementing Rails 3.1, Backbone.js, CoffeeScript, jQuery, Sass, and CouchDB on EC2 by: Rod Cope
-
-    In under two months, my team: * Learned all about Rails 3.1, Backbone.js, CoffeeScript, Sass, and CouchDB * Wrote a new application that deploys open source stacks in the cloud * Created some stacks (e.g., Rails, Tomcat, BIRT) * Went to production on Amazon EC2
-
-    Come to this session to see what went right, what went wrong, and how this all compares to one of our other production stacks based on Rails 2.3, JavaScript, jQuery, Redis, and MySQL. In particular, you'll learn how to take advantage of some hot new tools while avoiding many of their pitfalls.
-  video_provider: youtube
-  video_id: "-YnvvVm9_0A"
-
-- title: "There Are No Tests"
-  raw_title: "Rocky Mountain Ruby 2011 - There Are No Tests by: Jeff Casimir"
-  speakers:
-    - Jeff Casimir
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description: |-
-    The Ruby community is obsessed with testing, supposedly. In my experience about four out of five applications have either zero or completely ineffective test coverage.
-
-    Have the courage to change it. Whether your own projects or recovering someone else's mess, let's talk strategy:
-
-    * Starting with metrics
-    * Refactoring for understanding
-    * Comment-driven development
-    * The unit testing foundation
-    * Bug reports are your best integration tests
-    * Focusing on value
-
-    Rescue projects are popping up everywhere, and a strategic testing approach can save the day.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCY/
-  video_provider: youtube
-  video_id: 0u3NpGhxBq0
-
 - title: "Ruby Messaging Patterns"
   raw_title: "Rocky Mountain Ruby 2011 - Ruby Messaging Patterns by: Gerred Dillon"
   speakers:
     - Gerred Dillon
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-02"
   description: |-
     As Ruby continues to mature as a language, its use in large scale (enterprise!) codebases is expanding - and the need to integrate into larger architectures is already here. It is tempting to build networks of APIs in order to integrate applications, but there is an answer - messaging. This talk will reveal the benefits of messaging, and describe patterns that can be implemented at any level - from workers on single applications, to integrating separate codebases, all the way up to massive, concurrent service-oriented architectures that rely on messaging as the backbone. Prepare to be assaulted with an inspiring way to integrate and scale - and leave armed with the tools required to do so.
 
@@ -303,7 +164,7 @@
   speakers:
     - Charles Max Wood
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-02"
   description: |-
     by: Charles Max Wood
 
@@ -315,20 +176,35 @@
   video_provider: youtube
   video_id: RL7EL1oC6kY
 
-- title: "Lightning Talk: Developing Developers"
-  raw_title:
-    "Rocky Mountain Ruby 2011 - Lightning Talk: Developing Developers by:
-    Mike Gehard"
+- title: "Code First, Ask Questions Later"
+  raw_title: "Rocky Mountain Ruby 2011 - Code First, Ask Questions Later by: Tim Clem"
   speakers:
-    - Mike Gehard
+    - Tim Clem
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-02"
   description: |-
+    Ever wonder how software is designed and developed at GitHub? Are you curious about how new features are deployed to the site? (Hint: ask the robot.) Want to know why we don't have any managers and don't track vacation days?
+
+    This talk will explore running your company like an open source project and give some insight into how GitHub continues to leverage ruby and other open source tools to keep up with massive data loads and a growing community of users.
+  video_provider: youtube
+  video_id: 8G51GrNpEyM
+
+- title: "A Documentation Talk"
+  raw_title: "Rocky Mountain Ruby 2011 - A Documentation Talk by: Zach Holman"
+  speakers:
+    - Zach Holman
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02"
+  description: |-
+    "A Documentation Talk" sounds pretty boring, right? Wouldn't it be scandalously titillating if this talk's title included detailed analysis of the expectations and results of the talk itself? Jeez it's like someone's making an overt metaphor for how Rubyists document their code.
+
+    At GitHub, we add docs to every single method we write, and we couldn't be more excited about it. It means faster and simpler code. It means stronger tests. It means your developers can pay attention to new commits without stressing about them. Documentation will make your project so very happy.
+
     Help us caption & translate this video!
 
-    http://amara.org/v/GZC1/
+    http://amara.org/v/GZC5/
   video_provider: youtube
-  video_id: LatNKij7AHY
+  video_id: lJd7nlysZeg
 
 - title: "Start using Jasmine.  Write better JavaScript.  Profit."
   raw_title: Rocky Mountain Ruby 2011 - Start using Jasmine.  Write better JavaScript.  Profit.
@@ -336,7 +212,7 @@
     - Justin Searls
     - Cory Flanigan
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-02"
   description: |-
     by: Justin Searls, Cory Flanigan
 
@@ -359,6 +235,149 @@
     http://amara.org/v/GZC2/
   video_provider: youtube
   video_id: GeqPTG8dps8
+- title: "Lightning Talk: Do Your Commit Messages Suck"
+  raw_title:
+    "Rocky Mountain Ruby 2011 - Lightning Talk: Do Your Commit Messages Suck
+    by: Ryan McGeary"
+  speakers:
+    - Ryan McGeary
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02"
+  description: ""
+  video_provider: youtube
+  video_id: 8YjSty6bfog
+
+## talks bellow the order and exact date is uncertain
+- title: "Using Your Intuition for Innovation and Decision Making"
+  raw_title:
+    "Rocky Mountain Ruby 2011 - Using Your Intuition for Innovation and Decision
+    Making by: Suzan Bond"
+  speakers:
+    - Suzan Bond
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02" # TODO: check
+  description:
+    Learn how to go inside out vs. outside in so you can tap into your
+    intuition to make strong decisions and come up with innovative solutions. It might
+    just help you invent the next big thing rather than being the next Groupon clone.
+  video_provider: youtube
+  video_id: twoQjXLie7Y
+
+- title: "Implementing Rails 3.1..."
+  raw_title: Rocky Mountain Ruby 2011 - Implementing Rails 3.1...
+  speakers:
+    - Rod Cope
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02" # TODO: check
+  description: |-
+    Implementing Rails 3.1, Backbone.js, CoffeeScript, jQuery, Sass, and CouchDB on EC2 by: Rod Cope
+
+    In under two months, my team: * Learned all about Rails 3.1, Backbone.js, CoffeeScript, Sass, and CouchDB * Wrote a new application that deploys open source stacks in the cloud * Created some stacks (e.g., Rails, Tomcat, BIRT) * Went to production on Amazon EC2
+
+    Come to this session to see what went right, what went wrong, and how this all compares to one of our other production stacks based on Rails 2.3, JavaScript, jQuery, Redis, and MySQL. In particular, you'll learn how to take advantage of some hot new tools while avoiding many of their pitfalls.
+  video_provider: youtube
+  video_id: "-YnvvVm9_0A"
+
+- title: "There Are No Tests"
+  raw_title: "Rocky Mountain Ruby 2011 - There Are No Tests by: Jeff Casimir"
+  speakers:
+    - Jeff Casimir
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02" # TODO: check
+  description: |-
+    The Ruby community is obsessed with testing, supposedly. In my experience about four out of five applications have either zero or completely ineffective test coverage.
+
+    Have the courage to change it. Whether your own projects or recovering someone else's mess, let's talk strategy:
+
+    * Starting with metrics
+    * Refactoring for understanding
+    * Comment-driven development
+    * The unit testing foundation
+    * Bug reports are your best integration tests
+    * Focusing on value
+
+    Rescue projects are popping up everywhere, and a strategic testing approach can save the day.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/GZCY/
+  video_provider: youtube
+  video_id: 0u3NpGhxBq0
+
+- title: "Ruby Coding High"
+  raw_title: "Rocky Mountain Ruby 2011 - Ruby Coding High by: Jim Weirich, Zef Houssney"
+  speakers:
+    - Jim Weirich
+    - Zef Houssney
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02" # TODO: check
+  description: |-
+    A musical selection for your enjoyment.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/GZC6/
+  video_provider: youtube
+  video_id: 3QNZLneA0kA
+
+- title: "Lightning Talk: In Defense of Unless"
+  raw_title:
+    "Rocky Mountain Ruby 2011 - Lightning Talk: In Defense of Unless by:
+    Spike Ilacqua"
+  speakers:
+    - Spike Ilacqua
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02" # TODO: check
+  description: ""
+  video_provider: youtube
+  video_id: aDzGLc1C3Ps
+
+- title: "Lightning Talk: BDSM Project SM Framework"
+  raw_title:
+    "Rocky Mountain Ruby 2011 - BDSM Project SM Framework by: Wayne E.Wayne
+    E. Seguin"
+  speakers:
+    - Wayne E. Seguin
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02" # TODO: check
+  description: ""
+  video_provider: youtube
+  video_id: _CtI8f60xOk
+
+- title: "Lightning Talk: Be Moar Ridiculous"
+  raw_title: "Rocky Mountain Ruby 2011 - Be Moar Ridiculous by: Anthony Navarre"
+  speakers:
+    - Anthony Navarre
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02" # TODO: check
+  description: ""
+  video_provider: youtube
+  video_id: fjR3iT3gnxo
+
+- title: "Lightning Talk: Active Hash"
+  raw_title: "Rocky Mountain Ruby 2011 - Active Hash by: Jeff Dean"
+  speakers:
+    - Jeff Dean
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02" # TODO: check
+  description: ""
+  video_provider: youtube
+  video_id: l9oGzOqEd88
+
+- title: "Lightning Talk: Developing Developers"
+  raw_title:
+    "Rocky Mountain Ruby 2011 - Lightning Talk: Developing Developers by:
+    Mike Gehard"
+  speakers:
+    - Mike Gehard
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02" # TODO: check
+  description: |-
+    Help us caption & translate this video!
+
+    http://amara.org/v/GZC1/
+  video_provider: youtube
+  video_id: LatNKij7AHY
 
 - title: "Testing Panel"
   raw_title:
@@ -370,7 +389,7 @@
     - Justin Searls
     - Jim Holmes
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-02" # TODO: check
   description: |-
     Jeff Casimir will lead a follow-up panel focusing on testing topics with Justin Searls, Cory Flanigan and Jim Holmes.
 
@@ -387,7 +406,7 @@
   speakers:
     - Jim Holmes
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-02" # TODO: check
   description: |-
     by: Jim Holmes
 
@@ -399,29 +418,12 @@
   video_provider: youtube
   video_id: QWp4PbUhGXg
 
-- title: "A Documentation Talk"
-  raw_title: "Rocky Mountain Ruby 2011 - A Documentation Talk by: Zach Holman"
-  speakers:
-    - Zach Holman
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
-  description: |-
-    "A Documentation Talk" sounds pretty boring, right? Wouldn't it be scandalously titillating if this talk's title included detailed analysis of the expectations and results of the talk itself? Jeez it's like someone's making an overt metaphor for how Rubyists document their code.
-
-    At GitHub, we add docs to every single method we write, and we couldn't be more excited about it. It means faster and simpler code. It means stronger tests. It means your developers can pay attention to new commits without stressing about them. Documentation will make your project so very happy.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC5/
-  video_provider: youtube
-  video_id: lJd7nlysZeg
-
 - title: "Lightning Talk: Deprecatable"
   raw_title: "Rocky Mountain Ruby 2011 - Lightning Talk: Deprecatable by: Jeremy Hinegardner"
   speakers:
     - Jeremy Hinegardner
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2015-04-07"
+  published_at: "2011-09-02" # TODO: check
   description: ""
   video_provider: youtube
   video_id: UVqMN3xIFl8
