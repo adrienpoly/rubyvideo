@@ -3,8 +3,12 @@
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <% if Rails.env.production? %>
+    <% if Rails.env.production? || Rails.env.staging? %>
       <link rel="canonical" href="<%= canonical_url %>">
+    <% end %>
+
+    <% if Rails.env.staging? %>
+      <meta name="robots" content="noindex, nofollow">
     <% end %>
 
     <%= csrf_meta_tags %>
