@@ -494,3 +494,15 @@
   slug: ruby-galaxy
   language: english
   youtube_channel_id: UCLa57lJ1HFAKAkjxOjKEZSQ
+
+- name: Magic Ruby
+  website: https://magic-ruby.com
+  twitter: magirubyconf
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Magic Ruby
+  default_country_code: US
+  slug: magic-ruby
+  language: english
+  youtube_channel_name: ""
+  youtube_channel_id: ""
