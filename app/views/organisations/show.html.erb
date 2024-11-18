@@ -10,7 +10,11 @@
 
       <div class="flex-col flex justify-center">
         <h1 class="mb-2 text-black font-bold" style="view-transition-name: title"><%= @organisation.name %></h1>
-        <h3 class="hidden md:block text-[#636B74]"><%= pluralize(@organisation.events.count, "event") %> - @<%= @organisation.youtube_channel_name %></h3>
+        <h3 class="hidden md:block text-[#636B74]"><%= pluralize(@organisation.events.count, "event") %>
+          <% if @organisation.youtube_channel_name.present? %>
+            - @<%= @organisation.youtube_channel_name %>
+          <% end %>
+        </h3>
       </div>
     </div>
   </div>
