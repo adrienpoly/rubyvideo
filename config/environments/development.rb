@@ -76,6 +76,10 @@ Rails.application.configure do
 
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
+  # https://vite-ruby.netlify.app/guide/troubleshooting.html#safari-does-not-reflect-css-and-js-changes-in-development
+  # https://bugs.webkit.org/show_bug.cgi?id=193533
+  config.action_view.preload_links_header = false
+
   if ENV["PROFILE"]
     config.cache_classes = true
     config.eager_load = true

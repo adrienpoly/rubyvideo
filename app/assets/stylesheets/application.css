@@ -2,6 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import "components/avatar.css";
 @import "components/diff.css";
 @import "components/dropdown.css";
 @import "components/form.css";
