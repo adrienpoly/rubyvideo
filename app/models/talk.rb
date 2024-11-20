@@ -4,30 +4,43 @@
 # Table name: talks
 #
 #  id                  :integer          not null, primary key
-#  title               :string           default(""), not null
+#  date                :date             indexed
 #  description         :text             default(""), not null
-#  slug                :string           default(""), not null
-#  video_id            :string           default(""), not null
-#  video_provider      :string           default("youtube"), not null
-#  thumbnail_sm        :string           default(""), not null
-#  thumbnail_md        :string           default(""), not null
-#  thumbnail_lg        :string           default(""), not null
-#  created_at          :datetime         not null
-#  updated_at          :datetime         not null
-#  event_id            :integer
-#  thumbnail_xs        :string           default(""), not null
-#  thumbnail_xl        :string           default(""), not null
-#  date                :date
-#  like_count          :integer
-#  view_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x000000013ac74120 @cues=[]>), not null
-#  enhanced_transcript :text             default(#<Transcript:0x000000013ac74030 @cues=[]>), not null
-#  summary             :text             default(""), not null
-#  language            :string           default("en"), not null
-#  slides_url          :string
-#  summarized_using_ai :boolean          default(TRUE), not null
+#  enhanced_transcript :text             default(#<Transcript:0x0000000120e51930 @cues=[]>), not null
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
+#  kind                :string           default("talk"), not null
+#  language            :string           default("en"), not null
+#  like_count          :integer
+#  raw_transcript      :text             default(#<Transcript:0x0000000120e51a98 @cues=[]>), not null
+#  slides_url          :string
+#  slug                :string           default(""), not null, indexed
+#  summarized_using_ai :boolean          default(TRUE), not null
+#  summary             :text             default(""), not null
+#  thumbnail_lg        :string           default(""), not null
+#  thumbnail_md        :string           default(""), not null
+#  thumbnail_sm        :string           default(""), not null
+#  thumbnail_xl        :string           default(""), not null
+#  thumbnail_xs        :string           default(""), not null
+#  title               :string           default(""), not null, indexed
+#  video_provider      :string           default("youtube"), not null
+#  view_count          :integer
+#  created_at          :datetime         not null
+#  updated_at          :datetime         not null, indexed
+#  event_id            :integer          indexed
+#  video_id            :string           default(""), not null
+#
+# Indexes
+#
+#  index_talks_on_date        (date)
+#  index_talks_on_event_id    (event_id)
+#  index_talks_on_slug        (slug)
+#  index_talks_on_title       (title)
+#  index_talks_on_updated_at  (updated_at)
+#
+# Foreign Keys
+#
+#  event_id  (event_id => events.id)
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
@@ -44,7 +57,7 @@ class Talk < ApplicationRecord
   # extend Pagy::Meilisearch
 
   # associations
-  belongs_to :event, optional: true, counter_cache: :talks_count
+  belongs_to :event, optional: true, counter_cache: :talks_count, touch: true
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :speakers, through: :speaker_talks, inverse_of: :talks
 
@@ -264,7 +277,7 @@ class Talk < ApplicationRecord
   end
 
   def slug_candidates
-    [
+    @slug_candidates ||= [
       title.parameterize,
       [title.parameterize, event&.name&.parameterize].compact.join("-"),
       [title.parameterize, language.parameterize].compact.join("-"),
@@ -277,7 +290,8 @@ class Talk < ApplicationRecord
   end
 
   def unused_slugs
-    slug_candidates.reject { |slug| Talk.excluding(self).exists?(slug: slug) }
+    used_slugs = Talk.excluding(self).where(slug: slug_candidates).pluck(:slug)
+    slug_candidates - used_slugs
   end
 
   def update_from_yml_metadata!(event: nil)
@@ -330,7 +344,7 @@ class Talk < ApplicationRecord
   end
 
   def static_metadata
-    Static::Video.find_by(video_id: video_id)
+    @static_metadata ||= Static::Video.find_by(video_id: video_id)
   end
 
   def suggestion_summary
