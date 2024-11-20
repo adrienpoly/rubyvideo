@@ -48,22 +48,24 @@
 
         <div class="flex gap-1">
           <% if signed_in? %>
-            <% if talk.watched? %>
-              <div class="tooltip tooltip-top" data-tip="Mark talk as unwatched">
-                <%= button_to [talk, :watched_talk],
-                      class: "flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm",
-                      method: :delete do %>
-                  <%= heroicon :x_mark, size: :sm %>
-                  <span class="text-nowrap">Unwatched</span>
-                <% end %>
-              </div>
-            <% else %>
-              <div class="tooltip tooltip-top" data-tip="Mark talk as watched">
-                <%= button_to [talk, :watched_talk], class: "flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm" do %>
-                  <%= heroicon :check, size: :sm %>
-                  <span class="text-nowrap">Watched</span>
-                <% end %>
-              </div>
+            <%= turbo_frame_tag dom_id(talk, :watched_talk) do %>
+              <% if talk.watched? %>
+                <div class="tooltip tooltip-top" data-tip="Mark talk as unwatched">
+                  <%= button_to [talk, :watched_talk],
+                        class: "flex gap-2 items-center rounded-full border bg-green-100 hover:bg-green-200 border-green-200 font-regular px-3 py-1 text-sm",
+                        method: :delete do %>
+                    <%= fa("circle-check", size: :sm, style: :solid, class: "fill-green-700") %>
+                    <span class="text-nowrap">Watched</span>
+                  <% end %>
+                </div>
+              <% else %>
+                <div class="tooltip tooltip-top" data-tip="Mark talk as watched">
+                  <%= button_to [talk, :watched_talk], class: "flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm" do %>
+                    <%= fa("circle", size: :sm, style: :regular) %>
+                    <span class="text-nowrap">Watched</span>
+                  <% end %>
+                </div>
+              <% end %>
             <% end %>
           <% end %>
 
