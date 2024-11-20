@@ -37,6 +37,8 @@ Rails.application.routes.draw do
       get :daily_visits
       get :monthly_page_views
       get :monthly_visits
+      get :top_referrers
+      get :top_landing_pages
       get :yearly_talks
     end
   end
