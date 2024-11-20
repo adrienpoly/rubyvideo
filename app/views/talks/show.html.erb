@@ -20,6 +20,10 @@
       <% cache cache_key do %>
         <%= render partial: "talks/talk", locals: {talk: @talk} %>
       <% end %>
+
+      <% cache @talk.event do %>
+        <%= render partial: "talks/explore_event", locals: {event: @talk.event} %>
+      <% end %>
     </div>
 
     <div class="gap-4 w-96 flex-shrink-0 hidden lg:flex lg:flex-col px-4">
