@@ -1,6 +1,6 @@
 class Spotlight::SpeakersController < ApplicationController
+  disable_analytics
   skip_before_action :authenticate_user!
-  include Pagy::Backend
 
   def index
     @speakers = Speaker.canonical

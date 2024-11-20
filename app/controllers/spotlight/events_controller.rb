@@ -1,4 +1,5 @@
 class Spotlight::EventsController < ApplicationController
+  disable_analytics
   skip_before_action :authenticate_user!
 
   def index

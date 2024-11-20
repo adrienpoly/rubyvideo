@@ -33,4 +33,13 @@ class Spotlight::TalksControllerTest < ActionDispatch::IntegrationTest
     assert_equal 5, assigns(:talks).size
     assert_equal Talk.all.count, assigns(:talks_count)
   end
+
+  test "should not track analytics" do
+    assert_no_difference "Ahoy::Event.count" do
+      with_event_tracking do
+        get spotlight_talks_url(format: :turbo_stream)
+        assert_response :success
+      end
+    end
+  end
 end
