@@ -1,5 +1,6 @@
 class Analytics::DashboardsController < ApplicationController
   skip_before_action :authenticate_user!
+  before_action :admin_required, only: %i[top_referrers top_landing_pages]
 
   def daily_visits
     @daily_visits = Rails.cache.fetch("daily_visits", expires_at: Time.current.end_of_day) do
@@ -62,5 +63,11 @@ class Analytics::DashboardsController < ApplicationController
         .sort_by { |_, count| -count }
         .first(10)
     end
+  end
+
+  private
+
+  def admin_required
+    redirect_to analytics_dashboards_path unless Current.user&.admin?
   end
 end
