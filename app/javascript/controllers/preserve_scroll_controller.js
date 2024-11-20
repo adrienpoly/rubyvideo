@@ -37,7 +37,6 @@ export default class extends Controller {
     // Update the back_to parameter with the modified path + query
     urlParams.set('back_to', backToUrl.pathname + backToUrl.search)
 
-    console.log(url.toString())
     // Update the href with the modified URL
     e.currentTarget.href = url.toString()
   }
