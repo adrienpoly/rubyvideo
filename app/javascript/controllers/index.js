@@ -25,6 +25,9 @@ application.register("scroll-into-view", ScrollIntoViewController)
 import SplideController from "./splide_controller"
 application.register("splide", SplideController)
 
+import TooltipController from "./tooltip_controller"
+application.register("tooltip", TooltipController)
+
 import TransitionController from "./transition_controller"
 application.register("transition", TransitionController)
 
