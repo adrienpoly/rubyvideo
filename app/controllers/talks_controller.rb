@@ -40,7 +40,7 @@ class TalksController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_talk
-    @talk = Talk.includes(:event, :speakers, :approved_topics).find_by(slug: params[:slug])
+    @talk = Talk.includes(:speakers, :approved_topics, event: :organisation).find_by(slug: params[:slug])
     return redirect_to talks_path, status: :moved_permanently if @talk.blank?
 
     @related_talks = @talk.event.talks.with_essential_card_data.order(date: :desc)

@@ -133,7 +133,7 @@ class Talk < ApplicationRecord
 
   scope :with_essential_card_data, -> do
     select(:id, :slug, :title, :date, :thumbnail_sm, :thumbnail_lg, :video_id, :video_provider, :event_id, :language)
-      .includes(:speakers, :event)
+      .includes(:speakers, event: :organisation)
   end
 
   def managed_by?(visiting_user)
@@ -206,7 +206,7 @@ class Talk < ApplicationRecord
       end
     end
 
-    if event && (asset = Rails.application.assets.load_path.find(event.poster_image_path)) && !youtube?
+    if !youtube? && event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
       return "/assets/#{asset.digested_path}"
     end
 
