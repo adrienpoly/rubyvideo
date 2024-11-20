@@ -50,6 +50,7 @@ class Talk < ApplicationRecord
   include Sluggable
   include Suggestable
   include Searchable
+  include Watchable
   slug_from :title
 
   # include MeiliSearch::Rails

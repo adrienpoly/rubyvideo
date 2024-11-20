@@ -43,6 +43,7 @@ Rails.application.routes.draw do
   resources :talks, param: :slug, only: [:index, :show, :update, :edit] do
     scope module: :talks do
       resources :recommendations, only: [:index]
+      resource :watched_talk, only: [:create, :destroy]
     end
   end
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
