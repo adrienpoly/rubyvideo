@@ -1,4 +1,5 @@
 class EventsController < ApplicationController
+  include WatchedTalks
   include Pagy::Backend
   skip_before_action :authenticate_user!, only: %i[index show update]
   before_action :set_event, only: %i[show edit update]

@@ -1,4 +1,4 @@
-<%# locals: (talk:, current_talk: nil, compact: false) -%>
+<%# locals: (talk:, current_talk: nil, compact: false, watched_talks_ids:) -%>
 
 <% active = talk == current_talk %>
 <%= link_to talk_path(talk), class: class_names("w-full flex items-center gap-4 p-2 rounded-lg hover:bg-gray-200", "bg-gray-200": active),
@@ -11,7 +11,7 @@
       <div class="absolute inset-0 bg-black/50 flex justify-center items-center rounded">
         <%= fa("play", size: :sm, class: "fill-white") %>
       </div>
-    <% elsif talk.watched? %>
+    <% elsif watched_talks_ids.include?(talk.id) %>
       <button data-tip="Talk Watched" class="tooltip tooltip-right absolute inset-0 bg-black/50 flex justify-center items-center rounded">
         <%= fa("circle-check", size: :sm, class: "fill-white") %>
       </button>

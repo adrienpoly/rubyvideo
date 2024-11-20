@@ -29,6 +29,7 @@ class User < ApplicationRecord
   has_many :sessions, dependent: :destroy, inverse_of: :user
   has_many :connected_accounts, dependent: :destroy
   has_many :watch_lists, dependent: :destroy
+  has_many :watched_talks, dependent: :destroy
   has_one :speaker, primary_key: :github_handle, foreign_key: :github
 
   validates :email, presence: true, uniqueness: true, format: {with: URI::MailTo::EMAIL_REGEXP}
@@ -60,6 +61,6 @@ class User < ApplicationRecord
   end
 
   def default_watch_list
-    watch_lists.first || watch_lists.create(name: "Favorites")
+    @default_watch_list ||= watch_lists.first || watch_lists.create(name: "Favorites")
   end
 end

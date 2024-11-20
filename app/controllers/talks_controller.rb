@@ -1,5 +1,6 @@
 class TalksController < ApplicationController
   include Pagy::Backend
+  include WatchedTalks
   skip_before_action :authenticate_user!
   before_action :set_talk, only: %i[show edit update]
   before_action :set_user_favorites, only: %i[index show]

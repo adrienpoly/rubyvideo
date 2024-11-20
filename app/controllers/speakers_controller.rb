@@ -4,6 +4,7 @@ class SpeakersController < ApplicationController
   before_action :set_user_favorites, only: %i[show]
   include Pagy::Backend
   include RemoteModal
+  include WatchedTalks
   respond_with_remote_modal only: [:edit]
 
   # GET /speakers
@@ -24,7 +25,6 @@ class SpeakersController < ApplicationController
     @talks = @speaker.talks.with_essential_card_data.order(date: :desc)
     @back_path = speakers_path
     set_meta_tags(@speaker)
-    # fresh_when(@speaker)
   end
 
   # GET /speakers/1/edit
