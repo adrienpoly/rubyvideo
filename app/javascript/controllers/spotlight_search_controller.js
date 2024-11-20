@@ -5,7 +5,10 @@ import { get } from '@rails/request.js'
 
 // Connects to data-controller="spotlight-search"
 export default class extends Controller {
-  static targets = ['searchInput', 'form', 'searchResults', 'talksSearchResults', 'speakersSearchResults', 'eventsSearchResults', 'allSearchResults', 'searchQuery']
+  static targets = ['searchInput', 'form', 'searchResults', 'talksSearchResults',
+    'speakersSearchResults', 'eventsSearchResults', 'allSearchResults',
+    'searchQuery', 'loading', 'clear']
+
   static debounces = ['search']
   static values = {
     urlSpotlightTalks: String,
@@ -31,16 +34,21 @@ export default class extends Controller {
 
   // actions
 
-  search () {
+  async search () {
     const query = this.searchInputTarget.value
 
     if (query.length === 0) {
       this.#clearResults()
+      this.#toggleClearing()
       return
     }
 
     this.allSearchResultsTarget.classList.remove('hidden')
     this.searchQueryTarget.innerHTML = query
+    this.loadingTarget.classList.remove('hidden')
+    this.clearTarget.classList.add('hidden')
+
+    const searchPromises = []
 
     // search talks and abort previous requests
     if (this.hasUrlSpotlightTalksValue) {
@@ -48,7 +56,7 @@ export default class extends Controller {
         this.talksAbortController.abort()
       }
       this.talksAbortController = new AbortController()
-      this.#handleSearch(this.urlSpotlightTalksValue, query, this.talksAbortController)
+      searchPromises.push(this.#handleSearch(this.urlSpotlightTalksValue, query, this.talksAbortController))
     }
 
     // search speakers and abort previous requests
@@ -57,7 +65,7 @@ export default class extends Controller {
         this.speakersAbortController.abort()
       }
       this.speakersAbortController = new AbortController()
-      this.#handleSearch(this.urlSpotlightSpeakersValue, query, this.speakersAbortController)
+      searchPromises.push(this.#handleSearch(this.urlSpotlightSpeakersValue, query, this.speakersAbortController))
     }
 
     // search events and abort previous requests
@@ -66,7 +74,14 @@ export default class extends Controller {
         this.eventsAbortController.abort()
       }
       this.eventsAbortController = new AbortController()
-      this.#handleSearch(this.urlSpotlightEventsValue, query, this.eventsAbortController)
+      searchPromises.push(this.#handleSearch(this.urlSpotlightEventsValue, query, this.eventsAbortController))
+    }
+
+    try {
+      await Promise.all(searchPromises)
+    } finally {
+      this.loadingTarget.classList.add('hidden')
+      this.#toggleClearing()
     }
   }
 
@@ -82,6 +97,13 @@ export default class extends Controller {
     }
   }
 
+  clear () {
+    this.searchInputTarget.value = ''
+    this.#clearResults()
+    this.#toggleClearing()
+    this.searchInputTarget.focus()
+  }
+
   // callbacks
   appear () {
     this.searchInputTarget.focus()
@@ -89,7 +111,7 @@ export default class extends Controller {
 
   // private
   #handleSearch (url, query, abortController) {
-    get(url, {
+    return get(url, {
       query: { s: query },
       responseKind: 'turbo-stream',
       headers: {
@@ -120,6 +142,15 @@ export default class extends Controller {
     this.speakersSearchResultsTarget.innerHTML = ''
     this.eventsSearchResultsTarget.innerHTML = ''
     this.allSearchResultsTarget.classList.add('hidden')
+  }
+
+  #toggleClearing () {
+    const query = this.searchInputTarget.value
+    if (query.length === 0) {
+      this.clearTarget.classList.add('hidden')
+    } else {
+      this.clearTarget.classList.remove('hidden')
+    }
   }
 
   // getters

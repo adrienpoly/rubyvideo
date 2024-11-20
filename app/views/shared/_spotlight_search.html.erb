@@ -7,14 +7,16 @@
        data-spotlight-search-url-spotlight-speakers-value="<%= spotlight_speakers_path %>"
        data-spotlight-search-url-spotlight-events-value="<%= spotlight_events_path %>"
        data-spotlight-search-main-resource-value="<%= main_resource %>">
-      <div class="flex items-center gap-2 rounded-lg bg-white px-2">
+      <div class="flex items-center gap-2 rounded-lg bg-white px-2 relative">
         <%= heroicon("magnifying-glass", size: :md) %>
-        <%= tag.input type: "search",
+        <%= tag.input type: "text",
               name: "query",
               autofocus: true,
               autocomplete: "off",
               class: "w-full p-2 outline-none",
               data: {action: "spotlight-search#search keydown.enter->spotlight-search#navigate:stop", spotlight_search_target: "searchInput"} %>
+        <%= heroicon("x-mark", size: :sm, class: "absolute right-2 top-1/2 -translate-y-1/2 hidden cursor-pointer", data: {action: "click->spotlight-search#clear", spotlight_search_target: "clear"}) %>
+        <%= heroicon("arrow-path", size: :sm, class: "absolute right-2 top-0 bottom-0 my-auto animate-spin hidden text-gray-600", data: {spotlight_search_target: "loading"}) %>
       </div>
 
     <div role="listbox" data-spotlight-search-target="searchResults" aria-live="polite">
