@@ -11,11 +11,20 @@
       </div>
     <% end %>
 
-    <div class="absolute z-10 hidden group-hover:flex inset-0 bg-black/30 justify-center items-center rounded-t-xl">
-      <div class="bg-gray-500 hover:bg-primary rounded-full p-3">
-        <%= fa("play", size: :md, class: "fill-white") %>
+    <% if talk.watched? %>
+      <div class="absolute z-10 flex inset-0 bg-black/50 hover:bg-black/40 justify-center items-center rounded-t-xl">
+        <div class="bg-gray-700 rounded-full px-3 py-2 justify-center items-center flex text-white gap-4">
+          <%= fa("circle-check", size: :md, class: "fill-white") %>
+          Watched
+        </div>
       </div>
-    </div>
+    <% else %>
+      <div class="absolute z-10 hidden group-hover:flex inset-0 bg-black/30 justify-center items-center rounded-t-xl">
+        <div class="bg-gray-500 hover:bg-primary rounded-full p-3">
+          <%= fa("play", size: :md, class: "fill-white") %>
+        </div>
+      </div>
+    <% end %>
 
     <%= image_tag(
           talk.thumbnail_lg,
