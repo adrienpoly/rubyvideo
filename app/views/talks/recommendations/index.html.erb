@@ -1,10 +1,9 @@
 <%= turbo_frame_tag "recommended_talks" do %>
   <div data-turbo-temporary data-controller="transition" class="hidden" data-transition-enter-after-value="0">
     <%= render partial: "talks/card_horizontal",
-               collection: @talks,
-               as: :talk,
-               locals: {compact: true,
-                        watched_talks_ids: user_watched_talks_ids} %>
+          collection: @talks,
+          as: :talk,
+          locals: {compact: true,
+                   watched_talks_ids: user_watched_talks_ids} %>
   </div>
 <% end %>
-
