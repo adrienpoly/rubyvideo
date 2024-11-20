@@ -234,8 +234,8 @@
     <div class="avatar-group -space-x-3 rtl:space-x-reverse mt-4">
       <% speakers_with_avatars = talk.event.speakers.where.not(github: "").sample(12) %>
 
-      <% speakers_with_avatars.each do |speaker| %>
-        <div class="avatar bg-white border-2">
+      <% speakers_with_avatars.each_with_index do |speaker, index| %>
+        <div class="<%= class_names("avatar bg-white border-2", "hidden lg:block" => index > 8) %>">
           <div class="w-8">
             <img src="<%= speaker.github_avatar_url %>" loading="lazy">
           </div>
