@@ -19,6 +19,6 @@ class OrganisationsController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_organisation
-    @organisation = Organisation.find_by!(slug: params[:slug])
+    @organisation = Organisation.includes(:events).find_by!(slug: params[:slug])
   end
 end
