@@ -30,7 +30,7 @@
           <%= render partial: "talks/card_horizontal",
                 collection: @related_talks,
                 as: :talk,
-                locals: {compact: true, current_talk: @talk} %>
+                locals: {compact: true, current_talk: @talk, watched_talks_ids: user_watched_talks_ids} %>
         </div>
         <div class="absolute bottom-0 left-0 w-full h-36 bg-gradient-to-t from-base-100 to-transparent pointer-events-none group-hover:hidden"></div>
       </div>

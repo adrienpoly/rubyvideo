@@ -1,4 +1,4 @@
-<%# locals: (talk:, user_favorite_talks_ids: [], favoritable: false, back_to: nil, back_to_title: nil) -%>
+<%# locals: (talk:, user_favorite_talks_ids: [], favoritable: false, back_to: nil, back_to_title: nil, watched_talks_ids: []) -%>
 
 <% language = Language.by_code(talk.language) %>
 
@@ -11,7 +11,7 @@
       </div>
     <% end %>
 
-    <% if talk.watched? %>
+    <% if watched_talks_ids.include?(talk.id) %>
       <div class="absolute z-10 flex inset-0 bg-black/50 hover:bg-black/40 justify-center items-center rounded-t-xl">
         <div class="bg-gray-700 rounded-full px-3 py-2 justify-center items-center flex text-white gap-4">
           <%= fa("circle-check", size: :md, class: "fill-white") %>
