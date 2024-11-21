@@ -5,7 +5,7 @@
   </div>
 
   <% playlist_slugs = Static::Playlist.where.not(featured_background: nil).sort_by(&:published_at).reverse.take(15).map(&:slug) %>
-  <% events = Event.where(slug: playlist_slugs).in_order_of(:slug, playlist_slugs) %>
+  <% events = Event.includes(:organisation).where(slug: playlist_slugs).in_order_of(:slug, playlist_slugs) %>
 
   <% cache events do %>
     <section class="splide" aria-label="Featured Events" data-controller="splide">

@@ -217,4 +217,25 @@ class TalkTest < ActiveSupport::TestCase
     assert_equal 0, talk.watched_talks.count
     assert_not talk.watched?
   end
+
+  test "should return a valid youtube thumbnail url" do
+    talk = talks(:one)
+
+    assert_match %r{^https://i.ytimg.com/vi/.*/sddefault.jpg$}, talk.thumbnail
+  end
+
+  test "should return a specific size youtube thumbnail url" do
+    talk = talks(:one)
+
+    assert_match %r{^https://i.ytimg.com/vi/.*/maxresdefault.jpg$}, talk.thumbnail(:thumbnail_xl)
+  end
+
+  test "should return the event thumbnail for non youtube talks" do
+    talk = talks(:brightonruby_2024_one).tap do |t|
+      ActiveRecord::Associations::Preloader.new(records: [t], associations: [event: :organisation]).call
+    end
+
+    assert_match %r{^/assets/events/brightonruby/brightonruby-2024/poster-.*.webp$}, talk.thumbnail
+    assert_match %r{^/assets/events/brightonruby/brightonruby-2024/poster-.*.webp$}, talk.thumbnail(:thumbnail_xl)
+  end
 end
