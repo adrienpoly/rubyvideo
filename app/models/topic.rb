@@ -7,7 +7,7 @@
 #  description  :text
 #  name         :string           indexed
 #  published    :boolean          default(FALSE)
-#  slug         :string           not null
+#  slug         :string           default(""), not null, indexed
 #  status       :string           default("pending"), not null, indexed
 #  talks_count  :integer
 #  created_at   :datetime         not null
@@ -18,6 +18,7 @@
 #
 #  index_topics_on_canonical_id  (canonical_id)
 #  index_topics_on_name          (name) UNIQUE
+#  index_topics_on_slug          (slug)
 #  index_topics_on_status        (status)
 #
 # Foreign Keys

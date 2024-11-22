@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_11_08_215612) do
+ActiveRecord::Schema[8.0].define(version: 2024_11_22_155013) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -216,7 +216,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_08_215612) do
     t.string "name"
     t.text "description"
     t.boolean "published", default: false
-    t.string "slug", null: false
+    t.string "slug", default: "", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "status", default: "pending", null: false
@@ -224,6 +224,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_08_215612) do
     t.integer "talks_count"
     t.index ["canonical_id"], name: "index_topics_on_canonical_id"
     t.index ["name"], name: "index_topics_on_name", unique: true
+    t.index ["slug"], name: "index_topics_on_slug"
     t.index ["status"], name: "index_topics_on_status"
   end
 
