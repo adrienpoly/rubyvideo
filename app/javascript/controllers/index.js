@@ -13,6 +13,9 @@ application.register("dropdown", DropdownController)
 import EventController from "./event_controller"
 application.register("event", EventController)
 
+import LazyLoadingController from "./lazy_loading_controller"
+application.register("lazy-loading", LazyLoadingController)
+
 import ModalController from "./modal_controller"
 application.register("modal", ModalController)
 

@@ -20,4 +20,11 @@
       <%= render partial: "speakers/speaker", collection: @speakers, as: :speaker, cached: true %>
     <% end %>
   </div>
+  <% if @pagy.next.present? %>
+    <%= turbo_frame_tag :pagination,
+          data: {
+            controller: "lazy-loading",
+            lazy_loading_src_value: speakers_path(letter: params[:letter], s: params[:s], page: @pagy.next, format: :turbo_stream)
+          } %>
+  <% end %>
 </div>
