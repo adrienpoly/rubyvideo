@@ -52,6 +52,7 @@ class Event < ApplicationRecord
   scope :without_talks, -> { where.missing(:talks) }
   scope :canonical, -> { where(canonical_id: nil) }
   scope :not_canonical, -> { where.not(canonical_id: nil) }
+  scope :ft_search, ->(query) { where("lower(events.name) LIKE ?", "%#{query.downcase}%") }
 
   def assign_canonical_event!(canonical_event:)
     ActiveRecord::Base.transaction do

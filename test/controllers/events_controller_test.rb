@@ -9,7 +9,15 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
     get events_url
     assert_response :success
-    assert_select ".title > .title", text: "Events"
+    assert_select "h1", /Events/i
+    assert_select "##{dom_id(@event)}", 1
+  end
+
+  test "should get index with search results" do
+    get events_url(s: "rails")
+    assert_response :success
+    assert_select "h1", /Events/i
+    assert_select "h1", /search results for "rails"/i
     assert_select "##{dom_id(@event)}", 1
   end
 

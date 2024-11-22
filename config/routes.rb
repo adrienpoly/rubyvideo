@@ -55,6 +55,12 @@ Rails.application.routes.draw do
     resources :enhance, only: [:update], param: :slug
   end
 
+  namespace "spotlight" do
+    resources :talks, only: [:index]
+    resources :speakers, only: [:index]
+    resources :events, only: [:index]
+  end
+
   get "/featured" => "page#featured"
 
   get "leaderboard", to: "leaderboard#index"

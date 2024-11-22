@@ -1,6 +1,6 @@
 <div class="navbar relative z-50 bg-transparent">
   <div class="container grid grid-cols-2 lg:grid-cols-3 justify-between items-center">
-    <div class="items-center gap-6 hidden md:flex">
+    <div class="items-center gap-6 hidden lg:flex">
       <ul class="desktop-menu">
         <%= render "shared/navbar/link", link_title: "Talks", path: talks_path %>
         <%= render "shared/navbar/link", link_title: "Speakers", path: speakers_path %>
@@ -9,14 +9,15 @@
       </ul>
     </div>
 
-    <div class="flex md:hidden lg:flex justify-start lg:justify-center items-center">
+    <div class="flex justify-start lg:justify-center items-center">
       <%= link_to root_path do %>
         <%= image_tag image_path("logo.png"), class: "size-10 hover:opacity-80" %>
       <% end %>
     </div>
 
     <div class="flex justify-end items-center">
-      <ul class="desktop-menu">
+      <ul class="hidden lg:flex items-center gap-4">
+
         <% signed_in do %>
           <div class="flex items-center gap-2">
             <%= render "shared/navbar/link", link_title: "Watch List", path: watch_lists_path %>
@@ -27,11 +28,7 @@
           </div>
         <% end %>
 
-        <li class="flex content-center">
-          <%= link_to "https://github.com/adrienpoly/rubyvideo", target: "_blank", alt: "github repository for the Ruby video project" do %>
-            <%= icon "github", size: :lg %>
-          <% end %>
-        </li>
+        <%= render "shared/navbar/search_bar" %>
 
         <% signed_in do %>
           <%= render "shared/user_dropdown" %>
@@ -42,9 +39,12 @@
         <% end %>
       </ul>
 
-      <div class="mobile-menu">
+      <div class="flex lg:hidden gap-2">
+        <%= render "shared/navbar/search_bar" %>
         <%= render "shared/user_mobile_dropdown" %>
       </div>
     </div>
   </div>
 </div>
+
+<%= render "shared/spotlight_search" %>

@@ -10,8 +10,8 @@ class TalksController < ApplicationController
     if params[:q].present?
       talks = Talk.with_essential_card_data.pagy_search(params[:q])
       @pagy, @talks = pagy_meilisearch(talks, limit: 20, page: params[:page]&.to_i || 1)
-    elsif params[:query].present?
-      @pagy, @talks = pagy(Talk.with_essential_card_data.ft_search(params[:query]).with_snippets.ranked, items: 20, page: params[:page]&.to_i || 1)
+    elsif params[:s].present?
+      @pagy, @talks = pagy(Talk.with_essential_card_data.ft_search(params[:s]).with_snippets.ranked, items: 20, page: params[:page]&.to_i || 1)
     else
       @pagy, @talks = pagy(Talk.all.with_essential_card_data.order(date: :desc), items: 20)
     end

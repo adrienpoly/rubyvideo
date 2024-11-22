@@ -13,6 +13,7 @@ class SpeakersController < ApplicationController
       format.html do
         @speakers = Speaker.with_talks.order(:name).select(:id, :name, :slug, :talks_count, :github, :updated_at)
         @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
+        @speakers = @speakers.ft_search(params[:s]) if params[:s].present?
       end
       format.json do
         @pagy, @speakers = pagy(Speaker.includes(:canonical).order(:name), limit: params[:per_page])
