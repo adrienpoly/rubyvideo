@@ -11,6 +11,6 @@ class Events::TalksController < ApplicationController
   private
 
   def set_event
-    @event = Event.find_by(slug: params[:event_slug])
+    @event = Event.includes(talks: :speakers).find_by(slug: params[:event_slug])
   end
 end
