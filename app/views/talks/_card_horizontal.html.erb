@@ -14,7 +14,11 @@
     <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_sm} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover border rounded", loading: :lazy %>
 
     <div class="absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.active]:flex">
-      <%= fa("play", size: :sm, class: "fill-white") %>
+      <% if talk.not_recorded? %>
+        <%= fa("video-slash", size: :sm, class: "fill-white") %>
+      <% else %>
+        <%= fa("play", size: :sm, class: "fill-white") %>
+      <% end %>
     </div>
 
     <button data-tip="Talk Watched" class="tooltip tooltip-right absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.watched]:flex group-[.active]:hidden">
@@ -23,7 +27,7 @@
   </div>
 
   <div class="flex flex-col gap-1 text-sm">
-    <%= content_tag :div, class: "" do %>
+    <%= content_tag :div do %>
       <%= content_tag :div, talk.title, class: "font-regular line-clamp-1" %>
     <% end %>
 

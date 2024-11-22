@@ -24,19 +24,12 @@
       <% end %>
 
     <% else %>
-      <% if talk.video_provider == "mp4" %>
-        <video id="player" class="rounded-xl" data-video-player-target="player" src="<%= talk.video_id %>"></video>
-      <% elsif talk.video_provider == "youtube" %>
-        <div
-          class="image rounded-xl"
-          id="<%= dom_id(talk, :youtube) %>"
-          data-video-player-target="player"
-          data-youtube-id="<%= talk.video_id %>"></div>
+      <% if talk.video_provider.in?(["mp4", "youtube", "not_recorded"]) %>
+        <%= render partial: "talks/video_providers/#{talk.video_provider}", locals: {talk: talk} %>
       <% else %>
-        Provider <%= talk.video_provider %> is not configured.
+        Provider <%= talk.video_provider.inspect %> is not configured.
       <% end %>
     <% end %>
-
   </div>
 
   <div class="py-4 flex flex-col gap-4">
