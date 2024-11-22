@@ -20,16 +20,18 @@ class Talks::WatchedTalksController < ApplicationController
   private
 
   def set_talk
-    @talk = Talk.find_by(slug: params[:talk_slug])
+    @talk = Talk.includes(event: :organisation).find_by(slug: params[:talk_slug])
   end
 
   def broadcast_update_to_event_talks
-    Turbo::StreamsChannel.broadcast_update_to [@talk.event, :talks],
-      target: dom_id(@talk.event, :talks),
-      partial: "events/talks/list",
-      method: :morph,
-      locals: {talks: @talk.event.talks,
-               active_talk: @talk,
+    Turbo::StreamsChannel.broadcast_replace_to [@talk.event, :talks],
+      target: dom_id(@talk, :card_horizontal),
+      partial: "talks/card_horizontal",
+      method: :replace,
+      locals: {compact: true,
+               talk: @talk,
+               current_talk: @talk,
+               turbo_frame: "talk",
                watched_talks_ids: user_watched_talks_ids}
   end
 end
