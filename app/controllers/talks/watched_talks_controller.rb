@@ -25,11 +25,11 @@ class Talks::WatchedTalksController < ApplicationController
 
   def broadcast_update_to_event_talks
     Turbo::StreamsChannel.broadcast_update_to [@talk.event, :talks],
-                      target: dom_id(@talk.event, :talks),
-                      partial: "events/talks/list",
-                      method: :morph,
-                      locals: {talks: @talk.event.talks,
-                               active_talk: @talk,
-                               watched_talks_ids: user_watched_talks_ids}
+      target: dom_id(@talk.event, :talks),
+      partial: "events/talks/list",
+      method: :morph,
+      locals: {talks: @talk.event.talks,
+               active_talk: @talk,
+               watched_talks_ids: user_watched_talks_ids}
   end
 end
