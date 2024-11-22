@@ -7,6 +7,7 @@ class TopicsController < ApplicationController
   def index
     @topics = Topic.approved.with_talks.order(name: :asc)
     @topics = @topics.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
+    @pagy, @topics = pagy(@topics, limit: 100, page: params[:page])
   end
 
   def show
