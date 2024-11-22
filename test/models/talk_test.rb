@@ -238,4 +238,9 @@ class TalkTest < ActiveSupport::TestCase
     assert_match %r{^/assets/events/brightonruby/brightonruby-2024/poster-.*.webp$}, talk.thumbnail
     assert_match %r{^/assets/events/brightonruby/brightonruby-2024/poster-.*.webp$}, talk.thumbnail(:thumbnail_xl)
   end
+
+  test "for_topic" do
+    talk = talks(:one)
+    assert_includes Talk.for_topic("activerecord"), talk
+  end
 end
