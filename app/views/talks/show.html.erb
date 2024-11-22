@@ -30,16 +30,8 @@
 
     <div class="gap-4 w-96 flex-shrink-0 hidden lg:flex lg:flex-col px-4">
       <%= link_to @talk.event.name, event_path(@talk.event), class: "text-neutral text-base text-lg font-bold hover:underline" %>
-
-      <div class="relative group border border-transparent hover:border-gray-200 rounded-xl">
-        <div class="flex flex-col gap-2 lg:max-h-[390px] xl:max-h-[480px] 2xl:max-h-[625px] overflow-y-scroll" data-controller="scroll-into-view talks-navigation">
-          <%= render partial: "talks/card_horizontal",
-                collection: @related_talks,
-                as: :talk,
-                locals: {compact: true, current_talk: @talk, turbo_frame: "talk", watched_talks_ids: user_watched_talks_ids} %>
-        </div>
-        <div class="absolute bottom-0 left-0 w-full h-36 bg-gradient-to-t from-base-100 to-transparent pointer-events-none group-hover:hidden"></div>
-      </div>
+      <%= turbo_stream_from [@talk.event, :talks] %>
+      <%= turbo_frame_tag dom_id(@talk.event, :talks), src: event_talks_path(@talk.event, active_talk: @talk), loading: "lazy" %>
     </div>
   </div>
 </div>
