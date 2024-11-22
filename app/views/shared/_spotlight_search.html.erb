@@ -20,15 +20,16 @@
       </div>
 
     <div role="listbox" data-spotlight-search-target="searchResults" aria-live="polite">
-      <div class="flex items-center gap-2 mt-4 hidden" data-spotlight-search-target="allSearchResults">
+      <div class="flex items-center gap-2 mt-4 border-b pb-4 hidden" data-spotlight-search-target="allSearchResults">
         <div role="option">search <%= main_resource %> for <strong class="text-base-content" data-spotlight-search-target="searchQuery"></strong></div>
         <kbd class="kbd kbd-sm text-base-content">⏎</kbd>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-4">
+      <div class="grid md:grid-cols-3 divide-x">
         <% resources.unshift(main_resource) %>
-        <% resources.uniq.each do |resource| %>
-          <div id="<%= resource %>_search_results" data-spotlight-search-target="<%= resource %>SearchResults"></div>
+        <% resources.uniq.each_with_index do |resource, index| %>
+          <% padding = {"0" => "pr-4", "1" => "px-4", "2" => "pl-4"}.dig(index.to_s) %>
+          <div id="<%= resource %>_search_results" class="<%= padding %>" data-spotlight-search-target="<%= resource %>SearchResults"></div>
         <% end %>
       </div>
     </div>
