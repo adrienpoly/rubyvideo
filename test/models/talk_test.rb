@@ -29,7 +29,7 @@ class TalkTest < ActiveSupport::TestCase
     kind_with_titles = {
       talk: ["I love Ruby"],
       keynote: ["Keynote: Something ", "foo Opening keynote bar", "closing keynote foo bar", "Keynote", "Keynote by Someone", "Opening Keynote", "Closing Keynote"],
-      lightning_talk: ["Lightning Talk: Something", "lightning talk: Something", "Lightning talk: Something", "lightning talk", "Lightning Talks", "Lightning talks", "lightning talks",  "Lightning Talks Day 1", "Lightning Talks (Day 1)", "Lightning Talks - Day 1"],
+      lightning_talk: ["Lightning Talk: Something", "lightning talk: Something", "Lightning talk: Something", "lightning talk", "Lightning Talks", "Lightning talks", "lightning talks", "Lightning Talks Day 1", "Lightning Talks (Day 1)", "Lightning Talks - Day 1"],
       micro_talk: ["Micro Talk: Something", "micro talk: Something", "micro talk: Something", "micro talk"],
       panel: ["Panel: foo", "Panel", "Something Panel"],
       workshop: ["Workshop: Something", "workshop: Something"],
@@ -39,7 +39,7 @@ class TalkTest < ActiveSupport::TestCase
       q_and_a: ["Q&A", "Q&A: Something", "Something AMA", "Q&A with Somebody", "Ruby Committers vs The World", "Ruby Committers and the World"],
       discussion: ["Discussion: Something", "Discussion"],
       fireside_chat: ["Fireside Chat: Something", "Fireside Chat"],
-      award: ["Award: Something", "Award Show", "Ruby Hero Awards", "Ruby Hero Award", "Rails Luminary"],
+      award: ["Award: Something", "Award Show", "Ruby Hero Awards", "Ruby Hero Award", "Rails Luminary"]
     }
 
     kind_with_titles.each do |kind, titles|
