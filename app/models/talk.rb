@@ -81,7 +81,7 @@ class Talk < ApplicationRecord
 
   # enums
   enum :video_provider, %w[youtube mp4 scheduled not_recorded].index_by(&:itself)
-  enum :kind, %w[talk keynote lightning_talk panel workshop].index_by(&:itself)
+  enum :kind, %w[talk keynote lightning_talk micro_talk panel workshop gameshow fishbowl podcast q_and_a discussion fireside_chat award].index_by(&:itself)
 
   # attributes
   attribute :video_provider, default: :youtube
@@ -358,14 +358,30 @@ class Talk < ApplicationRecord
   def set_kind
     self.kind =
       case title
-      when /.*(keynote:|opening\ keynote|closing\ keynote).*/i
+      when /.*(keynote:|opening\ keynote|closing\ keynote|keynote|opening\ keynote|closing\ keynote).*/i
         :keynote
-      when /.*workshop:.*/i
-        :workshop
-      when /.*panel:.*/i
-        :panel
-      when /.*lightning\ talk: .*/i
+      when /.*(lightning\ talk:|lightning\ talk|lightning\ talks).*/i
         :lightning_talk
+      when /.*(micro\ talk:|micro\ talk).*/i
+        :micro_talk
+       when /.*(panel:|panel).*/i
+        :panel
+      when /.*(workshop:|workshop).*/i
+        :workshop
+      when /.*(gameshow|game\ show|gameshow:|game\ show:).*/i
+        :gameshow
+      when /.*(fishbowl:|fishbowl\ discussion:).*/i
+        :fishbowl
+      when /.*(podcast:|podcast\ recording:|live\ podcast:).*/i
+        :podcast
+      when /.*(q&a|q&a:|ama|q&a\ with).*/i
+        :q_and_a
+      when /.*(discussion:|discussion).*/i
+        :discussion
+      when /.*(fireside\ chat:|fireside\ chat).*/i
+        :fireside_chat
+      when /.*(award:|award\ show|ruby\ hero\ awards|ruby\ hero\ award|rails\ luminary).*/i
+        :award
       else
         :talk
       end
