@@ -14,7 +14,7 @@
   speakers:
     - Irina Nazarova
   video_id: "sin-city-ruby-2024-irina-nazarova"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Talk by Irina Nazarova at Sin City Ruby 2024."
 
 - title: "Talk by Jason Charnes"
@@ -23,7 +23,7 @@
   speakers:
     - Jason Charnes
   video_id: "sin-city-ruby-2024-jason-charnes"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Talk by Jason Charnes at Sin City Ruby 2024."
 
 - title: "Seven deadly Rails anti-patterns"
@@ -33,7 +33,7 @@
   speakers:
     - Vladimir Dementyev
   video_id: "sin-city-ruby-2024-vladimir-dementyev"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Developing web applications with Ruby on Rails is known to be hellishly productive. What’s the price of this deal? Let’s talk about design patterns leveraged by the framework responsible for increased productivity and at the same time often acclaimed for being anti-patterns."
 
 - title: "Talk by Tom Rossi"
@@ -42,7 +42,7 @@
   speakers:
     - Tom Rossi
   video_id: "sin-city-ruby-2024-tom-rossi"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Talk by Tom Rossi at Sin City Ruby 2024."
 
 - title: "Stuck in the Tar Pit"
@@ -52,7 +52,7 @@
   speakers:
     - Ernesto Tagwerker
   video_id: "sin-city-ruby-2024-ernesto-tagwerker"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Nobody wants to inherit a project that reeks but here we are: Stuck in the tar pit. How did we get here? In this talk you will learn how to use a few, great Ruby gems that will guide you out of that sticky tar you are in."
 
 - title: "From RSpec to Jest: JavaScript testing for Rails devs"
@@ -61,7 +61,7 @@
   speakers:
     - Stefanni Brasil
   video_id: "sin-city-ruby-2024-stefanni-brasil"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: |-
     Do you want to write JavaScript tests but feel stuck transferring your testing skills to the JavaScript world? Do you wish that one day you could write JS tests as confidently as you write Ruby tests? If so, this talk is for you.
 
@@ -77,7 +77,7 @@
   speakers:
     - Jeremy Smith
   video_id: "sin-city-ruby-2024-jeremy-smith"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Talk by Jeremy Smith at Sin City Ruby 2024."
 
 - title: "Mastering Query Performance With Active Record"
@@ -86,16 +86,16 @@
   speakers:
     - Andrew Atkinson
   video_id: "sin-city-ruby-2024-andrew-atkinson"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Talk by Andrew Atkinson at Sin City Ruby 2024."
 
-- title: "Talk by Adrian Marin"
-  raw_title: "Sin City Ruby 2024 - Talk by Adrian Marin"
+- title: "How To Build A Business on Rails and Open-Source"
+  raw_title: "Sin City Ruby 2024 - How to build a business on Rails and Open-Source"
   published_at: "2024-03-22"
   speakers:
     - Adrian Marin
   video_id: "sin-city-ruby-2024-adrian-marin"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Talk by Adrian Marin at Sin City Ruby 2024."
 
 - title: "Talk by Chris Hobbs"
@@ -104,7 +104,7 @@
   speakers:
     - Chris Hobbs
   video_id: "sin-city-ruby-2024-chris-hobbs"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Talk by Chris Hobbs at Sin City Ruby 2024."
 
 - title: "Talk by Drew Bragg"
@@ -113,7 +113,7 @@
   speakers:
     - Drew Bragg
   video_id: "sin-city-ruby-2024-Drew Bragg"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Talk by Drew Bragg at Sin City Ruby 2024."
 
 - title: "Keynote by Obie Fernandez"
@@ -122,5 +122,5 @@
   speakers:
     - Obie Fernandez
   video_id: "sin-city-ruby-2024-obie-fernandez"
-  video_provider: "not_recorded"
+  video_provider: not_recorded
   description: "Keynote by Obie Fernandez at Sin City Ruby 2024."
