@@ -60,6 +60,16 @@ class TalkTest < ActiveSupport::TestCase
     assert_equal "panel", talk.kind
   end
 
+  test "should not guess a kind if it's provided in the static metadata" do
+    talk = Talk.create!(
+      title: "Who Wants to be a Ruby Engineer?",
+      video_provider: "mp4",
+      video_id: "https://videos.brightonruby.com/videos/2024/drew-bragg-who-wants-to-be-a-ruby-engineer.mp4"
+    )
+
+    assert_equal "gameshow", talk.kind
+  end
+
   test "transcript should default to raw_transcript" do
     raw_transcript = Transcript.new(cues: [Cue.new(start_time: 0, end_time: 1, text: "Hello")])
     talk = Talk.new(title: "Sample Talk", raw_transcript: raw_transcript)

@@ -358,6 +358,15 @@ class Talk < ApplicationRecord
   end
 
   def set_kind
+    if static_metadata && static_metadata.kind.present?
+      unless static_metadata.kind.in?(Talk.kinds.keys)
+        puts %(WARN: "#{title}" has an unknown talk kind defined in #{static_metadata.__file_path})
+      end
+
+      self.kind = static_metadata.kind
+      return
+    end
+
     self.kind = case title
     when /.*(keynote:|opening\ keynote|closing\ keynote|keynote|opening\ keynote|closing\ keynote).*/i
       :keynote

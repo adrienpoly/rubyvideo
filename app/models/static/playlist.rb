@@ -13,15 +13,13 @@ module Static
 
     def start_date
       Date.parse(super)
-    rescue => e
-      puts e.inspect
+    rescue TypeError
       super
     end
 
     def end_date
       Date.parse(super)
-    rescue => e
-      puts e.inspect
+    rescue TypeError
       super
     end
   end
