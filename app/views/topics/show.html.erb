@@ -11,7 +11,7 @@
     <h1 class="mb-4" style="view-transition-name: title"><%= @topic.name %></h1>
   </div>
   <% if Current.user&.admin? %>
-    <%= turbo_frame_tag "talks", src: talks_path(topic: @topic.slug) %>
+    <%= turbo_frame_tag "talks", src: talks_path(topic: @topic.slug), target: "_top" %>
   <% else %>
     <div id="topic-talks" class="grid min-w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 gallery">
       <%= render partial: "talks/card",
