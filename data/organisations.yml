@@ -541,3 +541,14 @@
   language: english
   youtube_channel_name: ""
   youtube_channel_id: ""
+
+- name: Red Dot Ruby Conference
+  website: https://reddotrubyconf.com
+  twitter: reddotrubyconf
+  youtube_channel_name: ""
+  kind: conference
+  frequency: yearly
+  playlist_matcher: ""
+  slug: red-dot-ruby-conference
+  language: english
+  youtube_channel_id: ""
