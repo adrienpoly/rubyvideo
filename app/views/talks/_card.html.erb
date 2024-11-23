@@ -49,7 +49,7 @@
           loading: "lazy",
           alt: "talk by #{talk.speakers.map(&:name).join(", ")}: #{talk.title}",
           style: "view-transition-name: #{dom_id(talk, :image)}",
-          class: "w-full object-cover skeleton rounded-t-xl"
+          class: "w-full object-cover skeleton rounded-t-xl border-b"
         ) %>
   <% end %>
   <div class="card-body flex flex-row justify-between items-start gap-2">
