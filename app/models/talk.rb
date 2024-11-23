@@ -9,7 +9,7 @@
 #  enhanced_transcript :text             default(#<Transcript:0x0000000120e51930 @cues=[]>), not null
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
-#  kind                :string           default("talk"), not null
+#  kind                :string           default("talk"), not null, indexed
 #  language            :string           default("en"), not null
 #  like_count          :integer
 #  raw_transcript      :text             default(#<Transcript:0x0000000120e51a98 @cues=[]>), not null
@@ -34,6 +34,7 @@
 #
 #  index_talks_on_date        (date)
 #  index_talks_on_event_id    (event_id)
+#  index_talks_on_kind        (kind)
 #  index_talks_on_slug        (slug)
 #  index_talks_on_title       (title)
 #  index_talks_on_updated_at  (updated_at)
@@ -81,7 +82,9 @@ class Talk < ApplicationRecord
 
   # enums
   enum :video_provider, %w[youtube mp4 scheduled not_recorded].index_by(&:itself)
-  enum :kind, %w[talk keynote lightning_talk panel workshop].index_by(&:itself)
+  enum :kind,
+    %w[talk keynote lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
+      award].index_by(&:itself)
 
   # attributes
   attribute :video_provider, default: :youtube
@@ -130,6 +133,9 @@ class Talk < ApplicationRecord
   scope :without_summary, -> { where("summary IS NULL OR summary = ''") }
   scope :without_topics, -> { where.missing(:talk_topics) }
   scope :with_topics, -> { joins(:talk_topics) }
+  scope :for_topic, ->(topic_slug) { joins(:topics).where(topics: {slug: topic_slug}) }
+  scope :for_speaker, ->(speaker_slug) { joins(:speakers).where(speakers: {slug: speaker_slug}) }
+  scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
 
   scope :with_essential_card_data, -> do
     select(:id, :slug, :title, :date, :thumbnail_sm, :thumbnail_lg, :video_id, :video_provider, :event_id, :language)
@@ -356,18 +362,38 @@ class Talk < ApplicationRecord
   end
 
   def set_kind
-    self.kind =
-      case title
-      when /.*(keynote:|opening\ keynote|closing\ keynote).*/i
-        :keynote
-      when /.*workshop:.*/i
-        :workshop
-      when /.*panel:.*/i
-        :panel
-      when /.*lightning\ talk: .*/i
-        :lightning_talk
-      else
-        :talk
+    if static_metadata && static_metadata.kind.present?
+      unless static_metadata.kind.in?(Talk.kinds.keys)
+        puts %(WARN: "#{title}" has an unknown talk kind defined in #{static_metadata.__file_path})
       end
+
+      self.kind = static_metadata.kind
+      return
+    end
+
+    self.kind = case title
+    when /.*(keynote:|opening\ keynote|closing\ keynote|keynote|opening\ keynote|closing\ keynote).*/i
+      :keynote
+    when /.*(lightning\ talk:|lightning\ talk|lightning\ talks|micro\ talk:|micro\ talk).*/i
+      :lightning_talk
+    when /.*(panel:|panel).*/i
+      :panel
+    when /.*(workshop:|workshop).*/i
+      :workshop
+    when /.*(gameshow|game\ show|gameshow:|game\ show:).*/i
+      :gameshow
+    when /.*(podcast:|podcast\ recording:|live\ podcast:).*/i
+      :podcast
+    when /.*(q&a|q&a:|ama|q&a\ with|ruby\ committers\ vs\ the\ world|ruby\ committers\ and\ the\ world).*/i
+      :q_and_a
+    when /.*(fishbowl:|fishbowl\ discussion:|discussion:|discussion).*/i
+      :discussion
+    when /.*(fireside\ chat:|fireside\ chat).*/i
+      :fireside_chat
+    when /.*(award:|award\ show|ruby\ hero\ awards|ruby\ hero\ award|rails\ luminary).*/i
+      :award
+    else
+      :talk
+    end
   end
 end

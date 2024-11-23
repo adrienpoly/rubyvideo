@@ -9,7 +9,7 @@
 #  enhanced_transcript :text             default(#<Transcript:0x0000000120e51930 @cues=[]>), not null
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
-#  kind                :string           default("talk"), not null
+#  kind                :string           default("talk"), not null, indexed
 #  language            :string           default("en"), not null
 #  like_count          :integer
 #  raw_transcript      :text             default(#<Transcript:0x0000000120e51a98 @cues=[]>), not null
@@ -34,6 +34,7 @@
 #
 #  index_talks_on_date        (date)
 #  index_talks_on_event_id    (event_id)
+#  index_talks_on_kind        (kind)
 #  index_talks_on_slug        (slug)
 #  index_talks_on_title       (title)
 #  index_talks_on_updated_at  (updated_at)
