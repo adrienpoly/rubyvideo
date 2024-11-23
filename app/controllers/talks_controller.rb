@@ -42,10 +42,10 @@ class TalksController < ApplicationController
       "date_desc" => "talks.date DESC",
       "date_asc" => "talks.date ASC"
     }
-      
+
     @order_by ||= begin
       order = params[:order_by].presence_in(order_by_options.keys) || "date_desc"
- 
+
       order_by_options[order]
     end
   end
