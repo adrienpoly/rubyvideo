@@ -13,13 +13,13 @@ module Static
 
     def start_date
       Date.parse(super)
-    rescue TypeError
+    rescue TypeError, Date::Error
       super
     end
 
     def end_date
       Date.parse(super)
-    rescue TypeError
+    rescue TypeError, Date::Error
       super
     end
   end
