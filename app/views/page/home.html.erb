@@ -4,7 +4,7 @@
     <p class="mt-6 text-xl leading-8 text-slate-600 sm:max-w-md lg:max-w-none"> So far we have indexed <span class="font-semibold"><%= @talks_count %></span> of those from <span class="font-semibold"><%= @speakers_count %></span> speakers</p>
   </div>
 
-  <% playlist_slugs = Static::Playlist.where.not(featured_background: nil).sort_by(&:published_at).reverse.take(15).map(&:slug) %>
+  <% playlist_slugs = Static::Playlist.where.not(featured_background: nil).sort_by(&:published_at).select(&:past?).reverse.take(15).map(&:slug) %>
   <% events = Event.includes(:organisation).where(slug: playlist_slugs).in_order_of(:slug, playlist_slugs) %>
 
   <% cache events do %>

@@ -225,13 +225,13 @@ class Event < ApplicationRecord
   end
 
   def start_date
-    static_metadata.start_date.present? ? static_metadata.start_date.to_date : talks.minimum(:date)
+    static_metadata.start_date.present? ? static_metadata.start_date : talks.minimum(:date)
   rescue => _e
     talks.minimum(:date)
   end
 
   def end_date
-    static_metadata.end_date.present? ? static_metadata.end_date.to_date : talks.maximum(:date)
+    static_metadata.end_date.present? ? static_metadata.end_date : talks.maximum(:date)
   rescue => _e
     talks.maximum(:date)
   end
