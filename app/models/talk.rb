@@ -370,23 +370,19 @@ class Talk < ApplicationRecord
     self.kind = case title
     when /.*(keynote:|opening\ keynote|closing\ keynote|keynote|opening\ keynote|closing\ keynote).*/i
       :keynote
-    when /.*(lightning\ talk:|lightning\ talk|lightning\ talks).*/i
+    when /.*(lightning\ talk:|lightning\ talk|lightning\ talks|micro\ talk:|micro\ talk).*/i
       :lightning_talk
-    when /.*(micro\ talk:|micro\ talk).*/i
-      :micro_talk
     when /.*(panel:|panel).*/i
       :panel
     when /.*(workshop:|workshop).*/i
       :workshop
     when /.*(gameshow|game\ show|gameshow:|game\ show:).*/i
       :gameshow
-    when /.*(fishbowl:|fishbowl\ discussion:).*/i
-      :fishbowl
     when /.*(podcast:|podcast\ recording:|live\ podcast:).*/i
       :podcast
     when /.*(q&a|q&a:|ama|q&a\ with|ruby\ committers\ vs\ the\ world|ruby\ committers\ and\ the\ world).*/i
       :q_and_a
-    when /.*(discussion:|discussion).*/i
+    when /.*(fishbowl:|fishbowl\ discussion:|discussion:|discussion).*/i
       :discussion
     when /.*(fireside\ chat:|fireside\ chat).*/i
       :fireside_chat
