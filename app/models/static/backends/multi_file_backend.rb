@@ -12,7 +12,12 @@ module Static::Backends
     def load(file_path = @glob)
       Dir.glob(file_path).flat_map { |file|
         begin
-          @backend.load(file)
+          @backend.load(file).map { |item|
+            {
+              **item,
+              "__file_path" => Pathname.new(file).relative_path_from(Rails.root).to_s
+            }.freeze
+          }
         rescue Psych::SyntaxError => e
           puts "#{e.message} in #{file}"
           raise e

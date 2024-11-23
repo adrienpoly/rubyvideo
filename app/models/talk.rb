@@ -82,7 +82,9 @@ class Talk < ApplicationRecord
 
   # enums
   enum :video_provider, %w[youtube mp4 scheduled not_recorded].index_by(&:itself)
-  enum :kind, %w[talk keynote lightning_talk panel workshop].index_by(&:itself)
+  enum :kind,
+    %w[talk keynote lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
+      award].index_by(&:itself)
 
   # attributes
   attribute :video_provider, default: :youtube
@@ -360,18 +362,38 @@ class Talk < ApplicationRecord
   end
 
   def set_kind
-    self.kind =
-      case title
-      when /.*(keynote:|opening\ keynote|closing\ keynote).*/i
-        :keynote
-      when /.*workshop:.*/i
-        :workshop
-      when /.*panel:.*/i
-        :panel
-      when /.*lightning\ talk: .*/i
-        :lightning_talk
-      else
-        :talk
+    if static_metadata && static_metadata.kind.present?
+      unless static_metadata.kind.in?(Talk.kinds.keys)
+        puts %(WARN: "#{title}" has an unknown talk kind defined in #{static_metadata.__file_path})
       end
+
+      self.kind = static_metadata.kind
+      return
+    end
+
+    self.kind = case title
+    when /.*(keynote:|opening\ keynote|closing\ keynote|keynote|opening\ keynote|closing\ keynote).*/i
+      :keynote
+    when /.*(lightning\ talk:|lightning\ talk|lightning\ talks|micro\ talk:|micro\ talk).*/i
+      :lightning_talk
+    when /.*(panel:|panel).*/i
+      :panel
+    when /.*(workshop:|workshop).*/i
+      :workshop
+    when /.*(gameshow|game\ show|gameshow:|game\ show:).*/i
+      :gameshow
+    when /.*(podcast:|podcast\ recording:|live\ podcast:).*/i
+      :podcast
+    when /.*(q&a|q&a:|ama|q&a\ with|ruby\ committers\ vs\ the\ world|ruby\ committers\ and\ the\ world).*/i
+      :q_and_a
+    when /.*(fishbowl:|fishbowl\ discussion:|discussion:|discussion).*/i
+      :discussion
+    when /.*(fireside\ chat:|fireside\ chat).*/i
+      :fireside_chat
+    when /.*(award:|award\ show|ruby\ hero\ awards|ruby\ hero\ award|rails\ luminary).*/i
+      :award
+    else
+      :talk
+    end
   end
 end
