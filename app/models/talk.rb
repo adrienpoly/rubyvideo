@@ -82,7 +82,7 @@ class Talk < ApplicationRecord
   # enums
   enum :video_provider, %w[youtube mp4 scheduled not_recorded].index_by(&:itself)
   enum :kind,
-    %w[talk keynote lightning_talk micro_talk panel workshop gameshow fishbowl podcast q_and_a discussion fireside_chat
+    %w[talk keynote lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
       award].index_by(&:itself)
 
   # attributes
