@@ -80,7 +80,7 @@ class Talk < ApplicationRecord
   before_validation :set_kind, if: -> { !kind_changed? }
 
   # enums
-  enum :video_provider, %w[youtube mp4 not_recorded].index_by(&:itself)
+  enum :video_provider, %w[youtube mp4 scheduled not_recorded].index_by(&:itself)
   enum :kind, %w[talk keynote lightning_talk panel workshop].index_by(&:itself)
 
   # attributes
