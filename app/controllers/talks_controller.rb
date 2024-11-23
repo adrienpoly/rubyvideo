@@ -38,11 +38,15 @@ class TalksController < ApplicationController
   private
 
   def order_by
-    @order_by ||= params[:order_by].presence_in(%w[date_desc date_asc]).then do |order|
-      {
-        "date_desc" => "talks.date DESC",
-        "date_asc" => "talks.date ASC"
-      }[order] || "talks.date DESC"
+    order_by_options = {
+      "date_desc" => "talks.date DESC",
+      "date_asc" => "talks.date ASC"
+    }
+      
+    @order_by ||= begin
+      order = params[:order_by].presence_in(order_by_options.keys) || "date_desc"
+ 
+      order_by_options[order]
     end
   end
 
