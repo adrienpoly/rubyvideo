@@ -119,7 +119,7 @@
         </div>
 
         <div class="hidden 2xl:block">
-          <%= render partial: "talks/event", locals: {event: talk.event, talk: talk, future: talk.date.future?} %>
+          <%= render partial: "talks/event", locals: {event: talk.event, talk: talk, future: talk.date.try(:future?) || false} %>
         </div>
       </div>
     </div>

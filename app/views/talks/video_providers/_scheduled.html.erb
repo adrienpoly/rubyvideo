@@ -8,7 +8,7 @@
 
     This talk is scheduled to be held at <%= talk.event.name %>
 
-    <% if talk.event.location != "Earth" %>
+    <% if talk.event.location && talk.event.location != "Earth" %>
       in <%= talk.event.location %>
     <% end %>
 
