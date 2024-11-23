@@ -10,14 +10,35 @@ application.register("auto-submit", AutoSubmitController)
 import DropdownController from "./dropdown_controller"
 application.register("dropdown", DropdownController)
 
+import EventController from "./event_controller"
+application.register("event", EventController)
+
+import LazyLoadingController from "./lazy_loading_controller"
+application.register("lazy-loading", LazyLoadingController)
+
 import ModalController from "./modal_controller"
 application.register("modal", ModalController)
+
+import PreserveScrollController from "./preserve_scroll_controller"
+application.register("preserve-scroll", PreserveScrollController)
 
 import PronounsSelectController from "./pronouns_select_controller"
 application.register("pronouns-select", PronounsSelectController)
 
+import ScrollIntoViewController from "./scroll_into_view_controller"
+application.register("scroll-into-view", ScrollIntoViewController)
+
 import SplideController from "./splide_controller"
 application.register("splide", SplideController)
+
+import SpotlightSearchController from "./spotlight_search_controller"
+application.register("spotlight-search", SpotlightSearchController)
+
+import TalksNavigationController from "./talks_navigation_controller"
+application.register("talks-navigation", TalksNavigationController)
+
+import TooltipController from "./tooltip_controller"
+application.register("tooltip", TooltipController)
 
 import TransitionController from "./transition_controller"
 application.register("transition", TransitionController)

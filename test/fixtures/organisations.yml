@@ -4,18 +4,25 @@
 # Table name: organisations
 #
 #  id                   :integer          not null, primary key
-#  name                 :string           default(""), not null
 #  description          :text             default(""), not null
+#  frequency            :integer          default("unknown"), not null, indexed
+#  kind                 :integer          default("conference"), not null, indexed
+#  language             :string           default(""), not null
+#  name                 :string           default(""), not null, indexed
+#  slug                 :string           default(""), not null, indexed
+#  twitter              :string           default(""), not null
 #  website              :string           default(""), not null
-#  kind                 :integer          default("conference"), not null
-#  frequency            :integer          default("unknown"), not null
+#  youtube_channel_name :string           default(""), not null
 #  created_at           :datetime         not null
 #  updated_at           :datetime         not null
 #  youtube_channel_id   :string           default(""), not null
-#  youtube_channel_name :string           default(""), not null
-#  slug                 :string           default(""), not null
-#  twitter              :string           default(""), not null
-#  language             :string           default(""), not null
+#
+# Indexes
+#
+#  index_organisations_on_frequency  (frequency)
+#  index_organisations_on_kind       (kind)
+#  index_organisations_on_name       (name)
+#  index_organisations_on_slug       (slug)
 #
 # rubocop:enable Layout/LineLength
 
@@ -49,3 +56,11 @@ rails_world:
   youtube_channel_name: railsofficial
   slug: railsworld
   twitter: rails
+
+brightonruby:
+  name: Brighton Ruby
+  description: Brighton Ruby
+  website: https://brightonruby.com/
+  kind: 1
+  frequency: 1
+  slug: brightonruby

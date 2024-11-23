@@ -4,11 +4,17 @@
 # Table name: ahoy_events
 #
 #  id         :integer          not null, primary key
-#  visit_id   :integer
-#  user_id    :integer
-#  name       :string
+#  name       :string           indexed => [time]
 #  properties :text
-#  time       :datetime
+#  time       :datetime         indexed => [name]
+#  user_id    :integer          indexed
+#  visit_id   :integer          indexed
+#
+# Indexes
+#
+#  index_ahoy_events_on_name_and_time  (name,time)
+#  index_ahoy_events_on_user_id        (user_id)
+#  index_ahoy_events_on_visit_id       (visit_id)
 #
 # rubocop:enable Layout/LineLength
 class Ahoy::Event < ApplicationRecord

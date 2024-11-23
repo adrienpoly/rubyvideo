@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_10_23_154126) do
+ActiveRecord::Schema[8.0].define(version: 2024_11_22_155013) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -82,6 +82,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_23_154126) do
     t.string "slug", default: "", null: false
     t.integer "talks_count", default: 0, null: false
     t.integer "canonical_id"
+    t.string "website", default: ""
     t.index ["canonical_id"], name: "index_events_on_canonical_id"
     t.index ["name"], name: "index_events_on_name"
     t.index ["organisation_id"], name: "index_events_on_organisation_id"
@@ -127,6 +128,8 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_23_154126) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["speaker_id", "talk_id"], name: "index_speaker_talks_on_speaker_id_and_talk_id", unique: true
+    t.index ["speaker_id"], name: "index_speaker_talks_on_speaker_id"
+    t.index ["talk_id"], name: "index_speaker_talks_on_talk_id"
   end
 
   create_table "speakers", force: :cascade do |t|
@@ -143,6 +146,9 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_23_154126) do
     t.string "speakerdeck", default: "", null: false
     t.string "pronouns_type", default: "not_specified", null: false
     t.string "pronouns", default: "", null: false
+    t.string "mastodon", default: "", null: false
+    t.string "bsky", default: "", null: false
+    t.string "linkedin", default: "", null: false
     t.index ["canonical_id"], name: "index_speakers_on_canonical_id"
     t.index ["name"], name: "index_speakers_on_name"
     t.index ["slug"], name: "index_speakers_on_slug", unique: true
@@ -196,6 +202,9 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_23_154126) do
     t.string "language", default: "en", null: false
     t.string "slides_url"
     t.boolean "summarized_using_ai", default: true, null: false
+    t.boolean "external_player", default: false, null: false
+    t.string "external_player_url", default: "", null: false
+    t.string "kind", default: "talk", null: false
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["slug"], name: "index_talks_on_slug"
@@ -207,7 +216,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_23_154126) do
     t.string "name"
     t.text "description"
     t.boolean "published", default: false
-    t.string "slug", null: false
+    t.string "slug", default: "", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "status", default: "pending", null: false
@@ -215,6 +224,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_23_154126) do
     t.integer "talks_count"
     t.index ["canonical_id"], name: "index_topics_on_canonical_id"
     t.index ["name"], name: "index_topics_on_name", unique: true
+    t.index ["slug"], name: "index_topics_on_slug"
     t.index ["status"], name: "index_topics_on_status"
   end
 
@@ -249,6 +259,16 @@ ActiveRecord::Schema[8.0].define(version: 2024_10_23_154126) do
     t.datetime "updated_at", null: false
     t.integer "talks_count", default: 0
     t.index ["user_id"], name: "index_watch_lists_on_user_id"
+  end
+
+  create_table "watched_talks", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "talk_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["talk_id", "user_id"], name: "index_watched_talks_on_talk_id_and_user_id", unique: true
+    t.index ["talk_id"], name: "index_watched_talks_on_talk_id"
+    t.index ["user_id"], name: "index_watched_talks_on_user_id"
   end
 
   add_foreign_key "connected_accounts", "users"

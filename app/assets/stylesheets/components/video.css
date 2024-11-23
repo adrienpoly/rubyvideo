@@ -1,12 +1,20 @@
 @layer components {
   .banner-img .v-vlite {
     --vlite-controlsColor: #dc143c;
-    --vlite-controlsOpacity: 0.7;
+    --vlite-controlsOpacity: 1;
     --vlite-controlBarBackground: linear-gradient(0deg, #000 -50%, #fff);
   }
 
   .v-playbackRateSelect.v-controlButton {
     color: var(--vlite-controlsColor);
     text-align: center;
+  }
+
+  .v-loader {
+    display: none !important;
+  }
+
+  .v-bigPlay {
+    opacity: 0.5 !important;
   }
 }

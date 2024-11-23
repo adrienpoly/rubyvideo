@@ -4,15 +4,18 @@ class SpeakersController < ApplicationController
   before_action :set_user_favorites, only: %i[show]
   include Pagy::Backend
   include RemoteModal
-  allowed_remote_modal_actions :edit
+  include WatchedTalks
+  respond_with_remote_modal only: [:edit]
 
   # GET /speakers
   def index
+    @speakers = Speaker.with_talks.order(:name).canonical
+    @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
+    @speakers = @speakers.ft_search(params[:s]) if params[:s].present?
+    @pagy, @speakers = pagy(@speakers, limit: 100, page: params[:page])
     respond_to do |format|
-      format.html do
-        @speakers = Speaker.with_talks.order(:name).select(:id, :name, :slug, :talks_count, :github, :updated_at)
-        @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
-      end
+      format.html
+      format.turbo_stream
       format.json do
         @pagy, @speakers = pagy(Speaker.includes(:canonical).order(:name), limit: params[:per_page])
       end
@@ -24,7 +27,6 @@ class SpeakersController < ApplicationController
     @talks = @speaker.talks.with_essential_card_data.order(date: :desc)
     @back_path = speakers_path
     set_meta_tags(@speaker)
-    # fresh_when(@speaker)
   end
 
   # GET /speakers/1/edit
@@ -59,12 +61,20 @@ class SpeakersController < ApplicationController
   end
 
   def speaker_params
-    {
-      anonymous: params.require(:speaker).permit(:github, :pronouns_type, :pronouns),
-      signed_in: params.require(:speaker).permit(:github, :pronouns_type, :pronouns),
-      owner: params.require(:speaker).permit(:name, :twitter, :bio, :website, :speakerdeck, :pronouns_type, :pronouns),
-      admin: params.require(:speaker).permit(:name, :twitter, :github, :bio, :website, :speakerdeck, :pronouns_type, :pronouns)
-    } [user_kind]
+    params.require(:speaker).permit(
+      :name,
+      :github,
+      :twitter,
+      :bsky,
+      :linkedin,
+      :mastodon,
+      :bio,
+      :website,
+      :speakerdeck,
+      :pronouns_type,
+      :pronouns,
+      :slug
+    )
   end
 
   def set_user_favorites

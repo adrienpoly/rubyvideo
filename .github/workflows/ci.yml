@@ -6,7 +6,9 @@ on:
   push:
     branches: [main]
 
-concurrency: ci-${{ github.ref }}
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true # Add this line to explicitly enable cancellation
 
 jobs:
   lint:
@@ -35,13 +37,13 @@ jobs:
         run: bundle exec standardrb
 
       - name: StandardJS Check
-        run: yarn standard
+        run: yarn lint
+
+      - name: Lint YAML data files
+        run: yarn lint:yml
 
       - name: erb-lint Check
         run: bundle exec erblint --lint-all
-
-      - name: Run Prettier on YAML data files
-        run: yarn prettier --check data/**/*.yml
 
   test:
     runs-on: ubuntu-latest
@@ -83,3 +85,87 @@ jobs:
 
       # - name: Smoke test database seeds
       #   run: sudo bin/rails db:reset
+  seed_smoke_test:
+    runs-on: ubuntu-latest
+    env:
+      RAILS_ENV: test
+      SEED_SMOKE_TEST: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler: default
+          bundler-cache: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Meilisearch setup with Docker
+        run: docker run -d -p 7700:7700 getmeili/meilisearch:v1.1 meilisearch --no-analytics
+
+      - name: Build assets
+        run: bin/vite build --clear --mode=test
+
+      - name: Prepare database
+        run: |
+          bin/rails db:create
+          bin/rails db:schema:load
+
+      - name: Run Seed Smoke Test
+        run: bin/rails test test/tasks/db_seed_test.rb
+  deploy:
+    needs: [lint, test, seed_smoke_test]
+    name: Deploy
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
+    timeout-minutes: 60
+
+    env:
+      DOCKER_BUILDKIT: 1
+      RAILS_ENV: production
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx for cache
+        uses: docker/setup-buildx-action@v3
+
+      - name: Expose GitHub Runtime for cache
+        uses: crazy-max/ghaction-github-runtime@v3
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler: default
+          bundler-cache: true
+
+      - name: Deploy with Kamal
+        run: bundle exec kamal deploy
+        env:
+          KAMAL_RAILS_MASTER_KEY: ${{ secrets.KAMAL_RAILS_MASTER_KEY }}
+          MEILI_MASTER_KEY: ${{ secrets.MEILI_MASTER_KEY }}
+          KAMAL_REGISTRY_PASSWORD: ${{ secrets.KAMAL_REGISTRY_PASSWORD }}
+
+      - name: Cleanup on cancellation
+        if: always() && steps.deploy.conclusion == 'cancelled'
+        run: bundle exec kamal lock release

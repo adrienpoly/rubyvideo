@@ -1,19 +1,15 @@
 ---
 # TODO: talks running order
 # TODO: talk dates
-# TODO: conference website
-# TODO: schedule website
+
+# Website: https://web.archive.org/web/20130818201623/http://www.railsconf.com/
+# Schedule: https://web.archive.org/web/20130817161430/http://railsconf.com/2013/schedule
 
 - title: Using Elasticsearch with Rails Apps
   raw_title: Rails Conf 2013 Using Elasticsearch with Rails Apps by Brian Gugliemetti
   speakers:
     - Brian Gugliemetti
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/U-LrUN6jal8/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/U-LrUN6jal8/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/U-LrUN6jal8/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/U-LrUN6jal8/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/U-LrUN6jal8/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "Elasticsearch is a powerful text search engine that's easy to configure
@@ -27,6 +23,7 @@
     Examples include: how to index existing ActiveRecord models for general text searches,
     how to use elasticsearch for autocomplete, and how to use for complex queries.\n\nHelp
     us caption & translate this video!\n\nhttp://amara.org/v/FGaE/"
+  video_provider: youtube
   video_id: U-LrUN6jal8
 
 - title: Rails' Insecure Defaults
@@ -34,11 +31,6 @@
   speakers:
     - Bryan Helmkamp
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/4MCfEb0R7ow/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/4MCfEb0R7ow/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/4MCfEb0R7ow/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/4MCfEb0R7ow/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/4MCfEb0R7ow/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Out of the box, Rails provides facilities for preventing attacks like SQL injection, cross-site scripting (XSS), cross-site request forgery (CSRF), and more. As a result, it's considered one of the most secure web application frameworks available.
@@ -47,6 +39,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGap/
+  video_provider: youtube
   video_id: 4MCfEb0R7ow
 
 - title: Patterns of Basecamp's Application Architecture
@@ -54,16 +47,12 @@
   speakers:
     - David Heinemeier Hansson
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/yhseQP52yIY/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/yhseQP52yIY/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/yhseQP52yIY/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/yhseQP52yIY/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/yhseQP52yIY/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Help us caption & translate this video!
 
     http://amara.org/v/FGbb/
+  video_provider: youtube
   video_id: yhseQP52yIY
 
 - title: Security is hard, but we can't go shopping
@@ -71,11 +60,6 @@
   speakers:
     - André Arko
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/tV7IPygjseI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/tV7IPygjseI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/tV7IPygjseI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/tV7IPygjseI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/tV7IPygjseI/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     The last few months have been pretty brutal for anyone who depends on Ruby libraries in production. Ruby is really popular now, and that's exciting! But it also means that we are now square in the crosshairs of security researchers, whether whitehat, blackhat, or some other hat. Only the Ruby and Rails core teams have meaningful experience with vulnerabilites so far. It won't last. Vulnerabilities are everywhere, and handling security issues responsibly is critical if we want Ruby (and Rubyists) to stay in high demand.
@@ -84,6 +68,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGba/
+  video_provider: youtube
   video_id: tV7IPygjseI
 
 - title: Nobody will Train You but You
@@ -91,11 +76,6 @@
   speakers:
     - Zach Briggs
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/-0yajJLVbzw/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/-0yajJLVbzw/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/-0yajJLVbzw/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/-0yajJLVbzw/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/-0yajJLVbzw/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Why do we all know a developer who has been pounding out unmaintainable code for a decade or more? Why do people "believe in TDD but I don't have time to write tests during crunch?" How is it that we have an entire industry based around rescuing teams from acutely awful Rails apps?
@@ -105,6 +85,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGb9/
+  video_provider: youtube
   video_id: "-0yajJLVbzw"
 
 - title: How Shopify Scales Rails
@@ -112,11 +93,6 @@
   speakers:
     - John Duff
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/xh4GPjCmmbY/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/xh4GPjCmmbY/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/xh4GPjCmmbY/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/xh4GPjCmmbY/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/xh4GPjCmmbY/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Tobias Lutke wrote the first line of code for Shopify nearly 10 years ago to power his own Snowboard shop. Two years later Shopify launched to the public on a single webserver using Rails 0.13.1. Today Shopify powers over 40k online stores and processes up to half a million product sales per day across the platform. Over 30 people actively work on Shopify which makes it the longest developed and likely largest Rails code base out there.
@@ -126,6 +102,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGb8/
+  video_provider: youtube
   video_id: xh4GPjCmmbY
 
 - title: "Automation in Deployment on Hybrid Hosting and Private Cloud Environments"
@@ -138,11 +115,6 @@
     - Andy Camp
     - Eric Lindvall
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/11eqsPfEbr8/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/11eqsPfEbr8/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/11eqsPfEbr8/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/11eqsPfEbr8/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/11eqsPfEbr8/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Fletcher Nicol and Panel
@@ -152,6 +124,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGb7/
+  video_provider: youtube
   video_id: 11eqsPfEbr8
 
 - title: "The War For Talent: How To Succeed As an Employer or Engineer"
@@ -159,16 +132,12 @@
   speakers:
     - Allan Grant
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/9L_jiJddLPo/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/9L_jiJddLPo/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/9L_jiJddLPo/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/9L_jiJddLPo/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/9L_jiJddLPo/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Help us caption & translate this video!
 
     http://amara.org/v/FGb6/
+  video_provider: youtube
   video_id: 9L_jiJddLPo
 
 - title: Monitoring the Health of Your App
@@ -177,11 +146,6 @@
     - Carl Lerche
     - Yehuda Katz
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/--uFArE8YUk/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/--uFArE8YUk/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/--uFArE8YUk/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/--uFArE8YUk/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/--uFArE8YUk/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Your app is your business, so keeping it healthy is important. Unfortunately, most of the tools available today are more like your doctor verifying the fact that you've had a heart attack—after it's happened.
@@ -190,6 +154,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGb5/
+  video_provider: youtube
   video_id: "--uFArE8YUk"
 
 - title: Real-Time Rails
@@ -197,11 +162,6 @@
   speakers:
     - Brian Cardarella
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/fOI3EjsUEww/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/fOI3EjsUEww/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/fOI3EjsUEww/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/fOI3EjsUEww/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/fOI3EjsUEww/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "The future is real time! With the Rails 4.0 Live Streaming API we
@@ -212,6 +172,7 @@
     Live Streaming API \n* EventMachine vs Rails 4.0 \n* Node.js vs Rails 4.0 \n*
     Polling vs Live Streaming \n* Websockets & Rails 4.0 \n* Puma\n\nHelp us caption
     & translate this video!\n\nhttp://amara.org/v/FGb4/"
+  video_provider: youtube
   video_id: fOI3EjsUEww
 
 - title: Ruby Libraries Important for Rails
@@ -219,11 +180,6 @@
   speakers:
     - Michael Hartl
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/noWORpSTQGE/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/noWORpSTQGE/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/noWORpSTQGE/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/noWORpSTQGE/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/noWORpSTQGE/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     This talk+workshop highlights some Ruby libraries that are particularly useful when developing Rails applications. In the talk portion, we'll give an overview of some specific classes and modules, and then in the workshop we'll break into groups to dive deeper into libraries of each participant's choice, with a focus on developing the skills needed to read and understand the Ruby documentation. Time and interest permitting, we'll incorporate test-driven development into our investigations.
@@ -231,6 +187,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaD/
+  video_provider: youtube
   video_id: noWORpSTQGE
 
 - title: "Testing Complex Systems: Creating data and limiting scope"
@@ -238,11 +195,6 @@
   speakers:
     - Noel Rappin
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/RdTt9kA-O5Q/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/RdTt9kA-O5Q/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/RdTt9kA-O5Q/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/RdTt9kA-O5Q/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/RdTt9kA-O5Q/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     In this workshop, we'll focus on two specific problems that plague testing complex systems: how do I create useful test data, and how do I limit my test to only the part of the system that I want tested. We'll cover data creation tools like factories and fixtures. We will also talk about how to effectively use mock objects. And we'll do all that against some code that shows off potental testing problems.
@@ -250,6 +202,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaC/
+  video_provider: youtube
   video_id: RdTt9kA-O5Q
 
 - title: "TDD Workshop: Mocking, Stubbing, and Faking External Services"
@@ -258,11 +211,6 @@
     - Harlow Ward
     - Adarsh Pandit
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/8368hGNIJMQ/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/8368hGNIJMQ/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/8368hGNIJMQ/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/8368hGNIJMQ/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/8368hGNIJMQ/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Harlow Ward & Adarsh Pandit
@@ -270,6 +218,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGao/
+  video_provider: youtube
   video_id: 8368hGNIJMQ
 
 - title: "TDD Workshop: Outward-in Development, Unit Tests, and Fixture Data"
@@ -278,11 +227,6 @@
     - Harlow Ward
     - Adarsh Pandit
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/sj5TXzgZ1Sk/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/sj5TXzgZ1Sk/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/sj5TXzgZ1Sk/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/sj5TXzgZ1Sk/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/sj5TXzgZ1Sk/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Harlow Ward & Adarsh Pandit
@@ -294,6 +238,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGan/
+  video_provider: youtube
   video_id: sj5TXzgZ1Sk
 
 - title: Postgres, the Best Tool You're Already Using
@@ -301,11 +246,6 @@
   speakers:
     - Adam Sanderson
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/YWj8ws6jc0g/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/YWj8ws6jc0g/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/YWj8ws6jc0g/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/YWj8ws6jc0g/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/YWj8ws6jc0g/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Your fledgling social network for hedgehogs is starting to gain traction, but now new feature requests are pouring in. How you can you meet the demands of an ambitious product team within your existing stack? There's no time to waste, so we will look at how to leverage the venerable Postgres workhorse.
@@ -315,6 +255,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGam/
+  video_provider: youtube
   video_id: YWj8ws6jc0g
 
 - title: "Designing great APIs: Learning from Jony Ive, Orwell, and the Kano Model"
@@ -322,11 +263,6 @@
   speakers:
     - Jon Dahl
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/RfueDq8-Wwg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/RfueDq8-Wwg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/RfueDq8-Wwg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/RfueDq8-Wwg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/RfueDq8-Wwg/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Jon Dahl
@@ -337,6 +273,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGal/
+  video_provider: youtube
   video_id: RfueDq8-Wwg
 
 - title: "Introducing Brainstem, your companion for rich Rails APIs"
@@ -344,11 +281,6 @@
   speakers:
     - Andrew Cantino
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/MDNbcpHrVJk/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/MDNbcpHrVJk/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/MDNbcpHrVJk/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/MDNbcpHrVJk/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/MDNbcpHrVJk/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Andrew Cantino
@@ -360,6 +292,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGak/
+  video_provider: youtube
   video_id: MDNbcpHrVJk
 
 - title: Split Testing for Product Discovery
@@ -367,11 +300,6 @@
   speakers:
     - Bryan Woods
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/5hgNaSVDkEs/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/5hgNaSVDkEs/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/5hgNaSVDkEs/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/5hgNaSVDkEs/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/5hgNaSVDkEs/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     In this talk, we'll explore split testing as a way to not only increase revenue and conversion through simple, surface-level changes, but also to dig deeper in order to help guide a product's roadmap by discovering which features customers really want and how much they're willing to pay.
@@ -379,6 +307,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaj/
+  video_provider: youtube
   video_id: 5hgNaSVDkEs
 
 - title: "How to Write Documentation for People That Don't Read"
@@ -386,11 +315,6 @@
   speakers:
     - Kevin Burke
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/cC67PzBgRYE/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/cC67PzBgRYE/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/cC67PzBgRYE/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/cC67PzBgRYE/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/cC67PzBgRYE/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "By Kevin Burke\n\nUsability researchers have known for years that
@@ -406,6 +330,7 @@
     view and get started (or fail to get started) with your product \n- how to take
     advantage of underused documentation tools like your error messages, your API,
     and SEO.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FGai/"
+  video_provider: youtube
   video_id: cC67PzBgRYE
 
 - title: "Delicious Controversy: Docs & Tests"
@@ -413,11 +338,6 @@
   speakers:
     - Thomas Meeks
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/9md-GTF_Th8/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/9md-GTF_Th8/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/9md-GTF_Th8/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/9md-GTF_Th8/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/9md-GTF_Th8/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Self-documenting code is a pipe dream. TDD (or BDD) is not the panacea of testing. In the pursuit of test coverage we've forgotten what really matters: getting things done. Lets talk about putting documentation and testing into their proper place. Tools that ease maintenance, help other developers join a project, and reduce bugs.
@@ -426,6 +346,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGah/
+  video_provider: youtube
   video_id: 9md-GTF_Th8
 
 - title: What Ruby Developers Can Learn From Go
@@ -433,11 +354,6 @@
   speakers:
     - Lionel Barrow
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/-zz-byus8DA/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/-zz-byus8DA/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/-zz-byus8DA/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/-zz-byus8DA/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/-zz-byus8DA/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "Go has rapidly built a reputation as a great language for web development.
@@ -454,6 +370,7 @@
     Try to convince anyone to ditch Ruby/Rails and embrace Go. \n* Make vague, unsubstantiated
     claims about the benefits of static or dynamic typing. \n* Assume any prior knowledge
     of Go."
+  video_provider: youtube
   video_id: "-zz-byus8DA"
 
 - title: Sleeping with the enemy..
@@ -461,11 +378,6 @@
   speakers:
     - George Brocklehurst
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/K6sRwQuWNLg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/K6sRwQuWNLg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/K6sRwQuWNLg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/K6sRwQuWNLg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/K6sRwQuWNLg/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     In this session we'll go off the Rails and take a look at what our Pythonista cousins are doing with Django.
@@ -475,6 +387,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGag/
+  video_provider: youtube
   video_id: K6sRwQuWNLg
 
 - title: Cache=Cash!
@@ -482,11 +395,6 @@
   speakers:
     - Stefan Wintermeyer
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/7uKxDVflXdI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/7uKxDVflXdI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/7uKxDVflXdI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/7uKxDVflXdI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/7uKxDVflXdI/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Snappiness is an important key for any successful webpage. Most companies try to achieve responsive webshops by scaling their hardware big time. But Rails in combination with Nginx, Memcached and Redis is the key to deliver webpages very fast with a minimal amount of hardware. This talk will start with the basics of DHH's russian doll idea but will raise the bar than quite a bit. How can we combine fragment caching, page caching and HTTP caching to deliver personalized webshop pages for logged in users? How much brain can be delegated to Redis or the Webbrowser? Harddrive space is cheap. So use it! You'll get to know how to plan your data structure and where to use Memcached vs. Redis. Include the cache in the beginning of your development and not in the end. To make things a bit more interesting everything is replayed on a Raspberry Pi to show how much difference intelligent caching can make on any hardware. Save big time and get more clients with a faster web application!
@@ -494,6 +402,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaf/
+  video_provider: youtube
   video_id: 7uKxDVflXdI
 
 - title: Of Buyers And Renters and keeping a roof over our heads
@@ -501,11 +410,6 @@
   speakers:
     - Sebastian Delmont
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/XakfJ2spb3w/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/XakfJ2spb3w/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/XakfJ2spb3w/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/XakfJ2spb3w/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/XakfJ2spb3w/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     What do home ownership and leveraged buyouts can teach us about how to use technical debt to our advantage? How can we sleep soundly at night when we have accumulated mountains and mountains of technical debt? When is good enough good enough and when are we just deceiving ourselves?
@@ -513,6 +417,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGae/
+  video_provider: youtube
   video_id: XakfJ2spb3w
 
 - title: Pry-- The Good Parts!
@@ -520,11 +425,6 @@
   speakers:
     - Conrad Irwin
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/jDXsEzOHb2M/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/jDXsEzOHb2M/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/jDXsEzOHb2M/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/jDXsEzOHb2M/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/jDXsEzOHb2M/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Pry is the featureful development console for Ruby. From its humble roots as an irb replacement, Pry has grown into an indispensable tool for any Ruby or Rails programmer.
@@ -534,6 +434,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGad/
+  video_provider: youtube
   video_id: jDXsEzOHb2M
 
 - title: "Data Storage: NoSQL Toasters and a Cloud of Kitchen Sinks"
@@ -541,11 +442,6 @@
   speakers:
     - Casey Rosenthal
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/zw050fRE0ek/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/zw050fRE0ek/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/zw050fRE0ek/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/zw050fRE0ek/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/zw050fRE0ek/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Casey Rosenthal
@@ -555,6 +451,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGab/
+  video_provider: youtube
   video_id: zw050fRE0ek
 
 - title: An Intervention for ActiveRecord
@@ -562,11 +459,6 @@
   speakers:
     - Ernie Miller
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/yuh9COzp5vo/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/yuh9COzp5vo/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/yuh9COzp5vo/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/yuh9COzp5vo/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/yuh9COzp5vo/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Let's be honest: ActiveRecord's got issues, and it's not going to deal with them on its own. It needs our help.
@@ -577,6 +469,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGa8/
+  video_provider: youtube
   video_id: yuh9COzp5vo
 
 - title: From Rails to the Web Server to the Browser
@@ -584,11 +477,6 @@
   speakers:
     - David Padilla
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/A0M4BwYrYiA/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/A0M4BwYrYiA/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/A0M4BwYrYiA/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/A0M4BwYrYiA/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/A0M4BwYrYiA/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Most of us know how to build beautiful web applications with Rails. With the help of templating tools like ERB and HAML our web apps create HTML documents, but, do you know exactly how those HTML documents end up in a browser?
@@ -598,6 +486,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGa7/
+  video_provider: youtube
   video_id: A0M4BwYrYiA
 
 - title: The Magic Tricks of Testing
@@ -605,11 +494,6 @@
   speakers:
     - Sandi Metz
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/URSWYvyc42M/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/URSWYvyc42M/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/URSWYvyc42M/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/URSWYvyc42M/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/URSWYvyc42M/maxresdefault.jpg
   published_at: "2013-06-25"
   slides_url: https://speakerdeck.com/skmetz/magic-tricks-of-testing-railsconf
   description: |-
@@ -619,6 +503,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGa6/
+  video_provider: youtube
   video_id: URSWYvyc42M
 
 - title: Rails Vs. The Client Side
@@ -626,11 +511,6 @@
   speakers:
     - Noel Rappin
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/qeI25OjHyDA/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/qeI25OjHyDA/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/qeI25OjHyDA/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/qeI25OjHyDA/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/qeI25OjHyDA/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "Two completely different ways have emerged for using Rails as the
@@ -644,6 +524,7 @@
     trade-offs are. At the end of the talk, you will be better equipped to chose a
     structure for your next rich-client application.\n\nHelp us caption & translate
     this video!\n\nhttp://amara.org/v/FGa5/"
+  video_provider: youtube
   video_id: qeI25OjHyDA
 
 - title: Rails is Just Ruby
@@ -651,11 +532,6 @@
   speakers:
     - Jesse Wolgamott
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/Nqr_j4j26Uk/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Nqr_j4j26Uk/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Nqr_j4j26Uk/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Nqr_j4j26Uk/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Nqr_j4j26Uk/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Rails: the result of magical incantations, voodoo, and wizardry? Or: a collection of patterns from the most awesomest language in the world (Ruby)? We'll show three different areas of Rails that seem to be the most magical: before_filters and callbacks, Procs, and inheritance. In the workshop, participants will create their own Ruby object implementing these magical powers.
@@ -663,6 +539,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGa4/
+  video_provider: youtube
   video_id: Nqr_j4j26Uk
 
 - title: "BDD and Acceptance Testing with RSpec & Capybara"
@@ -670,11 +547,6 @@
   speakers:
     - Brian Sam-Bodden
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/BG_DDUD4M9E/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/BG_DDUD4M9E/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/BG_DDUD4M9E/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/BG_DDUD4M9E/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/BG_DDUD4M9E/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "By Brian Sam-Bodden \n\nBehavior-Driven Development and Acceptance
@@ -686,6 +558,7 @@
     stakeholder's acceptance criteria. We'll talk about the different types of testing
     and do a few hands-on exercises to flesh out a Rails application with RSpec and
     Capybara.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FGa3/"
+  video_provider: youtube
   video_id: BG_DDUD4M9E
 
 - title: "Rails for Zombies: Parts 1 & 2"
@@ -694,11 +567,6 @@
     - Christopher Greene
     - Aimee Simone
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/4Vk4W767lak/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/4Vk4W767lak/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/4Vk4W767lak/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/4Vk4W767lak/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/4Vk4W767lak/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Workshop with Christopher Greene & Aimee Simone
@@ -706,6 +574,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGa2/
+  video_provider: youtube
   video_id: 4Vk4W767lak
 
 - title: "How a Request Becomes a Response"
@@ -714,11 +583,6 @@
     - Christopher Greene
     - Aimee Simone
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/Cj2VDSugHM8/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Cj2VDSugHM8/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Cj2VDSugHM8/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Cj2VDSugHM8/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Cj2VDSugHM8/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Christopher Greene & Aimee Simone
@@ -729,6 +593,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGa1/
+  video_provider: youtube
   video_id: Cj2VDSugHM8
 
 - title: Building Extractable Libraries in Rails
@@ -736,11 +601,6 @@
   speakers:
     - Patrick Robertson
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/xXLijKrPMv4/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/xXLijKrPMv4/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/xXLijKrPMv4/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/xXLijKrPMv4/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/xXLijKrPMv4/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "The Ruby on Rails developer faces an interesting duality. Their inner
@@ -754,6 +614,7 @@
     configuration to hide credentials from your library code \n* Isolate your Domain
     Objects from library concerns through DCI\n\nHelp us caption & translate this
     video!\n\nhttp://amara.org/v/FGaw/"
+  video_provider: youtube
   video_id: xXLijKrPMv4
 
 - title: Natural Language Processing with Ruby
@@ -761,11 +622,6 @@
   speakers:
     - Brandon Black
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/JznIgC5_h4M/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/JznIgC5_h4M/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/JznIgC5_h4M/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/JznIgC5_h4M/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/JznIgC5_h4M/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "The field of natural language processing and the many topics encompassed
@@ -788,6 +644,7 @@
     how to painlessly leverage high performance, mature and well-established NLP libraries
     directly from your Ruby application using JRuby and JDK 7.\n\nHelp us caption
     & translate this video!\n\nhttp://amara.org/v/FGav/"
+  video_provider: youtube
   video_id: JznIgC5_h4M
 
 - title: "Front-end Testing for Skeptics"
@@ -795,11 +652,6 @@
   speakers:
     - Luke Francl
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/9GO7XGmv5gk/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/9GO7XGmv5gk/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/9GO7XGmv5gk/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/9GO7XGmv5gk/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/9GO7XGmv5gk/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Paul Graham once quipped that "Web 2.0" really meant "JavaScript now works". Nearly ten years later, more and more functionality of our web applications is written in JavaScript. But for those of us who came of age when JavaScript was unreliable, it's been preferable to test the server-side, while leaving the UI a thin-as-possible shell. Testing the front-end was error prone and brittle.
@@ -809,6 +661,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGau/
+  video_provider: youtube
   video_id: 9GO7XGmv5gk
 
 - title: Testing HTTP APIs in Ruby
@@ -816,11 +669,6 @@
   speakers:
     - Shai Rosenfeld
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/lTSl7IwbrvI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/lTSl7IwbrvI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/lTSl7IwbrvI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/lTSl7IwbrvI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/lTSl7IwbrvI/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Good integration tests are hard. There are many approaches for testing server/client HTTP libraries - all with various tradeoffs and problems that come up. Some are obvious, some are a little more tricky.
@@ -829,6 +677,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGat/
+  video_provider: youtube
   video_id: lTSl7IwbrvI
 
 - title: Maintainable Templates
@@ -836,11 +685,6 @@
   speakers:
     - Brendan Loudermilk
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/elRlAjtaFsg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/elRlAjtaFsg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/elRlAjtaFsg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/elRlAjtaFsg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/elRlAjtaFsg/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "Unwieldy templates (a.k.a. views) are all too common in Rails apps,
@@ -852,6 +696,7 @@
     countless hours in the long run.\nTopics include: \n* The Decorator Pattern \n*
     Using View objects \n* Sanely building forms \n* And more!\n\nHelp us caption
     & translate this video!\n\nhttp://amara.org/v/FGas/"
+  video_provider: youtube
   video_id: elRlAjtaFsg
 
 - title: "Changing the wheels on the bus at 80 mph: Upgrading to Rails 3"
@@ -860,11 +705,6 @@
     - Andrew Bloomgarden
     - Julian Giuca
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/xi7z-vGNNGw/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/xi7z-vGNNGw/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/xi7z-vGNNGw/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/xi7z-vGNNGw/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/xi7z-vGNNGw/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     on an active master branch  By: Andrew Bloomgarden and Julian Giuca
@@ -874,6 +714,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGar/
+  video_provider: youtube
   video_id: xi7z-vGNNGw
 
 - title: A Guide to Crafting Gems
@@ -881,11 +722,6 @@
   speakers:
     - Pat Allan
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/Mmm1cVvPEYU/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Mmm1cVvPEYU/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Mmm1cVvPEYU/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Mmm1cVvPEYU/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Mmm1cVvPEYU/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     You understand Ruby and Rails, and you've gotten the hang of using other peoples' gems - but what about writing your own? Gems underpin almost every piece of Ruby code we write - and so, being able to craft your own gems is not only incredibly useful, it provides an avenue for code reuse and open source sharing. During this session, Pat will first discuss the ecosystem around gems and the knowledge required to write your own, plus a few tools available to assist with this, and some approaches for how to structure gems that integrate with Rails itself. The workshop will then put this knowledge into practice by building our own gems from scratch.
@@ -893,6 +729,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG9Y/
+  video_provider: youtube
   video_id: Mmm1cVvPEYU
 
 - title: "No Traffic, No Users, No Problem! - Usability Testing for New Apps"
@@ -900,11 +737,6 @@
   speakers:
     - Jim Jones
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/pCOuOxFRajQ/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/pCOuOxFRajQ/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/pCOuOxFRajQ/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/pCOuOxFRajQ/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/pCOuOxFRajQ/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Jim  Jones
@@ -920,6 +752,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG9X/
+  video_provider: youtube
   video_id: pCOuOxFRajQ
 
 - title: "Object-Oriented Lessons for a Service-Oriented World"
@@ -927,11 +760,6 @@
   speakers:
     - Chris Kelly
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/sk2PXKsQNug/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/sk2PXKsQNug/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/sk2PXKsQNug/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/sk2PXKsQNug/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/sk2PXKsQNug/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Chris Kelly
@@ -941,6 +769,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG9W/
+  video_provider: youtube
   video_id: sk2PXKsQNug
 
 - title: "Incremental Design - A conversation with a designer and a developer"
@@ -949,11 +778,6 @@
     - Rebecca Miller-Webster
     - Savannah Wolf
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/t97ePwSk_wc/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/t97ePwSk_wc/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/t97ePwSk_wc/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/t97ePwSk_wc/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/t97ePwSk_wc/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "By Rebecca Miller-Webster and Savannah Wolf\n\nDevelopers: how many
@@ -968,6 +792,7 @@
     How to develop for incremental design, including utilizing SASS, structuring your
     mark-up and CSS, and structuring your Rails views and partials\n\nHelp us caption
     & translate this video!\n\nhttp://amara.org/v/FG9V/"
+  video_provider: youtube
   video_id: t97ePwSk_wc
 
 - title: Humanity On Rails
@@ -975,11 +800,6 @@
   speakers:
     - Daniel Azuma
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/elxE-WBXs_k/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/elxE-WBXs_k/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/elxE-WBXs_k/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/elxE-WBXs_k/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/elxE-WBXs_k/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     We hear the stories every so often. A study concludes that internet usage is making us "dumber", while another connects online activity to anxiety or depression. A respected journalist questions whether our advanced technology is really improving our lives. A mass movement of people deleting their Facebook or Twitter accounts sweeps through the community.
@@ -989,6 +809,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG9U/
+  video_provider: youtube
   video_id: elxE-WBXs_k
 
 - title: "Closing Keynote: A ♭"
@@ -996,16 +817,12 @@
   speakers:
     - Aaron Patterson
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/5kgUL_FfUZY/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/5kgUL_FfUZY/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/5kgUL_FfUZY/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/5kgUL_FfUZY/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/5kgUL_FfUZY/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Help us caption & translate this video!
 
     http://amara.org/v/FG9T/
+  video_provider: youtube
   video_id: 5kgUL_FfUZY
 
 - title: Hacking the academic experience
@@ -1013,11 +830,6 @@
   speakers:
     - Emily Stolfo
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/a0teD9ynuTM/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/a0teD9ynuTM/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/a0teD9ynuTM/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/a0teD9ynuTM/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/a0teD9ynuTM/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "Coming from a hacker background, I've continually been surprised by
@@ -1030,6 +842,7 @@
     not only the algorithms, but the keys to being a successful developer in the modern
     open source driven Rails community. \n- How we as hackers can fix this.\n\nHelp
     us caption & translate this video!\n\nhttp://amara.org/v/FG9S/"
+  video_provider: youtube
   video_id: a0teD9ynuTM
 
 - title: "The Long Ball - Upgrading long lived Rails apps from 1.x-4.0"
@@ -1037,11 +850,6 @@
   speakers:
     - Jesse Wolgamott
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/97fpzfRGTcs/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/97fpzfRGTcs/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/97fpzfRGTcs/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/97fpzfRGTcs/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/97fpzfRGTcs/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Jesse Wolgamott
@@ -1052,6 +860,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG9R/
+  video_provider: youtube
   video_id: 97fpzfRGTcs
 
 - title: "TDDing iOS Apps for fun and profit with RubyMotion"
@@ -1059,11 +868,6 @@
   speakers:
     - Brian Sam-Bodden
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/7v3_t5SK8DM/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/7v3_t5SK8DM/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/7v3_t5SK8DM/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/7v3_t5SK8DM/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/7v3_t5SK8DM/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Brian Sam-Bodden
@@ -1076,6 +880,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG9Q/
+  video_provider: youtube
   video_id: 7v3_t5SK8DM
 
 - title: Datomic, from Ruby, from Rails
@@ -1083,11 +888,6 @@
   speakers:
     - Yoko Harada
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/1E_n47ct280/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/1E_n47ct280/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/1E_n47ct280/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/1E_n47ct280/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/1E_n47ct280/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "Datomic is a new database categorized as NewSQL and was created by
@@ -1104,6 +904,7 @@
     I'll introduce Diametric gem and how to use it as well as why its API design is
     good for us. Also, I will cover how Ruby helped to integrate Datomic API in Diametric
     gem.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FG9P/"
+  video_provider: youtube
   video_id: 1E_n47ct280
 
 - title: Dissecting Ruby with Ruby
@@ -1111,11 +912,6 @@
   speakers:
     - Richard Schneeman
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/Zd2oUU4qDnY/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Zd2oUU4qDnY/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Zd2oUU4qDnY/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Zd2oUU4qDnY/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Zd2oUU4qDnY/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Underneath the beautiful veneer of our Ruby libraries lies a twisted tangle of writhing guts. Maybe you're curious how the pieces fit together or maybe you're tracking down a bug, either way it's easy to get lost in the blood and bile that ties our code together. In this talk you'll learn how to use simple and sharp Ruby tools to slice into large libraries with surgical precision. We'll do some live hacking on Rails on the stage and cover useful code probing techniques. Turn your impossible bugs into pull requests, and level up your programming skills by Dissecting Ruby with Ruby.
@@ -1123,6 +919,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG9O/
+  video_provider: youtube
   video_id: Zd2oUU4qDnY
 
 - title: How to Talk to Developers
@@ -1130,11 +927,6 @@
   speakers:
     - Ben Orenstein
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/l9JXH7JPjR4/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/l9JXH7JPjR4/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/l9JXH7JPjR4/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/l9JXH7JPjR4/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/l9JXH7JPjR4/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "Nearly every developer will be asked to present to his or her peers
@@ -1147,6 +939,7 @@
     and demos. \n* Being funny without resorting to reddit memes. \n* How to get plenty
     of questions during Q&A. \n* How to get an unfair amount of talk acceptances (aka
     'Bribing conference organizers').\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FGaB/"
+  video_provider: youtube
   video_id: l9JXH7JPjR4
 
 - title: "Ruby Hero Awards 2013"
@@ -1154,11 +947,6 @@
   speakers:
     - Gregg Pollack
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/wfy_ctBaU2o/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/wfy_ctBaU2o/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/wfy_ctBaU2o/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/wfy_ctBaU2o/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/wfy_ctBaU2o/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     We believe great work deserves recognition. The Ruby/Rails dev community is full of amazing contributors and unsung heroes who are busy producing educational content, developing plugins and gems, contributing to open-source projects, or putting on events to help developers learn and grow.
@@ -1168,6 +956,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaA/
+  video_provider: youtube
   video_id: wfy_ctBaU2o
 
 - title: "Lightning Talks"
@@ -1208,16 +997,12 @@
     - Gabe Scholz
 
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/4T24oUPPaFI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/4T24oUPPaFI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/4T24oUPPaFI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/4T24oUPPaFI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/4T24oUPPaFI/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Help us caption & translate this video!
 
     http://amara.org/v/FG9z/
+  video_provider: youtube
   video_id: 4T24oUPPaFI
 
 - title: "Simple and Elegant Rails Code with Functional Style"
@@ -1225,11 +1010,6 @@
   speakers:
     - Attila Domokos
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/glU_I3Xiooc/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/glU_I3Xiooc/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/glU_I3Xiooc/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/glU_I3Xiooc/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/glU_I3Xiooc/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Attila Domokos
@@ -1240,6 +1020,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FG9y/
+  video_provider: youtube
   video_id: glU_I3Xiooc
 
 - title: "Keynote: In a place far far away..."
@@ -1247,16 +1028,12 @@
   speakers:
     - James Duncan Davidson
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/jOvWDlmufcw/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/jOvWDlmufcw/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/jOvWDlmufcw/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/jOvWDlmufcw/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/jOvWDlmufcw/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Help us caption & translate this video!
 
     http://amara.org/v/FGaU/
+  video_provider: youtube
   video_id: jOvWDlmufcw
 
 - title: "Properly Factored MVC"
@@ -1265,11 +1042,6 @@
     - Katrina Owen
     - Jeff Casimir
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/KaBrHBlMHBI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/KaBrHBlMHBI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/KaBrHBlMHBI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/KaBrHBlMHBI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/KaBrHBlMHBI/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Katrina Owen & Jeff Casimir
@@ -1279,6 +1051,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaT/
+  video_provider: youtube
   video_id: KaBrHBlMHBI
 
 - title: Configuration Management Patterns
@@ -1286,11 +1059,6 @@
   speakers:
     - Beau Harrington
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/MDeUgHHTiyg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/MDeUgHHTiyg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/MDeUgHHTiyg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/MDeUgHHTiyg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/MDeUgHHTiyg/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "As your simple Rails app grows into a larger system or set of systems,
@@ -1311,6 +1079,7 @@
     \n* change control \n* testing and multi-stage deployment of configuration changesets
     \n* allowing non-developers to change configuration values\n\nHelp us caption
     & translate this video!\n\nhttp://amara.org/v/FGaS/"
+  video_provider: youtube
   video_id: MDeUgHHTiyg
 
 - title: Zero-downtime payment platforms
@@ -1319,11 +1088,6 @@
     - Prem Sichanugrist
     - Ryan Twomey
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/uJ_38moGKGY/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/uJ_38moGKGY/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/uJ_38moGKGY/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/uJ_38moGKGY/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/uJ_38moGKGY/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     By Prem Sichanugrist & Ryan Twomey
@@ -1333,6 +1097,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaR/
+  video_provider: youtube
   video_id: uJ_38moGKGY
 
 - title: "Services and Rails: The Sh*t They Don't Tell You"
@@ -1340,11 +1105,6 @@
   speakers:
     - Brian Morton
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/o5u87SZ6S9M/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/o5u87SZ6S9M/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/o5u87SZ6S9M/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/o5u87SZ6S9M/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/o5u87SZ6S9M/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Building services and integrating them into Rails is hard. We want smaller Rails apps and nicely encapsulated services, but services introduce complexity. If you go overboard in the beginning, you're doing extra work and getting some of it wrong. If you wait too long, you've got a mess.
@@ -1354,6 +1114,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaQ/
+  video_provider: youtube
   video_id: o5u87SZ6S9M
 
 - title: Describing Your World with Seahorse
@@ -1361,11 +1122,6 @@
   speakers:
     - Trevor Rowe
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/NFhL7RhwnFU/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/NFhL7RhwnFU/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/NFhL7RhwnFU/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/NFhL7RhwnFU/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/NFhL7RhwnFU/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     So you've just added a suite of RESTful APIs to your web service. Now you need to generate documentation and build Ruby, Python, and JavaScript clients to consume those new APIs. With so many moving parts, how do you keep your service, documentation and clients in sync?
@@ -1376,6 +1132,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaP/
+  video_provider: youtube
   video_id: NFhL7RhwnFU
 
 - title: Your First Rails Pull Request
@@ -1383,11 +1140,6 @@
   speakers:
     - Mark McSpadden
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/UEB6H8jAzIg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/UEB6H8jAzIg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/UEB6H8jAzIg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/UEB6H8jAzIg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/UEB6H8jAzIg/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     You have been doing this Rails thing for a while and you're starting to feel like it's time to give back. Great! Now what?
@@ -1396,6 +1148,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaM/
+  video_provider: youtube
   video_id: UEB6H8jAzIg
 
 - title: Firefighting on Rails
@@ -1403,11 +1156,6 @@
   speakers:
     - Ethan Vizitei
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/ynLsBa0zqrU/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/ynLsBa0zqrU/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/ynLsBa0zqrU/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/ynLsBa0zqrU/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/ynLsBa0zqrU/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     It's always inspiring to me to hear about how the technology stack I'm familiar with has been used to solve interesting problems; this is one of the extreme versions of that experience. Over the last few years, Rails has been used to solve several of the logistical pain points of the third largest fire service organization in the state of Missouri, and in this talk we're going to look at how it happened. Along the way we'll look at some of the challenges of working with such an out-of-the-ordinary organization and how Rails fit into addressing some fairly unique requirements and constraints. This is one Rails-in-the-wild case study that you won't want to pass up.
@@ -1415,6 +1163,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaL/
+  video_provider: youtube
   video_id: ynLsBa0zqrU
 
 - title: "Keeping the lights on: Application monitoring with Sensu and BatsD"
@@ -1422,11 +1171,6 @@
   speakers:
     - Aaron Pfeifer
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/b76GfS7x_j8/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/b76GfS7x_j8/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/b76GfS7x_j8/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/b76GfS7x_j8/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/b76GfS7x_j8/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "By Aaron Pfeifer\n\nThe good news: you're quickly signing up new customers,
@@ -1442,6 +1186,7 @@
     you can integrate Sensu against PagerDuty, RabbitMQ, or any other third-party
     service. Oh, and of course - everything's written in Ruby, so you can even use
     your favorite gems!\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FGaK/"
+  video_provider: youtube
   video_id: b76GfS7x_j8
 
 - title: Flattening The Cloud Learning Curve Using Rails
@@ -1449,11 +1194,6 @@
   speakers:
     - Michael Murphy
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/PbBPOG--gqI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/PbBPOG--gqI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/PbBPOG--gqI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/PbBPOG--gqI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/PbBPOG--gqI/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     We've all heard how great the cloud is - but no one likes learning a new proprietary API if they don't need to. In this session, I'll demonstrate how you can develop, test and deploy ROR apps faster to HP's public cloud based on OpenStack technology. If you are new to the cloud or if you're just a CLI commando, I'll run through HP's Ruby CLI, spin up cloud servers and attach block storage faster than you thought possible. And, for Ruby Fog fans, I'll show you the HP Ruby Fog extensions that let you easily provision and manage cloud servers and storage using your favorite environment.
@@ -1461,6 +1201,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaJ/
+  video_provider: youtube
   video_id: PbBPOG--gqI
 
 - title: "Forget Scaling: Focus on Performance"
@@ -1468,11 +1209,6 @@
   speakers:
     - Terence Lee
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/e_2s3kN0ZSE/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/e_2s3kN0ZSE/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/e_2s3kN0ZSE/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/e_2s3kN0ZSE/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/e_2s3kN0ZSE/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     Your customers care about how fast your application works, you should too.... At Heroku we see millions of apps deploy and we know what it takes to get serious performance out of your code and Rails. In this talk we'll cover backend tips and frontend tricks that will help your Rails app go faster than ever before.
@@ -1480,6 +1216,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaI/
+  video_provider: youtube
   video_id: e_2s3kN0ZSE
 
 - title: Engine Yard Cloud
@@ -1488,11 +1225,6 @@
     - Edward Chiu
     - PJ Hagerty
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/Wq0gDAi3KEk/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Wq0gDAi3KEk/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Wq0gDAi3KEk/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Wq0gDAi3KEk/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Wq0gDAi3KEk/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     New developments, interesting use cases and future plans. Edward will walk attendees through the dashboard and demonstrate the uses of new features such as Engine Yard Local. Whether you're a long-time Engine Yard user or just curious, this session will show you how to optimize your deployment experience.
@@ -1500,6 +1232,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaH/
+  video_provider: youtube
   video_id: Wq0gDAi3KEk
 
 - title: DevOps for the Rubyist Soul
@@ -1507,11 +1240,6 @@
   speakers:
     - John Downey
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/KmUq-SIFmgE/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/KmUq-SIFmgE/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/KmUq-SIFmgE/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/KmUq-SIFmgE/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/KmUq-SIFmgE/maxresdefault.jpg
   published_at: "2013-06-25"
   description:
     "Ruby developers have many great options for simply hosting their web
@@ -1523,6 +1251,7 @@
     with capistrano \n* Using puppet for configuration management \n* Our cap and
     puppet workflow using git \n* How vagrant can provide a sane test environment
     \n* Some pitfalls you should avoid\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FGaG/"
+  video_provider: youtube
   video_id: KmUq-SIFmgE
 
 - title: Creating Mountable Engines
@@ -1530,11 +1259,6 @@
   speakers:
     - Patrick Peak
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/s3NJ15Svq8U/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/s3NJ15Svq8U/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/s3NJ15Svq8U/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/s3NJ15Svq8U/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/s3NJ15Svq8U/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     With Rails 4.0 killing off the humble plugin, there is never a better time to learn how to create reusable code using Engines. Creating an engine can be as simple as adding a model, or a complex as an entire content management system. Using the Asset Pipeline, even javascript and css files can be packaged and shared, making projects cleaner and more maintainable than ever before.
@@ -1543,6 +1267,7 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaF/
+  video_provider: youtube
   video_id: s3NJ15Svq8U
 
 - title: You've got a Sinatra on your Rails
@@ -1550,11 +1275,6 @@
   speakers:
     - José Valim
   event_name: RailsConf 2013
-  thumbnail_xs: https://i.ytimg.com/vi/TslkdT3PfKc/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/TslkdT3PfKc/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/TslkdT3PfKc/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/TslkdT3PfKc/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/TslkdT3PfKc/maxresdefault.jpg
   published_at: "2013-06-25"
   description: |-
     One of the best ways to learn is to experiment with seemingly crazy ideas. When Rails 3 first came out, it became easier than ever to embed a Sinatra application inside your Rails application. But what if you wanted to implement parts of Sinatra in Rails?
@@ -1564,4 +1284,5 @@
     Help us caption & translate this video!
 
     http://amara.org/v/FGaq/
+  video_provider: youtube
   video_id: TslkdT3PfKc

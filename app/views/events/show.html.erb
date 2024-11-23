@@ -1,6 +1,6 @@
 <%= turbo_refreshes_with method: :morph, scroll: :preserve %>
 
-<div class="w-full max-h-92 justify-center align-center flex" style="view-transition-name: hero; background: <%= @event.banner_background %>">
+<div class="w-full max-h-92 justify-center align-center flex mt-3 border-t border-b" style="view-transition-name: hero; background: <%= @event.banner_background %>">
   <%= image_tag image_path(@event.banner_image_path), class: "w-full max-h- aspect-auto container" %>
 </div>
 
@@ -14,13 +14,13 @@
             loading: :lazy %>
 
       <div class="flex-col flex justify-center">
-        <h1 class="mb-2 text-black font-bold" style="view-transition-name: title"><%= @event.name %></h1>
+        <h1 class="mb-2 text-black font-bold"><%= @event.name %></h1>
         <h3 class="text-[#636B74]"><%= @event.location %> • <%= @event.formatted_dates %></h3>
       </div>
     </div>
 
     <div class="flex flex-col gap-3 place-items-center">
-      <%= link_to "Visit Website", @event.organisation.website, class: "btn btn-primary w-full", target: "_blank" %>
+      <%= link_to "Visit Website", @event.website, class: "btn btn-primary w-full", target: "_blank" %>
       <%= link_to "View all #{@event.organisation.name} events", @event.organisation, class: "btn w-full" %>
     </div>
   </div>
@@ -51,6 +51,7 @@
               locals: {
                 favoritable: true,
                 user_favorite_talks_ids: @user_favorite_talks_ids,
+                watched_talks_ids: user_watched_talks_ids,
                 back_to: request.fullpath,
                 back_to_title: @event.name
               },

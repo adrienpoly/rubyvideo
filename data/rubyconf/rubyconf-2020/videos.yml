@@ -12,6 +12,7 @@
   event_name: RubyConf 2020
   published_at: "2020-12-18"
   description: ""
+  video_provider: youtube
   video_id: FTWKackp1Js
 
 - title: "Keynote: Ruby 3 and Beyond"
@@ -24,6 +25,7 @@
     Keynote by Yukihiro Matsumoto
 
     The creator of Ruby, Matz works for the Ruby Association to improve everything Ruby.
+  video_provider: youtube
   video_id: JojpqfaPhjI
 
 - title: "Automatic GC Compaction in MRI"
@@ -37,6 +39,7 @@
 
     Aaron Patterson
     Aaron is a full time Ruby developer working at Shopify, whose interests include: Keyboards, Cats, and Code. Aaron is known online as tenderlove, but he also answers by "Aaron".
+  video_provider: youtube
   video_id: 28BBjKfUpTc
 
 - title: "Tales of the Autistic Developer: The Expert"
@@ -55,6 +58,7 @@
 
     Brandon Weaver
     Brandon is a Ruby Architect at Square working on the Frameworks team, defining standards for Ruby across the company. He's an artist who turned programmer who had a crazy idea to teach programming with cartoon lemurs and whimsy. He's also autistic, and would love to talk to you about your own experiences.
+  video_provider: youtube
   video_id: rEeCeJv_H28
 
 - title: "The Humble Hash"
@@ -77,6 +81,7 @@
     Ariel works at Cloudinary, developing new features on a Ruby app serving billions of image and video requests daily.
 
     He also enjoys finding, sharing, and learning new ways to see the tools we work with every day, and hopes this talk will help you do just that!
+  video_provider: youtube
   video_id: jAn3c6O2OZo
 
 - title: "Enough Coverage To Beat The Band"
@@ -84,6 +89,7 @@
   speakers:
     - Kevin Murphy
   event_name: RubyConf 2020
+  slides_url: https://speakerdeck.com/kevinmurphy/enough-coverage-to-beat-the-band
   published_at: "2020-12-18"
   description: |-
     The lights cut out. The crowd roars. It’s time. The band takes the stage. They’ve practiced the songs, particularly the covers. They’ve sound checked the coverage of the speakers. They know the lighting rig has the proper colored gels covering the lamps. They’re nervous, but they’ve got it all covered.
@@ -93,6 +99,7 @@
 
     Kevin Murphy
     Kevin lives near Boston, where he is a Software Developer at The Gnar Company. He’s doing the best he can to cope with a year of concerts that could have been.
+  video_provider: youtube
   video_id: EyLO0EEm3BQ
 
 - title: "Tracking COVID 19 with Ruby"
@@ -106,6 +113,7 @@
 
     Olivier Lacan
     Olivier likes to use computers to help people. He maintained Code School for many years and now builds tools to support exciting new learning modalities at Pluralsight. He created those Shields.io badges that plaster your open source READMEs and tried to make those same projects more accessible with Keep a Changelog. Recently, he contributed to the COVID Tracking Project at The Atlantic and focused on uncovering pandemic data for the state of Florida.
+  video_provider: youtube
   video_id: lRUq3ZJHXKE
 
 - title: "The State of Ruby 3 Typing"
@@ -120,6 +128,7 @@
 
     Soutaro Matsumoto
     Soutaro is a lead Ruby engineer at Square working on Steep, RBS, and static typing. He is a core Ruby committer working with Matz and other core committers on the RBS specification that will ship with Ruby 3.
+  video_provider: youtube
   video_id: xnwGPQghmo4
 
 - title: "Keynote"
@@ -142,6 +151,7 @@
     of color. Ryann travels the US as a Keynote Speaker giving talks “Authenticity
     and Assimilation”, “Taking Up Space as Women and POC” and “The Politics of Race,
     Beauty, and Power.”
+  video_provider: youtube
   video_id: db0Sw5iV5jM
 
 - title: "Keynote: If you can move it, it isn't broken"
@@ -154,6 +164,7 @@
     Kerri Miller is a Software Developer and Team Lead based in the Pacific Northwest. She has worked at enterprise companies, international ad agencies, boutique consultancies, start-ups, mentors and teaches students. She currently is a Senior Backend Engineer at Gitlab, and also works for Ruby Together on RubyGems.org and Bundler.
 
     While that is all factually true, it doesn't actually describe an actual person. Kerri has an insatiable curiosity, having worked as a lighting designer, marionette puppeteer, sous chef, and farm hand. She attended college to study performance production, was once a semi-professional poker player, has strong opinions about keycaps, knows some sweet yoyo tricks, and enjoys melting hot glass with a blowtorch to create beads, cane, and murrini. Asked to describe herself in two words, she thought a bit and replied "lackwit gadabout."
+  video_provider: youtube
   video_id: TLRyAYSOWcc
 
 - title: "The Bug that Forced Me to Understand Memory Compaction"
@@ -173,6 +184,7 @@
 
     Emily Giurleo
     Emily Giurleo is a software engineer and avid Rubyist. This December, she'll start working at Numero, where she'll help build the next generation of campaign finance tools. In her spare time, she enjoys creating tech for good causes, reading fantasy novels, and hanging out with her pets.
+  video_provider: youtube
   video_id: GlpZPv1bp4g
 
 - title: "Ractor Demonstration"
@@ -186,6 +198,7 @@
 
     Koichi Sasada
     Koichi Sasada is a programmer, mainly developing Ruby interpreter (CRuby/MRI). He received Ph.D (Information Science and Technology) from the University of Tokyo, 2007. He became a faculty of University of Tokyo (Assistant associate 2006-2008, Assistant professor 2008-2012). After the 13 years life in university, he had joined a member of Matz's team in Heroku, Inc. Now he is a member of Cookpad Inc (engineer). He is also a director of Ruby Association.
+  video_provider: youtube
   video_id: 0kM7yFM6Dao
 
 - title: "The Minaswan::Interview"
@@ -200,6 +213,7 @@
 
     Jesse Spevack
     I am a senior platform engineer at Ibotta, a cash back for shopping mobile app. Before getting into the tech world, I worked in public K-12 education for 11 years. I transitioned from education into technology by way of the Turing School of Software Design, a Denver based code school with a Ruby-centric curriculum.
+  video_provider: youtube
   video_id: c4K-ORZmrGk
 
 - title: "Automation Engineering with Serverless Compute"
@@ -216,6 +230,7 @@
 
     Kevin Lesht
     Kevin is a Senior Software Engineer working out of Chicago, Illinois, for Home Chef, a meal kit delivery company. He is the host of the Day as a Dev podcast, where he interviews developers from all walks of life, to offer students and those interested in tech, a practical look at life in the industry. Previously, he co-founded ZeroSleep Designs, a digital design agency, and worked with dozens of clients to bring their ideas online. He's passionate about getting others excited about tech!
+  video_provider: youtube
   video_id: upf8Niku9MI
 
 - title: "Keynote"
@@ -229,6 +244,7 @@
     challenged software engineering dogma, promoting ideas like patterns, test-driven
     development, and Extreme Programming. Currently Fellow at Gusto, he is the author
     of a half dozen books.
+  video_provider: youtube
   video_id: UIyMs7xV6eo
 
 - title: "Screaming Zombies and Other Tales: Race Condition Woes"
@@ -249,6 +265,7 @@
 
     Josh Larson
     Josh is a full-time programmer, part-time human, whose interests include weird programming, physics, math, and trying to make software reliably be better. When he’s not writing code or equations, he’s probably biking somewhere or watching something on HBO.
+  video_provider: youtube
   video_id: p6Jz5cE4OkA
 
 - title: "Upgrading GitHub to Ruby 2.7"
@@ -263,6 +280,7 @@
 
     Eileen M. Uchitelle
     Eileen Uchitelle is a Staff Software Engineer on the Ruby Architecture Team at GitHub and a member of the Rails Core team. She's an avid contributor to open source focusing on the Ruby on Rails framework and its dependencies. Eileen is passionate about scalability, performance, and making open source communities more sustainable and welcoming.
+  video_provider: youtube
   video_id: OrPT7h2hsok
 
 - title: "Coaching through Coding"
@@ -279,6 +297,7 @@
 
     Mercedes Bernard
     Mercedes Bernard is a Principal software engineer and engineering manager with Tandem, a digital consultancy in Chicago. She's also the founder of Dev Together, a mentorship community in Chi for those starting their dev careers. Outside of work, she likes to unplug and enjoys spinning yarn and crocheting.
+  video_provider: youtube
   video_id: E0j-nXdnIp4
 
 - title: "How Prime Numbers Keep the Internet Secure"
@@ -301,6 +320,7 @@
     program in 2016. Like Ruby, he's passionate about encapsulating complicated concepts
     in simple language. When he's not breaking production, he can be found trying
     to figure out how to pipe all his troubles into /dev/null."
+  video_provider: youtube
   video_id: f_Qan-eNT-g
 
 - title: "Mach 2.0 at Scale"
@@ -317,6 +337,7 @@
 
     Nickolas Means
     Nickolas Means loves nothing more than a story of engineering triumph (except maybe a story of engineering disaster). When he's not stuck in a Wikipedia loop reading about plane crashes, he spends his days as a Director of Engineering at GitHub. He works remotely from Austin, TX, and spends most of his spare time hanging out with his wife and kids, going for a run, or trying to brew the perfect cup of coffee.
+  video_provider: youtube
   video_id: uFURynXi5bk
 
 - title: "The Future Should Be Uneven"
@@ -335,6 +356,7 @@
 
     H. Waterhouse
     Heidi is a developer advocate with LaunchDarkly. She delights in working at the intersection of usability, risk reduction, and cutting-edge technology. One of her favorite hobbies is talking to developers about things they already knew but had never thought of that way before. She sews all her conference dresses so that she's sure there is a pocket for the mic.
+  video_provider: youtube
   video_id: E3alWkOAjV8
 
 - title: "Keynote: 5 Rules for Building the Future"
@@ -349,6 +371,7 @@
     to Black and Latinx entrepreneurs building tech companies with limited capital.
     She is also co-founder of Zebras Unite, an entrepreneur-led movement focused on
     creating a more ethical and sustainable start-up ecosystem.
+  video_provider: youtube
   video_id: Pa8L8fqq-Dg
 
 - title: "Q&A With Matz"
@@ -361,6 +384,7 @@
   description:
     Matz and Evan discuss topics around his Keynote and other developments
     within the Ruby language and community.
+  video_provider: youtube
   video_id: c3Uv0jbCjcs
 
 - title: "Conference Closing"
@@ -372,6 +396,7 @@
   event_name: RubyConf 2020
   published_at: "2020-12-18"
   description: ""
+  video_provider: youtube
   video_id: EFR03PDZiIc
 
 - title: "Closing Day 2"
@@ -382,4 +407,5 @@
   event_name: RubyConf 2020
   published_at: "2020-12-18"
   description: ""
+  video_provider: youtube
   video_id: 5-r23sXhj1o

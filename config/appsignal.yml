@@ -1,6 +1,6 @@
 default:
   &defaults # Your push api key, it is possible to set this dynamically using ERB:
-  push_api_key: "<%= ENV['APPSIGNAL_PUSH_API_KEY'] %>"
+  push_api_key: "<%= Rails.application.credentials.appsignal&.dig(:push_api_key) || ENV['APPSIGNAL_PUSH_API_KEY'] %>"
 
   # Your app's name
   name: "RubyVideo"
@@ -35,5 +35,9 @@ development:
   active: false
 
 production:
+  <<: *defaults
+  active: true
+
+staging:
   <<: *defaults
   active: true

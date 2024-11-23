@@ -29,6 +29,7 @@ export default class extends Controller {
 
   open () {
     this.element.showModal()
+    this.dispatch('open')
   }
 
   close (e) {

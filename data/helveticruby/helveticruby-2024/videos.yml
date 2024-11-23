@@ -17,6 +17,7 @@
     With the release of Turbo 8, the ecosystem has gained new momentum, influencing how developers approach application design and interaction.
 
     This session, led by Marco, a core maintainer of Stimulus, StimulusReflex, and CableReady, delves into capabilities introduced with Turbo 8, reevaluating its impact on the whole Rails and Hotwire ecosystem.
+  video_provider: youtube
   video_id: cBlHywmKId8
 
 - title: The Boring Bits Bite Back
@@ -35,6 +36,7 @@
     I’ll talk about how to think about these basics as you go without overthinking
     it so hopefully you spend less time re-building the basics and more time creating
     products that wow people.
+  video_provider: youtube
   video_id: 6g5phlssviM
 
 - title: Lessons learned from running Rails apps on-premise
@@ -46,6 +48,7 @@
   slides_url: https://helvetic-ruby.ch/2024/presentations/main_talks/Andy_Pfister_Lessons_Learned.pdf
   description: |-
     37signals recently published a new software called Campfire. The main catch of it is "you only pay once and can host it yourself." For our customer, we have been shipping three Rails apps for years to their customer's on-premise environments. Since these environments tend to be very different from each other, the deployment process is optimized for Linux and Windows systems, PostgreSQL, and Microsoft SQL servers, as well as installation without any internet access. In this talk, I'd like to share how we approach this, lessons learned over the years, and how you might apply this to your apps.
+  video_provider: youtube
   video_id: zh6jfFDHo8M
 
 - title: Ask your logs
@@ -61,6 +64,7 @@
     If you have ever tried to debug a production issue by digging in your application logs, you know that it is a challenge to find the information you need in the gigabyte-sized haystack that is the default rails log output.
 
     In this talk, let's explore how we can use structured logging to turn our logs into data and use dedicated tools to ask — and answer — some non-obvious questions of our logs.
+  video_provider: youtube
   video_id: _NcU_Dlq8R8
 
 - title: The Very Hungry Transaction
@@ -74,6 +78,7 @@
     The story begins with a little database transaction. As the days go by, more and more business requirements cause the transaction to grow in size. We soon discover that it isn't a little transaction anymore, and it now poses a serious risk to our application and business. What went wrong, and how can we fix it?
 
     In this talk, we'll witness a database transaction gradually grow into a liability. We'll uncover some common but problematic patterns that can put our data integrity and database health at risk, and then offer strategies for fixing and preventing these patterns.
+  video_provider: youtube
   video_id: sGlpbp11SY4
 
 - title: "Lightning Talk: How to use Arel? Wrong answers only!"
@@ -83,6 +88,7 @@
   event_name: Helvetic Ruby 2024
   published_at: "2024-05-17"
   description: ""
+  video_provider: youtube
   video_id: KJY1IPheVAk
 
 - title: "Lightning Talk: Avoiding Sneaky Testing Antipatterns"
@@ -92,6 +98,7 @@
   event_name: Helvetic Ruby 2024
   published_at: "2024-05-17"
   description: ""
+  video_provider: youtube
   video_id: m-cxOc5wgUU
 
 - title: "Lightning Talk: Phantastic Phlex"
@@ -101,6 +108,7 @@
   event_name: Helvetic Ruby 2024
   published_at: "2024-05-17"
   description: ""
+  video_provider: youtube
   video_id: n0mDMlC4O80
 
 - title: "Lightning Talk: 200k users in 3 years: How to do developer marketing"
@@ -110,6 +118,7 @@
   event_name: Helvetic Ruby 2024
   published_at: "2024-05-17"
   description: ""
+  video_provider: youtube
   video_id: AxFBjiOZqO0
 
 - title: "Lightning Talk: On a mission for equality and diversity in tech"
@@ -119,6 +128,7 @@
   event_name: Helvetic Ruby 2024
   published_at: "2024-05-17"
   description: ""
+  video_provider: youtube
   video_id: 2tY3aEtInls
 
 - title: How to Accessibility if You’re Mostly Back-End
@@ -134,6 +144,7 @@
     In fact, there are multiple ways back-end devs can impact accessibility, both for external users and for colleagues.
 
     In this talk, we’ll walk through everything from APIs to specs to Ruby code to documentation, using examples throughout, to demonstrate how even those of us who rarely touch HTML can positively impact accessibility for all.
+  video_provider: youtube
   video_id: 4TQzELedOGI
 
 - title: "The Power of Crystal: A language for humans and computers"
@@ -153,4 +164,5 @@
     It can be a good asset for performance-critical applications and is very approachable for Rubyists
 
     Crystal is a joy to work with and having it in your toolbox is an asset, even when writing Ruby code.
+  video_provider: youtube
   video_id: XdOh82qLzZQ

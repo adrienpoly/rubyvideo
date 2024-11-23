@@ -20,6 +20,7 @@
     curious, available, and present. We’ll draw on examples of these mindsets from
     fields as varied as aviation and geology, and discover lessons we can apply to
     the world of software development.'
+  video_provider: youtube
   video_id: UcFBtBOo0dk
 
 - title: "Change the Climate Before Changing the Weather"
@@ -37,6 +38,7 @@
     weather. In this talk, we’ll discuss a process of systems change that is ground
     up, going from the micro to the macro. You’ll leave more empowered to start changing
     the climate in your own workplace.
+  video_provider: youtube
   video_id: OidmT2LhOdA
 
 - title: "Simulated Annealing: The Most Metal Algorithm Ever 🤘"
@@ -53,6 +55,7 @@
     In this talk I'll explain in plain terms about what simulated annealing is, what
     a constrained optimization problem is, why you might want a "good enough" solution,
     and how we can use the Annealing gem to add simulated annealing to our Ruby apps.
+  video_provider: youtube
   video_id: REMwU_dZ0ow
 
 - title: "Ruby Lambdas"
@@ -61,6 +64,7 @@
     - Keith Bennett
   event_name: RubyConf 2022
   published_at: "2022-11-13"
+  slides_url: https://speakerdeck.com/keithrbennett/2022-rubyconf-ruby-lambdas
   description:
     Object Oriented Design is powerful for organizing software behavior,
     but without the benefit of lambdas' code-as-data flexibility, it often fails to
@@ -70,6 +74,7 @@
     is cleaner, simpler, and more flexible. We'll go through lots of code fragments,
     exploring diverse ways of exploiting their power and identifying reusable functional
     design patterns along the way.
+  video_provider: youtube
   video_id: lxSoqjJSd38
 
 - title: "Building Native GUI Apps in Ruby"
@@ -87,6 +92,7 @@
     a gem that won a Fukuoka Ruby 2022 Special Award. In this talk, I will cover concepts
     like the GUI DSL, data-binding, custom controls, area graphics, drag & drop, MVC/MVP
     pattern, and scaffolding, with sample demos.
+  video_provider: youtube
   video_id: w3tOrHDbbFA
 
 - title: "In Defense of Ruby Metaprogramming"
@@ -103,6 +109,7 @@
     can do with the language. Plus, metaprogramming is fun. Let’s talk about when
     it makes sense to metaprogram, what parts of Ruby to use, and how to do it safely.
     You’ll leave with the tools to effectively metaprogram in your code.
+  video_provider: youtube
   video_id: o1XvgJoH_tE
 
 - title: "Pushing to master - adopting trunk based development"
@@ -117,6 +124,7 @@
     to higher quality code and faster delivery. So why are so many resistant to pushing
     to master? In this talk, we'll go over why TBD can be scary, what challenges are
     involved in pushing for team and company adoption, and how to overcome those challenges
+  video_provider: youtube
   video_id: 1sKFkV19XAc
 
 - title: "Improving the development experience with language servers"
@@ -132,6 +140,7 @@
     explore a modern way of enhancing editor functionality: the language server protocol
     (LSP). What it is, how to implement it and how an LSP server like the Ruby LSP
     can make writing Ruby even better."
+  video_provider: youtube
   video_id: zxdb-xCcHdE
 
 - title: "A Tale of Two Flamegraphs: Continuous Profiling in Ruby"
@@ -149,6 +158,7 @@
     get if rbspy and speedscope had a baby. We’ll start with the internals and end
     with an example of how two flamegraphs can be used to tell a story about your
     applications performance."
+  video_provider: youtube
   video_id: 8niNCkiF2Xo
 
 - title: "Everything a Microservice: The Worst Possible Intro to dRuby"
@@ -166,6 +176,7 @@
     standard library while we attempt to reach the illogical conclusion of today's
     hottest architecture trend. Be warned: those sitting in the first few rows may
     get poorly-marshaled data on them."
+  video_provider: youtube
   video_id: nrJP9Qr2AXQ
 
 - title: "1.5 is the Midpoint Between 0 and Infinity"
@@ -181,6 +192,7 @@
     tell you that 1.5 is the midpoint between 0 and infinity. In this talk, we'll
     discuss the binary search algorithm, IEEE 754 floating-point numbers, and a clever
     trick Ruby uses to perform binary search on floating-point ranges.
+  video_provider: youtube
   video_id: RQsH54GK85M
 
 - title: "Using JRuby: What, When, How, and Why"
@@ -195,6 +207,7 @@
     talk will teach you all about JRuby: what is it, when should you use it, how to
     get started and why it matters. Learn why Ruby shops around the world choose JRuby
     for world-class concurrency, GC, JIT, and cross-platform support."
+  video_provider: youtube
   video_id: zLX9o_cEen4
 
 - title: "Building a Commercial Game Engine using mRuby and SDL"
@@ -209,6 +222,7 @@
     Why is Ruby a viable option is to begin with? These questions and more will be
     answered by Amir. Be a part of this renaissance and see how Ruby can be used for
     so much more than server side web development.
+  video_provider: youtube
   video_id: YVcl1Oy6QFM
 
 - title: "Writing Ruby, just not in English!"
@@ -224,6 +238,7 @@
     don’t have English as their first language. I will also demo the tooling that
     I have developed, using which one can quickly create a new spoken language variant
     of Ruby and start programming in Spanish, Portuguese etc.
+  video_provider: youtube
   video_id: g8PgM5WGyhQ
 
 - title: "This Old App"
@@ -237,6 +252,7 @@
     old app? *Everything!* Let me show you how this old house renovation project proceeds,
     from planning to scheduling, demolition to finishing, and how every stage directly
     relates the lessons learned from app upgrades over the course of my career.
+  video_provider: youtube
   video_id: "-q9b5wlXr0c"
 
 - title: "Never again without a contract: dry-validation"
@@ -252,6 +268,7 @@
     Using dry-schema or dry-validation this part is a matter of a few lines of codes
     covering most of the cases you may find with the cherry-on-top: error handling
     out-of-the-box and if this not enough with optional pattern matching for results."
+  video_provider: youtube
   video_id: _lMw7guragc
 
 - title: "Boutique machine generated gems"
@@ -269,6 +286,7 @@
     ruby and docs for a popular gem. I'll show how to use this approach to keep gems
     up-to-date with fast-moving APIs, release new versions frequently, and provide
     an excellent developer experience.
+  video_provider: youtube
   video_id: aV1obsuDmjU
 
 - title: "The Power of 'No'"
@@ -285,6 +303,7 @@
     saying no is hard is the feeling or FOMO, or the Fear Of Missing Out. All of these
     are even harder if you're a person of color. But is that 'Yes' worth your peace
     of mind? This talk is about how knowing when to say no and how to do so.
+  video_provider: youtube
   video_id: q9Eoo5i6hmk
 
 - title: "Lightning Talks"
@@ -313,6 +332,7 @@
   event_name: RubyConf 2022
   published_at: "2022-11-13"
   description: ""
+  video_provider: youtube
   video_id: "-FM__GyT57Y"
 
 - title: "Ruby Central Panel"
@@ -326,6 +346,7 @@
   event_name: RubyConf 2022
   published_at: "2022-11-13"
   description: ""
+  video_provider: youtube
   video_id: 0ItWcBK7pTk
 
 - title: "Exit(ing) Through the YJIT"
@@ -343,6 +364,7 @@
     and how we built a tracer for them. We’ll explore the original implementation,
     how we rewrote it in Rust, and lastly why it’s so important to always ask "can
     I make what I built even better?"
+  video_provider: youtube
   video_id: EZEEl61bWSw
 
 - title: "Crocheting & Coding: they're more similar than you think!"
@@ -360,6 +382,7 @@
     crocheting has helped me become a better software developer. You’ll walk away
     inspired to connect your own hobbies to your role in tech or find a new creative
     hobby (like crochet)!
+  video_provider: youtube
   video_id: GOnW_586TiU
 
 - title: "Keynote: The Case Of The Vanished Variable - A Ruby Mystery Story"
@@ -376,6 +399,7 @@
     money up for grabs, a trip inside the walls of one of the Ruby community’s most
     revered institutions, and some broken code that appears to be much more simple
     than meets the eye.
+  video_provider: youtube
   video_id: HSgY9o4gIPE
 
 - title: "Eclectics Unite: Leverage Your Diverse Background"
@@ -393,6 +417,7 @@
     similar to test-driven development? How do I apply snowboard teaching principles
     to pair programming? Join me as I share my own story and explore ways you can
     leverage your diverse background.
+  video_provider: youtube
   video_id: NGQzBjDWo-A
 
 - title: "Keynote: Lost in the Wilderness"
@@ -409,6 +434,7 @@
     and is host of LeadDev's Bookmarked series. She's spoken at numerous events, is
     a contributor to Fast Company's Work Life section and writes the Suzan's Fieldnotes
     newsletter.
+  video_provider: youtube
   video_id: OqpBxSp-4FI
 
 - title: "How music works, using Ruby"
@@ -426,6 +452,7 @@
     ways of creating music, and making it sound good. Some of their methods have become
     industry staples used on every recording released today. Let''s look at what they
     do and reproduce some of their methods in Ruby!'
+  video_provider: youtube
   video_id: RAtDPFsk3hc
 
 - title: "The Magnitude 9.1 Meltdown at Fukushima"
@@ -443,6 +470,7 @@
     beyond any worse-case scenario they imagined, and their response is a study in
     contrasts. We can learn a lot from the extremes they experienced about finding
     happiness and satisfaction at work.
+  video_provider: youtube
   video_id: RGS0jBMniag
 
 - title: "Don't @ me! Faster Instance Variables with Object Shapes"
@@ -461,6 +489,7 @@
     to speed up getting and setting instance variables. We'll make sure to square
     up Ruby instance variable implementation details so that you can become a more
     well rounded developer!
+  video_provider: youtube
   video_id: ZaHd5MDJRBw
 
 - title: "scip-ruby - A Ruby indexer built with Sorbet"
@@ -477,6 +506,7 @@
     and how scip-ruby compares to IDEs and other online code navigation tools. Along
     the way, we will discuss how quintessential ideas like layering code into a functional
     core and an imperative shell apply to developer tools, and enable easier testing.
+  video_provider: youtube
   video_id: cfceVH_1H3Q
 
 - title: "Building an education savings platform, with Ruby!"
@@ -494,6 +524,7 @@
     structured (and the ethical considerations that can arise from that) - Responsibilities
     of engineers working in a non-profit space - Opportunities and challenges of digital
     products addressing systematic inequalities"
+  video_provider: youtube
   video_id: cmZKu-kyyio
 
 - title: "Static typing with RBS in Ruby"
@@ -511,6 +542,7 @@
     the two systems. There is lot of interoperability announced between Sorbet and
     RBS and we'll explore if it's practically possible to convert a sorbet annotated
     project to RBS.
+  video_provider: youtube
   video_id: iKJeKxf3Nck
 
 - title: "Helping Redistrict California with Ruby"
@@ -528,6 +560,7 @@
     unique design of the California redistricting commissioner application system,
     with 12 separate web server process types, isolated networks, 3-factor authentication,
     and other security features.
+  video_provider: youtube
   video_id: q5nke59IuAs
 
 - title: "Solidarity not Charity and Collective Liberation"
@@ -545,6 +578,7 @@
     of of tech folx built a fit-to-suit app to manage immediate needs and maximize
     impact of partner mutual aid groups. Wins were achieved. Lessons were learned.
     And the interconnectedness of all things was felt.
+  video_provider: youtube
   video_id: saPZ0Jh3UU0
 
 - title: 'What does "high priority" mean? The secret to happy queues'
@@ -562,6 +596,7 @@
     it all boils down to one thing: keeping latency low. In this talk I will present
     a latency-focused approach to managing your queues reliably, keeping your jobs
     flowing and your users happy."
+  video_provider: youtube
   video_id: w0Bl-5TDCC4
 
 - title: "RSpec: The Bad Parts"
@@ -577,6 +612,7 @@
     and more complex. We'll discuss when DRY is not worth the price and how we can
     avoid repetition without using RSpec's built-in DSL methods. In the end, we'll
     look at what's left. RSpec: The Good Parts."
+  video_provider: youtube
   video_id: _UFE0t2Sgaw
 
 - title: "Data indexing with RGB (Ruby, Graphs and Bitmaps)"
@@ -594,6 +630,7 @@
     connecting semantically equal nodes. Then delve into how a query layer was used
     to index a bitmap store and, in turn, led to us being able to interrogate our
     entire dataset orders of magnitude faster than before.
+  video_provider: youtube
   video_id: FwBRoxrHaBU
 
 - title: "Bending Time with Crystal: 6 hours to 15 minutes"
@@ -609,6 +646,7 @@
     existing Ruby knowledge, to create effective tools with minimal learning curve
     and cognitive overhead. I'll demonstrate how easily Ruby code can be ported to
     Crystal, how it can benefit us, and how to identify these opportunities.
+  video_provider: youtube
   video_id: 6MpXSrgBVww
 
 - title: "Splitting: the Crucial Optimization for Ruby Blocks"
@@ -626,6 +664,7 @@
     and what it does is using different copies of a method and specialize them to
     the block given at different call sites. This enables compiling the method and
     the block together for the best performance.
+  video_provider: youtube
   video_id: PjUpcR5UPHI
 
 - title: "Building Stream Processing Applications with Ruby & Meroxa"
@@ -641,6 +680,7 @@
     paradigms, as well as deploying and operating a constellation of complex services.
     In this talk, we’ll take a look at how to use the Turbine framework (turbine.rb)
     to build and deploy real-time stream processing applications using Ruby.
+  video_provider: youtube
   video_id: 6bHZQy0Ti_c
 
 - title: "Boot the backlog: Optimizing your workflow for dev happiness"
@@ -660,6 +700,7 @@
     the Shape Up approach to project management. This talk explores the core elements
     of that approach and ways to optimize developer happiness while delivering more
     value for users.
+  video_provider: youtube
   video_id: BB_GjUIA06c
 
 - title: "Business in the Front, Party in the Back (Office)"
@@ -678,6 +719,7 @@
     show how to build a back office interface for a Ruby on Rails application using
     Postgres and several common API services, so you can keep your focus on the business
     in the front, and let Retool help throw the party in the back (office).
+  video_provider: youtube
   video_id: GSBhVVWycvU
 
 - title: "Analyzing an analyzer - A dive into how RuboCop works"
@@ -694,6 +736,7 @@
     good at taking Ruby code as input and doing various things based on that input.
     In this talk, I will go through some of the internals of Rubocop to show how it
     analyzes and makes changes to your source code.
+  video_provider: youtube
   video_id: pSCMgcttW4c
 
 - title: "Ruby Archaeology: Forgotten web frameworks"
@@ -711,6 +754,7 @@
     \n* merb \n\nWe will answer questions like: \n* Why are fewer people experimenting
     with their own frameworks today? \n* What features, idioms and ideas are worth
     exploring? \n* Are any of these frameworks worth reviving or copying?"
+  video_provider: youtube
   video_id: oXHgNh6DcSI
 
 - title: "Ruby's Core Gem"
@@ -727,6 +771,7 @@
     What other benefits could there be? It was originally Rubinius that implemented
     Ruby’s core in Ruby, and it has been taken up and maintained by the TruffleRuby
     team.
+  video_provider: youtube
   video_id: 8mqDIHer1G4
 
 - title: "I'm in love with Mermaid"
@@ -742,6 +787,7 @@
     compatible graphing tool that allows you to add diagrams directly to your markdown
     in github. I have been using it for a a year and just love it. I believe that
     you will love it too once you join my session.
+  video_provider: youtube
   video_id: iFXomx3QLM4
 
 - title: "Discover Machine Learning in Ruby"
@@ -758,6 +804,7 @@
     Computer Vision is something that brings me great joy as it delivers satisfying
     visual feedback and connects our code with the real world through images and videos
     in a way that wasn’t accessible until the last decade or so.
+  video_provider: youtube
   video_id: HPbizNgcyFk
 
 - title: "Staff Engineer: “Here be dragons”"
@@ -771,6 +818,7 @@
     in medieval times. Today, while the journey to become a Senior Engineer is known
     territory, being a Staff Engineer appears full of dragons. Together, let’s demystify
     what leading beyond the management track really means."
+  video_provider: youtube
   video_id: _7DOSoXICMo
 
 - title: "Working Together: Pairing as Senior and Junior Developers"
@@ -788,4 +836,5 @@
     a mentor. I will recommend practical tips and positive habits, as well as ways
     of thinking that can improve your experience pairing and help you become a better
     developer.
+  video_provider: youtube
   video_id: pvl1HPFqRdk

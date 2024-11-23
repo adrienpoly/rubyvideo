@@ -1,4 +1,5 @@
 class Talks::RecommendationsController < ApplicationController
+  include WatchedTalks
   skip_before_action :authenticate_user!
   before_action :set_talk, only: %i[index]
 

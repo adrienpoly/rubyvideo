@@ -1,5 +1,6 @@
 class TalksController < ApplicationController
   include Pagy::Backend
+  include WatchedTalks
   skip_before_action :authenticate_user!
   before_action :set_talk, only: %i[show edit update]
   before_action :set_user_favorites, only: %i[index show]
@@ -9,8 +10,8 @@ class TalksController < ApplicationController
     if params[:q].present?
       talks = Talk.with_essential_card_data.pagy_search(params[:q])
       @pagy, @talks = pagy_meilisearch(talks, limit: 20, page: params[:page]&.to_i || 1)
-    elsif params[:query].present?
-      @pagy, @talks = pagy(Talk.with_essential_card_data.ft_search(params[:query]).with_snippets.ranked, items: 20, page: params[:page]&.to_i || 1)
+    elsif params[:s].present?
+      @pagy, @talks = pagy(Talk.with_essential_card_data.ft_search(params[:s]).with_snippets.ranked, items: 20, page: params[:page]&.to_i || 1)
     else
       @pagy, @talks = pagy(Talk.all.with_essential_card_data.order(date: :desc), items: 20)
     end
@@ -19,7 +20,6 @@ class TalksController < ApplicationController
   # GET /talks/1
   def show
     set_meta_tags(@talk)
-    fresh_when(@talk)
   end
 
   # GET /talks/1/edit
@@ -40,7 +40,7 @@ class TalksController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_talk
-    @talk = Talk.includes(:speakers, :approved_topics).find_by(slug: params[:slug])
+    @talk = Talk.includes(:approved_topics, speakers: :user, event: :organisation).find_by(slug: params[:slug])
     return redirect_to talks_path, status: :moved_permanently if @talk.blank?
 
     @related_talks = @talk.event.talks.with_essential_card_data.order(date: :desc)

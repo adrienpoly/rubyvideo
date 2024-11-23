@@ -1,4 +1,5 @@
 class WatchListsController < ApplicationController
+  include WatchedTalks
   before_action :authenticate_user!
   before_action :set_watch_list, only: [:show, :edit, :update, :destroy]
 

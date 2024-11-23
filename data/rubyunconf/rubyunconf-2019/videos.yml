@@ -13,6 +13,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: I9aip9qoXew
 
 # emacs Track
@@ -23,6 +24,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: bNg6zMiOOR8
 
 # vim Track
@@ -33,6 +35,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: cQPTF7zERvk
 
 # emacs Track
@@ -43,6 +46,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: ojW-q_wiSn8
 
 # vim Track
@@ -53,6 +57,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: jRByM1rZLXM
 
 # emacs Track
@@ -63,6 +68,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: OY5AeGhgK7I
 
 # vim Track
@@ -73,6 +79,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: mJkzMoEd_Wo
 
 # emacs Track
@@ -83,6 +90,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: 6gOV6WbvksQ
 
 # vim Track
@@ -96,6 +104,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: YAZC8NEJQ_w
 
 # vim Track
@@ -106,6 +115,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: XSrYfXDoXNc
 
 # emacs Track
@@ -116,6 +126,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-25"
   description: ""
+  video_provider: youtube
   video_id: Rg5nPwgIo90
 
 # vim Track
@@ -131,6 +142,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: 5FUrNaoEImI
 
 # vim Track
@@ -141,6 +153,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: m3HpNs-_MVI
 
 # emacs Track
@@ -151,6 +164,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: AFw9__q0Weg
 
 # vim Track
@@ -161,6 +175,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: "-fVabmi8C-I"
 
 # emacs Track
@@ -171,6 +186,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: lGDETbe0b6w
 
 # vim Track
@@ -181,6 +197,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: HqzSLVOwdnY
 
 # emacs Track
@@ -191,6 +208,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: ghs6uoPAuMQ
 
 # vim Track
@@ -201,6 +219,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: mQignvxjVXY
 
 # emacs Track
@@ -211,6 +230,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: JHY3EstvTkM
 
 # emacs Track
@@ -221,6 +241,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: L7NGTA00nVA
 
 # emacs Track
@@ -231,6 +252,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: w-D4J9RYDKA
 
 # emacs Track
@@ -241,6 +263,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: YA_Svfd436I
 
 # emacs Track
@@ -251,6 +274,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: i0BYyKSFkG8
 
 # emacs Track
@@ -261,16 +285,18 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: 7rSfgAn8auA
 
 # emacs Track
 - title: "Lightning Talk: Go, The Programming Language, Not the Game"
   raw_title: "Lightning Talk 7 @ Ruby Unconf 2019: Go, The Programming Language, Not the Game"
   speakers:
-    - Unknown
+    - TODO
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: a_M7WsUdquk
 
 # emacs Track
@@ -281,6 +307,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: FF7Il5T3MKQ
 
 # emacs Track
@@ -291,6 +318,7 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: mmdLC_K8JyE
 
 # emacs Track
@@ -301,4 +329,5 @@
   event_name: Ruby Unconf 2019
   published_at: "2019-05-26"
   description: ""
+  video_provider: youtube
   video_id: TPy7LqZrLHQ

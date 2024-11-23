@@ -1,9 +1,9 @@
-<div class="w-full lg:h-92 p-4 lg:p-16 border rounded-[25px] lg:rounded-[50px] mt-12 text-center lg:text-left" style="view-transition-name: hero; background-color: <%= event.featured_background %>; color: <%= event.featured_color %>">
+<div class="w-full lg:h-92 p-4 lg:p-16 border rounded-[25px] lg:rounded-[50px] text-center lg:text-left" style="background: <%= event.featured_background %>; color: <%= event.featured_color %>">
   <a href="<%= event_path(event) %>">
     <div class="lg:grid grid-cols-[1fr_2fr]">
       <div>
         <div class="flex justify-center mb-9">
-          <%= image_tag event.featured_image_path, class: "max-h-24 lg:max-h-none", style: "view-transition-name: avatar", loading: "lazy" %>
+          <%= image_tag event.featured_image_path, class: "w-1/2 max-h-none lg:w-full", loading: "lazy", width: 615, height: 350, alt: event.name %>
         </div>
 
         <div class="flex flex-col gap-3 lg:h-48 lg:max-h-48 overflow-hidden items-center lg:items-start">
@@ -34,7 +34,7 @@
             <% end %>
 
             <% if event.keynote_speakers.none? %>
-              <% speakers_with_avatars.sample(4).each do |speaker| %>
+              <% speakers_with_avatars.first(4).each do |speaker| %>
                 <% shown_speakers << speaker %>
 
                 <div class="avatar bg-white">
@@ -52,7 +52,7 @@
             <% remaining_speakers = speakers_with_avatars - shown_speakers %>
 
             <% if remaining_speakers.any? %>
-              <% remaining_speakers.sample(10).each do |speaker| %>
+              <% remaining_speakers.first(10).each do |speaker| %>
                 <% shown_speakers << speaker %>
 
                 <div class="avatar bg-white">
