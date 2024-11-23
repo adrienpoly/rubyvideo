@@ -4,14 +4,14 @@
   <%= link_to back_path do %>
     <div class="flex items-center gap-2 title text-primary">
       <%= heroicon :arrow_long_left, class: "transition-arrow" %>
-      <div style="view-transition-name: title"><%= back_to_title %></div>
+      <div><%= back_to_title %></div>
     </div>
   <% end %>
   <div class="flex items-center gap-2 title text-primary">
     <h1 class="mb-4" style="view-transition-name: title"><%= @topic.name %></h1>
   </div>
   <% if Current.user&.admin? %>
-    <%= turbo_frame_tag "talks", src: talks_path(topic: @topic.slug), target: "_top" %>
+    <%= turbo_frame_tag "talks", src: talks_path(topic: @topic.slug, back_to: request.fullpath, back_to_title: @topic.name), target: "_top" %>
   <% else %>
     <div id="topic-talks" class="grid min-w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 gallery">
       <%= render partial: "talks/card",
