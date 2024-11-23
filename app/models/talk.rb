@@ -374,7 +374,7 @@ class Talk < ApplicationRecord
         :fishbowl
       when /.*(podcast:|podcast\ recording:|live\ podcast:).*/i
         :podcast
-      when /.*(q&a|q&a:|ama|q&a\ with).*/i
+      when /.*(q&a|q&a:|ama|q&a\ with|ruby\ committers\ vs\ the\ world|ruby\ committers\ and\ the\ world).*/i
         :q_and_a
       when /.*(discussion:|discussion).*/i
         :discussion
