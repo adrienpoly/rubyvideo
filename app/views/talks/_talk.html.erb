@@ -24,7 +24,7 @@
       <% end %>
 
     <% else %>
-      <% if talk.video_provider.in?(["mp4", "youtube", "not_recorded"]) %>
+      <% if talk.video_provider.in?(["mp4", "youtube", "scheduled", "not_recorded"]) %>
         <%= render partial: "talks/video_providers/#{talk.video_provider}", locals: {talk: talk} %>
       <% else %>
         Provider <%= talk.video_provider.inspect %> is not configured.
@@ -40,7 +40,7 @@
         </div>
 
         <div class="flex gap-1">
-          <% if signed_in? %>
+          <% if signed_in? && !talk.scheduled? %>
             <%= turbo_frame_tag dom_id(talk, :watched_talk) do %>
               <% if talk.watched? %>
                 <div class="tooltip tooltip-top" data-tip="Mark talk as unwatched">
@@ -119,7 +119,7 @@
         </div>
 
         <div class="hidden 2xl:block">
-          <%= render partial: "talks/event", locals: {event: talk.event, talk: talk} %>
+          <%= render partial: "talks/event", locals: {event: talk.event, talk: talk, future: talk.date.try(:future?) || false} %>
         </div>
       </div>
     </div>
