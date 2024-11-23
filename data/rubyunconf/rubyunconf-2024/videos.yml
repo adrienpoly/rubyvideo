@@ -9,7 +9,15 @@
 
 # Proposals & Voting
 
-# TODO: Missing Talk: Eileen M. Uchitelle - Keynote
+- title: Keynote
+  raw_title: Keynote
+  speakers:
+    - Eileen M. Uchitelle
+  event_name: Ruby Unconf 2024
+  published_at: "2024-06-08"
+  description: ""
+  video_provider: not_recorded
+  video_id: eileen-m-uchitelle-ruby-unconf-2024
 
 - title: Laziness Driven Development
   raw_title: Laziness driven development by Alexander Sulim
@@ -44,13 +52,29 @@
   description: ""
   video_id: KuocghIxvFE
 
-# TODO: Missing Talk: Nina Siessegger - When software development teams grow too big - learnings from slicing teams
+- title: When Software Development Teams Grow Too Big - Learnings From Slicing Teams
+  raw_title: Nina Siessegger - When software development teams grow too big - learnings from slicing teams
+  speakers:
+    - Nina Siessegger
+  event_name: Ruby Unconf 2024
+  published_at: "2024-06-08"
+  description: ""
+  video_provider: not_recorded
+  video_id: nina-siessegger-ruby-unconf-2024
 
 # Family Photo
 
 # Coffee & Cake
 
-# TODO: Missing Talk: Joschka Schulz - From Pico Ruby to Twitch
+- title: From Pico Ruby to Twitch
+  raw_title: Joschka Schulz - From Pico Ruby to Twitch
+  speakers:
+    - Joschka Schulz
+  event_name: Ruby Unconf 2024
+  published_at: "2024-06-08"
+  description: ""
+  video_provider: not_recorded
+  video_id: joschka-schulz-ruby-unconf-2024
 
 - title: "Panel: How To Find a Job as a Ruby Developer"
   raw_title: Panel   How to find a job as a ruby developer by Iratxe and Nina
@@ -65,9 +89,13 @@
   description: ""
   video_id: sCfVTYgSKVg
 
-# Party
+# Party at haekken
 
 ## Day 2 - 2024-06-09
+
+# Breakfast
+
+# Votings
 
 - title: Refactoring Code I Hate
   raw_title: Refactoring code I hate by Simon Kaleschke
@@ -78,7 +106,15 @@
   description: ""
   video_id: IKlKOhN9NQE
 
-# TODO: Missing Talk: Jan Krutisch - Back to the BASICs
+- title: Back to the BASICs
+  raw_title: Jan Krutisch - Back to the BASICs
+  speakers:
+    - Jan Krutisch
+  event_name: Ruby Unconf 2024
+  published_at: "2024-06-09"
+  description: ""
+  video_provider: not_recorded
+  video_id: jan-krutisch-ruby-unconf-2024
 
 # Lunch
 
@@ -99,8 +135,17 @@
   published_at: "2024-06-09"
   description: ""
   video_id: qgHm6EFm-Eg
+
 # Coffeebreak
 
-# TODO: Missing Talk: Lightning Talks
+- title: Lightning Talks
+  raw_title: Lightning Talks
+  speakers:
+    - TODO
+  event_name: Ruby Unconf 2024
+  published_at: "2024-06-09"
+  description: ""
+  video_provider: not_recorded
+  video_id: lightning-talks-ruby-unconf-2024
 
 # Closing
