@@ -7,14 +7,13 @@ class TalksController < ApplicationController
 
   # GET /talks
   def index
-    if params[:q].present?
-      talks = Talk.with_essential_card_data.pagy_search(params[:q])
-      @pagy, @talks = pagy_meilisearch(talks, limit: 20, page: params[:page]&.to_i || 1)
-    elsif params[:s].present?
-      @pagy, @talks = pagy(Talk.with_essential_card_data.ft_search(params[:s]).with_snippets.ranked, items: 20, page: params[:page]&.to_i || 1)
-    else
-      @pagy, @talks = pagy(Talk.all.with_essential_card_data.order(date: :desc), items: 20)
-    end
+    @talks = Talk.with_essential_card_data.order(order_by)
+    @talks = @talks.ft_search(params[:s]).with_snippets.ranked if params[:s].present?
+    @talks = @talks.for_topic(params[:topic]) if params[:topic].present?
+    @talks = @talks.for_event(params[:event]) if params[:event].present?
+    @talks = @talks.for_speaker(params[:speaker]) if params[:speaker].present?
+    @talks = @talks.where(kind: talk_kind) if talk_kind.present?
+    @pagy, @talks = pagy(@talks, items: 20, page: params[:page]&.to_i || 1)
   end
 
   # GET /talks/1
@@ -37,6 +36,23 @@ class TalksController < ApplicationController
   end
 
   private
+
+  def order_by
+    order_by_options = {
+      "date_desc" => "talks.date DESC",
+      "date_asc" => "talks.date ASC"
+    }
+
+    @order_by ||= begin
+      order = params[:order_by].presence_in(order_by_options.keys) || "date_desc"
+
+      order_by_options[order]
+    end
+  end
+
+  def talk_kind
+    @talk_kind ||= params[:kind].presence_in(Talk.kinds.keys)
+  end
 
   # Use callbacks to share common setup or constraints between actions.
   def set_talk
