@@ -29,18 +29,7 @@
     </div>
 
     <div class="w-full">
-      <div id="talks" class="min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 h-full sm:p-4">
-        <%= render partial: "talks/card",
-              collection: @talks,
-              as: :talk,
-              locals: {
-                favoritable: true,
-                user_favorite_talks_ids: @user_favorite_talks_ids,
-                watched_talks_ids: user_watched_talks_ids,
-                back_to: request.fullpath,
-                back_to_title: @speaker.name
-              } %>
-      </div>
+      <%= turbo_frame_tag "grid-talks", src: talks_path(speaker: @speaker.slug, back_to: request.fullpath, back_to_title: @speaker.name), target: "_top" %>
     </div>
   </div>
 
