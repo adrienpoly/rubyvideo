@@ -24,7 +24,7 @@
       <% end %>
 
     <% else %>
-      <% if talk.video_provider.in?(["mp4", "youtube", "scheduled", "not_recorded"]) %>
+      <% if talk.video_provider.in?(["mp4", "youtube", "scheduled", "not_published", "not_recorded"]) %>
         <%= render partial: "talks/video_providers/#{talk.video_provider}", locals: {talk: talk} %>
       <% else %>
         Provider <%= talk.video_provider.inspect %> is not configured.
