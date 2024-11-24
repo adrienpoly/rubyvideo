@@ -18,6 +18,6 @@ module Analytics
   end
 
   def track_action
-    ahoy.track "#{controller_path}##{action_name}", request.path_parameters
+    ahoy.track "#{controller_path}##{action_name}", request.params
   end
 end
