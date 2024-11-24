@@ -565,3 +565,15 @@
   slug: rails-saas-conference
   language: english
   youtube_channel_id: UCUG1xcJO0Dn571ftzgPpLPw
+
+- name: RubyConf MY
+  website: https://rubyconf.my
+  twitter: rubyconfmy
+  kind: conference
+  frequency: yearly
+  playlist_matcher: RubyConf MY
+  default_country_code: MY
+  youtube_channel_name: rubyconfmy138
+  slug: rubyconf-my
+  language: english
+  youtube_channel_id: UCtayOVyGOpjYCcNzVCgR0Xg
