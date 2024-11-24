@@ -26,12 +26,11 @@ class TopicsControllerTest < ActionDispatch::IntegrationTest
     get topic_url(@topic1)
     assert_response :success
     assert_select "h1", @topic1.name
-    assert_select "#topic-talks > div", 1
-    assert_select "##{dom_id(@talk)} h2", @talk.title
+    assert_select "turbo-frame#grid-talks", 1
 
     get topic_url(@topic2)
     assert_response :success
     assert_select "h1", @topic2.name
-    assert_select "#topic-talks > div", 0
+    assert_select "turbo-frame#grid-talks", 1
   end
 end
