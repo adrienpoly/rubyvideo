@@ -33,6 +33,10 @@
         <h2 class="text-center mb-4">Top landing pages</h2>
         <div class="bg-gray-300 rounded-lg animate-pulse h-[300px]"></div>
       <% end %>
+      <%= turbo_frame_tag "top_searches", src: top_searches_analytics_dashboards_path, lazy: true do %>
+        <h2 class="text-center mb-4">Top searches</h2>
+        <div class="bg-gray-300 rounded-lg animate-pulse h-[300px]"></div>
+      <% end %>
     <% end %>
 
     <%= turbo_frame_tag "yearly_talks", src: yearly_talks_analytics_dashboards_path, lazy: true do %>
