@@ -4,7 +4,7 @@
 <% watched = watched_talks_ids.include?(talk.id) %>
 
 <%= link_to talk_path(talk),
-      class: class_names("w-full flex items-center gap-4 p-2 rounded-lg hover:bg-gray-200 group", active: active, watched: watched, not_recorded: talk.not_recorded?, scheduled: talk.scheduled?),
+      class: class_names("w-full flex items-center gap-4 p-2 rounded-lg hover:bg-gray-200 group", active: active, watched: watched, not_recorded: talk.not_recorded?, scheduled: talk.scheduled?, not_published: talk.not_published?),
       id: dom_id(talk, :card_horizontal),
       data: {talk_horizontal_card: true,
              scroll_into_view_target: (active ? "active" : nil),
@@ -26,6 +26,10 @@
 
     <div class="absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.not\_recorded]:flex group-[.watched]:hidden group-[.active]:hidden">
       <%= fa("video-slash", size: :sm, class: "fill-white") %>
+    </div>
+
+    <div class="absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.not\_published]:flex group-[.watched]:hidden group-[.active]:hidden">
+      <%= fa("upload", size: :sm, class: "fill-white") %>
     </div>
 
     <div class="absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.scheduled]:flex group-[.active]:hidden">
