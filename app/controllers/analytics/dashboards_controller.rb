@@ -66,8 +66,8 @@ class Analytics::DashboardsController < ApplicationController
   end
 
   def top_searches
-    # @top_searches = Rails.cache.fetch("top_searches", expires_at: Time.current.end_of_day) do
-      @top_searches = Ahoy::Event
+    @top_searches = Rails.cache.fetch("top_searches", expires_at: Time.current.end_of_day) do
+      Ahoy::Event
         .where("date(time) BETWEEN ? AND ?", 60.days.ago.to_date, Time.current)
         .where(name: "talks#index")
         .pluck(:properties)
@@ -76,8 +76,7 @@ class Analytics::DashboardsController < ApplicationController
         .tally
         .sort_by { |_, count| -count }
         .first(10)
-    # end
-    @top_searches
+    end
   end
 
   private
