@@ -577,3 +577,15 @@
   slug: rubyconf-my
   language: english
   youtube_channel_id: UCtayOVyGOpjYCcNzVCgR0Xg
+
+- name: WNB.rb Meetup
+  website: https://wnb-rb.dev
+  twitter: wnb_rb
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: WNB.rb
+  default_country_code: ''
+  youtube_channel_name: wnbrb
+  slug: wnb-rb
+  language: english
+  youtube_channel_id: UCZRVIPB8yQZpFZ-MnGuZMrg
