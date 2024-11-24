@@ -88,14 +88,15 @@
   video_provider: not_recorded
   description: "Nobody wants to inherit a project that reeks but here we are: Stuck in the tar pit. How did we get here? In this talk you will learn how to use a few, great Ruby gems that will guide you out of that sticky tar you are in."
 
-- title: "Talk by Tom Rossi"
+- title: "Are you my mother?"
   raw_title: "Sin City Ruby 2024 - Talk by Tom Rossi"
   published_at: "2024-03-22"
   speakers:
     - Tom Rossi
   video_id: "sin-city-ruby-2024-tom-rossi"
   video_provider: not_recorded
-  description: "Talk by Tom Rossi at Sin City Ruby 2024."
+  description: |-
+    This session explores the "Rails family trees," examining how classes in Rails share behaviors and attributes through inheritance, modules, single table inheritance, and delegated types. It provides practical guidance on determining the best approach for your application while highlighting common pitfalls to avoid.
 
 - title: "Seven deadly Rails anti-patterns"
   raw_title: "Sin City Ruby 2024 - Talk by Vladimir Dementyev"
