@@ -9,7 +9,7 @@
       <% end %>
     </h1>
   </div>
-  <%= turbo_frame_tag "talks", target: "_top" do %>
+  <%= turbo_frame_tag "grid-talks", target: "_top" do %>
     <div id="talks" class="grid min-w-full grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gallery">
       <%= render partial: "talks/card",
             collection: @talks,
@@ -21,8 +21,15 @@
               back_to_title: params[:back_to_title]
             } %>
     </div>
-    <div class="flex mt-4 w-full">
-      <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
-    </div>
+
+    <% if @pagy.next.present? %>
+      <% allowed_params = params.permit(:s, :topic, :event, :speaker, :kind, :order_by) %>
+      <%= turbo_frame_tag :pagination,
+                          data: {
+                            controller: "lazy-loading",
+                            lazy_loading_src_value: talks_path(allowed_params.merge(page: @pagy.next, format: :turbo_stream))
+                          } %>
+    <% end %>
   <% end %>
+
 </div>

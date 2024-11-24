@@ -1,0 +1,22 @@
+<%= turbo_stream.append "talks" do %>
+  <%= render partial: "talks/card",
+            collection: @talks,
+            as: :talk,
+            locals: {
+              favoritable: true,
+              user_favorite_talks_ids: @user_favorite_talks_ids,
+              back_to: params[:back_to] || request.fullpath,
+              back_to_title: params[:back_to_title]
+            } %>
+<% end %>
+
+<% if @pagy.next.present? %>
+  <%= turbo_stream.replace "pagination" do %>
+    <% allowed_params = params.permit(:s, :topic, :event, :speaker, :kind, :order_by) %>
+    <%= turbo_frame_tag :pagination,
+                        data: {
+                          controller: "lazy-loading",
+                          lazy_loading_src_value: talks_path(allowed_params.merge(page: @pagy.next, format: :turbo_stream))
+                        } %>
+  <% end %>
+<% end %>
