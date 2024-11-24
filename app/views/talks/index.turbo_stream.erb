@@ -11,12 +11,23 @@
 <% end %>
 
 <% if @pagy.next.present? %>
-  <%= turbo_stream.replace "pagination" do %>
-    <% allowed_params = params.permit(:s, :topic, :event, :speaker, :kind, :order_by) %>
-    <%= turbo_frame_tag :pagination,
-                        data: {
-                          controller: "lazy-loading",
-                          lazy_loading_src_value: talks_path(allowed_params.merge(page: @pagy.next, format: :turbo_stream))
-                        } %>
+  <% infinite_count = params[:infinite_count].to_i + 1 %>
+  <% allowed_params = params.permit(:s, :topic, :event, :speaker, :kind, :order_by) %>
+  <% if infinite_count > 2 %>
+    <%= turbo_stream.update "pagination" do %>
+      <div class="flex justify-center w-full pt-8 pb-4">
+        <%= link_to "Load more", talks_path(allowed_params.merge(page: @pagy.next, format: :turbo_stream, infinite_count: 0)),
+                    class: "btn btn-primary btn-outline",
+                    data: {turbo_prefetch: false} %>
+      </div>
+    <% end %>
+  <% else %>
+    <%= turbo_stream.replace "pagination" do %>
+      <%= turbo_frame_tag :pagination,
+                          data: {
+                            controller: "lazy-loading",
+                            lazy_loading_src_value: talks_path(allowed_params.merge(page: @pagy.next, format: :turbo_stream, infinite_count: infinite_count))
+                          } %>
+    <% end %>
   <% end %>
 <% end %>

@@ -27,7 +27,7 @@
       <%= turbo_frame_tag :pagination,
             data: {
               controller: "lazy-loading",
-              lazy_loading_src_value: talks_path(allowed_params.merge(page: @pagy.next, format: :turbo_stream))
+              lazy_loading_src_value: talks_path(allowed_params.merge(page: @pagy.next, format: :turbo_stream, infinite_count: 1))
             } %>
     <% end %>
   <% end %>
