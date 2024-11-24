@@ -25,10 +25,10 @@
     <% if @pagy.next.present? %>
       <% allowed_params = params.permit(:s, :topic, :event, :speaker, :kind, :order_by) %>
       <%= turbo_frame_tag :pagination,
-                          data: {
-                            controller: "lazy-loading",
-                            lazy_loading_src_value: talks_path(allowed_params.merge(page: @pagy.next, format: :turbo_stream))
-                          } %>
+            data: {
+              controller: "lazy-loading",
+              lazy_loading_src_value: talks_path(allowed_params.merge(page: @pagy.next, format: :turbo_stream))
+            } %>
     <% end %>
   <% end %>
 
