@@ -40,6 +40,7 @@ Rails.application.routes.draw do
       get :top_referrers
       get :top_landing_pages
       get :yearly_talks
+      get :top_searches
     end
   end
   resources :talks, param: :slug, only: [:index, :show, :update, :edit] do

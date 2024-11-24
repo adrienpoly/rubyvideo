@@ -1,6 +1,6 @@
 class Analytics::DashboardsController < ApplicationController
   skip_before_action :authenticate_user!
-  before_action :admin_required, only: %i[top_referrers top_landing_pages]
+  before_action :admin_required, only: %i[top_referrers top_landing_pages top_searches]
 
   def daily_visits
     @daily_visits = Rails.cache.fetch("daily_visits", expires_at: Time.current.end_of_day) do
@@ -63,6 +63,21 @@ class Analytics::DashboardsController < ApplicationController
         .sort_by { |_, count| -count }
         .first(10)
     end
+  end
+
+  def top_searches
+    # @top_searches = Rails.cache.fetch("top_searches", expires_at: Time.current.end_of_day) do
+      @top_searches = Ahoy::Event
+        .where("date(time) BETWEEN ? AND ?", 60.days.ago.to_date, Time.current)
+        .where(name: "talks#index")
+        .pluck(:properties)
+        .map { |properties| properties["s"] }
+        .compact
+        .tally
+        .sort_by { |_, count| -count }
+        .first(10)
+    # end
+    @top_searches
   end
 
   private
