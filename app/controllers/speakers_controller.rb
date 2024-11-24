@@ -24,7 +24,6 @@ class SpeakersController < ApplicationController
 
   # GET /speakers/1
   def show
-    @talks = @speaker.talks.with_essential_card_data.order(date: :desc)
     @back_path = speakers_path
     set_meta_tags(@speaker)
   end
@@ -56,7 +55,7 @@ class SpeakersController < ApplicationController
   end
 
   def set_speaker
-    @speaker = Speaker.includes(:talks).find_by!(slug: params[:slug])
+    @speaker = Speaker.find_by!(slug: params[:slug])
     redirect_to speaker_path(@speaker.canonical) if @speaker.canonical.present?
   end
 
