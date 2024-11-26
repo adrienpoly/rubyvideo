@@ -11,9 +11,14 @@
     </div>
 
     <div>
-      <div class="font-bold text-base line-clamp-1">
-        <%= speaker.name %>
+      <div class="font-bold text-base line-clamp-1 flex items-center gap-1.5">
+        <span class="line-clamp-1"><%= speaker.name %></span>
+
+        <% if speaker.verified? %>
+          <%= fa("badge-check", class: "fill-blue-500", size: :xs) %>
+        <% end %>
       </div>
+
       <div class="text-xs text-gray-500 line-clamp-1">
         <% if speaker.github.present? %>
           <%= "@#{speaker.github}" %>

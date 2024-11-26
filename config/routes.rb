@@ -37,19 +37,33 @@ Rails.application.routes.draw do
       get :daily_visits
       get :monthly_page_views
       get :monthly_visits
+      get :top_referrers
+      get :top_landing_pages
       get :yearly_talks
+      get :top_searches
     end
   end
   resources :talks, param: :slug, only: [:index, :show, :update, :edit] do
     scope module: :talks do
       resources :recommendations, only: [:index]
+      resource :watched_talk, only: [:create, :destroy]
     end
   end
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
-  resources :events, param: :slug, only: [:index, :show, :update, :edit]
+  resources :events, param: :slug, only: [:index, :show, :update, :edit] do
+    scope module: :events do
+      resources :talks, only: [:index]
+    end
+  end
   resources :organisations, param: :slug, only: [:index, :show]
   namespace :speakers do
     resources :enhance, only: [:update], param: :slug
+  end
+
+  namespace "spotlight" do
+    resources :talks, only: [:index]
+    resources :speakers, only: [:index]
+    resources :events, only: [:index]
   end
 
   get "/featured" => "page#featured"

@@ -13,18 +13,12 @@ class OrganisationsController < ApplicationController
     set_meta_tags(@organisation)
 
     @events = @organisation.events.order(date: :desc)
-
-    if @events.first.featurable?
-      @featured_event, *@remaning_events = @events
-    else
-      @remaning_events = @events
-    end
   end
 
   private
 
   # Use callbacks to share common setup or constraints between actions.
   def set_organisation
-    @organisation = Organisation.find_by!(slug: params[:slug])
+    @organisation = Organisation.includes(:events).find_by!(slug: params[:slug])
   end
 end

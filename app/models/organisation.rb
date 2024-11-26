@@ -4,18 +4,25 @@
 # Table name: organisations
 #
 #  id                   :integer          not null, primary key
-#  name                 :string           default(""), not null
 #  description          :text             default(""), not null
+#  frequency            :integer          default("unknown"), not null, indexed
+#  kind                 :integer          default("conference"), not null, indexed
+#  language             :string           default(""), not null
+#  name                 :string           default(""), not null, indexed
+#  slug                 :string           default(""), not null, indexed
+#  twitter              :string           default(""), not null
 #  website              :string           default(""), not null
-#  kind                 :integer          default("conference"), not null
-#  frequency            :integer          default("unknown"), not null
+#  youtube_channel_name :string           default(""), not null
 #  created_at           :datetime         not null
 #  updated_at           :datetime         not null
 #  youtube_channel_id   :string           default(""), not null
-#  youtube_channel_name :string           default(""), not null
-#  slug                 :string           default(""), not null
-#  twitter              :string           default(""), not null
-#  language             :string           default(""), not null
+#
+# Indexes
+#
+#  index_organisations_on_frequency  (frequency)
+#  index_organisations_on_kind       (kind)
+#  index_organisations_on_name       (name)
+#  index_organisations_on_slug       (slug)
 #
 # rubocop:enable Layout/LineLength
 class Organisation < ApplicationRecord
@@ -27,7 +34,7 @@ class Organisation < ApplicationRecord
   slug_from :name
 
   # associations
-  has_many :events, dependent: :destroy, inverse_of: :organisation, foreign_key: :organisation_id
+  has_many :events, dependent: :destroy, inverse_of: :organisation, foreign_key: :organisation_id, strict_loading: true
   has_many :talks, through: :events
 
   # validations

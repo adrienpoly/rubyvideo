@@ -1,0 +1,19 @@
+<%= turbo_stream.update "speakers_search_results", method: "morph" do %>
+  <div class="flex items-center flex-wrap gap-2 py-4">
+    <h2>Speakers</h2>
+    <% if @speakers.size.positive? %>
+      <span class="text-sm text-gray-500">(<%= @speakers.size %> of <%= @speakers_count %>)</span>
+      <%= link_to speakers_path(s: search_query), class: "link text-sm text-gray-500", target: "_top" do %>
+        see results
+      <% end %>
+    <% end %>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <% cache @speakers do %>
+      <%= render partial: "spotlight/speakers/speaker", collection: @speakers, as: :speaker %>
+    <% end %>
+
+    <div class="hidden only:block">No speakers found for <strong><%= search_query %></strong></div>
+  </div>
+<% end %>

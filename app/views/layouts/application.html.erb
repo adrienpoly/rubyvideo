@@ -3,8 +3,12 @@
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <% if Rails.env.production? %>
+    <% if Rails.env.production? || Rails.env.staging? %>
       <link rel="canonical" href="<%= canonical_url %>">
+    <% end %>
+
+    <% if Rails.env.staging? %>
+      <meta name="robots" content="noindex, nofollow">
     <% end %>
 
     <%= csrf_meta_tags %>
@@ -16,7 +20,8 @@
     <%= vite_javascript_tag "application", media: "all", "data-turbo-track": "reload" %>
     <%= vite_stylesheet_tag "application.css", media: "all", "data-turbo-track": "reload" %>
 
-    <%#= turbo_stream_from @list %>
+    <meta name="turbo-cache-control" content="no-cache">
+    <meta name="view-transition" content="same-origin">
 
     <%= favicon_link_tag "favicon/favicon.ico", rel: "icon", type: "image/x-icon" %>
     <%= favicon_link_tag "favicon/favicon-16x16.png", rel: "icon", sizes: "16x16", type: "image/png" %>
@@ -28,7 +33,7 @@
     <%= yield :head %>
   </head>
 
-  <body>
+  <body data-controller="preserve-scroll">
     <%= render "shared/navbar" %>
     <%= render "shared/flashes" %>
 

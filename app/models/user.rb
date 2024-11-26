@@ -4,14 +4,19 @@
 # Table name: users
 #
 #  id              :integer          not null, primary key
-#  email           :string           not null
+#  admin           :boolean          default(FALSE), not null
+#  email           :string           not null, indexed
+#  github_handle   :string           indexed
+#  name            :string
 #  password_digest :string           not null
 #  verified        :boolean          default(FALSE), not null
-#  admin           :boolean          default(FALSE), not null
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
-#  name            :string
-#  github_handle   :string
+#
+# Indexes
+#
+#  index_users_on_email          (email) UNIQUE
+#  index_users_on_github_handle  (github_handle) UNIQUE WHERE github_handle IS NOT NULL
 #
 # rubocop:enable Layout/LineLength
 class User < ApplicationRecord
@@ -24,6 +29,7 @@ class User < ApplicationRecord
   has_many :sessions, dependent: :destroy, inverse_of: :user
   has_many :connected_accounts, dependent: :destroy
   has_many :watch_lists, dependent: :destroy
+  has_many :watched_talks, dependent: :destroy
   has_one :speaker, primary_key: :github_handle, foreign_key: :github
 
   validates :email, presence: true, uniqueness: true, format: {with: URI::MailTo::EMAIL_REGEXP}
@@ -55,6 +61,6 @@ class User < ApplicationRecord
   end
 
   def default_watch_list
-    watch_lists.first || watch_lists.create(name: "Favorites")
+    @default_watch_list ||= watch_lists.first || watch_lists.create(name: "Favorites")
   end
 end

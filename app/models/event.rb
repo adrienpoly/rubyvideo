@@ -4,16 +4,29 @@
 # Table name: events
 #
 #  id              :integer          not null, primary key
-#  date            :date
 #  city            :string
 #  country_code    :string
-#  organisation_id :integer          not null
+#  date            :date
+#  name            :string           default(""), not null, indexed
+#  slug            :string           default(""), not null, indexed
+#  talks_count     :integer          default(0), not null
+#  website         :string           default("")
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
-#  name            :string           default(""), not null
-#  slug            :string           default(""), not null
-#  talks_count     :integer          default(0), not null
-#  canonical_id    :integer
+#  canonical_id    :integer          indexed
+#  organisation_id :integer          not null, indexed
+#
+# Indexes
+#
+#  index_events_on_canonical_id     (canonical_id)
+#  index_events_on_name             (name)
+#  index_events_on_organisation_id  (organisation_id)
+#  index_events_on_slug             (slug)
+#
+# Foreign Keys
+#
+#  canonical_id     (canonical_id => events.id)
+#  organisation_id  (organisation_id => organisations.id)
 #
 # rubocop:enable Layout/LineLength
 class Event < ApplicationRecord
@@ -22,7 +35,7 @@ class Event < ApplicationRecord
   slug_from :name
 
   # associations
-  belongs_to :organisation
+  belongs_to :organisation, strict_loading: true
   has_many :talks, dependent: :destroy, inverse_of: :event, foreign_key: :event_id
   has_many :speakers, -> { distinct }, through: :talks
   has_many :topics, -> { distinct }, through: :talks
@@ -39,6 +52,7 @@ class Event < ApplicationRecord
   scope :without_talks, -> { where.missing(:talks) }
   scope :canonical, -> { where(canonical_id: nil) }
   scope :not_canonical, -> { where.not(canonical_id: nil) }
+  scope :ft_search, ->(query) { where("lower(events.name) LIKE ?", "%#{query.downcase}%") }
 
   def assign_canonical_event!(canonical_event:)
     ActiveRecord::Base.transaction do
@@ -66,11 +80,7 @@ class Event < ApplicationRecord
   end
 
   def keynote_speakers
-    talks.select { |talk|
-      talk.title.start_with?("Keynote: ") ||
-        talk.title.include?("Opening Keynote") ||
-        talk.title.include?("Closing Keynote")
-    }.flat_map(&:speakers)
+    speakers.merge(talks.keynote)
   end
 
   def formatted_dates
@@ -81,7 +91,7 @@ class Event < ApplicationRecord
     end
 
     if start_date.strftime("%Y") == end_date.strftime("%Y")
-      "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
+      return "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
     end
 
     "#{start_date.strftime("%b %d, %Y")} - #{end_date.strftime("%b %d, %Y")}"
@@ -185,9 +195,9 @@ class Event < ApplicationRecord
   end
 
   def banner_background
-    static_metadata.banner_background.present? ? static_metadata.banner_background : "#FF607F"
+    static_metadata.banner_background.present? ? static_metadata.banner_background : "#DC153C"
   rescue => _e
-    "#FF607F"
+    "#DC153C"
   end
 
   def featurable?
@@ -215,13 +225,13 @@ class Event < ApplicationRecord
   end
 
   def start_date
-    static_metadata.start_date.present? ? static_metadata.start_date.to_date : talks.minimum(:date)
+    static_metadata.start_date.present? ? static_metadata.start_date : talks.minimum(:date)
   rescue => _e
     talks.minimum(:date)
   end
 
   def end_date
-    static_metadata.end_date.present? ? static_metadata.end_date.to_date : talks.maximum(:date)
+    static_metadata.end_date.present? ? static_metadata.end_date : talks.maximum(:date)
   rescue => _e
     talks.maximum(:date)
   end
@@ -230,5 +240,9 @@ class Event < ApplicationRecord
     static_metadata.year.present? ? static_metadata.year : talks.first.date.year
   rescue => _e
     talks.first.date.year
+  end
+
+  def website
+    self[:website].presence || organisation.website
   end
 end

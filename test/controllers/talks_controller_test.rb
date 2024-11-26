@@ -12,6 +12,34 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get index with search results" do
+    get talks_url(s: "rails")
+    assert_response :success
+    assert_select "h1", /Talks/i
+    assert_select "h1", /search results for "rails"/i
+  end
+
+  test "should get index with topic" do
+    get talks_url(topic: "activerecord")
+    assert_response :success
+    assert assigns(:talks).size.positive?
+    assert assigns(:talks).all? { |talk| talk.topics.map(&:slug).include?("activerecord") }
+  end
+
+  test "should get index with event" do
+    get talks_url(event: "rails-world-2023")
+    assert_response :success
+    assert assigns(:talks).size.positive?
+    assert assigns(:talks).all? { |talk| talk.event.slug == "rails-world-2023" }
+  end
+
+  test "should get index with speaker" do
+    get talks_url(speaker: "yaroslav-shmarov")
+    assert_response :success
+    assert assigns(:talks).size.positive?
+    assert assigns(:talks).all? { |talk| talk.speakers.map(&:slug).include?("yaroslav-shmarov") }
+  end
+
   test "should show talk" do
     get talk_url(@talk)
     assert_response :success
