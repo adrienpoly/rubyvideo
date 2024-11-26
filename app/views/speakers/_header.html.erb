@@ -19,7 +19,7 @@
 
     <div class="flex-col flex gap-3 title justify-center">
       <div class="flex flex-col lg:flex-row justify-center lg:justify-start text-black font-bold gap-2">
-        <h1 style="view-transition-name: title"><%= @speaker.name %></h1>
+        <h1 style="view-transition-name: title"><%= speaker.name %></h1>
 
         <% if speaker.pronouns.present? && ["dont_specify", "not_specified"].exclude?(speaker.pronouns_type) %>
           <span class="text-sm content-center text-[#737373]">(<%= speaker.pronouns %>)</span>
