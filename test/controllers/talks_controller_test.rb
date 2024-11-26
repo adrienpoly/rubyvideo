@@ -119,4 +119,12 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
     json_response = JSON.parse(response.body)
     assert_equal @talk.slug, json_response["talks"].first["slug"]
   end
+
+  test "should get show as JSON" do
+    get talk_url(@talk, format: :json)
+    assert_response :success
+
+    json_response = JSON.parse(response.body)
+    assert_equal @talk.slug, json_response["talk"]["slug"]
+  end
 end
