@@ -1,0 +1,10 @@
+<% if Rails.env.development? %>
+  <div class="sticky bottom-2 left-2 bg-black/80 bg-blur p-2 rounded-full text-sm text-white h-8 w-8 flex justify-center items-center">
+    <p class="block sm:hidden">-</p>
+    <p class="hidden sm:block md:hidden">sm</p>
+    <p class="hidden md:block lg:hidden">md</p>
+    <p class="hidden lg:block xl:hidden">lg</p>
+    <p class="hidden xl:block 2xl:hidden">xl</p>
+    <p class="hidden 2xl:block">2xl</p>
+  </div>
+<% end %>

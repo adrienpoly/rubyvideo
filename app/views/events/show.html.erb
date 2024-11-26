@@ -2,6 +2,10 @@
 
 <%= render partial: "header", locals: {event: @event} %>
 
+<div class="w-full max-h-92 justify-center align-center flex mt-3 border-t border-b" style="view-transition-name: hero; background: <%= @event.banner_background %>">
+  <%= image_tag image_path(@event.banner_image_path), class: "w-full max-h- aspect-auto container" %>
+</div>
+
 <%= turbo_frame_tag dom_id(@event) do %>
   <div class="container py-8">
     <%= render partial: "navigation", locals: {event: @event} %>

@@ -4,14 +4,19 @@
 # Table name: users
 #
 #  id              :integer          not null, primary key
-#  email           :string           not null
+#  admin           :boolean          default(FALSE), not null
+#  email           :string           not null, indexed
+#  github_handle   :string           indexed
+#  name            :string
 #  password_digest :string           not null
 #  verified        :boolean          default(FALSE), not null
-#  admin           :boolean          default(FALSE), not null
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
-#  name            :string
-#  github_handle   :string
+#
+# Indexes
+#
+#  index_users_on_email          (email) UNIQUE
+#  index_users_on_github_handle  (github_handle) UNIQUE WHERE github_handle IS NOT NULL
 #
 # rubocop:enable Layout/LineLength
 

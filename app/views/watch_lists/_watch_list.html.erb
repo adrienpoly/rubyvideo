@@ -1,11 +1,13 @@
 <div class="flex flex-col gap-4">
   <div id="talks" class="grid min-w-full grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gallery">
+    <p class="only:block hidden">Whoops! you have no videos!</p>
     <%= render partial: "talks/card",
           collection: watch_list.talks,
           as: :talk,
           locals: {
             favoritable: true,
             user_favorite_talks_ids: watch_list.talks.ids,
+            watched_talks_ids: user_watched_talks_ids,
             back_to: watch_lists_path,
             back_to_title: watch_list.name
           } %>

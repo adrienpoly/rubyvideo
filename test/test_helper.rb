@@ -3,6 +3,7 @@ require_relative "../config/environment"
 require "rails/test_help"
 require "webmock/minitest"
 require "vcr"
+require_relative "helpers/event_tracking_helper"
 
 VCR.configure do |c|
   c.cassette_library_dir = "test/vcr_cassettes"
@@ -13,6 +14,8 @@ VCR.configure do |c|
   c.filter_sensitive_data("<OPENAI_ORGANIZATION_ID>") { ENV["OPENAI_ORGANIZATION_ID"] }
 end
 class ActiveSupport::TestCase
+  include EventTrackingHelper
+
   setup do
     # @@once ||= begin
     #   MeiliSearch::Rails::Utilities.reindex_all_models

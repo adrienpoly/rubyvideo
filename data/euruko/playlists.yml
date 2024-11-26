@@ -14,6 +14,7 @@
   banner_background: "#2B343E"
   featured_background: "#2B343E"
   featured_color: "#C15A5B"
+  website: https://2016.euruko.org
 
 - id: PLZW-kXE0oRykQpf54Jhf1geLAeq5sM7Kt
   title: EuRuKo 2017
@@ -30,6 +31,7 @@
   banner_background: "#FAFAFA"
   featured_background: "#FAFAFA"
   featured_color: black
+  website: https://2017.euruko.org
 
 - id: PLZW-kXE0oRyn-mwcNhytWaCIAQJXJGMxo
   title: EuRuKo 2018
@@ -43,9 +45,10 @@
   videos_count: 18
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2018
-  banner_background: "#86E4FF"
-  featured_background: "#86E4FF"
+  banner_background: "linear-gradient(to top, #86E4FF, #FFFFFF)"
+  featured_background: "linear-gradient(to top, #86E4FF, #FFFFFF)"
   featured_color: "#595959"
+  website: https://2018.euruko.org
 
 - id: PLZW-kXE0oRykFFY4CTzKBqXC_RDNL_TD6
   title: EuRuKo 2019
@@ -59,9 +62,10 @@
   videos_count: 32
   metadata_parser: Youtube::VideoMetadata
   slug: euruko-2019
-  banner_background: "#FDD8A3"
-  featured_background: "#FDD8A3"
+  banner_background: "linear-gradient(#FEEBD1, #FDD7A2)"
+  featured_background: "linear-gradient(#FEEBD1, #FDD7A2)"
   featured_color: "#633152"
+  website: https://2019.euruko.org
 
 - id: PL9_A7olkztLlmJIAc567KQgKcMi7-qnjg
   title: "NoRuKo 2020"
@@ -75,8 +79,8 @@
   videos_count: 16
   metadata_parser: Youtube::VideoMetadata
   slug: noruko-2020
-  banner_background: "#FAEDFF"
-  featured_background: "#FAEDFF"
+  banner_background: "linear-gradient(170deg, #ffddfb 40%, #ffb3a1)"
+  featured_background: "linear-gradient(170deg, #ffddfb 40%, #ffb3a1)"
   featured_color: "#000000"
 
 - id: PLZW-kXE0oRyknRwEUrg5o491KomjkNU16
@@ -94,6 +98,7 @@
   banner_background: "#503469"
   featured_background: "#503469"
   featured_color: "#FF9A1B"
+  website: https://2021.euruko.org
 
 - id: PLZW-kXE0oRykcraQ1b6tT5ozKPeK-Jttq
   title: EuRuKo 2022
@@ -110,6 +115,7 @@
   banner_background: "#010024"
   featured_background: "#010024"
   featured_color: "#FF9001"
+  website: https://2022.euruko.org
 
 - id: PLZW-kXE0oRyljniGHqYqtQVIXoI4M97ck
   title: EuRuKo 2023
@@ -126,3 +132,21 @@
   banner_background: "#2ABA7D"
   featured_background: black
   featured_color: white
+  website: https://2023.euruko.org
+
+- id: euruko-2024
+  title: EuRuKo 2024
+  location: Sarajevo, Bosnia and Herzegovina
+  description: ""
+  published_at: "2024-12-06"
+  start_date: "2024-09-11"
+  end_date: "2024-09-13"
+  channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+  year: "2024"
+  videos_count: 30
+  metadata_parser: Youtube::VideoMetadata
+  slug: euruko-2024
+  banner_background: "linear-gradient(to top, #E61F1F 4%, #031B23 4%)"
+  featured_background: "#031B23"
+  featured_color: "#FFFFFF"
+  website: https://2024.euruko.org

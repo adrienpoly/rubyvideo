@@ -5,7 +5,7 @@
   raw_title: GoRuCo 2013 - Asynchronous Service Oriented Design by John Pignata
   speakers:
     - John Pignata
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     Your monolithic application is getting unwieldy. Concerns are entangled, response time is getting sluggish, and changing anything in production requires deploying your entire system. Teams facing this challenge often have an "Introduce Services" chore in their backlog that inevitably sinks to the bottom of the list. Despite the realization that your monolithic application will sink under its own weight, you fear the inherent operational complexities of a service oriented system.
@@ -23,7 +23,7 @@
   raw_title: GoRuCo 2013 - To Know A Garbage Collector by Mike Bernstein
   speakers:
     - Mike Bernstein
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     It started as an obsession with making the web application used at my day job faster, and ended with trying to implement new Garbage Collection algorithms in a notoriously insane codebase. Garbage collection is an epic hack and a triumphant abstraction that supports various programming paradigms. As hardware and software changes, Garbage Collection's role also changes but remains equally important. I'll discuss my experiments with MRI Ruby, my investigations into other languages and the influence of their GC implementations, the history of the subject, and more.
@@ -40,7 +40,7 @@
   raw_title: "GoRuCo 2013 - Microtalk: Take a picture, it'll last longer by JD Harrington"
   speakers:
     - JD Harrington
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     Cheap code branches permeate our daily workflow, but the code we write is only half the story. Introducing data model changes into production can challenge developers and ops people alike, but how do we deal with these issues in our experimental phase?
@@ -56,7 +56,7 @@
   raw_title: "GoRuCo 2013 - Microtalk: Motion in the Middle - RubyMotion as a Gateway to iOS development"
   speakers:
     - Matthew Salerno
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     By Matt Salerno
@@ -73,7 +73,7 @@
   raw_title: "GoRuCo 2013 - Microtalk: Hacking the Academic Experience by Emily Stolfo"
   speakers:
     - Emily Stolfo
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     When I was asked to teach Ruby on Rails at Columbia University I observed that a significant number of the skills required to become a successful professional in the industry are acquired on the job and aren't being taught in school. Many of us professionals thrive on open source software and on sharing code, but academia is not always teaching this type of resourcefulness to students.
@@ -89,7 +89,7 @@
   raw_title: "GoRuCo 2013 Microtalk: Working with Rubyists by Aaron Quint"
   speakers:
     - Aaron Quint
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     Welcome to the trials and tribulations of managing a Ruby team. Let me introduce you to the characters, the challenges, the high stakes rat race. I'll share as fast as possible, what I've learned and what I failed at and why management shouldnt be an evil word.
@@ -106,7 +106,7 @@
   raw_title: GoRuCo 2013 - Putting off Persistence by Lauren Voswinkel
   speakers:
     - Lauren Voswinkel
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     In Rails, we have a beautiful framework that can take us from a blank slate to a fully-functional app in little time. However, doing things "The Rails Way" has a lot of implicit dependencies, including persistence. Are you really equipped to make one of the largest decisions about your app before any of your code has even been written?
@@ -123,7 +123,7 @@
   raw_title: GoRuCo 2013 - Krypt. Semper Pi. by Martin Bosslet
   speakers:
     - Martin Bosslet
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     Many people don't like Cryptography. Whenever he falls out of a bar, he carries this strong odor of ivory-towering, bikeshedding and plain, outright arrogance. He seems to be a loner and a smartass, rude, and it's hard to follow his boring, lengthy explanations. But once you get to know him better, it actually turns out that he's really a nice guy. Sure, a little bit paranoid, but his intentions are pure and just. He'll probably never be your buddy on Facebook ('cause he likely won't set up an account in the first place), but over time you will realize that it can be quite pleasant having him around.
@@ -143,7 +143,7 @@
   raw_title: GoRuCo 2013 - Deathmatch Bundler vs Rubygems.org by Andre Arko
   speakers:
     - Andre Arko
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     The story of the quest to make bundle install faster; in which Rubyists around the world inadvertently DDoS rubygems.org, witness its ignominious death, and vow to rebuild it from the ashes stronger than it was before. Then, a tour of the changes; why is Redis so much slower than Postgres? Marvel at the gorgeous metrics and graphs used to measure and optimize; gasp in delight as we track, live, exactly how many Heroku dynos are needed. Finally, a happy ending: today, the server responds to requests TWO ORDERS OF MAGNITUDE faster than it did before.
@@ -158,7 +158,7 @@
   raw_title: "GoRuCo 2013 - Microtalk: Building a Theme Engine w/ Ruby Mustache"
   speakers:
     - Kevin Sherus
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     By Kevin Sherus
@@ -177,7 +177,7 @@
   raw_title: GoRuCo 2013 - Microtalk:A House of Cards - The Perils of Maintaining a 7-Year-Old Codebase
   speakers:
     - Julie Gill
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description:
     "By Julie Gill \n\nWith RoR, often the focus is on how easy it is to
@@ -200,7 +200,7 @@
   raw_title: "GoRuCo 2013 - Microtalk: Nokogiri - History and Future by Mike Dalessio"
   speakers:
     - Mike Dalessio
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     Over the past few years, Nokogiri has slowly eclipsed older XML parsing libraries to garner nearly 10 million downloads from rubygems.org.
@@ -224,7 +224,7 @@
   raw_title: "GoRuCo 2013 - Microtalk: Usability Primer in 10 Minutes Flat by Steve Berry"
   speakers:
     - Steve Berry
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     In this talk we will go over usability heuristics for building better web experiences.
@@ -239,7 +239,7 @@
   raw_title: GoRuCo 2013 - Functional Programming and Ruby by Pat Shaughnessy
   speakers:
     - Pat Shaughnessy
-  event_name: GoRuCo 2013
+  event_name: GORUCO 2013
   published_at: "2013-06-08"
   description: |-
     While Ruby is object oriented and imperative, it does have some features that allow for functional programming. In this talk we'll compare Haskell, a functional programming language, with Ruby while exploring these common functional patterns: higher order functions, lazy evaluation, and memoization.

@@ -4,10 +4,21 @@
 # Table name: talk_topics
 #
 #  id         :integer          not null, primary key
-#  talk_id    :integer          not null
-#  topic_id   :integer          not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  talk_id    :integer          not null, indexed, indexed => [topic_id]
+#  topic_id   :integer          not null, indexed, indexed => [talk_id]
+#
+# Indexes
+#
+#  index_talk_topics_on_talk_id               (talk_id)
+#  index_talk_topics_on_topic_id              (topic_id)
+#  index_talk_topics_on_topic_id_and_talk_id  (topic_id,talk_id) UNIQUE
+#
+# Foreign Keys
+#
+#  talk_id   (talk_id => talks.id)
+#  topic_id  (topic_id => topics.id)
 #
 # rubocop:enable Layout/LineLength
 class TalkTopic < ApplicationRecord

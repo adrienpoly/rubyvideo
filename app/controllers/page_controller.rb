@@ -14,8 +14,11 @@ class PageController < ApplicationController
 
     @talks_count = home_page_cached_data[:talks_count]
     @speakers_count = home_page_cached_data[:speakers_count]
-    @latest_talks = Talk.where(id: home_page_cached_data[:latest_talk_ids])
-    @latest_events = Event.where(id: home_page_cached_data[:latest_event_ids])
+    @latest_talks = Talk.includes(event: :organisation).where(id: home_page_cached_data[:latest_talk_ids])
+    @latest_events = Event.includes(:organisation).where(id: home_page_cached_data[:latest_event_ids])
     @active_speakers = Speaker.where(id: home_page_cached_data[:active_speaker_ids])
+  end
+
+  def featured
   end
 end

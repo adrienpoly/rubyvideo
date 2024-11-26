@@ -3,8 +3,12 @@
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <% if Rails.env.production? %>
+    <% if Rails.env.production? || Rails.env.staging? %>
       <link rel="canonical" href="<%= canonical_url %>">
+    <% end %>
+
+    <% if Rails.env.staging? %>
+      <meta name="robots" content="noindex, nofollow">
     <% end %>
 
     <%= csrf_meta_tags %>
@@ -15,13 +19,21 @@
     <%= vite_client_tag %>
     <%= vite_javascript_tag "application", media: "all", "data-turbo-track": "reload" %>
     <%= vite_stylesheet_tag "application.css", media: "all", "data-turbo-track": "reload" %>
-<%#= turbo_stream_from @list %>
+
+    <meta name="turbo-cache-control" content="no-cache">
+    <meta name="view-transition" content="same-origin">
+
+    <%= favicon_link_tag "favicon/favicon.ico", rel: "icon", type: "image/x-icon" %>
+    <%= favicon_link_tag "favicon/favicon-16x16.png", rel: "icon", sizes: "16x16", type: "image/png" %>
+    <%= favicon_link_tag "favicon/favicon-32x32.png", rel: "icon", sizes: "32x32", type: "image/png" %>
+    <%= favicon_link_tag "favicon/apple-touch-icon.png", rel: "apple-touch-icon", type: "image/png" %>
+
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <%= yield :head %>
   </head>
 
-  <body>
+  <body data-controller="preserve-scroll">
     <%= render "shared/navbar" %>
     <%= render "shared/flashes" %>
 
@@ -30,6 +42,7 @@
     </div>
 
     <%= render "shared/footer" %>
+    <%= render "shared/breakpoints" %>
     <%= turbo_frame_tag "modal", target: "_top" %>
   </body>
 </html>

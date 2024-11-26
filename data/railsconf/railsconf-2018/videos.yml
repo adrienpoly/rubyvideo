@@ -1,19 +1,15 @@
 ---
 # TODO: talks running order
 # TODO: talk dates
-# TODO: conference website
-# TODO: schedule website
+
+# Website: https://web.archive.org/web/20181103192434/http://rubyconf.org/
+# Schedule: https://web.archive.org/web/20181103192434/http://rubyconf.org/schedule
 
 - title: "The GraphQL Way: A new path for JSON APIs"
   raw_title: "RailsConf 2018: The GraphQL Way: A new path for JSON APIs by Nick Quaranto"
   speakers:
     - Nick Quaranto
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/QHoddukdqf0/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/QHoddukdqf0/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/QHoddukdqf0/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/QHoddukdqf0/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/QHoddukdqf0/maxresdefault.jpg
   published_at: "2018-05-15"
   slides_url: https://speakerdeck.com/qrush/the-graphql-way-a-new-path-for-json-apis
   description: |-
@@ -28,11 +24,6 @@
   speakers:
     - Michael Cain
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/CD_ye_9lvEM/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/CD_ye_9lvEM/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/CD_ye_9lvEM/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/CD_ye_9lvEM/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/CD_ye_9lvEM/maxresdefault.jpg
   published_at: "2018-05-15"
   description: |-
     RailsConf 2018: Candy on Rails: Polymorphism & Rails 5 by Michael Cain
@@ -46,11 +37,6 @@
   speakers:
     - Liz Certa
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/gE8S4cUJFUo/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/gE8S4cUJFUo/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/gE8S4cUJFUo/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/gE8S4cUJFUo/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/gE8S4cUJFUo/maxresdefault.jpg
   published_at: "2018-05-15"
   description: |-
     RailsConf 2018: Why We Never Get to Web Accessibility 102 by Liz Certa
@@ -64,11 +50,6 @@
   speakers:
     - David McDonald
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/17XecHy9Pzg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/17XecHy9Pzg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/17XecHy9Pzg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/17XecHy9Pzg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/17XecHy9Pzg/maxresdefault.jpg
   published_at: "2018-05-15"
   description: |-
     RailsConf 2018: Dropping Into B-Trees by David McDonald
@@ -82,11 +63,6 @@
   speakers:
     - Mike Calhoun
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/K27AZ-_PH0A/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/K27AZ-_PH0A/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/K27AZ-_PH0A/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/K27AZ-_PH0A/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/K27AZ-_PH0A/maxresdefault.jpg
   published_at: "2018-05-15"
   description: |-
     RailsConf 2018: Continuous Deployments and Data Sovereignty: A Case Study by Mike Calhoun
@@ -100,11 +76,6 @@
   speakers:
     - Ryan Laughlin
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/gEAlhKaK2I4/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/gEAlhKaK2I4/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/gEAlhKaK2I4/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/gEAlhKaK2I4/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/gEAlhKaK2I4/maxresdefault.jpg
   published_at: "2018-05-15"
   description: |-
     RailsConf 2018: The Doctor Is In: Using checkups to find bugs in production by Ryan Laughlin
@@ -120,11 +91,6 @@
   speakers:
     - David Heinemeier Hansson
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/zKyv-IGvgGE/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/zKyv-IGvgGE/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/zKyv-IGvgGE/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/zKyv-IGvgGE/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/zKyv-IGvgGE/maxresdefault.jpg
   published_at: "2018-05-15"
   description: "RailsConf 2018: Opening Keynote: FIXME by David Heinemeier Hansson"
   video_provider: youtube
@@ -136,11 +102,6 @@
     - Eric Hodel
     - Ezekiel Templin
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/Zfv30fSpHBI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Zfv30fSpHBI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Zfv30fSpHBI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Zfv30fSpHBI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Zfv30fSpHBI/maxresdefault.jpg
   published_at: "2018-05-15"
   description: |-
     RailsConf 2018: Devly, a multi-service development environment by Eric Hodel & Ezekiel Templin
@@ -159,11 +120,6 @@
   speakers:
     - Kir Shatrov
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/KKtS0QD5ERM/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/KKtS0QD5ERM/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/KKtS0QD5ERM/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/KKtS0QD5ERM/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/KKtS0QD5ERM/maxresdefault.jpg
   published_at: "2018-05-15"
   description: |-
     RailsConf 2018: Operating Rails in Kubernetes by Kir Shatrov
@@ -179,11 +135,6 @@
   speakers:
     - Akira Matsuda
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/y-wqo6LiqMo/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/y-wqo6LiqMo/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/y-wqo6LiqMo/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/y-wqo6LiqMo/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/y-wqo6LiqMo/maxresdefault.jpg
   published_at: "2018-05-15"
   description: |-
     RailsConf 2018: Turbo Boosting Real-world Applications by Akira Matsuda
@@ -203,11 +154,6 @@
   speakers:
     - Vladimir Dementyev
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/NVwx0DARDis/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/NVwx0DARDis/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/NVwx0DARDis/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/NVwx0DARDis/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/NVwx0DARDis/maxresdefault.jpg
   published_at: "2018-05-15"
   description: |-
     RailsConf 2018: Access Denied: the missing guide to authorization in Rails by Vladimir Dementyev
@@ -221,11 +167,6 @@
   speakers:
     - Craig Buchek
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/PkXTIfVN-3E/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/PkXTIfVN-3E/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/PkXTIfVN-3E/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/PkXTIfVN-3E/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/PkXTIfVN-3E/maxresdefault.jpg
   published_at: "2018-05-15"
   description: |-
     RailsConf 2018: Booleans are Easy - True or False? by Craig Buchek
@@ -241,11 +182,6 @@
   speakers:
     - Ariel Caplan
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/lqPZdvg49GU/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/lqPZdvg49GU/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/lqPZdvg49GU/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/lqPZdvg49GU/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/lqPZdvg49GU/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: Automating Empathy: Test Your Docs with Swagger and Apivore by Ariel Caplan
@@ -265,11 +201,6 @@
   speakers:
     - Aja Hammerly
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/BZeylB8XCxg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/BZeylB8XCxg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/BZeylB8XCxg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/BZeylB8XCxg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/BZeylB8XCxg/maxresdefault.jpg
   published_at: "2018-05-16"
   slides_url: https://thagomizer.com/files/TestingInProd.pdf
   description: |-
@@ -284,11 +215,6 @@
   speakers:
     - Nickolas Means
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/YBRiffheLXE/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/YBRiffheLXE/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/YBRiffheLXE/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/YBRiffheLXE/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/YBRiffheLXE/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: Who Destroyed Three Mile Island? by Nickolas Means
@@ -304,11 +230,6 @@
   speakers:
     - Sean Griffin
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/IKOLEKxMRa0/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/IKOLEKxMRa0/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/IKOLEKxMRa0/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/IKOLEKxMRa0/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/IKOLEKxMRa0/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: Debugging Rails Itself by Sean Griffin
@@ -324,11 +245,6 @@
   speakers:
     - Loren Crawford
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/Dm2LdXLFrxw/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Dm2LdXLFrxw/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Dm2LdXLFrxw/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Dm2LdXLFrxw/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Dm2LdXLFrxw/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: Down The Rabbit Hole: An Adventure in Legacy Code by Loren Crawford
@@ -342,11 +258,6 @@
   speakers:
     - Olivier Lacan
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/zrR181LhOv4/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/zrR181LhOv4/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/zrR181LhOv4/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/zrR181LhOv4/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/zrR181LhOv4/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: The Life and Death of a Rails App by Olivier Lacan
@@ -360,11 +271,6 @@
   speakers:
     - Taylor Jones
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/NeZ9aAH1Lp4/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/NeZ9aAH1Lp4/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/NeZ9aAH1Lp4/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/NeZ9aAH1Lp4/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/NeZ9aAH1Lp4/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: Webpacking for the Journey Ahead by Taylor Jones
@@ -378,11 +284,6 @@
   speakers:
     - Ernie Miller
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/3P8McQwe1Rg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/3P8McQwe1Rg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/3P8McQwe1Rg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/3P8McQwe1Rg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/3P8McQwe1Rg/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: Stating the Obvious by Ernie Miller
@@ -398,11 +299,6 @@
   speakers:
     - Mark Imbriaco
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/G2MdBtXonew/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/G2MdBtXonew/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/G2MdBtXonew/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/G2MdBtXonew/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/G2MdBtXonew/maxresdefault.jpg
   published_at: "2018-05-16"
   description: "RailsConf 2018: Keynote: Rails Doesn't Scale by Mark Imbriaco"
   video_provider: youtube
@@ -413,11 +309,6 @@
   speakers:
     - Harisankar P S
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/3hYlghzakow/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/3hYlghzakow/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/3hYlghzakow/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/3hYlghzakow/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/3hYlghzakow/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: Using Databases to pull your applications weight by Harisankar P S
@@ -431,11 +322,6 @@
   speakers:
     - Emily Freeman
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/l0JtgRiaS4M/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/l0JtgRiaS4M/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/l0JtgRiaS4M/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/l0JtgRiaS4M/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/l0JtgRiaS4M/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: The Intelligence of Instinct by Emily Freeman
@@ -453,11 +339,6 @@
   speakers:
     - Alistair McKinnell
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/j5o-lUF_nJs/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/j5o-lUF_nJs/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/j5o-lUF_nJs/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/j5o-lUF_nJs/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/j5o-lUF_nJs/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: Don't Settle for Poor Names (or for Poor Design) by Alistair McKinnell
@@ -477,11 +358,6 @@
   speakers:
     - Ben Halpern
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/Afy7H04X9Us/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Afy7H04X9Us/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Afy7H04X9Us/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Afy7H04X9Us/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Afy7H04X9Us/maxresdefault.jpg
   published_at: "2018-05-16"
   description: |-
     RailsConf 2018: How We Made Our App So Fast it Went Viral in Japan by Ben Halpern
@@ -495,11 +371,6 @@
   speakers:
     - Tess Griffin
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/tX1SuRZ6zpk/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/tX1SuRZ6zpk/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/tX1SuRZ6zpk/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/tX1SuRZ6zpk/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/tX1SuRZ6zpk/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Keeping Moms Around for the Long Term by Tess Griffin
@@ -515,11 +386,6 @@
   speakers:
     - Roy Tomeij
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/tZFeIk1-zOw/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/tZFeIk1-zOw/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/tZFeIk1-zOw/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/tZFeIk1-zOw/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/tZFeIk1-zOw/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Empathy through Acting by Roy Tomeij
@@ -535,11 +401,6 @@
   speakers:
     - Jameson Hampton
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/XcgJeeCpK4s/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/XcgJeeCpK4s/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/XcgJeeCpK4s/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/XcgJeeCpK4s/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/XcgJeeCpK4s/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Lessons in Ethical Development I Learned From Star Wars by Jameson Hampton
@@ -553,11 +414,6 @@
   speakers:
     - YiTing "Xdite" Cheng
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/onX_0ngn3G4/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/onX_0ngn3G4/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/onX_0ngn3G4/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/onX_0ngn3G4/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/onX_0ngn3G4/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Blitzbuilding product with Rails - a crypto journey by YiTing "Xdite" Cheng
@@ -575,11 +431,6 @@
   speakers:
     - Christopher Rigor
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/fS92ZDfLhng/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/fS92ZDfLhng/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/fS92ZDfLhng/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/fS92ZDfLhng/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/fS92ZDfLhng/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Encrypted Credentials on Rails 5.2: Secrets to Success by Christopher Rigor
@@ -597,11 +448,6 @@
   speakers:
     - Coraline Ada Ehmke
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/tHxssXfymOE/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/tHxssXfymOE/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/tHxssXfymOE/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/tHxssXfymOE/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/tHxssXfymOE/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Scaling the Software Artisan by Coraline Ada Ehmke
@@ -615,11 +461,6 @@
   speakers:
     - Gretchen Ziegler
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/S7cYJumzuL4/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/S7cYJumzuL4/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/S7cYJumzuL4/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/S7cYJumzuL4/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/S7cYJumzuL4/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: All Onboard: Cruising on the Mentorship by Gretchen Ziegler
@@ -635,11 +476,6 @@
   speakers:
     - André Arko
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/km7uGUEd4fk/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/km7uGUEd4fk/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/km7uGUEd4fk/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/km7uGUEd4fk/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/km7uGUEd4fk/maxresdefault.jpg
   published_at: "2018-05-17"
   description:
     "RailsConf 2018: Pairing: a guide to fruitful collaboration 🍓🍑🍐
@@ -657,11 +493,6 @@
   speakers:
     - Adam Cuppy
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/6xnealmhEnM/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/6xnealmhEnM/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/6xnealmhEnM/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/6xnealmhEnM/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/6xnealmhEnM/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Mechanically Confident by Adam Cuppy
@@ -679,11 +510,6 @@
   speakers:
     - Max Tiu
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/5sVg7DtZ0zk/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/5sVg7DtZ0zk/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/5sVg7DtZ0zk/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/5sVg7DtZ0zk/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/5sVg7DtZ0zk/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: The Practical Guide to Building an Apprenticeship by Max Tiu
@@ -699,11 +525,6 @@
   speakers:
     - Stella Cotton
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/Rzl4O1oaVy8/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Rzl4O1oaVy8/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Rzl4O1oaVy8/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Rzl4O1oaVy8/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Rzl4O1oaVy8/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: So You’ve Got Yourself a Kafka: Event-Powered Rails Services by Stella Cotton
@@ -717,11 +538,6 @@
   speakers:
     - Chris Hoffman
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/WtZUVzDGkTM/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/WtZUVzDGkTM/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/WtZUVzDGkTM/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/WtZUVzDGkTM/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/WtZUVzDGkTM/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Some Funny Things Happened on The Way to A Service Ecosystem by Chris Hoffman
@@ -735,11 +551,6 @@
   speakers:
     - Alex Wood
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/4McL54Pd2Cs/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/4McL54Pd2Cs/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/4McL54Pd2Cs/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/4McL54Pd2Cs/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/4McL54Pd2Cs/maxresdefault.jpg
   published_at: "2018-05-17"
   description:
     "RailsConf 2018: Broken APIs Break Trust: Tips for Creating and Updating
@@ -759,11 +570,6 @@
   speakers:
     - Leonardo Tegon
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/QBJ3G40fxHg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/QBJ3G40fxHg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/QBJ3G40fxHg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/QBJ3G40fxHg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/QBJ3G40fxHg/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Warden: the building block behind Devise by Leonardo Tegon
@@ -779,11 +585,6 @@
   speakers:
     - Justin Weiss
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/lmjMC2FRF-A/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/lmjMC2FRF-A/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/lmjMC2FRF-A/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/lmjMC2FRF-A/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/lmjMC2FRF-A/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Building a Collaborative Text Editor by Justin Weiss
@@ -801,11 +602,6 @@
   speakers:
     - Michael Hartl
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/MBL2jRL9crI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/MBL2jRL9crI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/MBL2jRL9crI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/MBL2jRL9crI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/MBL2jRL9crI/maxresdefault.jpg
   published_at: "2018-05-17"
   description:
     "RailsConf 2018: Ten Years of Rails Tutorials by Michael Hartl \n\nCome
@@ -822,11 +618,6 @@
   speakers:
     - Justin Collins
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/Btrmc1wO3pc/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Btrmc1wO3pc/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Btrmc1wO3pc/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Btrmc1wO3pc/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Btrmc1wO3pc/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: The Evolution of Rails Security by Justin Collins
@@ -840,11 +631,6 @@
   speakers:
     - Pete Holiday
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/O3XRE0HvzJ8/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/O3XRE0HvzJ8/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/O3XRE0HvzJ8/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/O3XRE0HvzJ8/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/O3XRE0HvzJ8/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: The Code-Free Developer Interview by Pete Holiday
@@ -860,11 +646,6 @@
   speakers:
     - Laura Mosher
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/uT1ovJqIjt4/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/uT1ovJqIjt4/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/uT1ovJqIjt4/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/uT1ovJqIjt4/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/uT1ovJqIjt4/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Harry the Hedgehog Learns You A Communication by Laura Mosher
@@ -878,11 +659,6 @@
   speakers:
     - Brittany Martin
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/S9z-qRPdBac/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/S9z-qRPdBac/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/S9z-qRPdBac/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/S9z-qRPdBac/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/S9z-qRPdBac/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Draw a Crowd by Brittany Martin
@@ -896,11 +672,6 @@
   speakers:
     - Ben Shippee
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/f7pHXYw7Z1Q/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/f7pHXYw7Z1Q/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/f7pHXYw7Z1Q/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/f7pHXYw7Z1Q/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/f7pHXYw7Z1Q/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Ales on Rails: Making a Smarter Brewery with Ruby by Ben Shippee
@@ -914,11 +685,6 @@
   speakers:
     - Andy Glass
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/ZF4862NLzfA/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/ZF4862NLzfA/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/ZF4862NLzfA/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/ZF4862NLzfA/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/ZF4862NLzfA/maxresdefault.jpg
   published_at: "2018-05-17"
   description: |-
     RailsConf 2018: Human Powered Rails: Automated Crowdsourcing In Your RoR App by Andy Glass
@@ -932,11 +698,6 @@
   speakers:
     - Eileen M. Uchitelle
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/8evXWvM4oXM/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/8evXWvM4oXM/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/8evXWvM4oXM/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/8evXWvM4oXM/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/8evXWvM4oXM/maxresdefault.jpg
   published_at: "2018-05-17"
   slides_url: https://speakerdeck.com/eileencodes/railsconf-2018-the-future-of-rails-6-scalable-by-default
   description:
@@ -951,11 +712,6 @@
     - Todd Kaufman
     - Justin Searls
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/kJEN5Dt2kKU/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/kJEN5Dt2kKU/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/kJEN5Dt2kKU/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/kJEN5Dt2kKU/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/kJEN5Dt2kKU/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Running a Business, Demystified by Todd Kaufman
@@ -971,11 +727,6 @@
   speakers:
     - Michael Herold
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/DldgNBbH9aU/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/DldgNBbH9aU/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/DldgNBbH9aU/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/DldgNBbH9aU/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/DldgNBbH9aU/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     What's in a price? How to price your products and services by Michael Herold
@@ -991,11 +742,6 @@
   speakers:
     - Thijs Cadier
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/5_ZhUCMxQ8M/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/5_ZhUCMxQ8M/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/5_ZhUCMxQ8M/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/5_ZhUCMxQ8M/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/5_ZhUCMxQ8M/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Reporting Live from the Ramp of Death by Thijs Cadier
@@ -1011,11 +757,6 @@
   speakers:
     - Cecy Correa
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/RvkM17lFxpA/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/RvkM17lFxpA/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/RvkM17lFxpA/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/RvkM17lFxpA/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/RvkM17lFxpA/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Taking the Pain Out of Support Engineering by Cecy Correa
@@ -1029,11 +770,6 @@
   speakers:
     - Aly Fulton
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/mpnNiTuVSyw/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/mpnNiTuVSyw/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/mpnNiTuVSyw/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/mpnNiTuVSyw/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/mpnNiTuVSyw/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Leveling Up a Heroic Team by Aly Fulton
@@ -1047,11 +783,6 @@
   speakers:
     - Graham Conzett
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/lh5qfV2iP80/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/lh5qfV2iP80/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/lh5qfV2iP80/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/lh5qfV2iP80/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/lh5qfV2iP80/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Old-school Javascript in Rails by Graham Conzett
@@ -1065,11 +796,6 @@
   speakers:
     - Sarah Mei
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/lI77oMKr5EY/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/lI77oMKr5EY/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/lI77oMKr5EY/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/lI77oMKr5EY/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/lI77oMKr5EY/maxresdefault.jpg
   published_at: "2018-05-18"
   description: Keynote - Livable Code by Sarah Mei
   video_provider: youtube
@@ -1080,11 +806,6 @@
   speakers:
     - Sam Phippen
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/JD-28Oi7fxI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/JD-28Oi7fxI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/JD-28Oi7fxI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/JD-28Oi7fxI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/JD-28Oi7fxI/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Quick and easy browser testing using RSpec and Rails 5.1 by Sam Phippen
@@ -1100,11 +821,6 @@
   speakers:
     - Sasha Grodzins
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/f-qY37JIdg0/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/f-qY37JIdg0/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/f-qY37JIdg0/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/f-qY37JIdg0/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/f-qY37JIdg0/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Build A Blog in 15 (more like 30) Minutes: Webpacker Edition by Sasha Grodzins
@@ -1118,11 +834,6 @@
   speakers:
     - Michael Crismali
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/hXdJU2lpfsE/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/hXdJU2lpfsE/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/hXdJU2lpfsE/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/hXdJU2lpfsE/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/hXdJU2lpfsE/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     6 degrees of JavaScript on Rails by Michael Crismali
@@ -1136,11 +847,6 @@
   speakers:
     - Ross Kaffenberger
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/fKOq5_2qj54/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/fKOq5_2qj54/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/fKOq5_2qj54/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/fKOq5_2qj54/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/fKOq5_2qj54/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Look Before You Import: A Webpack Survival Guide by Ross Kaffenberger
@@ -1158,11 +864,6 @@
   speakers:
     - Aaron Patterson
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/cBFuZivrdT0/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/cBFuZivrdT0/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/cBFuZivrdT0/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/cBFuZivrdT0/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/cBFuZivrdT0/maxresdefault.jpg
   published_at: "2018-05-18"
   slides_url: https://speakerdeck.com/tenderlove/railsconf-2018-keynote
   description: Closing Keynote by Aaron Patterson
@@ -1174,11 +875,6 @@
   speakers:
     - Emil Ong
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/qwmviS2g1lA/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/qwmviS2g1lA/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/qwmviS2g1lA/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/qwmviS2g1lA/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/qwmviS2g1lA/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Putting Rails in a corner: Understanding database isolation by Emil Ong
@@ -1194,11 +890,6 @@
   speakers:
     - Jordan Raine
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/6aCfc0DkSFo/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/6aCfc0DkSFo/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/6aCfc0DkSFo/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/6aCfc0DkSFo/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/6aCfc0DkSFo/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Ten years of Rails upgrades by Jordan Raine
@@ -1214,11 +905,6 @@
   speakers:
     - Mike Schutte
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/-vTZzOssR7A/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/-vTZzOssR7A/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/-vTZzOssR7A/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/-vTZzOssR7A/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/-vTZzOssR7A/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Stop Testing, Start Storytelling by Mike Schutte
@@ -1232,11 +918,6 @@
   speakers:
     - Khash Sajadi
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/DOmTzBRcFT8/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/DOmTzBRcFT8/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/DOmTzBRcFT8/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/DOmTzBRcFT8/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/DOmTzBRcFT8/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Deploying any Rails application to any cloud in minutes by Khash Sajadi
@@ -1252,11 +933,6 @@
   speakers:
     - Vietor Davis
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/7vTtOoCiKao/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/7vTtOoCiKao/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/7vTtOoCiKao/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/7vTtOoCiKao/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/7vTtOoCiKao/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Engineering Engineering: More than the sum of our parts by Vietor Davis
@@ -1272,11 +948,6 @@
   speakers:
     - Ryan Davis
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/l-ZNxvFo4lw/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/l-ZNxvFo4lw/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/l-ZNxvFo4lw/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/l-ZNxvFo4lw/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/l-ZNxvFo4lw/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Minitest 6: test feistier! by Ryan Davis
@@ -1290,11 +961,6 @@
   speakers:
     - Chris Arcand
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/0Lllf9OjO4k/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/0Lllf9OjO4k/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/0Lllf9OjO4k/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/0Lllf9OjO4k/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/0Lllf9OjO4k/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     An Atypical 'Performance' Talk by Chris Arcand
@@ -1308,11 +974,6 @@
   speakers:
     - Jake Varghese
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/GJK5CimW0Kw/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/GJK5CimW0Kw/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/GJK5CimW0Kw/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/GJK5CimW0Kw/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/GJK5CimW0Kw/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Giving your Heroku App highly-available PostgreSQL by Jake Varghese
@@ -1328,11 +989,6 @@
   speakers:
     - Sam Aarons
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/sKGoWVykxa0/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/sKGoWVykxa0/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/sKGoWVykxa0/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/sKGoWVykxa0/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/sKGoWVykxa0/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     “API?” – How LendingHome Approaches “Legacy” Technologies by Sam Aarons
@@ -1350,11 +1006,6 @@
   speakers:
     - Vaidehi Joshi
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/lEC-QoZeBkM/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/lEC-QoZeBkM/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/lEC-QoZeBkM/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/lEC-QoZeBkM/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/lEC-QoZeBkM/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Re-graphing The Mental Model of The Rails Router by Vaidehi Joshi
@@ -1368,11 +1019,6 @@
   speakers:
     - Claudio Baccigalupo
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/-_w4uqoVSpw/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/-_w4uqoVSpw/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/-_w4uqoVSpw/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/-_w4uqoVSpw/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/-_w4uqoVSpw/maxresdefault.jpg
   published_at: "2018-05-18"
   description: |-
     Inside Active Storage: a code review of Rails' new framework by Claudio Baccigalupo
@@ -1390,11 +1036,6 @@
   speakers:
     - Shawn Herman
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/42fRu7C1qWU/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/42fRu7C1qWU/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/42fRu7C1qWU/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/42fRu7C1qWU/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/42fRu7C1qWU/maxresdefault.jpg
   published_at: "2018-05-18"
   description: ""
   video_provider: youtube
@@ -1405,11 +1046,6 @@
   speakers:
     - Tal Safran
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/0we4EHpMCMM/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/0we4EHpMCMM/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/0we4EHpMCMM/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/0we4EHpMCMM/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/0we4EHpMCMM/maxresdefault.jpg
   published_at: "2018-05-18"
   description: ""
   video_provider: youtube
@@ -1420,11 +1056,6 @@
   speakers:
     - Yiting "Xdite" Cheng
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/hZ2-Vsq8ZCU/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/hZ2-Vsq8ZCU/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/hZ2-Vsq8ZCU/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/hZ2-Vsq8ZCU/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/hZ2-Vsq8ZCU/maxresdefault.jpg
   published_at: "2018-05-18"
   description: ""
   video_provider: youtube
@@ -1435,11 +1066,6 @@
   speakers:
     - Derek Prior
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/_wR4NIQNmOI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/_wR4NIQNmOI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/_wR4NIQNmOI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/_wR4NIQNmOI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/_wR4NIQNmOI/maxresdefault.jpg
   published_at: "2018-05-18"
   description:
     "Up And Down Again: A Migration's Tale by Derek Prior \n\nYou run rake
@@ -1479,11 +1105,6 @@
     - Mike Wheeler
     - Kenny Browne
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/Ld414EypQzg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Ld414EypQzg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Ld414EypQzg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Ld414EypQzg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Ld414EypQzg/maxresdefault.jpg
   published_at: "2018-05-18"
   description:
     "00:00:00 - Teck & Mike \n00:01:00 - Claudio Baccigalupo - LA Ruby
@@ -1506,11 +1127,6 @@
   speakers:
     - Edouard Chin
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/N2B5V4ozc6k/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/N2B5V4ozc6k/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/N2B5V4ozc6k/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/N2B5V4ozc6k/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/N2B5V4ozc6k/maxresdefault.jpg
   published_at: "2018-05-19"
   description: |-
     Upgrading Rails at Scale by Edouard Chin
@@ -1524,11 +1140,6 @@
   speakers:
     - Gabe Enslein
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/8gXdLAM6B1w/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/8gXdLAM6B1w/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/8gXdLAM6B1w/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/8gXdLAM6B1w/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/8gXdLAM6B1w/maxresdefault.jpg
   published_at: "2018-05-19"
   description: |-
     Postgres 10, Performance, and You by Gabe Enslein
@@ -1542,11 +1153,6 @@
   speakers:
     - Chris LoPresto
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/Egumr5KiTNI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/Egumr5KiTNI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/Egumr5KiTNI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/Egumr5KiTNI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/Egumr5KiTNI/maxresdefault.jpg
   published_at: "2018-05-19"
   description: |-
     Hot Swapping Our Rails Front End In Secret - A Rebrand Story by Chris LoPresto
@@ -1566,11 +1172,6 @@
   speakers:
     - Sumeet Jain
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/K0vxOBIyhF0/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/K0vxOBIyhF0/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/K0vxOBIyhF0/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/K0vxOBIyhF0/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/K0vxOBIyhF0/maxresdefault.jpg
   published_at: "2018-05-19"
   description: |-
     Actionable Tactics for Leveling Up Junior Devs by Sumeet Jain
@@ -1584,11 +1185,6 @@
   speakers:
     - Dinah Shi
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/SUD9rj0rRxg/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/SUD9rj0rRxg/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/SUD9rj0rRxg/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/SUD9rj0rRxg/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/SUD9rj0rRxg/maxresdefault.jpg
   published_at: "2018-05-19"
   description: |-
     Your first contribution (and beyond) by Dinah Shi
@@ -1602,11 +1198,6 @@
   speakers:
     - Geoffrey Litt
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/ELMbK8aHo7w/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/ELMbK8aHo7w/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/ELMbK8aHo7w/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/ELMbK8aHo7w/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/ELMbK8aHo7w/maxresdefault.jpg
   published_at: "2018-05-19"
   description: |-
     Ruby: A Family History by Geoffrey Litt
@@ -1622,11 +1213,6 @@
   speakers:
     - Craig Kerstiens
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/RO6lIW5KQkw/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/RO6lIW5KQkw/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/RO6lIW5KQkw/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/RO6lIW5KQkw/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/RO6lIW5KQkw/maxresdefault.jpg
   published_at: "2018-05-19"
   description: |-
     Five Sharding Data Models and Which is Right by Craig Kerstiens
@@ -1644,11 +1230,6 @@
     - Godfrey Chan
     - Krystan Huffmenne
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/QlMqObmQCrI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/QlMqObmQCrI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/QlMqObmQCrI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/QlMqObmQCrI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/QlMqObmQCrI/maxresdefault.jpg
   published_at: "2018-05-19"
   description: |-
     Using Skylight to Solve Real-World Performance Problems by Yehuda Katz, Godfrey Chan & Krystan Huffmenne
@@ -1662,11 +1243,6 @@
   speakers:
     - Daniel Azuma
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/kG2vxYn547E/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/kG2vxYn547E/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/kG2vxYn547E/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/kG2vxYn547E/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/kG2vxYn547E/maxresdefault.jpg
   published_at: "2018-05-19"
   description: |-
     Techniques, Pitfalls, & Best Practices by Daniel Azuma
@@ -1682,11 +1258,6 @@
   speakers:
     - Eleanor Kiefel Haggerty
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/zXas0xT5JGA/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/zXas0xT5JGA/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/zXas0xT5JGA/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/zXas0xT5JGA/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/zXas0xT5JGA/maxresdefault.jpg
   published_at: "2018-05-22"
   description: |-
     RailsConf 2018: Here's to history: programming through archaeology by Eleanor Kiefel Haggerty
@@ -1700,11 +1271,6 @@
   speakers:
     - Amy Unger
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/KjfYoHxmCmI/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/KjfYoHxmCmI/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/KjfYoHxmCmI/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/KjfYoHxmCmI/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/KjfYoHxmCmI/maxresdefault.jpg
   published_at: "2018-05-22"
   description: |-
     RailsConf 2018:Knobs, buttons & switches: Operating your application at scale by Amy Unger
@@ -1722,11 +1288,6 @@
   speakers:
     - James Adam
   event_name: RailsConf 2018
-  thumbnail_xs: https://i.ytimg.com/vi/h3xe-Rf4A6k/default.jpg
-  thumbnail_sm: https://i.ytimg.com/vi/h3xe-Rf4A6k/mqdefault.jpg
-  thumbnail_md: https://i.ytimg.com/vi/h3xe-Rf4A6k/hqdefault.jpg
-  thumbnail_lg: https://i.ytimg.com/vi/h3xe-Rf4A6k/sddefault.jpg
-  thumbnail_xl: https://i.ytimg.com/vi/h3xe-Rf4A6k/maxresdefault.jpg
   published_at: "2018-06-06"
   description: |-
     RailsConf 2018: Here’s to the crazy ones by James Adam

@@ -11,50 +11,27 @@
         </div>
       <% end %>
 
-      <% cache [@talk, @related_talks] do %>
-        <%= render partial: "talks/talk", locals: {talk: @talk} %>
+      <% if signed_in? %>
+        <% cache_key = [@talk, Current.user, @talk.watched_talks.where(user: Current.user)] %>
+      <% else %>
+        <% cache_key = [@talk] %>
+      <% end %>
+
+      <%= turbo_frame_tag "talk", target: "_top", data: {turbo_action: "advance"} do %>
+        <% cache cache_key do %>
+          <%= render partial: "talks/talk", locals: {talk: @talk} %>
+        <% end %>
+      <% end %>
+
+      <% cache @talk.event do %>
+        <%= render partial: "talks/explore_event", locals: {event: @talk.event} %>
       <% end %>
     </div>
 
-    <div class="gap-4 w-96 flex-shrink-0 hidden md:flex md:flex-col px-4">
-      <%= link_to @talk.event.name, event_path(@talk.event), class: "text-neutral text-base text-lg font-bold hover:underline" %>
-
-      <div class="flex flex-col gap-2 max-h-[500px] overflow-y-scroll">
-        <%= render partial: "talks/card_horizontal",
-              collection: @related_talks,
-              as: :talk,
-              locals: {compact: true, current_talk: @talk} %>
-      </div>
+    <%= turbo_stream_from [@talk.event, :talks] %>
+    <div class="gap-4 w-96 flex-shrink-0 hidden lg:flex lg:flex-col px-4">
+      <%= link_to @talk.event.name, event_path(@talk.event), class: "pl-2 mt-8 text-neutral text-base text-lg font-bold hover:underline" %>
+      <%= turbo_frame_tag dom_id(@talk.event, :talks), src: event_talks_path(@talk.event, active_talk: @talk), loading: "lazy" %>
     </div>
   </div>
-
-  <%= link_to event_path(@talk.event), id: "explore-event", class: "card bg-gray-200 hover:bg-gray-300/80 transition-bg duration-300 ease-in-out w-full flex flex-row px-6 py-6 gap-8 mt-4 overflow-hidden" do %>
-    <div class="aspect-video hidden md:block">
-      <%= image_tag image_path(@talk.event.card_image_path), id: dom_id(@talk.event, "explore-card-image"), alt: "explore all talks recorded at #{@talk.event.name}", class: "h-24 aspect-video rounded-xl" %>
-    </div>
-
-    <div class="flex flex-col w-full flex-1 self-start">
-      <span class="text-lg font-semibold sm:text-md">Explore all talks recorded at <%= @talk.event.name %></span>
-
-      <div class="avatar-group -space-x-3 rtl:space-x-reverse mt-4">
-        <% speakers_with_avatars = @talk.event.speakers.where.not(github: "").sample(12) %>
-
-        <% speakers_with_avatars.each do |speaker| %>
-          <div class="avatar bg-white">
-            <div class="w-8">
-              <img src="<%= speaker.github_avatar_url %>" loading="lazy">
-            </div>
-          </div>
-        <% end %>
-
-        <% if @talk.event.speakers.count > speakers_with_avatars.count %>
-          <div class="avatar placeholder">
-            <div class="bg-neutral text-neutral-content w-8">
-              <span>+<%= @talk.event.speakers.count - speakers_with_avatars.count %></span>
-            </div>
-          </div>
-        <% end %>
-      </div>
-    </div>
-  <% end %>
 </div>

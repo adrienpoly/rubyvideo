@@ -1,21 +1,3 @@
-# rubocop:disable Layout/LineLength
-# == Schema Information
-#
-# Table name: speakers
-#
-#  id           :integer          not null, primary key
-#  name         :string           default(""), not null
-#  twitter      :string           default(""), not null
-#  github       :string           default(""), not null
-#  bio          :text             default(""), not null
-#  website      :string           default(""), not null
-#  slug         :string           default(""), not null
-#  created_at   :datetime         not null
-#  updated_at   :datetime         not null
-#  talks_count  :integer          default(0), not null
-#  canonical_id :integer
-#
-# rubocop:enable Layout/LineLength
 require "test_helper"
 
 class SpeakerTest < ActiveSupport::TestCase
@@ -46,6 +28,14 @@ class SpeakerTest < ActiveSupport::TestCase
     assert_equal user.github_handle, speaker.github
     assert_equal user, speaker.user
     assert_equal speaker, user.speaker
+  end
+
+  test "normalizes github with URL" do
+    assert_equal "username", Speaker.new(github: "https://github.com/username").github
+    assert_equal "username", Speaker.new(github: "http://github.com/username").github
+    assert_equal "username", Speaker.new(github: "http://www.github.com/username").github
+    assert_equal "username", Speaker.new(github: "@username").github
+    assert_equal "username", Speaker.new(github: "github.com/username").github
   end
 
   test "normalizes Twitter with URL" do
