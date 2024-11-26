@@ -300,6 +300,12 @@ class Talk < ApplicationRecord
     slug_candidates - used_slugs
   end
 
+  def event_name
+    return event.name unless event.organisation.meetup?
+
+    static_metadata.try("event_name") || event.name
+  end
+
   def update_from_yml_metadata!(event: nil)
     if event.blank?
       event = Event.find_by(name: static_metadata.event_name)

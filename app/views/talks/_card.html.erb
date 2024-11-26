@@ -87,12 +87,7 @@
             <div class="flex items-center gap-2 font-light">
               <%= heroicon :map_pin, size: :sm, class: "shrink-0 grow-0" %>
               <%= link_to talk.event, class: "link link-ghost line-clamp-1" do %>
-
-                <% if talk.event.organisation.meetup? %>
-                  <%= talk.static_metadata.try("event_name") || talk.event.name %>
-                <% else %>
-                  <%= talk.event.name %>
-                <% end %>
+                <%= talk.event_name %>
               <% end %>
             </div>
           <% end %>
