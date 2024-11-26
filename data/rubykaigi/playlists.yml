@@ -178,3 +178,20 @@
   # featured_background: '#2994FF'
   # featured_color: 'white'
   website: https://rubykaigi.org/2024/
+
+- id: rubykaigi-2025
+  title: RubyKaigi 2025
+  location: Matsuyama, Ehime, Japan
+  description: "RubyKaigi 2025, April 16-18, Matsuyama, Ehime"
+  published_at: "2025-04-18"
+  start_date: "2025-04-16"
+  end_date: "2025-04-18"
+  channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
+  year: "2025"
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadataRubyKaigi
+  slug: rubykaigi-2025
+  banner_background: "#FF5719"
+  featured_background: "#FF5719"
+  featured_color: "#FFFFFF"
+  website: https://rubykaigi.org/2025/
