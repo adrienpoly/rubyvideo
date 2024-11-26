@@ -37,6 +37,7 @@ class TalkTest < ActiveSupport::TestCase
       q_and_a: ["Q&A", "Q&A: Something", "Something AMA", "Q&A with Somebody", "Ruby Committers vs The World", "Ruby Committers and the World"],
       discussion: ["Discussion: Something", "Discussion", "Fishbowl: Topic", "Fishbowl Discussion: Topic"],
       fireside_chat: ["Fireside Chat: Something", "Fireside Chat"],
+      interview: ["Interview with Matz", "Interview: Something"],
       award: ["Award: Something", "Award Show", "Ruby Hero Awards", "Ruby Hero Award", "Rails Luminary"]
     }
 

@@ -195,3 +195,16 @@
   description: Keynote.
   video_provider: youtube
   video_id: B0kLnbXEO50
+
+- title: "Interview with Matz"
+  raw_title: "Interview with Yukihiro Matz Matsumoto at Baltic Ruby"
+  speakers:
+    - Yukihiro "Matz" Matsumoto
+    - Sergey Sergyenko
+  event_name: Baltic Ruby 2024
+  kind: interview
+  date: "2024-06-15"
+  published_at: "2024-11-22"
+  description: "An interview with Yukihiro Matsumoto about Ruby, the community, his profession, and personal life, which he gave at the Baltic Ruby conference in Malmö in 2024."
+  video_provider: youtube
+  video_id: iwDJ6zmuI_w

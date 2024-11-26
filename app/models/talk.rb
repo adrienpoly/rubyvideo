@@ -84,7 +84,7 @@ class Talk < ApplicationRecord
   enum :video_provider, %w[youtube mp4 scheduled not_published not_recorded].index_by(&:itself)
   enum :kind,
     %w[talk keynote lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
-      award].index_by(&:itself)
+      interview award].index_by(&:itself)
 
   # attributes
   attribute :video_provider, default: :youtube
@@ -396,6 +396,8 @@ class Talk < ApplicationRecord
       :discussion
     when /.*(fireside\ chat:|fireside\ chat).*/i
       :fireside_chat
+    when /^(interview:|interview\ with).*/i
+      :interview
     when /.*(award:|award\ show|ruby\ hero\ awards|ruby\ hero\ award|rails\ luminary).*/i
       :award
     else
