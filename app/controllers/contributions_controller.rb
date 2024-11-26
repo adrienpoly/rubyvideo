@@ -10,7 +10,7 @@ class ContributionsController < ApplicationController
     @talks_without_slides = Talk.preload(:speakers).joins(:speakers).where(slides_url: nil).where(speakers: {id: speakers_with_speakerdeck}).order(date: :desc)
     @talks_without_slides_count = @talks_without_slides.count
 
-    @events_without_videos = Event.left_joins(:talks).where(talks_count: 0).group_by(&:organisation)
+    @events_without_videos = Event.includes(:organisation).left_joins(:talks).where(talks_count: 0).group_by(&:organisation)
     @events_without_videos_count = @events_without_videos.flat_map(&:last).count
 
     @events_without_location = Static::Playlist.where(location: nil).group_by(&:__file_path)
