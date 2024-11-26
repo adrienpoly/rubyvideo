@@ -1,7 +1,7 @@
 <% limit ||= 8 %>
 <% more_topics = topics.to_a.from(limit) %>
 
-<div class="flex flex-wrap gap-2" data-controller="toggable">
+<div class="flex flex-wrap gap-2" data-controller="toggable" data-toggable-hide-text-value="show less topics">
   <%= render partial: "topics/badge", collection: topics.first(limit), as: :topic, locals: {back_to_url: back_to_url, back_to_title: back_to_title} %>
 
   <% more_topics.each do |topic| %>
