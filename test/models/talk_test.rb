@@ -85,6 +85,7 @@ class TalkTest < ActiveSupport::TestCase
 
   test "enhance talk transcript" do
     @talk = talks(:one)
+    @talk = Talk.includes(event: :organisation).find(@talk.id)
 
     refute @talk.enhanced_transcript.cues.present?
     VCR.use_cassette("talks/transcript-enhancement") do
@@ -99,6 +100,7 @@ class TalkTest < ActiveSupport::TestCase
 
   test "extract topics" do
     @talk = talks(:one)
+    @talk = Talk.includes(event: :organisation).find(@talk.id)
 
     VCR.use_cassette("talks/extract_topics") do
       assert_changes "@talk.topics.count" do
