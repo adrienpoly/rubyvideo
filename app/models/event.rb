@@ -200,8 +200,18 @@ class Event < ApplicationRecord
     "#DC153C"
   end
 
+  def watchable_talks?
+    talks.where.not(video_provider: ["scheduled", "not_published", "not_recorded"]).exists?
+  end
+
+  def featured_metadata?
+    return false unless static_metadata
+
+    static_metadata.featured_background.present? || static_metadata.featured_color.present?
+  end
+
   def featurable?
-    static_metadata && (static_metadata.featured_background.present? || static_metadata.featured_color.present?)
+    featured_metadata? && watchable_talks?
   end
 
   def featured_background
