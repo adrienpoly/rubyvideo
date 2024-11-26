@@ -9,6 +9,6 @@
   videos_count: 14
   metadata_parser: Youtube::VideoMetadata
   slug: montreal-rb-meetup
-  # banner_background: "#FF607F"
-  # featured_background: "#000000"
-  # featured_color: "#FFFFFF"
+  banner_background: "#FFFFFF"
+  featured_background: "#FFFFFF"
+  featured_color: "#000000"
