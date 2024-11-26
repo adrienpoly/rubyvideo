@@ -1,21 +1,3 @@
-# rubocop:disable Layout/LineLength
-# == Schema Information
-#
-# Table name: events
-#
-#  id              :integer          not null, primary key
-#  date            :date
-#  city            :string
-#  country_code    :string
-#  organisation_id :integer          not null
-#  created_at      :datetime         not null
-#  updated_at      :datetime         not null
-#  name            :string           default(""), not null
-#  slug            :string           default(""), not null
-#  talks_count     :integer          default(0), not null
-#  canonical_id    :integer
-#
-# rubocop:enable Layout/LineLength
 require "test_helper"
 
 class EventTest < ActiveSupport::TestCase

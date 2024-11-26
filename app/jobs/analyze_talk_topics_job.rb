@@ -4,6 +4,8 @@ class AnalyzeTalkTopicsJob < ApplicationJob
   def perform(talk)
     return if talk.raw_transcript.blank?
 
+    talk = Talk.includes(event: :organisation).find(talk.id)
+
     response = client.chat(
       parameters: {
         model: "gpt-4o-mini",
