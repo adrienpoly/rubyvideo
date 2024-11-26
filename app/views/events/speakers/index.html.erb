@@ -20,7 +20,7 @@
              award: "Award Presenter/Winner"
            } %>
 
-        <% grouped = @event.talks.flat_map { |talk| talk.speakers.map { |speaker| [talk.kind, speaker] } }.group_by(&:first).sort_by { |kind, _speakers| Talk.kinds.values.index(kind) } %>
+        <% grouped = @event.talks.flat_map { |talk| talk.speakers.map { |speaker| [talk.kind, speaker] } }.group_by(&:first).transform_values(&:uniq).sort_by { |kind, _speakers| Talk.kinds.values.index(kind) } %>
 
         <% grouped.each do |kind, speakers| %>
           <h2 class="mb-6"><%= titles[kind.to_sym].pluralize(speakers.count) %></h2>
