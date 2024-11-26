@@ -1,16 +1,14 @@
 ---
 - id: PLRAf4zt5oEjc2mqmEN9m_O0JovQCXxvxt
-  title: Montreal.rb
-  location: Montréal, QC, Canada
+  title: Montreal.rb Meetup
+  location: Montréal, Canada
   description: Montreal.rb talks managed at https://www.meetup.com/montrealrb
   published_at: "2023-05-04"
-  start_date: "2022-07-06"
-  end_date: "2024-10-02"
   channel_id: UCVGtTNLJjB35j-RgD62B9Zw
   year: 2024
   videos_count: 14
   metadata_parser: Youtube::VideoMetadata
-  slug: montreal-rb
+  slug: montreal-rb-meetup
   # banner_background: "#FF607F"
   # featured_background: "#000000"
   # featured_color: "#FFFFFF"
