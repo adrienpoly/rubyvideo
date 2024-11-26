@@ -8,7 +8,7 @@ class Events::SpeakersController < ApplicationController
   private
 
   def set_event
-    @event = Event.includes(:organisation).find_by!(slug: params[:event_slug])
+    @event = Event.includes(:organisation, talks: {speakers: :user}).find_by!(slug: params[:event_slug])
 
     redirect_to schedule_event_path(@event.canonical), status: :moved_permanently if @event.canonical.present?
   end
