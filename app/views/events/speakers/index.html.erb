@@ -1,26 +1,26 @@
 <%= render partial: "events/header", locals: {event: @event} %>
 
-<%= turbo_frame_tag dom_id(@event), data: { turbo_action: "advance", turbo_frame: "_top" } do %>
+<%= turbo_frame_tag dom_id(@event), data: {turbo_action: "advance", turbo_frame: "_top"} do %>
   <div class="container py-8">
     <%= render partial: "events/navigation", locals: {event: @event} %>
 
     <div class="flex items-start flex-wrap gap-8 sm:flex-nowrap w-full">
       <div class="w-full">
         <% titles = {
-          keynote: "Keynote Speaker",
-          talk: "Speaker",
-          lightning_talk: "Lightning Talk Speaker",
-          panel: "Panelist",
-          discussion: "Panelist",
-          gameshow: "Game Show Host",
-          workshop: "Workshop Instructor",
-          podcast: "Podcast Host",
-          q_and_a: "Q&A Host",
-          fireside_chat: "Fireside Chat Host",
-          award: "Award Presenter",
-        } %>
+             keynote: "Keynote Speaker",
+             talk: "Speaker",
+             lightning_talk: "Lightning Talk Speaker",
+             panel: "Panelist",
+             discussion: "Panelist",
+             gameshow: "Game Show Host",
+             workshop: "Workshop Instructor",
+             podcast: "Podcast Host",
+             q_and_a: "Q&A Host",
+             fireside_chat: "Fireside Chat Host",
+             award: "Award Presenter"
+           } %>
 
-        <% grouped = @event.talks.flat_map { |talk| talk.speakers.map { |speaker| [talk.kind, speaker] }}.group_by(&:first).sort_by { |kind, _speakers| Talk.kinds.values.index(kind) } %>
+        <% grouped = @event.talks.flat_map { |talk| talk.speakers.map { |speaker| [talk.kind, speaker] } }.group_by(&:first).sort_by { |kind, _speakers| Talk.kinds.values.index(kind) } %>
 
         <% grouped.each do |kind, speakers| %>
           <h2 class="mb-6"><%= titles[kind.to_sym].pluralize(speakers.count) %></h2>
