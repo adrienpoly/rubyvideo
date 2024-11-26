@@ -14,10 +14,10 @@
              discussion: "Panelist",
              gameshow: "Game Show Host",
              workshop: "Workshop Instructor",
-             podcast: "Podcast Host",
-             q_and_a: "Q&A Host",
-             fireside_chat: "Fireside Chat Host",
-             award: "Award Presenter"
+             podcast: "Podcast Host/Participant",
+             q_and_a: "Q&A Host/Participant",
+             fireside_chat: "Fireside Chat Host/Participant",
+             award: "Award Presenter/Winner"
            } %>
 
         <% grouped = @event.talks.flat_map { |talk| talk.speakers.map { |speaker| [talk.kind, speaker] } }.group_by(&:first).sort_by { |kind, _speakers| Talk.kinds.values.index(kind) } %>

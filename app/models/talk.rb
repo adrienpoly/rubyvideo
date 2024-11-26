@@ -396,7 +396,7 @@ class Talk < ApplicationRecord
       :discussion
     when /^(fireside\ chat:|fireside\ chat).*/i
       :fireside_chat
-    when /^(award:|award\ show|ruby\ heros\ awards|ruby\ heros\ award|rails\ luminary).*/i
+    when /^(award:|award\ show|ruby\ heroes\ awards|ruby\ heroes\ award|rails\ luminary).*/i
       :award
     else
       :talk
