@@ -3,7 +3,7 @@
 <% language = Language.by_code(talk.language) %>
 
 <div class="card card-compact bg-white border w-full" id="<%= dom_id talk %>">
-  <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden relative group", data: {action: "mouseover->preserve-scroll#updateLinkBackToWithScrollPosition"} do %>
+  <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden relative group", data: {action: "mouseover->preserve-scroll#updateLinkBackToWithScrollPosition", turbo_frame: "_top" } do %>
     <% if language && language != "English" %>
       <div class="absolute top-0 left-0 z-20 m-3 p-1 px-2 bg-black/15 backdrop-blur-md rounded-full">
         <span><%= language_to_emoji(language) %></span>
