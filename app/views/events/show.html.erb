@@ -1,6 +1,6 @@
 <%= turbo_refreshes_with method: :morph, scroll: :preserve %>
 
-<div class="w-full max-h-92 justify-center align-center flex" style="view-transition-name: hero; background: <%= @event.banner_background %>">
+<div class="w-full max-h-92 justify-center align-center flex mt-3 border-t border-b" style="view-transition-name: hero; background: <%= @event.banner_background %>">
   <%= image_tag image_path(@event.banner_image_path), class: "w-full max-h- aspect-auto container" %>
 </div>
 
@@ -51,6 +51,7 @@
               locals: {
                 favoritable: true,
                 user_favorite_talks_ids: @user_favorite_talks_ids,
+                watched_talks_ids: user_watched_talks_ids,
                 back_to: request.fullpath,
                 back_to_title: @event.name
               },

@@ -1,9 +1,9 @@
-<%# locals: (talk:, user_favorite_talks_ids: [], favoritable: false, back_to: nil, back_to_title: nil) -%>
+<%# locals: (talk:, user_favorite_talks_ids: [], favoritable: false, back_to: nil, back_to_title: nil, watched_talks_ids: []) -%>
 
 <% language = Language.by_code(talk.language) %>
 
-<div class="card card-compact bg-white shadow-xl w-full" id="<%= dom_id talk %>">
-  <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden relative group" do %>
+<div class="card card-compact bg-white border w-full" id="<%= dom_id talk %>">
+  <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden relative group", data: {action: "mouseover->preserve-scroll#updateLinkBackToWithScrollPosition"} do %>
     <% if language && language != "English" %>
       <div class="absolute top-0 left-0 z-20 m-3 p-1 px-2 bg-black/15 backdrop-blur-md rounded-full">
         <span><%= language_to_emoji(language) %></span>
@@ -11,11 +11,41 @@
       </div>
     <% end %>
 
-    <div class="absolute z-10 hidden group-hover:flex inset-0 bg-black/30 justify-center items-center rounded-t-xl">
-      <div class="bg-gray-500 hover:bg-primary rounded-full p-3">
-        <%= fa("play", size: :md, class: "fill-white") %>
+    <% if talk.scheduled? %>
+      <div class="flex gap-2 absolute top-0 right-0 z-20 m-3 p-2 bg-black/15 backdrop-blur-md rounded-full">
+        <span class="group-hover:inline-block hidden text-white text-sm ml-1">Scheduled</span>
+        <span><%= fa("clock", size: :sm, class: "fill-white") %></span>
       </div>
-    </div>
+    <% end %>
+
+    <% if talk.not_published? %>
+      <div class="flex gap-2 absolute top-0 right-0 z-20 m-3 p-2 bg-black/15 backdrop-blur-md rounded-full">
+        <span class="group-hover:inline-block hidden text-white text-sm ml-1">Not published</span>
+        <span><%= fa("upload", size: :sm, class: "fill-white") %></span>
+      </div>
+    <% end %>
+
+    <% if talk.not_recorded? %>
+      <div class="flex gap-2 absolute top-0 right-0 z-20 m-3 p-2 bg-black/15 backdrop-blur-md rounded-full">
+        <span class="group-hover:inline-block hidden text-white text-sm ml-1">Not recorded</span>
+        <span><%= fa("video-slash", size: :sm, class: "fill-white") %></span>
+      </div>
+    <% end %>
+
+    <% if watched_talks_ids.include?(talk.id) %>
+      <div class="absolute z-10 flex inset-0 bg-black/50 hover:bg-black/40 justify-center items-center rounded-t-xl">
+        <div class="bg-gray-700 rounded-full px-3 py-2 justify-center items-center flex text-white gap-4">
+          <%= fa("circle-check", size: :md, class: "fill-white") %>
+          Watched
+        </div>
+      </div>
+    <% else %>
+      <div class="absolute z-10 hidden group-hover:flex inset-0 bg-black/30 justify-center items-center rounded-t-xl">
+        <div class="bg-gray-500 hover:bg-primary rounded-full p-3">
+          <%= fa("play", size: :md, class: "fill-white") %>
+        </div>
+      </div>
+    <% end %>
 
     <%= image_tag(
           talk.thumbnail_lg,
@@ -26,13 +56,13 @@
           loading: "lazy",
           alt: "talk by #{talk.speakers.map(&:name).join(", ")}: #{talk.title}",
           style: "view-transition-name: #{dom_id(talk, :image)}",
-          class: "w-full object-cover rounded-t-xl"
+          class: "w-full object-cover skeleton rounded-t-xl border-b"
         ) %>
   <% end %>
   <div class="card-body flex flex-row justify-between items-start gap-2">
     <div class="flex flex-col items-start h-full justify-between gap-2 w-full">
       <div class="flex items-start justify-between gap-2 w-full">
-        <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title) do %>
+        <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), data: {action: "mouseover->preserve-scroll#updateLinkBackToWithScrollPosition"} do %>
           <%= content_tag :h2, class: "text-sm font-sans font-medium" do %>
             <%= sanitize(talk.title_with_snippet, tags: ["mark"]) %>
           <% end %>
@@ -56,7 +86,7 @@
           <% if talk.event %>
             <div class="flex items-center gap-2 font-light">
               <%= heroicon :map_pin, size: :sm, class: "shrink-0 grow-0" %>
-              <%= link_to talk.event.name, talk.event, class: "link link-ghost line-clamp-1" %>
+              <%= link_to talk.event_name, talk.event, class: "link link-ghost line-clamp-1" %>
             </div>
           <% end %>
         </div>

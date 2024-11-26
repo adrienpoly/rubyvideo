@@ -64,6 +64,42 @@
     on Rails. https://www.happyscribe.com/"
   video_id: aPsstRiNocY
 
+# Lightning Track
+- title: "Lightning Talk: An Intern's Guide to Tackling Tech Debt"
+  raw_title: "An intern's guide to tackling tech debt (Mathyas Papp)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Mathyas Papp
+  video_id: "mathyas-papp-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-26"
+  description: "Maintenance is not as bad as it sounds, follow this guide to give your web app a second life!"
+
+# Lightning Track
+- title: "Lightning Talk: Speeding up CI at Framework: From 21 to 7 Minutes"
+  raw_title: "Speeding up CI at Framework: from 21 to 7 minutes (Zach Feldman)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Zach Feldman
+  video_id: "zach-feldman-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-26"
+  description: "21 minutes isn't *terrible* for a full CI run, but what if we could get our build times down to 1/3 of that?"
+
+# Lightning Track
+- title: "Lightning Talk: Writing Tests That Fail"
+  raw_title: "Writing tests that fail (Thomas Marshall)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Thomas Marshall
+  video_id: "thomas-marshall-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-26"
+  description: "Why failing tests are much more useful than passing ones, and how to write them."
+
+# Lighting Track
+# TODO: missing workshop: The Modern Pro­gram­mer’s Guide to Neovim and Zel­lij by Chris Power and Robert Beene
+
 # Track 1
 - title: "Kamal 2.0: Deploy Web Apps Anywhere"
   raw_title: "Donal McBreen - Kamal 2.0: Deploy web apps anywhere - Rails World 2024"
@@ -79,7 +115,7 @@
     Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
-  video_id: rne8OoabiC8
+  video_id: nsgwFWvye8I
 
 # Track 2
 - title: Repurposing the Rails CLI
@@ -114,7 +150,7 @@
     tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian
     Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built
     on Rails. https://www.happyscribe.com/"
-  video_id: UpVoFqq8VFo
+  video_id: hQXjbnh18XM
 
 # Track 2
 - title: The State of Security in Rails 8
@@ -134,6 +170,29 @@
     on Rails. https://www.happyscribe.com/\""
   video_id: Z3DgOix0rIg
 
+# Lightning Track
+- title: "Lightning Talk: Rails as a Real-Time, Multiplayer Game Engine"
+  raw_title: "Rails as a real-time, multiplayer game engine (Pawel Strzalkowski)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Paweł Strzałkowski
+  video_id: "pawel-strzalkowski-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-26"
+  description: "Shows how pure Rails with Hotwire can be used to create beautiful, multiplayer, real-time games."
+
+# Lightning Track
+- title: "Lightning Talk: How to Keep Rails App Development Fast"
+  raw_title: "How to keep Rails app development fast (Gannon McGibbon)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Gannon McGibbon
+  video_id: "gannon-mcgibbon-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-26"
+  description: "Tips and tricks on optimizing Rails application startup in development and test."
+  slides_url: https://gmcgibbon.github.io/how-to-keep-rails-app-development-fast
+
 # Track 1
 - title: An Upgrade Handbook to Rails 8
   raw_title: Jenny Shen - An upgrade handbook to Rails 8 - Rails World 2024
@@ -149,7 +208,7 @@
     Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
-  video_id: lJy7c27Xx5k
+  video_id: HTRNa-U_KKk
 
 # Track 2
 - title: The Empowered Programmer
@@ -171,11 +230,33 @@
     https://www.happyscribe.com/"
   video_id: mhqf2uK0doU
 
+# Lightning Track
+- title: "Lightning Talk: How to Run a Ruby Meetup and Get Inspired By It"
+  raw_title: "How to run a Ruby meetup and get inspired by it (Irina Nazarova)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Irina Nazarova
+  video_id: "irina-nazarova-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-26"
+  description: "I re-started the SF Ruby Meetup and it brought the local community together: here’s my how-to."
+
+# Lightning Track
+- title: "Lightning Talk: Tips for AI Augmented Web Dev with Cursor"
+  raw_title: "Tips for AI Augmented web dev with cursor (Ignacio Alonso)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Ignacio Alonso
+  video_id: "ignacio-alonso-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-26"
+  description: "How I use Cursor for Ultra Fast Ruby Development."
+
 # Track 1
 - title: Frontiers of Development Productivity in Rails
   raw_title: Rafael França - Frontiers of development productivity in Rails - Rails World 2024
   speakers:
-    - Rafael França
+    - Rafael Mendonça França
   event_name: Rails World 2024
   published_at: "2024-09-26"
   description:
@@ -189,7 +270,7 @@
     tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian
     Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built
     on Rails. https://www.happyscribe.com/"
-  video_id: J7mfR4-VHOo
+  video_id: G9xwfEOXnb0
 
 # Track 2
 - title: Progressive Web Apps for Rails Developers
@@ -271,7 +352,7 @@
     at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will
     be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy
     Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
-  video_id: l56IBad-5aQ
+  video_id: wFUy120Fts8
 
 # Track 2
 - title: Demystifying Some of The Magic Behind Rails
@@ -294,6 +375,42 @@
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: DuPQYYWlhAY
 
+# Lightning Track
+- title: "Lightning Talk: AI-Enabled Marketplace Built on Monolithic Rails"
+  raw_title: "AI-Enabled Marketplace Built on Monolithic Rails (Avinash Joshi)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Avinash Joshi
+  video_id: "avinash-joshi-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-27"
+  description: "Sharing insights from building a marketplace web app using Rails, including integrating AI features to enhance functionality."
+
+# Lightning Track
+- title: "Lightning Talk: You Don't Need a Static Site Generator"
+  raw_title: "You Don't Need a Static Site Generator (Adam McCrea)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Adam McCrea
+  video_id: "adam-mccrea-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-27"
+  description: "Rails might feel like overkill for a basic website, but I'll show you why it's actually perfect."
+
+# Lightning Track
+- title: "Lightning Talk: React to Hotwire Migration"
+  raw_title: "React to Hotwired migration (Carlos Marchal)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Carlos Marchal
+  video_id: "carlos-marchal-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-27"
+  description: "Migrating a complex, interactive UI from React to Hotwire taught us some useful tricks and patterns."
+
+# Lighting Track
+# TODO: missing workshop: The Modern Pro­gram­mer’s Guide to Neovim and Zel­lij by Chris Power and Robert Beene
+
 # Track 1
 - title: Making The Best of a Bad Situation - Lessons from one of Intercom's most painful outages
   raw_title: Miles McGuire - Making the best of a bad situation - Rails World 2024
@@ -309,7 +426,7 @@
     Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
-  video_id: I_rlFaMzVL0
+  video_id: xMICEHWkp58
 
 # Track 2
 - title: Pushing the Boundaries with ActiveStorage
@@ -344,7 +461,7 @@
     tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian
     Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built
     on Rails. https://www.happyscribe.com/"
-  video_id: OK2wApjyswM
+  video_id: zqBNEBnjzXM
 
 # Track 2
 - title: "Prepare to Tack: Steering Rails Apps Out of Technical Debt"
@@ -370,6 +487,28 @@
     on Rails. https://www.happyscribe.com/"
   video_id: eT7hJz_GXGo
 
+# Lightning Track
+- title: "Lightning Talk: Ruby on Rails on WebAssembly"
+  raw_title: "Ruby on Rails on WebAssembly (Vladimir Dementyev)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Vladimir Dementyev
+  video_id: "vladimir-dementyev-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-27"
+  description: "Bring your Rails application right into the browser for the win!"
+
+# Lightning Track
+- title: "Lightning Talk: Callbacks: A Code-pendent Love Affair"
+  raw_title: "Callbacks: A Code-pendent Love Affair (Daniela Velasquez)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Daniela Velasquez
+  video_id: "daniela-velasquez-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-27"
+  description: "Journey through the highs and lows of working with Rails callbacks, from initial excitement to frustration, leading to a deeper appreciation."
+
 # Track 1
 - title: The Rails Boot Process
   raw_title: Xavier Noria - The Rails Boot Process - Rails World 2024
@@ -385,7 +524,30 @@
     Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
-  video_id: EZlOIViFPlg
+  video_id: Kx0ihLCTEgE
+
+# Lightning Track
+- title: "Lightning Talk: Hotwire Native - Turn any Rails App into a Mobile (iOS/Android) App"
+  raw_title: "Turbo Native: turn any Rails app into a mobile (iOS/Android) app (Yaroslav Shmarov)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Yaroslav Shmarov
+  video_id: "kLPw34FQomI"
+  video_provider: "youtube"
+  date: "2024-09-27"
+  description: "Learn to make your Rails app Hotwire Native & App Store compatible."
+  slides_url: https://speakerdeck.com/yshmarov/yaroslav-shmarov-hotwire-native-rails-world-2024-lightning-talk
+
+# Lightning Track
+- title: "Lightning Talk: Beyond Meetups - Creating a Ruby Ecosystem"
+  raw_title: "Beyond Meetups: Creating a Ruby Ecosystem (Mariusz Kozieł)"
+  event_name: "Rails World 2024"
+  speakers:
+    - Mariusz Kozieł
+  video_id: "mariusz-koziel-rails-world-2024"
+  video_provider: "not_recorded"
+  date: "2024-09-27"
+  description: "Discover how Ruby Europe is revolutionizing developer communities and learn how to apply these strategies globally."
 
 # Track 2
 - title: "Testing Integrations: The Good, the Bad, and the Ugly"
@@ -423,7 +585,7 @@
     Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
-  video_id: tB034Dt4tE0
+  video_id: Me_USd1TeYM
 
 # Track 2
 - title: Level Up Performance With Simple Coding Changes
@@ -443,7 +605,7 @@
     tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian
     Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built
     on Rails. https://www.happyscribe.com/"
-  video_id: BrlFadndho0
+  video_id: tBRBFcCWqcg
 
 # Track 1
 - title: Closing Keynote

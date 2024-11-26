@@ -35,7 +35,7 @@ class Event < ApplicationRecord
   slug_from :name
 
   # associations
-  belongs_to :organisation
+  belongs_to :organisation, strict_loading: true
   has_many :talks, dependent: :destroy, inverse_of: :event, foreign_key: :event_id
   has_many :speakers, -> { distinct }, through: :talks
   has_many :topics, -> { distinct }, through: :talks
@@ -52,6 +52,7 @@ class Event < ApplicationRecord
   scope :without_talks, -> { where.missing(:talks) }
   scope :canonical, -> { where(canonical_id: nil) }
   scope :not_canonical, -> { where.not(canonical_id: nil) }
+  scope :ft_search, ->(query) { where("lower(events.name) LIKE ?", "%#{query.downcase}%") }
 
   def assign_canonical_event!(canonical_event:)
     ActiveRecord::Base.transaction do
@@ -194,13 +195,23 @@ class Event < ApplicationRecord
   end
 
   def banner_background
-    static_metadata.banner_background.present? ? static_metadata.banner_background : "#FF607F"
+    static_metadata.banner_background.present? ? static_metadata.banner_background : "#DC153C"
   rescue => _e
-    "#FF607F"
+    "#DC153C"
+  end
+
+  def watchable_talks?
+    talks.where.not(video_provider: ["scheduled", "not_published", "not_recorded"]).exists?
+  end
+
+  def featured_metadata?
+    return false unless static_metadata
+
+    static_metadata.featured_background.present? || static_metadata.featured_color.present?
   end
 
   def featurable?
-    static_metadata && (static_metadata.featured_background.present? || static_metadata.featured_color.present?)
+    featured_metadata? && watchable_talks?
   end
 
   def featured_background
@@ -224,13 +235,13 @@ class Event < ApplicationRecord
   end
 
   def start_date
-    static_metadata.start_date.present? ? static_metadata.start_date.to_date : talks.minimum(:date)
+    static_metadata.start_date.present? ? static_metadata.start_date : talks.minimum(:date)
   rescue => _e
     talks.minimum(:date)
   end
 
   def end_date
-    static_metadata.end_date.present? ? static_metadata.end_date.to_date : talks.maximum(:date)
+    static_metadata.end_date.present? ? static_metadata.end_date : talks.maximum(:date)
   rescue => _e
     talks.maximum(:date)
   end

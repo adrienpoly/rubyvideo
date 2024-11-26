@@ -19,5 +19,5 @@ jobs:
         with:
           bundler: default
           bundler-cache: true
-      - name: Deploy to Staging
+      - name: Deploy to Production
         run: bundle exec kamal lock release
