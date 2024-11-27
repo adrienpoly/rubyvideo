@@ -176,7 +176,108 @@
 
                 <ul>
                   <% talks.each do |talk| %>
-                    <li><%= link_to talk.title %> (<%= link_to talk.date.to_fs(:long) %>)</li>
+                    <li><%= link_to talk.title, talk %> (<%= link_to talk.date.to_fs(:long), talk %>)</li>
+                  <% end %>
+                </ul>
+              </article>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Overdue scheduled talks (<%= @overdue_scheduled_talks_count %>)" style="width: 250px">
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Overdue scheduled talks (<%= @overdue_scheduled_talks_count %>)</h2>
+
+        <article class="prose mb-6">
+          These talks were scheduled and have been held now. If you have any information about these talks, please update the status.<br><br>
+
+          If the scheduled talk was recorded and the recording is already available, you can change the <code>video_provider</code> from <code>scheduled</code> to <code>youtube</code> (or any other video provider we support) and provide the <code>video_id</code> so we can embed it.<br><br>
+
+          If the scheduled talk was recorded but the recording is not available yet, you can change the <code>video_provider</code> from <code>scheduled</code> to <code>not_published</code>.<br><br>
+
+          If the scheduled talk was not recorded, you can change the <code>video_provider</code> from <code>scheduled</code> to <code>not_recorded</code>.<br><br>
+
+          In either case, you can provide the <code>slides_url</code> so we can at least show the slides for the talk.
+        </article>
+
+        <div id="overdue-scheduled-talks" class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4 min-w-full mb-6">
+          <% @overdue_scheduled_talks.group_by(&:event).each do |event, talks| %>
+            <%= content_tag :div, id: dom_id(event), class: "p-4 rounded-lg border bg-white", target: :_blank do %>
+              <article class="prose">
+                <h3 class="line-clamp-1">Event: <%= event.name %></h3>
+
+                <ul>
+                  <% talks.each do |talk| %>
+                    <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" %> (<%= link_to talk.date.to_fs(:long), talk %>, <%= time_ago_in_words(talk.date) %> ago)</li>
+                  <% end %>
+                </ul>
+              </article>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Talks without speakers (<%= @talks_without_speakers_count %>)" style="width: 225px">
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Talks without speakers (<%= @talks_without_speakers_count %>)</h2>
+
+        <article class="prose mb-6">
+          These talks currently don't have speakers assigned.
+        </article>
+
+        <div id="overdue-scheduled-talks" class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4 min-w-full mb-6">
+
+          <% @talks_without_speakers.group_by(&:event).sort_by { |_event, talks| talks.minimum(:date) }.each do |event, talks| %>
+            <%= content_tag :div, id: dom_id(event), class: "p-4 rounded-lg border bg-white", target: :_blank do %>
+              <article class="">
+                <div class="prose">
+                  <h3 class="line-clamp-1">Event: <%= event.name %></h3>
+                </div>
+
+                <h3 class="line-clamp-1 mt-3 mb-6"><pre>Data File: <%= talks.first.static_metadata.__file_path %></pre></h3>
+
+                <div class="prose">
+                  <ul>
+                    <% talks.each do |talk| %>
+                      <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" %> (<%= link_to talk.date.to_fs(:long), talk %>)</li>
+                    <% end %>
+                  </ul>
+                </div>
+              </article>
+            <% end %>
+          <% end %>
+
+        </div>
+      </div>
+    </div>
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Not published talks (<%= @not_published_talks_count %>)" style="width: 200px">
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Not published talks (<%= @not_published_talks_count %>)</h2>
+
+        <article class="prose mb-6">
+          These talks have been held, were recorded, but have not been published yet. Or maybe they are already published but haven't been added to RubyVideo yet.<br><br>
+
+          If the talk recording is available, you can change the <code>video_provider</code> from <code>not_published</code> to <code>youtube</code> (or any other video provider we support) and provide the <code>video_id</code> so we can embed it.<br><br>
+
+          If available, you can also provide the <code>slides_url</code> so we can show the slides next to the talk.
+        </article>
+
+        <div id="overdue-scheduled-talks" class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4 min-w-full mb-6">
+          <% @not_published_talks.group_by(&:event).sort_by { |_event, talks| talks.minimum(:date) }.each do |event, talks| %>
+            <%= content_tag :div, id: dom_id(event), class: "p-4 rounded-lg border bg-white", target: :_blank do %>
+              <article class="prose">
+                <h3 class="line-clamp-1">Event: <%= event.name %></h3>
+
+                <ul>
+                  <% talks.each do |talk| %>
+                    <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" %> (<%= link_to talk.date.to_fs(:long), talk %>, <%= time_ago_in_words(talk.date) %> ago)</li>
                   <% end %>
                 </ul>
               </article>

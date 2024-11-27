@@ -34,6 +34,21 @@ class ContributionsController < ApplicationController
     @out_of_bound_talks = talks_by_event_name.map { |event, talks| [event, talks.reject { |talk| @dates_by_event_name[event.name].cover?(talk.date) }] }
     @out_of_bound_talks_count = @out_of_bound_talks.map(&:last).flatten.count
 
+    # Overdue scheduled talks
+
+    @overdue_scheduled_talks = Talk.where(video_provider: "scheduled").where("date < ?", Date.today).order(date: :asc)
+    @overdue_scheduled_talks_count = @overdue_scheduled_talks.count
+
+    # Not published talks
+
+    @not_published_talks = Talk.where(video_provider: "not_published").order(date: :desc)
+    @not_published_talks_count = @not_published_talks.count
+
+    # Talks without speakers
+
+    @talks_without_speakers = Speaker.find_by(name: "TODO").talks
+    @talks_without_speakers_count = @talks_without_speakers.count
+
     # Missing events
 
     conference_names = Event.all.pluck(:name)
