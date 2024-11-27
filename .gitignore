@@ -54,6 +54,7 @@
 !/data_preparation/organisations.yml
 
 /config/credentials/production.key
+/config/credentials/staging.key
 
 test-run-report*
 
@@ -80,6 +81,6 @@ service_account.json
 # asdf
 .tool-versions
 
-# kamal
-.kamal/secrets
-.kamal/secrets.staging
+.DS_Store
+
+.ssh-keys/

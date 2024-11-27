@@ -30,6 +30,8 @@ Rails.application.routes.draw do
     resource :password_reset, only: [:new, :edit, :create, :update]
   end
 
+  resources :contributions, only: [:index]
+
   # resources
   namespace :analytics do
     resource :dashboards, only: [:show] do
@@ -37,18 +39,26 @@ Rails.application.routes.draw do
       get :daily_visits
       get :monthly_page_views
       get :monthly_visits
+      get :top_referrers
+      get :top_landing_pages
       get :yearly_talks
+      get :top_searches
     end
   end
   resources :talks, param: :slug, only: [:index, :show, :update, :edit] do
     scope module: :talks do
       resources :recommendations, only: [:index]
+      resource :watched_talk, only: [:create, :destroy]
     end
   end
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
   resources :events, param: :slug, only: [:index, :show, :update, :edit] do
-    member do
-      get "/schedule" => "events/schedule#show"
+    scope module: :events do
+      member do
+        get "/schedule" => "events/schedule#show"
+      end
+      resources :speakers, only: [:index]
+      resources :talks, only: [:index]
     end
   end
   resources :organisations, param: :slug, only: [:index, :show]
@@ -56,6 +66,14 @@ Rails.application.routes.draw do
   namespace :speakers do
     resources :enhance, only: [:update], param: :slug
   end
+
+  namespace "spotlight" do
+    resources :talks, only: [:index]
+    resources :speakers, only: [:index]
+    resources :events, only: [:index]
+  end
+
+  get "/featured" => "page#featured"
 
   get "leaderboard", to: "leaderboard#index"
 

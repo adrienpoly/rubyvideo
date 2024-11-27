@@ -4,16 +4,29 @@
 # Table name: events
 #
 #  id              :integer          not null, primary key
-#  date            :date
 #  city            :string
 #  country_code    :string
-#  organisation_id :integer          not null
+#  date            :date
+#  name            :string           default(""), not null, indexed
+#  slug            :string           default(""), not null, indexed
+#  talks_count     :integer          default(0), not null
+#  website         :string           default("")
 #  created_at      :datetime         not null
 #  updated_at      :datetime         not null
-#  name            :string           default(""), not null
-#  slug            :string           default(""), not null
-#  talks_count     :integer          default(0), not null
-#  canonical_id    :integer
+#  canonical_id    :integer          indexed
+#  organisation_id :integer          not null, indexed
+#
+# Indexes
+#
+#  index_events_on_canonical_id     (canonical_id)
+#  index_events_on_name             (name)
+#  index_events_on_organisation_id  (organisation_id)
+#  index_events_on_slug             (slug)
+#
+# Foreign Keys
+#
+#  canonical_id     (canonical_id => events.id)
+#  organisation_id  (organisation_id => organisations.id)
 #
 # rubocop:enable Layout/LineLength
 class Event < ApplicationRecord
@@ -22,7 +35,7 @@ class Event < ApplicationRecord
   slug_from :name
 
   # associations
-  belongs_to :organisation
+  belongs_to :organisation, strict_loading: true
   has_many :talks, ->(event) {
                      in_order_of(:video_id, event.video_ids_in_running_order)
                    }, dependent: :destroy, inverse_of: :event, foreign_key: :event_id
@@ -41,6 +54,7 @@ class Event < ApplicationRecord
   scope :without_talks, -> { where.missing(:talks) }
   scope :canonical, -> { where(canonical_id: nil) }
   scope :not_canonical, -> { where.not(canonical_id: nil) }
+  scope :ft_search, ->(query) { where("lower(events.name) LIKE ?", "%#{query.downcase}%") }
 
   def assign_canonical_event!(canonical_event:)
     ActiveRecord::Base.transaction do
@@ -100,11 +114,7 @@ class Event < ApplicationRecord
   end
 
   def keynote_speakers
-    talks.select { |talk|
-      talk.title.start_with?("Keynote: ") ||
-        talk.title.include?("Opening Keynote") ||
-        talk.title.include?("Closing Keynote")
-    }.flat_map(&:speakers)
+    speakers.merge(talks.keynote)
   end
 
   def formatted_dates
@@ -115,7 +125,7 @@ class Event < ApplicationRecord
     end
 
     if start_date.strftime("%Y") == end_date.strftime("%Y")
-      "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
+      return "#{start_date.strftime("%B %d")} - #{end_date.strftime("%B %d, %Y")}"
     end
 
     "#{start_date.strftime("%b %d, %Y")} - #{end_date.strftime("%b %d, %Y")}"
@@ -129,12 +139,27 @@ class Event < ApplicationRecord
     %(All #{name} #{organisation.kind} talks)
   end
 
+  def country_name
+    return nil if country_code.blank?
+
+    ISO3166::Country.new(country_code)&.iso_short_name
+  end
+
+  def held_in_sentence
+    return "" if country_name.blank?
+
+    if country_name.starts_with?("United")
+      %( held in the #{country_name})
+    else
+      %( held in #{country_name})
+    end
+  end
+
   def description
-    held_in = country_code ? %( held in #{ISO3166::Country.new(country_code)&.iso_short_name}) : ""
     keynotes = keynote_speakers.any? ? %(, including keynotes by #{keynote_speakers.map(&:name).to_sentence}) : ""
 
     <<~DESCRIPTION
-      #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in} and features #{talks.count} #{"talk".pluralize(talks.count)} from various speakers#{keynotes}.
+      #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in_sentence} and features #{talks.size} #{"talk".pluralize(talks.size)} from various speakers#{keynotes}.
     DESCRIPTION
   end
 
@@ -199,14 +224,28 @@ class Event < ApplicationRecord
     event_image_or_default_for("featured.webp")
   end
 
+  def poster_image_path
+    event_image_or_default_for("poster.webp")
+  end
+
   def banner_background
-    static_metadata.banner_background.present? ? static_metadata.banner_background : "#FF607F"
+    static_metadata.banner_background.present? ? static_metadata.banner_background : "#DC153C"
   rescue => _e
-    "#FF607F"
+    "#DC153C"
+  end
+
+  def watchable_talks?
+    talks.where.not(video_provider: ["scheduled", "not_published", "not_recorded"]).exists?
+  end
+
+  def featured_metadata?
+    return false unless static_metadata
+
+    static_metadata.featured_background.present? || static_metadata.featured_color.present?
   end
 
   def featurable?
-    static_metadata && (static_metadata.featured_background.present? || static_metadata.featured_color.present?)
+    featured_metadata? && watchable_talks?
   end
 
   def featured_background
@@ -230,13 +269,13 @@ class Event < ApplicationRecord
   end
 
   def start_date
-    static_metadata.start_date.present? ? static_metadata.start_date.to_date : talks.minimum(:date)
+    static_metadata.start_date.present? ? static_metadata.start_date : talks.minimum(:date)
   rescue => _e
     talks.minimum(:date)
   end
 
   def end_date
-    static_metadata.end_date.present? ? static_metadata.end_date.to_date : talks.maximum(:date)
+    static_metadata.end_date.present? ? static_metadata.end_date : talks.maximum(:date)
   rescue => _e
     talks.maximum(:date)
   end
@@ -245,5 +284,9 @@ class Event < ApplicationRecord
     static_metadata.year.present? ? static_metadata.year : talks.first.date.year
   rescue => _e
     talks.first.date.year
+  end
+
+  def website
+    self[:website].presence || organisation.website
   end
 end

@@ -14,6 +14,7 @@
   banner_background: "#FFAB0C"
   featured_background: "#FFAB0C"
   featured_color: "#444444"
+  website: https://rubykaigi.org/2015
 
 - id: PLbFmgWm555yYfT493G8C2fLvvhPDs-lIQ
   title: RubyKaigi 2016
@@ -30,6 +31,7 @@
   banner_background: "#C22700"
   featured_background: "#C22700"
   featured_color: "white"
+  website: https://rubykaigi.org/2016
 
 - id: PLbFmgWm555yaJalSEHY17E96ChjY-kF2D
   title: RubyKaigi 2017
@@ -49,6 +51,7 @@
   banner_background: "#FFF6EF"
   featured_background: "#FFF6EF"
   featured_color: "#5E5E5E"
+  website: https://rubykaigi.org/2017
 
 - id: PLbFmgWm555yZ8IJuzGOn3rj2dOvRLDdxL
   title: RubyKaigi 2018
@@ -70,6 +73,7 @@
   banner_background: "#F3F1D7"
   featured_background: "#F3F1D7"
   featured_color: "#424133"
+  website: https://rubykaigi.org/2018
 
 - id: PLbFmgWm555yYc9_jx9HkS_1WkOLKWnRw3
   title: RubyKaigi 2019
@@ -86,6 +90,7 @@
   banner_background: "#1F1548"
   featured_background: "#1F1548"
   featured_color: "white"
+  website: https://rubykaigi.org/2019
 
 - id: PLbFmgWm555yZeLpdOLhYwORIF9UjBAFHw
   title: RubyKaigi 2020 Takeout
@@ -102,6 +107,7 @@
   banner_background: "#7E0303"
   featured_background: "#7E0303"
   featured_color: "white"
+  website: https://rubykaigi.org/2020
 
 - id: PLbFmgWm555yYgc4sx2Dkb7WWcfflbt6AP
   title: RubyKaigi 2021 Takeout
@@ -118,6 +124,7 @@
   banner_background: "#EBE0CE"
   featured_background: "#EBE0CE"
   featured_color: "#0B374D"
+  website: https://rubykaigi.org/2021
 
 - id: PLbFmgWm555yYwwmwMvpC-RaqnmUTKB2EO
   title: RubyKaigi 2022
@@ -134,6 +141,7 @@
   banner_background: "#FCF7EE"
   featured_background: "#FCF7EE"
   featured_color: "#2F2F34"
+  website: https://rubykaigi.org/2022
 
 - id: PLbFmgWm555yYvWS7VGTFipF7ckduvSeT-
   title: RubyKaigi 2023
@@ -150,6 +158,7 @@
   banner_background: "#F8F8F8"
   featured_background: "#F8F8F8"
   featured_color: "#333333"
+  website: https://rubykaigi.org/2023
 
 - id: PLvpu5WTDxTKXsRzSBhaGbd7jF270RnaWI
   title: RubyKaigi 2024
@@ -168,3 +177,21 @@
   featured_color: "black"
   # featured_background: '#2994FF'
   # featured_color: 'white'
+  website: https://rubykaigi.org/2024/
+
+- id: rubykaigi-2025
+  title: RubyKaigi 2025
+  location: Matsuyama, Ehime, Japan
+  description: "RubyKaigi 2025, April 16-18, Matsuyama, Ehime"
+  published_at: "2025-04-18"
+  start_date: "2025-04-16"
+  end_date: "2025-04-18"
+  channel_id: UCnl2p1jpQo4ITeFq4yqmVuA
+  year: "2025"
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadataRubyKaigi
+  slug: rubykaigi-2025
+  banner_background: "#FF5719"
+  featured_background: "#FF5719"
+  featured_color: "#FFFFFF"
+  website: https://rubykaigi.org/2025/

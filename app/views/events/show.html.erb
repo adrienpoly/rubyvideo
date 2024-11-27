@@ -1,78 +1,40 @@
-<%= turbo_refreshes_with method: :morph, scroll: :preserve %>
+<%= render partial: "header", locals: {event: @event} %>
 
-<div class="w-full max-h-92 justify-center align-center flex" style="view-transition-name: hero; background: <%= @event.banner_background %>">
-  <%= image_tag image_path(@event.banner_image_path), class: "w-full max-h- aspect-auto container" %>
-</div>
+<%= turbo_frame_tag dom_id(@event), data: {turbo_action: "advance", turbo_frame: "_top"} do %>
+  <div class="container py-8">
+    <%= render partial: "navigation", locals: {event: @event} %>
 
-<div class="container py-8">
-  <div class="block lg:flex gap-8 align-center justify-between">
-    <div class="flex flex-col lg:flex-row gap-8 items-center lg:justify-right text-center lg:text-left mb-6 lg:mb-0">
-      <%= image_tag image_path(@event.avatar_image_path),
-            class: "rounded-full border border-[#D9DFE3] size-24 md:size-36",
-            alt: "#{@event.name} Avatar",
-            style: "view-transition-name: avatar",
-            loading: :lazy %>
-
-      <div class="flex-col flex justify-center">
-        <h1 class="mb-2 text-black font-bold" style="view-transition-name: title"><%= @event.name %></h1>
-        <h3 class="text-[#636B74]"><%= @event.location %> • <%= @event.formatted_dates %></h3>
-      </div>
-    </div>
-
-    <div class="flex flex-col gap-3 place-items-center">
-      <%= link_to "Visit Website", @event.organisation.website, class: "btn btn-primary w-full", target: "_blank" %>
-      <%= link_to "View all #{@event.organisation.name} events", @event.organisation, class: "btn w-full" %>
-    </div>
-  </div>
-
-  <p class="mt-6 text-[#636B74] max-w-[700px]">
-    <%= @event.description %>
-  </p>
-
-  <% if false %>
-    <div role="tablist" class="mt-12 tabs tabs-bordered">
-      <a role="tab" class="tab tab-active">Talks</a>
-      <a role="tab" class="tab">Schedule</a>
-      <a role="tab" class="tab">Speakers</a>
-      <a role="tab" class="tab">Organizers</a>
-      <a role="tab" class="tab">Photos</a>
-      <a role="tab" class="tab">Sponsors</a>
-    </div>
-  <% end %>
-</div>
-
-<div class="container py-8">
-
-  <div class="flex items-start flex-wrap gap-8 sm:flex-nowrap w-full">
-    <div class="w-full">
-      <div id="talks" class="min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 h-full">
-        <%= render partial: "talks/card",
-              collection: @talks,
-              locals: {
-                favoritable: true,
-                user_favorite_talks_ids: @user_favorite_talks_ids,
-                back_to: request.fullpath,
-                back_to_title: @event.name
-              },
-              as: :talk %>
-      </div>
-
-      <% if @talks.empty? %>
-        <div class="flex justify-center border rounded" style="padding-top: 3rem; padding-bottom: 3rem; padding-right: 1rem; padding-left: 1rem">
-          <div class="text-center text-gray-600">
-            <p>
-              <b>No talks found for this event.</b>
-            </p>
-            <p class="mt-2">
-              Please
-              <a href="https://github.com/adrienpoly/rubyvideo/issues/new?title=<%= CGI.escape("#{@event.name} Recordings") %>&body=<%= CGI.escape("<!-- Your Content Here -->\n\nIssue opened from event page: #{event_url(@event)}") %>" class="text-primary" target="_blank">open an issue on GitHub</a>
-              if you know how to get access to the recordings of this event. Thank you!
-            </p>
-          </div>
+    <div class="flex items-start flex-wrap gap-8 sm:flex-nowrap w-full">
+      <div class="w-full">
+        <div id="talks" class="min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 h-full">
+          <%= render partial: "talks/card",
+                collection: @talks,
+                locals: {
+                  favoritable: true,
+                  user_favorite_talks_ids: @user_favorite_talks_ids,
+                  back_to: request.fullpath,
+                  back_to_title: @event.name
+                },
+                as: :talk %>
         </div>
-      <% end %>
 
-      <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
+        <% if @talks.empty? %>
+          <div class="flex justify-center border rounded" style="padding-top: 3rem; padding-bottom: 3rem; padding-right: 1rem; padding-left: 1rem">
+            <div class="text-center text-gray-600">
+              <p>
+                <b>No talks found for this event.</b>
+              </p>
+              <p class="mt-2">
+                Please
+                <a href="https://github.com/adrienpoly/rubyvideo/issues/new?title=<%= CGI.escape("#{@event.name} Recordings") %>&body=<%= CGI.escape("<!-- Your Content Here -->\n\nIssue opened from event page: #{event_url(@event)}") %>" class="text-primary" target="_blank">open an issue on GitHub</a>
+                if you know how to get access to the recordings of this event. Thank you!
+              </p>
+            </div>
+          </div>
+        <% end %>
+
+        <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
+      </div>
     </div>
   </div>
-</div>
+<% end %>

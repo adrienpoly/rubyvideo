@@ -5,6 +5,17 @@ module ApplicationHelper
     @back_path || root_path
   end
 
+  def active_link_to(text = nil, path = nil, active_class: "", **options, &)
+    path ||= text
+
+    classes = active_class.presence || "active"
+    options[:class] = class_names(options[:class], classes) if current_page?(path)
+
+    return link_to(path, options, &) if block_given?
+
+    link_to text, path, options
+  end
+
   def footer_credits
     output = ["Made with"]
     output << heroicon(:heart, variant: :solid, size: :sm, class: "text-primary inline")

@@ -1,0 +1,191 @@
+---
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/234939947
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/242193200
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/243270751
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/243854068
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/243977720
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/245631865
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/ruby-turkiye-bulusmasi-4
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/ruby-turkiye-bulusmasi-5
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/ruby-turkiye-bulusmasi-6
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/ruby-turkiye-bulusmasi-7
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/ruby-turkiye-bulusmasi-8-online-1-7166a878
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-3fe705b1
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-2-e96be617
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-2-e96be617
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-3-6eca96fa
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-4-0eda7b5b
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-5-05b09503
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-6-f6c14021
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-7-66fc320c
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-8-634fa5be
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-9-9a0cedf9
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-10-8fddb78b
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-11-91b58b5e
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-12-e20a493f
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/answers-to-common-ruby-on-rails-testing-questions-b2643150
+
+- title: Optimizing Resource Utilization for Ruby processes
+  raw_title: Optimizing Resource Utilization for Ruby processes - Murat Toygar
+  speakers:
+    - Murat Toygar
+  event_name: Ruby Türkiye Meetup
+  published_at: "2022-06-29"
+  language: turkish
+  description:
+    Ruby ile geliştirdiğiniz projeyi yayına aldınız ama RAM kullanımınız
+    gittikçe artıyor mu? CPU yetmemeye mi başladı? Belki hata sizde değil, ondadır(configler).
+    Bunun gibi bazı problemlerimizi ikinci makineyi açmadan, sunucuyu yeniden başlatmadan
+    çözebiliriz. Nasıl mı, cevabı bu sunumda. :)
+
+  video_provider: youtube
+  video_id: PyBeX6pF45I
+
+- title: Journey of building an analytics feature in a SaaS app
+  original_title: Bir SaaS uygulamasında veri analizi altyapısı oluşturma yolculuğu
+  raw_title:
+    Bir SaaS uygulamasında veri analizi altyapısı oluşturma yolculuğu - Demirhan
+    Aydin
+  speakers:
+    - Demirhan Aydin
+  event_name: Ruby Türkiye Meetup
+  published_at: "2022-08-03"
+  language: turkish
+  description: |-
+    Çoğu B2B SaaS uygulaması müşterilerine analitik rapor özelliği sunar. Analitik rapor ihtiyacı kimi zaman basit, kimi zamansa oldukça karmaşık olabilir. Bu sunum, temel analitik raporlama özelliğinin nasıl büyüyebileceği, bir geliştirici olarak üzerinde çalışırken ne tür zorluklarla karşılaşabileceğiniz ve hangi araçları kullanabileceğiniz hakkında olacaktır.
+
+    Tamamen özgür bir ortamda Ruby ve bilgisayar bilimlerine dair konuları konuştuğumuz, yer yer gündemi değerlendirdiğimiz buluşmalarımıza sizi de bekleriz.
+  video_provider: youtube
+  video_id: jfqpEDW4uek
+
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/ruby-turkiye-istanbul-aksam-oturmasi-40105562
+
+- title: "Heroku'dan Kubernetes'e geçtik, ama nasıl?"
+  raw_title: Heroku'dan Kubernetes'e geçtik, ama nasıl? - Yaşar Celep
+  speakers:
+    - Yaşar Celep
+  event_name: Ruby Türkiye Meetup
+  published_at: "2023-06-21"
+  language: turkish
+  description:
+    "2013'ten beri Türkiye'deki binlerce küçük ve orta işletmenin kullandığı,
+    ön muhasebe programı Paraşüt'ün ana uygulaması dakikada yaklaşık 40 bin isteğe
+    cevap veriyor.\n\nParaşüt'ün bu isteklere cevap verebilmesi ve takımların ihtiyaçlarını
+    karşılamak için geliştirdiğimiz onlarca uygulamanın ihtiyaç duyduğu altyapının
+    sağlanması ve ayakta kalması gibi bir çok sorumluluğu Heroku üstleniyordu. Bu
+    yıla kadar. :) \n\nHeroku'dan bu yıl tamamen çıktık, ama nasıl çıktık. Kubernetes'e
+    taşıdık ve bitti gibi sihirli şeyler olmayan bu konuşmada; veritabanından takım
+    çalışmasına birçok noktayı, karşılaştığımız sorunları, ve nasıl çözdüğümüzü konuşacağız."
+  video_provider: youtube
+  video_id: IqNXfB1jdlE
+
+- title: "Akşam Oturması - 2024#01"
+  raw_title: Akşam Oturması 31.01.2024
+  speakers:
+    - Tayfun Öziş Erikan #  Refactor from Turbo 7 to Turbo 8 in a Rails app with Hotwire: Hotwire ile geliştirilen Rails uygulamasında Turbo 7'den Turbo 8'e geçiş (veya yeniden düzenleme)
+    - Ender Ahmet Yurt # Feature Flags Development with Ruby on Rails: Bir Rails uygulamasında Feature Flag geliştirme yöntemi kullanımı
+  event_name: Ruby Türkiye Meetup
+  published_at: "2024-01-31"
+  language: turkish
+  description:
+    "Merhaba,\n\nBir Akşam Oturması online etkinliğinde daha bir araya
+    geliyoruz. Arayı açtık biraz biliyoruz. Bu yüzden, iki sunum ile karşınızdayız.\n\nKonuşmalar:\n\nTayfun
+    Öziş Erikan - Refactor from Turbo 7 to Turbo 8 in a Rails app with Hotwire: Hotwire
+    ile geliştirilen Rails uygulamasında Turbo 7'den Turbo 8'e geçiş (veya yeniden
+    düzenleme)\nEnder Ahmet Yurt - Feature Flags Development with Ruby on Rails: Bir
+    Rails uygulamasında Feature Flag geliştirme yöntemi kullanımı\n \nRuby yaz ya
+    da yazma önemli değil. Sen de yeni insanalarla tanışmak, Ruby'nin sihirli dünyasında
+    neler oluyormuş bi bakmak için bile bizlere katılabilirsin.\n\nSevgiler."
+  video_provider: youtube
+  video_id: 4C-yJdvNi-U
+
+- title: "Akşam Oturması - 2024#02"
+  raw_title: Akşam Oturması 29.02.2024
+  speakers:
+    - Berkan Ünal #  Null object pattern: Ruby’de null object pattern kullanımının örnek bir kod üzerinde refactoring yaparak gösterimi.
+    - Okan Davut # E2E Testing with Cypress: Bu sunum ile Frontend uygulamalarında End to end nedir? Neden gereklidir ve Cypress kullanarak End to End testlerinizi nasıl yazabilirsiniz bunlara değinilecektir.
+  event_name: Ruby Türkiye Meetup
+  published_at: "2024-02-29"
+  language: turkish
+  description:
+    "Merhaba,\n\nAkşam Oturması etkinliklerimize ara vermeden devam ediyoruz.
+    Bu buluşmamızda da, iki sunum ve sunumlar sonrasında tanışma, sohber etkinliklerimiz
+    ile devam edeceğiz. Sizleri de aramızda görmek ve tanışmak istiyoruz.\n\nKonuşmalar:\n\nBerkan
+    Ünal - Null object pattern: Ruby’de null object pattern kullanımının örnek bir
+    kod üzerinde refactoring yaparak gösterimi.\nOkan Davut - E2E Testing with Cypress:
+    Bu sunum ile Frontend uygulamalarında End to end nedir? Neden gereklidir ve Cypress
+    kullanarak End to End testlerinizi nasıl yazabilirsiniz bunlara değinilecektir.\n
+    \nRuby yaz ya da yazma önemli değil. Sen de yeni insanalarla tanışmak, Ruby'nin
+    sihirli dünyasında neler oluyormuş bi bakmak için bile bizlere katılabilirsin."
+  video_provider: youtube
+  video_id: eaQ6GCYzxm8
+
+- title: "RSpec ile Test Doubles: Mock ve Stub Kavramlarına Giriş"
+  raw_title: Akşam Oturması 28.03.2024
+  speakers:
+    - Ahmet Kaptan
+  event_name: Ruby Türkiye Meetup
+  published_at: "2024-03-28"
+  language: turkish
+  description: |-
+    Merhaba,
+
+     Akşam Oturmalarımıza devam ediyoruz. Bu sefer Ahmet Kaptan bizlerle RSpec ile Test Doubles: Mock ve Stub Kavramlarına Giriş başlıklı bir konuşma yapacak. Ahmet bizlere, Test Doubles (mock ve stub gibi) kavramsal tanıtımını yaparak, neden test süreçlerinde bu tür araçlara ihtiyaç duyulduğuna dair temel bir anlayış sunup, Test Doubles nasıl kullanılacağına dair temel kavramları kodlar ile açıklayacak. Kalan vakitte de sohbet edip, ne var yok konuşacağız.
+
+     Ruby dünyasındaki test kavramlarını merak ediyor, giriş yapmak istiyorsanız sizleri bekleriz. En önemlisi ise bizlerle tanışmak ve eğlenmek için sizleri bekliyoruz.
+
+     Sevgiler ❤️
+  video_provider: youtube
+  video_id: u4TIBlzJJ0s
+
+# TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-202404-eeae65c1
+
+- title: "Gem walkthrough: active_record-associated_object & Oaken"
+  raw_title:
+    "Gem walk through: active_record-associated_object & Oaken - Kasper Timm
+    Hansen"
+  speakers:
+    - Kasper Timm Hansen
+  event_name: Ruby Türkiye Meetup
+  published_at: "2024-08-20"
+  language: english
+  description:
+    "Kasper Timm Hansen, is a seasoned Ruby developer and a core contributor
+    to the Ruby on Rails framework between 2016-2022. He has made significant contributions
+    to the Ruby community, particularly through his work on various gems that enhance
+    the functionality of Rails.\n\n \n\nIn this session, Kasper will walk us through
+    some of his popular gems, active_record-associated_object and oaken. He will explore
+    how these tools can help developers manage complex data relationships and simplify
+    database interactions in their Ruby on Rails applications."
+  video_provider: youtube
+  video_id: DGatl7bH2yQ
+
+- title: "Don't Stop Representin' - Journey of Service Responses as Value Objects"
+  raw_title: Akşam Oturması (23 Ekim 2024)
+  speakers:
+    - Çağrı Özkan
+  event_name: Ruby Türkiye Meetup
+  language: turkish
+  published_at: "2024-10-23"
+  description: ""
+  video_provider: youtube
+  video_id: rvHyOIi9ZfA
+
+- title: Leveling Up Developer Tooling for the Modern Rails & Hotwire Era
+  raw_title: Leveling Up Developer Tooling for the Modern Rails & Hotwire Era - Marco Roth
+  speakers:
+    - Marco Roth
+  event_name: Ruby Türkiye Meetup
+  language: english
+  published_at: "2024-11-20"
+  slides_url: https://speakerdeck.com/marcoroth/leveling-up-developer-tooling-for-the-modern-rails-and-hotwire-era-at-ruby-turkiye-november-2024
+  description: |-
+    The evolution of developer experience (DX) tooling has been a game-changer in how we build, debug, and enhance web applications.
+
+    This talk aims to illuminate the path toward enriching the Ruby on Rails ecosystem with advanced DX tools, focusing on the implementation of Language Server Protocols (LSP) for Stimulus and Turbo.
+
+    Drawing inspiration from the rapid advancements in JavaScript tooling, we explore the horizon of possibilities for Rails developers, including how advanced browser extensions and tools specifically designed for the Hotwire ecosystem can level up your developer experience.
+
+    https://kommunity.com/ruby-turkiye/events/leveling-up-developer-tooling-for-the-modern-rails-hotwire-era-671f5b80
+  video_provider: youtube
+  video_id: g2bVdaO8s7s

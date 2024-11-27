@@ -8,6 +8,7 @@
   videos_count: 30
   metadata_parser: Youtube::VideoMetadata
   slug: paris-rb-conf-2018
+  website: https://2018.rubyparis.org
 
 - id: PLjyiiigeVQV-rqM4LD2SUbUfxXLuta1yU
   title: Paris.rb Conf 2020
@@ -18,3 +19,19 @@
   videos_count: 23
   metadata_parser: Youtube::VideoMetadata
   slug: paris-rb-conf-2020
+  website: https://2020.rubyparis.org
+
+- id: paris-rb-meetup
+  title: Paris.rb Meetup
+  description: ""
+  location: "Paris, France"
+  published_at: "2024-11-23"
+  channel_id: UCttFnyoHp4TdsTj1wcVs44A
+  year: "2024"
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadata
+  slug: paris-rb-meetup
+  website: https://paris-rb.org
+  banner_background: "#FFFFFF"
+  featured_background: "#FFFFFF"
+  featured_color: "#E23F52"

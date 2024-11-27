@@ -17,4 +17,11 @@
       <%= render partial: "topic", collection: @topics, as: :topic %>
     <% end %>
   </div>
+  <% if @pagy.next.present? %>
+    <%= turbo_frame_tag :pagination,
+          data: {
+            controller: "lazy-loading",
+            lazy_loading_src_value: topics_path(letter: params[:letter], s: params[:s], page: @pagy.next, format: :turbo_stream)
+          } %>
+  <% end %>
 </div>

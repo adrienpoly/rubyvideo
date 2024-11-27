@@ -1,0 +1,84 @@
+# Name of your application. Used to uniquely configure containers.
+service: rubyvideo_staging
+
+# Name of the container image.
+image: adrienpoly/rubyvideo_staging
+
+# Deploy to these servers.
+servers:
+  web:
+    hosts:
+      - 5.75.232.156
+    options:
+      cpus: 1
+      memory: 0.5g
+      memory-swap: 2g
+
+  job:
+    hosts:
+      - 5.75.232.156
+    options:
+      cpus: 0.2
+      memory: 0.5g
+      memory-swap: 2g
+    cmd: bin/jobs
+
+# Enable SSL auto certification via Let's Encrypt (and allow for multiple apps on one server).
+# If using something like Cloudflare, it is recommended to set encryption mode
+# in Cloudflare's SSL/TLS setting to "Full" to enable end-to-end encryption.
+proxy:
+  ssl: true
+  hosts:
+    - staging.rubyvideo.dev
+  # kamal-proxy connects to your container over port 80, use `app_port` to specify a different port.
+  app_port: 80
+
+# Credentials for your image host.
+registry:
+  username: adrienpoly
+  password:
+    - KAMAL_REGISTRY_PASSWORD
+
+# Configure builder setup.
+builder:
+  arch:
+    - arm64
+  cache:
+    type: gha
+    options: mode=max
+    image: rubyvideo-staging-build-cache
+  secrets:
+    - RAILS_MASTER_KEY
+
+env:
+  clear:
+    WEB_CONCURRENCY: 1
+    RAILS_MAX_THREADS: 3
+    RAILS_ENV: staging
+  secret:
+    - RAILS_MASTER_KEY
+    - MEILI_MASTER_KEY
+
+# Use a persistent storage volume.
+#
+volumes:
+  - "storage:/rails/storage"
+
+accessories:
+  search:
+    image: getmeili/meilisearch:v1.10
+    host: 5.75.232.156
+    port: 7700
+    env:
+      clear:
+        MEILI_HTTP_ADDR: rubyvideo_staging-search:7700
+        MEILI_ENV: production
+        MEILI_DB_PATH: /rails/storage/meilisearch
+        MEILI_NO_ANALYTICS: true
+        MEILI_DUMP_DIR: /rails/storage/meilisearch/dumps
+        MEILI_MAX_INDEXING_MEMORY: 2Gb
+        MEILI_SNAPSHOT_DIR: /rails/storage/meilisearch/snapshots
+      secret:
+        - MEILI_MASTER_KEY
+    volumes:
+      - "storage:/rails/storage"

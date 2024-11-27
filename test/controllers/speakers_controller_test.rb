@@ -16,6 +16,13 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     assert_select "##{dom_id(@speaker_with_talk)}", 1
   end
 
+  test "should get index with search results" do
+    get speakers_url(s: "John")
+    assert_response :success
+    assert_select "h1", /Speakers/i
+    assert_select "h1", /search results for "John"/i
+  end
+
   test "should show speaker" do
     get speaker_url(@speaker)
     assert_response :success
@@ -33,9 +40,16 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to speaker_url(@speaker)
   end
 
-  test "should get edit" do
-    get edit_speaker_url(@speaker)
+  test "should get edit in a remote modal" do
+    get edit_speaker_url(@speaker), headers: {"Turbo-Frame" => "modal"}
     assert_response :success
+    assert_template "speakers/edit"
+  end
+
+  test "should redirect to root when not in a remote modal" do
+    get edit_speaker_url(@speaker)
+    assert_response :redirect
+    assert_redirected_to root_url
   end
 
   test "should create a suggestion for speaker" do

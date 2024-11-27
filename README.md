@@ -12,7 +12,11 @@ For compatible browsers it tries to demonstrate some of the possibilities of [Pa
 
 ## Contributing
 
-This project is open source, and contributions are greatly appreciated. One of the most direct ways to contribute at this time is by adding more content. For more information on contributing, please visit [this page](/docs/contributing.md).
+This project is open source, and contributions are greatly appreciated. One of the most direct ways to contribute at this time is by adding more content.
+
+We also have a page on the deployed site that has up-to-date information with the remaining known TODOs. Check out the ["Getting Started: Ways to Contribute" page on RubyVideo.dev](https://www.rubyvideo.dev/contributions) and feel free to start working on any of the remaining TODOs. Any help is greatly appreciated.
+
+For more information on contributing conference data, please visit [this page](/docs/contributing.md).
 
 ## Getting Started
 
@@ -20,7 +24,7 @@ We have tried to make the setup process as simple as possible so that in a few c
 
 ### Requirements
 
-- Ruby 3.3.5
+- Ruby 3.3.6
 - Docker and docker-compose (for Meilisearch)
 - Node.js 20.11.0
 - Meilisearch 1.1

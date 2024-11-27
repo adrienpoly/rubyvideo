@@ -1,8 +1,10 @@
-<%= content_tag :dialog, class: classes, **attributes do %>
+<%= content_tag :dialog, role: :dialog, aria: {modal: true}, class: classes, **attributes do %>
   <div class="modal-box" data-modal-target="modalBox">
-    <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" autofocus="false" data-action="click->modal#close">
-      <%= helpers.heroicon :x_mark %>
-    </button>
+    <% if close_button %>
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" autofocus="false" data-action="click->modal#close">
+        <%= helpers.heroicon :x_mark %>
+      </button>
+    <% end %>
     <%= content %>
   </div>
 <% end %>

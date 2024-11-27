@@ -1,0 +1,11 @@
+<div role="tablist" class="mb-12 tabs tabs-bordered">
+  <%= active_link_to "Talks", event_path(event), class: "tab", active_class: "tab-active", role: "tab" %>
+  <%= active_link_to "Speakers", event_speakers_path(event), class: "tab", active_class: "tab-active", role: "tab" %>
+
+  <% if false %>
+    <a role="tab" class="tab">Schedule</a>
+    <a role="tab" class="tab">Organizers</a>
+    <a role="tab" class="tab">Photos</a>
+    <a role="tab" class="tab">Sponsors</a>
+  <% end %>
+</div>
