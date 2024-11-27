@@ -36,13 +36,15 @@ class Event < ApplicationRecord
 
   # associations
   belongs_to :organisation, strict_loading: true
-  has_many :talks, ->(event) {
-                     in_order_of(:video_id, event.video_ids_in_running_order)
-                   }, dependent: :destroy, inverse_of: :event, foreign_key: :event_id
+  has_many :talks, dependent: :destroy, inverse_of: :event, foreign_key: :event_id
   has_many :speakers, -> { distinct }, through: :talks
   has_many :topics, -> { distinct }, through: :talks
   belongs_to :canonical, class_name: "Event", optional: true
   has_many :aliases, class_name: "Event", foreign_key: "canonical_id"
+
+  def talks_in_running_order
+    talks.in_order_of(:video_id, video_ids_in_running_order)
+  end
 
   # validations
   validates :name, presence: true
