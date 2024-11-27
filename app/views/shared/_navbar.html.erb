@@ -28,6 +28,10 @@
           </div>
         <% end %>
 
+        <% signed_out do %>
+          <%= render "shared/navbar/link", link_title: "Contribute", path: contributions_path %>
+        <% end %>
+
         <%= render "shared/navbar/search_bar" %>
 
         <% signed_in do %>
