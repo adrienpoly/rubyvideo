@@ -85,6 +85,16 @@
   video_provider: youtube
   video_id: NZx4phN7q_w
 
+- title: "Mastering the Ruby Debugger"
+  raw_title: "Mastering the Ruby Debugger"
+  speakers:
+    - TODO # Jim
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-01"
+  description: ""
+  video_provider: not_published
+  video_id: mastering-the-ruby-debugger
+
 - title: "Cognitive Psychology and the Zen of Code"
   raw_title:
     "Rocky Mountain Ruby 2011 - Cognitive Psychology and the Zen of Code
@@ -124,27 +134,13 @@
   video_provider: youtube
   video_id: 3QNZLneA0kA
 
-- title: "Lightning Talk: Developing Developers"
-  raw_title:
-    "Rocky Mountain Ruby 2011 - Lightning Talk: Developing Developers by:
-    Mike Gehard"
-  speakers:
-    - Mike Gehard
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
-  description: |-
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC1/
-  video_provider: youtube
-  video_id: LatNKij7AHY
-
 - title: "Code First, Ask Questions Later"
   raw_title: "Rocky Mountain Ruby 2011 - Code First, Ask Questions Later by: Tim Clem"
   speakers:
     - Tim Clem
   event_name: Rocky Mountain Ruby 2011
   published_at: "2011-09-01"
+  slides_url: https://speakerdeck.com/tclem/code-first-ask-questions-later
   description: |-
     Ever wonder how software is designed and developed at GitHub? Are you curious about how new features are deployed to the site? (Hint: ask the robot.) Want to know why we don't have any managers and don't track vacation days?
 
@@ -166,7 +162,6 @@
     just help you invent the next big thing rather than being the next Groupon clone.
   video_provider: youtube
   video_id: twoQjXLie7Y
-
 
 # 2011-09-02
 - title: "Real Time Rack"
@@ -226,6 +221,7 @@
     - Zach Holman
   event_name: Rocky Mountain Ruby 2011
   published_at: "2011-09-02"
+  slides_url: https://speakerdeck.com/holman/a-documentation-talk
   description: |-
     "A Documentation Talk" sounds pretty boring, right? Wouldn't it be scandalously titillating if this talk's title included detailed analysis of the expectations and results of the talk itself? Jeez it's like someone's making an overt metaphor for how Rubyists document their code.
 
@@ -244,6 +240,7 @@
     - Cory Flanigan
   event_name: Rocky Mountain Ruby 2011
   published_at: "2011-09-02"
+  slides_url: https://speakerdeck.com/searls/jasmine-for-rubyists-rockymtnruby-with-cory-flanigan-justin-searls
   description: |-
     by: Justin Searls, Cory Flanigan
 
@@ -275,9 +272,25 @@
     - Ryan McGeary
   event_name: Rocky Mountain Ruby 2011
   published_at: "2011-09-02"
+  slides_url: https://speakerdeck.com/rmm5t/do-your-commit-messages-suck
   description: ""
   video_provider: youtube
   video_id: 8YjSty6bfog
+
+- title: "Lightning Talk: Developing Developers"
+  raw_title:
+    "Rocky Mountain Ruby 2011 - Lightning Talk: Developing Developers by:
+    Mike Gehard"
+  speakers:
+    - Mike Gehard
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02"
+  description: |-
+    Help us caption & translate this video!
+
+    http://amara.org/v/GZC1/
+  video_provider: youtube
+  video_id: LatNKij7AHY
 
 - title: "Implementing Rails 3.1..."
   raw_title: Rocky Mountain Ruby 2011 - Implementing Rails 3.1...
@@ -410,16 +423,6 @@
     http://amara.org/v/GZC4/
   video_provider: youtube
   video_id: QWp4PbUhGXg
-
-- title: "A Documentation Talk"
-  raw_title: "A Documentation Talk"
-  speakers:
-    - Zach Holman
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
-  description: ""
-  video_provider: youtube
-  video_id: t9mWIOtvYNs
 
 - title: "Testing Panel"
   raw_title:
