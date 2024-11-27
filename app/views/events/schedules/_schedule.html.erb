@@ -17,8 +17,10 @@
       <h1 class="mb-6"><%= day.dig("name") %> - <%= date_string %></h1>
 
       <% max_cols = day.dig("grid").map { |grid| grid["slots"] }.max %>
+      <% multi_track = max_cols > 1 %>
 
       <div class="border text-center">
+
         <% day.dig("grid").each do |grid| %>
           <% start_time = grid["start_time"] %>
           <% end_time = grid["end_time"] %>
@@ -47,8 +49,13 @@
                     <span class="py-1 px-2 mb-4 rounded flex-inline justify-center" style="background: <%= track["color"] %>; color: <%= track["text_color"] %>">
                       <%= talk_track %>
                     </span>
-                  <% elsif slots == max_cols %>
+
+                    <% if multi_track %>
+                      <div class="h-4">&nbsp;</div>
+                    <% end %>
+                  <% elsif slots == max_cols && multi_track %>
                     <span class="py-1 px-2 mb-4">&nbsp;</span>
+                    <div class="h-4">&nbsp;</div>
                   <% end %>
 
                   <div class="flex-col">
