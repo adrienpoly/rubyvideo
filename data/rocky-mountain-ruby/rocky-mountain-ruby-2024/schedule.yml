@@ -1,6 +1,8 @@
+# Schedule: https://rockymtnruby.dev/schedule
+
 days:
   - name: "Day 1"
-    date: "2024-10-06"
+    date: "2024-10-07"
     grid:
       - start_time: "08:00"
         end_time: "09:00"
@@ -69,7 +71,7 @@ days:
           - Wrap up
 
   - name: "Day 2"
-    date: "2024-10-07"
+    date: "2024-10-08"
     grid:
       - start_time: "08:00"
         end_time: "09:00"
