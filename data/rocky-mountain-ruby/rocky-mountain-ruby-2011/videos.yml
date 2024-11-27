@@ -1,8 +1,10 @@
 ---
 # TODO: talks running order
-# TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
+
+# Website: https://web.archive.org/web/20110927200359/http://rockymtnruby.com
+
 # this blog post seems to have the schedule
 # https://athega.se/blogg/2011/09/12/rocky-mountain-ruby-2011
 
@@ -21,24 +23,6 @@
     Don't miss his opening remarks which will definitely be thought provoking.
   video_provider: youtube
   video_id: B31QrNFyRyc
-
-- title: "Focus? Why Do I Need More Stinkin' Focus?"
-  raw_title:
-    "Rocky Mountain Ruby 2011 - Focus? Why Do I Need More Stinkin' Focus?
-    by: Mike Gehard"
-  speakers:
-    - Mike Gehard
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
-  description:
-    Ever have one of those days where you sit back at the end of the day
-    and realize that you didn't get anything tangible done? Why do those days happen?
-    Many times is it because we lack focus during the day to complete even the simplest
-    of tasks. Our modern lives don't allow us to practice focus; in fact they conspire
-    against us being focused. This talk will explain why focus is important to productivity
-    and teach one way you can practice focus through meditation.
-  video_provider: youtube
-  video_id: "-JAQnLsFJMg"
 
 - title: "API Design Matters"
   raw_title: "Rocky Mountain Ruby 2011 - API Design Matters by: Anthony Eden"
@@ -84,6 +68,7 @@
     keep life and work moving forward.
   video_provider: youtube
   video_id: HYxf9v50B1U
+
 - title: "Things You Didn't Know About Exceptions"
   raw_title: "Rocky Mountain Ruby 2011 - Things You Didn't Know About Exceptions
     by: Avdi Grimm"
@@ -123,6 +108,66 @@
     performance in the interpreter between our ears.
   video_provider: youtube
   video_id: ar4QzWJ87RQ
+
+- title: "Ruby Coding High"
+  raw_title: "Rocky Mountain Ruby 2011 - Ruby Coding High by: Jim Weirich, Zef Houssney"
+  speakers:
+    - Jim Weirich
+    - Zef Houssney
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-01"
+  description: |-
+    A musical selection for your enjoyment.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/GZC6/
+  video_provider: youtube
+  video_id: 3QNZLneA0kA
+
+- title: "Lightning Talk: Developing Developers"
+  raw_title:
+    "Rocky Mountain Ruby 2011 - Lightning Talk: Developing Developers by:
+    Mike Gehard"
+  speakers:
+    - Mike Gehard
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-01"
+  description: |-
+    Help us caption & translate this video!
+
+    http://amara.org/v/GZC1/
+  video_provider: youtube
+  video_id: LatNKij7AHY
+
+- title: "Code First, Ask Questions Later"
+  raw_title: "Rocky Mountain Ruby 2011 - Code First, Ask Questions Later by: Tim Clem"
+  speakers:
+    - Tim Clem
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-01"
+  description: |-
+    Ever wonder how software is designed and developed at GitHub? Are you curious about how new features are deployed to the site? (Hint: ask the robot.) Want to know why we don't have any managers and don't track vacation days?
+
+    This talk will explore running your company like an open source project and give some insight into how GitHub continues to leverage ruby and other open source tools to keep up with massive data loads and a growing community of users.
+  video_provider: youtube
+  video_id: 8G51GrNpEyM
+
+- title: "Using Your Intuition for Innovation and Decision Making"
+  raw_title:
+    "Rocky Mountain Ruby 2011 - Using Your Intuition for Innovation and Decision
+    Making by: Suzan Bond"
+  speakers:
+    - Suzan Bond
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-01"
+  description:
+    Learn how to go inside out vs. outside in so you can tap into your
+    intuition to make strong decisions and come up with innovative solutions. It might
+    just help you invent the next big thing rather than being the next Groupon clone.
+  video_provider: youtube
+  video_id: twoQjXLie7Y
+
 
 # 2011-09-02
 - title: "Real Time Rack"
@@ -176,19 +221,6 @@
   video_provider: youtube
   video_id: RL7EL1oC6kY
 
-- title: "Code First, Ask Questions Later"
-  raw_title: "Rocky Mountain Ruby 2011 - Code First, Ask Questions Later by: Tim Clem"
-  speakers:
-    - Tim Clem
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
-  description: |-
-    Ever wonder how software is designed and developed at GitHub? Are you curious about how new features are deployed to the site? (Hint: ask the robot.) Want to know why we don't have any managers and don't track vacation days?
-
-    This talk will explore running your company like an open source project and give some insight into how GitHub continues to leverage ruby and other open source tools to keep up with massive data loads and a growing community of users.
-  video_provider: youtube
-  video_id: 8G51GrNpEyM
-
 - title: "A Documentation Talk"
   raw_title: "Rocky Mountain Ruby 2011 - A Documentation Talk by: Zach Holman"
   speakers:
@@ -235,6 +267,7 @@
     http://amara.org/v/GZC2/
   video_provider: youtube
   video_id: GeqPTG8dps8
+
 - title: "Lightning Talk: Do Your Commit Messages Suck"
   raw_title:
     "Rocky Mountain Ruby 2011 - Lightning Talk: Do Your Commit Messages Suck
@@ -247,28 +280,12 @@
   video_provider: youtube
   video_id: 8YjSty6bfog
 
-## talks bellow the order and exact date is uncertain
-- title: "Using Your Intuition for Innovation and Decision Making"
-  raw_title:
-    "Rocky Mountain Ruby 2011 - Using Your Intuition for Innovation and Decision
-    Making by: Suzan Bond"
-  speakers:
-    - Suzan Bond
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
-  description:
-    Learn how to go inside out vs. outside in so you can tap into your
-    intuition to make strong decisions and come up with innovative solutions. It might
-    just help you invent the next big thing rather than being the next Groupon clone.
-  video_provider: youtube
-  video_id: twoQjXLie7Y
-
 - title: "Implementing Rails 3.1..."
   raw_title: Rocky Mountain Ruby 2011 - Implementing Rails 3.1...
   speakers:
     - Rod Cope
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
+  published_at: "2011-09-02"
   description: |-
     Implementing Rails 3.1, Backbone.js, CoffeeScript, jQuery, Sass, and CouchDB on EC2 by: Rod Cope
 
@@ -283,7 +300,7 @@
   speakers:
     - Jeff Casimir
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
+  published_at: "2011-09-02"
   description: |-
     The Ruby community is obsessed with testing, supposedly. In my experience about four out of five applications have either zero or completely ineffective test coverage.
 
@@ -304,21 +321,33 @@
   video_provider: youtube
   video_id: 0u3NpGhxBq0
 
-- title: "Ruby Coding High"
-  raw_title: "Rocky Mountain Ruby 2011 - Ruby Coding High by: Jim Weirich, Zef Houssney"
+- title: "Focus? Why Do I Need More Stinkin' Focus?"
+  raw_title:
+    "Rocky Mountain Ruby 2011 - Focus? Why Do I Need More Stinkin' Focus?
+    by: Mike Gehard"
   speakers:
-    - Jim Weirich
-    - Zef Houssney
+    - Mike Gehard
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
-  description: |-
-    A musical selection for your enjoyment.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC6/
+  published_at: "2011-09-02"
+  description:
+    Ever have one of those days where you sit back at the end of the day
+    and realize that you didn't get anything tangible done? Why do those days happen?
+    Many times is it because we lack focus during the day to complete even the simplest
+    of tasks. Our modern lives don't allow us to practice focus; in fact they conspire
+    against us being focused. This talk will explain why focus is important to productivity
+    and teach one way you can practice focus through meditation.
   video_provider: youtube
-  video_id: 3QNZLneA0kA
+  video_id: "-JAQnLsFJMg"
+
+- title: "Lightning Talk: Deprecatable"
+  raw_title: "Rocky Mountain Ruby 2011 - Lightning Talk: Deprecatable by: Jeremy Hinegardner"
+  speakers:
+    - Jeremy Hinegardner
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02"
+  description: ""
+  video_provider: youtube
+  video_id: UVqMN3xIFl8
 
 - title: "Lightning Talk: In Defense of Unless"
   raw_title:
@@ -327,7 +356,7 @@
   speakers:
     - Spike Ilacqua
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
+  published_at: "2011-09-02"
   description: ""
   video_provider: youtube
   video_id: aDzGLc1C3Ps
@@ -339,7 +368,7 @@
   speakers:
     - Wayne E. Seguin
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
+  published_at: "2011-09-02"
   description: ""
   video_provider: youtube
   video_id: _CtI8f60xOk
@@ -349,7 +378,7 @@
   speakers:
     - Anthony Navarre
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
+  published_at: "2011-09-02"
   description: ""
   video_provider: youtube
   video_id: fjR3iT3gnxo
@@ -359,45 +388,10 @@
   speakers:
     - Jeff Dean
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
+  published_at: "2011-09-02"
   description: ""
   video_provider: youtube
   video_id: l9oGzOqEd88
-
-- title: "Lightning Talk: Developing Developers"
-  raw_title:
-    "Rocky Mountain Ruby 2011 - Lightning Talk: Developing Developers by:
-    Mike Gehard"
-  speakers:
-    - Mike Gehard
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
-  description: |-
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC1/
-  video_provider: youtube
-  video_id: LatNKij7AHY
-
-- title: "Testing Panel"
-  raw_title:
-    "Rocky Mountain Ruby 2011 - Testing Panel by: Jeff Casimir, Justin Searls,Cory
-    Flanigan, Jim Holmes"
-  speakers:
-    - Jeff Casimir
-    - Cory Flanigan
-    - Justin Searls
-    - Jim Holmes
-  event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
-  description: |-
-    Jeff Casimir will lead a follow-up panel focusing on testing topics with Justin Searls, Cory Flanigan and Jim Holmes.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC3/
-  video_provider: youtube
-  video_id: t9mWIOtvYNs
 
 - title: "Surviving Growing from Zero to 15,000 Selenium Tests"
   raw_title:
@@ -406,7 +400,7 @@
   speakers:
     - Jim Holmes
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
+  published_at: "2011-09-02"
   description: |-
     by: Jim Holmes
 
@@ -418,12 +412,23 @@
   video_provider: youtube
   video_id: QWp4PbUhGXg
 
-- title: "Lightning Talk: Deprecatable"
-  raw_title: "Rocky Mountain Ruby 2011 - Lightning Talk: Deprecatable by: Jeremy Hinegardner"
+- title: "Testing Panel"
+  raw_title:
+    "Rocky Mountain Ruby 2011 - Testing Panel by: Jeff Casimir, Justin Searls,Cory
+    Flanigan, Jim Holmes"
   speakers:
-    - Jeremy Hinegardner
+    - Zach Holman
+    - Jeff Casimir
+    - Cory Flanigan
+    - Justin Searls
+    - Jim Holmes
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02" # TODO: check
-  description: ""
+  published_at: "2011-09-02"
+  description: |-
+    Jeff Casimir will lead a follow-up panel focusing on testing topics with Justin Searls, Cory Flanigan and Jim Holmes.
+
+    Help us caption & translate this video!
+
+    http://amara.org/v/GZC3/
   video_provider: youtube
-  video_id: UVqMN3xIFl8
+  video_id: t9mWIOtvYNs
