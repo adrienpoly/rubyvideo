@@ -34,9 +34,9 @@
           <div class="grid grid-cols-<%= max_cols %> divide-x">
             <% slots.times do |i| %>
               <% talk_tag = items.any? ? :div : :a %>
-              <% talk = items.any? ? nil : event.talks[talk_count] %>
+              <% talk = items.any? ? nil : event.talks_in_running_order[talk_count] %>
 
-              <%= content_tag talk_tag, href: (talk ? talk_path(talk) : "#"), class: "group bg-white text-black hover:bg-primary hover:text-white text-xs p-3 col-span-#{colspan}" do %>
+              <%= content_tag talk_tag, href: (talk ? talk_path(talk, back_to: event_schedule_path(event), back_to_title: "Schedule") : "#"), class: "group bg-white text-black hover:bg-primary hover:text-white text-xs p-3 col-span-#{colspan}", data: {turbo_frame: "_top"} do %>
                 <% if items.any? %>
                   <span class="p-24"><%= items[i] %></span>
                 <% elsif talk %>
@@ -50,8 +50,6 @@
                   <% elsif slots == max_cols %>
                     <span class="py-1 px-2 mb-4">&nbsp;</span>
                   <% end %>
-
-                  <div class="h-4">&nbsp;</div>
 
                   <div class="flex-col">
                     <div class="text-md font-bold"><%= talk.title %></div><br>
