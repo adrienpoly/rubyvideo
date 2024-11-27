@@ -62,7 +62,7 @@
   <div class="card-body flex flex-row justify-between items-start gap-2">
     <div class="flex flex-col items-start h-full justify-between gap-2 w-full">
       <div class="flex items-start justify-between gap-2 w-full">
-        <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), data: {action: "mouseover->preserve-scroll#updateLinkBackToWithScrollPosition"} do %>
+        <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), data: {action: "mouseover->preserve-scroll#updateLinkBackToWithScrollPosition", turbo_frame: "_top"} do %>
           <%= content_tag :h2, class: "text-sm font-sans font-medium" do %>
             <%= sanitize(talk.title_with_snippet, tags: ["mark"]) %>
           <% end %>
@@ -79,14 +79,15 @@
             <% end %>
 
             <div class="line-clamp-1">
-              <% speaker_names = talk.speakers.map { |speaker| link_to speaker.name, speaker_path(speaker), class: "link link-ghost" } %>
-              <%= sanitize speaker_names.join(", ") %>
+              <% talk.speakers.each do |speaker| %>
+                <%= link_to speaker.name, speaker_path(speaker), class: "link link-ghost", data: {turbo_frame: "_top"} %><% if talk.speakers.last != speaker %>, <% end %>
+              <% end %>
             </div>
           </div>
           <% if talk.event %>
             <div class="flex items-center gap-2 font-light">
               <%= heroicon :map_pin, size: :sm, class: "shrink-0 grow-0" %>
-              <%= link_to talk.event_name, talk.event, class: "link link-ghost line-clamp-1" %>
+              <%= link_to talk.event_name, talk.event, class: "link link-ghost line-clamp-1", data: {turbo_frame: "_top"} %>
             </div>
           <% end %>
         </div>
