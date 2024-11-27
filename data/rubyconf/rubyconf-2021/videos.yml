@@ -202,6 +202,7 @@
     - Emily Giurleo
   event_name: RubyConf 2021
   published_at: "2021-11-08"
+  slides_url: https://docs.google.com/presentation/d/1il8WKCqY-rsoz-Dbr3hl7MabRFZ3jfc0-xikb4PRGBQ/edit?usp=drive_web&ouid=101939856070811570152
   description: |-
     Mocking: it’s one of the most controversial topics in the testing world. Using mocks, we can more easily test parts of our applications that might otherwise go untested, but mocks can also be misused, resulting in tests that are brittle or downright self-referential.
 
