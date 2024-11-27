@@ -1,6 +1,5 @@
 ---
 # TODO: talks running order
-# TODO: conference website
 # TODO: schedule website
 
 # Website: https://web.archive.org/web/20110927200359/http://rockymtnruby.com
@@ -412,12 +411,21 @@
   video_provider: youtube
   video_id: QWp4PbUhGXg
 
+- title: "A Documentation Talk"
+  raw_title: "A Documentation Talk"
+  speakers:
+    - Zach Holman
+  event_name: Rocky Mountain Ruby 2011
+  published_at: "2011-09-02"
+  description: ""
+  video_provider: youtube
+  video_id: t9mWIOtvYNs
+
 - title: "Testing Panel"
   raw_title:
     "Rocky Mountain Ruby 2011 - Testing Panel by: Jeff Casimir, Justin Searls,Cory
     Flanigan, Jim Holmes"
   speakers:
-    - Zach Holman
     - Jeff Casimir
     - Cory Flanigan
     - Justin Searls
@@ -430,5 +438,5 @@
     Help us caption & translate this video!
 
     http://amara.org/v/GZC3/
-  video_provider: youtube
-  video_id: t9mWIOtvYNs
+  video_provider: not_published
+  video_id: testing-panel-rocky-mountain–ruby-2011
