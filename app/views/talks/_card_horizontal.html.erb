@@ -1,21 +1,44 @@
-<%# locals: (talk:, current_talk: nil, compact: false) -%>
+<%# locals: (talk:, current_talk: nil, compact: false, turbo_frame: nil, watched_talks_ids:) -%>
 
 <% active = talk == current_talk %>
-<%= link_to talk_path(talk), class: class_names("w-full flex items-center gap-4 p-2 rounded-lg hover:bg-gray-200", "bg-gray-200": active),
+<% watched = watched_talks_ids.include?(talk.id) %>
+
+<%= link_to talk_path(talk),
+      class: class_names("w-full flex items-center gap-4 p-2 rounded-lg hover:bg-gray-200 group", active: active, watched: watched, not_recorded: talk.not_recorded?, scheduled: talk.scheduled?, not_published: talk.not_published?),
       id: dom_id(talk, :card_horizontal),
-      data: {talk_horizontal_card: true, scroll_into_view_target: (active ? "active" : nil)} do %>
+      data: {talk_horizontal_card: true,
+             scroll_into_view_target: (active ? "active" : nil),
+             talks_navigation_target: "card",
+             action: "talks-navigation#setActive",
+             turbo_frame: turbo_frame,
+             controller: "tooltip", tooltip_content_value: talk.title} do %>
+
   <div class="flex aspect-video shrink-0 relative w-20">
     <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_sm} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover border rounded", loading: :lazy %>
 
-    <% if active %>
-      <div class="absolute inset-0 bg-black/50 flex justify-center items-center rounded">
-        <%= fa("play", size: :sm, class: "fill-white") %>
-      </div>
-    <% end %>
+    <div class="absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.active]:flex">
+      <%= fa("play", size: :sm, class: "fill-white") %>
+    </div>
+
+    <div class="absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.watched]:flex group-[.active]:hidden">
+      <%= fa("circle-check", size: :sm, class: "fill-white") %>
+    </div>
+
+    <div class="absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.not\_recorded]:flex group-[.watched]:hidden group-[.active]:hidden">
+      <%= fa("video-slash", size: :sm, class: "fill-white") %>
+    </div>
+
+    <div class="absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.not\_published]:flex group-[.watched]:hidden group-[.active]:hidden">
+      <%= fa("upload", size: :sm, class: "fill-white") %>
+    </div>
+
+    <div class="absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.scheduled]:flex group-[.active]:hidden">
+      <%= fa("clock", size: :sm, class: "fill-white") %>
+    </div>
   </div>
 
   <div class="flex flex-col gap-1 text-sm">
-    <%= content_tag :div, class: "" do %>
+    <%= content_tag :div do %>
       <%= content_tag :div, talk.title, class: "font-regular line-clamp-1" %>
     <% end %>
 

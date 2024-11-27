@@ -34,7 +34,7 @@ class Organisation < ApplicationRecord
   slug_from :name
 
   # associations
-  has_many :events, dependent: :destroy, inverse_of: :organisation, foreign_key: :organisation_id
+  has_many :events, dependent: :destroy, inverse_of: :organisation, foreign_key: :organisation_id, strict_loading: true
   has_many :talks, through: :events
 
   # validations

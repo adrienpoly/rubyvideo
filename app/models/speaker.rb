@@ -65,6 +65,7 @@ class Speaker < ApplicationRecord
   scope :without_github, -> { where(github: "") }
   scope :canonical, -> { where(canonical_id: nil) }
   scope :not_canonical, -> { where.not(canonical_id: nil) }
+  scope :ft_search, ->(query) { where("lower(speakers.name) LIKE ?", "%#{query.downcase}%") }
 
   # normalizes
   normalizes :github, with: ->(value) { value.gsub(/^(?:https?:\/\/)?(?:www\.)?github\.com\//, "").gsub(/^@/, "") }

@@ -1,0 +1,22 @@
+- title: Solid Queue Internals, Externals and all the things in between
+  raw_title: Solid Queue internals, externals and all the things in between
+  speakers:
+    - Rosa Gutiérrez
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  description: |-
+    After years of tackling background job complexities with Resque and Redis at 37signals, the team finally decided to build an out-of-the-box solution. Enter #SolidQueue, a default now in Rails 8.
+
+    Rosa Gutiérrez presents Solid Queue, shares the journey and the challenges they faced to get it live.
+  video_provider: scheduled
+  video_id: rosa-gutierrez-ruby-community–conference-winter–edition-2025
+
+- title: "Talk by Aaron Patterson"
+  raw_title: "Talk by Aaron Patterson"
+  speakers:
+    - Aaron Patterson
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  description: "Talk by Aaron Patterson"
+  video_provider: scheduled
+  video_id: aaron-patterson-ruby-community–conference-winter–edition-2025

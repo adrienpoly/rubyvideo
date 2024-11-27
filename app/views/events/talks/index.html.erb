@@ -1,0 +1,4 @@
+
+<%= turbo_frame_tag dom_id(@event, :talks) do %>
+  <%= render "events/talks/list", talks: @talks, active_talk: @active_talk, watched_talks_ids: user_watched_talks_ids %>
+<% end %>

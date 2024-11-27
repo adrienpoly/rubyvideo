@@ -1,4 +1,5 @@
 class EventsController < ApplicationController
+  include WatchedTalks
   include Pagy::Backend
   skip_before_action :authenticate_user!, only: %i[index show update]
   before_action :set_event, only: %i[show edit update]
@@ -8,6 +9,7 @@ class EventsController < ApplicationController
   def index
     @events = Event.canonical.includes(:organisation).order("events.name ASC")
     @events = @events.where("lower(events.name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
+    @events = @events.ft_search(params[:s]) if params[:s].present?
   end
 
   # GET /events/1
@@ -42,7 +44,7 @@ class EventsController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_event
-    @event = Event.find_by!(slug: params[:slug])
+    @event = Event.includes(:organisation).find_by!(slug: params[:slug])
     redirect_to event_path(@event.canonical), status: :moved_permanently if @event.canonical.present?
   end
 
