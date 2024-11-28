@@ -1,6 +1,8 @@
 require "minisky"
 
 class Speaker::FetchBskyMetadata < ApplicationJob
+  BSKY_HOST = "api.bsky.app".freeze
+
   queue_as :low
   retry_on StandardError, attempts: 0
   limits_concurrency to: 1, key: "bsky"
@@ -8,7 +10,7 @@ class Speaker::FetchBskyMetadata < ApplicationJob
   def perform(speaker:)
     return if speaker.bsky.blank?
 
-    response = bsky.get_request('app.bsky.actor.getProfile', {
+    response = bsky.get_request("app.bsky.actor.getProfile", {
       actor: speaker.bsky
     })
 
@@ -18,6 +20,6 @@ class Speaker::FetchBskyMetadata < ApplicationJob
   private
 
   def bsky
-    @bsky ||= Minisky.new('api.bsky.app', nil)
+    @bsky ||= Minisky.new(BSKY_HOST, nil)
   end
 end
