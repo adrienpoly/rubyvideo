@@ -8,9 +8,9 @@
     <span>Update speaker page</span>
   <% end %>
 
-  <% if speaker.github.present? %>
+  <% if speaker.github.present? || speaker.bsky.present? %>
     <%= ui_button url: speakers_enhance_path(@speaker), method: :put, kind: :ghost, size: :sm do %>
-      <span>Fetch from GitHub</span>
+      <span>Enhance Profile</span>
     <% end %>
   <% end %>
 

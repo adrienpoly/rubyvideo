@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_11_22_163052) do
+ActiveRecord::Schema[8.0].define(version: 2024_11_28_073415) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -149,6 +149,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_22_163052) do
     t.string "mastodon", default: "", null: false
     t.string "bsky", default: "", null: false
     t.string "linkedin", default: "", null: false
+    t.json "bsky_metadata", default: {}, null: false
     t.index ["canonical_id"], name: "index_speakers_on_canonical_id"
     t.index ["name"], name: "index_speakers_on_name"
     t.index ["slug"], name: "index_speakers_on_slug", unique: true
