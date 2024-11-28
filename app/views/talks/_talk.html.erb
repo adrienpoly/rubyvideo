@@ -1,6 +1,7 @@
 <%# locals: (talk:) -%>
 
 <% video_player_controller = talk.external_player ? nil : "video-player" %>
+<% language = Language.by_code(talk.language) %>
 <%= content_tag :div, id: dom_id(talk),
       data: {
         controller: video_player_controller,
@@ -160,7 +161,7 @@
         <article class="prose">
           <p>
             <b><%= talk.title %></b><br>
-            <%= talk.speakers.map(&:name).to_sentence %> • <%= talk.formatted_date %> <% if talk.event.location %> • <%= talk.event.location %><% end %>
+            <%= talk.speakers.map(&:name).to_sentence %> • <%= talk.formatted_date %> <% if talk.event.location %> • <%= talk.event.location %><% end %> <% if language && language != "English" %> • <%= language %> <% end %>
           </p>
 
           <%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %>
