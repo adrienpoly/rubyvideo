@@ -59,6 +59,8 @@ class Speaker < ApplicationRecord
   belongs_to :canonical, class_name: "Speaker", optional: true
   belongs_to :user, primary_key: :github_handle, foreign_key: :github, optional: true
 
+  has_object :profile_enhancer
+
   # validations
   validates :canonical, exclusion: {in: ->(speaker) { [speaker] }, message: "can't be itself"}
 
@@ -161,11 +163,7 @@ class Speaker < ApplicationRecord
     "https://ui-avatars.com/api/?name=#{url_safe_initials}&size=#{size}&background=DC133C&color=fff"
   end
 
-  def fetch_bsky_metadata!
-    Speaker::FetchBskyMetadata.new.perform(speaker: self)
-  end
-
-  def broadcast_header
+  def broadcast_about
     broadcast_update target: dom_id(self, :header_content), partial: "speakers/header_content", locals: {speaker: self}
   end
 

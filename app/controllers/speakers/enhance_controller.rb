@@ -2,8 +2,7 @@ class Speakers::EnhanceController < ApplicationController
   def update
     @speaker = Speaker.find_by(slug: params[:slug])
 
-    Speaker::EnhanceProfileJob.perform_later(speaker: @speaker) if @speaker.github.present?
-    Speaker::FetchBskyMetadata.perform_later(speaker: @speaker) if @speaker.bsky.present?
+    @speaker.profile_enhancer.enhance_all_later!
 
     flash[:notice] = "Speaker profile will be updated soon."
 
