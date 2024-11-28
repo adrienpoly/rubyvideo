@@ -301,6 +301,8 @@ GEM
       actionpack (>= 6.0.0, < 8.1)
     method_source (1.1.0)
     mini_mime (1.1.5)
+    minisky (0.4.0)
+      base64 (~> 0.1)
     minitest (5.25.1)
     mission_control-jobs (0.5.0)
       actioncable (>= 7.1)
@@ -619,6 +621,7 @@ DEPENDENCIES
   litestream (~> 0.10.1)
   meilisearch-rails
   meta-tags (~> 2.18)
+  minisky (~> 0.4.0)
   mission_control-jobs
   net-http (~> 0.3.2)
   omniauth

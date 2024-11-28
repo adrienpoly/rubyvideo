@@ -6,6 +6,7 @@
 #  id            :integer          not null, primary key
 #  bio           :text             default(""), not null
 #  bsky          :string           default(""), not null
+#  bsky_metadata :json             not null
 #  github        :string           default(""), not null
 #  linkedin      :string           default(""), not null
 #  mastodon      :string           default(""), not null
