@@ -21,14 +21,14 @@
             <% shown_speakers = [] %>
 
             <% all_speakers = event.speakers.to_a %>
-            <% speakers_with_avatars = all_speakers.select { |speaker| speaker.github.present? } %>
+            <% speakers_with_avatars = all_speakers.select { |speaker| speaker.avatar_url.present? }.sort_by(&:avatar_rank) %>
 
             <% event.keynote_speakers.each do |keynote_speaker| %>
               <% shown_speakers << keynote_speaker %>
 
               <div class="avatar bg-white">
                 <div class="w-12 lg:w-28 xl:w-40">
-                  <img src="<%= keynote_speaker.github_avatar_url %>" onerror="this.parentElement.parentElement.remove()" loading="lazy">
+                  <img src="<%= keynote_speaker.avatar_url %>" onerror="this.parentElement.parentElement.remove()" loading="lazy">
                 </div>
               </div>
             <% end %>
@@ -39,7 +39,7 @@
 
                 <div class="avatar bg-white">
                   <div class="w-12 lg:w-28 xl:w-40">
-                    <img src="<%= speaker.github_avatar_url %>" loading="lazy">
+                    <img src="<%= speaker.avatar_url %>" loading="lazy">
                   </div>
                 </div>
               <% end %>
@@ -57,7 +57,7 @@
 
                 <div class="avatar bg-white">
                   <div class="w-8 xl:w-12">
-                    <img src="<%= speaker.github_avatar_url %>" loading="lazy">
+                    <img src="<%= speaker.avatar_url %>" loading="lazy">
                   </div>
                 </div>
               <% end %>

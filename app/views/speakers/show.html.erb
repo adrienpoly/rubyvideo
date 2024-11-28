@@ -10,20 +10,19 @@
         <% end %>
       </div>
 
-      <% if @speaker.github.present? %>
-        <div class="relative w-fit">
-          <%= image_tag @speaker.github_avatar_url(size: 200),
-                class: "rounded-full mb-4",
-                height: 200,
-                width: 200,
-                alt: "GitHub picture profile of #{@speaker.github}",
-                loading: :lazy %>
+      <div class="relative w-fit">
+        <%= image_tag @speaker.avatar_url(size: 200),
+              class: "rounded-full mt-4",
+              height: 200,
+              width: 200,
+              alt: "GitHub picture profile of #{@speaker.github}",
+              loading: :lazy %>
 
-          <% if @speaker.verified? %>
-            <div class="absolute right-0 top-0 badge badge-accent">Verified</div>
-          <% end %>
-        </div>
-      <% end %>
+        <% if @speaker.verified? %>
+          <div class="absolute right-0 top-0 badge badge-accent">Verified</div>
+        <% end %>
+      </div>
+
       <%= render "speakers/about", speaker: @speaker %>
       <%= render "speakers/actions", speaker: @speaker %>
     </div>
