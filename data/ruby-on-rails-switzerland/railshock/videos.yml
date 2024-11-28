@@ -1,0 +1,64 @@
+- title: "Don't Call Yourself a Developer"
+  raw_title: "Railshöck November 2024 - Don't call yourself a developer"
+  event_name: "Railshöck November 2024"
+  speakers:
+    - "Dimiter Petrov"
+  video_id: "dimiter-petrov-railshock-2024"
+  video_provider: "not_published"
+  date: "2024-11-27"
+  thumbnail_xs: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiejdeeggyoo6yjprbp5yqomze6p5f2orjs46fcxassbxe5sfx3qzy@jpeg
+  thumbnail_sm: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiejdeeggyoo6yjprbp5yqomze6p5f2orjs46fcxassbxe5sfx3qzy@jpeg
+  thumbnail_md: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiejdeeggyoo6yjprbp5yqomze6p5f2orjs46fcxassbxe5sfx3qzy@jpeg
+  thumbnail_lg: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiejdeeggyoo6yjprbp5yqomze6p5f2orjs46fcxassbxe5sfx3qzy@jpeg
+  thumbnail_xl: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiejdeeggyoo6yjprbp5yqomze6p5f2orjs46fcxassbxe5sfx3qzy@jpeg
+  description: ""
+
+- title: "Postgres and Null Bytes - Strategies to Handle Null Bytes"
+  raw_title: "Railshöck November 2024 - Postgres and Null Bytes"
+  event_name: "Railshöck November 2024"
+  speakers:
+    - "Simon Isler"
+  video_id: "simon-isler-railshock-2024"
+  video_provider: "not_published"
+  slides_url: https://github.com/renuo/postgres-null-bytes-talk/blob/main/presentation.pdf
+  date: "2024-11-27"
+  thumbnail_xs: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreic3pqbtzcwohbrql5wdbb7zhycdgb2whnyrfp5onxsaml27mcmycq@jpeg
+  thumbnail_sm: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreic3pqbtzcwohbrql5wdbb7zhycdgb2whnyrfp5onxsaml27mcmycq@jpeg
+  thumbnail_md: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreic3pqbtzcwohbrql5wdbb7zhycdgb2whnyrfp5onxsaml27mcmycq@jpeg
+  thumbnail_lg: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreic3pqbtzcwohbrql5wdbb7zhycdgb2whnyrfp5onxsaml27mcmycq@jpeg
+  thumbnail_xl: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreic3pqbtzcwohbrql5wdbb7zhycdgb2whnyrfp5onxsaml27mcmycq@jpeg
+  description: |-
+    https://github.com/renuo/postgres-null-bytes-talk
+
+- title: "Server Sent Events"
+  raw_title: "Railshöck November 2024 - Server Sent Events"
+  event_name: "Railshöck November 2024"
+  speakers:
+    - "Patrik Sopran"
+  video_id: "patrik-sopran-railshock-2024"
+  video_provider: "not_published"
+  date: "2024-11-27"
+  thumbnail_xs: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreigq7gruyi66dlirws6a5j6mp73k6utcdl7ygym3gxkmd373c4buiy@jpeg
+  thumbnail_sm: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreigq7gruyi66dlirws6a5j6mp73k6utcdl7ygym3gxkmd373c4buiy@jpeg
+  thumbnail_md: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreigq7gruyi66dlirws6a5j6mp73k6utcdl7ygym3gxkmd373c4buiy@jpeg
+  thumbnail_lg: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreigq7gruyi66dlirws6a5j6mp73k6utcdl7ygym3gxkmd373c4buiy@jpeg
+  thumbnail_xl: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreigq7gruyi66dlirws6a5j6mp73k6utcdl7ygym3gxkmd373c4buiy@jpeg
+  description: |-
+    https://github.com/de-sopi/rails-sse-manager
+    https://github.com/de-sopi/sse-rails-react-demo
+
+- title: "When Enums are not enough"
+  raw_title: "Railshöck November 2024 - When Enums are not enough"
+  event_name: "Railshöck November 2024"
+  speakers:
+    - "Sandro Kalbermatter"
+  video_id: "sandro-kalbermatter-railshock-2024"
+  video_provider: "not_published"
+  date: "2024-11-27"
+  thumbnail_xs: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiawr2v5exzg7ehxqqbd4ihvmf2ss77cpsnaegxg6bowcnqwipdwfa@jpeg
+  thumbnail_sm: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiawr2v5exzg7ehxqqbd4ihvmf2ss77cpsnaegxg6bowcnqwipdwfa@jpeg
+  thumbnail_md: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiawr2v5exzg7ehxqqbd4ihvmf2ss77cpsnaegxg6bowcnqwipdwfa@jpeg
+  thumbnail_lg: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiawr2v5exzg7ehxqqbd4ihvmf2ss77cpsnaegxg6bowcnqwipdwfa@jpeg
+  thumbnail_xl: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiawr2v5exzg7ehxqqbd4ihvmf2ss77cpsnaegxg6bowcnqwipdwfa@jpeg
+  description: |-
+    https://github.com/kalsan/anchormodel
