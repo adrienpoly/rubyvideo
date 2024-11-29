@@ -1,0 +1,70 @@
+<div class="container py-8">
+  <h1 class="text-3xl font-bold mb-4">Components</h1>
+
+  <h2 class="text-2xl font-bold mb-4">Button</h2>
+  <h3 class="font-bold mb-2">Solid</h3>
+  <div class="flex items-center justify-start gap-4 mb-8 flex-wrap">
+    <% [:neutral, :primary, :secondary, :accent, :info, :success, :warning, :error, :ghost, :link].each do |kind| %>
+      <%= ui_button kind.to_s, "#", kind: kind %>
+    <% end %>
+  </div>
+
+  <h3 class="font-bold mb-2">Outline</h3>
+  <div class="flex items-center justify-start gap-4 mb-8 flex-wrap">
+    <% [:neutral, :primary, :secondary, :accent, :info, :success, :warning, :error].each do |kind| %>
+      <%= ui_button kind.to_s, "#", kind: kind, outline: true %>
+    <% end %>
+  </div>
+
+  <h2 class="text-2xl font-bold">Dropdown</h2>
+  <div class="flex items-center justify-start gap-8 py-8">
+    <%= ui_dropdown id: "dropdown" do |c| %>
+      Dropdown
+      <% c.with_menu_item_link_to "link", "#" %>
+      <% c.with_menu_item_divider %>
+      <% c.with_menu_item_button_to "button", "#" %>
+    <% end %>
+
+    <%= ui_dropdown id: "dropdown" do |c| %>
+      <% c.with_toggle_open do %>
+        <%= heroicon "x-mark", size: :lg %>
+      <% end %>
+
+      <% c.with_toggle_close do %>
+        <%= heroicon "bars-3", size: :lg %>
+      <% end %>
+
+      <% c.with_menu_item_link_to "link", "#" %>
+      <% c.with_menu_item_divider %>
+      <% c.with_menu_item_button_to "button", "#" %>
+    <% end %>
+  </div>
+
+  <h2 class="text-2xl font-bold">Modal</h2>
+  <div class="flex items-center justify-start gap-8 py-8">
+    <%= ui_button "Open modal with top position", "#", kind: :neutral, outline: true, data: {toggle: "modal", target: "modal-top"} %>
+    <%= ui_modal position: :top, id: "modal-top" do %>
+      Modal with a top position
+    <% end %>
+
+    <%= ui_button "Open modal with bottom position", "#", kind: :neutral, outline: true, data: {toggle: "modal", target: "modal-bottom"} %>
+    <%= ui_modal position: :bottom, id: "modal-bottom" do %>
+      Modal with a bottom position
+    <% end %>
+
+    <%= ui_button "Open modal with middle position", "#", kind: :neutral, outline: true, data: {toggle: "modal", target: "modal-middle"} %>
+    <%= ui_modal position: :middle, id: "modal-middle" do %>
+      Modal with a middle position
+    <% end %>
+
+    <%= ui_button "Open modal with responsive position", "#", kind: :neutral, outline: true, data: {toggle: "modal", target: "modal-responsive"} %>
+    <%= ui_modal position: :responsive, id: "modal-responsive" do %>
+      Modal with a responsive position
+    <% end %>
+  </div>
+
+  <h2 class="text-2xl font-bold">Tabs</h2>
+  <div class="flex items-center justify-start gap-8 py-8">
+    Todo
+  </div>
+</div>

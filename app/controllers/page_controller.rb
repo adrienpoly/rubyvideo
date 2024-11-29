@@ -21,4 +21,7 @@ class PageController < ApplicationController
 
   def featured
   end
+
+  def components
+  end
 end

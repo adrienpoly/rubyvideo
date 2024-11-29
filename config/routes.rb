@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   # static pages
   get "uses", to: "page#uses"
+  get "/components", to: "page#components"
 
   # authentication
   get "/auth/failure", to: "sessions/omniauth#failure"
