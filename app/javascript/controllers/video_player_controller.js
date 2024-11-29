@@ -1,6 +1,7 @@
 import { Controller } from '@hotwired/stimulus'
 import Vlitejs from 'vlitejs'
 import VlitejsYoutube from 'vlitejs/providers/youtube.js'
+import youtubeSvg from '../../assets/images/icons/fontawesome/youtube-brands-solid.svg?raw'
 
 Vlitejs.registerProvider('youtube', VlitejsYoutube)
 
@@ -31,7 +32,9 @@ export default class extends Controller {
     if (controlBar) {
       const volumeButton = player.elements.container.querySelector('.v-volumeButton')
       const playbackRateSelect = this.createPlaybackRateSelect(this.playbackRateOptions, player)
+      const openInYouTube = this.createOpenInYouTube()
       volumeButton.parentNode.insertBefore(playbackRateSelect, volumeButton.nextSibling)
+      volumeButton.parentNode.insertBefore(openInYouTube, volumeButton.previousSibling)
     }
     // for seekTo to work we need to store again the player instance
     this.player = player
@@ -60,5 +63,20 @@ export default class extends Controller {
     if (time) {
       this.player.seekTo(time)
     }
+  }
+
+  createOpenInYouTube () {
+    const videoContainer = document.querySelector('[data-video-player-target="player"]')
+    const videoId = videoContainer.getAttribute('data-youtube-id')
+
+    const svgIconContainer = document.createElement('button')
+    svgIconContainer.className = 'v-openInYouTube v-controlButton'
+    svgIconContainer.innerHTML = youtubeSvg
+
+    svgIconContainer.addEventListener('click', () => {
+      window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank')
+    })
+
+    return svgIconContainer
   }
 }

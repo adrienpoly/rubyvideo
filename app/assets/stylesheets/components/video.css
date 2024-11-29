@@ -17,4 +17,9 @@
   .v-bigPlay {
     opacity: 0.5 !important;
   }
+  
+  .v-openInYouTube.v-controlButton svg {
+    width: 26px;
+    fill: var(--vlite-controlsColor);
+  }
 }
