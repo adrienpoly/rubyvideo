@@ -19,7 +19,7 @@
   }
   
   .v-openInYouTube.v-controlButton svg {
-    width: 26px;
+    width: 65%;
     fill: var(--vlite-controlsColor);
   }
 }
