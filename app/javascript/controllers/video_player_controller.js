@@ -75,6 +75,7 @@ export default class extends Controller {
 
     svgIconContainer.addEventListener('click', () => {
       window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank')
+      this.player.pause()
     })
 
     return svgIconContainer
