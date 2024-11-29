@@ -150,3 +150,20 @@
   featured_background: "#031B23"
   featured_color: "#FFFFFF"
   website: https://2024.euruko.org
+
+- id: euruko-2025
+  title: EuRuKo 2025
+  location: Viana do Castelo, Portugal
+  description: "Join us in Viana do Castelo, a charming coastal city where history meets modernity. Experience a city rich in culture and architectural heritage, and conveniently located only 40 minutes from Porto Airport."
+  published_at: "2025-09-19"
+  start_date: "2025-09-18"
+  end_date: "2025-09-19"
+  channel_id: UCgXsZr2e0AgUJMZm5t03WVw
+  year: "2025"
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadata
+  slug: euruko-2025
+  banner_background: "#1E0034"
+  featured_background: "linear-gradient(rgb(255, 127, 80), rgb(30, 11, 51))"
+  featured_color: "#FFFFFF"
+  website: https://2025.euruko.org
