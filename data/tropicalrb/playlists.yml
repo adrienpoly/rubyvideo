@@ -14,4 +14,21 @@
   banner_background: "#252B30"
   featured_background: "#252B30"
   featured_color: "#FEEB3B"
-  website: https://www.tropicalonrails.com/archive-2024
+  website: https://www.tropicalonrails.com/en/archive-2024
+
+- id: tropical-on-rails-2025
+  title: Tropical on Rails 2025
+  location: "São Paulo, Brazil"
+  description: Nearly twice as big, Tropical on Rails is back! Seasoned programmers, entrepreneurs, and students from all over Latin America and other countries, gathering for two days of top-notch content, international speakers, and networking!
+  published_at: "2025-04-04"
+  start_date: "2025-04-03"
+  end_date: "2025-04-04"
+  channel_id: ""
+  year: "2025"
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadata
+  slug: tropical-on-rails-2025
+  banner_background: "#2C1749"
+  featured_background: "#2C1749"
+  featured_color: "#0CDBB3"
+  website: https://www.tropicalonrails.com/en
