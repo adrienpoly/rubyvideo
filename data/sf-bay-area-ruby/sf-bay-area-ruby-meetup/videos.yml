@@ -18,6 +18,7 @@
       end_cue: "03:18"
       video_id: irina-nazarova-intro-sf-bay-area-ruby-meetup-march-2024
       video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
       thumbnail_xs: https://marcoroth.dev/images/resized/GJzK2F1a8AAr2GH-20e0497b-512x.jpg
       thumbnail_sm: https://marcoroth.dev/images/resized/GJzK2F1a8AAr2GH-20e0497b-512x.jpg
       thumbnail_md: https://marcoroth.dev/images/resized/GJzK2F1a8AAr2GH-20e0497b-512x.jpg
@@ -31,6 +32,7 @@
       end_cue: "04:35"
       video_id: meredith-barry-intro-sf-bay-area-ruby-meetup-march-2024
       video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
       speakers:
         - Meredith Barry
 
@@ -39,6 +41,7 @@
       end_cue: "26:46"
       video_id: ben-sheldon-autoloading-rails-goodjob-sf-bay-area-ruby-meetup-march-2024
       video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
       thumbnail_xs: https://pbs.twimg.com/media/GJ3I7P4bAAAfDS-?format=jpg
       thumbnail_sm: https://pbs.twimg.com/media/GJ3I7P4bAAAfDS-?format=jpg
       thumbnail_md: https://pbs.twimg.com/media/GJ3I7P4bAAAfDS-?format=jpg&name=large
@@ -53,11 +56,7 @@
       end_cue: "28:48"
       video_id: irina-nazarova-announcements-sf-bay-area-ruby-meetup-march-2024
       video_provider: parent
-      # thumbnail_xs: https://marcoroth.dev/images/resized/GJ3IdVJaAAATQMi-73a950b0-512x.jpg
-      # thumbnail_sm: https://marcoroth.dev/images/resized/GJ3IdVJaAAATQMi-73a950b0-512x.jpg
-      # thumbnail_md: https://marcoroth.dev/images/talks/san-francisco-ruby-meetup-march-2024/saved/GJ3IdVJaAAATQMi.jpg
-      # thumbnail_lg: https://marcoroth.dev/images/talks/san-francisco-ruby-meetup-march-2024/saved/GJ3IdVJaAAATQMi.jpg
-      # thumbnail_xl: https://marcoroth.dev/images/talks/san-francisco-ruby-meetup-march-2024/saved/GJ3IdVJaAAATQMi.jpg
+      event_name: SF Bay Area Ruby Meetup - March 2024
       thumbnail_xs: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/357/646/134/395/small/cc23b519348ce265.jpg
       thumbnail_sm: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/357/646/134/395/small/cc23b519348ce265.jpg
       thumbnail_md: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/357/646/134/395/small/cc23b519348ce265.jpg
@@ -71,6 +70,7 @@
       end_cue: "34:17"
       video_id: adarsh-pandit-announcements-sf-bay-area-ruby-meetup-march-2024
       video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
       thumbnail_xs: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/368/337/309/296/small/bc05ad4fa29c7471.jpg
       thumbnail_sm: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/368/337/309/296/small/bc05ad4fa29c7471.jpg
       thumbnail_md: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/368/337/309/296/small/bc05ad4fa29c7471.jpg
@@ -84,6 +84,7 @@
       end_cue: "39:42"
       video_id: marco-roth-announcements-sf-bay-area-ruby-meetup-march-2024
       video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
       thumbnail_xs: https://marcoroth.dev/images/resized/a01f2d0ddf0317a8-feda221b-1024x.jpeg
       thumbnail_sm: https://marcoroth.dev/images/resized/a01f2d0ddf0317a8-feda221b-1024x.jpeg
       thumbnail_md: https://marcoroth.dev/images/resized/a01f2d0ddf0317a8-feda221b-1024x.jpeg
@@ -98,6 +99,7 @@
       end_cue: "1:11:30"
       video_id: daniel-farina-building-cloud-ruby-roda-sf-bay-area-ruby-meetup-march-2024
       video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
       thumbnail_xs: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/465/163/819/543/small/44d09ee327bd409d.jpg
       thumbnail_sm: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/465/163/819/543/small/44d09ee327bd409d.jpg
       thumbnail_md: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/465/163/819/543/small/44d09ee327bd409d.jpg
@@ -112,6 +114,7 @@
       end_cue: "2:28:47"
       video_id: vladimir-dementyev-rails-wasm-browser-sf-bay-area-ruby-meetup-march-2024
       video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
       thumbnail_xs: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/555/355/135/239/small/f9bee13b0082b0c0.jpg
       thumbnail_sm: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/555/355/135/239/small/f9bee13b0082b0c0.jpg
       thumbnail_md: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/555/355/135/239/small/f9bee13b0082b0c0.jpg
@@ -137,6 +140,7 @@
     - title: "Intro"
       start_cue: "00:00"
       end_cue: "05:40"
+      event_name: SF Bay Area Ruby Meetup - October 2024
       thumbnail_xs: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg
@@ -150,6 +154,7 @@
     - title: "Ruby's Legacy and Ruby's Future"
       start_cue: "05:40"
       end_cue: "36:07"
+      event_name: SF Bay Area Ruby Meetup - October 2024
       thumbnail_xs: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg
@@ -163,6 +168,7 @@
     - title: "Forms on Rails"
       start_cue: "36:07"
       end_cue: "1:00:00"
+      event_name: SF Bay Area Ruby Meetup - October 2024
       thumbnail_xs: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg
@@ -176,6 +182,7 @@
     - title: "Open Mic: Ruby Central"
       start_cue: "01:00:00"
       end_cue: "01:07:00"
+      event_name: SF Bay Area Ruby Meetup - October 2024
       thumbnail_xs: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg
@@ -189,6 +196,7 @@
     - title: "Open Mic: rspec-llama"
       start_cue: "01:07:25"
       end_cue: "01:16:07"
+      event_name: SF Bay Area Ruby Meetup - October 2024
       thumbnail_xs: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg
@@ -202,6 +210,7 @@
     - title: "Open Mic: I'm Speaking at RubyConf & Why You Should Hire Me"
       start_cue: "01:16:14"
       end_cue: "01:17:15"
+      event_name: SF Bay Area Ruby Meetup - October 2024
       thumbnail_xs: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg
@@ -215,6 +224,7 @@
     - title: "Open Mic: Why You Should Hire Me"
       start_cue: "01:17:29"
       end_cue: "01:18:22"
+      event_name: SF Bay Area Ruby Meetup - October 2024
       thumbnail_xs: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg
@@ -228,6 +238,7 @@
     - title: "Open Mic: oyencov - Usage-Weighted Test Coverage for Rails applications"
       start_cue: "01:18:32"
       end_cue: "01:19:22"
+      event_name: SF Bay Area Ruby Meetup - October 2024
       thumbnail_xs: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg
@@ -241,6 +252,7 @@
     - title: "Open Mic: ActiveAgents.ai"
       start_cue: "01:19:30"
       end_cue: "01:21:02"
+      event_name: SF Bay Area Ruby Meetup - October 2024
       description: "https://www.activeagents.ai"
       thumbnail_xs: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg&name=small
@@ -255,6 +267,7 @@
     - title: "Red Fantasy Land"
       start_cue: "01:22:30"
       end_cue: "01:52:18"
+      event_name: SF Bay Area Ruby Meetup - October 2024
       thumbnail_xs: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg
