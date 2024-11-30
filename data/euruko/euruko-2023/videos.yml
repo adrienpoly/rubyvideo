@@ -212,11 +212,11 @@
   video_provider: youtube
   video_id: 9fzMs_CEzrA
 
-- title: 'Unconference Pitches (Day 1)'
+- title: "Unconference Pitches (Day 1)"
   raw_title: Unconference pitches
   event_name: Euruko 2023
-  published_at: '2023-10-04'
-  description: ''
+  published_at: "2023-10-04"
+  description: ""
   video_provider: youtube
   video_id: J7oargktOEw
   talks:
@@ -332,11 +332,11 @@
       speakers:
         - Yaroslav Shmarov
 
-- title: 'Unconference Pitches (Day 2)'
+- title: "Unconference Pitches (Day 2)"
   raw_title: Unconference pitches
   event_name: Euruko 2023
-  published_at: '2023-10-04'
-  description: ''
+  published_at: "2023-10-04"
+  description: ""
   video_id: t6_uvjX25Jk
   talks:
     - title: "Unconference Pitch: Daniel"
@@ -419,73 +419,75 @@
       speakers:
         - Yakau # TODO: missing last name
 
- - title: 'City Pitch: Warsaw'
-   raw_title: City Pitching. Warsaw
-   speakers:
-     - Mariusz Kozieł
-   event_name: Euruko 2023
-   published_at: '2023-10-04'
-   description: ''
-   video_id: zmRS3Q-t4pc
+- title: "City Pitch: Warsaw"
+  raw_title: City Pitching. Warsaw
+  speakers:
+    - Mariusz Kozieł
+  event_name: Euruko 2023
+  published_at: "2023-10-04"
+  description: ""
+  video_id: zmRS3Q-t4pc
 
- - title: 'City Pitch: Tuzla'
-   raw_title: City pitching. Bosnia
-   speakers:
-     - Muhamed Isabegović
-   event_name: Euruko 2023
-   published_at: '2023-10-04'
-   description: ''
-   video_id: DJWyvVnvyRw
+- title: "City Pitch: Tuzla"
+  raw_title: City pitching. Bosnia
+  speakers:
+    - Muhamed Isabegović
+  event_name: Euruko 2023
+  published_at: "2023-10-04"
+  description: ""
+  video_id: DJWyvVnvyRw
 
- - title: 'City Pitch: Kyiv'
-   raw_title: City pitch. Kyiv
-   speakers: []
-   event_name: Euruko 2023
-   published_at: '2023-10-04'
-   description: ''
-   video_id: PcRbFElb18c
+- title: "City Pitch: Kyiv"
+  raw_title: City pitch. Kyiv
+  speakers:
+    - TODO
+  event_name: Euruko 2023
+  published_at: "2023-10-04"
+  description: ""
+  video_id: PcRbFElb18c
 
- - title: 'City Pitch: Copenhagen'
-   raw_title: City pitching. Copenhagen
-   speakers: []
-   event_name: Euruko 2023
-   published_at: '2023-10-04'
-   description: ''
-   video_id: j2zOBQkY4XM
+- title: "City Pitch: Copenhagen"
+  raw_title: City pitching. Copenhagen
+  speakers:
+    - TODO
+  event_name: Euruko 2023
+  published_at: "2023-10-04"
+  description: ""
+  video_id: j2zOBQkY4XM
 
- - title: 'City Pitch: Manchester'
-   raw_title: City pitching. Manchester
-   speakers:
-     - Frederick Cheung
-   event_name: Euruko 2023
-   published_at: '2023-10-04'
-   description: ''
-   video_id: re1N1ZQ5CSQ
+- title: "City Pitch: Manchester"
+  raw_title: City pitching. Manchester
+  speakers:
+    - Frederick Cheung
+  event_name: Euruko 2023
+  published_at: "2023-10-04"
+  description: ""
+  video_id: re1N1ZQ5CSQ
 
- - title: 'City Pitch: Helsinki'
-   raw_title: City pitching. Helsinki
-   speakers:
-     - Matias Korhonen
-   event_name: Euruko 2023
-   published_at: '2023-10-04'
-   description: ''
-   video_id: syRtJsFdTvI
+- title: "City Pitch: Helsinki"
+  raw_title: City pitching. Helsinki
+  speakers:
+    - Matias Korhonen
+  event_name: Euruko 2023
+  published_at: "2023-10-04"
+  description: ""
+  video_id: syRtJsFdTvI
 
- - title: 'City Pitch: Verona'
-   raw_title: City Pitching. Verona
-   speakers:
-     - Giorgio Fochesato
-   event_name: Euruko 2023
-   published_at: '2023-10-04'
-   description: ''
-   video_id: usrc27rytMk
+- title: "City Pitch: Verona"
+  raw_title: City Pitching. Verona
+  speakers:
+    - Giorgio Fochesato
+  event_name: Euruko 2023
+  published_at: "2023-10-04"
+  description: ""
+  video_id: usrc27rytMk
 
-- title: 'Winner Ceremony'
-   raw_title: Euruko 2023. Winner Ceremony
-   speakers:
-     - Sergey Sergyenko
-     - Muhamed Isabegović
-   event_name: Euruko 2023
-   published_at: '2023-10-04'
-   description: ''
-   video_id: IlaLqll1rZA
+- title: "Winner Ceremony"
+  raw_title: Euruko 2023. Winner Ceremony
+  speakers:
+    - Sergey Sergyenko
+    - Muhamed Isabegović
+  event_name: Euruko 2023
+  published_at: "2023-10-04"
+  description: ""
+  video_id: IlaLqll1rZA
