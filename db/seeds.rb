@@ -64,7 +64,6 @@ MeiliSearch::Rails.deactivate! do
             child_talk.update_from_yml_metadata!(event: event)
           end
         end
-
       rescue ActiveRecord::RecordInvalid => e
         puts "Couldn't save: #{talk_data["title"]}, error: #{e.message}"
       end

@@ -147,8 +147,22 @@ class Talk < ApplicationRecord
   scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
 
   scope :with_essential_card_data, -> do
-    select(:id, :slug, :title, :date, :thumbnail_sm, :thumbnail_lg, :video_id, :video_provider, :event_id, :language, :meta_talk, :parent_talk_id, :start_seconds, :end_seconds)
-      .includes(:speakers, event: :organisation)
+    select(
+      :id,
+      :slug,
+      :title,
+      :date,
+      :thumbnail_sm,
+      :thumbnail_lg,
+      :video_id,
+      :video_provider,
+      :event_id,
+      :language,
+      :meta_talk,
+      :parent_talk_id,
+      :start_seconds,
+      :end_seconds
+    ).includes(:speakers, event: :organisation)
   end
 
   def managed_by?(visiting_user)
@@ -294,7 +308,7 @@ class Talk < ApplicationRecord
   def duration
     return nil if start_seconds.blank? || end_seconds.blank?
 
-    ActiveSupport::Duration.build(end_seconds-start_seconds)
+    ActiveSupport::Duration.build(end_seconds - start_seconds)
   end
 
   def transcript
@@ -379,7 +393,7 @@ class Talk < ApplicationRecord
       external_player_url: static_metadata.external_player_url || "",
       meta_talk: static_metadata.meta_talk?,
       start_seconds: static_metadata.start_cue_in_seconds,
-      end_seconds: static_metadata.end_cue_in_seconds,
+      end_seconds: static_metadata.end_cue_in_seconds
     )
 
     self.kind = static_metadata.kind if static_metadata.try(:kind).present?
@@ -394,12 +408,10 @@ class Talk < ApplicationRecord
   end
 
   def static_metadata
-    @static_metadata ||= begin
-      if video_provider == "parent"
-        Array.wrap(parent_talk&.static_metadata&.talks).find { |talk| talk.video_id == video_id }
-      else
-        Static::Video.find_by(video_id: video_id)
-      end
+    @static_metadata ||= if video_provider == "parent"
+      Array.wrap(parent_talk&.static_metadata&.talks).find { |talk| talk.video_id == video_id }
+    else
+      Static::Video.find_by(video_id: video_id)
     end
   end
 
