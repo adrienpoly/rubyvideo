@@ -851,58 +851,172 @@
   video_id: eJL0M7H-p-I
 
 - title: Lightning Talks
-  raw_title: RubyConf 2019 -  Lightning Talks
-  speakers:
-    - Sean Marcia
-    - Ivan Nerytchenko
-    - Daniel Colson
-    - Wendy Calderón
-    - Chyrelle Lewis
-    - LaNice Powell
-    - Jonan Scheffler
-    - Rob Faldo
-    - Carolyn Cole
-    - Daniel Azuma
-    - Justin Jones
-    - Braulio Martinez
-    - Bonzalo Rodriguez
-    - Rohaa Mendon
-    - Emily Giurleo
-    - Chris O'Sullivan
-    - Ian Norris
-    - Noah Gibbs
-    - Dave Aronson
-    - DeeDee Lavinder
+  raw_title: RubyConf 2019 - Lightning Talks
   event_name: RubyConf 2019
   published_at: "2019-11-19"
-  description: |-
-    Lightning Talks
-
-    00:00:12 - Sean Marcia
-    00:00:59 - Ivan Nerytchenko
-    00:02:20 - Daniel Colson
-    00:02:55 - Wendy Calderón
-    00:06:22 - Chyrelle Lewis
-    00:11:26 - LaNice Powell
-    00:12:59 - Jonan Scheffler
-    00:17:56 - Rob Faldo
-    00:22:41 - Carolyn Cole
-    00:26:39 - Daniel Azuma
-    00:31:34 - Justin Jones
-    00:35:55 - Braulio Martinez
-    00:41:00 - Bonzalo Rodriguez
-    00:45:56 - Rohaa Mendon
-    00:50:41 - Emily Giurleo
-    00:56:10 - Chris O'Sullivan
-    01:00:38 - Ian Norris
-    01:04:20 - Noah Gibbs
-    01:10:04 - Dave Aronson
-    01:14:50 - DeeDee Lavinder
-
-
-    #confreaks #rubyconf2019 #rubyconf
+  description: ""
   video_provider: youtube
   video_id: 7TrKS8ZiTyI
+  talks:
+    - title: "Lightning Talk: Sean Marcia" # TODO: missing talk title
+      start_cue: "00:00:12"
+      end_cue: "00:00:59"
+      video_id: sean-marcia-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Sean Marcia
+
+    - title: "Lightning Talk: Ivan Nerytchenko" # TODO: missing talk title
+      start_cue: "00:00:59"
+      end_cue: "00:02:20"
+      video_id: ivan-nerytchenko-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Ivan Nerytchenko
+
+    - title: "Lightning Talk: Daniel Colson" # TODO: missing talk title
+      start_cue: "00:02:20"
+      end_cue: "00:02:55"
+      video_id: daniel-colson-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Daniel Colson
+
+    - title: "Lightning Talk: Wendy Calderón" # TODO: missing talk title
+      start_cue: "00:02:55"
+      end_cue: "00:06:22"
+      video_id: wendy-calderon-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Wendy Calderón
+
+    - title: "Lightning Talk: Chyrelle Lewis" # TODO: missing talk title
+      start_cue: "00:06:22"
+      end_cue: "00:11:26"
+      video_id: chyrelle-lewis-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Chyrelle Lewis
+
+    - title: "Lightning Talk: LaNice Powell" # TODO: missing talk title
+      start_cue: "00:11:26"
+      end_cue: "00:12:59"
+      video_id: lanice-powell-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - LaNice Powell
+
+    - title: "Lightning Talk: Jonan Scheffler" # TODO: missing talk title
+      start_cue: "00:12:59"
+      end_cue: "00:17:56"
+      video_id: jonan-scheffler-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Jonan Scheffler
+
+    - title: "Lightning Talk: Rob Faldo" # TODO: missing talk title
+      start_cue: "00:17:56"
+      end_cue: "00:22:41"
+      video_id: rob-faldo-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Rob Faldo
+
+    - title: "Lightning Talk: Carolyn Cole" # TODO: missing talk title
+      start_cue: "00:22:41"
+      end_cue: "00:26:39"
+      video_id: carolyn-cole-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Carolyn Cole
+
+    - title: "Lightning Talk: Daniel Azuma" # TODO: missing talk title
+      start_cue: "00:26:39"
+      end_cue: "00:31:34"
+      video_id: daniel-azuma-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Daniel Azuma
+
+    - title: "Lightning Talk: Justin Jones" # TODO: missing talk title
+      start_cue: "00:31:34"
+      end_cue: "00:35:55"
+      video_id: justin-jones-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Justin Jones
+
+    - title: "Lightning Talk: Braulio Martinez" # TODO: missing talk title
+      start_cue: "00:35:55"
+      end_cue: "00:41:00"
+      video_id: braulio-martinez-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Braulio Martinez
+
+    - title: "Lightning Talk: Bonzalo Rodriguez" # TODO: missing talk title
+      start_cue: "00:41:00"
+      end_cue: "00:45:56"
+      video_id: bonzalo-rodriguez-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Bonzalo Rodriguez
+
+    - title: "Lightning Talk: Rohaa Mendon" # TODO: missing talk title
+      start_cue: "00:45:56"
+      end_cue: "00:50:41"
+      video_id: rohaa-mendon-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Rohaa Mendon
+
+    - title: "Lightning Talk: Emily Giurleo" # TODO: missing talk title
+      start_cue: "00:50:41"
+      end_cue: "00:56:10"
+      video_id: emily-giurleo-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Emily Giurleo
+
+    - title: "Lightning Talk: Chris O'Sullivan" # TODO: missing talk title
+      start_cue: "00:56:10"
+      end_cue: "01:00:38"
+      video_id: chris-osullivan-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Chris O'Sullivan
+
+    - title: "Lightning Talk: Ian Norris" # TODO: missing talk title
+      start_cue: "01:00:38"
+      end_cue: "01:04:20"
+      video_id: ian-norris-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Ian Norris
+
+    - title: "Lightning Talk: Noah Gibbs" # TODO: missing talk title
+      start_cue: "01:04:20"
+      end_cue: "01:10:04"
+      video_id: noah-gibbs-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Noah Gibbs
+
+    - title: "Lightning Talk: Dave Aronson" # TODO: missing talk title
+      start_cue: "01:10:04"
+      end_cue: "01:14:50"
+      video_id: dave-aronson-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - Dave Aronson
+
+    - title: "Lightning Talk: DeeDee Lavinder" # TODO: missing talk title
+      start_cue: "01:14:50"
+      end_cue: "TODO"
+      video_id: deedee-lavinder-lighting-talk-rubyconf-2019
+      video_provider: parent
+      speakers:
+        - DeeDee Lavinder
 
 ## Day 3
 

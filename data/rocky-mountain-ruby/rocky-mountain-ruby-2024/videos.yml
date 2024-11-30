@@ -236,29 +236,147 @@
 
 - title: Lightning Talks
   raw_title: Lightning Talks
-  speakers:
-    - Cosmo Martinez # Rails Oracle to Postgres w/ Marshal & Avro (00:13)
-    - Jim Remsik # Nothing New Under the Sun (03:47)
-    - Will Carey # VIA (08:54)
-    - TjV # Dapper Ruby (14:08)
-    - Dan Moore # Linting Docs with JSON & Ruby (16:47)
-    - Ron Shinall # Turbo Morphing - Making the Jump (20:20)
-    - Dan Fitzpatrick # WAXX - Web Application X(x) & Functional Ruby (25:08)
-    - Ryan Stemmle # PR's as children (29:00)
-    - Davis Weimer # Rails & Docker Development - Basic Containerization for Development w/ Compose (34:04)
-    - Bekki Freeman # Refactor Legacy Code (38:04)
-    - Cindy Backman # Confreaks Started because of Ruby =) (41:44)
-    - Alan Ridlehoover # The Gardener's Reward (47:35)
-    - Erie Mueller # Things That Do Stuff (51:16)
-    - Ben Oakes # Once upon a time in the Ruby ecosystem (56:05)
-    - Alberto Colón Viera # Working as a Civic Technologist (1:00:42)
-    - Warren Lyndes # How to shoot yourself in the foot with ActiveRecord (1:05:54)
-    - Jason Nochlin # Yscape (1:11:08)
   event_name: Rocky Mountain Ruby 2024
   published_at: "2024-10-08"
   description: Rocky Mountain Ruby 2024
   video_provider: youtube
   video_id: Rq9EHxPh3ZE
+  talks:
+    - title: "Lightning Talk: Rails Oracle to Postgres w/ Marshal & Avro"
+      start_cue: "00:13"
+      end_cue: "03:47"
+      video_provider: parent
+      video_id: cosmo-martinez-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Cosmo Martinez
+
+    - title: "Lightning Talk: Nothing New Under the Sun"
+      start_cue: "03:47"
+      end_cue: "08:54"
+      video_provider: parent
+      video_id: jim-remsik-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Jim Remsik
+
+    - title: "Lightning Talk: VIA"
+      start_cue: "08:54"
+      end_cue: "14:08"
+      video_provider: parent
+      video_id: will-carey-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Will Carey
+
+    - title: "Lightning Talk: Dapper Ruby"
+      start_cue: "14:08"
+      end_cue: "16:47"
+      video_provider: parent
+      video_id: tjv-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - TjV
+
+    - title: "Lightning Talk: Linting Docs with JSON & Ruby"
+      start_cue: "16:47"
+      end_cue: "20:20"
+      video_provider: parent
+      video_id: dan-moore-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Dan Moore
+
+    - title: "Lightning Talk: Turbo Morphing - Making the Jump"
+      start_cue: "20:20"
+      end_cue: "25:08"
+      video_provider: parent
+      video_id: ron-shinall-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Ron Shinall
+
+    - title: "Lightning Talk: WAXX - Web Application X(x) & Functional Ruby"
+      start_cue: "25:08"
+      end_cue: "29:00"
+      video_provider: parent
+      video_id: dan-fitzpatrick-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Dan Fitzpatrick
+
+    - title: "Lightning Talk: PR's as children"
+      start_cue: "29:00"
+      end_cue: "34:04"
+      video_provider: parent
+      video_id: ryan-stemmle-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Ryan Stemmle
+
+    - title: "Lightning Talk: Rails & Docker Development - Basic Containerization for Development w/ Compose"
+      start_cue: "34:04"
+      end_cue: "38:04"
+      video_provider: parent
+      video_id: davis-weimer-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Davis Weimer
+
+    - title: "Lightning Talk: Refactor Legacy Code"
+      start_cue: "38:04"
+      end_cue: "41:44"
+      video_provider: parent
+      video_id: bekki-freeman-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Bekki Freeman
+
+    - title: "Lightning Talk: Confreaks Started because of Ruby =)"
+      start_cue: "41:44"
+      end_cue: "47:35"
+      video_provider: parent
+      video_id: cindy-backman-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Cindy Backman
+
+    - title: "Lightning Talk: The Gardener's Reward"
+      start_cue: "47:35"
+      end_cue: "51:16"
+      video_provider: parent
+      video_id: alan-ridlehoover-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Alan Ridlehoover
+
+    - title: "Lightning Talk: Things That Do Stuff"
+      start_cue: "51:16"
+      end_cue: "56:05"
+      video_provider: parent
+      video_id: erie-mueller-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Erie Mueller
+
+    - title: "Lightning Talk: Once upon a time in the Ruby ecosystem"
+      start_cue: "56:05"
+      end_cue: "1:00:42"
+      video_provider: parent
+      video_id: ben-oakes-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Ben Oakes
+
+    - title: "Lightning Talk: Working as a Civic Technologist"
+      start_cue: "1:00:42"
+      end_cue: "1:05:54"
+      video_provider: parent
+      video_id: alberto-colon-viera-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Alberto Colón Viera
+
+    - title: "Lightning Talk: How to shoot yourself in the foot with ActiveRecord"
+      start_cue: "1:05:54"
+      end_cue: "1:11:08"
+      video_provider: parent
+      video_id: warren-lyndes-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Warren Lyndes
+
+    - title: "Lightning Talk: Yscape"
+      start_cue: "1:11:08"
+      end_cue: "1:14:40"
+      video_provider: parent
+      video_id: jason-nochlin-lighting-talk-rocky-mountain-ruby-2024
+      speakers:
+        - Jason Nochlin
 
 # Break/Snack
 

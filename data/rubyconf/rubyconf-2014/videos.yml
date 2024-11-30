@@ -663,60 +663,187 @@
 
 - title: Lightning Talks
   raw_title: RubyConf 2014 - Lightning Talks by Many People
-  speakers:
-    # - Vektra # TODO: missing last name # TODO: talk title - (00:00:00)
-    - Claudio Baccigalupo # TODO: talk title - (00:03:45)
-    - Richard Schneeman # TODO: talk title - (00:07:27)
-    - Shannon Skipper # TODO: talk title - (00:11:58)
-    - Sean Culver # TODO: talk title - (00:15:34)
-    - Steven Talcott Smith # TODO: talk title - (00:20:36)
-    - Brandon Rice # TODO: talk title - (00:25:28)
-    # - Alex # TODO: missing last name # TODO: talk title - (00:30:21)
-    - Phillip Ante # TODO: talk title - (00:34:32)
-    - Jeramy Couts # TODO: talk title - (00:38:26)
-    - Ray Hightower # TODO: talk title - (00:42:32)
-    - Tim Schmelmer # TODO: talk title - (00:46:33)
-    - Aaron Patterson # TODO: talk title - (00:53:05)
-    - Bobby Matson # TODO: talk title - (00:58:32)
-    - Jason Clark # TODO: talk title - (01:03:17)
-    - Chris Sexton # TODO: talk title - (01:08:25)
-    - Jonathan Slate # TODO: talk title - (01:10:52)
-    - Amanda Wagner # TODO: talk title - (01:15:05)
-    # - Costi # TODO: missing last name # TODO: talk title - (01:20:44)
-    - Colin Kelley # TODO: talk title - (01:27:03)
-    - Michael Hartl # TODO: talk title - (01:32:01)
-    - Pamela Assogba # TODO: talk title - (01:36:42)
   event_name: RubyConf 2014
   published_at: "2014-12-22"
-  description: |-
-    00:00:00 - Vektra
-    00:03:45 - Claudio Baccigalupo
-    00:07:27 - Richard Schneeman
-    00:11:58 - Shannon Skipper
-    00:15:34 - Sean Culver
-    00:20:36 - Steven Talcott Smith
-    00:25:28 - Brandon Rice
-    00:30:21 - Alex
-    00:34:32 - Phillip Ante
-    00:38:26 - Jeramy Couts
-    00:42:32 - Ray Hightower
-    00:46:33 - Tim Schmelmer
-    00:53:05 - Aaron Patterson
-    00:58:32 - Bobby Matson
-    01:03:17 - Jason Clark
-    01:08:25 - Chris Sexton
-    01:10:52 - Jonathan Slate
-    01:15:05 - Amanda Wagner
-    01:20:44 - Costi
-    01:27:03 - Colin Kelley
-    01:32:01 - Michael Hartl
-    01:36:42 - Pamela Assogba
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/FrHC/
+  description: ""
   video_provider: youtube
   video_id: GnUyjPGu5MQ
+  talks:
+    - title: "Lightning Talk: Vektra"
+      start_cue: "00:00:00"
+      end_cue: "00:03:45"
+      video_id: vektra-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Vektra # TODO: missing last name
+
+    - title: "Lightning Talk: Claudio Baccigalupo"
+      start_cue: "00:03:45"
+      end_cue: "00:07:27"
+      video_id: claudio-baccigalupo-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Claudio Baccigalupo
+
+    - title: "Lightning Talk: Richard Schneeman"
+      start_cue: "00:07:27"
+      end_cue: "00:11:58"
+      video_id: richard-schneeman-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Richard Schneeman
+
+    - title: "Lightning Talk: Shannon Skipper"
+      start_cue: "00:11:58"
+      end_cue: "00:15:34"
+      video_id: shannon-skipper-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Shannon Skipper
+
+    - title: "Lightning Talk: Sean Culver"
+      start_cue: "00:15:34"
+      end_cue: "00:20:36"
+      video_id: sean-culver-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Sean Culver
+
+    - title: "Lightning Talk: Steven Talcott Smith"
+      start_cue: "00:20:36"
+      end_cue: "00:25:28"
+      video_id: steven-talcott-smith-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Steven Talcott Smith
+
+    - title: "Lightning Talk: Brandon Rice"
+      start_cue: "00:25:28"
+      end_cue: "00:30:21"
+      video_id: brandon-rice-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Brandon Rice
+
+    - title: "Lightning Talk: Alex"
+      start_cue: "00:30:21"
+      end_cue: "00:34:32"
+      video_id: alex-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Alex # TODO: missing last name
+
+    - title: "Lightning Talk: Phillip Ante"
+      start_cue: "00:34:32"
+      end_cue: "00:38:26"
+      video_id: phillip-ante-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Phillip Ante
+
+    - title: "Lightning Talk: Jeramy Couts"
+      start_cue: "00:38:26"
+      end_cue: "00:42:32"
+      video_id: jeramy-couts-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Jeramy Couts
+
+    - title: "Lightning Talk: Ray Hightower"
+      start_cue: "00:42:32"
+      end_cue: "00:46:33"
+      video_id: ray-hightower-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Ray Hightower
+
+    - title: "Lightning Talk: Tim Schmelmer"
+      start_cue: "00:46:33"
+      end_cue: "00:53:05"
+      video_id: tim-schmelmer-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Tim Schmelmer
+
+    - title: "Lightning Talk: Aaron Patterson"
+      start_cue: "00:53:05"
+      end_cue: "00:58:32"
+      video_id: aaron-patterson-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Aaron Patterson
+
+    - title: "Lightning Talk: Bobby Matson"
+      start_cue: "00:58:32"
+      end_cue: "01:03:17"
+      video_id: bobby-matson-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Bobby Matson
+
+    - title: "Lightning Talk: Jason Clark"
+      start_cue: "01:03:17"
+      end_cue: "01:08:25"
+      video_id: jason-clark-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Jason Clark
+
+    - title: "Lightning Talk: Chris Sexton"
+      start_cue: "01:08:25"
+      end_cue: "01:10:52"
+      video_id: chris-sexton-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Chris Sexton
+
+    - title: "Lightning Talk: Jonathan Slate"
+      start_cue: "01:10:52"
+      end_cue: "01:15:05"
+      video_id: jonathan-slate-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Jonathan Slate
+
+    - title: "Lightning Talk: Amanda Wagner"
+      start_cue: "01:15:05"
+      end_cue: "01:20:44"
+      video_id: amanda-wagner-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Amanda Wagner
+
+    - title: "Lightning Talk: Costi"
+      start_cue: "01:20:44"
+      end_cue: "01:27:03"
+      video_id: costi-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Costi # TODO: missing last name
+
+    - title: "Lightning Talk: Colin Kelley"
+      start_cue: "01:27:03"
+      end_cue: "01:32:01"
+      video_id: colin-kelley-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Colin Kelley
+
+    - title: "Lightning Talk: Michael Hartl"
+      start_cue: "01:32:01"
+      end_cue: "01:36:42"
+      video_id: michael-hartl-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Michael Hartl
+
+    - title: "Lightning Talk: Pamela Assogba"
+      start_cue: "01:36:42"
+      end_cue: "1:39:54"
+      video_id: pamela-assogba-lighting-talk-rubyconf-2014
+      video_provider: parent
+      speakers:
+        - Pamela Assogba
 
 - title: Isomorphic App Development with Ruby and Volt
   raw_title: RubyConf 2014 - Isomorphic App Development with Ruby and Volt by Ryan Stout

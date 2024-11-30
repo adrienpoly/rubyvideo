@@ -147,18 +147,7 @@
   video_id: I46ARWDuPp4
 
 - title: Lightning Talks
-  raw_title: Ruby on Ales 2013 Lightning Talks
-  speakers:
-    - Jon Guymon
-    - Rob Head
-    - Strand McCutchen
-    # - TODO: https://cln.sh/ztmR2sMg
-    - Shane Becker
-    - Aaron Kalin
-    - Jason Clark
-    # - TODO: https://cln.sh/9DWYSwh4
-    # - TODO: https://cln.sh/281yQGqM
-    - Sethupathi Asokan
+  raw_title: Ruby on Ales 2013 Lightning Talks by Various Speakers
   event_name: Ruby on Ales 2013
   published_at: "2013-03-07"
   description: |-
@@ -167,6 +156,86 @@
     http://amara.org/v/FGbG/
   video_provider: youtube
   video_id: JIPyTpOztx4
+  talks:
+    - title: "Lightning Talk: Jon Guymon"
+      start_cue: "00:00"
+      end_cue: "TODO"
+      video_id: jon-guymon-lighting-talk-ruby-on-ales-2013
+      video_provider: parent
+      speakers:
+        - Jon Guymon
+
+    - title: "Lightning Talk: Rob Head"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: rob-head-lighting-talk-ruby-on-ales-2013
+      video_provider: parent
+      speakers:
+        - Rob Head
+
+    - title: "Lightning Talk: Strand McCutchen"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: strand-mccutchen-lighting-talk-ruby-on-ales-2013
+      video_provider: parent
+      speakers:
+        - Strand McCutchen
+
+    - title: "Lightning Talk: TODO" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-1-lighting-talk-ruby-on-ales-2013
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name - https://cln.sh/ztmR2sMg
+
+    - title: "Lightning Talk: Shane Becker"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: shane-becker-lighting-talk-ruby-on-ales-2013
+      video_provider: parent
+      speakers:
+        - Shane Becker
+
+    - title: "Lightning Talk: Aaron Kalin"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: aaron-kalin-lighting-talk-ruby-on-ales-2013
+      video_provider: parent
+      speakers:
+        - Aaron Kalin
+
+    - title: "Lightning Talk: Jason Clark"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jason-clark-lighting-talk-ruby-on-ales-2013
+      video_provider: parent
+      speakers:
+        - Jason Clark
+
+    - title: "Lightning Talk: TODO" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-2-lighting-talk-ruby-on-ales-2013
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name - https://cln.sh/9DWYSwh4
+
+    - title: "Lightning Talk: TODO" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-3-lighting-talk-ruby-on-ales-2013
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name - https://cln.sh/281yQGqM
+
+    - title: "Lightning Talk: Sethupathi Asokan"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: sethupathi-asokan-lighting-talk-ruby-on-ales-2013
+      video_provider: parent
+      speakers:
+        - Sethupathi Asokan
 
 - title: "Everything I Needed To Know About Open Source, I Learned From Punk Rock"
   raw_title: Ruby on Ales 2013 Everything I needed to know about open source, I learned from punk rock

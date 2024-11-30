@@ -170,37 +170,141 @@
   description: ""
   # https://x.com/JacekCzarnecki/status/974698486460551178
 
-- title: Lightning Talks Day 2
+- title: Lightning Talks (Day 2)
   raw_title: Lightning talks Saturday - wroc_love.rb 2018
-  speakers:
-    - Bartosz Bonisławski # Serverless Ruby
-    - Sergey Silnov # Ruby on $4 computer - mruby on esp32
-    - Adam Skołuda # How wroc_love.rb impacts developers and companies
-    - Vladimir Dementyev # To Refine Or Not To Refine # slides: https://speakerdeck.com/palkan/wroc-love-dot-rb-2018-lightning-talk-to-refine-or-not-to-refine
-    - Michał Młoźniak # Removing code like a pro
-    - Artur Roszczyk # Why We Love Ruby
-    - Maciek Stanisz # Thoughts: What it means to be a developer. Will computers replace us?
-    - Maciek Rząsa # How to break your browser by using a regexp
   event_name: wroclove.rb 2018
   published_at: "2018-04-16"
   video_provider: youtube
   video_id: tWu4gO187G0
   language: English
   description: ""
+  talks:
+    - title: "Lightning Talk: Serverless Ruby"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: bartosz-bonislawski-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Bartosz Bonisławski
 
-- title: Lightning Talks Day 3
+    - title: "Lightning Talk: Ruby on $4 computer - mruby on esp32"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: sergey-silnov-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Sergey Silnov
+
+    - title: "Lightning Talk: How wroc_love.rb impacts developers and companies"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: adam-skoluda-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Adam Skołuda
+
+    - title: "Lightning Talk: To Refine Or Not To Refine"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: vladimir-dementyev-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Vladimir Dementyev
+      slides_url: https://speakerdeck.com/palkan/wroc-love-dot-rb-2018-lightning-talk-to-refine-or-not-to-refine
+
+    - title: "Lightning Talk: Removing code like a pro"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michal-mlozniak-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Michał Młoźniak
+
+    - title: "Lightning Talk: Why We Love Ruby"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: artur-roszczyk-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Artur Roszczyk
+
+    - title: "Lightning Talk: Thoughts: What it means to be a developer. Will computers replace us?"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: maciek-stanisz-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Maciek Stanisz
+
+    - title: "Lightning Talk: How to break your browser by using a regexp"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: maciek-rzasa-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Maciek Rząsa
+
+- title: Lightning Talks (Day 3)
   raw_title: Lightning talks Sunday - wroc_love.rb 2018
-  speakers:
-    # - Dima TODO: lastname # Etherium
-    - Armin Pašalić # Decoupling Ruby With a Bus
-    - Vladimir Dementyev # Refinement Use Cases
-    - Tom Woo # Discrations
-    # - TODO # Secrets of Ruby stdlib
-    # - TODO # How I play games using Ruby
-    # - TODO # Heavy Applications
   event_name: wroclove.rb 2018
   published_at: "2018-04-16"
+  description: ""
   video_provider: youtube
   video_id: fp95RYuxIXQ
   language: English
-  description: ""
+  talks:
+    - title: "Lightning Talk: Etherium"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: dima-todo-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Dima # TODO: missing lastname
+
+    - title: "Lightning Talk: Decoupling Ruby With a Bus"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: armin-pasalic-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Armin Pašalić
+
+    - title: "Lightning Talk: Refinement Use Cases"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: vladimir-dementyev-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Vladimir Dementyev
+
+    - title: "Lightning Talk: Discrations"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tom-woo-lighting-talk-wroclove-rb-2018
+      video_provider: parent
+      speakers:
+        - Tom Woo
+
+    - title: "Lightning Talk: Secrets of Ruby stdlib"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-lighting-talk-wroclove-rb-2018-1
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name
+
+    - title: "Lightning Talk: How I play games using Ruby"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-lighting-talk-wroclove-rb-2018-2
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name
+
+    - title: "Lightning Talk: Heavy Applications"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-lighting-talk-wroclove-rb-2018-3
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name

@@ -308,32 +308,171 @@
 
 - title: "Lightning Talks"
   raw_title: "RubyConf 2022: Lightning Talks"
-  speakers:
-    - Olya Boiaryntseva
-    - Jose Miguel Tomita Rodriguez
-    - Tom Brown
-    - Adam Cuppy
-    - Richard Schneeman
-    - Bryce Simons
-    - Jacob Daddario
-    - Mike Eduard
-    - Landon Gray
-    - Jenner La Fave
-    - Alexander Momchilov
-    - Andrew Gauger
-    - Casey Watts
-    - Keith Bennett
-    - Craig Buchek
-    - James Reid-Smith
-    - Adam E. Hampton
-    - Yasu Flores
-    - Anas Alkhatib
-    - Amanda Lundberg
   event_name: RubyConf 2022
   published_at: "2022-11-13"
   description: ""
   video_provider: youtube
   video_id: "-FM__GyT57Y"
+  talks:
+    - title: "Lightning Talk: Olya Boiaryntseva" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: olya-boiaryntseva-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Olya Boiaryntseva
+
+    - title: "Lightning Talk: Jose Miguel Tomita Rodriguez" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jose-miguel-tomita-rodriguez-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Jose Miguel Tomita Rodriguez
+
+    - title: "Lightning Talk: Tom Brown" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tom-brown-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Tom Brown
+
+    - title: "Lightning Talk: Adam Cuppy" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: adam-cuppy-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Adam Cuppy
+
+    - title: "Lightning Talk: Richard Schneeman" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: richard-schneeman-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Richard Schneeman
+
+    - title: "Lightning Talk: Bryce Simons" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: bryce-simons-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Bryce Simons
+
+    - title: "Lightning Talk: Jacob Daddario" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jacob-daddario-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Jacob Daddario
+
+    - title: "Lightning Talk: Mike Eduard" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mike-eduard-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Mike Eduard
+
+    - title: "Lightning Talk: Landon Gray" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: landon-gray-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Landon Gray
+
+    - title: "Lightning Talk: Jenner La Fave" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jenner-la-fave-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Jenner La Fave
+
+    - title: "Lightning Talk: Alexander Momchilov" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: alexander-momchilov-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Alexander Momchilov
+
+    - title: "Lightning Talk: Andrew Gauger" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andrew-gauger-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Andrew Gauger
+
+    - title: "Lightning Talk: Casey Watts" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: casey-watts-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Casey Watts
+
+    - title: "Lightning Talk: Keith Bennett" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: keith-bennett-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Keith Bennett
+
+    - title: "Lightning Talk: Craig Buchek" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: craig-buchek-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Craig Buchek
+
+    - title: "Lightning Talk: James Reid-Smith" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: james-reid-smith-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - James Reid-Smith
+
+    - title: "Lightning Talk: Adam E. Hampton" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: adam-e-hampton-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Adam E. Hampton
+
+    - title: "Lightning Talk: Yasu Flores" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: yasu-flores-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Yasu Flores
+
+    - title: "Lightning Talk: Anas Alkhatib" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: anas-alkhatib-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Anas Alkhatib
+
+    - title: "Lightning Talk: Amanda Lundberg" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: amanda-lundberg-lighting-talk-rubyconf-2022
+      video_provider: parent
+      speakers:
+        - Amanda Lundberg
 
 - title: "Ruby Central Panel"
   raw_title: "RubyConf 2022: Ruby Central Panel"

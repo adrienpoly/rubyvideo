@@ -959,43 +959,8 @@
   video_provider: youtube
   video_id: wfy_ctBaU2o
 
-- title: "Lightning Talks"
+- title: Lightning Talks
   raw_title: Rails Conf 2013 Lightning Talks
-  speakers:
-    - Nick Quaranto
-    - Dr. Nic Williams
-    - Chris Morris
-    - Jon McCartie
-    - Bryan Helmkamp
-    -  # TODO: Sandal? # RailsFactory https://cln.sh/gkL7KTfr
-    - Miles Forrest
-    - Andrew Harvey
-    - Benjamin Fleischer
-    - Adam Cuppy
-    - Hector Miguel Rodriguez Muñiz
-    - Mario Chavez
-    - Mike Virata-Stone
-    - rking # TODO: actual name
-    - Nathan Ladd
-    - Dylan Lacey
-    - JC Grubbs
-    -  # TODO somebody at Dev Mynd https://cln.sh/2hLbl5Qr
-    - Jeremy Green
-    - Ron Evans
-    - Eoin Coffey
-    - Doug Smith
-    - Andrew Cantino
-    - Tanin Na Nakorn
-    - Philippe Creux
-    - Alex Sharp # Bldr
-    - Beau Harrington
-    -  # TODO https://cln.sh/lNq3QwVl
-    -  # TODO https://cln.sh/522tdVd4
-    - Yoshiori Shoji
-    - Winfred Nadeau
-    - David Padilla
-    - Gabe Scholz
-
   event_name: RailsConf 2013
   published_at: "2013-06-25"
   description: |-
@@ -1004,6 +969,270 @@
     http://amara.org/v/FG9z/
   video_provider: youtube
   video_id: 4T24oUPPaFI
+  talks:
+    - title: "Lightning Talk: Nick Quaranto" # TODO: Missing title
+      start_cue: "00:00"
+      end_cue: "TODO"
+      video_id: nick-quaranto-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Nick Quaranto
+
+    - title: "Lightning Talk: Dr. Nic Williams" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: dr-nic-williams-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Dr. Nic Williams
+
+    - title: "Lightning Talk: Chris Morris" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: chris-morris-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Chris Morris
+
+    - title: "Lightning Talk: Jon McCartie" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jon-mccartie-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Jon McCartie
+
+    - title: "Lightning Talk: Bryan Helmkamp" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: bryan-helmkamp-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Bryan Helmkamp
+
+    - title: "Lightning Talk: RailsFactory" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: sandal-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - TODO # TODO: Sandal? https://cln.sh/gkL7KTfr
+
+    - title: "Lightning Talk: Miles Forrest" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: miles-forrest-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Miles Forrest
+
+    - title: "Lightning Talk: Andrew Harvey" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andrew-harvey-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Andrew Harvey
+
+    - title: "Lightning Talk: Benjamin Fleischer" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: benjamin-fleischer-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Benjamin Fleischer
+
+    - title: "Lightning Talk: Adam Cuppy" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: adam-cuppy-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Adam Cuppy
+
+    - title: "Lightning Talk: Hector Miguel Rodriguez Muñiz" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: hector-miguel-rodriguez-muniz-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Hector Miguel Rodriguez Muñiz
+
+    - title: "Lightning Talk: Mario Chavez" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mario-chavez-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Mario Chavez
+
+    - title: "Lightning Talk: Mike Virata-Stone" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mike-virata-stone-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Mike Virata-Stone
+
+    - title: "Lightning Talk: rking" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: rking-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - TODO # TODO: actual name
+
+    - title: "Lightning Talk: Nathan Ladd" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: nathan-ladd-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Nathan Ladd
+
+    - title: "Lightning Talk: Dylan Lacey" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: dylan-lacey-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Dylan Lacey
+
+    - title: "Lightning Talk: JC Grubbs" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jc-grubbs-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - JC Grubbs
+
+    - title: "Lightning Talk: TODO" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: dev-mynd-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - TODO # TODO somebody at Dev Mynd https://cln.sh/2hLbl5Qr
+
+    - title: "Lightning Talk: Jeremy Green" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jeremy-green-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Jeremy Green
+
+    - title: "Lightning Talk: Ron Evans" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: ron-evans-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Ron Evans
+
+    - title: "Lightning Talk: Eoin Coffey" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: eoin-coffey-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Eoin Coffey
+
+    - title: "Lightning Talk: Doug Smith" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: doug-smith-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Doug Smith
+
+    - title: "Lightning Talk: Andrew Cantino" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andrew-cantino-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Andrew Cantino
+
+    - title: "Lightning Talk: Tanin Na Nakorn" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tanin-na-nakorn-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Tanin Na Nakorn
+
+    - title: "Lightning Talk: Philippe Creux" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: philippe-creux-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Philippe Creux
+
+    - title: "Lightning Talk: Alex Sharp" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: alex-sharp-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Alex Sharp
+
+    - title: "Lightning Talk: Beau Harrington" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: beau-harrington-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Beau Harrington
+
+    - title: "Lightning Talk: TODO" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-lighting-talk-railsconf-2013-1
+      video_provider: parent
+      speakers:
+        - TODO # TODO https://cln.sh/lNq3QwVl
+
+    - title: "Lightning Talk: TODO" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-lighting-talk-railsconf-2013-2
+      video_provider: parent
+      speakers:
+        - TODO # TODO https://cln.sh/522tdVd4
+
+    - title: "Lightning Talk: Yoshiori Shoji" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: yoshiori-shoji-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Yoshiori Shoji
+
+    - title: "Lightning Talk: Winfred Nadeau" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: winfred-nadeau-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Winfred Nadeau
+
+    - title: "Lightning Talk: David Padilla" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: david-padilla-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - David Padilla
+
+    - title: "Lightning Talk: Gabe Scholz" # TODO: Missing title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: gabe-scholz-lighting-talk-railsconf-2013
+      video_provider: parent
+      speakers:
+        - Gabe Scholz
 
 - title: "Simple and Elegant Rails Code with Functional Style"
   raw_title: Rails Conf 2013 Simple and Elegant Rails Code with Functional Style

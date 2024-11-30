@@ -33,25 +33,93 @@
   language:
   description: Michał Taszycki, Robert Pankowecki and Alex Koppel
 
-- title: Lightning Talks
+- title: Lightning Talks (Day 2)
   raw_title: Day 2 - Lightning Talks
-  speakers:
-    - Patrick Mulder
-    - Lucas Reisig
-    - Piotr Vestragowski
-    - Tim Lossen
-    - David Dahl
-    - Bryan Helmkamp
-    - Rafael Pestragis
-    - Hubert Łępicki
-    - Arve Brasseur
-    - Piotr Włodarek
   event_name: wroclove.rb 2013
   published_at: "2013-04-10"
+  description: ""
   video_provider: youtube
   video_id: VO4tM5RcUlc
-  language:
-  description: ""
+  talks:
+    - title: "Lightning Talk: Patrick Mulder"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: patrick-mulder-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Patrick Mulder
+
+    - title: "Lightning Talk: Lucas Reisig"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: lucas-reisig-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Lucas Reisig
+
+    - title: "Lightning Talk: Piotr Vestragowski"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: piotr-vestragowski-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Piotr Vestragowski
+
+    - title: "Lightning Talk: Tim Lossen"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tim-lossen-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Tim Lossen
+
+    - title: "Lightning Talk: David Dahl"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: david-dahl-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - David Dahl
+
+    - title: "Lightning Talk: Bryan Helmkamp"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: bryan-helmkamp-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Bryan Helmkamp
+
+    - title: "Lightning Talk: Rafael Pestragis"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: rafael-pestragis-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Rafael Pestragis
+
+    - title: "Lightning Talk: Hubert Łępicki"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: hubert-lepicki-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Hubert Łępicki
+
+    - title: "Lightning Talk: Arve Brasseur"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: arve-brasseur-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Arve Brasseur
+
+    - title: "Lightning Talk: Piotr Włodarek"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: piotr-wlodarek-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Piotr Włodarek
 
 - title: A la carte, please!
   raw_title: Florian Gilcher - A la carte, please!
@@ -181,26 +249,102 @@
   language:
   description: ""
 
-- title: Lightning Talks
+- title: Lightning Talks (Day 3)
   raw_title: Day 3 - Lightning Talks
-  speakers:
-    - Tobias Pfeiffer
-    - Steve Klabnik
-    - Tomasz Wójcik
-    - Zuz Wróżka
-    - Norbert Wójtowicz
-    - Parker Moore
-    - Hubert Łępicki
-    - Mateusz Lenik
-    - Marcin Stecki
-    - Tomasz Stachewicz
-    - Michal Papis
   event_name: wroclove.rb 2013
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: 6CZjK97dMTE
   language:
   description: ""
+  talks:
+    - title: "Lightning Talk: Tobias Pfeiffer"
+      start_cue: "00:00:00"
+      end_cue: "TODO"
+      video_id: tobias-pfeiffer-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Tobias Pfeiffer
+
+    - title: "Lightning Talk: Steve Klabnik"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: steve-klabnik-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Steve Klabnik
+
+    - title: "Lightning Talk: Tomasz Wójcik"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tomasz-wojcik-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Tomasz Wójcik
+
+    - title: "Lightning Talk: Zuz Wróżka"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: zuz-wrozka-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Zuz Wróżka
+
+    - title: "Lightning Talk: Norbert Wójtowicz"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: norbert-wojtowicz-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Norbert Wójtowicz
+
+    - title: "Lightning Talk: Parker Moore"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: parker-moore-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Parker Moore
+
+    - title: "Lightning Talk: Hubert Łępicki"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: hubert-lepicki-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Hubert Łępicki
+
+    - title: "Lightning Talk: Mateusz Lenik"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mateusz-lenik-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Mateusz Lenik
+
+    - title: "Lightning Talk: Marcin Stecki"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: marcin-stecki-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Marcin Stecki
+
+    - title: "Lightning Talk: Tomasz Stachewicz"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tomasz-stachewicz-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Tomasz Stachewicz
+
+    - title: "Lightning Talk: Michal Papis"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michal-papis-lighting-talk-wroclove-rb-2013
+      video_provider: parent
+      speakers:
+        - Michal Papis
 
 - title: Ports and Adapters architecture
   raw_title: Sławek Sobótka - Ports and Adapters architecture

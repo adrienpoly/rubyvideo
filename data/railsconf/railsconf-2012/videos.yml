@@ -52,53 +52,148 @@
 
 - title: "Lightning Talks - Part II"
   raw_title: Lightning Talks - Part II
-  speakers:
-    - Greg Belt
-    - Ryan Biggs
-    - Yehuda Katz
-    - Ryan Brunner
-    - Mike Scalnik
-    - Felix Dominguez
-    - Reid Morrison
-    - Evan Dorn
-    - Jay Moorthi
-    - Rod Paddock
-    - Richard Schneeman
-    - Sam Woodard
-    - Charles Lowell
-    - Matt Rogish
-    - Brad Wilkening
-    - Matt Conway
-    - Dr. Nic Williams
-    - Evan Phoenix
   event_name: RailsConf 2012
   published_at: "2012-08-22"
-  description: |-
-    Second half of Lightning Talks!
-
-    00:25 - Greg Belt - Seven Tips for running an Open Source Project.
-    01:27 - Ryan Biggs - Integration testing engines
-    04:55 - Yehuda Katz - Tokaido
-    09:25 - Ryan Brunner - Seven reasons why you should help organizer your local user group.
-    14:20 - Mike Scalnik - Railcar
-    16:27 - Felix Dominguez - Why you don't get hired
-    20:53 - Reid Morrison - Rails Encryption
-    26:11 - Evan Dorn - Ninjascript
-    27:00 - Jay Moorthi - tddium
-    31:44 - Rod Paddock - How I saved the World with Ruby and Nokogiri
-    34:15 - Richard Schneeman - Wizards from WTF to Wicked
-    36:42 - Sam Woodard - flash_s3_rails
-    40:36 - Charles Lowell - One Man in the name of Embedding Javascript into Ruby
-    44:37 - Matt Rogish - Hacking the Airlines
-    49:08 - Brad Wilkening - Top 10 Reasons you should probably quite your job
-    54:08 - Matt Conway - Monitoring with Graphite
-    58:51 - Dr. Nic Williams, Evan Phoenix - It's a Wrap!
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGin/
+  description: ""
   video_provider: youtube
   video_id: KFO-hPBzzII
+  talks:
+    - title: "Lightning Talk: Seven Tips for running an Open Source Project"
+      start_cue: "00:25"
+      end_cue: "01:27"
+      video_id: greg-belt-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Greg Belt
+
+    - title: "Lightning Talk: Integration testing engines"
+      start_cue: "01:27"
+      end_cue: "04:55"
+      video_id: ryan-biggs-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Ryan Biggs
+
+    - title: "Lightning Talk: Tokaido"
+      start_cue: "04:55"
+      end_cue: "09:25"
+      video_id: yehuda-katz-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Yehuda Katz
+
+    - title: "Lightning Talk: Seven reasons why you should help organizer your local user group"
+      start_cue: "09:25"
+      end_cue: "14:20"
+      video_id: ryan-brunner-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Ryan Brunner
+
+    - title: "Lightning Talk: Railcar"
+      start_cue: "14:20"
+      end_cue: "16:27"
+      video_id: mike-scalnik-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Mike Scalnik
+
+    - title: "Lightning Talk: Why you don't get hired"
+      start_cue: "16:27"
+      end_cue: "20:53"
+      video_id: felix-dominguez-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Felix Dominguez
+
+    - title: "Lightning Talk: Rails Encryption"
+      start_cue: "20:53"
+      end_cue: "26:11"
+      video_id: reid-morrison-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Reid Morrison
+
+    - title: "Lightning Talk: Ninjascript"
+      start_cue: "26:11"
+      end_cue: "27:00"
+      video_id: evan-dorn-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Evan Dorn
+
+    - title: "Lightning Talk: tddium"
+      start_cue: "27:00"
+      end_cue: "31:44"
+      video_id: jay-moorthi-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Jay Moorthi
+
+    - title: "Lightning Talk: How I saved the World with Ruby and Nokogiri"
+      start_cue: "31:44"
+      end_cue: "34:15"
+      video_id: rod-paddock-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Rod Paddock
+
+    - title: "Lightning Talk: Wizards from WTF to Wicked"
+      start_cue: "34:15"
+      end_cue: "36:42"
+      video_id: richard-schneeman-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Richard Schneeman
+
+    - title: "Lightning Talk: flash_s3_rails"
+      start_cue: "36:42"
+      end_cue: "40:36"
+      video_id: sam-woodard-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Sam Woodard
+
+    - title: "Lightning Talk: One Man in the name of Embedding Javascript into Ruby"
+      start_cue: "40:36"
+      end_cue: "44:37"
+      video_id: charles-lowell-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Charles Lowell
+
+    - title: "Lightning Talk: Hacking the Airlines"
+      start_cue: "44:37"
+      end_cue: "49:08"
+      video_id: matt-rogish-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Matt Rogish
+
+    - title: "Lightning Talk: Top 10 Reasons you should probably quit your job"
+      start_cue: "49:08"
+      end_cue: "54:08"
+      video_id: brad-wilkening-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Brad Wilkening
+
+    - title: "Lightning Talk: Monitoring with Graphite"
+      start_cue: "54:08"
+      end_cue: "58:51"
+      video_id: matt-conway-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Matt Conway
+
+    - title: "Lightning Talk: It's a Wrap!"
+      start_cue: "58:51"
+      end_cue: "01:00:48"
+      video_id: dr-nic-williams-evan-phoenix-lighting-talk-railsconf-2012
+      video_provider: parent
+      speakers:
+        - Dr. Nic Williams
+        - Evan Phoenix
 
 - title: It's Not in Production Unless it's Monitored
   raw_title: Rails Conf 2012 It's Not in Production Unless it's Monitored by Joseph Ruscio (improved audio)
