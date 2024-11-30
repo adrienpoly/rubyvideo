@@ -1,6 +1,6 @@
-- title: SF Bay Area Ruby Meetup, March 2024
+- title: SF Bay Area Ruby Meetup - March 2024
   raw_title: SF Bay Area Ruby Meetup
-  event_name: SF Bay Area Ruby Meetup, March 2024
+  event_name: SF Bay Area Ruby Meetup - March 2024
   published_at: "2024-03-28"
   description: |-
     Hey, Bay Area builders and tinkerers!
@@ -120,3 +120,147 @@
       slides_url: https://speakerdeck.com/palkan/sf-ruby-march-2024-rails-on-wasm
       speakers:
         - Vladimir Dementyev
+
+- title: SF Bay Area Ruby Meetup - October 2024
+  raw_title: "SF Bay Area Ruby Meetup #7"
+  event_name: SF Bay Area Ruby Meetup - October 2024
+  published_at: "2024-10-10"
+  description: |-
+    This is SF Bay Area Ruby Meetup #7 held at Chime's San Francisco Headquarters.
+
+    Join us for insightful talks and networking with fellow Ruby enthusiasts.
+
+    https://lu.ma/sf-ruby-oct-2024
+  video_provider: youtube
+  video_id: JFD8MJiUk6g
+  talks:
+    - title: "Intro"
+      start_cue: "00:00"
+      end_cue: "05:40"
+      thumbnail_xs: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg&name=4096x4096
+      video_id: irina-nazarova-intro-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "Ruby's Legacy and Ruby's Future"
+      start_cue: "05:40"
+      end_cue: "36:07"
+      thumbnail_xs: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg&name=4096x4096
+      video_id: noel-rappin-ruby-legacy-ecosystem-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Noel Rappin
+
+    - title: "Forms on Rails"
+      start_cue: "36:07"
+      end_cue: "1:00:00"
+      thumbnail_xs: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg&name=4096x4096
+      video_id: vladimir-dementyev-forms-on-rails-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Vladimir Dementyev
+
+    - title: "Open Mic: Ruby Central"
+      start_cue: "01:00:00"
+      end_cue: "01:07:00"
+      thumbnail_xs: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg&name=4096x4096
+      video_id: open-mic-presentations-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Adarsh Pandit
+
+    - title: "Open Mic: rspec-llama"
+      start_cue: "01:07:25"
+      end_cue: "01:16:07"
+      thumbnail_xs: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg&name=4096x4096
+      video_id: rspec-llama-open-mic-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Sergy Sergyenko
+
+    - title: "Open Mic: I'm Speaking at RubyConf & Why You Should Hire Me"
+      start_cue: "01:16:14"
+      end_cue: "01:17:15"
+      thumbnail_xs: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg&name=4096x4096
+      video_id: im-speaking-at-rubyconf-and-why-you-should-hire-me-1-open-mic-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Keith Gable
+
+    - title: "Open Mic: Why You Should Hire Me"
+      start_cue: "01:17:29"
+      end_cue: "01:18:22"
+      thumbnail_xs: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg&name=4096x4096
+      video_id: why-you-should-hire-me-open-mic-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Meredith # TODO: missing last name
+
+    - title: "Open Mic: oyencov - Usage-Weighted Test Coverage for Rails applications"
+      start_cue: "01:18:32"
+      end_cue: "01:19:22"
+      thumbnail_xs: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg&name=4096x4096
+      video_id: usage-weighted-test-coverage-rails-open-mic-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Anonoz Chong
+
+    - title: "Open Mic: ActiveAgents.ai"
+      start_cue: "01:19:30"
+      end_cue: "01:21:02"
+      description: "https://www.activeagents.ai"
+      thumbnail_xs: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg&name=4096x4096
+      video_id: activeagents-ai-open-mic-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Justin Bowen
+
+    - title: "Red Fantasy Land"
+      start_cue: "01:22:30"
+      end_cue: "01:52:18"
+      thumbnail_xs: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg&name=4096x4096
+      video_id: brandon-weaver-red-fantasy-land-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Brandon Weaver
