@@ -304,11 +304,15 @@ class Talk < ApplicationRecord
   def speakers
     return super unless meta_talk
 
-    child_talks.flat_map(&:speakers).uniq
+    super.to_a.union(child_talks.flat_map(&:speakers).uniq)
   end
 
   def speaker_names
     speakers.pluck(:name).join(" ")
+  end
+
+  def language_name
+    Language.by_code(language)
   end
 
   def slug_candidates

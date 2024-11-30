@@ -214,7 +214,7 @@
 
                 <ul>
                   <% talks.each do |talk| %>
-                    <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" %> (<%= link_to talk.date.to_fs(:long), talk %>, <%= time_ago_in_words(talk.date) %> ago)</li>
+                    <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" if talk.static_metadata %> (<%= link_to talk.date.to_fs(:long), talk %>, <%= time_ago_in_words(talk.date) %> ago)</li>
                   <% end %>
                 </ul>
               </article>
@@ -242,12 +242,12 @@
                   <h3 class="line-clamp-1">Event: <%= event.name %></h3>
                 </div>
 
-                <h3 class="line-clamp-1 mt-3 mb-6"><pre>Data File: <%= talks.first.static_metadata.__file_path %></pre></h3>
+                <h3 class="line-clamp-1 mt-3 mb-6"><pre>Data File: <%= talks.first.static_metadata&.__file_path.inspect %></pre></h3>
 
                 <div class="prose">
                   <ul>
                     <% talks.each do |talk| %>
-                      <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" %> (<%= link_to talk.date.to_fs(:long), talk %>)</li>
+                      <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" if talk.static_metadata %> (<%= link_to talk.date.to_fs(:long), talk %>)</li>
                     <% end %>
                   </ul>
                 </div>
@@ -280,7 +280,7 @@
 
                 <ul>
                   <% talks.each do |talk| %>
-                    <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" %> (<%= link_to talk.date.to_fs(:long), talk %>, <%= time_ago_in_words(talk.date) %> ago)</li>
+                    <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" if talk.static_metadata %> (<%= link_to talk.date.to_fs(:long), talk %>, <%= time_ago_in_words(talk.date) %> ago)</li>
                   <% end %>
                 </ul>
               </article>

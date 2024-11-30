@@ -1,11 +1,11 @@
 module TalksHelper
   def seconds_to_formatted_duration(seconds)
-    values = ActiveSupport::Duration.build(seconds).parts.values
+    parts = ActiveSupport::Duration.build(seconds).parts
 
-    if values.length == 1
-      values.prepend(0)
-    end
+    values = [parts[:hours], parts.fetch(:minutes, 0), parts.fetch(:seconds, 0)].select(&:present?)
 
-    values.map { |x| x.to_s.rjust(2, "0") }.join(":")
+    return "??:??" if values.any?(&:negative?)
+
+    values.map { |value| value.to_s.rjust(2, "0") }.join(":")
   end
 end
