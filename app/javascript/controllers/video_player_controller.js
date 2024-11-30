@@ -52,29 +52,12 @@ export default class extends Controller {
 
   handlePlayerReady (player) {
     const controlBar = player.elements.container.querySelector('.v-controlBar')
+
     if (controlBar) {
       const volumeButton = player.elements.container.querySelector('.v-volumeButton')
       const playbackRateSelect = this.createPlaybackRateSelect(this.playbackRateOptions, player)
       volumeButton.parentNode.insertBefore(playbackRateSelect, volumeButton.nextSibling)
     }
-    // for seekTo to work we need to store again the player instance
-    this.player = player
-    // window.vlite = player
-
-    // .addSecondsRange({ videoId: "dRBJxshD05E", startSeconds: 300, endSeconds: 400})
-
-    // player.on('play', event => console.log("play", event));
-    // player.on('progress', event => console.log("progress", event));
-    // player.on('timeupdate', event => {
-    //   // console.log(this.player)
-    //   // console.log(event.timeStamp/1000)
-    //   if (event.timeStamp/1000 >= 10) {
-    //     // this.init()
-    //     // console.log(this.player)
-    //     // this.player.pause()
-    //     // console.log("timeupdate", event)
-    //   }
-    // });
   }
 
   createPlaybackRateSelect (options, player) {
