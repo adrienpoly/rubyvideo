@@ -10,8 +10,9 @@ export default class extends Controller {
     src: String,
     provider: String,
     startSeconds: Number,
-    endSeconds: Number,
+    endSeconds: Number
   }
+
   static targets = ['player']
   playbackRateOptions = [1, 1.25, 1.5, 1.75, 2]
 
@@ -19,11 +20,11 @@ export default class extends Controller {
     this.init()
   }
 
-  init() {
+  init () {
     this.player = new Vlitejs(this.playerTarget, this.options)
   }
 
-  get options() {
+  get options () {
     const providerOptions = {}
     const providerParams = {}
 
@@ -81,9 +82,6 @@ export default class extends Controller {
     const { time } = event.params
 
     if (time) {
-      if (this.hasStartSecondsValue && time < this.startSecondsValue) time = this.startSecondsValue
-      if (this.hasEndSecondsValue && time > this.endSecondsValue) time = this.endSecondsValue
-
       this.player.seekTo(time)
     }
   }
