@@ -1,20 +1,26 @@
-<%# locals: (talk:, current_talk: nil, compact: false, turbo_frame: nil, watched_talks_ids:) -%>
+<%# locals: (talk:, current_talk: nil, compact: false, turbo_frame: nil, watched_talks_ids:, tag: :a, tooltip: true) -%>
 
 <% active = talk == current_talk %>
 <% watched = watched_talks_ids.include?(talk.id) %>
 
-<%= link_to talk_path(talk),
+<%= content_tag(
+      tag,
+      href: talk_path(talk),
       class: class_names("w-full flex items-center gap-4 p-2 rounded-lg hover:bg-gray-200 group", active: active, watched: watched, not_recorded: talk.not_recorded?, scheduled: talk.scheduled?, not_published: talk.not_published?),
       id: dom_id(talk, :card_horizontal),
-      data: {talk_horizontal_card: true,
-             scroll_into_view_target: (active ? "active" : nil),
-             talks_navigation_target: "card",
-             action: "talks-navigation#setActive",
-             turbo_frame: turbo_frame,
-             controller: "tooltip", tooltip_content_value: talk.title} do %>
+      data: {
+        talk_horizontal_card: true,
+        scroll_into_view_target: (active ? "active" : nil),
+        talks_navigation_target: "card",
+        action: "talks-navigation#setActive",
+        turbo_frame: turbo_frame,
+        controller: tooltip ? "tooltip" : nil,
+        tooltip_content_value: talk.title
+      }
+    ) do %>
 
   <div class="flex aspect-video shrink-0 relative w-20">
-    <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_sm} 2x"], id: dom_id(talk), class: "w-full h-auto object-cover border rounded", loading: :lazy %>
+    <%= image_tag talk.thumbnail_sm, srcset: ["#{talk.thumbnail_sm} 2x"], id: dom_id(talk), class: "w-full h-auto aspect-video object-cover border rounded", loading: :lazy %>
 
     <div class="absolute inset-0 bg-black/50 justify-center items-center rounded hidden group-[.active]:flex">
       <%= fa("play", size: :sm, class: "fill-white") %>

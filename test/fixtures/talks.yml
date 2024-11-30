@@ -6,15 +6,18 @@
 #  id                  :integer          not null, primary key
 #  date                :date             indexed
 #  description         :text             default(""), not null
-#  enhanced_transcript :text             default(#<Transcript:0x0000000120e51930 @cues=[]>), not null
+#  end_seconds         :integer
+#  enhanced_transcript :text             default(#<Transcript:0x000000012f650498 @cues=[]>), not null
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
 #  kind                :string           default("talk"), not null, indexed
 #  language            :string           default("en"), not null
 #  like_count          :integer
-#  raw_transcript      :text             default(#<Transcript:0x0000000120e51a98 @cues=[]>), not null
+#  meta_talk           :boolean          default(FALSE), not null
+#  raw_transcript      :text             default(#<Transcript:0x000000012f650588 @cues=[]>), not null
 #  slides_url          :string
 #  slug                :string           default(""), not null, indexed
+#  start_seconds       :integer
 #  summarized_using_ai :boolean          default(TRUE), not null
 #  summary             :text             default(""), not null
 #  thumbnail_lg        :string           default(""), not null
@@ -28,20 +31,23 @@
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null, indexed
 #  event_id            :integer          indexed
+#  parent_talk_id      :integer          indexed
 #  video_id            :string           default(""), not null
 #
 # Indexes
 #
-#  index_talks_on_date        (date)
-#  index_talks_on_event_id    (event_id)
-#  index_talks_on_kind        (kind)
-#  index_talks_on_slug        (slug)
-#  index_talks_on_title       (title)
-#  index_talks_on_updated_at  (updated_at)
+#  index_talks_on_date            (date)
+#  index_talks_on_event_id        (event_id)
+#  index_talks_on_kind            (kind)
+#  index_talks_on_parent_talk_id  (parent_talk_id)
+#  index_talks_on_slug            (slug)
+#  index_talks_on_title           (title)
+#  index_talks_on_updated_at      (updated_at)
 #
 # Foreign Keys
 #
-#  event_id  (event_id => events.id)
+#  event_id        (event_id => events.id)
+#  parent_talk_id  (parent_talk_id => talks.id)
 #
 # rubocop:enable Layout/LineLength
 

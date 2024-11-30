@@ -98,16 +98,43 @@
 
 - title: Lightning Talks (Day 1)
   raw_title: ArrrrCamp 2015 - Day 1 LIGHTNING TALKS
-  speakers:
-    - Yves Hanoulle # Walking (00:20)
-    - Michel Grootjans # Code Bashing in the Enterprise / How Teenagers Force Us To Have Technology That Scales (06:48)
-    - Phil Nash # WebRTC with Twilio (12:30)
-    - Christophe Philemotte # Ruby Belgium (18:24)
   event_name: ArrrrCamp 2015
-  published_at: "2015-10-02"
+  published_at: "2015-10-01"
   description: ""
   video_provider: youtube
   video_id: 3r2bJ5OYQ1o
+  talks:
+    - title: "Lighting Talk: Walking"
+      start_cue: "00:20"
+      end_cue: "06:48"
+      video_id: yves-hanoulle-walking-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Yves Hanoulle
+
+    - title: "Lighting Talk: Code Bashing in the Enterprise / How Teenagers Force Us To Have Technology That Scales"
+      start_cue: "06:48"
+      end_cue: "12:30"
+      video_id: michel-grootjans-lightning-talk-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Michel Grootjans
+
+    - title: "Lighting Talk: WebRTC with Twilio"
+      start_cue: "12:30"
+      end_cue: "18:24"
+      video_id: phil-nash-webrtc-with-twilio-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Phil Nash
+
+    - title: "Lighting Talk: Ruby Belgium"
+      start_cue: "18:24"
+      end_cue: "24:23"
+      video_id: christophe-philemotte-ruby-belgium-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Christophe Philemotte
 
 - title: Consequences of an Insightful Algorithm
   raw_title: ArrrrCamp 2015 - Consequences of an Insightful Algorithm by Carina C. Zona
@@ -211,15 +238,6 @@
 
 - title: Lightning Talks (Day 2)
   raw_title: ArrrrCamp 2015 LIGHTNING TALKS Day2
-  speakers:
-    - Sebastian Gräßl # Ruby Open Source Software - ROSSConf - (00:08)
-    - Pieterjan Muller # KampAdmin.be - CoderDojo (05:04)
-    - Sonja Heinen # Ruby Issues Newsletter (10:04)
-    - Anika Simir # How To Write Music in Ruby (14:12)
-    - Christophe Philemotte # Ruby TracePoint (20:33)
-    - Joren De Groof # RubyCamp BE (24:13)
-    - Sebastian Eichner # God, Toilets And Ruby (28:45)
-    - Jason Clark # Shoes 4 (34:26)
   event_name: ArrrrCamp 2015
   published_at: "2015-10-02"
   description: |-
@@ -228,6 +246,70 @@
     http://amara.org/v/H494/
   video_provider: youtube
   video_id: WtoTlfJAIAc
+  talks:
+    - title: "Lightning Talk: Ruby Open Source Software - ROSSConf"
+      start_cue: "00:08"
+      end_cue: "05:04"
+      video_id: sebastian-graessl-rossconf-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Sebastian Gräßl
+
+    - title: "Lightning Talk: KampAdmin.be - CoderDojo"
+      start_cue: "05:04"
+      end_cue: "10:04"
+      video_id: pieterjan-muller-kampadmin-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Pieterjan Muller
+
+    - title: "Lightning Talk: Ruby Issues Newsletter"
+      start_cue: "10:04"
+      end_cue: "14:22"
+      video_id: sonja-heinen-ruby-issues-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Sonja Heinen
+
+    - title: "Lightning Talk: How To Write Music in Ruby"
+      start_cue: "14:22"
+      end_cue: "20:33"
+      video_id: anika-simir-music-ruby-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Anika Simir
+
+    - title: "Lightning Talk: Ruby TracePoint"
+      start_cue: "20:33"
+      end_cue: "24:13"
+      video_id: christophe-philemotte-tracepoint-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Christophe Philemotte
+
+    - title: "Lightning Talk: RubyCamp BE"
+      start_cue: "24:13"
+      end_cue: "28:45"
+      video_id: joren-de-groof-rubycamp-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Joren De Groof
+
+    - title: "Lightning Talk: God, Toilets And Ruby"
+      start_cue: "28:45"
+      end_cue: "34:26"
+      video_id: sebastian-eichner-god-toilets-ruby-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Sebastian Eichner
+
+    - title: "Lightning Talk: Shoes 4"
+      start_cue: "34:26"
+      end_cue: "39:50"
+      video_id: jason-clark-shoes-4-arrrrcamp-2015
+      video_provider: parent
+      speakers:
+        - Jason Clark
 
 - title: "Stop Building Services, Episode 1: The Phantom Menace"
   raw_title:

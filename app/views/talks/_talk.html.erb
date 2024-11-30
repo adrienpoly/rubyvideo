@@ -1,13 +1,24 @@
 <%# locals: (talk:) -%>
 
 <% video_player_controller = talk.external_player ? nil : "video-player" %>
+
+<% video_provider = case talk.video_provider
+                   when "mp4" then nil
+                   when "parent" then talk.parent_talk.video_provider
+                   else talk.video_provider
+                   end %>
+
+<% video_id = talk.video_provider == "parent" ? talk.parent_talk.video_id : talk.video_id %>
+
 <% language = Language.by_code(talk.language) %>
 <%= content_tag :div, id: dom_id(talk),
       data: {
         controller: video_player_controller,
         video_player_poster_value: talk.thumbnail_xl,
-        video_player_provider_value: (talk.video_provider == "mp4") ? nil : talk.video_provider,
-        video_player_src_value: talk.video_id
+        video_player_provider_value: video_provider,
+        video_player_src_value: video_id,
+        video_player_start_seconds_value: talk.start_seconds,
+        video_player_end_seconds_value: talk.end_seconds
       } do %>
 
   <div class="aspect-video banner-img card-horizontal-img relative rounded-xl overflow-hidden outline outline-1 bg-gray-300 outline-gray-300" style="view-transition-name: <%= dom_id(talk, :image) %>">
@@ -25,15 +36,30 @@
       <% end %>
 
     <% else %>
-      <% if talk.video_provider.in?(["mp4", "youtube", "scheduled", "not_published", "not_recorded"]) %>
-        <%= render partial: "talks/video_providers/#{talk.video_provider}", locals: {talk: talk} %>
+      <% if video_provider.in?(["mp4", "youtube", "scheduled", "not_published", "not_recorded"]) %>
+        <%= render partial: "talks/video_providers/#{video_provider}", locals: {talk: talk, video_provider: video_provider, video_id: video_id} %>
       <% else %>
-        Provider <%= talk.video_provider.inspect %> is not configured.
+        Provider <%= video_provider.inspect %> is not configured.
       <% end %>
     <% end %>
   </div>
 
   <div class="py-4 flex flex-col gap-4">
+    <% if talk.meta_talk? %>
+      <div class="badge badge-ghost hover:bg-gray-300 px-3 py-3 flex gap-1">
+        <span class="text-gray-700">This video contains <%= pluralize(talk.child_talks.size, "indiviual talk") %></span>
+      </div>
+      <hr>
+    <% end %>
+
+    <% if talk.parent_talk.present? %>
+      <div class="badge badge-ghost hover:bg-gray-300 px-3 py-3 flex gap-1">
+        <span class="text-gray-700">Part of recording </span>
+        <span class="font-bold"><%= link_to talk.parent_talk.title, talk.parent_talk %></span>
+      </div>
+      <hr>
+    <% end %>
+
     <div class="flex flex-col gap-1">
       <div class="flex justify-between">
         <div class="font-bold text-xl">
@@ -126,6 +152,46 @@
     </div>
 
     <hr>
+
+    <% if talk.parent_talk.present? || talk.meta_talk? %>
+      <% parent_talk = talk.parent_talk || talk %>
+
+      <h3 class="font-bold text-md mt-3">Talks in this recording</h3>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-3">
+        <% parent_talk.child_talks.each_with_index do |child_talk, index| %>
+          <%= link_to child_talk, data: { turbo_frame: "talk" }, class: "p-2 border rounded group bg-gray-50 hover:bg-gray-100 data-[active]:border-blue-700/30 data-[active]:bg-blue-50 hover:data-[active]:bg-blue-100 data-[active]:text-blue-700", **({"data-active" => child_talk == talk}.select { |_, v| v }) do %>
+            <div class="flex justify-between">
+              <div <% if child_talk == talk %> data-active <% end %> class="flex gap-3 text-gray-700 data-[active]:font-bold text-sm">
+                <div class="flex aspect-video shrink-0 relative w-36">
+                  <%= image_tag child_talk.thumbnail_sm, srcset: ["#{child_talk.thumbnail_sm} 2x"], id: dom_id(child_talk), class: "w-full h-auto aspect-video object-cover border rounded", loading: :lazy %>
+                </div>
+
+                <div class="flex flex-col gap-0.5 justify-center">
+                  <div class="text-xs text-gray-500 mb-1">
+                    Talk <%= index + 1 %>
+                  </div>
+                  <div class="text-sm font-bold">
+                    <%= child_talk.speakers.map(&:name).to_sentence %>
+                  </div>
+                  <div class="text-sm text-gray-500 line-clamp-2 data-[active]:text-blue-700" <% if child_talk == talk %> data-active <% end %>>
+                    <%= child_talk.title %>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <% if child_talk.start_seconds %>
+                  <div class="badge"><%= seconds_to_formatted_duration(child_talk.start_seconds) %></div>
+                <% end %>
+              </div>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
+
+      <hr>
+    <% end %>
 
     <% if talk.approved_topics.any? %>
       <div class="flex flex-wrap gap-2 mt-3">
