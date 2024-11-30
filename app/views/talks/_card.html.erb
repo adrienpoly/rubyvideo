@@ -38,7 +38,7 @@
         <span class="group-hover:flex hidden items-center gap-1 text-white text-xs ml-1 font-normal line-clamp-1">Part of <span class="text-gray-300"><%= talk.parent_talk.title %></span></span>
       </div>
 
-      <% if talk.duration %>
+      <% if talk.duration && talk.formatted_duration != "00" %>
         <div class="flex gap-2 absolute bottom-0 right-0 z-20 m-3 px-1.5 py-1 bg-black backdrop-blur-md rounded-md text-white text-xs font-normal">
           <span><%= talk.formatted_duration %></span>
         </div>
