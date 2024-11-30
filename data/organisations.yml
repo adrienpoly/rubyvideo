@@ -647,3 +647,15 @@
   language: english
   youtube_channel_id: ""
   default_country_code: UK
+
+- name: SF Bay Area Ruby
+  website: https://lu.ma/sfruby
+  twitter: sfruby
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: SF Bay Area Ruby
+  default_country_code: US
+  youtube_channel_name: SF Bay Area Ruby
+  slug: sf-bay-area-ruby
+  language: english
+  youtube_channel_id: ""
