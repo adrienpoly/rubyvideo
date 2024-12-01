@@ -34,6 +34,9 @@ application.register("splide", SplideController)
 import SpotlightSearchController from "./spotlight_search_controller"
 application.register("spotlight-search", SpotlightSearchController)
 
+import TabsController from "./tabs_controller"
+application.register("tabs", TabsController)
+
 import TalksNavigationController from "./talks_navigation_controller"
 application.register("talks-navigation", TalksNavigationController)
 

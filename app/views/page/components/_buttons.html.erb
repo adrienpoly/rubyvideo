@@ -1,0 +1,14 @@
+<h2 class="text-2xl font-bold mb-4">Button</h2>
+<h3 class="font-bold mb-2">Solid</h3>
+<div class="flex items-center justify-start gap-4 mb-8 flex-wrap">
+  <% [:neutral, :primary, :secondary, :accent, :info, :success, :warning, :error, :ghost, :link].each do |kind| %>
+    <%= ui_button kind.to_s, "#", kind: kind %>
+  <% end %>
+</div>
+
+<h3 class="font-bold mb-2">Outline</h3>
+<div class="flex items-center justify-start gap-4 mb-8 flex-wrap">
+  <% [:neutral, :primary, :secondary, :accent, :info, :success, :warning, :error].each do |kind| %>
+    <%= ui_button kind.to_s, "#", kind: kind, outline: true %>
+  <% end %>
+</div>
