@@ -69,15 +69,15 @@ export default class extends Controller {
     const videoContainer = document.querySelector('[data-video-player-target="player"]')
     const videoId = videoContainer.getAttribute('data-youtube-id')
 
-    const svgIconContainer = document.createElement('button')
-    svgIconContainer.className = 'v-openInYouTube v-controlButton'
-    svgIconContainer.innerHTML = youtubeSvg
+    const videoPlayerIcon = document.createElement('button')
+    videoPlayerIcon.className = 'v-openInYouTube v-controlButton'
+    videoPlayerIcon.innerHTML = youtubeSvg
 
-    svgIconContainer.addEventListener('click', () => {
+    videoPlayerIcon.addEventListener('click', () => {
       window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank')
       this.player.pause()
     })
 
-    return svgIconContainer
+    return videoPlayerIcon
   }
 }
