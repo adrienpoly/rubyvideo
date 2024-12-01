@@ -74,6 +74,13 @@ jobs:
           bin/rails db:create
           bin/rails db:schema:load
 
+      - name: Seed database
+        run: |
+          bin/rails db:seed
+          bin/rails db:seed # Check idempotency
+        env:
+          RAILS_ENV: development
+
       - name: Run tests
         run: |
           bin/rails test

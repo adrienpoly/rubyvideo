@@ -33,7 +33,7 @@ MeiliSearch::Rails.deactivate! do
 
         talk = Talk.find_or_create_by!(title: talk_data["title"], event: event) do |tlk|
           tlk.description = talk_data["description"]
-          tlk.year = talk_data["year"].presence || event_data["year"]
+          tlk.date = talk_data["date"].presence || event_data["date"]
           tlk.video_id = talk_data["video_id"]
           tlk.video_provider = :youtube
           tlk.date = talk_data["published_at"]
