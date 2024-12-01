@@ -69,20 +69,19 @@ export default class extends Controller {
     const videoContainer = document.querySelector('[data-video-player-target="player"]')
     const videoId = videoContainer.getAttribute('data-youtube-id')
 
+    const handleYouTubePlay = () => {
+      window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank')
+      this.player.pause()
+    }
+
     const videoPlayerIcon = document.createElement('button')
     videoPlayerIcon.className = 'v-openInYouTube v-controlButton'
     videoPlayerIcon.innerHTML = youtubeSvg
-
-    videoPlayerIcon.addEventListener('click', () => {
-      window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank')
-      this.player.pause()
-    })
+    videoPlayerIcon.addEventListener('click', handleYouTubePlay)
 
     const externalPlayButton = document.querySelector('.v-playOnYoutubeButton')
     if (externalPlayButton) {
-      externalPlayButton.addEventListener('click', () => {
-        this.player.pause()
-      })
+      externalPlayButton.addEventListener('click', handleYouTubePlay)
     }
 
     return videoPlayerIcon
