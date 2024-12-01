@@ -66,7 +66,7 @@ export default class extends Controller {
   }
 
   createOpenInYouTube () {
-    const videoContainer = document.querySelector('[data-video-player-target="player"]')
+    const videoContainer = this.playerTarget
     const videoId = videoContainer.getAttribute('data-youtube-id')
 
     const handleYouTubePlay = () => {
