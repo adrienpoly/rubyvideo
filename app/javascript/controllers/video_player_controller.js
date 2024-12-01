@@ -78,6 +78,13 @@ export default class extends Controller {
       this.player.pause()
     })
 
+    const externalPlayButton = document.querySelector('.v-playOnYoutubeButton')
+    if (externalPlayButton) {
+      externalPlayButton.addEventListener('click', () => {
+        this.player.pause()
+      })
+    }
+
     return videoPlayerIcon
   }
 }
