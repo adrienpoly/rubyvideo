@@ -32,7 +32,7 @@ export default class extends Controller {
     if (controlBar) {
       const volumeButton = player.elements.container.querySelector('.v-volumeButton')
       const playbackRateSelect = this.createPlaybackRateSelect(this.playbackRateOptions, player)
-      const openInYouTube = this.createOpenInYouTube()
+      const openInYouTube = this.createYouTubeIcon()
       volumeButton.parentNode.insertBefore(playbackRateSelect, volumeButton.nextSibling)
       volumeButton.parentNode.insertBefore(openInYouTube, volumeButton.previousSibling)
     }
@@ -65,25 +65,23 @@ export default class extends Controller {
     }
   }
 
-  createOpenInYouTube () {
-    const videoContainer = this.playerTarget
-    const videoId = videoContainer.getAttribute('data-youtube-id')
+  playOnYoutube()
+  {
+    const videoId = this.playerTarget.dataset.youtubeId
+    window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank')
+    this.player.pause()
+  }
 
-    const handleYouTubePlay = () => {
-      window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank')
-      this.player.pause()
-    }
-
-    const videoPlayerIcon = document.createElement('button')
-    videoPlayerIcon.className = 'v-openInYouTube v-controlButton'
-    videoPlayerIcon.innerHTML = youtubeSvg
-    videoPlayerIcon.addEventListener('click', handleYouTubePlay)
-
-    const externalPlayButton = document.querySelector('.v-playOnYoutubeButton')
-    if (externalPlayButton) {
-      externalPlayButton.addEventListener('click', handleYouTubePlay)
-    }
-
-    return videoPlayerIcon
+  createYouTubeIcon () {
+    const wrappedAnchorElement = document.createElement('a')
+    wrappedAnchorElement.dataset.action = "click->video-player#playOnYoutube"
+    
+    const button = document.createElement('button')
+    button.innerHTML = youtubeSvg
+    button.className = 'v-openInYouTube v-controlButton'
+    
+    wrappedAnchorElement.appendChild(button)
+    
+    return wrappedAnchorElement
   }
 }

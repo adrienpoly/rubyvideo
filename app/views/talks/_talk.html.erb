@@ -42,7 +42,7 @@
 
         <div class="flex gap-1">
           <% if talk.video_provider == "youtube" %>
-            <div class="tooltip tooltip-top v-playOnYoutubeButton" data-tip="Watch on YouTube">
+            <div class="tooltip tooltip-top v-playOnYoutubeButton" data-tip="Watch on YouTube" data-action="click->video-player#playOnYoutube">
               <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
                 <span class="text-nowrap">Play on</span>
                 <%= fa("youtube-brands", size: :sm, style: :solid) %>
