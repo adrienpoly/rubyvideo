@@ -45,7 +45,6 @@
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
-  extend ActiveJob::Performs
   include Talk::TranscriptCommands
   include Talk::SummaryCommands
   include Sluggable
