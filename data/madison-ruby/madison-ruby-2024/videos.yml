@@ -75,7 +75,15 @@
     - Andrew Atkinson
   video_id: "madison-ruby-2024-andrew-atkinson"
   video_provider: "not_recorded"
-  description: "Attendees will learn fundamentals of good database query performance. With live demonstrations of app queries that aren't optimized, we’ll step through optimizations, query planning, and index design. A public Rails app will be used. Examples will move back and forth between Active Record and SQL using both a SQL client and the Rails Console. Audience members will be polled and questioned for suggestions to make the content more engaging. Attendees will leave with knowledge of fundamentals and real-world optimization tactics they can apply to their Active Record code and relational databases."
+  thumbnail_xs: https://pbs.twimg.com/media/GTXYaJkagAAYnDw?format=jpg&name=small
+  thumbnail_sm: https://pbs.twimg.com/media/GTXYaJkagAAYnDw?format=jpg&name=small
+  thumbnail_md: https://pbs.twimg.com/media/GTXYaJkagAAYnDw?format=jpg
+  thumbnail_lg: https://pbs.twimg.com/media/GTXYaJkagAAYnDw?format=jpg&name=medium
+  thumbnail_xl: https://pbs.twimg.com/media/GTXYaJkagAAYnDw?format=jpg&name=medium
+  description: |-
+    Attendees will learn fundamentals of good database query performance. With live demonstrations of app queries that aren't optimized, we’ll step through optimizations, query planning, and index design. A public Rails app will be used. Examples will move back and forth between Active Record and SQL using both a SQL client and the Rails Console. Audience members will be polled and questioned for suggestions to make the content more engaging. Attendees will leave with knowledge of fundamentals and real-world optimization tactics they can apply to their Active Record code and relational databases.
+
+    https://andyatkinson.com/blog/2024/08/13/madison-plus-ruby-conference-recap
   published_at: "2024-08-01"
 
 - title: "Zen and the Art of Incremental Automation"
