@@ -32,9 +32,12 @@ export default class extends Controller {
     if (controlBar) {
       const volumeButton = player.elements.container.querySelector('.v-volumeButton')
       const playbackRateSelect = this.createPlaybackRateSelect(this.playbackRateOptions, player)
-      const openInYouTube = this.createOpenInYoutube()
       volumeButton.parentNode.insertBefore(playbackRateSelect, volumeButton.nextSibling)
-      volumeButton.parentNode.insertBefore(openInYouTube, volumeButton.previousSibling)
+
+      if (this.providerValue === "youtube") {
+        const openInYouTube = this.createOpenInYoutube()
+        volumeButton.parentNode.insertBefore(openInYouTube, volumeButton.previousSibling)
+      }
     }
     // for seekTo to work we need to store again the player instance
     this.player = player
