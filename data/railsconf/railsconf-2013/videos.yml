@@ -43,7 +43,7 @@
     - David Heinemeier Hansson
   event_name: RailsConf 2013
   published_at: "2013-06-25"
-  description: |-
+  description: ""
   video_provider: youtube
   video_id: yhseQP52yIY
 
@@ -107,7 +107,7 @@
     - Allan Grant
   event_name: RailsConf 2013
   published_at: "2013-06-25"
-  description: |-
+  description: ""
   video_provider: youtube
   video_id: 9L_jiJddLPo
 
@@ -434,7 +434,6 @@
   published_at: "2013-06-25"
   description: |-
     Rails: the result of magical incantations, voodoo, and wizardry? Or: a collection of patterns from the most awesomest language in the world (Ruby)? We'll show three different areas of Rails that seem to be the most magical: before_filters and callbacks, Procs, and inheritance. In the workshop, participants will create their own Ruby object implementing these magical powers.
-
   video_provider: youtube
   video_id: Nqr_j4j26Uk
 
@@ -445,7 +444,7 @@
   event_name: RailsConf 2013
   published_at: "2013-06-25"
   description:
-    "By Brian Sam-Bodden \n\nBehavior-Driven Development and Acceptance
+    "Behavior-Driven Development and Acceptance
     Testing are heavily intertwined and in many aspects are one and the same. Both
     focus on starting at the outer layers of your application by concentrating on
     what matter to users; behavior. In this session/workshop we'll talk about how
@@ -453,7 +452,7 @@
     behavior and as accurate, running documentation that can be used to validate your
     stakeholder's acceptance criteria. We'll talk about the different types of testing
     and do a few hands-on exercises to flesh out a Rails application with RSpec and
-    Capybara.
+    Capybara."
   video_provider: youtube
   video_id: BG_DDUD4M9E
 
@@ -743,7 +742,7 @@
     I believe the more Rubyists use Diametric, the more they like it.\nIn my talk,
     I'll introduce Diametric gem and how to use it as well as why its API design is
     good for us. Also, I will cover how Ruby helped to integrate Datomic API in Diametric
-    gem.
+    gem."
   video_provider: youtube
   video_id: 1E_n47ct280
 
@@ -775,7 +774,7 @@
     \n* How to be more interesting than the internet. \n* The power of live coding
     and demos. \n* Being funny without resorting to reddit memes. \n* How to get plenty
     of questions during Q&A. \n* How to get an unfair amount of talk acceptances (aka
-    'Bribing conference organizers').
+    'Bribing conference organizers')."
   video_provider: youtube
   video_id: l9JXH7JPjR4
 
@@ -977,7 +976,7 @@
     for real-time needs. We'll also talk about how to look at trending data and how
     you can integrate Sensu against PagerDuty, RabbitMQ, or any other third-party
     service. Oh, and of course - everything's written in Ruby, so you can even use
-    your favorite gems!
+    your favorite gems!"
   video_provider: youtube
   video_id: b76GfS7x_j8
 
@@ -1030,7 +1029,7 @@
     all of our environments. Some specific topics we'll cover:\n* Orchestrating servers
     with capistrano \n* Using puppet for configuration management \n* Our cap and
     puppet workflow using git \n* How vagrant can provide a sane test environment
-    \n* Some pitfalls you should avoid
+    \n* Some pitfalls you should avoid"
   video_provider: youtube
   video_id: KmUq-SIFmgE
 
