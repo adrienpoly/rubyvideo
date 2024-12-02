@@ -32,7 +32,7 @@ export default class extends Controller {
     if (controlBar) {
       const volumeButton = player.elements.container.querySelector('.v-volumeButton')
       const playbackRateSelect = this.createPlaybackRateSelect(this.playbackRateOptions, player)
-      const openInYouTube = this.createYouTubeIcon()
+      const openInYouTube = this.createOpenInYoutube()
       volumeButton.parentNode.insertBefore(playbackRateSelect, volumeButton.nextSibling)
       volumeButton.parentNode.insertBefore(openInYouTube, volumeButton.previousSibling)
     }
@@ -65,23 +65,20 @@ export default class extends Controller {
     }
   }
 
-  playOnYoutube()
-  {
-    const videoId = this.playerTarget.dataset.youtubeId
-    window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank')
+  pause () {
     this.player.pause()
   }
 
-  createYouTubeIcon () {
-    const wrappedAnchorElement = document.createElement('a')
-    wrappedAnchorElement.dataset.action = "click->video-player#playOnYoutube"
-    
-    const button = document.createElement('button')
-    button.innerHTML = youtubeSvg
-    button.className = 'v-openInYouTube v-controlButton'
-    
-    wrappedAnchorElement.appendChild(button)
-    
-    return wrappedAnchorElement
+  createOpenInYoutube () {
+    const videoId = this.playerTarget.dataset.youtubeId
+
+    const anchorTag = document.createElement('a')
+    anchorTag.className = 'v-openInYouTube v-controlButton'
+    anchorTag.innerHTML = youtubeSvg
+    anchorTag.href = `https://www.youtube.com/watch?v=${videoId}`
+    anchorTag.target = '_blank'
+    anchorTag.dataset.action = 'click->video-player#pause'
+
+    return anchorTag
   }
 }
