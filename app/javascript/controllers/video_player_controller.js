@@ -34,7 +34,7 @@ export default class extends Controller {
       const playbackRateSelect = this.createPlaybackRateSelect(this.playbackRateOptions, player)
       volumeButton.parentNode.insertBefore(playbackRateSelect, volumeButton.nextSibling)
 
-      if (this.providerValue === "youtube") {
+      if (this.providerValue === 'youtube') {
         const openInYouTube = this.createOpenInYoutube()
         volumeButton.parentNode.insertBefore(openInYouTube, volumeButton.previousSibling)
       }
