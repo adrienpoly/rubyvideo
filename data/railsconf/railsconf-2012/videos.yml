@@ -1,9 +1,9 @@
 ---
 # TODO: talks running order
-# TODO: talk dates
 # TODO: schedule website
 
 # Website: https://web.archive.org/web/20140105002431/http://railsconf2012.com/
+# Reference: https://github.com/newhavenrb/conferences/wiki/RailsConf-2012
 
 - title: "Keynote: Progress"
   raw_title: "Rails Conf 2012 Keynote: Progress by David Heinemeier Hansson"
@@ -321,7 +321,7 @@
   speakers:
     - Bryan Liles
   event_name: RailsConf 2012
-  published_at: "2012-03-23"
+  published_at: "2012-04-23"
   description: |-
     Have you ever wondered what makes Rails tick? Bryan Liles will cover two of the pillars of the Rails foundation: ActiveSupport and ActiveModel. Together we will discover where some of Rails' ease and power originates and how make use of it in your projects.
 
