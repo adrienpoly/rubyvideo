@@ -83,7 +83,7 @@ class Talk < ApplicationRecord
   # enums
   enum :video_provider, %w[youtube mp4 scheduled not_published not_recorded].index_by(&:itself)
   enum :kind,
-    %w[talk keynote lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
+    %w[keynote talk lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
       interview award].index_by(&:itself)
 
   # attributes
@@ -378,28 +378,30 @@ class Talk < ApplicationRecord
     end
 
     self.kind = case title
-    when /.*(keynote:|opening\ keynote|closing\ keynote|keynote|opening\ keynote|closing\ keynote).*/i
+    when /^(keynote:|keynote|opening\ keynote:|opening\ keynote|closing\ keynote:|closing\ keynote).*/i
       :keynote
-    when /.*(lightning\ talk:|lightning\ talk|lightning\ talks|micro\ talk:|micro\ talk).*/i
+    when /^(lightning\ talk:|lightning\ talk|lightning\ talks|micro\ talk:|micro\ talk).*/i
       :lightning_talk
     when /.*(panel:|panel).*/i
       :panel
-    when /.*(workshop:|workshop).*/i
+    when /^(workshop:|workshop).*/i
       :workshop
-    when /.*(gameshow|game\ show|gameshow:|game\ show:).*/i
+    when /^(gameshow|game\ show|gameshow:|game\ show:).*/i
       :gameshow
-    when /.*(podcast:|podcast\ recording:|live\ podcast:).*/i
+    when /^(podcast:|podcast\ recording:|live\ podcast:).*/i
       :podcast
-    when /.*(q&a|q&a:|ama|q&a\ with|ruby\ committers\ vs\ the\ world|ruby\ committers\ and\ the\ world).*/i
+    when /.*(q&a|q&a:|q&a\ with|ruby\ committers\ vs\ the\ world|ruby\ committers\ and\ the\ world).*/i,
+        /.*(AMA)$/,
+        /^(AMA:)/
       :q_and_a
-    when /.*(fishbowl:|fishbowl\ discussion:|discussion:|discussion).*/i
+    when /^(fishbowl:|fishbowl\ discussion:|discussion:|discussion).*/i
       :discussion
-    when /.*(fireside\ chat:|fireside\ chat).*/i
+    when /^(fireside\ chat:|fireside\ chat).*/i
       :fireside_chat
+    when /^(award:|award\ show|ruby\ heroes\ awards|ruby\ heroes\ award|rails\ luminary).*/i
+      :award
     when /^(interview:|interview\ with).*/i
       :interview
-    when /.*(award:|award\ show|ruby\ hero\ awards|ruby\ hero\ award|rails\ luminary).*/i
-      :award
     else
       :talk
     end

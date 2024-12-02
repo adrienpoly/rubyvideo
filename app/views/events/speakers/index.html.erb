@@ -1,0 +1,40 @@
+<%= render partial: "events/header", locals: {event: @event} %>
+
+<%= turbo_frame_tag dom_id(@event), data: {turbo_action: "advance", turbo_frame: "_top"} do %>
+  <div class="container py-8">
+    <%= render partial: "events/navigation", locals: {event: @event} %>
+
+    <div class="flex items-start flex-wrap gap-8 sm:flex-nowrap w-full">
+      <div class="w-full">
+        <% titles = {
+             keynote: "Keynote Speaker",
+             talk: "Speaker",
+             lightning_talk: "Lightning Talk Speaker",
+             panel: "Panelist",
+             discussion: "Panelist",
+             gameshow: "Game Show Host",
+             workshop: "Workshop Instructor",
+             podcast: "Podcast Host/Participant",
+             q_and_a: "Q&A Host/Participant",
+             fireside_chat: "Fireside Chat Host/Participant",
+             interview: "Interviewer/Interviewee",
+             award: "Award Presenter/Winner"
+           } %>
+
+        <% grouped = @event.talks.flat_map { |talk| talk.speakers.map { |speaker| [talk.kind, speaker] } }.group_by(&:first).transform_values(&:uniq).sort_by { |kind, _speakers| Talk.kinds.values.index(kind) } %>
+
+        <% grouped.each do |kind, speakers| %>
+          <h2 class="mb-6"><%= titles[kind.to_sym].pluralize(speakers.count) %></h2>
+
+          <div id="keynote-speakers" class="mb-12 min-w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 h-full">
+            <% speakers.each do |kind, speaker| %>
+              <div class="border rounded-lg bg-white hover:bg-gray-200 transition-bg duration-300 ease-in-out">
+                <%= render partial: "talks/speaker", locals: {speaker: speaker} %>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>

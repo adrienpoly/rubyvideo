@@ -601,3 +601,37 @@
   slug: montreal-rb
   language: english
   youtube_channel_id: UCVGtTNLJjB35j-RgD62B9Zw
+
+- name: Ruby on Rails Switzerland
+  website: https://www.meetup.com/rubyonrails-ch
+  twitter: ""
+  youtube_channel_name: ""
+  kind: meetup
+  frequency: quarterly
+  playlist_matcher: ""
+  slug: ruby-on-rails-switzerland
+  language: english
+  youtube_channel_id: ""
+
+- name: RubyConf India
+  website: https://rubyconf.in
+  twitter: rubyconfindia
+  youtube_channel_name: ""
+  kind: conference
+  frequency: yearly
+  playlist_matcher: ""
+  slug: rubyconf-india
+  language: english
+  youtube_channel_id: ""
+
+- name: Ruby Banitsa
+  website: https://rubybanitsa.com
+  twitter: rubybanitsa
+  youtube_channel_name: ""
+  kind: conference
+  frequency: yearly
+  playlist_matcher: ""
+  slug: ruby-banitsa
+  language: english
+  youtube_channel_id: ""
+  default_country_code: BG

@@ -30,6 +30,8 @@ Rails.application.routes.draw do
     resource :password_reset, only: [:new, :edit, :create, :update]
   end
 
+  resources :contributions, only: [:index]
+
   # resources
   namespace :analytics do
     resource :dashboards, only: [:show] do
@@ -52,6 +54,7 @@ Rails.application.routes.draw do
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
   resources :events, param: :slug, only: [:index, :show, :update, :edit] do
     scope module: :events do
+      resources :speakers, only: [:index]
       resources :talks, only: [:index]
     end
   end

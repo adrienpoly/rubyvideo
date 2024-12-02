@@ -27,18 +27,18 @@ class TalkTest < ActiveSupport::TestCase
 
   test "should guess kind from title" do
     kind_with_titles = {
-      talk: ["I love Ruby"],
-      keynote: ["Keynote: Something ", "foo Opening keynote bar", "closing keynote foo bar", "Keynote", "Keynote by Someone", "Opening Keynote", "Closing Keynote"],
+      talk: ["I love Ruby", "Beyond Code: Crafting effective discussions to further technical decision-making", "From LALR to IELR: A Lrama's Next Step"],
+      keynote: ["Keynote: Something ", "Opening keynote Something", "closing keynote Something", "Keynote", "Keynote by Someone", "Opening Keynote", "Closing Keynote"],
       lightning_talk: ["Lightning Talk: Something", "lightning talk: Something", "Lightning talk: Something", "lightning talk", "Lightning Talks", "Lightning talks", "lightning talks", "Lightning Talks Day 1", "Lightning Talks (Day 1)", "Lightning Talks - Day 1", "Micro Talk: Something", "micro talk: Something", "micro talk: Something", "micro talk"],
       panel: ["Panel: foo", "Panel", "Something Panel"],
       workshop: ["Workshop: Something", "workshop: Something"],
       gameshow: ["Gameshow", "Game Show", "Gameshow: Something", "Game Show: Something"],
       podcast: ["Podcast: Something", "Podcast Recording: Something", "Live Podcast: Something"],
-      q_and_a: ["Q&A", "Q&A: Something", "Something AMA", "Q&A with Somebody", "Ruby Committers vs The World", "Ruby Committers and the World"],
+      q_and_a: ["Q&A", "Q&A: Something", "Something AMA", "Q&A with Somebody", "Ruby Committers vs The World", "Ruby Committers and the World", "AMA: Rails Core"],
       discussion: ["Discussion: Something", "Discussion", "Fishbowl: Topic", "Fishbowl Discussion: Topic"],
       fireside_chat: ["Fireside Chat: Something", "Fireside Chat"],
       interview: ["Interview with Matz", "Interview: Something"],
-      award: ["Award: Something", "Award Show", "Ruby Hero Awards", "Ruby Hero Award", "Rails Luminary"]
+      award: ["Award: Something", "Award Show", "Ruby Heroes Awards", "Ruby Heroes Award", "Rails Luminary"]
     }
 
     kind_with_titles.each do |kind, titles|
@@ -46,7 +46,7 @@ class TalkTest < ActiveSupport::TestCase
         talk = Talk.new(title:)
         talk.save!
 
-        assert_equal kind.to_s, talk.kind
+        assert_equal [kind.to_s, title], [talk.kind, talk.title]
 
         talk.destroy!
       end

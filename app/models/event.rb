@@ -125,7 +125,7 @@ class Event < ApplicationRecord
     keynotes = keynote_speakers.any? ? %(, including keynotes by #{keynote_speakers.map(&:name).to_sentence}) : ""
 
     <<~DESCRIPTION
-      #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in_sentence} and features #{talks.count} #{"talk".pluralize(talks.count)} from various speakers#{keynotes}.
+      #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in_sentence} and features #{talks.size} #{"talk".pluralize(talks.size)} from various speakers#{keynotes}.
     DESCRIPTION
   end
 

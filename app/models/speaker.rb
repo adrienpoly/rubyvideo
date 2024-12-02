@@ -6,6 +6,7 @@
 #  id            :integer          not null, primary key
 #  bio           :text             default(""), not null
 #  bsky          :string           default(""), not null
+#  bsky_metadata :json             not null
 #  github        :string           default(""), not null
 #  linkedin      :string           default(""), not null
 #  mastodon      :string           default(""), not null
@@ -124,10 +125,39 @@ class Speaker < ApplicationRecord
     super
   end
 
+  def avatar_url(...)
+    bsky_avatar_url(...) || github_avatar_url(...) || fallback_avatar_url(...)
+  end
+
+  def avatar_rank
+    return 1 if bsky_avatar_url.present?
+    return 2 if github_avatar_url.present?
+
+    3
+  end
+
+  def custom_avatar?
+    bsky_avatar_url.present? || github_avatar_url.present?
+  end
+
+  def bsky_avatar_url(...)
+    bsky_metadata.dig("avatar")
+  end
+
   def github_avatar_url(size: 200)
-    return "" unless github.present?
+    return nil unless github.present?
 
     "https://github.com/#{github}.png?size=#{size}"
+  end
+
+  def fallback_avatar_url(size: 200)
+    url_safe_initials = name.split(" ").map(&:first).join("+")
+
+    "https://ui-avatars.com/api/?name=#{url_safe_initials}&size=#{size}&background=DC133C&color=fff"
+  end
+
+  def fetch_bsky_metadata!
+    Speaker::FetchBskyMetadata.new.perform(speaker: self)
   end
 
   def broadcast_header

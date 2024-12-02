@@ -1,6 +1,7 @@
 <%# locals: (talk:) -%>
 
 <% video_player_controller = talk.external_player ? nil : "video-player" %>
+<% language = Language.by_code(talk.language) %>
 <%= content_tag :div, id: dom_id(talk),
       data: {
         controller: video_player_controller,
@@ -40,6 +41,15 @@
         </div>
 
         <div class="flex gap-1">
+          <% if talk.video_provider == "youtube" %>
+            <a class="tooltip tooltip-top v-playOnYoutubeButton" data-tip="Watch on YouTube" href="<%= "https://www.youtube.com/watch?v=#{talk.video_id}" %>" target="_blank" data-action="click->video-player#pause">
+              <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
+                <span class="text-nowrap">Play on</span>
+                <%= fa("youtube-brands", size: :sm, style: :solid) %>
+              </div>
+            </a>
+          <% end %>
+
           <% if signed_in? && !talk.scheduled? %>
             <%= turbo_frame_tag dom_id(talk, :watched_talk) do %>
               <% if talk.watched? %>
@@ -90,8 +100,8 @@
                   <% talk.speakers.to_a.from(speaker_preview_count).each do |speaker| %>
                     <div class="avatar placeholder border-none">
                       <%= content_tag :div, class: "w-12 rounded-full bg-primary text-neutral-content" do %>
-                        <% if speaker.github.present? %>
-                          <%= image_tag speaker.github_avatar_url(size: 48) %>
+                        <% if speaker.custom_avatar? %>
+                          <%= image_tag speaker.avatar_url(size: 48) %>
                         <% else %>
                           <span class="text-lg"><%= speaker.name.split(" ").map(&:first).join %></span>
                         <% end %>
@@ -119,7 +129,7 @@
         </div>
 
         <div class="hidden 2xl:block">
-          <%= render partial: "talks/event", locals: {event: talk.event, talk: talk, future: talk.date.try(:future?) || false} %>
+          <%= render partial: "talks/event", locals: {event: talk.event, talk: talk, video_provider: talk.video_provider} %>
         </div>
       </div>
     </div>
@@ -154,7 +164,7 @@
         <article class="prose">
           <p>
             <b><%= talk.title %></b><br>
-            <%= talk.speakers.map(&:name).to_sentence %> • <%= talk.formatted_date %> <% if talk.event.location %> • <%= talk.event.location %><% end %>
+            <%= talk.speakers.map(&:name).to_sentence %> • <%= talk.formatted_date %> <% if talk.event.location %> • <%= talk.event.location %><% end %> <% if language && language != "English" %> • <%= language %> <% end %>
           </p>
 
           <%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %>

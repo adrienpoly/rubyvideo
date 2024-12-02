@@ -1,4 +1,50 @@
 ---
+- title: Gemless
+  raw_title: Gemless - Brittany Martin
+  speakers:
+    - Brittany Martin
+  event_name: WNB.rb Meetup March 2021
+  date: "2021-03-30"
+  description: |-
+    Brittany Martin talks about lessons learned as an Eng Lead during a project to build a lightweight script using AWS Lambda and Cloudwatch to funnel data from a variety of sources into S3 to create a data dashboard.
+
+    https://www.wnb-rb.dev/meetups/2021/03/30
+  video_provider: not_published
+  video_id: brittany-martin-wnb-rb-meetup-march-2021
+
+- title: Five Errors You Encounter When Upgrading Your Ruby Gems
+  raw_title: Five Errors You Encounter When Upgrading Your Ruby Gems - Emily Giurleo
+  speakers:
+    - Emily Giurleo
+  event_name: WNB.rb Meetup March 2021
+  date: "2021-03-30"
+  slides_url: https://docs.google.com/presentation/d/183ExC_6BEVV9L_E7jFbZDRK3g2S7RNaWuk_ENgnf8C4/edit
+  description: |-
+    Sometimes, upgrading your gems can cause errors in your application. These errors pop up when you’re least expecting them, and they can often be categorized into common groups… kind of like Pokemon! In this talk, we’ll discuss five types of errors you might see while upgrading dependencies, as well as the techniques (or “moves”) we can use to solve them.
+
+    https://www.wnb-rb.dev/meetups/2021/03/30
+  video_provider: not_published
+  video_id: emily-giurleo-wnb-rb-meetup-march-2021
+
+# TODO: missing event: April 2021 Meetup - https://www.wnb-rb.dev/meetups/2021/04/27
+# TODO: missing event: May 2021 Meetup - https://www.wnb-rb.dev/meetups/2021/05/25
+# TODO: missing event: June 2021 Meetup - https://www.wnb-rb.dev/meetups/2021/06/28
+# TODO: missing event: Panel on Technical Speaking - https://www.wnb-rb.dev/meetups/2021/07/27
+# TODO: missing event: August 2021 Meetup - https://www.wnb-rb.dev/meetups/2021/08/31
+# TODO: missing event: September 2021 Meetup - https://www.wnb-rb.dev/meetups/2021/09/28
+# TODO: missing event: October 2021 Meetup - https://www.wnb-rb.dev/meetups/2021/10/26
+# TODO: missing event: WNB.rb Founders Panel - https://www.wnb-rb.dev/meetups/2021/11/30
+# TODO: missing event: December 2021 Meetup - https://www.wnb-rb.dev/meetups/2021/12/14
+# TODO: missing event: January 2022 Meetup - https://www.wnb-rb.dev/meetups/2022/01/25
+# TODO: missing event: WNB.rb Lightning Talks - https://www.wnb-rb.dev/meetups/2022/02/22
+# TODO: missing event: March 2022 Meetup - https://www.wnb-rb.dev/meetups/2022/03/29
+# TODO: missing event: Salary Negotiation Workshop - https://www.wnb-rb.dev/meetups/2022/04/26
+# TODO: missing event: May 2022 Meetup - https://www.wnb-rb.dev/meetups/2022/05/31
+# TODO: missing event: Special Meetup: Shopify Edition - https://www.wnb-rb.dev/meetups/2022/06/14
+# TODO: missing event: June 2022 Meetup - https://www.wnb-rb.dev/meetups/2022/06/28
+# TODO: missing event: July 2022 Meetup - https://www.wnb-rb.dev/meetups/2022/07/26
+# TODO: missing event: August 2022 Meetup - https://www.wnb-rb.dev/meetups/2022/08/30
+
 - title: Embarking on Your Journey Through the World of Unit Testing
   raw_title: Embarking on Your Journey Through the World of Unit Testing - Kim Diep
   speakers:
@@ -514,12 +560,11 @@
     - Emily Samp
   event_name: WNB.rb Meetup October 2024
   date: "2024-10-29"
+  slides_url: https://docs.google.com/presentation/d/1sw_V2_FfqTBfge46hBxLYxYcXKVy_LIp7CkqgphP9Ss/edit#slide=id.p
   description: |-
-    Emily Samp is bringing us Parsing with Prism in Sorbet!
+    Sorbet is a gradual type checker for Ruby, and like many Ruby developer tools, it has its own parser. This means that every time a change is made to the Ruby language, teams at Stripe and Shopify need to implement those changes in Sorbet’s parser. This process is labor-intensive, slow, and prone to errors. There must be a better way!
 
-    Prism is a new Ruby parser developed by Shopify written in C and designed to be embedded in other Ruby tooling.
-
-    She is going to talk us through how she replaced the existing Sorbet parser with Prism, eliminating the toil of maintaining the Sorbet parser and taking one step toward uniting Ruby's parsing ecosystem.
+    Enter, Prism. Prism is a new Ruby parser developed by Shopify. It is written in C and designed to be embedded in other Ruby tooling. In this talk, I’ll describe how I replaced the existing Sorbet parser with Prism, eliminating the toil of maintaining the Sorbet parser and taking one step toward uniting Ruby’s parsing ecosystem.
   video_provider: not_published
   video_id: emily-samp-wnb-rb-october-2024-meetup
 
@@ -533,5 +578,5 @@
     Upgrading can be a bit tricky, but it is also an opportunity to fine-tune and enhance your Rails experience!
 
     Jenny Shen will delve into the depreciation and changes introduced in Rails 8, and showcase how Shopify automated the upgrade process.
-  video_provider: scheduled
+  video_provider: not_published
   video_id: jenny-shen-wnb-rb-november-2024-meetup
