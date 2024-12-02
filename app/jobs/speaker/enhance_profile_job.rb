@@ -7,9 +7,28 @@ class Speaker::EnhanceProfileJob < ApplicationJob
     matching_profile = speaker.github.present? ? user_details(speaker.github) : search_github_profile(name: speaker.name)
 
     if matching_profile.present?
+      socials = user_social_accounts(speaker.github)
+
+      twitter, mastodon, bsky, linkedin = nil, nil, nil, nil
+
+      socials.each do |social|
+        case social.provider
+        when "twitter"
+          twitter = social.url
+        when "mastodon"
+          mastodon = social.url
+        when "bluesky"
+          bsky = social.url
+        when "linkedin"
+          linkedin = social.url
+        end
+      end
+
       speaker.update(
-        twitter: speaker.twitter.presence || matching_profile.twitter_username || "",
-        github: matching_profile.login,
+        twitter: speaker.twitter.presence || twitter || "",
+        mastodon: speaker.mastodon.presence || mastodon || "",
+        bsky: speaker.bsky.presence || bsky || "",
+        linkedin: speaker.linkedin.presence || linkedin || "",
         bio: speaker.bio.presence || matching_profile.bio || "",
         website: speaker.website.presence || matching_profile.blog || ""
       )
@@ -33,11 +52,19 @@ class Speaker::EnhanceProfileJob < ApplicationJob
     end
   end
 
+  def user_social_accounts(username)
+    client.social_accounts(username).parsed_body
+  end
+
   def user_details(username)
-    GitHub::UserClient.new.profile(username)
+    client.profile(username)
   end
 
   def search_github_users(q:, per_page: 5, page: 1)
-    GitHub::UserClient.new.search(q, per_page: per_page, page: page)
+    client.search(q, per_page: per_page, page: page)
+  end
+
+  def client
+    @client ||= GitHub::UserClient.new
   end
 end
