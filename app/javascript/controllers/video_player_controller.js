@@ -55,6 +55,9 @@ export default class extends Controller {
   }
 
   handlePlayerReady (player) {
+    // for seekTo to work we need to store again the player instance
+    this.player = player
+
     const controlBar = player.elements.container.querySelector('.v-controlBar')
 
     if (controlBar) {
