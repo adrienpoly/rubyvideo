@@ -620,25 +620,58 @@
 
 - title: "Ignites"
   raw_title: "RubyConf 2017: Ignites"
-  speakers:
-    - Evan Phoenix
-    - Rich Kilmer
-    - Nadia Odunayo
-    - Michael Hartl
-    - Jim Remsik
-    - Allison McMillan
   event_name: RubyConf 2017
   published_at: "2017-11-29"
-  description: |-
-    Ignites by
-
-    01:57:28 - Rich Kilmer
-    07:10:21 - Nadia Odunayo
-    12:45:23 - Michael Hartl
-    18:16:08 - Jim Remsik
-    23:49:08 - Allison McMillan
   video_provider: youtube
   video_id: 9VSo5u4ODWQ
+  talks:
+    - title: "Intro"
+      start_cue: "00:13"
+      end_cue: "01:53"
+      video_id:
+      video_provider: parent
+      speakers:
+        - Evan Phoenix
+
+    - title: "Ignites: Foundations of the Ruby Community"
+      start_cue: "01:53"
+      end_cue: "07:13"
+      video_id: rich-kilmer-ignites-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Rich Kilmer
+
+    - title: "Ignites: How to get involved in the Ruby community"
+      start_cue: "07:13"
+      end_cue: "12:50"
+      video_id: nadia-odunayo-ignites-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Nadia Odunayo
+
+    - title: "Ignites: Ruby Going Global"
+      start_cue: "13:10"
+      end_cue: "18:13"
+      video_id: michael-hartl-ignites-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Michael Hartl
+
+    - title: "Ignites: Regional Conferences"
+      start_cue: "18:21"
+      end_cue: "23:49"
+      video_id: jim-remsik-ignites-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Jim Remsik
+
+    - title: "Ignites: Ruby-Bears in the land of Ruby-a-lot"
+      start_cue: "23:55"
+      end_cue: "29:29"
+      video_id: allison-mcmillan-ignites-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Allison McMillan
 
 - title: "Keynote: You're Insufficiently Persuasive"
   raw_title: "RubyConf 2017: Keynote - You're Insufficiently Persuasive by Sandi Metz"
