@@ -81,7 +81,7 @@ class Talk < ApplicationRecord
   before_validation :set_kind, if: -> { !kind_changed? }
 
   # enums
-  enum :video_provider, %w[youtube mp4 scheduled not_published not_recorded].index_by(&:itself)
+  enum :video_provider, %w[youtube mp4 vimeo scheduled not_published not_recorded].index_by(&:itself)
   enum :kind,
     %w[keynote talk lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
       interview award].index_by(&:itself)
@@ -212,21 +212,27 @@ class Talk < ApplicationRecord
       end
     end
 
-    if !youtube? && event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
+    if !youtube? && !vimeo? && event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
       return "/assets/#{asset.digested_path}"
     end
 
-    return fallback_thumbnail unless youtube?
+    return fallback_thumbnail unless youtube? || vimeo?
 
-    youtube = {
-      thumbnail_xs: "default",
-      thumbnail_sm: "mqdefault",
-      thumbnail_md: "hqdefault",
-      thumbnail_lg: "sddefault",
-      thumbnail_xl: "maxresdefault"
-    }
+    if youtube?
+      youtube = {
+        thumbnail_xs: "default",
+        thumbnail_sm: "mqdefault",
+        thumbnail_md: "hqdefault",
+        thumbnail_lg: "sddefault",
+        thumbnail_xl: "maxresdefault"
+      }
 
-    "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
+      "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
+    end
+
+    if vimeo?
+      "https://vumbnail.com/#{video_id}.jpg"
+    end
   end
 
   def external_player_utm_params

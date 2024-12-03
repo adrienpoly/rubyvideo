@@ -1,9 +1,11 @@
 import { Controller } from '@hotwired/stimulus'
 import Vlitejs from 'vlitejs'
-import VlitejsYoutube from 'vlitejs/providers/youtube.js'
+import YouTube from 'vlitejs/providers/youtube.js'
+import Vimeo from 'vlitejs/providers/vimeo.js'
 import youtubeSvg from '../../assets/images/icons/fontawesome/youtube-brands-solid.svg?raw'
 
-Vlitejs.registerProvider('youtube', VlitejsYoutube)
+Vlitejs.registerProvider('youtube', YouTube)
+Vlitejs.registerProvider('vimeo', Vimeo)
 
 export default class extends Controller {
   static values = { poster: String, src: String, provider: String }
