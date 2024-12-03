@@ -37,7 +37,7 @@ class Speaker::EnhanceProfileJob < ApplicationJob
       }
     )
 
-    speaker.broadcast_about
+    speaker.broadcast_header
     sleep(sleep)
   end
 

@@ -54,6 +54,7 @@ class Speaker < ApplicationRecord
   has_many :talks, through: :speaker_talks, inverse_of: :speakers
   has_many :events, -> { distinct }, through: :talks, inverse_of: :speakers
   has_many :aliases, class_name: "Speaker", foreign_key: "canonical_id"
+  has_many :topics, through: :talks
 
   belongs_to :canonical, class_name: "Speaker", optional: true
   belongs_to :user, primary_key: :github_handle, foreign_key: :github, optional: true
@@ -164,8 +165,8 @@ class Speaker < ApplicationRecord
     Speaker::FetchBskyMetadata.new.perform(speaker: self)
   end
 
-  def broadcast_about
-    broadcast_update_to self, target: dom_id(self, :about), partial: "speakers/about", locals: {speaker: self}
+  def broadcast_header
+    broadcast_update target: dom_id(self, :header_content), partial: "speakers/header_content", locals: {speaker: self}
   end
 
   def valid_website_url
