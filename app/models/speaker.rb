@@ -3,24 +3,25 @@
 #
 # Table name: speakers
 #
-#  id            :integer          not null, primary key
-#  bio           :text             default(""), not null
-#  bsky          :string           default(""), not null
-#  bsky_metadata :json             not null
-#  github        :string           default(""), not null
-#  linkedin      :string           default(""), not null
-#  mastodon      :string           default(""), not null
-#  name          :string           default(""), not null, indexed
-#  pronouns      :string           default(""), not null
-#  pronouns_type :string           default("not_specified"), not null
-#  slug          :string           default(""), not null, indexed
-#  speakerdeck   :string           default(""), not null
-#  talks_count   :integer          default(0), not null
-#  twitter       :string           default(""), not null
-#  website       :string           default(""), not null
-#  created_at    :datetime         not null
-#  updated_at    :datetime         not null
-#  canonical_id  :integer          indexed
+#  id              :integer          not null, primary key
+#  bio             :text             default(""), not null
+#  bsky            :string           default(""), not null
+#  bsky_metadata   :json             not null
+#  github          :string           default(""), not null
+#  github_metadata :json             not null
+#  linkedin        :string           default(""), not null
+#  mastodon        :string           default(""), not null
+#  name            :string           default(""), not null, indexed
+#  pronouns        :string           default(""), not null
+#  pronouns_type   :string           default("not_specified"), not null
+#  slug            :string           default(""), not null, indexed
+#  speakerdeck     :string           default(""), not null
+#  talks_count     :integer          default(0), not null
+#  twitter         :string           default(""), not null
+#  website         :string           default(""), not null
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#  canonical_id    :integer          indexed
 #
 # Indexes
 #
@@ -145,6 +146,10 @@ class Speaker < ApplicationRecord
 
   def github_avatar_url(size: 200)
     return nil unless github.present?
+
+    metadata_avatar_url = github_metadata.dig("profile", "avatar_url")
+
+    return "#{metadata_avatar_url}&size=#{size}" if metadata_avatar_url.present?
 
     "https://github.com/#{github}.png?size=#{size}"
   end

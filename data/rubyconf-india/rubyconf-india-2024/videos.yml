@@ -101,12 +101,13 @@
   description: |-
     Frozen strings, memoization, and Ruby's other quirky features can be your performance secret weapon, but misuse can lead to a performance nightmare. Let's dive into the rabbit hole of Ruby optimization and learn how to avoid the traps while writing code that's both fast and fun.
 
-- title: "Flash Talks"
+- title: "Flash Talks (Day 1)"
   raw_title: "Flash Talks"
   event_name: "RubyConf India 2024"
   date: "2024-11-29"
   speakers:
     - TODO
+    - Subin Siby # activerecord-ruby.wasm - Play with a SQLite DB on browser with ActiveRecord https://x.com/SubinSiby/status/1862177919671705882 - https://github.com/subins2000/activerecord-ruby-wasm
   video_id: "flash-talks-day-1-rubyconf-india-2024"
   video_provider: "scheduled"
   description: ""
@@ -169,13 +170,16 @@
   raw_title: "Panel Discussion"
   event_name: "RubyConf India 2024"
   speakers:
-    - TODO
+    - Datta Deshmukh
+    - Surbhi Gupta
+    - Swanand Pagnis
+    - Siddharth Sharma
   video_id: ""
   video_provider: "scheduled"
   date: "2024-11-30"
   description: ""
 
-- title: "Flash Talks"
+- title: "Flash Talks (Day 2)"
   raw_title: "Flash Talks"
   event_name: "RubyConf India 2024"
   speakers:

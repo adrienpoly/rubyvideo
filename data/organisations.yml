@@ -623,3 +623,15 @@
   slug: rubyconf-india
   language: english
   youtube_channel_id: ""
+
+- name: Ruby Banitsa
+  website: https://rubybanitsa.com
+  twitter: rubybanitsa
+  youtube_channel_name: ""
+  kind: conference
+  frequency: yearly
+  playlist_matcher: ""
+  slug: ruby-banitsa
+  language: english
+  youtube_channel_id: ""
+  default_country_code: BG
