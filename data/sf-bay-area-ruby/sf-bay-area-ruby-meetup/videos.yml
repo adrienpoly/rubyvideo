@@ -278,6 +278,89 @@
       speakers:
         - Brandon Weaver
 
+- title: SF Bay Area Ruby Meetup - November 2024
+  raw_title: "SF Bay Area Ruby Meetup in November @ Academia.edu"
+  event_name: SF Bay Area Ruby Meetup - November 2024
+  published_at: "2024-11-19"
+  description: |-
+    ​​Hey, Bay Area builders and tinkerers!
+
+    While Ruby may not dominate the headlines, it's the silent force behind the Bay Area's most successful startups. From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.
+
+    ​Join us as we re-kindle the SF Ruby community's flame! It is a unique place to meet authors of your favorite open-source tools (or members of the Ruby core team), incredibly experienced engineers and new converts, as well as new startup founders building and experimenting with the power of Ruby and Rails. It's a chance to meet every month and make new Ruby friends.
+
+    Our meetups explore Rails at scale, practical Hotwire implementations, methods for building AI-native apps and so much more—all through Ruby's uniquely productive lens.
+
+    For our November gathering, Academia.edu is our gracious host! This time, the speaker lineup is unmatched: Jeremy Evans, author of "Polished Ruby," Sequel, and Roda, is joined by Konstantin Gredeskoul (Academia), Chris Fung (Binti), and Brad Gessler (Rocketship, Fly).
+
+    Address: 580 California St. Suite 400 San Francisco, CA 94104
+
+    https://lu.ma/f4pfsigc
+  video_provider: not_published
+  video_id: sf-bay-area-ruby-meetup-november-2024
+  talks:
+    - title: "Intro"
+      start_cue: "00:00"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: irina-nazarova-intro-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "Designing for Loose Coupling in Ruby"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: konstantin-gredeskoul-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Konstantin Gredeskoul (Academia.edu) "Designing for Loose Coupling in Ruby"
+      speakers:
+        - Konstantin Gredeskoul
+
+    - title: "How to translate your Rails app into over 20 languages"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: chris-fung-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Chris Fung (Binti)  "How to translate your Rails app into over 20 languages"
+      speakers:
+        - Chris Fung
+
+    - title: "Open Mic"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: open-mic-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      speakers:
+        - TODO
+
+    - title: "Content management in Rails with Sitepress.cc"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: TODO-TODO-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Brad Gessler (Rocketship, Fly) "Content management in Rails with Sitepress.cc"
+      speakers:
+        - Brad Gessler
+
+    - title: "The first 10 years of Roda"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: jeremy-evans-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Jeremy Evans "The first 10 years of Roda"
+      speakers:
+        - Jeremy Evans
+
 - title: SF Bay Area Ruby Meetup - December 2024
   raw_title: "SF Ruby presents: Ruby&AI, December 🎅 edition @ Sentry"
   event_name: SF Bay Area Ruby Meetup - December 2024
