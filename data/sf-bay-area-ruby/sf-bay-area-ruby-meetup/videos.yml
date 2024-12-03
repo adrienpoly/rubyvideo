@@ -339,14 +339,23 @@
       speakers:
         - TODO
 
-    - title: "Content management in Rails with Sitepress.cc"
+    - title: "Build ambitious content websites in Rails"
+      raw_title: "Manage Content with Sitepress in Rails Apps or Static Websites"
       start_cue: "TODO"
       end_cue: "TODO"
       event_name: SF Bay Area Ruby Meetup - November 2024
-      video_id: TODO-TODO-sf-bay-area-ruby-meetup-november-2024
-      video_provider: parent
+      video_id: K2N8fp2P7Ms
+      video_provider: youtube
       description: |-
         Brad Gessler (Rocketship, Fly) "Content management in Rails with Sitepress.cc"
+
+        This talk dives into https://sitepress.cc, a tool for integrating content management directly into Rails applications. Originally conceived to combine the power of static site generators like Middleman with Rails’ flexibility, Sitepress simplifies building and managing content-heavy websites. It’s designed to work as a standalone static site generator, a Rails engine, or a dynamic server.
+
+        During the talk, we explore how the developer documentation at https://terminalwire.com use Sitepress’s advanced features, such as using markdown for pages, frontmatter for metadata, and traversing content with powerful tools like globbing and page models. A live demo showcased how these features come together to create polished documentation sites for developers.
+
+        Links:
+        https://sitepress.cc - Website with Sitepress documentation and examples.
+        https://terminalwire.com - Example used in presentation that uses Sitepress.
       speakers:
         - Brad Gessler
 
