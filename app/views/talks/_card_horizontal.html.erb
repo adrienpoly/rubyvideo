@@ -3,10 +3,14 @@
 <% active = talk == current_talk %>
 <% watched = watched_talks_ids.include?(talk.id) %>
 
+<% not_recorded = talk.not_recorded? || talk.parent_talk&.not_recorded? %>
+<% not_published = talk.not_published? || talk.parent_talk&.not_published? %>
+<% scheduled = talk.scheduled? || talk.parent_talk&.scheduled? %>
+
 <%= content_tag(
       tag,
       href: talk_path(talk),
-      class: class_names("w-full flex items-center gap-4 p-2 rounded-lg hover:bg-gray-200 group", active: active, watched: watched, not_recorded: talk.not_recorded?, scheduled: talk.scheduled?, not_published: talk.not_published?),
+      class: class_names("w-full flex items-center gap-4 p-2 rounded-lg hover:bg-gray-200 group", active: active, watched: watched, not_recorded: not_recorded, scheduled: scheduled, not_published: not_published),
       id: dom_id(talk, :card_horizontal),
       data: {
         talk_horizontal_card: true,

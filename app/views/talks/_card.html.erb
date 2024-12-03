@@ -35,7 +35,10 @@
     <% if talk.parent_talk.present? %>
       <div class="flex gap-2 absolute bottom-0 left-0 z-20 m-3 p-2 bg-black/15 backdrop-blur-md rounded-full flex content-center">
         <span><%= fa("rectangle-history", size: :sm, class: "fill-white") %></span>
-        <span class="group-hover:flex hidden items-center gap-1 text-white text-xs ml-1 font-normal line-clamp-1">Part of <span class="text-gray-300"><%= talk.parent_talk.title %></span></span>
+        <span class="group-hover:inline-flex hidden items-center gap-1 text-white text-xs ml-1 font-normal line-clamp-1">
+          <span class="text-nowrap">Part of</span>
+          <span class="text-gray-300 line-clamp-1"><%= talk.parent_talk.title %></span>
+        </span>
       </div>
 
       <% if talk.duration && talk.formatted_duration != "00" %>
