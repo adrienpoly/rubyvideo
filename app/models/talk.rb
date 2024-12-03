@@ -218,21 +218,27 @@ class Talk < ApplicationRecord
 
     return fallback_thumbnail unless youtube? || vimeo?
 
-    if youtube?
-      youtube = {
-        thumbnail_xs: "default",
-        thumbnail_sm: "mqdefault",
-        thumbnail_md: "hqdefault",
-        thumbnail_lg: "sddefault",
-        thumbnail_xl: "maxresdefault"
+    if vimeo?
+      vimeo = {
+        thumbnail_xs: "_small",
+        thumbnail_sm: "_small",
+        thumbnail_md: "_medium",
+        thumbnail_lg: "_large",
+        thumbnail_xl: "_large"
       }
 
-      "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
+      return "https://vumbnail.com/#{video_id}#{vimeo[size]}.jpg"
     end
 
-    if vimeo?
-      "https://vumbnail.com/#{video_id}.jpg"
-    end
+    youtube = {
+      thumbnail_xs: "default",
+      thumbnail_sm: "mqdefault",
+      thumbnail_md: "hqdefault",
+      thumbnail_lg: "sddefault",
+      thumbnail_xl: "maxresdefault"
+    }
+
+    "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
   end
 
   def external_player_utm_params
