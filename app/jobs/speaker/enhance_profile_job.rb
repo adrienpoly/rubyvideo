@@ -30,7 +30,11 @@ class Speaker::EnhanceProfileJob < ApplicationJob
       bsky: speaker.bsky.presence || bsky || "",
       linkedin: speaker.linkedin.presence || linkedin || "",
       bio: speaker.bio.presence || profile.bio || "",
-      website: speaker.website.presence || profile.blog || ""
+      website: speaker.website.presence || profile.blog || "",
+      github_metadata: {
+        profile: JSON.parse(profile.body),
+        socials: JSON.parse(socials.body)
+      }
     )
 
     speaker.broadcast_about
@@ -44,7 +48,7 @@ class Speaker::EnhanceProfileJob < ApplicationJob
   end
 
   def user_social_accounts(username)
-    client.social_accounts(username).parsed_body
+    client.social_accounts(username)
   end
 
   def client
