@@ -176,8 +176,8 @@
 
       <h3 class="font-bold text-md mt-3">Talks in this recording</h3>
 
-      <div class="relative group border border-transparent">
-        <div class="max-h-[450px] md:max-h-[220px] hover:max-h-none overflow-y-hidden transition transition-all">
+      <div class="relative group border border-transparent" id="talkToggle">
+        <div class="max-h-[450px] md:max-h-[220px] group-data-[expanded]:max-h-none overflow-y-hidden transition transition-all">
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-3">
             <% parent_talk.child_talks.each_with_index do |child_talk, index| %>
               <%= link_to child_talk, data: {turbo_frame: "talk"}, class: "p-2 border rounded group bg-white hover:bg-gray-100 data-[active]:border-blue-700/30 data-[active]:bg-blue-50 hover:data-[active]:bg-blue-100 data-[active]:text-blue-700", **({"data-active" => child_talk == talk}.select { |_, v| v }) do %>
@@ -222,8 +222,8 @@
         </div>
 
         <% if parent_talk.child_talks.size > 4 %>
-          <div class="absolute bottom-0 left-0 w-full h-36 bg-gradient-to-t from-base-100 to-transparent pointer-events-none group-hover:hidden flex justify-center items-end">
-            <button class="btn btn-sm btn-white shadow">Show all <%= pluralize(parent_talk.child_talks.size, "section") %></button>
+          <div class="absolute bottom-0 left-0 w-full h-36 bg-gradient-to-t from-base-100 to-transparent group-data-[expanded]:hidden flex justify-center items-end">
+            <button class="btn btn-sm btn-white shadow" onclick="talkToggle.toggleAttribute('data-expanded')">Show all <%= pluralize(parent_talk.child_talks.size, "section") %></button>
           </div>
         <% end %>
       </div>
