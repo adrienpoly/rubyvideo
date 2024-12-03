@@ -233,7 +233,7 @@
       video_id: why-you-should-hire-me-open-mic-sf-bay-area-ruby-meetup-october-2024
       video_provider: parent
       speakers:
-        - Meredith # TODO: missing last name
+        - Meredith White
 
     - title: "Open Mic: oyencov - Usage-Weighted Test Coverage for Rails applications"
       start_cue: "01:18:32"
@@ -277,3 +277,93 @@
       video_provider: parent
       speakers:
         - Brandon Weaver
+
+- title: SF Bay Area Ruby Meetup - December 2024
+  raw_title: "SF Ruby presents: Ruby&AI, December 🎅 edition @ Sentry"
+  event_name: SF Bay Area Ruby Meetup - December 2024
+  published_at: "2024-12-03"
+  description: |-
+    ​Registration closes at noon on Dec 2.
+    Address: 45 Fremont St, we'll be meeting you in the lobby. If you are running late, please send a message.
+
+    Before the event, you will receive a message from Sentry (no-reply@envoy.com). Please fill out your details and sign a visitor's agreement. They ask for a photo too =) After that, you'll receive a QR code to enter.
+
+    Hey, Bay Area builders and tinkerers!
+
+    From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.
+
+    ​Join us as we re-kindle the SF Ruby community's flame! It is a place to meet authors of your favorite open-source and Ruby/Rails core, experienced Rubyists and new converts, entrepreneurs, and, well, people who hire. We meet every month and gradually make new Ruby friends.
+
+    For our December edition, Sentry is our gracious host! This time, we dedicate the event to all aspects of building AI-native apps and leveraging the power of AI in our Ruby applications.
+
+    It is also our special HOLIDAY edition, so let's do something about it! Choose your fighter:
+    – bake and bring your cookies 🍪 (two people are doing it already, join us!)
+    – wear something 🎅-esque
+    – steal the Xmas 😈
+
+    https://lu.ma/q7fwrtj2
+  video_provider: scheduled
+  video_id: sf-bay-area-ruby-meetup-december-2024
+  talks:
+    - title: "Intro"
+      start_cue: "00:00"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: irina-nazarova-intro-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "AI Grouping for Ruby SDK at Sentry"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: tillman-elser-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      speakers:
+        - Tillman Elser
+
+    - title: "ActiveAgents"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: justin-bowen-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      speakers:
+        - Justin Bowen
+
+    - title: "Voice AI apps and AnyCable"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: irina-nazarova-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "Open Mic"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: open-mic-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      speakers:
+        - TODO
+
+    - title: "Ruby&AI at Stepful"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: edoardo-serra-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      speakers:
+        - Edoardo Serra
+
+    - title: "Lammy"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: kamil-nicieja-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      speakers:
+        - Kamil Nicieja
