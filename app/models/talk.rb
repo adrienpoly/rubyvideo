@@ -81,7 +81,7 @@ class Talk < ApplicationRecord
   before_validation :set_kind, if: -> { !kind_changed? }
 
   # enums
-  enum :video_provider, %w[youtube mp4 scheduled not_published not_recorded].index_by(&:itself)
+  enum :video_provider, %w[youtube mp4 vimeo scheduled not_published not_recorded].index_by(&:itself)
   enum :kind,
     %w[keynote talk lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
       interview award].index_by(&:itself)
@@ -212,11 +212,23 @@ class Talk < ApplicationRecord
       end
     end
 
-    if !youtube? && event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
+    if !youtube? && !vimeo? && event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
       return "/assets/#{asset.digested_path}"
     end
 
-    return fallback_thumbnail unless youtube?
+    return fallback_thumbnail unless youtube? || vimeo?
+
+    if vimeo?
+      vimeo = {
+        thumbnail_xs: "_small",
+        thumbnail_sm: "_small",
+        thumbnail_md: "_medium",
+        thumbnail_lg: "_large",
+        thumbnail_xl: "_large"
+      }
+
+      return "https://vumbnail.com/#{video_id}#{vimeo[size]}.jpg"
+    end
 
     youtube = {
       thumbnail_xs: "default",

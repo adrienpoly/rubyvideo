@@ -25,7 +25,7 @@
       <% end %>
 
     <% else %>
-      <% if talk.video_provider.in?(["mp4", "youtube", "scheduled", "not_published", "not_recorded"]) %>
+      <% if talk.video_provider.in?(["mp4", "youtube", "vimeo", "scheduled", "not_published", "not_recorded"]) %>
         <%= render partial: "talks/video_providers/#{talk.video_provider}", locals: {talk: talk} %>
       <% else %>
         Provider <%= talk.video_provider.inspect %> is not configured.
@@ -42,10 +42,19 @@
 
         <div class="flex gap-1">
           <% if talk.video_provider == "youtube" %>
-            <a class="tooltip tooltip-top v-playOnYoutubeButton" data-tip="Watch on YouTube" href="<%= "https://www.youtube.com/watch?v=#{talk.video_id}" %>" target="_blank" data-action="click->video-player#pause">
+            <a class="tooltip tooltip-top" data-tip="Watch on YouTube" href="<%= "https://www.youtube.com/watch?v=#{talk.video_id}" %>" target="_blank" data-action="click->video-player#pause">
               <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
                 <span class="text-nowrap">Play on</span>
                 <%= fa("youtube-brands", size: :sm, style: :solid) %>
+              </div>
+            </a>
+          <% end %>
+
+          <% if talk.video_provider == "vimeo" %>
+            <a class="tooltip tooltip-top" data-tip="Watch on Vimeo" href="<%= "https://vimeo.com/video/#{talk.video_id}" %>" target="_blank" data-action="click->video-player#pause">
+              <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
+                <span class="text-nowrap">Play on</span>
+                <%= fa("vimeo-v-brands", size: :sm, style: :solid) %>
               </div>
             </a>
           <% end %>
