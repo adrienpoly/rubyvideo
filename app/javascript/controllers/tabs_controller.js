@@ -26,7 +26,9 @@ export default class extends Controller {
     this.tabs.forEach(tab => {
       const isSelected = tab === this.activeTab
       tab.setAttribute('aria-selected', isSelected)
-      tab.classList.toggle('tab-active', isSelected)
+      document.startViewTransition(() => {
+        tab.classList.toggle('tab-active', isSelected)
+      })
     })
   }
 

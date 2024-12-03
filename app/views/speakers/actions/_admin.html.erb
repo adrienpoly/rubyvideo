@@ -1,27 +1,23 @@
-<%= ui_button url: edit_speaker_path(@speaker),
-      kind: :none,
-      data: {turbo_frame: "modal"},
-      size: :sm,
-      class: "w-full" do %>
-  <%= fa :pen, size: :xs %>
+<%= ui_button url: edit_speaker_path(@speaker), kind: :pill, data: {turbo_frame: "modal"} do %>
+  <%= heroicon :pencil_square %>
   <span>Update speaker page</span>
 <% end %>
 
 <% if speaker.github.present? || speaker.bsky.present? %>
-  <%= ui_button url: speakers_enhance_path(@speaker), method: :put, kind: :none, size: :sm, class: "w-full", form_class: "w-full" do %>
+  <%= ui_button url: speakers_enhance_path(@speaker), method: :put, kind: :pill, class: "w-full", form_class: "w-full" do %>
     <%= fa "wand-magic-sparkles", size: :xs %>
     <span>Enhance Profile</span>
   <% end %>
 <% end %>
 
-<%= ui_button url: avo.resources_speaker_path(@speaker), target: :_blank, kind: :none, size: :sm, class: "w-full" do %>
+<%= ui_button url: avo.resources_speaker_path(@speaker), target: :_blank, kind: :pill, class: "w-full" do %>
   <%= fa :avocado, size: :xs %>
 
   <span>Open in Avo</span>
 <% end %>
 
 <% if Rails.env.development? %>
-  <%= ui_button url: speaker_url(@speaker, host: "https://rubyvideo.dev", port: 443), target: :_blank, kind: :none, size: :sm, class: "w-full" do %>
+  <%= ui_button url: speaker_url(@speaker, host: "https://rubyvideo.dev", port: 443), target: :_blank, kind: :pill, class: "w-full" do %>
     <%= fa :browser, size: :xs %>
     <span>Show on RubyVideo.dev</span>
   <% end %>
