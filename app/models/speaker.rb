@@ -146,7 +146,7 @@ class Speaker < ApplicationRecord
   end
 
   def github_avatar_url(size: 200)
-    return nil unless github.present?
+    return nil if github.blank?
 
     metadata_avatar_url = github_metadata.dig("profile", "avatar_url")
 
