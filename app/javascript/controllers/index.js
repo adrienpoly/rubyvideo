@@ -37,6 +37,9 @@ application.register("spotlight-search", SpotlightSearchController)
 import TalksNavigationController from "./talks_navigation_controller"
 application.register("talks-navigation", TalksNavigationController)
 
+import ToggableController from "./toggable_controller"
+application.register("toggable", ToggableController)
+
 import TooltipController from "./tooltip_controller"
 application.register("tooltip", TooltipController)
 

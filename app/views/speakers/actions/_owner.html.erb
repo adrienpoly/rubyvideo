@@ -1,5 +1,4 @@
-
-<%= ui_button url: edit_speaker_path(speaker), kind: :secondary, outline: true, size: :sm, data: {turbo_frame: "modal"} do %>
-  <%= heroicon :pencil_square %>
+<%= ui_button url: edit_speaker_path(speaker), kind: :none, size: :sm, data: {turbo_frame: "modal"} do %>
+  <%= fa :pen, size: :xs %>
   <span>Update my profile</span>
 <% end %>

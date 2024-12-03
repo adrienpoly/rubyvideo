@@ -39,8 +39,8 @@
     our return, we ran a business theme exploring how Ruby helps us start, build,
     and maintain small; big; side; open/closed and weird businesses!
   published_at: "2024-06-05"
-  start_date: "2014-04-26"
-  end_date: "2014-04-27"
+  start_date: "2024-04-26"
+  end_date: "2024-04-27"
   channel_id: UCR076_JBPtcQKfiwiVOB3Cg
   year: "2024"
   videos_count: 12
@@ -50,3 +50,20 @@
   featured_background: black
   featured_color: white
   website: https://balkanruby.com/2024
+
+- id: balkanruby-2025
+  title: Balkan Ruby 2025
+  location: Sofia, Bulgaria
+  description: "Let's talk about the long term – setting up a project, running one, designing you architecture, organizing your team, your career, or your mindset. It's all about the long term."
+  published_at: "2025-04-26"
+  start_date: "2025-04-25"
+  end_date: "2025-04-26"
+  channel_id: UCR076_JBPtcQKfiwiVOB3Cg
+  year: "2025"
+  videos_count: 12
+  metadata_parser: Youtube::VideoMetadata
+  slug: balkanruby-2025
+  banner_background: black
+  featured_background: black
+  featured_color: white
+  website: https://balkanruby.com

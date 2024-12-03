@@ -231,13 +231,7 @@
     <% end %>
 
     <% if talk.approved_topics.any? %>
-      <div class="flex flex-wrap gap-2 mt-3">
-        <% talk.approved_topics.each do |topic| %>
-          <%= link_to topic_path(topic, back_to: request.fullpath, back_to_title: talk.title) do %>
-            <div class="badge badge-ghost hover:bg-gray-300 px-2 py-3">#<%= topic.name.parameterize %></div>
-          <% end %>
-        <% end %>
-      </div>
+      <%= render partial: "topics/badge_list", locals: {topics: talk.approved_topics, back_to_url: request.fullpath, back_to_title: talk.title} %>
     <% end %>
 
     <div role="tablist" class="tabs tabs-bordered mt-6">
