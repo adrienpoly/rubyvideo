@@ -161,7 +161,7 @@ class Speaker < ApplicationRecord
   end
 
   def broadcast_header
-    broadcast_update_to self, target: dom_id(self, :header), partial: "speakers/header", locals: {speaker: self}
+    broadcast_update_to self, target: dom_id(self, :header_content), partial: "speakers/header_content", locals: {speaker: self}
   end
 
   def valid_website_url
