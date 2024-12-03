@@ -422,8 +422,10 @@ class Talk < ApplicationRecord
   def static_metadata
     @static_metadata ||= if video_provider == "parent"
       Array.wrap(parent_talk&.static_metadata&.talks).find { |talk| talk.video_id == video_id }
+    elsif (metadata = Static::Video.find_by(video_id: video_id))
+      metadata
     else
-      Static::Video.find_by(video_id: video_id)
+      Static::Video.all.flat_map(&:talks).compact.find { |talk| talk.video_id == video_id }
     end
   end
 
