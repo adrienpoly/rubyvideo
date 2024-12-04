@@ -134,10 +134,10 @@
 
           <% if more_speakers %>
             <div class="flex flex-col gap-4 hover:bg-gray-200 transition-bg duration-300 ease-in-out p-2 px-4 rounded-lg cursor-pointer" class="tooltip tooltip-top tooltip-success" onclick="document.querySelector('[name=talk_tabs][aria-label=Speakers]').checked = true" data-tip="<%= talk.speakers.to_a.from(2).map(&:name).to_sentence %>">
-              <div class="flex items-center gap-x-4">
+              <div class="flex items-center <% if !talk.meta_talk? %> gap-x-4 <% end %>">
                 <div class="avatar-group -space-x-6 rtl:space-x-reverse">
                   <% talk.speakers.to_a.from(speaker_preview_count).each do |speaker| %>
-                    <div class="avatar placeholder border-none">
+                    <div class="avatar placeholder border-none <% if talk.meta_talk? %>hidden <% end %>">
                       <%= content_tag :div, class: "w-12 rounded-full bg-primary text-neutral-content" do %>
                         <% if speaker.custom_avatar? %>
                           <%= image_tag speaker.avatar_url(size: 48) %>
@@ -149,17 +149,33 @@
                   <% end %>
                 </div>
 
-                <div>
-                  <div class="text-xs text-gray-500 line-clamp-1">
-                    See all speakers
-                  </div>
+                <div class="flex gap-4">
+                  <% if talk.meta_talk? %>
+                    <div class="avatar placeholder border-none">
+                      <%= content_tag :div, class: "w-12 rounded-full bg-primary text-neutral-content" do %>
+                        <span class="hidden xl:block text-lg">
+                          +<%= talk.speakers.size - 1 %>
+                        </span>
 
-                  <div class="hidden xl:block font-bold text-base line-clamp-1">
-                    <%= pluralize(talk.speakers.size - 1, "more speaker") %>
-                  </div>
+                        <span class="block xl:hidden text-lg">
+                          +<%= talk.speakers.size %>
+                        </span>
+                      <% end %>
+                    </div>
+                  <% end %>
 
-                  <div class="block xl:hidden font-bold text-base line-clamp-1">
-                    See all <%= pluralize(talk.speakers.size, "speaker") %>
+                  <div class="flex flex-col justify-center">
+                    <div class="text-xs text-gray-500 line-clamp-1">
+                      See all speakers
+                    </div>
+
+                    <div class="hidden xl:block font-bold text-base line-clamp-1">
+                      <%= pluralize(talk.speakers.size - 1, "more speaker") %>
+                    </div>
+
+                    <div class="block xl:hidden font-bold text-base line-clamp-1">
+                      See all <%= pluralize(talk.speakers.size, "speaker") %>
+                    </div>
                   </div>
                 </div>
               </div>
