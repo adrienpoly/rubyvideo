@@ -71,8 +71,11 @@
         </div>
 
         <div class="flex gap-1">
-          <% if talk.video_provider == "youtube" %>
-            <a class="tooltip tooltip-top" data-tip="Watch on YouTube" href="<%= "https://www.youtube.com/watch?v=#{talk.video_id}" %>" target="_blank" data-action="click->video-player#pause">
+          <% if talk.youtube? || talk.parent_talk&.youtube? %>
+            <% video_id = (talk.parent_talk || talk).video_id %>
+            <% timestamp = talk.start_seconds ? "&t=#{talk.start_seconds}" : "" %>
+
+            <a class="tooltip tooltip-top" data-tip="Watch on YouTube" href="<%= "https://www.youtube.com/watch?v=#{video_id}#{timestamp}" %>" target="_blank" data-action="click->video-player#pause">
               <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
                 <span class="text-nowrap">Play on</span>
                 <%= fa("youtube-brands", size: :sm, style: :solid) %>
@@ -80,7 +83,7 @@
             </a>
           <% end %>
 
-          <% if talk.video_provider == "vimeo" %>
+          <% if talk.vimeo? || talk.parent_talk&.vimeo? %>
             <a class="tooltip tooltip-top" data-tip="Watch on Vimeo" href="<%= "https://vimeo.com/video/#{talk.video_id}" %>" target="_blank" data-action="click->video-player#pause">
               <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
                 <span class="text-nowrap">Play on</span>
