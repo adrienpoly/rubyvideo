@@ -174,6 +174,8 @@
   slides_url: https://speakerdeck.com/andreibondarev/building-ai-agents-in-ruby
   description: |-
     The Coatue AI report is putting AI models at the centerpiece of all modern tech stacks going forward that Application Devs will be using to build on top of. It would not be controversial to say that the Ruby ecosystem lacks in its support and adoption of AI, ML and DS libraries. If we’d like to stay relevant in the future, we need to start building the foundations now. We’ll look at what Generative AI is, what kind of applications developers in other communities are building and how Ruby can be used to build similar applications today. We’ll cover Retrieval Augmented Generation (RAG), vector embeddings and semantic search, prompt engineering, and what the state of art (SOTA) in evaluating LLM output looks like today. We will also cover AI Agents, semi-autonomous general purpose LLM-backed applications, and what they’re capable of today. We'll make a case why Ruby is a great language to build these applications because of its strengths and its incredible ecosystem. After the slides, we'll build an AI Agent in 15 min.
+
+    Demo: https://github.com/patterns-ai-core/ecommerce-ai-assistant-demo
   video_provider: youtube
   video_id: dRBJxshD05E
 
@@ -215,6 +217,8 @@
     Time-series data is remarkably common, with applications ranging from IoT to finance. Effectively storing, reading, and presenting this time-series data can be as finicky as catching the perfect wave.
 
     In order to understand the best-practices of time-series data, we’ll follow a surfer’s journey as she attempts to record every wave she’s ever caught. We’ll discover how to structure the time-series data, query for performant access, aggregate data over timespans, and present the data via an API endpoint. Surf’s up!
+
+    Paper: https://meraki.cisco.com/lib/pdf/trust/lt-paper.pdf
   video_provider: youtube
   video_id: _KBnYcM5pCE
 
@@ -335,6 +339,7 @@
       end_cue: "51:16"
       video_provider: parent
       video_id: alan-ridlehoover-lighting-talk-rocky-mountain-ruby-2024
+      slides_url: https://speakerdeck.com/aridlehoover/rocky-mountain-ruby-2024-a-gardeners-reward
       speakers:
         - Alan Ridlehoover
 
