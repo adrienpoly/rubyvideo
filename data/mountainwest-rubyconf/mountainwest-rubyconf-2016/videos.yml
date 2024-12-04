@@ -201,17 +201,6 @@
 
 - title: Lightning Talks
   raw_title: Mountain West Ruby 2016 - Lightning Talks
-  speakers:
-    - Bradley Schafer # RSpec Secrets (0:24)
-    # - TODO: missing name https://cln.sh/GN0Zpzwl # Reevaluating Value (5:44)
-    # - TODO: missing name https://cln.sh/q76S6SFB # Learn To Play Dungeons & Dragons (11:00)
-    - Ben Eggett # How To Be A Great Developer (15:12)
-    # - TODO: missing name https://cln.sh/hSHHf4BS # Crystal Lang - friendly, static, modern, compiled (19:48)
-    # - TODO: missing name https://cln.sh/DmFHqNZl # NAME (24:51)
-    - Joey @fergmastaflex # Carrer.new (28:37)
-    - Nora Howard # IR? (33:30)
-    - Isaac Sloan # petergate gem (38:44)
-    - Andrew Butterfield # In Search of the Unattainable (43:50)
   event_name: MountainWest RubyConf 2016
   published_at: "2016-04-14"
   description: |-
@@ -220,3 +209,83 @@
     http://amara.org/v/IN6s/
   video_provider: youtube
   video_id: PiXapH5zVcY
+  talks:
+    - title: "Lightning Talk: RSpec Secrets"
+      start_cue: "00:24"
+      end_cue: "05:44"
+      video_id: bradley-schafer-lighting-talk-mountainwest-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Bradley Schafer
+
+    - title: "Lightning Talk: Reevaluating Value"
+      start_cue: "05:44"
+      end_cue: "11:00"
+      video_id: todo-lighting-talk-mountainwest-rubyconf-2016-1
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name https://cln.sh/GN0Zpzwl
+
+    - title: "Lightning Talk: Learn To Play Dungeons & Dragons"
+      start_cue: "11:00"
+      end_cue: "15:12"
+      video_id: todo-lighting-talk-mountainwest-rubyconf-2016-2
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name https://cln.sh/q76S6SFB
+
+    - title: "Lightning Talk: How To Be A Great Developer"
+      start_cue: "15:12"
+      end_cue: "19:48"
+      video_id: ben-eggett-lighting-talk-mountainwest-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Ben Eggett
+
+    - title: "Lightning Talk: Crystal Lang - friendly, static, modern, compiled"
+      start_cue: "19:48"
+      end_cue: "24:51"
+      video_id: todo-lighting-talk-mountainwest-rubyconf-2016-3
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name https://cln.sh/hSHHf4BS
+
+    - title: "Lightning Talk: NAME"
+      start_cue: "24:51"
+      end_cue: "28:37"
+      video_id: todo-lighting-talk-mountainwest-rubyconf-2016-4
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name https://cln.sh/DmFHqNZl
+
+    - title: "Lightning Talk: Carrer.new"
+      start_cue: "28:37"
+      end_cue: "33:30"
+      video_id: joey-fergmastaflex-lighting-talk-mountainwest-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Joey @fergmastaflex
+
+    - title: "Lightning Talk: IR?"
+      start_cue: "33:30"
+      end_cue: "38:44"
+      video_id: nora-howard-lighting-talk-mountainwest-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Nora Howard
+
+    - title: "Lightning Talk: petergate gem"
+      start_cue: "38:44"
+      end_cue: "43:50"
+      video_id: isaac-sloan-lighting-talk-mountainwest-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Isaac Sloan
+
+    - title: "Lightning Talk: In Search of the Unattainable"
+      start_cue: "43:50"
+      end_cue: "TODO"
+      video_id: andrew-butterfield-lighting-talk-mountainwest-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Andrew Butterfield

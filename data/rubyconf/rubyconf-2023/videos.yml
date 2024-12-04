@@ -227,33 +227,199 @@
 
 - title: Lightning Talks
   raw_title: "RubyConf 2023 - Lightning Talks"
-  speakers:
-    - Anna Lopukhina
-    - Salomón Charabati
-    - Jade Stewart
-    - Amanda Vikdal
-    - Jarrod Reyes
-    - Eli Barreto
-    - Seong-Heon Jung
-    - Joshua Maurer
-    - Eric Halverson
-    - Fito von Zastrow
-    - Paul Lemus
-    - Gary Tou
-    - Sergey Sergyenko
-    - Mike Toppa
-    - Heather Roulston
-    - Ryan Erickson
-    - Nicolas Barone
-    - Victoria Guido
-    - Daniel Azuma
-    - Xiujiao Gao
-    - Wayne E. Seguin
-    - Rachael Wright-Munn
-    - Guyren Howe
-    - Brandon Weaver
-  event_name: RubyConf 2023
-  published_at: "2023-12-20"
   description: Lightning talks are short presentation (up to 5 mins) delivered by different people in a single session. Conference attendees are welcome to sign up near Check In during the conference.
+  published_at: "2023-12-20"
   video_provider: youtube
   video_id: JreuXFz8MpE
+  talks:
+    - title: "Lightning Talk: Anna Lopukhina" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: anna-lopukhina-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Anna Lopukhina
+
+    - title: "Lightning Talk: Salomón Charabati" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: salomon-charabati-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Salomón Charabati
+
+    - title: "Lightning Talk: Jade Stewart" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jade-stewart-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Jade Stewart
+
+    - title: "Lightning Talk: Amanda Vikdal" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: amanda-vikdal-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Amanda Vikdal
+
+    - title: "Lightning Talk: Jarrod Reyes" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jarrod-reyes-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Jarrod Reyes
+
+    - title: "Lightning Talk: Eli Barreto" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: eli-barreto-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Eli Barreto
+
+    - title: "Lightning Talk: Seong-Heon Jung" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: seong-heon-jung-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Seong-Heon Jung
+
+    - title: "Lightning Talk: Joshua Maurer" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: joshua-maurer-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Joshua Maurer
+
+    - title: "Lightning Talk: Eric Halverson" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: eric-halverson-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Eric Halverson
+
+    - title: "Lightning Talk: Fito von Zastrow" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: fito-von-zastrow-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Fito von Zastrow
+
+    - title: "Lightning Talk: Paul Lemus" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: paul-lemus-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Paul Lemus
+
+    - title: "Lightning Talk: Gary Tou" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: gary-tou-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Gary Tou
+
+    - title: "Lightning Talk: Sergey Sergyenko" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: sergey-sergyenko-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Sergey Sergyenko
+
+    - title: "Lightning Talk: Mike Toppa" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mike-toppa-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Mike Toppa
+
+    - title: "Lightning Talk: Heather Roulston" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: heather-roulston-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Heather Roulston
+
+    - title: "Lightning Talk: Ryan Erickson" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: ryan-erickson-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Ryan Erickson
+
+    - title: "Lightning Talk: Nicolas Barone" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: nicolas-barone-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Nicolas Barone
+
+    - title: "Lightning Talk: Victoria Guido" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: victoria-guido-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Victoria Guido
+
+    - title: "Lightning Talk: Daniel Azuma" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: daniel-azuma-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Daniel Azuma
+
+    - title: "Lightning Talk: Xiujiao Gao" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: xiujiao-gao-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Xiujiao Gao
+
+    - title: "Lightning Talk: Wayne E. Seguin" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: wayne-e-seguin-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Wayne E. Seguin
+
+    - title: "Lightning Talk: Rachael Wright-Munn" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: rachael-wright-munn-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Rachael Wright-Munn
+
+    - title: "Lightning Talk: Guyren Howe" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: guyren-howe-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Guyren Howe
+
+    - title: "Lightning Talk: Brandon Weaver" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: brandon-weaver-lighting-talk-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Brandon Weaver

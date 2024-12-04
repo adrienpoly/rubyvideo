@@ -207,9 +207,14 @@ ActiveRecord::Schema[8.0].define(version: 2024_12_03_001515) do
     t.boolean "external_player", default: false, null: false
     t.string "external_player_url", default: "", null: false
     t.string "kind", default: "talk", null: false
+    t.integer "parent_talk_id"
+    t.boolean "meta_talk", default: false, null: false
+    t.integer "start_seconds"
+    t.integer "end_seconds"
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["kind"], name: "index_talks_on_kind"
+    t.index ["parent_talk_id"], name: "index_talks_on_parent_talk_id"
     t.index ["slug"], name: "index_talks_on_slug"
     t.index ["title"], name: "index_talks_on_title"
     t.index ["updated_at"], name: "index_talks_on_updated_at"
@@ -286,6 +291,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_12_03_001515) do
   add_foreign_key "talk_topics", "talks"
   add_foreign_key "talk_topics", "topics"
   add_foreign_key "talks", "events"
+  add_foreign_key "talks", "talks", column: "parent_talk_id"
   add_foreign_key "topics", "topics", column: "canonical_id"
   add_foreign_key "watch_list_talks", "talks"
   add_foreign_key "watch_list_talks", "watch_lists"

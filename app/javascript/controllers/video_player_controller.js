@@ -8,29 +8,58 @@ Vlitejs.registerProvider('youtube', YouTube)
 Vlitejs.registerProvider('vimeo', Vimeo)
 
 export default class extends Controller {
-  static values = { poster: String, src: String, provider: String }
+  static values = {
+    poster: String,
+    src: String,
+    provider: String,
+    startSeconds: Number,
+    endSeconds: Number
+  }
+
   static targets = ['player']
   playbackRateOptions = [1, 1.25, 1.5, 1.75, 2]
 
   connect () {
+    this.init()
+  }
+
+  init () {
+    this.player = new Vlitejs(this.playerTarget, this.options)
+  }
+
+  get options () {
     const providerOptions = {}
+    const providerParams = {}
 
     if (this.hasProviderValue) {
       providerOptions.provider = this.providerValue
     }
 
-    this.player = new Vlitejs(this.playerTarget, {
+    if (this.hasStartSecondsValue) {
+      providerParams.start = this.startSecondsValue
+    }
+
+    if (this.hasEndSecondsValue) {
+      providerParams.end = this.endSecondsValue
+    }
+
+    return {
       ...providerOptions,
       options: {
+        providerParams,
         poster: this.posterValue,
         controls: true
       },
       onReady: this.handlePlayerReady.bind(this)
-    })
+    }
   }
 
   handlePlayerReady (player) {
+    // for seekTo to work we need to store again the player instance
+    this.player = player
+
     const controlBar = player.elements.container.querySelector('.v-controlBar')
+
     if (controlBar) {
       const volumeButton = player.elements.container.querySelector('.v-volumeButton')
       const playbackRateSelect = this.createPlaybackRateSelect(this.playbackRateOptions, player)
@@ -41,8 +70,6 @@ export default class extends Controller {
         volumeButton.parentNode.insertBefore(openInYouTube, volumeButton.previousSibling)
       }
     }
-    // for seekTo to work we need to store again the player instance
-    this.player = player
   }
 
   createPlaybackRateSelect (options, player) {

@@ -165,31 +165,99 @@
 
 - title: Lightning Talks
   raw_title: "Ruby on Ice 2019: Lightning Talks"
-  speakers:
-    - Carolina Karklis
-    - Ferdous Nasri
-    - Philipp Tessenow
-    - Ben Fritsch
-    - Uli Ramminger
-    - Andrei Beliankou
-    - Andy Schoenen
-    - Jakub Malina
-    - Amr Abdelwahab
   event_name: Ruby on Ice 2019
   published_at: "2019-04-01"
-  description: |-
-    Carolina – Ruby Community in Brazil (https://twitter.com/carolkarklis)
-    Ferdous – Coming Out (https://twitter.com/ferbsx)
-    How to Stream CSV Downloads (https://twitter.com/philipptessenow)
-    ActionController::Metal for JSON imports (https://twitter.com/olliprater)
-    Know your Postgres data types (https://twitter.com/beanieboi)
-    Uli – GDS, a new configuration and data definition language
-    Ruby without Rails (https://twitter.com/_arbox_)
-    Dance like nobody is watching (https://twitter.com/andysoiron)
-    Jakub – HW & Machine Hacking with Ruby & Rails
-    What's Wrong with Ruby? (https://twitter.com/amrAbdelwahab)
+  description: ""
   video_provider: youtube
   video_id: 7QgNDhtaQMQ
+  talks:
+    - title: "Lightning Talk: Ruby Community in Brazil"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: carolina-karklis-lighting-talk-ruby-on-ice-2019
+      video_provider: parent
+      speakers:
+        - Carolina Karklis
+      description: https://twitter.com/carolkarklis
+
+    - title: "Lightning Talk: Coming Out"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: ferdous-nasri-lighting-talk-ruby-on-ice-2019
+      video_provider: parent
+      speakers:
+        - Ferdous Nasri
+      description: https://twitter.com/ferbsx
+
+    - title: "Lightning Talk: How to Stream CSV Downloads"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: philipp-tessenow-lighting-talk-ruby-on-ice-2019
+      video_provider: parent
+      speakers:
+        - Philipp Tessenow
+      description: https://twitter.com/philipptessenow
+
+    - title: "Lightning Talk: ActionController::Metal for JSON imports"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: ben-fritsch-lighting-talk-ruby-on-ice-2019
+      video_provider: parent
+      speakers:
+        - Ben Fritsch
+      description: https://twitter.com/olliprater
+
+    - title: "Lightning Talk: Know your Postgres data types"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: uli-ramminger-lighting-talk-ruby-on-ice-2019
+      video_provider: parent
+      speakers:
+        - Uli Ramminger
+      description: https://twitter.com/beanieboi
+
+    - title: "Lightning Talk: GDS, a new configuration and data definition language"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andrei-beliankou-lighting-talk-ruby-on-ice-2019
+      video_provider: parent
+      speakers:
+        - Andrei Beliankou
+
+    - title: "Lightning Talk: Ruby without Rails"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andy-schoenen-lighting-talk-ruby-on-ice-2019
+      video_provider: parent
+      speakers:
+        - Andy Schoenen
+      description: https://twitter.com/_arbox_
+
+    - title: "Lightning Talk: Dance like nobody is watching"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jakub-malina-lighting-talk-ruby-on-ice-2019
+      video_provider: parent
+      speakers:
+        - Jakub Malina
+      description: https://twitter.com/andysoiron
+
+    - title: "Lightning Talk: HW & Machine Hacking with Ruby & Rails"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: amr-abdelwahab-lighting-talk-ruby-on-ice-2019
+      video_provider: parent
+      speakers:
+        - Amr Abdelwahab
+
+    - title: "Lightning Talk: What's Wrong with Ruby?"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: amr-abdelwahab-lighting-talk-ruby-on-ice-2019-2
+      video_provider: parent
+      speakers:
+        - Amr Abdelwahab
+      description: https://twitter.com/amrAbdelwahab
 
 - title: "Beauty and the Beast: your application and distributed systems"
   raw_title: "Ruby on Ice 2019: Beauty and the Beast: your application and distributed systems by Emily Stolfo"

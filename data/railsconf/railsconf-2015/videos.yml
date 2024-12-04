@@ -1362,36 +1362,8 @@
   video_provider: youtube
   video_id: _OOZfod2rC4
 
-- title: Lightning Talks
-  raw_title: RailsConf 2015 - Lightning Talks
-  speakers:
-    - Obie Fernandez # (00:12)
-    - Gustavo Robles # (01:28)
-    - Lance Gleason # (02:21)
-    - Claudio Baccigalupo # (07:10)
-    - Christopher Rigor # (12:10)
-    - Chris Kibble # (15:30)
-    - Reid Morrison # (17:53)
-    - Joshua Quick # (23:17)
-    - Jason Charnes # (24:34)
-    - Amy Wibowo # (25:50)
-    - André Arko # (27:59)
-    - Shane Defazio # (31:04)
-    - Jeremy Evans # (33:16)
-    - Isaac Sloan # (37:53)
-    - Joe Dean # (43:05)
-    - Nitie Sharma # (48:40)
-    - Mike Virata-Stone # (52:12)
-    - Gabriel Halley # (56:45)
-    - Aaron Harpole # (01:00:55)
-    - Ryan Davis # (01:03:05)
-    - Elle Meredith # (01:06:47)
-    - Gonzalo Maldonado # (01:12:04)
-    - Peter Degen # (01:17:43)
-    - Jeff Casimir # (01:21:56)
-    - Ivan Tse # (01:27:30)
-    - Hsing-Hui Hsu # (01:32:11)
-    - Adam Cuppy # (01:36:57)
+- title: Lightning Talks (Day 1)
+  raw_title: RailsConf 2015 - Day 1 Lightning TALKS
   event_name: RailsConf 2015
   published_at: "2015-05-14"
   description: |-
@@ -1424,6 +1396,222 @@
     01:36:57 - Adam Cuppy @adamcuppy
   video_provider: youtube
   video_id: N92aD4mNUFA
+  talks:
+    - title: "Lightning Talk: Obie Fernandez"
+      start_cue: "00:12"
+      end_cue: "01:28"
+      video_provider: parent
+      video_id: obie-fernandez-lighting-talk-railsconf-2015
+      speakers:
+        - Obie Fernandez
+
+    - title: "Lightning Talk: Gustavo Robles"
+      start_cue: "01:28"
+      end_cue: "02:21"
+      video_provider: parent
+      video_id: gustavo-robles-lighting-talk-railsconf-2015
+      speakers:
+        - Gustavo Robles
+
+    - title: "Lightning Talk: Lance Gleason"
+      start_cue: "02:21"
+      end_cue: "07:10"
+      video_provider: parent
+      video_id: lance-gleason-lighting-talk-railsconf-2015
+      speakers:
+        - Lance Gleason
+
+    - title: "Lightning Talk: Claudio Baccigalupo"
+      start_cue: "07:10"
+      end_cue: "12:10"
+      video_provider: parent
+      video_id: claudio-baccigalupo-lighting-talk-railsconf-2015
+      speakers:
+        - Claudio Baccigalupo
+
+    - title: "Lightning Talk: Christopher Rigor"
+      start_cue: "12:10"
+      end_cue: "15:30"
+      video_provider: parent
+      video_id: christopher-rigor-lighting-talk-railsconf-2015
+      speakers:
+        - Christopher Rigor
+
+    - title: "Lightning Talk: Chris Kibble"
+      start_cue: "15:30"
+      end_cue: "17:53"
+      video_provider: parent
+      video_id: chris-kibble-lighting-talk-railsconf-2015
+      speakers:
+        - Chris Kibble
+
+    - title: "Lightning Talk: Reid Morrison"
+      start_cue: "17:53"
+      end_cue: "23:17"
+      video_provider: parent
+      video_id: reid-morrison-lighting-talk-railsconf-2015
+      speakers:
+        - Reid Morrison
+
+    - title: "Lightning Talk: Joshua Quick"
+      start_cue: "23:17"
+      end_cue: "24:34"
+      video_provider: parent
+      video_id: joshua-quick-lighting-talk-railsconf-2015
+      speakers:
+        - Joshua Quick
+
+    - title: "Lightning Talk: Jason Charnes"
+      start_cue: "24:34"
+      end_cue: "25:50"
+      video_provider: parent
+      video_id: jason-charnes-lighting-talk-railsconf-2015
+      speakers:
+        - Jason Charnes
+
+    - title: "Lightning Talk: Amy Wibowo"
+      start_cue: "25:50"
+      end_cue: "27:59"
+      video_provider: parent
+      video_id: amy-wibowo-lighting-talk-railsconf-2015
+      speakers:
+        - Amy Wibowo
+
+    - title: "Lightning Talk: André Arko"
+      start_cue: "27:59"
+      end_cue: "31:04"
+      video_provider: parent
+      video_id: andre-arko-lighting-talk-railsconf-2015
+      speakers:
+        - André Arko
+
+    - title: "Lightning Talk: Shane Defazio"
+      start_cue: "31:04"
+      end_cue: "33:16"
+      video_provider: parent
+      video_id: shane-defazio-lighting-talk-railsconf-2015
+      speakers:
+        - Shane Defazio
+
+    - title: "Lightning Talk: Jeremy Evans"
+      start_cue: "33:16"
+      end_cue: "37:53"
+      video_provider: parent
+      video_id: jeremy-evans-lighting-talk-railsconf-2015
+      speakers:
+        - Jeremy Evans
+
+    - title: "Lightning Talk: Isaac Sloan"
+      start_cue: "37:53"
+      end_cue: "43:05"
+      video_provider: parent
+      video_id: isaac-sloan-lighting-talk-railsconf-2015
+      speakers:
+        - Isaac Sloan
+
+    - title: "Lightning Talk: Joe Dean"
+      start_cue: "43:05"
+      end_cue: "48:40"
+      video_provider: parent
+      video_id: joe-dean-lighting-talk-railsconf-2015
+      speakers:
+        - Joe Dean
+
+    - title: "Lightning Talk: Nitie Sharma"
+      start_cue: "48:40"
+      end_cue: "52:12"
+      video_provider: parent
+      video_id: nitie-sharma-lighting-talk-railsconf-2015
+      speakers:
+        - Nitie Sharma
+
+    - title: "Lightning Talk: Mike Virata-Stone"
+      start_cue: "52:12"
+      end_cue: "56:45"
+      video_provider: parent
+      video_id: mike-virata-stone-lighting-talk-railsconf-2015
+      speakers:
+        - Mike Virata-Stone
+
+    - title: "Lightning Talk: Gabriel Halley"
+      start_cue: "56:45"
+      end_cue: "01:00:55"
+      video_provider: parent
+      video_id: gabriel-halley-lighting-talk-railsconf-2015
+      speakers:
+        - Gabriel Halley
+
+    - title: "Lightning Talk: Aaron Harpole"
+      start_cue: "01:00:55"
+      end_cue: "01:03:05"
+      video_provider: parent
+      video_id: aaron-harpole-lighting-talk-railsconf-2015
+      speakers:
+        - Aaron Harpole
+
+    - title: "Lightning Talk: Ryan Davis"
+      start_cue: "01:03:05"
+      end_cue: "01:06:47"
+      video_provider: parent
+      video_id: ryan-davis-lighting-talk-railsconf-2015
+      speakers:
+        - Ryan Davis
+
+    - title: "Lightning Talk: Elle Meredith"
+      start_cue: "01:06:47"
+      end_cue: "01:12:04"
+      video_provider: parent
+      video_id: elle-meredith-lighting-talk-railsconf-2015
+      speakers:
+        - Elle Meredith
+
+    - title: "Lightning Talk: Gonzalo Maldonado"
+      start_cue: "01:12:04"
+      end_cue: "01:17:43"
+      video_provider: parent
+      video_id: gonzalo-maldonado-lighting-talk-railsconf-2015
+      speakers:
+        - Gonzalo Maldonado
+
+    - title: "Lightning Talk: Peter Degen"
+      start_cue: "01:17:43"
+      end_cue: "01:21:56"
+      video_provider: parent
+      video_id: peter-degen-lighting-talk-railsconf-2015
+      speakers:
+        - Peter Degen
+
+    - title: "Lightning Talk: Jeff Casimir"
+      start_cue: "01:21:56"
+      end_cue: "01:27:30"
+      video_provider: parent
+      video_id: jeff-casimir-lighting-talk-railsconf-2015
+      speakers:
+        - Jeff Casimir
+
+    - title: "Lightning Talk: Ivan Tse"
+      start_cue: "01:27:30"
+      end_cue: "01:32:11"
+      video_provider: parent
+      video_id: ivan-tse-lighting-talk-railsconf-2015
+      speakers:
+        - Ivan Tse
+
+    - title: "Lightning Talk: Hsing-Hui Hsu"
+      start_cue: "01:32:11"
+      end_cue: "01:36:57"
+      video_provider: parent
+      video_id: hsing-hui-hsu-lighting-talk-railsconf-2015
+      speakers:
+        - Hsing-Hui Hsu
+
+    - title: "Lightning Talk: Adam Cuppy"
+      start_cue: "01:36:57"
+      end_cue: "1:40:35"
+      video_provider: parent
+      video_id: adam-cuppy-lighting-talk-railsconf-2015
+      speakers:
+        - Adam Cuppy
 
 - title: "A New Kind of Analytics: Actionable Performance Analysis"
   raw_title: "RailsConf 2015 -  A New Kind of Analytics: Actionable Performance Analysis"

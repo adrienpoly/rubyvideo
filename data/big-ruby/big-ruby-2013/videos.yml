@@ -209,13 +209,6 @@
 
 - title: Lightning Talks
   raw_title: Big Ruby 2013 Lightning Talks
-  speakers:
-    - Chris Morris # Living Social (0:00)
-    - Tom Brown # rock-oauth2 (05:10)
-    - Tim Caswell # Jack - A New Programming Language (10:47)
-    - Keith Bennett # JRuby (16:30)
-    - Marshall Yount # kinectable_pipe (22:25)
-    # - Chris Morris # Technical INTIMIDATION (28:50)
   event_name: Big Ruby 2013
   published_at: "2013-02-28"
   description: |-
@@ -224,6 +217,54 @@
     http://amara.org/v/FGd3/
   video_provider: youtube
   video_id: 6T3Oa_5mO-g
+  talks:
+    - title: "Lightning Talk: Living Social"
+      start_cue: "00:00"
+      end_cue: "05:10"
+      video_provider: parent
+      video_id: chris-morris-lighting-talk-big-ruby-2013
+      speakers:
+        - Chris Morris
+
+    - title: "Lightning Talk: rock-oauth2"
+      start_cue: "05:10"
+      end_cue: "10:47"
+      video_provider: parent
+      video_id: tom-brown-lighting-talk-big-ruby-2013
+      speakers:
+        - Tom Brown
+
+    - title: "Lightning Talk: Jack - A New Programming Language"
+      start_cue: "10:47"
+      end_cue: "16:30"
+      video_provider: parent
+      video_id: tim-caswell-lighting-talk-big-ruby-2013
+      speakers:
+        - Tim Caswell
+
+    - title: "Lightning Talk: JRuby"
+      start_cue: "16:30"
+      end_cue: "22:25"
+      video_provider: parent
+      video_id: keith-bennett-lighting-talk-big-ruby-2013
+      speakers:
+        - Keith Bennett
+
+    - title: "Lightning Talk: kinectable_pipe"
+      start_cue: "22:25"
+      end_cue: "28:50"
+      video_provider: parent
+      video_id: marshall-yount-lighting-talk-big-ruby-2013
+      speakers:
+        - Marshall Yount
+
+    - title: "Lightning Talk: Technical INTIMIDATION"
+      start_cue: "28:50"
+      end_cue: "34:29"
+      video_provider: parent
+      video_id: chris-morris-lighting-talk-big-ruby-2013
+      speakers:
+        - Chris Morris
 
 - title: Hypermedia - Less Hype, More Media Please
   raw_title: Big Ruby 2013 Hypermedia - less hype, more media please by Wynn Netherland

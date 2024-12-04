@@ -23,17 +23,37 @@
   video_provider: youtube
   video_id: vhIrrlcWphU
 
-- title: Lightning Talks - Day 1
+- title: Lightning Talks (Day 1)
   raw_title: Lightning talks, day 1 - wroc_love.rb 2016
-  speakers:
-    - Janek Grodowski # Docker Cloud @ Codebeat
-    # - TODO # Difference Between Facebook and Snapchat # https://cln.sh/ChJw3H5C
-    - Michał Zając # Haskell in Ruby
   event_name: wroclove.rb 2016
   published_at: "2016-03-11"
   description: ""
   video_provider: youtube
   video_id: DgphJ_sYFMM
+  talks:
+    - title: "Lightning Talk: Docker Cloud @ Codebeat"
+      start_cue: "00:00:00"
+      end_cue: "TODO"
+      video_id: janek-grodowski-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Janek Grodowski
+
+    - title: "Lightning Talk: Difference Between Facebook and Snapchat"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-lighting-talk-wroclove-rb-2016-1
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing speaker name https://cln.sh/ChJw3H5C
+
+    - title: "Lightning Talk: Haskell in Ruby"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michal-zajac-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Michał Zając
 
 # Day 2
 
@@ -93,26 +113,109 @@
   video_provider: youtube
   video_id: N89jx_Q666c
 
-- title: Lightning Talks - Day 2
+- title: Lightning Talks (Day 2)
   raw_title: Lightning talks, day 2 - wroc_love.rb 2016
-  speakers:
-    - Maciek Rząsa # Ruby Internships - What We Do To Teach Ruby?
-    # - TODO # What annoys you about the CI? https://cln.sh/FWmmnGhc
-    - Tomek Rusiłko # Estimating Anyone?
-    - Adam Jahn # Spree Commerce
-    - Adam Niedzielski # ETag Tracking
-    - Tatiana Vasilyeva # Features you probably don't know in RubyMine
-    - Nicolas Dermine # Sonic Pi
-    - Michał Zając # Rubbish Ruby Code Contest
-    - Marcin Wyszynski # Protocol Buffers @ Codebeat
-    - Mateusz Sagan # CPR with your client (or: How to deal with clients and stay sane)
-    - Peter Scholz # Grape/Grape Swapper https://cln.sh/w2tGF4nF
-    - Gosia Ksionek # How to keep your Junior Happy - and productive... and motivated
   event_name: wroclove.rb 2016
   published_at: "2016-03-12"
   description: ""
   video_provider: youtube
   video_id: lH17KGcwnqU
+  talks:
+    - title: "Lightning Talk: Ruby Internships - What We Do To Teach Ruby?"
+      start_cue: "00:00:00"
+      end_cue: "TODO"
+      video_id: maciek-rzasa-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Maciek Rząsa
+
+    - title: "Lightning Talk: What annoys you about the CI?"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-lighting-talk-wroclove-rb-2016-1
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name https://cln.sh/FWmmnGhc
+
+    - title: "Lightning Talk: Estimating Anyone?"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tomek-rusilko-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Tomek Rusiłko
+
+    - title: "Lightning Talk: Spree Commerce"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: adam-jahn-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Adam Jahn
+
+    - title: "Lightning Talk: ETag Tracking"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: adam-niedzielski-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Adam Niedzielski
+
+    - title: "Lightning Talk: Features you probably don't know in RubyMine"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tatiana-vasilyeva-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Tatiana Vasilyeva
+
+    - title: "Lightning Talk: Sonic Pi"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: nicolas-dermine-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Nicolas Dermine
+
+    - title: "Lightning Talk: Rubbish Ruby Code Contest"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michal-zajac-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Michał Zając
+
+    - title: "Lightning Talk: Protocol Buffers @ Codebeat"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: marcin-wyszynski-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Marcin Wyszynski
+
+    - title: "Lightning Talk: CPR with your client (or: How to deal with clients and stay sane)"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mateusz-sagan-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Mateusz Sagan
+
+    - title: "Lightning Talk: Grape/Grape Swapper"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: peter-scholz-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Peter Scholz
+
+    - title: "Lightning Talk: How to keep your Junior Happy - and productive... and motivated"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: gosia-ksionek-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Gosia Ksionek
 
 # Day 3
 
@@ -158,26 +261,109 @@
   video_provider: youtube
   video_id: tg3YjMqWNj0
 
-- title: Lightning Talks - Day 3
+- title: Lightning Talks (Day 3)
   raw_title: Lightning talks, day 3 - wroc_love.rb 2016
-  speakers:
-    - Anton Paisov # Explore Your Coffee
-    # - TODO # AirHelp # https://cln.sh/GwhWdqrl
-    - Wiktor Mociun # Let's Talk About NPM
-    - Thiago Massa # Image Processing Tips
-    - Piotr Walkowski # Ruby and a Graph
-    - Patrick Helm # Let's talk about git
-    - Wojciech Piekutowski # Why no Windows 9?
-    - Tatiana Vasilyeva # How Meditation Helped Me Fight Procrastination
-    - Tymon Tobolski # minirails
-    - Michał Muskała # Google Summer of Code
-    - Paweł Pacana # systemd examples
-    - Michał Łomnicki # DRUGStock 2016
   event_name: wroclove.rb 2016
   published_at: "2016-03-13"
   description: ""
   video_provider: youtube
   video_id: nvRgLtQjO0U
+  talks:
+    - title: "Lightning Talk: Explore Your Coffee"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: anton-paisov-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Anton Paisov
+
+    - title: "Lightning Talk: AirHelp"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-lighting-talk-wroclove-rb-2016-1
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing speaker name - https://cln.sh/GwhWdqrl
+
+    - title: "Lightning Talk: Let's Talk About NPM"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: wiktor-mociun-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Wiktor Mociun
+
+    - title: "Lightning Talk: Image Processing Tips"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: thiago-massa-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Thiago Massa
+
+    - title: "Lightning Talk: Ruby and a Graph"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: piotr-walkowski-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Piotr Walkowski
+
+    - title: "Lightning Talk: Let's talk about git"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: patrick-helm-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Patrick Helm
+
+    - title: "Lightning Talk: Why no Windows 9?"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: wojciech-piekutowski-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Wojciech Piekutowski
+
+    - title: "Lightning Talk: How Meditation Helped Me Fight Procrastination"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tatiana-vasilyeva-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Tatiana Vasilyeva
+
+    - title: "Lightning Talk: minirails"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tymon-tobolski-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Tymon Tobolski
+
+    - title: "Lightning Talk: Google Summer of Code"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michal-muskala-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Michał Muskała
+
+    - title: "Lightning Talk: systemd examples"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: pawel-pacana-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Paweł Pacana
+
+    - title: "Lightning Talk: DRUGStock 2016"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michal-lomnicki-lighting-talk-wroclove-rb-2016
+      video_provider: parent
+      speakers:
+        - Michał Łomnicki
 
 - title: When Making Money Becomes a Headache
   raw_title: When making money becomes a headache - Sebastian Sogamoso - wroc_love.rb 2016

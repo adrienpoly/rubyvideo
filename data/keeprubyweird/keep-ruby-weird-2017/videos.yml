@@ -73,22 +73,44 @@
 
 - title: Lightning Talks
   raw_title: Keep Ruby Weird 2017- Lightning Talks by Various Speakers
-  speakers:
-    - Amanda Chang
-    - Dave Rupert
-    - Jordan Reuter
-    - Nickolas Means
   event_name: Keep Ruby Weird 2017
   published_at: "2017-11-03"
   description: |-
     Keep Ruby Weird 2017- Lightning Talks by Various Speakers
-
-    Amanda 0:00
-    Dave Rupert 7:22
-    Jordan Reuter 12:46
-    Nickolas Means 20:45
   video_provider: youtube
   video_id: IbYKU8OpPVk
+  talks:
+    - title: "Lightning Talk: Amanda Chang"
+      start_cue: "00:00"
+      end_cue: "07:22"
+      video_id: amanda-chang-lighting-talk-keep-ruby-weird-2017
+      video_provider: parent
+      speakers:
+        - Amanda Chang
+
+    - title: "Lightning Talk: Dave Rupert"
+      start_cue: "07:22"
+      end_cue: "12:46"
+      video_id: dave-rupert-lighting-talk-keep-ruby-weird-2017
+      video_provider: parent
+      speakers:
+        - Dave Rupert
+
+    - title: "Lightning Talk: Jordan Reuter"
+      start_cue: "12:46"
+      end_cue: "20:45"
+      video_id: jordan-reuter-lighting-talk-keep-ruby-weird-2017
+      video_provider: parent
+      speakers:
+        - Jordan Reuter
+
+    - title: "Lightning Talk: Nickolas Means"
+      start_cue: "20:45"
+      end_cue: "30:06"
+      video_id: nickolas-means-lighting-talk-keep-ruby-weird-2017
+      video_provider: parent
+      speakers:
+        - Nickolas Means
 
 - title: Algorithms to live by and why should we care
   raw_title: Keep Ruby Weird 2017- Algorithms to live by and why should we care by Elle Meredith

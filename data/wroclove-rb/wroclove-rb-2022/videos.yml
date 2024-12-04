@@ -158,35 +158,123 @@
   language:
   description: ""
 
-- title: Lighting Talks Day 2
+- title: Lighting Talks (Day 2)
   raw_title: Lighting talks 1 - wroc_love.rb 2022
-  speakers:
-    - Alina Leskova
-    - Nobert Wójtowicz
-    - Andrew
-    - Andrzej Krzywda
-    - Jan Dudulski
-    - Yaroslav Shmarov
   event_name: wroclove.rb 2022
   published_at: "2022-09-20"
   video_provider: youtube
   video_id: ILssKgZiBNY
   language:
   description: ""
+  talks:
+    - title: "Lightning Talk: Alina Leskova"
+      start_cue: "00:00"
+      end_cue: "TODO"
+      video_id: alina-leskova-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Alina Leskova
 
-- title: Lighting Talks Day 3
-  raw_title: Lighting talks 2  - wroc_love.rb 2022
-  speakers:
-    - Patryk Ptasiński
-    - Tomek Skuta
-    - Tobiasz Waszak
-    # - Password talk
-    # - Zimbabwe talk
-    - Kuba Kuzma
-    - Vladislav Frolov
+    - title: "Lightning Talk: Nobert Wójtowicz"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: nobert-wojtowicz-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Nobert Wójtowicz
+
+    - title: "Lightning Talk: Andrew"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andrew-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Andrew # TODO: missing last name
+
+    - title: "Lightning Talk: Andrzej Krzywda"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andrzej-krzywda-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Andrzej Krzywda
+
+    - title: "Lightning Talk: Jan Dudulski"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jan-dudulski-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Jan Dudulski
+
+    - title: "Lightning Talk: Yaroslav Shmarov"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: yaroslav-shmarov-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Yaroslav Shmarov
+
+- title: Lighting Talks (Day 3)
+  raw_title: Lighting talks 2 - wroc_love.rb 2022
   event_name: wroclove.rb 2022
   published_at: "2022-09-20"
+  description: ""
   video_provider: youtube
   video_id: tzZbovhCOBs
-  language:
-  description: ""
+  talks:
+    - title: "Lightning Talk: Patryk Ptasiński"
+      start_cue: "00:00"
+      end_cue: "TODO"
+      video_id: patryk-ptasinski-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Patryk Ptasiński
+
+    - title: "Lightning Talk: Tomek Skuta"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tomek-skuta-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Tomek Skuta
+
+    - title: "Lightning Talk: Tobiasz Waszak"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tobiasz-waszak-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Tobiasz Waszak
+
+    - title: "Lightning Talk: Password"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: password-talk-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing speaker name
+
+    - title: "Lightning Talk: Zimbabwe"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: zimbabwe-talk-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing speaker name
+
+    - title: "Lightning Talk: Kuba Kuzma"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: kuba-kuzma-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Kuba Kuzma
+
+    - title: "Lightning Talk: Vladislav Frolov"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: vladislav-frolov-lighting-talk-wroclove-rb-2022
+      video_provider: parent
+      speakers:
+        - Vladislav Frolov

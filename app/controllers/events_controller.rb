@@ -16,7 +16,7 @@ class EventsController < ApplicationController
   def show
     set_meta_tags(@event)
 
-    event_talks = @event.talks
+    event_talks = @event.talks.where(meta_talk: false)
     if params[:q].present?
       talks = event_talks.pagy_search(params[:q])
       @pagy, @talks = pagy_meilisearch(talks, limit: 21)

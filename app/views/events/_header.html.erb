@@ -1,4 +1,15 @@
-<div class="w-full md:h-[198px] lg:h-[267px] xl:h-[336px] 2xl:h-[405px] justify-center align-center flex mt-3 border-t border-b" style="view-transition-name: hero; background: <%= event.banner_background %>">
+<div
+  class="w-full md:h-[198px] lg:h-[267px] xl:h-[336px] 2xl:h-[405px] justify-center align-center flex mt-3 border-t border-b"
+  style="
+    view-transition-name: hero;
+    <% if event.banner_background.start_with?("data:") %>
+      background: url('<%= event.banner_background %>');
+      background-repeat: no-repeat;
+      background-size: cover;
+    <% else %>
+      background: <%= event.banner_background %>;
+    <% end %>
+  ">
   <%= image_tag image_path(@event.banner_image_path), class: "w-full md:container" %>
 </div>
 

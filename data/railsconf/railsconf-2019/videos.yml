@@ -322,65 +322,171 @@
 
 - title: Lightning Talks
   raw_title: RailsConf 2019 - Lightning Talks by Various Speakers
-  speakers:
-    - Matthew Nielson
-    - Jonathan Slate
-    - Morgan Fogarty
-    - Michael de Hoog
-    - Cindy Backman
-    - Michael Hartl
-    - Lee Richmond
-    - Raimond Garcia
-    - Vladimir Dementyev
-    - John Epperson
-    - Lewis Buckley
-    - Jing yi Chen
-    - Yoskiyaki Hirano
-    - Steve Crow
-    - Ben Greenberg
-    - Andrew Neely
-    - Andrea Wayte
-    - Tricia Ball
-    - Dylan Andrews
   event_name: RailsConf 2019
   published_at: "2019-05-22"
-  description: |-
-    RailsConf 2019 - Lightning Talks by Various Speakers
-
-    _______________________________________________________________________________________________
-
-    Cloud 66 - Pain Free Rails Deployments
-    Cloud 66 for Rails acts like your in-house DevOps team to build, deploy and maintain your Rails applications on any cloud or server.
-
-    Get $100 Cloud 66 Free Credits with the code: RailsConf-19
-    ($100 Cloud 66 Free Credits, for the new user only, valid till 31st December 2019)
-
-    Link to the website: https://cloud66.com/rails?utm_source=-&utm_medium=-&utm_campaign=RailsConf19
-    Link to sign up: https://app.cloud66.com/users/sign_in?utm_source=-&utm_medium=-&utm_campaign=RailsConf19
-    _______________________________________________________________________________________________
-
-    Speakers:
-    00:01:21 - Matthew Nielson
-    00:02:28 - Jonathan Slate
-    00:02:16 - Morgan Fogarty
-    00:08:41 - Michael de Hoog
-    00:12:51 - Cindy Backman
-    00:17:54 - Michael Hartl
-    00:22:53 - Lee Richmond
-    00:27:56 - Raimond Garcia
-    00:32:59 - Vladimir Dementyev
-    00:37:08 - John Epperson
-    00:42:09 - Lewis Buckley
-    00:43:47 - Jing yi Chen
-    00:48:39 - Yoskiyaki Hirano
-    00:53:04 - Steve Crow
-    00:58:04 - Ben Greenberg
-    01:02:57 - Andrew Neely
-    01:07:26 - Andrea Wayte
-    01:10:11 - Tricia Ball
-    01:14:48 - Dylan Andrews
+  description: ""
   video_provider: youtube
   video_id: AI5wmnzzBqc
+  talks:
+    - title: "Lightning Talk: Chat etiquette"
+      start_cue: "00:00:05"
+      end_cue: "00:01:21"
+      video_id: jason-meller-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Jason Meller
+
+    - title: "Lightning Talk: Matthew Nielson"
+      start_cue: "00:01:21"
+      end_cue: "00:02:28"
+      video_id: matthew-nielson-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Matthew Nielson
+
+    - title: "Lightning Talk: Minneapolis Climate Action"
+      start_cue: "00:02:28"
+      end_cue: "00:03:16"
+      video_id: jonathan-slate-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Jonathan Slate
+
+    - title: "Lightning Talk: Why You Should Hire Me"
+      start_cue: "00:03:16"
+      end_cue: "00:08:41"
+      video_id: morgan-fogarty-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Morgan Fogarty
+
+    - title: "Lightning Talk: Coinbase Service Framework (CSF) - Strong API Contracts in Rails"
+      start_cue: "00:08:41"
+      end_cue: "00:12:51"
+      video_id: michael-de-hoog-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Michael de Hoog
+
+    - title: "Lightning Talk: Confreaks"
+      start_cue: "00:12:51"
+      end_cue: "00:17:54"
+      video_id: cindy-backman-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Cindy Backman
+
+    - title: "Lightning Talk: Learn Enough Scholarship Program"
+      start_cue: "00:17:54"
+      end_cue: "00:22:53"
+      video_id: michael-hartl-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Michael Hartl
+
+    - title: "Lightning Talk: Graphiti.dev alternative to GraphQL honoring the concept of RESTful resource"
+      start_cue: "00:22:53"
+      end_cue: "00:27:56"
+      video_id: lee-richmond-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Lee Richmond
+
+    - title: "Lightning Talk: Madrid's consulproject.org for participatory democracy"
+      start_cue: "00:27:56"
+      end_cue: "00:32:59"
+      video_id: raimond-garcia-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Raimond Garcia
+
+    - title: "Lightning Talk: ActionCable testing PR #23211"
+      start_cue: "00:32:59"
+      end_cue: "00:37:08"
+      video_id: vladimir-dementyev-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Vladimir Dementyev
+
+    - title: "Lightning Talk: kirillian/shiplane"
+      start_cue: "00:37:08"
+      end_cue: "00:42:09"
+      video_id: john-epperson-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - John Epperson
+
+    - title: "Lightning Talk: rubymap.com"
+      start_cue: "00:42:09"
+      end_cue: "00:43:47"
+      video_id: lewis-buckley-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Lewis Buckley
+
+    - title: "Lightning Talk: AWS SDK streaming APIs"
+      start_cue: "00:43:47"
+      end_cue: "00:48:39"
+      video_id: jing-yi-chen-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Jing yi Chen
+
+    - title: "Lightning Talk: trace_location gem based on TracePoint"
+      start_cue: "00:48:39"
+      end_cue: "00:53:04"
+      video_id: yoskiyaki-hirano-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Yoskiyaki Hirano
+
+    - title: "Lightning Talk: Computer vision"
+      start_cue: "00:53:04"
+      end_cue: "00:58:04"
+      video_id: steve-crow-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Steve Crow
+
+    - title: "Lightning Talk: Nexmo APIs example"
+      start_cue: "00:58:04"
+      end_cue: "01:02:57"
+      video_id: ben-greenberg-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Ben Greenberg
+
+    - title: "Lightning Talk: Stoicism for developers, an introduction"
+      start_cue: "01:02:57"
+      end_cue: "01:07:26"
+      video_id: andrew-neely-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Andrew Neely
+
+    - title: "Lightning Talk: Rover on Rails - Bad Jokes and good dogs"
+      start_cue: "01:07:26"
+      end_cue: "01:10:11"
+      video_id: andrea-wayte-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Andrea Wayte
+
+    - title: "Lightning Talk: Finding diversity"
+      start_cue: "01:10:11"
+      end_cue: "01:14:48"
+      video_id: tricia-ball-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Tricia Ball
+
+    - title: "Lightning Talk: rspec bisect to find randomly failing test dependencies"
+      start_cue: "01:14:48"
+      end_cue: "1:18:53"
+      video_id: dylan-andrews-lighting-talk-railsconf-2019
+      video_provider: parent
+      speakers:
+        - Dylan Andrews
 
 - title: The Unreasonable Struggle of Commercializing Open Source
   raw_title: RailsConf 2019 - The Unreasonable Struggle of Commercializing Open Source by Justin Collins

@@ -772,52 +772,163 @@
 
 - title: Lightning Talks
   raw_title: RubyConf 2018 - Lightning Talks
-  speakers:
-    - Michael Hartl
-    - Christen Rittiger
-    - Tori Machen
-    - Jennifer Tran
-    - Jeremy Schuurmans
-    - Kazumi Karbowski
-    - Justin Searls
-    - Jacob Crofts
-    - Roman Kofman
-    - Ariel Caplan
-    - Jamie Gaskins
-    - Aja Hammerly
-    - Isaac Sloan
-    - Zachary Schroeder
-    - Junichi Ito
-    - Tom Black
-    - Quinn Stearns
-    - Antoine Lecl
-    - Scott Istvan
   event_name: RubyConf 2018
   published_at: "2018-11-14"
-  description: |-
-    RubyConf 2018 - Lightning Talks
-
-    00:00:16 Michael Hartl
-    00:01:17 Christen Rittiger
-    00:02:30 Tori Machen
-    00:06:42 Jennifer Tran
-    00:11:33 Jeremy Schuurmans
-    00:14:13 Kazumi Karbowski
-    00:18:33 Justin Searls
-    00:23:27 Jacob Crofts
-    00:29:20 Roman Kofman
-    00:34:15 Ariel Caplan
-    00:38:03 Jamie Gaskins
-    00:42:14 Aja Hammerly
-    00:45:47 Isaac Sloan
-    00:50:45 Zachary Schroeder
-    00:55:49 Junichi Ito
-    01:00:40 Tom Black
-    01:05:40 Quinn Stearns
-    01:09:44 Antoine Lecl
-    01:13:27 Scott Istvan
+  description: ""
   video_provider: youtube
   video_id: 8s--ZyTmFxU
+  talks:
+    - title: "Lightning Talk: Michael Hartl"
+      start_cue: "00:00:16"
+      end_cue: "00:01:17"
+      video_id: michael-hartl-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Michael Hartl
+
+    - title: "Lightning Talk: Christen Rittiger"
+      start_cue: "00:01:17"
+      end_cue: "00:02:30"
+      video_id: christen-rittiger-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Christen Rittiger
+
+    - title: "Lightning Talk: Tori Machen"
+      start_cue: "00:02:30"
+      end_cue: "00:06:42"
+      video_id: tori-machen-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Tori Machen
+
+    - title: "Lightning Talk: Jennifer Tran"
+      start_cue: "00:06:42"
+      end_cue: "00:11:33"
+      video_id: jennifer-tran-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Jennifer Tran
+
+    - title: "Lightning Talk: Jeremy Schuurmans"
+      start_cue: "00:11:33"
+      end_cue: "00:14:13"
+      video_id: jeremy-schuurmans-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Jeremy Schuurmans
+
+    - title: "Lightning Talk: Kazumi Karbowski"
+      start_cue: "00:14:13"
+      end_cue: "00:18:33"
+      video_id: kazumi-karbowski-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Kazumi Karbowski
+
+    - title: "Lightning Talk: Justin Searls"
+      start_cue: "00:18:33"
+      end_cue: "00:23:27"
+      video_id: justin-searls-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Justin Searls
+
+    - title: "Lightning Talk: Jacob Crofts"
+      start_cue: "00:23:27"
+      end_cue: "00:29:20"
+      video_id: jacob-crofts-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Jacob Crofts
+
+    - title: "Lightning Talk: Roman Kofman"
+      start_cue: "00:29:20"
+      end_cue: "00:34:15"
+      video_id: roman-kofman-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Roman Kofman
+
+    - title: "Lightning Talk: Ariel Caplan"
+      start_cue: "00:34:15"
+      end_cue: "00:38:03"
+      video_id: ariel-caplan-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Ariel Caplan
+
+    - title: "Lightning Talk: Jamie Gaskins"
+      start_cue: "00:38:03"
+      end_cue: "00:42:14"
+      video_id: jamie-gaskins-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Jamie Gaskins
+
+    - title: "Lightning Talk: Aja Hammerly"
+      start_cue: "00:42:14"
+      end_cue: "00:45:47"
+      video_id: aja-hammerly-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Aja Hammerly
+
+    - title: "Lightning Talk: Isaac Sloan"
+      start_cue: "00:45:47"
+      end_cue: "00:50:45"
+      video_id: isaac-sloan-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Isaac Sloan
+
+    - title: "Lightning Talk: Zachary Schroeder"
+      start_cue: "00:50:45"
+      end_cue: "00:55:49"
+      video_id: zachary-schroeder-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Zachary Schroeder
+
+    - title: "Lightning Talk: Junichi Ito"
+      start_cue: "00:55:49"
+      end_cue: "01:00:40"
+      video_id: junichi-ito-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Junichi Ito
+
+    - title: "Lightning Talk: Tom Black"
+      start_cue: "01:00:40"
+      end_cue: "01:05:40"
+      video_id: tom-black-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Tom Black
+
+    - title: "Lightning Talk: Quinn Stearns"
+      start_cue: "01:05:40"
+      end_cue: "01:09:44"
+      video_id: quinn-stearns-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Quinn Stearns
+
+    - title: "Lightning Talk: Antoine Lecl"
+      start_cue: "01:09:44"
+      end_cue: "01:13:27"
+      video_id: antoine-lecl-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Antoine Lecl
+
+    - title: "Lightning Talk: Scott Istvan"
+      start_cue: "01:13:27"
+      end_cue: "1:17:35"
+      video_id: scott-istvan-lighting-talk-rubyconf-2018
+      video_provider: parent
+      speakers:
+        - Scott Istvan
 
 ## Day 3
 
