@@ -232,193 +232,203 @@
   video_provider: youtube
   video_id: JreuXFz8MpE
   talks:
-    - title: "Lightning Talk: Anna Lopukhina" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talks Intro"
+      start_cue: "00:17"
+      end_cue: "01:06"
+      video_id: lighting-talk-intro-rubyconf-2023
+      video_provider: parent
+      speakers:
+        - Erik Guzman
+
+    - title: "Lightning Talk: Metaprogramming in Ruby - or how to reduce boilerplate code using RM"
+      start_cue: "01:06"
+      end_cue: "06:08"
       video_id: anna-lopukhina-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Anna Lopukhina
 
-    - title: "Lightning Talk: Salomón Charabati" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Contributing to a gem I love & The power of Community"
+      start_cue: "06:08"
+      end_cue: "08:47"
       video_id: salomon-charabati-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Salomón Charabati
 
-    - title: "Lightning Talk: Jade Stewart" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Briding the gap between technology and creativity"
+      start_cue: "08:47"
+      end_cue: "13:18"
       video_id: jade-stewart-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Jade Stewart
 
-    - title: "Lightning Talk: Amanda Vikdal" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: How to Debug Your Body: A Rubyists Guide to Wellness & Self-Care"
+      start_cue: "13:18"
+      end_cue: "17:25"
       video_id: amanda-vikdal-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Amanda Vikdal
 
-    - title: "Lightning Talk: Jarrod Reyes" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Simple Scripts with Ruby - Automate boring tasks to sparkjoy"
+      start_cue: "17:25"
+      end_cue: "21:45"
       video_id: jarrod-reyes-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Jarrod Reyes
 
-    - title: "Lightning Talk: Eli Barreto" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Fear is the Way"
+      start_cue: "21:45"
+      end_cue: "25:41"
       video_id: eli-barreto-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Eli Barreto
 
-    - title: "Lightning Talk: Seong-Heon Jung" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Imagining a Fully Ruby Frontend with RERB"
+      start_cue: "25:41"
+      end_cue: "30:47"
       video_id: seong-heon-jung-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Seong-Heon Jung
 
-    - title: "Lightning Talk: Joshua Maurer" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Resilience Under Fire - Sticking With The Job Search Especially When It's Hard"
+      start_cue: "30:47"
+      end_cue: "35:21"
       video_id: joshua-maurer-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Joshua Maurer
 
-    - title: "Lightning Talk: Eric Halverson" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Intro to PEDAC - A Problem Solving Approach Using Ruby"
+      start_cue: "35:21"
+      end_cue: "40:20"
       video_id: eric-halverson-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Eric Halverson
 
-    - title: "Lightning Talk: Fito von Zastrow" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Module Mixins - A Kautionary Tale"
+      start_cue: "40:20"
+      end_cue: "45:10"
       video_id: fito-von-zastrow-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Fito von Zastrow
 
-    - title: "Lightning Talk: Paul Lemus" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: What is noira? & why we're designing for junior devs"
+      start_cue: "45:10"
+      end_cue: "50:10"
       video_id: paul-lemus-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Paul Lemus
 
-    - title: "Lightning Talk: Gary Tou" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Experimenting in Production"
+      start_cue: "50:10"
+      end_cue: "53:56"
       video_id: gary-tou-lighting-talk-rubyconf-2023
       video_provider: parent
+      description: |-
+        Gems: `scientist` + `lab_tech`
       speakers:
         - Gary Tou
 
-    - title: "Lightning Talk: Sergey Sergyenko" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Ruby Conferences + Baltic Ruby"
+      start_cue: "53:56"
+      end_cue: "58:25"
       video_id: sergey-sergyenko-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Sergey Sergyenko
 
-    - title: "Lightning Talk: Mike Toppa" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Making online identity verification less awful"
+      start_cue: "58:25"
+      end_cue: "01:03:29"
       video_id: mike-toppa-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Mike Toppa
 
-    - title: "Lightning Talk: Heather Roulston" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: The Opportunity of Failure"
+      start_cue: "01:03:29"
+      end_cue: "01:07:06"
       video_id: heather-roulston-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Heather Roulston
 
-    - title: "Lightning Talk: Ryan Erickson" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Grind Your Engineering Org to a Halt With This One Simple Trick - or: A Cautionary Tale on Depdency Management"
+      start_cue: "01:07:06"
+      end_cue: "01:11:05"
       video_id: ryan-erickson-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Ryan Erickson
 
-    - title: "Lightning Talk: Nicolas Barone" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
-      video_id: nicolas-barone-lighting-talk-rubyconf-2023
+    - title: "Lightning Talk: Good Bad Quick Code - or: When You're In A Rush, How to Not Hate Yourself Later"
+      start_cue: "01:11:05"
+      end_cue: "01:16:05"
+      video_id: nicholas-barone-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
-        - Nicolas Barone
+        - Nicholas Barone
 
-    - title: "Lightning Talk: Victoria Guido" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Getting good - At being bad a things"
+      start_cue: "01:16:05"
+      end_cue: "01:20:17"
       video_id: victoria-guido-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Victoria Guido
 
-    - title: "Lightning Talk: Daniel Azuma" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: My Campervan"
+      start_cue: "01:20:17"
+      end_cue: "01:25:13"
       video_id: daniel-azuma-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Daniel Azuma
 
-    - title: "Lightning Talk: Xiujiao Gao" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Let's Talk About Numbers"
+      start_cue: "01:25:13"
+      end_cue: "01:28:55"
       video_id: xiujiao-gao-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Xiujiao Gao
 
-    - title: "Lightning Talk: Wayne E. Seguin" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Reflections & Ruminations"
+      start_cue: "01:28:55"
+      end_cue: "01:35:18"
       video_id: wayne-e-seguin-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Wayne E. Seguin
 
-    - title: "Lightning Talk: Rachael Wright-Munn" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: You Should Livestream"
+      start_cue: "01:35:18"
+      end_cue: "01:40:22"
       video_id: rachael-wright-munn-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Rachael Wright-Munn
 
-    - title: "Lightning Talk: Guyren Howe" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Frest - APIs should be actually good."
+      start_cue: "01:40:22"
+      end_cue: "01:45:38"
       video_id: guyren-howe-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
         - Guyren Howe
 
-    - title: "Lightning Talk: Brandon Weaver" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: The Night Before Code Freeze"
+      start_cue: "01:45:38"
+      end_cue: "01:48:09"
       video_id: brandon-weaver-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
