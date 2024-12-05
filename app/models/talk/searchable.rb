@@ -17,7 +17,7 @@ module Talk::Searchable
     end
 
     scope :ranked, -> do
-      order(Arel.sql("bm25(talks_search_index, 10.0, 1.0, 5.0) ASC"))
+      order(Arel.sql("bm25(talks_search_index, 10.0, 1.0, 5.0) ASC, talks.date DESC"))
     end
 
     after_create_commit :create_in_index
