@@ -3,7 +3,7 @@
 <% video_player_controller = talk.external_player ? nil : "video-player" %>
 
 <% video_provider = case talk.video_provider
-   when "mp4" then nil
+   when "mp4" then "mp4"
    when "parent" then talk.parent_talk.video_provider
    else talk.video_provider
    end %>
@@ -88,6 +88,16 @@
               <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
                 <span class="text-nowrap">Play on</span>
                 <%= fa("vimeo-v-brands", size: :sm, style: :solid) %>
+              </div>
+            </a>
+          <% end %>
+
+          <% if talk.static_metadata.external_player_url.present? || talk.parent_talk&.static_metadata&.external_player_url.present? %>
+            <% player_url = talk.parent_talk&.static_metadata&.external_player_url || talk.static_metadata.external_player_url %>
+
+            <a class="tooltip tooltip-top" data-tip="Play on external player website" href="<%= player_url %>" target="_blank" data-action="click->video-player#pause">
+              <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
+                <span class="text-nowrap">Play on Website</span>
               </div>
             </a>
           <% end %>
