@@ -31,7 +31,7 @@ export default class extends Controller {
     const providerOptions = {}
     const providerParams = {}
 
-    if (this.hasProviderValue && this.providerValue !== "mp4") {
+    if (this.hasProviderValue && this.providerValue !== 'mp4') {
       providerOptions.provider = this.providerValue
     }
 
