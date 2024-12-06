@@ -360,7 +360,8 @@
       event_name: SF Bay Area Ruby Meetup - November 2024
       video_id: cameron-dutro-open-mic-sf-bay-area-ruby-meetup-november-2024
       video_provider: parent
-      description: ""
+      description: |-
+        Website: https://rubyvideo.dev
       speakers:
         - Cameron Dutro
 
@@ -562,7 +563,9 @@
       video_id: irina-nazarova-sf-bay-area-ruby-meetup-december-2024
       video_provider: parent
       description: |-
-        Repo: https://github.com/anycable/anycable
+        This talk is based on https://evilmartians.com/chronicles/anycable-speaking-needing-help-with-a-twilio-openai-connection
+        The code is here https://github.com/anycable/twilio-ai-demo/blob/demo/rbs-tools/app/channels/twilio/media_stream_channel.rb
+        And the "tool" is defined here https://github.com/anycable/twilio-ai-demo/blob/demo/rbs-tools/app/channels/concerns/openai_tools.rb
       speakers:
         - Irina Nazarova
 
