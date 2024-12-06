@@ -1,4 +1,4 @@
-class Speaker::ProfileEnhancer < ActiveRecord::AssociatedObject
+class Speaker::Profiles < ActiveRecord::AssociatedObject
   BSKY_HOST = "api.bsky.app".freeze
 
   performs do
