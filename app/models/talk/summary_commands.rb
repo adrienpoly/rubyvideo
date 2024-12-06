@@ -3,8 +3,7 @@ module Talk::SummaryCommands
 
   included do
     # jobs
-    performs :create_summary!, queue_as: :low do
-      retry_on StandardError, attempts: 3, wait: :polynomially_longer
+    performs :create_summary!, queue_as: :low, retries: 3 do
       limits_concurrency to: 1, key: "openai_api", duration: 1.hour # this is to comply to the rate limit of openai 60 000 tokens per minute
     end
   end
