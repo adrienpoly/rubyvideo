@@ -92,7 +92,7 @@
             </a>
           <% end %>
 
-          <% if talk.static_metadata.external_player_url.present? || talk.parent_talk&.static_metadata&.external_player_url.present? %>
+          <% if talk.static_metadata&.external_player_url.present? || talk.parent_talk&.static_metadata&.external_player_url.present? %>
             <% player_url = talk.parent_talk&.static_metadata&.external_player_url || talk.static_metadata.external_player_url %>
 
             <a class="tooltip tooltip-top" data-tip="Play on external player website" href="<%= player_url %>" target="_blank" data-action="click->video-player#pause">
