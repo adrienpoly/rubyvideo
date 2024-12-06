@@ -1,6 +1,4 @@
 class Speaker::Profiles < ActiveRecord::AssociatedObject
-  BSKY_HOST = "api.bsky.app".freeze
-
   performs do
     retry_on StandardError, attempts: 3, wait: :polynomially_longer # TODO: replace with `retries: 3`.
     limits_concurrency key: -> { _1.id }
@@ -18,18 +16,8 @@ class Speaker::Profiles < ActiveRecord::AssociatedObject
   end
 
   performs def enhance_with_bsky
-    return unless speaker.bsky.present?
-
-    response = bsky.get_request("app.bsky.actor.getProfile", {
-      actor: speaker.bsky
-    })
-
-    speaker.update!(bsky_metadata: response)
-  end
-
-  private
-
-  def bsky
-    @bsky ||= Minisky.new(BSKY_HOST, nil)
+    if handle = speaker.bsky.presence
+      speaker.update!(bsky_metadata: BlueSky.profile_metadata(handle))
+    end
   end
 end
