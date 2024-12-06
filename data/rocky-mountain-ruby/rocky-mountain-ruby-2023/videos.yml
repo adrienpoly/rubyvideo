@@ -127,34 +127,67 @@
 
 - title: "Rocky Mountain Ruby 2023: Lightning Talks"
   raw_title: Rocky Mountain Ruby 2023 - Lightning Talks
-  speakers:
-    - Ben Oakes
-    - Melony Erin Franchini
-    - Samuel Giddins
-    - Eric Mueller
-    - Stephan
-    - Blake Gearin
-    - Jeremy Hinegardner
   event_name: Rocky Mountain Ruby 2023
   published_at: "2023-10-26"
-  description: |-
-    Rocky Mountain Ruby 2023 - Lightning Talks
-
-    00:00 - The SuperSpreader gem by Ben Oakes
-
-    05:18 - First Follower by Melony Erin Franchini
-
-    09:08 - Building Broken Gems by Samuel Giddins
-
-    12:48 - Immutability in Ruby POROs by Eric Mueller
-
-    17:49 - This talk is called "The excited References, Extensions, Explorations Section to Marc's Talk." by Stephan
-
-    22:07 - Makefiles by Blake Gearin
-
-    25:14 - Code Coffee by Jeremy Hinegardner
+  description: "A series of lightning talks from Rocky Mountain Ruby 2023."
   video_provider: youtube
   video_id: lmAPQuUrhFw
+  talks:
+    - title: "Lightning Talk: The SuperSpreader gem"
+      start_cue: "00:00"
+      end_cue: "05:18"
+      video_id: ben-oakes-lighting-talk-rocky-mountain-ruby-2023
+      video_provider: parent
+      speakers:
+        - Ben Oakes
+
+    - title: "Lightning Talk: First Follower"
+      start_cue: "05:18"
+      end_cue: "09:08"
+      video_id: melony-erin-franchini-lighting-talk-rocky-mountain-ruby-2023
+      video_provider: parent
+      speakers:
+        - Melony Erin Franchini
+
+    - title: "Lightning Talk: Building Broken Gems"
+      start_cue: "09:08"
+      end_cue: "12:48"
+      video_id: samuel-giddins-lighting-talk-rocky-mountain-ruby-2023
+      video_provider: parent
+      speakers:
+        - Samuel Giddins
+
+    - title: "Lightning Talk: Immutability in Ruby POROs"
+      start_cue: "12:48"
+      end_cue: "17:49"
+      video_id: eric-mueller-lighting-talk-rocky-mountain-ruby-2023
+      video_provider: parent
+      speakers:
+        - Eric Mueller
+
+    - title: "Lightning Talk: The excited References, Extensions, Explorations Section to Marc's Talk"
+      start_cue: "17:49"
+      end_cue: "22:07"
+      video_id: stephan-lighting-talk-rocky-mountain-ruby-2023
+      video_provider: parent
+      speakers:
+        - Stephan
+
+    - title: "Lightning Talk: Makefiles"
+      start_cue: "22:07"
+      end_cue: "25:14"
+      video_id: blake-gearin-lighting-talk-rocky-mountain-ruby-2023
+      video_provider: parent
+      speakers:
+        - Blake Gearin
+
+    - title: "Lightning Talk: Code & Coffee"
+      start_cue: "25:14"
+      end_cue: "26:22"
+      video_id: jeremy-hinegardner-lighting-talk-rocky-mountain-ruby-2023
+      video_provider: parent
+      speakers:
+        - Jeremy Hinegardner
 
 - title: Turbo Frames Explored... for Fun and Profit
   raw_title: Turbo Frames Explored... for Fun and Profit by Jon Sullivan

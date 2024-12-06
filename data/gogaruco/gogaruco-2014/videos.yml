@@ -292,15 +292,6 @@
   raw_title: GoGaRuCo 2014- Lightning Talks hosted by Sarah Mei
   speakers:
     - Sarah Mei # Host
-    - Marlena Compton # Write Better Bug(report)s (00:13)
-    - Andrew Cantino # Huginn - Your Agents are standing by. (04:05)
-    - Enrique Morellón # Code Reviews (08:17)
-    - Layne McNish # WTF is ObjectSpace?!? (11:10)
-    - Yehuda Katz # The Ruby Community (13:50)
-    - Conrad Irwin # gem install console.log (17:50)
-    - Aarti Parikh # Exercism (20:17)
-    - Brian Leonard # Geohashes are rad (24:22)
-    - Josh Susser # A GoGaRuCo Creation Myth (28:40)
   event_name: GoGaRuCo 2014
   published_at: "2014-09-19"
   description: |-
@@ -311,6 +302,78 @@
     http://amara.org/v/FVxb/
   video_provider: youtube
   video_id: wQ9gHeT_Wx0
+  talks:
+    - title: "Lightning Talk: Write Better Bug(report)s"
+      start_cue: "00:13"
+      end_cue: "04:05"
+      video_id: marlena-compton-lighting-talk-gogaruco-2014
+      video_provider: parent
+      speakers:
+        - Marlena Compton
+
+    - title: "Lightning Talk: Huginn - Your Agents are standing by."
+      start_cue: "04:05"
+      end_cue: "08:17"
+      video_id: andrew-cantino-lighting-talk-gogaruco-2014
+      video_provider: parent
+      speakers:
+        - Andrew Cantino
+
+    - title: "Lightning Talk: Code Reviews"
+      start_cue: "08:17"
+      end_cue: "11:10"
+      video_id: enrique-morellon-lighting-talk-gogaruco-2014
+      video_provider: parent
+      speakers:
+        - Enrique Morellón
+
+    - title: "Lightning Talk: WTF is ObjectSpace?!?"
+      start_cue: "11:10"
+      end_cue: "13:50"
+      video_id: layne-mcnish-lighting-talk-gogaruco-2014
+      video_provider: parent
+      speakers:
+        - Layne McNish
+
+    - title: "Lightning Talk: The Ruby Community"
+      start_cue: "13:50"
+      end_cue: "17:50"
+      video_id: yehuda-katz-lighting-talk-gogaruco-2014
+      video_provider: parent
+      speakers:
+        - Yehuda Katz
+
+    - title: "Lightning Talk: gem install console.log"
+      start_cue: "17:50"
+      end_cue: "20:17"
+      video_id: conrad-irwin-lighting-talk-gogaruco-2014
+      video_provider: parent
+      speakers:
+        - Conrad Irwin
+
+    - title: "Lightning Talk: Exercism"
+      start_cue: "20:17"
+      end_cue: "24:22"
+      video_id: aarti-parikh-lighting-talk-gogaruco-2014
+      video_provider: parent
+      speakers:
+        - Aarti Parikh
+
+    - title: "Lightning Talk: Geohashes are rad"
+      start_cue: "24:22"
+      end_cue: "28:40"
+      video_id: brian-leonard-lighting-talk-gogaruco-2014
+      video_provider: parent
+      speakers:
+        - Brian Leonard
+
+    - title: "Lightning Talk: A GoGaRuCo Creation Myth"
+      start_cue: "28:40"
+      end_cue: "TODO"
+      video_id: josh-susser-lighting-talk-gogaruco-2014
+      video_provider: parent
+      speakers:
+        - Josh Susser
 
 - title: "Gilding the Rose: Refactoring Legacy Code"
   raw_title: "GoGaRuCo 2014 Gilding the Rose: Refactoring Legacy Code"

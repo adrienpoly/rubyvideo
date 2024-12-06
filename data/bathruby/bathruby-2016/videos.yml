@@ -28,24 +28,46 @@
 
 - title: Lightning Talks (Part 1)
   raw_title: BathRuby 2016 - Lightning Talks Part One
-  speakers:
-    - John Cinnamond # Complexity
-    - Florian Gilcher # Accessible events
-    - Chris Seaton # Ruby Papers We Love
-    - Andy Croll # Stupid Things I've Done in Search of Startup   Success
   event_name: BathRuby 2016
   published_at: "2016-03-11"
   description: |-
-    1. John Cinnamond - Complexity
-    2. Florian Gilcher - Accessible events
-    3. Chris Seaton - Ruby Papers We Love
-    4. Andy Croll - Stupid Things I've Done in Search of Startup   Success
-
     Help us caption & translate this video!
 
     http://amara.org/v/IG25/
   video_provider: youtube
   video_id: J8qqR_PPChQ
+  talks:
+    - title: "Lightning Talk: Complexity"
+      start_cue: "00:00"
+      end_cue: "TODO"
+      video_id: john-cinnamond-lighting-talk-bathruby-2016
+      video_provider: parent
+      speakers:
+        - John Cinnamond
+
+    - title: "Lightning Talk: Accessible events"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: florian-gilcher-lighting-talk-bathruby-2016
+      video_provider: parent
+      speakers:
+        - Florian Gilcher
+
+    - title: "Lightning Talk: Ruby Papers We Love"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: chris-seaton-lighting-talk-bathruby-2016
+      video_provider: parent
+      speakers:
+        - Chris Seaton
+
+    - title: "Lightning Talk: Stupid Things I've Done in Search of Startup Success"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andy-croll-lighting-talk-bathruby-2016
+      video_provider: parent
+      speakers:
+        - Andy Croll
 
 # Break
 
@@ -91,26 +113,54 @@
 
 - title: Lightning Talks (Part 2)
   raw_title: BathRuby 2016 - Lightning Talks Round Two
-  speakers:
-    - Christopher Turtle # Descent from Antiquity
-    - Philip Szalwinski # Programming and Paragliding - Hopping from Cloud to Cloud
-    - Andrew Faraday # The Wonky Limerick
-    - Nils Löwe # The "Manifesto for Responsible Software Development"
-    - Matthew Bloch # Our anonymous hiring process on Rails
   event_name: BathRuby 2016
   published_at: "2016-03-11"
   description: |-
-    1. Christopher Turtle - Descent from Antiquity
-    2. Philip Szalwinski - Programming and Paragliding - Hopping from Cloud to Cloud
-    3. Andrew Faraday - The Wonky Limerick
-    4. Nils Löwe - The "Manifesto for Responsible Software Development"
-    5. Matthew Bloch - Our anonymous hiring process on Rails
-
     Help us caption & translate this video!
 
     http://amara.org/v/IG4a/
   video_provider: youtube
   video_id: 48atSJksRls
+  talks:
+    - title: "Lightning Talk: Descent from Antiquity"
+      start_cue: "00:00"
+      end_cue: "TODO"
+      video_id: christopher-turtle-lighting-talk-bathruby-2016
+      video_provider: parent
+      speakers:
+        - Christopher Turtle
+
+    - title: "Lightning Talk: Programming and Paragliding - Hopping from Cloud to Cloud"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: philip-szalwinski-lighting-talk-bathruby-2016
+      video_provider: parent
+      speakers:
+        - Philip Szalwinski
+
+    - title: "Lightning Talk: The Wonky Limerick"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andrew-faraday-lighting-talk-bathruby-2016
+      video_provider: parent
+      speakers:
+        - Andrew Faraday
+
+    - title: "Lightning Talk: The 'Manifesto for Responsible Software Development'"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: nils-lowe-lighting-talk-bathruby-2016
+      video_provider: parent
+      speakers:
+        - Nils Löwe
+
+    - title: "Lightning Talk: Our anonymous hiring process on Rails"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: matthew-bloch-lighting-talk-bathruby-2016
+      video_provider: parent
+      speakers:
+        - Matthew Bloch
 
 # Lunch
 
@@ -154,12 +204,6 @@
 
 - title: Lightning Talks (Part 3)
   raw_title: BathRuby 2016 - Lightning Talks Part Three
-  speakers:
-    - Adam Butler # Life experiments (00:20)
-    - Ed Robinson # GRPC and Ruby (04:48)
-    - Cheryl Morgan # Introducing Trans*Code (08:54)
-    - Phil Nash # We Need More Gems (13:16)
-    - Peter Saxton # Building on domain concepts (18:47)
   event_name: BathRuby 2016
   published_at: "2016-03-11"
   description: |-
@@ -174,6 +218,45 @@
     http://amara.org/v/IG3N/
   video_provider: youtube
   video_id: UT0Rl_EJNN4
+  talks:
+    - title: "Life experiments"
+      start_cue: "00:20"
+      end_cue: "04:48"
+      video_provider: parent
+      video_id: adam-butler-lighting-talk-bathruby-2016
+      speakers:
+        - Adam Butler
+
+    - title: "GRPC and Ruby"
+      start_cue: "04:48"
+      end_cue: "08:54"
+      video_provider: parent
+      video_id: ed-robinson-lighting-talk-bathruby-2016
+      speakers:
+        - Ed Robinson
+
+    - title: "Introducing Trans*Code"
+      start_cue: "08:54"
+      end_cue: "13:16"
+      video_provider: parent
+      video_id: cheryl-morgan-lighting-talk-bathruby-2016
+      speakers:
+        - Cheryl Morgan
+
+    - title: "We Need More Gems"
+      start_cue: "13:16"
+      end_cue: "18:47"
+      video_provider: parent
+      video_id: phil-nash-lighting-talk-bathruby-2016
+      speakers:
+        - Phil Nash
+
+    - title: "Building on domain concepts"
+      start_cue: "18:47"
+      video_provider: parent
+      video_id: peter-saxton-lighting-talk-bathruby-2016
+      speakers:
+        - Peter Saxton
 
 # Break
 

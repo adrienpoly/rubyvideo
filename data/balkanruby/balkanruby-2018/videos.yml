@@ -197,20 +197,75 @@
 
 - title: Lightning Talks
   raw_title: Lightning talks – Balkan Ruby 2018
-  speakers:
-    - Martina Koleva # How To Talk To Non-Technical People
-    - Vladimir Dementyev # #rubythankful
-    - Evgeni Kunev # Cyberneat
-    - Dusan Orlovic # Stop Using Alt And Shift When You Do Not Need It
-    - Tomasz Stachewicz # Programming Spreadsheets
-    # - Archon TODO: lastname # Remote Work
-    - Andreas Finger # Gem Dependencies
-    - Robert Pawlas # GraphQL - Is It Worth Using It?
   event_name: Balkan Ruby 2018
   published_at: "2018-05-26"
   description: ""
   video_provider: youtube
   video_id: lpkePkbYeoI
+  talks:
+    - title: "Lightning Talk: How To Talk To Non-Technical People"
+      start_cue: "00:00:00"
+      end_cue: "TODO"
+      video_id: martina-koleva-lighting-talk-balkan-ruby-2018
+      video_provider: parent
+      speakers:
+        - Martina Koleva
+
+    - title: "Lightning Talk: #rubythankful"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: vladimir-dementyev-lighting-talk-balkan-ruby-2018
+      video_provider: parent
+      speakers:
+        - Vladimir Dementyev
+
+    - title: "Lightning Talk: Cyberneat"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: evgeni-kunev-lighting-talk-balkan-ruby-2018
+      video_provider: parent
+      speakers:
+        - Evgeni Kunev
+
+    - title: "Lightning Talk: Stop Using Alt And Shift When You Do Not Need It"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: dusan-orlovic-lighting-talk-balkan-ruby-2018
+      video_provider: parent
+      speakers:
+        - Dusan Orlovic
+
+    - title: "Lightning Talk: Programming Spreadsheets"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tomasz-stachewicz-lighting-talk-balkan-ruby-2018
+      video_provider: parent
+      speakers:
+        - Tomasz Stachewicz
+
+    - title: "Lightning Talk: Remote Work"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: archon-lighting-talk-balkan-ruby-2018-1
+      video_provider: parent
+      speakers:
+        - Archon # TODO: lastname
+
+    - title: "Lightning Talk: Gem Dependencies"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andreas-finger-lighting-talk-balkan-ruby-2018
+      video_provider: parent
+      speakers:
+        - Andreas Finger
+
+    - title: "Lightning Talk: GraphQL - Is It Worth Using It?"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: robert-pawlas-lighting-talk-balkan-ruby-2018
+      video_provider: parent
+      speakers:
+        - Robert Pawlas
 
 - title: "Trailblazer"
   raw_title: Trailblazer – Nick Sutterer – Balkan Ruby 2018

@@ -425,24 +425,113 @@
 
 - title: Lightning Talks
   raw_title: "[EN][JA] Lightning Talks"
-  speakers:
-    - Sunao Hogelog Komuro # Visualize the internal state of ruby processes in Real-Time
-    - Andi Idogawa # The Frontend Rubyist
-    - Miyuki Koshiba # Enjoy Creative Coding with Ruby
-    - Yuichiro Kaneko # Rearchitect Ripper
-    - Hayato Kawai # The Journey of rubocop-daemon into RuboCop
-    - Hashino Mikiko # The test code generator using static analysis and LLM
-    - S-H-GAMELINKS # Contributing to the Ruby Parser
-    - NAITOH Jun # Improved REXML XML parsing performance using StringScanner
-    - Sangyong Sim # Hotspot on Coverage
-    - Hayao Kimura # Drive Your Code: Building an RC Car by Writing Only Ruby
-    - Gui Heurich # An anthropological view of the Ruby community
   event_name: RubyKaigi 2024
   published_at: "2024-05-16"
   video_provider: youtube
   video_id: w1AodsHYT_o
   language: Japanese
   description: ""
+  speakers:
+    - Akira Matsuda
+  talks:
+    - title: "Lightning Talk: Visualize the internal state of ruby processes in Real-Time"
+      start_cue: "00:51"
+      end_cue: "06:05"
+      video_id: sunao-hogelog-komuro-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Sunao Hogelog Komuro
+
+    - title: "Lightning Talk: The Frontend Rubyist"
+      start_cue: "06:05"
+      end_cue: "11:10"
+      video_id: andi-idogawa-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: English
+      speakers:
+        - Andi Idogawa
+
+    - title: "Lightning Talk: Enjoy Creative Coding with Ruby"
+      start_cue: "11:10"
+      end_cue: "16:28"
+      video_id: miyuki-koshiba-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Miyuki Koshiba
+
+    - title: "Lightning Talk: Rearchitect Ripper"
+      start_cue: "16:28"
+      end_cue: "21:37"
+      video_id: yuichiro-kaneko-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Yuichiro Kaneko
+
+    - title: "Lightning Talk: The Journey of rubocop-daemon into RuboCop"
+      start_cue: "21:37"
+      end_cue: "26:33"
+      video_id: hayato-kawai-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Hayato Kawai
+
+    - title: "Lightning Talk: The test code generator using static analysis and LLM"
+      start_cue: "26:33"
+      end_cue: "31:40"
+      video_id: hashino-mikiko-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Hashino Mikiko
+
+    - title: "Lightning Talk: Contributing to the Ruby Parser"
+      start_cue: "31:40"
+      end_cue: "36:48"
+      video_id: s-h-gamelinks-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - S-H-GAMELINKS
+
+    - title: "Lightning Talk: Improved REXML XML parsing performance using StringScanner"
+      start_cue: "36:48"
+      end_cue: "41:40"
+      video_id: naitoh-jun-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - NAITOH Jun
+
+    - title: "Lightning Talk: Hotspot on Coverage"
+      start_cue: "41:40"
+      end_cue: "46:50"
+      video_id: sangyong-sim-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Sangyong Sim
+
+    - title: "Lightning Talk: Drive Your Code: Building an RC Car by Writing Only Ruby"
+      start_cue: "46:50"
+      end_cue: "51:50"
+      video_id: hayao-kimura-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Hayao Kimura
+
+    - title: "Lightning Talk: An anthropological view of the Ruby community"
+      start_cue: "51:50"
+      end_cue: "56:36"
+      video_id: gui-heurich-lighting-talk-rubykaigi-2024
+      video_provider: parent
+      language: English
+      speakers:
+        - Guilherme Orlandini Heurich
 
 # Day 3
 

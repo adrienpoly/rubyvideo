@@ -589,67 +589,112 @@
 
     We will talk about implementing a compacting GC for MRI. This talk will cover compaction algorithms, along with implementation details, and challenges specific to MRI.
 
-- title: Lightning Talks
+- title: Lightning Talks (Day 1)
   raw_title: "[EN][JA] Lightning Talks"
-  speakers:
-    - Hiroshi Kawada
-    - Tatsuhiro Ujihisa
-    - Kazuhiro NISHIYAMA
-    - Tomohiro Hashidate
-    - kinoppyd
-    - Hiroyuki Sano
-    - Yuki Nakata
-    - Urabe Shyouhei
-    - Satoshi Namai
-    - miyohide
-    - Takeshi Watanabe
-    - Takashi Kokubun
-
   event_name: RubyKaigi 2017
   published_at: "2017-09-18"
   video_provider: youtube
   video_id: 5vcv3s7cEeE
   language: Japanese
-  description: |-
-    RubyKaigi2017
-    http://rubykaigi.org/2017/presentations/lt/
+  description: "http://rubykaigi.org/2017/presentations/lt/"
+  speakers:
+    - Akira Matsuda
+  talks:
+    - title: "Lightning Talk: Implementation of Web Standards in Mastodon"
+      start_cue: "00:42"
+      end_cue: "06:03"
+      video_id: hiroshi-kawada-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - Hiroshi Kawada
 
-    - 0:42
-       - Implementation of Web Standards in Mastodon / Hiroshi Kawada @_furoshiki
-       - https://youtu.be/5vcv3s7cEeE?t=42s
-    - 6:03
-       - How to develop CRuby easily with Vim / Tatsuhiro Ujihisa @ujm
-       - https://youtu.be/5vcv3s7cEeE?t=6m3s
-    - 11:29
-       - How to specify `frozen_string_literal: true`. / Kazuhiro NISHIYAMA @znz
-       - https://youtu.be/5vcv3s7cEeE?t=11m29s
-    - 16:30
-       - Use case of Refinements with black magic / joker1007 @joker1007
-       - https://youtu.be/5vcv3s7cEeE?t=16m30s
-    - 21:47
-       - A WebSocket proxy server of Niconico comment server by Ruby / kinoppyd @GhostBrain
-       - https://youtu.be/5vcv3s7cEeE?t=21m47s
-    - 26:13
-       - Auto Completion in Rails::WebConsole / Hiroyuki Sano @sh19910711
-       - https://youtu.be/5vcv3s7cEeE?t=26m13s
-    - 30:58
-       - My Challenge of embedding mruby into a bare-metal hypervisor / Yuki Nakata @chikuwa_IT
-       - https://youtu.be/5vcv3s7cEeE?t=30m58s
-    - 36:17
-       - Glitching ruby script / Urabe, Shyouhei @shyouhei
-       - https://youtu.be/5vcv3s7cEeE?t=36m17s
-    - 41:17
-       - DNN/GPU with Ruby / ainame @ainame
-       - https://youtu.be/5vcv3s7cEeE?t=41m17s
-    - 46:33
-       - Migration from hiki to markdown in Rubima / みよひで @miyohide
-       - https://youtu.be/5vcv3s7cEeE?t=46m33s
-    - 51:53
-       - Independence of mruby. / Takeshi Watanabe @take-cheeze
-       - https://youtu.be/5vcv3s7cEeE?t=51m53s
-    - 57:16
-       - LLVM-based JIT compiler for CRuby / Takashi Kokubun  @k0kubun
-       - https://youtu.be/5vcv3s7cEeE?t=57m16s
+    - title: "Lightning Talk: How to develop CRuby easily with Vim"
+      start_cue: "06:03"
+      end_cue: "11:29"
+      video_id: tatsuhiro-ujihisa-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - Tatsuhiro Ujihisa
+
+    - title: "Lightning Talk: How to specify `frozen_string_literal: true`."
+      start_cue: "11:29"
+      end_cue: "16:30"
+      video_id: kazuhiro-nishiyama-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - Kazuhiro NISHIYAMA
+
+    - title: "Lightning Talk: Use case of Refinements with black magic"
+      start_cue: "16:30"
+      end_cue: "21:47"
+      video_id: tomohiro-hashidate-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - Tomohiro Hashidate
+
+    - title: "Lightning Talk: A WebSocket proxy server of Niconico comment server by Ruby"
+      start_cue: "21:47"
+      end_cue: "26:13"
+      video_id: kinoppyd-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - kinoppyd
+
+    - title: "Lightning Talk: Auto Completion in Rails::WebConsole"
+      start_cue: "26:13"
+      end_cue: "30:58"
+      video_id: hiroyuki-sano-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - Hiroyuki Sano
+
+    - title: "Lightning Talk: My Challenge of embedding mruby into a bare-metal hypervisor"
+      start_cue: "30:58"
+      end_cue: "36:17"
+      video_id: yuki-nakata-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - Yuki Nakata
+
+    - title: "Lightning Talk: Glitching ruby script"
+      start_cue: "36:17"
+      end_cue: "41:17"
+      video_id: urabe-shyouhei-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - Urabe Shyouhei
+
+    - title: "Lightning Talk: DNN/GPU with Ruby"
+      start_cue: "41:17"
+      end_cue: "46:33"
+      video_id: satoshi-namai-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - Satoshi Namai
+
+    - title: "Lightning Talk: Migration from hiki to markdown in Rubima"
+      start_cue: "46:33"
+      end_cue: "51:53"
+      video_id: miyohide-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - miyohide
+
+    - title: "Lightning Talk: Independence of mruby."
+      start_cue: "51:53"
+      end_cue: "57:16"
+      video_id: takeshi-watanabe-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - Takeshi Watanabe
+
+    - title: "Lightning Talk: LLVM-based JIT compiler for CRuby"
+      start_cue: "57:16"
+      end_cue: "01:03:04"
+      video_id: takashi-kokubun-lighting-talk-rubykaigi-2017
+      video_provider: parent
+      speakers:
+        - Takashi Kokubun
 
 - title: Type Checking Ruby Programs with Annotations
   raw_title: "[EN] Type Checking Ruby Programs with Annotations / Soutaro Matsumoto @soutaro"

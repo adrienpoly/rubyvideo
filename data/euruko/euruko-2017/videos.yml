@@ -14,20 +14,61 @@
   video_provider: youtube
   video_id: nlMsi8S3kZg
 
-- title: Lightning Talks Day 1
+- title: Lightning Talks (Day 1)
   raw_title: Lightning talks day1@EuRuKo2017
-  speakers:
-    - Manuel Morales
-    - Ivo Anjo
-    - Jan Lelis
-    - Victor Shepelev
-    - Piotr Murach
-    - Jan Krutisch
   event_name: EuRuKo 2017
   published_at: "2021-06-01"
   description: ""
   video_provider: youtube
   video_id: NEnZViT581o
+  talks:
+    - title: "Lightning Talk: Manuel Morales"
+      start_cue: "00:00"
+      end_cue: "TODO"
+      video_id: manuel-morales-lightning-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Manuel Morales
+
+    - title: "Lightning Talk: Ivo Anjo"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: ivo-anjo-lightning-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Ivo Anjo
+
+    - title: "Lightning Talk: Jan Lelis"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jan-lelis-lightning-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Jan Lelis
+
+    - title: "Lightning Talk: Victor Shepelev"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: victor-shepelev-lightning-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Victor Shepelev
+
+    - title: "Lightning Talk: Piotr Murach"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: piotr-murach-lightning-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Piotr Murach
+
+    - title: "Lightning Talk: Jan Krutisch"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jan-krutisch-lightning-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Jan Krutisch
 
 - title: Helping communities & products thrive
   raw_title: Sasha Romijn- Helping communities & products thrive by fostering empathy @EuRuKo2017
@@ -135,19 +176,53 @@
   video_provider: youtube
   video_id: Lk3Xx7k1aOk
 
-- title: Lightning Talks Day 2
+- title: Lightning Talks (Day 2)
   raw_title: Lightning Talks Day2 @ EuRuKo2017
-  speakers:
-    - Pilar Andrea Huidobro Peltier
-    - Jake
-    - Quentin Godfroy
-    - Mehdi Lahmam B.
-    - Ana María Martínez Gómez
   event_name: EuRuKo 2017
   published_at: "2017-12-22"
   description: ""
   video_provider: youtube
   video_id: 0bDRKUqIu24
+  talks:
+    - title: "Lightning Talk: Pilar Andrea Huidobro Peltier"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: pilar-andrea-huidobro-peltier-lighting-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Pilar Andrea Huidobro Peltier
+
+    - title: "Lightning Talk: Jake"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jake-lighting-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Jake
+
+    - title: "Lightning Talk: Quentin Godfroy"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: quentin-godfroy-lighting-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Quentin Godfroy
+
+    - title: "Lightning Talk: Mehdi Lahmam B."
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mehdi-lahmam-b-lighting-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Mehdi Lahmam B.
+
+    - title: "Lightning Talk: Ana María Martínez Gómez"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: ana-maria-martinez-gomez-lighting-talk-euruko-2017
+      video_provider: parent
+      speakers:
+        - Ana María Martínez Gómez
 
 - title: "Predicting Performance Changes of Distributed Applications"
   raw_title: Wojtek Rząsa- Predicting Performance Changes of Distributed Applications @ EuRuKo2017
@@ -178,3 +253,12 @@
   description: ""
   video_provider: youtube
   video_id: sPS7F-ITqK4
+
+- title: "City Pitches"
+  raw_title: Hosting City Pitches @EuRuKo2017
+  speakers:
+    - TODO
+  event_name: EuRuKo 2017
+  published_at: "2017-12-22"
+  description: ""
+  video_id: "-z9s743MUiw"

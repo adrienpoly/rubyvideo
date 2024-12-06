@@ -55,26 +55,53 @@
   video_provider: youtube
   video_id: QziXZM8tKAM
 
-- title: "Three Mini-Talks"
-  raw_title: GoGaRuco 2012 - Three Mini-talks
-  speakers:
-    - Sarah Mei
-    - Tony Arcieri
-    - Chris Eppstein
+- title: Three Mini-talks
+  raw_title: GoGaRuCo 2012 - Three Mini-talks
   event_name: GoGaRuCo 2012
   published_at: "2012-09-14"
   description: |-
     Three Mini-talks by: Sarah Mei, Tony Arcieri, and Chris Eppstein
 
     One session, three talks.
-
-    Tony Arcieri – A Crash Course on Celluloid: This talk will provide a quick overview of how to use Celluloid, covering the basics of how to add Celluloid to your program and begin leveraging its concurrent features.
-
-    Chris Eppstein – Naiveté: Stepping outside your comfort zone.
-
-    Sarah Mei – MRI Internals: How does a language become a language? We'll take a peek into the internals of the MRI, and explore how it came to be.
   video_provider: youtube
   video_id: fK5llwBYBRg
+  talks:
+    - title: Three Mini-talks Intro
+      start_cue: "00:00"
+      end_cue: "00:42"
+      video_id: three-mini-talks-intro-gogaruco-2012
+      video_provider: parent
+      speakers:
+        - TODO
+    - title: "Mini Talk: A Crash Course on Celluloid"
+      start_cue: "00:42"
+      end_cue: "09:40"
+      video_id: tony-arcieri-lightning-talk-gogaruco-2012
+      video_provider: parent
+      speakers:
+        - Tony Arcieri
+      description: |-
+        This talk will provide a quick overview of how to use Celluloid, covering the basics of how to add Celluloid to your program and begin leveraging its concurrent features.
+
+    - title: "Mini Talk: Naiveté"
+      start_cue: "09:40"
+      end_cue: "19:24"
+      video_id: chris-eppstein-lightning-talk-gogaruco-2012
+      video_provider: parent
+      speakers:
+        - Chris Eppstein
+      description: |-
+        Stepping outside your comfort zone.
+
+    - title: "Mini Talk: MRI Internals"
+      start_cue: "19:24"
+      end_cue: "30:40"
+      video_id: sarah-mei-lightning-talk-gogaruco-2012
+      video_provider: parent
+      speakers:
+        - Sarah Mei
+      description: |-
+        How does a language become a language? We'll take a peek into the internals of the MRI, and explore how it came to be.
 
 - title: "Cruft and Technical Debt: A Long View"
   raw_title: "GoGaRuCo 2012 - Cruft and Technical Debt: A Long View"

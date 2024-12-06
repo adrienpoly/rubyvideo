@@ -89,14 +89,6 @@
 
 - title: Lightning Talks
   raw_title: MWRC 2007 - Lightning Talks by Various Presenters
-  speakers:
-    - Mike Moore # BinaryLottery (00:00)
-    - Dan Fitzpatrick # WAX - Web Application X (3:48)
-    - Jade Meskill # Managing SSH keys with Capistrano - or - How my life is easier thanks to Jamis Buck (10:35)
-    - Kobe Rehnquist # (13:34)
-    # - TODO: missing name https://cln.sh/fV8Fff9t - CruiseControl.rb (20:17)
-    - Charles Nutter # nfjs2 (23:42)
-    - Pat Eyler # LogWatchR - A simple sysfem for syslog (and other log) analysis (27:10)
   event_name: MountainWest RubyConf 2007
   published_at: "2007-03-16"
   description: |-
@@ -105,6 +97,62 @@
     http://amara.org/v/FGfw/
   video_provider: youtube
   video_id: EmELW0e9Y5A
+  talks:
+    - title: "Lightning Talk: BinaryLottery"
+      start_cue: "00:00"
+      end_cue: "03:48"
+      video_id: mike-moore-lighting-talk-mountainwest-rubyconf-2007
+      video_provider: parent
+      speakers:
+        - Mike Moore
+
+    - title: "Lightning Talk: WAX - Web Application X"
+      start_cue: "03:48"
+      end_cue: "10:35"
+      video_id: dan-fitzpatrick-lighting-talk-mountainwest-rubyconf-2007
+      video_provider: parent
+      speakers:
+        - Dan Fitzpatrick
+
+    - title: "Lightning Talk: Managing SSH keys with Capistrano - or - How my life is easier thanks to Jamis Buck"
+      start_cue: "10:35"
+      end_cue: "13:34"
+      video_id: jade-meskill-lighting-talk-mountainwest-rubyconf-2007
+      video_provider: parent
+      speakers:
+        - Jade Meskill
+
+    - title: "Lightning Talk: Kobe Rehnquist"
+      start_cue: "13:34"
+      end_cue: "20:17"
+      video_id: kobe-rehnquist-lighting-talk-mountainwest-rubyconf-2007
+      video_provider: parent
+      speakers:
+        - Kobe Rehnquist # TODO: missing talk title
+
+    - title: "Lightning Talk: CruiseControl.rb"
+      start_cue: "20:17"
+      end_cue: "23:42"
+      video_id: todo-lighting-talk-mountainwest-rubyconf-2007-1
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name https://cln.sh/fV8Fff9t
+
+    - title: "Lightning Talk: nfjs2"
+      start_cue: "23:42"
+      end_cue: "27:10"
+      video_id: charles-nutter-lighting-talk-mountainwest-rubyconf-2007
+      video_provider: parent
+      speakers:
+        - Charles Nutter
+
+    - title: "Lightning Talk: LogWatchR - A simple system for syslog (and other log) analysis"
+      start_cue: "27:10"
+      end_cue: "TODO"
+      video_id: pat-eyler-lighting-talk-mountainwest-rubyconf-2007
+      video_provider: parent
+      speakers:
+        - Pat Eyler
 
 - title: "Keynote: ...then what?"
   raw_title: "MWRC 2007 - Keynote: '...then what?' by Chad Fowler"

@@ -1,4 +1,15 @@
-<div class="w-full lg:h-92 p-4 lg:p-16 border rounded-[25px] lg:rounded-[50px] text-center lg:text-left" style="background: <%= event.featured_background %>; color: <%= event.featured_color %>">
+<div
+  class="w-full lg:h-92 p-4 lg:p-16 border rounded-[25px] lg:rounded-[50px] text-center lg:text-left"
+  style="
+    color: <%= event.featured_color %>;
+    <% if event.featured_background.start_with?("data:") %>
+      background: url('<%= event.featured_background %>');
+      background-repeat: no-repeat;
+      background-size: cover;
+    <% else %>
+      background: <%= event.featured_background %>;
+    <% end %>
+  ">
   <a href="<%= event_path(event) %>">
     <div class="lg:grid grid-cols-[1fr_2fr]">
       <div>

@@ -150,35 +150,123 @@
   language:
   description: ""
 
-- title: Lightning Talks Day 2
+- title: Lightning Talks (Day 2)
   raw_title: Lightning talks 1 - wroc_love.rb 2023
-  speakers:
-    - Paweł Strzałkowski
-    - Andrei Kaleshka
-    - Michał Krzyżanowski
-    - Andrzej Krzywda
-    - Alexander Jahraus
-    - Michał Matyas
-    - Seb Wilgosz
-    - Paweł Świątkowski
   event_name: wroclove.rb 2023
   published_at: "2023-09-19"
   video_provider: youtube
   video_id: rT0ermnwUpY
   language:
   description: ""
+  talks:
+    - title: "Lightning Talk: Paweł Strzałkowski"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: pawel-strzalkowski-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Paweł Strzałkowski
 
-- title: Lightning Talks Day 3
+    - title: "Lightning Talk: Andrei Kaleshka"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andrei-kaleshka-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Andrei Kaleshka
+
+    - title: "Lightning Talk: Michał Krzyżanowski"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michal-krzyzanowski-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Michał Krzyżanowski
+
+    - title: "Lightning Talk: Andrzej Krzywda"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: andrzej-krzywda-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Andrzej Krzywda
+
+    - title: "Lightning Talk: Alexander Jahraus"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: alexander-jahraus-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Alexander Jahraus
+
+    - title: "Lightning Talk: Michał Matyas"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michal-matyas-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Michał Matyas
+
+    - title: "Lightning Talk: Seb Wilgosz"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: seb-wilgosz-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Seb Wilgosz
+
+    - title: "Lightning Talk: Paweł Świątkowski"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: pawel-swiatkowski-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Paweł Świątkowski
+
+- title: Lightning Talks (Day 3)
   raw_title: Lightning talks 2 - wroc_love.rb 2023
-  speakers:
-    - Łukasz Reszke
-    - Pitor Wasiak
-    - Ayush Newatia
-    - Michał Matyas
-    - Alexander Jahraus
   event_name: wroclove.rb 2023
   published_at: "2023-09-19"
   video_provider: youtube
   video_id: k_Ln9Bj0_ns
-  language:
   description: ""
+  talks:
+    - title: "Lightning Talk: Łukasz Reszke"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: lukasz-reszke-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Łukasz Reszke
+
+    - title: "Lightning Talk: Pitor Wasiak"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: pitor-wasiak-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Pitor Wasiak
+
+    - title: "Lightning Talk: Ayush Newatia"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: ayush-newatia-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Ayush Newatia
+
+    - title: "Lightning Talk: Michał Matyas"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michal-matyas-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Michał Matyas
+
+    - title: "Lightning Talk: Alexander Jahraus"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: alexander-jahraus-lighting-talk-wroclove-rb-2023
+      video_provider: parent
+      speakers:
+        - Alexander Jahraus

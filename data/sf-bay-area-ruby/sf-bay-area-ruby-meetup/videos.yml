@@ -1,0 +1,627 @@
+- title: SF Bay Area Ruby Meetup - March 2024
+  raw_title: SF Bay Area Ruby Meetup
+  event_name: SF Bay Area Ruby Meetup - March 2024
+  published_at: "2024-03-28"
+  description: |-
+    Hey, Bay Area builders and tinkerers!
+
+    Whether you're weaving magic with Ruby or Rails in your day job, crafting the next big thing in your garage, or simply intrigued by the promise of productivity and sheer joy Ruby and Rails could sprinkle on your 2024 projects, this is where you want to be.
+
+    Learn from the talks, share opinions and make new friends!
+
+    https://lu.ma/r6d0lghm
+  video_provider: youtube
+  video_id: 9-PWz9nbrT8
+  talks:
+    - title: "Intro: SF Ruby Meetups are back"
+      start_cue: "00:04"
+      end_cue: "03:18"
+      video_id: irina-nazarova-intro-sf-bay-area-ruby-meetup-march-2024
+      video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
+      thumbnail_xs: https://marcoroth.dev/images/resized/GJzK2F1a8AAr2GH-20e0497b-512x.jpg
+      thumbnail_sm: https://marcoroth.dev/images/resized/GJzK2F1a8AAr2GH-20e0497b-512x.jpg
+      thumbnail_md: https://marcoroth.dev/images/resized/GJzK2F1a8AAr2GH-20e0497b-512x.jpg
+      thumbnail_lg: https://marcoroth.dev/images/resized/GJzK2F1a8AAr2GH-20e0497b-512x.jpg
+      thumbnail_xl: https://marcoroth.dev/images/talks/san-francisco-ruby-meetup-march-2024/saved/GJzK2F1a8AAr2GH.jpg
+      speakers:
+        - Irina Nazarova
+
+    - title: "Intro: TEKsystems"
+      start_cue: "03:18"
+      end_cue: "04:35"
+      video_id: meredith-barry-intro-sf-bay-area-ruby-meetup-march-2024
+      video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
+      speakers:
+        - Meredith Barry
+
+    - title: "An ok compromise: Faster development by designing for the Rails Autoloader"
+      start_cue: "04:35"
+      end_cue: "26:46"
+      video_id: ben-sheldon-autoloading-rails-goodjob-sf-bay-area-ruby-meetup-march-2024
+      video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
+      thumbnail_xs: https://pbs.twimg.com/media/GJ3I7P4bAAAfDS-?format=jpg
+      thumbnail_sm: https://pbs.twimg.com/media/GJ3I7P4bAAAfDS-?format=jpg
+      thumbnail_md: https://pbs.twimg.com/media/GJ3I7P4bAAAfDS-?format=jpg&name=large
+      thumbnail_lg: https://pbs.twimg.com/media/GJ3I7P4bAAAfDS-?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GJ3I7P4bAAAfDS-?format=jpg&name=4096x4096
+      slides_url: https://speakerdeck.com/bensheldon/an-ok-compromise-faster-development-by-designing-for-the-rails-autoloader
+      speakers:
+        - Ben Sheldon
+
+    - title: "Announcements: AnyCable"
+      start_cue: "26:46"
+      end_cue: "28:48"
+      video_id: irina-nazarova-announcements-sf-bay-area-ruby-meetup-march-2024
+      video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
+      thumbnail_xs: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/357/646/134/395/small/cc23b519348ce265.jpg
+      thumbnail_sm: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/357/646/134/395/small/cc23b519348ce265.jpg
+      thumbnail_md: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/357/646/134/395/small/cc23b519348ce265.jpg
+      thumbnail_lg: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/357/646/134/395/small/cc23b519348ce265.jpg
+      thumbnail_xl: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/357/646/134/395/original/cc23b519348ce265.jpg
+      speakers:
+        - Irina Nazarova
+
+    - title: "Announcements: Ruby Central"
+      start_cue: "28:48"
+      end_cue: "34:17"
+      video_id: adarsh-pandit-announcements-sf-bay-area-ruby-meetup-march-2024
+      video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
+      thumbnail_xs: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/368/337/309/296/small/bc05ad4fa29c7471.jpg
+      thumbnail_sm: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/368/337/309/296/small/bc05ad4fa29c7471.jpg
+      thumbnail_md: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/368/337/309/296/small/bc05ad4fa29c7471.jpg
+      thumbnail_lg: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/368/337/309/296/small/bc05ad4fa29c7471.jpg
+      thumbnail_xl: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/368/337/309/296/original/bc05ad4fa29c7471.jpg
+      speakers:
+        - Adarsh Pandit
+
+    - title: "Announcements: Presenting Hotwire.io"
+      start_cue: "34:17"
+      end_cue: "39:42"
+      video_id: marco-roth-announcements-sf-bay-area-ruby-meetup-march-2024
+      video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
+      thumbnail_xs: https://marcoroth.dev/images/resized/a01f2d0ddf0317a8-feda221b-1024x.jpeg
+      thumbnail_sm: https://marcoroth.dev/images/resized/a01f2d0ddf0317a8-feda221b-1024x.jpeg
+      thumbnail_md: https://marcoroth.dev/images/resized/a01f2d0ddf0317a8-feda221b-1024x.jpeg
+      thumbnail_lg: https://marcoroth.dev/images/resized/a01f2d0ddf0317a8-feda221b-1024x.jpeg
+      thumbnail_xl: https://marcoroth.dev/images/talks/san-francisco-ruby-meetup-march-2024/saved/a01f2d0ddf0317a8.jpeg
+      slides_url: https://speakerdeck.com/marcoroth/hotwire-dot-io-at-san-francisco-ruby-meetup-march-2024-at-github-hq
+      speakers:
+        - Marco Roth
+
+    - title: "Building a Cloud in Thirteen Years using Ruby and Roda"
+      start_cue: "39:42"
+      end_cue: "1:11:30"
+      video_id: daniel-farina-building-cloud-ruby-roda-sf-bay-area-ruby-meetup-march-2024
+      video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
+      thumbnail_xs: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/465/163/819/543/small/44d09ee327bd409d.jpg
+      thumbnail_sm: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/465/163/819/543/small/44d09ee327bd409d.jpg
+      thumbnail_md: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/465/163/819/543/small/44d09ee327bd409d.jpg
+      thumbnail_lg: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/465/163/819/543/small/44d09ee327bd409d.jpg
+      thumbnail_xl: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/465/163/819/543/original/44d09ee327bd409d.jpg
+      slides_url: https://slides.com/fdrfdr/build-a-cloud-in-thirteen-years
+      speakers:
+        - Daniel Farina
+
+    - title: "Rails on WASM - Welcome to the future?"
+      start_cue: "1:11:30"
+      end_cue: "2:28:47"
+      video_id: vladimir-dementyev-rails-wasm-browser-sf-bay-area-ruby-meetup-march-2024
+      video_provider: parent
+      event_name: SF Bay Area Ruby Meetup - March 2024
+      thumbnail_xs: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/555/355/135/239/small/f9bee13b0082b0c0.jpg
+      thumbnail_sm: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/555/355/135/239/small/f9bee13b0082b0c0.jpg
+      thumbnail_md: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/555/355/135/239/small/f9bee13b0082b0c0.jpg
+      thumbnail_lg: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/555/355/135/239/small/f9bee13b0082b0c0.jpg
+      thumbnail_xl: https://cdn.masto.host/rubysocial/media_attachments/files/112/176/555/355/135/239/original/f9bee13b0082b0c0.jpg
+      slides_url: https://speakerdeck.com/palkan/sf-ruby-march-2024-rails-on-wasm
+      speakers:
+        - Vladimir Dementyev
+
+- title: SF Bay Area Ruby Meetup - October 2024
+  raw_title: "SF Bay Area Ruby Meetup #7"
+  event_name: SF Bay Area Ruby Meetup - October 2024
+  published_at: "2024-10-10"
+  description: |-
+    This is SF Bay Area Ruby Meetup #7 held at Chime's San Francisco Headquarters.
+
+    Join us for insightful talks and networking with fellow Ruby enthusiasts.
+
+    https://lu.ma/sf-ruby-oct-2024
+  video_provider: youtube
+  video_id: JFD8MJiUk6g
+  talks:
+    - title: "Intro"
+      start_cue: "00:00"
+      end_cue: "05:40"
+      event_name: SF Bay Area Ruby Meetup - October 2024
+      thumbnail_xs: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZkoeHwWYAgYnKN?format=jpg&name=4096x4096
+      video_id: irina-nazarova-intro-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "Ruby's Legacy and Ruby's Future"
+      start_cue: "05:40"
+      end_cue: "36:07"
+      event_name: SF Bay Area Ruby Meetup - October 2024
+      thumbnail_xs: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZkvCj7XYAkeoFR?format=jpg&name=4096x4096
+      video_id: noel-rappin-ruby-legacy-ecosystem-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Noel Rappin
+
+    - title: "Forms on Rails"
+      start_cue: "36:07"
+      end_cue: "1:00:00"
+      event_name: SF Bay Area Ruby Meetup - October 2024
+      thumbnail_xs: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZkvWD4WcAg-9F5?format=jpg&name=4096x4096
+      video_id: vladimir-dementyev-forms-on-rails-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Vladimir Dementyev
+
+    - title: "Open Mic: Ruby Central"
+      start_cue: "01:00:00"
+      end_cue: "01:07:00"
+      event_name: SF Bay Area Ruby Meetup - October 2024
+      thumbnail_xs: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZk9OcrX0AkqDCd?format=jpg&name=4096x4096
+      video_id: open-mic-presentations-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Adarsh Pandit
+
+    - title: "Open Mic: rspec-llama"
+      start_cue: "01:07:25"
+      end_cue: "01:16:07"
+      event_name: SF Bay Area Ruby Meetup - October 2024
+      thumbnail_xs: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZk-bfWXAAUZ4-t?format=jpg&name=4096x4096
+      video_id: rspec-llama-open-mic-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Sergey Sergyenko
+
+    - title: "Open Mic: I'm Speaking at RubyConf & Why You Should Hire Me"
+      start_cue: "01:16:14"
+      end_cue: "01:17:15"
+      event_name: SF Bay Area Ruby Meetup - October 2024
+      thumbnail_xs: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZlBsrWW8AAB88C?format=jpg&name=4096x4096
+      video_id: im-speaking-at-rubyconf-and-why-you-should-hire-me-1-open-mic-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Keith Gable
+
+    - title: "Open Mic: Why You Should Hire Me"
+      start_cue: "01:17:29"
+      end_cue: "01:18:22"
+      event_name: SF Bay Area Ruby Meetup - October 2024
+      thumbnail_xs: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZlBsrWWgAkOZCr?format=jpg&name=4096x4096
+      video_id: why-you-should-hire-me-open-mic-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Meredith White
+
+    - title: "Open Mic: oyencov - Usage-Weighted Test Coverage for Rails applications"
+      start_cue: "01:18:32"
+      end_cue: "01:19:22"
+      event_name: SF Bay Area Ruby Meetup - October 2024
+      thumbnail_xs: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZlDNblXgAk8oht?format=jpg&name=4096x4096
+      video_id: usage-weighted-test-coverage-rails-open-mic-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Anonoz Chong
+
+    - title: "Open Mic: ActiveAgents.ai"
+      start_cue: "01:19:30"
+      end_cue: "01:21:02"
+      event_name: SF Bay Area Ruby Meetup - October 2024
+      description: "https://www.activeagents.ai"
+      thumbnail_xs: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZlD4L3XsAApLfx?format=jpg&name=4096x4096
+      video_id: activeagents-ai-open-mic-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Justin Bowen
+
+    - title: "Red Fantasy Land"
+      start_cue: "01:22:30"
+      end_cue: "01:52:18"
+      event_name: SF Bay Area Ruby Meetup - October 2024
+      thumbnail_xs: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GZlE-6dWcAgJ1Lf?format=jpg&name=4096x4096
+      video_id: brandon-weaver-red-fantasy-land-sf-bay-area-ruby-meetup-october-2024
+      video_provider: parent
+      speakers:
+        - Brandon Weaver
+
+- title: SF Bay Area Ruby Meetup - November 2024
+  raw_title: "SF Bay Area Ruby Meetup in November @ Academia.edu"
+  event_name: SF Bay Area Ruby Meetup - November 2024
+  published_at: "2024-11-19"
+  description: |-
+    ​​Hey, Bay Area builders and tinkerers!
+
+    While Ruby may not dominate the headlines, it's the silent force behind the Bay Area's most successful startups. From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.
+
+    ​Join us as we re-kindle the SF Ruby community's flame! It is a unique place to meet authors of your favorite open-source tools (or members of the Ruby core team), incredibly experienced engineers and new converts, as well as new startup founders building and experimenting with the power of Ruby and Rails. It's a chance to meet every month and make new Ruby friends.
+
+    Our meetups explore Rails at scale, practical Hotwire implementations, methods for building AI-native apps and so much more—all through Ruby's uniquely productive lens.
+
+    For our November gathering, Academia.edu is our gracious host! This time, the speaker lineup is unmatched: Jeremy Evans, author of "Polished Ruby," Sequel, and Roda, is joined by Konstantin Gredeskoul (Academia), Chris Fung (Binti), and Brad Gessler (Rocketship, Fly).
+
+    Address: 580 California St. Suite 400 San Francisco, CA 94104
+
+    https://lu.ma/f4pfsigc
+  video_provider: youtube
+  video_id: emg8KhSKXzI
+  talks:
+    - title: "Intro words"
+      start_cue: "00:00"
+      end_cue: "05:20"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: irina-nazarova-intro-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "Design for Loose Coupling in Ruby"
+      raw_title: "Designing for Loose Coupling in Ruby"
+      start_cue: "05:20"
+      end_cue: "29:20"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: konstantin-gredeskoul-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Konstantin Gredeskoul (Academia.edu)
+      speakers:
+        - Konstantin Gredeskoul
+
+    - title: "How to translate your Rails app into over 20 languages - and why you should!"
+      start_cue: "29:20"
+      end_cue: "56:06"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: chris-fung-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Chris Fung (Binti)  "How to translate your Rails app into over 20 languages"
+      speakers:
+        - Chris Fung
+
+    - title: "Open Mic: filterameter"
+      start_cue: "56:06"
+      end_cue: "57:47"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: todd-kummer-open-mic-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Simplify and speed development of Rails controllers by making filter parameters declarative.
+
+        Repo: https://github.com/RockSolt/filterameter
+      speakers:
+        - Todd Kummer
+
+    - title: "Open Mic: Looking For A PM Role"
+      start_cue: "57:47"
+      end_cue: "58:26"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: ken-decanio-open-mic-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: ""
+      speakers:
+        - Ken Decanio
+
+    - title: "Open Mic: rubyvideo.dev"
+      start_cue: "58:26"
+      end_cue: "59:50"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: cameron-dutro-open-mic-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Website: https://rubyvideo.dev
+      speakers:
+        - Cameron Dutro
+
+    - title: "Open Mic: Veteran Ruby Meetups"
+      start_cue: "59:50"
+      end_cue: "1:00:38"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: dave-doolin-open-mic-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: ""
+      speakers:
+        - Dave Doolin
+
+    - title: "Open Mic: us_geo"
+      start_cue: "1:00:38"
+      end_cue: "1:03:00"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: brian-durand-open-mic-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Collection of geographic data for the United States for use with ActiveRecord
+
+        Repo: https://github.com/bdurand/us_geo
+      speakers:
+        - Brian Durand
+
+    - title: "Open Mic: Espartaco Palma"
+      start_cue: "1:01:37"
+      end_cue: "1:03:00"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: esparta-palma-open-mic-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: ""
+      speakers:
+        - Espartaco Palma
+
+    - title: "Open Mic: macchiato.dev"
+      start_cue: "1:03:00"
+      end_cue: "1:06:00"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: benjamin-atkin-open-mic-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        A notebook container and a collection of notebooks for interacting with data.
+
+        Repo: https://github.com/macchiato-dev
+      speakers:
+        - Benjamin Atkin
+
+    - title: "Build ambitious content websites in Rails"
+      raw_title: "Manage Content with Sitepress in Rails Apps or Static Websites"
+      start_cue: "1:06:00"
+      end_cue: "1:26:16"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: brad-gessler-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Brad Gessler (Rocketship, Fly) "Content management in Rails with Sitepress.cc"
+
+        This talk dives into https://sitepress.cc, a tool for integrating content management directly into Rails applications. Originally conceived to combine the power of static site generators like Middleman with Rails’ flexibility, Sitepress simplifies building and managing content-heavy websites. It’s designed to work as a standalone static site generator, a Rails engine, or a dynamic server.
+
+        During the talk, we explore how the developer documentation at https://terminalwire.com use Sitepress’s advanced features, such as using markdown for pages, frontmatter for metadata, and traversing content with powerful tools like globbing and page models. A live demo showcased how these features come together to create polished documentation sites for developers.
+
+        Links:
+        Longer extended version of the talk: https://youtube.com/watch?v=K2N8fp2P7Ms
+        Website with Sitepress documentation and examples: https://sitepress.cc
+        Example used in presentation that uses Sitepress: https://terminalwire.com
+      speakers:
+        - Brad Gessler
+
+    - title: "The First 10 Years of Roda"
+      start_cue: "1:26:16"
+      end_cue: "2:13:56"
+      event_name: SF Bay Area Ruby Meetup - November 2024
+      video_id: jeremy-evans-sf-bay-area-ruby-meetup-november-2024
+      video_provider: parent
+      description: |-
+        Jeremy Evans "The first 10 years of Roda"
+      speakers:
+        - Jeremy Evans
+
+- title: SF Bay Area Ruby Meetup - December 2024
+  raw_title: "SF Ruby presents: Ruby&AI, December 🎅 edition @ Sentry"
+  event_name: SF Bay Area Ruby Meetup - December 2024
+  published_at: "2024-12-03"
+  description: |-
+    Registration closes at noon on Dec 2.
+    Address: 45 Fremont St, we'll be meeting you in the lobby. If you are running late, please send a message.
+
+    Before the event, you will receive a message from Sentry (no-reply@envoy.com). Please fill out your details and sign a visitor's agreement. They ask for a photo too =) After that, you'll receive a QR code to enter.
+
+    Hey, Bay Area builders and tinkerers!
+
+    From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.
+
+    Join us as we re-kindle the SF Ruby community's flame! It is a place to meet authors of your favorite open-source and Ruby/Rails core, experienced Rubyists and new converts, entrepreneurs, and, well, people who hire. We meet every month and gradually make new Ruby friends.
+
+    For our December edition, Sentry is our gracious host! This time, we dedicate the event to all aspects of building AI-native apps and leveraging the power of AI in our Ruby applications.
+
+    It is also our special HOLIDAY edition, so let's do something about it! Choose your fighter:
+    - bake and bring your cookies 🍪 (two people are doing it already, join us!)
+    - wear something 🎅-esque
+    - steal the Xmas 😈
+
+    https://lu.ma/q7fwrtj2
+  video_provider: youtube
+  video_id: NU7ld8ERUFY
+  talks:
+    - title: "Welcome Words"
+      start_cue: "00:00"
+      end_cue: "07:30"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: irina-nazarova-intro-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "AI Grouping for Ruby SDK at Sentry"
+      start_cue: "07:30"
+      end_cue: "35:32"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: tillman-elser-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      speakers:
+        - Tillman Elser
+
+    - title: "ActiveAgents"
+      start_cue: "35:32"
+      end_cue: "59:38"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: justin-bowen-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      description: |-
+        Website: https://www.activeagents.ai
+        Repo: https://github.com/activeagents/activeagent
+      speakers:
+        - Justin Bowen
+
+    - title: "Ruby & GenAI @ Stepful"
+      start_cue: "59:38"
+      end_cue: "1:16:45"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: edoardo-serra-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      description: |-
+        Website: https://stepful.com
+      speakers:
+        - Edoardo Serra
+
+    - title: "Open Mic: Learning Rails"
+      start_cue: "1:16:45"
+      end_cue: "1:18:32"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: ken-decanio-open-mic-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      speakers:
+        - Ken Decanio
+
+    - title: "Open Mic: epicstrips.tv"
+      start_cue: "1:18:32"
+      end_cue: "1:20:05"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: chris-hobbs-open-mic-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      description: |-
+        Website: https://epicstrips.tv
+      speakers:
+        - Chris Hobbs
+
+    - title: "Open Mic: Ruby Central"
+      start_cue: "1:20:05"
+      end_cue: "1:22:57"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: rhiannon-payne-open-mic-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      description: |-
+        Website: https://rubycentral.org
+        Marketing Agency: https://seafoam.media
+      speakers:
+        - Rhiannon Payne
+
+    - title: "Introducing Lammy"
+      start_cue: "1:22:57"
+      end_cue: "1:38:35"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: kamil-nicieja-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      description: |-
+        Lammy is a simple LLM library for Ruby. It doesn't treat prompts as just strings. They represent the entire code that generates the strings sent to a LLM. The abstraction also makes it easy to attach these methods directly to models, avoiding the need for boilerplate service code.
+
+        Repo: https://github.com/nicieja/lammy
+      speakers:
+        - Kamil Nicieja
+
+    - title: "Building Voice AI Apps with Ruby"
+      start_cue: "1:38:35"
+      end_cue: "2:01:21"
+      event_name: SF Bay Area Ruby Meetup - December 2024
+      video_id: irina-nazarova-sf-bay-area-ruby-meetup-december-2024
+      video_provider: parent
+      description: |-
+        This talk is based on https://evilmartians.com/chronicles/anycable-speaking-needing-help-with-a-twilio-openai-connection
+        The code is here https://github.com/anycable/twilio-ai-demo/blob/demo/rbs-tools/app/channels/twilio/media_stream_channel.rb
+        And the "tool" is defined here https://github.com/anycable/twilio-ai-demo/blob/demo/rbs-tools/app/channels/concerns/openai_tools.rb
+      speakers:
+        - Irina Nazarova
+
+- title: SF Bay Area Ruby Meetup - January 2025
+  raw_title: "SF Ruby January Meetup @ Productboard"
+  event_name: SF Bay Area Ruby Meetup - January 2025
+  published_at: "2025-01-16"
+  description: |-
+    ​​Hey, Bay Area builders and tinkerers!
+
+    While Ruby may not dominate the headlines, it's the silent force behind the Bay Area's most successful startups. From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.
+
+    ​Join us as we re-kindle the SF Ruby community's flame! It is a unique place to meet authors of your favorite open-source tools (or members of the Ruby core team), incredibly experienced engineers and new converts, as well as new startup founders building and experimenting with the power of Ruby and Rails. It's a chance to meet every month and make new Ruby friends.
+
+    Our meetups explore practical and explorational stories about Rails at scale, performance and maintainability, deployments, frontend, AI-powered features, and so much more—all through Ruby's uniquely productive lens.
+
+    For the first event of the year, Productboard is our gracious host!
+
+    Our special 🌟 speaker is Jason Swett, coming from Michigan!
+
+    Submit a talk proposal here:
+    ​​https://forms.gle/C9HQzaT5jvwA5xwc7
+
+    Catch you on the flip side! A massive shoutout to Productboard for hosting and sponsoring the event!
+
+    https://lu.ma/goujxu3a
+  video_provider: scheduled
+  video_id: sf-bay-area-ruby-meetup-january-2025
+  speakers:
+    - Jason Swett
+    - TBD
+
+- title: SF Bay Area Ruby Meetup - February 2025
+  raw_title: "SF Ruby February Meetup @ GitHub"
+  event_name: SF Bay Area Ruby Meetup - February 2025
+  published_at: "2025-02-13"
+  description: |-
+    ​​Hey, Bay Area builders and tinkerers!
+
+    While Ruby may not dominate the headlines, it's the silent force behind the Bay Area's most successful startups. From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.
+
+    ​Join us as we re-kindle the SF Ruby community's flame! It is a unique place to meet authors of your favorite open-source tools (or members of the Ruby core team), incredibly experienced engineers and new converts, as well as new startup founders building and experimenting with the power of Ruby and Rails. It's a chance to meet every month and make new Ruby friends.
+
+    Our meetups explore Rails at scale, practical Hotwire implementations, methods for building AI-native apps and so much more—all through Ruby's uniquely productive lens.
+
+    For the first event of the year, GitHub is our gracious host!
+
+    Speakers and agenda are TBD
+
+    Submit a talk proposal here:
+    ​​https://forms.gle/C9HQzaT5jvwA5xwc7
+
+    Catch you on the flip side! A massive shoutout to GitHub for hosting and sponsoring the event!
+
+    https://lu.ma/hoou421h
+  video_provider: scheduled
+  video_id: sf-bay-area-ruby-meetup-february-2025
+  speakers:
+    - TBD

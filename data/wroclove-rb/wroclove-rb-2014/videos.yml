@@ -127,26 +127,102 @@
 
     This talk is about something important in the community. The Ruby community is missing something fundamentally important. We don't know how to architect applications. We've grown accustomed to using frameworks for everything and we've lost our way. We no longer talk about making applications, we speak about applications built in frameworks. Example: Oh hey man, did you hear NewApp123 is built in Rails? I take offense to that. The application is not built in Rails, it's built in Ruby than Rails is used to put it online. This mentality is prevalent in the community. It's damaging and encourages technical debt. This talk is about changing everything.
 
-- title: Lightning Talks Saturday
+- title: Lightning Talks (Saturday)
   raw_title: Lightning talks - Saturday - Wroclove.rb 2014
-  speakers:
-    - Marta Paciorkowska # Chef Browser - Read-only Chef UI
-    - Norbert Wójtowicz # Refactoring: Low Hanging Fruit
-    - Piotrek Zientara # Ruby Philosophy: Do Ruby Objects exist?
-    - Marcin Stecki # DHH Code Ping Pong
-    - Aleksander Dąbrowski # Java is cool
-    - Marcin Grzywaczewski # React.js and Hexagonal.js
-    - Mateusz Lenik # Random considered harmful
-    - Arne Brasseur # Nobody Knows Ruby
-    - Michal Papis # RVM
-    - Thilo Utke # Make Conf Wifi work
-    - Mateusz Kubiczek # How To Get Paid in $, €, £ and not get ripped off
   event_name: wroclove.rb 2014
   published_at: "2014-03-15"
   video_provider: youtube
   video_id: He4420gpkpQ
   language:
   description: ""
+  talks:
+    - title: "Lightning Talk: Chef Browser - Read-only Chef UI"
+      start_cue: "00:00:00"
+      end_cue: "TODO"
+      video_id: marta-paciorkowska-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Marta Paciorkowska
+
+    - title: "Lightning Talk: Refactoring: Low Hanging Fruit"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: norbert-wojtowicz-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Norbert Wójtowicz
+
+    - title: "Lightning Talk: Ruby Philosophy: Do Ruby Objects exist?"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: piotrek-zientara-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Piotrek Zientara
+
+    - title: "Lightning Talk: DHH Code Ping Pong"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: marcin-stecki-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Marcin Stecki
+
+    - title: "Lightning Talk: Java is cool"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: aleksander-dabrowski-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Aleksander Dąbrowski
+
+    - title: "Lightning Talk: React.js and Hexagonal.js"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: marcin-grzywaczewski-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Marcin Grzywaczewski
+
+    - title: "Lightning Talk: Random considered harmful"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mateusz-lenik-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Mateusz Lenik
+
+    - title: "Lightning Talk: Nobody Knows Ruby"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: arne-brasseur-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Arne Brasseur
+
+    - title: "Lightning Talk: RVM"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michal-papis-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Michal Papis
+
+    - title: "Lightning Talk: Make Conf Wifi work"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: thilo-utke-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Thilo Utke
+
+    - title: "Lightning Talk: How To Get Paid in $, €, £ and not get ripped off"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mateusz-kubiczek-lighting-talk-wroclove-rb-2014
+      video_provider: parent
+      speakers:
+        - Mateusz Kubiczek
 
 - title: Integration Tests Are Bogus
   raw_title: Piotr Szotkowski - INTEGRATION TESTS ARE BOGUS
