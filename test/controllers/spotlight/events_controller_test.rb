@@ -24,7 +24,7 @@ class Spotlight::EventsControllerTest < ActionDispatch::IntegrationTest
 
     get spotlight_events_url(format: :turbo_stream)
     assert_response :success
-    assert_equal 5, assigns(:events).size
+    assert_equal 8, assigns(:events).size
     assert_equal Event.all.count, assigns(:events_count)
   end
 

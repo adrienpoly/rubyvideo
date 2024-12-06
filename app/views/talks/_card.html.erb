@@ -91,7 +91,9 @@
       <div class="flex items-start justify-between gap-2 w-full">
         <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), data: {action: "mouseover->preserve-scroll#updateLinkBackToWithScrollPosition", turbo_frame: "_top"} do %>
           <%= content_tag :h2, class: "text-sm font-sans font-medium" do %>
-            <%= content_tag :div, "#{talk.combined_score.round(2)} - #{l(talk.date, format: :long)}", class: "text-xs text-gray-500" %>
+            <% if talk.try(:combined_score).present? %>
+              <%= content_tag :div, "#{talk.combined_score.round(2)} - #{l(talk.date, format: :long)}", class: "text-xs text-gray-500" %>
+            <% end %>
             <%= sanitize(talk.title_with_snippet, tags: ["mark"]) %>
           <% end %>
         <% end %>

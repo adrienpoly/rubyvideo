@@ -23,7 +23,7 @@ class Spotlight::SpeakersControllerTest < ActionDispatch::IntegrationTest
 
     get spotlight_speakers_url(format: :turbo_stream)
     assert_response :success
-    assert_equal 5, assigns(:speakers).size
+    assert_equal 8, assigns(:speakers).size
     assert_equal Speaker.all.count, assigns(:speakers_count)
   end
 
