@@ -6,7 +6,7 @@ class Spotlight::EventsController < ApplicationController
     @events = Event.includes(:organisation).canonical
     @events = @events.ft_search(search_query) if search_query.present?
     @events_count = @events.count
-    @events = @events.limit(5)
+    @events = @events.limit(8)
     respond_to do |format|
       format.turbo_stream
     end

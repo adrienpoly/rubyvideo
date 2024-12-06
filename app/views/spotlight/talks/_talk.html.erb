@@ -5,6 +5,7 @@
 
   <div class="flex flex-col gap-1 text-sm">
     <%= content_tag :div, class: "" do %>
+      <%= content_tag :div, "#{talk.combined_score.round(2)} - #{l(talk.date, format: :long)}", class: "text-xs text-gray-500" %>
       <%= content_tag :div, talk.title, class: "font-regular line-clamp-2" %>
     <% end %>
 

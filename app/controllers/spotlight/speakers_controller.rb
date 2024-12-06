@@ -6,7 +6,7 @@ class Spotlight::SpeakersController < ApplicationController
     @speakers = Speaker.canonical
     @speakers = @speakers.ft_search(search_query) if search_query.present?
     @speakers_count = @speakers.count
-    @speakers = @speakers.limit(5)
+    @speakers = @speakers.limit(8)
     respond_to do |format|
       format.turbo_stream
     end
