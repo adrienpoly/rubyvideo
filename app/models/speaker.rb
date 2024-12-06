@@ -57,7 +57,7 @@ class Speaker < ApplicationRecord
   belongs_to :canonical, class_name: "Speaker", optional: true
   belongs_to :user, primary_key: :github_handle, foreign_key: :github, optional: true
 
-  has_object :profile_enhancer
+  has_object :profiles
 
   # validations
   validates :canonical, exclusion: {in: ->(speaker) { [speaker] }, message: "can't be itself"}
