@@ -3,7 +3,6 @@ require "minisky"
 class Speaker::FetchBskyMetadata < ApplicationJob
   BSKY_HOST = "api.bsky.app".freeze
 
-  queue_as :low
   retry_on StandardError, attempts: 0
   limits_concurrency to: 1, key: "bsky"
 
