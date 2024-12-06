@@ -5,8 +5,9 @@
   }
   /* for the toolbar buttons */
   .btn.btn-outline.btn-sm {
-    @apply rounded-full border border-gray-200 bg-gray-100 hover:bg-gray-200/50 hover:text-base-content/80;
-    @apply text-xs font-normal;
+    @apply rounded-full border border-gray-300 bg-white hover:bg-gray-200/50 hover:text-base-content/80;
+    @apply text-sm font-normal;
+    @apply flex-nowrap whitespace-nowrap;
 
     /* for the watched button */
     &.active {
