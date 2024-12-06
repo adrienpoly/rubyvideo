@@ -17,7 +17,7 @@ class Speaker::ProfileEnhancer < ActiveRecord::AssociatedObject
     # TODO: implement
   end
 
-  def enhance_with_bsky_later
+  performs def enhance_with_bsky
     return unless speaker.bsky.present?
 
     response = bsky.get_request("app.bsky.actor.getProfile", {
