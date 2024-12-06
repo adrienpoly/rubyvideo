@@ -10,9 +10,13 @@ class Speaker::Profiles < ActiveRecord::AssociatedObject
   end
 
   performs def enhance_with_github
-    # return unless speaker.github.present?
+    users = GitHub::UserClient.new
+    return unless user = (speaker.github? && users.profile(speaker.github)) || users.from_matching(name: speaker.name)
 
-    # TODO: implement
+    speaker.update! speaker.slice(:twitter, :bio, :website).compact_blank.
+      with_defaults(github: user.login, twitter: user.twitter_username, bio: user.bio, website: user.blog)
+
+    speaker.broadcast_about
   end
 
   performs def enhance_with_bsky
