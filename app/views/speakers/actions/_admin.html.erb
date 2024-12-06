@@ -9,8 +9,8 @@
 
 <% if speaker.github.present? || speaker.bsky.present? %>
   <%= ui_button url: speakers_enhance_path(@speaker), method: :put, kind: :none, size: :sm, class: "w-full", form_class: "w-full" do %>
-    <%= fab :github, size: :xs %>
-    <span>Fetch from GitHub</span>
+    <%= fa "wand-magic-sparkles", size: :xs %>
+    <span>Enhance Profile</span>
   <% end %>
 <% end %>
 
