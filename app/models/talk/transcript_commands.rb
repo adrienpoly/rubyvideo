@@ -6,11 +6,11 @@ module Talk::TranscriptCommands
     serialize :raw_transcript, coder: TranscriptSerializer
 
     # jobs
-    performs :enhance_transcript!, queue_as: :low, retries: 3 do
+    performs :enhance_transcript!, retries: 3 do
       limits_concurrency to: 1, key: "openai_api", duration: 1.hour # this is to comply to the rate limit of openai 60 000 tokens per minute
     end
 
-    performs :fetch_and_update_raw_transcript!, queue_as: :low, retries: 3
+    performs :fetch_and_update_raw_transcript!, retries: 3
   end
 
   def fetch_and_update_raw_transcript!

@@ -98,7 +98,7 @@ class Talk < ApplicationRecord
   attribute :video_provider, default: :youtube
 
   # jobs
-  performs :update_from_yml_metadata!, queue_as: :low
+  performs :update_from_yml_metadata!
 
   # normalization
   normalizes :language, apply_to_nil: true, with: ->(language) do

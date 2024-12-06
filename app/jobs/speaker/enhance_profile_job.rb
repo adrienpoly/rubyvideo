@@ -1,5 +1,4 @@
 class Speaker::EnhanceProfileJob < ApplicationJob
-  queue_as :low
   retry_on StandardError, attempts: 0
   limits_concurrency to: 1, key: "github_api"
 
