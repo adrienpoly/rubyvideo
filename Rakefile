@@ -7,12 +7,15 @@ Rails.application.load_tasks
 
 desc "Verify all talks with start_cue have thumbnails"
 task verify_thumbnails: :environment do |t, args|
+  thumbnails_count = 0
   child_talks_with_missing_thumbnails = []
 
   Talk.where(meta_talk: true).flat_map(&:child_talks).each do |child_talk|
     if child_talk.static_metadata
       if child_talk.static_metadata.start_cue.present? && child_talk.static_metadata.start_cue != "TODO"
-        if !child_talk.thumbnail_extractor.thumbnail_path.exist?
+        if child_talk.thumbnail_extractor.thumbnail_path.exist?
+          thumbnails_count += 1
+        else
           puts "missing thumbnail for child_talk: #{child_talk.video_id} at: #{child_talk.thumbnail_extractor.thumbnail_path}"
           child_talks_with_missing_thumbnails << child_talk
         end
@@ -26,7 +29,7 @@ task verify_thumbnails: :environment do |t, args|
   if child_talks_with_missing_thumbnails.any?
     raise "missing #{child_talks_with_missing_thumbnails.count} thumbnails"
   else
-    puts "All thumbnails present!"
+    puts "All #{thumbnails_count} thumbnails present!"
   end
 end
 
