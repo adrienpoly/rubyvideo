@@ -261,12 +261,12 @@ class Talk < ApplicationRecord
       return "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
     end
 
-    if event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
-      return "/assets/#{asset.digested_path}"
-    end
-
     if video_provider == "parent" && parent_talk.present?
       return parent_talk.thumbnail(size)
+    end
+
+    if event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
+      return "/assets/#{asset.digested_path}"
     end
 
     fallback_thumbnail
