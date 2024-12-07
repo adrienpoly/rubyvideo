@@ -207,7 +207,7 @@
     <% if talk.parent_talk.present? || talk.meta_talk? %>
       <% parent_talk = talk.parent_talk || talk %>
 
-      <h3 class="font-bold text-md mt-3">Talks in this recording</h3>
+      <h3 class="font-bold text-md mt-3">Sections in this recording</h3>
 
       <div class="relative group border border-transparent" id="talkToggle">
         <div class="max-h-[220px] group-data-[expanded]:max-h-none overflow-y-hidden transition transition-all">
@@ -222,7 +222,7 @@
 
                     <div class="flex flex-col gap-0.5 justify-center">
                       <div class="text-xs text-gray-500 mb-1 hidden xl:block">
-                        Talk <%= index + 1 %>
+                        Section <%= index + 1 %>
                       </div>
                       <div class="text-sm font-bold">
                         <%= child_talk.speakers.map(&:name).to_sentence %>
