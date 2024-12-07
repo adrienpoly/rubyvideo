@@ -296,6 +296,12 @@ class Talk < ApplicationRecord
     case video_provider
     when "youtube"
       "https://www.youtube.com/watch?v=#{video_id}"
+    when "mp4"
+      video_id
+    when "vimeo"
+      "https://vimeo.com/video/#{video_id}"
+    when "parent"
+      parent_talk.provider_url
     else
       "#"
     end

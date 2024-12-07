@@ -8,12 +8,12 @@ class Talk::Downloader < ActiveRecord::AssociatedObject
   end
 
   def downloadable?
-    talk.youtube?
+    talk.youtube? || talk.mp4?
   end
 
   def download!
     if !downloadable?
-      puts "Talk #{talk.video_id} is not a YouTube video"
+      puts "Talk #{talk.video_id} is not a YouTube or mp4 video"
 
       return
     end
@@ -26,6 +26,6 @@ class Talk::Downloader < ActiveRecord::AssociatedObject
 
     puts "#{talk.video_id} downloading..."
 
-    Command.run(%(yt-dlp --output "#{download_path}" --format "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" "https://www.youtube.com/watch?v=#{talk.video_id}"))
+    Command.run(%(yt-dlp --output "#{download_path}" --format "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" "#{talk.provider_url}"))
   end
 end
