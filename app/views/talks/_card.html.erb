@@ -46,7 +46,7 @@
         </span>
       </div>
 
-      <% if talk.duration && talk.formatted_duration != "00" %>
+      <% if talk.duration && talk.formatted_duration != "00:00" %>
         <div class="flex gap-2 absolute bottom-0 right-0 z-20 m-3 px-1.5 py-1 bg-black backdrop-blur-md rounded-md text-white text-xs font-normal">
           <span><%= talk.formatted_duration %></span>
         </div>
