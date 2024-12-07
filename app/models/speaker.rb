@@ -163,7 +163,7 @@ class Speaker < ApplicationRecord
     "https://ui-avatars.com/api/?name=#{url_safe_initials}&size=#{size}&background=DC133C&color=fff"
   end
 
-  def broadcast_about
+  def broadcast_header
     broadcast_update target: dom_id(self, :header_content), partial: "speakers/header_content", locals: {speaker: self}
   end
 
