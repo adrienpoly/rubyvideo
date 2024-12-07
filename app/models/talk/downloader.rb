@@ -18,7 +18,11 @@ class Talk::Downloader < ActiveRecord::AssociatedObject
       return
     end
 
-    (puts "#{talk.video_id} exists, skipping..." && return) if downloaded?
+    if downloaded?
+      puts "#{talk.video_id} exists, skipping..."
+
+      return
+    end
 
     puts "#{talk.video_id} downloading..."
 
