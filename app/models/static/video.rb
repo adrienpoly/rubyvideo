@@ -28,13 +28,7 @@ module Static
     end
 
     def duration_to_formatted_cue(duration)
-      parts = [
-        duration.parts.fetch(:hours, nil),
-        duration.parts.fetch(:minutes, 0),
-        duration.parts.fetch(:seconds, 0)
-      ].compact
-
-      parts.map { |x| x.to_s.rjust(2, "0") }.join(":")
+      Duration.seconds_to_formatted_duration(duration)
     end
 
     def duration

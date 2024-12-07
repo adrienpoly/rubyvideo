@@ -324,7 +324,7 @@ class Talk < ApplicationRecord
   end
 
   def formatted_duration
-    duration.parts.values.map { |x| x.to_s.rjust(2, "0") }.join(":")
+    Duration.seconds_to_formatted_duration(duration)
   end
 
   def duration
