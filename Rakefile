@@ -25,6 +25,8 @@ task :verify_thumbnails => :environment do |t, args|
 
   if child_talks_with_missing_thumbnails.any?
     raise "missing #{child_talks_with_missing_thumbnails.count} thumbnails"
+  else
+    puts "All thumbnails present!"
   end
 end
 
