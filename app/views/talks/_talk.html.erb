@@ -84,7 +84,7 @@
           <% end %>
 
           <% if talk.vimeo? || talk.parent_talk&.vimeo? %>
-            <a class="tooltip tooltip-top" data-tip="Watch on Vimeo" href="<%= "https://vimeo.com/video/#{talk.video_id}" %>" target="_blank" data-action="click->video-player#pause">
+            <a class="tooltip tooltip-top" data-tip="Watch on Vimeo" href="<%= talk.provider_url %>" target="_blank" data-action="click->video-player#pause">
               <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
                 <span class="text-nowrap">Play on</span>
                 <%= fa("vimeo-v-brands", size: :sm, style: :solid) %>

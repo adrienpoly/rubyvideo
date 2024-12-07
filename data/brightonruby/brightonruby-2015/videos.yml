@@ -66,45 +66,45 @@
   video_id: https://videos.brightonruby.com/videos/2015/lightning-talks-brighton-ruby-2016.mp4
   description: "A wonderful selection of five minute nuggets from the Brighton Ruby call for proposals. Some experienced. Some first timers. All great."
   talks:
-    - title: "Lightning Talk: Sonja Heinen" # TODO: missing talk title
-      start_cue: "00:00"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Ruby Issues Newsletter"
+      start_cue: "00:05"
+      end_cue: "03:55"
       video_id: sonja-heinen-lighting-talk-brighton-ruby-2015
       video_provider: parent
       speakers:
-        - Sonja Heinen # TODO: missing talk title - https://twitter.com/sonjaheinen
+        - Sonja Heinen # https://twitter.com/sonjaheinen
 
-    - title: "Lightning Talk: Olga Scott" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Sorting, moving, sharing and caching in complex tree structure"
+      start_cue: "04:10"
+      end_cue: "09:53"
       video_id: olga-scott-lighting-talk-brighton-ruby-2015
       video_provider: parent
       speakers:
-        - Olga Scott # TODO: missing talk title - https://twitter.com/olga_scott
+        - Olga Scott # https://twitter.com/olga_scott
 
-    - title: "Lightning Talk: Tatiana Soukiassian" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: How to onboard Junior Developers well"
+      start_cue: "10:06"
+      end_cue: "15:27"
       video_id: tatiana-soukiassian-lighting-talk-brighton-ruby-2015
       video_provider: parent
       speakers:
-        - Tatiana Soukiassian # TODO: missing talk title - https://twitter.com/binaryberry
+        - Tatiana Soukiassian # https://twitter.com/binaryberry
 
-    - title: "Lightning Talk: Robbie Clutton" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Continuous Delivery"
+      start_cue: "15:42"
+      end_cue: "20:18"
       video_id: robbie-clutton-lighting-talk-brighton-ruby-2015
       video_provider: parent
       speakers:
-        - Robbie Clutton # TODO: missing talk title - https://twitter.com/robb1e
+        - Robbie Clutton # https://twitter.com/robb1e
 
-    - title: "Lightning Talk: Alex Sunderland" # TODO: missing talk title
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Ruby - The Weird Bits"
+      start_cue: "20:34"
+      end_cue: "26:42"
       video_id: alex-sunderland-lighting-talk-brighton-ruby-2015
       video_provider: parent
       speakers:
-        - Alex Sunderland # TODO: missing talk title - https://twitter.com/felltir
+        - Alex Sunderland # https://twitter.com/felltir
 
 - title: "Mini-munging: The Joy of Small Data"
   raw_title: "Mini-munging: The Joy of Small Data"

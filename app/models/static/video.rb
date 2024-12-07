@@ -19,8 +19,22 @@ module Static
       self["end_cue"]
     end
 
+    def thumbnail_cue
+      duration_to_formatted_cue(ActiveSupport::Duration.build(thumbnail_cue_in_seconds))
+    end
+
     def duration_fs
-      duration.parts.values.map { |x| x.to_s.rjust(2, "0") }.join(":")
+      duration_to_formatted_cue(duration)
+    end
+
+    def duration_to_formatted_cue(duration)
+      parts = [
+        duration.parts.fetch(:hours, nil),
+        duration.parts.fetch(:minutes, 0),
+        duration.parts.fetch(:seconds, 0)
+      ].compact
+
+      parts.map { |x| x.to_s.rjust(2, "0") }.join(":")
     end
 
     def duration
@@ -37,6 +51,10 @@ module Static
 
     def end_cue_in_seconds
       convert_cue_to_seconds(end_cue)
+    end
+
+    def thumbnail_cue_in_seconds
+      self["thumbnail_cue"] ? convert_cue_to_seconds(self["thumbnail_cue"]) : (start_cue_in_seconds + 5)
     end
 
     def convert_cue_to_seconds(cue)

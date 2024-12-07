@@ -38,32 +38,32 @@
   video_id: J8qqR_PPChQ
   talks:
     - title: "Lightning Talk: Complexity"
-      start_cue: "00:00"
-      end_cue: "TODO"
+      start_cue: "00:20"
+      end_cue: "05:00"
       video_id: john-cinnamond-lighting-talk-bathruby-2016
       video_provider: parent
       speakers:
         - John Cinnamond
 
-    - title: "Lightning Talk: Accessible events"
-      start_cue: "TODO"
-      end_cue: "TODO"
-      video_id: florian-gilcher-lighting-talk-bathruby-2016
-      video_provider: parent
-      speakers:
-        - Florian Gilcher
-
     - title: "Lightning Talk: Ruby Papers We Love"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "04:59"
+      end_cue: "08:23"
       video_id: chris-seaton-lighting-talk-bathruby-2016
       video_provider: parent
       speakers:
         - Chris Seaton
 
-    - title: "Lightning Talk: Stupid Things I've Done in Search of Startup Success"
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Accessible events"
+      start_cue: "08:23"
+      end_cue: "14:54"
+      video_id: florian-gilcher-lighting-talk-bathruby-2016
+      video_provider: parent
+      speakers:
+        - Florian Gilcher
+
+    - title: "Lightning Talk: Mistakes I Made Chasing Startup Success"
+      start_cue: "14:54"
+      end_cue: "21:08"
       video_id: andy-croll-lighting-talk-bathruby-2016
       video_provider: parent
       speakers:
@@ -123,7 +123,7 @@
   video_id: 48atSJksRls
   talks:
     - title: "Lightning Talk: Descent from Antiquity"
-      start_cue: "00:00"
+      start_cue: "00:20"
       end_cue: "TODO"
       video_id: christopher-turtle-lighting-talk-bathruby-2016
       video_provider: parent
@@ -131,7 +131,7 @@
         - Christopher Turtle
 
     - title: "Lightning Talk: Programming and Paragliding - Hopping from Cloud to Cloud"
-      start_cue: "TODO"
+      start_cue: "04:48"
       end_cue: "TODO"
       video_id: philip-szalwinski-lighting-talk-bathruby-2016
       video_provider: parent
@@ -139,7 +139,7 @@
         - Philip Szalwinski
 
     - title: "Lightning Talk: The Wonky Limerick"
-      start_cue: "TODO"
+      start_cue: "09:22"
       end_cue: "TODO"
       video_id: andrew-faraday-lighting-talk-bathruby-2016
       video_provider: parent
@@ -147,7 +147,7 @@
         - Andrew Faraday
 
     - title: "Lightning Talk: The 'Manifesto for Responsible Software Development'"
-      start_cue: "TODO"
+      start_cue: "13:37"
       end_cue: "TODO"
       video_id: nils-lowe-lighting-talk-bathruby-2016
       video_provider: parent
@@ -155,8 +155,8 @@
         - Nils Löwe
 
     - title: "Lightning Talk: Our anonymous hiring process on Rails"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "18:19"
+      end_cue: "23:43"
       video_id: matthew-bloch-lighting-talk-bathruby-2016
       video_provider: parent
       speakers:
