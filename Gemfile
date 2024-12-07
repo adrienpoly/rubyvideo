@@ -158,5 +158,3 @@ gem "omniauth-rails_csrf_protection"
 
 # silence Ruby 3.4 warnings
 gem "ostruct"
-
-gem "active_record-associated_object"
