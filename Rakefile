@@ -5,13 +5,55 @@ require_relative "config/application"
 
 Rails.application.load_tasks
 
-def run(command)
-  puts command
-  output = `#{command}`
+desc "Verify all talks with start_cue have thumbnails"
+task :verify_thumbnails => :environment do |t, args|
+  child_talks_with_missing_thumbnails = []
 
-  puts output
+  Talk.where(meta_talk: true).flat_map(&:child_talks).each do |child_talk|
+    if child_talk.static_metadata
+      if child_talk.static_metadata.start_cue.present? && child_talk.static_metadata.start_cue != "TODO"
+        if !child_talk.thumbnail_extractor.thumbnail_path.exist?
+          puts "missing thumbnail for child_talk: #{child_talk.video_id} at: #{child_talk.thumbnail_extractor.thumbnail_path}"
+          child_talks_with_missing_thumbnails << child_talk
+        end
+      end
+    else
+      puts "missing static_metadata for child_talk: #{child_talk.video_id}"
+      child_talks_with_missing_thumbnails << child_talk
+    end
+  end
 
-  output
+  if child_talks_with_missing_thumbnails.any?
+    raise "missing #{child_talks_with_missing_thumbnails.count} thumbnails"
+  end
+end
+
+desc "Download mp4 files for all meta talks"
+task :download_meta_talks => :environment do |t, args|
+  Talk.where(meta_talk: true).each do |meta_talk|
+    meta_talk.downloader.download!
+  end
+end
+
+desc "Download mp4 files for all meta talks with missing thumbnails"
+task :download_missing_meta_talks => :environment do |t, args|
+  meta_talks = Talk.where(meta_talk: true)
+  extractable_meta_talks = meta_talks.select { |talk| talk.thumbnail_extractor.extractable? }
+  missing_talks = extractable_meta_talks.reject { |talk| talk.thumbnail_extractor.extracted? }
+  missing_talks_without_downloads = missing_talks.reject { |talk| talk.downloader.downloaded? }
+
+  puts "Found #{missing_talks_without_downloads.size} missing talks without downloaded videos."
+
+  missing_talks_without_downloads.each do |talk|
+    talk.downloader.download!
+  end
+end
+
+desc "Fetch thumbnails for meta talks for all cues"
+task :extract_thumbnails => :environment do |t, args|
+  Talk.where(meta_talk: true).each do |meta_video|
+    meta_video.thumbnail_extractor.extract!
+  end
 end
 
 desc "Export Conference assets"
@@ -19,7 +61,7 @@ task :export_assets, [:conference_name] => :environment do |t, args|
   sketchtool = "/Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool"
   sketch_file = "./RubyVideo.sketch"
 
-  response = JSON.parse(run("#{sketchtool} list artboards #{sketch_file}"))
+  response = JSON.parse(Command.run("#{sketchtool} list artboards #{sketch_file}"))
   pages = response["pages"]
 
   conference_pages = pages.select { |page| page["artboards"].any? && Static::Playlist.where(title: page["name"]).any? }
@@ -49,7 +91,7 @@ task :export_assets, [:conference_name] => :environment do |t, args|
         item_ids = artboard_exports.map { |artboard| artboard["id"] }.join(",")
         target_directory = Rails.root.join("app", "assets", "images", "events", event.organisation.slug, event.slug)
 
-        run "#{sketchtool} export artboards #{sketch_file} --items=#{item_ids} --output=#{target_directory} --save-for-web=YES --formats=webp"
+        Command.run "#{sketchtool} export artboards #{sketch_file} --items=#{item_ids} --output=#{target_directory} --save-for-web=YES --formats=webp"
       end
     end
 

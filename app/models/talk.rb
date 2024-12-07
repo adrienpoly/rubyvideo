@@ -62,6 +62,9 @@ class Talk < ApplicationRecord
   # include MeiliSearch::Rails
   # extend Pagy::Meilisearch
 
+  has_object :downloader
+  has_object :thumbnail_extractor
+
   # associations
   belongs_to :event, optional: true, counter_cache: :talks_count, touch: true
   belongs_to :parent_talk, optional: true, class_name: "Talk", foreign_key: :parent_talk_id
@@ -227,22 +230,12 @@ class Talk < ApplicationRecord
 
       if (asset = Rails.application.assets.load_path.find(self[size]))
         return "/assets/#{asset.digested_path}"
-      elsif event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
-        return "/assets/#{asset.digested_path}"
-      else
-        return fallback_thumbnail
       end
     end
 
-    if video_provider == "parent" && parent_talk.present?
-      return parent_talk.thumbnail(size)
-    end
-
-    if !youtube? && !vimeo? && event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
+    if (asset = Rails.application.assets.load_path.find("thumbnails/#{video_id}.webp"))
       return "/assets/#{asset.digested_path}"
     end
-
-    return fallback_thumbnail unless youtube? || vimeo?
 
     if vimeo?
       vimeo = {
@@ -256,15 +249,27 @@ class Talk < ApplicationRecord
       return "https://vumbnail.com/#{video_id}#{vimeo[size]}.jpg"
     end
 
-    youtube = {
-      thumbnail_xs: "default",
-      thumbnail_sm: "mqdefault",
-      thumbnail_md: "hqdefault",
-      thumbnail_lg: "sddefault",
-      thumbnail_xl: "maxresdefault"
-    }
+    if youtube?
+      youtube = {
+        thumbnail_xs: "default",
+        thumbnail_sm: "mqdefault",
+        thumbnail_md: "hqdefault",
+        thumbnail_lg: "sddefault",
+        thumbnail_xl: "maxresdefault"
+      }
 
-    "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
+      return "https://i.ytimg.com/vi/#{video_id}/#{youtube[size]}.jpg"
+    end
+
+    if event && (asset = Rails.application.assets.load_path.find(event.poster_image_path))
+      return "/assets/#{asset.digested_path}"
+    end
+
+    if video_provider == "parent" && parent_talk.present?
+      return parent_talk.thumbnail(size)
+    end
+
+    fallback_thumbnail
   end
 
   def external_player_utm_params
