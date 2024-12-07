@@ -6,7 +6,7 @@ require_relative "config/application"
 Rails.application.load_tasks
 
 desc "Verify all talks with start_cue have thumbnails"
-task :verify_thumbnails => :environment do |t, args|
+task verify_thumbnails: :environment do |t, args|
   child_talks_with_missing_thumbnails = []
 
   Talk.where(meta_talk: true).flat_map(&:child_talks).each do |child_talk|
@@ -31,14 +31,14 @@ task :verify_thumbnails => :environment do |t, args|
 end
 
 desc "Download mp4 files for all meta talks"
-task :download_meta_talks => :environment do |t, args|
+task download_meta_talks: :environment do |t, args|
   Talk.where(meta_talk: true).each do |meta_talk|
     meta_talk.downloader.download!
   end
 end
 
 desc "Download mp4 files for all meta talks with missing thumbnails"
-task :download_missing_meta_talks => :environment do |t, args|
+task download_missing_meta_talks: :environment do |t, args|
   meta_talks = Talk.where(meta_talk: true)
   extractable_meta_talks = meta_talks.select { |talk| talk.thumbnail_extractor.extractable? }
   missing_talks = extractable_meta_talks.reject { |talk| talk.thumbnail_extractor.extracted? }
@@ -52,7 +52,7 @@ task :download_missing_meta_talks => :environment do |t, args|
 end
 
 desc "Fetch thumbnails for meta talks for all cues"
-task :extract_thumbnails => :environment do |t, args|
+task extract_thumbnails: :environment do |t, args|
   Talk.where(meta_talk: true).each do |meta_video|
     meta_video.thumbnail_extractor.extract!
   end
