@@ -592,7 +592,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_job-performs (~> 0.3.1)
-  active_record-associated_object (~> 0.8.2)
+  active_record-associated_object
   ahoy_matey
   annotaterb
   appsignal
