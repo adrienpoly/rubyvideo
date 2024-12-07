@@ -69,11 +69,13 @@ task :export_assets, [:conference_name] => :environment do |t, args|
   response = JSON.parse(Command.run("#{sketchtool} list artboards #{sketch_file}"))
   pages = response["pages"]
 
-  conference_pages = pages.select { |page| page["artboards"].any? && Static::Playlist.where(title: page["name"]).any? }
+  conference_pages = pages.select { |page|
+    page["artboards"].any? # && Static::Playlist.where(title: page["name"]).any?
+  }
 
   if (conference_name = args[:conference_name])
     conference_pages = conference_pages.select { |page|
-      playlist = Static::Playlist.find_by(title: page["name"])
+      playlist = Event.preload(:organisation).find_by(name: page["name"])
 
       if playlist
         page["name"] == conference_name || playlist.slug == conference_name
@@ -89,7 +91,7 @@ task :export_assets, [:conference_name] => :environment do |t, args|
     pages.each do |page|
       threads << Thread.new do
         artboard_exports = page["artboards"].select { |artboard| artboard["name"].in?(["card", "featured", "avatar", "banner", "poster"]) }
-        event = Event.find_by(name: page["name"])
+        event = Event.includes(:organisation).find_by(name: page["name"])
 
         next if event.nil?
 
