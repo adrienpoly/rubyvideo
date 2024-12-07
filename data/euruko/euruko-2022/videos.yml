@@ -126,85 +126,112 @@
   video_provider: youtube
   video_id: JvVAtssjOu0
   talks:
+    - title: "Lightning Talks Intro"
+      start_cue: "00:05"
+      end_cue: "02:13"
+      thumbnail_cue: "00:24"
+      video_id: lighting-talks-intro-euruko-2022
+      video_provider: parent
+      speakers:
+        - Antti Merilehto # Host/MC
+
     - title: "Lightning Talk: From Sinatra to Grape"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "02:13"
+      end_cue: "06:00"
+      thumbnail_cue: "02:24"
       video_id: renato-dos-santos-cerqueira-lighting-talk-euruko-2022
       video_provider: parent
       speakers:
         - Renato dos Santos Cerqueira
 
     - title: "Lightning Talk: Why bother about 'Questions?'"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "07:05"
+      end_cue: "12:24"
+      thumbnail_cue: "07:09"
       video_id: mohnish-jadwani-lighting-talk-euruko-2022
       video_provider: parent
       speakers:
         - Mohnish Jadwani
 
     - title: "Lightning Talk: Building Delightful Command-Line Apps in Ruby"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "14:14"
+      end_cue: "19:00"
       video_id: hans-schnedlitz-lighting-talk-euruko-2022
       video_provider: parent
       speakers:
         - Hans Schnedlitz
 
-    - title: "Lightning Talk: Welcome Ruby juniors"
-      start_cue: "TODO"
-      end_cue: "TODO"
+    - title: "Lightning Talk: Welcome Ruby Juniors"
+      start_cue: "20:38"
+      end_cue: "25:50"
       video_id: hana-harencarova-lighting-talk-euruko-2022
       video_provider: parent
       speakers:
         - Hana Harencarova
 
-    - title: "City Pitch: Gdansk"
-      start_cue: "TODO"
-      end_cue: "TODO"
-      video_id: city-pitch-gdansk-lighting-talk-euruko-2022
-      video_provider: parent
-      speakers:
-        - Antti Merilehto
-
     - title: "City Pitch: Granada"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "27:32"
+      end_cue: "28:32"
       video_id: city-pitch-granada-lighting-talk-euruko-2022
       video_provider: parent
       speakers:
-        - Tomasz Cudziło
+        - TODO # TODO: missing name
+
+    - title: "City Pitch: Gdańsk"
+      start_cue: "29:48"
+      end_cue: "31:38"
+      video_id: city-pitch-gdansk-lighting-talk-euruko-2022
+      video_provider: parent
+      speakers:
+        - Tomasz TODO # TODO: missing last name
 
     - title: "City Pitch: Istanbul"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "32:14"
+      end_cue: "34:53"
+      thumbnail_cue: "34:49"
       video_id: city-pitch-istanbul-lighting-talk-euruko-2022
       video_provider: parent
       speakers:
         - Ufuk Kayserilioglu
 
     - title: "City Pitch: Lviv"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "35:39"
+      end_cue: "37:02"
+      thumbnail_cue: "36:02"
       video_id: city-pitch-lviv-lighting-talk-euruko-2022
       video_provider: parent
       speakers:
-        - TODO # TODO: missing speaker name
+        - TODO # TODO: missing speaker name 1
+        # - TODO # TODO: missing speaker name 2
 
     - title: "City Pitch: Vilnius"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "37:37"
+      end_cue: "41:30"
       video_id: city-pitch-vilnius-lighting-talk-euruko-2022
       video_provider: parent
       speakers:
         - Sergey Sergyenko
 
     - title: "City Pitch: Brighton"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "41:56"
+      end_cue: "44:44"
+      thumbnail_cue: "44:37"
       video_id: city-pitch-brighton-lighting-talk-euruko-2022
       video_provider: parent
       speakers:
         - Andy Croll
+
+    - title: "Special Announcement & Prize for Matias Korhonen"
+      start_cue: "45:02"
+      end_cue: "48:49"
+      video_id: special-announcement-euruko-2022
+      video_provider: parent
+      description: |-
+        Lifetime Award for Ruby Community Excellence
+      speakers:
+        - Antti Merilehto # Host/MC
+        - Vesa Vänskä
+        - Matias Korhonen
 
 - title: "Ruby & JVM: A (JRuby) Love Story"
   raw_title: "Ruby & JVM: A (JRuby) Love Story by Yarden Laifenfeld"
