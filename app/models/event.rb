@@ -42,6 +42,8 @@ class Event < ApplicationRecord
   belongs_to :canonical, class_name: "Event", optional: true
   has_many :aliases, class_name: "Event", foreign_key: "canonical_id"
 
+  has_object :schedule
+
   def talks_in_running_order
     talks.in_order_of(:video_id, video_ids_in_running_order)
   end
@@ -74,18 +76,6 @@ class Event < ApplicationRecord
 
   def data_folder
     Rails.root.join("data", organisation.slug, slug)
-  end
-
-  def schedule_file?
-    schedule_file_path.exist?
-  end
-
-  def schedule_file_path
-    data_folder.join("schedule.yml")
-  end
-
-  def schedule_file
-    YAML.load_file(schedule_file_path)
   end
 
   def videos_file?
