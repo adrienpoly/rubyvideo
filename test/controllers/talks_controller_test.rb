@@ -111,4 +111,20 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
     assert_select "a .badge", count: 1, text: "#activerecord"
     assert_select "a .badge", count: 0, text: "#rejected"
   end
+
+  test "should get index as JSON" do
+    get talks_url(format: :json)
+    assert_response :success
+
+    json_response = JSON.parse(response.body)
+    assert_equal @talk.slug, json_response["talks"].first["slug"]
+  end
+
+  test "should get show as JSON" do
+    get talk_url(@talk, format: :json)
+    assert_response :success
+
+    json_response = JSON.parse(response.body)
+    assert_equal @talk.slug, json_response["talk"]["slug"]
+  end
 end

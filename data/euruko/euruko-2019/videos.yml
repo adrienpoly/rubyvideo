@@ -184,17 +184,51 @@
 
 - title: Lightning Talks
   raw_title: Lightning Talks
-  speakers:
-    - Madison White # Super-powering your editor with Sorbet Typer
-    - Miriam Tocino # Zerus & Ona
-    - Julik Tarkhanov # NoSuchBucket
-    - Benjamin Vetter # search_flip
-    - Norma Miller # A "Splash" Course on Live Captioning
   event_name: EuRuKo 2019
   published_at: "2021-06-01"
   description: ""
   video_provider: youtube
   video_id: 2-1wlXkLt-I
+  talks:
+    - title: "Lightning Talk: Super-powering your editor with Sorbet Typer"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: madison-white-lighting-talk-euruko-2019
+      video_provider: parent
+      speakers:
+        - Madison White
+
+    - title: "Lightning Talk: Zerus & Ona"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: miriam-tocino-lighting-talk-euruko-2019
+      video_provider: parent
+      speakers:
+        - Miriam Tocino
+
+    - title: "Lightning Talk: NoSuchBucket"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: julik-tarkhanov-lighting-talk-euruko-2019
+      video_provider: parent
+      speakers:
+        - Julik Tarkhanov
+
+    - title: "Lightning Talk: search_flip"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: benjamin-vetter-lighting-talk-euruko-2019
+      video_provider: parent
+      speakers:
+        - Benjamin Vetter
+
+    - title: 'Lightning Talk: A "Splash" Course on Live Captioning'
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: norma-miller-lighting-talk-euruko-2019
+      video_provider: parent
+      speakers:
+        - Norma Miller
 
 - title: "The Musical Ruby"
   raw_title: "The musical Ruby by Jan Krutisch"

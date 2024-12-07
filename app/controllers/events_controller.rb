@@ -16,7 +16,7 @@ class EventsController < ApplicationController
   def show
     set_meta_tags(@event)
 
-    event_talks = @event.talks_in_running_order
+    event_talks = @event.talks_in_running_order.where(meta_talk: false)
 
     if params[:q].present?
       talks = event_talks.pagy_search(params[:q])

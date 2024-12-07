@@ -4,7 +4,17 @@
   </div>
 
   <div class="flex flex-col w-full flex-1 self-start">
-    <span class="text-lg font-semibold sm:text-md">Explore all talks recorded at <%= event.name %></span>
+    <span class="text-lg font-semibold sm:text-md">
+      Explore all talks
+
+      <% if event.start_date && event.start_date.future? %>
+         scheduled for
+      <% else %>
+        recorded at
+      <% end %>
+
+      <%= event.name %>
+    </span>
 
     <div class="avatar-group -space-x-3 rtl:space-x-reverse mt-4">
       <% speakers_with_avatars = event.speakers.where.not(github: "").sample(8) %>
@@ -12,7 +22,7 @@
       <% speakers_with_avatars.each do |speaker| %>
         <div class="avatar bg-white border-2">
           <div class="w-8">
-            <img src="<%= speaker.github_avatar_url %>" loading="lazy">
+            <img src="<%= speaker.avatar_url %>" loading="lazy">
           </div>
         </div>
       <% end %>

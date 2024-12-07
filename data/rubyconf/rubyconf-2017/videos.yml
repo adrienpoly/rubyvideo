@@ -5,56 +5,173 @@
 # TODO: schedule website
 
 - title: Lightning Talks
-  raw_title: "RubyConf 2017:  Lightning Talks"
-  speakers:
-    - Michael Hartl
-    - Jonathan Slate
-    - Kyle Heironimus
-    - Yechiel Kalmenson
-    - Heather Herrington
-    - Jen Pengelly
-    - Brian Underwood
-    - Cameron Dutro
-    - Aaron Rosenberg
-    - Starr Chen
-    - Margo Urey
-    - Ryan Laughlin
-    - Adam Cuppy
-    - Julia Cuppy
-    - Jim Remsik
-    - Amir Rajan
-    - Dave Aronson
-    - Sam Livingston-Grey
-    - Noah Gibbs
-    - Heidi Waterhouse
-    - Akira Matsuda
+  raw_title: "RubyConf 2017: Lightning Talks"
   event_name: RubyConf 2017
   published_at: "2017-11-28"
-  description: |-
-    Lightning Talks
-
-    0:00:40:03 - Michael Hartl
-    0:01:25:27 - Jonathan Slate
-    0:02:47:07 - Kyle Heironimus
-    0:04:45:25 - Yechiel Kalmenson
-    0:07:05:05 - Heather Herrington
-    0:12:10:23 - Jen Pengelly
-    0:16:09:12 - Brian Underwood
-    0:21:15:29 - Cameron Dutro
-    0:26:14:15 - Aaron Rosenberg
-    0:31:23:11 - Starr Chen
-    0:37:28:26 - Margo Urey
-    0:43:25:21 - Ryan Laughlin
-    0:49:19:16 - Adam & Julia Cuppy
-    0:54:24:16 - Jim Remsik
-    1:00:56:09 - @amirrajan
-    1:07:06:17 - Dave Aronson
-    1:12:24:12 - Sam Livingston-Grey
-    1:17:10:13 - Noah Gibbs
-    1:22:30:29 - Heidi Waterhouse
-    1:27:56:12 - Akira Matsuda
+  description: ""
   video_provider: youtube
   video_id: YMoa5JpjEtM
+  talks:
+    - title: "Lightning Talk: Michael Hartl" # TODO: missing talk title
+      start_cue: "0:40"
+      end_cue: "1:25"
+      video_id: michael-hartl-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Michael Hartl
+
+    - title: "Lightning Talk: Jonathan Slate" # TODO: missing talk title
+      start_cue: "1:25"
+      end_cue: "2:47"
+      video_id: jonathan-slate-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Jonathan Slate
+
+    - title: "Lightning Talk: Kyle Heironimus" # TODO: missing talk title
+      start_cue: "2:47"
+      end_cue: "4:45"
+      video_id: kyle-heironimus-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Kyle Heironimus
+
+    - title: "Lightning Talk: Yechiel Kalmenson" # TODO: missing talk title
+      start_cue: "4:45"
+      end_cue: "7:05"
+      video_id: yechiel-kalmenson-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Yechiel Kalmenson
+
+    - title: "Lightning Talk: Heather Herrington" # TODO: missing talk title
+      start_cue: "7:05"
+      end_cue: "12:10"
+      video_id: heather-herrington-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Heather Herrington
+
+    - title: "Lightning Talk: Jen Pengelly" # TODO: missing talk title
+      start_cue: "12:10"
+      end_cue: "16:09"
+      video_id: jen-pengelly-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Jen Pengelly
+
+    - title: "Lightning Talk: Brian Underwood" # TODO: missing talk title
+      start_cue: "16:09"
+      end_cue: "21:15"
+      video_id: brian-underwood-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Brian Underwood
+
+    - title: "Lightning Talk: Cameron Dutro" # TODO: missing talk title
+      start_cue: "21:15"
+      end_cue: "26:14"
+      video_id: cameron-dutro-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Cameron Dutro
+
+    - title: "Lightning Talk: Aaron Rosenberg" # TODO: missing talk title
+      start_cue: "26:14"
+      end_cue: "31:23"
+      video_id: aaron-rosenberg-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Aaron Rosenberg
+
+    - title: "Lightning Talk: Starr Chen" # TODO: missing talk title
+      start_cue: "31:23"
+      end_cue: "37:28"
+      video_id: starr-chen-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Starr Chen
+
+    - title: "Lightning Talk: Margo Urey" # TODO: missing talk title
+      start_cue: "37:28"
+      end_cue: "43:25"
+      video_id: margo-urey-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Margo Urey
+
+    - title: "Lightning Talk: Ryan Laughlin" # TODO: missing talk title
+      start_cue: "43:25"
+      end_cue: "49:19"
+      video_id: ryan-laughlin-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Ryan Laughlin
+
+    - title: "Lightning Talk: Adam & Julia Cuppy" # TODO: missing talk title
+      start_cue: "49:19"
+      end_cue: "54:24"
+      video_id: adam-julia-cuppy-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Adam Cuppy
+        - Julia Cuppy
+
+    - title: "Lightning Talk: Jim Remsik" # TODO: missing talk title
+      start_cue: "54:24"
+      end_cue: "1:00:56"
+      video_id: jim-remsik-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Jim Remsik
+
+    - title: "Lightning Talk: Amir Rajan" # TODO: missing talk title
+      start_cue: "1:00:56"
+      end_cue: "1:07:06"
+      video_id: amir-rajan-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Amir Rajan
+
+    - title: "Lightning Talk: Dave Aronson" # TODO: missing talk title
+      start_cue: "1:07:06"
+      end_cue: "1:12:24"
+      video_id: dave-aronson-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Dave Aronson
+
+    - title: "Lightning Talk: Sam Livingston-Grey" # TODO: missing talk title
+      start_cue: "1:12:24"
+      end_cue: "1:17:10"
+      video_id: sam-livingston-grey-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Sam Livingston-Grey
+
+    - title: "Lightning Talk: Noah Gibbs" # TODO: missing talk title
+      start_cue: "1:17:10"
+      end_cue: "1:22:30"
+      video_id: noah-gibbs-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Noah Gibbs
+
+    - title: "Lightning Talk: Heidi Waterhouse" # TODO: missing talk title
+      start_cue: "1:22:30"
+      end_cue: "1:27:56"
+      video_id: heidi-waterhouse-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Heidi Waterhouse
+
+    - title: "Lightning Talk: Akira Matsuda" # TODO: missing talk title
+      start_cue: "1:27:56"
+      end_cue: "TODO"
+      video_id: akira-matsuda-lighting-talk-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Akira Matsuda
 
 - title: Keynote - The Impermanence of Software by Andy Croll
   raw_title: "RubyConf 2017: Keynote - The Impermanence of Software by Andy Croll"
@@ -503,25 +620,59 @@
 
 - title: "Ignites"
   raw_title: "RubyConf 2017: Ignites"
-  speakers:
-    - Evan Phoenix
-    - Rich Kilmer
-    - Nadia Odunayo
-    - Michael Hartl
-    - Jim Remsik
-    - Allison McMillan
   event_name: RubyConf 2017
   published_at: "2017-11-29"
-  description: |-
-    Ignites by
-
-    01:57:28 - Rich Kilmer
-    07:10:21 - Nadia Odunayo
-    12:45:23 - Michael Hartl
-    18:16:08 - Jim Remsik
-    23:49:08 - Allison McMillan
   video_provider: youtube
   video_id: 9VSo5u4ODWQ
+  talks:
+    - title: "Intro"
+      start_cue: "00:13"
+      end_cue: "01:53"
+      video_id: evan-phoenix-ignites-intro-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Evan Phoenix
+
+    - title: "Ignites: Foundations of the Ruby Community"
+      start_cue: "01:53"
+      end_cue: "07:13"
+      video_id: rich-kilmer-ignites-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Rich Kilmer
+
+    - title: "Ignites: How to get involved in the Ruby community"
+      start_cue: "07:13"
+      end_cue: "12:50"
+      video_id: nadia-odunayo-ignites-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Nadia Odunayo
+
+    - title: "Ignites: Ruby Going Global"
+      start_cue: "13:10"
+      end_cue: "18:13"
+      video_id: michael-hartl-ignites-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Michael Hartl
+
+    - title: "Ignites: Regional Conferences"
+      start_cue: "18:21"
+      end_cue: "23:49"
+      video_id: jim-remsik-ignites-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Jim Remsik
+
+    - title: "Ignites: Ruby-Bears in the land of Ruby-a-lot"
+      start_cue: "23:55"
+      end_cue: "29:29"
+      slides_url: https://speakerdeck.com/asheren/ruby-bears-in-the-land-of-ruby-a-lot
+      video_id: allison-mcmillan-ignites-rubyconf-2017
+      video_provider: parent
+      speakers:
+        - Allison McMillan
 
 - title: "Keynote: You're Insufficiently Persuasive"
   raw_title: "RubyConf 2017: Keynote - You're Insufficiently Persuasive by Sandi Metz"
@@ -905,7 +1056,7 @@
 - title: Just when you thought you couldn’t refactor any more…
   raw_title: "RubyConf 2017: Just when you thought you couldn’t refactor any more… by Claudio B."
   speakers:
-    - Claudio B.
+    - Claudio Baccigalupo
   event_name: RubyConf 2017
   published_at: "2017-12-01"
   description: |-

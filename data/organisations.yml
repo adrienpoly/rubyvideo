@@ -601,3 +601,61 @@
   slug: montreal-rb
   language: english
   youtube_channel_id: UCVGtTNLJjB35j-RgD62B9Zw
+
+- name: Ruby on Rails Switzerland
+  website: https://www.meetup.com/rubyonrails-ch
+  twitter: ""
+  youtube_channel_name: ""
+  kind: meetup
+  frequency: quarterly
+  playlist_matcher: ""
+  slug: ruby-on-rails-switzerland
+  language: english
+  youtube_channel_id: ""
+
+- name: RubyConf India
+  website: https://rubyconf.in
+  twitter: rubyconfindia
+  youtube_channel_name: ""
+  kind: conference
+  frequency: yearly
+  playlist_matcher: ""
+  slug: rubyconf-india
+  language: english
+  youtube_channel_id: ""
+
+- name: Ruby Banitsa
+  website: https://rubybanitsa.com
+  twitter: rubybanitsa
+  youtube_channel_name: ""
+  kind: conference
+  frequency: yearly
+  playlist_matcher: ""
+  slug: ruby-banitsa
+  language: english
+  youtube_channel_id: ""
+  default_country_code: BG
+
+- name: Ruby Manor
+  website: http://rubymanor.org
+  twitter: rubymanor
+  youtube_channel_name: ""
+  kind: conference
+  frequency: yearly
+  playlist_matcher: ""
+  slug: ruby-manor
+  language: english
+  youtube_channel_id: ""
+  default_country_code: UK
+
+- name: SF Bay Area Ruby
+  website: https://lu.ma/sfruby
+  twitter: sfruby
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: SF Bay Area Ruby
+  default_country_code: US
+  youtube_channel_name: SF Bay Area Ruby
+  slug: sf-bay-area-ruby
+  language: english
+  youtube_channel_id: ""

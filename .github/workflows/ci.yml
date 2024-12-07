@@ -121,6 +121,9 @@ jobs:
 
       - name: Run Seed Smoke Test
         run: bin/rails test test/tasks/db_seed_test.rb
+
+      - name: Verify all thumbnails for child talks are present
+        run: bin/rails verify_thumbnails
   deploy:
     needs: [lint, test, seed_smoke_test]
     name: Deploy

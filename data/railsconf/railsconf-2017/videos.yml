@@ -162,35 +162,146 @@
 
 - title: "Lightning Talks"
   raw_title: "RailsConf 2017: Lightning Talks by Various Speakers"
-  speakers:
-    - Benjamin Fleischer
-    - Heather Herrington
-    - Casey Maucaulay
-    - Kristen Ruben
-    - Lucas Fittl
-    - Justin Collins
-    - Ernesto Tagwerker
-    - Chris Sexton
-    - Michael toppa
-    - Isaac Sloan
-    - Ried Morrison
-    - Alejandro Corpeño
-    - Michael Hartl
-    - Ariel Caplan
-    - Alex Wood
-    - Jingyi Chen
-    - Lew Parker
   event_name: RailsConf 2017
   published_at: "2017-05-09"
-  description:
-    "RailsConf 2017: Lightning Talks by Various Speakers\n\n00:00 Benjamin
-    Fleischer\n01:23 Heather Herrington\n06:39 Casey Maucaulay\n10:56 Kristen Ruben\n17:44
-    Lucas Fittl\n18:40 Justin Collins\n19:36 Ernesto Tagwerker\n20:55 Chris Sexton\n24:07
-    Michael toppa\n29:55 Isaac Sloan\n34:39 Ried Morrison\n38:14 Alejandro Corpeño
-    \n43:44 Michael Hartl\n50:09 Ariel Caplan\n55:08 Alex Wood\n05:50 Jingyi Chen
-    \n01:03:12 Lew Parker"
   video_provider: youtube
   video_id: KGi9wRHWvB0
+  talks:
+    - title: "Lightning Talk: Benjamin Fleischer" # TODO: missing talk title
+      start_cue: "00:00"
+      end_cue: "01:23"
+      video_id: benjamin-fleischer-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Benjamin Fleischer
+
+    - title: "Lightning Talk: Heather Herrington" # TODO: missing talk title
+      start_cue: "01:23"
+      end_cue: "06:39"
+      video_id: heather-herrington-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Heather Herrington
+
+    - title: "Lightning Talk: Casey Maucaulay" # TODO: missing talk title
+      start_cue: "06:39"
+      end_cue: "10:56"
+      video_id: casey-maucaulay-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Casey Maucaulay
+
+    - title: "Lightning Talk: Kristen Ruben" # TODO: missing talk title
+      start_cue: "10:56"
+      end_cue: "17:44"
+      video_id: kristen-ruben-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Kristen Ruben
+
+    - title: "Lightning Talk: Lucas Fittl" # TODO: missing talk title
+      start_cue: "17:44"
+      end_cue: "18:40"
+      video_id: lucas-fittl-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Lucas Fittl
+
+    - title: "Lightning Talk: Justin Collins" # TODO: missing talk title
+      start_cue: "18:40"
+      end_cue: "19:36"
+      video_id: justin-collins-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Justin Collins
+
+    - title: "Lightning Talk: Ernesto Tagwerker" # TODO: missing talk title
+      start_cue: "19:36"
+      end_cue: "20:55"
+      video_id: ernesto-tagwerker-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Ernesto Tagwerker
+
+    - title: "Lightning Talk: Chris Sexton" # TODO: missing talk title
+      start_cue: "20:55"
+      end_cue: "24:07"
+      video_id: chris-sexton-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Chris Sexton
+
+    - title: "Lightning Talk: Michael Toppa" # TODO: missing talk title
+      start_cue: "24:07"
+      end_cue: "29:55"
+      video_id: michael-toppa-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Michael Toppa
+
+    - title: "Lightning Talk: Isaac Sloan" # TODO: missing talk title
+      start_cue: "29:55"
+      end_cue: "34:39"
+      video_id: isaac-sloan-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Isaac Sloan
+
+    - title: "Lightning Talk: Ried Morrison" # TODO: missing talk title
+      start_cue: "34:39"
+      end_cue: "38:14"
+      video_id: ried-morrison-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Ried Morrison
+
+    - title: "Lightning Talk: Alejandro Corpeño" # TODO: missing talk title
+      start_cue: "38:14"
+      end_cue: "43:44"
+      video_id: alejandro-corpeno-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Alejandro Corpeño
+
+    - title: "Lightning Talk: Michael Hartl" # TODO: missing talk title
+      start_cue: "43:44"
+      end_cue: "50:09"
+      video_id: michael-hartl-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Michael Hartl
+
+    - title: "Lightning Talk: Ariel Caplan" # TODO: missing talk title
+      start_cue: "50:09"
+      end_cue: "55:12"
+      video_id: ariel-caplan-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Ariel Caplan
+
+    - title: "Lightning Talk: aws-record"
+      start_cue: "55:12"
+      end_cue: "58:53"
+      video_id: alex-wood-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Alex Wood
+
+    - title: "Lightning Talk: Waiters in AWS SDK for Ruby"
+      start_cue: "58:53"
+      end_cue: "01:03:17"
+      video_id: jingyi-chen-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Jingyi Chen
+
+    - title: "Lightning Talk: Lew Parker" # TODO: missing talk title
+      start_cue: "01:03:17"
+      end_cue: "01:08:12"
+      video_id: lew-parker-lighting-talk-railsconf-2017
+      video_provider: parent
+      speakers:
+        - Lew Parker
 
 - title: "An Optimistic Proposal for Making Horrible Code... Bearable"
   raw_title: "RailsConf 2017: An Optimistic Proposal for Making Horrible Code... Bearable by Joe Mastey"
@@ -1069,7 +1180,7 @@
 - title: "Rails 5.1: Awesome Features and Breaking Changes"
   raw_title: "RailsConf 2017: Rails 5.1: Awesome Features and Breaking Changes by Claudio B"
   speakers:
-    - Claudio B
+    - Claudio Baccigalupo
   event_name: RailsConf 2017
   published_at: "2017-05-26"
   description: |-

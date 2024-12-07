@@ -3,23 +3,25 @@
 #
 # Table name: speakers
 #
-#  id            :integer          not null, primary key
-#  bio           :text             default(""), not null
-#  bsky          :string           default(""), not null
-#  github        :string           default(""), not null
-#  linkedin      :string           default(""), not null
-#  mastodon      :string           default(""), not null
-#  name          :string           default(""), not null, indexed
-#  pronouns      :string           default(""), not null
-#  pronouns_type :string           default("not_specified"), not null
-#  slug          :string           default(""), not null, indexed
-#  speakerdeck   :string           default(""), not null
-#  talks_count   :integer          default(0), not null
-#  twitter       :string           default(""), not null
-#  website       :string           default(""), not null
-#  created_at    :datetime         not null
-#  updated_at    :datetime         not null
-#  canonical_id  :integer          indexed
+#  id              :integer          not null, primary key
+#  bio             :text             default(""), not null
+#  bsky            :string           default(""), not null
+#  bsky_metadata   :json             not null
+#  github          :string           default(""), not null
+#  github_metadata :json             not null
+#  linkedin        :string           default(""), not null
+#  mastodon        :string           default(""), not null
+#  name            :string           default(""), not null, indexed
+#  pronouns        :string           default(""), not null
+#  pronouns_type   :string           default("not_specified"), not null
+#  slug            :string           default(""), not null, indexed
+#  speakerdeck     :string           default(""), not null
+#  talks_count     :integer          default(0), not null
+#  twitter         :string           default(""), not null
+#  website         :string           default(""), not null
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#  canonical_id    :integer          indexed
 #
 # Indexes
 #
@@ -52,9 +54,12 @@ class Speaker < ApplicationRecord
   has_many :talks, through: :speaker_talks, inverse_of: :speakers
   has_many :events, -> { distinct }, through: :talks, inverse_of: :speakers
   has_many :aliases, class_name: "Speaker", foreign_key: "canonical_id"
+  has_many :topics, through: :talks
 
   belongs_to :canonical, class_name: "Speaker", optional: true
   belongs_to :user, primary_key: :github_handle, foreign_key: :github, optional: true
+
+  has_object :profile_enhancer
 
   # validations
   validates :canonical, exclusion: {in: ->(speaker) { [speaker] }, message: "can't be itself"}
@@ -123,14 +128,43 @@ class Speaker < ApplicationRecord
     super
   end
 
+  def avatar_url(...)
+    bsky_avatar_url(...) || github_avatar_url(...) || fallback_avatar_url(...)
+  end
+
+  def avatar_rank
+    return 1 if bsky_avatar_url.present?
+    return 2 if github_avatar_url.present?
+
+    3
+  end
+
+  def custom_avatar?
+    bsky_avatar_url.present? || github_avatar_url.present?
+  end
+
+  def bsky_avatar_url(...)
+    bsky_metadata.dig("avatar")
+  end
+
   def github_avatar_url(size: 200)
-    return "" unless github.present?
+    return nil if github.blank?
+
+    metadata_avatar_url = github_metadata.dig("profile", "avatar_url")
+
+    return "#{metadata_avatar_url}&size=#{size}" if metadata_avatar_url.present?
 
     "https://github.com/#{github}.png?size=#{size}"
   end
 
-  def broadcast_about
-    broadcast_update_to self, target: dom_id(self, :about), partial: "speakers/about", locals: {speaker: self}
+  def fallback_avatar_url(size: 200)
+    url_safe_initials = name.split(" ").map(&:first).join("+")
+
+    "https://ui-avatars.com/api/?name=#{url_safe_initials}&size=#{size}&background=DC133C&color=fff"
+  end
+
+  def broadcast_header
+    broadcast_update target: dom_id(self, :header_content), partial: "speakers/header_content", locals: {speaker: self}
   end
 
   def valid_website_url

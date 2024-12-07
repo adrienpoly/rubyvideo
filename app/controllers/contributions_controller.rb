@@ -59,5 +59,11 @@ class ContributionsController < ApplicationController
 
     @conferences_to_index = @with_video_link.count + @without_video_link.count
     @already_index_conferences = @upstream_conferences.count - @conferences_to_index
+
+    # Missing video cues
+
+    videos_with_missing_cues = Static::Video.all.select { |video| video.talks.any? { |t| t.start_cue == "TODO" || t.end_cue == "TODO" } }
+    @missing_videos_cue = videos_with_missing_cues.map { |video| Talk.find_by(video_provider: video.video_provider || :youtube, video_id: video.video_id) }.group_by(&:event).select { |_event, talks| talks.any? }
+    @missing_videos_cue_count = videos_with_missing_cues.count
   end
 end

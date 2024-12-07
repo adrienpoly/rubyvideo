@@ -25,7 +25,10 @@ class SpeakersController < ApplicationController
   # GET /speakers/1
   def show
     @talks = @speaker.talks.with_essential_card_data.order(date: :desc)
+    @topics = @speaker.topics.approved.tally.sort_by(&:last).reverse.map(&:first)
+
     @back_path = speakers_path
+
     set_meta_tags(@speaker)
   end
 

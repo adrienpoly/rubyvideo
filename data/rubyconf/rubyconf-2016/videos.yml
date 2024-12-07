@@ -792,64 +792,213 @@
 
 - title: Lightning Talks
   raw_title: RubyConf 2016 - Lightning Talks by Various Presenters
-  speakers:
-    - André Arko
-    - Francois Lapierre Messier
-    - Sam Phippen
-    - Caroline Jobe
-    - Jen Pengelly
-    - Starr Chen
-    - Olivia Brundage
-    - Kate Rezentes
-    - Amy Howes
-    - Assaf Hefetz
-    - Miki Rezentes
-    - Michael Hartl
-    - James Thompson
-    - Victoria Gonda
-    - Jonathon Slate
-    - Michael Cain
-    - Jamie Gaskins
-    - Yurie Yamane
-    - Kei Nawanda
-    - Ryder Timberlake
-    - Noah Gibbs
-    - Chris Vannoy
-    - Andrew Faraday
-    - Mischa Lewis
-    - Jeff Foster
   event_name: RubyConf 2016
   published_at: "2016-11-11"
   description: |-
-    RubyConf 2016 - Lightning Talks by Various Presenters
-
-    00:00:00 - André Arko
-    00:01:26 - Francois Lapierre Messier
-    00:02:12 - Sam Phippen
-    00:06:05 - Caroline Jobe
-    00:10:07 - Jen Pengelly
-    00:13:31 - Starr Chen
-    00:18:22 - Olivia Brundage
-    00:20:46 - Kate Rezentes
-    00:23:20 - Amy Howes
-    00:28:26 - Assaf Hefetz
-    00:33:45 - Miki Rezentes
-    00:38:52 - Michael Hartl
-    00:43:44 - James Thompson
-    00:48:00 - Victoria Gonda
-    00:52:17 - Jonathon Slate
-    00:56:22 - Michael Cain
-    00:58:54 - Jamie Gaskins
-    01:03:57 - Yurie Yamane
-    01:09:02 - Kei Nawanda
-    01:14:24 - Ryder Timberlake
-    01:19:18 - Noah Gibbs
-    01:23:51 - Chris Vannoy
-    01:24:21 - Andrew Faraday
-    01:24:37 - Mischa Lewis
-    01:29:10 - Jeff Foster
+    A lightning talk is a short presentation (up to 5 mins) on your chosen topic.
+  video_provider: youtube
   video_id: SswGJpZVNFg
   track: null
+  talks:
+    - title: "Lightning Talk: André Arko" # TODO: missing talk title
+      start_cue: "00:00:00"
+      end_cue: "00:01:26"
+      video_id: andre-arko-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - André Arko
+
+    - title: "Lightning Talk: Francois Lapierre Messier" # TODO: missing talk title
+      start_cue: "00:01:26"
+      end_cue: "00:02:12"
+      video_id: francois-lapierre-messier-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Francois Lapierre Messier
+
+    - title: "Lightning Talk: Sam Phippen" # TODO: missing talk title
+      start_cue: "00:02:12"
+      end_cue: "00:06:05"
+      video_id: sam-phippen-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Sam Phippen
+
+    - title: "Lightning Talk: Caroline Jobe" # TODO: missing talk title
+      start_cue: "00:06:05"
+      end_cue: "00:10:07"
+      video_id: caroline-jobe-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Caroline Jobe
+
+    - title: "Lightning Talk: Jen Pengelly" # TODO: missing talk title
+      start_cue: "00:10:07"
+      end_cue: "00:13:31"
+      video_id: jen-pengelly-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Jen Pengelly
+
+    - title: "Lightning Talk: Starr Chen" # TODO: missing talk title
+      start_cue: "00:13:31"
+      end_cue: "00:18:22"
+      video_id: starr-chen-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Starr Chen
+
+    - title: "Lightning Talk: Olivia Brundage" # TODO: missing talk title
+      start_cue: "00:18:22"
+      end_cue: "00:20:46"
+      video_id: olivia-brundage-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Olivia Brundage
+
+    - title: "Lightning Talk: Kate Rezentes" # TODO: missing talk title
+      start_cue: "00:20:46"
+      end_cue: "00:23:20"
+      video_id: kate-rezentes-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Kate Rezentes
+
+    - title: "Lightning Talk: Amy Howes" # TODO: missing talk title
+      start_cue: "00:23:20"
+      end_cue: "00:28:26"
+      video_id: amy-howes-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Amy Howes
+
+    - title: "Lightning Talk: Assaf Hefetz" # TODO: missing talk title
+      start_cue: "00:28:26"
+      end_cue: "00:33:45"
+      video_id: assaf-hefetz-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Assaf Hefetz
+
+    - title: "Lightning Talk: Miki Rezentes" # TODO: missing talk title
+      start_cue: "00:33:45"
+      end_cue: "00:38:52"
+      video_id: miki-rezentes-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Miki Rezentes
+
+    - title: "Lightning Talk: Michael Hartl" # TODO: missing talk title
+      start_cue: "00:38:52"
+      end_cue: "00:43:44"
+      video_id: michael-hartl-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Michael Hartl
+
+    - title: "Lightning Talk: James Thompson" # TODO: missing talk title
+      start_cue: "00:43:44"
+      end_cue: "00:48:00"
+      video_id: james-thompson-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - James Thompson
+
+    - title: "Lightning Talk: Victoria Gonda" # TODO: missing talk title
+      start_cue: "00:48:00"
+      end_cue: "00:52:17"
+      video_id: victoria-gonda-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Victoria Gonda
+
+    - title: "Lightning Talk: Jonathon Slate" # TODO: missing talk title
+      start_cue: "00:52:17"
+      end_cue: "00:56:22"
+      video_id: jonathon-slate-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Jonathon Slate
+
+    - title: "Lightning Talk: Michael Cain" # TODO: missing talk title
+      start_cue: "00:56:22"
+      end_cue: "00:58:54"
+      video_id: michael-cain-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Michael Cain
+
+    - title: "Lightning Talk: Jamie Gaskins" # TODO: missing talk title
+      start_cue: "00:58:54"
+      end_cue: "01:03:57"
+      video_id: jamie-gaskins-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Jamie Gaskins
+
+    - title: "Lightning Talk: Yurie Yamane" # TODO: missing talk title
+      start_cue: "01:03:57"
+      end_cue: "01:09:02"
+      video_id: yurie-yamane-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Yurie Yamane
+
+    - title: "Lightning Talk: Kei Nawanda" # TODO: missing talk title
+      start_cue: "01:09:02"
+      end_cue: "01:14:24"
+      video_id: kei-nawanda-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Kei Nawanda
+
+    - title: "Lightning Talk: Ryder Timberlake" # TODO: missing talk title
+      start_cue: "01:14:24"
+      end_cue: "01:19:18"
+      video_id: ryder-timberlake-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Ryder Timberlake
+
+    - title: "Lightning Talk: Noah Gibbs" # TODO: missing talk title
+      start_cue: "01:19:18"
+      end_cue: "01:23:51"
+      video_id: noah-gibbs-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Noah Gibbs
+
+    - title: "Lightning Talk: Chris Vannoy" # TODO: missing talk title
+      start_cue: "01:23:51"
+      end_cue: "01:24:21"
+      video_id: chris-vannoy-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Chris Vannoy
+
+    - title: "Lightning Talk: Andrew Faraday" # TODO: missing talk title
+      start_cue: "01:24:21"
+      end_cue: "01:24:37"
+      video_id: andrew-faraday-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Andrew Faraday
+
+    - title: "Lightning Talk: Mischa Lewis" # TODO: missing talk title
+      start_cue: "01:24:37"
+      end_cue: "01:29:10"
+      video_id: mischa-lewis-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Mischa Lewis
+
+    - title: "Lightning Talk: Jeff Foster" # TODO: missing talk title
+      start_cue: "01:29:10"
+      end_cue: "01:33:39"
+      video_id: jeff-foster-lighting-talk-rubyconf-2016
+      video_provider: parent
+      speakers:
+        - Jeff Foster
 
 # Day 3 - 2016-11-12
 

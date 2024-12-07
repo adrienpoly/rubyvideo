@@ -1,4 +1,15 @@
-<div class="w-full lg:h-92 p-4 lg:p-16 border rounded-[25px] lg:rounded-[50px] text-center lg:text-left" style="background: <%= event.featured_background %>; color: <%= event.featured_color %>">
+<div
+  class="w-full lg:h-92 p-4 lg:p-16 border rounded-[25px] lg:rounded-[50px] text-center lg:text-left"
+  style="
+    color: <%= event.featured_color %>;
+    <% if event.featured_background.start_with?("data:") %>
+      background: url('<%= event.featured_background %>');
+      background-repeat: no-repeat;
+      background-size: cover;
+    <% else %>
+      background: <%= event.featured_background %>;
+    <% end %>
+  ">
   <a href="<%= event_path(event) %>">
     <div class="lg:grid grid-cols-[1fr_2fr]">
       <div>
@@ -21,14 +32,14 @@
             <% shown_speakers = [] %>
 
             <% all_speakers = event.speakers.to_a %>
-            <% speakers_with_avatars = all_speakers.select { |speaker| speaker.github.present? } %>
+            <% speakers_with_avatars = all_speakers.select { |speaker| speaker.avatar_url.present? }.sort_by(&:avatar_rank) %>
 
             <% event.keynote_speakers.each do |keynote_speaker| %>
               <% shown_speakers << keynote_speaker %>
 
               <div class="avatar bg-white">
                 <div class="w-12 lg:w-28 xl:w-40">
-                  <img src="<%= keynote_speaker.github_avatar_url %>" onerror="this.parentElement.parentElement.remove()" loading="lazy">
+                  <img src="<%= keynote_speaker.avatar_url %>" onerror="this.parentElement.parentElement.remove()" loading="lazy">
                 </div>
               </div>
             <% end %>
@@ -39,7 +50,7 @@
 
                 <div class="avatar bg-white">
                   <div class="w-12 lg:w-28 xl:w-40">
-                    <img src="<%= speaker.github_avatar_url %>" loading="lazy">
+                    <img src="<%= speaker.avatar_url %>" loading="lazy">
                   </div>
                 </div>
               <% end %>
@@ -57,7 +68,7 @@
 
                 <div class="avatar bg-white">
                   <div class="w-8 xl:w-12">
-                    <img src="<%= speaker.github_avatar_url %>" loading="lazy">
+                    <img src="<%= speaker.avatar_url %>" loading="lazy">
                   </div>
                 </div>
               <% end %>

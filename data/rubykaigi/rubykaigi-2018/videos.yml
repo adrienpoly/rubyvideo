@@ -412,27 +412,110 @@
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/piotr_murach
 
-- title: Lightning Talks
+- title: Lightning Talks (Day 1)
   raw_title: "[EN][JA] Lightning Talks"
-  speakers:
-    - Tadashi Saito
-    - lulalala
-    - Kazuma Furuhashi
-    - Shizuo Fujita
-    - NAITOH Jun
-    - elct9620
-    - Sangyong Sim
-    - Shigeru Nakajima
-    - Vladimir Dementyev
-    - Yoh Osaki
-    - Lin Yu Hsiang
-    - unak
   event_name: RubyKaigi 2018
   published_at: "2018-05-31"
   video_provider: youtube
   video_id: hCZWrvO_27k
   language: Japanese
   description: RubyKaigi 2018 https://rubykaigi.org/2018/presentations/lt/
+  talks:
+    - title: "Lightning Talk: From String#undump to String#unescape"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tadashi-saito-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - Tadashi Saito
+
+    - title: "Lightning Talk: Rib - Yet another interactive Ruby shell"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: lulalala-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - lulalala
+
+    - title: "Lightning Talk: Create libcsv based ruby/csv compatible CSV library"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: kazuma-furuhashi-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - Kazuma Furuhashi
+
+    - title: "Lightning Talk: Improve JSON performance"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: shizuo-fujita-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - Shizuo Fujita
+
+    - title: "Lightning Talk: Improve Red Chainer and Numo::NArray performance"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: naitoh-jun-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - NAITOH Jun
+
+    - title: "Lightning Talk: Using Tamashii Connect Real World with Chatbot"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: elct9620-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - elct9620
+
+    - title: "Lightning Talk: Find out potential dead codes from diff"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: sangyong-sim-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - Sangyong Sim
+
+    - title: "Lightning Talk: Test asynchronous functions with RSpec"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: shigeru-nakajima-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - Shigeru Nakajima
+
+    - title: "Lightning Talk: To refine or not to refine"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: vladimir-dementyev-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - Vladimir Dementyev
+
+    - title: "Lightning Talk: 5-Minute Recipe of Todo-app"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: yoh-osaki-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - Yoh Osaki
+
+    - title: "Lightning Talk: Symbolic Execution of Ruby Programs"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: lin-yu-hsiang-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - Lin Yu Hsiang
+
+    - title: "Lightning Talk: Schrödinger's branch"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: unak-lighting-talk-rubykaigi-2018
+      video_provider: parent
+      speakers:
+        - unak
 
 - title: "bancor: Token economy made with Ruby"
   raw_title: "[JA] bancor: Token economy made with Ruby / Yuta Kurotaki @kurotaky"

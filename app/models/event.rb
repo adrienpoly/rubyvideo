@@ -35,7 +35,7 @@ class Event < ApplicationRecord
   slug_from :name
 
   # associations
-  belongs_to :organisation, strict_loading: true
+  belongs_to :organisation, strict_loading: false
   has_many :talks, dependent: :destroy, inverse_of: :event, foreign_key: :event_id
   has_many :speakers, -> { distinct }, through: :talks
   has_many :topics, -> { distinct }, through: :talks

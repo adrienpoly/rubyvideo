@@ -27,7 +27,7 @@ class Avo::Resources::Speaker < Avo::BaseResource
     field :canonical, as: :belongs_to, hide_on: :index
     # field :suggestions, as: :has_many
     # field :speaker_talks, as: :has_many
-    field :talks, as: :has_many, use_resource: "Avo::Resources::Talk"
+    field :talks, as: :has_many, use_resource: "Avo::Resources::Talk", attach_scope: -> { query.order(title: :asc) }, searchable: true
   end
 
   def filters

@@ -97,30 +97,51 @@
 
 - title: "Lightning Talks (Day 1)"
   raw_title: Rocky Mountain Ruby 2014 - Lightning Talks (Day 1)
-  speakers:
-    - Anna Fowles-Winkler
-    - Starr Horne
-    - Jessica Goulding
-    - Tim Schmelmer
-    - Jon McCartie
   event_name: Rocky Mountain Ruby 2014
   published_at: "2014-10-21"
-  description: |-
-    00:00:00 - Teen Hackathons by Anna Fowles-Winkler
-
-    00:04:06 - Speed Up Your Deatabase by Starr Horne
-
-    00:08:11 - Go Code Colorado by Jessica Goulding
-
-    00:10:38 - Documenting and Exploring your APIs by Tim Schmelmer
-
-    00:17:07 - Dashboard Dashing by Jon McCartie
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/F0ot/
+  description: ""
   video_provider: youtube
   video_id: iYvm_5z0mZQ
+  talks:
+    - title: "Lightning Talk: Teen Hackathons"
+      start_cue: "00:00"
+      end_cue: "04:06"
+      video_id: anna-fowles-winkler-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Anna Fowles-Winkler
+
+    - title: "Lightning Talk: Speed Up Your Database"
+      start_cue: "04:06"
+      end_cue: "08:11"
+      video_id: starr-horne-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Starr Horne
+
+    - title: "Lightning Talk: Go Code Colorado"
+      start_cue: "08:11"
+      end_cue: "10:38"
+      video_id: jessica-goulding-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Jessica Goulding
+
+    - title: "Lightning Talk: Documenting and Exploring your APIs"
+      start_cue: "10:38"
+      end_cue: "17:07"
+      video_id: tim-schmelmer-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Tim Schmelmer
+
+    - title: "Lightning Talk: Dashboard Dashing"
+      start_cue: "17:07"
+      end_cue: "21:44"
+      video_id: jon-mccartie-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Jon McCartie
 
 - title: Micro Testing Pains
   raw_title: Rocky Mountain Ruby 2014 - Micro Testing Pains by Marcos Castilho
@@ -212,42 +233,83 @@
 
 - title: "Lightning Talks (Day 2)"
   raw_title: Rocky Mountain Ruby 2014 - Lightning Talks (Day 2)
-  speakers:
-    - Risa Batta
-    - Cory Leistikow
-    - George Apitz
-    - Joe
-    - Marcus Morrison
-    - Ara T. Howard
-    - Doc Norton
-    - Ryan Melton
-    - Shelby Kelly
   event_name: Rocky Mountain Ruby 2014
   published_at: "2014-10-22"
-  description: |-
-    00:00:00 Asset Pipeline Tips and Tricks by Risa Batta
-
-    00:05:08 Alfred is Awesome by Cory Leistikow
-
-    00:08:08 The Human Connection by George Apitz
-
-    00:12:20 Methan Hydrate by Joe
-
-    00:15:50 State Machines by Marcus Morrison
-
-    00:18:58 Rails as Static Content Complie by Ara T. Howard
-
-    00:23:16 Teams Decision Making Tools by Doc Norton
-
-    00:30:15 Qtbindings - GUIs in Ruby by Ryan Melton
-
-    00:31:00 Rocky Mountain Ruby Rap by Shelby Kelly
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/F1kL/
+  description: ""
   video_provider: youtube
   video_id: DqoKIKWf2HM
+  talks:
+    - title: "Lightning Talk: Asset Pipeline Tips and Tricks"
+      start_cue: "00:00"
+      end_cue: "05:08"
+      video_id: risa-batta-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Risa Batta
+
+    - title: "Lightning Talk: Alfred is Awesome"
+      start_cue: "05:08"
+      end_cue: "08:08"
+      video_id: cory-leistikow-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Cory Leistikow
+
+    - title: "Lightning Talk: The Human Connection"
+      start_cue: "08:08"
+      end_cue: "12:20"
+      video_id: george-apitz-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - George Apitz
+
+    - title: "Lightning Talk: Methan Hydrate"
+      start_cue: "12:20"
+      end_cue: "15:50"
+      video_id: joe-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Joe
+
+    - title: "Lightning Talk: State Machines"
+      start_cue: "15:50"
+      end_cue: "18:58"
+      video_id: marcus-morrison-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Marcus Morrison
+
+    - title: "Lightning Talk: Rails as Static Content Compile"
+      start_cue: "18:58"
+      end_cue: "23:16"
+      video_id: ara-t-howard-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Ara T. Howard
+
+    - title: "Lightning Talk: Teams Decision Making Tools"
+      start_cue: "23:16"
+      end_cue: "30:15"
+      video_id: doc-norton-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Doc Norton
+
+    - title: "Lightning Talk: Qtbindings - GUIs in Ruby"
+      start_cue: "30:15"
+      end_cue: "31:00"
+      video_id: ryan-melton-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Ryan Melton
+
+    - title: "Lightning Talk: Rocky Mountain Ruby Rap"
+      start_cue: "31:00"
+      end_cue: "35:11"
+      video_id: shelby-kelly-lighting-talk-rocky-mountain-ruby-2014
+      video_provider: parent
+      speakers:
+        - Shelby Kelly
 
 - title: 'Your Company is "Awesome" (But is "Company Culture" a lie?)'
   raw_title:

@@ -27,7 +27,7 @@ class SpeakersTest < ApplicationSystemTestCase
     wait_for_turbo_stream_connected(streamable: @speaker)
 
     @speaker.update(bio: "New bio")
-    @speaker.broadcast_about
+    @speaker.broadcast_header
 
     assert_text "New bio"
   end

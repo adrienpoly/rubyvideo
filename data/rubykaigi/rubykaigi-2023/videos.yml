@@ -43,10 +43,14 @@
     - Emily Samp
   event_name: RubyKaigi 2023
   published_at: "2023-05-11"
+  slides_url: https://drive.google.com/drive/folders/1PzSj_wTHVIrZNC80IyZzuma85sVIiWTz?usp=sharing
   video_provider: youtube
   video_id: UpbVZ4Gqk3c
   language: English
-  description: ""
+  description: |-
+    Last year, Tapioca became the official tool for generating RBI files for Sorbet. Using Tapioca, developers can quickly generate accurate RBIs for external Ruby gems, allowing them to use Sorbet in their projects even if most gems have not yet added type signatures.
+
+    In this talk, I’ll explain how I implemented new functionality in Tapioca to help it generate RBIs for dynamic mixins in Ruby gems. Along the way, we’ll learn about how Tapioca uses information about the Ruby object model to generate RBIs, and how this work has impacted the Ruby language as a whole.
 
 - title: Make Regexp#match much faster
   raw_title: "[JA] Make Regexp#match much faster / Hiroya FUJINAMI @makenowjust"
@@ -149,25 +153,131 @@
 
 - title: Lightning Talks
   raw_title: "[EN][JA] Lightning Talks"
-  speakers:
-    - katsyoshi
-    - kokuyou
-    - OKURA Masafumi
-    - Yukihiro "Matz" Matsumoto
-    - lulalala
-    - Shugo Maeda
-    - Yla Aioi
-    - Yuichiro Kaneko
-    - Yuya Fujiwara
-    - Peter Zhu
-    - Yudai Takada
-    - Sorah Fukumori
   event_name: RubyKaigi 2023
   published_at: "2023-05-11"
   video_provider: youtube
   video_id: c58mN6NtwsQ
   language: Japanese
   description: ""
+  speakers:
+    - Akira Matsuda
+  talks:
+    - title: "Lightning Talk: Building Ruby Native Extension using Ruby"
+      start_cue: "00:55"
+      end_cue: "TODO"
+      video_id: katsyoshi-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: Japanese # and English
+      speakers:
+        - katsyoshi
+
+    - title: "Lightning Talk: RBS meets LLMs"
+      start_cue: "06:14"
+      end_cue: "TODO"
+      video_id: kokuyou-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - kokuyou
+
+    - title: "Lightning Talk: I love VIM"
+      start_cue: "11:30"
+      end_cue: "TODO"
+      video_id: okura-masafumi-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: English
+      speakers:
+        - OKURA Masafumi
+
+    - title: "Lightning Talk: mruby VM"
+      start_cue: "16:40"
+      end_cue: "TODO"
+      video_id: yukihiro-matz-matsumoto-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Yukihiro "Matz" Matsumoto
+
+    - title: "Lightning Talk: Natsukantou - an XML translator"
+      start_cue: "22:03"
+      end_cue: "TODO"
+      video_id: lulalala-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: English
+      speakers:
+        - lulalala
+
+    - title: "Lightning Talk: Bingo in the browser using ruby.wasm"
+      start_cue: "26:29"
+      end_cue: "TODO"
+      video_id: shugo-maeda-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Shugo Maeda
+
+    - title: "Lightning Talk: Adding custom rule for RuboCop in the 2 month of employment"
+      start_cue: "31:36"
+      end_cue: "TODO"
+      video_id: yla-aioi-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Yla Aioi
+
+    - title: "Lightning Talk: Unexplored Region - parse.y"
+      start_cue: "35:53"
+      end_cue: "TODO"
+      video_id: yuichiro-kaneko-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Yuichiro Kaneko
+
+    - title: "Lightning Talk: Ultra-fast Test Driven Development"
+      start_cue: "41:07"
+      end_cue: "TODO"
+      video_id: yuya-fujiwara-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Yuya Fujiwara
+
+    - title: "Lightning Talk: Optimizing Ruby's Memory Layout - Variable Width Allocation"
+      start_cue: "46:20"
+      end_cue: "TODO"
+      video_id: peter-zhu-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: English
+      speakers:
+        - Peter Zhu
+
+    - title: "Lightning Talk: Dividing and Managing - The Cops Squad of RuboCop Rspec Dept."
+      start_cue: "50:09"
+      end_cue: "TODO"
+      video_id: yudai-takada-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: Japanese
+      speakers:
+        - Yudai Takada
+
+    - title: "Lightning Talk: Serverless IdP for Small Team"
+      start_cue: "54:31"
+      end_cue: "59:35"
+      video_id: sorah-fukumori-lighting-talk-rubykaigi-2023
+      video_provider: parent
+      language: English
+      speakers:
+        - Sorah Fukumori
+
+    - title: "Day Closing"
+      start_cue: "59:35"
+      end_cue: "01:01:46"
+      video_id: sorah-fukumori-lightning-talks-closing-rubykaigi-2023
+      video_provider: parent
+      language: English # and Japanese
+      speakers:
+        - Sorah Fukumori
 
 - title: On Ruby and ꝩduЯ, or How Scary are Trojan Source Attacks
   raw_title: "[EN] On Ruby and ꝩduЯ, or How Scary are Trojan Source Attacks / Martin J. Dürst @duerst"

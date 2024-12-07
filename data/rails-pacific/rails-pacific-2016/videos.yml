@@ -6,36 +6,66 @@
 
 - title: "Lightning Talks"
   raw_title: Rails Pacific 2016 - Lightning Talks
-  speakers:
-    - Rick Liu
-    - lulalala
-    - Charlie Hua
-    - Xdite
-    - Bruce Li
-    - Juanito Fatas
-    - Adam Cuppy
   event_name: Rails Pacific 2016
   published_at: "2016-06-09"
-  description: |-
-    00:12 - JavaScript by Rick Liu
-
-    04:06 - Helpers, Decorators, Exhibitors, Presenters by Lulalala
-
-    07:32 Why Developers Should Eat Healthier (and how) by Charlie Hua
-
-    12:59 Intro to RedPotion by Xdite
-
-    17:58 Unlock Dependency Between Client Teams and API Teams with API Mock and Proxy by Bruce Li
-
-    23:02 Continuous Updates: Update Early & Update Often by Juanito Fatas
-
-    27:39 High Five - Adam Cuppy
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/Lid0/
   video_provider: youtube
   video_id: k7HjIypXtl8
+  talks:
+    - title: "Lightning Talk: JavaScript"
+      start_cue: "00:12"
+      end_cue: "04:06"
+      video_id: rick-liu-lighting-talk-rails-pacific-2016
+      video_provider: parent
+      speakers:
+        - Rick Liu
+
+    - title: "Lightning Talk: Helpers, Decorators, Exhibitors, Presenters"
+      start_cue: "04:06"
+      end_cue: "07:32"
+      video_id: lulalala-lighting-talk-rails-pacific-2016
+      video_provider: parent
+      speakers:
+        - lulalala
+
+    - title: "Lightning Talk: Why Developers Should Eat Healthier (and how)"
+      start_cue: "07:32"
+      end_cue: "12:59"
+      video_id: charlie-hua-lighting-talk-rails-pacific-2016
+      video_provider: parent
+      speakers:
+        - Charlie Hua
+
+    - title: "Lightning Talk: Intro to RedPotion"
+      start_cue: "12:59"
+      end_cue: "17:58"
+      video_id: xdite-lighting-talk-rails-pacific-2016
+      video_provider: parent
+      speakers:
+        - Yi-Ting "Xdite" Cheng
+
+    - title: "Lightning Talk: Unlock Dependency Between Client Teams and API Teams with API Mock and Proxy"
+      start_cue: "17:58"
+      end_cue: "23:02"
+      video_id: bruce-li-lighting-talk-rails-pacific-2016
+      video_provider: parent
+      speakers:
+        - Bruce Li
+
+    - title: "Lightning Talk: Continuous Updates: Update Early & Update Often"
+      start_cue: "23:02"
+      end_cue: "27:39"
+      video_id: juanito-fatas-lighting-talk-rails-pacific-2016
+      video_provider: parent
+      speakers:
+        - Juanito Fatas
+
+    - title: "Lightning Talk: High Five"
+      start_cue: "27:39"
+      end_cue: "31:31"
+      video_id: adam-cuppy-lighting-talk-rails-pacific-2016
+      video_provider: parent
+      speakers:
+        - Adam Cuppy
 
 - title: When Making Money Becomes a Headache Dealing with Payments
   raw_title: Rails Pacific 2016 - When Making Money Becomes a Headache... by Sebastian Sogamoso
@@ -173,7 +203,7 @@
 - title: Successful Speedy MVP Website Development
   raw_title: Rails Pacific 2016 - Successful Speedy MVP Website Development by Xdite
   speakers:
-    - Xdite
+    - Yi-Ting "Xdite" Cheng
   event_name: Rails Pacific 2016
   published_at: "2016-06-09"
   description: |-

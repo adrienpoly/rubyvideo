@@ -218,18 +218,59 @@
 
 - title: Lightning Talks
   raw_title: "RubyConf Mini 2022: Lightning Talks"
-  speakers:
-    - Ratnadeep Deshmane # Dissecting Rails - A Different Approach to Learning Rails
-    - Chris Seaton # Presenting The "Who You Gonna Call" Paper by Sophie Kaleba et al.
-    - Nick Quaranto # What open source software can learn from co-operatives
-    - Keith Bennett # Coding with Ruby
-    -  # Jo Ha TODO: double-check name # Church Numerals
-    - Max Wofford # Whimsical Features & Junior Developers
   event_name: RubyConf 2022 Mini
   published_at: "2023-02-28"
   description: ""
   video_provider: youtube
   video_id: IfzO_yyiYmw
+  talks:
+    - title: "Lightning Talk: Dissecting Rails - A Different Approach to Learning Rails"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: ratnadeep-deshmane-lighting-talk-rubyconf-2022-mini
+      video_provider: parent
+      speakers:
+        - Ratnadeep Deshmane
+
+    - title: "Lightning Talk: Presenting The 'Who You Gonna Call' Paper by Sophie Kaleba et al."
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: chris-seaton-lighting-talk-rubyconf-2022-mini
+      video_provider: parent
+      speakers:
+        - Chris Seaton
+
+    - title: "Lightning Talk: What open source software can learn from co-operatives"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: nick-quaranto-lighting-talk-rubyconf-2022-mini
+      video_provider: parent
+      speakers:
+        - Nick Quaranto
+
+    - title: "Lightning Talk: Coding with Ruby"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: keith-bennett-lighting-talk-rubyconf-2022-mini
+      video_provider: parent
+      speakers:
+        - Keith Bennett
+
+    - title: "Lightning Talk: Church Numerals"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jo-ha-lighting-talk-rubyconf-2022-mini
+      video_provider: parent
+      speakers:
+        - Jo Ha # TODO: double-check name
+
+    - title: "Lightning Talk: Whimsical Features & Junior Developers"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: max-wofford-lighting-talk-rubyconf-2022-mini
+      video_provider: parent
+      speakers:
+        - Max Wofford
 
 - title: "Keynote: Persuasive Communication"
   raw_title: "RubyConf Mini 2022: Keynote by Barbara Tannenbaum"

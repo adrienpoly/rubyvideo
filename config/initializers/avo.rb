@@ -77,6 +77,8 @@ Avo.configure do |config|
   #
   #   file_logger
   # }
+  #
+  config.associations_lookup_list_limit = 10000
 
   ## == Customization ==
   config.app_name = "RubyVideo"
