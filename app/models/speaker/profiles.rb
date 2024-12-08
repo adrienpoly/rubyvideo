@@ -1,10 +1,6 @@
 class Speaker::Profiles < ActiveRecord::AssociatedObject
-  extend ActiveJob::Performs # TODO: Figure out why the Railtie isn't setting this up
-
-  performs do
-    retry_on StandardError, attempts: 3, wait: :polynomially_longer # TODO: replace with `retries: 3`.
-    limits_concurrency key: -> { _1.id }
-  end
+  extend ActiveJob::Performs # TODO: Fix AssociatedObject's Railtie so we don't need to do this
+  performs(retries: 3) { limits_concurrency key: -> { _1.id } }
 
   def enhance_all_later
     enhance_with_github_later
@@ -12,18 +8,37 @@ class Speaker::Profiles < ActiveRecord::AssociatedObject
   end
 
   performs def enhance_with_github
-    users = GitHub::UserClient.new
-    return unless user = (speaker.github? && users.profile(speaker.github)) || users.from_matching(name: speaker.name)
+    return unless speaker.github?
 
-    speaker.update! speaker.slice(:twitter, :bio, :website).compact_blank.
-      with_defaults(github: user.login, twitter: user.twitter_username.to_s, bio: user.bio.to_s, website: user.blog.to_s)
+    profile = github_client.profile(speaker.github)
+    socials = github_client.social_accounts(speaker.github)
+    links = socials.pluck(:provider, :url).to_h
 
-    speaker.broadcast_about
+    speaker.update!(
+      twitter: speaker.twitter.presence || links["twitter"] || "",
+      mastodon: speaker.mastodon.presence || links["mastodon"] || "",
+      bsky: speaker.bsky.presence || links["bluesky"] || "",
+      linkedin: speaker.linkedin.presence || links["linkedin"] || "",
+      bio: speaker.bio.presence || profile.bio || "",
+      website: speaker.website.presence || profile.blog || "",
+      github_metadata: {
+        profile: JSON.parse(profile.body),
+        socials: JSON.parse(socials.body)
+      }
+    )
+
+    speaker.broadcast_header
   end
 
   performs def enhance_with_bsky
-    if handle = speaker.bsky.presence
-      speaker.update!(bsky_metadata: BlueSky.profile_metadata(handle))
-    end
+    return unless speaker.bsky?
+
+    speaker.update!(bsky_metadata: BlueSky.profile_metadata(speaker.bsky))
+  end
+
+  private
+
+  def github_client
+    @github_client ||= GitHub::UserClient.new
   end
 end

@@ -1,8 +1,12 @@
+# frozen_string_literal: true
+
 BlueSky = DelegateClass(Minisky) do
-  BSKY_HOST = "api.bsky.app"
   alias_method :client, :__getobj__
 
-  def self.build(host = BSKY_HOST, **options)
+  singleton_class.attr_reader :host
+  @host = "api.bsky.app"
+
+  def self.build(host = self.host, **options)
     new Minisky.new(host, nil, options)
   end
 
@@ -11,6 +15,6 @@ BlueSky = DelegateClass(Minisky) do
   delegate :new, :build, to: :class
 
   def profile_metadata(handle)
-    get_request("app.bsky.actor.getProfile", { actor: handle })
+    get_request("app.bsky.actor.getProfile", {actor: handle})
   end
 end.build
