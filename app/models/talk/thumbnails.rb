@@ -1,10 +1,6 @@
 class Talk::Thumbnails < ActiveRecord::AssociatedObject
-  def thumbnails_directory
-    Rails.root.join("app/assets/images/thumbnails").tap(&:mkpath)
-  end
-
   def thumbnail_path
-    thumbnails_directory / "#{talk.video_id}.webp"
+    directory / "#{talk.video_id}.webp"
   end
 
   def extractable?
@@ -61,5 +57,11 @@ class Talk::Thumbnails < ActiveRecord::AssociatedObject
 
   def extract_thumbnail(timestamp, input_file, output_file)
     Command.run(%(ffmpeg -y -ss #{timestamp} -i "#{input_file}" -map 0:v:0 -frames:v 1 -q:v 50 -vf scale=1080:-1 "#{output_file}"))
+  end
+
+  private
+
+  def directory
+    Rails.root.join("app/assets/images/thumbnails").tap(&:mkpath)
   end
 end
