@@ -44,8 +44,8 @@ class Event < ApplicationRecord
 
   has_object :schedule
 
-  def talks_in_running_order
-    talks.in_order_of(:video_id, video_ids_in_running_order)
+  def talks_in_running_order(child_talks: true)
+    talks.in_order_of(:video_id, video_ids_in_running_order(child_talks: child_talks))
   end
 
   # validations
@@ -90,12 +90,16 @@ class Event < ApplicationRecord
     YAML.load_file(videos_file_path)
   end
 
-  def video_ids_in_running_order
-    videos_file.flat_map { |talk|
-      [talk.dig("video_id"), *talk["talks"]&.map { |child_talk|
-        child_talk.dig("video_id")
-      }]
-    }
+  def video_ids_in_running_order(child_talks: true)
+    if child_talks
+      videos_file.flat_map { |talk|
+        [talk.dig("video_id"), *talk["talks"]&.map { |child_talk|
+          child_talk.dig("video_id")
+        }]
+      }
+    else
+      videos_file.map { |talk| talk.dig("video_id") }
+    end
   end
 
   def suggestion_summary

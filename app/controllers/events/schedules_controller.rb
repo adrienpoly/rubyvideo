@@ -34,6 +34,6 @@ class Events::SchedulesController < ApplicationController
     talk_count = @event.schedule.talk_offsets[index]
     talk_offset = @event.schedule.talk_offsets.first(index).sum
 
-    @talks = @event.talks_in_running_order.to_a.from(talk_offset).first(talk_count)
+    @talks = @event.talks_in_running_order(child_talks: false).to_a.from(talk_offset).first(talk_count)
   end
 end
