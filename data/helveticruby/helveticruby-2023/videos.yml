@@ -4,11 +4,15 @@
 # TODO: conference website
 # TODO: schedule website
 
+# Website: https://helvetic-ruby.ch/2023/
+# Schedule: https://helvetic-ruby.ch/2023/schedule/
+
 - title: Profiling Ruby tests with Swiss precision
   raw_title: Profiling Ruby tests with Swiss precision by Vladimir Dementyev
   speakers:
     - Vladimir Dementyev
   event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
   published_at: "2023-12-01"
   description: |-
     Tests occupy a significant amount of developers’ time. We write them, run locally, and wait for CI builds to complete—the latter can last from a cup of coffee to a good day nap. And unfortunately, such “naps” are pretty common in the Ruby and Rails world.
@@ -25,6 +29,7 @@
   speakers:
     - Abiodun Olowode
   event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
   published_at: "2023-12-01"
   description:
     Are you tired of dealing with race conditions in your Ruby code? Introducing
@@ -40,6 +45,7 @@
   speakers:
     - Karen Jex
   event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
   published_at: "2023-12-01"
   description: |-
     You don't want to spend too much time looking after your database; you've got better things to do with your time, but you do want your database to run smoothly and perform well. Fortunately, there are a few simple things that you can do to make sure your database ticks along nicely in the background.
@@ -52,6 +58,7 @@
   speakers:
     - Harriet Oughton
   event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
   published_at: "2023-12-01"
   description: |-
     Postcards From An Early-Career Developer's First Months: Recognising the Struggles and the Joys.
@@ -60,13 +67,34 @@
   video_provider: youtube
   video_id: jNY4CViM76U
 
-- title: "Lightning talk: Five Minutes of a Random Stranger Talking About Creativity"
+# Lunch
+
+- title: The Functional Alternative
+  raw_title: The Functional Alternative by Ju Liu
+  speakers:
+    - Ju Liu
+  event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
+  published_at: "2023-12-06"
+  description:
+    We'll start with a simple Ruby Kata and solve it together, live, with
+    imperative programming. We'll then fix the many, many, many things we got wrong.
+    Then we'll solve the problem again using patterns from functional programming.
+    You'll leave this talk with a clear and concrete example of why functional programming
+    matters, why immutable code matters, and why it can help you writing bug-free
+    code. The next time you find yourself writing imperative code, you'll think about...
+    the functional alternative.
+  video_provider: youtube
+  video_id: Fm099cLXdV8
+
+- title: "Lightning Talk: Five Minutes of a Random Stranger Talking About Creativity"
   raw_title:
     Five Minutes of a Random Stranger Talking About Creativity by Christina
     Serra
   speakers:
     - Christina Serra
   event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
   published_at: "2023-12-01"
   description: |-
     Five Minutes of a Random Stranger Talking About Creativity (and why you should squeeze it into your life)
@@ -77,11 +105,59 @@
   video_provider: youtube
   video_id: l1UG9lYDnNk
 
-- title: How to bootstrap your software startup
+- title: "Lightning Talk: Sliced Ruby - Enforcing Module Boundaries with private_const and packwerk"
+  raw_title:
+    "Sliced Ruby: Enforcing module boundaries with private_const and packwerk
+    by Severin Ráz"
+  speakers:
+    - Severin Ráz
+  event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
+  published_at: "2023-12-01"
+  description: |-
+    A lightning talk from the Helvetic Ruby 2023 conference.
+
+    Ideas on how ruby can help you protect your architecture. I'll work through an example of tightly coupled classes where it's not apparent who calls who and who should be allowed to call who. This is refactored in a few steps towards a design where the ruby interpreter and the packwerk gem prevent certain errors alltogether.
+  video_provider: youtube
+  video_id: ZBoiu0yUrwI
+
+- title: "Lightning Talk: Conventionally-Typed Ruby"
+  raw_title: Conventionally-typed Ruby by Josua Schmid
+  speakers:
+    - Josua Schmid
+  event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
+  published_at: "2023-12-01"
+  description: |-
+    A lightning talk from Helvetic Ruby 2023.
+
+    Dynamically typed vs statically typed, come-on… Why can we not have the best of both worlds? I'd like to introduce the theoretical concept of a conventionally-typed Ruby.
+  video_provider: youtube
+  video_id: MIl1AFWoAXQ
+
+- title: "Lightning Talk: Ideas For Growing Our Ruby Community"
+  raw_title: Ideas for growing our Ruby community by Lucian Ghinda
+  speakers:
+    - Lucian Ghinda
+  event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
+  published_at: "2023-12-01"
+  description:
+    "A lightning talk from the Helvetic Ruby 2023 conference.\n\nI want
+    to touch on some points about bringing more people into our Ruby community. \n\nI
+    will talk more about what we can share online that could reach someone interested
+    in learning Ruby: type of articles, project ideas, developer experience, starting
+    kits, and some other points. \n\nThe purpose of this talk is to start a conversation
+    or to invite people to share more."
+  video_provider: youtube
+  video_id: qrXscRsObvo
+
+- title: How To Bootstrap Your Software Startup
   raw_title: How to bootstrap your software startup by Isabel Steiner
   speakers:
     - Isabel Steiner
   event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
   published_at: "2023-12-01"
   description: |-
     In 2022, a close friend and former co-worker and myself founded The Happy Lab GmbH and we only had one purpose for the company: A place where happy co-workers develop products to make users happy.
@@ -98,6 +174,7 @@
     - Cristian Planas
     - Anatoly Mikhaylov
   event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
   published_at: "2023-12-01"
   description: |-
     Building a feature is not good enough anymore: all your work won't be of use if it's not performant enough. So how to improve performance? After all, performance is not an easy discipline to master: all slow applications are slow in their own way, meaning that there is no silver bullet for these kinds of problems.
@@ -106,55 +183,12 @@
   video_provider: youtube
   video_id: uDb71s9MtVk
 
-- title: "Lightning talk: Sliced Ruby - Enforcing module boundaries with private_const and packwerk"
-  raw_title:
-    "Sliced Ruby: Enforcing module boundaries with private_const and packwerk
-    by Severin Ráz"
-  speakers:
-    - Severin Ráz
-  event_name: Helvetic Ruby 2023
-  published_at: "2023-12-01"
-  description: |-
-    A lightning talk from the Helvetic Ruby 2023 conference.
-
-    Ideas on how ruby can help you protect your architecture. I'll work through an example of tightly coupled classes where it's not apparent who calls who and who should be allowed to call who. This is refactored in a few steps towards a design where the ruby interpreter and the packwerk gem prevent certain errors alltogether.
-  video_provider: youtube
-  video_id: ZBoiu0yUrwI
-
-- title: "Lightning talk: Conventionally-typed Ruby"
-  raw_title: Conventionally-typed Ruby by Josua Schmid
-  speakers:
-    - Josua Schmid
-  event_name: Helvetic Ruby 2023
-  published_at: "2023-12-01"
-  description: |-
-    A lightning talk from Helvetic Ruby 2023.
-
-    Dynamically typed vs statically typed, come-on… Why can we not have the best of both worlds? I'd like to introduce the theoretical concept of a conventionally-typed Ruby.
-  video_provider: youtube
-  video_id: MIl1AFWoAXQ
-
-- title: "Lightning talk: Ideas for growing our Ruby community"
-  raw_title: Ideas for growing our Ruby community by Lucian Ghinda
-  speakers:
-    - Lucian Ghinda
-  event_name: Helvetic Ruby 2023
-  published_at: "2023-12-01"
-  description:
-    "A lightning talk from the Helvetic Ruby 2023 conference.\n\nI want
-    to touch on some points about bringing more people into our Ruby community. \n\nI
-    will talk more about what we can share online that could reach someone interested
-    in learning Ruby: type of articles, project ideas, developer experience, starting
-    kits, and some other points. \n\nThe purpose of this talk is to start a conversation
-    or to invite people to share more."
-  video_provider: youtube
-  video_id: qrXscRsObvo
-
 - title: Anatomy of a Sonic Pi Song
   raw_title: Anatomy of a Sonic Pi Song by Raia
   speakers:
     - Raia
   event_name: Helvetic Ruby 2023
+  date: "2023-11-24"
   published_at: "2023-12-02"
   description:
     'Have you ever considered what makes a "good" song? Maybe it''s a sweet
@@ -166,20 +200,3 @@
     learn some key elements of what makes Sonic Pi "sing.”'
   video_provider: youtube
   video_id: A7owAl1Q6PQ
-
-- title: The Functional Alternative
-  raw_title: The Functional Alternative by Ju Liu
-  speakers:
-    - Ju Liu
-  event_name: Helvetic Ruby 2023
-  published_at: "2023-12-06"
-  description:
-    We'll start with a simple Ruby Kata and solve it together, live, with
-    imperative programming. We'll then fix the many, many, many things we got wrong.
-    Then we'll solve the problem again using patterns from functional programming.
-    You'll leave this talk with a clear and concrete example of why functional programming
-    matters, why immutable code matters, and why it can help you writing bug-free
-    code. The next time you find yourself writing imperative code, you'll think about...
-    the functional alternative.
-  video_provider: youtube
-  video_id: Fm099cLXdV8

@@ -4,7 +4,7 @@ class Events::TalksController < ApplicationController
   before_action :set_event, only: %i[index]
 
   def index
-    @talks = @event.talks
+    @talks = @event.talks_in_running_order
     @active_talk = Talk.find_by(slug: params[:active_talk])
   end
 

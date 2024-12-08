@@ -42,6 +42,12 @@ class Event < ApplicationRecord
   belongs_to :canonical, class_name: "Event", optional: true
   has_many :aliases, class_name: "Event", foreign_key: "canonical_id"
 
+  has_object :schedule
+
+  def talks_in_running_order
+    talks.in_order_of(:video_id, video_ids_in_running_order)
+  end
+
   # validations
   validates :name, presence: true
   VALID_COUNTRY_CODES = ISO3166::Country.codes
@@ -66,6 +72,30 @@ class Event < ApplicationRecord
 
   def managed_by?(user)
     Current.user&.admin?
+  end
+
+  def data_folder
+    Rails.root.join("data", organisation.slug, slug)
+  end
+
+  def videos_file?
+    videos_file_path.exist?
+  end
+
+  def videos_file_path
+    data_folder.join("videos.yml")
+  end
+
+  def videos_file
+    YAML.load_file(videos_file_path)
+  end
+
+  def video_ids_in_running_order
+    videos_file.flat_map { |talk|
+      [talk.dig("video_id"), *talk["talks"]&.map { |child_talk|
+        child_talk.dig("video_id")
+      }]
+    }
   end
 
   def suggestion_summary

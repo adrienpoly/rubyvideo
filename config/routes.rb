@@ -54,11 +54,15 @@ Rails.application.routes.draw do
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
   resources :events, param: :slug, only: [:index, :show, :update, :edit] do
     scope module: :events do
+      resources :schedules, only: [:index], path: "/schedule" do
+        get "/day/:date", action: :show, on: :collection, as: :day
+      end
       resources :speakers, only: [:index]
       resources :talks, only: [:index]
     end
   end
   resources :organisations, param: :slug, only: [:index, :show]
+
   namespace :speakers do
     resources :enhance, only: [:update], param: :slug
   end
