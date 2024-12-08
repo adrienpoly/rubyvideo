@@ -2,33 +2,60 @@
 
 <% language = Language.by_code(talk.language) %>
 
-<div class="card card-compact bg-white border w-full" id="<%= dom_id talk %>">
+<div class="card card-compact bg-white border w-full relative" id="<%= dom_id talk %>">
+  <% if talk.child_talks.exists? %>
+    <div class="absolute w-[calc(100%-20px)] ml-[10px] bg-gray-300 rounded-xl -mt-4">&nbsp;</div>
+    <div class="absolute w-[calc(100%-10px)] ml-[5px] bg-gray-500 rounded-xl -mt-2">&nbsp;</div>
+  <% end %>
+
   <%= link_to talk_path(talk, back_to: back_to, back_to_title: back_to_title), class: "flex aspect-video overflow-hidden relative group", data: {action: "mouseover->preserve-scroll#updateLinkBackToWithScrollPosition", turbo_frame: "_top"} do %>
     <% if language && language != "English" %>
-      <div class="absolute top-0 left-0 z-20 m-3 p-1 px-2 bg-black/15 backdrop-blur-md rounded-full">
+      <div class="absolute top-0 left-0 z-20 m-3 p-1 px-2 bg-black/15 backdrop-blur-md rounded-full flex">
         <span><%= language_to_emoji(language) %></span>
-        <span class="group-hover:inline-block hidden text-white text-sm ml-1"><%= language %></span>
+        <span class="group-hover:flex hidden items-center text-white text-sm ml-1"><%= language %></span>
       </div>
     <% end %>
 
-    <% if talk.scheduled? %>
+    <% if talk.scheduled? || talk.parent_talk&.scheduled? %>
       <div class="flex gap-2 absolute top-0 right-0 z-20 m-3 p-2 bg-black/15 backdrop-blur-md rounded-full">
-        <span class="group-hover:inline-block hidden text-white text-sm ml-1">Scheduled</span>
+        <span class="group-hover:flex hidden items-center text-white text-sm ml-1">Scheduled</span>
         <span><%= fa("clock", size: :sm, class: "fill-white") %></span>
       </div>
     <% end %>
 
-    <% if talk.not_published? %>
+    <% if talk.not_published? || talk.parent_talk&.not_published? %>
       <div class="flex gap-2 absolute top-0 right-0 z-20 m-3 p-2 bg-black/15 backdrop-blur-md rounded-full">
-        <span class="group-hover:inline-block hidden text-white text-sm ml-1">Not published</span>
+        <span class="group-hover:flex hidden items-center text-white text-sm ml-1">Not published</span>
         <span><%= fa("upload", size: :sm, class: "fill-white") %></span>
       </div>
     <% end %>
 
-    <% if talk.not_recorded? %>
+    <% if talk.not_recorded? || talk.parent_talk&.not_recorded? %>
       <div class="flex gap-2 absolute top-0 right-0 z-20 m-3 p-2 bg-black/15 backdrop-blur-md rounded-full">
-        <span class="group-hover:inline-block hidden text-white text-sm ml-1">Not recorded</span>
+        <span class="group-hover:flex hidden items-center text-white text-sm ml-1">Not recorded</span>
         <span><%= fa("video-slash", size: :sm, class: "fill-white") %></span>
+      </div>
+    <% end %>
+
+    <% if talk.parent_talk.present? %>
+      <div class="flex gap-2 absolute bottom-0 left-0 z-20 m-3 p-2 bg-black/15 backdrop-blur-md rounded-full flex content-center">
+        <span><%= fa("rectangle-history", size: :sm, class: "fill-white") %></span>
+        <span class="group-hover:inline-flex hidden items-center gap-1 text-white text-xs ml-1 font-normal line-clamp-1">
+          <span class="text-nowrap">Part of</span>
+          <span class="text-gray-300 line-clamp-1"><%= talk.parent_talk.title %></span>
+        </span>
+      </div>
+
+      <% if talk.duration && talk.formatted_duration != "00:00" %>
+        <div class="flex gap-2 absolute bottom-0 right-0 z-20 m-3 px-1.5 py-1 bg-black backdrop-blur-md rounded-md text-white text-xs font-normal">
+          <span><%= talk.formatted_duration %></span>
+        </div>
+      <% end %>
+    <% end %>
+
+    <% if talk.child_talks.exists? %>
+      <div class="flex gap-2 absolute bottom-0 right-0 z-20 m-3 px-1.5 py-1 bg-black backdrop-blur-md rounded-md text-white text-xs font-normal">
+        <span>contains <%= pluralize(talk.child_talks.size, "talk") %></span>
       </div>
     <% end %>
 
@@ -56,7 +83,7 @@
           loading: "lazy",
           alt: "talk by #{talk.speakers.map(&:name).join(", ")}: #{talk.title}",
           style: "view-transition-name: #{dom_id(talk, :image)}",
-          class: "w-full object-cover skeleton rounded-t-xl border-b"
+          class: "w-full object-cover object-center skeleton rounded-t-xl border-b"
         ) %>
   <% end %>
   <div class="card-body flex flex-row justify-between items-start gap-2">

@@ -98,16 +98,6 @@
 
 - title: "Lightning Talks: RejectConf"
   raw_title: GORUCO 2009 - RejectConf by Various Presenters
-  speakers:
-    # - TODO # Chef
-    - Pat Nakajima # Thunder
-    - Eric Mill # Apps For America
-    - Erin Quinn # Rails Bridge
-    - Ben Woosley # AHA - DOOP - not just for counting words
-    # - TODO # Abstraction and Freeze Rec
-    - Joe Damato # Fix Ruby Threads: 10x+ Perf Boost*
-    - Aman Gupta # Google Pref Tools
-    - Eric Hodel # You're Doing it Wrong - Packaging Gems
   event_name: GORUCO 2009
   published_at: "2009-05-30"
   description: |-
@@ -116,3 +106,75 @@
     http://amara.org/v/GUQR/
   video_provider: youtube
   video_id: _DY8P6Vkl0k
+  talks:
+    - title: "Lightning Talk: Chef"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: chef-lighting-talk-goruco-2009
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing speaker name
+
+    - title: "Lightning Talk: Thunder"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: pat-nakajima-lighting-talk-goruco-2009
+      video_provider: parent
+      speakers:
+        - Pat Nakajima
+
+    - title: "Lightning Talk: Apps For America"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: eric-mill-lighting-talk-goruco-2009
+      video_provider: parent
+      speakers:
+        - Eric Mill
+
+    - title: "Lightning Talk: Rails Bridge"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: erin-quinn-lighting-talk-goruco-2009
+      video_provider: parent
+      speakers:
+        - Erin Quinn
+
+    - title: "Lightning Talk: AHA - DOOP - not just for counting words"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: ben-woosley-lighting-talk-goruco-2009
+      video_provider: parent
+      speakers:
+        - Ben Woosley
+
+    - title: "Lightning Talk: Abstraction and Freeze Rec"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: abstraction-and-freeze-rec-lighting-talk-goruco-2009
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing speaker name
+
+    - title: "Lightning Talk: Fix Ruby Threads: 10x+ Perf Boost*"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: joe-damato-lighting-talk-goruco-2009
+      video_provider: parent
+      speakers:
+        - Joe Damato
+
+    - title: "Lightning Talk: Google Pref Tools"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: aman-gupta-lighting-talk-goruco-2009
+      video_provider: parent
+      speakers:
+        - Aman Gupta
+
+    - title: "Lightning Talk: You're Doing it Wrong - Packaging Gems"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: eric-hodel-lighting-talk-goruco-2009
+      video_provider: parent
+      speakers:
+        - Eric Hodel

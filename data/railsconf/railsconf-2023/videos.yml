@@ -601,39 +601,213 @@
 
 - title: Lightning Talks
   raw_title: RailsConf 2023 - Lightning Talks
-  speakers:
-    - Michelle Yuen
-    - Katya Sarmiento
-    - Tim Carey
-    - Dominic Lizarraga
-    - Kaylah Rose Mitchell
-    - Angela Choi
-    - Greta Parks
-    - Rock Davenport
-    - Mia Szinek
-    -  # TODO Kiwi? https://cln.sh/ldhyPdB1
-    - Jack Permenter
-    - Rachael Wright-Munn
-    - Jonan Scheffler
-    - Naofumi Kagami
-    - Samantha Holstine
-    - Max Wofford
-    - Gary Tou
-    - Caleb Denio
-    - Obie Fernandez
-    - Peter Szinek
-    - Mason Meirs
-    - Joshua Paine
-    - Eric Saupe
-    - Josh Nichols
-    - Amanda Lundberg
-    - Vagmi Mudumbai
-  description:
-    A lightning talk is a short presentation (up to 5 mins) on your chosen
-    topic.
+  description: |-
+    A lightning talk is a short presentation (up to 5 mins) on your chosen topic.
   published_at: "2023-07-10"
   video_provider: youtube
   video_id: k55B4ydueGE
+  talks:
+    - title: "Lightning Talk: Michelle Yuen" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: michelle-yuen-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Michelle Yuen
+
+    - title: "Lightning Talk: Katya Sarmiento" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: katya-sarmiento-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Katya Sarmiento
+
+    - title: "Lightning Talk: Tim Carey" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tim-carey-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Tim Carey
+
+    - title: "Lightning Talk: Dominic Lizarraga" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: dominic-lizarraga-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Dominic Lizarraga
+
+    - title: "Lightning Talk: Kaylah Rose Mitchell" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: kaylah-rose-mitchell-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Kaylah Rose Mitchell
+
+    - title: "Lightning Talk: Angela Choi" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: angela-choi-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Angela Choi
+
+    - title: "Lightning Talk: Greta Parks" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: greta-parks-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Greta Parks
+
+    - title: "Lightning Talk: Rock Davenport" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: rock-davenport-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Rock Davenport
+
+    - title: "Lightning Talk: Mia Szinek" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mia-szinek-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Mia Szinek
+        - Peter Szinek
+
+    - title: "Lightning Talk: Kiwi" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: kiwi-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - TODO # TODO Kiwi? https://cln.sh/ldhyPdB1
+
+    - title: "Lightning Talk: Jack Permenter" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jack-permenter-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Jack Permenter
+
+    - title: "Lightning Talk: Rachael Wright-Munn" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: rachael-wright-munn-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Rachael Wright-Munn
+
+    - title: "Lightning Talk: Jonan Scheffler" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: jonan-scheffler-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Jonan Scheffler
+
+    - title: "Lightning Talk: Naofumi Kagami" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: naofumi-kagami-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Naofumi Kagami
+
+    - title: "Lightning Talk: Samantha Holstine" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: samantha-holstine-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Samantha Holstine
+
+    - title: "Lightning Talk: Max Wofford" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: max-wofford-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Max Wofford
+
+    - title: "Lightning Talk: Gary Tou" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: gary-tou-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Gary Tou
+
+    - title: "Lightning Talk: Caleb Denio" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: caleb-denio-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Caleb Denio
+
+    - title: "Lightning Talk: Obie Fernandez" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: obie-fernandez-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Obie Fernandez
+        - Peter Szinek
+
+    - title: "Lightning Talk: Mason Meirs" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mason-meirs-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Mason Meirs
+
+    - title: "Lightning Talk: Joshua Paine" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: joshua-paine-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Joshua Paine
+
+    - title: "Lightning Talk: Eric Saupe" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: eric-saupe-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Eric Saupe
+
+    - title: "Lightning Talk: Josh Nichols" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: josh-nichols-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Josh Nichols
+
+    - title: "Lightning Talk: Amanda Lundberg" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: amanda-lundberg-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Amanda Lundberg
+
+    - title: "Lightning Talk: Vagmi Mudumbai" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: vagmi-mudumbai-lighting-talk-railsconf-2023
+      video_provider: parent
+      speakers:
+        - Vagmi Mudumbai
 
 - title: Offsite planning for Everyone
   raw_title: RailsConf 2023 - Offsite planning for Everyone by Allison McMillan

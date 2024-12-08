@@ -85,17 +85,6 @@
 
 - title: "Lightning Talks: RejectConf"
   raw_title: RejectConf / Lightning Talks by Various Presenters
-  speakers:
-    - Ryan Davis
-    # - Johnson # TODO: missing last name
-    # - Delmont # TODO: missing last name
-    - Gregory Brown
-    - Dan DiMaggio
-    - Phil Matarese
-    - Peter Jaros
-    # - TODO # Mindstorms
-    - Luke Miglia
-    # - Wilson # TODO: missing last name
   event_name: GORUCO 2008
   published_at: "2008-04-26"
   description: |-
@@ -104,3 +93,83 @@
     http://amara.org/v/FGkm/
   video_provider: youtube
   video_id: W7TGK7f_IDM
+  talks:
+    - title: "Lightning Talk: Ryan Davis"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: ryan-davis-lighting-talk-goruco-2008
+      video_provider: parent
+      speakers:
+        - Ryan Davis
+
+    - title: "Lightning Talk: Johnson"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: johnson-lighting-talk-goruco-2008
+      video_provider: parent
+      speakers:
+        - Johnson # TODO: missing last name
+
+    - title: "Lightning Talk: Delmont"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: delmont-lighting-talk-goruco-2008
+      video_provider: parent
+      speakers:
+        - Delmont # TODO: missing last name
+
+    - title: "Lightning Talk: Gregory Brown"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: gregory-brown-lighting-talk-goruco-2008
+      video_provider: parent
+      speakers:
+        - Gregory Brown
+
+    - title: "Lightning Talk: Dan DiMaggio"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: dan-dimaggio-lighting-talk-goruco-2008
+      video_provider: parent
+      speakers:
+        - Dan DiMaggio
+
+    - title: "Lightning Talk: Phil Matarese"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: phil-matarese-lighting-talk-goruco-2008
+      video_provider: parent
+      speakers:
+        - Phil Matarese
+
+    - title: "Lightning Talk: Peter Jaros"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: peter-jaros-lighting-talk-goruco-2008
+      video_provider: parent
+      speakers:
+        - Peter Jaros
+
+    - title: "Lightning Talk: Mindstorms"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: mindstorms-lighting-talk-goruco-2008
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing speaker name
+
+    - title: "Lightning Talk: Luke Miglia"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: luke-miglia-lighting-talk-goruco-2008
+      video_provider: parent
+      speakers:
+        - Luke Miglia
+
+    - title: "Lightning Talk: Wilson"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: wilson-lighting-talk-goruco-2008
+      video_provider: parent
+      speakers:
+        - Wilson # TODO: missing last name

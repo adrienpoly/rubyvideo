@@ -1,40 +1,75 @@
 import { Controller } from '@hotwired/stimulus'
 import Vlitejs from 'vlitejs'
-import VlitejsYoutube from 'vlitejs/providers/youtube.js'
+import YouTube from 'vlitejs/providers/youtube.js'
+import Vimeo from 'vlitejs/providers/vimeo.js'
+import youtubeSvg from '../../assets/images/icons/fontawesome/youtube-brands-solid.svg?raw'
 
-Vlitejs.registerProvider('youtube', VlitejsYoutube)
+Vlitejs.registerProvider('youtube', YouTube)
+Vlitejs.registerProvider('vimeo', Vimeo)
 
 export default class extends Controller {
-  static values = { poster: String, src: String, provider: String }
+  static values = {
+    poster: String,
+    src: String,
+    provider: String,
+    startSeconds: Number,
+    endSeconds: Number
+  }
+
   static targets = ['player']
   playbackRateOptions = [1, 1.25, 1.5, 1.75, 2]
 
   connect () {
-    const providerOptions = {}
+    this.init()
+  }
 
-    if (this.hasProviderValue) {
+  init () {
+    this.player = new Vlitejs(this.playerTarget, this.options)
+  }
+
+  get options () {
+    const providerOptions = {}
+    const providerParams = {}
+
+    if (this.hasProviderValue && this.providerValue !== 'mp4') {
       providerOptions.provider = this.providerValue
     }
 
-    this.player = new Vlitejs(this.playerTarget, {
+    if (this.hasStartSecondsValue) {
+      providerParams.start = this.startSecondsValue
+    }
+
+    if (this.hasEndSecondsValue) {
+      providerParams.end = this.endSecondsValue
+    }
+
+    return {
       ...providerOptions,
       options: {
+        providerParams,
         poster: this.posterValue,
         controls: true
       },
       onReady: this.handlePlayerReady.bind(this)
-    })
+    }
   }
 
   handlePlayerReady (player) {
+    // for seekTo to work we need to store again the player instance
+    this.player = player
+
     const controlBar = player.elements.container.querySelector('.v-controlBar')
+
     if (controlBar) {
       const volumeButton = player.elements.container.querySelector('.v-volumeButton')
       const playbackRateSelect = this.createPlaybackRateSelect(this.playbackRateOptions, player)
       volumeButton.parentNode.insertBefore(playbackRateSelect, volumeButton.nextSibling)
+
+      if (this.providerValue === 'youtube') {
+        const openInYouTube = this.createOpenInYoutube()
+        volumeButton.parentNode.insertBefore(openInYouTube, volumeButton.previousSibling)
+      }
     }
-    // for seekTo to work we need to store again the player instance
-    this.player = player
   }
 
   createPlaybackRateSelect (options, player) {
@@ -60,5 +95,22 @@ export default class extends Controller {
     if (time) {
       this.player.seekTo(time)
     }
+  }
+
+  pause () {
+    this.player.pause()
+  }
+
+  createOpenInYoutube () {
+    const videoId = this.playerTarget.dataset.youtubeId
+
+    const anchorTag = document.createElement('a')
+    anchorTag.className = 'v-openInYouTube v-controlButton'
+    anchorTag.innerHTML = youtubeSvg
+    anchorTag.href = `https://www.youtube.com/watch?v=${videoId}`
+    anchorTag.target = '_blank'
+    anchorTag.dataset.action = 'click->video-player#pause'
+
+    return anchorTag
   }
 }

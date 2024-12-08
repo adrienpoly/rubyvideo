@@ -58,23 +58,53 @@
 
 - title: Lightning Talks
   raw_title: Lightning Talks
-  speakers:
-    - Sonja Heinen
-    - Olga Scott
-    - Tatiana Soukiassian
-    - Robbie Clutton
-    - Alex Sunderland
   event_name: Brighton Ruby 2015
   published_at: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/lightning-talks
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2015/lightning-talks-brighton-ruby-2016.mp4
-  description: "A wonderful selection of five minute nuggets from the
-    Brighton Ruby call for proposals. Some experienced. Some first timers. All great.\n\n[Sonja
-    Heinen](https://twitter.com/sonjaheinen), [Olga Scott](https://twitter.com/olga_scott),
-    [Tatiana Soukiassian](https://twitter.com/binaryberry), [Robbie Clutton](https://twitter.com/robb1e)
-    & [Alex Sunderland](https://twitter.com/felltir)"
+  description: "A wonderful selection of five minute nuggets from the Brighton Ruby call for proposals. Some experienced. Some first timers. All great."
+  talks:
+    - title: "Lightning Talk: Ruby Issues Newsletter"
+      start_cue: "00:05"
+      end_cue: "03:55"
+      video_id: sonja-heinen-lighting-talk-brighton-ruby-2015
+      video_provider: parent
+      speakers:
+        - Sonja Heinen # https://twitter.com/sonjaheinen
+
+    - title: "Lightning Talk: Sorting, moving, sharing and caching in complex tree structure"
+      start_cue: "04:10"
+      end_cue: "09:53"
+      video_id: olga-scott-lighting-talk-brighton-ruby-2015
+      video_provider: parent
+      speakers:
+        - Olga Scott # https://twitter.com/olga_scott
+
+    - title: "Lightning Talk: How to onboard Junior Developers well"
+      start_cue: "10:06"
+      end_cue: "15:27"
+      video_id: tatiana-soukiassian-lighting-talk-brighton-ruby-2015
+      video_provider: parent
+      speakers:
+        - Tatiana Soukiassian # https://twitter.com/binaryberry
+
+    - title: "Lightning Talk: Continuous Delivery"
+      start_cue: "15:42"
+      end_cue: "20:18"
+      video_id: robbie-clutton-lighting-talk-brighton-ruby-2015
+      video_provider: parent
+      speakers:
+        - Robbie Clutton # https://twitter.com/robb1e
+
+    - title: "Lightning Talk: Ruby - The Weird Bits"
+      start_cue: "20:34"
+      end_cue: "26:42"
+      video_id: alex-sunderland-lighting-talk-brighton-ruby-2015
+      video_provider: parent
+      speakers:
+        - Alex Sunderland # https://twitter.com/felltir
 
 - title: "Mini-munging: The Joy of Small Data"
   raw_title: "Mini-munging: The Joy of Small Data"

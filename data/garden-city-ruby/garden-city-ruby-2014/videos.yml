@@ -230,18 +230,6 @@
 
 - title: Lightning Talks
   raw_title: Garden City Ruby 2014 - Lightning Talks
-  speakers:
-    # - Smith # TODO: missing last name - https://cln.sh/19fCQ4lT
-    - Tri Hari
-    # - Kashyap # TODO: missing last name - https://cln.sh/LdbWWYJX
-    - Bilal Budhani
-    # - Vinash # TODO: missing last name - https://cln.sh/Lr1Dnzfy
-    - Satya Kalluri
-    # - Sarish TODO: missing last name - https://cln.sh/WMy4qGFp
-    # - Soru TODO: missing last name - https://cln.sh/z97WYYpv
-    # - TODO: missing name - https://cln.sh/YcPccQg6
-    # - TODO: missing name - https://cln.sh/5NSHP2hf
-    - Niranjan Paranjape
   event_name: Garden City Ruby 2014
   published_at: "2014-01-04"
   description: |-
@@ -250,6 +238,94 @@
     http://amara.org/v/FG4W/
   video_provider: youtube
   video_id: xjCjydbQpI4
+  talks:
+    - title: "Lightning Talk: Smith" # TODO: missing last name
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: smith-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - Smith # TODO: missing last name - https://cln.sh/19fCQ4lT
+
+    - title: "Lightning Talk: Tri Hari"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tri-hari-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - Tri Hari
+
+    - title: "Lightning Talk: Kashyap" # TODO: missing last name
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: kashyap-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - Kashyap # TODO: missing last name - https://cln.sh/LdbWWYJX
+
+    - title: "Lightning Talk: Bilal Budhani"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: bilal-budhani-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - Bilal Budhani
+
+    - title: "Lightning Talk: Vinash" # TODO: missing last name
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: vinash-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - Vinash # TODO: missing last name - https://cln.sh/Lr1Dnzfy
+
+    - title: "Lightning Talk: Satya Kalluri"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: satya-kalluri-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - Satya Kalluri
+
+    - title: "Lightning Talk: Sarish" # TODO: missing last name
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: sarish-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - Sarish # TODO: missing last name - https://cln.sh/WMy4qGFp
+
+    - title: "Lightning Talk: Soru" # TODO: missing last name
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: soru-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - Soru # TODO: missing last name - https://cln.sh/z97WYYpv
+
+    - title: "Lightning Talk: TODO" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-1-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name - https://cln.sh/YcPccQg6
+
+    - title: "Lightning Talk: TODO" # TODO: missing talk title
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: todo-2-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - TODO # TODO: missing name - https://cln.sh/5NSHP2hf
+
+    - title: "Lightning Talk: Niranjan Paranjape"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: niranjan-paranjape-lighting-talk-garden-city-ruby-2014
+      video_provider: parent
+      speakers:
+        - Niranjan Paranjape
 
 - title: "Zero Downtime Deployments with Docker"
   raw_title: Garden City Ruby 2014 - Zero Downtime Deployments with Docker

@@ -1,26 +1,28 @@
-<div class="flex flex-col items-center gap-4">
-  <%= ui_button url: edit_speaker_path(@speaker),
-        kind: :secondary,
-        data: {turbo_frame: "modal"},
-        outline: true,
-        size: :sm do %>
-    <%= heroicon :pencil_square %>
-    <span>Update speaker page</span>
-  <% end %>
+<%= ui_button url: edit_speaker_path(@speaker),
+      kind: :none,
+      data: {turbo_frame: "modal"},
+      size: :sm,
+      class: "w-full" do %>
+  <%= fa :pen, size: :xs %>
+  <span>Update speaker page</span>
+<% end %>
 
-  <% if speaker.github.present? || speaker.bsky.present? %>
-    <%= ui_button url: speakers_enhance_path(@speaker), method: :put, kind: :ghost, size: :sm do %>
-      <span>Enhance Profile</span>
-    <% end %>
+<% if speaker.github.present? || speaker.bsky.present? %>
+  <%= ui_button url: speakers_enhance_path(@speaker), method: :put, kind: :none, size: :sm, class: "w-full", form_class: "w-full" do %>
+    <%= fa "wand-magic-sparkles", size: :xs %>
+    <span>Enhance Profile</span>
   <% end %>
+<% end %>
 
-  <%= ui_button url: avo.resources_speaker_path(@speaker), target: :_blank, kind: :ghost, size: :sm do %>
-    <span>Open in Avo</span>
-  <% end %>
+<%= ui_button url: avo.resources_speaker_path(@speaker), target: :_blank, kind: :none, size: :sm, class: "w-full" do %>
+  <%= fa :avocado, size: :xs %>
 
-  <% if Rails.env.development? %>
-    <%= ui_button url: speaker_url(@speaker, host: "https://rubyvideo.dev", port: 443), target: :_blank, kind: :ghost, size: :sm do %>
-      <span>Show on RubyVideo.dev</span>
-    <% end %>
+  <span>Open in Avo</span>
+<% end %>
+
+<% if Rails.env.development? %>
+  <%= ui_button url: speaker_url(@speaker, host: "https://rubyvideo.dev", port: 443), target: :_blank, kind: :none, size: :sm, class: "w-full" do %>
+    <%= fa :browser, size: :xs %>
+    <span>Show on RubyVideo.dev</span>
   <% end %>
-</div>
+<% end %>

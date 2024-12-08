@@ -1,6 +1,8 @@
 module Talk::Searchable
   extend ActiveSupport::Concern
 
+  DATE_WEIGHT = 0.000000001
+
   included do
     scope :ft_search, ->(query) do
       query = query&.gsub(/[^[:word:]]/, " ") || "" # remove non-word characters
@@ -17,7 +19,10 @@ module Talk::Searchable
     end
 
     scope :ranked, -> do
-      order(Arel.sql("bm25(talks_search_index, 10.0, 1.0, 5.0) ASC"))
+      select("talks.*,
+          bm25(talks_search_index, 10.0, 1.0, 5.0) +
+          (strftime('%s', 'now') - strftime('%s', talks.date)) * #{DATE_WEIGHT} AS combined_score")
+        .order(Arel.sql("combined_score ASC"))
     end
 
     after_create_commit :create_in_index

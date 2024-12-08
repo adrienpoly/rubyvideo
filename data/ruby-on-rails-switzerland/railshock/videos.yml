@@ -211,16 +211,16 @@
     https://www.meetup.com/rubyonrails-ch/events/242035630
 
 - title: "Idiomatic RSpec tests - How I keep my tests DRY and readable"
-  raw_title: "Idiomatic RSpec by Richi Bützer"
+  raw_title: "Idiomatic RSpec by Richard Bützer"
   event_name: "Railshöck August 2017"
   speakers:
-    - "Richi Bützer"
+    - Richard Bützer
   video_id: "richi-butzer-railshock-august-2017"
   video_provider: "not_recorded"
   date: "2017-08-16"
   slides_url: https://docs.google.com/presentation/d/1Ni5AFZyh6YgawJR8gZyBrW00_abdNCcVRNn5WlPQ5DI/edit
   description: |-
-    Richi Bützer discusses best practices for writing idiomatic RSpec tests, focusing on clean, readable, and maintainable test suites.
+    Richard Bützer discusses best practices for writing idiomatic RSpec tests, focusing on clean, readable, and maintainable test suites.
 
     https://www.meetup.com/rubyonrails-ch/events/242035630
 
@@ -950,11 +950,11 @@
     https://www.meetup.com/rubyonrails-ch/events/298503717
 
 - title: "nochmal, the gem"
-  raw_title: "nochmal, the gem by Matthias Vieweger (Puzzle)"
+  raw_title: "nochmal, the gem by Matthias Viehweger (Puzzle)"
   event_name: "Railshöck August 2024"
   speakers:
-    - "Matthias Vieweger"
-  video_id: "matthias-vieweger-nochmal-railshock-august-2024"
+    - "Matthias Viehweger"
+  video_id: "matthias-viehweger-nochmal-railshock-august-2024"
   video_provider: "not_recorded"
   slides_url: https://github.com/kronn/puzzle-presentations/blob/main/nochmal.pdf
   date: "2024-08-21"
@@ -1062,6 +1062,7 @@
   thumbnail_md: https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreigq7gruyi66dlirws6a5j6mp73k6utcdl7ygym3gxkmd373c4buiy@jpeg
   thumbnail_lg: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreigq7gruyi66dlirws6a5j6mp73k6utcdl7ygym3gxkmd373c4buiy@jpeg
   thumbnail_xl: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreigq7gruyi66dlirws6a5j6mp73k6utcdl7ygym3gxkmd373c4buiy@jpeg
+  slides_url: https://drive.google.com/file/d/1K2rJsOBbZtWQSW9X16unidQddlRqKfxr/view
   description: |-
     https://github.com/de-sopi/rails-sse-manager
     https://github.com/de-sopi/sse-rails-react-demo

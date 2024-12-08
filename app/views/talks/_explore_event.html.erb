@@ -4,7 +4,17 @@
   </div>
 
   <div class="flex flex-col w-full flex-1 self-start">
-    <span class="text-lg font-semibold sm:text-md">Explore all talks recorded at <%= event.name %></span>
+    <span class="text-lg font-semibold sm:text-md">
+      Explore all talks
+
+      <% if event.start_date && event.start_date.future? %>
+         scheduled for
+      <% else %>
+        recorded at
+      <% end %>
+
+      <%= event.name %>
+    </span>
 
     <div class="avatar-group -space-x-3 rtl:space-x-reverse mt-4">
       <% speakers_with_avatars = event.speakers.where.not(github: "").sample(8) %>

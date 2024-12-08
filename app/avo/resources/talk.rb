@@ -54,7 +54,7 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :view_count, as: :number, hide_on: :index
     field :created_at, as: :date, hide_on: :index
     field :updated_at, as: :date, sortable: true, filterable: true
-    field :speakers, as: :has_many, through: :speaker_talks
+    field :speakers, as: :has_many, through: :speaker_talks, attach_scope: -> { query.order(name: :asc) }
     field :raw_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
     field :enhanced_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
     # field :suggestions, as: :has_many

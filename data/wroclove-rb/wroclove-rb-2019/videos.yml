@@ -137,33 +137,109 @@
   language: English
   description: ""
 
-- title: Lighting Talks Day 2
+- title: Lighting Talks (Day 2)
   raw_title: Lighting talks 1 - wroc_love.rb 2019
-  speakers:
-    - Paweł Pokrywka # wroc_love Spam
-    - Maciek Rząsa # The only easy thing
-    - Wojtek Rząsa # Predicting Performance Changes of Distributed Applications
-    - Victor Shepelev # Farewell To SciRuby
-    - Dmitry Salahutdinov # Outdated Browser Detection with Browserslist - https://speakerdeck.com/dsalahutdinov/outdated-browser-detection-with-browserslist
-    - Nicolas Dermine # Sonic Pi
   event_name: wroclove.rb 2019
   published_at: "2019-03-22"
   video_provider: youtube
   video_id: cPuhRsV6Pw4
   language: English
   description: ""
+  talks:
+    - title: "Lightning Talk: wroc_love Spam"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: pawel-pokrywka-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Paweł Pokrywka
 
-- title: Lighting Talks Day 3
+    - title: "Lightning Talk: The only easy thing"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: maciek-rzasa-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Maciek Rząsa
+
+    - title: "Lightning Talk: Predicting Performance Changes of Distributed Applications"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: wojtek-rzasa-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Wojtek Rząsa
+
+    - title: "Lightning Talk: Farewell To SciRuby"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: victor-shepelev-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Victor Shepelev
+
+    - title: "Lightning Talk: Outdated Browser Detection with Browserslist"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: dmitry-salahutdinov-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Dmitry Salahutdinov
+      slides_url: https://speakerdeck.com/dsalahutdinov/outdated-browser-detection-with-browserslist
+
+    - title: "Lightning Talk: Sonic Pi"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: nicolas-dermine-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Nicolas Dermine
+
+- title: Lighting Talks (Day 3)
   raw_title: Lighting talks 2 - wroc_love.rb 2019
-  speakers:
-    - Adam Hodowany # Scratching The Surface of Hunky Dory Elixir Features
-    - Tomáš Dundáček # What and Why
-    - Adam Skołuda # Ruby & Elixir - Friend or Foe
-    - Adam Piotrowski # People Hate Him, Why Ruby is not dead?, Thank you, Please Help, How (not) to meet new people on DRUGCamp
-    - Nicolas Dermine # More Sonic Pi
   event_name: wroclove.rb 2019
   published_at: "2019-03-22"
   video_provider: youtube
   video_id: 9q9eLQ2nSwA
   language: English
   description: ""
+  talks:
+    - title: "Lightning Talk: Scratching The Surface of Hunky Dory Elixir Features"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: adam-hodowany-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Adam Hodowany
+
+    - title: "Lightning Talk: What and Why"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: tomas-dundacek-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Tomáš Dundáček
+
+    - title: "Lightning Talk: Ruby & Elixir - Friend or Foe"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: adam-skoluda-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Adam Skołuda
+
+    - title: "Lightning Talk: People Hate Him, Why Ruby is not dead?, Thank you, Please Help, How (not) to meet new people on DRUGCamp"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: adam-piotrowski-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Adam Piotrowski
+
+    - title: "Lightning Talk: More Sonic Pi"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      video_id: nicolas-dermine-lighting-talk-wroclove-rb-2019
+      video_provider: parent
+      speakers:
+        - Nicolas Dermine

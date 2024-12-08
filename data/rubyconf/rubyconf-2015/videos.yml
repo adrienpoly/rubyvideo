@@ -721,54 +721,173 @@
   video_provider: youtube
   video_id: 7vuOth98ZzY
 
-- title: Lightning Talks
-  raw_title: RubyConf 2015 - Lightning Talks by Many People
-  speakers:
-    - Michael Hartl
-    - David Bock
-    - Benjamin Fleischer
-    - Steve Downie
-    - Reid Morrison
-    - Randy Coulman
-    - Billy Watson
-    - Ray Hightower
-    - Clayton Flesher
-    - Devin Clark
-    - Scott Mascar
-    - Paul Dawson
-    - Miki Rezentes
-    - Jordan Bach
-    - Nat Budin
-    - Rick Carlino
-    - Ratnadeep Deshmane
-    - Craig Buchek
-    - Loraine Kanervisto
-    - Britni Alexander
+- title: "Lightning Talks"
+  raw_title: "RubyConf 2015 - Lightning Talks by Many People"
   event_name: RubyConf 2015
   published_at: "2015-11-22"
-  description: |-
-    1. 00:00 - Michael Hartl - Learn Enough to be Dangerous
-    2. 01:45 - David Bock - Cooking Management to Give Back
-    3. 03:23 - Benjamin Fleischer - Encoded TOSS String
-    4. 04:57 - Steve Downie - Universal Tranlator
-    5. 10:34 - Reid Morrison - Rocket Job
-    6.15:43 - Randy Coulman - Inconceivable
-    7. 20:56 - Billy Watson - Plane Programming
-    8. 26:00 - Ray Hightower - Parallella
-    9. 30:57 - Clayton Flesher - ure
-    10. 33:48 - Devin Clark - 3D Printing is not like Cooking Rotisserie Chicken at Home.
-    11. 38:52 - Scott Mascar - In Over My Head
-    12. 42:32 - Paul Dawson - UI Driven Development
-    13. 46:33 - Miki Rezentes - Onboarding Junior Devs
-    14. 51:27 - Jordan Bach - Improving SOA w/Pub-Sub
-    15. 56:38 - Nat Budin - 2 Tiny Dev Tools
-    16. 1:01:00 - Rick Carlino - Concepts for New Volt Devs
-    17. 1:06:38 - @rtdp - Ruby Venac
-    18. 1:12:12 - Craig Buchek - Too Late to Estimate
-    19. 1:14:38 - Loraine Kanervisto - Book Duets
-    20. 1:19:07 - Britni Alexander - Go Get a Damn Job
+  description: ""
   video_provider: youtube
   video_id: G4j_GrieCyk
+  talks:
+    - title: "Lightning Talk: Learn Enough to be Dangerous"
+      start_cue: "00:00"
+      end_cue: "01:45"
+      video_id: michael-hartl-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Michael Hartl
+
+    - title: "Lightning Talk: Cooking Management to Give Back"
+      start_cue: "01:45"
+      end_cue: "03:23"
+      video_id: david-bock-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - David Bock
+
+    - title: "Lightning Talk: Encoded TOSS String"
+      start_cue: "03:23"
+      end_cue: "04:57"
+      video_id: benjamin-fleischer-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Benjamin Fleischer
+
+    - title: "Lightning Talk: Universal Translator"
+      start_cue: "04:57"
+      end_cue: "10:34"
+      video_id: steve-downie-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Steve Downie
+
+    - title: "Lightning Talk: Rocket Job"
+      start_cue: "10:34"
+      end_cue: "15:43"
+      video_id: reid-morrison-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Reid Morrison
+
+    - title: "Lightning Talk: Inconceivable"
+      start_cue: "15:43"
+      end_cue: "20:56"
+      video_id: randy-coulman-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Randy Coulman
+
+    - title: "Lightning Talk: Plane Programming"
+      start_cue: "20:56"
+      end_cue: "26:00"
+      video_id: billy-watson-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Billy Watson
+
+    - title: "Lightning Talk: Parallella"
+      start_cue: "26:00"
+      end_cue: "30:57"
+      video_id: ray-hightower-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Ray Hightower
+
+    - title: "Lightning Talk: ure"
+      start_cue: "30:57"
+      end_cue: "33:48"
+      video_id: clayton-flesher-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Clayton Flesher
+
+    - title: "Lightning Talk: 3D Printing is not like Cooking Rotisserie Chicken at Home."
+      start_cue: "33:48"
+      end_cue: "38:52"
+      video_id: devin-clark-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Devin Clark
+
+    - title: "Lightning Talk: In Over My Head"
+      start_cue: "38:52"
+      end_cue: "42:32"
+      video_id: scott-mascar-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Scott Mascar
+
+    - title: "Lightning Talk: UI Driven Development"
+      start_cue: "42:32"
+      end_cue: "46:33"
+      video_id: paul-dawson-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Paul Dawson
+
+    - title: "Lightning Talk: Onboarding Junior Devs"
+      start_cue: "46:33"
+      end_cue: "51:27"
+      video_id: miki-rezentes-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Miki Rezentes
+
+    - title: "Lightning Talk: Improving SOA w/Pub-Sub"
+      start_cue: "51:27"
+      end_cue: "56:38"
+      video_id: jordan-bach-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Jordan Bach
+
+    - title: "Lightning Talk: 2 Tiny Dev Tools"
+      start_cue: "56:38"
+      end_cue: "1:01:00"
+      video_id: nat-budin-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Nat Budin
+
+    - title: "Lightning Talk: Concepts for New Volt Devs"
+      start_cue: "1:01:00"
+      end_cue: "1:06:38"
+      video_id: rick-carlino-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Rick Carlino
+
+    - title: "Lightning Talk: Ruby Venac"
+      start_cue: "1:06:38"
+      end_cue: "1:12:12"
+      video_id: ratnadeep-deshmane-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Ratnadeep Deshmane
+
+    - title: "Lightning Talk: Too Late to Estimate"
+      start_cue: "1:12:12"
+      end_cue: "1:14:38"
+      video_id: craig-buchek-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Craig Buchek
+
+    - title: "Lightning Talk: Book Duets"
+      start_cue: "1:14:38"
+      end_cue: "1:19:07"
+      video_id: loraine-kanervisto-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Loraine Kanervisto
+
+    - title: "Lightning Talk: Go Get a Damn Job"
+      start_cue: "1:19:07"
+      end_cue: "1:24:22"
+      video_id: britni-alexander-lighting-talk-rubyconf-2015
+      video_provider: parent
+      speakers:
+        - Britni Alexander
 
 - title: A Muggle's Guide to Tail Call Optimization in Ruby
   raw_title: RubyConf 2015 - A Muggle's Guide to Tail Call Optimization in Ruby by Danny Guinther

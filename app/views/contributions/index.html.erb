@@ -35,10 +35,13 @@
 
         <div id="speakers" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 min-w-full mb-6">
           <% @speakers_without_github.each do |speaker| %>
-            <%= link_to edit_speaker_path(speaker), id: dom_id(speaker), class: "flex justify-between hover:bg-gray-100 p-4 rounded-lg border bg-white", data: {turbo_frame: "modal"} do %>
-              <div class="flex items-center">
-                <span><%= speaker.name %></span>
-              </div>
+            <%= content_tag :div, id: dom_id(speaker), class: "flex justify-between p-4 rounded-lg border bg-white" do %>
+              <span><%= link_to speaker.name, edit_speaker_path(speaker), class: "underline link", data: {turbo_frame: "modal"} %></span>
+              <span>
+                <%= link_to "https://github.com/search?q=#{speaker.name}&type=users", target: "_blank", class: "underline link" do %>
+                  <%= heroicon "magnifying-glass", variant: :outline, class: "size-5" %>
+                <% end %>
+              </span>
             <% end %>
           <% end %>
 
@@ -186,6 +189,35 @@
       </div>
     </div>
 
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Missing Video Cues (<%= @missing_videos_cue_count %>)" style="width: 200px">
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Missing Video Cues (<%= @missing_videos_cue_count %>)</h2>
+
+        <article class="prose mb-6">
+          This section highlights talks that have child talks but are missing video cues. You can help by adding video cues to these talks so we can let users play the the talk from the exact time it starts.
+        </article>
+
+        <div id="talks-dates-out-of-bounds" class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4 min-w-full mb-6">
+          <% @missing_videos_cue.each do |event, talks| %>
+            <%= content_tag :div, id: dom_id(event), class: "p-4 rounded-lg border bg-white", target: :_blank do %>
+              <article class="prose">
+                <h3 class="line-clamp-1">Event: <%= event.name %></h3>
+
+                <b class="mt-4 mb-2">Recording doesn't have cues for it's child talks:</b>
+
+                <ul>
+                  <% talks.each do |talk| %>
+                    <li><%= link_to talk.title, talk %> (<%= link_to pluralize(talk.child_talks.size, "talk"), talk %>) [<%= link_to "Data File", "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: :_blank %>]</li>
+                  <% end %>
+                </ul>
+              </article>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
     <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Overdue scheduled talks (<%= @overdue_scheduled_talks_count %>)" style="width: 250px">
     <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
       <div class="">
@@ -211,7 +243,7 @@
 
                 <ul>
                   <% talks.each do |talk| %>
-                    <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" %> (<%= link_to talk.date.to_fs(:long), talk %>, <%= time_ago_in_words(talk.date) %> ago)</li>
+                    <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" if talk.static_metadata %> (<%= link_to talk.date.to_fs(:long), talk %>, <%= time_ago_in_words(talk.date) %> ago)</li>
                   <% end %>
                 </ul>
               </article>
@@ -239,12 +271,12 @@
                   <h3 class="line-clamp-1">Event: <%= event.name %></h3>
                 </div>
 
-                <h3 class="line-clamp-1 mt-3 mb-6"><pre>Data File: <%= talks.first.static_metadata.__file_path %></pre></h3>
+                <h3 class="line-clamp-1 mt-3 mb-6"><pre>Data File: <%= talks.first.static_metadata&.__file_path.inspect %></pre></h3>
 
                 <div class="prose">
                   <ul>
                     <% talks.each do |talk| %>
-                      <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" %> (<%= link_to talk.date.to_fs(:long), talk %>)</li>
+                      <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" if talk.static_metadata %> (<%= link_to talk.date.to_fs(:long), talk %>)</li>
                     <% end %>
                   </ul>
                 </div>
@@ -277,7 +309,7 @@
 
                 <ul>
                   <% talks.each do |talk| %>
-                    <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" %> (<%= link_to talk.date.to_fs(:long), talk %>, <%= time_ago_in_words(talk.date) %> ago)</li>
+                    <li><%= link_to talk.title, "https://github.com/adrienpoly/rubyvideo/edit/main/#{talk.static_metadata.__file_path}", target: "_blank" if talk.static_metadata %> (<%= link_to talk.date.to_fs(:long), talk %>, <%= time_ago_in_words(talk.date) %> ago)</li>
                   <% end %>
                 </ul>
               </article>

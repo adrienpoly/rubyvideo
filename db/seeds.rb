@@ -51,9 +51,19 @@ MeiliSearch::Rails.deactivate! do
           next
         end
 
-        Talk
-          .find_or_initialize_by(video_id: talk_data["video_id"], video_provider: talk_data["video_provider"] || :youtube)
-          .update_from_yml_metadata!(event: event)
+        talk = Talk.find_or_initialize_by(video_id: talk_data["video_id"].to_s, video_provider: talk_data["video_provider"] || :youtube)
+        talk.update_from_yml_metadata!(event: event)
+
+        child_talks = Array.wrap(talk_data["talks"])
+
+        next if child_talks.none?
+
+        child_talks.each do |child_talk_data|
+          Talk.find_or_initialize_by(video_id: child_talk_data["video_id"].to_s, video_provider: child_talk_data["video_provider"] || :parent).tap do |child_talk|
+            child_talk.parent_talk = talk
+            child_talk.update_from_yml_metadata!(event: event)
+          end
+        end
       rescue ActiveRecord::RecordInvalid => e
         puts "Couldn't save: #{talk_data["title"]}, error: #{e.message}"
       end

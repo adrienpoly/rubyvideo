@@ -79,17 +79,6 @@
 
 - title: "Lightning Talks: Day 1"
   raw_title: EuRuKo 2016 - Day 1 Lightning Talks
-  speakers:
-    - Max Gorin # Making a Multiplayer Memory Game with Elixir and Elm (0:29)
-    - Johanna Lang # Team Joda 2016 (Rails Girls Summer of Code 2016) (6:20)
-    - Dayana Mick # Team Joda 2016 (Rails Girls Summer of Code 2016) (6:20)
-    - Kinga Kalinowska # We Are Rubycats! (Rails Girls Summer of Code 2016) (12:11)
-    - Izabela Komorek # We Are Rubycats! (Rails Girls Summer of Code 2016) (12:11)
-    - Melanie Keatley # Magic Solution to the Tech Gender Gap (18:22)
-    - Stephanie Nemeth # Magic Solution to the Tech Gender Gap (18:22)
-    - Krzysztof (Christopher) Wawer # Validations (23:39)
-    - Demir Zekić # The Importance of Teaching and Metoring (28:53)
-    - Jan Lelis # Whirly - The Friendly Terminal Spinner (35:25)
   event_name: EuRuKo 2016
   published_at: "2016-09-23"
   description: |-
@@ -105,6 +94,64 @@
 
   video_provider: youtube
   video_id: UehkClMTJDw
+  talks:
+    - title: "Making a Multiplayer Memory Game with Elixir and Elm"
+      start_cue: "0:29"
+      end_cue: "6:20"
+      video_provider: parent
+      video_id: max-gorin-lighting-talk-euruko-2016
+      speakers:
+        - Max Gorin
+
+    - title: "Team Joda 2016 (Rails Girls Summer of Code 2016)"
+      start_cue: "6:20"
+      end_cue: "12:11"
+      video_provider: parent
+      video_id: johanna-lang-lighting-talk-euruko-2016
+      speakers:
+        - Johanna Lang
+        - Dayana Mick
+
+    - title: "We Are Rubycats! (Rails Girls Summer of Code 2016)"
+      start_cue: "12:11"
+      end_cue: "18:22"
+      video_provider: parent
+      video_id: kinga-kalinowska-lighting-talk-euruko-2016
+      speakers:
+        - Kinga Kalinowska
+        - Izabela Komorek
+
+    - title: "Magic Solution to the Tech Gender Gap"
+      start_cue: "18:22"
+      end_cue: "23:39"
+      video_provider: parent
+      video_id: melanie-keatley-lighting-talk-euruko-2016
+      speakers:
+        - Melanie Keatley
+        - Stephanie Nemeth
+
+    - title: "Validations"
+      start_cue: "23:39"
+      end_cue: "28:53"
+      video_provider: parent
+      video_id: krzysztof-wawer-lighting-talk-euruko-2016
+      speakers:
+        - Krzysztof (Christopher) Wawer
+
+    - title: "The Importance of Teaching and Metoring"
+      start_cue: "28:53"
+      end_cue: "35:25"
+      video_provider: parent
+      video_id: demir-zekic-lighting-talk-euruko-2016
+      speakers:
+        - Demir Zekić
+
+    - title: "Whirly - The Friendly Terminal Spinner"
+      start_cue: "35:25"
+      video_provider: parent
+      video_id: jan-lelis-lighting-talk-euruko-2016
+      speakers:
+        - Jan Lelis
 
 ## Day 2
 
@@ -174,28 +221,67 @@
 
 - title: "Lightning Talks: Day 2"
   raw_title: EuRuKo 2016 - Day 2 Lightning Talks
-  speakers:
-    - Kriselda Rabino # The HTT(Pancake) Request - Keeping Your Clients Happy, Not Hangry (0:57)
-    - Stefan Daschek # How to decode ADSK data (Commodore 64 Edition) (7:50)
-    - Thomas Leitner # Working with PDFs in Ruby (13:47)
-    - Victor Shepelev # Ruby for Science and Open Data (22:55)
-    - Anton Dimitrov # CodeMarathon & HiredInTech - Using Rails to scale teaching CS online (29:37)
-    - Igor Omokov # Opening a calculator with Rails (34:16)
-    - Alex Jahraus # Feel Worse, Do Better (40:35)
   event_name: EuRuKo 2016
   published_at: "2016-09-24"
-  description: |-
-    Lightning talks from Day 2 of EuRuKo
-
-    * "The HTT(Pancake) Request - Keeping Your Clients Happy, Not Hangry" by Kriselda Rabino (0:57)
-    * "How to decode ADSK data (Commodore 64 Edition)" by Stefan Daschek (7:50)
-    * "Working with PDFs in Ruby" by Thomas Leitner (13:47)
-    * "Ruby for Science and Open Data" by Victor Shepelev (22:55)
-    * "CodeMarathon & HiredInTech - Using Rails to scale teaching CS online" by Anton Dimitrov (29:37)
-    * "Opening a calculator with Rails" by Igor Omokov (34:16)
-    * "Feel Worse, Do Better" by Alex Jahraus (40:35)
+  description: "Lightning talks from Day 2 of EuRuKo"
   video_provider: youtube
   video_id: WnlgKWCt8wQ
+  talks:
+    - title: "The HTT(Pancake) Request - Keeping Your Clients Happy, Not Hangry"
+      start_cue: "00:57"
+      end_cue: "07:50"
+      video_provider: parent
+      video_id: kriselda-rabino-lighting-talk-euruko-2016
+      speakers:
+        - Kriselda Rabino
+
+    - title: "How to decode ADSK data (Commodore 64 Edition)"
+      start_cue: "07:50"
+      end_cue: "13:47"
+      video_provider: parent
+      video_id: stefan-daschek-lighting-talk-euruko-2016
+      speakers:
+        - Stefan Daschek
+
+    - title: "Working with PDFs in Ruby"
+      start_cue: "13:47"
+      end_cue: "22:55"
+      video_provider: parent
+      video_id: thomas-leitner-lighting-talk-euruko-2016
+      speakers:
+        - Thomas Leitner
+
+    - title: "Ruby for Science and Open Data"
+      start_cue: "22:55"
+      end_cue: "29:37"
+      video_provider: parent
+      video_id: victor-shepelev-lighting-talk-euruko-2016
+      speakers:
+        - Victor Shepelev
+
+    - title: "CodeMarathon & HiredInTech - Using Rails to scale teaching CS online"
+      start_cue: "29:37"
+      end_cue: "34:16"
+      video_provider: parent
+      video_id: anton-dimitrov-lighting-talk-euruko-2016
+      speakers:
+        - Anton Dimitrov
+
+    - title: "Opening a calculator with Rails"
+      start_cue: "34:16"
+      end_cue: "40:35"
+      video_provider: parent
+      video_id: igor-omokov-lighting-talk-euruko-2016
+      speakers:
+        - Igor Omokov
+
+    - title: "Feel Worse, Do Better"
+      start_cue: "40:35"
+      end_cue: "48:09"
+      video_provider: parent
+      video_id: alex-jahraus-lighting-talk-euruko-2016
+      speakers:
+        - Alex Jahraus
 
 - title: The Illusion of Stable APIs
   raw_title: EuRuKo 2016 - The Illusion of Stable APIs by Nick Sutterer
