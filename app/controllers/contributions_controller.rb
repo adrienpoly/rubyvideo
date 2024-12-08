@@ -63,7 +63,11 @@ class ContributionsController < ApplicationController
     # Missing video cues
 
     videos_with_missing_cues = Static::Video.all.select { |video| video.talks.any? { |t| t.start_cue == "TODO" || t.end_cue == "TODO" } }
-    @missing_videos_cue = videos_with_missing_cues.map { |video| Talk.find_by(video_provider: video.video_provider || :youtube, video_id: video.video_id) }.group_by(&:event).select { |_event, talks| talks.any? }
+    @missing_videos_cue = videos_with_missing_cues.map { |video| Talk.find_by(video_provider: video.video_provider || :youtube, video_id: video.video_id) }.compact&.group_by(&:event)&.select { |_event, talks| talks.any? } || []
     @missing_videos_cue_count = videos_with_missing_cues.count
+
+    # Conferences with missing schedules
+    @conferences_with_missing_schedule = Event.joins(:organisation).where(organisation: { kind: :conference }).reject { |event| event.schedule.exist? }.group_by(&:organisation)
+    @conferences_with_missing_schedule_count = @conferences_with_missing_schedule.flat_map(&:last).count
   end
 end

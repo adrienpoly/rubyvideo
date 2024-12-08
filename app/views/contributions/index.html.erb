@@ -371,5 +371,32 @@
         </div>
       </div>
     </div>
+
+    <input type="radio" name="contribution-tabs" role="tab" class="tab" aria-label="Events without schedule (<%= @conferences_with_missing_schedule_count %>)" style="width: 250px">
+    <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <div class="">
+        <h2 class="mb-4">Events without schedule (<%= @conferences_with_missing_schedule_count %>)</h2>
+
+        <article class="prose mb-6">
+          <p>These events are missing schedule information. If you have access to the schedule, please consider adding it to the event page by adding a <code>schedule.yml</code> to the data folder.</p>
+        </article>
+
+        <div id="events-without-schedule" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 min-w-full mb-6">
+          <% @conferences_with_missing_schedule.each do |organisation, events| %>
+            <%= content_tag :div, id: dom_id(organisation, "without-schedule"), class: "p-4 rounded-lg border bg-white", target: :_blank do %>
+              <div class="flex flex-col">
+                <h3 class="line-clamp-1"><p>Organisation: <%= link_to organisation.name, organisation, class: "hover:underline" %></p></h3>
+
+                <b class="mt-4 mb-2">Events without schedule:</b>
+
+                <% events.each do |event| %>
+                  <span><%= link_to event.name, event, class: "hover:underline" %></span>
+                <% end %>
+              </div>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
