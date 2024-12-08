@@ -1,7 +1,8 @@
 class Talk::Thumbnails < ActiveRecord::AssociatedObject
-  def thumbnail_path
+  def path
     directory / "#{talk.video_id}.webp"
   end
+  delegate :exist?, to: :path
 
   def extractable?
     talk.meta_talk? && talk.static_metadata&.talks&.any? && !start_cues.include?("TODO")
@@ -12,7 +13,7 @@ class Talk::Thumbnails < ActiveRecord::AssociatedObject
   end
 
   def extracted?
-    talk.child_talks.map { |child_talk| child_talk.thumbnails.thumbnail_path.exist? }.reduce(:&)
+    talk.child_talks.map { |child_talk| child_talk.thumbnails.exist? }.reduce(:&)
   end
 
   def extract!(force: false, download: false)
@@ -51,7 +52,7 @@ class Talk::Thumbnails < ActiveRecord::AssociatedObject
         next
       end
 
-      extract_thumbnail(child_talk.static_metadata.thumbnail_cue, talk.downloader.download_path, child_talk.thumbnails.thumbnail_path)
+      extract_thumbnail(child_talk.static_metadata.thumbnail_cue, talk.downloader.download_path, child_talk.thumbnails.path)
     end
   end
 
