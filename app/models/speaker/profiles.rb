@@ -1,4 +1,6 @@
 class Speaker::Profiles < ActiveRecord::AssociatedObject
+  extend ActiveJob::Performs # TODO: Figure out why the Railtie isn't setting this up
+
   performs do
     retry_on StandardError, attempts: 3, wait: :polynomially_longer # TODO: replace with `retries: 3`.
     limits_concurrency key: -> { _1.id }
@@ -14,7 +16,7 @@ class Speaker::Profiles < ActiveRecord::AssociatedObject
     return unless user = (speaker.github? && users.profile(speaker.github)) || users.from_matching(name: speaker.name)
 
     speaker.update! speaker.slice(:twitter, :bio, :website).compact_blank.
-      with_defaults(github: user.login, twitter: user.twitter_username, bio: user.bio, website: user.blog)
+      with_defaults(github: user.login, twitter: user.twitter_username.to_s, bio: user.bio.to_s, website: user.blog.to_s)
 
     speaker.broadcast_about
   end
