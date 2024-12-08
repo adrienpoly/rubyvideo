@@ -67,7 +67,7 @@ class ContributionsController < ApplicationController
     @missing_videos_cue_count = videos_with_missing_cues.count
 
     # Conferences with missing schedules
-    @conferences_with_missing_schedule = Event.joins(:organisation).where(organisation: { kind: :conference }).reject { |event| event.schedule.exist? }.group_by(&:organisation)
+    @conferences_with_missing_schedule = Event.joins(:organisation).where(organisation: {kind: :conference}).reject { |event| event.schedule.exist? }.group_by(&:organisation)
     @conferences_with_missing_schedule_count = @conferences_with_missing_schedule.flat_map(&:last).count
   end
 end
