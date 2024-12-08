@@ -235,6 +235,7 @@
     - title: "Lightning Talks Intro"
       start_cue: "00:17"
       end_cue: "01:06"
+      thumbnail_cue: "00:39"
       video_id: lighting-talk-intro-rubyconf-2023
       video_provider: parent
       speakers:
@@ -323,6 +324,7 @@
     - title: "Lightning Talk: What is noira? & why we're designing for junior devs"
       start_cue: "45:10"
       end_cue: "50:10"
+      thumbnail_cue: "45:11"
       video_id: paul-lemus-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
@@ -381,6 +383,7 @@
     - title: "Lightning Talk: Getting good - At being bad a things"
       start_cue: "01:16:05"
       end_cue: "01:20:17"
+      thumbnail_cue: "01:16:06"
       video_id: victoria-guido-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
@@ -389,6 +392,7 @@
     - title: "Lightning Talk: My Campervan"
       start_cue: "01:20:17"
       end_cue: "01:25:13"
+      thumbnail_cue: "01:20:37"
       video_id: daniel-azuma-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
@@ -413,6 +417,7 @@
     - title: "Lightning Talk: You Should Livestream"
       start_cue: "01:35:18"
       end_cue: "01:40:22"
+      thumbnail_cue: "01:35:20"
       video_id: rachael-wright-munn-lighting-talk-rubyconf-2023
       video_provider: parent
       speakers:
