@@ -16,12 +16,12 @@ class EventsController < ApplicationController
   def show
     set_meta_tags(@event)
 
-    if @event.organisation.meetup?
-      event_talks = @event.talks_in_running_order.where(meta_talk: true).or(
+    event_talks = if @event.organisation.meetup?
+      @event.talks_in_running_order.where(meta_talk: true).or(
         @event.talks_in_running_order.where.not(video_provider: "parent")
       ).order(date: :desc)
     else
-      event_talks = @event.talks_in_running_order.order(date: :asc)
+      @event.talks_in_running_order.order(date: :asc)
     end
 
     if params[:q].present?
