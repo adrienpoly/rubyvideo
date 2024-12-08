@@ -63,7 +63,7 @@ class Talk < ApplicationRecord
   # extend Pagy::Meilisearch
 
   has_object :downloader
-  has_object :thumbnail_extractor
+  has_object :thumbnails
 
   # associations
   belongs_to :event, optional: true, counter_cache: :talks_count, touch: true
