@@ -1,4 +1,4 @@
-class Talk::ThumbnailExtractor < ActiveRecord::AssociatedObject
+class Talk::Thumbnails < ActiveRecord::AssociatedObject
   def thumbnails_directory
     directory = Rails.root / "app" / "assets" / "images" / "thumbnails"
 
@@ -20,7 +20,7 @@ class Talk::ThumbnailExtractor < ActiveRecord::AssociatedObject
   end
 
   def extracted?
-    talk.child_talks.map { |child_talk| child_talk.thumbnail_extractor.thumbnail_path.exist? }.reduce(:&)
+    talk.child_talks.map { |child_talk| child_talk.thumbnails.thumbnail_path.exist? }.reduce(:&)
   end
 
   def extract!(force: false, download: false)
@@ -59,7 +59,7 @@ class Talk::ThumbnailExtractor < ActiveRecord::AssociatedObject
         next
       end
 
-      extract_thumbnail(child_talk.static_metadata.thumbnail_cue, talk.downloader.download_path, child_talk.thumbnail_extractor.thumbnail_path)
+      extract_thumbnail(child_talk.static_metadata.thumbnail_cue, talk.downloader.download_path, child_talk.thumbnails.thumbnail_path)
     end
   end
 
