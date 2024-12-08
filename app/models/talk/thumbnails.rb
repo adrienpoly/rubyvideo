@@ -1,10 +1,6 @@
 class Talk::Thumbnails < ActiveRecord::AssociatedObject
   def thumbnails_directory
-    directory = Rails.root / "app" / "assets" / "images" / "thumbnails"
-
-    directory.mkdir unless directory.exist?
-
-    directory
+    Rails.root.join("app/assets/images/thumbnails").tap(&:mkpath)
   end
 
   def thumbnail_path
