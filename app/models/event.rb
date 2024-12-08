@@ -91,7 +91,7 @@ class Event < ApplicationRecord
   end
 
   def video_ids_in_running_order
-    videos_file.map { |talk| talk.dig("video_id") }
+    videos_file.flat_map { |talk| [talk.dig("video_id"), *talk["talks"]&.map { |child_talk| child_talk.dig("video_id")}] }
   end
 
   def suggestion_summary
