@@ -123,7 +123,7 @@
           <% end %>
 
           <div class="tooltip tooltip-top" data-tip="You can suggest some modifications to this talk">
-            <%= ui_button url: edit_talk_path(talk), kind: :pill do %>
+            <%= ui_button url: edit_talk_path(talk), kind: :pill, data: {turbo_frame: "modal"} do %>
               <%= fa("pen", size: :xs, style: :solid) %>
               <span>Edit</span>
             <% end %>
