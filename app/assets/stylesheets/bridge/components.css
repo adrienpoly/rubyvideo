@@ -1,0 +1,3 @@
+[data-bridge-components~="button"] [data-controller~="bridge--button"] {
+  display: none;
+}

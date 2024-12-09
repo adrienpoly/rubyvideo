@@ -165,10 +165,10 @@ class Event < ApplicationRecord
 
   def to_meta_tags
     {
-      title: title,
+      title: name,
       description: description,
       og: {
-        title: title,
+        title: %(All #{name} #{organisation.kind} talks),
         type: :website,
         image: {
           _: Router.image_path(card_image_path),
