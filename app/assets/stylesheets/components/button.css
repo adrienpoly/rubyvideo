@@ -1,10 +1,14 @@
 @layer components {
+  .btn {
+    @apply font-normal;
+  }
+
   .btn:not(.btn-sm) {
     height: 2.5rem;
     min-height: 2.5rem;
   }
   /* for the toolbar buttons */
-  .btn.btn-outline.btn-sm {
+  .btn.btn-pill.btn-outline.btn-sm {
     @apply rounded-full border border-gray-300 bg-white hover:bg-gray-200/50 hover:text-base-content/80;
     @apply text-sm font-normal;
     @apply flex-nowrap whitespace-nowrap;
@@ -16,6 +20,10 @@
   }
 
   .btn.btn-secondary {
-    @apply border-primary/10 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary;
+    @apply whitespace-nowrap border-primary bg-white fill-primary text-primary hover:bg-gray-100 hover:text-primary/90;
+  }
+
+  .btn.btn-neutral {
+    @apply bg-white font-normal hover:fill-neutral/80 hover:text-neutral/80;
   }
 }

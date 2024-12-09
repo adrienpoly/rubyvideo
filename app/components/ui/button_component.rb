@@ -4,7 +4,8 @@ class Ui::ButtonComponent < ApplicationComponent
   KIND_MAPPING = {
     primary: "btn-primary",
     secondary: "btn-secondary",
-    pill: "btn btn-outline btn-sm",
+    neutral: "btn-neutral btn-outline",
+    pill: "btn btn-pill btn-outline btn-sm",
     ghost: "btn-ghost",
     link: "btn-link",
     none: ""

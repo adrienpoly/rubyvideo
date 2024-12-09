@@ -10,7 +10,7 @@
 
   <div class="flex-col flex gap-2 title justify-center">
     <div class="flex flex-col lg:flex-row items-center justify-center lg:justify-start text-black font-bold gap-2">
-      <h1 style="view-transition-name: title"><%= speaker.name %></h1>
+      <h1 clas="flex" style="view-transition-name: title"><%= speaker.name %>
 
       <% if speaker.pronouns.present? && ["dont_specify", "not_specified"].exclude?(speaker.pronouns_type) %>
         <span class="text-sm content-center text-[#737373]">(<%= speaker.pronouns %>)</span>
@@ -18,16 +18,14 @@
       <% if speaker.verified? %>
         <%= fa("badge-check", class: "fill-blue-500", size: :sm) %>
       <% end %>
+      </h1>
     </div>
 
     <p class="text-[#636B74] max-w-[700px]">
       <%= speaker.bio %>
     </p>
     <% if speaker.website.present? %>
-      <%= link_to speaker.website, class: "link link-neutral flex justify-center lg:justify-start items-center gap-2 w-full tooltip tooltip-bottom", target: "_blank", data: {tip: speaker.website} do %>
-        <span><%= speaker.website.gsub(%r{^https?://}, "") %></span>
-        <%= fa "arrow-up-right-from-square", size: :xs %>
-      <% end %>
+      <%= external_link_to speaker.website.gsub(%r{^https?://}, ""), speaker.website %>
     <% end %>
 
     <div class="mt-2 flex justify-center lg:justify-start">
