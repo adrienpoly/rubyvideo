@@ -59,8 +59,10 @@ class SpeakersController < ApplicationController
   end
 
   def set_speaker
-    @speaker = Speaker.includes(:talks).find_by!(slug: params[:slug])
-    redirect_to speaker_path(@speaker.canonical) if @speaker.canonical.present?
+    @speaker = Speaker.includes(:talks).find_by(slug: params[:slug])
+
+    redirect_to speakers_path, status: :moved_permanently, notice: "Speaker not found" if @speaker.blank?
+    redirect_to speaker_path(@speaker.canonical) if @speaker&.canonical.present?
   end
 
   def speaker_params
