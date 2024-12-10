@@ -90,9 +90,9 @@ class TalkTest < ActiveSupport::TestCase
 
     refute @talk.enhanced_transcript.cues.present?
     VCR.use_cassette("talks/transcript-enhancement") do
-      assert_changes "@talk.transcript.cues" do
+      assert_changes "@talk.reload.enhanced_transcript.cues.count" do
         perform_enqueued_jobs do
-          @talk.enhance_transcript!
+          @talk.agents.improve_transcript_later
         end
       end
       assert @talk.enhanced_transcript.cues.present?

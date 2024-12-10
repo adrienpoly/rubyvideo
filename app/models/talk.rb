@@ -64,6 +64,7 @@ class Talk < ApplicationRecord
 
   has_object :downloader
   has_object :thumbnails
+  has_object :agents
 
   # associations
   belongs_to :event, optional: true, counter_cache: :talks_count, touch: true
