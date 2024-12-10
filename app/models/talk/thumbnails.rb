@@ -1,14 +1,6 @@
-class Talk::ThumbnailExtractor < ActiveRecord::AssociatedObject
-  def thumbnails_directory
-    directory = Rails.root / "app" / "assets" / "images" / "thumbnails"
-
-    directory.mkdir unless directory.exist?
-
-    directory
-  end
-
-  def thumbnail_path
-    thumbnails_directory / "#{talk.video_id}.webp"
+class Talk::Thumbnails < ActiveRecord::AssociatedObject
+  def path
+    directory / "#{talk.video_id}.webp"
   end
 
   def extractable?
@@ -20,7 +12,7 @@ class Talk::ThumbnailExtractor < ActiveRecord::AssociatedObject
   end
 
   def extracted?
-    talk.child_talks.map { |child_talk| child_talk.thumbnail_extractor.thumbnail_path.exist? }.reduce(:&)
+    talk.child_talks.map { |child_talk| child_talk.thumbnails.exist? }.reduce(:&)
   end
 
   def extract!(force: false, download: false)
@@ -59,11 +51,17 @@ class Talk::ThumbnailExtractor < ActiveRecord::AssociatedObject
         next
       end
 
-      extract_thumbnail(child_talk.static_metadata.thumbnail_cue, talk.downloader.download_path, child_talk.thumbnail_extractor.thumbnail_path)
+      extract_thumbnail(child_talk.static_metadata.thumbnail_cue, talk.downloader.download_path, child_talk.thumbnails.path)
     end
   end
 
   def extract_thumbnail(timestamp, input_file, output_file)
     Command.run(%(ffmpeg -y -ss #{timestamp} -i "#{input_file}" -map 0:v:0 -frames:v 1 -q:v 50 -vf scale=1080:-1 "#{output_file}"))
+  end
+
+  private
+
+  def directory
+    Rails.root.join("app/assets/images/thumbnails").tap(&:mkpath)
   end
 end
