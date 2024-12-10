@@ -23,7 +23,10 @@
           <h2 class="text-inherit font-medium text-sm line-clamp-3 hidden lg:block"><%= event.description %></h2>
         </div>
 
-        <%= ui_button "Explore All Talks", kind: :neutral %>
+        <%= ui_button kind: :primary do %>
+          <span>Explore All Talks</span>
+          <%= fa "arrow-right", size: :xs %>
+        <% end %>
       </div>
 
       <div class="hidden lg:flex flex-col justify-center items-center">
