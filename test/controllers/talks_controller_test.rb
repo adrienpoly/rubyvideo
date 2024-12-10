@@ -51,7 +51,7 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get edit" do
-    get edit_talk_url(@talk)
+    get edit_talk_url(@talk), headers: {"Turbo-Frame" => "modal"}
     assert_response :success
   end
 

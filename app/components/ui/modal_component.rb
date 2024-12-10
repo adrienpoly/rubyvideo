@@ -8,9 +8,15 @@ class Ui::ModalComponent < ApplicationComponent
     responsive: "modal-bottom sm:modal-middle"
   }
 
+  SIZE_MAPPING = {
+    md: "",
+    lg: "!max-w-[800px]"
+  }
+
   option :open, type: Dry::Types["strict.bool"], default: proc { false }
   option :close_button, type: Dry::Types["strict.bool"], default: proc { true }
   option :position, type: Dry::Types["coercible.symbol"].enum(*POSITION_MAPPING.keys), optional: true, default: proc { :responsive }
+  option :size, type: Dry::Types["coercible.symbol"].enum(*SIZE_MAPPING.keys), optional: true, default: proc { :md }
 
   private
 
@@ -35,6 +41,10 @@ class Ui::ModalComponent < ApplicationComponent
       "modal",
       POSITION_MAPPING[position]
     )
+  end
+
+  def size_class
+    SIZE_MAPPING[size]
   end
 
   def content_classes
