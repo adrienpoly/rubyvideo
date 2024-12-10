@@ -13,7 +13,7 @@ task verify_thumbnails: :environment do |t, args|
   Talk.where(meta_talk: true).flat_map(&:child_talks).each do |child_talk|
     if child_talk.static_metadata
       if child_talk.static_metadata.start_cue.present? && child_talk.static_metadata.start_cue != "TODO"
-        if child_talk.thumbnails.exist?
+        if child_talk.thumbnails.path.exist?
           thumbnails_count += 1
         else
           puts "missing thumbnail for child_talk: #{child_talk.video_id} at: #{child_talk.thumbnails.path}"
