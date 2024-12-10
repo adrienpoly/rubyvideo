@@ -154,6 +154,7 @@
     - Chris Oliver
   event_name: RailsConf 2024
   published_at: "2024-05-24"
+  slides_url: https://speakerdeck.com/excid3/crafting-rails-plugins
   description:
     Ever wanted to build a plugin for Rails to add new features? Rails
     plugins allow you to hook into the lifecycle of a Rails application to add routes,
