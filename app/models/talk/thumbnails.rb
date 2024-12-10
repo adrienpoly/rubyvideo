@@ -2,7 +2,6 @@ class Talk::Thumbnails < ActiveRecord::AssociatedObject
   def path
     directory / "#{talk.video_id}.webp"
   end
-  delegate :exist?, to: :path
 
   def extractable?
     talk.meta_talk? && talk.static_metadata&.talks&.any? && !start_cues.include?("TODO")
