@@ -12,7 +12,7 @@ class Talk::Thumbnails < ActiveRecord::AssociatedObject
   end
 
   def extracted?
-    talk.child_talks.map { |child_talk| child_talk.thumbnails.exist? }.reduce(:&)
+    talk.child_talks.map { |child_talk| child_talk.thumbnails.path.exist? }.reduce(:&)
   end
 
   def extract!(force: false, download: false)
