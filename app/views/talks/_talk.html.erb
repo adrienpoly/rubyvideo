@@ -30,7 +30,7 @@
           This talk is available to watch on <%= URI.parse(talk.external_player_url).host %>
 
           <%= ui_button do %>
-            <%= fa("play", size: :sm, class: "fill-white") %> <span>Watch <span class="hidden sm:inline-block"> on <%= URI.parse(talk.external_player_url).host %></span></span>
+            <%= fa("play", size: :xs, class: "fill-white") %> <span>Watch <span class="hidden sm:inline-block"> on <%= URI.parse(talk.external_player_url).host %></span></span>
           <% end %>
         </div>
       <% end %>
@@ -75,21 +75,21 @@
             <% video_id = (talk.parent_talk || talk).video_id %>
             <% timestamp = talk.start_seconds ? "&t=#{talk.start_seconds}" : "" %>
 
-            <a class="tooltip tooltip-top" data-tip="Watch on YouTube" href="<%= "https://www.youtube.com/watch?v=#{video_id}#{timestamp}" %>" target="_blank" data-action="click->video-player#pause">
-              <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
-                <span class="text-nowrap">Play on</span>
-                <%= fa("youtube-brands", size: :sm, style: :solid) %>
-              </div>
-            </a>
+            <%= ui_tooltip "Watch on YouTube" do %>
+              <%= ui_button url: "https://www.youtube.com/watch?v=#{talk.video_id}", kind: :pill, target: "_blank", data: {action: "click->video-player#pause"} do %>
+                <%= fa("youtube-brands", size: :xs, style: :solid) %>
+                <span>Play on YouTube</span>
+              <% end %>
+            <% end %>
           <% end %>
 
           <% if talk.vimeo? || talk.parent_talk&.vimeo? %>
-            <a class="tooltip tooltip-top" data-tip="Watch on Vimeo" href="<%= talk.provider_url %>" target="_blank" data-action="click->video-player#pause">
-              <div class="flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm cursor-pointer">
-                <span class="text-nowrap">Play on</span>
-                <%= fa("vimeo-v-brands", size: :sm, style: :solid) %>
-              </div>
-            </a>
+            <%= ui_tooltip "Watch on Vimeo" do %>
+              <%= ui_button url: "https://vimeo.com/video/#{talk.video_id}", kind: :pill, target: "_blank" do %>
+                <%= fa("vimeo-v-brands", size: :xs, style: :solid) %>
+                <span>Play on Vimeo</span>
+              <% end %>
+            <% end %>
           <% end %>
 
           <% if talk.static_metadata&.external_player_url.present? || talk.parent_talk&.static_metadata&.external_player_url.present? %>
@@ -106,17 +106,15 @@
             <%= turbo_frame_tag dom_id(talk, :watched_talk) do %>
               <% if talk.watched? %>
                 <div class="tooltip tooltip-top" data-tip="Mark talk as unwatched">
-                  <%= button_to [talk, :watched_talk],
-                        class: "flex gap-2 items-center rounded-full border bg-green-100 hover:bg-green-200 border-green-200 font-regular px-3 py-1 text-sm",
-                        method: :delete do %>
-                    <%= fa("circle-check", size: :sm, style: :solid, class: "fill-green-700") %>
+                  <%= ui_button url: talk_watched_talk_path(talk), method: :delete, kind: :pill do %>
+                    <%= fa("circle-check", size: :xs, style: :solid, class: "fill-green-700") %>
                     <span class="text-nowrap">Watched</span>
                   <% end %>
                 </div>
               <% else %>
                 <div class="tooltip tooltip-top" data-tip="Mark talk as watched">
-                  <%= button_to [talk, :watched_talk], class: "flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm" do %>
-                    <%= fa("circle", size: :sm, style: :regular) %>
+                  <%= ui_button url: talk_watched_talk_path(talk), method: :post, kind: :pill do %>
+                    <%= fa("circle", size: :xs, style: :regular) %>
                     <span class="text-nowrap">Watched</span>
                   <% end %>
                 </div>
@@ -125,8 +123,8 @@
           <% end %>
 
           <div class="tooltip tooltip-top" data-tip="You can suggest some modifications to this talk">
-            <%= link_to edit_talk_path(talk), class: "flex gap-2 items-center rounded-full border bg-gray-100 hover:bg-gray-200/50 border-gray-200 font-regular px-3 py-1 text-sm" do %>
-              <%= heroicon :pencil, size: :sm %>
+            <%= ui_button url: edit_talk_path(talk), kind: :pill, data: {turbo_frame: "modal"} do %>
+              <%= fa("pen", size: :xs, style: :solid) %>
               <span>Edit</span>
             <% end %>
           </div>
@@ -274,7 +272,7 @@
           <% if talk.summarized_using_ai? %>
             <div class="badge text-white bg-[linear-gradient(to_right,rgb(132,71,198),rgb(171,93,139))] px-3 py-3 mb-4">
               <span class="tooltip tooltip-right flex" data-tip="This summary is auto-generated by an AI based on the transcript of the talk.">
-                <%= heroicon :sparkles, size: :sm, variant: :solid, class: "mr-2" %> Summarized using AI
+                <%= heroicon :sparkles, size: :xs, variant: :solid, class: "mr-2" %> Summarized using AI
               </span>
             </div>
           <% end %>

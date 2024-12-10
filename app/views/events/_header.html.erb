@@ -25,12 +25,12 @@
       <div class="flex-col flex justify-center">
         <h1 class="mb-2 text-black font-bold" style="view-transition-name: title"><%= event.name %></h1>
         <h3 class="text-[#636B74]"><%= event.location %> • <%= event.formatted_dates %></h3>
+        <%= external_link_to event.website.gsub(%r{^https?://}, "").gsub(%r{/$}, ""), event.website %>
       </div>
     </div>
 
     <div class="flex flex-col gap-3 place-items-center">
-      <%= link_to "Visit Website", event.website, class: "btn btn-neutral w-full", target: "_blank" %>
-      <%= link_to "View all #{event.organisation.name} events", event.organisation, class: "btn w-full" %>
+      <%= ui_button "View all #{event.organisation.name} events", url: organisation_path(event.organisation), kind: :secondary, size: :sm, class: "w-full" %>
     </div>
   </div>
 

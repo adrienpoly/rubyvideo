@@ -1,7 +1,11 @@
 class TalksController < ApplicationController
+  include RemoteModal
   include Pagy::Backend
   include WatchedTalks
   skip_before_action :authenticate_user!
+
+  respond_with_remote_modal only: [:edit]
+
   before_action :set_talk, only: %i[show edit update]
   before_action :set_user_favorites, only: %i[index show]
 
@@ -23,6 +27,7 @@ class TalksController < ApplicationController
 
   # GET /talks/1/edit
   def edit
+    set_modal_options(size: :lg)
   end
 
   # PATCH/PUT /talks/1
