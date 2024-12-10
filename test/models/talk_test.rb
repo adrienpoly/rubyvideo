@@ -99,6 +99,21 @@ class TalkTest < ActiveSupport::TestCase
     end
   end
 
+  test "summarize talk" do
+    @talk = talks(:one)
+    @talk = Talk.includes(event: :organisation).find(@talk.id)
+
+    refute @talk.summary.present?
+    VCR.use_cassette("talks/summarize") do
+      assert_changes "@talk.reload.summary.present?" do
+        perform_enqueued_jobs do
+          @talk.agents.summarize_later
+        end
+      end
+      assert @talk.summary.present?
+    end
+  end
+
   test "extract topics" do
     @talk = talks(:one)
 
