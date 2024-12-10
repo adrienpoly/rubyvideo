@@ -96,4 +96,17 @@ Rails.application.routes.draw do
   resources :watch_lists, only: [:index, :new, :create, :show, :edit, :update, :destroy] do
     resources :talks, only: [:create, :destroy], controller: "watch_list_talks"
   end
+
+  namespace :hotwire do
+    namespace :native do
+      namespace :v1 do
+        namespace :android do
+          resource :path_configuration, only: :show
+        end
+        namespace :ios do
+          resource :path_configuration, only: :show
+        end
+      end
+    end
+  end
 end
