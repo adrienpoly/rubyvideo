@@ -5,7 +5,8 @@ class Ui::ButtonComponent < ApplicationComponent
     primary: "btn-primary",
     secondary: "btn-secondary",
     neutral: "btn-neutral btn-outline",
-    pill: "btn btn-pill btn-outline btn-sm",
+    rounded: "btn btn-rounded",
+    pill: "btn btn-pill btn-sm",
     ghost: "btn-ghost",
     link: "btn-link",
     none: ""
