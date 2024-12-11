@@ -75,6 +75,11 @@ class Talk < ApplicationRecord
   has_many :watch_list_talks, dependent: :destroy
   has_many :watch_lists, through: :watch_list_talks
 
+  # associated objects
+  has_object :agents
+  has_object :downloader
+  has_object :thumbnails
+
   # serializers
   serialize :enhanced_transcript, coder: TranscriptSerializer
   serialize :raw_transcript, coder: TranscriptSerializer
@@ -102,13 +107,6 @@ class Talk < ApplicationRecord
   # jobs
   performs :update_from_yml_metadata!
   performs :fetch_and_update_raw_transcript!, retries: 3
-
-  # associated objects
-  # As of now it must be after performs otherwise bin/rails verify_thumbnails will fail
-  # with the error The Talk::Agents associated object referenced from Talk doesn't exist
-  has_object :agents
-  has_object :downloader
-  has_object :thumbnails
 
   # normalization
   normalizes :language, apply_to_nil: true, with: ->(language) do
