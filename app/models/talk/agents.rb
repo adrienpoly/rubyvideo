@@ -1,15 +1,11 @@
 class Talk::Agents < ActiveRecord::AssociatedObject
-  performs :improve_transcript, retries: 3 do
+  performs retries: 3 do
     limits_concurrency to: 1, key: "openai_api", duration: 1.hour # this is to comply to the rate limit of openai 60 000 tokens per minute
   end
 
-  performs :summarize, retries: 3 do
-    limits_concurrency to: 1, key: "openai_api", duration: 1.hour # this is to comply to the rate limit of openai 60 000 tokens per minute
-  end
-
-  performs :analyze_topics, retries: 3 do
-    limits_concurrency to: 1, key: "openai_api", duration: 1.hour # this is to comply to the rate limit of openai 60 000 tokens per minute
-  end
+  performs :improve_transcript
+  performs :summarize
+  performs :analyze_topics
 
   def improve_transcript
     response = client.chat(
