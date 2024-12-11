@@ -108,9 +108,10 @@ class Talk < ApplicationRecord
     language.present? ? Language.find(language)&.alpha2 : Language::DEFAULT
   end
 
-  # TODO convert to performs
-  def analyze_talk_topics!
-    AnalyzeTalkTopicsJob.perform_now(self)
+  has_object :topic_analysis
+
+  def analyze_topics_later
+    topic_analysis.process_later
   end
 
   # search
