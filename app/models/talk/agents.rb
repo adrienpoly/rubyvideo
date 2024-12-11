@@ -1,13 +1,10 @@
 class Talk::Agents < ActiveRecord::AssociatedObject
   performs retries: 3 do
-    limits_concurrency to: 1, key: "openai_api", duration: 1.hour # this is to comply to the rate limit of openai 60 000 tokens per minute
+    # this is to comply to the rate limit of openai 60 000 tokens per minute
+    limits_concurrency to: 1, key: "openai_api", duration: 1.hour
   end
 
-  performs :improve_transcript
-  performs :summarize
-  performs :analyze_topics
-
-  def improve_transcript
+  performs def improve_transcript
     response = client.chat(
       parameters: Prompts::Talk::EnhanceTranscript.new(talk: talk).to_params
     )
@@ -16,7 +13,7 @@ class Talk::Agents < ActiveRecord::AssociatedObject
     talk.update!(enhanced_transcript: Transcript.create_from_json(enhanced_json_transcript))
   end
 
-  def summarize
+  performs def summarize
     return unless talk.raw_transcript.present?
 
     response = client.chat(
@@ -28,7 +25,7 @@ class Talk::Agents < ActiveRecord::AssociatedObject
     talk.update!(summary: summary)
   end
 
-  def analyze_topics
+  performs def analyze_topics
     return if talk.raw_transcript.blank?
 
     response = client.chat(
