@@ -60,10 +60,6 @@ class Talk < ApplicationRecord
   # include MeiliSearch::Rails
   # extend Pagy::Meilisearch
 
-  has_object :downloader
-  has_object :thumbnails
-  has_object :agents
-
   # associations
   belongs_to :event, optional: true, counter_cache: :talks_count, touch: true
   belongs_to :parent_talk, optional: true, class_name: "Talk", foreign_key: :parent_talk_id
@@ -106,6 +102,13 @@ class Talk < ApplicationRecord
   # jobs
   performs :update_from_yml_metadata!
   performs :fetch_and_update_raw_transcript!, retries: 3
+
+  # associated objects
+  # As of now it must be after performs otherwise bin/rails verify_thumbnails will fail
+  # with the error The Talk::Agents associated object referenced from Talk doesn't exist
+  has_object :agents
+  has_object :downloader
+  has_object :thumbnails
 
   # normalization
   normalizes :language, apply_to_nil: true, with: ->(language) do
