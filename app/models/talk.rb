@@ -51,8 +51,6 @@
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
-  include Talk::TranscriptCommands
-  include Talk::SummaryCommands
   include Sluggable
   include Suggestable
   include Searchable
@@ -61,9 +59,6 @@ class Talk < ApplicationRecord
 
   # include MeiliSearch::Rails
   # extend Pagy::Meilisearch
-
-  has_object :downloader
-  has_object :thumbnails
 
   # associations
   belongs_to :event, optional: true, counter_cache: :talks_count, touch: true
@@ -79,6 +74,15 @@ class Talk < ApplicationRecord
 
   has_many :watch_list_talks, dependent: :destroy
   has_many :watch_lists, through: :watch_list_talks
+
+  # associated objects
+  has_object :agents
+  has_object :downloader
+  has_object :thumbnails
+
+  # serializers
+  serialize :enhanced_transcript, coder: TranscriptSerializer
+  serialize :raw_transcript, coder: TranscriptSerializer
 
   # validations
   validates :title, presence: true
@@ -102,15 +106,11 @@ class Talk < ApplicationRecord
 
   # jobs
   performs :update_from_yml_metadata!
+  performs :fetch_and_update_raw_transcript!, retries: 3
 
   # normalization
   normalizes :language, apply_to_nil: true, with: ->(language) do
     language.present? ? Language.find(language)&.alpha2 : Language::DEFAULT
-  end
-
-  # TODO convert to performs
-  def analyze_talk_topics!
-    AnalyzeTalkTopicsJob.perform_now(self)
   end
 
   # search
@@ -373,6 +373,11 @@ class Talk < ApplicationRecord
     return event.name unless event.organisation.meetup?
 
     static_metadata.try("event_name") || event.name
+  end
+
+  def fetch_and_update_raw_transcript!
+    youtube_transcript = Youtube::Transcript.get(video_id)
+    update!(raw_transcript: Transcript.create_from_youtube_transcript(youtube_transcript))
   end
 
   def update_from_yml_metadata!(event: nil)
