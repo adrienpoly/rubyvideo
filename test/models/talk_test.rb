@@ -120,7 +120,7 @@ class TalkTest < ActiveSupport::TestCase
     VCR.use_cassette("talks/extract_topics") do
       assert_changes "@talk.topics.count" do
         perform_enqueued_jobs do
-          AnalyzeTalkTopicsJob.perform_later(@talk)
+          @talk.agents.analyze_topics_later
         end
       end
     end
@@ -131,9 +131,9 @@ class TalkTest < ActiveSupport::TestCase
 
     perform_enqueued_jobs do
       VCR.use_cassette("talks/extract_topics", allow_playback_repeats: true) do
-        AnalyzeTalkTopicsJob.perform_later(@talk)
+        @talk.agents.analyze_topics_later
         assert_no_changes "@talk.topics.count" do
-          AnalyzeTalkTopicsJob.perform_later(@talk)
+          @talk.agents.analyze_topics_later
         end
       end
     end
