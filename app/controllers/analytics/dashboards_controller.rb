@@ -70,12 +70,13 @@ class Analytics::DashboardsController < ApplicationController
       Ahoy::Event
         .where("date(time) BETWEEN ? AND ?", 60.days.ago.to_date, Time.current)
         .where(name: "talks#index")
-        .pluck(:properties)
-        .map { |properties| properties["s"] }
-        .compact
-        .tally
-        .sort_by { |_, count| -count }
-        .first(10)
+        .where("json_extract(properties, '$.s') IS NOT NULL")   # Filter out NULL values in SQL
+        .where("trim(json_extract(properties, '$.s')) != ''")   # Filter out empty strings in SQL
+        .group("json_extract(properties, '$.s')")               # Group by the search term
+        .order(Arel.sql("COUNT(*) DESC"))                       # Order by count
+        .limit(10)
+        .pluck(Arel.sql("json_extract(properties, '$.s'), COUNT(*)"))  # Get search term and count
+        .to_h
     end
   end
 
