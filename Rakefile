@@ -64,7 +64,7 @@ end
 desc "Export Conference assets"
 task :export_assets, [:conference_name] => :environment do |t, args|
   sketchtool = "/Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool"
-  sketch_file = "./RubyVideo.sketch"
+  sketch_file = ENV.fetch("SKETCH_FILE", Rails.root.join("RubyVideo.sketch"))
 
   response = JSON.parse(Command.run("#{sketchtool} list artboards #{sketch_file}"))
   pages = response["pages"]
