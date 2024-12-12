@@ -6,20 +6,7 @@
 
     <div class="flex items-start flex-wrap gap-8 sm:flex-nowrap w-full">
       <div class="w-full">
-        <% titles = {
-             keynote: "Keynote Speaker",
-             talk: "Speaker",
-             lightning_talk: "Lightning Talk Speaker",
-             panel: "Panelist",
-             discussion: "Panelist",
-             gameshow: "Game Show Host",
-             workshop: "Workshop Instructor",
-             podcast: "Podcast Host/Participant",
-             q_and_a: "Q&A Host/Participant",
-             fireside_chat: "Fireside Chat Host/Participant",
-             interview: "Interviewer/Interviewee",
-             award: "Award Presenter/Winner"
-           } %>
+        <% titles = Talk.speaker_role_titles %>
 
         <% grouped = @event.talks.flat_map { |talk| talk.speakers.map { |speaker| [talk.kind, speaker] } }.group_by(&:first).transform_values(&:uniq).sort_by { |kind, _speakers| Talk.kinds.values.index(kind) } %>
 

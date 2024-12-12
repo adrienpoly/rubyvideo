@@ -101,6 +101,41 @@ class Talk < ApplicationRecord
     %w[keynote talk lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
       interview award].index_by(&:itself)
 
+  def self.speaker_role_titles
+    {
+      keynote: "Keynote Speaker",
+      talk: "Speaker",
+      lightning_talk: "Lightning Talk Speaker",
+      panel: "Panelist",
+      discussion: "Panelist",
+      gameshow: "Game Show Host",
+      workshop: "Workshop Instructor",
+      podcast: "Podcast Host/Participant",
+      q_and_a: "Q&A Host/Participant",
+      fireside_chat: "Fireside Chat Host/Participant",
+      interview: "Interviewer/Interviewee",
+      award: "Award Presenter/Winner"
+    }
+  end
+
+  def formatted_kind
+    case kind
+    when "keynote" then "Keynote"
+    when "talk" then "Talk"
+    when "lightning_talk" then "Lightning Talk"
+    when "panel" then "Panel"
+    when "workshop" then "Workshop"
+    when "gameshow" then "Gameshow"
+    when "podcast" then "Podcast"
+    when "q_and_a" then "Q&A"
+    when "discussion" then "Discussion"
+    when "fireside_chat" then "Fireside Chat"
+    when "interview" then "Interview"
+    when "award" then "Award"
+    else raise "`#{kind}` not defined in `Talk#formatted_kind`"
+    end
+  end
+
   # attributes
   attribute :video_provider, default: :youtube
 

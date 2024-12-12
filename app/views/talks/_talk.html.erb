@@ -278,7 +278,7 @@
           <% end %>
 
           <h2><%= talk.title %></h2>
-          <%= talk.speakers.map(&:name).to_sentence %> • <%= talk.formatted_date %> <% if talk.event.location %> • <%= talk.event.location %><% end %>
+          <%= talk.speakers.map(&:name).to_sentence %> • <%= talk.formatted_date %> <% if talk.event.location %> • <%= talk.event.location %><% end %> <% if language && language != "English" %> • <%= language %> <% end %> • <%= talk.formatted_kind.inspect %>
 
           <article class="mt-4 prose markdown"><%= markdown_to_html(talk.summary) %></article>
         </div>
@@ -289,7 +289,7 @@
         <article class="prose">
           <p>
             <b><%= talk.title %></b><br>
-            <%= talk.speakers.map(&:name).to_sentence %> • <%= talk.formatted_date %> <% if talk.event.location %> • <%= talk.event.location %><% end %> <% if language && language != "English" %> • <%= language %> <% end %>
+            <%= talk.speakers.map(&:name).to_sentence %> • <%= talk.formatted_date %> <% if talk.event.location %> • <%= talk.event.location %><% end %> <% if language && language != "English" %> • <%= language %> <% end %> • <%= talk.formatted_kind %>
           </p>
 
           <%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %>
