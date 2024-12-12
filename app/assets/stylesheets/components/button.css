@@ -12,6 +12,11 @@
     @apply btn-outline rounded-full border border-gray-400 bg-white hover:border-gray-500 hover:bg-gray-100 hover:text-base-content/80;
   }
 
+  .btn-circle {
+    @apply btn-rounded;
+    @apply h-10 w-10;
+  }
+
   /* for the toolbar buttons */
   .btn.btn-pill {
     @apply btn-rounded btn-outline;

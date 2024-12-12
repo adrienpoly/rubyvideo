@@ -7,6 +7,7 @@ class Ui::ButtonComponent < ApplicationComponent
     neutral: "btn-neutral btn-outline",
     rounded: "btn btn-rounded",
     pill: "btn btn-pill btn-sm",
+    circle: "btn btn-circle",
     ghost: "btn-ghost",
     link: "btn-link",
     none: ""
