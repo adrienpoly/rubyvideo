@@ -142,8 +142,56 @@
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/230178460
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/231066966
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/233303155
-# TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/233732199
-# TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/235320092
+
+- title: "Multi-tenancy with Rails"
+  raw_title: "Railshöck @Simplificator"
+  event_name: "Railshöck September 2016"
+  speakers:
+    - Dimiter Petrov
+  video_id: "dimiter-petrov-railshock-september-2016"
+  video_provider: "not_recorded"
+  thumbnail_xs: https://files.speakerdeck.com/presentations/654fc1a7e66f48b09910ef105eab254a/slide_0.jpg
+  thumbnail_sm: https://files.speakerdeck.com/presentations/654fc1a7e66f48b09910ef105eab254a/slide_0.jpg
+  thumbnail_md: https://files.speakerdeck.com/presentations/654fc1a7e66f48b09910ef105eab254a/slide_0.jpg
+  thumbnail_lg: https://files.speakerdeck.com/presentations/654fc1a7e66f48b09910ef105eab254a/slide_0.jpg
+  thumbnail_xl: https://files.speakerdeck.com/presentations/654fc1a7e66f48b09910ef105eab254a/slide_0.jpg
+  slides_url: https://speakerdeck.com/crackofdusk/multi-tenancy-with-rails
+  date: "2016-09-14"
+  description: |-
+    Dear all
+
+    We are looking forward to hearing a talk about Multitenancy with Rails.
+
+    Multitenancy is a way to architect software such that a single
+    application transparently serves multiple customers. Dimiter Petrov is going to present a case study of a project where multiple applications were consolidated into one and discuss:
+
+    * the advantages and disadvantages of multitenancy
+    * per-client data separation at the database level and file
+    * system level
+    * the configuration of mailers, background jobs, cache, etc.
+    * custom design and copy
+    * custom features
+
+    We hope to see you there! As usual there will be drinks and food as well.
+
+    https://www.meetup.com/rubyonrails-ch/events/233732199
+
+- title: "Entering Elixir and Phoenix"
+  raw_title: Railshöck @Renuo "Entering Elixir and Phoenix"
+  event_name: "Railshöck November 2016"
+  speakers:
+    - TODO
+  video_id: "entering-elixir-and-phoenix-railshock-November-2016"
+  video_provider: "not_recorded"
+  date: "2016-11-09"
+  description: |-
+    At the next Railshöck on 09.11.2016 at Renuo AG we'll have a presentation about Elixir and Phoenix. Phoenix is a web development framework written in Elixir which implements the server-side MVC pattern. Many of its components and concepts will seem familiar to those of us with experience in other web frameworks like Ruby on Rails.
+
+    Phoenix provides the best of both worlds - high developer productivity and high application performance. It also has some interesting new twists like channels for implementing realtime features and pre-compiled templates for blazing speed.
+
+    https://www.meetup.com/rubyonrails-ch/events/235320092
+
+## 2017
 
 - title: "Master21 - Switzerlands first coding bootcamp"
   raw_title: "Master21 - Switzerlands first coding bootcamp"
@@ -278,12 +326,18 @@
   video_provider: "youtube"
   date: "2017-06-21"
   description: |-
-    Dimiter Petrov is talking about "writing a Ruby testing framework from scratch".
+    In this live coding session, I implement assertions using fundamental concepts of the Ruby programming language, then create a test runner.
+
+    I spend some time on testing the framework using itself.
+
+    The final result is a small library which is used similarly to Ruby's minitest.
 
     Blog post: https://dimiterpetrov.com/blog/self-testing-test-library
     Source code: https://github.com/crackofdusk/raisin
 
     https://www.meetup.com/rubyonrails-ch/events/240837783
+
+## 2018
 
 - title: "Goodbye Sprockets - Welcome Webpacker"
   raw_title: "Goodbye Sprockets by Alessandro Rodi"
@@ -397,6 +451,8 @@
     Lukas is an intern at Renuo. He explains you how we improved our code review process with screenshots. Visual cortex on deck!
 
     https://www.meetup.com/rubyonrails-ch/events/251398920
+
+## 2019
 
 - title: "Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby"
   raw_title: "Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby"
@@ -512,6 +568,8 @@
 
     https://www.meetup.com/rubyonrails-ch/events/266309675
 
+## 2020
+
 - title: "A hundred ways to search - An (opinionated) overview about search techniques"
   raw_title: "100 Ways to Search by Simon & Simon"
   event_name: "Railshöck October 2020"
@@ -590,6 +648,8 @@
     Source code: https://github.com/hoelzle/rails-meetup-2020
 
     https://www.meetup.com/rubyonrails-ch/events/269970094
+
+## 2021
 
 - title: "Rails 0.5"
   raw_title: "Rails 0.5 by Josua Schmid"
@@ -671,6 +731,8 @@
     Nick Flückiger explores the Crystal programming language, showcasing its capabilities and use cases outside of Ruby.
 
     https://www.meetup.com/rubyonrails-ch/events/280293360
+
+## 2022
 
 - title: "Ruby Monstas: Teaching Ruby to beginners"
   raw_title: "Unraveling the Ruby Monstas Teaching Concept by The Ruby Monstas Team"
@@ -756,6 +818,8 @@
 
     https://www.meetup.com/rubyonrails-ch/events/286090172
 
+## 2023
+
 - title: "Ruby Performance Optimizations"
   raw_title: "Ruby Performance Optimizations by Robin Steiner and Pascal Zumkehr"
   event_name: "Railshöck May 2023"
@@ -793,7 +857,7 @@
 
     https://www.meetup.com/rubyonrails-ch/events/291931256
 
-- title: "thoughtbot Defaults with suspenders"
+- title: "thoughtbot defaults with suspenders"
   raw_title: "thoughtbot Defaults with suspenders by Dimiter Petrov"
   event_name: "Railshöck May 2023"
   speakers:
@@ -808,9 +872,13 @@
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/4/9/b/e/600_511278878.webp
   slides_url: https://speakerdeck.com/crackofdusk/thoughtbot-defaults-with-suspenders
   description: |-
-    Exploring thoughtbot's best practices and how suspenders can streamline the setup of new Rails projects.
+    A dive into the internals of the suspenders project. Suspenders uses Rails generators to quickly configure a Rails app in line with practices agreed and refined at thoughtbot.
+
+    GitHub Repo: https://github.com/thoughtbot/suspenders
 
     https://www.meetup.com/rubyonrails-ch/events/291931256
+
+## 2024
 
 - title: "Travelling the Changelog of Ruby 3.3"
   raw_title: "A Guide Through the Changelog of Ruby 3.3 by Matthias Viehweger (Puzzle)"
@@ -1086,3 +1154,5 @@
     https://github.com/kalsan/anchormodel
 
     https://www.meetup.com/rubyonrails-ch/events/301751612
+
+## 2025
