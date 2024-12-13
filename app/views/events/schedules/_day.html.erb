@@ -39,9 +39,9 @@
                   <% if item.is_a?(String) %>
                     <span class="text-center"><%= item %></span>
                   <% else %>
-                    <b class="text-center"><%= item.fetch("title", "no title") %></b>
+                    <b class="text-center"><%= item&.fetch("title").presence || "no title" %></b>
                     <div class="prose text-sm mt-3">
-                      <%= markdown_to_html(item.fetch("description", "-")) %>
+                      <%= markdown_to_html(item&.fetch("description").presence || "-") %>
                     </div>
                   <% end %>
                 </div>
