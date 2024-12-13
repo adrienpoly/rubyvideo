@@ -6,7 +6,7 @@ Technically the project is built using the latest [Ruby](https://www.ruby-lang.o
 
 For the front end part we use [Vite](https://vite.dev/), [Tailwind](https://tailwindcss.com/) with [daisyUI](https://daisyUI.com/) components and [Stimulus](https://stimulus.hotwire.dev/).
 
-It is deployed on an [Hetzner]([https://hetzner.com/](https://hetzner.cloud/?ref=gyPLk7XJthjg)) VPS with [Kamal](https://kamal-deploy.org/) using [SQLite](https://www.sqlite.org/) as the main database.
+It is deployed on an [Hetzner](https://hetzner.cloud/?ref=gyPLk7XJthjg) VPS with [Kamal](https://kamal-deploy.org/) using [SQLite](https://www.sqlite.org/) as the main database.
 
 For compatible browsers it tries to demonstrate some of the possibilities of [Page View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API).
 
