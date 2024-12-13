@@ -1,5 +1,4 @@
 class Speaker::Profiles < ActiveRecord::AssociatedObject
-  extend ActiveJob::Performs # TODO: Fix AssociatedObject's Railtie so we don't need to do this
   performs(retries: 3) { limits_concurrency key: -> { _1.id } }
 
   def enhance_all_later
