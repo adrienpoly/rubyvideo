@@ -1,6 +1,4 @@
 class Talk::Agents < ActiveRecord::AssociatedObject
-  extend ActiveJob::Performs # TODO: Fix AssociatedObject's Railtie so we don't need to do this
-
   performs retries: 3 do
     # this is to comply to the rate limit of openai 60 000 tokens per minute
     limits_concurrency to: 1, key: "openai_api", duration: 1.hour
