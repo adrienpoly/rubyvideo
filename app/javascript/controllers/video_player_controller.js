@@ -24,6 +24,8 @@ export default class extends Controller {
   }
 
   init () {
+    if (!this.hasPlayerTarget) return
+
     this.player = new Vlitejs(this.playerTarget, this.options)
   }
 
