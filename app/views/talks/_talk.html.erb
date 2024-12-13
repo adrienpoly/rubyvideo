@@ -72,11 +72,8 @@
 
         <div class="flex gap-1">
           <% if talk.youtube? || talk.parent_talk&.youtube? %>
-            <% video_id = (talk.parent_talk || talk).video_id %>
-            <% timestamp = talk.start_seconds ? "&t=#{talk.start_seconds}" : "" %>
-
             <%= ui_tooltip "Watch on YouTube" do %>
-              <%= ui_button url: "https://www.youtube.com/watch?v=#{talk.video_id}", kind: :pill, target: "_blank", data: {action: "click->video-player#pause"} do %>
+              <%= ui_button url: talk.external_player_url, kind: :pill, target: "_blank", data: {action: "click->video-player#pause"} do %>
                 <%= fa("youtube-brands", size: :xs, style: :solid) %>
                 <span>Play on YouTube</span>
               <% end %>

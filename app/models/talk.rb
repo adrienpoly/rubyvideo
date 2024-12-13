@@ -336,7 +336,9 @@ class Talk < ApplicationRecord
     when "vimeo"
       "https://vimeo.com/video/#{video_id}"
     when "parent"
-      parent_talk.provider_url
+      timestamp = start_seconds ? "&t=#{start_seconds}" : ""
+
+      "#{parent_talk.provider_url}#{timestamp}"
     else
       "#"
     end
