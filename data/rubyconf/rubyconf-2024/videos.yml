@@ -122,6 +122,7 @@
   event_name: RubyConf 2024
   date: "2024-11-13"
   published_at: "2024-12-10"
+  slides_url: https://speakerdeck.com/this_ahmed/compose-software-like-nature-would-rubyconf-2024
   description:
     The only constant in software development is change. When our software
     cannot adapt, it turns into a big ball of mud. It becomes hard to reason about
@@ -268,6 +269,8 @@
     - creating methods dynamically with the previous options
 
     This is probably the wrong solution. Don't try this in production. However, we'll find bugs and it will be fun!
+
+    Notes, code and more: https://github.com/mogox/talk_breaking_nil
   video_provider: youtube
   video_id: NVf-YCCIgJo
 
@@ -281,6 +284,7 @@
   event_name: RubyConf 2024
   published_at: "2024-12-10"
   date: "2024-11-13"
+  slides_url: https://speakerdeck.com/headius/building-jruby-how-we-implement-ruby-on-the-jvm
   description:
     What does it take to build a language runtime on the JVM? This talk
     will show how we implement JRuby, from Java versions of core classes and native
@@ -506,7 +510,7 @@
   event_name: RubyConf 2024
   published_at: "2024-12-10"
   date: "2024-11-14"
-  description:
+  description: |-
     'Welcome to the Ruby game show where contestants try to guess the output
     of a small bit of Ruby code. Sound easy? Here''s the challenge: the snippets come
     from some of the weirdest parts of the Ruby language. The questions aren''t easy,
@@ -559,7 +563,6 @@
   raw_title: RubyConf 2024 Ruby Hack Challenge by Koichi Sasada and Core team
   speakers:
     - Koichi Sasada
-    - Ruby Core Team
   event_name: RubyConf 2024
   published_at: "2024-12-11"
   date: "2024-11-14"
@@ -578,6 +581,30 @@
     Also we held "Ask Ruby core developers" session (12:00-13:30) so you can ask anything you want to ask.
   video_provider: youtube
   video_id: jB3S03xoljc
+  talks:
+    - title: "Ruby Hack Challenge Intro"
+      start_cue: "00:15"
+      end_cue: "14:27"
+      video_provider: "parent"
+      video_id: "ruby-hack-challenge-intro-rubyconf-2024"
+      speakers:
+        - Koichi Sasada
+
+    - title: "Ruby Core Developers Q&A"
+      start_cue: "14:27"
+      end_cue: "01:35:17"
+      video_provider: "parent"
+      video_id: "ruby-core-developers-q-and-a-rubyconf-2024"
+      speakers:
+        - Koichi Sasada
+        - Aaron Patterson
+        - Yukihiro "Matz" Matsumoto
+        - John Hawthorn
+        - Eileen M. Uchitelle
+        - Peter Zhu
+        - Alan Wu
+        - Yusuke Endoh
+        - Akira Matsuda
 
 - title: "Workshop: Hands on Hanami"
   raw_title: "Workshop: Hands on Hanami by Sean Collins"
@@ -602,7 +629,7 @@
   event_name: RubyConf 2024
   published_at: "2024-12-11"
   date: "2024-11-14"
-  description:
+  description: |-
     New Ruby developers often wonder how to write safe code in Ruby without
     static typing. In this workshop, we’re going to refactor working code to get the
     data validation and safety of static typing, but using Ruby’s existing features.
@@ -832,7 +859,7 @@
   event_name: RubyConf 2024
   published_at: "2024-12-11"
   date: "2024-11-15"
-  description:
+  description: |-
     Reline is a pure Ruby implementation of GNU Readline and IRB uses it.
     GNU Readline allows you to write configuration in .inputrc, and Reline reads this
     configuration file and sets key bindings. However, there are many things that
@@ -914,6 +941,7 @@
   event_name: RubyConf 2024
   published_at: "2024-12-11"
   date: "2024-11-15"
+  slides_url: https://speakerdeck.com/mame/an-invitation-to-trick-how-to-write-weird-ruby-programs
   description: |-
     You don't know truly weird Ruby yet, do you?
 
@@ -937,7 +965,7 @@
   event_name: RubyConf 2024
   published_at: "2024-12-11"
   date: "2024-11-15"
-  description:
+  description: |-
     Postel’s Law states that we should be liberal in what we accept and
     conservative in what we send. When working with code generated from LLMs, embracing
     this principle is even more important. This talk explores and demonstrates live
@@ -970,11 +998,14 @@
   event_name: RubyConf 2024
   published_at: "2024-12-11"
   date: "2024-11-15"
-  description:
+  slides_url: https://docs.google.com/presentation/d/10uMgsRnllndUjkbcRL1O-qNEcy49UW3MlE2SZdqUGAo/edit
+  description: |-
     When we discuss Digital Image Processing, we always encounter other
     programming languages but Ruby. Today, Ruby will rise in this topic! I'll discuss
     the Ruby implementations that helped me write code to detect objects in a tiled
     image and then classify them using deep learning techniques. AI is right there!
+
+    Repo: https://github.com/fabiosammy/rubyconf2024
   video_provider: youtube
   video_id: 03wMU_yWZ7Y
 
