@@ -22,6 +22,7 @@ class TalksController < ApplicationController
 
   # GET /talks/1
   def show
+    redirect_to talks_path, status: :moved_permanently if @talk.discarded?
     set_meta_tags(@talk)
   end
 
