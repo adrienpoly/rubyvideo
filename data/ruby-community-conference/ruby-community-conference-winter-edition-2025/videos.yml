@@ -20,3 +20,37 @@
   description: "Talk by Aaron Patterson"
   video_provider: scheduled
   video_id: aaron-patterson-ruby-community–conference-winter–edition-2025
+
+- title: "Workshop: Building a Live Kanban Board Application With Hotwire and Rails"
+  raw_title: "Building a Live Kanban Board Application With Hotwire and Rails"
+  speakers:
+    - Michał Łęcicki
+    - Piotr Witek
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  description: |-
+    We will build a fully functional Kanban board application with Rails and Hotwire. During the workshops, you will learn the basics of Hotwire, including Turbo Drive, Frames, Turbo Streams, and Stimulus controllers. We will also show how to design backend-frontend communication for dynamic, modern applications with Rails.
+
+    The workshop includes short theoretical introductions, practical examples, and tasks. We will progressively enhance the application with Hotwire.
+
+    This workshop is ideal for those familiar with Hotwire but haven't built a serious app yet. If you're new to Hotwire, don't worry; we'll explain the theory before each task and inspire you to use Hotwire's benefits whenever possible!
+  video_provider: scheduled
+  video_id: workshop-building-live-kanban-board-ruby-community–conference-winter–edition-2025
+
+- title: "Workshop: Deploy with Kamal 2"
+  raw_title: "Deploy with Kamal 2: A Hands-On Workshop"
+  speakers:
+    - Cezary Kłos
+    - Kaja Witek
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  description: |-
+    We will start the workshop by creating a new Rails 8 application using the “solid” stack and deploying it to a real cloud server. Next, we will explore the scenario of adding Kamal to an existing Rails 7.2 project. We will initialize and configure Kamal. Then, thanks to the new Kamal-proxy, we will deploy it alongside the first application. Following this, we will deploy a staging environment to mirror production settings.
+
+    To ensure you gain practical experience, we will intentionally break our deployment, providing you with hands-on experience in debugging and recovering from not-so-obvious scenarios.
+
+    Whether you’re new to containerized deployments or an experienced developer looking to streamline your workflow, this workshop will equip you with the essential skills to deploy and manage your web apps with confidence. On each step we will guide you trough the process and explain the Kamal’s inner-workings.
+
+    You’ll leave with a deeper understanding of Kamal and the ability to handle deployment challenges effectively! 💪
+  video_provider: scheduled
+  video_id: workshop-deploy-with-kamal-2-ruby-community–conference-winter–edition-2025
