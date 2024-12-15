@@ -198,8 +198,8 @@ GEM
       logger
     faraday-multipart (1.0.4)
       multipart-post (~> 2)
-    faraday-net_http (3.3.0)
-      net-http
+    faraday-net_http (3.4.0)
+      net-http (>= 0.5.0)
     ffi (1.17.0)
     frozen_record (0.27.4)
       activemodel
@@ -328,7 +328,7 @@ GEM
       bigdecimal (~> 3.1)
     multipart-post (2.4.1)
     mutex_m (0.3.0)
-    net-http (0.3.2)
+    net-http (0.6.0)
       uri
     net-imap (0.5.1)
       date
