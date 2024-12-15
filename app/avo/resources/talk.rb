@@ -38,6 +38,10 @@ class Avo::Resources::Talk < Avo::BaseResource
       record.summary.present?
     end
     field :description, as: :textarea, hide_on: :index
+    field :discarded_at, as: :date, hide_on: :index
+    field :discarded, as: :boolean, only_on: :index do
+      record.discarded?
+    end
     field :language, hide_on: :index
     field :slug, as: :text, hide_on: :index
     field :year, as: :number, hide_on: :index
