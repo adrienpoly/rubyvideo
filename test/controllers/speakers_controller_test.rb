@@ -28,6 +28,13 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should show speaker without discarded talk" do
+    get speaker_url(@speaker)
+    assert_response :success
+    assert @speaker.talks.include?(talks(:discarded))
+    refute assigns(:talks).include?(talks(:discarded))
+  end
+
   test "should redirect to canonical speaker" do
     talk = @speaker_with_talk.talks.first
     @speaker_with_talk.assign_canonical_speaker!(canonical_speaker: @speaker)

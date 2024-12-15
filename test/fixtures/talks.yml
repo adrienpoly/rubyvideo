@@ -77,6 +77,13 @@ two:
   slug: talk-title-2
   kind: "talk"
 
+discarded:
+  title: discarded talk
+  description: talk descritpion 3
+  slug: discarded-talk
+  kind: "talk"
+  discarded_at: 2024-12-15 08:17:36
+
 brightonruby_2024_one:
   title: Getting to Two Million Users as a One Woman Dev Team
   description: talk descritpion 2

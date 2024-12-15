@@ -18,5 +18,13 @@
 # rubocop:enable Layout/LineLength
 
 one:
-  speaker: yaroslav
+  speaker: one
   talk: one
+
+two:
+  speaker: one
+  talk: two
+
+discarded:
+  speaker: one
+  talk: discarded
