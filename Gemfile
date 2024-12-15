@@ -157,3 +157,5 @@ gem "omniauth-rails_csrf_protection"
 
 # silence Ruby 3.4 warnings
 gem "ostruct"
+
+gem "discard", "~> 1.4"

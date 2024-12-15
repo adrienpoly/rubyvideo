@@ -6,6 +6,7 @@
 #  id                  :integer          not null, primary key
 #  date                :date             indexed
 #  description         :text             default(""), not null
+#  discarded_at        :datetime         indexed
 #  end_seconds         :integer
 #  enhanced_transcript :text             default(#<Transcript:0x000000012f650498 @cues=[]>), not null
 #  external_player     :boolean          default(FALSE), not null
@@ -37,6 +38,7 @@
 # Indexes
 #
 #  index_talks_on_date            (date)
+#  index_talks_on_discarded_at    (discarded_at)
 #  index_talks_on_event_id        (event_id)
 #  index_talks_on_kind            (kind)
 #  index_talks_on_parent_talk_id  (parent_talk_id)
