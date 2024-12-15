@@ -630,7 +630,6 @@ DEPENDENCIES
   meta-tags (~> 2.18)
   minisky (~> 0.4.0)
   mission_control-jobs
-  net-http (~> 0.3.2)
   omniauth
   omniauth-github
   omniauth-rails_csrf_protection

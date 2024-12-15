@@ -115,7 +115,6 @@ gem "solid_queue"
 gem "mission_control-jobs"
 
 gem "inline_svg", "~> 1.9"
-gem "net-http", "~> 0.3.2"
 gem "meilisearch-rails"
 gem "ahoy_matey"
 gem "vite_rails"
