@@ -313,7 +313,7 @@ GEM
     minisky (0.4.0)
       base64 (~> 0.1)
     minitest (5.25.4)
-    mission_control-jobs (0.6.0)
+    mission_control-jobs (1.0.1)
       actioncable (>= 7.1)
       actionpack (>= 7.1)
       activejob (>= 7.1)
