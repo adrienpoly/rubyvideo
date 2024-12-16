@@ -46,12 +46,15 @@ Rails.application.routes.draw do
       get :top_searches
     end
   end
+
   resources :talks, param: :slug, only: [:index, :show, :update, :edit] do
     scope module: :talks do
       resources :recommendations, only: [:index]
       resource :watched_talk, only: [:create, :destroy]
+      resource :slides, only: :show
     end
   end
+
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
   resources :events, param: :slug, only: [:index, :show, :update, :edit] do
     scope module: :events do
