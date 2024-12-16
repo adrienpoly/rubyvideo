@@ -136,8 +136,6 @@
   metadata_parser: Youtube::VideoMetadata
   slug: rubyday-2024
   website: https://2024.rubyday.it
-  banner_background: |-
-    linear-gradient(to bottom, #1F133B, #1F133B 40%, #1F133B 40%) left top / 50% 100% no-repeat, /* Left side */
-    linear-gradient(to bottom, #07040D, #07040D 66.57%, #07040D 66.57%) right top / 50% 100% no-repeat /* Right side */
+  banner_background: "linear-gradient(to right, #1F133B 50%, #07040D 50%)"
   featured_background: "#5F4E9B"
   featured_color: "#FFFFFF"
