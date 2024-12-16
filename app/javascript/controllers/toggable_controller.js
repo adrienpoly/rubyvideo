@@ -11,7 +11,9 @@ export default class extends Controller {
   }
 
   connect () {
-    this.toggleText = this.toggleTarget.textContent
+    if (this.hasToggleTarget) {
+      this.toggleText = this.toggleTarget.textContent
+    }
   }
 
   toggle () {
