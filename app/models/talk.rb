@@ -182,6 +182,7 @@ class Talk < ApplicationRecord
   scope :for_topic, ->(topic_slug) { joins(:topics).where(topics: {slug: topic_slug}) }
   scope :for_speaker, ->(speaker_slug) { joins(:speakers).where(speakers: {slug: speaker_slug}) }
   scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
+  scope :watchable, -> { where(video_provider: [:youtube, :mp4, :vimeo, :parent]) }
 
   scope :with_essential_card_data, -> do
     select(
