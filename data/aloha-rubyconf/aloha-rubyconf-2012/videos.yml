@@ -145,6 +145,7 @@
     - Charles Nutter
   event_name: Aloha RubyConf 2012
   published_at: "2012-10-08"
+  slides_url: https://speakerdeck.com/headius/aloha-rubyconf-2012-jruby
   track: Track 1
   description: |-
     You've probably heard of JRuby. Maybe you've even tried it. But why is JRuby a good idea? How can it help you build better applications? In this talk, we'll cover everything that makes JRuby awesome, from the JVM with its top-notch memory management, solid multithreading, and lightning-fast optimizing compiler, to JRuby itself, giving you easy access to Java libraries, robust Ruby compatibility, and trivial app deployment and distribution options. JRuby is an amazing tool for any Rubyist...come find out why.
@@ -161,6 +162,7 @@
     - Konstantin Haase
   event_name: Aloha RubyConf 2012
   published_at: "2012-10-08"
+  slides_url: https://speakerdeck.com/rkh/aloha-ruby-conf-2012-message-in-a-bottle
   track: Track 2
   description: |-
     What does really happen when we call a method? How do the different Ruby implementations actually figure out what code to execute? What plumbing is going on under the hood to get a speedy dispatch? In this talk we will have a look at the internals of the the major Ruby implementations, focusing on their dispatch. From look-up tables and call site caches, to inlining and what on earth is invokedynamic? Fear not, all will be explained!
@@ -325,6 +327,7 @@
     - James Edward Gray II
   event_name: Aloha RubyConf 2012
   published_at: "2012-10-09"
+  slides_url: https://speakerdeck.com/jeg2/10-things-you-didnt-know-ruby-could-do
   track: Track 1
   description: |-
     There's a lot to Ruby and even experienced Rubyists are sometimes surprised to learn about parts of the language they haven't encountered before.
@@ -491,6 +494,7 @@
     - Matt Aimonetti
   event_name: Aloha RubyConf 2012
   published_at: "2012-10-09"
+  slides_url: https://speakerdeck.com/matt_aimonetti/mmmm-dot-mruby-everywhere-and-revisiting-ruby
   track: null
   description: |-
     mruby is Matz’ new Ruby implementation, it’s not cooler than node.js, it doesn’t natively support Hypstermedia, it looks just like the good old Ruby. So why should we, as a community care?
