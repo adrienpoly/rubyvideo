@@ -6,8 +6,9 @@ class Speaker::Profiles < ActiveRecord::AssociatedObject
     enhance_with_bsky_later
   end
 
-  performs def enhance_with_github
+  performs def enhance_with_github(force: false)
     return unless speaker.github?
+    return if speaker.verified? && !force
 
     profile = github_client.profile(speaker.github)
     socials = github_client.social_accounts(speaker.github)
@@ -29,8 +30,9 @@ class Speaker::Profiles < ActiveRecord::AssociatedObject
     speaker.broadcast_header
   end
 
-  performs def enhance_with_bsky
+  performs def enhance_with_bsky(force: false)
     return unless speaker.bsky?
+    return if speaker.verified? && !force
 
     speaker.update!(bsky_metadata: BlueSky.profile_metadata(speaker.bsky))
   end
