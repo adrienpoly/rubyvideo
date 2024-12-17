@@ -306,24 +306,11 @@
       <% end %>
 
       <% if talk.slides_url.present? %>
-        <% uri = URI(talk.slides_url) %>
-
         <input type="radio" name="talk_tabs" role="tab" class="tab" aria-label="Slides">
         <div role="tabpanel" class="tab-content !rounded-s-xl rounded-xl bg-base-200/50 p-6 mt-6 overflow-hidden">
-          <% cache [talk.slides_url] do %>
-            <% if ["speakerdeck.com", "www.speakerdeck.com"].include?(uri.host) %>
-              <% oembed_url = URI("https://speakerdeck.com/oembed.json?url=#{talk.slides_url}") %>
-              <% oembed_json = begin
-                   JSON.parse(Net::HTTP.get(oembed_url))
-                 rescue
-                   {}
-                 end %>
-
-              <%= sanitize oembed_json.dig("html"), tags: ["iframe"], attributes: ["id", "class", "src", "width", "height", "style", "frameborder", "allowtransparency", "allowfullscreen"] %>
-            <% end %>
+          <%= turbo_frame_tag dom_id(talk, :slides), src: talk_slides_path(talk), loading: :lazy do %>
+            <div class="skeleton h-32 w-full rounded"></div>
           <% end %>
-
-          <a class="btn btn-primary mt-6" href="<%= talk.slides_url %>" target="_blank">See Slides on <%= uri.host %></a>
         </div>
       <% end %>
 
