@@ -31,7 +31,7 @@ Rails.application.routes.draw do
     resource :password_reset, only: [:new, :edit, :create, :update]
   end
 
-  resources :contributions, only: [:index]
+  resources :contributions, only: [:index, :show], param: :step
 
   # resources
   namespace :analytics do
