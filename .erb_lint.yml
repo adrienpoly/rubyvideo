@@ -18,6 +18,7 @@ linters:
       - app/views/contributions/_talks_without_slides.html.erb
       - app/views/contributions/_events_without_location.html.erb
       - app/views/contributions/_events_without_dates.html.erb
+      - app/views/contributions/_talks_dates_out_of_bounds.html.erb
   Rubocop:
     enabled: true
     rubocop_config:

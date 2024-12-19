@@ -3,23 +3,11 @@ class ContributionsController < ApplicationController
   force_frame_response only: %i[show]
   skip_before_action :authenticate_user!, only: %i[index]
 
-  STEPS = %i[speakers_without_github talks_without_slides events_without_videos events_without_location events_without_dates].freeze
+  STEPS = %i[speakers_without_github talks_without_slides events_without_videos
+    events_without_location events_without_dates talks_dates_out_of_bounds].freeze
 
   def index
     # Review Talk Dates
-
-    events_with_start_date = Static::Playlist.all.pluck(:title, :start_date, :end_date).select { |_, start_date| start_date.present? }
-    events_without_start_date = Static::Playlist.all.pluck(:title, :year, :start_date).select { |_, _, start_date, _| start_date.blank? }
-
-    ranges_for_events_with_dates = events_with_start_date.map { |name, start_date, end_date| [name, Date.parse(start_date)..Date.parse(end_date)] }
-    ranges_for_events_without_dates = events_without_start_date.map { |title, year, _| [title, Date.parse("#{year}-01-01").all_year] }
-
-    @dates_by_event_name = ranges_for_events_with_dates.union(ranges_for_events_without_dates).to_h
-
-    talks_by_event_name = Talk.preload(:event).to_a.select { |talk| talk.event.name.in?(@dates_by_event_name.keys) }.group_by(&:event)
-
-    @out_of_bound_talks = talks_by_event_name.map { |event, talks| [event, talks.reject { |talk| @dates_by_event_name[event.name].cover?(talk.date) }] }
-    @out_of_bound_talks_count = @out_of_bound_talks.map(&:last).flatten.count
 
     # Overdue scheduled talks
 
@@ -103,5 +91,20 @@ class ContributionsController < ApplicationController
   def events_without_dates
     @events_without_dates = Static::Playlist.where(start_date: nil).group_by(&:__file_path)
     @events_without_dates_count = @events_without_dates.flat_map(&:last).count
+  end
+
+  def talks_dates_out_of_bounds
+    events_with_start_date = Static::Playlist.all.pluck(:title, :start_date, :end_date).select { |_, start_date| start_date.present? }
+    events_without_start_date = Static::Playlist.all.pluck(:title, :year, :start_date).select { |_, _, start_date, _| start_date.blank? }
+
+    ranges_for_events_with_dates = events_with_start_date.map { |name, start_date, end_date| [name, Date.parse(start_date)..Date.parse(end_date)] }
+    ranges_for_events_without_dates = events_without_start_date.map { |title, year, _| [title, Date.parse("#{year}-01-01").all_year] }
+
+    @dates_by_event_name = ranges_for_events_with_dates.union(ranges_for_events_without_dates).to_h
+
+    talks_by_event_name = Talk.preload(:event).to_a.select { |talk| talk.event.name.in?(@dates_by_event_name.keys) }.group_by(&:event)
+
+    @out_of_bound_talks = talks_by_event_name.map { |event, talks| [event, talks.reject { |talk| @dates_by_event_name[event.name].cover?(talk.date) }] }
+    @out_of_bound_talks_count = @out_of_bound_talks.map(&:last).flatten.count
   end
 end
