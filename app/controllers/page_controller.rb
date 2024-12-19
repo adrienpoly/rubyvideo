@@ -24,4 +24,7 @@ class PageController < ApplicationController
 
   def components
   end
+
+  def uses
+  end
 end
