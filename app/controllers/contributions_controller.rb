@@ -3,12 +3,9 @@ class ContributionsController < ApplicationController
   force_frame_response only: %i[show]
   skip_before_action :authenticate_user!, only: %i[index]
 
-  STEPS = %i[speakers_without_github talks_without_slides events_without_videos].freeze
+  STEPS = %i[speakers_without_github talks_without_slides events_without_videos events_without_location events_without_dates].freeze
 
   def index
-    @events_without_location = Static::Playlist.where(location: nil).group_by(&:__file_path)
-    @events_without_location_count = @events_without_location.flat_map(&:last).count
-
     @events_without_dates = Static::Playlist.where(start_date: nil).group_by(&:__file_path)
     @events_without_dates_count = @events_without_dates.flat_map(&:last).count
     # Review Talk Dates
