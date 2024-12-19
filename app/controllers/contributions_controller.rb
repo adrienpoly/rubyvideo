@@ -4,11 +4,9 @@ class ContributionsController < ApplicationController
   skip_before_action :authenticate_user!, only: %i[index]
 
   STEPS = %i[speakers_without_github talks_without_slides events_without_videos
-    events_without_location events_without_dates talks_dates_out_of_bounds].freeze
+    events_without_location events_without_dates talks_dates_out_of_bounds missing_videos_cue].freeze
 
   def index
-    # Review Talk Dates
-
     # Overdue scheduled talks
 
     @overdue_scheduled_talks = Talk.where(video_provider: "scheduled").where("date < ?", Date.today).order(date: :asc)
@@ -38,12 +36,6 @@ class ContributionsController < ApplicationController
 
     @conferences_to_index = @with_video_link.count + @without_video_link.count
     @already_index_conferences = @upstream_conferences.count - @conferences_to_index
-
-    # Missing video cues
-
-    videos_with_missing_cues = Static::Video.all.select { |video| video.talks.any? { |t| t.start_cue == "TODO" || t.end_cue == "TODO" } }
-    @missing_videos_cue = videos_with_missing_cues.map { |video| Talk.find_by(video_provider: video.video_provider || :youtube, video_id: video.video_id) }.compact&.group_by(&:event)&.select { |_event, talks| talks.any? } || []
-    @missing_videos_cue_count = videos_with_missing_cues.count
 
     # Conferences with missing schedules
     @conferences_with_missing_schedule = Event.joins(:organisation).where(organisation: {kind: :conference}).reject { |event| event.schedule.exist? }.group_by(&:organisation)
@@ -106,5 +98,12 @@ class ContributionsController < ApplicationController
 
     @out_of_bound_talks = talks_by_event_name.map { |event, talks| [event, talks.reject { |talk| @dates_by_event_name[event.name].cover?(talk.date) }] }
     @out_of_bound_talks_count = @out_of_bound_talks.map(&:last).flatten.count
+  end
+
+  def missing_videos_cue
+    videos_with_missing_cues = Static::Video.all.select { |video| video.talks.any? { |t| t.start_cue == "TODO" || t.end_cue == "TODO" } }
+    videos_with_missing_cues_ids = videos_with_missing_cues.map(&:video_id)
+    @missing_videos_cue = Talk.includes(:child_talks, :event).where(video_id: videos_with_missing_cues_ids).group_by(&:event)&.select { |_event, talks| talks.any? } || []
+    @missing_videos_cue_count = videos_with_missing_cues.count
   end
 end
