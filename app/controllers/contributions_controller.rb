@@ -6,8 +6,6 @@ class ContributionsController < ApplicationController
   STEPS = %i[speakers_without_github talks_without_slides events_without_videos events_without_location events_without_dates].freeze
 
   def index
-    @events_without_dates = Static::Playlist.where(start_date: nil).group_by(&:__file_path)
-    @events_without_dates_count = @events_without_dates.flat_map(&:last).count
     # Review Talk Dates
 
     events_with_start_date = Static::Playlist.all.pluck(:title, :start_date, :end_date).select { |_, start_date| start_date.present? }
