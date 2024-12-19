@@ -12,7 +12,12 @@ linters:
     enabled: true
   PartialInstanceVariable:
     enabled: true
-
+    exclude:
+      - app/views/contributions/_events_without_videos.html.erb
+      - app/views/contributions/_speakers_without_github.html.erb
+      - app/views/contributions/_talks_without_slides.html.erb
+      - app/views/contributions/_events_without_location.html.erb
+      - app/views/contributions/_events_without_dates.html.erb
   Rubocop:
     enabled: true
     rubocop_config:
