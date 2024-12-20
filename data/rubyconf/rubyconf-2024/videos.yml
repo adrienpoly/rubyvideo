@@ -212,6 +212,7 @@
     - Keith Gable
   event_name: RubyConf 2024
   published_at: "2024-12-10"
+  date:: "2024-11-13"
   description: |-
     I've been using Sidekiq for more than a decade and have made a ton of mistakes along my journey from being the second engineer at a tiny startup to becoming acquired by a huge company over the past 10 years.
 
@@ -585,6 +586,7 @@
     - title: "Ruby Hack Challenge Intro"
       start_cue: "00:15"
       end_cue: "14:27"
+      date: "2024-11-14"
       video_provider: "parent"
       video_id: "ruby-hack-challenge-intro-rubyconf-2024"
       speakers:
@@ -594,6 +596,7 @@
       start_cue: "14:27"
       end_cue: "01:35:17"
       thumbnail_cue: "17:14"
+      date: "2024-11-14"
       video_provider: "parent"
       video_id: "ruby-core-developers-q-and-a-rubyconf-2024"
       speakers:
@@ -852,7 +855,7 @@
   date: "2024-11-15"
   description: ""
   video_provider: youtube
-  video_id: OOkuLLkF1Wk
+  video_id: BDepeodE0i4
 
 - title: "Exploring Reline: Enhancing Command Line Usability"
   raw_title:
