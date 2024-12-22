@@ -19,8 +19,7 @@ module Talk::Searchable
         .order(combined_score: :asc)
     end
 
-    after_create_commit :create_in_index
-    after_update_commit :update_in_index
+    after_save_commit :reindex
   end
 
   class_methods do
@@ -34,11 +33,11 @@ module Talk::Searchable
     try(:title_snippet) || title
   end
 
-  def create_in_index
-    build_index.reindex
+  def reindex
+    index ? index.reindex : create_in_index
   end
 
-  def update_in_index
-    index.reindex
+  def create_in_index
+    build_index.reindex
   end
 end
