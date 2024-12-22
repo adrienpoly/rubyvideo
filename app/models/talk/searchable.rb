@@ -25,7 +25,7 @@ module Talk::Searchable
 
   class_methods do
     def reindex_all
-      Index.delete_all
+      Talk::Index.delete_all
       Talk.find_each(&:create_in_index)
     end
   end
