@@ -43,5 +43,8 @@ module Rubyvideo
 
     # to remove once encrytion completed
     config.active_record.encryption.support_unencrypted_data = true
+
+    # disable Mission Control auth as we use the route Authenticator
+    config.mission_control.jobs.http_basic_auth_enabled = false
   end
 end
