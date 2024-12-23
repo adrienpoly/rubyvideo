@@ -6,6 +6,7 @@
 #  id                  :integer          not null, primary key
 #  date                :date             indexed
 #  description         :text             default(""), not null
+#  discarded_at        :datetime         indexed
 #  end_seconds         :integer
 #  enhanced_transcript :text             default(#<Transcript:0x000000012f650498 @cues=[]>), not null
 #  external_player     :boolean          default(FALSE), not null
@@ -37,6 +38,7 @@
 # Indexes
 #
 #  index_talks_on_date            (date)
+#  index_talks_on_discarded_at    (discarded_at)
 #  index_talks_on_event_id        (event_id)
 #  index_talks_on_kind            (kind)
 #  index_talks_on_parent_talk_id  (parent_talk_id)
@@ -74,6 +76,13 @@ two:
   description: talk descritpion 2
   slug: talk-title-2
   kind: "talk"
+
+discarded:
+  title: discarded talk
+  description: talk descritpion 3
+  slug: discarded-talk
+  kind: "talk"
+  discarded_at: 2024-12-15 08:17:36
 
 brightonruby_2024_one:
   title: Getting to Two Million Users as a One Woman Dev Team
