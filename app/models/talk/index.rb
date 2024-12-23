@@ -1,5 +1,6 @@
 class Talk::Index < ApplicationRecord
   self.table_name = :talks_search_index
+  self.ignored_columns = %i[talks_search_index rank] # Rails parses our virtual table with these extra non-attributes.
   self.primary_key = :rowid
 
   attribute :rowid, :integer
