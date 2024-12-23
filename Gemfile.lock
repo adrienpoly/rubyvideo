@@ -188,7 +188,7 @@ GEM
       rubocop (>= 1)
       smart_properties
     error_highlight (0.7.0)
-    erubi (1.13.0)
+    erubi (1.13.1)
     et-orbi (1.2.11)
       tzinfo
     event_stream_parser (1.0.0)
@@ -221,7 +221,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
-    importmap-rails (2.0.3)
+    importmap-rails (2.1.0)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
@@ -229,7 +229,7 @@ GEM
       activesupport (>= 3.0)
       nokogiri (>= 1.6)
     io-console (0.8.0)
-    irb (1.14.2)
+    irb (1.14.3)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     iso-639 (0.3.8)
@@ -290,7 +290,7 @@ GEM
       railties (>= 7.0)
       sqlite3
     logfmt (0.0.10)
-    logger (1.6.3)
+    logger (1.6.4)
     loofah (2.23.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -382,7 +382,7 @@ GEM
       activesupport (>= 7.0.0)
       rack
       railties (>= 7.0.0)
-    psych (5.2.1)
+    psych (5.2.2)
       date
       stringio
     public_suffix (6.0.1)
@@ -449,11 +449,11 @@ GEM
       ffi (~> 1.0)
     rbs (3.7.0)
       logger
-    rdoc (6.9.0)
+    rdoc (6.10.0)
       psych (>= 4.0.0)
     redcarpet (3.6.0)
     regexp_parser (2.9.3)
-    reline (0.5.12)
+    reline (0.6.0)
       io-console (~> 0.5)
     rexml (3.4.0)
     rubocop (1.69.2)
@@ -485,7 +485,7 @@ GEM
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
     safely_block (0.4.1)
-    securerandom (0.4.0)
+    securerandom (0.4.1)
     selenium-webdriver (4.27.0)
       base64 (~> 0.2)
       logger (~> 1.4)
@@ -541,7 +541,7 @@ GEM
     thruster (0.1.9-arm64-darwin)
     thruster (0.1.9-x86_64-darwin)
     thruster (0.1.9-x86_64-linux)
-    timeout (0.4.2)
+    timeout (0.4.3)
     turbo-rails (2.0.11)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
