@@ -520,7 +520,7 @@
   video_provider: youtube
   video_id: iMCqYjWKv5w
 
-- title: "Workshop: Building the Unbreakable Code Whose Breaking Won WWII"
+- title: "Workshop: Breaking the Unbreakable Code Whose Breaking Won World War II"
   raw_title:
     "RubyConf 2024 Workshop: Building the Unbreakable Code Whose Breaking
     Won WWII by Aji Slater"
@@ -529,6 +529,7 @@
   event_name: RubyConf 2024
   published_at: "2024-12-10"
   date: "2024-11-14"
+  slides_url: https://speakerdeck.com/doodlingdev/breaking-the-unbreakable-code-whose-breaking-won-world-war-ii
   description: |-
     After the last carrier pigeon but before digital encryption algorithms, there was the Enigma machine. An ingenious piece of pre-atomic age technology encoded German military secrets during World War II, baffling code-breakers with mere physical rotors, and switches, without elliptic curves or private keys.
 
