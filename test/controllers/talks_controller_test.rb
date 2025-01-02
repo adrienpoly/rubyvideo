@@ -45,6 +45,13 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should show talk without discarded talk" do
+    @discarded_talk = talks(:discarded)
+    get talk_url(@discarded_talk)
+    assert_response :moved_permanently
+    assert_redirected_to talks_path
+  end
+
   test "should redirect to talks for wrong slugs" do
     get talk_url("wrong-slug")
     assert_response :moved_permanently

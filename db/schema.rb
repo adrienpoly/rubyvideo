@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_12_03_001515) do
+ActiveRecord::Schema[8.0].define(version: 2024_12_15_081736) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -211,7 +211,9 @@ ActiveRecord::Schema[8.0].define(version: 2024_12_03_001515) do
     t.boolean "meta_talk", default: false, null: false
     t.integer "start_seconds"
     t.integer "end_seconds"
+    t.datetime "discarded_at"
     t.index ["date"], name: "index_talks_on_date"
+    t.index ["discarded_at"], name: "index_talks_on_discarded_at"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["kind"], name: "index_talks_on_kind"
     t.index ["parent_talk_id"], name: "index_talks_on_parent_talk_id"

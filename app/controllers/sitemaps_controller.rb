@@ -16,7 +16,7 @@ class SitemapsController < ApplicationController
       SitemapGenerator::Sitemap.create(adapter: adapter) do
         add talks_path, priority: 0.9, changefreq: "weekly"
 
-        Talk.pluck(:slug, :updated_at).each do |talk_slug, updated_at|
+        Talk.kept.pluck(:slug, :updated_at).each do |talk_slug, updated_at|
           add talk_path(talk_slug), priority: 0.9, lastmod: updated_at
         end
 
