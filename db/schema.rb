@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_12_03_001515) do
+ActiveRecord::Schema[8.0].define(version: 2025_01_02_175230) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -298,5 +298,6 @@ ActiveRecord::Schema[8.0].define(version: 2024_12_03_001515) do
 
   # Virtual tables defined in this database.
   # Note that virtual tables may not work with other database engines. Be careful if changing database.
+  create_virtual_table "speakers_search_index", "fts5", ["name", "github", "tokenize = porter"]
   create_virtual_table "talks_search_index", "fts5", ["title", "summary", "speaker_names", "tokenize = porter"]
 end
