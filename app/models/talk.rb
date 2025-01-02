@@ -6,15 +6,16 @@
 #  id                  :integer          not null, primary key
 #  date                :date             indexed
 #  description         :text             default(""), not null
+#  duration_in_seconds :integer
 #  end_seconds         :integer
-#  enhanced_transcript :text             default(#<Transcript:0x000000012f650498 @cues=[]>), not null
+#  enhanced_transcript :text             default(#<Transcript:0x000000011f201230 @cues=[]>), not null
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
 #  kind                :string           default("talk"), not null, indexed
 #  language            :string           default("en"), not null
 #  like_count          :integer
 #  meta_talk           :boolean          default(FALSE), not null
-#  raw_transcript      :text             default(#<Transcript:0x000000012f650588 @cues=[]>), not null
+#  raw_transcript      :text             default(#<Transcript:0x000000011f201398 @cues=[]>), not null
 #  slides_url          :string
 #  slug                :string           default(""), not null, indexed
 #  start_seconds       :integer
@@ -199,7 +200,8 @@ class Talk < ApplicationRecord
       :meta_talk,
       :parent_talk_id,
       :start_seconds,
-      :end_seconds
+      :end_seconds,
+      :duration_in_seconds
     ).includes(:speakers, event: :organisation)
   end
 
