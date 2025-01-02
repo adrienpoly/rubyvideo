@@ -671,3 +671,15 @@
   slug: valencia-rb
   language: english
   youtube_channel_id: ""
+
+- name: Kaigi on Rails
+  website: https://kaigionrails.org
+  twitter: kaigionrails
+  kind: conference
+  frequency: yearly
+  playlist_matcher: Kaigi on Rails
+  default_country_code: JP
+  youtube_channel_name: kaigionrails
+  slug: kaigi-on-rails
+  language: japanese
+  youtube_channel_id: UCKD7032GuzUjDWEoZsfnwoA
