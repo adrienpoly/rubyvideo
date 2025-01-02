@@ -391,15 +391,16 @@ class Talk < ApplicationRecord
 
   def slug_candidates
     @slug_candidates ||= [
+      static_metadata.slug&.parameterize,
       title.parameterize,
-      [title.parameterize, event&.name&.parameterize].compact.join("-"),
-      [title.parameterize, language.parameterize].compact.join("-"),
-      [title.parameterize, event&.name&.parameterize, language.parameterize].compact.join("-"),
-      [date.to_s.parameterize, title.parameterize].compact.join("-"),
-      [title.parameterize, *speakers.map(&:slug)].compact.join("-"),
-      [static_metadata.raw_title.parameterize].compact.join("-"),
-      [date.to_s.parameterize, static_metadata.raw_title.parameterize].compact.join("-")
-    ].uniq
+      [title.parameterize, event&.name&.parameterize].compact.reject(&:blank?).join("-"),
+      [title.parameterize, language.parameterize].compact.reject(&:blank?).join("-"),
+      [title.parameterize, event&.name&.parameterize, language.parameterize].compact.reject(&:blank?).join("-"),
+      [date.to_s.parameterize, title.parameterize].compact.reject(&:blank?).join("-"),
+      [title.parameterize, *speakers.map(&:slug)].compact.reject(&:blank?).join("-"),
+      [static_metadata.raw_title.parameterize].compact.reject(&:blank?).join("-"),
+      [date.to_s.parameterize, static_metadata.raw_title.parameterize].compact.reject(&:blank?).join("-")
+    ].reject(&:blank?).uniq
   end
 
   def unused_slugs
