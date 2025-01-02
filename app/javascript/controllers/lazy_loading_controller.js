@@ -5,7 +5,7 @@ import { useIntersection } from 'stimulus-use'
 export default class extends Controller {
   static values = {
     src: String,
-    rootMargin: { type: String, default: '100px 0px 0px 0px' }
+    rootMargin: { type: String, default: '300px 0px 0px 0px' }
   }
 
   initialize () {
