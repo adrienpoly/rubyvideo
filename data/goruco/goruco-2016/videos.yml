@@ -12,9 +12,6 @@
 
     We started Code Climate with a simple hypothesis: static analysis can help developers ship better code, faster. Five years later, we analyze over 70,000 repositories each day spanning a wide variety of programming languages, and along the way we've learned a lot about code quality itself: what it means, why you want it, how you get it,and more. This talk will cover some of the more surprising insights, including what makes a code metric valuable, when unmaintainable code may be preferable, and the number one thing that prevents most developers from maintaining quality code over time.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/PsL5/
   video_provider: youtube
   video_id: vcH0RBe4Eew
 
@@ -29,8 +26,6 @@
 
     You were living alone in the town of Ruby-on-Rails until you decided to open up your spare room to guests. Now your first visitor has booked in. Her arrival is imminent. How do you prepare? How can you make sure she has a great visit? Let’s explore the art of code hospitality — working on codebases in a way that respects your teammates and provides for their needs. By working hospitably, we can facilitate team productivity and help new members quickly feel at home.
 
-    Help us caption & translate this video!
-    http://amara.org/v/Psik/
   video_provider: youtube
   video_id: GUuAp6c1ylM
 
@@ -45,9 +40,6 @@
 
     When implementing REST API servers and clients, testing is critical. Symmetric API testing is a design pattern that ensures compatibility between client and server with transparent tests. Testing APIs symmetrically reduces build times and code complexity, while simultaneously improving API stability.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/PssK/
   video_provider: youtube
   video_id: 6BdUV1pAWa8
 
@@ -62,9 +54,6 @@
 
     Elixir is one modern language that is introducing many Rubyists to the world of highly scalable, highly distributed, functional programming-based programming. In a more narrow scope, one language feature that many people liked is the now famous Pipe Operator . There is nothing like this in Ruby. But could there be such an operator? And if it could be done, would it be useful? I started a pet project called Chainable Methods to address just that.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/Prkf/
   video_provider: youtube
   video_id: ThB2cpPsb1o
 
@@ -79,9 +68,6 @@
 
     Developer happiness is what brought me to Ruby in the first place. And of all the new compiled languages, Crystal is the only one that shares this value. The syntax and idioms are entirely Ruby inspired. Although Crystal looks very similar to Ruby, there are big differences between the two. Crystal is statically typed and dispatched. While there are no runtime dynamic features, the compile-time macros solve many of the same problems. In this session, we’ll take a close look at these differences as well as the similarities, and what Ruby developers can learn from this exciting language.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/Prke/
   video_provider: youtube
   video_id: oC9IknG40po
 
@@ -96,9 +82,6 @@
 
     Ruby is widely-used and prides itself on "simplicity and productivity". But what is happening under the hood of our favorite programming language? Are there better, faster, or stronger ways to implement these methods? I'm going to take a deep, yet brief, dive into testing and optimizing some of Ruby's most popularly convenient methods.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/Prkd/
   video_provider: youtube
   video_id: oKZgnntMTBM
 
@@ -119,9 +102,6 @@
 
     Just a Minute the popular classic British gameshow format with some real coding and technology topics. The rules of the game are simple, the results are hilarious, and who knows, you might even learn something new! Come join us to see some of your favorite speakers take the challenge to speak without hesitation, repetition or deviation for one minute.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/Prkc/
   video_provider: youtube
   video_id: RhtITcsM2UE
 
@@ -136,9 +116,6 @@
 
     We have no problem justifying a refactoring effort when it improves performance or eliminates a code smell. What if I told you there's a way your refactoring could be even more impactful? One of the most costly and time-consuming things we do is on boarding. It takes an incredible amount of effort to bring a developer up to speed on a new codebase. In this talk, we’ll see three real-world readability refactors, discuss how you can apply these techniques for the benefit of your current (and future) team members, and how we can continue to program with empathy in mind.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/Prkb/
   video_provider: youtube
   video_id: T4reLGtp4fA
 
@@ -153,9 +130,6 @@
 
     We love Ruby on Rails because we can get a working prototype up and running in a very short period of time. It follows coding conventions that make it simple to go from one developer to the next, however, when the application scales to a certain point, there are some performance penalties that come from the auto-magic of Active Record. I intend to show the common pitfalls for performance degradation, monitoring tools to help identify problems and common solutions including MySQL indexing optimization, all this based on my current experience with one of the biggest RoR apps working at GitHub.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/PssJ/
   video_provider: youtube
   video_id: 01SISs0ni1o
 
@@ -170,9 +144,6 @@
 
     Everyone loves Ruby's Enumerable module. What about Enumerator? Many of us don't what Enumerator is or why it's useful. It's time to change that. We'll challenge conventions and (finally?) understand why Enumerator is important while unveiling the 'magic' of how it works.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/PsL9/
   video_provider: youtube
   video_id: D2E7t19pG0E
 
@@ -188,9 +159,6 @@
 
     Many people strive to be armchair data scientists. Google BigQuery provides an easy way for anyone with basic SQL knowledge to dig into large data sets and just explore. Using the rubygems.org download data we'll see how the Ruby and SQL you already know can help you parse, upload, and analyze multiple gigabytes of data quickly and easily without any previous Big Data experience.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/PsL8/
   video_provider: youtube
   video_id: 0mzNNg62_kM
 
@@ -205,8 +173,5 @@
 
     As a team leader, the line between company culture and a dogmatic cult is thin. Embracing individuality, yet finding alignment (as a collective) is tough. Understanding what defines one over another is critical so everyone can bring 100% of themselves to table. If you're a member of a team, leader of a team or building a team, you're going to know five key components to assess, support and foster a 'culture of diverse talent' and prevent a 'cult of conformity.'
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/PsL7/
   video_provider: youtube
   video_id: ChVSV9vCs4Y

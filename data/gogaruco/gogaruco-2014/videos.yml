@@ -12,10 +12,6 @@
   description: |-
     By, Sarah Allen
     I love Ruby, but last year I found myself at the Smithsonian Institution coding in, of all things, PHP & Drupal. And I realized that despite my ambivalence towards those technologies, I had no compelling-enough reason to propose Ruby as an alternative. How did we get to this point? I’ll tell 3 reasons we didn't use Ruby, and reflect on whether these are things we want, or problems we should solve.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/FTes/
   video_provider: youtube
   video_id: ei_tanu3UyQ
 
@@ -31,9 +27,6 @@
 
     Forget all that! In this pragmatic talk we'll roll up our sleeves and get stuck into refactoring some awkward Ruby code, using the good parts of monads to tackle the problems we encounter along the way. We'll see how the straightforward design pattern underlying monads can help us to make our code simpler, clearer and more reusable by uncovering its hidden structure, and we'll all leave with a shared understanding of what monads actually are and why people won't shut up about them.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FTet/
   video_provider: youtube
   video_id: uTR__8RvgvM
 
@@ -49,9 +42,6 @@
 
     In this talk, we'll follow the lives of a TCP and an HTTP request, marvel as they pass through your browse, OS, router, web server and app serve. Finally, we'll discuss how this knowledge is used to fix common bugs and increase app performance.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FTeu/
   video_provider: youtube
   video_id: 4tBCDOgtWCg
 
@@ -69,9 +59,6 @@
 
     Join me while I share the story of how I used Ruby to design my first board game. How I honed the game mechanics and optimized all the different moving parts. You will leave this talk knowing the process of designing and developing a board game from scratch and how Ruby can help you iterate fast on new ideas using simple code, simulations and some statistics.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FTev/
   video_provider: youtube
   video_id: EcnvbsXdbtI
 
@@ -90,9 +77,6 @@
 
     In this talk I'll discuss how to use data to drive improvement and when to let it go. I'll focus not only on analysis tools, but also on interpretting data and how to decide if your data is valuable or clutter.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FTew/
   video_provider: youtube
   video_id: aIMA_p2umQA
 
@@ -110,9 +94,6 @@
 
     We'll illustrate why each of several commonly-made assumptions is incorrect, show how to use Ruby to arrive at the correct answer, and empower you to make better decisions about your code in the process.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FUGS/
   video_provider: youtube
   video_id: asttlUG2OuI
 
@@ -128,9 +109,6 @@
     By, Kate Heddleston
     With the increase of code academies training new engineers there is an increase in junior engineers on the market. A lot of companies are hesitant to hire too many young engineers because they lack sufficient resources to train them. This is a talk about how to make junior engineers into independent and productive members of your engineering team faster and cheaper by outlining a plan for how to onboard engineers effectively based on data and anecdotes gathered from companies in San Francisco.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FUGT/
   video_provider: youtube
   video_id: 3XfwanJe77s
 
@@ -146,9 +124,6 @@
 
     Taking over someone else's project without just forking it away is both a commitment and a challenge. It's often ungrateful work, but it's really important. In this talk I'll give some history, motivations and practical tools of how to do it. What do to when maintainers go MIA, and more.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FUGU/
   video_provider: youtube
   video_id: 8ijzefV-B7U
 
@@ -164,9 +139,6 @@
 
     In this talk, I plan to code live onstage to show how easy it is to get started with Fluentd by creating a useful data collection pipeline.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FUGV/
   video_provider: youtube
   video_id: jOaLG6IVhbs
 
@@ -186,9 +158,6 @@
 
     Finally, we'll see what our hash can teach us about related topics, like programming languages and databases. Come ready to learn!
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FUGW/
   video_provider: youtube
   video_id: rNXsqArbOx8
 
@@ -198,16 +167,14 @@
     - Vipul A M
   event_name: GoGaRuCo 2014
   published_at: "2014-09-19"
-  description:
-    "By, Vipul Amler\nWe all love ActiveRecord. Its amazing. But how exactly
-    does ActiveRecord handle generating complex SQL queries? How Joins, Associations
-    and Table Relations are handled? Most of this raw power comes from ARel. ARel
-    is packed up with many features for complex query generation.\n\nLets build our
-    own ORM on top of ARel to see it in action. In the process we will also explore
-    about how ActiveRecord hooks up with ARel. \n\nThis talk describes Relational
-    Algebra, Object and Collection modelling of ARel using a tiny ORM at its base.
-    At the end of talk you will be equipped with better understanding of ARel and
-    AR as an ORM.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FUGX/"
+  description: |-
+    By, Vipul Amler
+    We all love ActiveRecord. Its amazing. But how exactly does ActiveRecord handle generating complex SQL queries? How Joins, Associations and Table Relations are handled? Most of this raw power comes from ARel. ARel is packed up with many features for complex query generation.
+
+    Lets build our own ORM on top of ARel to see it in action. In the process we will also explore about how ActiveRecord hooks up with ARel.
+
+    This talk describes Relational Algebra, Object and Collection modelling of ARel using a tiny ORM at its base. At the end of talk you will be equipped with better understanding of ARel and AR as an ORM.
+
   video_provider: youtube
   video_id: pTmTh7LNVic
 
@@ -223,9 +190,6 @@
 
     This talk will cover tools and techniques to visually capture ideas, how to approach the mental multitasking required to sketch during technical talks and meetings, and why "I can not draw" is just a mental barrier to embracing creativity in your notes.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FUGO/
   video_provider: youtube
   video_id: dE2pqeI3LOI
 
@@ -240,9 +204,6 @@
   description: |-
     By, Yehuda Katz
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FUGR/
   video_provider: youtube
   video_id: ySW6Yk_DerY
 
@@ -260,9 +221,6 @@
 
     In this talk we'll explore how using the scientific method can lead to greater understanding and more viable solutions to complex problems.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FV3e/
   video_provider: youtube
   video_id: h9YZXuUjyOs
 
@@ -280,9 +238,6 @@
 
     In this talk, I will start with the nand gate, and build up a working computer explaining each layer as I go. You may not be able to build along with me in just a half hour, but I hope to infect you with my love for this curriculum and hopefully have it spread to your ruby/study group.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FV3f/
   video_provider: youtube
   video_id: uZsiMG7N_B8
 
@@ -297,9 +252,6 @@
   description: |-
     Lightning talks are back! Share your Ruby-related talk of four minutes or less with 400 of your closest friends. We welcome the wacky, the serious, the ranty, and the technical.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FVxb/
   video_provider: youtube
   video_id: wQ9gHeT_Wx0
   talks:
@@ -387,9 +339,6 @@
 
     In this presentation, I use the Gilded Rose kata to demonstrate techniques for safely working with a legacy codebase and using pure baby-step refactorings to improve the design.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FV8n/
   video_provider: youtube
   video_id: r3bi2xv5t20
 
@@ -407,8 +356,5 @@
 
     There's no doubt that we value humanity, intelligence, and compassion. Let's take a look at the ways our industry can ensure these values are reflected not just in the people we are, but the way we work.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FVxc/
   video_provider: youtube
   video_id: Un4tH-dOjsM

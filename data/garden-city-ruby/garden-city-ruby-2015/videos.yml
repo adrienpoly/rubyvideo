@@ -15,9 +15,6 @@
   description: |-
     By,  Konstantin Haase
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GF2p/
   video_provider: youtube
   video_id: dHiE6egJPjY
 
@@ -33,9 +30,6 @@
 
     ActiveRecord can't do it? Arel can! Active Record is awesome. But how does ActiveRecord handle generating complex SQL queries? Under the hood it's handled by Arel. Most of the time, Rails developers don't have to know about how Arel works. But sometimes Active Record can't satisfy our needs. Also Arel has many strengths not exposed through Active Record. Let's experiment with Arel directly and wield great SQL power in database agnostic way. Oh and did I mention, this is a fun talk, even for us, to “perform”.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GF2k/
   video_provider: youtube
   video_id: 94ufKHERZ1k
 
@@ -52,9 +46,6 @@
 
     The Ruby codebase and standard libraries make heavy use of mutable objects, as does pretty much any mainstream language. Mutable objects are not thread-safe, comparatively harder to maintain and write tests for, and with the resulting tests being slow and brittle. Thus, it becomes very hard to understand applications and libraries written using mutable object states to pass values around and perform operation on those values. Immutability resolves a lot of concurrency issues (race conditions, dirty read/write etc.), and also simplifies the codebase and test cases.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GF2q/
   video_provider: youtube
   video_id: PSQ547GXUno
 
@@ -69,9 +60,6 @@
 
     “Internet of things” is the concept of basically connecting any device with an on and off switch to the Internet. IoT has been possible through devices like Arduino, Raspberry Pi and many more. Although most of the APIs to work with them are available in Ruby, I haven’t seen many projects programmed in Ruby, but C++, Python or JS. I would like to share my approach, resources etc I learned from and show things that are possible. I hope audience would learn new possibilities with Ruby and not have to spent time learning a new language to interact with hardware.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GF2l/
   video_provider: youtube
   video_id: t2jL0OrpILw
 
@@ -88,9 +76,6 @@
 
     The talk is about the gotchas of ActiveRecord callbacks even in the most common usage patterns and touches upon some possible alternatives to avoid each of these pitfalls. As Rails developers most of us would have inevitably have run into callbacks. This is something easy to get started with but is even easier to lead you into unexpected behaviour in production. Also, due to their unobtrusive nature they can become forgotten landmines. Structured in the popular and fun “WAT” style, the focus is mostly on beginner to intermediate levels, others might find one or two anecdotes surprising.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GF2m/
   video_provider: youtube
   video_id: bQBC501kiRY
 
@@ -104,16 +89,17 @@
     - Paolo "Nusco" Perrotta
   event_name: Garden City Ruby 2015
   published_at: "2015-01-10"
-  description:
-    "By, Paolo Perrotta\n\nA confession: I used Git for months without
-    really understanding what was going on. I knew all the basic commands, but I still
-    got stranded when something went wrong. Why did my rebase fail? How did I manage
-    to mess up the remote? \n\nThen I found the key to Git: the unfamiliar .git directory.
-    That was my lightbulb moment. Once I understood the underlying model, everything
+  description: |-
+    By, Paolo Perrotta
+
+    A confession: I used Git for months without really understanding what was going on. I knew all the basic commands, but I still got stranded when something went wrong. Why did my rebase fail? How did I manage to mess up the remote?
+
+    Then I found the key to Git: the unfamiliar .git directory. That was my lightbulb moment. Once I understood the underlying model, everything
     about Git clicked into place. Things that used to be baffling and complicated
-    suddenly looked simple and elegant. \n\nLet me share this lightbulb with you.
-    It will take you less than an hour to wrap your head around Git.\n\nHelp us caption
-    & translate this video!\n\nhttp://amara.org/v/GF2r/"
+    suddenly looked simple and elegant.
+
+    Let me share this lightbulb with you. It will take you less than an hour to wrap your head around Git.
+
   video_provider: youtube
   video_id: RwYbl_tpoVE
 
@@ -128,9 +114,6 @@
 
     The number of users a web app can handle simultaneously is tricky to determine. Often we go by intuition and choose a deployment architecture which is either insufficient or oversized. Most web bench marking tools, like apache bench, are designed to benchmark the web server, and end-up provide unreliable information as the test scenario is far off from real world usage. Capybara, the defacto acceptance testing framework in rails world, combined with rabbitmq, can help us in determining bottlenecks and choosing the right deployment architecture.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GF2u/
   video_provider: youtube
   video_id: BD4p1i54gWo
 
@@ -147,9 +130,6 @@
 
     Modern distributed systems have aggressive requirements around uptime and performance, they need to face harsh realities such as sudden rush of visitors, network issues, tangled databases and other unforeseen bugs. With so many moving parts involved even in the simplest of services, it becomes mandatory to adopt defensive patterns which would guard against some of these problems and identify anti-patterns before they trigger cascading failures across systems. This talk is for all those developers who hate getting a oncall at 4 AM in the morning
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GF2o/
   video_provider: youtube
   video_id: yTkaq26YgDU
 
@@ -165,9 +145,6 @@
 
     Rubinius is an alternative Ruby language implementation. We would be giving a brief overview of Rubinius Internals and would be majorly talking about the Heap Dump interface that Rubinius provides for analysis of memory dumps.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GF2t/
   video_provider: youtube
   video_id: 8t17itEbBbY
 
@@ -185,9 +162,7 @@
   event_name: Garden City Ruby 2015
   published_at: "2015-01-10"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/GF2s/
   video_provider: youtube
   video_id: _Jv7ftgQ3Bc
 # TODO: missing talk: Sidu Ponnappa & Niranjan Paranjape - Keynote
