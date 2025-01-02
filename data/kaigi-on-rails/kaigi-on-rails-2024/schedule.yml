@@ -40,10 +40,13 @@ days:
 
       - start_time: "12:00"
         end_time: "13:30"
-        slots: 2
+        slots: 1
         items:
           - お昼休憩 (お弁当提供有)
-          - "ワークショップ: Rackを理解しRailsアプリケーション開発の足腰を鍛えよう"
+
+      - start_time: "12:00"
+        end_time: "13:30"
+        slots: 1
 
       - start_time: "13:30"
         end_time: "14:00"
