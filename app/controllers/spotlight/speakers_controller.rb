@@ -4,8 +4,8 @@ class Spotlight::SpeakersController < ApplicationController
 
   def index
     @speakers = Speaker.canonical
-    @speakers = @speakers.ft_search(search_query) if search_query.present?
-    @speakers_count = @speakers.count
+    @speakers = @speakers.ft_search(search_query).with_snippets.ranked if search_query
+    @speakers_count = @speakers.count(:id)
     @speakers = @speakers.limit(5)
     respond_to do |format|
       format.turbo_stream
@@ -16,6 +16,6 @@ class Spotlight::SpeakersController < ApplicationController
 
   helper_method :search_query
   def search_query
-    params[:s]
+    params[:s].presence
   end
 end
