@@ -3,7 +3,7 @@
 <% language = Language.by_code(talk.language) %>
 
 <div class="card card-compact bg-white border w-full relative" id="<%= dom_id talk %>">
-  <% if talk.child_talks.exists? %>
+  <% if talk.child_talks.size.positive? %>
     <div class="absolute w-[calc(100%-20px)] ml-[10px] bg-gray-300 rounded-xl -mt-4">&nbsp;</div>
     <div class="absolute w-[calc(100%-10px)] ml-[5px] bg-gray-500 rounded-xl -mt-2">&nbsp;</div>
   <% end %>
@@ -37,7 +37,7 @@
       </div>
     <% end %>
 
-    <% if talk.parent_talk.present? %>
+    <% if talk.parent_talk %>
       <div class="flex gap-2 absolute bottom-0 left-0 z-20 m-3 p-2 bg-black/15 backdrop-blur-md rounded-full flex content-center">
         <span><%= fa("rectangle-history", size: :sm, class: "fill-white") %></span>
         <span class="group-hover:inline-flex hidden items-center gap-1 text-white text-xs ml-1 font-normal line-clamp-1">
@@ -53,7 +53,7 @@
       <% end %>
     <% end %>
 
-    <% if talk.child_talks.exists? %>
+    <% if talk.child_talks.size.positive? %>
       <div class="flex gap-2 absolute bottom-0 right-0 z-20 m-3 px-1.5 py-1 bg-black backdrop-blur-md rounded-md text-white text-xs font-normal">
         <span>contains <%= pluralize(talk.child_talks.size, "talk") %></span>
       </div>
