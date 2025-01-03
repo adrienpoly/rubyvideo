@@ -12,7 +12,7 @@ class SpeakersController < ApplicationController
     @speakers = Speaker.with_talks.order(:name).canonical
     @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
     @speakers = @speakers.ft_search(params[:s]) if params[:s].present?
-    @pagy, @speakers = pagy(@speakers, limit: 100, page: params[:page])
+    @pagy, @speakers = pagy(@speakers, gearbox_limit: [200, 300, 600], page: params[:page])
     respond_to do |format|
       format.html
       format.turbo_stream
