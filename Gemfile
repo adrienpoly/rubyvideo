@@ -146,6 +146,7 @@ gem "country_select"
 gem "avo"
 gem "frozen_record", "~> 0.27.2"
 gem "diffy"
+gem "rollups"
 
 # Use OmniAuth to support multi-provider authentication [https://github.com/omniauth/omniauth]
 gem "omniauth"
