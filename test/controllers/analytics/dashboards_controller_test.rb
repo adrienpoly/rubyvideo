@@ -70,9 +70,7 @@ class Analytics::DashboardsControllerTest < ActionDispatch::IntegrationTest
     end
   end
 
-  test "should test caching for daily_visits" do
-    Rails.cache.clear
-
+  test "should aggregate daily_visits with rollup" do
     travel_to Time.new(2023, 8, 26, 12, 0, 0) do
       visit_1 = Ahoy::Visit.create!(started_at: Time.current)
       Ahoy::Event.create!(name: "Some Page during visit_1", visit: visit_1, time: Time.current)
@@ -81,8 +79,10 @@ class Analytics::DashboardsControllerTest < ActionDispatch::IntegrationTest
     # Travel to a fixed time for a consistent test environment
     travel_to Time.new(2023, 8, 27, 12, 0, 0) do
       # Make first call to populate cache
-      get daily_visits_analytics_dashboards_path
-      assert_response :success
+      assert_changes -> { Rollup.where(name: "ahoy_daily_visits").count }, from: 0, to: 1 do
+        get daily_visits_analytics_dashboards_path
+        assert_response :success
+      end
       yesterday_page_views = assigns(:daily_visits)[Date.new(2023, 8, 26)]
       today_page_views = assigns(:daily_visits)[Date.new(2023, 8, 27)]
       assert_equal 1, yesterday_page_views
@@ -92,7 +92,7 @@ class Analytics::DashboardsControllerTest < ActionDispatch::IntegrationTest
       visit_2 = Ahoy::Visit.create!(started_at: Time.current)
       Ahoy::Event.create!(name: "Some Page during visit 2", visit: visit_2, time: Time.current)
 
-      # Make second call, length should not change because of cache
+      # Make second call, length should not change because we only display the last 60 days up to yesterday
       get daily_visits_analytics_dashboards_path
       assert_response :success
       yesterday_page_views = assigns(:daily_visits)[Date.new(2023, 8, 26)]
@@ -112,6 +112,21 @@ class Analytics::DashboardsControllerTest < ActionDispatch::IntegrationTest
       assert_equal 1, day_before_yesterday_page_views
       assert_equal 1, yesterday_page_views
       assert_nil today_page_views
+    end
+  end
+
+  test "rollups are not recalculated when the dashboard is visited" do
+    visit_1 = Ahoy::Visit.create!(started_at: Time.current)
+    Ahoy::Event.create!(name: "Some Page during visit_1", visit: visit_1, time: Time.current)
+
+    assert_changes -> { Rollup.where(name: "ahoy_daily_visits").count }, from: 0, to: 1 do
+      get daily_visits_analytics_dashboards_path
+      assert_response :success
+    end
+
+    assert_no_changes -> { Rollup.where(name: "ahoy_daily_visits").count } do
+      get daily_visits_analytics_dashboards_path
+      assert_response :success
     end
   end
 end
