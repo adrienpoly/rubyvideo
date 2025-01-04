@@ -3,7 +3,7 @@ require "test_helper"
 class TalkTest < ActiveSupport::TestCase
   include ActiveJob::TestHelper
   test "should handle empty transcript" do
-    talk = Talk.new(title: "Sample Talk", raw_transcript: Transcript.new)
+    talk = Talk.new(title: "Sample Talk", talk_transcript_attributes: {raw_transcript: Transcript.new})
     assert talk.save
 
     loaded_talk = Talk.find(talk.id)
@@ -71,7 +71,7 @@ class TalkTest < ActiveSupport::TestCase
 
   test "transcript should default to raw_transcript" do
     raw_transcript = Transcript.new(cues: [Cue.new(start_time: 0, end_time: 1, text: "Hello")])
-    talk = Talk.new(title: "Sample Talk", raw_transcript: raw_transcript)
+    talk = Talk.new(title: "Sample Talk", talk_transcript_attributes: {raw_transcript: raw_transcript})
     assert talk.save
 
     loaded_talk = Talk.find(talk.id)

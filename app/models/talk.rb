@@ -6,15 +6,14 @@
 #  id                  :integer          not null, primary key
 #  date                :date             indexed
 #  description         :text             default(""), not null
+#  discarded_at        :datetime         indexed
 #  end_seconds         :integer
-#  enhanced_transcript :text             default(#<Transcript:0x000000012f650498 @cues=[]>), not null
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
 #  kind                :string           default("talk"), not null, indexed
 #  language            :string           default("en"), not null
 #  like_count          :integer
 #  meta_talk           :boolean          default(FALSE), not null
-#  raw_transcript      :text             default(#<Transcript:0x000000012f650588 @cues=[]>), not null
 #  slides_url          :string
 #  slug                :string           default(""), not null, indexed
 #  start_seconds       :integer
@@ -37,6 +36,7 @@
 # Indexes
 #
 #  index_talks_on_date            (date)
+#  index_talks_on_discarded_at    (discarded_at)
 #  index_talks_on_event_id        (event_id)
 #  index_talks_on_kind            (kind)
 #  index_talks_on_parent_talk_id  (parent_talk_id)
@@ -75,14 +75,14 @@ class Talk < ApplicationRecord
   has_many :watch_list_talks, dependent: :destroy
   has_many :watch_lists, through: :watch_list_talks
 
+  has_one :talk_transcript, class_name: "Talk::Transcript", dependent: :destroy
+  accepts_nested_attributes_for :talk_transcript
+  delegate :transcript, :raw_transcript, :enhanced_transcript, to: :talk_transcript, allow_nil: true
+
   # associated objects
   has_object :agents
   has_object :downloader
   has_object :thumbnails
-
-  # serializers
-  serialize :enhanced_transcript, coder: TranscriptSerializer
-  serialize :raw_transcript, coder: TranscriptSerializer
 
   # validations
   validates :title, presence: true
@@ -371,10 +371,6 @@ class Talk < ApplicationRecord
     ActiveSupport::Duration.build(end_seconds - start_seconds)
   end
 
-  def transcript
-    enhanced_transcript.presence || raw_transcript
-  end
-
   def speakers
     return super unless meta_talk
 
@@ -416,7 +412,8 @@ class Talk < ApplicationRecord
 
   def fetch_and_update_raw_transcript!
     youtube_transcript = Youtube::Transcript.get(video_id)
-    update!(raw_transcript: Transcript.create_from_youtube_transcript(youtube_transcript))
+    transcript = talk_transcript || Talk::Transcript.new
+    transcript.update!(raw_transcript: ::Transcript.create_from_youtube_transcript(youtube_transcript))
   end
 
   def update_from_yml_metadata!(event: nil)
