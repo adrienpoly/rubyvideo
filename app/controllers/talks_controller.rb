@@ -11,7 +11,7 @@ class TalksController < ApplicationController
 
   # GET /talks
   def index
-    @talks = Talk.with_essential_card_data.includes(child_talks: :speakers).order(order_by)
+    @talks = Talk.includes(:speakers, event: :organisation, child_talks: :speakers).order(order_by)
     @talks = @talks.watchable unless params[:all].present?
     @talks = @talks.ft_search(params[:s]).with_snippets.ranked if params[:s].present?
     @talks = @talks.for_topic(params[:topic]) if params[:topic].present?

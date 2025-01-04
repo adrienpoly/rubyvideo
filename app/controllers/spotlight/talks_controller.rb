@@ -3,7 +3,7 @@ class Spotlight::TalksController < ApplicationController
   skip_before_action :authenticate_user!
 
   def index
-    @talks = Talk.with_essential_card_data
+    @talks = Talk.includes(:speakers, event: :organisation)
     @talks = @talks.ft_search(search_query).ranked if search_query.present?
     @talks_count = @talks.count(:id)
     @talks = @talks.limit(5)

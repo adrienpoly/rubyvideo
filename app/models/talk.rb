@@ -184,25 +184,6 @@ class Talk < ApplicationRecord
   scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
   scope :watchable, -> { where(video_provider: [:youtube, :mp4, :vimeo]) }
 
-  scope :with_essential_card_data, -> do
-    select(
-      :id,
-      :slug,
-      :title,
-      :date,
-      :thumbnail_sm,
-      :thumbnail_lg,
-      :video_id,
-      :video_provider,
-      :event_id,
-      :language,
-      :meta_talk,
-      :parent_talk_id,
-      :start_seconds,
-      :end_seconds
-    ).includes(:speakers, event: :organisation)
-  end
-
   def managed_by?(visiting_user)
     return false unless visiting_user.present?
     return true if visiting_user.admin?

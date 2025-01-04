@@ -13,7 +13,7 @@ class TopicsController < ApplicationController
   def show
     @topic = Topic.find_by!(slug: params[:slug])
     @pagy, @talks = pagy(
-      @topic.talks.with_essential_card_data.order(date: :desc),
+      @topic.talks.includes(:speakers, event: :organisation, child_talks: :speakers).order(date: :desc),
       limit: 12,
       page: params[:page]&.to_i || 1
     )
