@@ -38,10 +38,6 @@
     The same can be said about Git. If you've ever looked at the manpages, there's feature after feature and option after option in its binaries. Part of the strength of Git and GitHub is having access to those features when you need them, and getting them out of your way when you don't.
 
     This talk covers both Git and GitHub: different tricks I've picked up after two years at GitHub, helpful advice on common gripes I've seen in support tickets and tweets, and just general nifty things that make you a faster, more capable technologist.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGgS/
   video_provider: youtube
   video_id: Foz9yvMkvlA
 
@@ -54,10 +50,6 @@
   track: Track 2
   description: |-
     All the Starcraft n00bs know exactly how to win. They take all the resources they can, and upgrade all the expensive tech and think to themselves, "soon i'll be unstoppable". Unfortunately "eventually unstoppable" is the same as dead right now. This type of premature optimization and abstraction can kill a business faster than not being able to scale. In this talk we'll take a look at how to pick the right unit composition (databases vs. NoSQL), balance your macro and micro (scale out vs. up), and choose the right race (programing language). If you've never played Starcraft, and can't tell a ultralisk from a firebat, don't worry there's still a room for you. Sorry, no Zerg allowed.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGgV/
   video_provider: youtube
   video_id: 4wvtvc0C2SY
 
@@ -73,9 +65,6 @@
   description: |-
     While Node.js is the hot new kid on the block, evented libraries like EventMachine for Ruby and Twisted for Python have existed for a long time. When does it make sense to use one over the other? What are the advantages and disadvantages to using node over ruby? In this talk, you will learn how to get the same power of concurrency enjoyed by Node.js while continuing to write in the language you know and love. Topics covered will include pubsub with redis or faye, building evented rack applications, and running evented applications alongside existing Rails apps.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGgT/
   video_provider: youtube
   video_id: hNfURUailz0
 
@@ -89,9 +78,6 @@
   description: |-
     I started programming Rails on Windows in 2008. The experience was not the best but I still made the best of it. Fast-forward to 2012 and because of tools like RailsInstaller, Windows users have things almost easier than Mac/Linux. This talk will focus on some of the best-practices that I've found when using Windows for Ruby on Rails development and is really geared toward helping people get started programming Rails in a Windows environment. The talk is sexy and it knows it so be prepared to laugh and have fun.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGgZ/
   video_provider: youtube
   video_id: QASKzyJdcTY
 
@@ -115,9 +101,6 @@
 
     The Open-Closed Principle The types of coupling, and their dangers Why composition is so damn great A powerful refactoring that Kent Beck refers to as "deep deep magic" How to destroy conditionals with a NullObject The beauty of the Decorator pattern Testing smells, including Mystery Guest and stubbing the system under test The stuff from the last halves of Refactoring and Clean Code that you never quite got to.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGgU/
   video_provider: youtube
   video_id: DC-pQPq0acs
 
@@ -131,9 +114,6 @@
   description: |-
     As applications grow, dependency management becomes painful, tests get slower, and development becomes less joyful. Breaking up the application into services can be a great solution to these problems, but not every team is ready to leap fully into a SOA. Carson is Zendesk's compromise to this problem. It's a Rails 3 engine host: an application that contains only a Gemfile full of engines and some configuration. In this talk we'll explore the benefits and drawbacks of delivering features as engines and how this approach can act as a stepping stone from big-ball-of-mud architectures to service-oriented ones.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGg0/
   video_provider: youtube
   video_id: q0DmmLDJ-vQ
 
@@ -150,9 +130,6 @@
   description: |-
     You've probably heard of JRuby. Maybe you've even tried it. But why is JRuby a good idea? How can it help you build better applications? In this talk, we'll cover everything that makes JRuby awesome, from the JVM with its top-notch memory management, solid multithreading, and lightning-fast optimizing compiler, to JRuby itself, giving you easy access to Java libraries, robust Ruby compatibility, and trivial app deployment and distribution options. JRuby is an amazing tool for any Rubyist...come find out why.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGgW/
   video_provider: youtube
   video_id: etCJKDCbCj4
 
@@ -167,9 +144,6 @@
   description: |-
     What does really happen when we call a method? How do the different Ruby implementations actually figure out what code to execute? What plumbing is going on under the hood to get a speedy dispatch? In this talk we will have a look at the internals of the the major Ruby implementations, focusing on their dispatch. From look-up tables and call site caches, to inlining and what on earth is invokedynamic? Fear not, all will be explained!
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfe/
   video_provider: youtube
   video_id: 1MKsTx_pBKw
 
@@ -189,9 +163,6 @@
 
     Coming out of this talk, you'll have a better appreciation for the techniques of isolation testing in effective test-driven design.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGgX/
   video_provider: youtube
   video_id: t430e6M5YAo
 
@@ -205,9 +176,6 @@
   description: |-
     There’s nothing more frustrating for a developer than spending months creating an application and then having it fail because of performance issues. That’s why integrating application performance management into each step of the development lifecycle is critical to your application’s success. Of course, easy-to-use tools for performance management are rare, and often prohibitively expensive. Not to mention that they don’t reflect actual user behavior. In order for APM solutions to succeed in the Ruby community, they must be affordable, easy to use, require no scripting; and easily integrate into the development process – be it a PaaS system such as Heroku or some other delivery system. From idea formation to final delivery, Rubyists must know their product is working every step of the way.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGff/
   video_provider: youtube
   video_id: MBUUmTK3YDc
 
@@ -223,9 +191,6 @@
   description: |-
     Open source is hard but it gets much easier with a community backing you. I tried many approaches while developing fog, and thankfully, the resulting community is amazing. Now I'm doing my best to apply the same principles to the Heroku CLI and other open source projects. I make mistakes and often get lucky, but I have learned a lot about fostering community in the process. This session distills some of my techniques and explains how you can help build community around your favorite projects.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGgY/
   video_provider: youtube
   video_id: 2hrnZZDV9Ow
 
@@ -247,9 +212,7 @@
   published_at: "2012-10-09"
   track: Track 1
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FGfg/
   video_provider: youtube
   video_id: P4xSmYr7PEg
 
@@ -271,9 +234,6 @@
     * Event handling (e.g Active Support Notifications vs. gen_event)
     * Instrumentation and Reporting
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfm/
   video_provider: youtube
   video_id: DlgFpDWj_eE
 
@@ -291,9 +251,6 @@
 
     In this talk we start with the basic concepts of CoffeeScript and move on to the more powerful and fun features of the language. While we're looking at CoffeeScript we'll see how it relates to the Ruby code we write everyday. What do Ruby 1.9 lambdas and CoffeeScript functions have in common? Which of the two languages supports splats, default arguments, and ranges? The answers may surprise you.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfn/
   video_provider: youtube
   video_id: T1VE4soWzgw
 
@@ -311,9 +268,6 @@
 
     Much of the Ruby community blindly trusts our gems. This talk will make you second guess that trust. It will also show you how to vet gems that you do choose to use.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfj/
   video_provider: youtube
   video_id: z-5bO0Q1J9s
 
@@ -336,9 +290,6 @@
 
     In this talk, I'll dig into the extras of Ruby and see if I can't turn up some features that you don't see all of the time, but that might just be handy to know about anyway. I'll make sure you come out of this able to impress your friends at the hackfest.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfq/
   video_provider: youtube
   video_id: aBgnlBoIkVM
 
@@ -352,9 +303,6 @@
   description: |-
     RubyMotion is a tool that lets Ruby developers write native iOS apps using the Ruby language. It's based on MacRuby which is an implementation of the Ruby language for Mac OS X. This talk will introduce RubyMotion with some simple live code demos and a twist of TDD. The level is introductory; you don't need to know Ruby or iOS to attend.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfk/
   video_provider: youtube
   video_id: 3gCsen5Zs4s
 
@@ -372,9 +320,6 @@
 
     In this talk I'll share my knowledge of these things from being the maintainer of popular Ruby applications and libraries. I'll show you the idiomatic Ruby way to do logging, configuration, exception handling, and much much more. But don't worry, I won't just be preaching, I'll show you the reasons why these methods have become the community approved way of doing things.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfl/
   video_provider: youtube
   video_id: rUuee8E5Yk4
 
@@ -394,9 +339,6 @@
 
     I will also explore the challenges posed by using and scaling Git as a data store, including concurrent access and distributing load.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfp/
   video_provider: youtube
   video_id: fjN4c4RWiV0
 
@@ -412,9 +354,6 @@
   description: |-
     As developers and engineers we've spent a lot of time improving our tools to make our lives easier. Somewhere along the way, those improvements have introduced a new threat to our livelihood... Designers! Learn about how we've got ourselves into this place, why we have to lift our game, and why that can only be a good thing for everyone.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfi/
   video_provider: youtube
   video_id: 2O5cP0cVhX0
 
@@ -432,9 +371,6 @@
 
     We'll go over how this is done and what it meant when we had successfully teased the application apart. This approach was used on an application that collected, stored and managed millions of leads each month.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfo/
   video_provider: youtube
   video_id: sxvBK3QpP-c
 
@@ -460,9 +396,6 @@
 
     All of this will show how working towards a self-hosted platform results in comprehensive consistency assurance and gains in efficiency, noble goals for such a complex software system.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfh/
   video_provider: youtube
   video_id: 3JrJUB-JAww
 
@@ -480,9 +413,6 @@
 
     In this session we’ll explore ways in which the average development team can explore, learn, teach, and grow, until the sum of members of the team is as great as any Consultant or Rockstar.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfs/
   video_provider: youtube
   video_id: 5WettBcU_OE
 
@@ -499,9 +429,6 @@
   description: |-
     mruby is Matz’ new Ruby implementation, it’s not cooler than node.js, it doesn’t natively support Hypstermedia, it looks just like the good old Ruby. So why should we, as a community care?
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGfr/
   video_provider: youtube
   video_id: eZYRd86OTbk
 # Mahalo

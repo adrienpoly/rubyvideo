@@ -26,9 +26,6 @@
 
     Through practical examples and demos, learn how to utilize the various aspects of Microsoft Azure through Ruby. Dive into the Ruby SDK for Azure as well as the Azure gem for fog. Explore cloud storage, virtual machines, and networks among others. Also, learn about the upcoming Spartan browser, and remotely test your site on it from any platform at http://remote.modern.IE
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G61G/
   video_provider: youtube
   video_id: EncjV-lKwLc
 
@@ -43,9 +40,6 @@
 
     If you missed a few days of the Heroku's changelog, not to worry! We're here to fill you in with all the critical info and killer tips. In this session, we will discuss major updates to the Heroku platform and the ways you can use it to make developing your app even easier. We'll leave plenty of time at the end for any questions.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G61H/
   video_provider: youtube
   video_id: kCzWZbGHiZE
 
@@ -59,9 +53,6 @@
   description: |-
     By, Aaron Patterson
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G61I/
   video_provider: youtube
   video_id: B3gYklsN9uc
 
@@ -75,9 +66,6 @@
     By, Koichi Sasada
     We will talk about introspection features of Ruby interpreter (MRI) to solve troubles on your Ruby on Rails application. Rails application development with Ruby is basically fast and easy. However, when you have trouble such as tough bugs in your app, performance issues and memory consumption issues, they are difficult to solve without tooling. In this presentation, I will show you what kind of introspection features MRI has and how to use them with your Rails application.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G61J/
   video_provider: youtube
   video_id: 4YtBS0tvkjw
 
@@ -91,9 +79,6 @@
     By, Kir Shatrov
     Performance regressions in edge Rails versions happen quite often, and are sometimes introduced even by experienced Core commiters. The Rails team doesn’t have any tools to get notified about this kind of regressions yet. This is why I’ve built RailsPerf, a regression detection tool for Rails. It resembles a continuous integration service in a way: it runs benchmarks after every commit in Rails repo to detect any performance regressions. I will speak about building a right set of benchmarks, isolating build environments, and I will also analyze some performance graphs for major Rails versions
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G61K/
   video_provider: youtube
   video_id: BvUsy_Qb9Es
 
@@ -111,9 +96,6 @@
 
     Walking through a typical RSpec example, we’ll show the RSpec internals as RSpec evaluates matchers and uses doubles. You’ll leave with a better understanding of how to harness RSpec in your own tests.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G61M/
   video_provider: youtube
   video_id: Libc0-0TRg4
 
@@ -123,15 +105,15 @@
     - Ryan Davis
   event_name: RailsConf 2015
   published_at: "2015-04-29"
-  description:
-    "By, Ryan Davis \nThe rails \"official stack\" tests with minitest.
+  description: |-
+    By, Ryan Davis \nThe rails \"official stack\" tests with minitest.
     Each revision of rails peels back the testing onion and encourages better testing
     practices. Rails 4.0 switched to minitest 4, Rails 4.1 switched to minitest 5,
     and Rails 4.2 switched to randomizing the test run order. I'll explain what has
     happened, explain the motivation behind the changes, and how to diagnose and solve
     problems you may have as you upgrade. Whether you use minitest already, are considering
     switching, or just use rspec and are curious what's different, this talk will
-    have something for you.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/G61N/"
+    have something for you.
   video_provider: youtube
   video_id: MA4jJNUG_dI
 
@@ -150,9 +132,6 @@
 
     Every interview you conduct is bi-directional and creating a bad candidate experience means you'll fail to hire the team that you want to work on – you can't hire great people with a mediocre hiring process. The experts in this session have analyzed thousands of interviews and will share how to create a great candidate experience in your company and how to scale your teams effectively. Candidates can use these same lessons to prepare for interviews and evaluate the companies interviewing them.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G61D/
   video_provider: youtube
   video_id: V5b65sHieUw
 
@@ -166,9 +145,6 @@
   description: |-
     Presented by, Gregg Pollack & Oliver Lacan
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G61O/
   video_provider: youtube
   video_id: 3bcBNsec-Aw
 
@@ -186,9 +162,7 @@
   published_at: "2015-04-29"
   description: |-
     With,  Aaron Patterson, Santiago Pastorino, Godfrey Chan, Jeremy Kemper, Guillermo Iguaran, and Andrew White
-    Help us caption & translate this video!
 
-    http://amara.org/v/G61P/
   video_provider: youtube
   video_id: PdUj8HoH_eA
 
@@ -206,9 +180,6 @@
 
     https://push.cx/2015/railsconf
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G61Q/
   video_provider: youtube
   video_id: uFpXKLSREQo
 
@@ -225,9 +196,6 @@
 
     If you're concerned about the security of your Rails app but don't feel like you can spare the time or effort to implement two factor authentication, this talk is for you. We'll discuss the best ways to protect your users' accounts and live code the integration of two factor authentication into your Rails app in less than 15 minutes using Authy.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G61E/
   video_provider: youtube
   video_id: i8WpShCXZOE
 
@@ -241,9 +209,6 @@
     By, Joe Mastey
     User Centered Design as a process is almost thirty years old now. The philosophy has permeated our products and the way we build our interfaces. But this philosophy is rarely extended to the code we write. We'll take a look at some principles of UX and Interface Design and relate them back to our code. By comparing code that gets it right to code that gets it desperately wrong, we'll learn some principles that we can use to write better, more usable code.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6rI/
   video_provider: youtube
   video_id: PI7g4TqLaTY
 
@@ -262,9 +227,6 @@
 
     You will leave this talk with the tools to implement a successful code-review culture. You'll learn how to get more from the reviews you're already getting and how to have more impact with the reviews you leave.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6iP/
   video_provider: youtube
   video_id: PJjmw9TRB7s
 
@@ -281,9 +243,6 @@
 
     Learn about how we’ve made developing with GitHub fun and safe for everyone, and the surprising benefits of having more contributors to our code.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6iQ/
   video_provider: youtube
   video_id: _DOKUvitb4o
 
@@ -304,9 +263,6 @@
 
     We wrap ourselves in process, trying to trade people for personas, points, planning poker, and the promise of predictability. Only people aren't objects to be abstracted away. Let's take some time to think through the trade offs we're making together.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6iR/
   video_provider: youtube
   video_id: "-ZLYxLjwNWo"
 
@@ -321,9 +277,6 @@
 
     Fostering diversity is a commonly cited goals for the tech community, and - let's be honest - the liberal arts are kicking our butts at it. This was not always the case, though; until very recently, the faces of the liberal arts were exclusively white and male. This changed thanks to distinct strategies and deliberate cultural shifts brought about in the late 20th century, some of which the tech community has copied and others we can use more effectively. In this talk, we will explore some of those strategies by examining the education, history, and culture of the liberal arts.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6iS/
   video_provider: youtube
   video_id: VAYbUEViW-I
 
@@ -340,9 +293,6 @@
 
     Come learn about how maintainers can become leaders instead of heroes, techniques for building an awesome team for your project, and the ways that everyone else can jump in and support open source software in an effective and sustainable way.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6iT/
   video_provider: youtube
   video_id: KpMC8z8r73g
 
@@ -358,9 +308,6 @@
 
     Learn how we orchestrate the containers running these development environments and manage the underlying cluster all using a pure ruby toolchain and how deep integration between Rails and Docker has allowed us to provide a unique experience for people learning Ruby online.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6rE/
   video_provider: youtube
   video_id: NGcT0dGivoM
 
@@ -375,9 +322,6 @@
     By, Aja Hammerly
     Like most programmers I am lazy. I don't want to do something by hand if I can automate it. I also think DevOps can be dreadfully dull. Luckily there are now tools that support lazy DevOps. I'll demonstrate how using Docker containers and Kubernetes allows you to be lazy and get back to building cool features (or watching cat videos). I'll go over some of the pros and cons to the "lazy" way and I'll show how these tools can be used by both simple and complex apps.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6rF/
   video_provider: youtube
   video_id: CVO_imNSw2o
 
@@ -395,9 +339,6 @@
 
     In this talk we'll see how microservices help us think differently about writing code and solving problems, and why they are not always the right answer.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6rG/
   video_provider: youtube
   video_id: mU4BMf0wS7Q
 
@@ -415,9 +356,6 @@
 
     This talk is for all those developers who hate getting a oncall at 4 AM in the morning.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6rH/
   video_provider: youtube
   video_id: _yEz9-Vu8YM
 
@@ -428,14 +366,15 @@
   event_name: RailsConf 2015
   published_at: "2015-04-30"
   slides_url: https://speakerdeck.com/skmetz/nothing-is-something-railsconf
-  description:
-    "By, Sandi Metz \nOur code is full of hidden assumptions, things that
-    seem like nothing, secrets that we did not name and thus cannot see. These secrets
+  description: |-
+    By, Sandi Metz
+
+    Our code is full of hidden assumptions, things that seem like nothing, secrets that we did not name and thus cannot see. These secrets
     represent missing concepts and this talk shows you how to expose those concepts
     with code that is easy to understand, change and extend. Being explicit about
     hidden ideas makes your code simpler, your apps clearer and your life better.
-    Even very small ideas matter. Everything, even nothing, is something.\n\nHelp
-    us caption & translate this video!\n\nhttp://amara.org/v/G6rJ/"
+    Even very small ideas matter. Everything, even nothing, is something.
+
   video_provider: youtube
   video_id: OMPfEXIlTVE
 
@@ -445,15 +384,15 @@
     - Louisa Barrett
   event_name: RailsConf 2015
   published_at: "2015-05-01"
-  description:
-    "By, Louisa Barrett \nBootcamps and other non-traditional education
-    options are producing junior developers that can't wait to jump into their first
+  description: |-
+    By, Louisa Barrett
+    Bootcamps and other non-traditional education options are producing junior developers that can't wait to jump into their first
     jobs, but many teams are still figuring out how to successfully onboard people
     whose skills are solidifying and may be hesitant to add a junior to the group.
     As a junior, how do you go about finding a place for yourself? From thinking through
     what type of company may be the best fit to strategizing how to find a mentor
     to help guide you, this talk will discuss what you can do to make sure you get
-    your career off on the right foot.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/G71T/"
+    your career off on the right foot.
   video_provider: youtube
   video_id: SaNlfSeTWwI
 
@@ -467,9 +406,6 @@
   description: |-
     By,  Andre Arko
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G71S/
   video_provider: youtube
   video_id: GvFfd_MCJq0
 
@@ -479,16 +415,16 @@
     - Sam Phippen
   event_name: RailsConf 2015
   published_at: "2015-05-01"
-  description:
-    "By, Sam Phippen \nGetting started with testing Rails applications
-    can be a frought process. There are a range of different test types that one can
+  description: |-
+    By, Sam Phippen
+    Getting started with testing Rails applications can be a frought process. There are a range of different test types that one can
     write. It's often not clear which type one wants. Without care your tests can
-    begin testing the same behaviour. This is problematic.\n\nIn this talk we'll cover
-    the most common types of test you'll encounter in your Rails applications: feature,
+    begin testing the same behaviour. This is problematic.
+
+    In this talk we'll cover the most common types of test you'll encounter in your Rails applications: feature,
     controller and model. We'll also talk about ways you can design your tests to
     ensure your suite is robust to changes in your system. If you'd love to learn
-    more about RSpec, Rails, and testing this talk will be great for you.\n\nHelp
-    us caption & translate this video!\n\nhttp://amara.org/v/G71U/"
+    more about RSpec, Rails, and testing this talk will be great for you.
   video_provider: youtube
   video_id: SOi_1reKn8M
 
@@ -504,9 +440,6 @@
 
     Enter open source. Open source contributions hone crucial web development skills, like version control; comprehension of an full code base; and even an understanding of agile processes--not to mention being a clear indicator of your hirability. Join us to learn how to push through any intimidation and strengthen your portfolio with open source!
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G71V/
   video_provider: youtube
   video_id: QJpkRZn2p9k
 
@@ -517,16 +450,18 @@
   event_name: RailsConf 2015
   published_at: "2015-05-01"
   slides_url: https://speakerdeck.com/kyfast/amelia-bedelia-learns-to-code
-  description:
-    "By, Kylie Stradley \n\"Did you really think you could make changes
-    to the database by editing the schema file? Who are you, Amelia Bedelia?\"\n\nThe
-    silly mistakes we all made when first learning Rails may be funny to us now, but
+  description: |-
+    By, Kylie Stradley
+    "Did you really think you could make changes to the database by editing the schema file? Who are you, Amelia Bedelia?"
+
+    The silly mistakes we all made when first learning Rails may be funny to us now, but
     we should remember how we felt at the time. New developers don't always realize
     senior developers were once beginners too and may assume they are the first and
-    last developer to mix up when to use the rails and rake commands.\n\nThis talk
+    last developer to mix up when to use the rails and rake commands.
+
+    This talk is a lighthearted examination of the kinds of common errors many Rails developers
     is a lighthearted examination of the kinds of common errors many Rails developers
-    make and will dig into why so many of us make the same mistakes.\n\nHelp us caption
-    & translate this video!\n\nhttp://amara.org/v/G71W/"
+    make and will dig into why so many of us make the same mistakes.
   video_provider: youtube
   video_id: bSbla50tqZE
 
@@ -536,13 +471,9 @@
     - Jillian Foley
   event_name: RailsConf 2015
   published_at: "2015-05-01"
-  description:
-    "By, Jillian Foley \nNew programmers often react with dread when the
-    word \"refactoring\" starts getting thrown around at standup. Maybe you've seen
-    fellow Rubyists struggle with old code, or a colleague spend days on one module
-    only to end up with exactly zero changes to functionality. What exactly is refactoring,
-    and why would anyone want to do it? What are some tips for approaching a refactor,
-    both generally and in Rails?\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/G71X/"
+  description: |-
+    By, Jillian Foley
+    New programmers often react with dread when the word "refactoring" starts getting thrown around at standup. Maybe you've seen fellow Rubyists struggle with old code, or a colleague spend days on one module only to end up with exactly zero changes to functionality. What exactly is refactoring, and why would anyone want to do it? What are some tips for approaching a refactor, both generally and in Rails?
   video_provider: youtube
   video_id: HFaXuMQTnOc
 
@@ -557,9 +488,6 @@
 
     Do you want to use your coding skills for good rather than for evil? Did you ever want to build something to make your city or your community suck less? Here are some lessons from a civic hacker on how to kickstart your project. Hint: it's nothing like writing a gem.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G8P1/
   video_provider: youtube
   video_id: BlFtNc76x9Q
 
@@ -576,9 +504,6 @@
 
     Do Users Love Your API? Developer-focused API Design
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G8P0/
   video_provider: youtube
   video_id: 8p10bGFM9dg
 
@@ -593,9 +518,6 @@
 
     Many people assume that the only way to add interesting charts and visualizations to their web applications is via JavaScript. But this isn't true. You don't need a 900 kB JavaScript library to generate simple charts. Instead you can use SVG and Ruby. Once you learn how to build your own SVG graphics then it's possible to do cool things like cache them, or use your own CSS and JavaScript to manipulate them. This presentation will show you how.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G8f2/
   video_provider: youtube
   video_id: yCCtDpW_apk
 
@@ -611,9 +533,6 @@
 
     Contributing to Rails for the first time can be terrifying. In this lab I’ll make contributing to Rails more approachable by going over the contributing guidelines and technical details you need to know. We’ll walk through traversing the source code with tools such as CTags, source_location and TracePoint. Additionally, we’ll create reproduction scripts for reporting issues and learn advanced git commands like bisect and squash. At the end of this session you’ll have the confidence to fix bugs and add features to Ruby on Rails
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G8f3/
   video_provider: youtube
   video_id: 7zoD6NZy6vY
 
@@ -628,9 +547,6 @@
 
     Working with large CSS codebases can be hard. Large-scale refactors, or even just tweaking styles on our more general elements, could end up having unintended consequences on the rest of the site. To catch these problems, we manually check every page on our site, which is a slow and error-prone approach. We need a better way to test our CSS. This talk will walk through how we implemented a visual CSS testing framework using RSpec & Selenium, using automatic screenshot comparison to catch style regressions.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G8uY/
   video_provider: youtube
   video_id: Q4ttqkIEM7g
 
@@ -647,9 +563,6 @@
 
     There is a way, but it is fraught with many dangers. Learn about the power of dynamically generating CSS from Sass files. Tackle the foes of dynamic content injection, rendering, caching, and background processing. In the end, we will look triumphantly at our ability to reuse our application styles to create customizable interfaces for our end users.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G8uZ/
   video_provider: youtube
   video_id: ouGWyZfGZ8M
 
@@ -1356,9 +1269,6 @@
   description: |-
     By, Sara Chipps
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G71R/
   video_provider: youtube
   video_id: _OOZfod2rC4
 
@@ -1739,8 +1649,5 @@
   description: |-
     By, Kent Beck
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/G6Fk/
   video_provider: youtube
   video_id: aApmOZwdPqA

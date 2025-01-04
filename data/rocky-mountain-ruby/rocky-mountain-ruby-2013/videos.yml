@@ -13,9 +13,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG6C/
   video_provider: youtube
   video_id: AN6pCA4qjyg
 
@@ -34,9 +32,6 @@
 
     PostgreSQL Redis Cassandra Hyperdex MongoDb Riak
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG7M/
   video_provider: youtube
   video_id: OmpsGuQTMs0
 
@@ -51,9 +46,6 @@
 
     I'll discuss the basics of systems programming, using Ruby. I'll talk about syscalls and kernel space vs user space. I'll cover a bit about file descriptors and what they're for. And hopefully I'll walk through a small example of a working webserver using those primitive syscalls.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG7N/
   video_provider: youtube
   video_id: XNP0b6ykfFw
 
@@ -64,9 +56,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG6t/
   video_provider: youtube
   video_id: 3ZiXmeTRxnQ
 
@@ -83,9 +73,6 @@
 
     This talk will focus on how to use Middleman to build a data driven site and publish it to S3.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG7O/
   video_provider: youtube
   video_id: wijS-Qlhdf0
 
@@ -98,9 +85,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG7B/
   video_provider: youtube
   video_id: bthXzlCan6s
 
@@ -111,9 +96,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG6u/
   video_provider: youtube
   video_id: Q8hdDShvNto
 
@@ -126,9 +109,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG68/
   video_provider: youtube
   video_id: 1-8WyIZBkAQ
 
@@ -139,9 +120,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG6x/
   video_provider: youtube
   video_id: rFXvHJGYp7Y
 
@@ -152,9 +131,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG7A/
   video_provider: youtube
   video_id: 8odQQ8lfSn8
 
@@ -165,9 +142,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG6k/
   video_provider: youtube
   video_id: "-DHbZEhYCXI"
 
@@ -180,9 +155,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG65/
   video_provider: youtube
   video_id: nhp4dDWRp3Y
 
@@ -193,9 +166,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG6Y/
   video_provider: youtube
   video_id: WLtNXWxq2oY
 
@@ -206,9 +177,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG67/
   video_provider: youtube
   video_id: lGrq8lzbtu8
 
@@ -219,9 +188,7 @@
   event_name: Rocky Mountain Ruby 2013
   published_at: "2013-09-25"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/FG66/
   video_provider: youtube
   video_id: Ma12X8dj5z8
 
@@ -236,9 +203,6 @@
   description: |-
     by Stephan Hagemann
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG6j/
   video_provider: youtube
   video_id: kVX1PE6QQcM
 
@@ -255,9 +219,6 @@
 
     This is a story of a real life project built from day 1 with all these questions in mind. Learn about the problems we solved and lessons we learned: how to partition your Rails app into distinct modular engines, how to speed up your test suite by only running code effected by your changes, how to add a layer on top of ActiveRecord to enforce loose coupling, and many other patterns that can be applied to your own Rails apps!
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG6l/
   video_provider: youtube
   video_id: uDaBtqEYNBo
 
@@ -274,9 +235,6 @@
 
     In this talk we will look at different aspects of concurrency, from simple ones that are even mentioned in Rails documentation, to more complex problems that even seasoned developers tend to miss or fail to pay sufficient attention to.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG71/
   video_provider: youtube
   video_id: TV5LEjN6d1U
 
@@ -291,9 +249,6 @@
   description: |-
     This is the story of Ruby at Square. As Square grew, we invested heavily in a service oriented architecture (SOA) and mainly used Java as our language of choice for new service development. Recently we finished a project, named Minecart, to deeply tie Ruby applications into our Java service infrastructure. To accomplish this we had to dive into the bowels of JRuby. To date, Square is roughly around 50/50 Java services vs Ruby services and everyone enjoys the benefits of a standard ecosystem. I will share many of our learnings along with a couple of practical examples and pitfalls for integrating Ruby into a custom Java framework.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG7J/
   video_provider: youtube
   video_id: wk7uq4K7dzI
 
@@ -312,9 +267,6 @@
 
     It's not your fault. Even so, it is your responsibility.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG6v/
   video_provider: youtube
   video_id: FvrZrwR5Flc
 
@@ -333,9 +285,6 @@
 
     This talk will cover the process Comverge uses when bringing on Junior software engineers, from interviewing techniques to on boarding and the first couple months of on the job training. This training includes Pivotal Tracker, Git branching strategies, learning to love pull requests, TDD, BDD and learning our products.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG6w/
   video_provider: youtube
   video_id: aFVrYynz7pI
 
@@ -361,9 +310,6 @@
     Make vague, unsubstantiated claims about the benefits of static or dynamic typing.
     Assume prior knowledge of Go. In order to make informed comparisons with Ruby, I'll go over the basics of the Go language, but explaining Go won't be the focus of this talk.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG3i/
   video_provider: youtube
   video_id: AR9Q6UgxEuY
 
@@ -380,9 +326,6 @@
 
     Objectives: -Educate about the lack of diversity and why it is a problem -Examine what is contributing to both the pipeline issue as well as attrition -Isolate what is and isn't working -Inspire direct action by examining our own behavior and learning more about the people around us so we can empathize better
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG6m/
   video_provider: youtube
   video_id: Ylmvg7JnCjc
 
@@ -399,9 +342,6 @@
 
     Mike Nicholaides has been a Rails consultant since 2006 and has always obsessed about writing clean, clear, and concise code. He organizes the Code Retreat in Philadelphia where the focus is on learning TDD, communicating with code, and of course, having fun.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG6D/
   video_provider: youtube
   video_id: FidRcixHQos
 
@@ -424,8 +364,5 @@
 
     What if we try to work with the automatic part of the brain, rather than against it? In this talk, Brian Marick will discuss how he tries to do just that.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FG7z/
   video_provider: youtube
   video_id: kLLwJws1nfw

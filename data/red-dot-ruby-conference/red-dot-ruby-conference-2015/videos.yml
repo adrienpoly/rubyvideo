@@ -40,39 +40,42 @@
     - Shipeng Xu
   event_name: Red Dot Ruby Conference 2015
   published_at: "2015-06-04"
-  description:
-    "Rollicking Ruby Robots Rule the World by Sau Sheong Chang and Shipeng
-    Xu\n\nWe don't see it all the time but robots that make our lives easier are already
+  description: |-
+    Rollicking Ruby Robots Rule the World by Sau Sheong Chang and Shipeng Xu
+    We don't see it all the time but robots that make our lives easier are already
     here with us. While they look nothing like the Transformers (cool!) or the Terminator
     (cool but scary), they affect our lives just as deeply. They assemble our cars,
     package our goods, manufacture our electronics, harvest our crops, clean our floors,
-    drive our cars and even fight our wars (scary again). \n\nIn this talk, we want
-    to show you how you can create and program your own autonomous robots using Ruby.
+    drive our cars and even fight our wars (scary again).
+    In this talk, we want to show you how you can create and program your own autonomous robots using Ruby.
     We will show you how we built an inexpensive hexapod spider robot and how we wrote
-    the software to control it, using Ruby. \n\nThis talk is inspired by Jim Weirich,
-    who showed us Friendly Flying Robots with Ruby in 2013."
+    the software to control it, using Ruby.
+    This talk is inspired by Jim Weirich, who showed us Friendly Flying Robots with Ruby in 2013.
   video_provider: youtube
   video_id: ROPktEju3M0
-
 - title: Rethinking the View using React.js
   raw_title: RedDotRuby 2015 - Rethinking the View using React.js by Prathamesh Sonpatki
   speakers:
     - Prathamesh Sonpatki
   event_name: Red Dot Ruby Conference 2015
   published_at: "2015-06-04"
-  description:
-    "Rethinking the View using React.js by Prathamesh Sonpatki\n\nComplex
-    web interfaces is the need of the hour. The interactions should be smooth, pages
+  description: |-
+    Rethinking the View using React.js by Prathamesh Sonpatki
+    Complex web interfaces is the need of the hour. The interactions should be smooth, pages
     should load fast, changes should happen without reloading page that too as fast
     as possible. Users must feel great while using the app. But with so much complexity,
     its becoming harder and harder to keep the frontend codebase clear, predictable
-    and reusable. Time to rethink! \n\nIn this talk, I will first give an overview
-    of React.js, a JavaScript library from Facebook for building user interfaces,
+    and reusable. Time to rethink!
+
+    In this talk, I will first give an overview of React.js, a JavaScript library from Facebook for building user interfaces,
     covering core concepts such as building and composing components, virtual DOM,
     immutable data structures, one way data flow - which makes React really shine.
-    \n\nAfter that, we will dive straight into an example where I will show how Rails
+
+    After that, we will dive straight into an example where I will show how Rails
     can leverage power of React. Most importantly, audience will understand power
-    of rethinking existing best practices. \n\nLets start (re)thinking!"
+    of rethinking existing best practices.
+
+    Lets start (re)thinking!
   video_provider: youtube
   video_id: 9iFCJFALWn0
 
@@ -100,20 +103,19 @@
     - Laura Eck
   event_name: Red Dot Ruby Conference 2015
   published_at: "2015-06-04"
-  description:
-    "Working remotely is one of the legendary opportunities that being
+  description: |-
+    Working remotely is one of the legendary opportunities that being
     a web developer brings along. The freedom to work from wherever you want is, despite
-    certain tradeoffs, pretty awesome and something many developers enjoy. \n\nFor
-    many less experienced developers, however, there’s a lot of open questions: Isn’t
+    certain tradeoffs, pretty awesome and something many developers enjoy.
+    For many less experienced developers, however, there’s a lot of open questions: Isn’t
     it much harder for a junior? Will I be able to learn from my co-workers when I’m
     remote? How the heck do I get my company to agree to this? And even if they agree,
-    how do I make it work? \n\nI’m going to share from personal experience how, yes,
-    it is harder for a junior, but it’s definitely possible and can even be a great
+    how do I make it work?
+    I’m going to share from personal experience how, yes, it is harder for a junior, but it’s definitely possible and can even be a great
     personal and professional experience. Starting out with how to negotiate a remote
     work agreement with your company in the first place, this talk will then continue
     with important issues and strategies that will help both junior devs that want
-    to work remotely as well as their companies to make remote work a success.\n\nHelp
-    us caption & translate this video!\n\nhttp://amara.org/v/Ghc5/"
+    to work remotely as well as their companies to make remote work a success.
   video_provider: youtube
   video_id: XdFY-zpT4JY
 
@@ -218,9 +220,6 @@
   description: |-
     Panel discussion with Matz, Hiroshi Shibata, Aaron Patterson and Aman Gupta
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/Ghc8/
   video_provider: youtube
   video_id: HeWkqYelc7o
 
@@ -237,9 +236,6 @@
 
     At GitHub, we recently replaced a large subsystem of our application – the permissions code – with a faster and more flexible version. In this talk, I’ll share our approach to this large-scale rewrite of a critical piece of our Rails application, and how we accomplished this feat while both preserving the performance of our app and proving the new technology over the course of the project.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/Ghc9/
   video_provider: youtube
   video_id: Kr82hUeI_qI
 
@@ -255,7 +251,7 @@
     - Sam Saffron
   event_name: Red Dot Ruby Conference 2015
   published_at: "2015-06-05"
-  description:
+  description: |-
     Discourse is a rich JavaScript application with hundreds of assets.
     To cater for it we occasionally need to go off the beaten track by amending and
     extending Rails. This talk will cover diagnostic techniques, performance optimizations
@@ -452,16 +448,15 @@
     - Yuki Nishijima
   event_name: Red Dot Ruby Conference 2015
   published_at: "2015-06-05"
-  description:
-    "'Did you mean?' experience in Ruby and beyond by Yuki Nishijima\n\ndid_you_mean
+  description: |-
+    'Did you mean?' experience in Ruby and beyond by Yuki Nishijima\n\ndid_you_mean
     gem is a gem that adds a Google-like suggestion feature to Ruby. Whenever you
     mis-spell a method name, it'll read your mind and tell you the right one. \n\nAlthough
     the history of the gem isn't long, it got so many improvements since it's first
     released back in February 2014. In this talk, I'll talk about what improvements
     have been made after a quick introduction of how it works. \n\nHave a custom Exception
     class and want to make it 'correctable'? Let's learn how to create your own finder
-    so you can improve your coding experience in Ruby.\n\nHelp us caption & translate
-    this video!\n\nhttp://amara.org/v/Ghc7/"
+    so you can improve your coding experience in Ruby.
   video_provider: youtube
   video_id: sca1C0Qk6ZE
 
@@ -476,9 +471,6 @@
 
     You can't talk about running code without talk about loading code. Part of improving the performance of Rails applications is looking at parts that impact Rails from outside of your application. In this talk, we'll look at the different ways Ruby loads code and how this impacts our applications. This talk will be more than you ever wanted to know about how Ruby loads files, and how we can speed it up.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/Ghc6/
   video_provider: youtube
   video_id: _bDRR_zfmSk
 # After Party

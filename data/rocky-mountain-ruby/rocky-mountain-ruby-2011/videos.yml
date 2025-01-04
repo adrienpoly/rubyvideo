@@ -131,9 +131,6 @@
   description: |-
     A musical selection for your enjoyment.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC6/
   video_provider: youtube
   video_id: 3QNZLneA0kA
 
@@ -193,9 +190,6 @@
   description: |-
     As Ruby continues to mature as a language, its use in large scale (enterprise!) codebases is expanding - and the need to integrate into larger architectures is already here. It is tempting to build networks of APIs in order to integrate applications, but there is an answer - messaging. This talk will reveal the benefits of messaging, and describe patterns that can be implemented at any level - from workers on single applications, to integrating separate codebases, all the way up to massive, concurrent service-oriented architectures that rely on messaging as the backbone. Prepare to be assaulted with an inspiring way to integrate and scale - and leave armed with the tools required to do so.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCZ/
   video_provider: youtube
   video_id: lt4DX-QLlOI
 
@@ -212,9 +206,6 @@
 
     Cassandra is a highly scalable and fast database engine based on its column architecture. It's a powerful alternative to most RDMS systems. Adding it to Rails gives you a great way to get a scalable system with many rows that can grow to meet your needs.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC0/
   video_provider: youtube
   video_id: RL7EL1oC6kY
 
@@ -230,9 +221,6 @@
 
     At GitHub, we add docs to every single method we write, and we couldn't be more excited about it. It means faster and simpler code. It means stronger tests. It means your developers can pay attention to new commits without stressing about them. Documentation will make your project so very happy.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC5/
   video_provider: youtube
   video_id: lJd7nlysZeg
 
@@ -261,9 +249,6 @@
 
     * Add Jasmine to your a
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC2/
   video_provider: youtube
   video_id: GeqPTG8dps8
 
@@ -289,9 +274,7 @@
   event_name: Rocky Mountain Ruby 2011
   published_at: "2011-09-02"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/GZC1/
   video_provider: youtube
   video_id: LatNKij7AHY
 
@@ -330,9 +313,6 @@
 
     Rescue projects are popping up everywhere, and a strategic testing approach can save the day.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCY/
   video_provider: youtube
   video_id: 0u3NpGhxBq0
 
@@ -421,9 +401,6 @@
 
     Selenium is a wonderful tool for automating acceptance and functional tests; however, real-world implementations bring a lot of pain. I suffered all that pain, and more, as I piloted an effort that started out with Selenium IDE, moved through RC, and ended up with WebDriver. This talk covers things like setting up baseline data, creating backing test frameworks, dealing with brittle tests, and figuring out how to appropriately manage all those incredibly slow Selenium tests so that you actually get effective, useful testing in. Learn from my pain (and successes!) so that you donâ€™t have to suffer it in your own projects!
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC4/
   video_provider: youtube
   video_id: QWp4PbUhGXg
 
@@ -441,8 +418,5 @@
   description: |-
     Jeff Casimir will lead a follow-up panel focusing on testing topics with Justin Searls, Cory Flanigan and Jim Holmes.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC3/
   video_provider: not_published
   video_id: testing-panel-rocky-mountain–ruby-2011

@@ -44,9 +44,6 @@
   description: |-
     There's no need to reinvent the wheel. There are over 30,000 RubyGems available on just RubyGems.org, alone. But with so many out there, it must be impossible to find the right one, right? In this talk we'll learn about some resources which help you find the right gems, as well as how to intelligently decide if a library is right for your project.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGiq/
   video_provider: youtube
   video_id: SbOmrlVG5Ik
 
@@ -204,9 +201,6 @@
   description: |-
     In the 21st century successful teams are data-driven. We'll present a complete introduction to everything you need to start monitoring your service at every level from business drivers to per-request metrics in Rails/Rack, down to server memory/cpu. Provides a high-level overview of the fundamental components that comprise a holistic monitoring system and then drills into real-world examples with tools like ActiveSupport::Notifications, statsd/rack-statsd, and CollectD. Also covers best practices for active alerting on custom monitoring data.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGic/
   video_provider: youtube
   video_id: 0spo9hvDz_4
 
@@ -221,9 +215,6 @@
 
     This talk will walk through adding simple (yet functional) versions of the previously mentioned features to Ruby, using Ruby, and discuss the dos and don'ts of responsible Ruby metaprogramming.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGib/
   video_provider: youtube
   video_id: ZjYgNnCtpg4
 
@@ -236,9 +227,6 @@
   description: |-
     MiniTest is the no-nonsense testing framework you already know how to use. If we strive for cleaner and simpler code in our own work, wouldn't it be nice to have that in our test framework too? Whether you're a Test Unit fan or RSpec fan, you'll feel right at home using MiniTest. Its simplicity makes it fast, easy to use, extendable, and maybe most importantly, easy to understand. Plus, Rails 4 uses MiniTest.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGi8/
   video_provider: youtube
   video_id: IHB__duBuT0
 
@@ -255,9 +243,6 @@
 
     Employing concerns to share code across models/controllers Stacker, the CoffeeScript component behind the "page" based layout Why polling for updates still works at scale Client side testing without the hassle Using jbuilder to keep view data out of models Keeping your team's sanity with a single setup script Debugging painful JavaScript performance slowdowns How to keep your app alive even if external dependencies like Redis are down Why tagged request logging and action/controller SQL query logging can make finding bugs easier
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGi9/
   video_provider: youtube
   video_id: oXTzFCXE66M
 
@@ -272,9 +257,6 @@
 
     Concepts covered: * Adding Redis-based flags and other properties to ActiveRecord objects * Event tracking with Redis sets * Graphing relationships between (User) objects with Redis sets * Time-ordered activity feeds with Redis sorted sets * Applying security restrictions to display of activity feeds with intersection of Redis sorted sets * Aggregating group activity feeds with union of Redis sorted sets * Applying Redis sorted sets to scoring and leaderboard programming * Integrating Redis with Rspec and Cucumber * Debugging tactics for when things go wrong or are unclear
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGi6/
   video_provider: youtube
   video_id: dH6VYRMRQFw
 
@@ -291,9 +273,6 @@
 
     I want to share with the Rails community my story and experiences and hopefully impart some wisdom and some hard learned lessons about life, liberty and the pursuit of a rails app that doesn't use 400Mb of RAM per process ;)
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGjE/
   video_provider: youtube
   video_id: Alko6wQo8mk
 
@@ -306,9 +285,6 @@
   description: |-
     Anyone who develops with Rails uses the Rake tool all the time. Rake will run your tests, migrate your database, and precompile your assets. But did you know you can define and build your own Rake tasks? This short talk will cover the basics of using Rake and writing simple automation tasks to make your development process smother.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGjD/
   video_provider: youtube
   video_id: AFPWDzHWjEY
 
@@ -322,9 +298,6 @@
   description: |-
     Although XMPP is most often used as a chat protocol, it can also provide a robust asynchronous communication channel in other application scenarios. In this presentation, we will provide introduction to Strophe.js, XMPP4R, and ejabberd, which are the XMPP components that we use to integrate our device automation framework and living room devices under test. By using these off-the-shelf components, we addressed our needs for getting around internal firewalls, application security (based on SASL), and asynchronous command-response handling.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGjB/
   video_provider: youtube
   video_id: 3ZynQ04BuN8
 
@@ -339,9 +312,6 @@
 
     Patrick will discuss what iTriage did (and continues to do) to stay ahead of our growth, including: - Technical architecture, including use of Rails Engines to enable a modular, RESTful service-based design - Enabling high quality iPhone, Android and Web apps - Development and release management processes - Recruiting and hiring approaches
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGjC/
   video_provider: youtube
   video_id: kVNA6X6OD9k
 
@@ -354,9 +324,6 @@
   description: |-
     This panel is made up of EY Support Engineers and Developers and they are ready to answer your questions! Want to know more about deploying to the cloud? What does PaaS mean to you? What is the EY Stack?
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGjA/
   video_provider: youtube
   video_id: eVHLTxpolcA
 
@@ -369,9 +336,6 @@
   description: |-
     Over the past year, Heroku has expanded by going polyglot and supporting languages like Java, Clojure, Python, Node.js, and Scala in addition to Ruby. In this session, we will discuss major updates to the platform and our emphasis on making the Ruby developer experience even better. We'll leave plenty of time at the end for any questions.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGiz/
   video_provider: youtube
   video_id: jXnljOVEGKw
 
@@ -390,9 +354,6 @@
 
     In this session, I'll talk about the COOKPAD way of creating services and the technologies behind them, and how we improve peoples lives through cooking every day.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGiy/
   video_provider: youtube
   video_id: w2HXbFd7QJI
 
@@ -405,9 +366,6 @@
   description: |-
     Scopes are a great way of encapsulating query logic in a granular, reusable way. This talk will cover some techniques you can use to keep those scopes as composable and portable as possible. We'll cover how to use Arel directly, while avoiding the common practice of using SQL fragments, and show you how this can make your scopes more reusable, while at the same time preventing you from using database vendor specific operators, such as ILIKE.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGix/
   video_provider: youtube
   video_id: V-Kmy8IQii0
 
@@ -420,9 +378,6 @@
   description: |-
     Have you ever wondered what makes Rails tick? Bryan Liles will cover two of the pillars of the Rails foundation: ActiveSupport and ActiveModel. Together we will discover where some of Rails' ease and power originates and how make use of it in your projects.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGiw/
   video_provider: youtube
   video_id: 2Km8OVT20mY
 
@@ -432,12 +387,18 @@
     - Olivier Lacan
   event_name: RailsConf 2012
   published_at: "2012-04-23"
-  description:
-    "Working with Rails often means switching between several Ruby versions
+  description: |-
+    Working with Rails often means switching between several Ruby versions
     back and forth which is made almost seamless by RVM. It also involves several
     simple command line tools like Pry, Guard, and Pow and that will make your development
-    life so much easier.\n\n3:42 Homebrew\n7:50 RVM\n14:52 POW & Powder\n18:47\uFEFF
-    Pry\n20:45 Bundler\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/FGiv/"
+    life so much easier.
+
+    3:42 Homebrew
+    7:50 RVM
+    14:52 POW & Powder
+    18:47 Pry
+    20:45 Bundler
+
   video_provider: youtube
   video_id: GtB6cwgm2fE
 
@@ -450,9 +411,6 @@
   description: |-
     Based on Chapter 4 of the Ruby on Rails Tutorial by Michael Hartl, "Rails-flavored Ruby" covers the aspects of the Ruby programming language most important for developing Rails applications. Topics include hashes, arrays, and other objects; blocks; functions; and classes.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGiu/
   video_provider: youtube
   video_id: ARMgU6Prfws
 
@@ -468,10 +426,6 @@
     Outline:
 
     Basics of Rails Engines Rails Engine Patterns Improved Productivity Tips Summary of Benefits and Trade-Offs Attendees should walk away with an overview of Rails Engines and guidelines on how to utilize them effectively.
-
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGit/
   video_provider: youtube
   video_id: pm94BsoMGik
 
@@ -488,9 +442,6 @@
 
     We'll also touch on getting the right balance of security without it getting in the way of the users.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGis/
   video_provider: youtube
   video_id: 1bUGy-E10Zo
 
@@ -756,9 +707,6 @@
 
     Rails already has the plumbing to be a fantastic conventional JSON server. The question is: will we take the challenge, or will we desperately cling to the past, hoping that the future will never come?
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGkY/
   video_provider: youtube
   video_id: UlMpIHH1K5s
 
@@ -773,9 +721,6 @@
 
     Network topology before and after, as well as the makeup of our virtual and physical machines. Detailed discussion of Chef recipes, NGINX, HAProxy configurations and updates to standard configurations. Application and service monitoring and configuration. Application migration from the old stack to the new stack. Rails 3 to Rails 3.1 upgrade insights. Unicorns! Strategies for service configuration to handle failure. Offline processing with queueing and queue management. Simplifying, standardizing and sexy-fying your Capistrano-based deployment tasks into a reusable gem. Behavior driven infrastructure monitoring and validation. Adopting an opt-in continuous deployment strategy that is integrated with our continuous integration environment. This will be a very code and example-focused talk. Come and learn about the ways that you can simplify your existing infrastructure.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGkX/
   video_provider: youtube
   video_id: p-uWNZdK7Gs
 
@@ -1014,8 +959,5 @@
 
     All that AND we promise to wear amazing hats!
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/FGho/
   video_provider: youtube
   video_id: pM_ak1KsBKI

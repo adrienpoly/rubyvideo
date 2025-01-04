@@ -19,9 +19,6 @@
 
     Hacker dramas like the Stieg Larrson book make for good fiction, but we know that real life rarely matches drama. And with all the security features that Rails 3 has added, surely it is difficult to hack a typical Rails web site. Right? Wrong! Without deliberate attention to the details of security, it almost certain that your site has flaws that a knowledgeable hacker can exploit. This talk will cover the ins and outs of web security and help you build a site that is protected from the real Lisbeth Salanders of the world.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCd/
   video_provider: youtube
   video_id: Z-JZTAlDCh0
 
@@ -34,9 +31,6 @@
   description: |-
     Ruby is a great language for building web applications and manipulating text but it's also the best language to interact with your favorite Mac apps or even build a new app to sell on the Mac App Store. I will demonstrate how to build a simple GUI app in MacRuby and discuss the benefits and drawbacks of doing so versus using RubyCocoa, Objective-C, Objective-J, or Java. I will also discuss the roadmap for MacRuby 1.0, scheduled to be released later this year.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCe/
   video_provider: youtube
   video_id: VSpZIkmywQM
 
@@ -49,9 +43,6 @@
   description: |-
     Puppet and Chef, both of the modern examples of configuration management and systems integration software are written in Ruby. Add Capistrano, Rake, and MCollective to the list and this starts to seem like much more than coincidence. We'll examine the history and implementation of each of these packages to find patterns that make Ruby an awesome tool for systems administration in 2011. We'll pay special attention to UNIX idioms as they're expressed in Ruby, API design and code organization, standard- and third-party libraries, and the language grammar itself. We'll learn lessons on idempotence, failure modes, and logging along the way that apply to any type of development and we'll discuss Ruby's future at the top of the operator's toolbox.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCf/
   video_provider: youtube
   video_id: QNc5dJ3AciA
 
@@ -64,9 +55,6 @@
   description: |-
     A lot of developers think they either can't or don't need to design. But that's just a myth â€” everyone can benefit from a few simple design concepts. Learn some simple design hacks you can apply to your documentation, presentations and products to make them just a little bit prettier.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCg/
   video_provider: youtube
   video_id: t785N2yWd-c
 
@@ -81,9 +69,6 @@
   description: |-
     You know how to raise and rescue exceptions. But do you know how they work, and how how to structure a robust error handling strategy for your app? Starting out with an in-depth walk-through of Ruby's Ruby's rich failure handling mechanisms -- including some features you may not have known about -- we'll move on to present strategies for implementing a cohesive error-handling policy for your application, based on real-world experience.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCh/
   video_provider: youtube
   video_id: pw76_eM0ZoI
 
@@ -94,9 +79,7 @@
   event_name: Ruby on Ales 2011
   published_at: "2011-04-07"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/GZCi/
   video_provider: youtube
   video_id: zI7T6BK2GQE
 
@@ -109,9 +92,6 @@
   description: |-
     You _could_ work in a business park. You _could_ lust after an office with a window. You _could_ have a monthly company "meeting" at that bar you have to drive to. Or you could change your environment. I helped create Bendyworks with a firm commitment to the importance of environment. We work downtown, above a bar, across the street from a microbrewery. We all pair program in one big room with a rotating music selection. We have book club and daily standups and weekly game nights (with beverages from aforementioned microbrewery). Learn from me - a beer connoisseur, former ski racer, and ruby business owner - about how to change your Ruby Environment.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCj/
   video_provider: youtube
   video_id: Lihsrw4oqUY
 
@@ -126,9 +106,6 @@
   description: |-
     by: John Britton
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC8/
   video_provider: youtube
   video_id: MkMnUeUTkfk
 
@@ -151,9 +128,6 @@
 
     Let's explore a multi-site mulit-purpose single project architecture which serves all aspects of an enterprise design, heavily seated in RACK. Special attention to Rails, Sinatra, Grape, Rack and ZMQ/EventMachine/ZMQMachine/DripDrop.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC9/
   video_provider: youtube
   video_id: XjoB_xBoRxY
 
@@ -166,9 +140,6 @@
   description: |-
     Stratocaster is an internal GitHub Ruby project written to replace the organically grown GitHub Event timeline. This is a tale of an overgrown MySQL table being replaced by a more specific Redis setup. We'll see what new possibilities that Redis is able to provide. Also, we'll go over how Mustache was able to replace Erb for event rendering.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCa/
   video_provider: youtube
   video_id: tgQu-cvqYvo
 
@@ -181,9 +152,6 @@
   description: |-
     This talk is about a technique for splitting your web applications in half, shifting the model layer into a very clean API running on Sinatra. Its much easier than you think - and with this architecture, you'll experience a great performance boost, and have a useful public facing API.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCb/
   video_provider: youtube
   video_id: IpqWXiT0Hwk
 
@@ -198,9 +166,6 @@
   description: |-
     Most Rubyists are becoming comfortable with using TDD for their Ruby code using RSpec, yet have never written a single test for their JavaScript. This talk will introduce Jasmine as an easy to learn, easy to use JavaScript TDD framework to help you start writing tests now. Using RSpec as a point of comparison I present Jasmine's features and pitfalls, and demonstrate how it can revolutionize the way you think about JavaScript.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZCc/
   video_provider: youtube
   video_id: d_YImOz9ndA
 
@@ -249,8 +214,5 @@
     he's the guy you're dreaming of
     Ruby Hero Tenderlove!
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GZC7/
   video_provider: youtube
   video_id: nXDKF_zxWkQ

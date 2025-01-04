@@ -20,9 +20,6 @@
 
     From systems thinking to project management to the interaction between culture and process, if you've ever wondered why you keep experiencing the same problems writing and shipping software then this talk is for you.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/IPwu/
   video_provider: youtube
   video_id: JXVHvqbfsNI
 
@@ -37,9 +34,6 @@
   description: |-
     Developer happiness is what brought me to Ruby in the first place. And of all the new compiled languages, Crystal is the only one that shares this value. The syntax and idioms are entirely Ruby inspired. Although Crystal looks very similar to Ruby, there are big differences between the two. Crystal is statically typed and dispatched. While there are no runtime dynamic features, the compile-time macros solve many of the same problems. In this session, we’ll take a close look at these differences as well as the similarities, and what Ruby developers can learn from this exciting language.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/IPwv/
   video_provider: youtube
   video_id: 5QjvGuL4Opo
 
@@ -52,9 +46,6 @@
   description: |-
     This talk looks beyond origami as a childhood pastime and an art form and instead, explores origami as a source of many interesting mathematical problems, including one called the fold-and-cut problem. The fold and cut theorem states that it is possible, given a piece of paper and any polygonal shape, to find a series of folds of that paper such that the given shape can be generated with a single cut. This talk explores two proofs of the theorem and and a Ruby implementation of a solver that determines the correct series of folds given any input polygon. There will be a live demo of the program and paper cutting!
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/IPww/
   video_provider: youtube
   video_id: SYkSCcRlmjk
 
@@ -67,9 +58,6 @@
   description: |-
     One of the most common reasons for using machine learning is because you want to use data to make sense of more data: given lots of things with many characteristics, how do you use them to categorize, make recommendations, or evaluate something new? We can use machine learning for all sorts of lofty goals, so let’s tackle a critical problem in our lives: whiskey. I’m a novice to whiskey, and so far I’ve stuck to the lighter stuff. Finding new ones to add to my collection has been decidedly unscientific. Given the data we have available about whiskey, let’s try doing a bit of machine learning by feeding it into TensorFlow, an open source library, to see what cool insights we can get into a complex spirit.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/IPwx/
   video_provider: youtube
   video_id: BzD7GJwY010
 
@@ -228,8 +216,5 @@
 
     Your app is a unique snowflake. Your tests are too… but they shouldn't be! Years helping teams write better tests has taught me one thing: consistency is crucial. Inconsistent tests slow teams down, wasting time to understand how each test works. Deciding on conventions—even arbitrary ones—can prevent tremendous pain later. This talk will introduce a ready-to-fork Test Style Guide of carefully-considered rules and templates for Rubyists. You can customize it to fit your preferred tools, too. Soon, you'll be on your way to having more consistent tests that are much more fun to maintain!
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/IPwt/
   video_provider: youtube
   video_id: MIJ2Grv2Bts

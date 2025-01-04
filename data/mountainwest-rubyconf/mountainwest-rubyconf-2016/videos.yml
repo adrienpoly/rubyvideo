@@ -10,14 +10,15 @@
     - Ernie Miller
   event_name: MountainWest RubyConf 2016
   published_at: "2016-04-12"
-  description:
-    "How to Build a Skyscraper by Ernie Miller \n\nSince 1884, humans have
-    been building skyscrapers. This means that we had 6 decades of skyscraper-building
-    experience before we started building software (depending on your definition of
-    “software”). Maybe there are some lessons we can learn from past experience?\nThis
-    talk won’t make you an expert skyscraper-builder, but you might just come away
-    with a different perspective on how you build software.\n\nHelp us caption & translate
-    this video!\n\nhttp://amara.org/v/IMZv/"
+  description: |-
+    How to Build a Skyscraper by Ernie Miller
+
+    Since 1884, humans have been building skyscrapers. This means that we had 6 decades
+    of skyscraper-building experience before we started building software (depending
+    on your definition of “software”). Maybe there are some lessons we can learn from
+    past experience?\nThis talk won’t make you an expert skyscraper-builder, but you
+    might just come away with a different perspective on how you build software.
+
   video_provider: youtube
   video_id: DQTBmYI_XEE
 
@@ -33,9 +34,6 @@
     Up until the 17th century, the world was mostly limited to what we could see with the naked eye. Our understanding of things much smaller and much larger than us was limited. In the past 400 years our worldview has increased enormously, which has led to the advent of technology, space exploration, computers and the internet. However, our brains are ill equipped to handle dealing with numbers at these scales, and attempt to trick us at every turn.
     Software engineers deal with computers every day, and thus we are subject to both incredibly tiny and massively large numbers all the time. Learn about how your brain is fooling you when you are dealing with issues of latency, scalability, and algorithm optimization, so that you can become a better programmer.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/IMZu/
   video_provider: youtube
   video_id: ZihfySx4CWY
 
@@ -45,11 +43,13 @@
     - Michael Ries
   event_name: MountainWest RubyConf 2016
   published_at: "2016-04-12"
-  description:
-    "Ruby is For Fun and Robots by Michael Ries \n\nMost of us use ruby
-    for work, but do we still use it for fun? Is maximizing your webscale for optimal
+  description: |-
+    Ruby is For Fun and Robots by Michael Ries
+
+    Most of us use ruby for work, but do we still use it for fun? Is maximizing your webscale for optimal
     synergy getting you down? Let’s talk about something fun you can do with ruby
-    and robots instead.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/IMZt/"
+    and robots instead.
+
   video_provider: youtube
   video_id: kdIkSv1Gulk
 
@@ -64,9 +64,6 @@
 
     Baskin Robbins wishes it had as many flavors as there are JS frameworks, build tools, and cool new “low-level” languages. You just want to solve a problem, not have a 500-framework bake-off! And how will you know whether you picked the right one? Don’t flip that table, because we’ll use the “hype cycle” and the history of Ruby and Rails as a guide to help you understand which front-end and back-end technologies are a fit for your needs, wants, and career now and in the future.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/IM0u/
   video_provider: youtube
   video_id: 9zc4DSTRGeM
 
@@ -81,9 +78,6 @@
 
     Assertions (or expectations) are the most important part of any test framework. How are they written? What happens when one fails? How does a test communicate its results? Past talks have shown how test frameworks work from the very top: how they find, load, select, and run tests. Instead of reading code from the top, we’ll write code from scratch starting with assertions and building up a full test framework. By the end, you’ll know how every square inch of your testing framework works.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/IMZw/
   video_provider: youtube
   video_id: 56ZB3XBjMxc
 
@@ -93,14 +87,14 @@
     - Eileen M. Uchitelle
   event_name: MountainWest RubyConf 2016
   published_at: "2016-04-12"
-  description:
-    "Understanding Common Vulnerabilities by Eileen Uchitelle \n\nThe Internet
-    is built on technology that was never meant to work together. Basic features in
+  description: |-
+    Understanding Common Vulnerabilities by Eileen Uchitelle
+
+    The Internet is built on technology that was never meant to work together. Basic features in
     seemingly simple and innocuous technologies, such as XML, resulted in these technologies
     being insecure. In this session we’ll talk about how attackers exploit well known
     vulnerabilities like XSS, XXE, and CSRF and how to make more secure software by
-    avoiding similar decisions that resulted in these exploits.\n\nHelp us caption
-    & translate this video!\n\nhttp://amara.org/v/IM3o/"
+    avoiding similar decisions that resulted in these exploits.
   video_provider: youtube
   video_id: b0_8zi7Mpi0
 
@@ -110,16 +104,16 @@
     - Aja Hammerly
   event_name: MountainWest RubyConf 2016
   published_at: "2016-04-12"
-  description:
-    "Sharpening The Axe: Self-Teaching For Developers Aja Hammerly \n\nMany
-    of us get a few years into our career and get stuck in a rut. Maybe we stop reading
+  description: |-
+    Sharpening The Axe: Self-Teaching For Developers Aja Hammerly
+
+    Many of us get a few years into our career and get stuck in a rut. Maybe we stop reading
     about the latest and greatest in tech. Maybe we start managing and do less coding
     than we’d like. Maybe life gets in the way and coding becomes drudgery.\nOne way
     to combat this feeling is to focus on learning. I’ll share what I’ve learned about
     juggling self improvement with being a professional nerd. I’ll talk about the
     courses, tools, books, and other resources I’ve found most useful. You’ll leave
-    this talk with several ideas for breaking out of your own developer rut.\n\nHelp
-    us caption & translate this video!\n\nhttp://amara.org/v/IM6T/"
+    this talk with several ideas for breaking out of your own developer rut.
   video_provider: youtube
   video_id: 3Ee1WYl51TM
 
@@ -134,9 +128,6 @@
 
     Web development pushes us to our limits, not only of cognition, but, perhaps surprisingly, of character. Using the cardinal virtues as a framework, we can see that developers need courage to learn, temperance to prioritize goals, a sense of justice by which to discern obligations, and wisdom to choose our path. By being honest about where we lack virtue, and implementing steps to develop character, we can perform test-driven development on ourselves. This process can help us grow not only as developers, but as human beings.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/IMmw/
   video_provider: youtube
   video_id: rBkMubifO4I
 
@@ -162,9 +153,6 @@
     Who buys the beer?
     Whether you’re planning a multi-day conference, a monthly meetup, or just a one-time get-together for your office, we’ll give you a handy list of DOs and DONTs, based on our own experiences and those of others in the community event game. Like Kerri’s Gramma once said, “If you want to go to a party, sometimes you have to throw it yourself.”
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/IMmv/
   video_provider: youtube
   video_id: 6XYg9XNrfuQ
 
@@ -174,12 +162,13 @@
     - Aaron Patterson
   event_name: MountainWest RubyConf 2016
   published_at: "2016-04-13"
-  description:
-    "How Are Method Calls Formed? by Aaron Patterson \n\ntoday, we’ll dive
-    in to optimizations we can make on method dispatch including various types of
+  description: |-
+    How Are Method Calls Formed? by Aaron Patterson
+
+    Today, we’ll dive in to optimizations we can make on method dispatch including various types of
     inline method caching. Audience members should leave with a better understanding
-    of Ruby’s VM internals as well as ways to analyze and optimize their own code.\n\nHelp
-    us caption & translate this video!\n\nhttp://amara.org/v/IMmu/"
+    of Ruby’s VM internals as well as ways to analyze and optimize their own code.
+
   video_provider: youtube
   video_id: 6Dkjus07d9Y
 
@@ -189,13 +178,14 @@
     - Jamis Buck
   event_name: MountainWest RubyConf 2016
   published_at: "2016-04-14"
-  description:
-    "Second Wind by Jamis Buck \n\nBurnout is the professional’s palsy.
-    It leaves you paralyzed, unable to do what you need to do, and it strikes without
+  description: |-
+    Second Wind by Jamis Buck
+
+    Burnout is the professional’s palsy. It leaves you paralyzed, unable to do what you need to do, and it strikes without
     warning. Or does it? Through story, metaphor, and perhaps even code sample, let’s
     take a look at how to recognize, prepare for, and weather burnout, and hopefully
-    come through the other side stronger than ever!\n\nHelp us caption & translate
-    this video!\n\nhttp://amara.org/v/INZv/"
+    come through the other side stronger than ever!
+
   video_provider: youtube
   video_id: 71suekjBV9Y
 
@@ -204,9 +194,7 @@
   event_name: MountainWest RubyConf 2016
   published_at: "2016-04-14"
   description: |-
-    Help us caption & translate this video!
 
-    http://amara.org/v/IN6s/
   video_provider: youtube
   video_id: PiXapH5zVcY
   talks:
