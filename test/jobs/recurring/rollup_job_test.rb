@@ -5,7 +5,9 @@ class Recurring::RollupJobTest < ActiveJob::TestCase
     visit_1 = Ahoy::Visit.create!(started_at: Time.current)
     Ahoy::Event.create!(name: "Some Page during visit_1", visit: visit_1, time: Time.current)
     Recurring::RollupJob.new.perform
-    assert_equal 1, Rollup.where(name: "ahoy_daily_visits").count
-    assert_equal 1, Rollup.where(name: "ahoy_daily_page_views").count
+    assert_equal 1, Rollup.where(name: "ahoy_visits", interval: :day).count
+    assert_equal 1, Rollup.where(name: "ahoy_visits", interval: :month).count
+    assert_equal 1, Rollup.where(name: "ahoy_events", interval: :day).count
+    assert_equal 1, Rollup.where(name: "ahoy_events", interval: :month).count
   end
 end
