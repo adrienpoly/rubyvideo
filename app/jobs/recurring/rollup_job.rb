@@ -6,5 +6,6 @@ class Recurring::RollupJob < ApplicationJob
     Ahoy::Visit.rollup("ahoy_visits", interval: :month)
     Ahoy::Event.rollup("ahoy_events", interval: :day)
     Ahoy::Event.rollup("ahoy_events", interval: :month)
+    Talk.rollup("talks", interval: :year, column: :date)
   end
 end
