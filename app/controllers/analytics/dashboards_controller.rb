@@ -3,8 +3,6 @@ class Analytics::DashboardsController < ApplicationController
   before_action :admin_required, only: %i[top_referrers top_landing_pages top_searches]
 
   def daily_visits
-    Ahoy::Visit.rollup("ahoy_daily_visits") # ultimatly this should move to a recurring task
-
     @daily_visits = Rollup.where(time: 60.days.ago.to_date..Date.yesterday.end_of_day).series("ahoy_daily_visits")
   end
 
