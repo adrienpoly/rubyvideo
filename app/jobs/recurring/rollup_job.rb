@@ -3,5 +3,6 @@ class Recurring::RollupJob < ApplicationJob
 
   def perform(*args)
     Ahoy::Visit.rollup("ahoy_daily_visits")
+    Ahoy::Event.rollup("ahoy_daily_page_views")
   end
 end
