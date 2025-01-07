@@ -10,6 +10,9 @@ class Avo::Resources::Event < Avo::BaseResource
       query.find_by(slug: id)
     end
   }
+  self.external_link = -> {
+    main_app.event_path(record)
+  }
 
   def fields
     field :id, as: :id
