@@ -11,10 +11,15 @@ module Youtube
 
       return unless response.present?
 
-      {
-        view_count: response.first["statistics"]["viewCount"],
-        like_count: response.first["statistics"]["likeCount"]
-      }
+      hash = {}
+      response.map do |item|
+        hash[item["id"]] = {
+          view_count: item["statistics"]["viewCount"],
+          like_count: item["statistics"]["likeCount"]
+        }
+      end
+
+      hash
     end
   end
 end
