@@ -11,15 +11,12 @@ module Youtube
 
       return unless response.present?
 
-      hash = {}
-      response.map do |item|
+      response.each_with_object({}) do |item, hash|
         hash[item["id"]] = {
-          view_count: item["statistics"]["viewCount"],
-          like_count: item["statistics"]["likeCount"]
+         view_count: item["statistics"]["viewCount"],
+         like_count: item["statistics"]["likeCount"]
         }
       end
-
-      hash
     end
   end
 end
