@@ -11,7 +11,8 @@ class Talk::Agents < ActiveRecord::AssociatedObject
     )
     raw_response = JSON.repair(response.dig("choices", 0, "message", "content"))
     enhanced_json_transcript = JSON.parse(raw_response).dig("transcript")
-    talk.update!(enhanced_transcript: Transcript.create_from_json(enhanced_json_transcript))
+    transcript = talk.talk_transcript || Talk::Transcript.new
+    transcript.update!(enhanced_transcript: ::Transcript.create_from_json(enhanced_json_transcript))
   end
 
   performs def summarize

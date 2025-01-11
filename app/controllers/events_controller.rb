@@ -28,7 +28,7 @@ class EventsController < ApplicationController
       talks = event_talks.pagy_search(params[:q])
       @pagy, @talks = pagy_meilisearch(talks, limit: 21)
     else
-      @pagy, @talks = pagy(event_talks.with_essential_card_data, limit: 21)
+      @pagy, @talks = pagy(event_talks, limit: 21)
     end
   end
 
