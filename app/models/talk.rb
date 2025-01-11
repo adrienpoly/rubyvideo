@@ -12,7 +12,7 @@
 #  external_player_url :string           default(""), not null
 #  kind                :string           default("talk"), not null, indexed
 #  language            :string           default("en"), not null
-#  like_count          :integer
+#  like_count          :integer          default(0)
 #  meta_talk           :boolean          default(FALSE), not null
 #  slides_url          :string
 #  slug                :string           default(""), not null, indexed
@@ -26,7 +26,7 @@
 #  thumbnail_xs        :string           default(""), not null
 #  title               :string           default(""), not null, indexed
 #  video_provider      :string           default("youtube"), not null
-#  view_count          :integer
+#  view_count          :integer          default(0)
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null, indexed
 #  event_id            :integer          indexed

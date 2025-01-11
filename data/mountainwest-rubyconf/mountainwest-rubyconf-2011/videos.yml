@@ -14,9 +14,6 @@
     By, Joshua Timberman
     This talk will teach you how Opscode designs and writes Chef cookbooks to be sharable - not only in the Open Source sense, but sharable between various internal infrastructures and environments. Come to this talk if you want to learn more about: How Chef uses attributes How to dynamically build configuration with search Accessing internal Chef objects within recipes
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GIj6/
   video_provider: youtube
   video_id: A3pzIZJpDYg
 
@@ -33,9 +30,6 @@
 
     You'll get a whirlwind tour of basic through advanced as we create the building blocks of a highly distributed (multi-cloud) system with some simple Ruby scripts that work nearly verbatim from provider to provider. Get your feet wet working with cloud resources or just make it easier on yourself as your usage gets more complex, either way fog makes it easy to get what you need from the cloud.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GIj7/
   video_provider: youtube
   video_id: PTfulYN4ctA
 
@@ -49,9 +43,6 @@
     By, Preston Lee
     Applications typically measure processing throughput as a function of CPU-bound algorithm performance. Most modern production systems will contain 2-16 processor cores, but highly concurrent, compute-heavy algorithms may still reach hard limits. Within recent years, vendors such as Nvidia and Apple have formalized specifications and APIs that allow every developer to run potentially 1,000s of concurrent threads using a piece of hardware already present in the machine: the GPU.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GIj4/
   video_provider: youtube
   video_id: C6y4YkpaT_I
 
@@ -65,9 +56,6 @@
     By, Nick Quaranto
     Redis is an "advanced key-value store" but really, it's much more than that. Redis goes above and beyond GET and SET, and it's time for you to learn how that can help you write faster Ruby apps. We'll explore the rest that Redis has to offer, such as sorted sets, publish/subscribe, transactions, and more with real-world use cases of each.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GIj8/
   video_provider: youtube
   video_id: NOs-SX05Y3g
 
@@ -81,9 +69,6 @@
     By, Chris Wyckoff
     Ruby on Rails is a wonderful framework that makes creating websites simple and fun. But, perhaps because it is a pleasure to work with, Rails can be overused. A simple CRUD application can quickly become a behemoth, it's responsibilities encompassing far more functionality than one application should. In the startup world, one such app can run an entire business. Monolithic Rails applications are an anti-pattern that hamper productivity, increase bugs, and, if you are a startup, can threaten your business. How do you fix the problem? Decompose your application into several independent, reusable services. This talk relates my experience leading a team of developers who re-architected a monolithic Rails app -- an app that effectively was the business -- into a service-oriented architecture (SOA). Using targeted code examples, it seeks to describe not only the advantages of a service-oriented approach, but also techniques for refactoring a production application into a more distributed architecture without destroying the business in the process. Finally, this talk highlights some common SOA pitfalls and describes effective ways to avoid or remedy them. Attendees will walk away with a clear demonstration of how to refactor or think about building their app with SOA in mind.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GIj9/
   video_provider: youtube
   video_id: XuGupkgRiNY
 
@@ -101,9 +86,6 @@
 
     In the end, you'll walk away with a deeper understanding of how to weigh the pros and cons of introducing services into your architecture, and you'll have learned some techniques to make the transition smoother if you decide it's right for you.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GIja/
   video_provider: youtube
   video_id: MNRi5zmZGVk
 
@@ -117,9 +99,6 @@
     By, Sam Rawlins
     Ruby C Extensions have been a roller coaster ride over the last few years. While many Rubyists shy away from such non-Ruby code, its hard to imagine our Ruby ecosystem without them. Many of the most popular gems are C extensions. They are thriving today, and can play nice everywhere that Ruby plays nice! C extensions are not a drag on the community, but instead an exciting path that exposes Ruby to a greater computing landscape.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GIj5/
   video_provider: youtube
   video_id: tmMJx_WD4r0
 
@@ -133,9 +112,6 @@
     By, Andy Maleh
     While web development is thriving in the Ruby world with Rails, Sinatra, and other frameworks, desktop development is still not very common as a lot of developers rely on Java technologies like Eclipse or straight .NET technologies such as Windows Forms. This talk will walk attendees through some Ruby desktop development frameworks/libraries, contrasting the pros and cons of each, and mentioning what is missing that discourages developers from relying on Ruby to build desktop applications. Frameworks/libraries covered will include MacRuby, Shoes, Limelight, and Glimmer.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJEx/
   video_provider: youtube
   video_id: 2LK3cZiP9AU
 
@@ -153,9 +129,6 @@
 
     Spoiler: out with the threads. Seriously.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJEt/
   video_provider: youtube
   video_id: OWZR__Bmkvs
 
@@ -170,9 +143,6 @@
     By, Jim Weirich & Matt Yoho
     Then it starts to scan the computer and transmit bits of information every time he clicks the mouse while he's surfing. After a while, [...] we've accumulated a complete mirror image of the content of his hard drive [...]. And then it's time for the hostile takeover. -- Lisbeth Salander in Stieg Larsson's "The Girl with the Dragon Tattoo" Hacker dramas like the Stieg Larrson book make for good fiction, but we know that real life rarely matches drama. And with all the security features that Rails 3 has added, surely it is difficult to hack a typical Rails web site. Right? Wrong! Without deliberate attention to the details of security, it almost certain that your site has flaws that a knowledgeable hacker can exploit. This talk will cover the ins and outs of web security and help you build a site that is protected from the real Lisbeth Salanders of the world.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GIoN/
   video_provider: youtube
   video_id: Ki8Qa_ArTP4
 
@@ -186,9 +156,6 @@
     By, David Brady
     Your entire nervous systems literally wired to be reprogrammed. Are you working with its strengths? Do you know how to tell if you're not? In this session we'll explore some exciting discoveries in neuroscience and psychology, and then immediately put this knowledge to use creating iterative change inside our brains. Or maybe we'll just monkeypatch some stuff and see what happens. If you want to start or break new habit instantly, start unit testing your own behavior, or if you just think it would be fun to know how to hack a debug breakpoint into somebody else's brain, this talk is for you!
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJEr/
   video_provider: youtube
   video_id: wWv45N9zzx8
 
@@ -202,9 +169,6 @@
     By, Zed A. Shaw
     Everything you need to know to run your very own Faux-pen Source project in the Fascist style. I'll cover the history of Fascism, how it works, relevant scholarly research, and how you can leverage fascist tactics and "the community" to further your own goals.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJEs/
   video_provider: youtube
   video_id: EvfLPXUHfVc
 
@@ -218,9 +182,6 @@
     By Nate Peel
     The Xbox Kinect is an exciting new way to interact with not only your Xbox 360, but your computer. In this segment Nate will show you how to use Ruby to interact with a Kinect, and gather skeleton sequences for an animation that can be imported into a 3d program for use in a game or movie.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJEu/
   video_provider: youtube
   video_id: CJcxkzVe0XQ
 
@@ -234,9 +195,6 @@
     By, Joe O'Brien
     With the advent of JRuby many doors have been opened that were not before for Ruby. One particular place is the android platform. Using Ruby, we can easily leverage the Android platform and API's to create incredible applications. Since we are using Ruby, testing becomes a trivial exercise. I'll walk through the options we have for developing full feature-rich applications for both the Android tablet and the phone. I'll show how we can use JRuby to sidestep the complexity and configuration-heavy frameworks that are traditionally for Android development.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJEv/
   video_provider: youtube
   video_id: 9I8oBMWVjo4
 
@@ -256,9 +214,6 @@
 
     By the end of this talk, you will develop an appreciation for tiny tools, some sympathy for Test::Unit, reach enlightenment, add a schizophrenic/demonic voice to your mind constantly asking you "why are you using THAT?", save a kitten, and just maybe learn a few things to change your testing practices for the better.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJEw/
   video_provider: youtube
   video_id: rRgcZOO5Sxk
 
@@ -274,9 +229,6 @@
 
     But there are some tasks for which regular expressions are not the best tool for the job. Parsing expressions are a relative newcomer in the field of text analysis. Libraries like Treetop and Citrus make it easy to use parsing expressions with Ruby. In this talk, we'll discuss potential applications for parsing expressions and how to use and test them in your Ruby code.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJRX/
   video_provider: youtube
   video_id: _6h16aGz_eo
 
@@ -290,9 +242,6 @@
     By, Devlin Daley
     Many in our community want to blaze their own trails with their own company. We'll cover the essentials for software startups: how to tell if you've got a viable idea, funding options, do's and dont's, business models and how to get things off the ground. These essentials apply to founders as well as those thinking of working for a startup.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJRY/
   video_provider: youtube
   video_id: 1KQ0v5uOog4
 
@@ -306,9 +255,6 @@
     By, Yehuda Katz
     Through Rails, Ruby has been thrust upon an adoring public. Over the past several years, Ruby has matured, with two world-class alternative implementation, a library for just about anything, and a community that values software engineering. There are still some challenges ahead, most notably concurrency, library maturity and language development itself.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJRZ/
   video_provider: youtube
   video_id: ZDgdwL3dE6E
 
@@ -322,9 +268,6 @@
     By, Bobby Wilson
     This is not a scientific talk. It's a survey of each step in my process of creating something meaningful out of a pile of data. The talk will be a blend of anecdotes, process, data sources, tools available, and good ol' hacks. We live in a world filled with recorded data. Lots of that data is online, and retrievable in some fashion. Unfortunately, that data is often sparse, poorly labeled, and uninsured. Enter Ruby, with a wide variety of gems and libraries to help us trudge through funky data, store it, sort it out, and spit shine it for the masses.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJR0/
   video_provider: youtube
   video_id: MC6j11rpcoY
 
@@ -338,8 +281,5 @@
     By, Wayne E. Seguin
     The single most important driving force that has kept me going since I started working with Ruby is the community itself. I will discuss various aspects of why I love the Ruby community and present my thoughts on our unique and awesome community with it's rosy effervescent essence.
 
-    Help us caption & translate this video!
-
-    http://amara.org/v/GJR1/
   video_provider: youtube
   video_id: wUa8HTT67Fo

@@ -1,5 +1,5 @@
 class Avo::Resources::Organisation < Avo::BaseResource
-  self.includes = []
+  self.single_includes = [:events]
   # self.search = {
   #   query: -> { query.ransack(id_eq: params[:q], m: "or").result(distinct: false) }
   # }
@@ -10,11 +10,14 @@ class Avo::Resources::Organisation < Avo::BaseResource
       query.find_by(slug: id)
     end
   }
+  self.external_link = -> {
+    main_app.organisation_path(record)
+  }
 
   def fields
     field :id, as: :id
     field :name, as: :text, link_to_record: true
-    field :description, as: :markdown, hide_on: :index
+    field :description, as: :text, hide_on: [:index, :forms]
     field :website, as: :text
     field :language, as: :text
     field :kind, as: :select, enum: ::Organisation.kinds
