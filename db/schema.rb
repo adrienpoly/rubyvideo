@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_01_02_175230) do
+ActiveRecord::Schema[8.0].define(version: 2025_01_08_221813) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -196,8 +196,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_02_175230) do
     t.string "thumbnail_xs", default: "", null: false
     t.string "thumbnail_xl", default: "", null: false
     t.date "date"
-    t.integer "like_count"
-    t.integer "view_count"
+    t.integer "like_count", default: 0
+    t.integer "view_count", default: 0
     t.text "raw_transcript", default: "", null: false
     t.text "enhanced_transcript", default: "", null: false
     t.text "summary", default: "", null: false
