@@ -51,6 +51,7 @@
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
+  include Rollupable
   include Sluggable
   include Suggestable
   include Searchable

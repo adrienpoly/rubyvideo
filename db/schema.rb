@@ -220,7 +220,6 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_15_215944) do
     t.integer "end_seconds"
     t.integer "duration_in_seconds"
     t.index ["date"], name: "index_talks_on_date"
-    t.index ["discarded_at"], name: "index_talks_on_discarded_at"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["kind"], name: "index_talks_on_kind"
     t.index ["parent_talk_id"], name: "index_talks_on_parent_talk_id"
