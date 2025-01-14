@@ -22,7 +22,5 @@
             back_to_title: @topic.name
           } %>
   </div>
-  <div class="flex mt-4 w-full">
-    <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
-  </div>
+  <%= render "topics/talks_cursor", pagy: @pagy, topic: @topic %>
 </div>
