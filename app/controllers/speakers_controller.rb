@@ -11,8 +11,8 @@ class SpeakersController < ApplicationController
   def index
     @speakers = Speaker.with_talks.order(:name).canonical
     @speakers = @speakers.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
-    @speakers = @speakers.ft_search(params[:s]) if params[:s].present?
-    @pagy, @speakers = pagy(@speakers, limit: 100, page: params[:page])
+    @speakers = @speakers.ft_search(params[:s]).with_snippets.ranked if params[:s].present?
+    @pagy, @speakers = pagy(@speakers, gearbox_extra: true, gearbox_limit: [200, 300, 600], page: params[:page])
     respond_to do |format|
       format.html
       format.turbo_stream
@@ -24,7 +24,7 @@ class SpeakersController < ApplicationController
 
   # GET /speakers/1
   def show
-    @talks = @speaker.talks.with_essential_card_data.order(date: :desc)
+    @talks = @speaker.talks.includes(:speakers, event: :organisation, child_talks: :speakers).order(date: :desc)
     @topics = @speaker.topics.approved.tally.sort_by(&:last).reverse.map(&:first)
 
     @back_path = speakers_path
@@ -59,8 +59,10 @@ class SpeakersController < ApplicationController
   end
 
   def set_speaker
-    @speaker = Speaker.includes(:talks).find_by!(slug: params[:slug])
-    redirect_to speaker_path(@speaker.canonical) if @speaker.canonical.present?
+    @speaker = Speaker.includes(:talks).find_by(slug: params[:slug])
+
+    redirect_to speakers_path, status: :moved_permanently, notice: "Speaker not found" if @speaker.blank?
+    redirect_to speaker_path(@speaker.canonical) if @speaker&.canonical.present?
   end
 
   def speaker_params

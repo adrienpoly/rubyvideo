@@ -12,7 +12,7 @@
                 locals: {
                   favoritable: true,
                   user_favorite_talks_ids: @user_favorite_talks_ids,
-                  back_to: request.fullpath,
+                  back_to: back_to_from_request,
                   back_to_title: @event.name
                 },
                 as: :talk %>

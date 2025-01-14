@@ -1,18 +1,24 @@
 class TalksController < ApplicationController
+  include RemoteModal
   include Pagy::Backend
   include WatchedTalks
   skip_before_action :authenticate_user!
+
+  respond_with_remote_modal only: [:edit]
+
   before_action :set_talk, only: %i[show edit update]
   before_action :set_user_favorites, only: %i[index show]
 
   # GET /talks
   def index
-    @talks = Talk.with_essential_card_data.order(order_by)
+    @talks = Talk.includes(:speakers, event: :organisation, child_talks: :speakers)
+    @talks = @talks.watchable unless params[:all].present?
     @talks = @talks.ft_search(params[:s]).with_snippets.ranked if params[:s].present?
     @talks = @talks.for_topic(params[:topic]) if params[:topic].present?
     @talks = @talks.for_event(params[:event]) if params[:event].present?
     @talks = @talks.for_speaker(params[:speaker]) if params[:speaker].present?
     @talks = @talks.where(kind: talk_kind) if talk_kind.present?
+    @talks = @talks.order(order_by) if order_by
     @pagy, @talks = pagy(@talks, items: 20, page: params[:page]&.to_i || 1)
   end
 
@@ -23,6 +29,7 @@ class TalksController < ApplicationController
 
   # GET /talks/1/edit
   def edit
+    set_modal_options(size: :lg)
   end
 
   # PATCH/PUT /talks/1
@@ -38,6 +45,9 @@ class TalksController < ApplicationController
   private
 
   def order_by
+    # when searching, don't order by date as the search results are already ordered by relevance
+    # unless the user explicitly asks for it
+    return if params[:s].present? && params[:order_by].blank?
     order_by_options = {
       "date_desc" => "talks.date DESC",
       "date_asc" => "talks.date ASC"

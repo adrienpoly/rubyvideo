@@ -23,7 +23,9 @@
           <h2 class="text-inherit font-medium text-sm line-clamp-3 hidden lg:block"><%= event.description %></h2>
         </div>
 
-        <button class="btn rounded-full bg-white hover:bg-white/80 mt-6 mb-9 lg:mt-0 lg:mb-0">Explore All Talks</button>
+        <%= ui_button kind: :rounded, class: "btn-sm lg:btn-md my-4" do %>
+          <span>Explore Talks</span>
+        <% end %>
       </div>
 
       <div class="hidden lg:flex flex-col justify-center items-center">

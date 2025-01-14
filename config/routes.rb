@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   # static pages
   get "uses", to: "page#uses"
+  get "/components", to: "page#components"
 
   # authentication
   get "/auth/failure", to: "sessions/omniauth#failure"
@@ -30,7 +31,7 @@ Rails.application.routes.draw do
     resource :password_reset, only: [:new, :edit, :create, :update]
   end
 
-  resources :contributions, only: [:index]
+  resources :contributions, only: [:index, :show], param: :step
 
   # resources
   namespace :analytics do
@@ -45,12 +46,15 @@ Rails.application.routes.draw do
       get :top_searches
     end
   end
+
   resources :talks, param: :slug, only: [:index, :show, :update, :edit] do
     scope module: :talks do
       resources :recommendations, only: [:index]
       resource :watched_talk, only: [:create, :destroy]
+      resource :slides, only: :show
     end
   end
+
   resources :speakers, param: :slug, only: [:index, :show, :update, :edit]
   resources :events, param: :slug, only: [:index, :show, :update, :edit] do
     scope module: :events do

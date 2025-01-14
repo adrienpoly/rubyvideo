@@ -6,15 +6,14 @@
 #  id                  :integer          not null, primary key
 #  date                :date             indexed
 #  description         :text             default(""), not null
+#  discarded_at        :datetime         indexed
 #  end_seconds         :integer
-#  enhanced_transcript :text             default(#<Transcript:0x000000012f650498 @cues=[]>), not null
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
 #  kind                :string           default("talk"), not null, indexed
 #  language            :string           default("en"), not null
-#  like_count          :integer
+#  like_count          :integer          default(0)
 #  meta_talk           :boolean          default(FALSE), not null
-#  raw_transcript      :text             default(#<Transcript:0x000000012f650588 @cues=[]>), not null
 #  slides_url          :string
 #  slug                :string           default(""), not null, indexed
 #  start_seconds       :integer
@@ -27,7 +26,7 @@
 #  thumbnail_xs        :string           default(""), not null
 #  title               :string           default(""), not null, indexed
 #  video_provider      :string           default("youtube"), not null
-#  view_count          :integer
+#  view_count          :integer          default(0)
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null, indexed
 #  event_id            :integer          indexed
@@ -37,6 +36,7 @@
 # Indexes
 #
 #  index_talks_on_date            (date)
+#  index_talks_on_discarded_at    (discarded_at)
 #  index_talks_on_event_id        (event_id)
 #  index_talks_on_kind            (kind)
 #  index_talks_on_parent_talk_id  (parent_talk_id)
@@ -51,8 +51,6 @@
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
-  include Talk::TranscriptCommands
-  include Talk::SummaryCommands
   include Sluggable
   include Suggestable
   include Searchable
@@ -61,9 +59,6 @@ class Talk < ApplicationRecord
 
   # include MeiliSearch::Rails
   # extend Pagy::Meilisearch
-
-  has_object :downloader
-  has_object :thumbnail_extractor
 
   # associations
   belongs_to :event, optional: true, counter_cache: :talks_count, touch: true
@@ -79,6 +74,15 @@ class Talk < ApplicationRecord
 
   has_many :watch_list_talks, dependent: :destroy
   has_many :watch_lists, through: :watch_list_talks
+
+  has_one :talk_transcript, class_name: "Talk::Transcript", dependent: :destroy
+  accepts_nested_attributes_for :talk_transcript
+  delegate :transcript, :raw_transcript, :enhanced_transcript, to: :talk_transcript, allow_nil: true
+
+  # associated objects
+  has_object :agents
+  has_object :downloader
+  has_object :thumbnails
 
   # validations
   validates :title, presence: true
@@ -97,20 +101,51 @@ class Talk < ApplicationRecord
     %w[keynote talk lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
       interview award].index_by(&:itself)
 
+  def self.speaker_role_titles
+    {
+      keynote: "Keynote Speaker",
+      talk: "Speaker",
+      lightning_talk: "Lightning Talk Speaker",
+      panel: "Panelist",
+      discussion: "Panelist",
+      gameshow: "Game Show Host",
+      workshop: "Workshop Instructor",
+      podcast: "Podcast Host/Participant",
+      q_and_a: "Q&A Host/Participant",
+      fireside_chat: "Fireside Chat Host/Participant",
+      interview: "Interviewer/Interviewee",
+      award: "Award Presenter/Winner"
+    }
+  end
+
+  def formatted_kind
+    case kind
+    when "keynote" then "Keynote"
+    when "talk" then "Talk"
+    when "lightning_talk" then "Lightning Talk"
+    when "panel" then "Panel"
+    when "workshop" then "Workshop"
+    when "gameshow" then "Gameshow"
+    when "podcast" then "Podcast"
+    when "q_and_a" then "Q&A"
+    when "discussion" then "Discussion"
+    when "fireside_chat" then "Fireside Chat"
+    when "interview" then "Interview"
+    when "award" then "Award"
+    else raise "`#{kind}` not defined in `Talk#formatted_kind`"
+    end
+  end
+
   # attributes
   attribute :video_provider, default: :youtube
 
   # jobs
   performs :update_from_yml_metadata!
+  performs :fetch_and_update_raw_transcript!, retries: 3
 
   # normalization
   normalizes :language, apply_to_nil: true, with: ->(language) do
     language.present? ? Language.find(language)&.alpha2 : Language::DEFAULT
-  end
-
-  # TODO convert to performs
-  def analyze_talk_topics!
-    AnalyzeTalkTopicsJob.perform_now(self)
   end
 
   # search
@@ -147,25 +182,7 @@ class Talk < ApplicationRecord
   scope :for_topic, ->(topic_slug) { joins(:topics).where(topics: {slug: topic_slug}) }
   scope :for_speaker, ->(speaker_slug) { joins(:speakers).where(speakers: {slug: speaker_slug}) }
   scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
-
-  scope :with_essential_card_data, -> do
-    select(
-      :id,
-      :slug,
-      :title,
-      :date,
-      :thumbnail_sm,
-      :thumbnail_lg,
-      :video_id,
-      :video_provider,
-      :event_id,
-      :language,
-      :meta_talk,
-      :parent_talk_id,
-      :start_seconds,
-      :end_seconds
-    ).includes(:speakers, event: :organisation)
-  end
+  scope :watchable, -> { where(video_provider: [:youtube, :mp4, :vimeo]) }
 
   def managed_by?(visiting_user)
     return false unless visiting_user.present?
@@ -301,7 +318,9 @@ class Talk < ApplicationRecord
     when "vimeo"
       "https://vimeo.com/video/#{video_id}"
     when "parent"
-      parent_talk.provider_url
+      timestamp = start_seconds ? "&t=#{start_seconds}" : ""
+
+      "#{parent_talk.provider_url}#{timestamp}"
     else
       "#"
     end
@@ -333,10 +352,6 @@ class Talk < ApplicationRecord
     ActiveSupport::Duration.build(end_seconds - start_seconds)
   end
 
-  def transcript
-    enhanced_transcript.presence || raw_transcript
-  end
-
   def speakers
     return super unless meta_talk
 
@@ -353,15 +368,16 @@ class Talk < ApplicationRecord
 
   def slug_candidates
     @slug_candidates ||= [
+      static_metadata.slug&.parameterize,
       title.parameterize,
-      [title.parameterize, event&.name&.parameterize].compact.join("-"),
-      [title.parameterize, language.parameterize].compact.join("-"),
-      [title.parameterize, event&.name&.parameterize, language.parameterize].compact.join("-"),
-      [date.to_s.parameterize, title.parameterize].compact.join("-"),
-      [title.parameterize, *speakers.map(&:slug)].compact.join("-"),
-      [static_metadata.raw_title.parameterize].compact.join("-"),
-      [date.to_s.parameterize, static_metadata.raw_title.parameterize].compact.join("-")
-    ].uniq
+      [title.parameterize, event&.name&.parameterize].compact.reject(&:blank?).join("-"),
+      [title.parameterize, language.parameterize].compact.reject(&:blank?).join("-"),
+      [title.parameterize, event&.name&.parameterize, language.parameterize].compact.reject(&:blank?).join("-"),
+      [date.to_s.parameterize, title.parameterize].compact.reject(&:blank?).join("-"),
+      [title.parameterize, *speakers.map(&:slug)].compact.reject(&:blank?).join("-"),
+      [static_metadata.raw_title.parameterize].compact.reject(&:blank?).join("-"),
+      [date.to_s.parameterize, static_metadata.raw_title.parameterize].compact.reject(&:blank?).join("-")
+    ].reject(&:blank?).uniq
   end
 
   def unused_slugs
@@ -373,6 +389,12 @@ class Talk < ApplicationRecord
     return event.name unless event.organisation.meetup?
 
     static_metadata.try("event_name") || event.name
+  end
+
+  def fetch_and_update_raw_transcript!
+    youtube_transcript = Youtube::Transcript.get(video_id)
+    transcript = talk_transcript || Talk::Transcript.new
+    transcript.update!(raw_transcript: ::Transcript.create_from_youtube_transcript(youtube_transcript))
   end
 
   def update_from_yml_metadata!(event: nil)

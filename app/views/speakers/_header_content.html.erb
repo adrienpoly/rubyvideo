@@ -6,31 +6,30 @@
           width: 200,
           alt: "GitHub picture profile of #{speaker.github}",
           loading: :lazy %>
-
-    <% if speaker.verified? %>
-      <div class="absolute right-0 top-0 badge badge-accent flex gap-1">
-        <%= fa("badge-check", class: "fill-white", size: :xs) %>
-
-        Verified
-      </div>
-    <% end %>
   </div>
 
-  <div class="flex-col flex gap-3 title justify-center">
-    <div class="flex flex-col lg:flex-row justify-center lg:justify-start text-black font-bold gap-2">
-      <h1 style="view-transition-name: title"><%= speaker.name %></h1>
-
-      <% if speaker.pronouns.present? && ["dont_specify", "not_specified"].exclude?(speaker.pronouns_type) %>
-        <span class="text-sm content-center text-[#737373]">(<%= speaker.pronouns %>)</span>
-      <% end %>
+  <div class="flex-col flex gap-2 title justify-center items-center lg:items-start">
+    <div class="flex flex-col lg:flex-row items-center justify-center lg:justify-start text-black font-bold gap-2 flex-nowrap">
+      <h1 class="flex gap-2 items-center" style="view-transition-name: title"><%= speaker.name %>
+        <% if speaker.pronouns.present? && ["dont_specify", "not_specified"].exclude?(speaker.pronouns_type) %>
+          <span class="text-sm content-center text-[#737373]">(<%= speaker.pronouns %>)</span>
+        <% end %>
+        <% if speaker.verified? %>
+          <%= fa("badge-check", class: "fill-blue-500", size: :sm) %>
+        <% end %>
+      </h1>
     </div>
 
     <p class="text-[#636B74] max-w-[700px]">
       <%= speaker.bio %>
     </p>
+    <% if speaker.website.present? %>
+      <%= external_link_to speaker.website.gsub(%r{^https?://}, ""), speaker.website, class: "text-center" %>
+    <% end %>
 
     <div class="mt-2 flex justify-center lg:justify-start">
       <%= render "speakers/socials", speaker: speaker %>
+
     </div>
   </div>
 </div>

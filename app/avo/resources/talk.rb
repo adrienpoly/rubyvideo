@@ -12,6 +12,9 @@ class Avo::Resources::Talk < Avo::BaseResource
   self.search = {
     query: -> { query.where(id: Talk.search(params[:q]).map(&:id)) }
   }
+  self.external_link = -> {
+    main_app.talk_path(record)
+  }
 
   def fields
     field :id, as: :id

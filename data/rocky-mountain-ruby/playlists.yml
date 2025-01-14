@@ -11,6 +11,10 @@
   videos_count: 26
   metadata_parser: Youtube::VideoMetadata
   slug: rocky-mountain-ruby-2011
+  banner_background: "#3F425D"
+  featured_background: "#3F425D"
+  featured_color: "#ECDDC8"
+  website: https://web.archive.org/web/20110927200359/http://rockymtnruby.com/
 
 - id: PLE7tQUdRKcyYHiVRVRu5-fKpdRszKyi12
   title: Rocky Mountain Ruby 2012

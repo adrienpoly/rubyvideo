@@ -1,7 +1,7 @@
 @layer components {
   .markdown {
     p {
-      @apply mb-4;
+      @apply mb-2;
     }
 
     h1,
@@ -10,15 +10,28 @@
     h4,
     h5,
     h6 {
-      @apply mb-4;
+      @apply mb-4 mt-8;
+    }
+
+    h1,
+    h2,
+    h3 {
+      @apply text-primary;
     }
 
     ul {
       @apply mb-4;
+      li {
+        @apply ml-6 list-disc;
+      }
     }
 
     ol {
       @apply mb-4;
+    }
+
+    a {
+      @apply text-primary;
     }
   }
 }

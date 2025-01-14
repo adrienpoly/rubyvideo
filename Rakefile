@@ -13,10 +13,10 @@ task verify_thumbnails: :environment do |t, args|
   Talk.where(meta_talk: true).flat_map(&:child_talks).each do |child_talk|
     if child_talk.static_metadata
       if child_talk.static_metadata.start_cue.present? && child_talk.static_metadata.start_cue != "TODO"
-        if child_talk.thumbnail_extractor.thumbnail_path.exist?
+        if child_talk.thumbnails.path.exist?
           thumbnails_count += 1
         else
-          puts "missing thumbnail for child_talk: #{child_talk.video_id} at: #{child_talk.thumbnail_extractor.thumbnail_path}"
+          puts "missing thumbnail for child_talk: #{child_talk.video_id} at: #{child_talk.thumbnails.path}"
           child_talks_with_missing_thumbnails << child_talk
         end
       end
@@ -43,8 +43,8 @@ end
 desc "Download mp4 files for all meta talks with missing thumbnails"
 task download_missing_meta_talks: :environment do |t, args|
   meta_talks = Talk.where(meta_talk: true)
-  extractable_meta_talks = meta_talks.select { |talk| talk.thumbnail_extractor.extractable? }
-  missing_talks = extractable_meta_talks.reject { |talk| talk.thumbnail_extractor.extracted? }
+  extractable_meta_talks = meta_talks.select { |talk| talk.thumbnails.extractable? }
+  missing_talks = extractable_meta_talks.reject { |talk| talk.thumbnails.extracted? }
   missing_talks_without_downloads = missing_talks.reject { |talk| talk.downloader.downloaded? }
 
   puts "Found #{missing_talks_without_downloads.size} missing talks without downloaded videos."
@@ -57,7 +57,7 @@ end
 desc "Fetch thumbnails for meta talks for all cues"
 task extract_thumbnails: :environment do |t, args|
   Talk.where(meta_talk: true).each do |meta_video|
-    meta_video.thumbnail_extractor.extract!
+    meta_video.thumbnails.extract!
   end
 end
 

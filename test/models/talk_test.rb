@@ -3,7 +3,7 @@ require "test_helper"
 class TalkTest < ActiveSupport::TestCase
   include ActiveJob::TestHelper
   test "should handle empty transcript" do
-    talk = Talk.new(title: "Sample Talk", raw_transcript: Transcript.new)
+    talk = Talk.new(title: "Sample Talk", talk_transcript_attributes: {raw_transcript: Transcript.new})
     assert talk.save
 
     loaded_talk = Talk.find(talk.id)
@@ -71,7 +71,7 @@ class TalkTest < ActiveSupport::TestCase
 
   test "transcript should default to raw_transcript" do
     raw_transcript = Transcript.new(cues: [Cue.new(start_time: 0, end_time: 1, text: "Hello")])
-    talk = Talk.new(title: "Sample Talk", raw_transcript: raw_transcript)
+    talk = Talk.new(title: "Sample Talk", talk_transcript_attributes: {raw_transcript: raw_transcript})
     assert talk.save
 
     loaded_talk = Talk.find(talk.id)
@@ -90,12 +90,27 @@ class TalkTest < ActiveSupport::TestCase
 
     refute @talk.enhanced_transcript.cues.present?
     VCR.use_cassette("talks/transcript-enhancement") do
-      assert_changes "@talk.transcript.cues" do
+      assert_changes "@talk.reload.enhanced_transcript.cues.count" do
         perform_enqueued_jobs do
-          @talk.enhance_transcript!
+          @talk.agents.improve_transcript_later
         end
       end
       assert @talk.enhanced_transcript.cues.present?
+    end
+  end
+
+  test "summarize talk" do
+    @talk = talks(:one)
+    @talk = Talk.includes(event: :organisation).find(@talk.id)
+
+    refute @talk.summary.present?
+    VCR.use_cassette("talks/summarize") do
+      assert_changes "@talk.reload.summary.present?" do
+        perform_enqueued_jobs do
+          @talk.agents.summarize_later
+        end
+      end
+      assert @talk.summary.present?
     end
   end
 
@@ -105,7 +120,7 @@ class TalkTest < ActiveSupport::TestCase
     VCR.use_cassette("talks/extract_topics") do
       assert_changes "@talk.topics.count" do
         perform_enqueued_jobs do
-          AnalyzeTalkTopicsJob.perform_later(@talk)
+          @talk.agents.analyze_topics_later
         end
       end
     end
@@ -116,9 +131,9 @@ class TalkTest < ActiveSupport::TestCase
 
     perform_enqueued_jobs do
       VCR.use_cassette("talks/extract_topics", allow_playback_repeats: true) do
-        AnalyzeTalkTopicsJob.perform_later(@talk)
+        @talk.agents.analyze_topics_later
         assert_no_changes "@talk.topics.count" do
-          AnalyzeTalkTopicsJob.perform_later(@talk)
+          @talk.agents.analyze_topics_later
         end
       end
     end

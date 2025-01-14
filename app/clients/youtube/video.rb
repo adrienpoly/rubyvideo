@@ -11,10 +11,12 @@ module Youtube
 
       return unless response.present?
 
-      {
-        view_count: response.first["statistics"]["viewCount"],
-        like_count: response.first["statistics"]["likeCount"]
-      }
+      response.each_with_object({}) do |item, hash|
+        hash[item["id"]] = {
+          view_count: item["statistics"]["viewCount"],
+          like_count: item["statistics"]["likeCount"]
+        }
+      end
     end
   end
 end
