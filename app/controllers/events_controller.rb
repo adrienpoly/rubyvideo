@@ -24,6 +24,8 @@ class EventsController < ApplicationController
       @event.talks_in_running_order.order(date: :asc)
     end
 
+    event_talks = event_talks.includes(:speakers, :parent_talk, child_talks: :speakers)
+
     if params[:q].present?
       talks = event_talks.pagy_search(params[:q])
       @pagy, @talks = pagy_meilisearch(talks, limit: 21)
