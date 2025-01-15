@@ -156,9 +156,11 @@ class Event < ApplicationRecord
   end
 
   def description
+    return @description if @description.present?
+
     keynotes = keynote_speakers.any? ? %(, including keynotes by #{keynote_speakers.map(&:name).to_sentence}) : ""
 
-    <<~DESCRIPTION
+    @description = <<~DESCRIPTION
       #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in_sentence} and features #{talks.size} #{"talk".pluralize(talks.size)} from various speakers#{keynotes}.
     DESCRIPTION
   end
@@ -269,13 +271,13 @@ class Event < ApplicationRecord
   end
 
   def start_date
-    static_metadata.start_date.present? ? static_metadata.start_date : talks.minimum(:date)
+    @start_date ||= static_metadata.start_date.present? ? static_metadata.start_date : talks.minimum(:date)
   rescue => _e
     talks.minimum(:date)
   end
 
   def end_date
-    static_metadata.end_date.present? ? static_metadata.end_date : talks.maximum(:date)
+    @end_date ||= static_metadata.end_date.present? ? static_metadata.end_date : talks.maximum(:date)
   rescue => _e
     talks.maximum(:date)
   end
