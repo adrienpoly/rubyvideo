@@ -4,9 +4,8 @@
 # Table name: talks
 #
 #  id                  :integer          not null, primary key
-#  date                :date             indexed
+#  date                :date             indexed, indexed => [video_provider]
 #  description         :text             default(""), not null
-#  discarded_at        :datetime         indexed
 #  end_seconds         :integer
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
@@ -25,7 +24,7 @@
 #  thumbnail_xl        :string           default(""), not null
 #  thumbnail_xs        :string           default(""), not null
 #  title               :string           default(""), not null, indexed
-#  video_provider      :string           default("youtube"), not null
+#  video_provider      :string           default("youtube"), not null, indexed => [date]
 #  view_count          :integer          default(0)
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null, indexed
@@ -35,14 +34,14 @@
 #
 # Indexes
 #
-#  index_talks_on_date            (date)
-#  index_talks_on_discarded_at    (discarded_at)
-#  index_talks_on_event_id        (event_id)
-#  index_talks_on_kind            (kind)
-#  index_talks_on_parent_talk_id  (parent_talk_id)
-#  index_talks_on_slug            (slug)
-#  index_talks_on_title           (title)
-#  index_talks_on_updated_at      (updated_at)
+#  index_talks_on_date                     (date)
+#  index_talks_on_event_id                 (event_id)
+#  index_talks_on_kind                     (kind)
+#  index_talks_on_parent_talk_id           (parent_talk_id)
+#  index_talks_on_slug                     (slug)
+#  index_talks_on_title                    (title)
+#  index_talks_on_updated_at               (updated_at)
+#  index_talks_on_video_provider_and_date  (video_provider,date)
 #
 # Foreign Keys
 #
