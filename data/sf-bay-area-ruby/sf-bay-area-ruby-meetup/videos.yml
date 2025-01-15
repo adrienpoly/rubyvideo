@@ -708,7 +708,7 @@
   event_name: SF Bay Area Ruby Meetup - January 2025
   published_at: "2025-01-16"
   description: |-
-    ​​Hey, Bay Area builders and tinkerers!
+    ​Hey, Bay Area builders and tinkerers!
 
     While Ruby may not dominate the headlines, it's the silent force behind the Bay Area's most successful startups. From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.
 
@@ -720,17 +720,60 @@
 
     Our special 🌟 speaker is Jason Swett, coming from Michigan!
 
+    Speakers:
+    Jason Swett on How to make your tests easier to understand
+    Bart Agapinan (ID.me) on How to add passkeys to a Rails app (and why)
+    Cameron Dutro (GitHub) on WASM in Ruby
+    TBC
+
     Submit a talk proposal here:
+
     ​​https://forms.gle/C9HQzaT5jvwA5xwc7
 
+    ​
     Catch you on the flip side! A massive shoutout to Productboard for hosting and sponsoring the event!
+
+    Brought to you by Evil Martians.
 
     https://lu.ma/goujxu3a
   video_provider: scheduled
   video_id: sf-bay-area-ruby-meetup-january-2025
-  speakers:
-    - Jason Swett
-    - TBD
+  talks:
+    - title: "Intro"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: intro-sf-bay-area-ruby-meetup-january-2025
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "How to make your tests easier to understand"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: jason-swett-how-to-make-your-tests-easier-to-understand
+      video_provider: parent
+      speakers:
+        - Jason Swett
+
+    - title: "How to add passkeys to a Rails app (and why)"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: bart-agapinan-how-to-add-passkeys-to-a-rails-app-and-why
+      video_provider: parent
+      speakers:
+        - Bart Agapinan
+
+    - title: "WASM in Ruby"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: cameron-dutro-wasm-in-ruby
+      video_provider: parent
+      speakers:
+        - Cameron Dutro
 
 - title: SF Bay Area Ruby Meetup - February 2025
   raw_title: "SF Ruby February Meetup @ GitHub"
