@@ -45,8 +45,8 @@ export default class extends Controller {
 
     this.allSearchResultsTarget.classList.remove('hidden')
     this.searchQueryTarget.innerHTML = query
-    this.loadingTarget.classList.remove('hidden')
-    this.clearTarget.classList.add('hidden')
+    // this.loadingTarget.classList.remove('hidden')
+    // this.clearTarget.classList.add('hidden')
 
     const searchPromises = []
 
@@ -80,7 +80,7 @@ export default class extends Controller {
     try {
       await Promise.all(searchPromises)
     } finally {
-      this.loadingTarget.classList.add('hidden')
+      // this.loadingTarget.classList.add('hidden')
       this.#toggleClearing()
     }
   }
@@ -147,9 +147,9 @@ export default class extends Controller {
   #toggleClearing () {
     const query = this.searchInputTarget.value
     if (query.length === 0) {
-      this.clearTarget.classList.add('hidden')
+      // this.clearTarget.classList.add('hidden')
     } else {
-      this.clearTarget.classList.remove('hidden')
+      // this.clearTarget.classList.remove('hidden')
     }
   }
 
