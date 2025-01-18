@@ -1,31 +1,30 @@
 ---
-# TODO: talks running order
-# TODO: talk dates
-# TODO: conference website
-# TODO: schedule website
+# Website: https://2019.euruko.org
+# Schedule: https://2019.euruko.org/#schedule
 
-- title: "Keynote: The Past, Present, and Future of Rails at GitHub"
-  raw_title: "EuRuKo 2019 Keynote: The Past, Present, and Future of Rails at GitHub by Eileen M. Uchitelle"
+## Day 1 - Friday, June 21
+
+- title: "Keynote: Functional Future Ruby by Yukihiro Matsumoto"
+  raw_title: "EuRuKo 2019 Keynote: Functional Future Ruby by Yukihiro Matsumoto"
   speakers:
-    - Eileen M. Uchitelle
+    - Yukihiro "Matz" Matsumoto
   event_name: EuRuKo 2019
+  date: "2019-06-21"
   published_at: "2021-06-01"
   description: |-
-    Closing keynote: The Past, Present, and Future of Rails at GitHub
+    Keynote: Functional (Future) Ruby
 
-
-    We'll look at GitHub's story, our Rails upgrade, and how cumulative technical debt can stifle development. At the end we'll explore how we're staying up to date with Rails and our investment in the future of Rails.
-
-    Eileen M. Uchitelle - https://twitter.com/eileencodes
+    Yukihiro Matsumoto - https://twitter.com/yukihiro_matz
     EuRuKo 2019
   video_provider: youtube
-  video_id: ZrcPoRx_kQE
+  video_id: DC05C-UT3QQ
 
 - title: "From multiple apps to Monolith"
   raw_title: "From multiple apps to Monolith by Kaja Santro"
   speakers:
     - Kaja Santro
   event_name: EuRuKo 2019
+  date: "2019-06-21"
   published_at: "2021-06-01"
   description: |-
     From multiple apps to Monolith - #BuildingMonsterservices
@@ -42,6 +41,7 @@
   speakers:
     - Damir Svrtan
   event_name: EuRuKo 2019
+  date: "2019-06-21"
   published_at: "2021-06-01"
   description: |-
     Surrounded by Microservices
@@ -58,6 +58,7 @@
   speakers:
     - Hongli Lai
   event_name: EuRuKo 2019
+  date: "2019-06-21"
   published_at: "2021-06-01"
   description: |-
     What causes Ruby memory bloat?
@@ -74,6 +75,7 @@
   speakers:
     - Melanie Keatley
   event_name: EuRuKo 2019
+  date: "2019-06-21"
   published_at: "2021-06-01"
   description: |-
     It's very effective; using Pokemon to catch all code smells
@@ -90,6 +92,7 @@
   speakers:
     - Torsten Schönebaum
   event_name: EuRuKo 2019
+  date: "2019-06-21"
   published_at: "2021-06-01"
   description: |-
     Building bricks with MRuby: A journey to MRuby on LEGO robots
@@ -106,6 +109,7 @@
   speakers:
     - Ashley Jean
   event_name: EuRuKo 2019
+  date: "2019-06-21"
   published_at: "2021-06-01"
   description: |-
     A gentle introduction to Data Structure Trees
@@ -122,6 +126,7 @@
   speakers:
     - Laura Linda Laugwitz
   event_name: EuRuKo 2019
+  date: "2019-06-21"
   published_at: "2021-06-01"
   description:
     "Closing keynote: The Miseducation of This Machine \n\nWhile machines
@@ -133,11 +138,14 @@
   video_provider: youtube
   video_id: 1-8J0wfvhrU
 
+## Day 2 - Saturday, June 22
+
 - title: "Keynote: I Test In Production by Charity Majors"
   raw_title: "EuRuKo 2019 Keynote: I Test In Production by Charity Majors"
   speakers:
     - Charity Majors
   event_name: EuRuKo 2019
+  date: "2019-06-22"
   published_at: "2021-06-01"
   description:
     "Keynote: Yes, I Test In Production... And So Should You \n\nTesting
@@ -155,6 +163,7 @@
   speakers:
     - Bilawal Maheed
   event_name: EuRuKo 2019
+  date: "2019-06-22"
   published_at: "2021-06-01"
   description: |-
     How We’re Making Tech Documentation Better, Easier, And Less Boring
@@ -171,6 +180,7 @@
   speakers:
     - Yusuke Endoh
   event_name: EuRuKo 2019
+  date: "2019-06-22"
   published_at: "2021-06-01"
   description: |-
     Plan towards Ruby 3 Types
@@ -185,6 +195,7 @@
 - title: Lightning Talks
   raw_title: Lightning Talks
   event_name: EuRuKo 2019
+  date: "2019-06-22"
   published_at: "2021-06-01"
   description: ""
   video_provider: youtube
@@ -235,6 +246,7 @@
   speakers:
     - Jan Krutisch
   event_name: EuRuKo 2019
+  date: "2019-06-22"
   published_at: "2021-06-01"
   description: |-
     The musical Ruby
@@ -251,6 +263,7 @@
   speakers:
     - Aaron Cruz
   event_name: EuRuKo 2019
+  date: "2019-06-22"
   published_at: "2021-06-01"
   description: |-
     Steal this talk
@@ -267,6 +280,7 @@
   speakers:
     - Richard Schneeman
   event_name: EuRuKo 2019
+  date: "2019-06-22"
   published_at: "2021-06-01"
   description: |-
     The Life-Changing Magic of Tidying Active Record Allocations
@@ -277,16 +291,20 @@
   video_provider: youtube
   video_id: Aczy01drwkg
 
-- title: "Keynote: Functional Future Ruby by Yukihiro Matsumoto"
-  raw_title: "EuRuKo 2019 Keynote: Functional Future Ruby by Yukihiro Matsumoto"
+- title: "Keynote: The Past, Present, and Future of Rails at GitHub"
+  raw_title: "EuRuKo 2019 Keynote: The Past, Present, and Future of Rails at GitHub by Eileen M. Uchitelle"
   speakers:
-    - Yukihiro "Matz" Matsumoto
+    - Eileen M. Uchitelle
   event_name: EuRuKo 2019
+  date: "2019-06-22"
   published_at: "2021-06-01"
   description: |-
-    Keynote: Functional (Future) Ruby
+    Closing keynote: The Past, Present, and Future of Rails at GitHub
 
-    Yukihiro Matsumoto - https://twitter.com/yukihiro_matz
+
+    We'll look at GitHub's story, our Rails upgrade, and how cumulative technical debt can stifle development. At the end we'll explore how we're staying up to date with Rails and our investment in the future of Rails.
+
+    Eileen M. Uchitelle - https://twitter.com/eileencodes
     EuRuKo 2019
   video_provider: youtube
-  video_id: DC05C-UT3QQ
+  video_id: ZrcPoRx_kQE
