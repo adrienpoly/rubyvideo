@@ -169,11 +169,19 @@ class Talk < ApplicationRecord
 
   # ensure that during the reindex process the associated records are eager loaded
   scope :meilisearch_import, -> { includes(:speakers, :event) }
-  scope :without_raw_transcript, -> { where("raw_transcript IS NULL OR raw_transcript = '' OR raw_transcript = '[]'") }
-  scope :with_raw_transcript, -> { where("raw_transcript IS NOT NULL AND raw_transcript != '[]'") }
+  scope :without_raw_transcript, -> {
+    joins(:talk_transcript).where("talk_transcripts.raw_transcript IS NULL OR talk_transcripts.raw_transcript = '' OR talk_transcripts.raw_transcript = '[]'")
+  }
+  scope :with_raw_transcript, -> {
+    joins(:talk_transcript).where("talk_transcripts.raw_transcript IS NOT NULL AND talk_transcripts.raw_transcript != '[]'")
+  }
   scope :without_enhanced_transcript, \
-    -> { where("enhanced_transcript IS NULL OR enhanced_transcript = '' OR enhanced_transcript = '[]'") }
-  scope :with_enhanced_transcript, -> { where("enhanced_transcript IS NOT NULL AND enhanced_transcript != '[]'") }
+    -> {
+      joins(:talk_transcript).where("talk_transcripts.enhanced_transcript IS NULL OR talk_transcripts.enhanced_transcript = '' OR talk_transcripts.enhanced_transcript = '[]'")
+    }
+  scope :with_enhanced_transcript, -> {
+    joins(:talk_transcript).where("talk_transcripts.enhanced_transcript IS NOT NULL AND talk_transcripts.enhanced_transcript != '[]'")
+  }
   scope :with_summary, -> { where("summary IS NOT NULL AND summary != ''") }
   scope :without_summary, -> { where("summary IS NULL OR summary = ''") }
   scope :without_topics, -> { where.missing(:talk_topics) }
