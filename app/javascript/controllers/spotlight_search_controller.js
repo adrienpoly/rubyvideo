@@ -80,7 +80,7 @@ export default class extends Controller {
     try {
       await Promise.all(searchPromises)
     } finally {
-      // this.loadingTarget.classList.add('hidden')
+      this.loadingTarget.classList.add('hidden')
       this.#toggleClearing()
     }
   }
