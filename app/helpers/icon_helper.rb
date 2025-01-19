@@ -27,9 +27,20 @@ module IconHelper
       full_path = Rails.root.join("app", "assets", "images", path)
       svg_content = File.read(full_path)
 
-      if options[:class].present?
-        # Simple string replacement for class attribute
-        svg_content.sub!(/^<svg/, "<svg class=\"#{options[:class]}\"")
+      if options.present?
+        # Extract existing attributes from the SVG tag
+        svg_tag = svg_content[/<svg[^>]*>/]
+
+        existing_attributes = {}
+        svg_tag.scan(/([^\s=]+)="([^"]*)"/).each do |name, value|
+          existing_attributes[name] = value
+        end.to_h
+
+        new_attributes = tag.attributes(existing_attributes.merge(options))
+
+        # Replace the opening SVG tag with our modified version
+        new_svg_tag = "<svg #{new_attributes}>"
+        svg_content.sub!(/<svg[^>]*>/, new_svg_tag)
       end
 
       svg_content.html_safe
