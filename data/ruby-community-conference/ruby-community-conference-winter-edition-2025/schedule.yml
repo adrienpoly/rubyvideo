@@ -1,0 +1,46 @@
+# Schedule: https://www.rubycommunityconference.com/#agenda
+
+days:
+  - name: "Day Before The Conference"
+    date: "2025-02-27"
+    grid:
+      - start_time: "Evening"
+        end_time: "Evening"
+        slots: 1
+        items:
+          - title: Join Us For KRUG (Kraków Ruby User Group)
+            description: With Some Fantastic Talks, Followed By A Fun Pre-Party To Kick Things Off!
+
+  - name: "Conference Day"
+    date: "2025-02-28"
+    grid:
+      - start_time: "Morning"
+        end_time: "Morning"
+        slots: 1
+        items:
+          - title: Workshops
+            description: The Main Event Starts With Morning Workshops
+
+      - start_time: "Afternoon"
+        end_time: "Afternoon"
+        slots: 1
+        items:
+          - title: Talks
+            description: Afternoon Talks
+
+      - start_time: "Evening"
+        end_time: "Evening"
+        slots: 1
+        items:
+          - title: After-Party
+            description: Wraps Up With The After-Party!
+
+  - name: "Day After The Conference"
+    date: "2025-03-01"
+    grid:
+      - start_time: "All-Day"
+        end_time: "All-Day"
+        slots: 1
+        items:
+          - title: City Tour
+            description: Stick Around To Explore The Beautiful City Of Kraków With The Ruby Friends.

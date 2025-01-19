@@ -21,6 +21,17 @@
   video_provider: scheduled
   video_id: aaron-patterson-ruby-community–conference-winter–edition-2025
 
+- title: "The Joy of Creativity in the Age of AI"
+  raw_title: "The Joy of Creativity in the Age of AI"
+  speakers:
+    - Paweł Strzałkowski
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  description: |-
+    We'll explore how Ruby can unlock new avenues of creativity in the age of AI and cross-technology innovation. By leveraging Ruby's simplicity and adaptability, we can seamlessly integrate cutting-edge solutions like speech recognition and generation, or image analysis and creation. We can also incorporate advanced techniques like vector search into our projects with minimal effort. Let's rediscover the joy of building beyond traditional boundaries and position the Ruby community at the forefront of technological invention and creativity.
+  video_provider: scheduled
+  video_id: the-joy-of-creativity-in-the-age-of-ai-ruby-community–conference-winter–edition-2025
+
 - title: "Workshop: Building a Live Kanban Board Application With Hotwire and Rails"
   raw_title: "Building a Live Kanban Board Application With Hotwire and Rails"
   speakers:
@@ -54,3 +65,33 @@
     You’ll leave with a deeper understanding of Kamal and the ability to handle deployment challenges effectively! 💪
   video_provider: scheduled
   video_id: workshop-deploy-with-kamal-2-ruby-community–conference-winter–edition-2025
+
+- title: "Workshop: Taming The Beast: TDD, Service Objects, and dry.rb for Complex Business Logic"
+  raw_title: "Taming The Beast: TDD, Service Objects, and dry.rb for Complex Business Logic"
+  speakers:
+    - Oskar Lakner
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  description: ""
+  video_provider: scheduled
+  video_id: workshop-taming-the-beast-ruby-community–conference-winter–edition-2025
+
+- title: "Workshop: Fix Bugs 20x Faster: From Zero To Incident Superhero"
+  raw_title: "Fix Bugs 20x Faster: From Zero To Incident Superhero"
+  speakers:
+    - John Gallagher
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  description: ""
+  video_provider: scheduled
+  video_id: workshop-fix-bugs-20x-faster-ruby-community–conference-winter–edition-2025
+
+- title: "Workshop: Image Vector Search"
+  raw_title: "Image Vector Search"
+  speakers:
+    - Chris Hasiński
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  description: ""
+  video_provider: scheduled
+  video_id: workshop-image-vector-search-ruby-community–conference-winter–edition-2025
