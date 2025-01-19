@@ -25,6 +25,20 @@ class TalkTest < ActiveSupport::TestCase
     assert @talk.transcript.cues.length > 100
   end
 
+  test "when the talk doesn't have any transcript yet" do
+    @talk = Talk.create!(title: "Express Your Ideas by Writing Your Own Gems", video_id: "Md90cwnmGc8", video_provider: "youtube")
+
+    VCR.use_cassette("youtube/transcript_not_available") do
+      perform_enqueued_jobs do
+        @talk.fetch_and_update_raw_transcript!
+      end
+    end
+
+    assert @talk.reload.transcript.is_a?(Transcript)
+    assert @talk.transcript.cues.first.is_a?(Cue)
+    assert @talk.transcript.cues.length > 100
+  end
+
   test "should guess kind from title" do
     kind_with_titles = {
       talk: ["I love Ruby", "Beyond Code: Crafting effective discussions to further technical decision-making", "From LALR to IELR: A Lrama's Next Step"],
