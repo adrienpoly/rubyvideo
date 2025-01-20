@@ -113,15 +113,6 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_15_215944) do
     t.index ["user_id"], name: "index_password_reset_tokens_on_user_id"
   end
 
-  create_table "rollups", force: :cascade do |t|
-    t.string "name", null: false
-    t.string "interval", null: false
-    t.datetime "time", null: false
-    t.json "dimensions", default: {}, null: false
-    t.float "value"
-    t.index ["name", "interval", "time", "dimensions"], name: "index_rollups_on_name_and_interval_and_time_and_dimensions", unique: true
-  end
-
   create_table "sessions", force: :cascade do |t|
     t.integer "user_id", null: false
     t.string "user_agent"
