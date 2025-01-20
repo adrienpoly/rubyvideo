@@ -4,9 +4,9 @@ module Talk::Searchable
   DATE_WEIGHT = 0.000000001
 
   included do
-    has_one :index, -> { with_rowid }, foreign_key: :rowid, dependent: :destroy
+    has_one :index, foreign_key: :rowid, dependent: :destroy
 
-    scope :ft_search, ->(query) { joins(:index).merge(Talk::Index.search(query)) }
+    scope :ft_search, ->(query) { select("talks.*").joins(:index).merge(Talk::Index.search(query)) }
 
     scope :with_snippets, ->(**options) do
       select("talks.*").merge(Talk::Index.snippets(**options))
@@ -25,7 +25,7 @@ module Talk::Searchable
   class_methods do
     def reindex_all
       Talk::Index.delete_all
-      Talk.find_each(&:create_in_index)
+      Talk.find_each(&:reindex)
     end
   end
 
@@ -33,11 +33,8 @@ module Talk::Searchable
     try(:title_snippet) || title
   end
 
-  def reindex
-    index ? index.reindex : create_in_index
+  def index
+    super || build_index
   end
-
-  def create_in_index
-    build_index.reindex
-  end
+  delegate :reindex, to: :index
 end

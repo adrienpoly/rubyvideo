@@ -1,17 +1,10 @@
 class Talk::Index < ApplicationRecord
   self.table_name = :talks_search_index
-  self.ignored_columns = %i[talks_search_index rank] # Rails parses our virtual table with these extra non-attributes.
-  self.primary_key = :rowid
 
-  attribute :rowid, :integer
-  alias_attribute :id, :rowid
+  include ActiveRecord::SQLite::Index # Depends on `table_name` being assigned.
+  class_attribute :index_columns, default: {title: 0, summary: 1, speaker_names: 2}
 
   belongs_to :talk, foreign_key: :rowid
-
-  # SQLite/Active Record doesn't pick up the virtual table primary key by default.
-  # So on direct queries we need to do `Talk::Index.with_rowid.first`, if we want
-  # to have `rowid`/`id` values populated in the result set.
-  scope :with_rowid, -> { select("#{table_name}.rowid, #{table_name}.*") }
 
   def self.search(query)
     query = query&.gsub(/[^[:word:]]/, " ") || "" # remove non-word characters
@@ -20,19 +13,15 @@ class Talk::Index < ApplicationRecord
   end
 
   def self.snippets(**)
-    COLUMNS_WITH_OFFSETS.each_key.reduce(all) { |relation, column| relation.snippet(column, **) }
+    index_columns.each_key.reduce(all) { |relation, column| relation.snippet(column, **) }
   end
 
   def self.snippet(column, tag: "mark", omission: "…", limit: 32)
-    select("snippet(#{table_name}, #{COLUMNS_WITH_OFFSETS.fetch(column)}, '<#{tag}>', '</#{tag}>', '#{omission}', #{limit}) AS #{column}_snippet")
+    offset = index_columns.fetch(column)
+    select("snippet(#{table_name}, #{offset}, '<#{tag}>', '</#{tag}>', '#{omission}', #{limit}) AS #{column}_snippet")
   end
 
   def reindex
-    update! ALL_COLUMNS.index_with { talk.public_send _1 }
+    update! id: talk.id, title: talk.title, summary: talk.summary, speaker_names: talk.speaker_names
   end
-
-  private
-
-  ALL_COLUMNS = %i[id title summary speaker_names]
-  COLUMNS_WITH_OFFSETS = ALL_COLUMNS.without(:id).each.with_index.to_h
 end
