@@ -58,7 +58,7 @@
     <% end %>
 
     <% if talk.parent_talk.present? %>
-      <div>
+      <div class="py-3">
         <div class="text-gray-500 text-nowrap text-xs mb-2">Part of recording</div>
         <%= link_to talk.parent_talk, class: "badge badge-ghost hover:bg-gray-300 px-4 py-4 text-sm" do %>
           <%= fa("rectangle-history", size: :xs, class: "fill-black mr-2") %>
@@ -206,7 +206,7 @@
     <% if (talk.parent_talk.present? || talk.meta_talk?) && talk.video_provider != "children" %>
       <% parent_talk = talk.parent_talk || talk %>
 
-      <h3 class="font-bold text-md mt-3">Sections in this recording</h3>
+      <h3 class="font-bold text-md my-3">Sections in this recording</h3>
 
       <%= render partial: "sections", locals: {talk: parent_talk} %>
 
