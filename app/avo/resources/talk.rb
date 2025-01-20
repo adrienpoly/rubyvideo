@@ -43,6 +43,9 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :has_summary, name: "Summary", as: :boolean do
       record.summary.present?
     end
+    field :has_topics, name: "Topics", as: :boolean do
+      record.topics.any?
+    end
     field :language, hide_on: :index
     field :slug, as: :text, hide_on: :index
     field :year, as: :number, hide_on: :index
