@@ -6,7 +6,13 @@
       <%= fa("clock", size: :lg, class: "fill-white") %>
     </span>
 
-    This talk is scheduled to be held at <%= talk.event.name %>
+    <% if talk.date.past? %>
+      This talk was
+    <% else %>
+      This talk is scheduled to be
+    <% end %>
+
+    held at <%= talk.event.name %>
 
     <% if talk.event.location && !talk.event.location.in?(["Earth", "online", "Online"]) %>
       in <%= talk.event.location %>
