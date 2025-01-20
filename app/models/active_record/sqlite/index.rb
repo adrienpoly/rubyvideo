@@ -17,7 +17,6 @@ module ActiveRecord::SQLite::Index
 
   def attributes_for_create(attribute_names)
     # Prevent `super` filtering out the primary key because it isn't in `self.class.column_names`.
-    # (Active Record doesn't automatically recognize the `rowid` primary key column from SQLite index tables),
     [self.class.primary_key, *super]
   end
 end
