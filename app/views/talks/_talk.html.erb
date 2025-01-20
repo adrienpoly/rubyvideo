@@ -259,7 +259,10 @@
     <% end %>
 
     <% if talk.approved_topics.any? %>
-      <%= render partial: "topics/badge_list", locals: {topics: talk.approved_topics, back_to_url: back_to_from_request, back_to_title: talk.title} %>
+      <div class="py-2 py-4">
+        <%= render partial: "topics/badge_list", locals: {topics: talk.approved_topics, back_to_url: back_to_from_request, back_to_title: talk.title} %>
+      </div>
+      <hr>
     <% end %>
 
     <div role="tablist" class="tabs tabs-bordered mt-6">
