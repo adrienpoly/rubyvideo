@@ -10,6 +10,9 @@ class Avo::Resources::Speaker < Avo::BaseResource
   self.search = {
     query: -> { query.where("lower(name) LIKE ?", "%#{params[:q].downcase}%") }
   }
+  self.external_link = -> {
+    main_app.speaker_path(record)
+  }
 
   def fields
     field :id, as: :id, link_to_record: true

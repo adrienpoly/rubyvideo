@@ -1,0 +1,3 @@
+youtube_video_statistics_job:
+  class: Recurring::YoutubeVideoStatisticsJob
+  schedule: every day at 1am

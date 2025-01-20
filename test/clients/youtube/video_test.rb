@@ -12,8 +12,8 @@ module Youtube
       VCR.use_cassette("youtube_statistics", match_requests_on: [:method]) do
         stats = @client.get_statistics(video_id)
         assert_not_nil stats
-        assert stats.has_key?(:view_count)
-        assert stats.has_key?(:like_count)
+        assert stats[video_id].has_key?(:view_count)
+        assert stats[video_id].has_key?(:like_count)
       end
     end
 

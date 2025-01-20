@@ -33,7 +33,7 @@ class Analytics::DashboardsController < ApplicationController
   end
 
   def top_referrers
-    @top_referrers = Rails.cache.fetch("top_referrers_2", expires_at: Time.current + 2.seconds) do
+    @top_referrers = Rails.cache.fetch("top_referrers", expires_at: Time.current.end_of_day) do
       Ahoy::Visit
         .where("date(started_at) BETWEEN ? AND ?", 60.days.ago.to_date, Date.yesterday)
         .where.not(referring_domain: [nil, "", "rubyvideo.dev", "www.rubyvideo.dev"])

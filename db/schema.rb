@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_01_02_175230) do
+ActiveRecord::Schema[8.0].define(version: 2025_01_15_215944) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -113,6 +113,15 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_02_175230) do
     t.index ["user_id"], name: "index_password_reset_tokens_on_user_id"
   end
 
+  create_table "rollups", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "interval", null: false
+    t.datetime "time", null: false
+    t.json "dimensions", default: {}, null: false
+    t.float "value"
+    t.index ["name", "interval", "time", "dimensions"], name: "index_rollups_on_name_and_interval_and_time_and_dimensions", unique: true
+  end
+
   create_table "sessions", force: :cascade do |t|
     t.integer "user_id", null: false
     t.string "user_agent"
@@ -181,6 +190,15 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_02_175230) do
     t.index ["topic_id"], name: "index_talk_topics_on_topic_id"
   end
 
+  create_table "talk_transcripts", force: :cascade do |t|
+    t.integer "talk_id", null: false
+    t.text "raw_transcript"
+    t.text "enhanced_transcript"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["talk_id"], name: "index_talk_transcripts_on_talk_id"
+  end
+
   create_table "talks", force: :cascade do |t|
     t.string "title", default: "", null: false
     t.text "description", default: "", null: false
@@ -196,10 +214,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_02_175230) do
     t.string "thumbnail_xs", default: "", null: false
     t.string "thumbnail_xl", default: "", null: false
     t.date "date"
-    t.integer "like_count"
-    t.integer "view_count"
-    t.text "raw_transcript", default: "", null: false
-    t.text "enhanced_transcript", default: "", null: false
+    t.integer "like_count", default: 0
+    t.integer "view_count", default: 0
     t.text "summary", default: "", null: false
     t.string "language", default: "en", null: false
     t.string "slides_url"
@@ -218,6 +234,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_02_175230) do
     t.index ["slug"], name: "index_talks_on_slug"
     t.index ["title"], name: "index_talks_on_title"
     t.index ["updated_at"], name: "index_talks_on_updated_at"
+    t.index ["video_provider", "date"], name: "index_talks_on_video_provider_and_date"
   end
 
   create_table "topics", force: :cascade do |t|
@@ -290,6 +307,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_02_175230) do
   add_foreign_key "suggestions", "users", column: "suggested_by_id"
   add_foreign_key "talk_topics", "talks"
   add_foreign_key "talk_topics", "topics"
+  add_foreign_key "talk_transcripts", "talks"
   add_foreign_key "talks", "events"
   add_foreign_key "talks", "talks", column: "parent_talk_id"
   add_foreign_key "topics", "topics", column: "canonical_id"

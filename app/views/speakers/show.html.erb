@@ -6,7 +6,7 @@
 
   <% if @topics.any? %>
     <div class="mt-9 mb-3">
-      <%= render partial: "topics/badge_list", locals: {topics: @topics, back_to_url: request.fullpath, back_to_title: @speaker.name} %>
+      <%= render partial: "topics/badge_list", locals: {topics: @topics, back_to_url: back_to_from_request, back_to_title: @speaker.name} %>
     </div>
   <% end %>
 
@@ -25,7 +25,7 @@
                   favoritable: true,
                   user_favorite_talks_ids: @user_favorite_talks_ids,
                   watched_talks_ids: user_watched_talks_ids,
-                  back_to: request.fullpath,
+                  back_to: back_to_from_request,
                   back_to_title: @speaker.name
                 } %>
         </div>

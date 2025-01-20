@@ -12,9 +12,11 @@ class TopicsController < ApplicationController
 
   def show
     @topic = Topic.find_by!(slug: params[:slug])
-    @pagy, @talks = pagy(
-      @topic.talks.with_essential_card_data.order(date: :desc),
-      limit: 12,
+    @pagy, @talks = pagy_countless(
+      @topic.talks.includes(:speakers, event: :organisation, child_talks: :speakers).order(date: :desc),
+      gearbox_extra: true,
+      gearbox_limit: [12, 24, 48, 96],
+      overflow: :empty_page,
       page: params[:page]&.to_i || 1
     )
   end

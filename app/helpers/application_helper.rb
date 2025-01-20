@@ -5,6 +5,13 @@ module ApplicationHelper
     @back_path || root_path
   end
 
+  def back_to_from_request
+    # remove the back_to params from the query string to avoid creating recusive redirects
+    uri = URI.parse(request.fullpath)
+    uri.query = uri.query&.split("&")&.reject { |param| param.start_with?("back_to=") }&.join("&")
+    uri.to_s
+  end
+
   def active_link_to(text = nil, path = nil, active_class: "", **options, &)
     path ||= text
 

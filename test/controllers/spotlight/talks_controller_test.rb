@@ -31,7 +31,7 @@ class Spotlight::TalksControllerTest < ActionDispatch::IntegrationTest
     get spotlight_talks_url(format: :turbo_stream)
     assert_response :success
     assert_equal 5, assigns(:talks).size
-    assert_equal Talk.all.count, assigns(:talks_count)
+    assert_equal Talk.watchable.count, assigns(:talks_count)
   end
 
   test "should not track analytics" do

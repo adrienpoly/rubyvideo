@@ -12,6 +12,9 @@ class Avo::Resources::Talk < Avo::BaseResource
   self.search = {
     query: -> { query.where(id: Talk.search(params[:q]).map(&:id)) }
   }
+  self.external_link = -> {
+    main_app.talk_path(record)
+  }
 
   def fields
     field :id, as: :id
@@ -55,8 +58,8 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :created_at, as: :date, hide_on: :index
     field :updated_at, as: :date, sortable: true, filterable: true
     field :speakers, as: :has_many, through: :speaker_talks, attach_scope: -> { query.order(name: :asc) }
-    field :raw_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
-    field :enhanced_transcript, as: :textarea, hide_on: :index, format_using: -> { value.to_text }, readonly: true
+    field :raw_transcript, as: :textarea, hide_on: :index, format_using: -> { value&.to_text }, readonly: true
+    field :enhanced_transcript, as: :textarea, hide_on: :index, format_using: -> { value&.to_text }, readonly: true
     # field :suggestions, as: :has_many
     # field :speaker_talks, as: :has_many
   end

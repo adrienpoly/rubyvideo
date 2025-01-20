@@ -59,7 +59,7 @@ class Organisation < ApplicationRecord
     end
 
     <<~DESCRIPTION
-      #{name} is a #{frequency} #{kind} and hosted #{pluralize(events.count, "event")} #{time_range}. We have currently indexed #{pluralize(events.sum { |event| event.talks_count }, "#{name} talk")}.
+      #{name} is a #{frequency} #{kind} and hosted #{pluralize(events.size, "event")} #{time_range}. We have currently indexed #{pluralize(events.sum { |event| event.talks_count }, "#{name} talk")}.
     DESCRIPTION
   end
 

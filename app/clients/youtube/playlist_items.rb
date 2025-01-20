@@ -15,7 +15,7 @@ module Youtube
           thumbnail_md: metadata.snippet.thumbnails.high&.url,
           thumbnail_lg: metadata.snippet.thumbnails.standard&.url,
           thumbnail_xl: metadata.snippet.thumbnails.maxres&.url,
-          video_provider: :youtube,
+          video_provider: "youtube",
           video_id: metadata.contentDetails.videoId
         })
       end

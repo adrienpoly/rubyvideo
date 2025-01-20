@@ -15,6 +15,6 @@
 #  index_watched_talks_on_user_id              (user_id)
 #
 class WatchedTalk < ApplicationRecord
-  belongs_to :user, default: -> { Current.user }
+  belongs_to :user, default: -> { Current.user }, touch: true
   belongs_to :talk
 end

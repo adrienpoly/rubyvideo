@@ -4,6 +4,9 @@
 
 import { application } from "./application"
 
+import AutoClickController from "./auto-click_controller"
+application.register("auto-click", AutoClickController)
+
 import AutoSubmitController from "./auto_submit_controller"
 application.register("auto-submit", AutoSubmitController)
 

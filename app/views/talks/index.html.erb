@@ -17,7 +17,8 @@
             locals: {
               favoritable: true,
               user_favorite_talks_ids: @user_favorite_talks_ids,
-              back_to: request.fullpath
+              watched_talks_ids: user_watched_talks_ids,
+              back_to: back_to_from_request
             } %>
     </div>
     <div class="flex mt-4 w-full">

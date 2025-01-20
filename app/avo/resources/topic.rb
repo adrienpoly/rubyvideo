@@ -12,6 +12,9 @@ class Avo::Resources::Topic < Avo::BaseResource
     end
   }
   self.keep_filters_panel_open = true
+  self.external_link = -> {
+    main_app.topic_path(record)
+  }
 
   def fields
     field :id, as: :id

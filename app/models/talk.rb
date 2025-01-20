@@ -4,17 +4,15 @@
 # Table name: talks
 #
 #  id                  :integer          not null, primary key
-#  date                :date             indexed
+#  date                :date             indexed, indexed => [video_provider]
 #  description         :text             default(""), not null
 #  end_seconds         :integer
-#  enhanced_transcript :text             default(#<Transcript:0x000000012f650498 @cues=[]>), not null
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
 #  kind                :string           default("talk"), not null, indexed
 #  language            :string           default("en"), not null
-#  like_count          :integer
+#  like_count          :integer          default(0)
 #  meta_talk           :boolean          default(FALSE), not null
-#  raw_transcript      :text             default(#<Transcript:0x000000012f650588 @cues=[]>), not null
 #  slides_url          :string
 #  slug                :string           default(""), not null, indexed
 #  start_seconds       :integer
@@ -26,8 +24,8 @@
 #  thumbnail_xl        :string           default(""), not null
 #  thumbnail_xs        :string           default(""), not null
 #  title               :string           default(""), not null, indexed
-#  video_provider      :string           default("youtube"), not null
-#  view_count          :integer
+#  video_provider      :string           default("youtube"), not null, indexed => [date]
+#  view_count          :integer          default(0)
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null, indexed
 #  event_id            :integer          indexed
@@ -36,13 +34,14 @@
 #
 # Indexes
 #
-#  index_talks_on_date            (date)
-#  index_talks_on_event_id        (event_id)
-#  index_talks_on_kind            (kind)
-#  index_talks_on_parent_talk_id  (parent_talk_id)
-#  index_talks_on_slug            (slug)
-#  index_talks_on_title           (title)
-#  index_talks_on_updated_at      (updated_at)
+#  index_talks_on_date                     (date)
+#  index_talks_on_event_id                 (event_id)
+#  index_talks_on_kind                     (kind)
+#  index_talks_on_parent_talk_id           (parent_talk_id)
+#  index_talks_on_slug                     (slug)
+#  index_talks_on_title                    (title)
+#  index_talks_on_updated_at               (updated_at)
+#  index_talks_on_video_provider_and_date  (video_provider,date)
 #
 # Foreign Keys
 #
@@ -75,14 +74,14 @@ class Talk < ApplicationRecord
   has_many :watch_list_talks, dependent: :destroy
   has_many :watch_lists, through: :watch_list_talks
 
+  has_one :talk_transcript, class_name: "Talk::Transcript", dependent: :destroy
+  accepts_nested_attributes_for :talk_transcript
+  delegate :transcript, :raw_transcript, :enhanced_transcript, to: :talk_transcript, allow_nil: true
+
   # associated objects
   has_object :agents
   has_object :downloader
   has_object :thumbnails
-
-  # serializers
-  serialize :enhanced_transcript, coder: TranscriptSerializer
-  serialize :raw_transcript, coder: TranscriptSerializer
 
   # validations
   validates :title, presence: true
@@ -170,11 +169,37 @@ class Talk < ApplicationRecord
 
   # ensure that during the reindex process the associated records are eager loaded
   scope :meilisearch_import, -> { includes(:speakers, :event) }
-  scope :without_raw_transcript, -> { where("raw_transcript IS NULL OR raw_transcript = '' OR raw_transcript = '[]'") }
-  scope :with_raw_transcript, -> { where("raw_transcript IS NOT NULL AND raw_transcript != '[]'") }
+  scope :without_raw_transcript, -> {
+    joins(:talk_transcript)
+      .where(%(
+        talk_transcripts.raw_transcript IS NULL
+        OR talk_transcripts.raw_transcript = ''
+        OR talk_transcripts.raw_transcript = '[]'
+      ))
+  }
+  scope :with_raw_transcript, -> {
+    joins(:talk_transcript)
+      .where(%(
+        talk_transcripts.raw_transcript IS NOT NULL
+        AND talk_transcripts.raw_transcript != '[]'
+      ))
+  }
   scope :without_enhanced_transcript, \
-    -> { where("enhanced_transcript IS NULL OR enhanced_transcript = '' OR enhanced_transcript = '[]'") }
-  scope :with_enhanced_transcript, -> { where("enhanced_transcript IS NOT NULL AND enhanced_transcript != '[]'") }
+    -> {
+      joins(:talk_transcript)
+        .where(%(
+          talk_transcripts.enhanced_transcript IS NULL
+          OR talk_transcripts.enhanced_transcript = ''
+          OR talk_transcripts.enhanced_transcript = '[]'
+        ))
+    }
+  scope :with_enhanced_transcript, -> {
+    joins(:talk_transcript)
+      .where(%(
+        talk_transcripts.enhanced_transcript IS NOT NULL
+        AND talk_transcripts.enhanced_transcript != '[]'
+      ))
+  }
   scope :with_summary, -> { where("summary IS NOT NULL AND summary != ''") }
   scope :without_summary, -> { where("summary IS NULL OR summary = ''") }
   scope :without_topics, -> { where.missing(:talk_topics) }
@@ -183,25 +208,6 @@ class Talk < ApplicationRecord
   scope :for_speaker, ->(speaker_slug) { joins(:speakers).where(speakers: {slug: speaker_slug}) }
   scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
   scope :watchable, -> { where(video_provider: [:youtube, :mp4, :vimeo]) }
-
-  scope :with_essential_card_data, -> do
-    select(
-      :id,
-      :slug,
-      :title,
-      :date,
-      :thumbnail_sm,
-      :thumbnail_lg,
-      :video_id,
-      :video_provider,
-      :event_id,
-      :language,
-      :meta_talk,
-      :parent_talk_id,
-      :start_seconds,
-      :end_seconds
-    ).includes(:speakers, event: :organisation)
-  end
 
   def managed_by?(visiting_user)
     return false unless visiting_user.present?
@@ -371,10 +377,6 @@ class Talk < ApplicationRecord
     ActiveSupport::Duration.build(end_seconds - start_seconds)
   end
 
-  def transcript
-    enhanced_transcript.presence || raw_transcript
-  end
-
   def speakers
     return super unless meta_talk
 
@@ -416,7 +418,8 @@ class Talk < ApplicationRecord
 
   def fetch_and_update_raw_transcript!
     youtube_transcript = Youtube::Transcript.get(video_id)
-    update!(raw_transcript: Transcript.create_from_youtube_transcript(youtube_transcript))
+    transcript = talk_transcript || Talk::Transcript.new(talk: self)
+    transcript.update!(raw_transcript: ::Transcript.create_from_youtube_transcript(youtube_transcript))
   end
 
   def update_from_yml_metadata!(event: nil)
