@@ -6,6 +6,7 @@
 #  id                  :integer          not null, primary key
 #  date                :date             indexed, indexed => [video_provider]
 #  description         :text             default(""), not null
+#  duration_in_seconds :integer
 #  end_seconds         :integer
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
@@ -141,6 +142,7 @@ class Talk < ApplicationRecord
   # jobs
   performs :update_from_yml_metadata!
   performs :fetch_and_update_raw_transcript!, retries: 3
+  performs :fetch_duration_from_youtube!
 
   # normalization
   normalizes :language, apply_to_nil: true, with: ->(language) do
@@ -420,6 +422,13 @@ class Talk < ApplicationRecord
     youtube_transcript = Youtube::Transcript.get(video_id)
     transcript = talk_transcript || Talk::Transcript.new(talk: self)
     transcript.update!(raw_transcript: ::Transcript.create_from_youtube_transcript(youtube_transcript))
+  end
+
+  def fetch_duration_from_youtube!
+    return unless youtube?
+
+    duration = Youtube::Video.new.duration(video_id)
+    update! duration_in_seconds: ActiveSupport::Duration.parse(duration).to_i
   end
 
   def update_from_yml_metadata!(event: nil)

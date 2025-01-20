@@ -6,6 +6,7 @@
 #  id                  :integer          not null, primary key
 #  date                :date             indexed, indexed => [video_provider]
 #  description         :text             default(""), not null
+#  duration_in_seconds :integer
 #  end_seconds         :integer
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
