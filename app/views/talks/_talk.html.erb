@@ -50,7 +50,7 @@
 
   <div class="flex flex-col">
     <% if talk.meta_talk? %>
-      <div class="badge badge-ghost hover:bg-gray-300 px-3 py-3 flex gap-1">
+      <div class="badge badge-ghost hover:bg-gray-300 px-3 my-3 py-3 flex gap-1">
         <%= fa("rectangle-history", size: :xs, class: "fill-gray-700 mr-2") %>
         <span class="text-gray-700">This video contains <%= pluralize(talk.child_talks.size, "individual talk") %></span>
       </div>
