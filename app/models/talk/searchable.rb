@@ -4,7 +4,7 @@ module Talk::Searchable
   DATE_WEIGHT = 0.000000001
 
   included do
-    has_one :index, foreign_key: :rowid, dependent: :destroy
+    has_one :index, foreign_key: :rowid, inverse_of: :talk, dependent: :destroy
 
     scope :ft_search, ->(query) { select("talks.*").joins(:index).merge(Talk::Index.search(query)) }
 
@@ -24,8 +24,7 @@ module Talk::Searchable
 
   class_methods do
     def reindex_all
-      Talk::Index.delete_all
-      Talk.find_each(&:reindex)
+      includes(:index).find_each(&:reindex)
     end
   end
 
