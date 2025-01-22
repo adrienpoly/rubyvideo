@@ -2,7 +2,7 @@ module Speaker::Searchable
   extend ActiveSupport::Concern
 
   included do
-    has_one :index, foreign_key: :rowid, dependent: :destroy
+    has_one :index, foreign_key: :rowid, inverse_of: :speaker, dependent: :destroy
 
     scope :ft_search, ->(query) { select("speakers.*").joins(:index).merge(Speaker::Index.search(query)) }
 
@@ -21,8 +21,7 @@ module Speaker::Searchable
 
   class_methods do
     def reindex_all
-      Speaker::Index.delete_all
-      Speaker.find_each(&:reindex)
+      includes(:index).find_each(&:reindex)
     end
   end
 
