@@ -221,7 +221,8 @@
     - Stephen Margheim
   event_name: Ruby Türkiye Meetup January 2025
   language: english
-  published_at: "2025-01-22"
+  date: "2025-01-22"
+  published_at: "2025-01-23"
   thumbnail_xs: https://media.kommunity.com/communities/ruby-turkiye/events/the-present-and-future-of-sqlite-on-rails-79926ab2/70489/stephen.png
   thumbnail_sm: https://media.kommunity.com/communities/ruby-turkiye/events/the-present-and-future-of-sqlite-on-rails-79926ab2/70489/stephen.png
   thumbnail_md: https://media.kommunity.com/communities/ruby-turkiye/events/the-present-and-future-of-sqlite-on-rails-79926ab2/70489/stephen.png
@@ -231,5 +232,5 @@
     SQLite has gathered notable momentum this last year in the Rails ecosystem. Rails 8 marks the first release of Rails where SQLite is fully embraced and supported for production workloads across the core components that require persistent data. However, Rails isn’t slowing down, and more work is underway to continue making Rails the very best framework for building full-featured web applications. In this talk, I walk through the major changes that make SQLite on Rails the lovely experience it is today as well as the future innovations on the horizon.
 
     https://kommunity.com/ruby-turkiye/events/the-present-and-future-of-sqlite-on-rails-79926ab2
-  video_provider: "scheduled"
-  video_id: "ruby-türkiye-meetup-january-2025"
+  video_provider: "youtube"
+  video_id: iGf9piw1lw0
