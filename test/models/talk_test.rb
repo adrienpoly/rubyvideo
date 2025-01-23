@@ -219,9 +219,9 @@ class TalkTest < ActiveSupport::TestCase
     assert_equal [talk], Talk.ft_search("Kasper Timm Hansen") # speaker
 
     talk.destroy
-    assert Talk.ft_search("sqlite full text search").empty?
-    assert Talk.ft_search("ActiveRecord backed virtual table").empty?
-    assert Talk.ft_search("Kasper Timm Hansen").empty?
+    assert_empty Talk.ft_search("sqlite full text search")
+    assert_empty Talk.ft_search("ActiveRecord backed virtual table")
+    assert_empty Talk.ft_search("Kasper Timm Hansen")
   end
 
   test "full text search on title with snippets" do
