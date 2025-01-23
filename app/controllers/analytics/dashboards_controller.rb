@@ -3,33 +3,23 @@ class Analytics::DashboardsController < ApplicationController
   before_action :admin_required, only: %i[top_referrers top_landing_pages top_searches]
 
   def daily_visits
-    @daily_visits = Rails.cache.fetch("daily_visits", expires_at: Time.current.end_of_day) do
-      Ahoy::Visit.where("date(started_at) BETWEEN ? AND ?", 60.days.ago.to_date, Date.yesterday).group_by_day(:started_at).count
-    end
+    @daily_visits = Rollup.where(time: 60.days.ago.to_date..Date.yesterday.end_of_day).series("ahoy_visits", interval: :day)
   end
 
   def daily_page_views
-    @daily_page_views = Rails.cache.fetch("daily_page_views", expires_at: Time.current.end_of_day) do
-      Ahoy::Event.where("date(time) BETWEEN ? AND ?", 60.days.ago.to_date, Date.yesterday).group_by_day(:time).count
-    end
+    @daily_page_views = Rollup.where(time: 60.days.ago.to_date..Date.yesterday.end_of_day).series("ahoy_events", interval: :day)
   end
 
   def monthly_visits
-    @monthly_visits = Rails.cache.fetch("monthly_visits", expires_at: Time.current.end_of_day) do
-      Ahoy::Visit.where("date(started_at) BETWEEN ? AND ?", 12.months.ago.to_date.beginning_of_month, Date.yesterday).group_by_month(:started_at).count
-    end
+    @monthly_visits = Rollup.where(time: 12.months.ago.to_date.beginning_of_month..Date.yesterday.end_of_day).series("ahoy_visits", interval: :month)
   end
 
   def monthly_page_views
-    @monthly_page_views = Rails.cache.fetch("monthly_page_views", expires_at: Time.current.end_of_day) do
-      Ahoy::Event.where("date(time) BETWEEN ? AND ?", 12.months.ago.to_date.beginning_of_month, Date.yesterday).group_by_month(:time).count
-    end
+    @monthly_page_views = Rollup.where(time: 12.months.ago.to_date.beginning_of_month..Date.yesterday.end_of_day).series("ahoy_events", interval: :month)
   end
 
   def yearly_talks
-    @yearly_talks = Rails.cache.fetch(["yearly_talks", Talk.all]) do
-      Talk.group_by_year(:date).count.map { |date, count| [date.year, count] }
-    end
+    @yearly_talks = Rollup.series("talks", interval: :year)
   end
 
   def top_referrers
