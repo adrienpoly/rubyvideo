@@ -210,6 +210,20 @@ class TalkTest < ActiveSupport::TestCase
     assert_equal [@talk], Talk.ft_search("Hotwire Cookbook")
   end
 
+  test "full text search creating and deleting a talk" do
+    talk = Talk.create!(title: "Full text seach with Sqlite", summary: "On using sqlite full text search with an ActiveRecord backed virtual table")
+    talk.speakers.create!(name: "Kasper Timm Hansen")
+
+    assert_equal [talk], Talk.ft_search("sqlite full text search") # title
+    assert_equal [talk], Talk.ft_search("ActiveRecord backed virtual table") # summary
+    assert_equal [talk], Talk.ft_search("Kasper Timm Hansen") # speaker
+
+    talk.destroy
+    assert Talk.ft_search("sqlite full text search").empty?
+    assert Talk.ft_search("ActiveRecord backed virtual table").empty?
+    assert Talk.ft_search("Kasper Timm Hansen").empty?
+  end
+
   test "full text search on title with snippets" do
     @talk = talks(:one)
     assert_equal [@talk], Talk.ft_search("Hotwire Cookbook").with_snippets
