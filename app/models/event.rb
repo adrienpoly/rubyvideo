@@ -32,6 +32,7 @@
 class Event < ApplicationRecord
   include Suggestable
   include Sluggable
+  include Sociable
   slug_from :name
 
   # associations
