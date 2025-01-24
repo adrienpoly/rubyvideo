@@ -83,6 +83,9 @@
   videos_count: 69
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2019
+  banner_background: "#000000"
+  featured_background: "#000000"
+  featured_color: "#F5C347"
 
 - id: PLbHJudTY1K0cyDs1ZwFLzlfQqvkDKt17N
   title: RubyConf 2020
