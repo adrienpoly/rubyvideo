@@ -836,6 +836,24 @@
     After all, the more thought we put into a bit of code, the more information that code carries. Others must extract that embedded meaning, either by careful reading or shared experience. Sometimes boring code is better. Let's figure out when to be dull.
   video_provider: youtube
   video_id: MSgR-hJjdTo
+  alternative_recordings:
+    - title: Sometimes a Controller is Just a Controller
+      raw_title: RailsConf 2015 - Sometimes a Controller is Just a Controller
+      speakers:
+        - Justin Searls
+      event_name: RailsConf 2015
+      published_at: "2015-05-12"
+      description: |-
+        By, Justin Searls
+        You grok SOLID. You practice TDD. You've read Sandi's book…twice. You rewatch Destroy All Software monthly. You can pronounce GOOS. You know your stuff!
+
+        But some of your coworkers say your code is too complex or confusing for them. You might rush to conclude that must be a them problem.
+
+        But doubt lingers: what if they're right?
+
+        After all, the more thought we put into a bit of code, the more information that code carries. Others must extract that embedded meaning, either by careful reading or shared experience. Sometimes boring code is better. Let's figure out when to be dull.
+      video_provider: youtube
+      video_id: a6gel0eVeNw
 
 - title: Processes and Threads - Resque vs. Sidekiq
   raw_title: RailsConf 2015 - Processes and Threads - Resque vs. Sidekiq
@@ -948,24 +966,6 @@
     Learn how we scale our Rails app and the measures we take (load testing, monitoring, caching, etc.) to ensure that there are no hiccups during this important weekend.
   video_provider: youtube
   video_id: O1UxbZVP6N8
-
-- title: Sometimes a Controller is Just a Controller
-  raw_title: RailsConf 2015 - Sometimes a Controller is Just a Controller
-  speakers:
-    - Justin Searls
-  event_name: RailsConf 2015
-  published_at: "2015-05-12"
-  description: |-
-    By, Justin Searls
-    You grok SOLID. You practice TDD. You've read Sandi's book…twice. You rewatch Destroy All Software monthly. You can pronounce GOOS. You know your stuff!
-
-    But some of your coworkers say your code is too complex or confusing for them. You might rush to conclude that must be a them problem.
-
-    But doubt lingers: what if they're right?
-
-    After all, the more thought we put into a bit of code, the more information that code carries. Others must extract that embedded meaning, either by careful reading or shared experience. Sometimes boring code is better. Let's figure out when to be dull.
-  video_provider: youtube
-  video_id: a6gel0eVeNw
 
 - title: "So Long, Hoboken: Migrating a Huge Production Codebase from Sinatra to Rails"
   raw_title: "RailsConf 2015 - So Long, Hoboken: Migrating a Huge Production Codebase from Sinatra to Rails"
