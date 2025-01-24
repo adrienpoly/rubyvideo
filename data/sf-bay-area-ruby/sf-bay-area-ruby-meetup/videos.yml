@@ -707,7 +707,7 @@
   raw_title: "SF Ruby January Meetup @ Productboard"
   event_name: SF Bay Area Ruby Meetup - January 2025
   date: "2025-01-16"
-  published_at: "2025-01-16"
+  published_at: "2025-01-24"
   description: |-
     ​Hey, Bay Area builders and tinkerers!
 
@@ -742,24 +742,41 @@
     Brought to you by Evil Martians.
 
     https://lu.ma/goujxu3a
-  video_provider: not_published
-  video_id: sf-bay-area-ruby-meetup-january-2025
+  video_provider: youtube
+  video_id: cnhBfOCI0JA
+  id: sf-bay-area-ruby-meetup-january-2025
   talks:
     - title: "Intro"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "00:04"
+      end_cue: "05:55"
       event_name: SF Bay Area Ruby Meetup - January 2025
       video_id: intro-sf-bay-area-ruby-meetup-january-2025
       video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
       speakers:
         - Irina Nazarova
 
+    - title: "Productboard"
+      start_cue: "05:55"
+      end_cue: "07:50"
+      thumbnail_cue: "06:45"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: productboard-sf-bay-area-ruby-meetup-january-2025
+      video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
+      speakers:
+        - Claudio Andrei
+
     - title: "How to make your tests easier to understand"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "13:16"
+      end_cue: "40:55"
       event_name: SF Bay Area Ruby Meetup - January 2025
       video_id: jason-swett-how-to-make-your-tests-easier-to-understand
       video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
       thumbnail_xs: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg
@@ -769,11 +786,13 @@
         - Jason Swett
 
     - title: "How to add passkeys to a Rails app (and why)"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "40:55"
+      end_cue: "01:06:39"
       event_name: SF Bay Area Ruby Meetup - January 2025
       video_id: bart-agapinan-how-to-add-passkeys-to-a-rails-app-and-why
       video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
       thumbnail_xs: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg
@@ -786,30 +805,42 @@
         - Bart Agapinan
 
     - title: "WASM in Ruby"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "01:06:40"
+      end_cue: "01:35:17"
       event_name: SF Bay Area Ruby Meetup - January 2025
       video_id: cameron-dutro-wasm-in-ruby
       video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
       thumbnail_xs: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg
       thumbnail_lg: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=large
       thumbnail_xl: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=large
+      description: |-
+        Repos:
+        https://github.com/camertron/onigmo-wasm
+        https://github.com/camertron/onigmo-ruby
       speakers:
         - Cameron Dutro
 
     - title: "Using Bazel in Ruby Projects"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "01:35:17"
+      end_cue: "02:07:36"
       event_name: SF Bay Area Ruby Meetup - January 2025
       video_id: alex-rodionov-using-bazel-in-ruby-projects
       video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
       thumbnail_xs: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg
       thumbnail_lg: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=large
       thumbnail_xl: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=large
+      description: |-
+        Bazel: https://bazel.build
+        Rules Ruby: https://github.com/bazel-contrib/rules_ruby
+        Slack Channel: https://bazelbuild.slack.com/channels/ruby
       speakers:
         - Alex Rodionov
 
@@ -817,24 +848,29 @@
   raw_title: "SF Ruby February Meetup @ GitHub"
   event_name: SF Bay Area Ruby Meetup - February 2025
   date: "2025-02-11"
-  published_at: "2025-02-11"
+  published_at: ""
   description: |-
     ​​Hey, Bay Area builders and tinkerers!
 
-    While Ruby may not dominate the headlines, it's the silent force behind the Bay Area's most successful startups. From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.
+    Ruby is the quiet force behind the Bay Area's most successful tech organizations and startups from GitHub and Stripe to Chime and Stackblitz.
 
-    ​Join us as we re-kindle the SF Ruby community's flame! It is a unique place to meet authors of your favorite open-source tools (or members of the Ruby core team), incredibly experienced engineers and new converts, as well as new startup founders building and experimenting with the power of Ruby and Rails. It's a chance to meet every month and make new Ruby friends.
+    ​We are gathering every month to learn, share, inspire each other, and to have a great time in the MINASWAN group.
 
-    Our meetups explore Rails at scale, practical Hotwire implementations, methods for building AI-native apps and so much more—all through Ruby's uniquely productive lens.
+    ​SF Ruby is unique and lucky to be hosted in multiple Ruby HQ's: Cisco, GitHub, Y Combinator, Academia.edu, Chime, Productboard, and many more! Join us in discovering the most Ruby parts of our favorite city 🏙️❤️.
 
-    For the first event of the year, GitHub is our gracious host!
+    Our meetups explore Rails at scale, building maintainable applications, new horizons with Ruby and Wasm, practical stories about Rails frontend, Ruby LSPs, and AI-native apps—all through Ruby's uniquely productive lens.
+
+    For this event, GitHub is our gracious host!
 
     Speakers and agenda are TBD
 
     Submit a talk proposal here:
+
     ​​https://forms.gle/C9HQzaT5jvwA5xwc7
 
     Catch you on the flip side! A massive shoutout to GitHub for hosting and sponsoring the event!
+
+    Brought to you by Evil Martians.
 
     https://lu.ma/hoou421h
   video_provider: scheduled
