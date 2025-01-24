@@ -89,11 +89,16 @@
   location: "Online"
   description: ""
   published_at: "2020-11-27"
+  start_date: "2020-11-17"
+  end_date: "2020-11-19"
   channel_id: UCWnPjmqvljcafA0z2U1fwKQ
   year: "2020"
   videos_count: 25
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2020
+  banner_background: "#FFFDF7"
+  featured_background: "#FFFDF7"
+  featured_color: "#37312B"
 
 - id: PLE7tQUdRKcyYVnWhDQk4RCPVlMW40I6s5
   title: RubyConf 2021
