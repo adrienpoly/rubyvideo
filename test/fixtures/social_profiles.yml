@@ -9,19 +9,55 @@
 # Table name: social_profiles
 #
 #  id            :integer          not null, primary key
-#  provider      :integer
-#  sociable_type :string           indexed => [sociable_id]
-#  value         :string
+#  provider      :string           not null
+#  sociable_type :string           not null, indexed => [sociable_id]
+#  value         :string           not null
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
-#  sociable_id   :integer          indexed => [sociable_type]
+#  sociable_id   :integer          not null, indexed => [sociable_type]
 #
 # Indexes
 #
 #  index_social_profiles_on_sociable  (sociable_type,sociable_id)
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+speaker:
+  provider: "twitter"
+  value: "one"
+  sociable: one
+  sociable_type: Speaker
+
+twitter:
+  provider: "twitter"
+  value: "jim"
+  sociable: jim
+  sociable_type: Speaker
+
+linkedin:
+  provider: "linkedin"
+  value: "jim"
+  sociable: jim
+  sociable_type: Speaker
+
+bsky:
+  provider: "bsky"
+  value: "@jim"
+  sociable: jim
+  sociable_type: Speaker
+
+mastodon:
+  provider: "mastodon"
+  value: "@jim@ruby.social"
+  sociable: jim
+  sociable_type: Speaker
+
+speakerdeck:
+  provider: "speakerdeck"
+  value: "jim"
+  sociable: jim
+  sociable_type: Speaker
+
+website:
+  provider: "website"
+  value: "https://jim.com"
+  sociable: jim
+  sociable_type: Speaker

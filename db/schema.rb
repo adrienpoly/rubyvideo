@@ -132,10 +132,10 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_28_085252) do
   end
 
   create_table "social_profiles", force: :cascade do |t|
-    t.string "value"
-    t.integer "provider"
-    t.string "sociable_type"
-    t.integer "sociable_id"
+    t.string "provider", null: false
+    t.string "value", null: false
+    t.string "sociable_type", null: false
+    t.integer "sociable_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["sociable_type", "sociable_id"], name: "index_social_profiles_on_sociable"

@@ -17,6 +17,7 @@ class Avo::Resources::Speaker < Avo::BaseResource
   def fields
     field :id, as: :id, link_to_record: true
     field :name, as: :text, link_to_record: true, sortable: true
+    field :github, as: :text
     field :bio, as: :textarea, hide_on: :index
     field :slug, as: :text, hide_on: :index
     field :talks_count, as: :number, sortable: true
