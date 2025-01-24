@@ -50,6 +50,9 @@
   videos_count: 68
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2017
+  banner_background: "#FFFFFF"
+  featured_background: "#FFFFFF"
+  featured_color: "#000000"
 
 - id: PLE7tQUdRKcyZEjH3kIyvIN0eZ4tuVEkBD
   title: RubyConf 2018
