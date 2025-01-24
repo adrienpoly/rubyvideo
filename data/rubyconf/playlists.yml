@@ -9,6 +9,9 @@
   videos_count: 66
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-2014
+  banner_background: "#FAFAFA"
+  featured_background: "#FAFAFA"
+  featured_color: "#414866"
 
 - id: PLE7tQUdRKcyYqT3LHMg4iH270kfyENCpp
   title: RubyConf 2015
