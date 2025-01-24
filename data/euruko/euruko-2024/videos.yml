@@ -104,6 +104,7 @@
     This talk covers the current shift in web development reality and the trend towards a (most welcome) simplification of the tools we work with. The experience with running multiple codebases (including the biggest Ruby monolith) on the most recent version of Ruby and Rails' main branch shows this, too, is actually doable.
   video_id: cfdxpPQ7KDE
   video_provider: youtube
+  slides_url: https://talks.chastell.net/euruko-2024
 
 - title: Building native Ruby extensions in Rust
   raw_title: Building native Ruby extensions in Rust
