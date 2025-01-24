@@ -5,6 +5,14 @@ class Hotwire::Native::V1::IOS::PathConfigurationsController < ActionController:
       "rules": [
         {
           "patterns": [
+            "/"
+          ],
+          "properties": {
+            "view_controller": "home"
+          }
+        },
+        {
+          "patterns": [
             "/player$"
           ],
           "properties": {
