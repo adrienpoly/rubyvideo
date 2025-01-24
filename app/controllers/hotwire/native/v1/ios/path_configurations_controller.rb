@@ -5,7 +5,9 @@ class Hotwire::Native::V1::IOS::PathConfigurationsController < ActionController:
       "rules": [
         {
           "patterns": [
-            "/"
+            "^$",
+            "^/$",
+            "^/home$"
           ],
           "properties": {
             "view_controller": "home"
