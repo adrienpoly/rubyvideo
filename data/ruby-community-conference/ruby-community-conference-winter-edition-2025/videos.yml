@@ -95,3 +95,14 @@
   description: ""
   video_provider: scheduled
   video_id: workshop-image-vector-search-ruby-community–conference-winter–edition-2025
+
+- title: "Workshop: Updating to Modern Gem Development in 2025"
+  raw_title: "Updating to Modern Gem Development in 2025"
+  speakers:
+    - Samuel Giddins
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  description: |-
+    Let's take the default bundle gem scaffold and transform it into the ideal development setup for 2025, including automated testing on CI, automated pushes to rubygems.org, and type checking right in your editor.
+  video_provider: scheduled
+  video_id: workshop-updating-to-modern-gem-development-in-2025-ruby-community–conference-winter–edition-2025
