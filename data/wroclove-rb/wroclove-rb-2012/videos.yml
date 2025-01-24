@@ -219,19 +219,17 @@
   published_at: "2012-04-07"
   video_provider: youtube
   video_id: w7Eol9N3jGI
-  language:
-  description:
-    "This video was recorded on http://wrocloverb.com. You should follow
-    us at https://twitter.com/wrocloverb. See you next year!\r\n\r\nFrom DCI to presenters,
-    from Uncle Bob's architecture talk and Avdi Grimm's upcoming 'Objects on Rails'
-    book to the proliferation of (competing? complementing?) database systems, it
-    seems the time has come to seriously consider decoupling our objects' persistence
-    from the rest of the application. \r\n\r\nThis talk -- after describing the general
-    vices of strong object/database coupling and the all-too-usual rails g model-driven
-    development -- covers the various approaches to separating the objects' persistence
-    layer, along with their virtues (cleaner, simpler tests! backend independence!
-    no RDBMS-related shortcuts impacting the design!) and potential vices (performance?
-    perceived compexity? YAGNI?)."
+  language: english
+  slides_url: https://talks.chastell.net/src-2012
+  description: |-
+    This video was recorded on http://wrocloverb.com. You should follow
+    us at https://twitter.com/wrocloverb. See you next year!
+
+    When I open up a Rails project and the models dir is full of 100% ActiveRecord classes I shudder. Model ≠ Persistence. — Ben Mabey
+
+    From DCI to presenters, from Uncle Bob’s architecture talk and Avdi Grimm’s Objects on Rails book to the proliferation of (competing? complementing?) database systems, it seems the time has come to seriously consider decoupling our objects’ persistence from the rest of the application.
+
+    This talk – after describing the general vices of strong object/database coupling and the all-too-usual rails g model-driven development – covers the various approaches to separating the objects’ persistence layer, along with their virtues (cleaner, simpler tests! backend independence! no RDBMS-related shortcuts impacting the design!) and potential vices (performance? perceived compexity? YAGNI?).
 
 - title: DataMapper 2
   raw_title: "Piotr Solnica: DataMapper 2"

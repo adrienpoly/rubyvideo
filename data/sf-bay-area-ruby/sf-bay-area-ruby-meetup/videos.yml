@@ -706,9 +706,10 @@
 - title: SF Bay Area Ruby Meetup - January 2025
   raw_title: "SF Ruby January Meetup @ Productboard"
   event_name: SF Bay Area Ruby Meetup - January 2025
+  date: "2025-01-16"
   published_at: "2025-01-16"
   description: |-
-    ​​Hey, Bay Area builders and tinkerers!
+    ​Hey, Bay Area builders and tinkerers!
 
     While Ruby may not dominate the headlines, it's the silent force behind the Bay Area's most successful startups. From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.
 
@@ -720,22 +721,103 @@
 
     Our special 🌟 speaker is Jason Swett, coming from Michigan!
 
+    Agenda:
+    5 pm Doors open, pizza
+    5.30 pm intro words, Irina and Productboard
+    5.40 Jason Swett (codewithjason.com) on How to make your tests easier to understand
+    6.20 Bart Agapinan (ID.me) on How to add passkeys to a Rails app (and why)
+    6.40 break
+    7.00 open mic
+    7.10 Cameron Dutro (GitHub) on WASM in Ruby
+    7.30 Alex Rodionov (Toptal) on using Bazel in Ruby projects
+    9 pm doors close
+
     Submit a talk proposal here:
+
     ​​https://forms.gle/C9HQzaT5jvwA5xwc7
 
+    ​
     Catch you on the flip side! A massive shoutout to Productboard for hosting and sponsoring the event!
 
+    Brought to you by Evil Martians.
+
     https://lu.ma/goujxu3a
-  video_provider: scheduled
+  video_provider: not_published
   video_id: sf-bay-area-ruby-meetup-january-2025
-  speakers:
-    - Jason Swett
-    - TBD
+  talks:
+    - title: "Intro"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: intro-sf-bay-area-ruby-meetup-january-2025
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "How to make your tests easier to understand"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: jason-swett-how-to-make-your-tests-easier-to-understand
+      video_provider: parent
+      thumbnail_xs: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg&name=large
+      speakers:
+        - Jason Swett
+
+    - title: "How to add passkeys to a Rails app (and why)"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: bart-agapinan-how-to-add-passkeys-to-a-rails-app-and-why
+      video_provider: parent
+      thumbnail_xs: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg&name=large
+      slides_url: https://docs.google.com/presentation/d/1cWArcQ7o2RD6OjugWjVepo9tS1skAo1eYvboHjIBIqI/edit?usp=sharing
+      description: |-
+        Repo: https://github.com/viamin/passkeys-demo
+      speakers:
+        - Bart Agapinan
+
+    - title: "WASM in Ruby"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: cameron-dutro-wasm-in-ruby
+      video_provider: parent
+      thumbnail_xs: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=large
+      speakers:
+        - Cameron Dutro
+
+    - title: "Using Bazel in Ruby Projects"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: alex-rodionov-using-bazel-in-ruby-projects
+      video_provider: parent
+      thumbnail_xs: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=large
+      speakers:
+        - Alex Rodionov
 
 - title: SF Bay Area Ruby Meetup - February 2025
   raw_title: "SF Ruby February Meetup @ GitHub"
   event_name: SF Bay Area Ruby Meetup - February 2025
-  published_at: "2025-02-13"
+  date: "2025-02-11"
+  published_at: "2025-02-11"
   description: |-
     ​​Hey, Bay Area builders and tinkerers!
 

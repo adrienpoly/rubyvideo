@@ -7,7 +7,7 @@ class TopicsController < ApplicationController
   def index
     @topics = Topic.approved.with_talks.order(name: :asc)
     @topics = @topics.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
-    @pagy, @topics = pagy(@topics, limit: 100, page: params[:page])
+    @pagy, @topics = pagy(@topics, limit: 100, page: page_number)
   end
 
   def show
@@ -17,7 +17,7 @@ class TopicsController < ApplicationController
       gearbox_extra: true,
       gearbox_limit: [12, 24, 48, 96],
       overflow: :empty_page,
-      page: params[:page]&.to_i || 1
+      page: page_number
     )
   end
 
@@ -25,5 +25,11 @@ class TopicsController < ApplicationController
     return unless Current.user
 
     @user_favorite_talks_ids = Current.user.default_watch_list.talks.ids
+  end
+
+  private
+
+  def page_number
+    [params[:page]&.to_i, 1].compact.max
   end
 end

@@ -159,6 +159,8 @@
   video_id: c58mN6NtwsQ
   language: Japanese
   description: ""
+  thumbnail_lg: https://img.youtube.com/vi/c58mN6NtwsQ/hqdefault.jpg
+  thumbnail_xl: https://img.youtube.com/vi/c58mN6NtwsQ/hqdefault.jpg
   speakers:
     - Akira Matsuda
   talks:
@@ -509,6 +511,8 @@
   video_id: X0JRhh8w_4I
   language: English
   description: ""
+  thumbnail_lg: https://img.youtube.com/vi/X0JRhh8w_4I/hqdefault.jpg
+  thumbnail_xl: https://img.youtube.com/vi/X0JRhh8w_4I/hqdefault.jpg
 
 - title: "Keynote: Parsing RBS"
   raw_title: "[EN][Keynote] Parsing RBS / Soutaro Matsumoto @soutaro"
@@ -569,6 +573,7 @@
   raw_title: "[EN] Ruby vs Kickboxer - the state of MRuby, JRuby and CRuby / @saramic @selenasmall88"
   speakers:
     - Selena Small
+    - Michael Milewski
   event_name: RubyKaigi 2023
   published_at: "2023-05-11"
   video_provider: youtube

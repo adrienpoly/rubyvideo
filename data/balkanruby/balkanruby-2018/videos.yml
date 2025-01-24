@@ -58,9 +58,13 @@
     - Piotr Szotkowski
   event_name: Balkan Ruby 2018
   published_at: "2018-05-26"
-  description: Hacker scientist. Assistant professor at Warsaw University of Technology.
+  description: |-
+    Most non-scripting languages are faster than Ruby (Rust: tremendously so), but few (Crystal?) can match its optimisation for developer happiness and productivity. Let’s try to gauge Ruby’s chances when it comes to matching modern performance expectations: Are the changes in recent CRuby versions significant? Can JRuby bring enough JVM performance? And – to address the titular Frankenstein – how easily can we harness the power of Crystal, Rust, C or even assembly from within our Ruby applications?
+
+    Hacker scientist. Assistant professor at Warsaw University of Technology.
   video_provider: youtube
   video_id: MszdAuNTukk
+  slides_url: https://talks.chastell.net/krug-2018-10
 
 - title: "Eager Loading for ActiveRecord Performance"
   raw_title: Eager Loading for ActiveRecord Performance – Dinah Shi – Balkan Ruby 2018

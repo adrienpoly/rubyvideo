@@ -13,14 +13,8 @@
         <% end %>
       </div>
 
-      <% if signed_in? %>
-        <% cache_key = [@talk, Current.user, @talk.watched_talks.where(user: Current.user)] %>
-      <% else %>
-        <% cache_key = [@talk] %>
-      <% end %>
-
       <%= turbo_frame_tag "talk", target: "_top", data: {turbo_action: "advance"} do %>
-        <% cache cache_key do %>
+        <% cache [@talk, Current.user].compact do %>
           <%= render partial: "talks/talk", locals: {talk: @talk} %>
         <% end %>
       <% end %>

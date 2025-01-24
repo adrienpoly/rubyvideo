@@ -12,15 +12,18 @@
   event_name: "Ruby Banitsa Conf 2024"
   speakers:
     - "Radoslav Stankov"
-  video_id: "radoslav-stankov-rails-the-missing-parts-ruby-banitsa-2024"
-  video_provider: "scheduled"
+  video_id: "c14M6QeFVgY"
+  video_provider: "youtube"
   thumbnail_xs: https://pbs.twimg.com/media/GeLrKRZXMAAjxP6?format=jpg&name=small
   thumbnail_sm: https://pbs.twimg.com/media/GeLrKRZXMAAjxP6?format=jpg&name=small
   thumbnail_md: https://pbs.twimg.com/media/GeLrKRZXMAAjxP6?format=jpg
   thumbnail_lg: https://pbs.twimg.com/media/GeLrKRZXMAAjxP6?format=jpg
   thumbnail_xl: https://pbs.twimg.com/media/GeLrKRZXMAAjxP6?format=jpg&name=large
   date: "2024-12-07"
+  published_at: "2024-12-15"
   description: |-
+    Radoslav Stankov was the CTO of Product Hunt. He is currently building Angry Building (https://angrybuilding.com/) as the single technical person on the team. This is his Rails stack.
+
     Learn about the flavor of Rails that Rado likes and uses.
 
 # Break
@@ -66,20 +69,28 @@
   event_name: "Ruby Banitsa Conf 2024"
   speakers:
     - "Kasper Timm Hansen"
-  video_id: "kasper-timm-hansen-express-your-ideas-by-writing-your-own-gems-ruby-banitsa-2024"
-  video_provider: "scheduled"
+  video_id: "sNivVgVMM60"
+  video_provider: "youtube"
   thumbnail_xs: https://pbs.twimg.com/media/GeMpS7LWsAAfR-6?format=jpg&name=small
   thumbnail_sm: https://pbs.twimg.com/media/GeMpS7LWsAAfR-6?format=jpg&name=small
   thumbnail_md: https://pbs.twimg.com/media/GeMpS7LWsAAfR-6?format=jpg
   thumbnail_lg: https://pbs.twimg.com/media/GeMpS7LWsAAfR-6?format=jpg
   thumbnail_xl: https://pbs.twimg.com/media/GeMpS7LWsAAfR-6?format=jpg&name=large
   date: "2024-12-07"
+  published_at: "2025-01-19"
   description: |-
     In this talk, we'll do a walkthrough of two gems of mine, ActiveRecord::AssociatedObject and Oaken.
 
     I'll go over why I wrote them and we'll break down the code too.
 
     The talk will you give you practical insight into what smaller gems look like, and hopefully inspire you to write your own!
+  alternative_recordings:
+    - title: "Express Your Ideas by Writing Your Own Gems"
+      event_name: "Ruby Banitsa Conf 2024"
+      date: "2024-12-07"
+      published_at: "2024-12-20"
+      video_id: "Md90cwnmGc8"
+      video_provider: "youtube"
 
 # Coffee Break
 
@@ -88,15 +99,21 @@
   event_name: "Ruby Banitsa Conf 2024"
   speakers:
     - "Bozhidar Batsov"
-  video_id: "bozhidar-batsov-weird-ruby-ruby-banitsa-2024"
-  video_provider: "scheduled"
+  video_id: "u-wBrjK7340"
+  video_provider: "youtube"
   thumbnail_xs: https://pbs.twimg.com/media/GeNAE2KX0AAF3GJ?format=jpg&name=small
   thumbnail_sm: https://pbs.twimg.com/media/GeNAE2KX0AAF3GJ?format=jpg&name=small
   thumbnail_md: https://pbs.twimg.com/media/GeNAE2KX0AAF3GJ?format=jpg
   thumbnail_lg: https://pbs.twimg.com/media/GeNAE2KX0AAF3GJ?format=jpg
   thumbnail_xl: https://pbs.twimg.com/media/GeNAE2KX0AAF3GJ?format=jpg&name=large
   date: "2024-12-07"
+  pubished_at: "2024-12-16"
   description: |-
-    Very strange and unusual, unexpected, or not natural. A talk about Ruby!
+    Bozhidar is the author of RuboCop and the editor of the community Ruby
+    style guide. He's involved in a myriad of open-source projects, mainly
+    related to Ruby, Clojure, and Emacs. Many would probably describe
+    him as an Emacs zealot (and they would be right).
+
+    This talk is very strange and unusual, unexpected, or not natural. It's a talk about Ruby!
 
 # Give Thanks & Praises

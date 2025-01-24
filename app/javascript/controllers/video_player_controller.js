@@ -57,6 +57,7 @@ export default class extends Controller {
   }
 
   handlePlayerReady (player) {
+    this.ready = true
     // for seekTo to work we need to store again the player instance
     this.player = player
 
@@ -92,6 +93,8 @@ export default class extends Controller {
   }
 
   seekTo (event) {
+    if (!this.ready) return
+
     const { time } = event.params
 
     if (time) {
@@ -100,6 +103,8 @@ export default class extends Controller {
   }
 
   pause () {
+    if (!this.ready) return
+
     this.player.pause()
   }
 

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_01_08_221813) do
+ActiveRecord::Schema[8.0].define(version: 2025_01_15_215944) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -111,6 +111,15 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_08_221813) do
   create_table "password_reset_tokens", force: :cascade do |t|
     t.integer "user_id", null: false
     t.index ["user_id"], name: "index_password_reset_tokens_on_user_id"
+  end
+
+  create_table "rollups", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "interval", null: false
+    t.datetime "time", null: false
+    t.json "dimensions", default: {}, null: false
+    t.float "value"
+    t.index ["name", "interval", "time", "dimensions"], name: "index_rollups_on_name_and_interval_and_time_and_dimensions", unique: true
   end
 
   create_table "sessions", force: :cascade do |t|
@@ -218,6 +227,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_08_221813) do
     t.boolean "meta_talk", default: false, null: false
     t.integer "start_seconds"
     t.integer "end_seconds"
+    t.integer "duration_in_seconds"
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["kind"], name: "index_talks_on_kind"
@@ -225,6 +235,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_08_221813) do
     t.index ["slug"], name: "index_talks_on_slug"
     t.index ["title"], name: "index_talks_on_title"
     t.index ["updated_at"], name: "index_talks_on_updated_at"
+    t.index ["video_provider", "date"], name: "index_talks_on_video_provider_and_date"
   end
 
   create_table "topics", force: :cascade do |t|

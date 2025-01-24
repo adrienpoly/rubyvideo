@@ -232,30 +232,19 @@
   published_at: "2014-04-17"
   video_provider: youtube
   video_id: 7XI3H_rKmRU
-  language:
-  description:
-    "This video was recorded on http://wrocloverb.com. You should follow
-    us at https://twitter.com/wrocloverb. See you next year!\n\nSlides: http://talks.chastell.net/wrocloverb-2014/\n\nPiotr
-    Szotkowski with INTEGRATION TESTS ARE BOGUS\n\nThe Ruby community embraced testing
-    early, with many developers switching full-time to test-driven development (and,
-    more importantly, test-driven design); discovering the domain of a given problem
-    and the mechanics required to make objects interact painlessly by implementing
-    a system from outside in are oftentimes eye-opening experiences. \nWhether you
-    like to write well-isolated (and fast!) unit tests or need to implement the outside
-    of a system without having the inside nits-and-bolts in place beforehand there's
-    a plethora of stubbing and mocking libraries to choose from. Unfortunately, heavy
-    mocking and stubbing comes with a cost: even with the most well-tested-in-isolation
-    objects you can't really say anything about their proper wirings without some
-    integration and end-to-end tests -- and writing the former is often not a very
-    enjoyable experience.\nThis talk covers a new player on the Ruby testing scene:
-    Bogus, a library for stubbing, mocking and spying that goes the extra mile and
-    verifies whether your fakes have any connection with reality -- whether the faked
-    methods exist on the actual object, whether they take the right number of arguments
-    and even whether tests for a given class verify the behaviour that the class's
-    fakes pretend to have.\nWith Bogus quite a few of the famously derided integration
-    tests come for free; a change to a method's name or its signature will make all
-    of the related fakes complain, and all the missing pieces of a system written
-    from outside in will present themselves ready to be implemented."
+  language: english
+  slides_url: https://talks.chastell.net/rubyday-2016
+  description: |-
+    This video was recorded on http://wrocloverb.com. You should follow
+    us at https://twitter.com/wrocloverb. See you next year!
+
+    The Ruby community embraced testing early, with many developers switching full-time to test-driven development (and, more importantly, test-driven design); discovering the domain of a given problem and the mechanics required to make objects interact painlessly by implementing a system from outside in are oftentimes eye-opening experiences.
+
+    Whether you like to write well-isolated (and fast!) unit tests or need to implement the outside of a system without having the inside nits-and-bolts in place beforehand there’s a plethora of stubbing and mocking libraries to choose from. Unfortunately, heavy mocking and stubbing comes with a cost: even with the most well-tested-in-isolation objects you can’t really say anything about their proper wirings without some integration and end-to-end tests – and writing the former is often not a very enjoyable experience.
+
+    This talk covers a new player on the Ruby testing scene: [Bogus](https://github.com/psyho/bogus), a library for stubbing, mocking and spying that goes the extra mile and verifies whether your fakes have any connection with reality – whether the faked methods exist on the actual object, whether they take the right number of arguments and even whether tests for a given class verify the behaviour that the class’s fakes pretend to have.
+
+    With Bogus quite a few of the [famously derided integration tests](http://www.infoq.com/presentations/integration-tests-scam) come for free; a change to a method’s name or its signature will make all of the related fakes complain, and all the missing pieces of a system written from outside in will present themselves ready to be implemented.
 
 - title: "Q&A: Code Metrics"
   raw_title: Code Metrics Q&A by Piotr Solnica & Markus Schirp

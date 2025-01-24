@@ -4,9 +4,9 @@
 # Table name: talks
 #
 #  id                  :integer          not null, primary key
-#  date                :date             indexed
+#  date                :date             indexed, indexed => [video_provider]
 #  description         :text             default(""), not null
-#  discarded_at        :datetime         indexed
+#  duration_in_seconds :integer
 #  end_seconds         :integer
 #  external_player     :boolean          default(FALSE), not null
 #  external_player_url :string           default(""), not null
@@ -25,7 +25,7 @@
 #  thumbnail_xl        :string           default(""), not null
 #  thumbnail_xs        :string           default(""), not null
 #  title               :string           default(""), not null, indexed
-#  video_provider      :string           default("youtube"), not null
+#  video_provider      :string           default("youtube"), not null, indexed => [date]
 #  view_count          :integer          default(0)
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null, indexed
@@ -35,14 +35,14 @@
 #
 # Indexes
 #
-#  index_talks_on_date            (date)
-#  index_talks_on_discarded_at    (discarded_at)
-#  index_talks_on_event_id        (event_id)
-#  index_talks_on_kind            (kind)
-#  index_talks_on_parent_talk_id  (parent_talk_id)
-#  index_talks_on_slug            (slug)
-#  index_talks_on_title           (title)
-#  index_talks_on_updated_at      (updated_at)
+#  index_talks_on_date                     (date)
+#  index_talks_on_event_id                 (event_id)
+#  index_talks_on_kind                     (kind)
+#  index_talks_on_parent_talk_id           (parent_talk_id)
+#  index_talks_on_slug                     (slug)
+#  index_talks_on_title                    (title)
+#  index_talks_on_updated_at               (updated_at)
+#  index_talks_on_video_provider_and_date  (video_provider,date)
 #
 # Foreign Keys
 #
@@ -51,6 +51,7 @@
 #
 # rubocop:enable Layout/LineLength
 class Talk < ApplicationRecord
+  include Rollupable
   include Sluggable
   include Suggestable
   include Searchable
@@ -75,7 +76,7 @@ class Talk < ApplicationRecord
   has_many :watch_list_talks, dependent: :destroy
   has_many :watch_lists, through: :watch_list_talks
 
-  has_one :talk_transcript, class_name: "Talk::Transcript", dependent: :destroy
+  has_one :talk_transcript, class_name: "Talk::Transcript", dependent: :destroy, touch: true
   accepts_nested_attributes_for :talk_transcript
   delegate :transcript, :raw_transcript, :enhanced_transcript, to: :talk_transcript, allow_nil: true
 
@@ -96,7 +97,7 @@ class Talk < ApplicationRecord
   before_validation :set_kind, if: -> { !kind_changed? }
 
   # enums
-  enum :video_provider, %w[youtube mp4 vimeo scheduled not_published not_recorded parent].index_by(&:itself)
+  enum :video_provider, %w[youtube mp4 vimeo scheduled not_published not_recorded parent children].index_by(&:itself)
   enum :kind,
     %w[keynote talk lightning_talk panel workshop gameshow podcast q_and_a discussion fireside_chat
       interview award].index_by(&:itself)
@@ -142,6 +143,7 @@ class Talk < ApplicationRecord
   # jobs
   performs :update_from_yml_metadata!
   performs :fetch_and_update_raw_transcript!, retries: 3
+  performs :fetch_duration_from_youtube!
 
   # normalization
   normalizes :language, apply_to_nil: true, with: ->(language) do
@@ -170,11 +172,37 @@ class Talk < ApplicationRecord
 
   # ensure that during the reindex process the associated records are eager loaded
   scope :meilisearch_import, -> { includes(:speakers, :event) }
-  scope :without_raw_transcript, -> { where("raw_transcript IS NULL OR raw_transcript = '' OR raw_transcript = '[]'") }
-  scope :with_raw_transcript, -> { where("raw_transcript IS NOT NULL AND raw_transcript != '[]'") }
+  scope :without_raw_transcript, -> {
+    joins(:talk_transcript)
+      .where(%(
+        talk_transcripts.raw_transcript IS NULL
+        OR talk_transcripts.raw_transcript = ''
+        OR talk_transcripts.raw_transcript = '[]'
+      ))
+  }
+  scope :with_raw_transcript, -> {
+    joins(:talk_transcript)
+      .where(%(
+        talk_transcripts.raw_transcript IS NOT NULL
+        AND talk_transcripts.raw_transcript != '[]'
+      ))
+  }
   scope :without_enhanced_transcript, \
-    -> { where("enhanced_transcript IS NULL OR enhanced_transcript = '' OR enhanced_transcript = '[]'") }
-  scope :with_enhanced_transcript, -> { where("enhanced_transcript IS NOT NULL AND enhanced_transcript != '[]'") }
+    -> {
+      joins(:talk_transcript)
+        .where(%(
+          talk_transcripts.enhanced_transcript IS NULL
+          OR talk_transcripts.enhanced_transcript = ''
+          OR talk_transcripts.enhanced_transcript = '[]'
+        ))
+    }
+  scope :with_enhanced_transcript, -> {
+    joins(:talk_transcript)
+      .where(%(
+        talk_transcripts.enhanced_transcript IS NOT NULL
+        AND talk_transcripts.enhanced_transcript != '[]'
+      ))
+  }
   scope :with_summary, -> { where("summary IS NOT NULL AND summary != ''") }
   scope :without_summary, -> { where("summary IS NULL OR summary = ''") }
   scope :without_topics, -> { where.missing(:talk_topics) }
@@ -393,8 +421,15 @@ class Talk < ApplicationRecord
 
   def fetch_and_update_raw_transcript!
     youtube_transcript = Youtube::Transcript.get(video_id)
-    transcript = talk_transcript || Talk::Transcript.new
+    transcript = talk_transcript || Talk::Transcript.new(talk: self)
     transcript.update!(raw_transcript: ::Transcript.create_from_youtube_transcript(youtube_transcript))
+  end
+
+  def fetch_duration_from_youtube!
+    return unless youtube?
+
+    duration = Youtube::Video.new.duration(video_id)
+    update! duration_in_seconds: ActiveSupport::Duration.parse(duration).to_i
   end
 
   def update_from_yml_metadata!(event: nil)

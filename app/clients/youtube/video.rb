@@ -18,5 +18,17 @@ module Youtube
         }
       end
     end
+
+    def duration(video_id)
+      path = "/videos"
+      query = {
+        part: "contentDetails",
+        id: video_id
+      }
+
+      response = all_items(path, query: query)
+
+      response&.first&.dig("contentDetails", "duration")
+    end
   end
 end

@@ -32,7 +32,7 @@
           <%= render "shared/navbar/link", link_title: "Contribute", path: contributions_path %>
         <% end %>
 
-        <%= render "shared/navbar/search_bar" %>
+        <%= render "shared/navbar/search_bar", id: "magnifying-glass" %>
 
         <% signed_in do %>
           <%= render "shared/user_dropdown" %>
@@ -44,7 +44,7 @@
       </ul>
 
       <div class="flex lg:hidden gap-2">
-        <%= render "shared/navbar/search_bar" %>
+        <%= render "shared/navbar/search_bar", id: "magnifying-glass-mobile" %>
         <%= render "shared/user_mobile_dropdown" %>
       </div>
     </div>
