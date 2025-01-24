@@ -3,11 +3,12 @@
 #
 # Table name: speaker_talks
 #
-#  id         :integer          not null, primary key
-#  created_at :datetime         not null
-#  updated_at :datetime         not null
-#  speaker_id :integer          not null, indexed, indexed => [talk_id]
-#  talk_id    :integer          not null, indexed => [speaker_id], indexed
+#  id           :integer          not null, primary key
+#  discarded_at :datetime
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#  speaker_id   :integer          not null, indexed, indexed => [talk_id]
+#  talk_id      :integer          not null, indexed => [speaker_id], indexed
 #
 # Indexes
 #
@@ -18,6 +19,9 @@
 # rubocop:enable Layout/LineLength
 class SpeakerTalk < ApplicationRecord
   self.table_name = "speaker_talks"
+
+  # mixins
+  include Discard::Model
 
   # associations
   belongs_to :speaker, counter_cache: :talks_count
