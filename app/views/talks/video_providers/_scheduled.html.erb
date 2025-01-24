@@ -7,9 +7,9 @@
     </span>
 
     <% if talk.date.past? %>
-      This talk was
+      This <%= talk.kind %> was
     <% else %>
-      This talk is scheduled to be
+      This <%= talk.kind %> is scheduled to be
     <% end %>
 
     held at <%= talk.event.name %>
