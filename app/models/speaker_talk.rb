@@ -24,7 +24,7 @@ class SpeakerTalk < ApplicationRecord
   include Discard::Model
 
   # associations
-  belongs_to :speaker, counter_cache: :talks_count
+  belongs_to :speaker
   belongs_to :talk, touch: true
 
   validates :speaker_id, uniqueness: {scope: :talk_id}
