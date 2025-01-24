@@ -28,4 +28,9 @@ class SpeakerTalk < ApplicationRecord
   belongs_to :talk, touch: true
 
   validates :speaker_id, uniqueness: {scope: :talk_id}
+
+  # callbacks
+  after_commit do
+    speaker.update_column(:talks_count, speaker.talks.count)
+  end
 end

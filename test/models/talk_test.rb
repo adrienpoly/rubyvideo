@@ -293,4 +293,13 @@ class TalkTest < ActiveSupport::TestCase
     talk = talks(:one)
     assert_includes Talk.for_topic("activerecord"), talk
   end
+
+  test "discarded speaker_talks" do
+    talk = talks(:one)
+    speaker_talk = talk.speaker_talks.first
+    speaker_talk.discard
+    assert_equal 0, talk.speaker_talks.count
+    assert_equal 1, talk.all_speaker_talks.count
+    assert_equal 0, speaker_talk.speaker.talks_count
+  end
 end
