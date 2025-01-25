@@ -66,10 +66,11 @@ class Talk < ApplicationRecord
   belongs_to :parent_talk, optional: true, class_name: "Talk", foreign_key: :parent_talk_id
 
   has_many :child_talks, class_name: "Talk", foreign_key: :parent_talk_id, dependent: :destroy
-  has_many :speaker_talks, -> { kept }, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
-  has_many :all_speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id, class_name: "SpeakerTalk"
+  has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
+  has_many :kept_speaker_talks, -> { kept }, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id,
+    class_name: "SpeakerTalk"
   has_many :speakers, through: :speaker_talks, inverse_of: :talks
-  has_many :all_speakers, through: :all_speaker_talks, inverse_of: :talks, class_name: "Speaker", source: :speaker
+  has_many :kept_speakers, through: :kept_speaker_talks, inverse_of: :talks, class_name: "Speaker", source: :speaker
 
   has_many :talk_topics, dependent: :destroy
   has_many :topics, through: :talk_topics

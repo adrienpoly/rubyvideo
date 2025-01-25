@@ -35,6 +35,6 @@ class SpeakerTalk < ApplicationRecord
   private
 
   def update_speaker_talks_count
-    speaker.update_column(:talks_count, speaker.talks.count)
+    speaker.update_column(:talks_count, speaker.kept_talks.count)
   end
 end

@@ -66,8 +66,8 @@ class Avo::Resources::Talk < Avo::BaseResource
     field :thumbnail_md, as: :external_image, hide_on: :index
     field :thumbnail_lg, as: :external_image, hide_on: :index
     field :thumbnail_xl, as: :external_image, hide_on: :index
-    field :all_speaker_talks, as: :has_many, resource: Avo::Resources::SpeakerTalk, attach_scope: -> { query.order(name: :asc) }
-    field :speakers, as: :has_many, resource: Avo::Resources::Talk, attach_scope: -> { query.order(name: :asc) }
+    field :speaker_talks, as: :has_many, attach_scope: -> { query.order(name: :asc) }
+    field :speakers, as: :has_many, attach_scope: -> { query.order(name: :asc) }
     field :raw_transcript, as: :textarea, hide_on: :index, format_using: -> { value&.to_text }, readonly: true
     field :enhanced_transcript, as: :textarea, hide_on: :index, format_using: -> { value&.to_text }, readonly: true
     # field :suggestions, as: :has_many

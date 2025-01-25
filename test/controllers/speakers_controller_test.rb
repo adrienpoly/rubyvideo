@@ -157,4 +157,15 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     assert_includes speaker_names, @speaker_with_talk.name
     assert_includes canonical_slugs, last.slug
   end
+
+  test "discarded speaker_talks" do
+    speaker = speakers(:yaroslav)
+    assert speaker.talks_count.positive?
+
+    speaker.speaker_talks.each(&:discard)
+
+    get speaker_url(speaker)
+    assert_response :success
+    assert_equal 0, assigns(:talks).count
+  end
 end

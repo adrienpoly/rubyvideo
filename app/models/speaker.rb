@@ -51,10 +51,10 @@ class Speaker < ApplicationRecord
   }.freeze
 
   # associations
-  has_many :speaker_talks, -> { kept }, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
-  has_many :all_speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id,
-    class_name: "SpeakerTalk"
+  has_many :speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
   has_many :talks, through: :speaker_talks, inverse_of: :speakers
+  has_many :kept_talks, -> { joins(:speaker_talks).where(speaker_talks: {discarded_at: nil}) },
+    through: :speaker_talks, inverse_of: :speakers, class_name: "Talk", source: :talk
   has_many :events, -> { distinct }, through: :talks, inverse_of: :speakers
   has_many :aliases, class_name: "Speaker", foreign_key: "canonical_id"
   has_many :topics, through: :talks
