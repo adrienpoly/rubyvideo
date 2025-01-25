@@ -64,6 +64,7 @@ class Speaker < ApplicationRecord
 
   # validations
   validates :canonical, exclusion: {in: ->(speaker) { [speaker] }, message: "can't be itself"}
+  validates :name, presence: true, uniqueness: {case_sensitive: false}
 
   # scope
   scope :with_talks, -> { where.not(talks_count: 0) }
