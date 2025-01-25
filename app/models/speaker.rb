@@ -92,6 +92,12 @@ class Speaker < ApplicationRecord
     "https://#{instance}/@#{handle}"
   }
 
+  def self.reset_talks_counts
+    find_each do |speaker|
+      speaker.update_column(:talks_count, speaker.talks.count)
+    end
+  end
+
   def title
     name
   end
@@ -224,13 +230,12 @@ class Speaker < ApplicationRecord
       save!
 
       speaker_talks.each do |speaker_talk|
-        speaker_talk.update(speaker: canonical_speaker)
+        SpeakerTalk.create(talk: speaker_talk.talk, speaker: canonical_speaker)
       end
 
       # We need to destroy the remaining speaker_talks. They can be remaining given the unicity constraint
       # on the speaker_talks table. The update above swallows the error if the speaker_talk duet exists already
       SpeakerTalk.where(speaker_id: id).destroy_all
-      Speaker.reset_counters(canonical_speaker.id, :talks)
     end
   end
 

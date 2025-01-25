@@ -297,6 +297,7 @@ class TalkTest < ActiveSupport::TestCase
   test "discarded speaker_talks" do
     talk = talks(:one)
     speaker_talk = talk.speaker_talks.first
+    assert_equal 1, speaker_talk.speaker.talks_count
     speaker_talk.discard
     assert_equal 0, talk.speaker_talks.count
     assert_equal 1, talk.all_speaker_talks.count

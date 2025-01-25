@@ -24,6 +24,7 @@ class ActiveSupport::TestCase
 
     Talk.rebuild_search_index
     Speaker.rebuild_search_index
+    Speaker.reset_talks_counts
   end
   # Run tests in parallel with specified workers
   parallelize(workers: :number_of_processors)

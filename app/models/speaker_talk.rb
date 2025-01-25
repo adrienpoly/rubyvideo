@@ -30,7 +30,11 @@ class SpeakerTalk < ApplicationRecord
   validates :speaker_id, uniqueness: {scope: :talk_id}
 
   # callbacks
-  after_commit do
+  after_commit :update_speaker_talks_count
+
+  private
+
+  def update_speaker_talks_count
     speaker.update_column(:talks_count, speaker.talks.count)
   end
 end
