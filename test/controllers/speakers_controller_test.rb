@@ -28,6 +28,12 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should show speaker with talks" do
+    get speaker_url(@speaker_with_talk)
+    assert_response :success
+    assert_equal @speaker_with_talk.talks_count, assigns(:talks).length
+  end
+
   test "should redirect to canonical speaker" do
     talk = @speaker_with_talk.talks.first
     @speaker_with_talk.assign_canonical_speaker!(canonical_speaker: @speaker)
