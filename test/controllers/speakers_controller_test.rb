@@ -28,6 +28,12 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should show speaker with talks" do
+    get speaker_url(@speaker_with_talk)
+    assert_response :success
+    assert_equal @speaker_with_talk.talks_count, assigns(:talks).length
+  end
+
   test "should redirect to canonical speaker" do
     talk = @speaker_with_talk.talks.first
     @speaker_with_talk.assign_canonical_speaker!(canonical_speaker: @speaker)
@@ -156,5 +162,16 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
 
     assert_includes speaker_names, @speaker_with_talk.name
     assert_includes canonical_slugs, last.slug
+  end
+
+  test "discarded speaker_talks" do
+    speaker = speakers(:yaroslav)
+    assert speaker.talks_count.positive?
+
+    speaker.speaker_talks.each(&:discard)
+
+    get speaker_url(speaker)
+    assert_response :success
+    assert_equal 0, assigns(:talks).count
   end
 end

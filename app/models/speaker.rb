@@ -53,6 +53,8 @@ class Speaker < ApplicationRecord
   # associations
   has_many :speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
   has_many :talks, through: :speaker_talks, inverse_of: :speakers
+  has_many :kept_talks, -> { joins(:speaker_talks).where(speaker_talks: {discarded_at: nil}).distinct },
+    through: :speaker_talks, inverse_of: :speakers, class_name: "Talk", source: :talk
   has_many :events, -> { distinct }, through: :talks, inverse_of: :speakers
   has_many :aliases, class_name: "Speaker", foreign_key: "canonical_id"
   has_many :topics, through: :talks
@@ -90,6 +92,12 @@ class Speaker < ApplicationRecord
 
     "https://#{instance}/@#{handle}"
   }
+
+  def self.reset_talks_counts
+    find_each do |speaker|
+      speaker.update_column(:talks_count, speaker.talks.count)
+    end
+  end
 
   def title
     name
@@ -223,13 +231,12 @@ class Speaker < ApplicationRecord
       save!
 
       speaker_talks.each do |speaker_talk|
-        speaker_talk.update(speaker: canonical_speaker)
+        SpeakerTalk.create(talk: speaker_talk.talk, speaker: canonical_speaker)
       end
 
       # We need to destroy the remaining speaker_talks. They can be remaining given the unicity constraint
       # on the speaker_talks table. The update above swallows the error if the speaker_talk duet exists already
       SpeakerTalk.where(speaker_id: id).destroy_all
-      Speaker.reset_counters(canonical_speaker.id, :talks)
     end
   end
 

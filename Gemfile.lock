@@ -154,6 +154,8 @@ GEM
     difftastic (0.2.0-x86_64-darwin)
     difftastic (0.2.0-x86_64-linux)
     diffy (3.4.3)
+    discard (1.4.0)
+      activerecord (>= 4.2, < 9.0)
     docile (1.4.1)
     dockerfile-rails (1.7.3)
       rails (>= 3.0.0)
@@ -643,6 +645,7 @@ DEPENDENCIES
   country_select
   debug
   diffy
+  discard
   dockerfile-rails (>= 1.2)
   dotenv-rails
   dry-initializer-rails

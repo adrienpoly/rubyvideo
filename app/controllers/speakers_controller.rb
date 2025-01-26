@@ -24,7 +24,7 @@ class SpeakersController < ApplicationController
 
   # GET /speakers/1
   def show
-    @talks = @speaker.talks.includes(:speakers, event: :organisation, child_talks: :speakers).order(date: :desc)
+    @talks = @speaker.kept_talks.includes(:speakers, event: :organisation, child_talks: :speakers).order(date: :desc)
     @topics = @speaker.topics.approved.tally.sort_by(&:last).reverse.map(&:first)
 
     @back_path = speakers_path
