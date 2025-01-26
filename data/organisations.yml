@@ -719,3 +719,15 @@
   slug: polishrubyusergroup
   language: english
   youtube_channel_id: ""
+
+- name: Lyon.rb Meetup
+  website: https://www.meetup.com/LyonRB
+  twitter: lyonrb
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: ""
+  default_country_code: FR
+  youtube_channel_name: "Lyonrb"
+  slug: lyon-rb
+  language: french
+  youtube_channel_id: "UCFqRbkEEaM4w1iEK1ovBXxg"
