@@ -83,8 +83,14 @@
       published_at: "2019-11-06"
       video_provider: not_published
       video_id: joseph-lyon-rb-meetup-september-2019
+      language: french
+      thumbnail_xs: https://img.youtube.com/vi/vxBLdeLLWUc/default.jpg
+      thumbnail_sm: https://img.youtube.com/vi/vxBLdeLLWUc/mqdefault.jpg
+      thumbnail_md: https://img.youtube.com/vi/vxBLdeLLWUc/mqdefault.jpg
+      thumbnail_lg: https://img.youtube.com/vi/vxBLdeLLWUc/hqdefault.jpg
+      thumbnail_xl: https://img.youtube.com/vi/vxBLdeLLWUc/hqdefault.jpg
       speakers:
-        - Joseph
+        - Joseph Blanchard
 
 - title: Lyon.rb Meetup October 2019
   event_name: Lyon.rb Meetup October 2019
