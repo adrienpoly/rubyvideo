@@ -99,7 +99,7 @@ class Talk < ApplicationRecord
   validates :published_at, presence: true, if: :published_state?
 
   def published_state?
-    video_provider.in?(["youtube", "mp4", "vimeo", "children", "parent"])
+    video_provider.in?(["youtube", "mp4", "vimeo"])
   end
 
   # delegates
