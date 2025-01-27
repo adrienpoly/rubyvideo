@@ -67,7 +67,7 @@ MeiliSearch::Rails.deactivate! do
           end
         end
       rescue ActiveRecord::RecordInvalid => e
-        puts "Couldn't save: #{talk_data["title"]}, error: #{e.message}"
+        puts "Couldn't save: #{talk_data["title"]} (#{talk_data["video_id"]}), error: #{e.message}"
       end
     end
   end
