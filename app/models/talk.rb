@@ -4,6 +4,7 @@
 # Table name: talks
 #
 #  id                  :integer          not null, primary key
+#  announced_at        :datetime
 #  date                :date             indexed, indexed => [video_provider]
 #  description         :text             default(""), not null
 #  duration_in_seconds :integer
@@ -14,6 +15,7 @@
 #  language            :string           default("en"), not null
 #  like_count          :integer          default(0)
 #  meta_talk           :boolean          default(FALSE), not null
+#  published_at        :datetime
 #  slides_url          :string
 #  slug                :string           default(""), not null, indexed
 #  start_seconds       :integer
@@ -92,6 +94,13 @@ class Talk < ApplicationRecord
   validates :title, presence: true
   validates :language, presence: true,
     inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
+
+  # validates :date, presence: true # TODO: enable this
+  validates :published_at, presence: true, if: :published_state?
+
+  def published_state?
+    video_provider.in?(["youtube", "mp4", "vimeo", "children", "parent"])
+  end
 
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
@@ -450,19 +459,13 @@ class Talk < ApplicationRecord
       return
     end
 
-    date = static_metadata.try(:date) ||
-      (parent_talk && parent_talk.static_metadata.try(:date)) ||
-      static_metadata.try(:published_at) ||
-      (parent_talk && parent_talk.static_metadata.try(:published_at)) ||
-      event.start_date ||
-      event.end_date ||
-      Date.parse("#{static_metadata.year}-01-01")
-
     assign_attributes(
       event: event,
       title: static_metadata.title,
       description: static_metadata.description,
-      date: date,
+      date: static_metadata.try(:date),
+      published_at: static_metadata.try(:published_at),
+      announced_at: static_metadata.try(:announced_at),
       thumbnail_xs: static_metadata["thumbnail_xs"] || "",
       thumbnail_sm: static_metadata["thumbnail_sm"] || "",
       thumbnail_md: static_metadata["thumbnail_md"] || "",
