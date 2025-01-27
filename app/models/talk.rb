@@ -365,6 +365,18 @@ class Talk < ApplicationRecord
     Talk.includes(event: :organisation).where(id: ids)
   end
 
+  def announced_at
+    Date.parse(static_metadata[:announced_at])
+  rescue => e
+    nil
+  end
+
+  def published_at
+    Date.parse(static_metadata[:published_at])
+  rescue => e
+    nil
+  end
+
   def formatted_date
     date.strftime("%B %d, %Y")
   rescue => _e

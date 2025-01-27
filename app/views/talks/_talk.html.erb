@@ -254,7 +254,19 @@
         <article class="prose">
           <p>
             <b><%= talk.title %></b><br>
-            <%= talk.speakers.map(&:name).to_sentence %> • <%= talk.formatted_date %> <% if talk.event.location %> • <%= talk.event.location %><% end %> <% if language && language != "English" %> • <%= language %> <% end %> • <%= talk.formatted_kind %>
+            <%= talk.speakers.map(&:name).to_sentence %>
+            <% if talk.event.location %> • <%= talk.event.location %><% end %>
+            <% if language && language != "English" %> • <%= language %> <% end %> •
+            <%= talk.formatted_kind %>
+          </p>
+
+          <p>
+            Date: <% if talk.date %> <%= talk.formatted_date %> <% else %> unknown<% end %><br/>
+
+            <span class="text-gray-400">
+              Published: <% if talk.published_at %><%= talk.published_at.strftime("%B %d, %Y") %><% else %> not published<% end %><br/>
+              Announced: <% if talk.announced_at %><%= talk.announced_at.strftime("%B %d, %Y") %><% else %> unknown<% end %>
+            </span>
           </p>
 
           <%= simple_format auto_link(talk.description, html: {target: "_blank", class: "link"}) %>
