@@ -731,3 +731,15 @@
   slug: lyon-rb
   language: french
   youtube_channel_id: "UCFqRbkEEaM4w1iEK1ovBXxg"
+
+- name: Ruby Australia
+  website: http://ruby.org.au
+  twitter: rubyconf
+  kind: organisation
+  frequency: unknown
+  playlist_matcher: Meetups
+  default_country_code: AU
+  youtube_channel_name: RubyAustralia
+  slug: ruby-australia
+  language: english
+  youtube_channel_id: UCr38SHAvOKMDyX3-8lhvJHA
