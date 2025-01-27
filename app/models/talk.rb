@@ -450,9 +450,10 @@ class Talk < ApplicationRecord
       return
     end
 
-    date = static_metadata.try(:date) ||
+    date =
+      Date.parse(static_metadata.try(:date)) rescue nil ||
       (parent_talk && parent_talk.static_metadata.try(:date)) ||
-      static_metadata.try(:published_at) ||
+      Time.parse(static_metadata.try(:published_at)).to_date rescue nil ||
       (parent_talk && parent_talk.static_metadata.try(:published_at)) ||
       event.start_date ||
       event.end_date ||
