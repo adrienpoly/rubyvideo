@@ -20,7 +20,10 @@ def fetch_speakers
 
     speakers.concat(parsed_response["speakers"].map { |speaker| speaker.except("id", "updated_at", "created_at", "talks_count") })
     current_page += 1
-    break if parsed_response.dig("pagination", "next_page").nil?
+
+    next_page = parsed_response.dig("pagination", "next_page")
+    pages = parsed_response.dig("pagination", "pages")
+    break if next_page.nil? || current_page > pages
   end
 
   speakers
