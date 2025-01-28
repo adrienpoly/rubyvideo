@@ -66,7 +66,7 @@ class Speaker < ApplicationRecord
 
   # validations
   validates :canonical, exclusion: {in: ->(speaker) { [speaker] }, message: "can't be itself"}
-  validates :name, presence: true, uniqueness: {case_sensitive: false}
+  validates :github, uniqueness: {case_sensitive: false}
 
   # scope
   scope :with_talks, -> { where.not(talks_count: 0) }
@@ -76,7 +76,9 @@ class Speaker < ApplicationRecord
   scope :not_canonical, -> { where.not(canonical_id: nil) }
 
   # normalizes
-  normalizes :github, with: ->(value) { value.gsub(/^(?:https?:\/\/)?(?:www\.)?github\.com\//, "").gsub(/^@/, "") }
+  normalizes :github, with: ->(value) {
+    value.gsub(/^(?:https?:\/\/)?(?:www\.)?github\.com\//, "").gsub(/^@/, "").downcase
+  }
   normalizes :twitter, with: ->(value) { value.gsub(%r{https?://(?:www\.)?(?:x\.com|twitter\.com)/}, "").gsub(/@/, "") }
   normalizes :bsky, with: ->(value) {
                             value.gsub(%r{https?://(?:www\.)?(?:x\.com|bsky\.app/profile)/}, "").gsub(/@/, "")
