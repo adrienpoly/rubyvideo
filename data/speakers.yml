@@ -12851,23 +12851,22 @@
   website: https://marianposaceanu.com
   slug: marian-posaceanu
   canonical_slug:
-- name: Mario Alberto Chávez
-  twitter: mario_chavez
-  github: mariochavez
-  bio: |-
-    I live in Colima, México, where I work on personal photography projects about territory, popular culture, and memory. Also, I'm a software engineer who enjoys Ruby on Rails.
-
-    https://mariochavez.io
-    https://foto.mariochavez.io/
-  website: https://mariochavez.io
-  slug: mario-alberto-chavez
-  canonical_slug:
 - name: Mario Arias
   twitter: ""
   github: ""
   bio: ""
   website: ""
   slug: mario-arias
+  canonical_slug:
+- name: Mario Chávez
+  twitter: mario_chavez
+  github: mariochavez
+  bio:
+    "I live in Colima, México, where I work on personal photography projects about
+    territory, popular culture, and memory. Also, I'm a software engineer who enjoys
+    Ruby on Rails.\r\n\r\nhttps://mariochavez.io\r\nhttps://foto.mariochavez.io/"
+  website: https://mariochavez.io
+  slug: mario-chavez
   canonical_slug:
 - name: Mario Gonzalez
   twitter: ""
