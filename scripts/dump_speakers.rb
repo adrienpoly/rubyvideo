@@ -14,7 +14,7 @@ def fetch_speakers
   current_page = 1
 
   loop do
-    uri = URI("#{API_ENDPOINT}?page=#{current_page}")
+    uri = URI("#{API_ENDPOINT}?page=#{current_page}&with_talks=false")
     response = Net::HTTP.get(uri)
     parsed_response = JSON.parse(response)
 
@@ -22,19 +22,18 @@ def fetch_speakers
     current_page += 1
 
     next_page = parsed_response.dig("pagination", "next_page")
-    pages = parsed_response.dig("pagination", "pages")
-    break if next_page.nil? || current_page > pages
+    break if next_page.nil?
   end
 
   speakers
 end
 
-def save_to_yaml(data)
-  File.write(OUTPUT_FILE, data.to_yaml)
+def save_to_yaml(data, file_name)
+  File.write(file_name, data.to_yaml)
 end
 
 speakers_data = fetch_speakers
-save_to_yaml(speakers_data)
+save_to_yaml(speakers_data, OUTPUT_FILE)
 
 puts "Speakers data saved to #{OUTPUT_FILE}"
 
