@@ -148,12 +148,12 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index as JSON" do
-    first = Speaker.first
-    last = Speaker.last
-    first.assign_canonical_speaker!(canonical_speaker: last)
-    first.reload
+    speaker = speakers(:two)
+    canonical = speakers(:jim)
+    speaker.assign_canonical_speaker!(canonical_speaker: canonical)
+    speaker.reload
 
-    get speakers_url, as: :json
+    get speakers_url(canonical: false, with_talks: false), as: :json
     assert_response :success
 
     json_response = JSON.parse(response.body)
@@ -161,7 +161,17 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     canonical_slugs = json_response["speakers"].map { |speaker_data| speaker_data["canonical_slug"] }
 
     assert_includes speaker_names, @speaker_with_talk.name
-    assert_includes canonical_slugs, last.slug
+    assert_includes canonical_slugs, canonical.slug
+  end
+
+  test "should get index as JSON with all canonical speakers includind speakers without talks" do
+    get speakers_url(with_talks: false), as: :json
+    assert_response :success
+
+    json_response = JSON.parse(response.body)
+    speaker_names = json_response["speakers"].map { |speaker_data| speaker_data["name"] }
+
+    assert_equal speaker_names.count, Speaker.all.count
   end
 
   test "discarded speaker_talks" do
