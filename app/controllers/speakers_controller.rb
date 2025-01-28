@@ -18,9 +18,7 @@ class SpeakersController < ApplicationController
     respond_to do |format|
       format.html
       format.turbo_stream
-      format.json do
-        @pagy, @speakers = pagy(@speakers.order(:name), limit: params[:per_page])
-      end
+      format.json
     end
   end
 
