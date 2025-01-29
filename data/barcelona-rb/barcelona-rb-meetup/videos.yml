@@ -94,3 +94,55 @@
         X: https://x.com/RubyEurope
       speakers:
         - Genar Trias Ortis
+# 2025
+
+- title: "Barcelona.rb February 2025"
+  event_name: "Barcelona.rb February 2025"
+  date: "2025-02-11"
+  announced_at: "2025-01-29 14:51:00 UTC"
+  video_provider: "children"
+  video_id: "barcelona-rb-meetup-february-2025"
+  thumbnail_xs: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp?w=640
+  thumbnail_sm: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp?w=1080
+  thumbnail_md: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp
+  thumbnail_lg: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp
+  thumbnail_xl: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp
+  description: |-
+    Hi there, Fellow Ruby Engineers!
+
+    Barcelona.rb is coming back after the New Year break with two fantastic talks. First, Kirill Platonov will introduce us to the world of ViewComponents, then Gleb Glazov will share his favourite tips and tricks on how to boost your productivity.
+
+    📆 11.02.2024
+    ⏰ 18:00
+    📍 Loft de Gràcial, C. de Montmany, 30, Barcelona
+
+    Agenda
+
+    🎙️ 18:30. Kirill Platonov - Getting Started with ViewComponents.
+    🎙️ 19:30. Gleb Glazov - My workflow sucks, yours shouldn't a.k.a. how to use computer efficiently.
+    🔥 Networking!
+
+    After a substantial dose of knowledge, we invite you to engage in discussions during the informal part. Hope to see you there!
+
+    https://www.meetup.com/barcelona-rb/events/305879212
+  talks:
+    - title: "Getting Started with ViewComponents"
+      event_name: "Barcelona.rb February 2025"
+      date: "2025-02-11"
+      video_provider: "scheduled"
+      video_id: "kirill-platonov-barcelona-rb-meetup-february-2025"
+      language: english
+      description: ""
+      speakers:
+        - Kirill Platonov
+
+    - title: "My workflow sucks, yours shouldn't a.k.a. how to use computer efficiently"
+      event_name: "Barcelona.rb February 2025"
+      date: "2025-02-11"
+      announced_at: "2025-01-29 14:51:00 UTC"
+      video_provider: "scheduled"
+      video_id: "gleb-glazov-barcelona-rb-meetup-february-2025"
+      language: english
+      description: ""
+      speakers:
+        - Gleb Glazov
