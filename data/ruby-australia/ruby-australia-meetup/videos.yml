@@ -1931,8 +1931,8 @@
   raw_title: '"Intro to Stenography Coding" - Paul'
   speakers:
     - Paul
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Sydney Meetup April 2023
+  date: "2023-04-11"
   published_at: "2023-04-17T03:24:48Z"
   description:
     "Paul introduces us to stenography: shorthand writing that you may
@@ -1941,15 +1941,15 @@
   video_provider: youtube
   video_id: 3W9_k2CXrXE
 
-- title: How to make an awesome github landing page
-  raw_title: How to make an awesome github landing page - Anton Pantaleev
+- title: How to make an Awesome GitHub Landing Page
+  raw_title: How to make an awesome github landing page - Anton Panteleev
   speakers:
-    - Anton Pantaleev
+    - Anton Panteleev
   event_name: Ruby Australia Meetup # TODO: city/month
   date: "TODO"
   published_at: "2023-04-25T06:42:43Z"
   description:
-    Anton Pantaleev shares some tips and tricks to make your github landing
+    Anton Panteleev shares some tips and tricks to make your GitHub landing
     page stand out and making it look awesome!
   video_provider: youtube
   video_id: oDmt4_xcVf0
@@ -1972,8 +1972,8 @@
   raw_title: 10 Minutes with YJIT - Adam Rice
   speakers:
     - Adam Rice
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Melbourne Meetup May 2023
+  date: "2023-05-05"
   published_at: "2023-05-28T07:21:38Z"
   description:
     Want to know what YJIT is all about? Adam Rice will give you a run
@@ -1985,8 +1985,8 @@
   raw_title: Roll your own Ruby type checking - Tristan Penman
   speakers:
     - Tristan Penman
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Melbourne Meetup May 2023
+  date: "2023-05-05"
   published_at: "2023-05-28T07:30:05Z"
   description: Tristan Penman on how to roll your very own Ruby type check!
   video_provider: youtube
@@ -1996,8 +1996,8 @@
   raw_title: A collection of RubyConf talks experiences - Michael Milewski
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Melbourne Meetup May 2023
+  date: "2023-05-31"
   published_at: "2023-06-25T02:10:45Z"
   description:
     Ever wondered how does it feels like to deliver a streak of successful
@@ -2010,7 +2010,7 @@
   raw_title: The Commit Narrative - Adam Rice
   speakers:
     - Adam Rice
-  event_name: Ruby Australia Meetup # TODO: city/month
+  event_name: Ruby Australia Melbourne Meetup # TODO: month
   date: "TODO"
   published_at: "2023-06-25T02:01:03Z"
   description:
@@ -2021,14 +2021,14 @@
   video_id: J3yu8VgWLO0
 
 - title: Observability and OpenTelemetry
-  raw_title: Observability and OpenTelemetry - Anton Pantaleev
+  raw_title: Observability and OpenTelemetry - Anton Panteleev
   speakers:
-    - Anton Pantaleev
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+    - Anton Panteleev
+  event_name: Ruby Australia Melbourne Meetup June 2023
+  date: "2023-06-28"
   published_at: "2023-07-25T07:23:20Z"
   description:
-    Anton Pantaleev is back again presenting why observability in programming
+    Anton Panteleev is back again presenting why observability in programming
     is a hot and important topic, and how does OpenTelemetry enables effective observability
     for developers.
   video_provider: youtube
@@ -2039,8 +2039,8 @@
   speakers:
     - Selena Small
     - Michael Milewski
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Melbourne Meetup June 2023
+  date: "2023-06-28"
   published_at: "2023-07-25T07:17:38Z"
   description:
     A fun and interactive talk that engages the audiences on voting for
@@ -2066,8 +2066,8 @@
   raw_title: Minimax for Ultimate Tic Tac Toe - Winston Lau
   speakers:
     - Winston Lau
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Meetup August 2023 # TODO: city
+  date: "2023-08-08"
   published_at: "2023-08-10T02:31:16Z"
   description:
     Winston Lau is back again sharing with us his take on the minimax algorithm
@@ -2083,7 +2083,7 @@
     solution - Matt Hood
   speakers:
     - Matt Hood
-  event_name: Ruby Australia Meetup # TODO: city/month
+  event_name: Ruby Australia Melbourne Meetup # TODO: month
   date: "TODO"
   published_at: "2023-08-20T04:48:45Z"
   description:
@@ -2098,7 +2098,7 @@
   raw_title: Tips for new / junior developers - Thomas Himawan
   speakers:
     - Thomas Himawan
-  event_name: Ruby Australia Meetup # TODO: city/month
+  event_name: Ruby Australia Melbourne Meetup # TODO: month
   date: "TODO"
   published_at: "2023-08-20T04:58:44Z"
   description:
@@ -2112,7 +2112,7 @@
   raw_title: A production bug - 26 years in the making - Ryan Bigg
   speakers:
     - Ryan Bigg
-  event_name: Ruby Australia Meetup # TODO: city/month
+  event_name: Ruby Australia Melbourne Meetup # TODO: month
   date: "TODO"
   published_at: "2023-08-20T04:51:22Z"
   description:
@@ -2129,7 +2129,7 @@
   speakers:
     - Michael Pope
     - Daniel Curtis
-  event_name: Ruby Australia Meetup # TODO: city/month
+  event_name: Ruby Australia Melbourne Meetup # TODO: month
   date: "TODO"
   published_at: "2023-09-26T07:11:03Z"
   description:
@@ -2143,7 +2143,7 @@
   raw_title: But why does it work - Rian McGuire
   speakers:
     - Rian McGuire
-  event_name: Ruby Australia Meetup # TODO: city/month
+  event_name: Ruby Australia Melbourne Meetup # TODO: month
   date: "TODO"
   published_at: "2023-09-26T07:13:18Z"
   description:
@@ -2157,8 +2157,8 @@
   raw_title: Unleashing the power of pair presenting - Selena Small
   speakers:
     - Selena Small
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Melbourne Meetup # TODO: month
+  date: "2023-09-xx"
   published_at: "2023-10-25T01:30:12Z"
   description:
     Selena Small shares her experiences on the power of pair presenting,
@@ -2171,8 +2171,8 @@
   raw_title: Final Project Showcase with Academy Xi Bootcamp - Tony Hansord
   speakers:
     - Tony Hansord
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Melbourne Meetup October 2023
+  date: "2023-10-25"
   published_at: "2023-11-06T04:29:07Z"
   description:
     Tony showcases his very functional, practical, yet designed with finesse
@@ -2185,8 +2185,8 @@
   raw_title: Thoughts on Environment Variables - Michael Milewski
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Melbourne Meetup October 2023
+  date: "2023-10-25"
   published_at: "2023-11-06T04:27:53Z"
   description:
     Michael Milewski shares his thoughts on environment variables, and
@@ -2195,10 +2195,10 @@
   video_id: Pf-IrWRm-UE
 
 - title: Big O Complexity on Job Search
-  raw_title: Big O Complexity on Job Search - Anton Pantaleev
+  raw_title: Big O Complexity on Job Search - Anton Panteleev
   speakers:
-    - Anton Pantaleev
-  event_name: Ruby Australia Meetup # TODO: city/month
+    - Anton Panteleev
+  event_name: Ruby Australia Melbourne Meetup # TODO: month
   date: "TODO"
   published_at: "2023-11-06T04:28:05Z"
   description:
@@ -2212,7 +2212,7 @@
   raw_title: Modular Monoliths with Rails Engines - Anton Katunin
   speakers:
     - Anton Katunin
-  event_name: Ruby Australia Meetup # TODO: city/month
+  event_name: Ruby Australia Melbourne Meetup # TODO: month
   date: "TODO"
   published_at: "2024-01-25T00:08:45Z"
   description:
@@ -2226,7 +2226,7 @@
   raw_title: Processing DMARC reports via Action Mailbox - Adam Rice
   speakers:
     - Adam Rice
-  event_name: Ruby Australia Meetup # TODO: city/month
+  event_name: Ruby Australia Melbourne Meetup # TODO: month
   date: "TODO"
   published_at: "2024-02-21T04:12:48Z"
   description:
@@ -2239,8 +2239,8 @@
   raw_title: Fibers in Ruby - KJ Tsanaktsidis
   speakers:
     - KJ Tsanaktsidis
-  event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Melbourne Meetup January 2024
+  date: "2024-01-25"
   published_at: "2024-02-21T08:42:17Z"
   description:
     Curious on what are Fibers in Ruby, what it does and why should you
@@ -2254,7 +2254,7 @@
   speakers:
     - Michael Milewski
   event_name: Ruby Australia Meetup # TODO: city/month
-  date: "TODO"
+  date: "2024-02-22"
   published_at: "2024-03-24T08:17:58Z"
   description:
     Can you host your rails application from home? Of course you can! Michael
@@ -2267,7 +2267,7 @@
   raw_title: The Economics of Ruby - John Sherwood
   speakers:
     - John Sherwood
-  event_name: Ruby Australia Meetup # TODO: city/month # TODO: city/month
+  event_name: Ruby Australia Meetup # TODO: city/month
   date: "TODO"
   published_at: "2024-04-19T07:46:25Z"
   description:
@@ -2276,12 +2276,12 @@
   video_provider: youtube
   video_id: ydU3WvLoXpY
 
-- title: One billion rows in Ruby
+- title: One Billion Rows in Ruby
   raw_title: One billion rows in Ruby - Rian McGuire
   speakers:
     - Rian McGuire
-  event_name: Ruby Australia Meetup # TODO: city/month # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Melbourne Meetup March 2024
+  date: "2024-03-28"
   published_at: "2024-04-19T07:51:47Z"
   description:
     Rian McGuire presents his journey on a challenge about processing a
@@ -2290,11 +2290,11 @@
   video_provider: youtube
   video_id: evvoWsP8o5Q
 
-- title: Dissecting Rails
+- title: Demystifying Rails
   raw_title: Dissecting Rails - Anton Panteleev
   speakers:
     - Anton Panteleev
-  event_name: Ruby Australia Meetup # TODO: city/month # TODO: city/month
+  event_name: Ruby Australia Meetup # TODO: city/month
   date: "TODO"
   published_at: "2024-05-21T09:58:39Z"
   description:
@@ -2302,13 +2302,14 @@
     you what are some of the wonderful parts that make today's Rails.
   video_provider: youtube
   video_id: LavkZM_CQME
+  slides_url: https://friendlyantz.me/demystifying-rails
 
 - title: Pagination with Ruby
   raw_title: Pagination with Ruby - Simon Hildebrandt
   speakers:
     - Simon Hildebrandt
-  event_name: Ruby Australia Meetup # TODO: city/month # TODO: city/month
-  date: "TODO"
+  event_name: Ruby Australia Melbourne Meetup May 2024
+  date: "2024-05-23"
   published_at: "2024-06-27T04:16:48Z"
   description:
     Simon Hidebrandt on using Ruby to explain a popular new approach to
@@ -2322,7 +2323,7 @@
   raw_title: Laravel, meet my friend Turbo - Adam Rice
   speakers:
     - Adam Rice
-  event_name: Ruby Australia Meetup # TODO: city/month # TODO: city/month
+  event_name: Ruby Australia Meetup # TODO: city/month
   date: "2024-06-27"
   published_at: "2024-07-23T10:06:23Z"
   description:
@@ -2435,7 +2436,7 @@
   published_at: "2024-11-27T07:10:42Z"
   description:
     Celia King giving an evaluation talk of Cursor, how to configure it,
-    which AI model to use, and a look at the pros and cons of Cursor compared to github
+    which AI model to use, and a look at the pros and cons of Cursor compared to GitHub
     Copilot.
   video_provider: youtube
   video_id: AkDXMIFETyY
