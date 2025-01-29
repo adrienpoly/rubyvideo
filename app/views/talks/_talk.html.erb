@@ -69,12 +69,20 @@
     <% end %>
 
     <div class="flex flex-col md:gap-1 w-full divide-y">
-      <div class="flex flex-wrap w-full divide-y xl:divide-y-0 justify-between">
+      <div class="flex flex-wrap w-full divide-y justify-between">
         <div class="py-4 font-bold text-xl">
           <span><%= talk.title %></span>
         </div>
 
         <div class="flex grow gap-1 py-3 lg:divide-y-0 text-xs xl:justify-end overflow-y-visible overflow-x-scroll lg:overflow-x-hidden order-last xl:order-none">
+          <% if Current.user&.admin? %>
+            <%= ui_button url: avo.resources_talk_path(talk), kind: :pill, target: "_blank" do %>
+              <%= fa :avocado, size: :xs, style: :solid %>
+
+              <span class="text-xs">Open in Avo</span>
+            <% end %>
+          <% end %>
+
           <% if talk.youtube? || talk.parent_talk&.youtube? %>
             <%= ui_tooltip "Watch on YouTube" do %>
               <%= ui_button url: talk.external_player_url, kind: :pill, target: "_blank", data: {action: "click->video-player#pause"} do %>
@@ -251,10 +259,10 @@
           </p>
 
           <p>
-            Date: <% if talk.date %> <%= talk.formatted_date %> <% else %> unknown<% end %><br/>
+            Date: <% if talk.date %> <%= talk.formatted_date %> <% else %> unknown<% end %><br>
 
             <span class="text-gray-400">
-              Published: <% if talk.published_at %><%= talk.published_at.strftime("%B %d, %Y") %><% else %> not published<% end %><br/>
+              Published: <% if talk.published_at %><%= talk.published_at.strftime("%B %d, %Y") %><% else %> not published<% end %><br>
               Announced: <% if talk.announced_at %><%= talk.announced_at.strftime("%B %d, %Y") %><% else %> unknown<% end %>
             </span>
           </p>

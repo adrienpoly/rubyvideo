@@ -16,7 +16,8 @@
       <% end %>
   </div>
   <div id="speakers" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 lg:gap-x-12 gap-y-2 min-w-full">
-    <% cache @speakers do %>
+    <%# we need special cache key for speakers because @speakers is paginated %>
+    <% cache [@speakers.except(:order).pluck(:id, :updated_at).hash] do %>
       <%= render partial: "speakers/speaker", collection: @speakers, as: :speaker, cached: true %>
     <% end %>
   </div>

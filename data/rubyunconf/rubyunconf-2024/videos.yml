@@ -14,8 +14,9 @@
   speakers:
     - Eileen M. Uchitelle
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-08"
-  description: ""
+  date: "2024-06-08"
+  published_at: "2025-01-27"
+  description: "Keynote by Eileen Uchitelle at the Ruby Unconf 2024 in Hamburg, Germany"
   video_provider: youtube
   video_id: r9Q5yyeH_zo
   id: keynote-the-magic-of-rails-ruby-unconf-2024
@@ -26,7 +27,7 @@
   speakers:
     - Alexander Sulim
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-08"
+  date: "2024-06-08"
   description:
     'Alexander Sulim: "Laziness-driven development is a set of rules that
     might help anyone to harness great power of laziness to create better software.
@@ -40,7 +41,7 @@
   speakers:
     - Ole Michaelis
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-08"
+  date: "2024-06-08"
   description: ""
   video_provider: youtube
   video_id: 15oe92S4hkw
@@ -52,7 +53,7 @@
   speakers:
     - Jochen Lillich
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-08"
+  date: "2024-06-08"
   description: ""
   video_provider: youtube
   video_id: KuocghIxvFE
@@ -62,7 +63,7 @@
   speakers:
     - Nina Siessegger
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-08"
+  date: "2024-06-08"
   description: ""
   video_provider: not_recorded
   video_id: nina-siessegger-ruby-unconf-2024
@@ -76,7 +77,7 @@
   speakers:
     - Joschka Schulz
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-08"
+  date: "2024-06-08"
   description: ""
   video_provider: not_recorded
   video_id: joschka-schulz-ruby-unconf-2024
@@ -90,7 +91,7 @@
     - Kaja Santro
     # - Nina # TODO: missing last name
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-08"
+  date: "2024-06-08"
   description: ""
   video_provider: youtube
   video_id: sCfVTYgSKVg
@@ -108,7 +109,7 @@
   speakers:
     - Simon Kaleschke
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-09"
+  date: "2024-06-09"
   description: ""
   video_provider: youtube
   video_id: IKlKOhN9NQE
@@ -118,7 +119,8 @@
   speakers:
     - Jan Krutisch
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-09"
+  date: "2024-06-09"
+  published_at: "2025-01-27"
   description: ""
   video_provider: youtube
   video_id: oaaLBmOrDh0
@@ -132,7 +134,7 @@
   speakers:
     - Michał Łęcicki
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-09"
+  date: "2024-06-09"
   description: ""
   video_provider: youtube
   video_id: DYr_HAgJtlo
@@ -142,7 +144,7 @@
   speakers:
     - Chikahiro Tokoro
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-09"
+  date: "2024-06-09"
   description: ""
   video_provider: youtube
   video_id: qgHm6EFm-Eg
@@ -154,7 +156,7 @@
   speakers:
     - TODO
   event_name: Ruby Unconf 2024
-  published_at: "2024-06-09"
+  date: "2024-06-09"
   description: ""
   video_provider: not_recorded
   video_id: lightning-talks-ruby-unconf-2024

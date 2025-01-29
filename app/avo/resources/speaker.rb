@@ -37,6 +37,7 @@ class Avo::Resources::Speaker < Avo::BaseResource
     filter Avo::Filters::Name
     filter Avo::Filters::Slug
     filter Avo::Filters::GitHub
+    filter Avo::Filters::GitHubHandle
   end
 
   def actions
