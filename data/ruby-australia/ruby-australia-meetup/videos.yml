@@ -144,7 +144,7 @@
   raw_title: Build Smart by Julio Ody
   speakers:
     - Julio Ody
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
   date: "TODO"
   published_at: "2017-05-22T21:56:07Z"
   description: ""
@@ -166,7 +166,7 @@
   raw_title: Zeus by Ben Hoskings
   speakers:
     - Ben Hoskings
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
   date: "TODO"
   published_at: "2017-05-22T21:57:21Z"
   description: ""
@@ -177,7 +177,7 @@
   raw_title: Cucumber by Mario Visic
   speakers:
     - Mario Visic
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
   date: "TODO"
   published_at: "2017-05-22T22:00:02Z"
   description: ""
@@ -188,7 +188,7 @@
   raw_title: Abusing the Router by Jon Rowe
   speakers:
     - Jon Rowe
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
   date: "TODO"
   published_at: "2017-05-22T22:00:24Z"
   description: ""
@@ -199,34 +199,34 @@
   raw_title: Building Crashlog.io by Ivan Vanderbyl
   speakers:
     - Ivan Vanderbyl
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2017-05-22T22:01:02Z"
   description: ""
   video_provider: youtube
   video_id: xyay1EQYWes
-  date: "TODO"
 
 - title: Wisp
   raw_title: Wisp by Andrew Grimm
   speakers:
     - Andrew Grimm
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2017-05-22T22:01:50Z"
   description: ""
   video_provider: youtube
   video_id: SoOMFLMcnB8
-  date: "TODO"
 
 - title: Rails 4
   raw_title: Rails 4 by Gareth Townsend
   speakers:
     - Gareth Townsend
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2017-05-22T21:58:10Z"
   description: ""
   video_provider: youtube
   video_id: aH18NRuU5QE
-  date: "TODO"
 
 - title: Best practices for testing in Rails
   raw_title: "Ruby Melbourne: Best practices for testing in Rails by Andrei Gridnev"
@@ -237,7 +237,6 @@
   description: March 2014
   video_provider: youtube
   video_id: SmADs6JyObI
-  date: "TODO"
 
 - title: ActiveSupport Notifications
   raw_title: "Ruby Melbourne: ActiveSupport Notifications by Matthew Delves"
@@ -248,7 +247,6 @@
   description: March 2014
   video_provider: youtube
   video_id: b8b-Hj6b_NE
-  date: "TODO"
 
 - title: Rails and the client
   raw_title: "Ruby Melbourne: Rails and the client by Chris D'Aloisio"
@@ -259,7 +257,6 @@
   description: March 2014
   video_provider: youtube
   video_id: 3GmYW-d6Oew
-  date: "TODO"
 
 - title: Location Based Gaming Platform
   raw_title: "Ruby Sydney: Location Based Gaming Platform by Ben Taylor"
@@ -270,62 +267,57 @@
   description: September 2012
   video_provider: youtube
   video_id: FiDPT8VubTc
-  date: "TODO"
 
 - title: Step away from Active Record
   raw_title: Adam Rice -  Step away from Active Record
   speakers:
     - Adam Rice
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2017-06-01T05:08:11Z"
   description: Ruby meetup on 31/05/2017
   video_provider: youtube
   video_id: _S3mAnfGqGQ
-  date: "TODO"
 
 - title: Grape with Swagger
   raw_title: Simon Hildebrandt - Grape with Swagger
   speakers:
     - Simon Hildebrandt
-  event_name: Ruby Australia Meetup May 2017
+  event_name: Ruby Australia Meetup # TODO: city/month May 2017
   published_at: "2017-06-01T06:14:04Z"
   description: Ruby meetup 31/05/2017
   video_provider: youtube
   video_id: "-agspVmHrKg"
-  date: "TODO"
 
 - title: Something totally unprepared and random
   raw_title: Lauren Hennessy - Something totally unprepared and random
   speakers:
     - Lauren Hennessy
-  event_name: Ruby Australia Meetup May 2017
+  event_name: Ruby Australia Meetup # TODO: city/month May 2017
   published_at: "2017-06-01T05:24:19Z"
   description: Ruby meetup 31/05/2017
   video_provider: youtube
   video_id: wAMryNKuSIY
-  date: "TODO"
 
 - title: Meta Presentation
   raw_title: Anton Katunin - Meta Presentation
   speakers:
     - Anton Katunin
-  event_name: Ruby Australia Meetup June 2017
+  event_name: Ruby Australia Meetup # TODO: city/month June 2017
   published_at: "2017-07-03T01:28:40Z"
   description: Ruby meetup - June 2017
   video_provider: youtube
   video_id: UEqm8lAaF8s
-  date: "TODO"
 
 - title: GraphQL for fun & Profit
   raw_title: Tom Adams - Graphql for fun & Profit
   speakers:
     - Tom Adams
-  event_name: Ruby Australia Meetup June 2017
+  event_name: Ruby Australia Meetup # TODO: city/month June 2017
   published_at: "2017-07-03T01:30:51Z"
   description: Ruby meetup June 2017
   video_provider: youtube
   video_id: Tub3XMumQvA
-  date: "TODO"
 
 - title: "The biggest cause of bugs in your application: `git commit`"
   raw_title:
@@ -333,12 +325,11 @@
     commit`"
   speakers:
     - Michael Dawson
-  event_name: Ruby Australia Meetup June 2017
+  event_name: Ruby Australia Meetup # TODO: city/month June 2017
   published_at: "2017-07-03T01:30:14Z"
   description: Ruby meetup June 2017
   video_provider: youtube
   video_id: JSfjV6-IAjQ
-  date: "TODO"
 
 - title: Functional affairs in Ruby
   raw_title: Jaya Wijono - Functional affairs in Ruby
@@ -349,73 +340,71 @@
   description: Ruby meetup - Melbourne August 2017
   video_provider: youtube
   video_id: TMCzv1fJ8yU
-  date: "TODO"
 
 - title: Your story matters
   raw_title: Tom Ridge - Your story matters
   speakers:
     - Tom Ridge
-  event_name: Ruby Australia Meetup August 2017
+  event_name: Ruby Australia Meetup # TODO: city/month August 2017
   published_at: "2017-09-08T00:01:18Z"
   description: Melbourne Ruby meetup - August 2017
   video_provider: youtube
   video_id: nChKjkG2NDw
-  date: "TODO"
 
 - title: Designing the perfect coding test
   raw_title: Ryan Bigg - Designing the perfect coding test
   speakers:
     - Ryan Bigg
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2017-10-30T23:40:41Z"
   description: ""
   video_provider: youtube
   video_id: DiYjDHKSH-Q
-  date: "TODO"
 
 - title: Dyslexia and Development
   raw_title: Tom Gamon - Dyslexia and Development
   speakers:
     - Tom Gamon
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2017-10-31T00:10:27Z"
   description: ""
   video_provider: youtube
   video_id: MO3TJsQ_hQo
-  date: "TODO"
 
 - title: Regex in Ruby
   raw_title: Melissa Kaulfuss - Regex in Ruby
   speakers:
     - Melissa Kaulfuss
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2017-12-28T05:13:00Z"
   description: ""
   video_provider: youtube
   video_id: dU97L1Jrji8
-  date: "TODO"
 
 - title: A programer's guide to Van Life
   raw_title: Chen Zhao - A programer's guide to Van Life
   speakers:
     - Chen Zhao
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2017-12-28T23:00:40Z"
   description: ""
   video_provider: youtube
   video_id: TvY7LJ6l3Mo
-  date: "TODO"
 
 - title: Rails anti-patterns
   raw_title: Elle Meredith - Rails anti-patterns
   speakers:
     - Elle Meredith
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2017-12-28T05:21:24Z"
   description: ""
   video_provider: youtube
   video_id: fU-mPNd-3AI
-  date: "TODO"
 
 - title: Smaller is always better
   raw_title: Phil Nash - Smaller is always better
@@ -426,7 +415,6 @@
   description: Ruby meetup. melbourne, Feb 2018
   video_provider: youtube
   video_id: mmtwp8RPPAA
-  date: "TODO"
 
 - title: Story telling for your codebase with Git
   raw_title: Andre Vidic - Story telling for your codebase with Git
@@ -437,7 +425,6 @@
   description: Melbourne ruby. Feb 2018
   video_provider: youtube
   video_id: 7Zv3-h2AFKw
-  date: "TODO"
 
 - title: Functional affairs in Ruby part II
   raw_title: Jaya Wijono - Functional affairs in Ruby part II
@@ -448,417 +435,416 @@
   description: Ruby meetup. Melbourne Feb 2018
   video_provider: youtube
   video_id: OoXLy5tg9rw
-  date: "TODO"
 
 - title: Presenting SVG graphs
   raw_title: Rhiana Heath - Presenting SVG graphs
   speakers:
     - Rhiana Heath
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-05-30T01:30:51Z"
   description: ""
   video_provider: youtube
   video_id: dDrdH_0BKLc
-  date: "TODO"
 
 - title: GraphQL in Rails
   raw_title: Jeremy Kirkham - GraphQL in Rails
   speakers:
     - Jeremy Kirkham
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-05-30T01:42:55Z"
   description: ""
   video_provider: youtube
   video_id: CA5feVQ3bJI
-  date: "TODO"
 
 - title: Breaking builds & Breaking bones
   raw_title: Selena Small - Breaking builds & Breaking bones
   speakers:
     - Selena Small
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-07-02T00:02:45Z"
   description: ""
   video_provider: youtube
   video_id: 7bTXuIBhwGI
-  date: "TODO"
 
 - title: Vi everywhere, what's your superpower?
   raw_title: Michael Milewski - Vi everywhere, what's your superpower?
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-07-02T00:05:14Z"
   description: ""
   video_provider: youtube
   video_id: l6dwu6cCfkM
-  date: "TODO"
 
 - title: Rails in real time
   raw_title: Anton Katunin - Rails in real time
   speakers:
     - Anton Katunin
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-07-27T04:24:37Z"
   description: ""
   video_provider: youtube
   video_id: hHYTC5cPhms
-  date: "TODO"
 
 - title: Composition over inheritance
   raw_title: Elle Meredith - Composition over inheritance
   speakers:
     - Elle Meredith
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-07-27T04:06:01Z"
   description: ""
   video_provider: youtube
   video_id: QKkyq1UE9eU
-  date: "TODO"
 
 - title: Applied Event Sourcing in deX
   raw_title: Brendan Weibrecht  - Applied Event Sourcing in deX
   speakers:
     - Brendan Weibrecht
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-10-12T05:55:34Z"
   description: ""
   video_provider: youtube
   video_id: KOfG3BK2Ue8
-  date: "TODO"
 
 - title: Fantastic Passwords and where to find them
   raw_title: Phil Nash - Fantastic Passwords and where to find them
   speakers:
     - Phil Nash
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-10-12T06:43:25Z"
   description: ""
   video_provider: youtube
   video_id: fu8zxwr7kNk
-  date: "TODO"
 
 - title: What are blocks
   raw_title: Tom Dalling - What are blocks
   speakers:
     - Tom Dalling
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-10-12T03:38:45Z"
   description: ""
   video_provider: youtube
   video_id: HR8iA4Hk1Ck
-  date: "TODO"
 
 - title: Pondering MVC
   raw_title: Selena Small - Pondering MVC
   speakers:
     - Selena Small
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-10-12T03:50:18Z"
   description: ""
   video_provider: youtube
   video_id: Pw_w5vO1ZWg
-  date: "TODO"
 
 - title: Writing a Gem with native extensions
   raw_title: Tristan Penman -  Writing a Gem with native extensions
   speakers:
     - Tristan Penman
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-10-12T03:59:08Z"
   description: ""
   video_provider: youtube
   video_id: O9GjC5oh0o0
-  date: "TODO"
 
 - title: Failing for the right reason
   raw_title: Selena Small and Michael Milewski - Failing for the right reason
   speakers:
     - Selena Small
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-11-01T01:46:05Z"
   description: ""
   video_provider: youtube
   video_id: p72EPNXbjiU
-  date: "TODO"
 
 - title: Know Thy App
   raw_title: Lachie Cox - Know Thy App
   speakers:
     - Lachie Cox
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-12-18T06:36:23Z"
   description: ""
   video_provider: youtube
   video_id: z0pfFSNIVJc
-  date: "TODO"
 
 - title: Testing Ruby Microservices - A War Story
   raw_title: Olga Goloshapova - Testing Ruby Microservices - A War Story
   speakers:
     - Olga Goloshapova
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2018-12-18T06:29:23Z"
   description: ""
   video_provider: youtube
   video_id: YvpbcVbXHUc
-  date: "TODO"
 
 - title: Unpacking Rails Helpers magic
   raw_title: Vanessa Nimmo -  Unpacking Rails Helpers magic
   speakers:
     - Vanessa Nimmo
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-02-28T07:02:58Z"
   description: ""
   video_provider: youtube
   video_id: A6JQ9fUhtcA
-  date: "TODO"
 
 - title: Prying open Pry
   raw_title: Nick Wolf - Prying open Pry
   speakers:
     - Nick Wolf
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-02-28T06:52:31Z"
   description: ""
   video_provider: youtube
   video_id: TgC6YyKiWnI
-  date: "TODO"
 
 - title: Arguing with Ruby
   raw_title: Drew - Arguing with Ruby
   speakers:
     - Drew
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-02-28T07:11:32Z"
   description: ""
   video_provider: youtube
   video_id: me8CK_4TPpo
-  date: "TODO"
 
 - title: Knitting and TDD
   raw_title: Celia King - Knitting and TDD
   speakers:
     - Celia King
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-02-28T07:23:58Z"
   description: ""
   video_provider: youtube
   video_id: Xhyn9YcwM1o
-  date: "TODO"
 
 - title: Refactoring in Ruby
   raw_title: David Carlin - Refactoring in Ruby
   speakers:
     - David Carlin
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-02-28T07:31:06Z"
   description: ""
   video_provider: youtube
   video_id: HzxHBgsrBVY
-  date: "TODO"
 
 - title: Magic Tricks in Ruby
   raw_title: Ryan Bigg - Magic Tricks in Ruby
   speakers:
     - Ryan Bigg
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-02-28T07:39:47Z"
   description: ""
   video_provider: youtube
   video_id: lSiD3LZanPI
-  date: "TODO"
 
 - title: Actionable Errors in Rails 6
   raw_title: Michael Milewski - Actionable Errors in Rails 6
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-06-21T06:45:14Z"
   description: ""
   video_provider: youtube
   video_id: f65Eu_vl7OI
-  date: "TODO"
 
 - title: "Tiny Turing Toys: Tapes, States and Breaks"
   raw_title: "Xavier Shay - Tiny Turing Toys: Tapes, States and Breaks"
   speakers:
     - Xavier Shay
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-09-05T08:22:07Z"
   description: ""
   video_provider: youtube
   video_id: JJ5oQ6bya-I
-  date: "TODO"
 
 - title: Rails as a static site generator
   raw_title: Anton Katunin - Rails as a static site generator
   speakers:
     - Anton Katunin
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-09-05T08:56:25Z"
   description: ""
   video_provider: youtube
   video_id: wgz2-zpyLvM
-  date: "TODO"
 
 - title: Avoiding arrest with Rubocop
   raw_title: Nick Wolf  - Avoiding arrest with Rubocop
   speakers:
     - Nick Wolf
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-09-05T07:24:37Z"
   description: ""
   video_provider: youtube
   video_id: PkZTlvLmpvw
-  date: "TODO"
 
 - title: Making a game for Railscamp
   raw_title: Michael Morris  - Making a game for Railscamp
   speakers:
     - Michael Morris
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-09-05T07:52:52Z"
   description: ""
   video_provider: youtube
   video_id: L8Ql70FOWhE
-  date: "TODO"
 
 - title: My experience with TCR
   raw_title: Michael Milewski - My experience with TCR
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-09-05T08:12:21Z"
   description: ""
   video_provider: youtube
   video_id: OvtkD4O2dcE
-  date: "TODO"
 
 - title: 10 non code tips to be a better team member
   raw_title: Chris Aitchison - 10 non code tips to be a better team member
   speakers:
     - Chris Aitchison
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-09-05T08:21:34Z"
   description: ""
   video_provider: youtube
   video_id: kdJzevi0aMQ
-  date: "TODO"
 
 - title: Servers? We don't need them
   raw_title: Phil Nash - Servers? We don't need them
   speakers:
     - Phil Nash
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-11-11T05:34:33Z"
   description: ""
   video_provider: youtube
   video_id: 8HcImvJpMEE
-  date: "TODO"
 
 - title: Working Remotely
   raw_title: Toby Nieboer - Working Remotely
   speakers:
     - Toby Nieboer
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-11-11T05:29:57Z"
   description: ""
   video_provider: youtube
   video_id: P01gclPahxo
-  date: "TODO"
 
 - title: "The Milewski family: How I created an interactive slide show"
   raw_title: The Milewski family - How I created an interactive slide show
   speakers:
     - TODO
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-11-11T05:31:55Z"
   description: ""
   video_provider: youtube
   video_id: uIj-ipbPI3A
-  date: "TODO"
 
 - title: Data democratisation at UP
   raw_title: Chris Aitchison - Data democratisation at UP
   speakers:
     - Chris Aitchison
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2019-11-11T05:34:06Z"
   description: ""
   video_provider: youtube
   video_id: Rk31iOgJhJM
-  date: "TODO"
 
 - title: Enter the matrix
   raw_title: David Allen - Enter the matrix
   speakers:
     - David Allen
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-03-05T22:35:44Z"
   description: ""
   video_provider: youtube
   video_id: JAaSsZf7iuE
-  date: "TODO"
 
 - title: Committing to Overcommit
   raw_title: Nick Wolf  - Committing to Overcommit
   speakers:
     - Nick Wolf
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-03-05T23:31:11Z"
   description: ""
   video_provider: youtube
   video_id: ECBfynL_BzU
-  date: "TODO"
 
 - title: Some historical things about time
   raw_title: Celia - Some historical things about time
   speakers:
     - Celia
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-03-05T23:40:16Z"
   description: ""
   video_provider: youtube
   video_id: 91s0BMS5Jm0
-  date: "TODO"
 
 - title: This talk has been disabled (a talk on accessibility)
   raw_title: Dawn E. Collett - This talk has been disabled (a talk on accessibility)
   speakers:
     - Dawn E. Collett
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-03-06T00:43:30Z"
   description: ""
   video_provider: youtube
   video_id: vNj8ItVcwsE
-  date: "TODO"
 
 - title: How to Make a Gem
   raw_title: Pat Allan - How to Make a Gem
   speakers:
     - Pat Allan
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-03-25T21:13:31Z"
   description: ""
   video_provider: youtube
   video_id: jGQTP3gqQ1U
-  date: "TODO"
 
 - title: This Talk Has Been Disabled (with CC)
   raw_title: Dawn E. Collett - This Talk Has Been Disabled (with CC)
   speakers:
     - Dawn E. Collett
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-03-31T23:47:08Z"
   description:
     A closed captioned version of Dawn Collett's talk from the February
     2020 Melbourne Ruby Meetup
   video_provider: youtube
   video_id: wPlDNZtQ6QM
-  date: "TODO"
 
 - title: The most fun way to level up your team
   raw_title: The most fun way to level up your team - ROROSyd June 2020
@@ -871,7 +857,6 @@
     "level up" your team.'
   video_provider: youtube
   video_id: _OFU-6_sOCk
-  date: "TODO"
 
 - title: Preparing for the AWS Solutions Architect Exam
   raw_title:
@@ -886,7 +871,6 @@
     Architect Exam"
   video_provider: youtube
   video_id: rtMXLMeqMiA
-  date: "TODO"
 
 - title: "Exercism Challenge: Protein Translation"
   raw_title: "Exercism Challenge: Protein Translation - ROROSyd June 2020"
@@ -899,13 +883,13 @@
     https://exercism.io/tracks/ruby/exercises/protein-translation
   video_provider: youtube
   video_id: w9ajQhnTpJk
-  date: "TODO"
 
 - title: View Component 101
   raw_title: View Component 101 by Julián Pinzón Eslava
   speakers:
     - Julián Pinzón Eslava
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-07-21T07:45:38Z"
   description: |-
     Do you wish you could write React/Vue-like components without a single line of JS?
@@ -915,13 +899,13 @@
     This 10-15 minute talk contains a quick intro to what view component is and how you can use it to clean up, preview and test components using plain, old and boring Ruby on Rails.
   video_provider: youtube
   video_id: Lzsb-Q5Lm9g
-  date: "TODO"
 
 - title: Working with Tailwind and SVG
   raw_title: Working with Tailwind and SVG by Josh Price
   speakers:
     - Josh Price
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-07-22T02:03:31Z"
   description: |-
     I'm really loving Tailwind CSS for working server side without writing any CSS at all.
@@ -931,7 +915,6 @@
     I've been doing this with Elixir and Phoenix but it applies just the same in a Rails app (or any other server side rendered web framework for that matter).
   video_provider: youtube
   video_id: o9Y_uL18wZ4
-  date: "TODO"
 
 - title: "Exercism Challenge: RNA Transcription"
   raw_title: "Exercism Challenge: RNA Transcription - Gael Jerop - ROROSyd July 2020"
@@ -942,7 +925,6 @@
   description: ""
   video_provider: youtube
   video_id: B3fB6-4Fy7E
-  date: "TODO"
 
 - title: StimulusReflex - Insert Snappy Title Here
   raw_title:
@@ -955,7 +937,6 @@
   description: A brief introduction to using stimulus reflex
   video_provider: youtube
   video_id: sawnSXFkDng
-  date: "TODO"
 
 - title: Circuit Breaker in Ruby with Circuitbox
   raw_title:
@@ -970,39 +951,39 @@
     https://github.com/yammer/circuitbox
   video_provider: youtube
   video_id: 33l9ROqmapk
-  date: "TODO"
 
 - title: Automating your finances (and the Up API)
   raw_title: Automating your finances (and the Up API)
   speakers:
     - Paul Tagell
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-09-15T06:25:16Z"
   description:
     A totally unsolicited bucket of tips relating specifically to managing
     money automatically by Paul Tagell
   video_provider: youtube
   video_id: AQVw0i-5tRc
-  date: "TODO"
 
 - title: Minimalism in your Home(directory)
   raw_title: Minimalism in your Home(directory)
   speakers:
     - Nick Wolf
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-09-16T23:27:48Z"
   description:
     A short talk (5 - 10 minutes) about reducing the number of hidden files
     in your home directory by Nick Wolf
   video_provider: youtube
   video_id: NzvbcBaPhXc
-  date: "TODO"
 
 - title: A Request for Comments
   raw_title: A Request for Comments
   speakers:
     - Dan Cheail
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-09-16T07:07:21Z"
   description: |-
     When did comments become a bad thing? A short exploration of why the tide of public opinion has turned against comments, why I believe it's unhelpful and a light smattering of opinion about how to leverage them to help you and your team succeed.
@@ -1010,13 +991,13 @@
      by Dan Cheail
   video_provider: youtube
   video_id: OEQkgZfMoZw
-  date: "TODO"
 
 - title: Debugging Diversity in the Tech Industry
   raw_title: Debugging Diversity in the Tech Industry
   speakers:
     - Dan Draper
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-09-16T03:18:43Z"
   description: |-
     The talk covers:
@@ -1029,7 +1010,6 @@
     by Dan Draper
   video_provider: youtube
   video_id: n9nZmNmEutk
-  date: "TODO"
 
 - title: Twelve Days
   raw_title: "Exercism Challenge: Twelve Days - ROROSyd October 2020"
@@ -1042,7 +1022,6 @@
     exercism challenge'
   video_provider: youtube
   video_id: rvuUWVHGXeA
-  date: "TODO"
 
 - title: "Exercism Challenge: Matrix"
   raw_title: "Exercism Challenge: Matrix - ROROSyd October 2020"
@@ -1055,7 +1034,6 @@
     challenge'
   video_provider: youtube
   video_id: uE_FGwPjvi8
-  date: "TODO"
 
 - title: Binary Search Tree
   raw_title: "Exercism Challenge: Binary Search Tree - ROROSyd October 2020"
@@ -1068,26 +1046,26 @@
     Tree exercism challenge"
   video_provider: youtube
   video_id: "-m4UvFDy3Hw"
-  date: "TODO"
 
 - title: Handling errors in Ruby using functional programming
   raw_title: Handling errors in Ruby using functional programming by Carlos Rojas
   speakers:
     - Carlos Rojas
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-11-25T04:11:17Z"
   description:
     A beginner-friendly talk with a brief description of monads in the
     Ruby ecosystem.
   video_provider: youtube
   video_id: aKGxvwnD9Lw
-  date: "TODO"
 
 - title: Arduino on Rails
   raw_title: Arduino on Rails by Michael Milewski
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-11-25T03:56:25Z"
   description: |-
     So what has Arduino, an open-source electronics hardware platform that reads and sets things using electrical voltages, got to do with *Rails, a web-application framework that includes everything for database-baked web apps, got to do with each other?
@@ -1095,33 +1073,32 @@
     well nothing, but I will present some of my experiments bringing them together.
   video_provider: youtube
   video_id: ASWD4EZqylU
-  date: "TODO"
 
 - title: Reflective testing
   raw_title: Reflective testing by maedi
   speakers:
     - maedi
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-11-25T03:59:14Z"
   description: |-
     Introduce the concept of reflective testing and demo Reflekt, a new gem which makes it possible:
     https://github.com/refIekt/reflekt
   video_provider: youtube
   video_id: yO_0JdcOND8
-  date: "TODO"
 
 - title: Intro to Crystal
   raw_title: Intro to Crystal - Amit Gaur
   speakers:
     - Amit Gaur
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-11-29T11:52:51Z"
   description:
     Amit Gaur - @websymphony, takes us through an intro to the Crystal
     programming language using ruby as a comparison.
   video_provider: youtube
   video_id: 1TLSC16Hf_4
-  date: "TODO"
 
 - title: Code-base specific lints for correctness and security
   raw_title:
@@ -1129,53 +1106,54 @@
     Semgrep - Clint Gibler
   speakers:
     - Clint Gibler
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-11-29T06:38:56Z"
   description: Clint Gibler - @clintgibler
   video_provider: youtube
   video_id: IfXxV1nzfJA
-  date: "TODO"
 
 - title: "Exercism Challenge: Darts"
   raw_title: "Exercism Challenge: Darts - Mike Rogers"
   speakers:
     - Mike Rogers
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-11-29T06:38:53Z"
   description: Mike Rogers - @MikeRogers0 takes on the "Darts" Exercism Challenge
   video_provider: youtube
   video_id: LRbHT9Th7ZM
-  date: "TODO"
 
 - title: "Exercism Challenge: Acronym"
   raw_title: "Exercism Challenge: Acronym - Jacin Yan"
   speakers:
     - Jacin Yan
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2020-11-29T06:41:18Z"
   description: Jacin Yan - @jacinjiyan takes on the "Acronym" Exercism challenge
   video_provider: youtube
   video_id: m3AOpnpqDVI
-  date: "TODO"
 
 - title: "Exercism Challenge: Space Age"
   raw_title: "Exercism Challenge: Space Age - Bence Fulop"
   speakers:
     - Bence Fulop
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-01-15T10:55:58Z"
   description:
     Bence Fulop takes us through his solution to the Exercism challenge
     Space Age
   video_provider: youtube
   video_id: rQ-JFE1mE74
-  date: "TODO"
 
 - title: Pokemon Ruby In Ruby
   raw_title: Pokemon Ruby In Ruby - Nathan ODonnell
   speakers:
     - Nathan ODonnell
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-01-15T11:02:20Z"
   description:
     Take a look at how Nathan has attempted to recreate Pokemon Ruby in
@@ -1183,70 +1161,70 @@
     emojis!
   video_provider: youtube
   video_id: OpBo5NZQsmc
-  date: "TODO"
 
 - title: "Exercism Challenge: The Tournament"
   raw_title: "Exercism Challenge: The Tournament - Sam Hammond"
   speakers:
     - Sam Hammond
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-01-15T11:06:53Z"
   description:
     Sam Hammon takes us through his solution to the Exercism challenge
     "The Tournament"
   video_provider: youtube
   video_id: fceyL62py1E
-  date: "TODO"
 
 - title: Introduction To TimeZones
   raw_title: Introduction To TimeZones - Lang Sharpe
   speakers:
     - Lang Sharpe
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-01-15T11:10:57Z"
   description: Lang Sharpe helps clear the air about how to work with timezones
   video_provider: youtube
   video_id: FfUay3iBSOc
-  date: "TODO"
 
 - title: "Exercism Challenge: ISBN Verifier"
   raw_title: "Exercism Challenge: ISBN Verifier by Bence Fulop"
   speakers:
     - Bence Fulop
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-01-26T22:03:19Z"
   description: ""
   video_provider: youtube
   video_id: OFym5QlfalU
-  date: "TODO"
 
 - title: "Exercism Challenge: Tournament"
   raw_title: "Exercism Challenge: Tournament by Mathieu Longe"
   speakers:
     - Mathieu Longe
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-01-26T22:11:38Z"
   description: ""
   video_provider: youtube
   video_id: GnLMSTG8v08
-  date: "TODO"
 
 - title: Work-life balance - what it is and how to get it
   raw_title: Work-life balance - what it is and how to get it by Elle Meredith
   speakers:
     - Elle Meredith
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-01-26T22:31:45Z"
   description: ""
   video_provider: youtube
   video_id: l5o9gq50ZcE
-  date: "TODO"
 
 - title: N+1 & Eager loading & Beyond
   raw_title: N+1 & Eager loading & Beyond - Rafael Nunes
   speakers:
     - Rafael Nunes
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-03-14T05:59:49Z"
   description:
     Rafael walks us through what the N+1 problem, how to identify it and
@@ -1254,50 +1232,50 @@
     before it goes to production
   video_provider: youtube
   video_id: 5ou4kZtgnoY
-  date: "TODO"
 
 - title: "Exercism: Simple Linked List"
   raw_title: "Exercism: Simple Linked List - Sugendran Ganess"
   speakers:
     - Sugendran Ganess
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-03-21T05:36:57Z"
   description: An implementation of a linked list in ruby
   video_provider: youtube
   video_id: igZt_W-AZ1U
-  date: "TODO"
 
 - title: What is CrystalBall
   raw_title: What is CrystalBall - Lang Sharpe
   speakers:
     - Lang Sharpe
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-03-21T05:36:56Z"
   description:
     Lang talks about the CrystalBall gem and how it might help speed up
     your unit tests
   video_provider: youtube
   video_id: 3NleoGVrDQ0
-  date: "TODO"
 
 - title: Docker for Developer Happiness
   raw_title: Docker for Developer Happiness - Mike Rogers
   speakers:
     - Mike Rogers
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-03-21T05:36:56Z"
   description:
     Mike shows us how to be productive as a developer using Docker to run
     your development environment
   video_provider: youtube
   video_id: FGEcfRE58Ag
-  date: "TODO"
 
 - title: View Components in the Wild
   raw_title: View Components in the Wild by Michael Milewski
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-03-28T10:26:57Z"
   description: |-
     Just some examples of how we at Fresho are using View Components to test rails views and help us decompose the front end, it will be wild! With the better design through composability, leading to simplifying testing and more consistent front ends.
@@ -1305,13 +1283,13 @@
     presented from https://github.com/failure-driven/view-components-in-the-wild
   video_provider: youtube
   video_id: ISWuPcCoChw
-  date: "TODO"
 
 - title: Ruby on Rails & Service Workers (PWA)
   raw_title: Ruby on Rails & Service Workers (PWA) by Mike Rogers
   speakers:
     - Mike Rogers
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-03-28T11:04:01Z"
   description: |-
     I've been messing about a little recently with Service Workers & Rails, the end result is you can have your app enter a "read-only" mode when the user goes offline (e.g. they lose network coverage). The cool thing, is it'll work without requiring converting to an SPA, so you can do when you're setup using Server Side Rendering (e.g. turbolinks + ERB templates).
@@ -1319,7 +1297,6 @@
     The main gist of the talk will be use webpacker-pwa & Workbox, or if you're using sprokets serviceworker-rails.
   video_provider: youtube
   video_id: FjNDrPDjm4o
-  date: "TODO"
 
 - title: "The Joy of Docs: Technical Writing for Developers and Engineers"
   raw_title:
@@ -1327,7 +1304,8 @@
     Scheider"
   speakers:
     - Dana Scheider
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-04-13T23:42:03Z"
   description: |-
     In this talk, I discuss communication, specifically technical writing, why it's important, and how to improve your skills. Emphasis is on identifying and empathising with your audience. The talk does not strictly cover the writing process as it is taught in schools, but rather focusses on orienting oneself towards readers' needs when writing technical documents or producing other technical writing. The information in this talk is applicable to any kind of technical writing, from commit messages to requests for comment (RFCs), as well as technical writing that is not strictly a part of a technical document (e.g., writing in an email to stakeholders about the status of development on a project).
@@ -1338,13 +1316,13 @@
     Bad technical writing is a huge waste of time. Every developer who's worked in the industry for any length of time has encountered vague and unhelpful documentation and seen how much time they spend trying to find information that should've been in the docs in the first place. Engineers who read RFCs and other longer-form documents may notice these documents often don't give adequate context or define terms, leading to more time spent on research rather than focussing on the tasks at hand.
   video_provider: youtube
   video_id: l8pFr1y14f8
-  date: "TODO"
 
 - title: How (and why) to write a GraphQL API in ruby
   raw_title: How (and why) to write a GraphQL API in ruby by Michael Morris
   speakers:
     - Michael Morris
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-04-14T00:18:07Z"
   description: |-
     How (and why) to write a GraphQL API in ruby
@@ -1359,39 +1337,39 @@
     - Pagination
   video_provider: youtube
   video_id: D9Ng7QXsBo4
-  date: "TODO"
 
 - title: Seeding Data in Ruby on Rails
   raw_title: Seeding Data in Ruby on Rails - Mike Rogers
   speakers:
     - Mike Rogers
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-05-05T12:58:55Z"
   description:
     Mike will walk us through what rails seeds are and why they're important,
     and more importantly how to do them well
   video_provider: youtube
   video_id: ZSZVUUQvyKI
-  date: "TODO"
 
 - title: Github Actions & Rails
   raw_title: Github Actions & Rails - Hemanth Haridas
   speakers:
     - Hemanth Haridas
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-05-05T12:56:16Z"
   description:
     Hemanth will introduce Github actions and show us how to get started
     with a rails app using Github actions
   video_provider: youtube
   video_id: iq0SfgKLIvY
-  date: "TODO"
 
 - title: React On Rails
   raw_title: React On Rails - Akash Chhetri
   speakers:
     - Akash Chhetri
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-05-18T22:49:23Z"
   description: |-
     Akash shows us how to integrate ReactJS with Rails using a REST api, he talks about the benefit and drawback of using React compared to a templating languages like ERB
@@ -1401,26 +1379,26 @@
     @akash_research
   video_provider: youtube
   video_id: 7c-nMTpl2E0
-  date: "TODO"
 
 - title: Indexes
   raw_title: Indexes - Ceels
   speakers:
     - Ceels
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-05-19T23:57:57Z"
   description:
     in this lightning talk, Ceels rants about an octopus and show us her
     way to think about array indexes
   video_provider: youtube
   video_id: K1G1iqDAzU8
-  date: "TODO"
 
 - title: Making the most of the developer market
   raw_title: Making the most of the developer market - Debbie Teakle
   speakers:
     - Debbie Teakle
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-06-14T12:52:43Z"
   description:
     Whether you're job searching or not! Debbie takes us through a detailed
@@ -1428,35 +1406,35 @@
     of it.
   video_provider: youtube
   video_id: Tq2_6_ndLqU
-  date: "TODO"
 
 - title: "Exercism: Robot Simulator"
   raw_title: "Exercism: Robot Simulator - Hemanth Haridas"
   speakers:
     - Hemanth Haridas
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-06-29T11:34:09Z"
   description: Hemanth has done the robot simulator Exercism challenge from https://exercism.io/
   video_provider: youtube
   video_id: vkncK9MYIG0
-  date: "TODO"
 
 - title: Introduction to Mutation Testing
   raw_title: Introduction to Mutation Testing - Adam Rice
   speakers:
     - Adam Rice
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-06-29T11:32:23Z"
   description: A brief intro into mutation testing using the Mutant gem https://github.com/mbj/mutant
   video_provider: youtube
   video_id: rRWWKAygZEg
-  date: "TODO"
 
 - title: Talking Tech to the Not Technical
   raw_title: Talking Tech to the Not Technical - Nick Wolf
   speakers:
     - Nick Wolf
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-07-05T11:02:58Z"
   description:
     Nick wolf show us the benefit of breaking down hard concepts using
@@ -1464,7 +1442,6 @@
     Bob how how a web page loads without using any technical jargon
   video_provider: youtube
   video_id: x2BAHxT11io
-  date: "TODO"
 
 - title: Altering DNS with Ruby is a Terrible Idea... But Let's Do It Anyway
   raw_title:
@@ -1472,20 +1449,21 @@
     Pat Allan
   speakers:
     - Pat Allan
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-07-05T11:23:22Z"
   description:
     Pat Allan demonstrate how you can alter DNS using some of the new Ruby
     features... You might need it someday
   video_provider: youtube
   video_id: 3H6YUi68mdA
-  date: "TODO"
 
 - title: How to Give a Coding Challenge
   raw_title: How to Give a Coding Challenge - Akash Chhetri
   speakers:
     - Akash Chhetri
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-07-05T11:08:25Z"
   description:
     Akash uses his recent experience in interviewing for a new position
@@ -1493,13 +1471,13 @@
     what examiners want to see.
   video_provider: youtube
   video_id: gfPQcWgMng4
-  date: "TODO"
 
 - title: How to Stop i18n Getting Messy
   raw_title: How to Stop i18n Getting Messy - David Carlin
   speakers:
     - David Carlin
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-07-05T11:24:28Z"
   description:
     David shares with us what he has learnt over the years working with
@@ -1507,26 +1485,26 @@
     around i18n in his new team.
   video_provider: youtube
   video_id: t6ZMVW1FHes
-  date: "TODO"
 
 - title: Tips on how to get more from your salary negotiation
   raw_title: Tips on how to get more from your salary negotiation - Nadia Vu
   speakers:
     - Nadia Vu
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-08-14T07:26:21Z"
   description: |-
     Nadia & Co tell us how you can negotiate a higher salary, sometime it's not just about money.
     A Great Q&A follows
   video_provider: youtube
   video_id: Kbh7xkKAOR8
-  date: "TODO"
 
 - title: Data pipelines in Rails and Postgres
   raw_title: Data pipelines in Rails and Postgres - Micheal Millewski
   speakers:
     - Micheal Millewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-08-14T07:10:06Z"
   description:
     The nuts and bolts of how to insert and upsert data quickly in Rails
@@ -1535,52 +1513,52 @@
     using the chaining then to compose data transformations.
   video_provider: youtube
   video_id: cCm7-zagbwY
-  date: "TODO"
 
 - title: Action Cable 101
   raw_title: Action Cable 101 - David Smith
   speakers:
     - David Smith
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-08-29T10:49:26Z"
   description:
     David shares some of the main concepts in action cable, how it can
     be used and what to consider if you want to implement action cable
   video_provider: youtube
   video_id: XDR9Jf1HEZk
-  date: "TODO"
 
 - title: "A Rails Journey: From Paramedicine to Surfing Mountains"
   raw_title: "A Rails Journey: From Paramedicine to Surfing Mountains - Dan Solo"
   speakers:
     - Dan Solo
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-08-29T10:57:23Z"
   description:
     Dan takes us on his adventure to becoming a developer, from EMT to
     Ski Resort Manager/Recruiter
   video_provider: youtube
   video_id: rTx51yiirVM
-  date: "TODO"
 
 - title: Being the Most Valuable Engineer in your Team
   raw_title: Being the Most Valuable Engineer in your Team - David Carlin & co
   speakers:
     - David Carlin
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-08-30T09:23:55Z"
   description: |-
     David Carlin leads on discussion on how one can be the most valuable engineer in their team, and it's not just about code!
     This is an open discussion with the group  floating a few ideas and takeaways.
   video_provider: youtube
   video_id: Ht9YsXrM-D8
-  date: "TODO"
 
 - title: Private video
   raw_title: Private video
   speakers:
     - Private video
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-09-03"
   description: This video is private.
   video_provider: youtube
@@ -1590,20 +1568,21 @@
   raw_title: Stripe Integration for Dummies - Akash Chhetri
   speakers:
     - Akash Chhetri
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-09-30T23:32:45Z"
   description:
     Akash shows us how to integrate Stripe with Rails and explains the
     pitfall he fell into whilst trying to do it himself
   video_provider: youtube
   video_id: DJupgTe0rIs
-  date: "TODO"
 
 - title: 7+ ActiveModel Magic Tricks You Didn't Know About
   raw_title: 7+ ActiveModel Magic Tricks You Didn't Know About - Julián Pinzón Eslava
   speakers:
     - Julián Pinzón Eslava
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-09-30T23:40:18Z"
   description:
     Julian reveals to us how some of the Rails magic works by diving into
@@ -1612,13 +1591,13 @@
     single-handedly made him a better developer
   video_provider: youtube
   video_id: h0HF5-OiMqE
-  date: "TODO"
 
 - title: Stop Rubocop Fix-up Commits - Like Ever!
   raw_title: Stop Rubocop Fix-up Commits - Like Ever! - Michael Milewski
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-09-30T23:49:08Z"
   description:
     "We all love rubocop ❤️ - to keep consistent ruby styling\nLike Nick
@@ -1633,13 +1612,13 @@
     you can fix for your team!"
   video_provider: youtube
   video_id: G-vhAwVo0Ns
-  date: "TODO"
 
 - title: Live Query Streams in RethinkDB
   raw_title: Live Query Streams in RethinkDB - Simon Hildebrandt
   speakers:
     - Simon Hildebrandt
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-11-02T03:18:08Z"
   description:
     Simon explains to us the shortcomings he has encounter with traditional
@@ -1647,13 +1626,13 @@
     new potentials and he shows us how you would do live queries in RethinkDB
   video_provider: youtube
   video_id: k0t5FbGfH6k
-  date: "TODO"
 
 - title: Nailing Your Live Coding Job Interview in Ruby
   raw_title: Nailing Your Live Coding Job Interview in Ruby - Tom Dalling
   speakers:
     - Tom Dalling
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-11-02T03:00:22Z"
   description:
     Live coding over Zoom has become a popular way to do technical interviews
@@ -1661,26 +1640,26 @@
     of interview, with tips and suggestions.
   video_provider: youtube
   video_id: 7cyx_88m2CM
-  date: "TODO"
 
 - title: Unpacking the Committee
   raw_title: Unpacking the Committee - Nick Wolf
   speakers:
     - Nick Wolf
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-11-02T03:01:06Z"
   description:
     Nick Wolf, current president of Ruby Australia, talks to us about what
     the committee does and how YOU can be involved
   video_provider: youtube
   video_id: iCJzzH5-DAw
-  date: "TODO"
 
 - title: JWTs, what ruby developers need to know
   raw_title: JWTs, what ruby developers need to know - Dan Moore
   speakers:
     - Dan Moore
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-11-22T11:38:06Z"
   description: |-
     Dan Moore takes us through JSON Web Tokens (JWTs). JWTs are portable, stateless identifiers. They are often used to control access to APIs, but can be used in other contexts as well. The problem they solve is how to share identity details in a scalable, secure way.
@@ -1688,13 +1667,13 @@
     In this talk, Dan will dive deep into that problem, as well as how JWTs should be used, both in generation and in consumption. He'll also cover what kind of signing algorithms are available, when you should avoid a JWT and how to revoke them. He'll also include working code samples showing how to generate or consume JWTs as well as some common Ruby libraries that can be used.
   video_provider: youtube
   video_id: W2NHW6BVzz8
-  date: "TODO"
 
 - title: A Random Assortment of Code
   raw_title: A Random Assortment of Code - Pat Allan
   speakers:
     - Pat Allan
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-12-17T10:43:15Z"
   description: |-
     Pat shares some code snippets from different project's he's worked. They range from adding type checking and validation to ENV Vars to adding helper methods when using web mock.
@@ -1704,13 +1683,13 @@
     - Gem for the Render API: https://github.com/pat/render_api
   video_provider: youtube
   video_id: N4FfH6sPMs8
-  date: "TODO"
 
 - title: A blessing in default/"So Fetch"
   raw_title: A blessing in default/"So Fetch" - Elle Meredith
   speakers:
     - Elle Meredith
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-12-17T10:44:43Z"
   description:
     Elle shows us the benefits of using defaults to help reduce the number
@@ -1718,26 +1697,26 @@
     of reducing code branches.
   video_provider: youtube
   video_id: ynJqPdQBx_k
-  date: "TODO"
 
 - title: Up's Monolith Story
   raw_title: Up's Monolith Story - Anthony Langhorne
   speakers:
     - Anthony Langhorne
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2021-12-17T10:40:53Z"
   description:
     Anthony takes us through how Up have structured their monolith's codebase
     to make it easier to approach and build out new features.
   video_provider: youtube
   video_id: Og8KsKmUo_8
-  date: "TODO"
 
 - title: Introduction to ROD
   raw_title: Introduction to ROD - Matt Wang
   speakers:
     - Matt Wang
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-03-06T11:19:56Z"
   description:
     Matt takes us through a tool he's been developing to help deploy applications
@@ -1745,26 +1724,26 @@
     scaffolding new rails apps to be read to deploy out of the box.
   video_provider: youtube
   video_id: BM1Dymafsi0
-  date: "TODO"
 
 - title: How to nurture your career as a ruby developer
   raw_title: How to nurture your career as a ruby developer - Group Discussion
   speakers:
     - Group Discussion
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-03-06T11:21:47Z"
   description:
     ROROMelb opened the floor for a group discussion to chat about "How
     to nuture your career as a ruby developer"
   video_provider: youtube
   video_id: "-_0__lMTpts"
-  date: "TODO"
 
 - title: Image Compression
   raw_title: Image Compression - David Carlin
   speakers:
     - David Carlin
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-03-06T11:23:21Z"
   description:
     David digs into different image formats and what they're good for.
@@ -1772,13 +1751,13 @@
     etc). And the future of images on the web.
   video_provider: youtube
   video_id: VvQb_jf7Zhs
-  date: "TODO"
 
 - title: Building apps with turbo and stimulus
   raw_title: Building apps with turbo and stimulus - Julián Pizon
   speakers:
     - Julián Pizon
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-03-07T09:15:41Z"
   description:
     Juli takes us through what's involved when you want to build an app
@@ -1786,26 +1765,26 @@
     and Turbo Streams. As well as where stimulus JS fits into all of it.
   video_provider: youtube
   video_id: bmELTNa04p0
-  date: "TODO"
 
 - title: It's dangerous to go alone
   raw_title: It's dangerous to go alone - Allen Hsu
   speakers:
     - Allen Hsu
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-05-02T12:08:07Z"
   description:
     Allen shows us some techniques to help us find our way around a new
     code base.
   video_provider: youtube
   video_id: UsDlzCFVi_U
-  date: "TODO"
 
 - title: ROROnline - Round Table Discussion
   raw_title: ROROnline - Round Table Discussion
   speakers:
     - TODO
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-05-25T11:08:54Z"
   description: |-
     ROROnline organised a round table discussion, the topics include:
@@ -1816,13 +1795,13 @@
     - Chat about your side projects
   video_provider: youtube
   video_id: 9_LvFrIXpYY
-  date: "TODO"
 
 - title: How to pick a new employer
   raw_title: How to pick a new employer - Adel Smee
   speakers:
     - Adel Smee
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-06-05T10:05:26Z"
   description:
     Adel shows us some of the qualities to consider when you're thinking
@@ -1831,13 +1810,13 @@
     something to take away for everyone in this talk.
   video_provider: youtube
   video_id: G_TW5LaM6S0
-  date: "TODO"
 
 - title: Encrypting Activerecord Models
   raw_title: Encrypting Activerecord Models - Dan Draper
   speakers:
     - Dan Draper
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-06-05T03:47:31Z"
   description:
     Dan share's how to set up ActiveRecord EncryptedRecord in Rails 7,
@@ -1845,115 +1824,115 @@
     non-string fields.
   video_provider: youtube
   video_id: Hc52LTZx5kI
-  date: "TODO"
 
 - title: Was this a terrible terrible mistake?
   raw_title: Was this a terrible terrible mistake? - Yasmin Archibald
   speakers:
     - Yasmin Archibald
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-10-25T11:33:20Z"
   description: Yasmin shares her ongoing journey in becoming a jr developer.
   video_provider: youtube
   video_id: K6RJzkKTqNg
-  date: "TODO"
 
 - title: Experimental Methods in Sidekiq
   raw_title: Experimental Methods in Sidekiq - Michael Milewski
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-11-16T05:16:23Z"
   description:
     Michael Milewski sharing his experimental methods in a jobs system
     and processes called Sidekiq
   video_provider: youtube
   video_id: bnoaiBXsWok
-  date: "TODO"
 
 - title: Of Errors and Memes
   raw_title: Of Errors and Memes  - Justin Tan
   speakers:
     - Justin Tan
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-11-16T05:35:39Z"
   description:
     Justin Tan shares some of his valuable lessons from a General Assembly
     Software Engineering Immersive course. Yes, it involves errors and memes.
   video_provider: youtube
   video_id: lQ26rWCQdhI
-  date: "TODO"
 
 - title: "Testing in Production: there is a better way"
   raw_title: "Testing in Production: there is a better way - Igor Kapkov"
   speakers:
     - Igor Kapkov
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2022-12-16T05:42:04Z"
   description:
     Testing and refactoring! Igor Kapkov discusses these two core topics
     of the world of software.
   video_provider: youtube
   video_id: MkUs2EB65rQ
-  date: "TODO"
 
 - title: Present like a pro
   raw_title: Present like a pro - Katie McLaughlin
   speakers:
     - Katie McLaughlin
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-02-13T07:44:27Z"
   description:
     Katie McLaughlin on how to be a professional (and a superstar) on giving
     public talks!
   video_provider: youtube
   video_id: kHneB15WhXc
-  date: "TODO"
 
 - title: Running an app in 30 languages
   raw_title: Running an app in 30 languages - John Sherwood
   speakers:
     - John Sherwood
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-02-13T07:31:45Z"
   description:
     John Sherwood sharing his experiences in creating and running an app
     in 30 languages!
   video_provider: youtube
   video_id: 46jjEpvWxZE
-  date: "TODO"
 
 - title: Faster Rails
   raw_title: '"Faster Rails" - Justin'
   speakers:
     - Justin
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-04-17T02:59:06Z"
   description:
     Justin shares his tips for performance monitoring and the most common
     ways to improve response times.
   video_provider: youtube
   video_id: HLwEgSzK7So
-  date: "TODO"
 
 - title: The Multiverse of Madness
   raw_title: '"The Multiverse of Madness" - Tarun'
   speakers:
     - Tarun
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-04-17T02:44:22Z"
   description:
     Tarun teaches us how to manage state complexity across multiple databases
     like a true sorcerer supreme.
   video_provider: youtube
   video_id: QZnLmpeXRi0
-  date: "TODO"
 
 - title: Intro to Stenography Coding
   raw_title: '"Intro to Stenography Coding" - Paul'
   speakers:
     - Paul
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-04-17T03:24:48Z"
   description:
     "Paul introduces us to stenography: shorthand writing that you may
@@ -1961,26 +1940,26 @@
     used for coding in Ruby."
   video_provider: youtube
   video_id: 3W9_k2CXrXE
-  date: "TODO"
 
 - title: How to make an awesome github landing page
   raw_title: How to make an awesome github landing page - Anton Pantaleev
   speakers:
     - Anton Pantaleev
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-04-25T06:42:43Z"
   description:
     Anton Pantaleev shares some tips and tricks to make your github landing
     page stand out and making it look awesome!
   video_provider: youtube
   video_id: oDmt4_xcVf0
-  date: "TODO"
 
 - title: Black hat Ruby - creating a malicious ruby gem
   raw_title: Black hat Ruby - creating a malicious ruby gem - Dave Allie
   speakers:
     - Dave Allie
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-04-25T06:59:15Z"
   description:
     "Dave Allie on demonstrating the process of making a (for fun only)
@@ -1988,37 +1967,37 @@
     purposes only!"
   video_provider: youtube
   video_id: Ywx3fEogb1k
-  date: "TODO"
 
 - title: 10 Minutes with YJIT
   raw_title: 10 Minutes with YJIT - Adam Rice
   speakers:
     - Adam Rice
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-05-28T07:21:38Z"
   description:
     Want to know what YJIT is all about? Adam Rice will give you a run
     down on it!
   video_provider: youtube
   video_id: JQmOIjrLruQ
-  date: "TODO"
 
 - title: Roll your own Ruby type checking
   raw_title: Roll your own Ruby type checking - Tristan Penman
   speakers:
     - Tristan Penman
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-05-28T07:30:05Z"
   description: Tristan Penman on how to roll your very own Ruby type check!
   video_provider: youtube
   video_id: ghpn8m1odwI
-  date: "TODO"
 
 - title: A collection of RubyConf talks experiences
   raw_title: A collection of RubyConf talks experiences - Michael Milewski
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-06-25T02:10:45Z"
   description:
     Ever wondered how does it feels like to deliver a streak of successful
@@ -2026,13 +2005,13 @@
     and pearls of wisdom on RubyConf talks journey.
   video_provider: youtube
   video_id: XzkGg5ddfEo
-  date: "TODO"
 
 - title: The Commit Narrative
   raw_title: The Commit Narrative - Adam Rice
   speakers:
     - Adam Rice
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-06-25T02:01:03Z"
   description:
     "Often the diary of git histories explains the what, but not much of
@@ -2040,13 +2019,13 @@
     Adam Rice will talk on ways to penn the chronicles of your code."
   video_provider: youtube
   video_id: J3yu8VgWLO0
-  date: "TODO"
 
 - title: Observability and OpenTelemetry
   raw_title: Observability and OpenTelemetry - Anton Pantaleev
   speakers:
     - Anton Pantaleev
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-07-25T07:23:20Z"
   description:
     Anton Pantaleev is back again presenting why observability in programming
@@ -2054,27 +2033,27 @@
     for developers.
   video_provider: youtube
   video_id: kmnyIO--rbE
-  date: "TODO"
 
 - title: Dev vs Dev Smackdown
   raw_title: Dev vs Dev Smackdown - Selena Small and Michael Milewski
   speakers:
     - Selena Small
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-07-25T07:17:38Z"
   description:
     A fun and interactive talk that engages the audiences on voting for
     their favourite programming practices / paradigm!
   video_provider: youtube
   video_id: LiWpQS9XfI4
-  date: "TODO"
 
 - title: Hanami 2.0 an alternative to Rails
   raw_title: Hanami 2.0 an alternative to Rails - Daniel Nguyen
   speakers:
     - Daniel Nguyen
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-08-10T04:35:29Z"
   description:
     Danniel walks us through his early learnings of the Hanami framework
@@ -2082,20 +2061,19 @@
     injection and the repository pattern.
   video_provider: youtube
   video_id: PEU2XcnGdlw
-  date: "TODO"
 
 - title: Minimax for Ultimate Tic Tac Toe
   raw_title: Minimax for Ultimate Tic Tac Toe - Winston Lau
   speakers:
     - Winston Lau
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-08-10T02:31:16Z"
   description:
     Winston Lau is back again sharing with us his take on the minimax algorithm
     with alpha-beta pruning in ruby.
   video_provider: youtube
   video_id: ZxOpnW3olfs
-  date: "TODO"
 
 - title:
     How FHIR is tackling a wicked problem with technical, social and political
@@ -2105,7 +2083,8 @@
     solution - Matt Hood
   speakers:
     - Matt Hood
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-08-20T04:48:45Z"
   description:
     There is a big problem in the healthcare industry, and FHIR is making
@@ -2114,13 +2093,13 @@
     it can deliver.
   video_provider: youtube
   video_id: YvOmkbeIe9o
-  date: "TODO"
 
 - title: Tips for New / Junior Developers
   raw_title: Tips for new / junior developers - Thomas Himawan
   speakers:
     - Thomas Himawan
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-08-20T04:58:44Z"
   description:
     Thomas Himawan shares is his experiences and tips for struggling new
@@ -2128,13 +2107,13 @@
     as a budding junior!
   video_provider: youtube
   video_id: HPtvqeVY0tY
-  date: "TODO"
 
 - title: A production bug - 26 years in the making
   raw_title: A production bug - 26 years in the making - Ryan Bigg
   speakers:
     - Ryan Bigg
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-08-20T04:51:22Z"
   description:
     Ryan Bigg shares his encounter and solution for a production bug, that
@@ -2142,7 +2121,6 @@
     it happened' and 'why it happened' for this bug.
   video_provider: youtube
   video_id: q_mCZABhJcc
-  date: "TODO"
 
 - title: 'Creating a Ruby Game: "Metal Warrior: Search for Valhalla"'
   raw_title:
@@ -2151,7 +2129,8 @@
   speakers:
     - Michael Pope
     - Daniel Curtis
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-09-26T07:11:03Z"
   description:
     Michael and Daniel shares his experience on building a game using DragonRuby
@@ -2159,13 +2138,13 @@
     your own game using ruby!
   video_provider: youtube
   video_id: z2qQUTFIEzo
-  date: "TODO"
 
 - title: But why does it work
   raw_title: But why does it work - Rian McGuire
   speakers:
     - Rian McGuire
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-09-26T07:13:18Z"
   description:
     For such a magical framework like Rails, Rian will share his secrets
@@ -2173,13 +2152,13 @@
     how and why it actually all works!
   video_provider: youtube
   video_id: eNgYVlkiRJs
-  date: "TODO"
 
 - title: Unleashing the power of pair presenting
   raw_title: Unleashing the power of pair presenting - Selena Small
   speakers:
     - Selena Small
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-10-25T01:30:12Z"
   description:
     Selena Small shares her experiences on the power of pair presenting,
@@ -2187,13 +2166,13 @@
     can share the fun and power of presenting with another!
   video_provider: youtube
   video_id: 8dlbSd-Y_cw
-  date: "TODO"
 
 - title: Final Project Showcase with Academy Xi Bootcamp
   raw_title: Final Project Showcase with Academy Xi Bootcamp - Tony Hansord
   speakers:
     - Tony Hansord
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-11-06T04:29:07Z"
   description:
     Tony showcases his very functional, practical, yet designed with finesse
@@ -2201,26 +2180,26 @@
     if you are looking for inspirations!
   video_provider: youtube
   video_id: H2PILTYGuM8
-  date: "TODO"
 
 - title: Thoughts on Environment Variables
   raw_title: Thoughts on Environment Variables - Michael Milewski
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-11-06T04:27:53Z"
   description:
     Michael Milewski shares his thoughts on environment variables, and
     the various strategies you can implement on managing secrets.
   video_provider: youtube
   video_id: Pf-IrWRm-UE
-  date: "TODO"
 
 - title: Big O Complexity on Job Search
   raw_title: Big O Complexity on Job Search - Anton Pantaleev
   speakers:
     - Anton Pantaleev
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2023-11-06T04:28:05Z"
   description:
     If you are wondering how to ace on your job search, look no further
@@ -2228,13 +2207,13 @@
     in this trying times!
   video_provider: youtube
   video_id: _mrF0pp8LIE
-  date: "TODO"
 
 - title: Modular Monoliths with Rails Engines
   raw_title: Modular Monoliths with Rails Engines - Anton Katunin
   speakers:
     - Anton Katunin
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2024-01-25T00:08:45Z"
   description:
     Want to know more about Rails Engines? This will be a video you would
@@ -2242,26 +2221,26 @@
     in a more efficient manner utilizing rails engines.
   video_provider: youtube
   video_id: weW4FFomi5Q
-  date: "TODO"
 
 - title: Processing DMARC reports via Action Mailbox
   raw_title: Processing DMARC reports via Action Mailbox - Adam Rice
   speakers:
     - Adam Rice
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2024-02-21T04:12:48Z"
   description:
     Adam Rice on  how to process and handle DMARC (Domain-based Message
     Authentication, Reporting & Conformance) reports, via rails' Action Mailbox.
   video_provider: youtube
   video_id: FgrNHf_8kN8
-  date: "TODO"
 
 - title: Fibers in Ruby
   raw_title: Fibers in Ruby - KJ Tsanaktsidis
   speakers:
     - KJ Tsanaktsidis
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2024-02-21T08:42:17Z"
   description:
     Curious on what are Fibers in Ruby, what it does and why should you
@@ -2269,13 +2248,13 @@
     Ruby feature.
   video_provider: youtube
   video_id: dh46btPI3xg
-  date: "TODO"
 
 - title: Hosting Rails App from Home
   raw_title: Hosting rails app from home - Michael Milewski
   speakers:
     - Michael Milewski
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month
+  date: "TODO"
   published_at: "2024-03-24T08:17:58Z"
   description:
     Can you host your rails application from home? Of course you can! Michael
@@ -2283,26 +2262,26 @@
     the convenience of your own home.
   video_provider: youtube
   video_id: BeG0CeyHRqQ
-  date: "TODO"
 
 - title: The Economics of Ruby
   raw_title: The Economics of Ruby - John Sherwood
   speakers:
     - John Sherwood
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month # TODO: city/month
+  date: "TODO"
   published_at: "2024-04-19T07:46:25Z"
   description:
     John Sherwood presents his findings on the current economy of our favourite
     programming language, Ruby!
   video_provider: youtube
   video_id: ydU3WvLoXpY
-  date: "TODO"
 
 - title: One billion rows in Ruby
   raw_title: One billion rows in Ruby - Rian McGuire
   speakers:
     - Rian McGuire
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month # TODO: city/month
+  date: "TODO"
   published_at: "2024-04-19T07:51:47Z"
   description:
     Rian McGuire presents his journey on a challenge about processing a
@@ -2310,26 +2289,26 @@
     in optimization!
   video_provider: youtube
   video_id: evvoWsP8o5Q
-  date: "TODO"
 
 - title: Dissecting Rails
   raw_title: Dissecting Rails - Anton Panteleev
   speakers:
     - Anton Panteleev
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month # TODO: city/month
+  date: "TODO"
   published_at: "2024-05-21T09:58:39Z"
   description:
     Anton tears and dissects apart Rails down to it's components, and showing
     you what are some of the wonderful parts that make today's Rails.
   video_provider: youtube
   video_id: LavkZM_CQME
-  date: "TODO"
 
 - title: Pagination with Ruby
   raw_title: Pagination with Ruby - Simon Hildebrandt
   speakers:
     - Simon Hildebrandt
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month # TODO: city/month
+  date: "TODO"
   published_at: "2024-06-27T04:16:48Z"
   description:
     Simon Hidebrandt on using Ruby to explain a popular new approach to
@@ -2338,26 +2317,26 @@
     in modern toolkits like GraphQL.
   video_provider: youtube
   video_id: J5RSqgl6GlY
-  date: "TODO"
 
 - title: Laravel, meet my friend Turbo
   raw_title: Laravel, meet my friend Turbo - Adam Rice
   speakers:
     - Adam Rice
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month # TODO: city/month
+  date: "2024-06-27"
   published_at: "2024-07-23T10:06:23Z"
   description:
     Adam Rice on how you can integrate Turbo to your Laravel backend, and
     why they could make a good combo.
   video_provider: youtube
   video_id: QtJeilx1czI
-  date: "TODO"
 
 - title: The Pinkest Pink
   raw_title: The Pinkest Pink - Dan Laush
   speakers:
     - Dan Laush
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month # TODO city/month
+  date: "TODO"
   published_at: "2024-08-13T11:23:35Z"
   description:
     An expert in front-end development, Dan Laush gives a colorful, vibrant
@@ -2365,13 +2344,13 @@
     to get the most spice out of it!
   video_provider: youtube
   video_id: hid13bPyeEk
-  date: "TODO"
 
 - title: Being a Good Male Ally
   raw_title: Being a Good Male Ally - Nick Wolf
   speakers:
     - Nick Wolf
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month # TODO city/month
+  date: "TODO"
   published_at: "2024-08-13T11:20:36Z"
   description:
     The president of Ruby Australia, Nick Wolf, giving an important talk
@@ -2379,26 +2358,26 @@
     One that will cultivate a positive culture for the team and the organization.
   video_provider: youtube
   video_id: qPeUwyZb-OI
-  date: "TODO"
 
 - title: "My Career Change: Nothing is What it Seems"
   raw_title: "My Career Change: Nothing is What it Seems - Helen Stonehouse"
   speakers:
     - Helen Stonehouse
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Melbourne Meetup August 2024
+  date: "2024-08-22"
   published_at: "2024-09-25T11:13:39Z"
   description:
     Helen Stonehouse on giving a very insightful talk on her career change
     journey, which provides some pearls of wisdom to inspire others to make the change!
   video_provider: youtube
   video_id: 8F3oJlLq4Nw
-  date: "TODO"
 
 - title: Rails Engines in 20 minutes
   raw_title: Rails Engines in 20 minutes - Chris Oliver
   speakers:
     - Chris Oliver
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Melbourne Meetup August 2024
+  date: "2024-08-22"
   published_at: "2024-09-25T11:06:45Z"
   description:
     Welcome Chris Oliver, who will be walking through on a basic Rails
@@ -2406,13 +2385,13 @@
     talk you definitely would not want to miss!
   video_provider: youtube
   video_id: hXNXLBvlWbI
-  date: "TODO"
 
-- title: "Oaken: Fresh take on Fixtures and Seeds"
+- title: "Oaken: A fresh take on Fixtures and Seeds"
   raw_title: "Oaken: Fresh take on Fixtures and Seeds - Julián Pinzón Eslava"
   speakers:
     - Julián Pinzón Eslava
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Melbourne Meetup September 2024
+  date: "2024-09-26"
   published_at: "2024-10-23T06:37:37Z"
   description:
     Julián Pinzón Eslava delivering a talk on development and test data
@@ -2420,39 +2399,39 @@
     fixtures and seeds!
   video_provider: youtube
   video_id: bxOqXLL06Sg
-  date: "TODO"
 
 - title: How does `reload!` work?
   raw_title: How does `reload!` work? - Abhijeet Anand
   speakers:
     - Abhijeet Anand
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Melbourne Meetup September 2024
+  date: "2024-09-26"
   published_at: "2024-10-23T06:40:18Z"
   description:
     How does this magical `reload!` even works? Abhijeet Anand will go
     on a deep dive to show the intricacies of how `reload` works.
   video_provider: youtube
   video_id: Fb_sqlOotms
-  date: "TODO"
 
 - title: Happy Ruby SAML Development
   raw_title: Happy Ruby SAML Development - Pat Allan
   speakers:
     - Pat Allan
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Melbourne Meetup November 2024
+  date: "2024-11-28"
   published_at: "2024-11-27T07:13:32Z"
   description:
     Pat Allan gives a introduction on how SAML requests and responses can
     be handled with Ruby.
   video_provider: youtube
   video_id: MeQXR8ojX5c
-  date: "TODO"
 
 - title: Cursor, A Cure for What Ails You
   raw_title: Cursor, A Cure for What Ails You - Celia King
   speakers:
     - Celia King
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Meetup # TODO: city/month October 2024
+  date: "2024-10-24"
   published_at: "2024-11-27T07:10:42Z"
   description:
     Celia King giving an evaluation talk of Cursor, how to configure it,
@@ -2460,20 +2439,19 @@
     Copilot.
   video_provider: youtube
   video_id: AkDXMIFETyY
-  date: "TODO"
 
 - title: How do `CurrentAttributes` work?
   raw_title: How do `CurrentAttributes` work? - Abhijeet Anand
   speakers:
     - Abhijeet Anand
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Melbourne Meetup November 2024
+  date: "2024-11-28"
   published_at: "2025-01-25T06:31:57Z"
   description:
     Abhijeet Anand explains the magic behind this powerful rails feature
     that simplifies global state management in a rails application.
   video_provider: youtube
   video_id: doz32657dbM
-  date: "TODO"
 
 - title: Being happy with frontend development again with Turbo and Stimulus
   raw_title:
@@ -2481,11 +2459,11 @@
     StimulusJS - Jerome Paul
   speakers:
     - Jerome Paul
-  event_name: Ruby Australia Meetup
+  event_name: Ruby Australia Melbourne Meetup November 2024
+  date: "2024-11-28"
   published_at: "2025-01-25T06:33:40Z"
   description:
     Jerome Paul on rediscovering his joy of front-end development with
     tools like Hotwire and StimulusJS, that make Rails a full stack dream.
   video_provider: youtube
   video_id: rhInecDwaKQ
-  date: "TODO"
