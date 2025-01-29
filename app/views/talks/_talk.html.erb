@@ -76,12 +76,10 @@
 
         <div class="flex grow gap-1 py-3 lg:divide-y-0 text-xs xl:justify-end overflow-y-visible overflow-x-scroll lg:overflow-x-hidden order-last xl:order-none">
           <% if Current.user&.admin? %>
-            <%= ui_tooltip "Watch on YouTube" do %>
-              <%= ui_button url: avo.resources_talk_path(talk), kind: :pill, target: "_blank" do %>
-                <%= fa :avocado, size: :xs, style: :solid %>
+            <%= ui_button url: avo.resources_talk_path(talk), kind: :pill, target: "_blank" do %>
+              <%= fa :avocado, size: :xs, style: :solid %>
 
-                <span class="text-xs">Open in Avo</span>
-              <% end %>
+              <span class="text-xs">Open in Avo</span>
             <% end %>
           <% end %>
 
