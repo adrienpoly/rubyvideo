@@ -367,13 +367,13 @@ class Talk < ApplicationRecord
 
   def announced_at
     Date.parse(static_metadata[:announced_at])
-  rescue => e
+  rescue
     nil
   end
 
   def published_at
     Date.parse(static_metadata[:published_at])
-  rescue => e
+  rescue
     nil
   end
 
