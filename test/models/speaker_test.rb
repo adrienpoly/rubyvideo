@@ -93,12 +93,14 @@ class SpeakerTest < ActiveSupport::TestCase
   test "assign_canonical_speaker! resets talks_count" do
     speaker = speakers(:yaroslav)
     assert speaker.talks_count.positive?
+    assert speaker.github.present?
 
     speaker_2 = speakers(:one)
     assert_changes -> { speaker_2.reload.talks_count }, from: 0, to: speaker.talks_count do
       speaker.assign_canonical_speaker!(canonical_speaker: speaker_2)
     end
 
+    assert speaker.reload.github.blank?
     assert_equal 0, speaker.reload.talks.count
     assert_equal 0, speaker.reload.talks_count
   end

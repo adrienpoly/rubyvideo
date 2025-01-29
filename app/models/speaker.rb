@@ -228,6 +228,7 @@ class Speaker < ApplicationRecord
   def assign_canonical_speaker!(canonical_speaker:)
     ActiveRecord::Base.transaction do
       self.canonical = canonical_speaker
+      self.github = ""
       save!
 
       speaker_talks.each do |speaker_talk|

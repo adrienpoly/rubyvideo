@@ -3,6 +3,8 @@ json.talks @talks do |talk|
   json.title talk.title
   json.date talk.date
   json.url talk_url(talk)
+  json.video_id talk.video_id
+  json.video_provider talk.video_provider
 
   json.event do
     json.slug talk.event&.slug
