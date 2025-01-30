@@ -210,3 +210,18 @@
   banner_background: "#DB525A"
   featured_background: "#231F20"
   featured_color: "white"
+
+- id: railsconf-2025
+  title: RailsConf 2025
+  location: "Philadelphia, PA"
+  description: ""
+  published_at: "2025-01-29"
+  start_date: "2025-07-08"
+  end_date: "2025-07-10"
+  year: "2025"
+  videos_count: 58
+  slug: railsconf-2025
+  banner_background: "#FFFFFA"
+  featured_background: "#FFFFFA"
+  featured_color: "000000"
+  website: https://ti.to/railsconf/2025?ref=rubyvideo.dev
