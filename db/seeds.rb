@@ -51,8 +51,11 @@ MeiliSearch::Rails.deactivate! do
           next
         end
 
-        talk = Talk.find_by(video_id: talk_data["id"].to_s)
+        talk = Talk.find_by(video_id: talk_data["video_id"], video_provider: talk_data["video_provider"])
+        talk = Talk.find_by(video_id: talk_data["video_id"]) if talk.blank?
+        talk = Talk.find_by(video_id: talk_data["id"].to_s) if talk.blank?
         talk = Talk.find_by(slug: talk_data["slug"].to_s) if talk.blank?
+
         talk = Talk.find_or_initialize_by(video_id: talk_data["video_id"].to_s) if talk.blank?
 
         talk.video_provider = talk_data["video_provider"] || :youtube

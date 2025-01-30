@@ -95,8 +95,8 @@ class Talk < ApplicationRecord
   validates :language, presence: true,
     inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
 
-  # validates :date, presence: true # TODO: enable this
-  validates :published_at, presence: true, if: :published_state?
+  validates :date, presence: true
+  # validates :published_at, presence: true, if: :published_state?
 
   def published_state?
     video_provider.in?(["youtube", "mp4", "vimeo"])
@@ -463,9 +463,9 @@ class Talk < ApplicationRecord
       event: event,
       title: static_metadata.title,
       description: static_metadata.description,
-      date: static_metadata.try(:date),
-      published_at: static_metadata.try(:published_at),
-      announced_at: static_metadata.try(:announced_at),
+      date: static_metadata.try(:date) || parent_talk&.static_metadata.try(:date),
+      published_at: static_metadata.try(:published_at) || parent_talk&.static_metadata.try(:published_at),
+      announced_at: static_metadata.try(:announced_at) || parent_talk&.static_metadata.try(:announced_at),
       thumbnail_xs: static_metadata["thumbnail_xs"] || "",
       thumbnail_sm: static_metadata["thumbnail_sm"] || "",
       thumbnail_md: static_metadata["thumbnail_md"] || "",

@@ -1,15 +1,16 @@
 ---
 # TODO: talks running order
 # TODO: talk dates
-# TODO: conference website
 # TODO: schedule website
+
+# Website: https://web.archive.org/web/20130305234849/http://www.ancientcityruby.com/
 
 - title: "Test Driven Development: A Love Story"
   raw_title: "Nell Shamrell - Test Driven Development: A Love Story - Ancient City Ruby 2013"
   speakers:
     - Nell Shamrell
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-06-24"
   description: |-
     Practicing Test Driven Development (TDD) is like falling in love. It may first seem like all your development problems will disappear. However, it's not all unicorns and rainbows. You have to work at it, and keep working at it, for the rest of your development life. It is hard, and it's natural to question whether the value is worth the effort.
@@ -27,7 +28,7 @@
   speakers:
     - Russ Olsen
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-06-24"
   description:
     "We programmers tend to think of ourselves as concrete, logical thinkers.
@@ -44,7 +45,7 @@
   speakers:
     - Chris Hunt
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-06-25"
   description:
     Impress your friends, scare your enemies, and boost your productivity
@@ -62,7 +63,7 @@
   speakers:
     - Eric Redmond
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-06-25"
   description:
     "Scalability today is no longer a question of which programming language
@@ -78,7 +79,7 @@
   speakers:
     - Jacob Burkhart
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-06-26"
   description:
     From DRB, XMPP, and AMQP to Resque and Rails 4. Running a background
@@ -97,7 +98,7 @@
   speakers:
     - Andy Lindeman
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-06-27"
   description: |-
     This talk is not about testing, nor is it really about mocking. However, analyzing a mock object library is a great way to showcase advanced Ruby topics. Have you ever wondered exactly how a mock object library does what it does? You can understand it!
@@ -111,7 +112,7 @@
   speakers:
     - Paolo "Nusco" Perrotta
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-06-27"
   description: |-
     Developers are rational thinkers who take objective decisions. Yeah, sure. If that is the case, how can we disagree on so many things?
@@ -125,7 +126,7 @@
   speakers:
     - Ben Orenstein
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-07-02"
   description: |-
     Ben believes that the best way for programmers to learn is to watch each other work. We'll leave slides behind and focus instead on the greater information density achieved through live coding. We'll discuss the strengths and weaknesses of real code, and refactor it right onstage. As we do so, we'll bump into lots of meaty topics:
@@ -144,7 +145,7 @@
   speakers:
     - Sandi Metz
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-07-02"
   slides_url: https://speakerdeck.com/skmetz/magic-tricks-of-testing-ancientcityruby
   description: |-
@@ -159,7 +160,7 @@
   speakers:
     - Avdi Grimm
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-07-02"
   description:
     In the second half of 2012 I "quit my job" as a traditional Ruby/Rails
@@ -178,7 +179,7 @@
   speakers:
     - Ben Smith
   event_name: Ancient City Ruby 2013
-  date: "TODO"
+  date: "2013-04-04"
   published_at: "2013-07-02"
   description: |-
     What's the worst that could happen if your app has a dependency on a malicious gem? How easy would it be to write a gem that could compromise a box?

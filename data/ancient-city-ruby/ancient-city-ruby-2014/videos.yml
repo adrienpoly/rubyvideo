@@ -14,6 +14,7 @@
     - Leon Gersing
   event_name: Ancient City Ruby 2014
   date: "2014-04-03"
+  published_at: "TODO"
   description:
     What is the role of the software developer in the modern world? We
     are more educated now than during any time in recorded human history. We have
@@ -42,6 +43,7 @@
     - Justin Searls
   event_name: Ancient City Ruby 2014
   date: "2014-04-03"
+  published_at: "TODO"
   description: |-
     It's about time for the Ruby community to adopt a more mature and nuanced approach to testing.
 
@@ -65,6 +67,7 @@
     - Katrina Owen
   event_name: Ancient City Ruby 2014
   date: "2014-04-03"
+  published_at: "TODO"
   description: |-
     When is it okay to build an orbital laser to destroy an ant-hill?
 
@@ -82,6 +85,7 @@
     - Richard Schneeman
   event_name: Ancient City Ruby 2014
   date: "2014-04-03"
+  published_at: "TODO"
   description:
     "Good tests are isolated, they're repeatable, they're deterministic.
     Good tests don't touch the network and are flexible when it comes to change.
@@ -105,6 +109,7 @@
     - Ben Lovell
   event_name: Ancient City Ruby 2014
   date: "2014-04-03"
+  published_at: "TODO"
   description: |-
     By now, we've all written JSON APIs in Rails. But how do you write fast, testable and sane APIs? I'll guide you through the trials of designing and building awesome, scalable APIs. We'll cover rails-api, activemodelserializers, and all the associated goodness that our ecosystem has to offer.
 
@@ -122,6 +127,7 @@
     - Terence Lee
   event_name: Ancient City Ruby 2014
   date: "2014-04-04"
+  published_at: "TODO"
   description:
     "On November 22, 2013, a devastating security exploit was publicized
     to the Ruby community: Heap Overflow in Floating Point Parsing (CVE-2013-4164).
@@ -148,6 +154,7 @@
     - Craig Kerstiens
   event_name: Ancient City Ruby 2014
   date: "2014-04-04"
+  published_at: "TODO"
   description: |-
     To many developers the database is a black box. You expect to be able to put data into your database, have it to stay there, and get it out when you query it... hopefully in a performant manner. When its not performant enough the two options are usually add some indexes or throw some hardware at it. We'll walk through a bit of a clearer guide of how you can understand how database is doing from a 30,000 foot perspective as well as analyze specific problematic queries and how to tune them. In particular we'll cover:
 
@@ -169,6 +176,7 @@
     - Josh Adams
   event_name: Ancient City Ruby 2014
   date: "2014-04-04"
+  published_at: "TODO"
   description:
     Elixir is a concurrency-oriented programming language built atop the
     Erlang VM. Its syntax is very Ruby-influenced, and it takes some great features
@@ -186,6 +194,7 @@
     - Aaron Patterson
   event_name: Ancient City Ruby 2014
   date: "2014-04-04"
+  published_at: "TODO"
   description:
     You know? Let's explore computer vision using Ruby and OpenCV! In this
     talk, we will learn techniques for speeding up our code, fetching data from the
@@ -202,6 +211,7 @@
     - Konstantin Haase
   event_name: Ancient City Ruby 2014
   date: "2014-04-04"
+  published_at: "TODO"
   description: |-
     Security is important. Yet, it's where a lot of web developers have little to no experience. We'll look at a whole range of opportunistic attack vectors that can be used against web applications, and how we can protect us against them.
 
@@ -219,6 +229,7 @@
     - Evan Machnic
   event_name: Ancient City Ruby 2014
   date: "2014-04-04"
+  published_at: "TODO"
   description: |-
     "DAD! I'm hungry."
     "DAD! Can you tie my shoes?"

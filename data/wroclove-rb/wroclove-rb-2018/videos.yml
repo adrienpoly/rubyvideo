@@ -9,7 +9,7 @@
   speakers:
     - Stefan Wintermeyer
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: UIC0sM-VQj8
   language: English
@@ -20,7 +20,7 @@
   speakers:
     - Vladimir Dementyev
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: AUxFFOehiy0
   language: English
@@ -33,7 +33,7 @@
   speakers:
     - Ivan Nemytchenko
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: KtD32fO_owU
   language: English
@@ -47,7 +47,7 @@
     - Andrzej Krzywda
     - Nathan Ladd
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: Tx2WsK0qD7k
   language: English
@@ -58,7 +58,7 @@
   speakers:
     - Nick Sutterer
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: JRpNIm1-KgA
   language: English
@@ -70,7 +70,7 @@
   speakers:
     - Nathan Ladd
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: vh1QTk34350
   language: English
@@ -81,7 +81,7 @@
   speakers:
     - Andrzej Śliwa
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: cdwX1ZU623E
   language: English
@@ -93,7 +93,7 @@
   speakers:
     - Łukasz Szydło
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: Jy6eS9QHJOM
   language: English
@@ -105,7 +105,7 @@
   speakers:
     - Armin Pašalić
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: smqXOZRHG_Q
   language: English
@@ -116,7 +116,7 @@
   speakers:
     - Ivan Nemytchenko
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: kW2E2wK7_Fw
   language: English
@@ -130,7 +130,7 @@
     # - TODO: one more panelist
     # - TODO: moderator
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: vL0Mb1XY_UI
   language: English
@@ -141,7 +141,7 @@
   speakers:
     - Damir Zekić
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: 11Z4Fx8dXhc
   language: English
@@ -152,7 +152,7 @@
   speakers:
     - Michał Młoźniak
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: hMLekHYXvJo
   language: English
@@ -163,7 +163,7 @@
   speakers:
     - Marco Heimeshoff
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-16"
   video_provider: youtube
   video_id: FmJ6YMW92wA
   language: English
@@ -173,13 +173,14 @@
 - title: Lightning Talks (Day 2)
   raw_title: Lightning talks Saturday - wroc_love.rb 2018
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-17"
   video_provider: youtube
   video_id: tWu4gO187G0
   language: English
   description: ""
   talks:
     - title: "Lightning Talk: Serverless Ruby"
+      date: "2018-04-17"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: bartosz-bonislawski-lighting-talk-wroclove-rb-2018
@@ -188,6 +189,7 @@
         - Bartosz Bonisławski
 
     - title: "Lightning Talk: Ruby on $4 computer - mruby on esp32"
+      date: "2018-04-17"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: sergey-silnov-lighting-talk-wroclove-rb-2018
@@ -196,6 +198,7 @@
         - Sergey Silnov
 
     - title: "Lightning Talk: How wroc_love.rb impacts developers and companies"
+      date: "2018-04-17"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: adam-skoluda-lighting-talk-wroclove-rb-2018
@@ -204,6 +207,7 @@
         - Adam Skołuda
 
     - title: "Lightning Talk: To Refine Or Not To Refine"
+      date: "2018-04-17"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: vladimir-dementyev-lighting-talk-wroclove-rb-2018
@@ -213,6 +217,7 @@
       slides_url: https://speakerdeck.com/palkan/wroc-love-dot-rb-2018-lightning-talk-to-refine-or-not-to-refine
 
     - title: "Lightning Talk: Removing code like a pro"
+      date: "2018-04-17"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: michal-mlozniak-lighting-talk-wroclove-rb-2018
@@ -221,6 +226,7 @@
         - Michał Młoźniak
 
     - title: "Lightning Talk: Why We Love Ruby"
+      date: "2018-04-17"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: artur-roszczyk-lighting-talk-wroclove-rb-2018
@@ -229,6 +235,7 @@
         - Artur Roszczyk
 
     - title: "Lightning Talk: Thoughts: What it means to be a developer. Will computers replace us?"
+      date: "2018-04-17"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: maciek-stanisz-lighting-talk-wroclove-rb-2018
@@ -237,6 +244,7 @@
         - Maciek Stanisz
 
     - title: "Lightning Talk: How to break your browser by using a regexp"
+      date: "2018-04-17"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: maciek-rzasa-lighting-talk-wroclove-rb-2018
@@ -247,13 +255,14 @@
 - title: Lightning Talks (Day 3)
   raw_title: Lightning talks Sunday - wroc_love.rb 2018
   event_name: wroclove.rb 2018
-  published_at: "2018-04-16"
+  date: "2018-04-18"
   description: ""
   video_provider: youtube
   video_id: fp95RYuxIXQ
   language: English
   talks:
-    - title: "Lightning Talk: Etherium"
+    - title: "Lightning Talk: Ethereum"
+      date: "2018-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: dima-todo-lighting-talk-wroclove-rb-2018
@@ -262,6 +271,7 @@
         - Dima # TODO: missing lastname
 
     - title: "Lightning Talk: Decoupling Ruby With a Bus"
+      date: "2018-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: armin-pasalic-lighting-talk-wroclove-rb-2018
@@ -270,6 +280,7 @@
         - Armin Pašalić
 
     - title: "Lightning Talk: Refinement Use Cases"
+      date: "2018-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: vladimir-dementyev-lighting-talk-wroclove-rb-2018
@@ -278,6 +289,7 @@
         - Vladimir Dementyev
 
     - title: "Lightning Talk: Discrations"
+      date: "2018-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: tom-woo-lighting-talk-wroclove-rb-2018
@@ -286,6 +298,7 @@
         - Tom Woo
 
     - title: "Lightning Talk: Secrets of Ruby stdlib"
+      date: "2018-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: todo-lighting-talk-wroclove-rb-2018-1
@@ -294,6 +307,7 @@
         - TODO # TODO: missing name
 
     - title: "Lightning Talk: How I play games using Ruby"
+      date: "2018-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: todo-lighting-talk-wroclove-rb-2018-2
@@ -302,6 +316,7 @@
         - TODO # TODO: missing name
 
     - title: "Lightning Talk: Heavy Applications"
+      date: "2018-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: todo-lighting-talk-wroclove-rb-2018-3

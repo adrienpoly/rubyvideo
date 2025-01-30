@@ -13,7 +13,8 @@
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description: "Keynote: Super Dry Ruby by Yukihiro 'Matz' Matsumoto"
   video_provider: youtube
   video_id: bqWBB8-iEac
@@ -23,7 +24,8 @@
   speakers:
     - André Arko
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description: |-
     Security Is Hard, But We Can't Go Shopping by André Arko
 
@@ -39,7 +41,8 @@
     - Sau Sheong Chang
     - Shipeng Xu
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description: |-
     Rollicking Ruby Robots Rule the World by Sau Sheong Chang and Shipeng Xu
     We don't see it all the time but robots that make our lives easier are already
@@ -58,7 +61,8 @@
   speakers:
     - Prathamesh Sonpatki
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description: |-
     Rethinking the View using React.js by Prathamesh Sonpatki
     Complex web interfaces is the need of the hour. The interactions should be smooth, pages
@@ -89,7 +93,8 @@
   speakers:
     - Laurent Sansonetti
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description: |-
     RubyMotion: Cross-Platform Mobile Development the Right Way by Laurent Sansonetti
 
@@ -102,7 +107,8 @@
   speakers:
     - Laura Eck
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description: |-
     Working remotely is one of the legendary opportunities that being
     a web developer brings along. The freedom to work from wherever you want is, despite
@@ -126,7 +132,8 @@
   speakers:
     - Juanito Fatas
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description: |-
     Lightning Talk: How Emoji Changed My Life by Juanito Fatas
 
@@ -141,7 +148,8 @@
   speakers:
     - Hiroaki Iwase
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description:
     "Ruby based Distributed Key Value Store 'ROMA' by Hiroaki Iwase\n\nI
     am going to introduce ROMA(Ruby/Rakuten On-Memory Architecture). ROMA is one of
@@ -162,7 +170,8 @@
   speakers:
     - Christopher Rigor
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description:
     "How Docker Can Change Rails Deployments by Christopher Rigor\n\nA
     typical Rails deployment involves using a tool like Capistrano to pull the code
@@ -179,7 +188,8 @@
   speakers:
     - Joy Paas
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description: |-
     Lightning Talk: Values from Puzzles, Math, and Code by Joy Paas
 
@@ -192,7 +202,8 @@
   speakers:
     - Vaidehi Joshi
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description:
     "Lightning Talk: Refactoring of Self by Vaidehi Joshi\n\nAs new programmers,
     we don't always write beautiful code. In fact, most of our early code is quite
@@ -216,7 +227,8 @@
     - Aaron Patterson
     - Aman Gupta
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description: |-
     Panel discussion with Matz, Hiroshi Shibata, Aaron Patterson and Aman Gupta
 
@@ -230,7 +242,8 @@
   speakers:
     - Jesse Toth
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-04"
+  date: "2015-06-04"
+  published_at: "TODO"
   description: |-
     Tackling Large Ruby Refactorings with Confidence (and Science!) by Jesse Toth
 
@@ -250,7 +263,8 @@
   speakers:
     - Sam Saffron
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description: |-
     Discourse is a rich JavaScript application with hundreds of assets.
     To cater for it we occasionally need to go off the beaten track by amending and
@@ -267,7 +281,8 @@
   speakers:
     - Paolo "Nusco" Perrotta
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description:
     "Refinements - the Worst Feature You Ever Loved by Paolo Perrotta\n\nRefinements
     are cool. They are the biggest new language feature in Ruby 2. They help you avoid
@@ -290,7 +305,8 @@
   speakers:
     - Hiroshi Shibata
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description:
     "HTTP Programming with mruby by Hiroshi Shibata\n\nmruby is the lightweight
     implementation of the Ruby language and was released about a year ago. Can we
@@ -307,7 +323,8 @@
   speakers:
     - Sofia Tania
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description:
     "Collaborating with Contracts by Sofia Tania\n\nIn the real world,
     when two parties collaborate, there often needs to be a shared understanding -
@@ -324,7 +341,8 @@
   speakers:
     - Linda Liukas
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description:
     "Principles of Play by Linda Liukas\n\nIf code is the colouring pens
     and lego blocks of our times - the tools of creation - how do we teach the curiosity,
@@ -343,7 +361,8 @@
   speakers:
     - Guo Xiang Tan
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description:
     "Starting & Contributing to Open Source Projects for Beginners by Guo
     Xiang Tan\n\nContributing to Open Source projects can be daunting for beginners
@@ -369,7 +388,8 @@
   speakers:
     - Radamanthus Batnag
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description:
     "Lightning Talk: Doodling for Great Success by Radamanthus Batnag\n\nAs
     coders, we are very familiar with how to communicate using written words. But
@@ -388,7 +408,8 @@
   speakers:
     - Elisha Tan
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description: |-
     Lightning Talk: Non-tech Contributions to The Tech Community by Elisha Tan
 
@@ -403,7 +424,8 @@
   speakers:
     - Grzegorz Witek
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description: |-
     Lightning Talk: My Web Application Goes to China! by Grzegorz Witek
 
@@ -418,7 +440,8 @@
   speakers:
     - Tomoya Kawanishi
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description:
     "I would like to tell the story about Ruby Kansai and Kansai Regional
     Rubyist Meetups. \n\nThe first part describes Ruby Kansai and myself. Ruby Kansai
@@ -447,7 +470,8 @@
   speakers:
     - Yuki Nishijima
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description: |-
     'Did you mean?' experience in Ruby and beyond by Yuki Nishijima\n\ndid_you_mean
     gem is a gem that adds a Google-like suggestion feature to Ruby. Whenever you
@@ -465,7 +489,8 @@
   speakers:
     - Aaron Patterson
   event_name: Red Dot Ruby Conference 2015
-  published_at: "2015-06-05"
+  date: "2015-06-05"
+  published_at: "TODO"
   description: |-
     Code is Required by Aaron Patterson
 

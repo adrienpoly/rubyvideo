@@ -9,7 +9,8 @@
   speakers:
     - Paolo Montrasio
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     Elixir is a functional language that runs over the Erlang virtual machine.
     Despite being Erlang inside, Elixir has a Ruby-like syntax, with do...end blocks
@@ -25,7 +26,8 @@
   speakers:
     - Giacomo Bagnoli
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     These days applications are getting more and more complex. It's becoming
     quite difficult to keep track of all the different components an application needs
@@ -43,7 +45,8 @@
   speakers:
     - Ju Liu
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     "Everyday we read about DRY, YAGNI, TDD, SOLID, REST, SOA.. We are
     not only discussing about these concepts, but also we use them as canons to design,
@@ -62,7 +65,8 @@
     - Matteo Piotto
     - Federico Parodi
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     La proliferazione delle applicazioni mobile e di quelle web basate
     su javascript ci porta sempre più spesso a dover realizzare interfacce API. Ci
@@ -77,7 +81,8 @@
   speakers:
     - Giuseppe Modarelli
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     "Ruby has a powerful set of libs and tools that we don't use in our
     day to day jobs as ruby developers. The main reason for this is because we force
@@ -93,7 +98,8 @@
     - Matteo Papadopoulos
     - Stefano Verna
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     Una delle maggiori difficoltà da affrontare per lo sviluppo di un buon
     front-end, in un progetto web, è l'organizzazione dello stile, tanto apparentemente
@@ -113,7 +119,8 @@
   speakers:
     - Stefano Verna
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     "The Rails ecosystem features many full-fledged solutions to generate
     administrative interfaces (ActiveAdmin, RailsAdmin, you name it...). Although
@@ -136,7 +143,8 @@
     - Filippo Gangi Dino
     - Alessandro Fazzi
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     Il dilemma della scelta del miglior web server per le nostre applicazioni
     è ricorrente nell'esperienza di uno sviluppatore Ruby/RoR. Approfondiremo meglio
@@ -151,7 +159,8 @@
   speakers:
     - Ole Michaelis
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     "Thats the dream we all share. *Building the one perfect software.*
     But you know the answer already, you just have to admit it: **There is no perfect
@@ -173,7 +182,8 @@
   speakers:
     - Christophe Philemotte
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     Ruby gives you a great power. As the saying goes, "With great power
     there must also comes great responsibility!" It comes at a price. We cannot afford
@@ -188,7 +198,8 @@
   speakers:
     - Ole Michaelis
   event_name: rubyday 2014
-  published_at: "2014-09-26"
+  date: "2014-09-26"
+  published_at: "TODO"
   description:
     Software Architecture is hard. And when your business grows, its getting
     even harder because scaling doesn’t come out the box and it’s not only the software
