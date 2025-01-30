@@ -56,3 +56,8 @@
   videos_count: 16
   metadata_parser: Youtube::VideoMetadata
   slug: ancient-city-ruby-2019
+  banner_background: |-
+    linear-gradient(to bottom, #F2E0E0, #F2E0E0 50%, #E6D5D5 50%) left top / 50% 100% no-repeat, /* Left side */
+    linear-gradient(to bottom, #F2E0E0, #F2E0E0 50%, #E6D5D5 50%) right top / 50% 100% no-repeat /* Right side */
+  featured_background: "#F2E0E0"
+  featured_color: "#333333"
