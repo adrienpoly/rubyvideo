@@ -8,7 +8,8 @@
   speakers:
     - Evan Phoenix
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-17"
+  date: "2010-09-17"
+  published_at: "TODO"
   description: |-
     Ruby is almost synonymous with Open Source thanks to an amazing community. Managing a successful Open Source project requires maintaining a careful balance of pragmatism, exuberance, and patience.
 
@@ -24,7 +25,8 @@
   speakers:
     - Rein Henrichs
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-17"
+  date: "2010-09-17"
+  published_at: "TODO"
   description: |-
     Are you confident that your code works the way you expect? Is it easy to change? Do you get accurate feedback when you do change it? If the answer to any of these questions is no, the problem is not your code: it's your tests.
 
@@ -40,7 +42,8 @@
   speakers:
     - Sarah Mei
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-17"
+  date: "2010-09-17"
+  published_at: "TODO"
   description: |-
     I secretly think that NoSQL data stores are rabbits. They're breeding under the floorboards when we're asleep. How else do you explain a landscape that includes Redis, Riak, CouchDB, Tokyo Cabinet, Flock, MongoDB, and Cassandra, among many others? Mopsy and Cottontail can't be far behind.
 
@@ -58,7 +61,8 @@
   speakers:
     - Eric Mill
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-17"
+  date: "2010-09-17"
+  published_at: "TODO"
   description: |-
     Data-Driven Government and the Ruby Developer by Eric Mill
 
@@ -78,7 +82,8 @@
   speakers:
     - Yehuda Katz
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-17"
+  date: "2010-09-17"
+  published_at: "TODO"
   description: |-
     Rails 3 has added quite a number of new ways to extend the framework. These include swapping in a new ORM that still works cleanly with ActionPack, a brand new instrumentation system, and ways to build custom controllers, mixing and matching the pieces that you want. In this talk, Yehuda will give an overview of these new systems, and show some real-world examples of using them in plugins and in your application itself. He will also talk about how to think about using the new Rails architecture to streamline your stack for performance-critical parts of your app, without losing the integration you've come to expect or the features you absolutely need in those cases.
 
@@ -90,7 +95,8 @@
   speakers:
     - Bryan Liles
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-17"
+  date: "2010-09-17"
+  published_at: "TODO"
   description: |-
     Imagine you are at a conference. Imagine while you are at the conference, there are 30-minute sessions of various Ruby related topics. Imagine Bryan Liles is at this same conference. Imagine Bryan Liles. Imagine ActiveModel. Imagine Bryan Liles talking about ActiveModel. Can you imagine anything better? Maybe vanilla ice cream on apple pie. As a close second place, Bryan will show you why you need to at least investigate ActiveModel for your current or next project. Of course there will be tests, code, and more tests at Bryan's ActiveModel Extravaganza.
 
@@ -104,7 +110,8 @@
   speakers:
     - Jim Weirich
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-17"
+  date: "2010-09-17"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -116,7 +123,8 @@
     - Sarah Allen
     - Alex Chaffee
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-17"
+  date: "2010-09-17"
+  published_at: "TODO"
   description: |-
     We've all learned that writing tests before code is a great way to develop software. It turns out that it's also a great way to learn how to develop software in the first place! In this talk we discuss a number of projects that have used test-first approaches to teach Ruby, including Ruby Koans, RailsBridge Workshops, Wolfram Arnold's BFT (behavior-first teaching), Blazing Cloud JavaScript and Rails classes, plus our own open-source Learn Ruby TFT (test-first teaching) curriculum (at a href="http://testfirst.org" target="_blank"testfirst.org/a). Come hear about our experiences or share your own.
 
@@ -128,7 +136,8 @@
   speakers:
     - Blake Mizerany
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-17"
+  date: "2010-09-17"
+  published_at: "TODO"
   description: |-
     You're so polyglot and you don't even know it. You may be using Ruby for too much. It's not the holy grail. This talk will pull from my experience at Heroku where I use much more than Ruby everyday; and I'm not just talking JavaScript. Technologies are designed to take on problems of a specific nature. There are those that are great for systems work and those that are not. Some make generating reports a cinch. A few are remarkable at digging through data. Networking can be a nightmare in some. I'll start with a swift but gentle introduction to Ruby's good but not great suits and move us into what to replace them with.
 
@@ -142,7 +151,8 @@
   speakers:
     - Avi Bryant
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-18"
+  date: "2010-09-18"
+  published_at: "TODO"
   description: |-
     Back in the old days, you submitted a form to some URL and you got back some HTML. These days, you probably didn't hit submit, your URL probably didn't change, and what you got back was probably JSONâ€”but you never saw it because it came in asynchronously in the background. Best practices around web applications are changing fast, driven by new browser standards, sophisticated JavaScript libraries and super fast JavaScript implementations. Why would a web framework design from 2004 still be appropriate? What can we be doing to adapt, or reinvent, our approaches to building web apps?
 
@@ -154,7 +164,8 @@
   speakers:
     - Elisabeth Hendrickson
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-18"
+  date: "2010-09-18"
+  published_at: "TODO"
   description: |-
     by: Elisabeth Hendrickson
 
@@ -168,7 +179,8 @@
   speakers:
     - Ilya Grigorik
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-18"
+  date: "2010-09-18"
+  published_at: "TODO"
   description: |-
     Machine learning is a discipline that is concerned with the design and development of algorithms that allow computers to evolve behaviors based on empirical data â€” a fancy name for a simple concept. Behind all the buzzword algorithms such as Decision Trees, Singular Value Decomposition, Bayes and Support Vector Machines lie the simple observations and principles that make them tick. In this presentation, we will take a ground-up look at how they work (in practical terms), why they work, and how you can apply them in Ruby for fun and profit.
 
@@ -182,7 +194,8 @@
   speakers:
     - Rich Kilmer
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-18"
+  date: "2010-09-18"
+  published_at: "TODO"
   description: |-
     The Rails revolution, and Ruby along with it, began in the loud public echosphere of startup companies. The arrival of the Rails framework and the "Web 2.0" explosion created a very thunderous effect. Magazine after magazine reported on Rails. All the hip, funded and loud startups were using Rails to build their wares. It became a thing that VCs would assume you were using, and if not, why? The first RailsConf was 90% attended by startups. Rails was a revolution. Since then the loudness has waned. Is the revolution over? Is Rails done? Au contraire, the revolution has gone underground. It's penetrating places that Twitter does not hear. It's building things that are not reported. It's entered the enterprise. This talk will document the rise of Rails and glorious revolution which we barely see, but is happening every day.
 
@@ -196,7 +209,8 @@
   speakers:
     - Ryan Tomayko
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-18"
+  date: "2010-09-18"
+  published_at: "TODO"
   description: |-
     The Unix shell is widely despised as a modern programming language due to its arcane syntax, unpredictable control flow, and lack of support for fundamental constructs like: exception handling, objects, a module system, string functions, or even local variables! It's old. There are a billion implementations of the core language and userland utilities, each with subtle and incompatible differences. Documentation is too sparse or too dense or available only at your local library. It's a minefield.
 
@@ -216,7 +230,8 @@
     - Evan Phoenix
     - Dennis Collinson
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-18"
+  date: "2010-09-18"
+  published_at: "TODO"
   description: |-
     How do you develop software? Is it effective? Could you do better? Where could you put the least amount of effort to improve the most? When do you do that? What would your teammates answer? What can you learn from them?
 
@@ -228,7 +243,8 @@
 - title: Lightning Talks
   raw_title: "GoGaRuCo 2010 - Lightning Talks by: Various Presenters"
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-18"
+  date: "2010-09-18"
+  published_at: "TODO"
   description: |-
     Get electrified with a dozen five minute talks on various topics by your fellow conference attendees, or give a talk yourself!
 
@@ -236,6 +252,9 @@
   video_id: me-2gFihaHw
   talks:
     - title: "Lightning Talk: Rubinius Concurrency Demo"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: evan-phoenix-lighting-talk-gogaruco-2010
@@ -244,6 +263,9 @@
         - Evan Phoenix
 
     - title: "Lightning Talk: Ticketmast: Take Command of Your Ticketing System(s)"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: ron-evans-lighting-talk-gogaruco-2010
@@ -252,6 +274,9 @@
         - Ron Evans
 
     - title: "Lightning Talk: Polaroid Cameras"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: pete-forde-lighting-talk-gogaruco-2010
@@ -260,6 +285,9 @@
         - Pete Forde
 
     - title: "Lightning Talk: Fixture Builder"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: david-stephenson-lighting-talk-gogaruco-2010
@@ -268,6 +296,9 @@
         - David Stephenson
 
     - title: "Lightning Talk: Getting Rid Of Java"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: noah-gibbs-lighting-talk-gogaruco-2010
@@ -276,6 +307,9 @@
         - Noah Gibbs
 
     - title: "Lightning Talk: Debugging Ruby - perftools.rb"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: aman-gupta-lighting-talk-gogaruco-2010
@@ -284,6 +318,9 @@
         - Aman Gupta
 
     - title: "Lightning Talk: Dubious"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: john-woodell-lighting-talk-gogaruco-2010
@@ -292,6 +329,9 @@
         - John Woodell
 
     - title: "Lightning Talk: Smart Browsers"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: seth-ladd-lighting-talk-gogaruco-2010
@@ -300,6 +340,9 @@
         - Seth Ladd
 
     - title: "Lightning Talk: Screw Cucumber"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: pat-nakajima-lighting-talk-gogaruco-2010
@@ -308,6 +351,9 @@
         - Pat Nakajima
 
     - title: "Lightning Talk: Terminator"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: thomas-shafer-lighting-talk-gogaruco-2010
@@ -316,6 +362,9 @@
         - Thomas Shafer
 
     - title: "Lightning Talk: Terminator"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: nathan-esquenazi-lighting-talk-gogaruco-2010
@@ -324,6 +373,9 @@
         - Nathan Esquenazi
 
     - title: "Lightning Talk: What is CoffeeScript"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: jim-puls-lighting-talk-gogaruco-2010
@@ -332,6 +384,9 @@
         - Jim Puls
 
     - title: "Lightning Talk: Doing Better Presentation Slides"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: shane-becker-lighting-talk-gogaruco-2010
@@ -340,6 +395,9 @@
         - Shane Becker
 
     - title: "Lightning Talk: Ruby & Teaching Ruby"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: mislav-marohnic-lighting-talk-gogaruco-2010
@@ -348,6 +406,9 @@
         - Mislav Marohnić
 
     - title: "Lightning Talk: Revive assert"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: alex-chaffee-lighting-talk-gogaruco-2010
@@ -356,6 +417,9 @@
         - Alex Chaffee
 
     - title: "Lightning Talk: Client-Side Caching"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: yehuda-katz-lighting-talk-gogaruco-2010
@@ -364,6 +428,9 @@
         - Yehuda Katz
 
     - title: "Lightning Talk: Roundup"
+      event_name: GoGaRuCo 2010
+      date: "2010-09-18"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: blake-mizerany-lighting-talk-gogaruco-2010
@@ -376,7 +443,8 @@
   speakers:
     - Bryan Helmkamp
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-18"
+  date: "2010-09-18"
+  published_at: "TODO"
   description: |-
     Arel (also known as ActiveRelation) is the Ruby relational algebra engine powering ActiveRecord in Rails 3. By replacing string concatenation with an object model to express SQL queries, Arel had a big immediate impact on the ActiveRecord codebase and opens the door for more powerful Object Relation Mapping (ORM) functionality in the future. This talk will introduce the concept of relational algebra, cover the past, present and future of Arel, and dive into how you can leverage it today either on its own, or in your Rails 3 applications
 
@@ -388,7 +456,8 @@
   speakers:
     - Aaron Patterson"
   event_name: GoGaRuCo 2010
-  published_at: "2010-09-18"
+  date: "2010-09-18"
+  published_at: "TODO"
   description: |-
     When attempting to solve our latest 367 hidden gems of ruby 1 9programming conundrum, we typically reach for the latest Ruby Gem that solves the problem for us. Oftentimes in our search for a solution, we neglect to look through some of the great libraries that come shipped with Ruby. In this talk we'll explore some of the tools we can use that don't require a gem install. We'll especially focus on the new toys in Ruby's standard library that ship with Ruby 1.9, but also look at some of the toys that ship with Ruby Classicâ„¢. Be prepared to be amazed and entertained. But most of all, be prepared to go home with something useful!
 
