@@ -38,6 +38,11 @@
   videos_count: 13
   metadata_parser: Youtube::VideoMetadata
   slug: ancient-city-ruby-2016
+  banner_background: |-
+    linear-gradient(to bottom, #BCFDF3 14%, #B7A632 14%, #B7A632 16%, #BCFDF3 16%, #BCFDF3 90%, #52F8D1 90%) left top / 50% 100% no-repeat, /* Left side */
+    linear-gradient(to bottom, #BCFDF3 14%, #B7A632 14%, #B7A632 16%, #BCFDF3 16%, #BCFDF3 90%, #52F8D1 90%) right top / 50% 100% no-repeat /* Right side */
+  featured_background: "#BCFDF3"
+  featured_color: "#333333"
 
 - id: PLrjohaqTgNJODBm0-VFsXvUFx1oidLyKa
   title: Ancient City Ruby 2019
