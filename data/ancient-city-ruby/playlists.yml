@@ -28,6 +28,9 @@
   videos_count: 13
   metadata_parser: Youtube::VideoMetadata
   slug: ancient-city-ruby-2015
+  banner_background: "#F6F6F6"
+  featured_background: "#F6F6F6"
+  featured_color: "#323232"
 
 - id: PLrjohaqTgNJPq3h7UGYbqNwrerEM05t_Q
   title: Ancient City Ruby 2016
