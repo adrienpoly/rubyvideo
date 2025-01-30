@@ -11,7 +11,7 @@
   speakers:
     - Hongli Lai
   event_name: EMEA on Rails 2021
-  published_at: "2021-06-09"
+  date: "2021-06-09"
   description: |-
     Ruby apps can use a lot of memory, but not for the reasons you think. I've discovered that as much as 70% of the memory usage is not caused by Ruby, but by the system's memory allocator! The good news is that there are technically simple solutions. So why isn't everybody using them? That's the bad news: they're cumbersome to deploy. We can say that the solutions are not "democratized".
 
@@ -26,7 +26,7 @@
   speakers:
     - Vladimir Dementyev
   event_name: EMEA on Rails 2021
-  published_at: "2021-06-09"
+  date: "2021-06-09"
   description: |-
     Everything is cyclical, and web development is not an exception: ten years ago, we enjoyed developing Rails apps using HTML forms, a bit of AJAX, and jQuery—our productivity had no end! As interfaces gradually became more sophisticated, the "classic" approach began to give way to frontend frameworks, pushing Ruby into an API provider's role.
 
@@ -46,7 +46,7 @@
   speakers:
     - Michael Kimathi
   event_name: EMEA on Rails 2021
-  published_at: "2021-06-09"
+  date: "2021-06-09"
   description: |-
     What is a tech community? Why should you join a tech community? How can you add value to a community you are a member of? Nairuby has come a long way and so has the tech ecosystem. Reminiscing about the community journey will guide us for the next few decades.
 
@@ -62,7 +62,7 @@
   speakers:
     - Jonas Jabari
   event_name: EMEA on Rails 2021
-  published_at: "2021-06-09"
+  date: "2021-06-09"
   description: |-
     A lot of life changing things have happened in 2020. And I'm obviously speaking about Stimulus Reflex and Hotwire and how we as Rails devs are finally enabled to skip a lot of JS while implementing reactive web UIs. But what if I told you, there's room for even more developer happiness? Imagine crafting beautiful UIs in pure Ruby, utilizing a library reaching from simple UI components representing basic HTML tags over styled UI concepts based on Bootstrap to something like a collection, rendering reactive data sets. Beautiful, reactive web UIs implemented in pure Ruby are waiting for you!
 
@@ -75,7 +75,7 @@
   speakers:
     - Tanaka Mutakwa
   event_name: EMEA on Rails 2021
-  published_at: "2021-06-09"
+  date: "2021-06-09"
   description: |-
     Taking on a technology leadership role is a tough transition for any developer, because only part of the skills and experience you had as a developer prepares you for the expectations of a new role. In this talk I will share common challenges new tech leaders face and how to tackle them.
 
@@ -88,7 +88,7 @@
   speakers:
     - Ramón Huidobro
   event_name: EMEA on Rails 2021
-  published_at: "2021-06-09"
+  date: "2021-06-09"
   description: |-
     Mentorship in software development carries a lot of responsibility, but plays an integral part in making tech communities as well as individuals thrive.
 
@@ -103,7 +103,7 @@
   speakers:
     - Maciek Rząsa
   event_name: EMEA on Rails 2021
-  published_at: "2021-10-21"
+  date: "2021-10-21"
   description: |-
     I saw a green build on a Friday afternoon. I knew I need to push it to production before the weekend. My gut told me it was a trap. I had already stayed late to revert a broken deploy. I knew the risk.
 
@@ -120,7 +120,7 @@
   speakers:
     - Miriam Tocino
   event_name: EMEA on Rails 2021
-  published_at: "2021-10-21"
+  date: "2021-10-21"
   description: |-
     Young children are growing up highly surrounded by technology without knowing what's behind it. How do we spark their curiosity and introduce them to the world of technology to not only use it as consumers but to start seeing themselves as creators?
 
@@ -135,7 +135,7 @@
   speakers:
     - Ben Greenberg
   event_name: EMEA on Rails 2021
-  published_at: "2021-10-21"
+  date: "2021-10-21"
   description: |-
     This past year has been one of the most challenging years in recent memory. The pandemic has taken a toll, including on children.
 
