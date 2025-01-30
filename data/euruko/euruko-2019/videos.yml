@@ -10,7 +10,7 @@
     - Yukihiro "Matz" Matsumoto
   event_name: EuRuKo 2019
   date: "2019-06-21"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description: |-
     Keynote: Functional (Future) Ruby
 
@@ -25,7 +25,7 @@
     - Kaja Santro
   event_name: EuRuKo 2019
   date: "2019-06-21"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description: |-
     From multiple apps to Monolith - #BuildingMonsterservices
 
@@ -42,7 +42,7 @@
     - Damir Svrtan
   event_name: EuRuKo 2019
   date: "2019-06-21"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description: |-
     Surrounded by Microservices
 
@@ -59,7 +59,7 @@
     - Hongli Lai
   event_name: EuRuKo 2019
   date: "2019-06-21"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description: |-
     What causes Ruby memory bloat?
 
@@ -76,7 +76,7 @@
     - Melanie Keatley
   event_name: EuRuKo 2019
   date: "2019-06-21"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description: |-
     It's very effective; using Pokemon to catch all code smells
 
@@ -93,7 +93,7 @@
     - Torsten Schönebaum
   event_name: EuRuKo 2019
   date: "2019-06-21"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description: |-
     Building bricks with MRuby: A journey to MRuby on LEGO robots
 
@@ -110,7 +110,7 @@
     - Ashley Jean
   event_name: EuRuKo 2019
   date: "2019-06-21"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description: |-
     A gentle introduction to Data Structure Trees
 
@@ -127,7 +127,7 @@
     - Laura Linda Laugwitz
   event_name: EuRuKo 2019
   date: "2019-06-21"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description:
     "Closing keynote: The Miseducation of This Machine \n\nWhile machines
     continue to learn with more sophisticated algorithms and larger amounts of data,
@@ -146,7 +146,7 @@
     - Charity Majors
   event_name: EuRuKo 2019
   date: "2019-06-22"
-  published_at: "2021-06-01"
+  published_at: "2021-01-19"
   description:
     "Keynote: Yes, I Test In Production... And So Should You \n\nTesting
     in prod has gotten a bad rap. It's both inevitable - you can't know everything
@@ -164,7 +164,7 @@
     - Bilawal Maheed
   event_name: EuRuKo 2019
   date: "2019-06-22"
-  published_at: "2021-06-01"
+  published_at: "2021-01-19"
   description: |-
     How We’re Making Tech Documentation Better, Easier, And Less Boring
 
@@ -181,7 +181,7 @@
     - Yusuke Endoh
   event_name: EuRuKo 2019
   date: "2019-06-22"
-  published_at: "2021-06-01"
+  published_at: "2021-01-19"
   description: |-
     Plan towards Ruby 3 Types
 
@@ -196,12 +196,15 @@
   raw_title: Lightning Talks
   event_name: EuRuKo 2019
   date: "2019-06-22"
-  published_at: "2021-06-01"
+  published_at: "2021-01-19"
   description: ""
   video_provider: youtube
   video_id: 2-1wlXkLt-I
   talks:
     - title: "Lightning Talk: Super-powering your editor with Sorbet Typer"
+      event_name: EuRuKo 2019
+      date: "2019-06-22"
+      published_at: "2021-01-19"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: madison-white-lighting-talk-euruko-2019
@@ -210,6 +213,9 @@
         - Madison White
 
     - title: "Lightning Talk: Zerus & Ona"
+      event_name: EuRuKo 2019
+      date: "2019-06-22"
+      published_at: "2021-01-19"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: miriam-tocino-lighting-talk-euruko-2019
@@ -218,6 +224,9 @@
         - Miriam Tocino
 
     - title: "Lightning Talk: NoSuchBucket"
+      event_name: EuRuKo 2019
+      date: "2019-06-22"
+      published_at: "2021-01-19"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: julik-tarkhanov-lighting-talk-euruko-2019
@@ -226,6 +235,9 @@
         - Julik Tarkhanov
 
     - title: "Lightning Talk: search_flip"
+      event_name: EuRuKo 2019
+      date: "2019-06-22"
+      published_at: "2021-01-19"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: benjamin-vetter-lighting-talk-euruko-2019
@@ -234,6 +246,9 @@
         - Benjamin Vetter
 
     - title: 'Lightning Talk: A "Splash" Course on Live Captioning'
+      event_name: EuRuKo 2019
+      date: "2019-06-22"
+      published_at: "2021-01-19"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: norma-miller-lighting-talk-euruko-2019
@@ -247,7 +262,7 @@
     - Jan Krutisch
   event_name: EuRuKo 2019
   date: "2019-06-22"
-  published_at: "2021-06-01"
+  published_at: "2021-01-19"
   description: |-
     The musical Ruby
 
@@ -264,7 +279,7 @@
     - Aaron Cruz
   event_name: EuRuKo 2019
   date: "2019-06-22"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description: |-
     Steal this talk
 
@@ -281,7 +296,7 @@
     - Richard Schneeman
   event_name: EuRuKo 2019
   date: "2019-06-22"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description: |-
     The Life-Changing Magic of Tidying Active Record Allocations
     Your app is slow. It does not spark joy. In this talk, we will use memory profiling tools to discover performance hotspots. We will use this technique with a real-world application to identify a piece of optimizable code in Active Record that leads to a patch with substantial page speed impact.
@@ -297,7 +312,7 @@
     - Eileen M. Uchitelle
   event_name: EuRuKo 2019
   date: "2019-06-22"
-  published_at: "2021-06-01"
+  published_at: "2021-01-11"
   description: |-
     Closing keynote: The Past, Present, and Future of Rails at GitHub
 
