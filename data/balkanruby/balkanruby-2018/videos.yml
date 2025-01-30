@@ -13,7 +13,7 @@
   speakers:
     - Zach Holman
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Zach Holman is a developer living in San Francisco. He joined GitHub
     in 2010 as one of their first engineering hires, and helped build and grow their
@@ -28,7 +28,7 @@
   speakers:
     - Robert Mosolgo
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Robert is a Ruby developer at GitHub, focused on the GraphQL API. In
     his free time, he likes spending time with his family, reading about programming
@@ -41,7 +41,7 @@
   speakers:
     - Gabriela Luhova
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Rails Girls mentor since 2015. Ruby on Rails developer at Tutuf. Faculty
     of Mathematics and Informatics at the Sofia University graduate. Took part in
@@ -57,7 +57,7 @@
   speakers:
     - Piotr Szotkowski
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description: |-
     Most non-scripting languages are faster than Ruby (Rust: tremendously so), but few (Crystal?) can match its optimisation for developer happiness and productivity. Let’s try to gauge Ruby’s chances when it comes to matching modern performance expectations: Are the changes in recent CRuby versions significant? Can JRuby bring enough JVM performance? And – to address the titular Frankenstein – how easily can we harness the power of Crystal, Rust, C or even assembly from within our Ruby applications?
 
@@ -71,7 +71,7 @@
   speakers:
     - Dinah Shi
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Dinah is wrapping up her engineering degree at the University of Waterloo.
     In 2017, she spent four months backpacking around Europe and China while looking
@@ -88,7 +88,7 @@
   speakers:
     - Marko Bogdanović
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Spent last summer crafting RubyBench as a participant of Google Summer
     of Code. Recently joined guys at the Semaphore CI as a full time Ruby newbie.
@@ -105,7 +105,7 @@
     - Serdar Doğruyol
     - Nick Sutterer
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description: Bozhidar Batsov moderates a panel about the future of Ruby with Vladimir Dementyev, Serdar Doğruyol and Nick Sutterer.
   video_provider: youtube
   video_id: uT4Cth4iChU
@@ -115,7 +115,7 @@
   speakers:
     - Vladimir Dementyev
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Vladimir is a mathematician who found his happiness in programming
     Ruby and Erlang, contributing to open source and being an Evil Martian. Author
@@ -133,7 +133,7 @@
   speakers:
     - Radoslav Stankov
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Radoslav is a web developer for more than a decade. He believes that
     frontend and backend are equally important. In the last several years he juggles
@@ -147,7 +147,7 @@
   speakers:
     - Armin Pašalić
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Software builder, mostly Ruby and a bit of Go. Passionate about "proper"
     testing, clean architecture and DDD. Currently busy constructing a distributed
@@ -164,7 +164,7 @@
   speakers:
     - Jan Krutisch
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Jan is a software developer, tech writer, speaker and multi purpose
     geek.
@@ -176,7 +176,7 @@
   speakers:
     - Serdar Doğruyol
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Rubyist, Crystal Evangelist, Creator of Kemal – a lightning fast, super
     simple web framework written in Crystal.
@@ -190,7 +190,7 @@
   speakers:
     - Nynne Just Christoffersen
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Nynne Just Christoffersen is a Copenhagen-based developer with a background
     in Art and Design History. In her spare time she enjoys her unhealthy obsession
@@ -202,7 +202,7 @@
 - title: Lightning Talks
   raw_title: Lightning talks – Balkan Ruby 2018
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description: ""
   video_provider: youtube
   video_id: lpkePkbYeoI
@@ -276,7 +276,7 @@
   speakers:
     - Nick Sutterer
   event_name: Balkan Ruby 2018
-  published_at: "2018-05-26"
+  date: "2018-05-26"
   description:
     Whenever Open-Source meets deep and profound debates about architecting
     software, and there's free beers involved, Nick Sutterer must be just around the
