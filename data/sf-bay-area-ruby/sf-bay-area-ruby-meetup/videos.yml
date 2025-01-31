@@ -896,21 +896,21 @@
   description: |-
     ​​Hey, Bay Area builders and tinkerers!
 
-    Ruby is the quiet force behind the Bay Area's most successful tech organizations and startups from GitHub and Stripe to Chime and Stackblitz.
+    This time we are hosted by GitHub, and our keynote speaker is Joel Hawksley with "Lessons from 5 years of UI architecture at GitHub" 🔥
 
-    ​We are gathering every month to learn, share, inspire each other, and to have a great time in the MINASWAN group.
+    Agenda
+    * Joel Hawksley (GitHub) Lessons from 5 years of UI architecture at GitHub
+    * Sam Poder (Hack Club) How we built a bank w/ Ruby on Rails
+    * TBC
+    * TBC
 
-    ​SF Ruby is unique and lucky to be hosted in multiple Ruby HQ's: Cisco, GitHub, Y Combinator, Academia.edu, Chime, Productboard, and many more! Join us in discovering the most Ruby parts of our favorite city 🏙️❤️.
+    🎙️ Submit a talk proposal here:​https://forms.gle/C9HQzaT5jvwA5xwc7
 
-    Our meetups explore Rails at scale, building maintainable applications, new horizons with Ruby and Wasm, practical stories about Rails frontend, Ruby LSPs, and AI-native apps—all through Ruby's uniquely productive lens.
+    ​Ruby is the quiet force behind the Bay Area's most successful tech organizations and startups from GitHub, Shopify and Stripe to Chime, Lago, and bolt.new.
 
-    For this event, GitHub is our gracious host!
+    ​We are gathering every month to learn, share, inspire each other, and it feels great because of MINASWAN 💗.
 
-    Speakers and agenda are TBD
-
-    Submit a talk proposal here:
-
-    ​​https://forms.gle/C9HQzaT5jvwA5xwc7
+    ​Our meetups explore building and scaling Ruby and Rails applications. We go deep into technical topics and don't shy away from new ideas and weird experiments! We always have an open mic for everyone's announcements or questions🎙️! Join us in discovering the nicest Ruby HQs 🏙️❤️
 
     Catch you on the flip side! A massive shoutout to GitHub for hosting and sponsoring the event!
 
@@ -919,5 +919,36 @@
     https://lu.ma/hoou421h
   video_provider: scheduled
   video_id: sf-bay-area-ruby-meetup-february-2025
-  speakers:
-    - TBD
+  thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+  thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+  thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+  thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+  thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+  talks:
+    - title: "Lessons from 5 years of UI architecture at GitHub"
+      date: "2025-02-11"
+      announced_at: "2025-01-30 02:48:00 UTC"
+      event_name: SF Bay Area Ruby Meetup - February 2025
+      video_id: "joel-hawksley-sf-bay-area-ruby-meetup-february-2025"
+      video_provider: scheduled
+      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      speakers:
+        - Joel Hawksley
+
+    - title: "How we built a bank w/ Ruby on Rails"
+      date: "2025-02-11"
+      announced_at: "2025-01-30 02:48:00 UTC"
+      event_name: SF Bay Area Ruby Meetup - February 2025
+      video_id: "sam-poder-sf-bay-area-ruby-meetup-february-2025"
+      video_provider: scheduled
+      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      speakers:
+        - Sam Poder

@@ -40,6 +40,9 @@
   metadata_parser: Youtube::VideoMetadata
   slug: ancient-city-ruby-2015
   website: https://web.archive.org/web/20141218235253/http://www.ancientcityruby.com/
+  banner_background: "#F6F6F6"
+  featured_background: "#F6F6F6"
+  featured_color: "#323232"
 
 - id: PLrjohaqTgNJPq3h7UGYbqNwrerEM05t_Q
   location: "St. Augustine, FL"
@@ -54,6 +57,11 @@
   metadata_parser: Youtube::VideoMetadata
   slug: ancient-city-ruby-2016
   website: https://web.archive.org/web/20160324224513/http://www.ancientcityruby.com/
+  banner_background: |-
+    linear-gradient(to bottom, #BCFDF3 14%, #B7A632 14%, #B7A632 16%, #BCFDF3 16%, #BCFDF3 90%, #52F8D1 90%) left top / 50% 100% no-repeat, /* Left side */
+    linear-gradient(to bottom, #BCFDF3 14%, #B7A632 14%, #B7A632 16%, #BCFDF3 16%, #BCFDF3 90%, #52F8D1 90%) right top / 50% 100% no-repeat /* Right side */
+  featured_background: "#BCFDF3"
+  featured_color: "#333333"
 
 - id: PLrjohaqTgNJODBm0-VFsXvUFx1oidLyKa
   location: "Jacksonville Beach, FL"
@@ -68,3 +76,8 @@
   metadata_parser: Youtube::VideoMetadata
   slug: ancient-city-ruby-2019
   website: https://acr.zohobackstage.com/ACR2019
+  banner_background: |-
+    linear-gradient(to bottom, #F2E0E0, #F2E0E0 50%, #E6D5D5 50%) left top / 50% 100% no-repeat, /* Left side */
+    linear-gradient(to bottom, #F2E0E0, #F2E0E0 50%, #E6D5D5 50%) right top / 50% 100% no-repeat /* Right side */
+  featured_background: "#F2E0E0"
+  featured_color: "#333333"

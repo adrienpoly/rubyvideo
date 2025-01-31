@@ -118,3 +118,15 @@
     Let's take the default bundle gem scaffold and transform it into the ideal development setup for 2025, including automated testing on CI, automated pushes to rubygems.org, and type checking right in your editor.
   video_provider: scheduled
   video_id: workshop-updating-to-modern-gem-development-in-2025-ruby-community–conference-winter–edition-2025
+
+- title: "Workshop: PostgreSQL Performance for Ruby Developers: Deep Dive into Database Performance & TimescaleDB"
+  raw_title: "PostgreSQL Performance for Ruby Developers: Deep Dive into Database Performance & TimescaleDB"
+  speakers:
+    - Jônatas Paganini
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  announced_at: "2025-01-30 10:58:00 UTC"
+  description: |-
+    Join our hands-on workshop to explore PostgreSQL internals, query optimization, and time-series data with TimescaleDB. Learn how to debug queries with EXPLAIN ANALYZE, optimize transactions for high-concurrency apps, and fine-tune database performance. A must-attend for Ruby developers working with PostgreSQL!
+  video_provider: scheduled
+  video_id: workshop-postgresql-performance-for-ruby-developers-ruby-community–conference-winter–edition-2025
