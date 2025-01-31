@@ -117,7 +117,9 @@ class TalksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
 
     json_response = JSON.parse(response.body)
-    assert_equal @talk.slug, json_response["talks"].first["slug"]
+    talk = Talk.watchable.order(date: :desc).first
+
+    assert_equal talk.slug, json_response["talks"].first["slug"]
   end
 
   test "should get show as JSON" do

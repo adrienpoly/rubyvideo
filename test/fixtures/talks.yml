@@ -69,12 +69,14 @@ one:
   video_id: F75k4Oc6g9Q
   kind: "talk"
   event: rails_world_2023
+  date: "2023-10-05"
 
 two:
   title: talk title 2
   description: talk descritpion 2
   slug: talk-title-2
   kind: "talk"
+  date: "2025-01-31"
 
 brightonruby_2024_one:
   title: Getting to Two Million Users as a One Woman Dev Team
@@ -84,3 +86,4 @@ brightonruby_2024_one:
   video_provider: mp4
   external_player: true
   event: brightonruby_2024
+  date: "2024-06-30"
