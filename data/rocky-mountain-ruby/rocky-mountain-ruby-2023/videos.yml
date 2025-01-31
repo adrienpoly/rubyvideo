@@ -9,7 +9,8 @@
   speakers:
     - Dustin Haefele-Tschanz
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: |-
     Rocky Mountain Ruby 2023 - The pursuit of happiness. by Dustin Haefele-Tschanz
 
@@ -22,7 +23,8 @@
   speakers:
     - Joel Hawksley
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: |-
     Rocky Mountain Ruby 2023 - Accessible by default by Joel Hawksley
 
@@ -35,7 +37,8 @@
   speakers:
     - Marc Reynolds
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: |-
     Rocky Mountain Ruby 2023 - Modularizing Rails Monoliths One Bite at a Time by Marc Reynolds
 
@@ -48,7 +51,8 @@
   speakers:
     - Ifat Ribon
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: |-
     Rocky Mountain Ruby 2023 - Go Pro with POROs by Ifat Ribon
 
@@ -63,7 +67,8 @@
   speakers:
     - Jon Evans
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: |-
     Rocky Mountain Ruby 2023 - Let’s Extract a Class: The Single Responsibility Principle and Design Patterns by Jon Evans
 
@@ -76,7 +81,8 @@
   speakers:
     - Drew Bragg
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: |-
     Rocky Mountain Ruby 2023 - Who Wants to be a Ruby Engineer? by Drew Bragg
 
@@ -89,7 +95,8 @@
   speakers:
     - Ridhwana Khan
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: |-
     Rocky Mountain Ruby 2023 - Caching strategies on https://dev.to by Ridhwana Khan
 
@@ -102,7 +109,8 @@
   speakers:
     - Brooke Kuhlmann
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: |-
     Rocky Mountain Ruby 2023 - A Return To Simplicity: Architect Hypermedia REST applications using Hanami + HTMX by Brooke Kuhlmann
 
@@ -117,7 +125,8 @@
   speakers:
     - Moncef Belyamani
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: |-
     Rocky Mountain Ruby 2023 - Licensing and Distributing a Paid CLI With Ruby, Rails, and SwiftUI by Moncef Belyamani
 
@@ -128,12 +137,15 @@
 - title: "Rocky Mountain Ruby 2023: Lightning Talks"
   raw_title: Rocky Mountain Ruby 2023 - Lightning Talks
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: "A series of lightning talks from Rocky Mountain Ruby 2023."
   video_provider: youtube
   video_id: lmAPQuUrhFw
   talks:
     - title: "Lightning Talk: The SuperSpreader gem"
+      date: "2023-10-26"
+      published_at: "TODO"
       start_cue: "00:00"
       end_cue: "05:18"
       video_id: ben-oakes-lighting-talk-rocky-mountain-ruby-2023
@@ -142,6 +154,8 @@
         - Ben Oakes
 
     - title: "Lightning Talk: First Follower"
+      date: "2023-10-26"
+      published_at: "TODO"
       start_cue: "05:18"
       end_cue: "09:08"
       video_id: melony-erin-franchini-lighting-talk-rocky-mountain-ruby-2023
@@ -150,6 +164,8 @@
         - Melony Erin Franchini
 
     - title: "Lightning Talk: Building Broken Gems"
+      date: "2023-10-26"
+      published_at: "TODO"
       start_cue: "09:08"
       end_cue: "12:48"
       video_id: samuel-giddins-lighting-talk-rocky-mountain-ruby-2023
@@ -158,6 +174,8 @@
         - Samuel Giddins
 
     - title: "Lightning Talk: Immutability in Ruby POROs"
+      date: "2023-10-26"
+      published_at: "TODO"
       start_cue: "12:48"
       end_cue: "17:49"
       video_id: eric-mueller-lighting-talk-rocky-mountain-ruby-2023
@@ -166,6 +184,8 @@
         - Eric Mueller
 
     - title: "Lightning Talk: The excited References, Extensions, Explorations Section to Marc's Talk"
+      date: "2023-10-26"
+      published_at: "TODO"
       start_cue: "17:49"
       end_cue: "22:07"
       video_id: stephan-lighting-talk-rocky-mountain-ruby-2023
@@ -174,6 +194,8 @@
         - Stephan
 
     - title: "Lightning Talk: Makefiles"
+      date: "2023-10-26"
+      published_at: "TODO"
       start_cue: "22:07"
       end_cue: "25:14"
       video_id: blake-gearin-lighting-talk-rocky-mountain-ruby-2023
@@ -182,6 +204,8 @@
         - Blake Gearin
 
     - title: "Lightning Talk: Code & Coffee"
+      date: "2023-10-26"
+      published_at: "TODO"
       start_cue: "25:14"
       end_cue: "26:22"
       video_id: jeremy-hinegardner-lighting-talk-rocky-mountain-ruby-2023
@@ -194,7 +218,8 @@
   speakers:
     - Jon Sullivan
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description:
     "Rocky Mountain Ruby 2023 - Turbo Frames Explored... for Fun and Profit
     by Jon Sullivan \n\nThe ‘new magic’ came at the end of 2020: ✨Hotwire⚡️: Stimulus,
@@ -210,7 +235,8 @@
   speakers:
     - Davy Stevenson
   event_name: Rocky Mountain Ruby 2023
-  published_at: "2023-10-26"
+  date: "2023-10-26"
+  published_at: "TODO"
   description: |-
     Rocky Mountain Ruby 2023 - A blueprint for making scary choices by Davy Stevenson
 

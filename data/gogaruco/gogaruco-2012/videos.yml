@@ -10,7 +10,8 @@
   speakers:
     - Ilya Grigorik
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: |-
     Cargo Cult Web Performance Optimization by: Ilya Grigorik
 
@@ -25,7 +26,8 @@
   speakers:
     - Amit Kumar
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: |-
     RubyMotion: Rubyizing iOS development by: Amit Kumar
 
@@ -50,7 +52,8 @@
   speakers:
     - Glenn Vanderburg
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: "Grasping Complexity with Both Hands by:  Glenn Vanderburg"
   video_provider: youtube
   video_id: QziXZM8tKAM
@@ -58,7 +61,8 @@
 - title: Three Mini-talks
   raw_title: GoGaRuCo 2012 - Three Mini-talks
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "2015-07-14"
   description: |-
     Three Mini-talks by: Sarah Mei, Tony Arcieri, and Chris Eppstein
 
@@ -67,13 +71,20 @@
   video_id: fK5llwBYBRg
   talks:
     - title: Three Mini-talks Intro
+      event_name: GoGaRuCo 2012
+      date: "2012-09-14"
+      published_at: "2015-07-14"
       start_cue: "00:00"
       end_cue: "00:42"
       video_id: three-mini-talks-intro-gogaruco-2012
       video_provider: parent
       speakers:
         - TODO
+
     - title: "Mini Talk: A Crash Course on Celluloid"
+      event_name: GoGaRuCo 2012
+      date: "2012-09-14"
+      published_at: "2015-07-14"
       start_cue: "00:42"
       end_cue: "09:40"
       video_id: tony-arcieri-lightning-talk-gogaruco-2012
@@ -84,6 +95,9 @@
         This talk will provide a quick overview of how to use Celluloid, covering the basics of how to add Celluloid to your program and begin leveraging its concurrent features.
 
     - title: "Mini Talk: Naiveté"
+      event_name: GoGaRuCo 2012
+      date: "2012-09-14"
+      published_at: "2015-07-14"
       start_cue: "09:40"
       end_cue: "19:24"
       video_id: chris-eppstein-lightning-talk-gogaruco-2012
@@ -94,6 +108,9 @@
         Stepping outside your comfort zone.
 
     - title: "Mini Talk: MRI Internals"
+      event_name: GoGaRuCo 2012
+      date: "2012-09-14"
+      published_at: "2015-07-14"
       start_cue: "19:24"
       end_cue: "30:40"
       video_id: sarah-mei-lightning-talk-gogaruco-2012
@@ -108,7 +125,8 @@
   speakers:
     - Yehuda Katz
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: |-
     Cruft and Technical Debt: A Long View by: Yehuda Katz
 
@@ -123,7 +141,8 @@
   speakers:
     - Carina C. Zona
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: |-
     Schemas for the Real World by: Carina C. Zona
 
@@ -138,7 +157,8 @@
   speakers:
     - David Copeland
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: |-
     Services, Scale, Backgrounding and WTF is going on here?!??! by: David Copeland
 
@@ -155,7 +175,8 @@
   speakers:
     - Joe Kutner
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: "Deploy, Scale and Sleep at Night with JRuby by: Joe Kutner"
   video_provider: youtube
   video_id: P5mjivt2Zkw
@@ -165,7 +186,8 @@
   speakers:
     - Avdi Grimm
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: |-
     Code to Joy by: Avdi Grimm
 
@@ -178,7 +200,8 @@
   speakers:
     - Daniela Wellisz
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: "Why Is A Math Proof Like A Unit Test? by: Daniela Wellisz"
   video_provider: youtube
   video_id: RZUKxYfvtVo
@@ -188,7 +211,8 @@
   speakers:
     - Sandi Metz
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/skmetz/go-ahead-make-a-mess
   description: |-
     Go Ahead, Make a Mess by: Sandi Metz
@@ -206,7 +230,8 @@
   speakers:
     - John Downey
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: |-
     Modern Cryptography by: John Downey
 
@@ -226,7 +251,8 @@
   speakers:
     - Charles Nutter
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: "High Performance Ruby by:  Charles Nutter"
   video_provider: youtube
   video_id: 3vzOSpcr4yk
@@ -236,7 +262,8 @@
   speakers:
     - Jack Danger Canty
   event_name: GoGaRuCo 2012
-  published_at: "2012-09-14"
+  date: "2012-09-14"
+  published_at: "TODO"
   description: |-
     Mega Rails by: Jack Danger Canty
 

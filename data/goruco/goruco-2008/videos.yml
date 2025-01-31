@@ -6,9 +6,9 @@
   speakers:
     - Bryan Helmkamp
   event_name: GORUCO 2008
-  published_at: "2008-04-26"
-  description: |-
-
+  date: "2008-04-26"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: ApD-F65Vv-Q
 
@@ -17,9 +17,9 @@
   speakers:
     - Giles Bowkett
   event_name: GORUCO 2008
-  published_at: "2008-04-26"
-  description: |-
-
+  date: "2008-04-26"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: 0XDawYp9mKY
 
@@ -28,9 +28,9 @@
   speakers:
     - Chris Wanstrath
   event_name: GORUCO 2008
-  published_at: "2008-04-26"
-  description: |-
-
+  date: "2008-04-26"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: DAoYufIKebU
 
@@ -41,9 +41,9 @@
   speakers:
     - Ryan Davis
   event_name: GORUCO 2008
-  published_at: "2008-04-26"
-  description: |-
-
+  date: "2008-04-26"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: L_z5oqPrDWY
 
@@ -52,9 +52,9 @@
   speakers:
     - Paul Dix
   event_name: GORUCO 2008
-  published_at: "2008-04-26"
-  description: |-
-
+  date: "2008-04-26"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: dNzA5Yygm5U
 
@@ -63,9 +63,9 @@
   speakers:
     - Ezra Zygmuntowicz
   event_name: GORUCO 2008
-  published_at: "2008-04-26"
-  description: |-
-
+  date: "2008-04-26"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: BqjPOC_ckG4
 
@@ -74,13 +74,16 @@
 - title: "Lightning Talks: RejectConf"
   raw_title: RejectConf / Lightning Talks by Various Presenters
   event_name: GORUCO 2008
-  published_at: "2008-04-26"
-  description: |-
-
+  date: "2008-04-26"
+  published_at: "2012-04-18"
+  description: ""
   video_provider: youtube
   video_id: W7TGK7f_IDM
   talks:
     - title: "Lightning Talk: Ryan Davis"
+      event_name: GORUCO 2008
+      date: "2008-04-26"
+      published_at: "2012-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: ryan-davis-lighting-talk-goruco-2008
@@ -89,6 +92,9 @@
         - Ryan Davis
 
     - title: "Lightning Talk: Johnson"
+      event_name: GORUCO 2008
+      date: "2008-04-26"
+      published_at: "2012-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: johnson-lighting-talk-goruco-2008
@@ -97,6 +103,9 @@
         - Johnson # TODO: missing last name
 
     - title: "Lightning Talk: Delmont"
+      event_name: GORUCO 2008
+      date: "2008-04-26"
+      published_at: "2012-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: delmont-lighting-talk-goruco-2008
@@ -105,6 +114,9 @@
         - Delmont # TODO: missing last name
 
     - title: "Lightning Talk: Gregory Brown"
+      event_name: GORUCO 2008
+      date: "2008-04-26"
+      published_at: "2012-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: gregory-brown-lighting-talk-goruco-2008
@@ -113,6 +125,9 @@
         - Gregory Brown
 
     - title: "Lightning Talk: Dan DiMaggio"
+      event_name: GORUCO 2008
+      date: "2008-04-26"
+      published_at: "2012-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: dan-dimaggio-lighting-talk-goruco-2008
@@ -121,6 +136,9 @@
         - Dan DiMaggio
 
     - title: "Lightning Talk: Phil Matarese"
+      event_name: GORUCO 2008
+      date: "2008-04-26"
+      published_at: "2012-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: phil-matarese-lighting-talk-goruco-2008
@@ -129,6 +147,9 @@
         - Phil Matarese
 
     - title: "Lightning Talk: Peter Jaros"
+      event_name: GORUCO 2008
+      date: "2008-04-26"
+      published_at: "2012-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: peter-jaros-lighting-talk-goruco-2008
@@ -137,6 +158,9 @@
         - Peter Jaros
 
     - title: "Lightning Talk: Mindstorms"
+      event_name: GORUCO 2008
+      date: "2008-04-26"
+      published_at: "2012-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: mindstorms-lighting-talk-goruco-2008
@@ -145,6 +169,9 @@
         - TODO # TODO: missing speaker name
 
     - title: "Lightning Talk: Luke Miglia"
+      event_name: GORUCO 2008
+      date: "2008-04-26"
+      published_at: "2012-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: luke-miglia-lighting-talk-goruco-2008
@@ -153,6 +180,9 @@
         - Luke Miglia
 
     - title: "Lightning Talk: Wilson"
+      event_name: GORUCO 2008
+      date: "2008-04-26"
+      published_at: "2012-04-18"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: wilson-lighting-talk-goruco-2008

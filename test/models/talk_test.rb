@@ -3,7 +3,7 @@ require "test_helper"
 class TalkTest < ActiveSupport::TestCase
   include ActiveJob::TestHelper
   test "should handle empty transcript" do
-    talk = Talk.new(title: "Sample Talk", talk_transcript_attributes: {raw_transcript: Transcript.new})
+    talk = Talk.new(title: "Sample Talk", date: Date.today, talk_transcript_attributes: {raw_transcript: Transcript.new})
     assert talk.save
 
     loaded_talk = Talk.find(talk.id)
@@ -26,7 +26,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "when the talk doesn't have any transcript yet" do
-    @talk = Talk.create!(title: "Express Your Ideas by Writing Your Own Gems", video_id: "Md90cwnmGc8", video_provider: "youtube")
+    @talk = Talk.create!(title: "Express Your Ideas by Writing Your Own Gems", video_id: "Md90cwnmGc8", video_provider: "youtube", date: Date.today)
 
     VCR.use_cassette("youtube/transcript_not_available") do
       perform_enqueued_jobs do
@@ -57,7 +57,7 @@ class TalkTest < ActiveSupport::TestCase
 
     kind_with_titles.each do |kind, titles|
       titles.each do |title|
-        talk = Talk.new(title:)
+        talk = Talk.new(title:, date: Date.today)
         talk.save!
 
         assert_equal [kind.to_s, title], [talk.kind, talk.title]
@@ -68,7 +68,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "should not guess a kind if it's provided" do
-    talk = Talk.create!(title: "foo", kind: "panel")
+    talk = Talk.create!(title: "foo", kind: "panel", date: Date.today)
 
     assert_equal "panel", talk.kind
   end
@@ -77,7 +77,8 @@ class TalkTest < ActiveSupport::TestCase
     talk = Talk.create!(
       title: "Who Wants to be a Ruby Engineer?",
       video_provider: "mp4",
-      video_id: "https://videos.brightonruby.com/videos/2024/drew-bragg-who-wants-to-be-a-ruby-engineer.mp4"
+      video_id: "https://videos.brightonruby.com/videos/2024/drew-bragg-who-wants-to-be-a-ruby-engineer.mp4",
+      date: Date.today
     )
 
     assert_equal "gameshow", talk.kind
@@ -85,7 +86,7 @@ class TalkTest < ActiveSupport::TestCase
 
   test "transcript should default to raw_transcript" do
     raw_transcript = Transcript.new(cues: [Cue.new(start_time: 0, end_time: 1, text: "Hello")])
-    talk = Talk.new(title: "Sample Talk", talk_transcript_attributes: {raw_transcript: raw_transcript})
+    talk = Talk.new(title: "Sample Talk", date: Date.today, talk_transcript_attributes: {raw_transcript: raw_transcript})
     assert talk.save
 
     loaded_talk = Talk.find(talk.id)
@@ -194,7 +195,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "create a new talk with a nil language" do
-    talk = Talk.create!(title: "New title", language: nil)
+    talk = Talk.create!(title: "New title", language: nil, date: Date.today)
     assert_equal "en", talk.language
     assert talk.valid?
   end

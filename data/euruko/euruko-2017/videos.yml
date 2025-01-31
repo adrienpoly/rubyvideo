@@ -15,7 +15,7 @@
     - Yukihiro "Matz" Matsumoto
   event_name: EuRuKo 2017
   date: "2017-09-29"
-  published_at: "2021-06-01"
+  published_at: "2017-12-20"
   description: ""
   video_provider: youtube
   video_id: nlMsi8S3kZg
@@ -26,7 +26,7 @@
     - Sasha Romijn
   event_name: EuRuKo 2017
   date: "2017-09-29"
-  published_at: "2021-06-01"
+  published_at: "2017-12-20"
   slides_url: https://github.com/mxsasha/empathy-talk/blob/e181c1a273a22f01d9ff54cb278496d285ebfffd/deckset.pdf
   description: ""
   video_provider: youtube
@@ -38,7 +38,7 @@
     - Sai Warang
   event_name: EuRuKo 2017
   date: "2017-09-29"
-  published_at: "2021-06-01"
+  published_at: "2017-12-20"
   slides_url: https://speakerdeck.com/cyprusad/euruko-2017-data-driven-production-apps
   description: ""
   video_provider: youtube
@@ -52,7 +52,7 @@
     - Judit Ördög-Andrási
   event_name: EuRuKo 2017
   date: "2017-09-29"
-  published_at: "2021-06-01"
+  published_at: "2017-12-20"
   slides_url: https://euruko2017.org/downloads/slides/the_real_black_friday.pdf
   description: ""
   video_provider: youtube
@@ -64,7 +64,7 @@
     - Arafat Khan
   event_name: EuRuKo 2017
   date: "2017-09-29"
-  published_at: "2021-06-01"
+  published_at: "2017-12-20"
   slides_url: https://docs.google.com/presentation/d/1FSfVfwFrWQ5AXgedVoqk_-50vT5q2vyQD0uA3_CewTU/edit?usp=sharing
   description: ""
   video_provider: youtube
@@ -76,7 +76,7 @@
     - Anthony Zacharakis
   event_name: EuRuKo 2017
   date: "2017-09-29"
-  published_at: "2021-06-01"
+  published_at: "2017-12-20"
   slides_url: https://speakerdeck.com/azach/distributed-systems-your-only-guarantee-is-inconsistency
   description: ""
   video_provider: youtube
@@ -88,7 +88,7 @@
     - Katarzyna Turbiasz-Bugała
   event_name: EuRuKo 2017
   date: "2017-09-29"
-  published_at: "2021-06-01"
+  published_at: "2017-12-20"
   slides_url: https://euruko2017.org/downloads/slides/search_engine.pdf
   description: ""
   video_provider: youtube
@@ -98,7 +98,7 @@
   raw_title: Lightning talks day1@EuRuKo2017
   event_name: EuRuKo 2017
   date: "2017-09-29"
-  published_at: "2021-06-01"
+  published_at: "2018-01-05"
   description: ""
   video_provider: youtube
   video_id: NEnZViT581o
@@ -259,6 +259,9 @@
   video_id: 0bDRKUqIu24
   talks:
     - title: "Lightning Talk: Pilar Andrea Huidobro Peltier"
+      event_name: EuRuKo 2017
+      date: "2017-09-30"
+      published_at: "2017-12-22"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: pilar-andrea-huidobro-peltier-lighting-talk-euruko-2017
@@ -267,6 +270,9 @@
         - Pilar Andrea Huidobro Peltier
 
     - title: "Lightning Talk: Jake"
+      event_name: EuRuKo 2017
+      date: "2017-09-30"
+      published_at: "2017-12-22"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: jake-lighting-talk-euruko-2017
@@ -275,6 +281,9 @@
         - Jake
 
     - title: "Lightning Talk: Quentin Godfroy"
+      event_name: EuRuKo 2017
+      date: "2017-09-30"
+      published_at: "2017-12-22"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: quentin-godfroy-lighting-talk-euruko-2017
@@ -283,6 +292,9 @@
         - Quentin Godfroy
 
     - title: "Lightning Talk: Mehdi Lahmam B."
+      event_name: EuRuKo 2017
+      date: "2017-09-30"
+      published_at: "2017-12-22"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: mehdi-lahmam-b-lighting-talk-euruko-2017
@@ -291,6 +303,9 @@
         - Mehdi Lahmam B.
 
     - title: "Lightning Talk: Ana María Martínez Gómez"
+      event_name: EuRuKo 2017
+      date: "2017-09-30"
+      published_at: "2017-12-22"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: ana-maria-martinez-gomez-lighting-talk-euruko-2017

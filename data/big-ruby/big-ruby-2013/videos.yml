@@ -10,7 +10,7 @@
   speakers:
     - Ernie Miller
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     Metaprogramming. It's awesome, right? Powerful? Maybe a little scary?
 
@@ -24,7 +24,7 @@
   speakers:
     - John Downey
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     Ruby developers have many great options for simply hosting their web applications. But what happens when your product outgrows Heroku? Managing your own servers can be an intimidating task for the average developer. This session will cover the lessons we've learned at Braintree from building and maintaining our infrastructure. It will cover how we leverage Ruby to automate and control all of our environments. Some specific topics we'll cover:
 
@@ -42,7 +42,7 @@
   speakers:
     - Matt Kirk
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     We all know data is growing at a rapid pace and our ability to store it has become cheap. But what do we do with all this data? Do you feel overwhelmed with the infinite amounts of decisions you could make?
 
@@ -66,7 +66,7 @@
   speakers:
     - Brian Morton
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     Building services and integrating them into Rails is hard. We want smaller Rails apps and nicely encapsulated services, but services introduce complexity. If you go overboard in the beginning, you're doing extra work and getting some of it wrong. If you wait too long, you've got a mess.
 
@@ -82,7 +82,7 @@
   speakers:
     - Adam Keys
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     Big team, small team. Huge company, tiny side business. No matter which, time is what you're short on. You're already using tools like Ruby and Rails to make more with the time you have. But what about non-web apps? What databases, development tools, and other libraries let you do more or do bigger things in'less time?
 
@@ -96,7 +96,7 @@
   speakers:
     - Joshua Timberman
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     This talk is an exploration into five lesser-known things that Chef can be used for, or is capable of doing. Some of these features and capabilities are unknown by all but the most experienced Chef users. Some of them are anti-patterns but still really useful. And others give you additional flexibility for using Chef in your environment.
 
@@ -110,7 +110,7 @@
   speakers:
     - John Duff
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     Tobi Lutke wrote the first line of code for Shopify nearly 10 years ago to power his own Snowboard shop. Two years later Shopify launched to the public on a single webserver using Rails 0.13.1. Today Shopify powers over 40k online stores and processes up to half a million product sales per day across the platform. Over 30 people actively work on Shopify which makes it the longest developed and likely largest Rails code base out there.
 
@@ -126,7 +126,7 @@
   speakers:
     - Joe Kutner
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     To keep doing what you love, you need to maintain your own systems, not just the ones you write code for. Regular exercise and proper nutrition help you learn, remember, concentrate, and be creative—skills critical to doing your job well. Learn how to change your work habits, master exercises that make working at a computer more comfortable, and develop a plan to keep fit, healthy, and sharp for years to come.
 
@@ -138,7 +138,7 @@
   speakers:
     - Jeremy Hinegardner
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     Data arrives in all sorts of forms, more and more today we are seeing data arrive in event-like systems: server logs, twitter, superfeedr notifications, github events, rubygems web hooks, couchdb change notifications, etc. We want to analyze streams of data, and find useful pieces of information in them.
 
@@ -152,7 +152,7 @@
   speakers:
     - Josh Schairbaum
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
 
   video_provider: youtube
@@ -163,7 +163,7 @@
   speakers:
     - Geoffrey Dagley
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     What started with two brothers in the McKinney Public Library is now a world wide word phenomenon on multiple mobile platforms. We'll look at how we have grown, the mistakes we made, and the changes we have made along the way:
 
@@ -179,7 +179,7 @@
 - title: Lightning Talks
   raw_title: Big Ruby 2013 Lightning Talks
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
 
   video_provider: youtube
@@ -238,7 +238,7 @@
   speakers:
     - Wynn Netherland
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
     Like REST itself, Hypermedia is one of those topics everyone is talking about but few understand. Many discussions on the topic devolve into chaos until someone screams out "Fielding, dang it!" in exasperation. Even more civilized debates have a healthy dose of "READ THE F-ING SPEC!"
 
@@ -254,7 +254,7 @@
   speakers:
     - Jim Weirich
   event_name: Big Ruby 2013
-  published_at: "2013-02-28"
+  date: "2013-02-28"
   description: |-
 
   video_provider: youtube

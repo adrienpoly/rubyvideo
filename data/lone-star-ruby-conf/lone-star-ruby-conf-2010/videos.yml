@@ -9,7 +9,8 @@
   speakers:
     - Glenn Vanderburg
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description:
     "Software engineering as it's taught in universities simply doesn't
     work. It doesn't produce software systems of high quality, and it doesn't produce
@@ -30,7 +31,8 @@
   speakers:
     - Bruce Tate
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: jBoU1JpFVIg
@@ -40,7 +42,8 @@
   speakers:
     - Tom Preston-Werner
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: hwvMR-943qw
@@ -50,7 +53,8 @@
   speakers:
     - Nick Gauthier
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: mMp-nTDyP8M
@@ -60,7 +64,8 @@
   speakers:
     - Wynn Netherland
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: 8ojICo5cyUE
@@ -71,7 +76,8 @@
     - Nick Sutterer
     - Kevin Triplett
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: jqtgQQAS4fg
@@ -81,7 +87,8 @@
   speakers:
     - Ari Lerner
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: |-
     Okay, your rack app is done and you are ready to deploy it. Now, instead of developing your application you have to switch gears and start thinking about how it should be deployed. What http server should you use? How do you scale it beyond a single instance, load-balance it? How do you even get your app on a server? This discussion happens every time that you finish an application to deploy!
 
@@ -96,7 +103,8 @@
   speakers:
     - Jesse Wolgamott
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: |-
     by: Jesse Wolgamott
 
@@ -113,7 +121,8 @@
   speakers:
     - Adam Keys
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: |-
     Rails jumped on the scene five years ago in part due to excellent support for connecting database tables to Ruby classes via ActiveRecord. Rails 3 makes two major improvements to this support. ActiveModel makes it easy to turn any old object into one that looks like ActiveRecord to your Rails app. ActiveRelation makes many kinds of queries easier and makes it possible to write some queries that were very difficult in the past.
 
@@ -128,7 +137,8 @@
   speakers:
     - Gregg Pollack
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description:
     "Yehuda Katz has done some great Ruby refactoring for Rails 3 over
     the past year, but do you really understand what he's done? In this talk, Gregg
@@ -148,7 +158,8 @@
     - Jim Remsik
     - Les Hill
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: "by: Jim Remsik, Les Hill"
   video_provider: youtube
   video_id: jVJr2ja1zRY
@@ -158,7 +169,8 @@
   speakers:
     - Steve Sanderson
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: |-
     "Get your facts first, then you can distort them as you please", or why I love continuous learning with continuous deployment. by: Steve Sanderson
 
@@ -178,7 +190,8 @@
   speakers:
     - Bernerd Schaefer
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description:
     With a growing pool of ORMs innovating in the realm of NoSQL solutions
     and a new NoSQL database seemingly every week, it can be difficult to decide what
@@ -193,7 +206,8 @@
   speakers:
     - Adam Kalsey
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -204,7 +218,8 @@
   speakers:
     - John Crepezzi
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -216,7 +231,8 @@
     - Jim Remsik
     - Robert Pitts
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: By Jim Remsik & Robert Pitts
   video_provider: youtube
   video_id: 7MeZSkA7l2Y
@@ -226,7 +242,8 @@
   speakers:
     - Jesse Crouch
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: By Jesse Crouch
   video_provider: youtube
   video_id: QQIMwp_eY28
@@ -236,7 +253,8 @@
   speakers:
     - Aman Gupta
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: gEMnwRAUlKE
@@ -246,7 +264,8 @@
   speakers:
     - Caleb Clausen
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: By Caleb Clausen
   video_provider: youtube
   video_id: kbYRbQVShxE
@@ -256,7 +275,8 @@
   speakers:
     - Zhao Lu
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: FiobTjSskwY
@@ -266,7 +286,8 @@
   speakers:
     - Gautam Rege
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: 3hdUN00DEWE
@@ -276,7 +297,8 @@
   speakers:
     - Jason Goecke
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: 4sSoGAfpQ0s
@@ -286,7 +308,8 @@
   speakers:
     - Blake Mizerany
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: LsTzE0BPybE
@@ -296,7 +319,8 @@
   speakers:
     - David Copeland
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: By David Copeland
   video_provider: youtube
   video_id: fJjRewOcjgM
@@ -306,7 +330,8 @@
   speakers:
     - Nephi Johnson
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: By Nephi Johnson
   video_provider: youtube
   video_id: jl5633Y9NQk
@@ -316,7 +341,8 @@
   speakers:
     - Rogelio J. Samour
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: rh2DOYbnh98
@@ -326,7 +352,8 @@
   speakers:
     - Joshua Hull
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -337,7 +364,8 @@
   speakers:
     - Charles Cornell
   event_name: LoneStarRuby Conf 2010
-  published_at: "2010-08-26"
+  date: "2010-08-26"
+  published_at: "TODO"
   description: |-
     By Charles Cornell
 

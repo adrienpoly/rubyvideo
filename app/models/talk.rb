@@ -4,6 +4,7 @@
 # Table name: talks
 #
 #  id                  :integer          not null, primary key
+#  announced_at        :datetime
 #  date                :date             indexed, indexed => [video_provider]
 #  description         :text             default(""), not null
 #  duration_in_seconds :integer
@@ -14,6 +15,7 @@
 #  language            :string           default("en"), not null
 #  like_count          :integer          default(0)
 #  meta_talk           :boolean          default(FALSE), not null
+#  published_at        :datetime
 #  slides_url          :string
 #  slug                :string           default(""), not null, indexed
 #  start_seconds       :integer
@@ -93,11 +95,16 @@ class Talk < ApplicationRecord
   validates :language, presence: true,
     inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
 
+  validates :date, presence: true
+  # validates :published_at, presence: true, if: :published? # TODO: enable
+
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
   # callbacks
   before_validation :set_kind, if: -> { !kind_changed? }
+
+  WATCHABLE_PROVIDERS = ["youtube", "mp4", "vimeo"]
 
   # enums
   enum :video_provider, %w[youtube mp4 vimeo scheduled not_published not_recorded parent children].index_by(&:itself)
@@ -213,13 +220,17 @@ class Talk < ApplicationRecord
   scope :for_topic, ->(topic_slug) { joins(:topics).where(topics: {slug: topic_slug}) }
   scope :for_speaker, ->(speaker_slug) { joins(:speakers).where(speakers: {slug: speaker_slug}) }
   scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
-  scope :watchable, -> { where(video_provider: [:youtube, :mp4, :vimeo]) }
+  scope :watchable, -> { where(video_provider: WATCHABLE_PROVIDERS) }
 
   def managed_by?(visiting_user)
     return false unless visiting_user.present?
     return true if visiting_user.admin?
 
     speakers.exists?(user: visiting_user)
+  end
+
+  def published?
+    video_provider.in?(WATCHABLE_PROVIDERS)
   end
 
   def to_meta_tags
@@ -365,18 +376,6 @@ class Talk < ApplicationRecord
     Talk.includes(event: :organisation).where(id: ids)
   end
 
-  def announced_at
-    Time.parse(static_metadata[:announced_at])
-  rescue
-    nil
-  end
-
-  def published_at
-    Time.parse(static_metadata[:published_at])
-  rescue
-    nil
-  end
-
   def formatted_date
     date.strftime("%B %d, %Y")
   rescue => _e
@@ -462,19 +461,13 @@ class Talk < ApplicationRecord
       return
     end
 
-    date = static_metadata.try(:date) ||
-      (parent_talk && parent_talk.static_metadata.try(:date)) ||
-      static_metadata.try(:published_at) ||
-      (parent_talk && parent_talk.static_metadata.try(:published_at)) ||
-      event.start_date ||
-      event.end_date ||
-      Date.parse("#{static_metadata.year}-01-01")
-
     assign_attributes(
       event: event,
       title: static_metadata.title,
       description: static_metadata.description,
-      date: date,
+      date: static_metadata.try(:date) || parent_talk&.static_metadata.try(:date),
+      published_at: static_metadata.try(:published_at) || parent_talk&.static_metadata.try(:published_at),
+      announced_at: static_metadata.try(:announced_at) || parent_talk&.static_metadata.try(:announced_at),
       thumbnail_xs: static_metadata["thumbnail_xs"] || "",
       thumbnail_sm: static_metadata["thumbnail_sm"] || "",
       thumbnail_md: static_metadata["thumbnail_md"] || "",

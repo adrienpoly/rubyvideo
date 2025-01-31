@@ -7,7 +7,7 @@
   speakers:
     - Sarah Allen
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/making-software-fun-sarah-allen
   video_provider: mp4
@@ -22,7 +22,7 @@
   speakers:
     - Luca Guidi
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/lotus-hanami-and-the-future-of-ruby-luca-guidi
   video_provider: mp4
@@ -35,7 +35,7 @@
   speakers:
     - Elle Meredith
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/just-in-time-elle-meredith
   video_provider: mp4
@@ -48,7 +48,7 @@
   speakers:
     - Sam Phippen
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/do-you-need-that-gem-sam-phippen
   video_provider: mp4
@@ -59,7 +59,7 @@
 - title: Lightning Talks
   raw_title: Lightning Talks
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/lightning-talks
   video_provider: mp4
@@ -111,7 +111,7 @@
   speakers:
     - Rob Miller
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/mini-munging-the-joy-of-small-data-rob-miller
   video_provider: mp4
@@ -124,7 +124,7 @@
   speakers:
     - Nadia Odunayo
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/playing-games-in-the-clouds-nadia-odunayo
   video_provider: mp4
@@ -141,7 +141,7 @@
   speakers:
     - Tadej Murovec
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/command-and-conquer-red-alert-tadej-murovec
   video_provider: mp4
@@ -156,7 +156,7 @@
   speakers:
     - Kinsey Ann Durham
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/the-struggle-to-stay-technical-kinsey-ann-durham
   video_provider: mp4
@@ -175,7 +175,7 @@
     - Kinsey Ann Durham
     - Sam Phippen
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/just-a-ruby-minute-andrew-faraday
   video_provider: mp4
@@ -189,7 +189,7 @@
   speakers:
     - Avdi Grimm
   event_name: Brighton Ruby 2015
-  published_at: "2015-07-20"
+  date: "2015-07-20"
   external_player: true
   external_player_url: https://brightonruby.com/2015/the-soul-of-software-avdi-grimm
   video_provider: mp4

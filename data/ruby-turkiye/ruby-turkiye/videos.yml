@@ -30,7 +30,8 @@
   speakers:
     - Murat Toygar
   event_name: Ruby Türkiye Meetup June 2022
-  published_at: "2022-06-29"
+  date: "2022-06-29"
+  published_at: "TODO"
   language: turkish
   description:
     Ruby ile geliştirdiğiniz projeyi yayına aldınız ama RAM kullanımınız
@@ -49,7 +50,8 @@
   speakers:
     - Demirhan Aydin
   event_name: Ruby Türkiye Meetup August 2022
-  published_at: "2022-08-03"
+  date: "2022-08-03"
+  published_at: "TODO"
   language: turkish
   description: |-
     Çoğu B2B SaaS uygulaması müşterilerine analitik rapor özelliği sunar. Analitik rapor ihtiyacı kimi zaman basit, kimi zamansa oldukça karmaşık olabilir. Bu sunum, temel analitik raporlama özelliğinin nasıl büyüyebileceği, bir geliştirici olarak üzerinde çalışırken ne tür zorluklarla karşılaşabileceğiniz ve hangi araçları kullanabileceğiniz hakkında olacaktır.
@@ -65,7 +67,8 @@
   speakers:
     - Yaşar Celep
   event_name: Ruby Türkiye Meetup June 2023
-  published_at: "2023-06-21"
+  date: "2023-06-21"
+  published_at: "TODO"
   language: turkish
   description:
     "2013'ten beri Türkiye'deki binlerce küçük ve orta işletmenin kullandığı,
@@ -85,7 +88,8 @@
     - Tayfun Öziş Erikan #  Refactor from Turbo 7 to Turbo 8 in a Rails app with Hotwire: Hotwire ile geliştirilen Rails uygulamasında Turbo 7'den Turbo 8'e geçiş (veya yeniden düzenleme)
     - Ender Ahmet Yurt # Feature Flags Development with Ruby on Rails: Bir Rails uygulamasında Feature Flag geliştirme yöntemi kullanımı
   event_name: Ruby Türkiye Meetup January 2024
-  published_at: "2024-01-31"
+  date: "2024-01-31"
+  published_at: "TODO"
   language: turkish
   description:
     "Merhaba,\n\nBir Akşam Oturması online etkinliğinde daha bir araya
@@ -105,7 +109,8 @@
     - Berkan Ünal #  Null object pattern: Ruby’de null object pattern kullanımının örnek bir kod üzerinde refactoring yaparak gösterimi.
     - Okan Davut # E2E Testing with Cypress: Bu sunum ile Frontend uygulamalarında End to end nedir? Neden gereklidir ve Cypress kullanarak End to End testlerinizi nasıl yazabilirsiniz bunlara değinilecektir.
   event_name: Ruby Türkiye Meetup February 2024
-  published_at: "2024-02-29"
+  date: "2024-02-29"
+  published_at: "TODO"
   language: turkish
   description:
     "Merhaba,\n\nAkşam Oturması etkinliklerimize ara vermeden devam ediyoruz.
@@ -125,7 +130,8 @@
   speakers:
     - Ahmet Kaptan
   event_name: Ruby Türkiye Meetup March 2024
-  published_at: "2024-03-28"
+  date: "2024-03-28"
+  published_at: "TODO"
   language: turkish
   description: |-
     Merhaba,
@@ -147,7 +153,8 @@
   speakers:
     - Kasper Timm Hansen
   event_name: Ruby Türkiye Meetup August 2024
-  published_at: "2024-08-20"
+  date: "2024-08-20"
+  published_at: "TODO"
   language: english
   description:
     "Kasper Timm Hansen, is a seasoned Ruby developer and a core contributor
@@ -166,7 +173,8 @@
     - Çağrı Özkan
   event_name: Ruby Türkiye Meetup October 2024
   language: turkish
-  published_at: "2024-10-23"
+  date: "2024-10-23"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: rvHyOIi9ZfA
@@ -177,7 +185,8 @@
     - Marco Roth
   event_name: Ruby Türkiye Meetup November 2024
   language: english
-  published_at: "2024-11-20"
+  date: "2024-11-20"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/marcoroth/leveling-up-developer-tooling-for-the-modern-rails-and-hotwire-era-at-ruby-turkiye-november-2024
   description: |-
     The evolution of developer experience (DX) tooling has been a game-changer in how we build, debug, and enhance web applications.
@@ -196,7 +205,8 @@
     - Mehmet Çetin
   event_name: Ruby Türkiye Meetup December 2024
   language: turkish
-  published_at: "2024-12-18"
+  date: "2024-12-18"
+  published_at: "TODO"
   thumbnail_xs: https://media.kommunity.com/communities/ruby-turkiye/events/aksam-oturmasi-202408-be842d65/69368/mehmet.png
   thumbnail_sm: https://media.kommunity.com/communities/ruby-turkiye/events/aksam-oturmasi-202408-be842d65/69368/mehmet.png
   thumbnail_md: https://media.kommunity.com/communities/ruby-turkiye/events/aksam-oturmasi-202408-be842d65/69368/mehmet.png

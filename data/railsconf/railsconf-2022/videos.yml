@@ -9,9 +9,8 @@
   speakers:
     - Aaron Patterson
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
-  start_date: "2022-05-17"
-  ends_at: "2022-05-19"
+  date: "2022-05-17"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/tenderlove/railsconf-2022-keynote
   description: "Keynote: RailsConf 2022 - It's been a minute! by Aaron Patterson"
   video_provider: youtube
@@ -22,9 +21,8 @@
   speakers:
     - Sweta Sanghavi
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
-  start_date: "2022-05-17"
-  ends_at: "2022-05-19"
+  date: "2022-05-17"
+  published_at: "TODO"
   description:
     Spinning up the rails console can be a quick way to answer a question
     with a back of the envelope calculation. But, what else can we use it for, and
@@ -41,9 +39,8 @@
   speakers:
     - Andy Glass
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
-  start_date: "2022-05-17"
-  ends_at: "2022-05-19"
+  date: "2022-05-17"
+  published_at: "TODO"
   description: |-
     ‘Those who know, do. Those that understand, teach.’
 
@@ -58,9 +55,8 @@
   speakers:
     - Chuck Lauer Vose
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
-  start_date: "2022-05-17"
-  ends_at: "2022-05-19"
+  date: "2022-05-17"
+  published_at: "TODO"
   description: |-
     New Relic's largest monolith handles 200k req/min and communicates with more than 40 external services and 11 mysql databases; this should result in constant downtime. Being mindful and alerting on the right things has been critical for us.
 
@@ -73,9 +69,8 @@
   speakers:
     - Nathan Griffith
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
-  start_date: "2022-05-17"
-  ends_at: "2022-05-19"
+  date: "2022-05-17"
+  published_at: "TODO"
   description:
     "Today’s the day. You’ve prepared your pitch, deployed a special copy
     of your app, and confirmed—in a trial run—that your walkthrough is ready for a
@@ -93,9 +88,8 @@
   speakers:
     - Jamie Gaskins
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
-  start_date: "2022-05-17"
-  ends_at: "2022-05-19"
+  date: "2022-05-17"
+  published_at: "TODO"
   description:
     You've probably heard "Kubernetes is overcomplicated! Just use Heroku!"
     But it turns out that, while Kubernetes can be complicated, it doesn't have to
@@ -109,7 +103,8 @@
   speakers:
     - Colin Loretz
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -126,7 +121,8 @@
   speakers:
     - Xavier Noria
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: "Opening Keynote: The Journey to Zeitwerk by Xavier Noria"
@@ -138,7 +134,8 @@
   speakers:
     - Joel Hawksley
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -154,7 +151,8 @@
     - Annie Lydens
     - Jenny Allar
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -170,7 +168,8 @@
   speakers:
     - Chris Salzberg
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -189,7 +188,8 @@
   speakers:
     - Brad Urani
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -209,7 +209,8 @@
   speakers:
     - Cameron Dutro
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -229,7 +230,8 @@
   speakers:
     - Thomas Countz
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -244,7 +246,8 @@
   speakers:
     - Casey Watts
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -264,7 +267,8 @@
   speakers:
     - John DeWyze
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -279,7 +283,8 @@
   speakers:
     - Mina Slater
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -296,7 +301,8 @@
   speakers:
     - Charles Oliver Nutter
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -316,7 +322,8 @@
   speakers:
     - David Hill
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -335,7 +342,8 @@
   speakers:
     - Thijs Cadier
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -352,7 +360,8 @@
   speakers:
     - Kevin Menard
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -371,7 +380,8 @@
   speakers:
     - Ifat Ribon
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -391,7 +401,8 @@
   speakers:
     - Crystal Tia Martin
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: "Keynote: A tech görl origin story by Crystal Tia Martin"
@@ -403,7 +414,8 @@
   speakers:
     - Stephen Prater
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -421,7 +433,8 @@
   speakers:
     - Daniel Magliola
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -438,7 +451,8 @@
   speakers:
     - Fernando Petrales
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -456,7 +470,8 @@
   speakers:
     - Daniel Colson
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   slides_url: https://speakerdeck.com/dodecadaniel/railsconf-2022-reflecting-on-active-record-associations
@@ -477,7 +492,8 @@
   speakers:
     - John Crepezzi
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -492,7 +508,8 @@
   speakers:
     - Vaidehi Joshi
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: "Keynote: Meditations on Software by Vaidehi Joshi"
@@ -504,7 +521,8 @@
   speakers:
     - Andy Croll
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -521,7 +539,8 @@
   speakers:
     - Adam Cuppy
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -539,7 +558,8 @@
   speakers:
     - Christopher "Aji" Slater
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   slides_url: https://speakerdeck.com/doodlingdev/your-tdd-treasure-map
@@ -557,7 +577,8 @@
   speakers:
     - Joël Quenneville
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   slides_url: https://speakerdeck.com/joelq/your-test-suite-is-making-too-many-database-calls
@@ -573,7 +594,8 @@
   speakers:
     - Maeve Revels
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -590,7 +612,8 @@
   speakers:
     - Alex Evanczuk
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -609,7 +632,8 @@
   speakers:
     - David Copeland
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -627,7 +651,8 @@
   speakers:
     - Sean Marcia
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -647,7 +672,8 @@
   speakers:
     - Mercedes Bernard
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -667,7 +693,8 @@
   speakers:
     - Maple Ong
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -682,7 +709,8 @@
   speakers:
     - Justin Powers
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: You have 2 seconds to respond - Atob - Justin Powers
@@ -697,7 +725,8 @@
     - Brian Lesperance
     - Chris Dwan
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -712,7 +741,8 @@
     - Kayla Reopelle
     - Mike Neville-O'Neill
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -726,7 +756,8 @@
   speakers:
     - Eric Weinstein
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -746,7 +777,8 @@
   speakers:
     - Vladimir Dementyev
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -763,7 +795,8 @@
   speakers:
     - Jason Charnes
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -782,7 +815,8 @@
   speakers:
     - Brandon Weaver
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -799,7 +833,8 @@
   speakers:
     - Chelsea Kaufman
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -820,7 +855,8 @@
     - Zaid Zawaideh
     - Jessica Lawrence
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: Building a diverse engineering team - Wrapbook -  Zaid Zawaideh & Jessica Lawrence
@@ -832,7 +868,8 @@
   speakers:
     - Jake Anderson
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: "Growing Your Background Job Knowledge \n- Weedmaps - Jake Anderson"
@@ -844,7 +881,8 @@
   speakers:
     - Mike Dalessio
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: Shopify
@@ -856,7 +894,8 @@
   speakers:
     - Eileen M. Uchitelle
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   slides_url: https://speakerdeck.com/eileencodes/the-success-of-rails-ensuring-growth-for-the-next-100-years
@@ -869,7 +908,8 @@
   speakers:
     - Cristian Planas
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -884,7 +924,8 @@
   speakers:
     - Claudio Baccigalupo
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -899,7 +940,8 @@
   speakers:
     - Gui Vieira
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -915,7 +957,8 @@
     - Ian Norris
     - Melissa Hunt Glickman
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -930,7 +973,8 @@
   speakers:
     - Kevin Murphy
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   slides_url: https://speakerdeck.com/kevinmurphy/browser-history-confessional-searching-my-recent-searches
@@ -946,7 +990,8 @@
   speakers:
     - Andy Andrea
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -962,7 +1007,8 @@
     - Ashley Ellis Pierce
     - Betty Li
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -977,7 +1023,8 @@
   speakers:
     - Justin Bowen
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -994,7 +1041,8 @@
   speakers:
     - Nick Schwaderer
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -1014,7 +1062,8 @@
   speakers:
     - Andrea Fomera
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:
@@ -1033,7 +1082,8 @@
   speakers:
     - Amy Newell
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -1050,7 +1100,8 @@
   speakers:
     - Kevin Lesht
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: |-
@@ -1067,7 +1118,8 @@
     - Caterina Paun
     - Stephanie Minn
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: "Diversity in Engineering; a community perspective\n- Shopify - \nMaya Toussaint, Caterina Paun & Stephanie Minn"
@@ -1079,7 +1131,8 @@
   speakers:
     - Carrick Rogers
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description: Bringing Your Rails Monolith Along As The Business Grows - Ontra - Carrick Rogers
@@ -1091,7 +1144,8 @@
   speakers:
     - Andrew Atkinson
   event_name: RailsConf 2022
-  published_at: "2022-05-17"
+  date: "2022-05-17"
+  published_at: "TODO"
   start_date: "2022-05-17"
   ends_at: "2022-05-19"
   description:

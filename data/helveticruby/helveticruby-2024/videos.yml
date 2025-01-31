@@ -9,7 +9,8 @@
   speakers:
     - Marco Roth
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/marcoroth/the-hotwire-landscape-after-turbo-8-at-helvetic-ruby-2024-zurich
   description: |-
     Hotwire has significantly altered the landscape of building interactive web applications with Ruby on Rails, marking a pivotal evolution toward seamless Full-Stack development.
@@ -25,7 +26,8 @@
   speakers:
     - Katie Miller
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   slides_url: https://helvetic-ruby.ch/2024/presentations/main_talks/Katie_Miller_The_Boring_Bits_Bite_Back.pdf
   description:
     Big is better right? Big data, big features, big customers. With those
@@ -44,7 +46,8 @@
   speakers:
     - Andy Pfister
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   slides_url: https://helvetic-ruby.ch/2024/presentations/main_talks/Andy_Pfister_Lessons_Learned.pdf
   description: |-
     37signals recently published a new software called Campfire. The main catch of it is "you only pay once and can host it yourself." For our customer, we have been shipping three Rails apps for years to their customer's on-premise environments. Since these environments tend to be very different from each other, the deployment process is optimized for Linux and Windows systems, PostgreSQL, and Microsoft SQL servers, as well as installation without any internet access. In this talk, I'd like to share how we approach this, lessons learned over the years, and how you might apply this to your apps.
@@ -56,7 +59,8 @@
   speakers:
     - Youssef Boulkaid
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   slides_url: https://helvetic-ruby.ch/2024/presentations/main_talks/Youssef_Boulkaid_Ask_Your_Logs.pdf
   description: |-
     Logging is often an afterthought when we put our apps in production. It's there, it's configured by default and it's... good enough?
@@ -72,7 +76,8 @@
   speakers:
     - Daniel Colson
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   slides_url: https://helvetic-ruby.ch/2024/presentations/main_talks/Daniel_Colson_The_Very_Hungry_Transaction.pdf
   description: |-
     The story begins with a little database transaction. As the days go by, more and more business requirements cause the transaction to grow in size. We soon discover that it isn't a little transaction anymore, and it now poses a serious risk to our application and business. What went wrong, and how can we fix it?
@@ -86,7 +91,8 @@
   speakers:
     - Dávid Halász
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: KJY1IPheVAk
@@ -96,7 +102,8 @@
   speakers:
     - Sarah Lima
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: m-cxOc5wgUU
@@ -106,7 +113,8 @@
   speakers:
     - Roland Studer
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: n0mDMlC4O80
@@ -116,7 +124,8 @@
   speakers:
     - Jenda Tovarys
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: AxFBjiOZqO0
@@ -126,7 +135,8 @@
   speakers:
     - Marion Schleifer
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: 2tY3aEtInls
@@ -136,7 +146,8 @@
   speakers:
     - Hilary Stohs-Krause
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   slides_url: https://helvetic-ruby.ch/2024/presentations/main_talks/Hilary_Stohs_Krause_How_To_Accessibility_If_You_Are_Mostly_Back-End.pdf
   description: |-
     When we think about “accessibility”, most of us associate it with design, HTML, CSS - in other words, the front-end. If you work primarily on the back-end of the tech stack, it’s easy to assume that your role is disengaged from accessibility concerns.
@@ -154,7 +165,8 @@
   speakers:
     - Johannes Müller
   event_name: Helvetic Ruby 2024
-  published_at: "2024-05-17"
+  date: "2024-05-17"
+  published_at: "TODO"
   slides_url: https://helvetic-ruby.ch/2024/presentations/main_talks/Johannes_Muller_Power%20of%20Crystal_A_language_for%20humans_and_computers.pdf
   description: |-
     Crystal is a language with a focus on developer happiness, like Ruby. The syntax and OOP model resemble that and any Ruby developer feels right at home.

@@ -9,7 +9,8 @@
   speakers:
     - Bradley Grzesiak
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-02"
+  date: "2015-10-02"
+  published_at: "TODO"
   description: |-
     By, Bradley Grzesiak
     Aerospace engineering is really no more magical than programming, and yet it's shrouded in such mystery and mysticism that practically
@@ -25,7 +26,8 @@
   speakers:
     - Dan Quan
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-02"
+  date: "2015-10-02"
+  published_at: "TODO"
   description: |-
     Pairing is intimidating, hard, and exhausting for most people when they start. It provides countless benefits, but it can be daunting for even seasoned developers. Braintree has a culture and significant tooling around improving the pairing experience, but my experience as a cop gave me the skills needed to thrive at pairing. This talk will briefly cover the tooling of how we pair at Braintree and talk about how my experience as a cop taught me to pair.
 
@@ -37,7 +39,8 @@
   speakers:
     - Aaron Grey
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-02"
+  date: "2015-10-02"
+  published_at: "TODO"
   description: |-
     As the demand for a realtime web is met with our ability to build it, Rails 4.0 introduces realtime as a default option and makes reactive, live applications more attainable than ever.
 
@@ -51,7 +54,8 @@
   speakers:
     - Christophe Philemotte
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-02"
+  date: "2015-10-02"
+  published_at: "TODO"
   description: |-
     The news is everywhere: some weird disease makes the dead walking. We do not know yet if it is highly contagious. What should we do? What we do everyday: writing code. We can develop an agent based model, simulate the disease, and hopefully find the best strategy to survive. We can code, we'll be prepared ... or not.
 
@@ -63,7 +67,8 @@
   speakers:
     - Andrew Carmer
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-02"
+  date: "2015-10-02"
+  published_at: "TODO"
   description: |-
     Ruby was designed to be enjoyable and to make its programmer's life easier. You know what makes life easier in the short term? Robot servants. In the long term, there are problems like the singularity and the inevitable robot uprising. But in the mean time, we can all sit back, relax, and control the lights in our home with our favorite programming language. In this talk, we'll explore how to get started using Ruby with Arduino and the Raspberry Pi. We'll bend some hardware to our whim and look at how we can use Ruby to improve our everyday life.
 
@@ -75,7 +80,8 @@
   speakers:
     - Shelby Switzer
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-02"
+  date: "2015-10-02"
+  published_at: "TODO"
   description: |-
     Open data at the local scale is even more of a mess than at the national level, but while there are increasing efforts to improve things nationally, cities, towns, counties, and even states are being left behind. These smaller entities don't have the resources to implement APIs for their data, and community tech groups and developers who want to use this data constantly hit walls — from fragmented, non-uniform data to finding API hosting and maintenance. But what if we could throw all that data in a box that’s easy to open, close, and move around — bypassing traditional solutions requiring infrastructure for hosting and maintenance. Enter Docker and ElasticSearch, and a simple three-layer API-in-a-box solution that any developer can immediately turn on with docker-compose up.
 
@@ -87,7 +93,8 @@
   speakers:
     - Terence Lee
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-02"
+  date: "2015-10-02"
+  published_at: "TODO"
   description: |-
     By Terence Lee
     Ruby is a great language for building CLIs. There’s an amazing selection of existing libraries like Thor, GLI, or even OptionParser. You probably use a number of Ruby tools everyday like chef, the heroku toolbelt, , and of course the rails command line tool. Though it’s easy to build a Ruby CLI, distributing it to end users is much more complicated because it requires a Ruby runtime. One option is to rely on Ruby being already installed on the end user’s computer. The other is to bundle ruby as part of the distribution package. Both of these are problematic so much that Vagrant, CloudFoundry and hub (Github command-line tool) have all switched over to Go. But there’s still hope! In 2012, Matz started working on a lightweight embeddable ruby called mruby. Since mruby is designed for being embedded in other compiled languages, it also solves the distribution problem. In this talk we’ll look how we can write CLI tools using mruby to produce a self-contained binary that can be shipped to end users.
@@ -102,7 +109,8 @@
   speakers:
     - Vipul A M
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-05"
+  date: "2015-10-05"
+  published_at: "TODO"
   description: |-
     Anyone who has done any Rails development knows that views gets complicated very fast. Conditional styling, violating laws of delimiter by double dots, complex business logic deciding view context, skewing and much more plague typical rails views.
 
@@ -119,7 +127,8 @@
   speakers:
     - Adam Forsyth
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-05"
+  date: "2015-10-05"
+  published_at: "TODO"
   description: |-
     The Braintree Payment Gateway dates to 2008, and was built as a "monorail"
     -- a monolithic rails application that does everything. Over time, outward-facing
@@ -142,7 +151,8 @@
   speakers:
     - Jillian Rosile
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-05"
+  date: "2015-10-05"
+  published_at: "TODO"
   description: |-
     Capybara is a fantastic tool for testing user interactions with our applications. All too often, though, our specs use only Capybara's basic features and get littered with confusing and repetitive code. Instead, we can use the page object pattern and Capybara's more advanced features to write readable and maintainable tests. Come learn how to design a black box testing framework for your web application that turns a website into a clean, readable Ruby API.
 
@@ -156,7 +166,8 @@
   speakers:
     - Frank Rietta
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-05"
+  date: "2015-10-05"
+  published_at: "TODO"
   description: |-
     By, Frank Rietta
     You've been hearing about big data breaches in the news. As a developer who doesn't specialize in security, knowing how to protect your application from getting hacked may seem like a daunting task. However, fundamentals in the design and development process will greatly increase the security that protects your users from harm.
@@ -169,7 +180,8 @@
   speakers:
     - Mark Gelband
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-05"
+  date: "2015-10-05"
+  published_at: "TODO"
   description: |-
     Are you doing everything you can to make the world a better place? As a developer you've got the skill to make amazing things, but who are you making them for? Do people need another dating app, or another way to compare uber and lyft pricing? If you want to take your development skills and do something transformational, where do you begin?
 
@@ -183,7 +195,8 @@
   speakers:
     - Tara Scherner De La Fuente
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-05"
+  date: "2015-10-05"
+  published_at: "TODO"
   description: |-
     Anyone moving to Rails 4 has seen the documented examples like this: params.require(:coffee).permit(:all, :the, :things). But if the codebase has multiple controllers (including a few over 1000 lines long), some api endpoints, nested attributes nesting inside attributes that are named things like additional_attributes_attributes, and robust test coverage that has likely caused forbidden attribute grief, then this talk about some of the little/not documented details of the parameters we call strong might be your cup of...coffee.
 
@@ -195,7 +208,8 @@
   speakers:
     - Steve Klabnik
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-05"
+  date: "2015-10-05"
+  published_at: "TODO"
   description: |-
     Rubyists are famously polyglot. I've heard people joke that there are more JavaScript talks at some Ruby conferences than there are Ruby talks. But there's one area in which most Rubyists don't go: low-level programming. We often say 'Ruby is slow, but that doesn't matter. I'll just drop down to C when I need performance.' But C is pretty scary, so we never actually do it. In this talk, Steve will show off Rust, a new programming language from Mozilla. Steve will show you how that saying should change: 'drop down to Rust,' and why it's better for Rubyists than C.
 
@@ -209,7 +223,8 @@
   speakers:
     - Bree Thomas
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-06"
+  date: "2015-10-06"
+  published_at: "TODO"
   description: |-
     We talk about bringing new developers "up to speed quickly." Imposter syndrome is bad enough, but often junior developers feel pressured to learn faster and produce more. Developers often focus on velocity as the critical measure of success. The need for speed actually amplifies insecurities and hinders growth. Instead let's talk about how we can more effectively structure, implement, and track apprenticeships with the right kind of framework and focus.
 
@@ -223,7 +238,8 @@
   speakers:
     - Adam Cuppy
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-06"
+  date: "2015-10-06"
+  published_at: "TODO"
   description: |-
     "I’m a cross between a night dragon, code wizard and a unique damn butterfly. I am not your ‘resource’ to pimp out!” said every rage-quit prone engineer, ever. As a team leader, the line between diverse culture and a dogmatic cult is thin. Embracing individuality, yet finding alignment as a collective, is tough. Understanding what defines one over another is critical so everyone can bring 100% of themselves to table.
 
@@ -237,7 +253,8 @@
   speakers:
     - Ian Whitney
   event_name: Rocky Mountain Ruby 2015
-  published_at: "2015-10-06"
+  date: "2015-10-06"
+  published_at: "TODO"
   description: |-
     “The first draft of anything is **.” - Ernest Hemingway
 

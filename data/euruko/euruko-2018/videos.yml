@@ -16,7 +16,7 @@
     - Pilar Andrea Huidobro Peltier
     - Carmen Huidobro
   event_name: EuRuKo 2018
-  published_at: "2018-08-24"
+  date: "2018-08-24"
   description: ""
   video_provider: youtube
   video_id: YhPP_Knq0qM
@@ -26,7 +26,7 @@
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: EuRuKo 2018
-  published_at: "2018-08-24"
+  date: "2018-08-24"
   description: ""
   video_provider: youtube
   video_id: cs0s5lZAUwc
@@ -38,7 +38,7 @@
   speakers:
     - Chris Salzberg
   event_name: EuRuKo 2018
-  published_at: "2018-08-24"
+  date: "2018-08-24"
   description: ""
   video_provider: youtube
   video_id: 1fIlcnrJHxs
@@ -48,7 +48,7 @@
   speakers:
     - Joannah Nanjekye
   event_name: EuRuKo 2018
-  published_at: "2018-08-24"
+  date: "2018-08-24"
   description: ""
   video_provider: youtube
   video_id: qPNkOPvjecs
@@ -60,7 +60,7 @@
   speakers:
     - Damir Zekić
   event_name: EuRuKo 2018
-  published_at: "2018-08-24"
+  date: "2018-08-24"
   description: ""
   video_provider: youtube
   video_id: ObB0dzX_rBs
@@ -70,7 +70,7 @@
   speakers:
     - Igor Morozov
   event_name: EuRuKo 2018
-  published_at: "2018-08-24"
+  date: "2018-08-24"
   description: ""
   video_provider: youtube
   video_id: v-H9nK8hqfE
@@ -82,7 +82,7 @@
   speakers:
     - Brad Urani
   event_name: EuRuKo 2018
-  published_at: "2018-08-24"
+  date: "2018-08-24"
   description: ""
   video_provider: youtube
   video_id: zo3iRBPzscU
@@ -92,7 +92,7 @@
   speakers:
     - Coraline Ada Ehmke
   event_name: EuRuKo 2018
-  published_at: "2018-08-24"
+  date: "2018-08-24"
   description: ""
   video_provider: youtube
   video_id: 5ByUPh_uPqQ
@@ -104,7 +104,7 @@
   speakers:
     - Louisa Barrett
   event_name: EuRuKo 2018
-  published_at: "2018-08-24"
+  date: "2018-08-24"
   description: ""
   video_provider: youtube
   video_id: OgO1EIFDgPU
@@ -122,7 +122,7 @@
   speakers:
     - Nadia Odunayo
   event_name: EuRuKo 2018
-  published_at: "2018-08-25"
+  date: "2018-08-25"
   description: ""
   video_provider: youtube
   video_id: wkz-B1w2GVM
@@ -130,7 +130,7 @@
 - title: "City Pitches"
   raw_title: Pitch the next EuRuKo's location
   event_name: Euruko 2018
-  published_at: "2021-06-01"
+  date: "2021-06-01"
   description: "Pitch the next EuRuKo's location"
   video_id: YXe9OoQW8lc
   talks:
@@ -166,7 +166,7 @@
   speakers:
     - Ana María Martínez Gómez
   event_name: EuRuKo 2018
-  published_at: "2018-08-25"
+  date: "2018-08-25"
   description: ""
   video_provider: youtube
   video_id: jUc8InwoA-E
@@ -176,7 +176,7 @@
   speakers:
     - Pan Thomakos
   event_name: EuRuKo 2018
-  published_at: "2018-08-25"
+  date: "2018-08-25"
   description: ""
   video_provider: youtube
   video_id: 5o4krwjJbOI
@@ -186,12 +186,14 @@
 - title: Lightning Talks
   raw_title: Lightning talks
   event_name: EuRuKo 2018
-  published_at: "2018-08-25"
+  date: "2018-08-25"
   description: ""
   video_provider: youtube
   video_id: zSeaNPjwnnA
   talks:
     - title: "Lightning Talk: Having Fun With Spreadsheets"
+      event_name: EuRuKo 2018
+      date: "2018-08-25"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: tomasz-stachewicz-lighting-talk-euruko-2018
@@ -200,6 +202,8 @@
         - Tomasz Stachewicz
 
     - title: "Lightning Talk: The Information Flow: +1 Way to be up-to-date"
+      event_name: EuRuKo 2018
+      date: "2018-08-25"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: anna-shcherbinina-lighting-talk-euruko-2018
@@ -208,6 +212,8 @@
         - Anna Shcherbinina
 
     - title: "Lightning Talk: CP-8: GitHub Automation with CP-8 Bot"
+      event_name: EuRuKo 2018
+      date: "2018-08-25"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: miles-woodroffe-lighting-talk-euruko-2018
@@ -216,6 +222,8 @@
         - Miles Woodroffe
 
     - title: "Lightning Talk: How To Do Microservices...... badly"
+      event_name: EuRuKo 2018
+      date: "2018-08-25"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: mazin-power-lighting-talk-euruko-2018
@@ -224,6 +232,8 @@
         - Mazin Power
 
     - title: "Lightning Talk: The Power of Community"
+      event_name: EuRuKo 2018
+      date: "2018-08-25"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: gabriela-luhova-lighting-talk-euruko-2018
@@ -236,7 +246,7 @@
   speakers:
     - Kerstin Puschke
   event_name: EuRuKo 2018
-  published_at: "2018-08-25"
+  date: "2018-08-25"
   description: ""
   video_provider: youtube
   video_id: tA8gGd_Rl7E
@@ -248,7 +258,7 @@
   speakers:
     - Amr Abdelwahab
   event_name: EuRuKo 2018
-  published_at: "2018-08-25"
+  date: "2018-08-25"
   description: ""
   video_provider: youtube
   video_id: 6CqmGYvFwAQ

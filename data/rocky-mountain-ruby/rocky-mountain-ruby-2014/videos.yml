@@ -9,7 +9,8 @@
   speakers:
     - Jeffery Matthias
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-20"
+  date: "2014-10-20"
+  published_at: "TODO"
   description: |-
     It's 2015... your stakeholders have decided that PayPal is out and Stripe is in. Fortunately, you're a planner. You have all of your PayPal interactions isolated in an adapter gem and your interface is clearly defined, easy to re-implement and enforce. Rewriting your adapter isn't small, but it is surmountable and can be estimated accurately so it won't lead to surprises. You win.
 
@@ -23,7 +24,8 @@
   speakers:
     - John Paul Ashenfelter
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-20"
+  date: "2014-10-20"
+  published_at: "TODO"
   description: |-
     Your Rails app is full of data that can (and should!) be turned into useful information with some simple machine learning techniques. We'll look at basic techniques that are both immediately applicable and the foundation for more advanced analysis -- starting with your Users table.
 
@@ -37,7 +39,8 @@
   speakers:
     - T.J. Schuck
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-20"
+  date: "2014-10-20"
+  published_at: "TODO"
   description: |-
     fluffmuffin, peppercorn, gilligan — those are just a few of our users' plaintext passwords.
 
@@ -55,7 +58,8 @@
   speakers:
     - Sarah Mei
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-20"
+  date: "2014-10-20"
+  published_at: "TODO"
   description: |-
     As engineers working on a team, we all make technical decisions. What’s the best way to implement this? Where should this function live? Is this library worth using? Some decisions, though, are larger, riskier and more important than that. But generally, they’re also far less frequent.
 
@@ -69,7 +73,8 @@
   speakers:
     - Arjun Sharma
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-20"
+  date: "2014-10-20"
+  published_at: "TODO"
   description: |-
     What it Means to Have Good Test Covearage, and why it Matters by Arjun Sharma
 
@@ -83,12 +88,15 @@
 - title: "Lightning Talks (Day 1)"
   raw_title: Rocky Mountain Ruby 2014 - Lightning Talks (Day 1)
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-21"
+  date: "2014-10-21"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: iYvm_5z0mZQ
   talks:
     - title: "Lightning Talk: Teen Hackathons"
+      date: "2014-10-21"
+      published_at: "TODO"
       start_cue: "00:00"
       end_cue: "04:06"
       video_id: anna-fowles-winkler-lighting-talk-rocky-mountain-ruby-2014
@@ -97,6 +105,8 @@
         - Anna Fowles-Winkler
 
     - title: "Lightning Talk: Speed Up Your Database"
+      date: "2014-10-21"
+      published_at: "TODO"
       start_cue: "04:06"
       end_cue: "08:11"
       video_id: starr-horne-lighting-talk-rocky-mountain-ruby-2014
@@ -105,6 +115,8 @@
         - Starr Horne
 
     - title: "Lightning Talk: Go Code Colorado"
+      date: "2014-10-21"
+      published_at: "TODO"
       start_cue: "08:11"
       end_cue: "10:38"
       video_id: jessica-goulding-lighting-talk-rocky-mountain-ruby-2014
@@ -113,6 +125,8 @@
         - Jessica Goulding
 
     - title: "Lightning Talk: Documenting and Exploring your APIs"
+      date: "2014-10-21"
+      published_at: "TODO"
       start_cue: "10:38"
       end_cue: "17:07"
       video_id: tim-schmelmer-lighting-talk-rocky-mountain-ruby-2014
@@ -121,6 +135,8 @@
         - Tim Schmelmer
 
     - title: "Lightning Talk: Dashboard Dashing"
+      date: "2014-10-21"
+      published_at: "TODO"
       start_cue: "17:07"
       end_cue: "21:44"
       video_id: jon-mccartie-lighting-talk-rocky-mountain-ruby-2014
@@ -133,7 +149,8 @@
   speakers:
     - Marcos Castilho
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-21"
+  date: "2014-10-21"
+  published_at: "TODO"
   description: |-
     Micro services are a wonderful thing! Until you try to test them in integration. Do you write a stub for each service? Point them to a test environment? Raise local instances for every dependency? I've tried all these approaches and they are all painful. Can't we can do better?
 
@@ -150,7 +167,8 @@
     - Omowale Oniyide
     - Josh Loper
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-21"
+  date: "2014-10-21"
+  published_at: "TODO"
   description: |-
     Feats of Daring with the Ruby Standard Libaray by Jen Diamond, Stephanie Betancourt, Omowale Oniyide and Josh Loper
 
@@ -164,7 +182,8 @@
   speakers:
     - Sarah Allen
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-22"
+  date: "2014-10-22"
+  published_at: "TODO"
   description: |-
     Playing is simple, even a child can do it, but designing something simple is hard. How can we combine prototyping with production software to get our ideas in front of real people? How can we evolve our software over time? How do we measure if something is fun?
 
@@ -178,7 +197,8 @@
   speakers:
     - Doc Norton
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-22"
+  date: "2014-10-22"
+  published_at: "TODO"
   description: |-
     Technical Debt has become a catch-all phrase for any code that needs to be re-worked. Much like Refactoring has become a catch-all phrase for any activity that involves changing code. These fundamental misunderstandings and comfortable yet mis-applied metaphors have resulted in a plethora of poor decisions. What is technical debt? What is not technical debt? Why should we care? What is the cost of misunderstanding? What do we do about it? Doc discusses the origins of the metaphor, what it means today, and how we properly identify and manage technical debt.
 
@@ -192,7 +212,8 @@
   speakers:
     - Hemant Kumar
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-22"
+  date: "2014-10-22"
+  published_at: "TODO"
   description: |-
     Ruby - 2.1 brought generational GC to Ruby and instrumentation support. In this talk, I am going explain:
 
@@ -204,12 +225,15 @@
 - title: "Lightning Talks (Day 2)"
   raw_title: Rocky Mountain Ruby 2014 - Lightning Talks (Day 2)
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-22"
+  date: "2014-10-22"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: DqoKIKWf2HM
   talks:
     - title: "Lightning Talk: Asset Pipeline Tips and Tricks"
+      date: "2014-10-22"
+      published_at: "TODO"
       start_cue: "00:00"
       end_cue: "05:08"
       video_id: risa-batta-lighting-talk-rocky-mountain-ruby-2014
@@ -218,6 +242,8 @@
         - Risa Batta
 
     - title: "Lightning Talk: Alfred is Awesome"
+      date: "2014-10-22"
+      published_at: "TODO"
       start_cue: "05:08"
       end_cue: "08:08"
       video_id: cory-leistikow-lighting-talk-rocky-mountain-ruby-2014
@@ -226,6 +252,8 @@
         - Cory Leistikow
 
     - title: "Lightning Talk: The Human Connection"
+      date: "2014-10-22"
+      published_at: "TODO"
       start_cue: "08:08"
       end_cue: "12:20"
       video_id: george-apitz-lighting-talk-rocky-mountain-ruby-2014
@@ -234,6 +262,8 @@
         - George Apitz
 
     - title: "Lightning Talk: Methan Hydrate"
+      date: "2014-10-22"
+      published_at: "TODO"
       start_cue: "12:20"
       end_cue: "15:50"
       video_id: joe-lighting-talk-rocky-mountain-ruby-2014
@@ -242,6 +272,8 @@
         - Joe
 
     - title: "Lightning Talk: State Machines"
+      date: "2014-10-22"
+      published_at: "TODO"
       start_cue: "15:50"
       end_cue: "18:58"
       video_id: marcus-morrison-lighting-talk-rocky-mountain-ruby-2014
@@ -250,6 +282,8 @@
         - Marcus Morrison
 
     - title: "Lightning Talk: Rails as Static Content Compile"
+      date: "2014-10-22"
+      published_at: "TODO"
       start_cue: "18:58"
       end_cue: "23:16"
       video_id: ara-t-howard-lighting-talk-rocky-mountain-ruby-2014
@@ -258,6 +292,8 @@
         - Ara T. Howard
 
     - title: "Lightning Talk: Teams Decision Making Tools"
+      date: "2014-10-22"
+      published_at: "TODO"
       start_cue: "23:16"
       end_cue: "30:15"
       video_id: doc-norton-lighting-talk-rocky-mountain-ruby-2014
@@ -266,6 +302,8 @@
         - Doc Norton
 
     - title: "Lightning Talk: Qtbindings - GUIs in Ruby"
+      date: "2014-10-22"
+      published_at: "TODO"
       start_cue: "30:15"
       end_cue: "31:00"
       video_id: ryan-melton-lighting-talk-rocky-mountain-ruby-2014
@@ -274,6 +312,8 @@
         - Ryan Melton
 
     - title: "Lightning Talk: Rocky Mountain Ruby Rap"
+      date: "2014-10-22"
+      published_at: "TODO"
       start_cue: "31:00"
       end_cue: "35:11"
       video_id: shelby-kelly-lighting-talk-rocky-mountain-ruby-2014
@@ -288,7 +328,8 @@
   speakers:
     - Pamela Vickers
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-27"
+  date: "2014-10-27"
+  published_at: "TODO"
   description: |-
     Your Company is "Awesome" (But is "Company Culture" a lie?) by Pamela Vickers
 
@@ -308,7 +349,8 @@
   speakers:
     - Nikolay Nemshilov
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-27"
+  date: "2014-10-27"
+  published_at: "TODO"
   description: |-
     Native iOS Development with RubyMotion and UnderOS by Nikolay Nemshilov
 
@@ -326,7 +368,8 @@
   speakers:
     - Julian Cheal
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-28"
+  date: "2014-10-28"
+  published_at: "TODO"
   description: |-
     Web apps are great and everything, but imagine using Ruby to fly drones and make them dance to the sounds of dubstep! Or to control disco lights and other robots! Sounds fun, right? In this talk, we will not only explore how we can write code to make this possible, but it will also be full of exciting, interactive (and possibly dangerous ;) ) demos!
 
@@ -338,7 +381,8 @@
   speakers:
     - Mike AbiEzzi
   event_name: Rocky Mountain Ruby 2014
-  published_at: "2014-10-28"
+  date: "2014-10-28"
+  published_at: "TODO"
   description: |-
     Rails models are simple, but your domain’s models might not be as simple as Rails would like them to be.
 

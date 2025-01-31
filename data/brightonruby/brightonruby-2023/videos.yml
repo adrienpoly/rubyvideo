@@ -4,7 +4,7 @@
   speakers:
     - Eileen M. Uchitelle
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   # thumbnail_xs: https://brightonruby.com/images/2023/photos/Eileen3_IMG1335.jpg
   # thumbnail_sm: https://brightonruby.com/images/2023/photos/Eileen3_IMG1335.jpg
   # thumbnail_md: https://brightonruby.com/images/2023/photos/Eileen3_IMG1335.jpg
@@ -25,7 +25,7 @@
   speakers:
     - Nick Schwaderer
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   # thumbnail_xs: https://brightonruby.com/images/2023/photos/Schwad5_IMG1394.jpg
   # thumbnail_sm: https://brightonruby.com/images/2023/photos/Schwad5_IMG1394.jpg
   # thumbnail_md: https://brightonruby.com/images/2023/photos/Schwad5_IMG1394.jpg
@@ -49,7 +49,7 @@
   speakers:
     - Kaitlyn Tierney
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   video_provider: mp4
   external_player: true
   external_player_url: https://brightonruby.com/2023/librarians-guide-to-documentation-kaitlyn-tierney
@@ -64,7 +64,7 @@
   speakers:
     - Noah Gibbs
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   video_provider: mp4
   external_player: true
   external_player_url: https://brightonruby.com/2023/when-should-you-not-use-rails-noah-gibbs
@@ -79,7 +79,7 @@
   speakers:
     - Paul Battley
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   video_provider: mp4
   external_player: true
   external_player_url: https://brightonruby.com/2023/twenty-years-of-ruby-in-five-minutes-paul-battley
@@ -96,7 +96,7 @@
   speakers:
     - Hana Harencarova
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   video_provider: mp4
   external_player: true
   external_player_url: https://brightonruby.com/2023/five-things-i-love-about-ruby-hana-harencarova
@@ -109,7 +109,7 @@
   speakers:
     - Lizz Jennings
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   video_provider: mp4
   external_player: true
   external_player_url: https://brightonruby.com/2023/ux-doesnt-equal-front-end-lizz-jennings
@@ -126,7 +126,7 @@
   speakers:
     - Jade Dickinson
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   video_provider: mp4
   external_player: true
   external_player_url: https://brightonruby.com/2023/how-to-write-a-custom-rubocop-rule-jade-dickinson
@@ -141,7 +141,7 @@
   speakers:
     - Maple Ong
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   video_provider: mp4
   external_player: true
   external_player_url: https://brightonruby.com/2023/beware-job-smearing-maple-ong
@@ -156,7 +156,7 @@
   speakers:
     - Tim Riley
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   video_provider: mp4
   external_player: true
   external_player_url: https://brightonruby.com/2023/livin-la-vida-hanami-tim-riley
@@ -177,7 +177,7 @@
   speakers:
     - Nadia Odunayo
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   video_provider: mp4
   external_player: true
   external_player_url: https://brightonruby.com/2023/the-case-of-the-vanished-variable-nadia-odunayo
@@ -192,7 +192,7 @@
   speakers:
     - Joe Hart
   event_name: Brighton Ruby 2023
-  published_at: "2023-06-30"
+  date: "2023-06-30"
   video_provider: mp4
   external_player: true
   external_player_url: https://brightonruby.com/2023/new-game-joe-hart

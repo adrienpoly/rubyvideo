@@ -9,7 +9,8 @@
   speakers:
     - Bozhidar Batsov
   event_name: rubyday 2019
-  published_at: "2019-04-11"
+  date: "2019-04-11"
+  published_at: "TODO"
   description:
     "For several years now Rubyists around the world have been fascinated
     by the plans for the next big Ruby release - namely Ruby 3.0. While a lot has
@@ -28,7 +29,8 @@
   speakers:
     - Emily Stolfo
   event_name: rubyday 2019
-  published_at: "2019-04-11"
+  date: "2019-04-11"
+  published_at: "TODO"
   description:
     "With more applications now using service-oriented architectures, developers
     must know how to talk to distributed technologies and to handle errors and failures.
@@ -46,7 +48,8 @@
   speakers:
     - Xavier Noria
   event_name: rubyday 2019
-  published_at: "2019-04-11"
+  date: "2019-04-11"
+  published_at: "TODO"
   description:
     "Zeitwerk is a new code loader for Ruby, and it is going to replace
     the classic autoloader in Rails 6. In this talk we'll cover what motivated Zeitwerk,
@@ -62,7 +65,8 @@
   speakers:
     - Elia Schito
   event_name: rubyday 2019
-  published_at: "2019-04-11"
+  date: "2019-04-11"
+  published_at: "TODO"
   description:
     "JS is often a struggle for the Ruby developer used to live in the
     backend. We'll have a fresh look at the language implementing interfaces for a
@@ -79,7 +83,8 @@
   speakers:
     - Luca Guidi
   event_name: rubyday 2019
-  published_at: "2019-04-11"
+  date: "2019-04-11"
+  published_at: "TODO"
   description:
     Hanami is being reinvented. We learned from experience, and community
     feedback, how to build a much more simplified, fast, and productive framework.
@@ -92,7 +97,8 @@
   speakers:
     - Marion Schleifer
   event_name: rubyday 2019
-  published_at: "2019-04-11"
+  date: "2019-04-11"
+  published_at: "TODO"
   description:
     "Many Ruby programmers are looking for new opportunities now that serverless
     is becoming more popular. Hasura offers instant realtime GraphQL on Postgres as
@@ -112,7 +118,8 @@
   speakers:
     - Nick Sutterer
   event_name: rubyday 2019
-  published_at: "2019-04-11"
+  date: "2019-04-11"
+  published_at: "TODO"
   description:
     "In the past three years, the Trailblazer project has evolved from
     a simple service object implementation to an advanced business logic framework

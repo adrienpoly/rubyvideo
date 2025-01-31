@@ -229,6 +229,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_28_085252) do
     t.integer "start_seconds"
     t.integer "end_seconds"
     t.integer "duration_in_seconds"
+    t.datetime "announced_at"
+    t.datetime "published_at"
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["kind"], name: "index_talks_on_kind"
