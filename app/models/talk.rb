@@ -96,17 +96,15 @@ class Talk < ApplicationRecord
     inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
 
   validates :date, presence: true
-  # validates :published_at, presence: true, if: :published_state?
-
-  def published_state?
-    video_provider.in?(["youtube", "mp4", "vimeo"])
-  end
+  # validates :published_at, presence: true, if: :published? # TODO: enable
 
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
   # callbacks
   before_validation :set_kind, if: -> { !kind_changed? }
+
+  WATCHABLE_PROVIDERS = ["youtube", "mp4", "vimeo"]
 
   # enums
   enum :video_provider, %w[youtube mp4 vimeo scheduled not_published not_recorded parent children].index_by(&:itself)
@@ -222,13 +220,17 @@ class Talk < ApplicationRecord
   scope :for_topic, ->(topic_slug) { joins(:topics).where(topics: {slug: topic_slug}) }
   scope :for_speaker, ->(speaker_slug) { joins(:speakers).where(speakers: {slug: speaker_slug}) }
   scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
-  scope :watchable, -> { where(video_provider: [:youtube, :mp4, :vimeo]) }
+  scope :watchable, -> { where(video_provider: WATCHABLE_PROVIDERS) }
 
   def managed_by?(visiting_user)
     return false unless visiting_user.present?
     return true if visiting_user.admin?
 
     speakers.exists?(user: visiting_user)
+  end
+
+  def published?
+    video_provider.in?(WATCHABLE_PROVIDERS)
   end
 
   def to_meta_tags
