@@ -230,7 +230,7 @@ class Talk < ApplicationRecord
   end
 
   def published?
-    video_provider.in?(WATCHABLE_PROVIDERS)
+    video_provider.in?(WATCHABLE_PROVIDERS) || parent_talk&.published?
   end
 
   def to_meta_tags
