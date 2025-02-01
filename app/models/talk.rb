@@ -279,6 +279,10 @@ class Talk < ApplicationRecord
     thumbnail(:thumbnail_xl)
   end
 
+  def thumbnail_classes
+    static_metadata.try(:[], "thumbnail_classes") || ""
+  end
+
   def fallback_thumbnail
     "/assets/#{Rails.application.assets.load_path.find("events/default/poster.webp").digested_path}"
   end
