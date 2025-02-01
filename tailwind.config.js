@@ -9,7 +9,7 @@ module.exports = {
     './app/assets/stylesheets/**/*.css',
     './app/javascript/**/*.js',
     './config/initializers/heroicon.rb',
-    './data/**/**',
+    './data/**/**'
   ],
   theme: {
     container: {
