@@ -1,4 +1,4 @@
-const defaultTheme = require('daisyui/src/theming/themes.js')['[data-theme=light]']
+const defaultTheme = require('daisyui/theme/light/index.js')['[data-theme=light]']
 const defaultTailwindTheme = require('tailwindcss/defaultTheme')
 const plugin = require('tailwindcss/plugin')
 
@@ -88,7 +88,7 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require('daisyui'),
+    // require('daisyui'),
     plugin(function ({ addVariant }) {
       addVariant('hotwire-native', 'html[data-bridge-platform] &')
       addVariant('non-hotwire-native', 'html:not([data-bridge-platform]) &')
