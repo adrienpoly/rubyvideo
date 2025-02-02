@@ -1,7 +1,40 @@
 @import 'tailwindcss';
 
 @plugin "daisyui" {
-  themes: rubyvideoLight --default, dark --prefersdark;
+  themes: light --default, dark --prefersdark;
+}
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true; /* set as default */
+  prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+  color-scheme: light; /* color of browser-provided UI */
+
+  --color-base-100: #F8F9FA;
+  --color-primary: '#DC143C';
+  --color-primary-content: '#ffffff';
+  --color-secondary: '#7A4EC2';
+  --color-secondary-content: '#ffffff';
+  --color-accent: '#1DA1F2';
+  --color-accent-content: '#ffffff';
+  --color-neutral: '#261B23';
+  --color-neutral-content: '#ffffff';
+
+  /* border radius */
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  /* base sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* border size */
+  --border: 1px;
+
+  /* effects */
+  --depth: 1;
+  --noise: 0;
 }
 
 @import './components/button.css';
