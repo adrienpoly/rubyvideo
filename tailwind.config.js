@@ -1,4 +1,4 @@
-const defaultTheme = require('daisyui/src/theming/themes.js')['[data-theme=light]']
+const defaultTheme = require('daisyui/theme/light/index.js')['[data-theme=light]']
 const defaultTailwindTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
@@ -87,6 +87,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require('daisyui')
+    // require('daisyui')
   ]
 }
