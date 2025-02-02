@@ -126,3 +126,50 @@
   video_id: "igor-alexandrov-tropical-on-rails-2025"
   description: |-
     Igor is an experienced Ruby engineer, a Docker Captain, a Chief Technology Officer, and the co-founder of JetRockets. He is a father of two children and enjoys diving when he can.
+
+- title: "Hotwire meets The Platform™"
+  raw_title: "Hotwire meets The Platform™"
+  speakers:
+    - Edigleysson Silva
+  event_name: Tropical on Rails 2025
+  date: "2025-04-03"
+  published_at: "TODO"
+  announced_at: "2025-01-29 17:23:00 UTC"
+  video_provider: scheduled
+  video_id: "edigleysson-silva-tropical-on-rails-2025"
+  description: |-
+    Developer at CodeMiner42, has 10 years of experience creating software and sharing knowledge, is passionate about technology and also writes articles about Computer Science and Philosophy.
+
+    In the talk "Hotwire meets The Platform™",  he will show how to combine Rails + native APIs to create robust and offline-capable PWAs in an innovative and simple way.
+
+    Outside of coding, he enjoys the classics of Mark Twain and moments with his wife and daughter.
+
+- title: "Ruby Internals: A Guide for Rails Developers"
+  raw_title: "Ruby Internals: A Guide for Rails Developers"
+  speakers:
+    - Matheus Richard
+  event_name: Tropical on Rails 2025
+  date: "2025-04-03"
+  published_at: "TODO"
+  announced_at: "2025-01-29 17:23:00 UTC"
+  video_provider: scheduled
+  video_id: "matheus-richard-tropical-on-rails-2025"
+  description: |-
+    Senior Developer at thoughtbot and a member of the Rails issues team. With nearly 10 years of experience, Ruby has always been his favorite language. Besides coding, Matheus is passionate about music, games, and building interpreters.
+
+    In the talk "Ruby Internals: A Guide for Rails Developers", he will explore how Ruby interprets and executes code. A journey behind the scenes of the language and its impacts on Rails!
+
+- title: "Scaling Rails: The Journey to 200M Notifications"
+  raw_title: "Scaling Rails: The Journey to 200M Notifications"
+  speakers:
+    - Gustavo Araújo
+  event_name: Tropical on Rails 2025
+  date: "2025-04-03"
+  published_at: "TODO"
+  announced_at: "2025-01-29 17:23:00 UTC"
+  video_provider: scheduled
+  video_id: "gustavo-araujo-tropical-on-rails-2025"
+  description: |-
+    Senior Software Engineer at CloudWalk and passionate about building scalable and efficient software solutions. He has over a decade of experience in developing high-performance systems and currently contributes to the creation of InfinitePay, one of the leading payment solutions in Brazil.
+
+    In the talk "Scaling Rails: The Journey to 200M Notifications", he will share his experience in scaling a Ruby on Rails application to send millions of notifications, addressing challenges, trade-offs, and technical decisions to transform an MVP into a robust and scalable system.
