@@ -33,8 +33,10 @@
   --border: 1px;
 
   /* effects */
-  --depth: 1;
+  --depth: 0;
   --noise: 0;
+
+  --card-p: 1rem;
 }
 
 @import './components/button.css';
