@@ -12,18 +12,19 @@
 
   --color-base-100: #F8F9FA;
   --color-base-300: #E5E7EB;
-  --color-primary: '#DC143C';
-  --color-primary-content: '#ffffff';
-  --color-secondary: '#7A4EC2';
-  --color-secondary-content: '#ffffff';
+  --color-base-content: oklch(21% 0.006 285.885);
+  --color-primary: oklch(57.12% 0.2219 20.09);
+  --color-primary-content: oklch(98% 0.003 247.858);
+  --color-secondary: oklch(53.12% 0.1743 297.64);
+  --color-secondary-content: oklch(97% 0.014 254.604);
   --color-accent: '#1DA1F2';
   --color-accent-content: '#ffffff';
   --color-neutral: '#261B23';
   --color-neutral-content: '#ffffff';
 
   /* border radius */
-  --radius-selector: 1rem;
-  --radius-field: 0.25rem;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
   --radius-box: 0.5rem;
 
   /* base sizes */
@@ -35,7 +36,7 @@
 
   /* effects */
   --depth: 0;
-  --noise: 0;
+  --noise: 1;
 
   --card-p: 1rem;
 }
