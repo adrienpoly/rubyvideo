@@ -298,7 +298,7 @@
         <div role="tabpanel" class="tab-content rounded-s-xl! rounded-xl bg-base-200/50 p-6 mt-6 overflow-hidden">
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <% talk.speakers.each do |speaker| %>
-              <div class="border bg-gray-100 rounded-lg hover:bg-gray-200/50 transition-bg duration-300 ease-in-out">
+              <div class="border border-base-300 bg-gray-100 rounded-lg hover:bg-gray-200/50 transition-bg duration-300 ease-in-out">
                 <%= render partial: "talks/speaker", locals: {speaker: speaker} %>
               </div>
             <% end %>
