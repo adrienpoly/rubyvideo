@@ -56,7 +56,7 @@
 @import './components/typography.css' layer(utilities);
 @import './components/video.css';
 
-/* @import "vlitejs/vlite.css"; */
+@import "../../../node_modules/vlitejs/dist/vlite.css";
 
 @import "bridge/components";
 
