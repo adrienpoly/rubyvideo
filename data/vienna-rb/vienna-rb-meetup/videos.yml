@@ -1,0 +1,84 @@
+---
+# Website: https://ruby.wien
+
+# 2025
+
+- title: "Vienna.rb March 2025"
+  event_name: "Vienna.rb March 2025"
+  date: "2025-03-06"
+  announced_at: "2025-02-03"
+  published_at: "TODO"
+  video_provider: "children"
+  video_id: "vienna-rb-march-2025"
+  thumbnail_xs: https://secure.meetupstatic.com/photos/event/3/3/2/b/600_525853099.webp?w=750
+  thumbnail_sm: https://secure.meetupstatic.com/photos/event/3/3/2/b/600_525853099.webp?w=750
+  thumbnail_md: https://secure.meetupstatic.com/photos/event/3/3/2/b/600_525853099.webp?w=750
+  thumbnail_lg: https://secure.meetupstatic.com/photos/event/3/3/2/b/600_525853099.webp?w=750
+  thumbnail_xl: https://secure.meetupstatic.com/photos/event/3/3/2/b/600_525853099.webp?w=750
+  description: |-
+    It's the Vienna.rb spring edition! 🌸 Are you interested in the Ruby language or Ruby on Rails? Join us. We have great talks, good vibes, and yummy snacks! 😋
+
+    We have something special this time: Lightning Talks! ⚡ Lightning talks are limited to 10 minutes and are an excellent opportunity for first-time speakers to try their hand at public speaking.
+
+    Have you always wanted to give public speaking a try? Now is your chance! Reach out to organizers@ruby.wien! 🙂
+
+    Talks & Lightning Talks
+    ~~~~~~~~~~~~~~~~~~~~~~~
+
+    🗣️ Jan Grodowski
+    ▶️ Balancing Quality and Speed of Testing with the Undercover Gem
+    🗒️ We'll take a look at Ruby test coverage strategies and the variables that come into play when preventing faults in our software products. We'll discuss what makes tests good, what to test versus not to and when is the right time to do it. I'll introduce the undercover Ruby gem and additionally share a few stories about turning this idea and gem into a side hustle.
+
+    ⚡ TBA
+    ▶️ TBA
+    🗒️ TBA
+
+    Location
+    ~~~~~~~~
+
+    Platogo Interactive Entertainment GmbH
+    Sechskrügelgasse 10/17
+    1030 Wien
+
+    Sponsors
+    ~~~~~~~~~
+
+    ⭐ Platogo
+
+    Platogo is an international team based in Vienna, dedicated to creating innovative, multi-platform games enjoyed by millions of players worldwide. With a focus on creativity, collaboration, and fun, we develop top-ranking apps available in over 13 languages. What began as a small group of passionate friends has grown into a team of 20+ extraordinary people, united by curiosity and a shared love for gaming and cutting-edge technology, all while fostering a friendly and supportive workplace.
+
+    Huge thanks to Platogo for hosting and providing us with refreshments and snacks! 🙌
+
+    ⭐ Ruby Central & Fastly
+
+    Ruby Central is a nonprofit organization that has been a driving force in the Ruby community since 2001. It has helped organize major events such as RubyConf and RailsConf. Additionally, Ruby Central maintains tools such as Bundler and RubyGems through its Open Source Program.
+
+    One of Ruby Central's newest initiatives is a grant program to support local meetups like this one, thanks to generous sponsors like Fastly. Thank you to Ruby Central and Fastly for supporting Vienna.rb!
+    ~~~
+
+    ⭐ Looking to sponsor or give a talk?
+
+    We are looking for sponsors and speakers. If you are interested, contact us at organizers@ruby.wien!
+
+    https://www.meetup.com/vienna-rb/events/305607564
+  talks:
+    - title: "Balancing Quality and Speed of Testing with the Undercover Gem"
+      event_name: "Vienna.rb March 2025"
+      date: "2025-03-06"
+      published_at: "TODO"
+      speakers:
+        - Jan Grodowski
+      video_id: "jan-grodowski-vienna-rb-march-2025"
+      video_provider: "scheduled"
+      description: |-
+        We'll take a look at Ruby test coverage strategies and the variables that come into play when preventing faults in our software products. We'll discuss what makes tests good, what to test versus not to and when is the right time to do it. I'll introduce the undercover Ruby gem and additionally share a few stories about turning this idea and gem into a side hustle.
+
+    - title: "Lightning Talks"
+      event_name: "Vienna.rb March 2025"
+      date: "2025-03-06"
+      published_at: "TODO"
+      speakers:
+        - TBA
+      video_id: "lightning-talks-vienna-rb-march-2025"
+      video_provider: "scheduled"
+      description: "Lightning talks are limited to 10 minutes and are an excellent opportunity for first-time speakers to try their hand at public speaking."
