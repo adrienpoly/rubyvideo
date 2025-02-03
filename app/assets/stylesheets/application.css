@@ -11,6 +11,7 @@
   color-scheme: light; /* color of browser-provided UI */
 
   --color-base-100: #F8F9FA;
+  --color-base-300: #E5E7EB;
   --color-primary: '#DC143C';
   --color-primary-content: '#ffffff';
   --color-secondary: '#7A4EC2';
