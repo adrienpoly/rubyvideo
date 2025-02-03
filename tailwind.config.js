@@ -1,4 +1,3 @@
-const defaultTheme = require('daisyui/theme/light/index.js')['[data-theme=light]']
 const defaultTailwindTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {

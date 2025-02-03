@@ -9,6 +9,6 @@ module.exports = {
       breakpointUnit: 'px',
       factor: 5,
       safariIframeResizeBugFix: false
-    },
+    }
   }
 }
