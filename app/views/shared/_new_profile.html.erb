@@ -2,7 +2,11 @@
   <div class="flex items-center gap-x-2">
     <span class="font-semibold">Add</span>
     <% SocialProfile::PROVIDERS.each do |provider| %>
-      <%= ui_button url: new_polymorphic_path([sociable, social_profile], provider:), kind: :circle, size: :sm, class: "hover:bg-#{provider} hover:fill-white border-base-200" do %>
+      <%= ui_button url: new_polymorphic_path([sociable, social_profile], provider:),
+            id: "add-#{provider}",
+            kind: :circle,
+            size: :sm,
+            class: "hover:bg-#{provider} hover:fill-white border-base-200" do %>
         <%= fab(provider, size: :md) %>
       <% end %>
     <% end %>
