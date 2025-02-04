@@ -173,3 +173,48 @@
     Senior Software Engineer at CloudWalk and passionate about building scalable and efficient software solutions. He has over a decade of experience in developing high-performance systems and currently contributes to the creation of InfinitePay, one of the leading payment solutions in Brazil.
 
     In the talk "Scaling Rails: The Journey to 200M Notifications", he will share his experience in scaling a Ruby on Rails application to send millions of notifications, addressing challenges, trade-offs, and technical decisions to transform an MVP into a robust and scalable system.
+
+- title: "Resilient Jobs and Chaotic Tests"
+  raw_title: "Resilient Jobs and Chaotic Tests"
+  speakers:
+    - Stephen Margheim
+  event_name: Tropical on Rails 2025
+  date: "2025-04-03"
+  published_at: "TODO"
+  announced_at: "2025-02-04 14:38:00 UTC"
+  video_provider: scheduled
+  video_id: "stephen-margheim-tropical-on-rails-2025"
+  description: |-
+    Stephen is an American expatriate living in Berlin. He is a regular contributor to Rails and the sqlite3-ruby gem, as well as having a handful of gems aimed at making Ruby and Rails the best platforms in the world for running SQLite projects.
+
+    In the talk "Resilient Jobs and Chaotic Tests," he will share his experiences with various scenarios, mainly the most chaotic ones, and explore possibilities that help companies and development teams make work more reliable and resilient.
+
+- title: "The Great Mobile Hack: Hotwire Native"
+  raw_title: "The Great Mobile Hack: Hotwire Native"
+  speakers:
+    - Daniel Medina
+  event_name: Tropical on Rails 2025
+  date: "2025-04-03"
+  published_at: "TODO"
+  announced_at: "2025-02-04 14:51:00 UTC"
+  video_provider: scheduled
+  video_id: "daniel-medina-tropical-on-rails-2025"
+  description: |-
+    Software Engineer, graduated from the University of Yucatán (UADY), I have been working with Ruby on Rails for over 6 years, currently working as a Full-Stack developer at Telos Labs, being the Tech Lead of the non-profit application SaverLife.org.
+
+    In the talk "The Great Mobile Hack: Hotwire Native" we will explore how we migrated our web application from the conference that will be used at the Tropical on Rails 2025 event to a native mobile experience using Hotwire Native, maintaining the agility of Rails while delivering the smooth experience that users expect from a native application.
+
+- title: "Challenging Front-End Inertia: Inertia.js in Rails"
+  raw_title: ""
+  speakers:
+    - Svyatoslav Kryukov
+  event_name: Tropical on Rails 2025
+  date: "2025-04-03"
+  published_at: "TODO"
+  announced_at: "2025-02-04 14:56:00 UTC"
+  video_provider: scheduled
+  video_id: "svyatoslav-kryukov-tropical-on-rails-2025"
+  description: |-
+    Dedicated to bridging the gap between backend and frontend worlds. Creator of tools like Skooma to define strong interfaces and TurboMount to enhance Hotwire with modern frontend widgets. A passionate contributor to Inertia Rails, making it easier for the Rails community to embrace modern frontend development.
+
+    In the talk "Challenging Front-End Inertia: Inertia.js in Rails" he will share with us how to unlock the power of modern frontend frameworks in Rails with Inertia.js! Building dynamic, single-page applications while maintaining the simplicity of Rails - without APIs, without client-side boilerplate.
