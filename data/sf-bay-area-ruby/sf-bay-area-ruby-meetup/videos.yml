@@ -1134,11 +1134,23 @@
 
     This time we are hosted by GitHub, and our keynote speaker is Joel Hawksley with "Lessons from 5 years of UI architecture at GitHub" 🔥
 
-    Agenda
-    * Joel Hawksley (GitHub) Lessons from 5 years of UI architecture at GitHub
-    * Sam Poder (Hack Club) How we built a bank w/ Ruby on Rails
-    * TBC
-    * TBC
+    Address: 88 Colin P Kelly Jr, GitHub HQ
+
+    We begin the programming at 5.30 PM PST and we have an amazing agenda:
+
+    5.40 PM Joel Hawksley (GitHub) Lessons from 5 years of UI architecture at GitHub
+
+    6.40 PM Sam Poder (Hack Club) How we built a bank w/ Ruby on Rails
+
+    7 PM Break
+
+    7.30 PM Open mic! Prepare your announcements!
+
+    7.45 PM Vladimir Dementyev (Evil Martians) with a secret topic
+
+    8.20 PM Talks conclude, social time
+
+    8.50 PM Doors close
 
     🎙️ Submit a talk proposal here:​https://forms.gle/C9HQzaT5jvwA5xwc7
 
@@ -1188,3 +1200,31 @@
       thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       speakers:
         - Sam Poder
+
+    - title: "Open Mic"
+      date: "2025-02-11"
+      announced_at: "2025-02-04 06:25:00 UTC"
+      event_name: SF Bay Area Ruby Meetup - February 2025
+      video_id: "open-mic-sf-bay-area-ruby-meetup-february-2025"
+      video_provider: scheduled
+      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      speakers:
+        - TBA
+
+    - title: "Secret Topic"
+      date: "2025-02-11"
+      announced_at: "2025-02-04 06:25:00 UTC"
+      event_name: SF Bay Area Ruby Meetup - February 2025
+      video_id: "vladimir-dementyev-sf-bay-area-ruby-meetup-february-2025"
+      video_provider: scheduled
+      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      speakers:
+        - Vladimir Dementyev
