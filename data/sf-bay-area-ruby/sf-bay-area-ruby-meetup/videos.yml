@@ -265,6 +265,154 @@
       speakers:
         - James Kerr
 
+- title: SF Bay Area Ruby Meetup - September 2024
+  raw_title: "SF Bay Area Ruby Meetup #6 at GitHub on September 3"
+  event_name: SF Bay Area Ruby Meetup - September 2024
+  date: "2024-09-03"
+  published_at: "2024-09-03"
+  description: |-
+    Hey, Bay Area builders and tinkerers!
+
+    For our September edition, we are back to where it started, the GitHub HQ 🎉. Join us to learn what's new and exciting in the world of Ruby, while making new and reconnecting with old friends!
+
+    ​Agenda:
+
+    ​​5 PM: Doors open, food, socializing
+    ​5.30: Intro and talks
+    – Cameron Dutro (GitHub) will speak about Web Components at GitHub
+    – Takashi Kokubun (Shopify) will tell us about YJIT and why we should start using it!
+    ​6.20: Break
+    ​6.40: Open mic 🎤 (prepare your announcements!)
+    ​7: Talks continue
+    – Brad Gessler announcing Terminalwire: Ship a CLI for your web app. No API required.
+    – Kamil Nicieja (Plane, a YC startup) with "Exploring the Flavors of Ruby on Rails Architectures in the Wild"
+    – Konstantin Gredeskoul (Academia.edu) "Concurrency paradigms in Ruby 3.3: Fibers and Ractors"
+    ​8: Community socializing
+    ​8.50: Doors close
+    ​Speak at one of the future meetups! Submit a talk proposal here:
+
+    ​https://forms.gle/C9HQzaT5jvwA5xwc7
+    Catch you on the flip side! Massive shoutout to GitHub for being our gracious host this time.
+
+    Address: 88 Colin P Kelly Jr. St., San Francisco, CA 94107
+    Guest Entrance: 275 Brannan St., San Francisco, CA 94107
+
+    We will also have a live stream and a recording of the event later! https://youtube.com/live/aqvGdPF5Qro?feature=share
+
+    Brought to you by Evil Martians. Check out:
+    – Rails Startup Stack
+    – Martian Chronicles
+
+    https://lu.ma/qfyzbfkk
+  video_provider: youtube
+  video_id: aqvGdPF5Qro
+  talks:
+    - title: "Intro"
+      start_cue: "01:25"
+      end_cue: "11:37"
+      thumbnail_cue: "02:00"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      date: "2024-09-03"
+      video_id: irina-nazarova-sf-bay-area-meetup-september-2024-intro
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "How GitHub Uses Web Components"
+      start_cue: "13:12"
+      end_cue: "34:09"
+      thumbnail_cue: "13:13"
+      date: "2024-09-03"
+      video_id: cameron-dutro-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Cameron Dutro
+
+    - title: "YJIT: The Future of Ruby Optimization"
+      start_cue: "35:25"
+      end_cue: "57:00"
+      thumbnail_cue: "35:37"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: takashi-kokubun-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Takashi Kokubun
+
+    - title: "Open Mic: GoCodeo"
+      start_cue: "01:25:14"
+      end_cue: "01:06:52"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: meghana-jagadeesh-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Meghana Jagadeesh
+
+    - title: "Open Mic: Rocky Mountain Ruby 2024"
+      start_cue: "01:27:17"
+      end_cue: "01:27:52"
+      date: "2024-09-03"
+      event_name: "SF Bay Area Ruby Meetup - September 2024"
+      video_id: "zack-mariscal-sf-bay-area-meetup-september-2024"
+      video_provider: parent
+      speakers:
+        - Zack Mariscal
+
+    - title: "Open Mic: BabyList"
+      start_cue: "01:27:58"
+      end_cue: "01:28:25"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: jamie-alessio-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Jamie Alessio
+
+    - title: "Open Mic: Ruby Central"
+      start_cue: "01:28:29"
+      end_cue: "01:32:15"
+      thumbnail_cue: "01:28:30"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: adarsh-pundit-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Adarsh Pundit
+
+    - title: "Terminalwire: A Better CLI for Web Apps"
+      start_cue: "01:32:36"
+      end_cue: "01:44:35"
+      thumbnail_cue: "01:32:45"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: brad-gessler-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Brad Gessler
+
+    - title: "Exploring the Flavors of Ruby on Rails Architectures in the Wild"
+      start_cue: "01:45:30"
+      end_cue: "02:10:54"
+      thumbnail_cue: "01:45:34"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: kamil-nicieja-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Kamil Nicieja
+
+    - title: "Concurrency Paradigms in Ruby 3.3: Fibers and Ractors"
+      start_cue: "02:12:26"
+      end_cue: "02:38:00"
+      thumbnail_cue: "02:12:45"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: konstantin-gredeskoul-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Konstantin Gredeskoul
+
 - title: SF Bay Area Ruby Meetup - October 2024
   raw_title: "SF Bay Area Ruby Meetup #7"
   event_name: SF Bay Area Ruby Meetup - October 2024
