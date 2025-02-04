@@ -265,6 +265,94 @@
       speakers:
         - James Kerr
 
+- title: SF Bay Area Ruby Meetup - August 2024
+  raw_title: "YC Ruby Meetup"
+  event_name: SF Bay Area Ruby Meetup - August 2024
+  date: "2024-08-13"
+  published_at: "TODO"
+  description: |-
+    YC is co-hosting a Ruby Meetup with Evil Martians to bring together fellow rubyists at YC’s new San Francisco HQ!
+
+    We’ll have tech talks from YC founders sharing their novel uses of Ruby in the wild — and how it’s not the Ruby you tried 10+ years ago. Speakers so far:
+
+    * Jared Friedman (YC Group Partner & Scribd, S06) will give an opening talk about the history of software at YC: how we chose Rails, who wrote the first MR to our codebase , why Bookface is a YC founder’s secret weapon, and how Rails powers everything from apps to Work at a Startup.
+    * Daniel Farina (Ubicloud, W24) has been building infrastructure control planes in Ruby for 13 years - first at Heroku and now at Ubicloud. Daniel will detail his long and unusual journey with Ruby, and share his five favorite “features” that make Ruby particularly powerful for building infrastructure code.
+    * Kelsey Pedersen (Capsule, S22) built Capsule on a V1 vector database with Rails, Postgres and Active Record with the PGVector plugin. She’s happy to share learnings at pitfalls, as well as how she uses webhooks and rakes to automate workflows and help keep the team small.
+    * Keith Schacht (Mystery.org, S17) started coding Ruby in ‘05, and is still at it — building ChatGPT in Rails (vs Python) and keeping up with stimulus, new morphing, and Turbo Native. He’ll do some live coding of these new features, and wants to hear what you think!
+
+    Also note: many of the companies presenting are hiring — including Y Combinator’s Software Team looking to hire a few Rails-guru too!
+
+    If you’re interested, please apply to attend us for talks, dinner and refreshments — we have limited capacity, and we’ll try to get as many people in the doors as we can.
+
+    https://events.ycombinator.com/yc-ruby-meetup
+  video_provider: children
+  video_id: sf-bay-area-ruby-meetup-august-2024
+  talks:
+    - title: "Intro"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - August 2024
+      date: "2024-08-13"
+      video_id: ryan-choi-sf-bay-area-ruby-meetup-august-2024
+      video_provider: not_recorded
+      speakers:
+        - Ryan Choi
+
+    - title: "The History of Software at YC: How we chose Rails"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - August 2024
+      date: "2024-08-13"
+      video_id: jared-friedman-sf-bay-area-ruby-meetup-august-2024
+      video_provider: not_recorded
+      thumbnail_xs: https://pbs.twimg.com/media/GU53OtTa4AIXWjJ?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GU53OtTa4AIXWjJ?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GU53OtTa4AIXWjJ?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GU53OtTa4AIXWjJ?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GU53OtTa4AIXWjJ?format=jpg&name=large
+      speakers:
+        - Jared Friedman
+
+    - title: "Ruby for Infrastructure: 13 Years of Lessons and Favorite Features"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - August 2024
+      date: "2024-08-13"
+      video_id: daniel-farina-sf-bay-area-ruby-meetup-august-2024
+      video_provider: not_recorded
+      thumbnail_xs: https://pbs.twimg.com/media/GU6Din5aQAAVj45?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GU6Din5aQAAVj45?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GU6Din5aQAAVj45?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GU6Din5aQAAVj45?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GU6Din5aQAAVj45?format=jpg&name=large
+      speakers:
+        - Daniel Farina
+
+    - title: "Building Capsule: Lessons from a V1 Vector Database with Rails & PGVector"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - August 2024
+      date: "2024-08-13"
+      video_id: kelsey-pedersen-sf-bay-area-ruby-meetup-august-2024
+      video_provider: not_recorded
+      thumbnail_xs: https://pbs.twimg.com/media/GU6EbRKa4AA4oK7?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GU6EbRKa4AA4oK7?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GU6EbRKa4AA4oK7?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GU6EbRKa4AA4oK7?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GU6EbRKa4AA4oK7?format=jpg&name=large
+      speakers:
+        - Kelsey Pedersen
+
+    - title: "Building ChatGPT in Rails: Live Coding with Stimulus, Morphing, and Turbo Native"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - August 2024
+      date: "2024-08-13"
+      video_id: keith-schacht-sf-bay-area-ruby-meetup-august-2024
+      video_provider: not_recorded
+      speakers:
+        - Keith Schacht
+
 - title: SF Bay Area Ruby Meetup - September 2024
   raw_title: "SF Bay Area Ruby Meetup #6 at GitHub on September 3"
   event_name: SF Bay Area Ruby Meetup - September 2024
