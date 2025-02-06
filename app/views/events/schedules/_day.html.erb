@@ -17,7 +17,7 @@
       <% items = grid.fetch("items", []) %>
       <% colspan = (slots != max_cols) ? (max_cols / slots) : 1 %>
 
-      <div class="mt-6 border bg-white rounded">
+      <div class="mt-6 border bg-white rounded-sm">
         <div class="border-b">
           <div class="text-xs p-2" colspan="<%= max_cols %>">
             <%= [start_time, end_time].uniq.join(" - ") %>
@@ -50,7 +50,7 @@
                 <% track = talk_track && tracks.find { |track| track["name"] == talk_track } %>
 
                 <% if track && talk_track %>
-                  <span class="py-1 px-2 mb-4 rounded flex-inline justify-center" style="background: <%= track["color"] %>; color: <%= track["text_color"] %>">
+                  <span class="py-1 px-2 mb-4 rounded-sm flex-inline justify-center" style="background: <%= track["color"] %>; color: <%= track["text_color"] %>">
                     <%= talk_track %>
                   </span>
 
