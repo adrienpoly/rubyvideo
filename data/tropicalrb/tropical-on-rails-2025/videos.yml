@@ -218,3 +218,48 @@
     Dedicated to bridging the gap between backend and frontend worlds. Creator of tools like Skooma to define strong interfaces and TurboMount to enhance Hotwire with modern frontend widgets. A passionate contributor to Inertia Rails, making it easier for the Rails community to embrace modern frontend development.
 
     In the talk "Challenging Front-End Inertia: Inertia.js in Rails" he will share with us how to unlock the power of modern frontend frameworks in Rails with Inertia.js! Building dynamic, single-page applications while maintaining the simplicity of Rails - without APIs, without client-side boilerplate.
+
+- title: "Don't Rewrite Your Framework"
+  raw_title: "Don't Rewrite Your Framework"
+  speakers:
+    - Vinicius Alonso
+  event_name: Tropical on Rails 2025
+  date: "2025-04-03"
+  published_at: "TODO"
+  announced_at: "2025-02-05 17:39:00 UTC"
+  video_provider: scheduled
+  video_id: "vinicius-alonso-tropical-on-rails-2025"
+  description: |-
+    With more than 10 years of experience in development, he holds a master's degree in Applied Computing from UTFPR-CT and has spoken at events such as TDC, Laraconf, and FTSL.
+
+    In the talk "Don't Rewrite Your Framework", Vinícius will explore little-known features of Ruby on Rails that can prevent unnecessary rework. Based on studies of the documentation and discussions in communities, he brings valuable insights for those who want to write more efficient code.
+
+- title: "Apache Pinot: An Active Record Adapter Tale"
+  raw_title: "Apache Pinot: An Active Record Adapter Tale"
+  speakers:
+    - Celso Fernandes
+  event_name: Tropical on Rails 2025
+  date: "2025-04-03"
+  published_at: "TODO"
+  announced_at: "2025-02-05 17:41:00 UTC"
+  video_provider: scheduled
+  video_id: "Celso Fernandes-tropical-on-rails-2025"
+  description: |-
+    Celso has a journey that started as a sysadmin in 2005 and, since 2010, has dedicated himself to web development with Rails, dealing with large-scale operations.
+
+    In the talk "Apache Pinot: An Active Record Adapter Tale", he will share the challenge of writing an Active Record Adapter running in production and encourage the community to explore the core of Rails.
+
+- title: "Scaling RubyVideo.dev: The mission to index all Ruby conferences"
+  raw_title: "Scaling RubyVideo.dev: The mission to index all Ruby conferences"
+  speakers:
+    - Marco Roth
+  event_name: Tropical on Rails 2025
+  date: "2025-04-03"
+  published_at: "TODO"
+  announced_at: "2025-02-05 17:47:00 UTC"
+  video_provider: scheduled
+  video_id: "marco-roth-tropical-on-rails-2025"
+  description: |-
+    Marco is a full-stack Ruby on Rails developer and actively contributes to open-source. Focused on improving the developer experience, he collaborates on projects like Hotwire and StimulusReflex.
+
+    In his talk "Scaling RubyVideo.dev: The mission to index all Ruby conferences", Marco will share how he is building a comprehensive repository of Ruby talks. He will address technical challenges, strategies, and bring exclusive announcements!
