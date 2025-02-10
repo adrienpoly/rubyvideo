@@ -180,7 +180,7 @@
 - title: What Comes After MVC
   raw_title: RailsConf 2015 - What Comes After MVC
   speakers:
-    - Peter Harkins
+    - Peter Bhat Harkins
   event_name: RailsConf 2015
   date: "2015-04-29"
   published_at: "TODO"
@@ -190,10 +190,11 @@
 
     This talk explains how to compact the "big ball of mud" at the heart of your app into a bedrock of reliable code. It gives the steps to incrementally refactor models into a functional core and gives explicit rules for how to write light, reliable tests.
 
-    https://push.cx/2015/railsconf
+    https://push.cx/talks/railsconf2015
 
   video_provider: youtube
   video_id: uFpXKLSREQo
+  slides_url: https://push.cx/talks/railsconf2015/What%20Comes%20After%20MVC%20-%20Peter%20Harkins,%20RailsConf%202015%20slides.pdf
 
 - title: Passwords are not Enough
   raw_title: RailsConf 2015 - Passwords are not Enough
