@@ -32,6 +32,7 @@
 class Event < ApplicationRecord
   include Suggestable
   include Sluggable
+  include Sociable
   slug_from :name
 
   # associations
@@ -289,6 +290,6 @@ class Event < ApplicationRecord
   end
 
   def website
-    self[:website].presence || organisation.website
+    social_profiles.detect { |sp| sp.website? }&.value || organisation.website
   end
 end
