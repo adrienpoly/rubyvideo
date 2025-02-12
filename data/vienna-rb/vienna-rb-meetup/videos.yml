@@ -94,17 +94,17 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "vienna-rb-march-2025"
-  thumbnail_xs: https://secure.meetupstatic.com/photos/event/3/3/2/b/600_525853099.webp?w=750
-  thumbnail_sm: https://secure.meetupstatic.com/photos/event/3/3/2/b/600_525853099.webp?w=750
-  thumbnail_md: https://secure.meetupstatic.com/photos/event/3/3/2/b/600_525853099.webp?w=750
-  thumbnail_lg: https://secure.meetupstatic.com/photos/event/3/3/2/b/600_525853099.webp?w=750
-  thumbnail_xl: https://secure.meetupstatic.com/photos/event/3/3/2/b/600_525853099.webp?w=750
+  thumbnail_xs: https://secure.meetupstatic.com/photos/event/1/8/8/5/600_526206277.webp?w=750
+  thumbnail_sm: https://secure.meetupstatic.com/photos/event/1/8/8/5/600_526206277.webp?w=750
+  thumbnail_md: https://secure.meetupstatic.com/photos/event/1/8/8/5/600_526206277.webp?w=750
+  thumbnail_lg: https://secure.meetupstatic.com/photos/event/1/8/8/5/600_526206277.webp?w=750
+  thumbnail_xl: https://secure.meetupstatic.com/photos/event/1/8/8/5/600_526206277.webp?w=750
   description: |-
     It's the Vienna.rb spring edition! 🌸 Are you interested in the Ruby language or Ruby on Rails? Join us. We have great talks, good vibes, and yummy snacks! 😋
 
-    We have something special this time: Lightning Talks! ⚡ Lightning talks are limited to 10 minutes and are an excellent opportunity for first-time speakers to try their hand at public speaking.
+    We have something special this time: Lightning Talks! ⚡
 
-    Have you always wanted to give public speaking a try? Now is your chance! Reach out to organizers@ruby.wien! 🙂
+    Lightning talks are limited to 10 minutes and are an excellent opportunity for first-time speakers to try their hand at public speaking. Check it out!
 
     Talks & Lightning Talks
     ~~~~~~~~~~~~~~~~~~~~~~~
@@ -113,9 +113,17 @@
     ▶️ Balancing Quality and Speed of Testing with the Undercover Gem
     🗒️ We'll take a look at Ruby test coverage strategies and the variables that come into play when preventing faults in our software products. We'll discuss what makes tests good, what to test versus not to and when is the right time to do it. I'll introduce the undercover Ruby gem and additionally share a few stories about turning this idea and gem into a side hustle.
 
-    ⚡ TBA
-    ▶️ TBA
-    🗒️ TBA
+    ⚡ Seth Horsley
+    ▶️ Building Beautiful UIs with ruby: A Rails-native Approach
+    🗒️ Tired of slow ERB templates and messy view logic? Discover how Phlex and RubyUI bring blazing-fast (12x!) and beautiful components to Rails while maintaining the Ruby way we all love. Let's see how we can build modern, accessible UIs without leaving the Rails ecosystem!
+
+    ⚡ Anton Bangratz
+    ▶️ Jujutsu: Will it replace Git?
+    🗒️ Jujutsu is a DVCS, or "distributed version control system". You are probably familiar with the biggest of those systems: Git. Jujutsiy is said to be easier and simpler than Git while being even more powerful. In this talk we'll find out if that's true!
+
+    ⚡ Johannes Daxböck
+    ▶️ Logical, Mr Matz: A Foray into Logic Programming in Ruby
+    🗒️ TBD
 
     Location
     ~~~~~~~~
@@ -143,7 +151,6 @@
     ⭐ Looking to sponsor or give a talk?
 
     We are looking for sponsors and speakers. If you are interested, contact us at organizers@ruby.wien!
-
     https://www.meetup.com/vienna-rb/events/305607564
   talks:
     - title: "Balancing Quality and Speed of Testing with the Undercover Gem"
@@ -156,6 +163,38 @@
       video_provider: "scheduled"
       description: |-
         We'll take a look at Ruby test coverage strategies and the variables that come into play when preventing faults in our software products. We'll discuss what makes tests good, what to test versus not to and when is the right time to do it. I'll introduce the undercover Ruby gem and additionally share a few stories about turning this idea and gem into a side hustle.
+
+    - title: "Building Beautiful UIs with Ruby: A Rails-Native Approach"
+      event_name: "Vienna.rb March 2025"
+      date: "2025-03-06"
+      published_at: "TODO"
+      speakers:
+        - Seth Horsley
+      video_id: "seth-horsley-vienna-rb-march-2025"
+      video_provider: "scheduled"
+      description: |-
+        Tired of slow ERB templates and messy view logic? Discover how Phlex and RubyUI bring blazing-fast (12x!) and beautiful components to Rails while maintaining the Ruby way we all love. Let's see how we can build modern, accessible UIs without leaving the Rails ecosystem!
+
+    - title: "Jujutsu: Will it replace Git?"
+      event_name: "Vienna.rb March 2025"
+      date: "2025-03-06"
+      published_at: "TODO"
+      speakers:
+        - Anton Bangratz
+      video_id: "anton-bangratz-vienna-rb-march-2025"
+      video_provider: "scheduled"
+      description: |-
+        Jujutsu is a DVCS, or "distributed version control system". You are probably familiar with the biggest of those systems: Git. Jujutsiy is said to be easier and simpler than Git while being even more powerful. In this talk we'll find out if that's true!
+
+    - title: "Logical, Mr Matz: A Foray into Logic Programming in Ruby"
+      event_name: "Vienna.rb March 2025"
+      date: "2025-03-06"
+      published_at: "TODO"
+      speakers:
+        - Johannes Daxböck
+      video_id: "johannes-daxboeck-vienna-rb-march-2025"
+      video_provider: "scheduled"
+      description: ""
 
     - title: "Lightning Talks"
       event_name: "Vienna.rb March 2025"
