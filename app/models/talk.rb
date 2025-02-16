@@ -197,7 +197,7 @@ class Talk < ApplicationRecord
         AND talk_transcripts.raw_transcript != '[]'
       ))
   }
-  scope :without_enhanced_transcript, \
+  scope :without_enhanced_transcript,
     -> {
       joins(:talk_transcript)
         .where(%(
