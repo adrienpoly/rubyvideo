@@ -31,7 +31,7 @@
 }
 
 @utility btn-rounded {
-  @apply btn-outline rounded-full border border-gray-400 bg-white hover:border-gray-500 hover:bg-gray-100 hover:text-base-content/80;
+  @apply btn-outline rounded-full border border-gray-400 bg-white hover:border-gray-500 hover:bg-gray-100 text-base-content hover:text-base-content/80;
 }
 
 @utility btn-circle {
