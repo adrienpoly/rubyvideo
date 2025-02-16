@@ -10,8 +10,9 @@
   prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
   color-scheme: light; /* color of browser-provided UI */
 
-  --color-base-100: #F8F9FA;
-  --color-base-300: #E5E7EB;
+  --color-base-100: oklch(98.16% 0.0017 247.84);
+  --color-base-200: oklch(94.76% 0.0058 247.84);
+  --color-base-300: oklch(91.30% .001588 247.84);
   --color-base-content: oklch(21% 0.006 285.885);
   --color-primary: oklch(57.12% 0.2219 20.09);
   --color-primary-content: oklch(98% 0.003 247.858);
