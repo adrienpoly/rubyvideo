@@ -17,14 +17,14 @@
       <% items = grid.fetch("items", []) %>
       <% colspan = (slots != max_cols) ? (max_cols / slots) : 1 %>
 
-      <div class="mt-6 border bg-white rounded-sm">
-        <div class="border-b">
+      <div class="mt-6 border border-base-300 bg-white rounded-sm">
+        <div class="border-b border-base-300">
           <div class="text-xs p-2" colspan="<%= max_cols %>">
             <%= [start_time, end_time].uniq.join(" - ") %>
           </div>
         </div>
 
-        <div class="grid grid-cols-<%= slots %> divide-x">
+        <div class="grid grid-cols-<%= slots %> divide-x divide-base-300">
           <% slots.times do |i| %>
             <% talk = items.any? ? nil : talks[talk_count] %>
             <% talk_tag = items.any? ? :div : :a %>

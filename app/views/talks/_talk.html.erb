@@ -68,13 +68,13 @@
       <hr>
     <% end %>
 
-    <div class="flex flex-col md:gap-1 w-full divide-y">
-      <div class="flex flex-wrap w-full divide-y border-base-300 justify-between">
+    <div class="flex flex-col md:gap-1 w-full">
+      <div class="flex flex-wrap w-full divide-y divide-base-300 justify-between">
         <div class="py-4 font-bold text-xl w-full">
           <span><%= talk.title %></span>
         </div>
 
-        <div class="flex grow gap-1 py-3 lg:divide-y-0 text-xs xl:justify-end overflow-y-visible overflow-x-scroll lg:overflow-x-hidden order-last xl:order-none">
+        <div class="flex grow gap-1 py-3 text-xs xl:justify-end overflow-y-visible overflow-x-scroll lg:overflow-x-hidden order-last xl:order-none">
           <% if Current.user&.admin? %>
             <%= ui_button url: avo.resources_talk_path(talk), kind: :pill, target: "_blank" do %>
               <%= fa :avocado, size: :xs, style: :solid %>
