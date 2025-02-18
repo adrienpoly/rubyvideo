@@ -38,6 +38,7 @@ class Speaker < ApplicationRecord
   include ActionView::RecordIdentifier
   include Sluggable
   include Suggestable
+  include Sociable
   include Speaker::Searchable
   slug_from :name
 
@@ -77,21 +78,6 @@ class Speaker < ApplicationRecord
 
   # normalizes
   normalizes :github, with: ->(value) { value.gsub(/^(?:https?:\/\/)?(?:www\.)?github\.com\//, "").gsub(/^@/, "") }
-  normalizes :twitter, with: ->(value) { value.gsub(%r{https?://(?:www\.)?(?:x\.com|twitter\.com)/}, "").gsub(/@/, "") }
-  normalizes :bsky, with: ->(value) {
-                            value.gsub(%r{https?://(?:www\.)?(?:x\.com|bsky\.app/profile)/}, "").gsub(/@/, "")
-                          }
-  normalizes :linkedin, with: ->(value) { value.gsub(%r{https?://(?:www\.)?(?:linkedin\.com/in)/}, "") }
-  normalizes :bsky, with: ->(value) { value.gsub(%r{https?://(?:www\.)?(?:[^\/]+\.com)/}, "").gsub(/@/, "") }
-
-  normalizes :mastodon, with: ->(value) {
-    return value if value&.match?(URI::DEFAULT_PARSER.make_regexp)
-    return "" unless value.count("@") == 2
-
-    _, handle, instance = value.split("@")
-
-    "https://#{instance}/@#{handle}"
-  }
 
   def self.reset_talks_counts
     find_each do |speaker|
