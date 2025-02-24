@@ -9,18 +9,10 @@ servers:
   web:
     hosts:
       - 159.69.222.18
-    options:
-      cpus: 1
-      memory: 0.5g
-      memory-swap: 2g
 
   job:
     hosts:
       - 159.69.222.18
-    options:
-      cpus: 0.2
-      memory: 0.5g
-      memory-swap: 2g
     cmd: bin/jobs
 
 # Enable SSL auto certification via Let's Encrypt and allow for multiple apps on a single web server.
