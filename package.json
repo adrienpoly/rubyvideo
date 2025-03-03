@@ -10,13 +10,14 @@
     "@splidejs/splide": "^4.1.4",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.15",
+    "@tailwindcss/vite": "^4.0.3",
     "chart.js": "^4.3.0",
     "chartkick": "^5.0.1",
     "morphdom": "^2.7.0",
     "rfs": "^10.0.0",
     "stimulus-use": "^0.52.0",
     "tippy.js": "^6.3.7",
-    "vlitejs": "^6.0.3"
+    "vlitejs": "^7.0.0"
   },
   "scripts": {
     "build": "bin/vite build",
@@ -27,16 +28,15 @@
   },
   "packageManager": "yarn@1.22.19",
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "daisyui": "^4.12.14",
+    "@tailwindcss/postcss": "^4.0.0",
+    "daisyui": "^5.0.0-beta.8",
     "postcss": "^8.4.38",
-    "postcss-import": "^16.1.0",
     "postcss-nested": "^6.0.1",
-    "prettier": "^2.8.8",
-    "prettier-plugin-tailwindcss": "^0.3.0",
+    "prettier": "^3.5.1",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "standard": "^17.1.0",
     "stimulus-vite-helpers": "^3.1.0",
-    "tailwindcss": "^3.4.4",
+    "tailwindcss": "^4.0.6",
     "vite": "^6.0.11",
     "vite-plugin-rails": "^0.5.0"
   },
