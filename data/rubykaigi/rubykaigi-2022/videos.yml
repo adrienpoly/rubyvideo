@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: Let's collect type info during Ruby running and automaticall
   raw_title: "[JA]Let's collect type info during Ruby running and automaticall / osyo @pink_bangbi"
   speakers:
@@ -15,7 +16,6 @@
   video_id: BP7UACeJpJk
   language: Japanese
   description: ""
-
 - title: Real World Applications with the Ruby Fiber Scheduler
   raw_title: "[EN]Real World Applications with the Ruby Fiber Scheduler / Samuel Williams @ioquatix"
   speakers:
@@ -27,7 +27,6 @@
   video_id: yXyj9wlkJKM
   language: English
   description: ""
-
 - title: Caching With MessagePack
   raw_title: "[EN]Caching With MessagePack / Chris Salzberg @shioyama"
   speakers:
@@ -39,7 +38,6 @@
   video_id: pYSEurptls0
   language: English
   description: ""
-
 - title: "Keynote: Ruby meets WebAssembly"
   raw_title: "[JA][Keynote]Ruby meets WebAssembly / Yuta Saito @kateinoigakukun"
   speakers:
@@ -51,7 +49,6 @@
   video_id: "-x8pU6mGtPI"
   language: Japanese
   description: ""
-
 - title: "Keynote: Stories from developing YJIT"
   raw_title: "[EN][Keynote]Stories from developing YJIT / Alan Wu @alanwusx"
   speakers:
@@ -63,7 +60,6 @@
   video_id: EMchdR9C8XM
   language: English
   description: ""
-
 - title: Towards Ruby 4 JIT
   raw_title: "[EN]Towards Ruby 4 JIT / Takashi Kokubun @k0kubun"
   speakers:
@@ -75,7 +71,6 @@
   video_id: Cbidkl6ApMM
   language: English
   description: ""
-
 - title: "Keynote: Contribute to Ruby"
   raw_title: '[JA][Keynote]Matz Keynote / Yukihiro "Matz" Matsumoto @yukihiro_matz'
   speakers:
@@ -87,7 +82,6 @@
   video_id: m_LW5WIYJ9Q
   language: Japanese
   description: ""
-
 - title: Ruby programming with types in action
   raw_title: "[EN]Ruby programming with types in action / Soutaro Matsumoto @soutaro"
   speakers:
@@ -99,7 +93,6 @@
   video_id: 4E4TRgMDYqo
   language: English
   description: ""
-
 - title: How fast really is Ruby 3.x?
   raw_title: "[JA]How fast really is Ruby 3.x? / Fujimoto Seiji @fujimotos"
   speakers:
@@ -111,7 +104,6 @@
   video_id: x9x169j6xco
   language: Japanese
   description: ""
-
 - title: Making *MaNy* threads on Ruby
   raw_title: "[JA]Making *MaNy* threads on Ruby / Koichi Sasada @ko1"
   speakers:
@@ -123,7 +115,6 @@
   video_id: G0LX53QJdBE
   language: Japanese
   description: ""
-
 - title: Ruby Committers vs The World
   raw_title: "[JA]Ruby Committers vs The World"
   speakers:
@@ -135,7 +126,6 @@
   video_id: ajm3lr6Y9yE
   language: Japanese
   description: ""
-
 - title: ruby/debug - The best investment for your productivity
   raw_title: "[EN]ruby/debug - The best investment for your productivity / Stan Lo @_st0012"
   speakers:
@@ -147,7 +137,6 @@
   video_id: gseo4vdmSjE
   language: English
   description: ""
-
 - title: Implementing Object Shapes in CRuby
   raw_title: "[EN]Implementing Object Shapes in CRuby / Jemma Issroff @jemmaissroff"
   speakers:
@@ -159,7 +148,6 @@
   video_id: So-KvN3p-eE
   language: English
   description: ""
-
 - title: Trick 2022
   raw_title: "[JA]TRICK 2022 (Returns)"
   speakers:
@@ -171,7 +159,6 @@
   video_id: tvxdccqFzmQ
   language: Japanese
   description: ""
-
 - title: Megaruby - Running mruby/c programs on Sega Mega Drive
   raw_title: "[EN]Megaruby - Running mruby/c programs on Sega Mega Drive / Yuji Yokoo @yujiyokoo"
   speakers:
@@ -183,7 +170,6 @@
   video_id: JuKYJ-G8heU
   language: English
   description: ""
-
 - title: Ethereum for Ruby
   raw_title: "[EN]Ethereum for Ruby / Yuta Kurotaki @kurotaky"
   speakers:
@@ -195,7 +181,6 @@
   video_id: 2wut6zg22bA
   language: English
   description: ""
-
 - title: A Faster CRuby interpreter with dynamically specialized IR
   raw_title: "[EN]A Faster CRuby interpreter with dynamically specialized IR / Vladimir Makarov @vnmakarov"
   speakers:
@@ -207,7 +192,6 @@
   video_id: TGc8rccEXno
   language: English
   description: ""
-
 - title: Hunting Production Memory Leaks with Heap Sampling
   raw_title: "[EN]Hunting Production Memory Leaks with Heap Sampling / @KnuX and @KJTsanaktsidis"
   speakers:
@@ -220,7 +204,6 @@
   video_id: xoGJPtNp074
   language: English
   description: ""
-
 - title: Automatically Find Memory Leaks in Native Gems
   raw_title: "[EN]Automatically Find Memory Leaks in Native Gems / Peter Zhu @peterzhu2118"
   speakers:
@@ -232,7 +215,6 @@
   video_id: SchKPrZefXY
   language: English
   description: ""
-
 - title: Fast data processing with Ruby and Apache Arrow
   raw_title: "[JA]Fast data processing with Ruby and Apache Arrow / Sutou Kouhei @ktou"
   speakers:
@@ -244,7 +226,6 @@
   video_id: C_-r8IQLAVY
   language: Japanese
   description: ""
-
 - title: Syntax Tree
   raw_title: "[EN]Syntax Tree / Kevin Newton @kddnewton"
   speakers:
@@ -256,7 +237,6 @@
   video_id: VN72YBy8KsY
   language: English
   description: ""
-
 - title: String Meets Encoding
   raw_title: "[JA]String Meets Encoding / Mari Imaizumi @ima1zumi"
   speakers:
@@ -268,7 +248,6 @@
   video_id: cRMP9-7LiLg
   language: Japanese
   description: ""
-
 - title: Types teaches success, what will we do?
   raw_title: "[JA]Types teaches success, what will we do? / Fu-ga @fugakkbn"
   speakers:
@@ -280,7 +259,6 @@
   video_id: QK2XsIHAc9U
   language: Japanese
   description: ""
-
 - title: Create my own search engine.
   raw_title: "[JA]Create my own search engine. / Masatoshi SEKI @m_seki"
   speakers:
@@ -292,7 +270,6 @@
   video_id: ol4MsygRnIE
   language: Japanese
   description: ""
-
 - title: Why is building the Ruby environment hard?
   raw_title: "[JA]Why is building the Ruby environment hard? / Hiroshi SHIBATA @hsbt"
   speakers:
@@ -304,7 +281,6 @@
   video_id: J5c-3HY7uH0
   language: Japanese
   description: ""
-
 - title: Adding Type Signatures into Ruby Docs
   raw_title: "[EN]Adding Type Signatures into Ruby Docs / Colby Swandale @oceanicpanda"
   speakers:
@@ -316,7 +292,6 @@
   video_id: ZI0Cttpsy1g
   language: English
   description: ""
-
 - title: Tools for Providing rich user experience in debugger
   raw_title: "[JA]Tools for Providing rich user experience in debugger / Naoto Ono @ono-max"
   speakers:
@@ -328,7 +303,6 @@
   video_id: 6b5TJwKKJ5U
   language: Japanese
   description: ""
-
 - title: "Ruby Archaeology: Forgotten web frameworks"
   raw_title: "[EN]Ruby Archaeology: Forgotten web frameworks / Nick Schwaderer @schwad_rb"
   speakers:
@@ -340,7 +314,6 @@
   video_id: 0h9lISoqEn4
   language: English
   description: ""
-
 - title: History of Japanese Ruby reference manual, and future
   raw_title: "[JA]History of Japanese Ruby reference manual, and future / Kazuhiro NISHIYAMA @znz"
   speakers:
@@ -352,7 +325,6 @@
   video_id: 3N93YQGOj6Q
   language: Japanese
   description: ""
-
 - title: Make RuboCop super fast
   raw_title: "[JA]Make RuboCop super fast / Koichi ITO @koic"
   speakers:
@@ -364,7 +336,6 @@
   video_id: bMLy09UV6TY
   language: Japanese
   description: ""
-
 - title: ZRouter.org with mruby
   raw_title: "[JA]ZRouter.org with mruby / やもり @yamori813"
   speakers:
@@ -376,7 +347,6 @@
   video_id: uiwIaCS34aw
   language: Japanese
   description: ""
-
 - title: Packet analysis with mruby on Wireshark - dRuby as example
   raw_title: "[JA]Packet analysis with mruby on Wireshark - dRuby as example / Misaki Shioi @coe401_"
   speakers:
@@ -388,7 +358,6 @@
   video_id: dqFogicnyLQ
   language: Japanese
   description: "Uncut version: https://youtu.be/71oVELdmR8U"
-
 - title: "Packet analysis with mruby on Wireshark - dRuby as example (Uncut version)"
   raw_title: "[JA][uncut]Packet analysis with mruby on Wireshark - dRuby as example - Misaki Shioi @coe401_"
   speakers:
@@ -400,7 +369,6 @@
   video_id: 71oVELdmR8U
   language: Japanese
   description: ""
-
 - title: The Better RuboCop World to enjoy Ruby
   raw_title: "[JA]The Better RuboCop World to enjoy Ruby / Yasuko Ohba @nay3"
   speakers:
@@ -412,7 +380,6 @@
   video_id: _QY5GMVhG1c
   language: Japanese
   description: ""
-
 - title: "error_highlight: user-friendly error diagnostics"
   raw_title: "[JA]error_highlight: user-friendly error diagnostics / Yusuke Endoh @mametter"
   speakers:
@@ -424,7 +391,6 @@
   video_id: SfFmhunJTEQ
   language: Japanese
   description: ""
-
 - title: "Ruby x BPF in Action: How important observability is"
   raw_title: "[EN]Ruby x BPF in Action: How important observability is / Uchio KONDO @udzura"
   speakers:
@@ -436,7 +402,6 @@
   video_id: 9OvoOVc8690
   language: English
   description: ""
-
 - title: Heaping on the complexity! An adventure in GC Compaction
   raw_title: "[EN]Heaping on the complexity! An adventure in GC Compaction / Matt Valentine-House @eightbitraptor"
   speakers:
@@ -448,7 +413,6 @@
   video_id: bHDHeFXm9kg
   language: English
   description: ""
-
 - title: Fixing Assignment Evaluation Order
   raw_title: "[EN]Fixing Assignment Evaluation Order / Jeremy Evans @jeremyevans0"
   speakers:
@@ -460,7 +424,6 @@
   video_id: oqvFi7crbd4
   language: English
   description: ""
-
 - title: Do Pure Ruby Dream of Encrypted Binary Protocol?
   raw_title: "[JA]Do Pure Ruby Dream of Encrypted Binary Protocol? / Yusuke Nakamura @yu_suke1994"
   speakers:
@@ -472,7 +435,6 @@
   video_id: hCos6p_S-qc
   language: Japanese
   description: ""
-
 - title: Method-based JIT compilation by transpiling to Julia
   raw_title: "[JA]Method-based JIT compilation by transpiling to Julia / Kenta Murata @Kenta Murata"
   speakers:
@@ -484,7 +446,6 @@
   video_id: BAB26lpklj8
   language: Japanese
   description: ""
-
 - title: RBS generation framework using Rack architecture
   raw_title: "[JA]RBS generation framework using Rack architecture / Yuki Kurihara @_ksss_"
   speakers:
@@ -496,7 +457,6 @@
   video_id: CBW_GutxCFc
   language: Japanese
   description: ""
-
 - title: Building a Lightweight IR and Backend for YJIT
   raw_title: "[EN]Building a Lightweight IR and Backend for YJIT / Maxime Chevalier-Boisvert @maximecb"
   speakers:

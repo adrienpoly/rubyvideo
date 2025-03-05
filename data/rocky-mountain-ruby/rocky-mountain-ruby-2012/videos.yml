@@ -1,10 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: schedule website
-
 # Website: https://web.archive.org/web/20120920022433/http://rockymtnruby.com/
-
+#
 - title: Enhance your code with rainbows!
   raw_title: Enhance your code with rainbows! by Angela Harms
   speakers:
@@ -14,10 +14,8 @@
   published_at: "TODO"
   description: |-
     I hear sometimes that good things come from carrots and sticks, from fear, from doing what you're told. But what if there's a better way to get the stuff we want? Stuff like money, working software, the geek joy of a solved problem. What if choosing love (and more specifically, curiosity, vulnerability, and kindness) gets us geeks what we want most?
-
   video_provider: youtube
   video_id: o0Zci00Y3ak
-
 - title: "Lightning Talk: Ack"
   raw_title: "Rocky Mountain Ruby 2012 Lightning Talk: Ack by Cameron Pope"
   speakers:
@@ -25,11 +23,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: sKmyl5D8Da8
-
 - title: "Lightning Talk: Learning to Program"
   raw_title: "Lightning Talk: Learning to Program by Dave Woodall"
   speakers:
@@ -40,7 +36,6 @@
   description: ""
   video_provider: youtube
   video_id: Ot5JBMXo7AM
-
 - title: "Lightning Talk: RubyMotion"
   raw_title: "Lightning Talk: RubyMotion by Colin Thomas-Arnold"
   speakers:
@@ -48,15 +43,11 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: gBj5Sgsda9I
-
 - title: Building in Rails, Backbone, and CoffeeScript
-  raw_title:
-    Rocky Mountain Ruby 2012 - Building in Rails, Backbone, and CoffeeScript
-    by Derrick Ko
+  raw_title: Rocky Mountain Ruby 2012 - Building in Rails, Backbone, and CoffeeScript by Derrick Ko
   speakers:
     - Derrick Ko
   event_name: Rocky Mountain Ruby 2012
@@ -68,7 +59,6 @@
     In this talk, I will discuss the foundation and best practices of a Rails/Backbone/Coffeescript real time stack, as we do it at Kicksend.
   video_provider: youtube
   video_id: g6sKZALxozE
-
 - title: "Growing Developers - Panel"
   raw_title: Rocky Mountain Ruby 2012 - Growing Developers - Panel
   speakers:
@@ -79,15 +69,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description:
-    There is a shortage of software developers today. Programs like CodeAcademy,
-    HungryAcademy and DaVinci Coders are looking to help with that shortage. Mike
-    Gehard will lead a panel on learning, what are the strengths are weaknesses of
-    these programs are and how we all can help alleviate the shortage of quality software
-    developers. If you want to be part of the solution, please join us.
+  description: There is a shortage of software developers today. Programs like CodeAcademy, HungryAcademy and DaVinci Coders are looking to help with that shortage. Mike Gehard will lead a panel on learning, what are the strengths are weaknesses of these programs are and how we all can help alleviate the shortage of quality software developers. If you want to be part of the solution, please join us.
   video_provider: youtube
   video_id: sjeS7eXB1rE
-
 - title: Let's talk concurrency
   raw_title: Rocky Mountain Ruby 2012 - Let's talk concurrency by Jose Valim
   speakers:
@@ -101,7 +85,6 @@
     In this talk, José Valim is going to discuss the role state play in concurrency and introduce different paradigms for multi-core concurrency, like Actors and Software Transactional Memory, explaining their trade-offs and why they matter to us developers.
   video_provider: youtube
   video_id: 4o89mWFL-2A
-
 - title: To Mock or Not to Mock
   raw_title: Rocky Mountain Ruby 2012 - To Mock or Not to Mock by Justin Searls
   speakers:
@@ -112,7 +95,6 @@
   description: ""
   video_provider: youtube
   video_id: TU3glG08BJI
-
 - title: Expert Consulting
   raw_title: Rocky Mountain Ruby 2012 - Expert Consulting by Paul Elliott
   speakers:
@@ -120,25 +102,19 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: 7t7Ms-CMaSE
-
 - title: Wrangling Large Rails Codebases
-  raw_title:
-    Rocky Mountain Ruby 2012 - Wrangling Large Rails Codebases by Stephan
-    Hagemann
+  raw_title: Rocky Mountain Ruby 2012 - Wrangling Large Rails Codebases by Stephan Hagemann
   speakers:
     - Stephan Hagemann
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: FElnETSIMuo
-
 - title: Modular & reusable front end code
   raw_title: Rocky Mountain Ruby 2012 - Modular & reusable front end code by Roy Tomeij
   speakers:
@@ -146,11 +122,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: qNY8FFP5KhQ
-
 - title: ChatOps
   raw_title: Rocky Mountain Ruby 2012 - ChatOps by Josh Nichols
   speakers:
@@ -158,11 +132,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: cIhkj0hu_a0
-
 - title: Ruby on the Command Line
   raw_title: Rocky Mountain Ruby 2012 - Ruby on the Command Line by Simon Chiang
   speakers:
@@ -170,11 +142,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: 6I2FyAmOMgM
-
 - title: Ruby on Android
   raw_title: Rocky Mountain Ruby 2012 - Ruby on Android by Nick Howard
   speakers:
@@ -182,11 +152,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: xFgLTw3x97M
-
 - title: Keeping it Simple
   raw_title: Rocky Mountain Ruby 2012 - Keeping it Simple by Derrick Ko
   speakers:
@@ -194,11 +162,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: "-UJ0Jwd2y4w"
-
 - title: Dependency Injection
   raw_title: Rocky Mountain Ruby 2012 - Dependency Injection by Johannes Tuchscherer
   speakers:
@@ -206,11 +172,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: QvSvSS8Ou4c
-
 - title: CleanShaved
   raw_title: Rocky Mountain Ruby 2012 - CleanShaved by Frederic Jean
   speakers:
@@ -218,25 +182,19 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: PEiuc3y0kwk
-
 - title: A model walks into a JavaScript framework
-  raw_title:
-    Rocky Mountain Ruby 2012 - A model walks into a JavaScript framework
-    by Tony Navarre
+  raw_title: Rocky Mountain Ruby 2012 - A model walks into a JavaScript framework by Tony Navarre
   speakers:
     - Tony Navarre
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: 9Uu8ktgB5gQ
-
 - title: On the shoulders of giants
   raw_title: Rocky Mountain Ruby 2012 - On the shoulders of giants by Mike Gehard
   speakers:
@@ -244,11 +202,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: Qq9oxtpUfX4
-
 - title: This is the problem
   raw_title: Rocky Mountain Ruby 2012 - This is the problem by Drew Neil
   speakers:
@@ -256,11 +212,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: 91A_Cmf0OH8
-
 - title: Teacherless Education
   raw_title: Rocky Mountain Ruby 2012 - Teacherless Education by Thomas Frey
   speakers:
@@ -268,11 +222,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: aFv0Ul6h9RM
-
 - title: Algorithms
   raw_title: Rocky Mountain Ruby 2012 - Algorithms by Gordon Diggs
   speakers:
@@ -280,11 +232,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: 1g-VbdDRtXs
-
 - title: Project Grok
   raw_title: Rocky Mountain Ruby 2012 - Project Grok by John Foley
   speakers:
@@ -292,11 +242,9 @@
   event_name: Rocky Mountain Ruby 2012
   date: "2012-10-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: dHh4FRNu_vs
-
 - title: Go Ahead, Make a Mess
   raw_title: Rocky Mountain Ruby 2012 - Go Ahead, Make a Mess by Sandi Metz
   speakers:

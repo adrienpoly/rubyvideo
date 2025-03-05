@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: "The Next Ruby"
   raw_title: "LoneStarRuby Conf 2008 - The Next Ruby 960x368 by: Bruce Williams"
   speakers:
@@ -13,10 +14,8 @@
   published_at: "TODO"
   description: |-
     The Next Ruby 960x368 by: Bruce Williams
-
   video_provider: youtube
   video_id: q5Fe59o7VtY
-
 - title: "Hidden Gems"
   raw_title: "LoneStarRuby Conf 2009 - ii hidden gems 960x368 by: James Edward Gray"
   speakers:
@@ -26,10 +25,8 @@
   published_at: "TODO"
   description: |-
     hidden gems 960x368 by: James Edward Gray II
-
   video_provider: youtube
   video_id: 2j9jZu-72yY
-
 - title: "Ruby Best Practice Patterns"
   raw_title: "LoneStarRuby Conf 2009 - ruby best practice patterns 960x368 by: Rein Henrichs"
   speakers:
@@ -39,10 +36,8 @@
   published_at: "TODO"
   description: |-
     ruby best practice patterns 960x368 by: Rein Henrichs
-
   video_provider: youtube
   video_id: _nMZvXG3ZBU
-
 - title: "Using Metrics To Take a Hard Look at Your Code"
   raw_title: "LoneStarRuby Conf 2008 - Using Metrics to Take a Hard look at your code by: Jake Scruggs"
   speakers:
@@ -52,10 +47,8 @@
   published_at: "TODO"
   description: |-
     04 jake scruggs using metrics to take a hard look at your code 960x368
-
   video_provider: youtube
   video_id: FnDvacKHufU
-
 - title: "JavaScript Frameworks with Ruby"
   raw_title: "LoneStarRuby Conf 2008 - JavaScript Frameworks with Ruby 960x368 by: Wynn Netherland"
   speakers:
@@ -65,10 +58,8 @@
   published_at: "TODO"
   description: |-
     JavaScript Frameworks with Ruby 960x368 by: Wynn Netherland
-
   video_provider: youtube
   video_id: kb4XOImtshE
-
 - title: "Grammar a BNF Like Ruby DSL Parsing"
   raw_title: "LoneStarRuby Conf 2008 - Grammar a BNF like Ruby DSL Parsing 960x368 by: Eric Mahurin"
   speakers:
@@ -78,10 +69,8 @@
   published_at: "TODO"
   description: |-
     Grammar a BNF like Ruby DSL Parsing 960x368 by: Eric Mahurin
-
   video_provider: youtube
   video_id: QDho1BymBIQ
-
 - title: "Ruby in the Cloud"
   raw_title: "LoneStarRuby Conf 2008 - Ruby in the Cloud by: Mike Subelsky"
   speakers:
@@ -91,10 +80,8 @@
   published_at: "TODO"
   description: |-
     Ruby in the Cloud by: Mike Subelsky
-
   video_provider: youtube
   video_id: U3ByT_9OZgw
-
 - title: "Packet-Fu with Ruby"
   raw_title: LoneStar RubyConf 2008 -  Packet -Fu with Ruby
   speakers:
@@ -105,7 +92,6 @@
   description: "Packet -Fu with Ruby  by: Tod Beardsley"
   video_provider: youtube
   video_id: CjsSunV-wVk
-
 - title: "Using jQuery with Ruby Web Frameworks"
   raw_title: LoneStar RubyConf 2008 - Using Jquery with Ruby Web Frameworks
   speakers:
@@ -116,7 +102,6 @@
   description: "Using Jquery with Ruby Web Frameworks by: Yehuda Katz"
   video_provider: youtube
   video_id: GJAa7qSfaIw
-
 - title: "Ruby in the Computer Science Classroom"
   raw_title: LoneStar RubyConf 2008 - Ruby in the Computer Science Classroom
   speakers:
@@ -127,7 +112,6 @@
   description: "Ruby in the Computer Science Classroom by: James W. McGuffee"
   video_provider: youtube
   video_id: xTS3oBAQmoU
-
 - title: "Resource Driven Web Development with Waves"
   raw_title: LoneStar RubyConf 2008 - Resource Driven Web Development with Waves
   speakers:
@@ -138,7 +122,6 @@
   description: "Resource Driven Web Development with Waves by: Dan Yoder"
   video_provider: youtube
   video_id: jmxbDT_rOos
-
 - title: "Tips and Tricks for Tweaking and Using Ruby and Rails for a Distributed Enterprise Application"
   raw_title: LoneStar RubyConf 2008 - Tips and Tricks for Tweaking and Using Ruby and Rails...
   speakers:
@@ -146,12 +129,9 @@
   event_name: LoneStarRuby Conf 2008
   date: "2008-09-04"
   published_at: "TODO"
-  description:
-    "Tips and Tricks for Tweaking and Using Ruby and Rails for a Distributed
-    Enterprise Application  by: Francis Sullivan"
+  description: "Tips and Tricks for Tweaking and Using Ruby and Rails for a Distributed Enterprise Application  by: Francis Sullivan"
   video_provider: youtube
   video_id: uY5uSOfH5TM
-
 - title: "Ruby Anvil - The Desktop Application Framework"
   raw_title: LoneStar RubyConf 2008 - Ruby Anvil the Desktop Application Framework
   speakers:
@@ -162,7 +142,6 @@
   description: "Ruby Anvil the Desktop Application Framework by: Lance Carlson"
   video_provider: youtube
   video_id: 1fyFBEsozoY
-
 - title: "How Not to Build a Service"
   raw_title: LoneStar RubyConf 2008 - How Not to Build a Service
   speakers:
@@ -173,7 +152,6 @@
   description: "How Not to Build a Service by: Mike Perham"
   video_provider: youtube
   video_id: U8V9Vj0AsQ0
-
 - title: "Scientific Computing with Ruby Tegu (formerly GSA)"
   raw_title: LoneStar RubyConf 2008 - Scientific Computing with Ruby Tegu (formerly GSA)
   speakers:
@@ -184,7 +162,6 @@
   description: "Scientific Computing with Ruby Tegu (formerly GSA) by: David Richards"
   video_provider: youtube
   video_id: rSOvviv2L5s
-
 - title: "Merb the Pocket Rocket Framework"
   raw_title: LoneStar RubyConf 2008 - Merb the Pocket Rocket Framework
   speakers:
@@ -195,7 +172,6 @@
   description: "Merb the Pocket Rocket Framework by: Yehuda Katz"
   video_provider: youtube
   video_id: G6Ygl8w2Jl8
-
 - title: "What's Ruby Doing in a Java IDE like NetBeans? Lots!"
   raw_title: LoneStar RubyConf 2008 - What's Ruby Doing in a Java IDE like NetBeans? Lots!
   speakers:
@@ -206,7 +182,6 @@
   description: "What's Ruby Doing in a Java IDE like NetBeans? Lots! by: Jeffery L. Taylor"
   video_provider: youtube
   video_id: VJfpLOzUY2w
-
 - title: "Ruby and Virtual Teams"
   raw_title: LoneStar RubyConf 2008 - Ruby and Virtual Teams
   speakers:
@@ -217,7 +192,6 @@
   description: "Ruby and Virtual Teams by: Jim Mulholland"
   video_provider: youtube
   video_id: hf6gwplSqJ8
-
 - title: "Ruby Without Borders"
   raw_title: LoneStar RubyConf 2008 - Ruby Wwithout Borders
   speakers:
@@ -228,7 +202,6 @@
   description: "Ruby Wwithout Borders by: Matthew Todd"
   video_provider: youtube
   video_id: gpkzz6rpLQs
-
 - title: "Tactical Design"
   raw_title: LoneStar RubyConf 2008 - Tactical Design
   speakers:
@@ -239,7 +212,6 @@
   description: "Tactical Design by: Glenn Vanderburg"
   video_provider: youtube
   video_id: LeZq6WoVzgY
-
 - title: "Care and Feeding of Ruby Developers"
   raw_title: LoneStar RubyConf 2008 - Care and Feeding of Ruby Developers
   speakers:
@@ -250,7 +222,6 @@
   description: "Care and Feeding of Ruby Developers by: Steve Sanderson"
   video_provider: youtube
   video_id: hr6IEUhDDHw
-
 - title: "Creating Desktop Applications with Ruby on Mac"
   raw_title: LoneStar RubyConf 2008 - Creating Desktop Applications with Ruby on Mac
   speakers:
@@ -261,7 +232,6 @@
   description: "Creating Desktop Applications with Ruby on Mac by: Brian Cooke"
   video_provider: youtube
   video_id: NzRe9k-8778
-
 - title: "Building and Managing a Ruby Infrastructure"
   raw_title: LoneStar RubyConf 2008 -  Building and Managing a Ruby Infrastructure
   speakers:
@@ -269,12 +239,9 @@
   event_name: LoneStarRuby Conf 2008
   date: "2008-09-04"
   published_at: "TODO"
-  description:
-    "Building and Managing a Ruby Infrastructure by: Jeremy Hinegardner
-    and Fernand Galiana"
+  description: "Building and Managing a Ruby Infrastructure by: Jeremy Hinegardner and Fernand Galiana"
   video_provider: youtube
   video_id: RhQddyFY2fY
-
 - title: "Unconventional Wisdom"
   raw_title: LoneStar RubyConf 2008 - Unconventional Wisdom
   speakers:
@@ -285,7 +252,6 @@
   description: "Unconventional Wisdom by: Bruce Tate"
   video_provider: youtube
   video_id: UTdxpYlyolA
-
 - title: "Double Click to Wow"
   raw_title: LoneStar RubyConf 2008 -  Double Click to Wow
   speakers:
@@ -296,7 +262,6 @@
   description: "Double Click to Wow by: Evan Phoenix"
   video_provider: youtube
   video_id: SXNOdABrUFs
-
 - title: "Ruby Past Present and Future"
   raw_title: LoneStar RubyConf 2008 -  Ruby Past Present and Future
   speakers:

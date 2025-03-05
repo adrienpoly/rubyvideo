@@ -1,6 +1,7 @@
 ---
+#
 # Website: http://rubymanor.org/3/
-
+#
 - title: "Rails vs. Object Oriented Design"
   raw_title: "Rails vs. Object Oriented Design"
   speakers:
@@ -14,7 +15,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/rails_vs_object-oriented_design/"
   slides_url: "http://rails-vs-oo.heroku.com/"
-
 - title: "JRuby on Elephants"
   raw_title: "Jruby on Elephants"
   speakers:
@@ -29,7 +29,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/jruby_on_elephants/"
   slides_url: "http://jruby-on-elephants.heroku.com/"
-
 - title: "Is Eventmachine a worthy alternative to Node.js?"
   raw_title: "Is Eventmachine a worthy alternative to Node.js?"
   speakers:
@@ -43,7 +42,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/is_eventmachine_a_worthy_alternative_to_node.js/"
   slides_url: "http://speakerdeck.com/u/andrew/p/em-vs-node"
-
 - title: "Programming with Nothing"
   raw_title: "Programming with Nothing"
   speakers:
@@ -59,7 +57,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/programming_with_nothing/"
   slides_url: "http://speakerdeck.com/u/tomstuart/p/programming-with-nothing"
-
 - title: "Refactoring Rails"
   raw_title: "Refactoring Rails"
   speakers:
@@ -73,7 +70,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/how_hard_can_it_be_a_refactoring_battle_story/"
   slides_url: "http://www.scribd.com/doc/73727221/How-Hard-Can-It-Be-A-refactoring-battle-story"
-
 - title: "The Joy of Text"
   raw_title: "The Joy of Text"
   speakers:
@@ -87,7 +83,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/the_joy_of_text/"
   slides_url: ""
-
 - title: "Don't fear the lambda"
   raw_title: "Don't fear the lambda"
   speakers:
@@ -101,7 +96,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/dont_fear_the_lambda/"
   slides_url: "http://po-ru.com/presentations/dont-fear-the-lambda/"
-
 - title: "A Random Walk"
   raw_title: "A Random Walk"
   speakers:

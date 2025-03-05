@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: "Keynote: Cultivating Instinct by Katrina Owen"
   raw_title: "Keep Ruby Weird 2016 - Keynote: Cultivating Instinct by Katrina Owen"
   speakers:
@@ -14,7 +15,6 @@
   description: "Keynote: Cultivating Instinct by Katrina Owen"
   video_provider: youtube
   video_id: SKlIQLb7U00
-
 - title: Implementing An Esoteric Programming
   raw_title: Keep Ruby Weird 2016 - Implementing An Esoteric Programming by Thomas E Enebo
   speakers:
@@ -25,7 +25,6 @@
   description: Implementing An Esoteric Programming by Tom Enebo
   video_provider: youtube
   video_id: uKGecSc-r1o
-
 - title: A Practical Taxonomy of Bugs
   raw_title: Keep Ruby Weird 2016 - A Practical Taxonomy of Bugs by Kylie Stradley
   speakers:
@@ -36,7 +35,6 @@
   description: A Practical Taxonomy of Bugs by Kylie Stradley
   video_provider: youtube
   video_id: mE49u3hK2js
-
 - title: A Hands-on Experience with Complex SQL
   raw_title: Keep Ruby Weird 2016 - A Hands-on Experience with Complex SQL by Craig Kerstiens
   speakers:
@@ -47,7 +45,6 @@
   description: A Hands-on Experience with Complex SQL by Craig Kerstiens
   video_provider: youtube
   video_id: 0koLFAB4lAk
-
 - title: "Hot Takes Welcome: @searls"
   raw_title: "Keep Ruby Weird 2016 - Hot takes welcome: @Searls  by Justin Searls"
   speakers:
@@ -58,7 +55,6 @@
   description: "Hot takes welcome: @Searls  by Justin Searls"
   video_provider: youtube
   video_id: JueNkCiQYcc
-
 - title: Make Better Decisions
   raw_title: Keep Ruby Weird 2016 - Make Better Decisions by Marty Haught
   speakers:
@@ -69,7 +65,6 @@
   description: Make Better Decisions by Marty Haught
   video_provider: youtube
   video_id: ZtqUdoqK5RM
-
 - title: "Keynote: The Building Built on Stilts"
   raw_title: "Keep Ruby Weird 2016 - Keynote: The Building Built on Stilts by Nick Means"
   speakers:

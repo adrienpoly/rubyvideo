@@ -1,12 +1,12 @@
 ---
+#
 # TODO: running order
 # TODO: talk dates
 # TODO: talk titles
 # TODO: schedule website
-
 # Website: https://web.archive.org/web/20220927175525/https://railssaas.com/
 # Schedule: -
-
+#
 - title: "Talk by Todd Dickerson"
   raw_title: "Talk by Todd Dickerson"
   speakers:
@@ -17,7 +17,6 @@
   description: ""
   video_provider: not_published
   video_id: todd-dickerson-rails-saas-conference-2022
-
 - title: "Talk by Saron Yitbarek"
   raw_title: "Talk by Saron Yitbarek"
   speakers:
@@ -28,7 +27,6 @@
   description: ""
   video_provider: not_published
   video_id: saron-yitbarek-rails-saas-conference-2022
-
 - title: "Talk by Don Pottinger"
   raw_title: "Talk by Don Pottinger"
   speakers:
@@ -39,7 +37,6 @@
   description: ""
   video_provider: not_published
   video_id: don-pottinger-rails-saas-conference-2022
-
 - title: "Talk by Colleen Schnettler"
   raw_title: "Talk by Colleen Schnettler"
   speakers:
@@ -50,7 +47,6 @@
   description: ""
   video_provider: not_published
   video_id: colleen-schnettler-rails-saas-conference-2022
-
 - title: "Practical SaaS Security"
   raw_title: Practical SaaS Security — Michael Buckbee
   speakers:
@@ -58,24 +54,9 @@
   event_name: The Rails SaaS Conference 2022
   date: "2022-10-06"
   published_at: "TODO"
-  description:
-    "Mike joined us at The Rails SaaS Conference in Los Angeles, California
-    to share practical lessons learned managing security for hundreds of businesses
-    and also released a brand new Web Application Firewall (WAF) toolkit called Wafris!\n\nYou
-    can join us in Athens on June 1–2, 2023. Details are available at https://railssaas.com.
-    To follow announcements of future events, follow http://twitter.com/railssaas.\n\nThank
-    you to our corporate sponsors who made the event and the production of this video
-    possible:\n\nEVENT SPONSOR\nClickFunnels (https://clickfunnels.com)\n\nPRODUCTION
-    SPONSORS\nBuzzsprout (https://www.buzzsprout.com)\nGeocodio (https://www.geocod.io)\n\nPOST-PRODUCTION
-    SPONSORS\nRender (https://render.com)\nPlanetScale (https://planetscale.com)\nEvil
-    Martians (https://evilmartians.com) \nEntri (https://www.entri.com)\n\n0:00 —
-    “The Incident”\n1:52 — Threat Actors\n6:20 — Web Application Firewalls (WAF)\n8:37
-    — Real-World Incident 1\n12:40 — Real-World Incident 2\n16:43 — Real-World Incident
-    3\n18:48 — Real-World Incident 4\n23:17 — Survivorship Bias\n27:27 — Vulnerabilities
-    you don’t expect\n29:53 — Introducing Wafris"
+  description: "Mike joined us at The Rails SaaS Conference in Los Angeles, California to share practical lessons learned managing security for hundreds of businesses and also released a brand new Web Application Firewall (WAF) toolkit called Wafris!\n\nYou can join us in Athens on June 1–2, 2023. Details are available at https://railssaas.com. To follow announcements of future events, follow http://twitter.com/railssaas.\n\nThank you to our corporate sponsors who made the event and the production of this video possible:\n\nEVENT SPONSOR\nClickFunnels (https://clickfunnels.com)\n\nPRODUCTION SPONSORS\nBuzzsprout (https://www.buzzsprout.com)\nGeocodio (https://www.geocod.io)\n\nPOST-PRODUCTION SPONSORS\nRender (https://render.com)\nPlanetScale (https://planetscale.com)\nEvil Martians (https://evilmartians.com) \nEntri (https://www.entri.com)\n\n0:00 — “The Incident”\n1:52 — Threat Actors\n6:20 — Web Application Firewalls (WAF)\n8:37 — Real-World Incident 1\n12:40 — Real-World Incident 2\n16:43 — Real-World Incident 3\n18:48 — Real-World Incident 4\n23:17 — Survivorship Bias\n27:27 — Vulnerabilities you don’t expect\n29:53 — Introducing Wafris"
   video_provider: youtube
   video_id: pM_NLmsQpoc
-
 - title: "Getting to One Million Users as a One-Woman Dev"
   raw_title: Getting to One Million Users as a One-Woman Dev — Nadia Odunayo
   speakers:
@@ -83,26 +64,9 @@
   event_name: The Rails SaaS Conference 2022
   date: "2022-10-06"
   published_at: "TODO"
-  description:
-    "Nadia joined us at The Rails SaaS Conference in Los Angeles, California
-    to share the details of her journey building and bootstrapping The StoryGraph,
-    from the early beta buzz on Twitter to bringing on a co-founder and going viral
-    with the mobile apps she built with Ruby on Rails tooling.\n\nIf you'd like to
-    join us at our next event, follow http://twitter.com/railssaas and sign up for
-    our mailing list at https://www.getrevue.co/profile/railssaas .\n\nThank you to
-    our corporate sponsors who made the event and the production of this video possible:\n\nEVENT
-    SPONSOR\nClickFunnels (https://clickfunnels.com)\n\nPRODUCTION SPONSORS\nBuzzsprout
-    (https://www.buzzsprout.com)\nGeocodio (https://www.geocod.io)\n\nPOST-PRODUCTION
-    SPONSORS\nRender (https://render.com)\nPlanetScale (https://planetscale.com)\nEvil
-    Martians (https://evilmartians.com) \nEntri (https://www.entri.com)\n\n0:00 —
-    Introduction\n4:33 — Growing buzz on Twitter\n9:31 — Buckling under the load;
-    “how did I get here?” \n14:01 — “Keep the Tech Simple\" and \"Keep Talking to
-    Customers\"\n22:59 — Hiring help, adding a co-founder, and re-engineering\n27:14
-    — “Keep Costs Low” and choosing a revenue model\n35:03 — Going viral with mobile
-    apps\n39:28 — Migrating away from Heroku\n42:37 — Today; the takeaways"
+  description: "Nadia joined us at The Rails SaaS Conference in Los Angeles, California to share the details of her journey building and bootstrapping The StoryGraph, from the early beta buzz on Twitter to bringing on a co-founder and going viral with the mobile apps she built with Ruby on Rails tooling.\n\nIf you'd like to join us at our next event, follow http://twitter.com/railssaas and sign up for our mailing list at https://www.getrevue.co/profile/railssaas .\n\nThank you to our corporate sponsors who made the event and the production of this video possible:\n\nEVENT SPONSOR\nClickFunnels (https://clickfunnels.com)\n\nPRODUCTION SPONSORS\nBuzzsprout (https://www.buzzsprout.com)\nGeocodio (https://www.geocod.io)\n\nPOST-PRODUCTION SPONSORS\nRender (https://render.com)\nPlanetScale (https://planetscale.com)\nEvil Martians (https://evilmartians.com) \nEntri (https://www.entri.com)\n\n0:00 — Introduction\n4:33 — Growing buzz on Twitter\n9:31 — Buckling under the load; “how did I get here?” \n14:01 — “Keep the Tech Simple\" and \"Keep Talking to Customers\"\n22:59 — Hiring help, adding a co-founder, and re-engineering\n27:14 — “Keep Costs Low” and choosing a revenue model\n35:03 — Going viral with mobile apps\n39:28 — Migrating away from Heroku\n42:37 — Today; the takeaways"
   video_provider: youtube
   video_id: efCI1ByPT5s
-
 - title: "Talk by Mike Coutermarsh"
   raw_title: "Talk by Mike Coutermarsh"
   speakers:
@@ -113,7 +77,6 @@
   description: ""
   video_provider: not_published
   video_id: mike-coutermarsh-rails-saas-conference-2022
-
 - title: "Why Are We Afraid to Hire Junior Rails Developers?"
   raw_title: Why Are We Afraid to Hire Junior Rails Developers? — Joe Masilotti
   speakers:
@@ -121,23 +84,9 @@
   event_name: The Rails SaaS Conference 2022
   date: "2022-10-06"
   published_at: "TODO"
-  description:
-    "Joe, founder of RailsDevs, joined us at The Rails SaaS Conference
-    in Los Angeles, California to talk about the benefits of hiring junior developers
-    and to share tips on how companies and development teams can hire and work with
-    juniors more effectively.\n\nIf you'd like to join us at our next event, follow
-    http://twitter.com/railssaas and sign up for our mailing list at https://www.getrevue.co/profile/railssaas
-    .\n\nThank you to our corporate sponsors who made the event and the production
-    of this video possible:\n\nEVENT SPONSOR\nClickFunnels (https://clickfunnels.com)\n\nPRODUCTION
-    SPONSORS\nBuzzsprout (https://www.buzzsprout.com)\nGeocodio (https://www.geocod.io)\n\nPOST-PRODUCTION
-    SPONSORS\nRender (https://render.com)\nPlanetScale (https://planetscale.com)\nEvil
-    Martians (https://evilmartians.com) \nEntri (https://www.entri.com)\n\n3:25 —
-    Why junior developers?\n7:07 — Common objections\n9:19 — What works: hiring\n14:23
-    — What works once they’re hired\n16:47 — Mentorship\n20:14 — The power of pair
-    programming\n24:51 — My challenge for you"
+  description: "Joe, founder of RailsDevs, joined us at The Rails SaaS Conference in Los Angeles, California to talk about the benefits of hiring junior developers and to share tips on how companies and development teams can hire and work with juniors more effectively.\n\nIf you'd like to join us at our next event, follow http://twitter.com/railssaas and sign up for our mailing list at https://www.getrevue.co/profile/railssaas .\n\nThank you to our corporate sponsors who made the event and the production of this video possible:\n\nEVENT SPONSOR\nClickFunnels (https://clickfunnels.com)\n\nPRODUCTION SPONSORS\nBuzzsprout (https://www.buzzsprout.com)\nGeocodio (https://www.geocod.io)\n\nPOST-PRODUCTION SPONSORS\nRender (https://render.com)\nPlanetScale (https://planetscale.com)\nEvil Martians (https://evilmartians.com) \nEntri (https://www.entri.com)\n\n3:25 — Why junior developers?\n7:07 — Common objections\n9:19 — What works: hiring\n14:23 — What works once they’re hired\n16:47 — Mentorship\n20:14 — The power of pair programming\n24:51 — My challenge for you"
   video_provider: youtube
   video_id: NZionAE-Tj0
-
 - title: "Talk by Adam Pallozzi"
   raw_title: "Talk by Adam Pallozzi"
   speakers:
@@ -148,7 +97,6 @@
   description: ""
   video_provider: not_published
   video_id: adam-pallozzi-rails-saas-conference-2022
-
 - title: "Talk by Jason Charnes"
   raw_title: "Talk by Jason Charnes"
   speakers:
@@ -159,7 +107,6 @@
   description: ""
   video_provider: not_published
   video_id: jason-charnes-rails-saas-conference-2022
-
 - title: "Talk by Evan Phoenix"
   raw_title: "Talk by Evan Phoenix"
   speakers:
@@ -170,7 +117,6 @@
   description: ""
   video_provider: not_published
   video_id: evan-phoenix-rails-saas-conference-2022
-
 - title: "Talk by Andrew Culver"
   raw_title: "Talk by Andrew Culver"
   speakers:

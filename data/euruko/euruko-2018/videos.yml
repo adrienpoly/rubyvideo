@@ -1,15 +1,12 @@
 ---
+#
 # Website: https://2018.euruko.org
 # Schedule: https://2018.euruko.org/schedule/
-
 ## Day 0 - 2018-08-23
-
 # Pre-registration @ Vienna.rb
-
 ## Day 1 - 2018-08-24
-
 # Registration
-
+#
 - title: "Introduction"
   raw_title: EuRuKo 2018 Introduction
   speakers:
@@ -20,7 +17,6 @@
   description: ""
   video_provider: youtube
   video_id: YhPP_Knq0qM
-
 - title: "Keynote: Ruby After 25 Years"
   raw_title: Yukihiro Matsumoto - Keynote
   speakers:
@@ -30,9 +26,9 @@
   description: ""
   video_provider: youtube
   video_id: cs0s5lZAUwc
-
+#
 # Break
-
+#
 - title: "Metaprogramming For Generalists"
   raw_title: Chris Salzberg - Metaprogramming for generalists
   speakers:
@@ -42,7 +38,6 @@
   description: ""
   video_provider: youtube
   video_id: 1fIlcnrJHxs
-
 - title: "Ruby in Containers"
   raw_title: Joannah Nanjekye - Ruby in containers
   speakers:
@@ -52,9 +47,9 @@
   description: ""
   video_provider: youtube
   video_id: qPNkOPvjecs
-
+#
 # Lunch
-
+#
 - title: "Tool Belt of a Seasoned Bug Hunter"
   raw_title: Damir Zekić - Tool belt of a seasoned bug hunter
   speakers:
@@ -64,7 +59,6 @@
   description: ""
   video_provider: youtube
   video_id: ObB0dzX_rBs
-
 - title: "Ducks and Monads: Wonders of Ruby Types"
   raw_title: "Igor Morozov - Ducks and monads: wonders of Ruby types"
   speakers:
@@ -74,9 +68,9 @@
   description: ""
   video_provider: youtube
   video_id: v-H9nK8hqfE
-
+#
 # Break
-
+#
 - title: "Rails Anti-Patterns: How Not To Design Your Database"
   raw_title: "Brad Urani - Rails anti-patterns: how not to design your database"
   speakers:
@@ -86,7 +80,6 @@
   description: ""
   video_provider: youtube
   video_id: zo3iRBPzscU
-
 - title: "The Broken Promise of Open Source"
   raw_title: Coraline Ada Ehmke - The broken promise of Open Source
   speakers:
@@ -96,9 +89,9 @@
   description: ""
   video_provider: youtube
   video_id: 5ByUPh_uPqQ
-
+#
 # Break
-
+#
 - title: "Ruby Not Red: Color Theory For The Rest Of Us"
   raw_title: "Louisa Barrett - Ruby not red: color theory for the rest of us"
   speakers:
@@ -108,15 +101,12 @@
   description: ""
   video_provider: youtube
   video_id: OgO1EIFDgPU
-
+#
 # Wrap up
-
 # Party
-
 ## Day 2 - 2018-08-25
-
 # Welcome
-
+#
 - title: "The Case of The Missing Method — A Ruby Mystery Story"
   raw_title: Nadia Odunayo - The case of the missing method — a Ruby mystery story
   speakers:
@@ -126,7 +116,6 @@
   description: ""
   video_provider: youtube
   video_id: wkz-B1w2GVM
-
 - title: "City Pitches"
   raw_title: Pitch the next EuRuKo's location
   event_name: Euruko 2018
@@ -141,7 +130,6 @@
       video_provider: parent
       speakers:
         - Miles Woodroffe
-
     - title: "City Pitch: Rotterdam"
       start_cue: "04:35"
       end_cue: "07:40"
@@ -150,7 +138,6 @@
       speakers:
         - Floor Drees
         - Rayta van Rijswijk
-
     - title: "City Pitch: Plovediv"
       start_cue: "07:40"
       end_cue: "11:35"
@@ -158,9 +145,9 @@
       video_provider: parent
       speakers:
         - Gabriela Luhova
-
+#
 # Lunch & voting on the next EuRuKo's location
-
+#
 - title: "Let's Refactor Some Ruby Code"
   raw_title: Ana María Martínez Gómez - Let's refactor some Ruby code
   speakers:
@@ -170,7 +157,6 @@
   description: ""
   video_provider: youtube
   video_id: jUc8InwoA-E
-
 - title: "Debugging Adventures in Rack-land"
   raw_title: Pan Thomakos - Debugging adventures in Rack-land
   speakers:
@@ -180,9 +166,9 @@
   description: ""
   video_provider: youtube
   video_id: 5o4krwjJbOI
-
+#
 # Break
-
+#
 - title: Lightning Talks
   raw_title: Lightning talks
   event_name: EuRuKo 2018
@@ -200,7 +186,6 @@
       video_provider: parent
       speakers:
         - Tomasz Stachewicz
-
     - title: "Lightning Talk: The Information Flow: +1 Way to be up-to-date"
       event_name: EuRuKo 2018
       date: "2018-08-25"
@@ -210,7 +195,6 @@
       video_provider: parent
       speakers:
         - Anna Shcherbinina
-
     - title: "Lightning Talk: CP-8: GitHub Automation with CP-8 Bot"
       event_name: EuRuKo 2018
       date: "2018-08-25"
@@ -220,7 +204,6 @@
       video_provider: parent
       speakers:
         - Miles Woodroffe
-
     - title: "Lightning Talk: How To Do Microservices...... badly"
       event_name: EuRuKo 2018
       date: "2018-08-25"
@@ -230,7 +213,6 @@
       video_provider: parent
       speakers:
         - Mazin Power
-
     - title: "Lightning Talk: The Power of Community"
       event_name: EuRuKo 2018
       date: "2018-08-25"
@@ -240,7 +222,6 @@
       video_provider: parent
       speakers:
         - Gabriela Luhova
-
 - title: "Scaling a Monolith isn't Scaling Microservices"
   raw_title: Kerstin Puschke - Scaling a monolith isn't scaling microservices
   speakers:
@@ -250,9 +231,9 @@
   description: ""
   video_provider: youtube
   video_id: tA8gGd_Rl7E
-
+#
 # Break
-
+#
 - title: "An Empathy Exercise: Contextualising The Question of Privilege"
   raw_title: "Amr Abdelwahab - An empathy exercise: contextualising the question of privilege"
   speakers:

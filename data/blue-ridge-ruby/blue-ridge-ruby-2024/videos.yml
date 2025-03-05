@@ -1,10 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: schedule website
-
 # Website: https://blueridgeruby.com/2024/
-
+#
 - title: "The Very Hungry Transaction"
   raw_title: Blue Ridge Ruby 2024 | The Very Hungry Transaction by Daniel Colson
   speakers:
@@ -17,7 +17,6 @@
     Daniel is a Senior Software Engineer on the Ruby Architecture team at GitHub. He's worked on Rails applications of all sizes, and contributed to numerous open source projects. Daniel was formerly a composer, violist da gamba, and professor of music.
   video_provider: youtube
   video_id: 78HzHhMnhHY
-
 - title: "Simplicity: The Key to Software Success"
   raw_title: "Blue Ridge Ruby 2024 | Simplicity: The Key to Software Success by Brian Childress"
   speakers:
@@ -32,7 +31,6 @@
     Brian resides in Virginia and loves to travel and explore, often bringing his family along for the adventure.
   video_provider: youtube
   video_id: 2Z2s4mRxT0A
-
 - title: "Nil - Nothing is Easy, Is It?"
   raw_title: Blue Ridge Ruby 2024 | Nil - Nothing is Easy, Is It? by Craig Buchek
   speakers:
@@ -49,7 +47,6 @@
     Giving a conference talk is Craig's way to strike up some conversations. So feel free to go up to him and “talk shop”. If you want to make small talk, ask Craig about traveling, attending concerts, beekeeping, or where he was when the pandemic hit.
   video_provider: youtube
   video_id: UiHFBpXa0vE
-
 - title: "My Rails App is Old Enough to Drink: Over Two Decades with One App"
   raw_title: "Blue Ridge Ruby 2024 | My Rails App is Old Enough to Drink: Over Two... by John Paul Ashenfelter"
   speakers:
@@ -62,7 +59,6 @@
     I've been running the same Rails app for two decades. I want to share some history about why Rails was a good choice then (and now!), cover what has changed and what's remained the same over the years, and look ahead to what's in store as one developer and one app start our third decade together.
   video_provider: youtube
   video_id: AeZ-mDP7hwo
-
 - title: "Navigating Career Transitions - Stop Second Guessing and Let Go of Guilt"
   raw_title: Blue Ridge Ruby 2024 | Navigating Career Transitions - Stop Second Guessing... by Lauren Auchter
   speakers:
@@ -77,7 +73,6 @@
     Lauren started her career in edtech as an educator at science museums and transitioned to the engineering side with the help of Thinkful's Engineering Flex program. She continues having a positive impact on education as a Senior Engineer and technical lead at Instructure creating accessible applications. When she's not coding you can find Lauren chasing her toddler or surrounded by her latest crafting endeavor.
   video_provider: youtube
   video_id: O-d57To1ym4
-
 - title: "Refactoring: The ASMR of Programming Talks"
   raw_title: "Blue Ridge Ruby 2024 | Refactoring: The ASMR of Programming Talks by Max VelDink"
   speakers:
@@ -92,11 +87,8 @@
     Teaching the next generation of Rubyists is incredibly important to me, and I'm currently thinking through modern Ruby courses to replace the Ruby boot camps that have gone out of favor.
   video_provider: youtube
   video_id: 5GnWGpUJ_2Q
-
 - title: "Narrative Reflections: Transmuting Ruby Code into Storytelling Gold"
-  raw_title:
-    "Blue Ridge Ruby 2024 | Narrative Reflections: Transmuting Ruby Code
-    into... by Travis Turner"
+  raw_title: "Blue Ridge Ruby 2024 | Narrative Reflections: Transmuting Ruby Code into... by Travis Turner"
   speakers:
     - Travis Turner
   event_name: Blue Ridge Ruby 2024
@@ -110,7 +102,6 @@
     Travis Turner is the editor-in-chief at Evil Martians. He helps write, edit, and shape content on a number of cool topics — including Ruby! With a background ranging from journalism, EdTech, to his own time as an IT consultant, he brings a wide-ranging perspective to his work, placing an emphasis on reader experience, helping developers find their voice, share knowledge, and illuminate interesting stories.
   video_provider: youtube
   video_id: YyBTAdpOCIY
-
 - title: "Glimpses of Humanity: My Game-Building AI Pair"
   raw_title: "Blue Ridge Ruby 2024 | Glimpses of Humanity: My Game-Building AI Pair by Louis Antonopoulos"
   speakers:
@@ -128,11 +119,8 @@
     Louis is a Rails developer, song-parody writer, and committed punster. He never once skied in the Olympics. Louis started as an iOS developer but couldn't help falling in love with Rails, TDD, and the joy of not having to wait for app store approval.
   video_provider: youtube
   video_id: SUPfww8gjUs
-
 - title: "Validate Me! - Demystifying Rails Validators"
-  raw_title:
-    Blue Ridge Ruby 2024 | Validate Me! - Demystifying Rails Validators by
-    Rachael Wright-Munn
+  raw_title: Blue Ridge Ruby 2024 | Validate Me! - Demystifying Rails Validators by Rachael Wright-Munn
   speakers:
     - Rachael Wright-Munn
   event_name: Blue Ridge Ruby 2024
@@ -144,7 +132,6 @@
     Rachael has been a software engineer since 2012, 3x team lead, and enjoys livestreaming her open-source contributions on Twitch. She added the ComparisonValidator to Rails, built the Jekyll-Twitch gem, and is working on an app for making friends at conferences.
   video_provider: youtube
   video_id: evSgpTOYW-I
-
 - title: "Lightning Talk: Confreaks"
   raw_title: Blue Ridge Ruby 2024 | Lightning Talk by Cindy Backman
   speakers:
@@ -154,7 +141,6 @@
   description: Lightning Talk by Cindy Backman
   video_provider: youtube
   video_id: 5UNaP0gFENg
-
 - title: "Lightning Talk: ChatGPT Landscape Assistant"
   raw_title: Blue Ridge Ruby 2024 | Lightning Talk by Daniel Nolan
   speakers:
@@ -164,7 +150,6 @@
   description: Lightning Talk by Daniel Nolan
   video_provider: youtube
   video_id: wYgojhbyHpE
-
 - title: "Lightning Talk: Shower Thoughts - Being Overwhelmed"
   raw_title: Blue Ridge Ruby 2024 | Lightning Talk by John Epperson
   speakers:
@@ -174,7 +159,6 @@
   description: Lightning Talk by John Epperson
   video_provider: youtube
   video_id: zQsvI2x04Xc
-
 - title: "Lightning Talk: History - Technology's Ultimate Disruption"
   raw_title: Blue Ridge Ruby 2024 | Lightning Talk by Eric Tillberg
   speakers:
@@ -184,7 +168,6 @@
   description: Lightning Talk by Eric Tillberg
   video_provider: youtube
   video_id: ktcYpd2VMa8
-
 - title: "Lightning Talk: Zettelkasten - A way to create a second brain & publish content you are passionate about"
   raw_title: Blue Ridge Ruby 2024 | Lightning Talk by Alli Zadrozny
   speakers:
@@ -194,7 +177,6 @@
   description: Lightning Talk by Alli Zadrozny
   video_provider: youtube
   video_id: _p2DM3dS1Jc
-
 - title: "Lightning Talk: Shape Up"
   raw_title: Blue Ridge Ruby 2024 | Lightning Talk by Giovann Filippi
   speakers:
@@ -204,7 +186,6 @@
   description: Lightning Talk by Giovann Filippi
   video_provider: youtube
   video_id: ZOcFnlJvKzM
-
 - title: "Lightning Talk: Synthetic Focus Groups - Predicting Human Behavior"
   raw_title: Blue Ridge Ruby 2024 | Lightning Talk by Lee McAlilly
   speakers:
@@ -214,7 +195,6 @@
   description: Lightning Talk by Lee McAlilly
   video_provider: youtube
   video_id: MfrYKLv-1Ko
-
 - title: "Lightning Talk: Things that you can (but not necessarily should) do with threads in Ruby/Rails"
   raw_title: Blue Ridge Ruby 2024 | Lightning Talk by Michael King
   speakers:
@@ -224,7 +204,6 @@
   description: Lightning Talk by Michael King
   video_provider: youtube
   video_id: E6-A7DHz-8k
-
 - title: "Lightning Talk: Coding for the Future - A perspective"
   raw_title: Blue Ridge Ruby 2024 | Lightning Talk by Chris Hagmann
   speakers:
@@ -234,7 +213,6 @@
   description: Lightning Talk by Chris Hagmann
   video_provider: youtube
   video_id: 5EBsQ5Oyy_k
-
 - title: "The Pursuit of Happiness"
   raw_title: Blue Ridge Ruby 2024 | The Pursuit of Happiness by Dustin Haefele Tschan
   speakers:
@@ -250,7 +228,6 @@
     His passion for researching everything he could find about human happiness led him to quit his job, join a bootcamp, spend a few months exploring South America, and finally jump into Software Engineering full time. Dustin calls Athens, GA home, but loves to travel whenever he can.
   video_provider: youtube
   video_id: lBvo1walrKU
-
 - title: "A Rubyist's Guide to Existential Dread"
   raw_title: Blue Ridge Ruby 2024 | A Rubyist's Guide to Existential Dread by Jeremy Smith
   speakers:
