@@ -1,6 +1,7 @@
 ---
+#
 # http://2008.goruco.com/agenda/
-
+#
 - title: "Story Driven Development: The Next Generation of Rails Functional Testing"
   raw_title: "Story Driven Development: The Next Generation of Rails Functional Testing by Bryan Helmkamp"
   speakers:
@@ -11,7 +12,6 @@
   description: ""
   video_provider: youtube
   video_id: ApD-F65Vv-Q
-
 - title: "Archaeopteryx: A Ruby MIDI Generator"
   raw_title: "Archaeopteryx: A Ruby MIDI Generator by Giles Bowkett"
   speakers:
@@ -22,7 +22,6 @@
   description: ""
   video_provider: youtube
   video_id: 0XDawYp9mKY
-
 - title: "Forbidden Fruit: A Test of Ruby's Parse Tree"
   raw_title: "Forbidden Fruit: A Test of Ruby's Parse Tree by Chris Wanstrath"
   speakers:
@@ -33,9 +32,9 @@
   description: ""
   video_provider: youtube
   video_id: DAoYufIKebU
-
+#
 # Lunch
-
+#
 - title: Hurting Code for Fun and Profit
   raw_title: Hurting Code for Fun and Profit by Ryan Davis
   speakers:
@@ -46,7 +45,6 @@
   description: ""
   video_provider: youtube
   video_id: L_z5oqPrDWY
-
 - title: Collective Intelligence
   raw_title: Collective Intelligence by Paul Dix
   speakers:
@@ -57,7 +55,6 @@
   description: ""
   video_provider: youtube
   video_id: dNzA5Yygm5U
-
 - title: Merb, All you need, nil you don't
   raw_title: Goruco 2008 Merb, All you need, nil you don't by Ezra Zygmuntowicz
   speakers:
@@ -68,9 +65,9 @@
   description: ""
   video_provider: youtube
   video_id: BqjPOC_ckG4
-
+#
 # Break
-
+#
 - title: "Lightning Talks: RejectConf"
   raw_title: RejectConf / Lightning Talks by Various Presenters
   event_name: GORUCO 2008
@@ -90,7 +87,6 @@
       video_provider: parent
       speakers:
         - Ryan Davis
-
     - title: "Lightning Talk: Johnson"
       event_name: GORUCO 2008
       date: "2008-04-26"
@@ -101,7 +97,6 @@
       video_provider: parent
       speakers:
         - Johnson # TODO: missing last name
-
     - title: "Lightning Talk: Delmont"
       event_name: GORUCO 2008
       date: "2008-04-26"
@@ -112,7 +107,6 @@
       video_provider: parent
       speakers:
         - Delmont # TODO: missing last name
-
     - title: "Lightning Talk: Gregory Brown"
       event_name: GORUCO 2008
       date: "2008-04-26"
@@ -123,7 +117,6 @@
       video_provider: parent
       speakers:
         - Gregory Brown
-
     - title: "Lightning Talk: Dan DiMaggio"
       event_name: GORUCO 2008
       date: "2008-04-26"
@@ -134,7 +127,6 @@
       video_provider: parent
       speakers:
         - Dan DiMaggio
-
     - title: "Lightning Talk: Phil Matarese"
       event_name: GORUCO 2008
       date: "2008-04-26"
@@ -145,7 +137,6 @@
       video_provider: parent
       speakers:
         - Phil Matarese
-
     - title: "Lightning Talk: Peter Jaros"
       event_name: GORUCO 2008
       date: "2008-04-26"
@@ -156,7 +147,6 @@
       video_provider: parent
       speakers:
         - Peter Jaros
-
     - title: "Lightning Talk: Mindstorms"
       event_name: GORUCO 2008
       date: "2008-04-26"
@@ -167,7 +157,6 @@
       video_provider: parent
       speakers:
         - TODO # TODO: missing speaker name
-
     - title: "Lightning Talk: Luke Miglia"
       event_name: GORUCO 2008
       date: "2008-04-26"
@@ -178,7 +167,6 @@
       video_provider: parent
       speakers:
         - Luke Miglia
-
     - title: "Lightning Talk: Wilson"
       event_name: GORUCO 2008
       date: "2008-04-26"

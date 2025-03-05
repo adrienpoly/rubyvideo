@@ -1,17 +1,13 @@
 ---
+#
 # Website: https://rubyconf.org.au/2023
 # Schedule: https://rubyconf.org.au/2023/schedule
-
 ## Day 0 - Wednesday, 2023-02-15
-
 # Welcome Games Night - Sponsored by Assembly Four
-
 ## Day 1 - Thursday, 2023-02-16
-
 # Registration and Coffee
-
 # Welcome and Opening Remarks
-
+#
 - title: Asynchronous Rails
   raw_title: Asynchronous Rails
   speakers:
@@ -21,7 +17,6 @@
   published_at: "TODO"
   video_id: 9tOMD491mFY
   video_provider: youtube
-
 - title: Megaruby - mruby/c on Sega Mega Drive
   raw_title: Megaruby - mruby/c on Sega Mega Drive
   speakers:
@@ -36,9 +31,9 @@
   published_at: "TODO"
   video_id: sz8tmrQtAUE
   video_provider: youtube
-
+#
 # Morning Tea
-
+#
 - title: Neurodiversity - Shifting the Paradigm from Silent Disability to Super Power
   raw_title: Neurodiversity - Shifting the Paradigm from Silent Disability to Super Power
   speakers:
@@ -55,7 +50,6 @@
   published_at: "TODO"
   video_id: CsoB-kP3-J0
   video_provider: youtube
-
 - title: Upgrading the Ruby Community
   raw_title: Upgrading the Ruby Community
   speakers:
@@ -70,9 +64,9 @@
   published_at: "TODO"
   video_id: ml9wma3WL8c
   video_provider: youtube
-
+#
 # Lunch
-
+#
 - title: But, You Don't Look Autistic
   raw_title: But, you don't look Autistic
   speakers:
@@ -106,7 +100,6 @@
   published_at: "TODO"
   video_id: i85MQxE9TR0
   video_provider: youtube
-
 - title: All You Need is Rails (Engines) - Compartmentalising Your Monolith
   raw_title: All you need is Rails (Engines) - Compartmentalising your Monolith
   speakers:
@@ -125,7 +118,6 @@
   published_at: "TODO"
   video_id: StDoHXO8H6E
   video_provider: youtube
-
 - title: REACT to Imposter Syndrome
   raw_title: REACT to Imposter Syndrome
   speakers:
@@ -140,9 +132,9 @@
   published_at: "TODO"
   video_id: Ee0QCyRuwCU
   video_provider: youtube
-
+#
 # Afternoon Tea
-
+#
 - title: How to Make Your Website Not Ugly - Basic UX for Programmers
   raw_title: How to Make Your Website Not Ugly - Basic UX for Programmers
   speakers:
@@ -157,7 +149,6 @@
   published_at: "TODO"
   video_id: zkrRd5itj8w
   video_provider: youtube
-
 - title: How Puma Works
   raw_title: How Puma Works
   speakers:
@@ -167,13 +158,11 @@
   published_at: "TODO"
   video_id: SquGNt4FhY0
   video_provider: youtube
-
+#
 # Close
-
 ## Day 2 - Friday, 2023-02-17
-
 # Registration and Coffee
-
+#
 - title: The World Set Free
   raw_title: The World Set Free
   speakers:
@@ -183,7 +172,6 @@
   published_at: "TODO"
   video_id: SG759w1qfpI
   video_provider: youtube
-
 - title: Implementing Object Shapes for CRuby
   raw_title: Implementing Object Shapes for CRuby
   speakers:
@@ -196,9 +184,9 @@
   published_at: "TODO"
   video_id: 0lg9Y8gj3FI
   video_provider: youtube
-
+#
 # Morning Tea
-
+#
 - title: Encrypted Search Party
   raw_title: Encrypted Search Party
   speakers:
@@ -213,7 +201,6 @@
   published_at: "TODO"
   video_id: lp0k94sUwI8
   video_provider: youtube
-
 - title: Hanami 2 - New Framework, New You
   raw_title: Hanami 2 - New Framework, New You
   speakers:
@@ -226,7 +213,6 @@
   published_at: "TODO"
   video_id: -B9AbFsQOKo
   video_provider: youtube
-
 - title: A People Pleaser's Guide to Salary Negotiation
   raw_title: A People Pleaser's Guide to Salary Negotiation
   speakers:
@@ -239,9 +225,9 @@
   published_at: "TODO"
   video_id: 4EoMYQ6fmss
   video_provider: youtube
-
+#
 # Lunch
-
+#
 - title: Aussie Internet - How We Learned To Stop Fearing The NBN and Love the SPA
   raw_title: Aussie Internet - How we learned to stop fearing the NBN and love the SPA
   speakers:
@@ -251,7 +237,6 @@
   published_at: "TODO"
   video_id: EvT_hsTjgfg
   video_provider: youtube
-
 - title: "Testing in Production: There is a Better Way"
   raw_title: "Testing in Production: there is a better way"
   speakers:
@@ -261,7 +246,6 @@
   published_at: "TODO"
   video_id: OWICpZ_8KJk
   video_provider: youtube
-
 - title: Mentoring - For me or not for me, that is the question
   raw_title: Mentoring - For me or not for me, that is the question
   speakers:
@@ -281,9 +265,9 @@
   published_at: "TODO"
   video_id: uuLl8W1sz60
   video_provider: youtube
-
+#
 # Afternoon Tea
-
+#
 - title: Security Doesn't Have To Be a Nightmare
   raw_title: Security Doesn't Have To Be a Nightmare
   speakers:
@@ -296,7 +280,6 @@
   published_at: "TODO"
   video_id: -VuM4FMIgT4
   video_provider: youtube
-
 - title: Ruby Makes My Brain Happy
   raw_title: Ruby Makes My Brain Happy
   speakers:
@@ -314,5 +297,4 @@
   video_id: VOJS_Jq_Eg4
   video_provider: youtube
 # Closing Remarks
-
 # Closing Cocktail Party - Sponsored By HotDoc

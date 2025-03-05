@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: "Ruby 4.0: To Infinity and Beyond"
   raw_title: '"Ruby 4.0: To Infinity and Beyond" by Bozhidar Batsov'
   speakers:
@@ -14,7 +15,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: eEspjdnUf3M
-
 - title: 99 Problems of Slow Tests
   raw_title: '"99 problems of slow tests" by Vladimir Dementyev'
   speakers:
@@ -26,7 +26,6 @@
   video_provider: youtube
   video_id: eDMZS_fkRtk
   slides_url: https://speakerdeck.com/palkan/paris-dot-rb-2018-99-problems-of-slow-tests
-
 - title: Living on Rails Edge
   raw_title: '"Living on Rails edge" by Rafael França'
   speakers:
@@ -37,7 +36,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: DMaeQTVU3qw
-
 - title: Event Sourcing for Everyone
   raw_title: '"Event Sourcing for Everyone" by Jenna Blumenthal'
   speakers:
@@ -48,7 +46,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: 1h3_6ATnOTw
-
 - title: "Crystal: How Using a Compiled Language Made Me Write Better Ruby"
   raw_title: '"Crystal: How using a compiled language made me write better Ruby" by Luis Lavena'
   speakers:
@@ -56,12 +53,9 @@
   event_name: Paris.rb Conf 2018
   date: "2018-07-20"
   published_at: "TODO"
-  description:
-    Recorded in June 2018 during https://2018.rubyparis.org in Paris. More
-    talks at https://goo.gl/8egyWi
+  description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: r_9UB8-hG7I
-
 - title: "RubyGems 3 & 4"
   raw_title: '"RubyGems 3 & 4" by Hiroshi Shibata'
   speakers:
@@ -69,12 +63,9 @@
   event_name: Paris.rb Conf 2018
   date: "2018-07-20"
   published_at: "TODO"
-  description:
-    Recorded in June 2018 during https://2018.rubyparis.org in Paris. More
-    talks at https://goo.gl/8egyWi
+  description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: 8R23yMmCw9w
-
 - title: "Clean Code Lessons From Messy Humans"
   raw_title: '"Clean code lessons from messy humans" by Sylvain Abélard'
   speakers:
@@ -85,7 +76,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: 9YAivor0BUw
-
 - title: "The Future of Rails 6: Scalable by Default"
   raw_title: '"The Future of Rails 6: Scalable by Default" by Eileen M. Uchitelle'
   speakers:
@@ -97,7 +87,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks on https://goo.gl/8egyWi
   video_provider: youtube
   video_id: PVCMLFH1ANU
-
 - title: Less Code, More Confidence
   raw_title: '"Less code, more confidence" by Lucas Tolchinsky'
   speakers:
@@ -108,7 +97,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: obDdNYZeQB4
-
 - title: Building Serverless Ruby Bots
   raw_title: '"Building Serverless Ruby Bots" by Damir Svrtan'
   speakers:
@@ -119,7 +107,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: BsfjzNG07aY
-
 - title: "Food, Wine and Machine Learning: Teaching a Bot to Taste"
   raw_title: '"Food, Wine and Machine Learning: Teaching a Bot to Taste" by Mai Nguyen'
   speakers:
@@ -130,7 +117,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: EUv8wYq26Ss
-
 - title: How To Onboard a Junior Developer
   raw_title: '"How to onboard a junior developer" by Christophe Philemotte'
   speakers:
@@ -141,7 +127,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: a2xTi9lHts0
-
 - title: "It's Rubies All The Way Down!"
   raw_title: '"It''s Rubies All The Way Down!" by Kirk Haines'
   speakers:
@@ -149,12 +134,9 @@
   event_name: Paris.rb Conf 2018
   date: "2018-07-24"
   published_at: "TODO"
-  description:
-    Recorded in June 2018 during https://2018.rubyparis.org in Paris. More
-    talks at https://goo.gl/8egyWi
+  description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: E6s4uB0DBVk
-
 - title: "Ruby and Art: The Earliest Stage"
   raw_title: '"Ruby and Art: The Earliest Stage" by Koichiro Eto'
   speakers:
@@ -162,12 +144,9 @@
   event_name: Paris.rb Conf 2018
   date: "2018-07-24"
   published_at: "TODO"
-  description:
-    Recorded in June 2018 during https://2018.rubyparis.org in Paris. More
-    talks at https://goo.gl/8egyWi
+  description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: YhLnDGNtSew
-
 - title: Aesthetics and the Evolution of Code
   raw_title: '"Aesthetics and the Evolution of Code" by Coraline Ehmke'
   speakers:
@@ -178,7 +157,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: TbFce4FuEKc
-
 - title: Writing a Command Line Utility in Ruby - Automation is Not Just For Your Users
   raw_title: '"Writing a Command Line Utility in Ruby - Automation is Not Just For Your Users" by Keith Bennett'
   speakers:
@@ -190,7 +168,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: zMzzKOecvaA
-
 - title: GraphQL-DDD on Rails Architecture
   raw_title: '"GraphQL-DDD on Rails architecture" by Paul-Armand Assus'
   speakers:
@@ -201,7 +178,6 @@
   description: Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: THYVNLsjWqo
-
 - title: Human Errors
   raw_title: '"Human Errors" by Olivier Lacan'
   speakers:

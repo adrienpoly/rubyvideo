@@ -23,7 +23,6 @@
       video_provider: "not_recorded"
       description: |-
         Yannis will then give a short presentation of a new feature of Ruby 3.2: The Data class.
-
 - title: "Geneva.rb November 2023"
   event_name: "Geneva.rb November 2023"
   date: "2023-11-07"
@@ -53,7 +52,6 @@
       thumbnail_xl: https://secure.meetupstatic.com/photos/event/7/4/3/8/600_516449752.webp?w=750
       description: |-
         Sean Carroll, Engineering Manager at GitLab, will talk about the Ruby on Rails stack used by GitLab, and in particular the repository and commits views.
-
 - title: "Geneva.rb December 2023"
   event_name: "Geneva.rb December 2023"
   date: "2023-12-05"
@@ -97,7 +95,6 @@
         Drawing upon principles akin to Anthony Hobday's "Visual design rules you can safely follow every time," Alexis will offer you a robust playbook for crafting responsive, efficient applications.
 
         Delve into best practices for HTTP, Ruby on Rails, databases, and servers, and discover when to adhere to the rules or when breaking them could set your code apart.
-
 - title: "Geneva.rb January 2024"
   event_name: "Geneva.rb January 2024"
   date: "2024-01-10"
@@ -105,14 +102,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-january-2024"
-  description: |-
-    🌟 Meetup kindly sponsored by mobilidée and GitLab
-
-    🚀 Sean Carroll (Gitlab) will be back to showcase the magic of integrating your Ruby on Rails web application into a sleek iOS app. He'll dive into the wonders of Hotwire/Strada, revealing how these powerful tools can transform your web app into a native iOS experience.
-
-    🍹 Drinks will be served after the presentation
-
-    https://www.meetup.com/geneva-rb/events/297635660
+  description: "\U0001F31F Meetup kindly sponsored by mobilidée and GitLab\n\n\U0001F680 Sean Carroll (Gitlab) will be back to showcase the magic of integrating your Ruby on Rails web application into a sleek iOS app. He'll dive into the wonders of Hotwire/Strada, revealing how these powerful tools can transform your web app into a native iOS experience.\n\n\U0001F379 Drinks will be served after the presentation\n\nhttps://www.meetup.com/geneva-rb/events/297635660"
   talks:
     - title: "Turbo Native: iOS apps with Hotwire Rails"
       event_name: "Geneva.rb January 2024"
@@ -129,7 +119,6 @@
       thumbnail_xl: https://secure.meetupstatic.com/photos/event/7/a/5/3/600_517891315.webp?w=750
       description: |-
         Sean Carroll (Gitlab) will be back to showcase the magic of integrating your Ruby on Rails web application into a sleek iOS app. He'll dive into the wonders of Hotwire/Strada, revealing how these powerful tools can transform your web app into a native iOS experience.
-
 - title: "Geneva.rb February 2024"
   event_name: "Geneva.rb February 2024"
   date: "2024-02-07"
@@ -137,23 +126,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-february-2024"
-  description: |-
-    🙏 Meetup kindly sponsored by mobilidée and RoRvsWild!
-
-    Get ready for an exciting Ruby/Rails meetup where YOUR insights take center stage!
-    We're inviting each one of you to share either your favorite Ruby gem 🔻 or a programming tip or trick 🪄 that's close to your heart.
-
-    This is a fantastic opportunity to showcase your favorite tools, discuss innovative techniques, and learn from the collective wisdom of our community.
-
-    What to Expect:
-
-    🎤 Roundtable Presentations: You'll have 5-10 minutes to present your chosen gem(s) or tip(s). While slides are not mandatory, if you choose to use them, please prepare with Google Slides. This will help us share your presentation smoothly with the team and ensure seamless transitions between speakers.
-
-    🍹 Networking with Drinks and Snacks: After the presentations, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby and Rails. A great chance to connect with fellow developers and forge lasting friendships.
-
-    🙌 Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey, we warmly welcome you to join and contribute. This meetup is about mutual learning and sharing, so don't hesitate to participate, no matter your level of expertise.
-
-    https://www.meetup.com/geneva-rb/events/297635673
+  description: "\U0001F64F Meetup kindly sponsored by mobilidée and RoRvsWild!\n\nGet ready for an exciting Ruby/Rails meetup where YOUR insights take center stage!\nWe're inviting each one of you to share either your favorite Ruby gem \U0001F53B or a programming tip or trick \U0001FA84 that's close to your heart.\n\nThis is a fantastic opportunity to showcase your favorite tools, discuss innovative techniques, and learn from the collective wisdom of our community.\n\nWhat to Expect:\n\n\U0001F3A4 Roundtable Presentations: You'll have 5-10 minutes to present your chosen gem(s) or tip(s). While slides are not mandatory, if you choose to use them, please prepare with Google Slides. This will help us share your presentation smoothly with the team and ensure seamless transitions between speakers.\n\n\U0001F379 Networking with Drinks and Snacks: After the presentations, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby and Rails. A great chance to connect with fellow developers and forge lasting friendships.\n\n\U0001F64C Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey, we warmly welcome you to join and contribute. This meetup is about mutual learning and sharing, so don't hesitate to participate, no matter your level of expertise.\n\nhttps://www.meetup.com/geneva-rb/events/297635673"
   talks:
     - title: "Intro: Share Your Favorite Gem, Tip, or Trick!"
       event_name: "Geneva.rb February 2024"
@@ -168,15 +141,7 @@
       thumbnail_md: https://secure.meetupstatic.com/photos/event/4/c/1/c/600_518599484.webp?w=750
       thumbnail_lg: https://secure.meetupstatic.com/photos/event/4/c/1/c/600_518599484.webp?w=750
       thumbnail_xl: https://secure.meetupstatic.com/photos/event/4/c/1/c/600_518599484.webp?w=750
-      description: |-
-        Get ready for an exciting Ruby/Rails meetup where YOUR insights take center stage!
-
-        We're inviting each one of you to share either your favorite Ruby gem 🔻 or a programming tip or trick 🪄 that's close to your heart.
-
-        This is a fantastic opportunity to showcase your favorite tools, discuss innovative techniques, and learn from the collective wisdom of our community.
-
-        https://ruby.social/@genevarb/111894836694599178
-
+      description: "Get ready for an exciting Ruby/Rails meetup where YOUR insights take center stage!\n\nWe're inviting each one of you to share either your favorite Ruby gem \U0001F53B or a programming tip or trick \U0001FA84 that's close to your heart.\n\nThis is a fantastic opportunity to showcase your favorite tools, discuss innovative techniques, and learn from the collective wisdom of our community.\n\nhttps://ruby.social/@genevarb/111894836694599178"
     - title: "i18n-tasks"
       event_name: "Geneva.rb February 2024"
       date: "2024-02-07"
@@ -192,7 +157,6 @@
       thumbnail_xl: https://secure.meetupstatic.com/photos/event/4/c/1/c/600_518599484.webp?w=750
       description: |-
         Yannis opened the session with an introduction to [i18n-tasks](https://github.com/glebm/i18n-tasks), a vital gem for Rails developers dealing with internationalization. This tool simplifies managing translations by identifying missing or unused keys and generating translation files directly from the source code, ensuring that your app speaks every user's language fluently.
-
     - title: "standard & danger"
       event_name: "Geneva.rb February 2024"
       date: "2024-02-07"
@@ -210,7 +174,6 @@
         Olivier shared a Gemfile structuring tip for enhancing team collaboration. By dividing the Gemfile, teams can have a shared dependency list plus individual `Gemfile.local` for personal tools.
 
         He spotlighted https://github.com/testdouble/standard, a RuboCop-based gem for consistent coding styles, and https://github.com/danger/danger, which automates code reviews by pre-screening pull requests. These gems streamline workflow and ensure code quality.
-
     - title: "flipper & Stripe webhooks"
       event_name: "Geneva.rb February 2024"
       date: "2024-02-07"
@@ -228,7 +191,6 @@
         Ben's contribution focused on the https://github.com/jnunemaker/flipper gem, particularly its ability to manage feature flags, enabling developers to toggle features on and off in production. This approach allows for safer testing and incremental feature releases.
 
         He also shared insights into testing Stripe webhooks effectively within Rails apps, leveraging stripe test clocks (https://stripe.com/docs/billing/testing/test-clocks) for time manipulation during tests.
-
     - title: "strong_migrations, scenic & fx"
       event_name: "Geneva.rb February 2024"
       date: "2024-02-07"
@@ -246,7 +208,6 @@
         Jean-Charles focused on database tools. https://github.com/ankane/strong_migrations guards against dangerous migrations by detecting and preventing them. https://github.com/scenic-views/scenic and https://github.com/teoljungberg/fx help manage database views and functions, ensuring that database schema changes are seamless and safe.
 
         He also recommended the RailsConf talk "rails db:migrate:even_safer" (https://www.youtube.com/watch?v=uMcRCSiNzuc or https://www.rubyvideo.dev/talks/rails-db-migrate-even_safer) by Matt Duszynski for a dive into safe migration practices.
-
     - title: "pghero"
       event_name: "Geneva.rb February 2024"
       date: "2024-02-07"
@@ -262,7 +223,6 @@
       thumbnail_xl: https://secure.meetupstatic.com/photos/event/4/c/1/c/600_518599484.webp?w=750
       description: |-
         Alexis presented https://github.com/ankane/pghero, a comprehensive tool for PostgreSQL database monitoring. It shines a light on slow queries, suggests indexes, and provides a wealth of information on database performance, helping developers keep their databases efficient and responsive.
-
 - title: "Geneva.rb March 2024"
   event_name: "Geneva.rb March 2024"
   date: "2024-03-06"
@@ -270,23 +230,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-march-2024-1"
-  description: |-
-    🙏 Meetup kindly sponsored by mobilidée and RoRvsWild!
-
-    In his latest blog post, Alexis Bernard (RoRvsWild) shared his insightful habits on running load tests, opening up a world of optimization for us. At our next meetup, Alexis will take this discussion from theory to practice with a live demonstration on a real production application!
-
-    Prepare to be captivated as Alexis expertly shows us how to initiate a load test using a variety of tools, and then, more importantly, how to decode the results. But that's not all—we'll dive deeper into the tech world by monitoring servers and profiling code, all in our quest to uncover those elusive bottlenecks.
-
-    Don't miss this opportunity to see load testing in action and to gain valuable knowledge that can transform your approach to application performance. Let's learn, engage, and optimize together!
-
-    What to Expect:
-    🎤 Presentation: A 30-45 minute presentation by Alexis Bernard
-
-    🍹 Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more. A great chance to connect with fellow developers and forge lasting friendships.
-
-    🙌 Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey, we warmly welcome you to join and contribute. This meetup is about mutual learning and sharing, so don't hesitate to participate, no matter your level of expertise.
-
-    https://www.meetup.com/geneva-rb/events/297635680
+  description: "\U0001F64F Meetup kindly sponsored by mobilidée and RoRvsWild!\n\nIn his latest blog post, Alexis Bernard (RoRvsWild) shared his insightful habits on running load tests, opening up a world of optimization for us. At our next meetup, Alexis will take this discussion from theory to practice with a live demonstration on a real production application!\n\nPrepare to be captivated as Alexis expertly shows us how to initiate a load test using a variety of tools, and then, more importantly, how to decode the results. But that's not all—we'll dive deeper into the tech world by monitoring servers and profiling code, all in our quest to uncover those elusive bottlenecks.\n\nDon't miss this opportunity to see load testing in action and to gain valuable knowledge that can transform your approach to application performance. Let's learn, engage, and optimize together!\n\nWhat to Expect:\n\U0001F3A4 Presentation: A 30-45 minute presentation by Alexis Bernard\n\n\U0001F379 Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more. A great chance to connect with fellow developers and forge lasting friendships.\n\n\U0001F64C Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey, we warmly welcome you to join and contribute. This meetup is about mutual learning and sharing, so don't hesitate to participate, no matter your level of expertise.\n\nhttps://www.meetup.com/geneva-rb/events/297635680"
   talks:
     - title: "Live load testing on a real production app"
       event_name: "Geneva.rb March 2024"
@@ -309,7 +253,6 @@
         Don't miss this opportunity to see load testing in action and to gain valuable knowledge that can transform your approach to application performance. Let's learn, engage, and optimize together!
 
         Blog Post: https://www.rorvswild.com/blog/2024/ruby-on-rails-load-testing-habits
-
 - title: "Geneva.rb March 2024"
   event_name: "Geneva.rb March 2024"
   date: "2024-03-27"
@@ -317,18 +260,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-march-2024-2"
-  description: |-
-    🙏 Meetup kindly sponsored by mobilidée and RoRvsWild!
-
-    Join us for an engaging session with Dimiter, who will explore the significant role of community contributions in enhancing consultancy success. Leveraging insights from thoughtbot's experiences, he'll share practical examples that highlight the benefits of being active in the community. Moreover, Dimiter will present a thoughtful argument on why product companies should consider giving back as well. This discussion promises to be insightful, offering valuable perspectives on fostering a culture of contribution. Don't miss out on this opportunity to gain new understandings and connect with like-minded professionals.
-
-    What to Expect:
-
-    🎤 Presentation: A 30-45 minute presentation
-    🍹 Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more. A great chance to connect with fellow developers and forge lasting friendships.
-    🙌 Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute. This meetup is about mutual learning and sharing, so don't hesitate to participate, no matter your level of expertise.
-
-    https://www.meetup.com/geneva-rb/events/299288500
+  description: "\U0001F64F Meetup kindly sponsored by mobilidée and RoRvsWild!\n\nJoin us for an engaging session with Dimiter, who will explore the significant role of community contributions in enhancing consultancy success. Leveraging insights from thoughtbot's experiences, he'll share practical examples that highlight the benefits of being active in the community. Moreover, Dimiter will present a thoughtful argument on why product companies should consider giving back as well. This discussion promises to be insightful, offering valuable perspectives on fostering a culture of contribution. Don't miss out on this opportunity to gain new understandings and connect with like-minded professionals.\n\nWhat to Expect:\n\n\U0001F3A4 Presentation: A 30-45 minute presentation\n\U0001F379 Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more. A great chance to connect with fellow developers and forge lasting friendships.\n\U0001F64C Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute. This meetup is about mutual learning and sharing, so don't hesitate to participate, no matter your level of expertise.\n\nhttps://www.meetup.com/geneva-rb/events/299288500"
   talks:
     - title: "Contribute!"
       event_name: "Geneva.rb March 2024"
@@ -345,7 +277,6 @@
       thumbnail_xl: https://secure.meetupstatic.com/photos/event/5/7/1/1/600_519442289.webp?w=750
       description: |-
         Join us for an engaging session with Dimiter, who will explore the significant role of community contributions in enhancing consultancy success. Leveraging insights from thoughtbot's experiences, he'll share practical examples that highlight the benefits of being active in the community. Moreover, Dimiter will present a thoughtful argument on why product companies should consider giving back as well. This discussion promises to be insightful, offering valuable perspectives on fostering a culture of contribution. Don't miss out on this opportunity to gain new understandings and connect with like-minded professionals.
-
 - title: "Geneva.rb April 2024"
   event_name: "Geneva.rb April 2024"
   date: "2024-04-16"
@@ -353,22 +284,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-april-2024"
-  description: |-
-    🙏 Meetup kindly sponsored by mobilidée and RoRvsWild!
-
-    ✨ Hotwire has significantly altered the landscape of building interactive web applications with Ruby on Rails, marking a pivotal evolution toward seamless Full-Stack development.
-
-    With the release of Turbo 8, the ecosystem has gained new momentum, influencing how developers approach application design and interaction.
-
-    This session, led by Marco Roth, a core maintainer of Stimulus, StimulusReflex, and CableReady, dives into capabilities introduced with Turbo 8, reevaluating its impact on the whole Rails and Hotwire ecosystem.
-
-    What to Expect:
-    🎤 Presentation: A 30-45 minute presentation
-    🍹 Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more. A great chance to connect with fellow developers and forge lasting friendships.
-    🙌 Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute. This meetup is about mutual learning and sharing, so don't hesitate to participate, no matter your level of expertise.
-    📍 Exceptionally, this meetup will be held in a different room from the one we're used to. The room called "Auditorium" is located in the basement of the UOG, accessed via the main entrance, 3 place des Grottes.
-
-    https://www.meetup.com/geneva-rb/events/299288679
+  description: "\U0001F64F Meetup kindly sponsored by mobilidée and RoRvsWild!\n\n✨ Hotwire has significantly altered the landscape of building interactive web applications with Ruby on Rails, marking a pivotal evolution toward seamless Full-Stack development.\n\nWith the release of Turbo 8, the ecosystem has gained new momentum, influencing how developers approach application design and interaction.\n\nThis session, led by Marco Roth, a core maintainer of Stimulus, StimulusReflex, and CableReady, dives into capabilities introduced with Turbo 8, reevaluating its impact on the whole Rails and Hotwire ecosystem.\n\nWhat to Expect:\n\U0001F3A4 Presentation: A 30-45 minute presentation\n\U0001F379 Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more. A great chance to connect with fellow developers and forge lasting friendships.\n\U0001F64C Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute. This meetup is about mutual learning and sharing, so don't hesitate to participate, no matter your level of expertise.\n\U0001F4CD Exceptionally, this meetup will be held in a different room from the one we're used to. The room called \"Auditorium\" is located in the basement of the UOG, accessed via the main entrance, 3 place des Grottes.\n\nhttps://www.meetup.com/geneva-rb/events/299288679"
   talks:
     - title: "Revisiting the Hotwire Landscape after Turbo 8"
       event_name: "Geneva.rb April 2024"
@@ -389,7 +305,6 @@
         With the release of Turbo 8, the ecosystem has gained new momentum, influencing how developers approach application design and interaction.
 
         This session, led by Marco Roth, a core maintainer of Stimulus, StimulusReflex, and CableReady, dives into capabilities introduced with Turbo 8, reevaluating its impact on the whole Rails and Hotwire ecosystem.
-
 - title: "Geneva.rb May 2024"
   event_name: "Geneva.rb May 2024"
   date: "2024-05-14"
@@ -397,19 +312,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-may-2024"
-  description: |-
-    🙏 Meetup kindly sponsored by mobilidée and RoRvsWild!
-
-    Vincent Pochet (Ruby42, Lago) will give an overview of timezone management in Ruby and in Rails application.
-
-    He will use Lago as an example to illustrate some real-life challenge and edge cases that developers can face when trying to deal with multi-timezone applications.
-
-    What to Expect:
-    🎤 Presentation: A 30-45 minute presentation
-    🍹 Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more. A great chance to connect with fellow developers and forge lasting friendships.
-    🙌 Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute. This meetup is about mutual learning and sharing, so don't hesitate to participate, no matter your level of expertise.
-
-    https://www.meetup.com/geneva-rb/events/299288843
+  description: "\U0001F64F Meetup kindly sponsored by mobilidée and RoRvsWild!\n\nVincent Pochet (Ruby42, Lago) will give an overview of timezone management in Ruby and in Rails application.\n\nHe will use Lago as an example to illustrate some real-life challenge and edge cases that developers can face when trying to deal with multi-timezone applications.\n\nWhat to Expect:\n\U0001F3A4 Presentation: A 30-45 minute presentation\n\U0001F379 Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more. A great chance to connect with fellow developers and forge lasting friendships.\n\U0001F64C Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute. This meetup is about mutual learning and sharing, so don't hesitate to participate, no matter your level of expertise.\n\nhttps://www.meetup.com/geneva-rb/events/299288843"
   talks:
     - title: "Travel through Time (zones) with Ruby and Rails"
       event_name: "Geneva.rb May 2024"
@@ -428,7 +331,6 @@
         Vincent Pochet (Ruby42, Lago) will give an overview of timezone management in Ruby and in Rails application.
 
         He will use Lago as an example to illustrate some real-life challenge and edge cases that developers can face when trying to deal with multi-timezone applications.
-
 - title: "Geneva.rb June 2024"
   event_name: "Geneva.rb June 2024"
   date: "2024-06-05"
@@ -436,17 +338,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-june-2024"
-  description: |-
-    🙏 Meetup kindly sponsored by mobilidée and RoRvsWild!
-
-    For this last meetup before the Summer break, Yannis (@yannis) will demonstrate how to use OpenAI's GPT-4 and Embedding APIs to implement a semantic search system in Ruby on Rails, using the pg_vector PostgreSQL extension and the neighbor gem. He will illustrate this with concrete examples from MyFoodRepo, the application he is currently working on.
-
-    What to Expect:
-    * A presentation of about 30-45 minutes
-    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
-    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
-
-    https://www.meetup.com/geneva-rb/events/299288852
+  description: "\U0001F64F Meetup kindly sponsored by mobilidée and RoRvsWild!\n\nFor this last meetup before the Summer break, Yannis (@yannis) will demonstrate how to use OpenAI's GPT-4 and Embedding APIs to implement a semantic search system in Ruby on Rails, using the pg_vector PostgreSQL extension and the neighbor gem. He will illustrate this with concrete examples from MyFoodRepo, the application he is currently working on.\n\nWhat to Expect:\n* A presentation of about 30-45 minutes\n* Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.\n* Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.\n\nhttps://www.meetup.com/geneva-rb/events/299288852"
   talks:
     - title: "Semantic search in RubyOnRails with GPT-4"
       event_name: "Geneva.rb June 2024"
@@ -463,7 +355,6 @@
       thumbnail_xl: https://secure.meetupstatic.com/photos/event/8/6/2/f/600_521194351.webp?w=750
       description: |-
         For this last meetup before the Summer break, Yannis (@yannis) will demonstrate how to use OpenAI's GPT-4 and Embedding APIs to implement a semantic search system in Ruby on Rails, using the pg_vector PostgreSQL extension and the neighbor gem. He will illustrate this with concrete examples from MyFoodRepo, the application he is currently working on.
-
 - title: "Geneva.rb September 2024"
   event_name: "Geneva.rb September 2024"
   date: "2024-09-18"
@@ -471,17 +362,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-september-2024"
-  description: |-
-    Rafael Millán, a staff backend engineer at Inyova, a leading Swiss impact investing startup that uses Ruby on Rails heavily for their backend services, will share insights into how his team streamlined the ingestion of financial account data. He will discuss their approach to standardizing data from diverse sources, overcoming performance and reliability challenges, and ensuring seamless delivery to end users.
-
-    What to Expect:
-    * A presentation of about 30-45 minutes
-    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
-    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
-
-    🙏 Meetup kindly sponsored by RoRvsWild!
-
-    https://www.meetup.com/geneva-rb/events/303018636
+  description: "Rafael Millán, a staff backend engineer at Inyova, a leading Swiss impact investing startup that uses Ruby on Rails heavily for their backend services, will share insights into how his team streamlined the ingestion of financial account data. He will discuss their approach to standardizing data from diverse sources, overcoming performance and reliability challenges, and ensuring seamless delivery to end users.\n\nWhat to Expect:\n* A presentation of about 30-45 minutes\n* Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.\n* Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.\n\n\U0001F64F Meetup kindly sponsored by RoRvsWild!\n\nhttps://www.meetup.com/geneva-rb/events/303018636"
   talks:
     - title: "Optimizing Financial Data Ingestion at Inyova"
       event_name: "Geneva.rb September 2024"
@@ -498,7 +379,6 @@
       thumbnail_xl: https://secure.meetupstatic.com/photos/event/9/5/a/e/600_523178318.webp?w=750
       description: |-
         Rafael Millán, a staff backend engineer at Inyova, a leading Swiss impact investing startup that uses Ruby on Rails heavily for their backend services, will share insights into how his team streamlined the ingestion of financial account data. He will discuss their approach to standardizing data from diverse sources, overcoming performance and reliability challenges, and ensuring seamless delivery to end users.
-
 - title: "Geneva.rb October 2024"
   event_name: "Geneva.rb October 2024"
   date: "2024-10-16"
@@ -506,19 +386,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-october-2024"
-  description: |-
-    Marco Roth (@marcoroth), core team member of StimulusReflex/CableReady and part of the Hotwire Contributors Team, will focus on the latest tools and best practices for Ruby on Rails and Hotwire developers.
-
-    He will explore how the new tools he has developed can streamline development, boost productivity, and enhance the overall developer experience within the Rails and Hotwire stack.
-
-    What to Expect:
-    * A presentation of about 30-45 minutes
-    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
-    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
-
-    🙏 Meetup kindly sponsored by RoRvsWild!
-
-    https://www.meetup.com/geneva-rb/events/303018643
+  description: "Marco Roth (@marcoroth), core team member of StimulusReflex/CableReady and part of the Hotwire Contributors Team, will focus on the latest tools and best practices for Ruby on Rails and Hotwire developers.\n\nHe will explore how the new tools he has developed can streamline development, boost productivity, and enhance the overall developer experience within the Rails and Hotwire stack.\n\nWhat to Expect:\n* A presentation of about 30-45 minutes\n* Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.\n* Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.\n\n\U0001F64F Meetup kindly sponsored by RoRvsWild!\n\nhttps://www.meetup.com/geneva-rb/events/303018643"
   talks:
     - title: "Developer Tooling for the Modern Rails & Hotwire era"
       event_name: "Geneva.rb October 2024"
@@ -538,7 +406,6 @@
         Marco Roth (@marcoroth), core team member of StimulusReflex/CableReady and part of the Hotwire Contributors Team, will focus on the latest tools and best practices for Ruby on Rails and Hotwire developers.
 
         He will explore how the new tools he has developed can streamline development, boost productivity, and enhance the overall developer experience within the Rails and Hotwire stack.
-
 - title: "Geneva.rb November 2024"
   event_name: "Geneva.rb November 2024"
   date: "2024-11-13"
@@ -546,18 +413,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-november-2024"
-  description: |-
-    Sean Carroll (GitLab) will present Kamal, a versatile deployment tool originally built for Ruby on Rails, now adaptable to any containerized web app. Kamal enables zero-downtime deploys, rolling restarts, remote builds, and accessory service management with Docker, making production deployments seamless. Unlike commercial platforms like Heroku, Fly.io, or hosted Kubernetes, Kamal focuses on portability and freedom—allowing users to deploy across various clouds or even their own hardware. It's designed to simplify deployment while avoiding vendor lock-in, providing a modern alternative to tools like Capistrano, Kubernetes, and Docker Swarm.
-
-    What to Expect:
-    * A presentation of about 30-45 minutes
-    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
-    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
-
-    🙏 Meetup kindly sponsored by RoRvsWild!
-
-
-    https://www.meetup.com/geneva-rb/events/303018670
+  description: "Sean Carroll (GitLab) will present Kamal, a versatile deployment tool originally built for Ruby on Rails, now adaptable to any containerized web app. Kamal enables zero-downtime deploys, rolling restarts, remote builds, and accessory service management with Docker, making production deployments seamless. Unlike commercial platforms like Heroku, Fly.io, or hosted Kubernetes, Kamal focuses on portability and freedom—allowing users to deploy across various clouds or even their own hardware. It's designed to simplify deployment while avoiding vendor lock-in, providing a modern alternative to tools like Capistrano, Kubernetes, and Docker Swarm.\n\nWhat to Expect:\n* A presentation of about 30-45 minutes\n* Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.\n* Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.\n\n\U0001F64F Meetup kindly sponsored by RoRvsWild!\n\n\nhttps://www.meetup.com/geneva-rb/events/303018670"
   talks:
     - title: "Rails Deployment with Kamal"
       event_name: "Geneva.rb November 2024"
@@ -574,7 +430,6 @@
       thumbnail_xl: https://secure.meetupstatic.com/photos/event/5/7/2/9/600_524122313.webp?w=750
       description: |-
         Sean Carroll (GitLab) will present Kamal, a versatile deployment tool originally built for Ruby on Rails, now adaptable to any containerized web app. Kamal enables zero-downtime deploys, rolling restarts, remote builds, and accessory service management with Docker, making production deployments seamless. Unlike commercial platforms like Heroku, Fly.io, or hosted Kubernetes, Kamal focuses on portability and freedom—allowing users to deploy across various clouds or even their own hardware. It's designed to simplify deployment while avoiding vendor lock-in, providing a modern alternative to tools like Capistrano, Kubernetes, and Docker Swarm.
-
 - title: "Geneva.rb December 2024"
   event_name: "Geneva.rb December 2024"
   date: "2024-12-11"
@@ -582,19 +437,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-december-2024"
-  description: |-
-    After a successful first talk where Alexis Bernard from RoRvsWild explored the secrets to high-performance Ruby on Rails applications, he’s back for part two.
-
-    You’ll also gain insight into new performance monitoring techniques and troubleshooting methods to ensure your application is always operating at peak speed.
-
-    What to Expect:
-    * A presentation of about 30-45 minutes
-    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
-    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
-
-    🙏 Meetup kindly sponsored by RoRvsWild!
-
-    https://www.meetup.com/geneva-rb/events/303018673
+  description: "After a successful first talk where Alexis Bernard from RoRvsWild explored the secrets to high-performance Ruby on Rails applications, he’s back for part two.\n\nYou’ll also gain insight into new performance monitoring techniques and troubleshooting methods to ensure your application is always operating at peak speed.\n\nWhat to Expect:\n* A presentation of about 30-45 minutes\n* Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.\n* Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.\n\n\U0001F64F Meetup kindly sponsored by RoRvsWild!\n\nhttps://www.meetup.com/geneva-rb/events/303018673"
   talks:
     - title: "More everyday performance rules for Ruby on Rails developers"
       event_name: "Geneva.rb December 2024"
@@ -613,7 +456,6 @@
         After a successful first talk where Alexis Bernard from RoRvsWild explored the secrets to high-performance Ruby on Rails applications, he’s back for part two.
 
         You’ll also gain insight into new performance monitoring techniques and troubleshooting methods to ensure your application is always operating at peak speed.
-
 - title: "Geneva.rb January 2025"
   event_name: "Geneva.rb January 2025"
   date: "2025-01-15"
@@ -621,17 +463,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-january-2025"
-  description: |-
-    Jean-Charles Santi (Gold Avenue) will explore strategies for identifying and resolving performance bottlenecks after addressing common issues like N+1 queries and analyzing flamegraphs. He’ll also dive into how the Scenic gem can be leveraged to optimize slow relationships and improve query efficiency. Perfect for developers looking to push beyond standard debugging approaches and refine their Rails applications.
-
-    What to Expect:
-    * A presentation of about 30-45 minutes
-    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
-    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
-
-    🙏 Meetup kindly sponsored by RoRvsWild!
-
-    https://www.meetup.com/geneva-rb/events/304627310
+  description: "Jean-Charles Santi (Gold Avenue) will explore strategies for identifying and resolving performance bottlenecks after addressing common issues like N+1 queries and analyzing flamegraphs. He’ll also dive into how the Scenic gem can be leveraged to optimize slow relationships and improve query efficiency. Perfect for developers looking to push beyond standard debugging approaches and refine their Rails applications.\n\nWhat to Expect:\n* A presentation of about 30-45 minutes\n* Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.\n* Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.\n\n\U0001F64F Meetup kindly sponsored by RoRvsWild!\n\nhttps://www.meetup.com/geneva-rb/events/304627310"
   talks:
     - title: "Beyond the Basics: Tackling Edge Cases in Slow Ruby on Rails Code"
       event_name: "Geneva.rb January 2025"
@@ -648,7 +480,6 @@
       thumbnail_xl: https://secure.meetupstatic.com/photos/event/6/3/4/d/600_524845421.webp?w=750
       description: |-
         Jean-Charles Santi (Gold Avenue) will explore strategies for identifying and resolving performance bottlenecks after addressing common issues like N+1 queries and analyzing flamegraphs. He’ll also dive into how the Scenic gem can be leveraged to optimize slow relationships and improve query efficiency. Perfect for developers looking to push beyond standard debugging approaches and refine their Rails applications.
-
 - title: "Geneva.rb February 2025"
   event_name: "Geneva.rb February 2025"
   date: "2025-02-19"
@@ -656,22 +487,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-february-2025"
-  description: |-
-    Remote presentation
-
-    Joel Hawksley is a staff software engineer at GitHub, based in Louisville, CO, USA. He's the creator of ViewComponent, a framework for building encapsulated, unit-testable view components in Ruby on Rails.
-
-    In his talk, Joel will share reflections from five years of UI architecture at GitHub, focusing on three key lessons: native is the new baseline, design systems are victims of their own success, and frontend costs 10x backend.
-
-    What to Expect:
-
-    * A remote presentation of about 30-45 minutes followed by a Q&A session,
-    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
-    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
-
-    🙏 Meetup kindly sponsored by RoRvsWild!
-
-    https://www.meetup.com/geneva-rb/events/304627311
+  description: "Remote presentation\n\nJoel Hawksley is a staff software engineer at GitHub, based in Louisville, CO, USA. He's the creator of ViewComponent, a framework for building encapsulated, unit-testable view components in Ruby on Rails.\n\nIn his talk, Joel will share reflections from five years of UI architecture at GitHub, focusing on three key lessons: native is the new baseline, design systems are victims of their own success, and frontend costs 10x backend.\n\nWhat to Expect:\n\n* A remote presentation of about 30-45 minutes followed by a Q&A session,\n* Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.\n* Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.\n\n\U0001F64F Meetup kindly sponsored by RoRvsWild!\n\nhttps://www.meetup.com/geneva-rb/events/304627311"
   talks:
     - title: "The Past, Present and Future of UI at GitHub"
       event_name: "Geneva.rb February 2025"
@@ -692,7 +508,6 @@
         Joel Hawksley is a staff software engineer at GitHub, based in Louisville, CO, USA. He's the creator of ViewComponent, a framework for building encapsulated, unit-testable view components in Ruby on Rails.
 
         In his talk, Joel will share reflections from five years of UI architecture at GitHub, focusing on three key lessons: native is the new baseline, design systems are victims of their own success, and frontend costs 10x backend.
-
 - title: "Geneva.rb March 2025"
   event_name: "Geneva.rb March 2025"
   date: "2025-03-12"
@@ -700,21 +515,12 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-march-2025"
-  description: |-
-    Presentation TBA
-
-    What to Expect:
-    * A presentation of about 30-45 minutes
-    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
-    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
-
-    🙏 Meetup kindly sponsored by RoRvsWild!
-
-    https://www.meetup.com/geneva-rb/events/304629277
+  description: "Presentation TBA\n\nWhat to Expect:\n* A presentation of about 30-45 minutes\n* Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.\n* Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.\n\n\U0001F64F Meetup kindly sponsored by RoRvsWild!\n\nhttps://www.meetup.com/geneva-rb/events/304629277"
   speakers:
     - TBA
-  # talks: []
-
+#
+# talks: []
+#
 - title: "Geneva.rb April 2025"
   event_name: "Geneva.rb April 2025"
   date: "2025-04-09"
@@ -722,17 +528,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "geneva-rb-april-2025"
-  description: |-
-    Presentation TBA
-
-    What to Expect:
-    * A presentation of about 30-45 minutes
-    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
-    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
-
-    🙏 Meetup kindly sponsored by RoRvsWild!
-
-    https://www.meetup.com/geneva-rb/events/304629280
+  description: "Presentation TBA\n\nWhat to Expect:\n* A presentation of about 30-45 minutes\n* Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.\n* Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.\n\n\U0001F64F Meetup kindly sponsored by RoRvsWild!\n\nhttps://www.meetup.com/geneva-rb/events/304629280"
   talks:
     - title: "Talk by Diane Delallée"
       event_name: "Geneva.rb April 2025"
@@ -746,7 +542,6 @@
         Diane Delallée (QoQa)
 
         Presentation TBA
-
 - title: "Geneva.rb May 2025"
   event_name: "Geneva.rb May 2025"
   date: "2025-05-14"
@@ -754,17 +549,7 @@
   published_at: "TODO"
   video_provider: "scheduled"
   video_id: "geneva-rb-may-2025"
-  description: |-
-    Presentation TBA
-
-    What to Expect:
-    * A presentation of about 30-45 minutes
-    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
-    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
-
-    🙏 Meetup kindly sponsored by RoRvsWild!
-
-    https://www.meetup.com/geneva-rb/events/304629285
+  description: "Presentation TBA\n\nWhat to Expect:\n* A presentation of about 30-45 minutes\n* Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.\n* Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.\n\n\U0001F64F Meetup kindly sponsored by RoRvsWild!\n\nhttps://www.meetup.com/geneva-rb/events/304629285"
   speakers:
     - TBA
-  # talks: []
+# talks: []

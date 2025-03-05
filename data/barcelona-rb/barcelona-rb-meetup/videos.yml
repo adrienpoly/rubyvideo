@@ -1,6 +1,7 @@
 ---
+#
 # 2024
-
+#
 - title: "Barcelona.rb November 2024"
   event_name: "Barcelona.rb November 2024"
   date: "2024-11-05"
@@ -12,37 +13,7 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/3/f/9/5/highres_524836277.webp
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/3/f/9/5/highres_524836277.webp
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/3/f/9/5/highres_524836277.webp
-  description: |-
-    Hi there, Fellow Ruby Engineers!
-    Join us for the #November Barcelona.rb meetup!
-    This meetup marks the beginning of an exciting journey across Spain, connecting Ruby enthusiasts in Barcelona, Valencia, and Madrid. Be part of this historic moment in the Spanish Ruby community!
-
-    📆 05.11.2024
-    ⏰ 18:00
-    📍 Loft de Gràcial, C. de Montmany, 30, Barcelona
-
-    Agenda
-
-    🎙️ Mariusz Kozieł - Beyond Meetups: Creating Ruby Ecosystem
-    🎙️ Roman Samoilov - Modernising Ruby Systems with Rage
-    🎙️ Genar Trias Ortiz - Life beyond MVC: scaling Rails monolith for hundreds of developers
-    🔥 Networking!
-
-    The Spain Triangle Project
-
-    This meetup is part of the larger Spain Triangle Project, an initiative by Ruby Europe to strengthen the Ruby community in Spain. Don't miss the other events:
-
-    Barcelona.rb on November 5th
-    Valencia.rb on November 6th: Valencia.rb (Postponed due to recent tragic events)
-    Madrid.rb on November 7th: Madrid.rb
-    🚂 Join the Ruby Train! We're inviting a group of enthusiasts to travel together to all three events. More Ruby, more networking, more fun! Train group: Google Form
-
-    About Ruby Europe
-
-    Ruby Europe is uniting Ruby enthusiasts across the continent to build a thriving community. Join us on Discord and visit rubyeurope.com to learn more!
-    Join us for an evening of learning, networking, and celebrating Ruby. Let's kickstart this Ruby revolution together!
-
-    https://www.meetup.com/barcelona-rb/events/304030335
+  description: "Hi there, Fellow Ruby Engineers!\nJoin us for the #November Barcelona.rb meetup!\nThis meetup marks the beginning of an exciting journey across Spain, connecting Ruby enthusiasts in Barcelona, Valencia, and Madrid. Be part of this historic moment in the Spanish Ruby community!\n\n\U0001F4C6 05.11.2024\n⏰ 18:00\n\U0001F4CD Loft de Gràcial, C. de Montmany, 30, Barcelona\n\nAgenda\n\n\U0001F399️ Mariusz Kozieł - Beyond Meetups: Creating Ruby Ecosystem\n\U0001F399️ Roman Samoilov - Modernising Ruby Systems with Rage\n\U0001F399️ Genar Trias Ortiz - Life beyond MVC: scaling Rails monolith for hundreds of developers\n\U0001F525 Networking!\n\nThe Spain Triangle Project\n\nThis meetup is part of the larger Spain Triangle Project, an initiative by Ruby Europe to strengthen the Ruby community in Spain. Don't miss the other events:\n\nBarcelona.rb on November 5th\nValencia.rb on November 6th: Valencia.rb (Postponed due to recent tragic events)\nMadrid.rb on November 7th: Madrid.rb\n\U0001F682 Join the Ruby Train! We're inviting a group of enthusiasts to travel together to all three events. More Ruby, more networking, more fun! Train group: Google Form\n\nAbout Ruby Europe\n\nRuby Europe is uniting Ruby enthusiasts across the continent to build a thriving community. Join us on Discord and visit rubyeurope.com to learn more!\nJoin us for an evening of learning, networking, and celebrating Ruby. Let's kickstart this Ruby revolution together!\n\nhttps://www.meetup.com/barcelona-rb/events/304030335"
   talks:
     - title: "Beyond Meetups: Creating Ruby Ecosystem"
       event_name: "Barcelona.rb November 2024"
@@ -60,7 +31,6 @@
         X: https://x.com/RubyEurope
       speakers:
         - Mariusz Kozieł
-
     - title: "Modernising Ruby Systems with Rage"
       event_name: "Barcelona.rb November 2024"
       date: "2024-11-05"
@@ -77,7 +47,6 @@
         X: https://x.com/RubyEurope
       speakers:
         - Roman Samoilov
-
     - title: "Life Beyond MVC: Scaling Rails Monolith for Hundreds of Developers"
       event_name: "Barcelona.rb November 2024"
       date: "2024-11-05"
@@ -94,8 +63,9 @@
         X: https://x.com/RubyEurope
       speakers:
         - Genar Trias Ortis
+#
 # 2025
-
+#
 - title: "Barcelona.rb February 2025"
   event_name: "Barcelona.rb February 2025"
   date: "2025-02-11"
@@ -107,24 +77,7 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp
-  description: |-
-    Hi there, Fellow Ruby Engineers!
-
-    Barcelona.rb is coming back after the New Year break with two fantastic talks. First, Kirill Platonov will introduce us to the world of ViewComponents, then Gleb Glazov will share his favourite tips and tricks on how to boost your productivity.
-
-    📆 11.02.2024
-    ⏰ 18:00
-    📍 Loft de Gràcial, C. de Montmany, 30, Barcelona
-
-    Agenda
-
-    🎙️ 18:30. Kirill Platonov - Getting Started with ViewComponents.
-    🎙️ 19:30. Gleb Glazov - My workflow sucks, yours shouldn't a.k.a. how to use computer efficiently.
-    🔥 Networking!
-
-    After a substantial dose of knowledge, we invite you to engage in discussions during the informal part. Hope to see you there!
-
-    https://www.meetup.com/barcelona-rb/events/305879212
+  description: "Hi there, Fellow Ruby Engineers!\n\nBarcelona.rb is coming back after the New Year break with two fantastic talks. First, Kirill Platonov will introduce us to the world of ViewComponents, then Gleb Glazov will share his favourite tips and tricks on how to boost your productivity.\n\n\U0001F4C6 11.02.2024\n⏰ 18:00\n\U0001F4CD Loft de Gràcial, C. de Montmany, 30, Barcelona\n\nAgenda\n\n\U0001F399️ 18:30. Kirill Platonov - Getting Started with ViewComponents.\n\U0001F399️ 19:30. Gleb Glazov - My workflow sucks, yours shouldn't a.k.a. how to use computer efficiently.\n\U0001F525 Networking!\n\nAfter a substantial dose of knowledge, we invite you to engage in discussions during the informal part. Hope to see you there!\n\nhttps://www.meetup.com/barcelona-rb/events/305879212"
   talks:
     - title: "Getting Started with ViewComponents"
       event_name: "Barcelona.rb February 2025"
@@ -135,7 +88,6 @@
       description: ""
       speakers:
         - Kirill Platonov
-
     - title: "My workflow sucks, yours shouldn't a.k.a. how to use computer efficiently"
       event_name: "Barcelona.rb February 2025"
       date: "2025-02-11"

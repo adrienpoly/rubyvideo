@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: "Keynote: My way with Ruby"
   raw_title: "[JA][Keynote] My way with Ruby / Kouhei Sutou @ktou"
   speakers:
@@ -23,7 +24,6 @@
     In this talk, I introduce my activities.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/ktou
-
 - title: "Keynote: Keynote"
   raw_title: '[JA][Keynote] Keynote / Yukihiro "Matz" Matsumoto @yukihiro_matz'
   speakers:
@@ -35,7 +35,6 @@
   video_id: zb8dXWYUX10
   language: Japanese
   description: RubyKaigi 2018 https://rubykaigi.org/2018/presentations/yukihiro_matz
-
 - title: "Keynote: Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby"
   raw_title: "[EN][Keynote] Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby / Benoit Daloze @eregontp"
   speakers:
@@ -52,7 +51,6 @@
     This talk shows a technique to make Array and Hash thread-safe while enabling parallel access, with no penalty on single-threaded performance. In short, we keep the most important thread-safety guarantees of the global lock while allowing Ruby to scale up to tens of cores!
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/eregontp
-
 - title: Deep into Ruby Code Coverage
   raw_title: "[EN] Deep into Ruby Code Coverage / Marc-André Lafortune @malafortune"
   speakers:
@@ -68,7 +66,6 @@
     This talk delves into the benefits of meaningful code coverage and how to avoid some of its pitfalls with a new tool called DeepCover.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/malafortune
-
 - title: Devly, a multi-service development environment
   raw_title: "[EN] Devly, a multi-service development environment / Eric Hodel @drbrain, Ezekiel Templin @ezkl"
   speakers:
@@ -88,7 +85,6 @@
     -service, control, and safety so that developers can focus on their work.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/drbrain
-
 - title: "IRB Reboot: Modernize Implementation and Features"
   raw_title: "[EN] IRB Reboot: Modernize Implementation and Features / ITOYANAGI Sakura @aycabta"
   speakers:
@@ -106,7 +102,6 @@
     After IRB implementation was modernized, I added some new features to IRB. IRB imports RDoc features as a library, such as show documentation with auto-complete, auto-complete for meta-programmed namespaces.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/aycabta
-
 - title: LuaJIT as a Ruby backend.
   raw_title: "[JA] LuaJIT as a Ruby backend. / Takeshi Watanabe @take-cheeze"
   speakers:
@@ -123,7 +118,6 @@
     In this session I will talk experience using LuaJIT as mruby backend.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/take-cheeze
-
 - title: How happy they became with H2O/mruby, and the future of HTTP
   raw_title: "[JA] How happy they became with H2O/mruby, and the future of HTTP / @i110, Kazuho Oku @kazuho"
   speakers:
@@ -140,7 +134,6 @@
     In the talk, Kazuho Oku will also discuss the standardization of H2 extensions, QUIC, and how they are likely to affect web application development and deployment.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/i110
-
 - title: Design pattern for embedding mruby into middleware
   raw_title: "[JA] Design pattern for embedding mruby into middleware / MATSUMOTO, Ryosuke @matsumotory"
   speakers:
@@ -158,7 +151,6 @@
     In this presentation, I generalize the design and implementation to connect middleware supporting Internet service with mruby and introduce it as a design pattern.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/matsumotory
-
 - title: "Reirb: Reborn Irb"
   raw_title: "[JA] Reirb: Reborn Irb / Keiju Ishitsuka @keiju"
   speakers:
@@ -176,7 +168,6 @@
     Everyone will be able to live more enjoyable Ruby-life by using Reirb.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/keiju
-
 - title: JRuby 9.2 and Rails 5.x
   raw_title: "[EN] JRuby 9.2 and Rails 5.x / Thomas E Enebo @tom_enebo"
   speakers:
@@ -187,17 +178,7 @@
   video_provider: youtube
   video_id: ue5XVN0SJEw
   language: English
-  description:
-    "JRuby 9.2 has been released. 9.2 supports Ruby 2.5 compatibility and
-    it also runs Rails 5.x well. This talk will discuss some of the more interesting
-    apects of JRuby 9.2:\n\n  - Performance updates\n    - Graal integration\n    -
-    IR instr refactoring\n    - Object shaping\n  - Full encoding support ( @@かいぎ
-    ||= $\U0001F43B\U0001F33B.send :┬─┬ノº_ºノ' )\n  - Improved Windows support\n\nIt
-    will also give an update on the state of running Rails 5.x on JRuby. This talk
-    will go over updates we have made to ActiveRecord-JDBC and show a real world use-case
-    of getting Discourse running. Get up to date on the state of JRuby!\n\nRubyKaigi
-    2018 https://rubykaigi.org/2018/presentations/tom_enebo"
-
+  description: "JRuby 9.2 has been released. 9.2 supports Ruby 2.5 compatibility and it also runs Rails 5.x well. This talk will discuss some of the more interesting apects of JRuby 9.2:\n\n  - Performance updates\n    - Graal integration\n    - IR instr refactoring\n \   - Object shaping\n  - Full encoding support ( @@かいぎ ||= $\U0001F43B\U0001F33B.send :┬─┬ノº_ºノ' )\n  - Improved Windows support\n\nIt will also give an update on the state of running Rails 5.x on JRuby. This talk will go over updates we have made to ActiveRecord-JDBC and show a real world use-case of getting Discourse running. Get up to date on the state of JRuby!\n\nRubyKaigi 2018 https://rubykaigi.org/2018/presentations/tom_enebo"
 - title: High Performance GPU computing with Ruby
   raw_title: "[EN] High Performance GPU computing with Ruby / Prasun Anand @prasun_anand"
   speakers:
@@ -214,7 +195,6 @@
     In this talk I would like to show how RbCUDA and ArrayFire help you easily accelerate your code.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/prasun_anand
-
 - title: How to get the dark power from ISeq
   raw_title: "[JA] How to get the dark power from ISeq / Yoh Osaki @youchan"
   speakers:
@@ -235,7 +215,6 @@
     In this talk, I will talk to three stances of people. The first are the most of the audiences who purely interest about hacking of ISeq.  The second are potential users of ISeq, I show hints what we should do. At last I will raise a plobrem whether ISeq should be documented to the Ruby core team.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/youchan
-
 - title: Three Ruby performance projects
   raw_title: "[EN] Three Ruby performance projects / Vladimir Makarov @vnmakarov"
   speakers:
@@ -252,7 +231,6 @@
       One project is pretty small. It is to introduce a **new CRuby internal representation of IEEE 754 double precision numbers** to improve CRuby floating point performance. The second one is a medium-size **project to generate RTL from YARV instructions** and to use RTL for the interpretation and JIT compilation.  And the third one is a very ambitious project to create a **light-weight JIT** which can be used together with MJIT as a tier 1 JIT compiler or as a single JIT for mruby.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/vnmakarov
-
 - title: The Method JIT Compiler for Ruby 2.6
   raw_title: "[JA] The Method JIT Compiler for Ruby 2.6 / Takashi Kokubun @k0kubun"
   speakers:
@@ -270,7 +248,6 @@
     and the future of Ruby's performance by method inlining.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/k0kubun
-
 - title: Grow and Shrink - Dynamically Extending the Ruby VM Stack
   raw_title: "[JA] Grow and Shrink - Dynamically Extending the Ruby VM Stack / @sugiyama-k, @duerst"
   speakers:
@@ -289,7 +266,6 @@
      We will present two different implementations, one very close to the current stack structure, and one with a different stack structure. We will also explain how we made sure that our implementation is stable. On Linux, we achieve a memory reduction per thread of up to 30%, at the cost of an average speed increase (measured across all Ruby benchmarks) of 6%.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/sugiyama-k
-
 - title: Build your own tools
   raw_title: "[JA] Build your own tools / Shugo Maeda @shugomaeda"
   speakers:
@@ -306,7 +282,6 @@
     Building your own tools is the best way to develop software, and Ruby is the best language for such use.  In this talk, I introduce my own tools and my development style.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/shugomaeda
-
 - title: Analyzing and Reducing Ruby Memory Usage
   raw_title: "[JA] Analyzing and Reducing Ruby Memory Usage / Aaron Patterson @tenderlove"
   speakers:
@@ -326,7 +301,6 @@
     their Ruby systems, as well as a better understanding of Ruby internals.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/tenderlove
-
 - title: Ruby code from the stratosphere - SIAF, Sonic Pi, Petal
   raw_title: "[JA] Ruby code from the stratosphere - SIAF, Sonic Pi, Petal / Kenichi Kanai @kn1kn1"
   speakers:
@@ -351,7 +325,6 @@
     Session Notes: https://gist.github.com/kn1kn1/c28f8029ba5ee069d83b8b6a6c4c8543
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/kn1kn1
-
 - title: Deep Learning Programming on Ruby
   raw_title: "[JA] Deep Learning Programming on Ruby / Kenta Murata @mrkn, Yusaku Hatanaka @hatappi"
   speakers:
@@ -371,7 +344,6 @@
     Additionally, we will show you the latest progress and the future forecasts of the projects that aim to make Ruby available in data science field.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/mrkn
-
 - title: All About RuboCop
   raw_title: "[EN] All About RuboCop / Bozhidar Batsov @bbatsov"
   speakers:
@@ -393,11 +365,8 @@
     to be done, before RuboCop finally reaches the coveted 1.0 version.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/bbatsov
-
 - title: Hijacking Ruby Syntax in Ruby
-  raw_title:
-    '[JA] Hijacking Ruby Syntax in Ruby / @joker1007, Satoshi "moris" Tagomori
-    @tagomoris'
+  raw_title: '[JA] Hijacking Ruby Syntax in Ruby / @joker1007, Satoshi "moris" Tagomori @tagomoris'
   speakers:
     - Tomohiro Hashidate
     - Satoshi "moris" Tagomori
@@ -418,7 +387,6 @@
     - Propose new traceable events, hooks, etc
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/joker1007
-
 - title: TTY - Ruby alchemist’s secret potion
   raw_title: "[EN] TTY - Ruby alchemist’s secret potion / Piotr Murach @piotr_murach"
   speakers:
@@ -434,7 +402,6 @@
      applications such as Bundler, in next to no time? Curious about how you can harness this power and become a command line applications alchemist?
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/piotr_murach
-
 - title: Lightning Talks (Day 1)
   raw_title: "[EN][JA] Lightning Talks"
   event_name: RubyKaigi 2018
@@ -452,7 +419,6 @@
       video_provider: parent
       speakers:
         - Tadashi Saito
-
     - title: "Lightning Talk: Rib - Yet another interactive Ruby shell"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -460,7 +426,6 @@
       video_provider: parent
       speakers:
         - lulalala
-
     - title: "Lightning Talk: Create libcsv based ruby/csv compatible CSV library"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -468,7 +433,6 @@
       video_provider: parent
       speakers:
         - Kazuma Furuhashi
-
     - title: "Lightning Talk: Improve JSON performance"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -476,7 +440,6 @@
       video_provider: parent
       speakers:
         - Shizuo Fujita
-
     - title: "Lightning Talk: Improve Red Chainer and Numo::NArray performance"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -484,7 +447,6 @@
       video_provider: parent
       speakers:
         - NAITOH Jun
-
     - title: "Lightning Talk: Using Tamashii Connect Real World with Chatbot"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -492,7 +454,6 @@
       video_provider: parent
       speakers:
         - elct9620
-
     - title: "Lightning Talk: Find out potential dead codes from diff"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -500,7 +461,6 @@
       video_provider: parent
       speakers:
         - Sangyong Sim
-
     - title: "Lightning Talk: Test asynchronous functions with RSpec"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -508,7 +468,6 @@
       video_provider: parent
       speakers:
         - Shigeru Nakajima
-
     - title: "Lightning Talk: To refine or not to refine"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -516,7 +475,6 @@
       video_provider: parent
       speakers:
         - Vladimir Dementyev
-
     - title: "Lightning Talk: 5-Minute Recipe of Todo-app"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -524,7 +482,6 @@
       video_provider: parent
       speakers:
         - Yoh Osaki
-
     - title: "Lightning Talk: Symbolic Execution of Ruby Programs"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -532,7 +489,6 @@
       video_provider: parent
       speakers:
         - Lin Yu Hsiang
-
     - title: "Lightning Talk: Schrödinger's branch"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -540,7 +496,6 @@
       video_provider: parent
       speakers:
         - unak
-
 - title: "bancor: Token economy made with Ruby"
   raw_title: "[JA] bancor: Token economy made with Ruby / Yuta Kurotaki @kurotaky"
   speakers:
@@ -559,7 +514,6 @@
     In this presentation, we will talk about how developers build "token economy" on Ruby application using "bancor" and how to quickly verify effect.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/kurotaky
-
 - title: Exploring Internal Ruby Through C Extensions
   raw_title: "[JA] Exploring Internal Ruby Through C Extensions / Emma Haruka Iwao @Yuryu"
   speakers:
@@ -574,7 +528,6 @@
     You may have wondered how Ruby objects are represented in the CRuby code. Not really? I would say writing a C extension is a great way to explore and learn how CRuby handles different object types. This session will re-implement our own Hash class, explain basic types in the CRuby, compare performance between native Hash, pure C++ implementation, and the C extension version, and discuss memory layouts and consumption in Ruby. The audience will also become more comfortable with the CRuby code through this session. Experience with C is not required.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/Yuryu
-
 - title: Fast Numerical Computing and Deep Learning in Ruby with Cumo
   raw_title: "[JA] Fast Numerical Computing and Deep Learning in Ruby with Cumo / Naotoshi Seo @sonots"
   speakers:
@@ -599,7 +552,6 @@
     * Performance comparison with Numo in an emerging DNN framework written in Ruby, red-chainer
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/sonots
-
 - title: Karafka - Ruby Framework for Event Driven Architecture
   raw_title: "[EN] Karafka - Ruby Framework for Event Driven Architecture / Maciej Mensfeld  @maciejmensfeld"
   speakers:
@@ -614,7 +566,6 @@
     Karafka allows you to capture everything that happens in your systems in large scale, providing you with a seamless and stable core for consuming and processing this data, without having to focus on things that are not your business domain. Have you ever tried to pipe data from one application to another, transform it and send it back? Have you ever wanted to decouple for existing code base and make it much more resilient and flexible? Come and learn about Karafka, where it fits in your existing projects and how to use it as a messages backbone for a modern, distributed and scalable ecosystem.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/maciejmensfeld
-
 - title: RubyGems 3 & 4
   raw_title: "[JA] RubyGems 3 & 4 / Hiroshi SHIBATA @hsbt"
   speakers:
@@ -633,7 +584,6 @@
     Through this talk, you will be able to enjoy the ruby world more by understanding RubyGems at the center of ruby's ecosystem.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/hsbt
-
 - title: A parser based syntax highlighter
   raw_title: "[JA] A parser based syntax highlighter / Masataka Kuwabara @p_ck_"
   speakers:
@@ -655,7 +605,6 @@
     I'll talk a robust syntax highlighter for Ruby, it is Iro gem and Iro.vim.  The highlighter never break since it uses Ripper to highlight code.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/p_ck_
-
 - title: What would your own version of Ruby look like?
   raw_title: "[EN] What would your own version of Ruby look like? / Stan Lo @_st0012"
   speakers:
@@ -675,7 +624,6 @@
     so share the design choices made when developing Goby, as well as the philosophy behind these choices.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/_st0012
-
 - title: "Faster Apps, No Memory Thrash: Get Your Memory Config Right"
   raw_title: "[EN] Faster Apps, No Memory Thrash: Get Your Memory Config Right / Noah Gibbs @codefolio"
   speakers:
@@ -691,7 +639,6 @@
     You'll learn about the CRuby memory resources and how you check them. Let's optimize your memory usage to keep memory small and keep garbage collection fast.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/codefolio
-
 - title: Guild Prototype
   raw_title: "[EN] Guild Prototype / Koichi Sasada @ko1"
   speakers:
@@ -709,7 +656,6 @@
     Also we are discussing about the name of "Guild" to find out the another appropriate name. I will introduce the discussion of this "naming battle".
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/ko1
-
 - title: Architecture of hanami applications
   raw_title: "[EN] Architecture of hanami applications / Anton Davydov @anton_davydov"
   speakers:
@@ -726,7 +672,6 @@
     In my talk, I'll share my ideas how to store and work with business logic in hanami apps. We will talk about hanami, dry and some architecture ideas, like event sourcing. This talk will be interesting for any developers. If you work with other frameworks you can take these ideas and my it to your project.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/anton_davydov
-
 - title: Controlling Droids™ with mruby & Go
   raw_title: "[EN] Controlling Droids™ with mruby & Go / Terence Lee  @hone02, Chase McCarthy @code0100fun"
   speakers:
@@ -744,7 +689,6 @@
     In this talk, we'll deep dive into how we can execute mruby handlers inside a Go event reactor to control a Sphero R2-D2. With surprisingly few lines of code, you can coordinate motors, lights, and sound concurrently. Come learn about mruby & robotics and see the Droids™ you're looking for in action.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/hone02
-
 - title: Improve Ruby coding style rules and Lint
   raw_title: "[JA] Improve Ruby coding style rules and Lint / Koichi ITO @koic"
   speakers:
@@ -762,7 +706,6 @@
     . Even so, we can approach the coding rule that we think is better. I'd like to talk about that in this topic.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/koic
-
 - title: It's Rubies All The Way Down
   raw_title: "[EN] It's Rubies All The Way Down / Kirk Haines @wyhaines"
   speakers:
@@ -777,7 +720,6 @@
     Ruby is a language with expansive capabilities. One of it's main niches is with web application work. Typically, Ruby is used exclusively in the application container/application layer, with other technologies providing the rest of the stack. Ruby can fill other roles in the application stack, though, so for fun, let's explore a stack that is composed of Ruby software from top to bottom. What would that look like? How would it perform? Why would you do this?
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/wyhaines
-
 - title: Journey of a complex gem upgrade
   raw_title: "[EN] Journey of a complex gem upgrade / Edouard Chin @Edouard-chin"
   speakers:
@@ -795,7 +737,6 @@
     In this talk I’d like to share the different techniques and strategies that will allow you to upgrade any dependency smoothy and safely.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/Edouard-chin
-
 - title: Scaling Teams using Tests for Productivity and Education
   raw_title: "[EN] Scaling Teams using Tests for Productivity and Education / Julian Nadeau @jules2689"
   speakers:
@@ -811,7 +752,6 @@
     mistakes that were made without relying on word of mouth. While we have tools, such as Rubocop, to check some stylistic components, we lack tooling to document issues and best practices. This talk focuses on strategies and solutions, particularly around best practices, that we employ to help educate and accelerate nearly a thousand developers, without getting in their way, by providing them information “just in time”.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/jules2689
-
 - title: mruby can be more lightweight
   raw_title: "[JA] mruby can be more lightweight / Yurie Yamane @yuri_at_earth"
   speakers:
@@ -828,7 +768,6 @@
     I also demonstrate using an evaluation board (RAM:96 KB) which became available as a result of reducing RAM usage.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/yuri_at_earth
-
 - title: Firmware programming with mruby/c
   raw_title: "[JA] Firmware programming with mruby/c / Hitoshi HASUMI @hasumon"
   speakers:
@@ -845,7 +784,6 @@
     Since mruby/c is still a young growing tool, you will know there are several(many?) things you can help it to become better.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/hasumon
-
 - title: extend your own programming language
   raw_title: "[JA] extend your own  programming language / Masatoshi SEKI @m_seki"
   speakers:
@@ -863,7 +801,6 @@
     で実装するのは難しいRubyの変種を示します。
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/m_seki
-
 - title: Ruby Programming with Type Checking
   raw_title: "[EN] Ruby Programming with Type Checking / Soutaro Matsumoto @soutaro"
   speakers:
@@ -879,7 +816,6 @@
     In this talk, I will report the nine months progress of the project and share the experience how the tool helps Ruby programming.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/soutaro
-
 - title: "Ferrari Driven Development: superfast Ruby with Rubex"
   raw_title: "[EN] Ferrari Driven Development: superfast Ruby with Rubex / Sameer Deshmukh @v0dro"
   speakers:
@@ -896,7 +832,6 @@
     This talk will introduce you to Rubex, the fastest and happiest way of writing Ruby C extensions. Rubex is a whole new language designed from the ground up keeping in mind Ruby's core philosophy - make programmers happy.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/v0dro
-
 - title: One cable to rule them all
   raw_title: "[EN] One cable to rule them all / Vladimir Dementyev @palkan_tula"
   speakers:
@@ -916,7 +851,6 @@
     My answer is NO, and I want to show you, how we can combine the elegance of Ruby with the power of other languages to improve the performance of real-time applications.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/palkan_tula
-
 - title: RNode with code positions
   raw_title: "[JA] RNode with code positions / Yuichiro Kaneko @spikeolaf"
   speakers:
@@ -940,7 +874,6 @@
     * How they are implemented.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/spikeolaf
-
 - title: TRICK 2018 (FINAL)
   raw_title: "[JA] TRICK 2018 (FINAL) / mame & the judges"
   speakers:
@@ -955,7 +888,6 @@
     The 3rd (FINAL) Transcendental Ruby Imbroglio Contest for RubyKaigi
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/tric
-
 - title: 20k MRuby devices in production
   raw_title: "[EN] 20k MRuby devices in production / Thiago Scalone @scalone"
   speakers:
@@ -980,7 +912,6 @@
     - Open Source
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/scalone
-
 - title: How Ruby Survives in the Cloud Native World
   raw_title: "[EN] How Ruby Survives in the Cloud Native World / Uchio KONDO @udzura"
   speakers:
@@ -999,7 +930,6 @@
     I will talk about how I used Ruby and mruby in these container and orchestration implementations.  In addition, I will show my opinion about what kind of Ruby's features are good for these implementations, and what kind of features are required for cloud-native Ruby.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/udzura
-
 - title: Implementing Web Console
   raw_title: "[EN] Implementing Web Console / Genadi Samokovarov @gsamokovarov"
   speakers:
@@ -1016,7 +946,6 @@
     In this talk, we'll take a look at how the web-console gem is implemented. This includes a deep dive into how exceptions in Ruby work; how to build Ruby bindings for every part of an exception backtrace, so we can execute code in them; how we interact with the DebugInspector and TracePoint C APIs to make this possible and how we supported alternative Ruby implementations like JRuby.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/gsamokovarov
-
 - title: "Type Profiler: An analysis to guess type signatures"
   raw_title: "[JA] Type Profiler: An analysis to guess type signatures / Yusuke Endoh @mametter"
   speakers:
@@ -1034,7 +963,6 @@
      A type profiler analyzes existing Ruby programs statically and dynamically, and creates a stub of type definitions.  We discuss its design and show some experiment results.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/mametter
-
 - title: A practical type system for Ruby at Stripe
   raw_title: "[EN] A practical type system for Ruby at Stripe. @DarkDimius @ptarjan @nelhage"
   speakers:
@@ -1062,7 +990,6 @@
     In this talk we describe our experience in developing and adopting a type system for our multi-million line ruby codebase. We will also discuss what future tools are made possible by having knowledge about types in the code base.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/DarkDimius
-
 - title: Kiba 2 - Past, present & future of data processing with Ruby
   raw_title: "[EN]Kiba 2 - Past, present & future of data processing with Ruby Thibaut Barrère @thibaut_barrere"
   speakers:
@@ -1079,7 +1006,6 @@
     In this talk, I'll highlight why Kiba was created, how it is used for low-maintenance data preparation and processing in the enterprise (illustrated by many different use cases), why and how the version 2 (leveraging Ruby's Enumerator) brings a massive improvement in authoring reusable & composable data processing components, and why I'm optimistic about the future of data processing with Ruby.
 
     RubyKaigi 2018 https://rubykaigi.org/2018/presentations/thibaut_barrere
-
 - title: Ruby Committers vs the World
   raw_title: "[JA] Ruby Committers vs the World / CRuby Committers"
   speakers:

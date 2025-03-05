@@ -1,9 +1,9 @@
 ---
+#
 # Website: https://rubybanitsa.com/events
 # Videos: https://www.youtube.com/@gsamokovarov/videos
-
 # 2024
-
+#
 - date: "2024-11-22"
   title: "Custom Deployment Tooling"
   raw_title: "Custom Deployment Tooling"
@@ -14,7 +14,6 @@
   video_provider: "not_recorded"
   description: |-
     With Rails 8 out, Kamal is all the rage about deployment. But can we go even simpler? And by simpler, we mean roll it out all yourself because you know, you may know what you are doing, and competence is indeed bliss! Welcome Evgeni, who will present gobot, a custom deployment tool with automatic self-update, notification, and all the bells and whistles an organization needs.
-
 - date: "2024-10-08"
   title: "Authentication Scheming"
   raw_title: "Authentication Scheming"
@@ -27,7 +26,6 @@
     The circle of city life is spinning—the school year has started yet again, and so has the horrible Sofia traffic, Rails 8 was just announced, and Ruby Banitsa is back from its summer break!
 
     Join us for a talk about the modern authentication primitives in Rails 8 with Hristo Vladev.
-
 - date: "2024-07-10"
   title: "Elixir AI Show and Tell"
   raw_title: "Elixir AI Show and Tell"
@@ -42,7 +40,6 @@
     The talk won't be recorded, come in person.
 
     A walk through a random Elxir AI toolchain (Nx, Scholar, Axon, Bumblebee) used to ~~DOMINATE~~ DEMOCRATIZE the book writing market.
-
 - date: "2024-05-22"
   title: "Balkan Ruby Code-and-Tell"
   raw_title: "Balkan Ruby Code-and-Tell"
@@ -57,7 +54,6 @@
     It was worth it as those systems let us run a smooth registration at the event, do ticket discounts, one-off sales, issue refunds, and freed us from doing error-prone manual invoicing. Let me show you them codes!
 
     Code is not essential for running events, even tech events but I'm a coder, and code I did. It helped!
-
 - date: "2024-04-24"
   title: "Short but Sweet Tech Talk"
   raw_title: "Short but Sweet Tech Talk"
@@ -72,7 +68,6 @@
     We are super happy to have Nick back! Come for a bit of tech and a byte more of hanging out.
 
     In preparation for Balkan Ruby, Nick will present a "short but sweet tech talk".
-
 - date: "2024-03-20"
   title: "Practical Observability for Rails Developers"
   raw_title: "Practical Observability for Rails Developers"
@@ -83,7 +78,6 @@
   video_provider: "not_recorded"
   description: |-
     Join us for an evening full of carbs and observability insights! Evgeni Dhzelyov will discuss request logging, background jobs logging, and error tracking. How to wire up tracings, and what metrics in Rails applications we should pay attention to.
-
 - date: "2024-02-22"
   title: "Interactive UX with Stimulus and Turbo 8"
   raw_title: "Interactive UX with Stimulus and Turbo 8"
@@ -94,9 +88,9 @@
   video_provider: "not_recorded"
   description: |-
     Welcome to the very first Ruby Banitsa for 2024! We are starting the year by sharing the excitement around server-side rendering without React. Yes, you heard that right! Come for a talk about Interactive UX with Stimulus and Turbo 8 by Ventsislav Nikolov.
-
+#
 ## 2023
-
+#
 - title: "Component-Driven UI with ViewComponent"
   raw_title: "Component-Driven UI with ViewComponent"
   event_name: "Ruby Banitsa November 2023"
@@ -110,7 +104,6 @@
     We are back after a-bit-too-long of a summer break with a lecture from Radoslav Stankov about Component-Driven UI with the help of the view_component gem.
 
     A talk about Component-Driven UI with the help of the view_component Ruby gem.
-
 - title: "Hotwire at Work"
   raw_title: "Hotwire at Work"
   event_name: "Ruby Banitsa June 2023"
@@ -125,7 +118,6 @@
     Hristo Vladev is following up his May "Intro to Hotwire" talk with a practical "Hotwire at Work" session. This won't be a talk, but a live code-along.
 
     Hotwire is an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire. It's an alternative to the single-page application frameworks like React.
-
 - title: "Intro to Hotwire"
   raw_title: "Intro to Hotwire"
   event_name: "Ruby Banitsa May 2023"
@@ -140,7 +132,6 @@
     Are you riding the the React Server Components (RSC) hype train? Did you know that you can avoid the whole hydration/de-hydration approach if you leverage plain old HTML? Hotwire is an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire.
 
     Some people like it, some even use it, but we are just gonna talk about it. Welcome Hristo Vladev with his Intro to Hotwire to Ruby Banitsa!
-
 - title: "RuboCop's Baddest Cop"
   raw_title: "RuboCop's Baddest Cop"
   event_name: "Ruby Banitsa April 2023"
@@ -151,7 +142,6 @@
   video_provider: "not_recorded"
   description: |-
     Genadi Samokovarov is going to RubyKaigi in Matsumoto, Japan this year and he's going to talk about RuboCop's Baddest Cop; or, how hard it is (was) to enforce method calls without parentheses. But since you're "my kind of people" (наши хора), you'll get to see the very first edition of this talk, right here in Ruby Banitsa! This talk won't be recorded, come and see it live!
-
 - title: "Mysterious infrastructure"
   raw_title: "Mysterious infrastructure"
   event_name: "Ruby Banitsa March 2023"
@@ -160,19 +150,10 @@
     - "Dimitar Dimitrov"
   video_id: "dimitar-dimitrov-ruby-banitsa-march-2023"
   video_provider: "not_recorded"
-  description: |-
-    We had a Force majeure in February and we're giving it a second try. 🤞 Welcome, Dimitar Dimitrov a.k.a @mitio to Ruby Banitsa!
-
-    Schedule
-
-    18:30 – Snack, mostly banitsa for dinner 😋
-    18:45 – Mysterious infrastructure talk 🔮
-    20:00 – More snack, leftover banitsa 🤢
-
-    Dimitar Dimitrov is the Lead of Infrastructure at Dext, Rails Girls Sofia organiser and one of the local Ruby old-timers! Expect a mysterious infrastructure talk! 🔮
-
+  description: "We had a Force majeure in February and we're giving it a second try. \U0001F91E Welcome, Dimitar Dimitrov a.k.a @mitio to Ruby Banitsa!\n\nSchedule\n\n18:30 – Snack, mostly banitsa for dinner \U0001F60B\n18:45 – Mysterious infrastructure talk \U0001F52E\n20:00 – More snack, leftover banitsa \U0001F922\n\nDimitar Dimitrov is the Lead of Infrastructure at Dext, Rails Girls Sofia organiser and one of the local Ruby old-timers! Expect a mysterious infrastructure talk! \U0001F52E"
+#
 # TODO: missing event: "February 2023: Social Event" - https://rubybanitsa.com/events/87
-
+#
 - title: "Discussion: Process Organization"
   raw_title: "Process organization discussion with Gabriela Luhova"
   event_name: "Ruby Banitsa January 2023"

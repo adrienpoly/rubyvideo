@@ -1,13 +1,11 @@
 ---
+#
 # Website: https://rubyconf.my/2017/
 # Schedule: https://rubyconf.my/2017/#schedule
-
 ## Day 1 - October 12, 2017
-
 # Registration
-
 # Welcome Message
-
+#
 - title: "Keynote: Ruby, Community and You"
   raw_title: "Keynote: Ruby, Community and You - RubyConfMY 2017"
   speakers:
@@ -23,7 +21,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: LVk4af9iuzA
-
 - title: "Sustainable Architecture"
   raw_title: Sustainable Architecture - RubyConfMY 2017
   speakers:
@@ -39,9 +36,9 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: 1nytCQoEl9I
-
+#
 # Tea Break
-
+#
 - title: "Syntax Isn't Everything: NLP For Rubyists"
   raw_title: "Syntax Isn't Everything: NLP For Rubyists - RubyConfMY 2017"
   speakers:
@@ -57,11 +54,8 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: "-zoN4bBYhyg"
-
 - title: " 500X Memory Reduction In Rails With Postgres Schemas And Apartment"
-  raw_title:
-    500X Memory Reduction In Rails With Postgres Schemas And Apartment -
-    RubyConfMY 2017
+  raw_title: 500X Memory Reduction In Rails With Postgres Schemas And Apartment - RubyConfMY 2017
   speakers:
     - Ilake Chang
   event_name: RubyConf MY 2017
@@ -75,9 +69,9 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: 8-k39-8pit0
-
+#
 # CATERED LUNCH
-
+#
 - title: "AnyCable - Universal Action Cable"
   raw_title: Anycable - Universal Action Cable - RubyConfMY 2017
   speakers:
@@ -93,7 +87,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: j5oFx525zNw
-
 - title: Real-World Functional Ruby
   raw_title: Real-World Functional Ruby - RubyConfMY 2017
   speakers:
@@ -109,9 +102,9 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: V-6Rv5I9iPM
-
+#
 # Tea Break
-
+#
 - title: Anatomy of an Active Record Migration
   raw_title: ANATOMY OF AN ACTIVE RECORD MIGRATION - RubyConfMY 2017
   speakers:
@@ -122,7 +115,6 @@
   description: ""
   video_provider: not_published
   video_id: kevin-litchfield-rubyconf-my-2017
-
 - title: How We Built TechLadies
   raw_title: How We Built TechLadies - RubyConfMY 2017
   speakers:
@@ -138,9 +130,9 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: GxSb7LLEgNY
-
+#
 # Tea Break
-
+#
 - title: Unix For Rubyists
   raw_title: Unix For Rubyists - RubyConfMY 2017
   speakers:
@@ -156,7 +148,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: YnQ1AIDAd7k
-
 - title: Parallel Processing With Ruby
   raw_title: Parallel Processing With Ruby - RubyConfMY 2017
   speakers:
@@ -172,15 +163,12 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: v23VlKykU2M
-
+#
 # Closing
-
 ## Day 2 - October 13, 2017
-
 # Registration
-
 # Welcome Message
-
+#
 - title: Lucky
   raw_title: Lucky - RubyConfMY 2017
   speakers:
@@ -196,7 +184,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: ER-4QFgJsaM
-
 - title: BDD With Cucumber
   raw_title: BDD With Cucumber - RubyConfMY 2017
   speakers:
@@ -212,13 +199,11 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: fxgBJOlZIqE
-
+#
 # Tea Break
-
+#
 - title: "All I'd Wanted To Know About Ruby's Object Model Starting Out...And Mooar!!!"
-  raw_title:
-    All I'd Wanted To Know About Ruby's Object Model Starting Out...And Mooar!!!
-    - RubyConfMY 2017
+  raw_title: All I'd Wanted To Know About Ruby's Object Model Starting Out...And Mooar!!! - RubyConfMY 2017
   speakers:
     - Tan Jun Qi
   event_name: RubyConf MY 2017
@@ -232,7 +217,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: IbyPipTH1r0
-
 - title: "Panel: Ruby Core Team"
   raw_title: Panel Session with Ruby Core Team - RubyConfMY 2017
   speakers:
@@ -241,14 +225,12 @@
   event_name: RubyConf MY 2017
   date: "2017-10-13"
   published_at: "TODO"
-  description:
-    "Panelists:\n\n- Akira Matsuda (@amatsuda) \n- Aaron Patterson (@tenderlove)\n\nWebsite:
-    http://rubyconf.my\n\nProduced by Engineers.SG"
+  description: "Panelists:\n\n- Akira Matsuda (@amatsuda) \n- Aaron Patterson (@tenderlove)\n\nWebsite: http://rubyconf.my\n\nProduced by Engineers.SG"
   video_provider: youtube
   video_id: YpN6NLAcr4k
-
+#
 # Catered Lunch
-
+#
 - title: "Lightning Talk: Best Practices Of SVG On Ruby On Rails"
   raw_title: Best Practices Of SVG On Ruby On Rails - RubyConfMY 2017
   speakers:
@@ -265,7 +247,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: 56nmrNACyqw
-
 - title: "Lightning Talk: Civic Coding In Ruby"
   raw_title: Civic Coding In Ruby - RubyConfMY 2017
   speakers:
@@ -281,7 +262,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: j88kBP8CsJo
-
 - title: "Lightning Talk: Multiple Backend DBs In A Rails Application"
   raw_title: Multiple Backend DBs In A Rails Application - RubyConfMY 2017
   speakers:
@@ -297,7 +277,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: rJO9rPTkL38
-
 - title: "Lightning Talk: One Blind Weekend"
   raw_title: One Blind Weekend - RubyConfMY 2017
   speakers:
@@ -313,7 +292,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: 4x9qPgMsBfo
-
 - title: "Lightning Talk: What About Ruby on Rails? ... From A PHP Guy"
   raw_title: What About Ruby On Rails? ... From A PHP Guy - RubyConfMY 2017
   speakers:
@@ -329,7 +307,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: WdSEVwy9-eo
-
 - title: "Lightning Talk: Programming Like An Athlete"
   raw_title: Programming Like An Athlete - RubyConfMY 2017
   speakers:
@@ -345,9 +322,9 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: 15VckGvwSOY
-
+#
 # Tea Break
-
+#
 - title: Chasing Pandas
   raw_title: Chasing Pandas - RubyConfMY 2017
   speakers:
@@ -363,7 +340,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: "-voFRSPT1F0"
-
 - title: "Keynote: Exploring Memory in Ruby - Building a Compacting GC"
   raw_title: "Keynote: Exploring Memory in Ruby - Building a Compacting GC - RubyConfMY 2017"
   speakers:
@@ -380,5 +356,4 @@
   video_provider: youtube
   video_id: Kgi0MwWQgDE
 # After Party by GitHub
-
 # Pubcrawl by Umai

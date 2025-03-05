@@ -1,21 +1,15 @@
 ---
+#
 # Website: https://2024.rubyconf.au
 # Schedule: https://2024.rubyconf.au/schedule/#Schedule
-
 ## Day 0 - Wednesday - 2024-04-10
-
 # Ruby In Common Unconference @ Microsoft Reactor
-
 # Welcome and Pre-Registration @ Squire's Landing
-
 # WNB.rb Meetup @ Artsicle
-
 ## Day 1 - Thursday - 2024-04-11
-
 # Registration & Coffee Open
-
 # Conference Welcome
-
+#
 - title: Long Journey of Ruby Standard Library
   raw_title: Hiroshi Shibata - Long journey of Ruby standard library
   speakers:
@@ -31,7 +25,6 @@
     In this presentation, I will explain how Ruby's `require` and `bundle exec` work with default/bundled gems. I will also suggest what users can do to load them successfully.
   video_provider: youtube
   video_id: HB_Qa1sE2kM
-
 - title: Magic is Ruby, Ruby is Magic!
   raw_title: Ryan Bigg - Magic is Ruby, Ruby is Magic!
   speakers:
@@ -45,9 +38,9 @@
     Can we write a Ruby app to simulate games of Magic: The Gathering? This is the story of one man's attempt to do just that.
   video_provider: youtube
   video_id: btIbue1JkA0
-
+#
 # Morning Tea
-
+#
 - title: "Scaling Ruby Applications: Challenges, Solutions and Best Practices"
   raw_title: "Dmitry Sadovnikov - Scaling Ruby Applications: Challenges, Solutions and Best Practices"
   speakers:
@@ -67,7 +60,6 @@
     This presentation aims to help you navigate the complexities of scaling Ruby applications, saving both time and resources in your operations.
   video_provider: youtube
   video_id: iBhCEvFR6zk
-
 - title: What I Learned From A Clown About Engineering Culture
   raw_title: Georgina Robilliard & Stefan Bramble - What I learned from a clown about engineering culture
   speakers:
@@ -76,20 +68,12 @@
   event_name: RubyConf AU 2024
   date: "2024-04-11"
   published_at: "TODO"
-  description:
-    Culture is complex. Startups grow. So how do we build an effective
-    organisation that gets shit done, and the people doing the work love what they
-    do and where they work. We know a secret! It came from a clown, and is backed
-    up by the science. It’s a word we have lost the true meaning of.. it’s play. Come
-    and listen to how a head of people and a clown helped co-create a company culture
-    grounded in play that navigated the waters of remote working, global expansion
-    and high growth… while the world was going through some things. This talk is going
-    to be weird, fun and above all super useful.
+  description: Culture is complex. Startups grow. So how do we build an effective organisation that gets shit done, and the people doing the work love what they do and where they work. We know a secret! It came from a clown, and is backed up by the science. It’s a word we have lost the true meaning of.. it’s play. Come and listen to how a head of people and a clown helped co-create a company culture grounded in play that navigated the waters of remote working, global expansion and high growth… while the world was going through some things. This talk is going to be weird, fun and above all super useful.
   video_provider: youtube
   video_id: YRhFZG6mX5g
-
+#
 # Lunch
-
+#
 - title: Advanced HTML for Performance & Accessibility
   raw_title: Mandy Michael - Advanced HTML for Performance & Accessibility
   speakers:
@@ -105,7 +89,6 @@
     All by using a technology we are already use day to day, but just using it better than we were before. At the end of the talk you'll be able to make things more useful and usable, not just for performance and accessibility but for our users and different technologies as well.
   video_provider: youtube
   video_id: Qv8hjid6WDI
-
 - title: Reconstructing Taiwan’s Internet-Based Party Politics
   raw_title: Mu Fan Teng - Reconstructing Taiwan’s Internet-Based Party Politics
   speakers:
@@ -121,7 +104,6 @@
     In this session, I will explore the process of revamping an outdated Rails application, lacking in testing and specification documentation, with the new Ruby 3 and Rails 7. This will include code refactoring, selecting the Runtime Stack, and integrating automated deployment processes using Ruby-based tools. I will also share practical experiences and reflections on integrating data from old and new versions and relaunching the system.
   video_provider: youtube
   video_id: rGBgTCILW3k
-
 - title: Exploring Rails anti-patterns
   raw_title: Elle Meredith - Exploring Rails anti-patterns
   speakers:
@@ -129,17 +111,9 @@
   event_name: RubyConf AU 2024
   date: "2024-04-11"
   published_at: "TODO"
-  description:
-    Is your Rails app sluggish? Does its performance suffer? Even with
-    the best intentions, Rails applications can become littered with anti-patterns
-    that negatively affect developer velocity, code clarity, and maintenance. Following
-    a few simple patterns and strategies, you can transform your Rails application
-    code to become more robust and functional. One that will be easier to extend and
-    maintain. This talk will explore anti-patterns in practice and suggest fixes to
-    ensure your Rails project is a success.
+  description: Is your Rails app sluggish? Does its performance suffer? Even with the best intentions, Rails applications can become littered with anti-patterns that negatively affect developer velocity, code clarity, and maintenance. Following a few simple patterns and strategies, you can transform your Rails application code to become more robust and functional. One that will be easier to extend and maintain. This talk will explore anti-patterns in practice and suggest fixes to ensure your Rails project is a success.
   video_provider: youtube
   video_id: Ndn49iqnzn8
-
 - title: One does not simply... rebuild a product
   raw_title: Prakriti Mateti - One does not simply... rebuild a product
   speakers:
@@ -157,9 +131,9 @@
     That wasn't challenging enough already I'm also using this opportunity to rebuild our engineering culture. Setting a high bar for engineering standards, ways of working, and hoping to improve engagement as we go.
   video_provider: youtube
   video_id: NHIeIQtel7E
-
+#
 # Afternoon Tea
-
+#
 - title: "Concurrency Showdown: Threads vs. Fibers"
   raw_title: "Vishwajeetsingh Desurkar & Ishani Trivedi - Concurrency Showdown: Threads vs. Fibers"
   speakers:
@@ -168,18 +142,9 @@
   event_name: RubyConf AU 2024
   date: "2024-04-11"
   published_at: "TODO"
-  description:
-    Our conference talk explores the subtle yet impactful enhancements
-    in concurrency in Ruby 3.0. Through optimized Global VM Lock handling, upgraded
-    fiber scheduling, and language improvements, we will demonstrate how these enhancements
-    profoundly influence parallel tasks and boost efficiency in concurrent Ruby applications.
-    Attendees will gain insights into the interplay between Ruby's language upgrades
-    and concurrency optimizations, empowering them with effective strategies to maximize
-    performance. Join us for a comprehensive understanding of concurrency in Ruby
-    3.0's models and their real-world impact.
+  description: Our conference talk explores the subtle yet impactful enhancements in concurrency in Ruby 3.0. Through optimized Global VM Lock handling, upgraded fiber scheduling, and language improvements, we will demonstrate how these enhancements profoundly influence parallel tasks and boost efficiency in concurrent Ruby applications. Attendees will gain insights into the interplay between Ruby's language upgrades and concurrency optimizations, empowering them with effective strategies to maximize performance. Join us for a comprehensive understanding of concurrency in Ruby 3.0's models and their real-world impact.
   video_provider: youtube
   video_id: kU22NJq1sS0
-
 - title: Ruby on the Modern JVM with JRuby
   raw_title: Charles Nutter - Ruby on the Modern JVM with JRuby
   speakers:
@@ -187,26 +152,16 @@
   event_name: RubyConf AU 2024
   date: "2024-04-11"
   published_at: "TODO"
-  description:
-    JRuby has been the go-to option for high performance, scalable Ruby
-    applications for over a decade, bringing world-class garbage collection, jit compilation,
-    and concurrency to Ruby and Rails developers. With the release of Java 22, we
-    now have true native fibers, fast native function and memory support, and fast
-    startup and warm up are on the horizon. This talk will show you how to get started
-    with JRuby and why it's so exciting for the Ruby community.
+  description: JRuby has been the go-to option for high performance, scalable Ruby applications for over a decade, bringing world-class garbage collection, jit compilation, and concurrency to Ruby and Rails developers. With the release of Java 22, we now have true native fibers, fast native function and memory support, and fast startup and warm up are on the horizon. This talk will show you how to get started with JRuby and why it's so exciting for the Ruby community.
   video_provider: youtube
   video_id: rVUzQGv-icc
-
+#
 # Close
-
 # Manly Adventure @ Manly Wharf Bar
-
 ## Day 2 - Friday - 2024-04-12
-
 # Registration & Coffee Open
-
 # Welcome
-
+#
 - title: "Data Unleashed: A Developer's Perspective on Navigating the Architecture Maze"
   raw_title: "Bronwen Zande - Data Unleashed: A Developer's Perspective on Navigating the Architecture Maze"
   speakers:
@@ -222,7 +177,6 @@
   video_id: ZEqsdfa5Z78
   thumbnail_lg: https://i3.ytimg.com/vi/ZEqsdfa5Z78/mqdefault.jpg
   thumbnail_xl: https://i3.ytimg.com/vi/ZEqsdfa5Z78/mqdefault.jpg
-
 - title: Mapping Concepts Into Code
   raw_title: Chris Oliver - Mapping Concepts Into Code
   speakers:
@@ -238,9 +192,9 @@
   video_id: DF6hZVHQTjo
   thumbnail_lg: https://i3.ytimg.com/vi/DF6hZVHQTjo/mqdefault.jpg
   thumbnail_xl: https://i3.ytimg.com/vi/DF6hZVHQTjo/mqdefault.jpg
-
+#
 # Morning Tea
-
+#
 - title: "Junior Gems: Hiring, Valuing, and Empowering the Next Wave of Ruby Developers"
   raw_title: "Kieran Andrews - Junior Gems: Hiring, Valuing, and Empowering the Next Wave of Ruby Developers"
   speakers:
@@ -258,7 +212,6 @@
     And here’s a twist: this journey isn’t just about the juniors. It’s a fantastic opportunity for your senior members to level up as well, evolving into mentors and leaders. My talk isn’t just a guide; it's a story of growth, learning, and collective success. Let’s explore how junior developers can be your team’s next great asset.
   video_provider: youtube
   video_id: YAMEgkLKafA
-
 - title: A Software Developer's Guide to Launching Your Own Product
   raw_title: Tash Postolovski - A Software Developer's Guide to Launching Your Own Product
   speakers:
@@ -266,15 +219,9 @@
   event_name: RubyConf AU 2024
   date: "2024-04-12"
   published_at: "TODO"
-  description:
-    This talk focuses on practical, step-by-step instructions to help full-time
-    software developers start their own product business on the side. Whether you
-    have a product idea or are still looking, this talk will take you through the
-    process of coming up with an idea, testing it, building it, and finding your first
-    paying customers.
+  description: This talk focuses on practical, step-by-step instructions to help full-time software developers start their own product business on the side. Whether you have a product idea or are still looking, this talk will take you through the process of coming up with an idea, testing it, building it, and finding your first paying customers.
   video_provider: youtube
   video_id: abifIOByKuU
-
 - title: Threads, callbacks, and execution context in Ruby
   raw_title: Andrew Novikov - Threads, callbacks, and execution context in Ruby
   speakers:
@@ -288,9 +235,9 @@
     Ruby programmers usually don't need to think much about blocks… until they have to. As a contributor to Ruby gems that have callback-based API for developers, I've found that internal implementation details of these gems affects how these callbacks are executed and resulting behavior can be quite surprising sometimes, and I think that good Ruby developer should know inner workings of blocks to better understand execution flow of complex Ruby programs.
   video_provider: youtube
   video_id: y4e_sXubhyI
-
+#
 # Lunch
-
+#
 - title: Retinas on Rails! - Eye spy with my little eye Macuject
   raw_title: Bianca Power & Bradley Beddoes - Retinas on Rails! - Eye spy with my little eye Macuject
   speakers:
@@ -310,7 +257,6 @@
     What do you call a Deer with no eyes? We have no Eye-Deer, but we look forward to seeing you at our talk!
   video_provider: youtube
   video_id: lrc1D6hiQRw
-
 - title: Scaling Redis writes with cluster mode
   raw_title: KJ Tsanaktsidis - Scaling Redis writes with cluster mode
   speakers:
@@ -329,11 +275,10 @@
     Redis Cluster should now be a solid choice for your Ruby applications as well!
   video_provider: youtube
   video_id: CBl2zzW-ELQ
-
+#
 # Special Announcements & Surprise Session
-
 # Afternoon Tea
-
+#
 - title: Lessons From A Rails Infrastructure Team
   raw_title: Maple Ong - Lessons From A Rails Infrastructure Team
   speakers:
@@ -347,7 +292,6 @@
     Let’s talk about the responsibilities and philosophy behind such a team. These learnings are from working on a team that supports 400+ engineers at one of the largest Rails applications. You’ll get some insight on what our team does in order to ensure a Rails application scales with its growth. Spoiler: There’s more to just enforcing Rubocop rules!
   video_provider: youtube
   video_id: DWwm9d1NG58
-
 - title: Giving My Wife a Voice with Ruby and AI Cloning (+ Discussion on The AI and Ruby Landscape)
   raw_title: Kane Hooper - Giving my wife a voice with Ruby and AI cloning (+ discussion)
   speakers:
@@ -362,7 +306,5 @@
   video_provider: youtube
   video_id: bkOpAXrzEls
 ## Day 3 - Saturday - 2024-04-13
-
 # Rails Girls Sydney
-
 # Casual Coffee

@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: Real Software Engineering
   raw_title: Lone Star Ruby Conference 2010 Real Software Engineering by Glenn Vanderburg
   speakers:
@@ -11,21 +12,9 @@
   event_name: LoneStarRuby Conf 2010
   date: "2010-08-26"
   published_at: "TODO"
-  description:
-    "Software engineering as it's taught in universities simply doesn't
-    work. It doesn't produce software systems of high quality, and it doesn't produce
-    them for low cost. Sometimes, even when practiced rigorously, it doesn't produce
-    systems at all.\n\nThat's odd, because in every other field, the term \"engineering\"\x9D
-    is reserved for methods that work.\n\nWhat then, does real software engineering
-    look like? How can we consistently deliver high-quality systems to our customers
-    and employers in a timely fashion and for a reasonable cost? In this session,
-    we'll discuss where software engineering went wrong, and build the case that disciplined
-    Agile methods, far from being \"anti-engineering\" (as they are often described),
-    actually represent the best of engineering principles applied to the task of software
-    development."
+  description: "Software engineering as it's taught in universities simply doesn't work. It doesn't produce software systems of high quality, and it doesn't produce them for low cost. Sometimes, even when practiced rigorously, it doesn't produce systems at all.\n\nThat's odd, because in every other field, the term \"engineering\"\x9D is reserved for methods that work.\n\nWhat then, does real software engineering look like? How can we consistently deliver high-quality systems to our customers and employers in a timely fashion and for a reasonable cost? In this session, we'll discuss where software engineering went wrong, and build the case that disciplined Agile methods, far from being \"anti-engineering\" (as they are often described), actually represent the best of engineering principles applied to the task of software development."
   video_provider: youtube
   video_id: NP9AIUT9nos
-
 - title: "Seven Languages in Seven Weeks"
   raw_title: "LoneStarRuby Conf 2010 - Seven Languages in Seven Weeks by: Bruce Tate"
   speakers:
@@ -36,7 +25,6 @@
   description: ""
   video_provider: youtube
   video_id: jBoU1JpFVIg
-
 - title: "Keynote"
   raw_title: "LoneStarRuby Conf 2010 - Keynote Address by: Tom Preston-Werner"
   speakers:
@@ -47,7 +35,6 @@
   description: ""
   video_provider: youtube
   video_id: hwvMR-943qw
-
 - title: "Grease your Suite: Tips and Tricks for Faster Testing"
   raw_title: "LoneStarRuby Conf 2010 - Grease your Suite: Tips and Tricks for Faster Testing by: Nick Gauthier"
   speakers:
@@ -58,7 +45,6 @@
   description: ""
   video_provider: youtube
   video_id: mMp-nTDyP8M
-
 - title: "JSON and the Argonauts - Building Mashups with Ruby"
   raw_title: "LoneStarRuby Conf 2010 - JSON and the Argonauts - Building Mashups with Ruby by: Wynn Netherland"
   speakers:
@@ -69,7 +55,6 @@
   description: ""
   video_provider: youtube
   video_id: 8ojICo5cyUE
-
 - title: "Components in a Monolithic World"
   raw_title: "LoneStarRuby Conf 2010 - Components in a Monolithic World by: Nick Sutterer, Kevin Triplett"
   speakers:
@@ -81,7 +66,6 @@
   description: ""
   video_provider: youtube
   video_id: jqtgQQAS4fg
-
 - title: "Beehive, Scalable Application Deployment"
   raw_title: "LoneStarRuby Conf 2010 - Beehive, scalable application deployment by: Ari Lerner"
   speakers:
@@ -97,7 +81,6 @@
     In this talk, I'll introduce Beehive, a new open-source application deployment framework helps address this problem. We'll discuss why it was developed, how it works and how to use it. Without introducing any new tools, application developers can deploy their applications with a single command git push. Written primarily in ruby, c and erlang, Beehive can run on any hardware supported by the erlang vm. It's written to be entirely distributed, fault-tolerant and maintain high availability for applications.
   video_provider: youtube
   video_id: fHO3K0FSWHs
-
 - title: "Battle of NoSQL stars: Amazon's SDB vs Mongoid vs CouchDB vs RavenDB"
   raw_title: "LoneStarRuby Conf 2010 - Battle of NoSQL stars: Amazon's SDB vs Mongoid vs CouchDB vs RavenDB"
   speakers:
@@ -115,7 +98,6 @@
     Deploy an example application using Rails 3 and Mongoid to see how CRUD differs from your MySQL and Postgres installs.
   video_provider: youtube
   video_id: NTJ8H9lrbzs
-
 - title: "Rails' Next Top Model: Using ActiveModel and ActiveRelation"
   raw_title: "LoneStarRuby Conf 2010 - Rails' Next Top Model: Using ActiveModel and ActiveRelation by: Adam Keys"
   speakers:
@@ -131,7 +113,6 @@
     In the end, we'll have a good grasp on the new options for modeling data in Rails 3 and how we can use that to write cleaner apps.
   video_provider: youtube
   video_id: Pu5V0SYbGc8
-
 - title: "Deciphering Yehuda"
   raw_title: "LoneStarRuby Conf 2010 - Deciphering Yehuda by: Gregg Pollack"
   speakers:
@@ -139,19 +120,9 @@
   event_name: LoneStarRuby Conf 2010
   date: "2010-08-26"
   published_at: "TODO"
-  description:
-    "Yehuda Katz has done some great Ruby refactoring for Rails 3 over
-    the past year, but do you really understand what he's done? In this talk, Gregg
-    Pollack will attempt to examine Yehuda's work, identify and deconstruct each
-    programming technique that he's applied, and then teach them in a way that everyone
-    can understand.Some of the techniques to be discussed will include: Method Compilation
-    vs Method Missing, Microkernel Architecture, alias_method_chain vs super, ActiveSupport
-    Concern, Catch/Throw in Bundler, and increased Rack compatibility.Attendees should
-    walk away with a greater understanding of some advanced Ruby design patterns and
-    a better insight into the internals of Rails 3."
+  description: "Yehuda Katz has done some great Ruby refactoring for Rails 3 over the past year, but do you really understand what he's done? In this talk, Gregg Pollack will attempt to examine Yehuda's work, identify and deconstruct each programming technique that he's applied, and then teach them in a way that everyone can understand.Some of the techniques to be discussed will include: Method Compilation vs Method Missing, Microkernel Architecture, alias_method_chain vs super, ActiveSupport Concern, Catch/Throw in Bundler, and increased Rack compatibility.Attendees should walk away with a greater understanding of some advanced Ruby design patterns and a better insight into the internals of Rails 3."
   video_provider: youtube
   video_id: ldxGXxZ1CCI
-
 - title: How to Build a Sustainably Awesome Development Team
   raw_title: LoneStarRuby Conf 2010 - How to Build a Sustainably Awesome Development Team
   speakers:
@@ -163,7 +134,6 @@
   description: "by: Jim Remsik, Les Hill"
   video_provider: youtube
   video_id: jVJr2ja1zRY
-
 - title: "Get Your Facts First, Then You Can Distort Them as You Please"
   raw_title: LoneStarRuby Conf 2010 -  "Get your facts first...
   speakers:
@@ -184,7 +154,6 @@
     Find out why we worked this way, the results we achieved and the specific tools and technologies we use.
   video_provider: youtube
   video_id: lRfY_hhqmHM
-
 - title: "Taking Mongoid into the Future"
   raw_title: "LoneStarRuby Conf 2010 - Taking Mongoid into the Future by: Bernerd Schaefer"
   speakers:
@@ -192,15 +161,9 @@
   event_name: LoneStarRuby Conf 2010
   date: "2010-08-26"
   published_at: "TODO"
-  description:
-    With a growing pool of ORMs innovating in the realm of NoSQL solutions
-    and a new NoSQL database seemingly every week, it can be difficult to decide what
-    is right for your app. We'll talk about the features of MongoDB that make it the
-    best document database, and what's being done to keep Mongoid at the head of the
-    pack as the best NoSQL library of them all.
+  description: With a growing pool of ORMs innovating in the realm of NoSQL solutions and a new NoSQL database seemingly every week, it can be difficult to decide what is right for your app. We'll talk about the features of MongoDB that make it the best document database, and what's being done to keep Mongoid at the head of the pack as the best NoSQL library of them all.
   video_provider: youtube
   video_id: dbID_mUJQnU
-
 - title: TROPO
   raw_title: Lone Star Ruby Conference 2010 -  TROPO by Adam Kalsey
   speakers:
@@ -208,11 +171,9 @@
   event_name: LoneStarRuby Conf 2010
   date: "2010-08-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: "-DB5RJT4pY4"
-
 - title: Recurring Dates
   raw_title: Lone Star Ruby Conference 2010 - Recurring Dates by John Crepezzi
   speakers:
@@ -220,11 +181,9 @@
   event_name: LoneStarRuby Conf 2010
   date: "2010-08-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: dOMW0WcvvRc
-
 - title: The Philosophy of VIM
   raw_title: Lone Star Ruby Conference 2010 - The Philosophy of VIM
   speakers:
@@ -236,7 +195,6 @@
   description: By Jim Remsik & Robert Pitts
   video_provider: youtube
   video_id: 7MeZSkA7l2Y
-
 - title: "Building Fast, Lightweight Data-driven Apps Using The Infochimps API"
   raw_title: Lone Star Ruby Conference 2010 - Building Fast, Lightweight Data-driven Apps...
   speakers:
@@ -247,7 +205,6 @@
   description: By Jesse Crouch
   video_provider: youtube
   video_id: QQIMwp_eY28
-
 - title: Debugging Ruby
   raw_title: Lone Star Ruby Conference 2010 - Debugging Ruby by Aman Gupta
   speakers:
@@ -258,7 +215,6 @@
   description: ""
   video_provider: youtube
   video_id: gEMnwRAUlKE
-
 - title: What Every Ruby Programmer Should Know About Threads
   raw_title: Lone Star Ruby Conference 2010 - What Every Ruby Programmer Should Know About Threads
   speakers:
@@ -269,7 +225,6 @@
   description: By Caleb Clausen
   video_provider: youtube
   video_id: kbYRbQVShxE
-
 - title: OPENVOICE
   raw_title: Lone Star Ruby Conference 2010 - OPENVOICE @LSRC by Zhao Lu
   speakers:
@@ -280,7 +235,6 @@
   description: ""
   video_provider: youtube
   video_id: FiobTjSskwY
-
 - title: Mobile Value Added Service (VAS)
   raw_title: Lone Star Ruby Conference 2010 - Mobile Value Added Service (VAS) by Gautam Rege
   speakers:
@@ -291,7 +245,6 @@
   description: ""
   video_provider: youtube
   video_id: 3hdUN00DEWE
-
 - title: Tropo
   raw_title: Lone Star Ruby Conference 2010 - Tropo by Jason Goecke
   speakers:
@@ -302,7 +255,6 @@
   description: ""
   video_provider: youtube
   video_id: 4sSoGAfpQ0s
-
 - title: "Closing Keynote"
   raw_title: Lone Star Ruby Conference 2010 - Closing Keynote by Blake Mizerany
   speakers:
@@ -313,7 +265,6 @@
   description: ""
   video_provider: youtube
   video_id: LsTzE0BPybE
-
 - title: "Awesome Command Line Applications in Ruby"
   raw_title: Lone Star Ruby Conference 2010 - Awesome Command Line Applications in Ruby
   speakers:
@@ -324,7 +275,6 @@
   description: By David Copeland
   video_provider: youtube
   video_id: fJjRewOcjgM
-
 - title: "Less-Dumb Fuzzing & Ruby Metaprogramming"
   raw_title: Lone Star Ruby Conference 2010 - Less-Dumb Fuzzing & Ruby Metaprogramming
   speakers:
@@ -335,7 +285,6 @@
   description: By Nephi Johnson
   video_provider: youtube
   video_id: jl5633Y9NQk
-
 - title: No Sudo For You
   raw_title: Lone Star Ruby Conference 2010 - NO SUDO FOR YOU by Rogelio J. Samour
   speakers:
@@ -346,7 +295,6 @@
   description: ""
   video_provider: youtube
   video_id: rh2DOYbnh98
-
 - title: Padrino The Elegant Web Framework
   raw_title: Lone Star Ruby Conference 2010 - Padrino The Elegant Web Framework by Joshua Hull
   speakers:
@@ -354,11 +302,9 @@
   event_name: LoneStarRuby Conf 2010
   date: "2010-08-26"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: XUMcW2sHiOo
-
 - title: "Getting Started With C++ Extensions"
   raw_title: Lone Star Ruby Conference 2010 - Getting Started With C++ Extensions
   speakers:
@@ -368,6 +314,5 @@
   published_at: "TODO"
   description: |-
     By Charles Cornell
-
   video_provider: youtube
   video_id: oV2DyYaXAWo

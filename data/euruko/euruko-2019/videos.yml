@@ -1,9 +1,9 @@
 ---
+#
 # Website: https://2019.euruko.org
 # Schedule: https://2019.euruko.org/#schedule
-
 ## Day 1 - Friday, June 21
-
+#
 - title: "Keynote: Functional Future Ruby by Yukihiro Matsumoto"
   raw_title: "EuRuKo 2019 Keynote: Functional Future Ruby by Yukihiro Matsumoto"
   speakers:
@@ -18,7 +18,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: DC05C-UT3QQ
-
 - title: "From multiple apps to Monolith"
   raw_title: "From multiple apps to Monolith by Kaja Santro"
   speakers:
@@ -35,7 +34,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: V6oBzmVAhl0
-
 - title: "Surrounded by Microservices"
   raw_title: "Surrounded by Microservices by Damir Svrtan"
   speakers:
@@ -52,7 +50,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: L7Q2e0i2osc
-
 - title: "What causes Ruby memory bloat?"
   raw_title: "What causes Ruby memory bloat? by Hongli Lai"
   speakers:
@@ -69,7 +66,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: JBIN-Hh8wTA
-
 - title: "Using Pokemon To Catch All Code Smells"
   raw_title: "using Pokemon to catch all code smells by Melanie Keatley"
   speakers:
@@ -86,7 +82,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: BeATptdwNSw
-
 - title: "A journey to MRuby on LEGO robots"
   raw_title: "A journey to MRuby on LEGO robots by Torsten Schönebaum"
   speakers:
@@ -103,7 +98,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: 54v7kMzVAW8
-
 - title: "A gentle introduction to Data Structure Trees"
   raw_title: "A gentle introduction to Data Structure Trees by Ashley Jean"
   speakers:
@@ -120,7 +114,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: BfZHmzMnPmM
-
 - title: "Keynote: The Miseducation of This Machine by Laura Linda Laugwitz"
   raw_title: "EuRuKo 2019 Keynote: The Miseducation of This Machine by Laura Linda Laugwitz"
   speakers:
@@ -128,18 +121,12 @@
   event_name: EuRuKo 2019
   date: "2019-06-21"
   published_at: "2021-01-11"
-  description:
-    "Closing keynote: The Miseducation of This Machine \n\nWhile machines
-    continue to learn with more sophisticated algorithms and larger amounts of data,
-    humans need to understand how such learning works in order to take its results
-    with the proper grain of salt. Let's make ML tangible and thus help you become
-    a better machine teacher!\n\nLaura Linda Laugwitz - https://twitter.com/lauralindal\nEuRuKo
-    2019"
+  description: "Closing keynote: The Miseducation of This Machine \n\nWhile machines continue to learn with more sophisticated algorithms and larger amounts of data, humans need to understand how such learning works in order to take its results with the proper grain of salt. Let's make ML tangible and thus help you become a better machine teacher!\n\nLaura Linda Laugwitz - https://twitter.com/lauralindal\nEuRuKo 2019"
   video_provider: youtube
   video_id: 1-8J0wfvhrU
-
+#
 ## Day 2 - Saturday, June 22
-
+#
 - title: "Keynote: I Test In Production by Charity Majors"
   raw_title: "EuRuKo 2019 Keynote: I Test In Production by Charity Majors"
   speakers:
@@ -147,17 +134,9 @@
   event_name: EuRuKo 2019
   date: "2019-06-22"
   published_at: "2021-01-19"
-  description:
-    "Keynote: Yes, I Test In Production... And So Should You \n\nTesting
-    in prod has gotten a bad rap. It's both inevitable - you can't know everything
-    before you ship - and desirable. In modern complex systems, failure is a constant
-    and the only guiding principle is that \"users should never notice\". So how do
-    you test safely in prod, and how should you allocate your scarce engineering cycles
-    between prod and staging?\n\nCharity Majors - https://twitter.com/mipsytipsy\nEuRuKo
-    2019"
+  description: "Keynote: Yes, I Test In Production... And So Should You \n\nTesting in prod has gotten a bad rap. It's both inevitable - you can't know everything before you ship - and desirable. In modern complex systems, failure is a constant and the only guiding principle is that \"users should never notice\". So how do you test safely in prod, and how should you allocate your scarce engineering cycles between prod and staging?\n\nCharity Majors - https://twitter.com/mipsytipsy\nEuRuKo 2019"
   video_provider: youtube
   video_id: b2oota_FhGY
-
 - title: "Making Tech Documentation Better, Easier, And Less Boring"
   raw_title: "Making Tech Documentation Better, Easier, And Less Boring by Bilawal Maheed"
   speakers:
@@ -174,7 +153,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: jjVeRxQKTYU
-
 - title: "A Plan towards Ruby 3 Types"
   raw_title: "A Plan towards Ruby 3 Types by Yusuke Endoh"
   speakers:
@@ -191,7 +169,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: 3HB3WGn2LAQ
-
 - title: Lightning Talks
   raw_title: Lightning Talks
   event_name: EuRuKo 2019
@@ -211,7 +188,6 @@
       video_provider: parent
       speakers:
         - Madison White
-
     - title: "Lightning Talk: Zerus & Ona"
       event_name: EuRuKo 2019
       date: "2019-06-22"
@@ -222,7 +198,6 @@
       video_provider: parent
       speakers:
         - Miriam Tocino
-
     - title: "Lightning Talk: NoSuchBucket"
       event_name: EuRuKo 2019
       date: "2019-06-22"
@@ -233,7 +208,6 @@
       video_provider: parent
       speakers:
         - Julik Tarkhanov
-
     - title: "Lightning Talk: search_flip"
       event_name: EuRuKo 2019
       date: "2019-06-22"
@@ -244,7 +218,6 @@
       video_provider: parent
       speakers:
         - Benjamin Vetter
-
     - title: 'Lightning Talk: A "Splash" Course on Live Captioning'
       event_name: EuRuKo 2019
       date: "2019-06-22"
@@ -255,7 +228,6 @@
       video_provider: parent
       speakers:
         - Norma Miller
-
 - title: "The Musical Ruby"
   raw_title: "The musical Ruby by Jan Krutisch"
   speakers:
@@ -272,7 +244,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: D6EIHoSkPYQ
-
 - title: "Steal this talk"
   raw_title: "Steal this talk by Aaron Cruz"
   speakers:
@@ -289,7 +260,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: yiFYRArX6Bo
-
 - title: "Tidying Active Record Allocations"
   raw_title: "Tidying Active Record Allocations by Richard Schneeman"
   speakers:
@@ -305,7 +275,6 @@
     EuRuKo 2019
   video_provider: youtube
   video_id: Aczy01drwkg
-
 - title: "Keynote: The Past, Present, and Future of Rails at GitHub"
   raw_title: "EuRuKo 2019 Keynote: The Past, Present, and Future of Rails at GitHub by Eileen M. Uchitelle"
   speakers:
@@ -315,7 +284,6 @@
   published_at: "2021-01-11"
   description: |-
     Closing keynote: The Past, Present, and Future of Rails at GitHub
-
 
     We'll look at GitHub's story, our Rails upgrade, and how cumulative technical debt can stifle development. At the end we'll explore how we're staying up to date with Rails and our investment in the future of Rails.
 

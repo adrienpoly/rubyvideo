@@ -1,6 +1,7 @@
 ---
+#
 # Website: http://rubymanor.org/harder
-
+#
 - title: "Browser-level testing"
   raw_title: "Browser Testing"
   speakers:
@@ -14,7 +15,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/browser_testing/"
   slides_url: "http://www.slideshare.net/martinkleppmann/browserlevel-testing"
-
 - title: "Short Order Ruby"
   raw_title: "Short Order Ruby"
   speakers:
@@ -28,7 +28,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/short_order_ruby/"
   slides_url: "http://rubymanor.org/harder/videos/short_order_ruby/ben_griffiths_short_order_ruby.key"
-
 - title: "TDD With WebMock"
   raw_title: "TDD With WebMock"
   speakers:
@@ -42,7 +41,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/tdd_with_webmock/"
   slides_url: "http://www.slideshare.net/bartoszblimke/tdd-of-http-clients-with-webmock"
-
 - title: "Gem That"
   raw_title: "Gem That"
   speakers:
@@ -56,7 +54,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/gem_that/"
   slides_url: "http://public.lazyatom.com/gem_that_with_notes.pdf"
-
 - title: "Secrets Of The StdLib"
   raw_title: "Secrets Of The StdLib"
   speakers:
@@ -70,7 +67,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/secrets_of_the_stdlib/"
   slides_url: "http://rubymanor.org/harder/videos/secrets_of_the_stdlib/paul_battley_secrets_of_the_stdlib.pdf"
-
 - title: "Data Visualisation With Ruby"
   raw_title: "Data Visualisation With Ruby"
   speakers:
@@ -84,7 +80,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/data_visualisation_with_ruby/"
   slides_url: "http://github.com/chrislo/data_visualisation_ruby/raw/master/slides.pdf"
-
 - title: "Ruby And Cocoa"
   raw_title: "Ruby And Cocoa"
   speakers:
@@ -98,7 +93,6 @@
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/ruby_and_cocoa/"
   slides_url: "https://jamesmead.org/talks/2009-12-14-ruby-and-cocoa-at-ruby-manor/"
-
 - title: "Denormalizing Rails"
   raw_title: "Denormalizing Rails"
   speakers:
