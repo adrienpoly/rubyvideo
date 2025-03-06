@@ -96,12 +96,14 @@
     Big projects need some custom love. factory_girl, ActiveRecord fixtures and mocha
     demo nice, but sometimes they wear out their welcome in a big code base. How hard
     could it be to do yourself? Let's find out! It might be easier than you think.
-    \n\nTrack yer Big Stuff without screwing up production with Humperdink. With over
+
+    Track yer Big Stuff without screwing up production with Humperdink. With over
     2500 translation keys in one app, we decided to build out some tooling to track
     at runtime what was and wasn't being used so we could prune out the dead stuff.
-    \n\nALL THE ANALOGIES We've all tried to wield the construction analogy to help
+
+    ALL THE ANALOGIES We've all tried to wield the construction analogy to help
     figure out what the heck it is we do. Let's get creative and think of 10 other
-    ways that don't quite capture it either.\n\n\n\n
+    ways that don't quite capture it either.
   video_provider: youtube
   video_id: A1kjyQnQhUI
 - title: "Open Source Isn't For Everyone, But It Could Be"
