@@ -48,10 +48,9 @@ jobs:
       - name: Fail when generated changes are not checked-in
         run: |
           git update-index --refresh
-          if ! git diff-index --quiet HEAD --; then
+          git diff-index --quiet HEAD --
+          if [ $? -ne 0 ]; then
             echo "::error::Uncommitted changes detected! This is likely to be fix by running `bin/lint` locally and committing the changes."
-            git status
-            git diff
             exit 1
           fi
 
