@@ -39,11 +39,21 @@ jobs:
       - name: StandardJS Check
         run: yarn lint
 
-      - name: Lint YAML data files
-        run: yarn lint:yml
+      - name: Normalize YAML data files
+        run: bundle exec rails yml:normalize
 
       - name: erb-lint Check
         run: bundle exec erblint --lint-all
+
+      - name: Fail when generated changes are not checked-in
+        run: |
+          git update-index --refresh
+          if ! git diff-index --quiet HEAD --; then
+            echo "::error::Uncommitted changes detected! This is likely to be fix by running `bin/lint` locally and committing the changes."
+            git status
+            git diff
+            exit 1
+          fi
 
   test:
     runs-on: ubuntu-latest
