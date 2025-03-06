@@ -127,7 +127,8 @@
   event_name: Rocky Mountain Ruby 2023
   date: "2023-10-26"
   published_at: "TODO"
-  description: "A series of lightning talks from Rocky Mountain Ruby 2023."
+  description: |-
+    A series of lightning talks from Rocky Mountain Ruby 2023.
   video_provider: youtube
   video_id: lmAPQuUrhFw
   talks:
@@ -201,7 +202,10 @@
   event_name: Rocky Mountain Ruby 2023
   date: "2023-10-26"
   published_at: "TODO"
-  description: "Rocky Mountain Ruby 2023 - Turbo Frames Explored... for Fun and Profit by Jon Sullivan \n\nThe ‘new magic’ came at the end of 2020: ✨Hotwire⚡️: Stimulus, Turbo Streams, Strada, Turbo Drive, and Turbo Frames. Each extremely capable and powerful in its own right, but with a wide spread of functions and some overlaps, it can be tough to see what’s what. Let’s explore just one avenue: Turbo Frames. Let’s see what it can _really_ do."
+  description: |-
+    Rocky Mountain Ruby 2023 - Turbo Frames Explored... for Fun and Profit by Jon Sullivan
+
+    The ‘new magic’ came at the end of 2020: ✨Hotwire⚡️: Stimulus, Turbo Streams, Strada, Turbo Drive, and Turbo Frames. Each extremely capable and powerful in its own right, but with a wide spread of functions and some overlaps, it can be tough to see what’s what. Let’s explore just one avenue: Turbo Frames. Let’s see what it can _really_ do.
   video_provider: youtube
   video_id: bru8S3PttLY
 - title: A blueprint for making scary choices

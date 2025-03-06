@@ -791,7 +791,22 @@
   slides_url: https://speakerdeck.com/nay3/hotwireguang-nodao-tostimulus
   slug: hotwireguang-nodao-tostimulus
   track: Hall Red
-  description: "https://kaigionrails.org/2024/talks/nay/\n\n【発表概要】\n私はここ数年、Hotwireを使ってRailsアプリケーションを開発しています。Hotwireはとても強力な技術ですが、いろいろなことができるからこそ、かえって本質がクリアになっていないという思いを抱き、効果的な設計原則の言語化に努めてきました。Hotwireを使った開発を続ける中で、私の理想とする設計原則「Hotwire光の道」について、さらに言語化が進んできたので、それをご紹介したいと思います。\n\n「Hotwire光の道」の核心は、サーバサイドですべてをコントロールできるようにすることです。今回は、Stimulusの使いこなしを題材に、この設計原則について話していきたいと思います。\n\nStimulusを用いると、クライアント側で動くJavaScriptを、手軽に、ある程度管理しやすい形で書くことができます。しかし、だからこそ、クライアント側にいろいろな処理を書いてしまいがちです。私自身も、開発のなかでうっかり「光の道」から外れて、クライアント側での実装をしてしまっていたことが何回もあります。そういう場合は、後になって道から外れていたことに気づき、リファクタリングをしています。今回のトークでは、そういった具体例を出しながら、Stimulusをどう使うと（または、どう使わないと）Hotwireの良さを活かしたアプリケーションを作れるのかについて、私の考えをご紹介したいと思います。\n\n\n【発表者】\nYasuko Ohba (nay3) \nGitHub https://github.com/nay\n\nKaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。\nhttps://kaigionrails.org/"
+  description: |-
+    https://kaigionrails.org/2024/talks/nay/
+
+    【発表概要】
+    私はここ数年、Hotwireを使ってRailsアプリケーションを開発しています。Hotwireはとても強力な技術ですが、いろいろなことができるからこそ、かえって本質がクリアになっていないという思いを抱き、効果的な設計原則の言語化に努めてきました。Hotwireを使った開発を続ける中で、私の理想とする設計原則「Hotwire光の道」について、さらに言語化が進んできたので、それをご紹介したいと思います。
+
+    「Hotwire光の道」の核心は、サーバサイドですべてをコントロールできるようにすることです。今回は、Stimulusの使いこなしを題材に、この設計原則について話していきたいと思います。
+
+    Stimulusを用いると、クライアント側で動くJavaScriptを、手軽に、ある程度管理しやすい形で書くことができます。しかし、だからこそ、クライアント側にいろいろな処理を書いてしまいがちです。私自身も、開発のなかでうっかり「光の道」から外れて、クライアント側での実装をしてしまっていたことが何回もあります。そういう場合は、後になって道から外れていたことに気づき、リファクタリングをしています。今回のトークでは、そういった具体例を出しながら、Stimulusをどう使うと（または、どう使わないと）Hotwireの良さを活かしたアプリケーションを作れるのかについて、私の考えをご紹介したいと思います。
+
+    【発表者】
+    Yasuko Ohba (nay3)
+    GitHub https://github.com/nay
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
   language: japanese
   video_provider: youtube
   video_id: XWXGucFGZlI

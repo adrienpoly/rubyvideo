@@ -124,7 +124,8 @@
   date: "2024-07-26"
   published_at: "TODO"
   slides_url: https://speakerdeck.com/headius/jruby-ruby-on-the-modern-jvm
-  description: "A talk on JRuby 10 and how we are leaping forward with Ruby 3.4 support, modern JVM features, and next-gen optimizations."
+  description: |-
+    A talk on JRuby 10 and how we are leaping forward with Ruby 3.4 support, modern JVM features, and next-gen optimizations.
   video_id: charles-oliver-nutter-red-dot-ruby-conference-2024
   video_provider: not_published
 - title: "Tight Genes: Intro to Genetic Algorithms"

@@ -121,7 +121,13 @@
   event_name: EuRuKo 2019
   date: "2019-06-21"
   published_at: "2021-01-11"
-  description: "Closing keynote: The Miseducation of This Machine \n\nWhile machines continue to learn with more sophisticated algorithms and larger amounts of data, humans need to understand how such learning works in order to take its results with the proper grain of salt. Let's make ML tangible and thus help you become a better machine teacher!\n\nLaura Linda Laugwitz - https://twitter.com/lauralindal\nEuRuKo 2019"
+  description: |-
+    Closing keynote: The Miseducation of This Machine
+
+    While machines continue to learn with more sophisticated algorithms and larger amounts of data, humans need to understand how such learning works in order to take its results with the proper grain of salt. Let's make ML tangible and thus help you become a better machine teacher!
+
+    Laura Linda Laugwitz - https://twitter.com/lauralindal
+    EuRuKo 2019
   video_provider: youtube
   video_id: 1-8J0wfvhrU
 #
@@ -134,7 +140,13 @@
   event_name: EuRuKo 2019
   date: "2019-06-22"
   published_at: "2021-01-19"
-  description: "Keynote: Yes, I Test In Production... And So Should You \n\nTesting in prod has gotten a bad rap. It's both inevitable - you can't know everything before you ship - and desirable. In modern complex systems, failure is a constant and the only guiding principle is that \"users should never notice\". So how do you test safely in prod, and how should you allocate your scarce engineering cycles between prod and staging?\n\nCharity Majors - https://twitter.com/mipsytipsy\nEuRuKo 2019"
+  description: |-
+    Keynote: Yes, I Test In Production... And So Should You
+
+    Testing in prod has gotten a bad rap. It's both inevitable - you can't know everything before you ship - and desirable. In modern complex systems, failure is a constant and the only guiding principle is that "users should never notice". So how do you test safely in prod, and how should you allocate your scarce engineering cycles between prod and staging?
+
+    Charity Majors - https://twitter.com/mipsytipsy
+    EuRuKo 2019
   video_provider: youtube
   video_id: b2oota_FhGY
 - title: "Making Tech Documentation Better, Easier, And Less Boring"

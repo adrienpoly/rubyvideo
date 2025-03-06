@@ -12,7 +12,8 @@
     - Yukihiro "Matz" Matsumoto
   event_name: Baltic Ruby 2024
   date: "2024-06-13"
-  description: Keynote.
+  description: |-
+    Keynote.
   video_provider: youtube
   video_id: B0kLnbXEO50
 - title: "2,000 Engineers, 2 Million Lines of Code: The History of a Rails Monolith"
@@ -22,7 +23,8 @@
     - Anatoly Mikhaylov
   event_name: Baltic Ruby 2024
   date: "2024-06-13"
-  description: How to scale an application and a team to manage a global business? This presentation summarizes 10 years of experience in a company that has succeeded by keeping Rails in its core.
+  description: |-
+    How to scale an application and a team to manage a global business? This presentation summarizes 10 years of experience in a company that has succeeded by keeping Rails in its core.
   video_provider: youtube
   video_id: LaoeB5nYOnI
 - title: Easy threading with JRuby, is it?
@@ -31,7 +33,8 @@
     - Janis Baiza
   event_name: Baltic Ruby 2024
   date: "2024-06-13"
-  description: Threading is a known issue with MRI due to Global Interpreter Lock. As JRuby uses Java native threads, in theory, this should be easier and much more effective in JRuby. But is it really so?
+  description: |-
+    Threading is a known issue with MRI due to Global Interpreter Lock. As JRuby uses Java native threads, in theory, this should be easier and much more effective in JRuby. But is it really so?
   video_provider: youtube
   video_id: IjRmrwT9dWY
 #
@@ -43,7 +46,8 @@
     - Erica Weistrand
   event_name: Baltic Ruby 2024
   date: "2024-06-13"
-  description: In this talk we'll delve into the web frameworks Rails, Hanami and Sinatra and we'll explain how we try to combine the best out of the frameworks to create web apps at 84codes.
+  description: |-
+    In this talk we'll delve into the web frameworks Rails, Hanami and Sinatra and we'll explain how we try to combine the best out of the frameworks to create web apps at 84codes.
   video_provider: youtube
   video_id: auRaa-iyrTM
 - title: "Pokedex Chronicles: Part 1 - Database Normalisation, Part 2 - Indexes Strike Back"
@@ -52,7 +56,8 @@
     - Mateusz Woźniczka
   event_name: Baltic Ruby 2024
   date: "2024-06-13"
-  description: Step into the world of database mastery with our Pokedex adventure! Embark on a journey to unravel the secrets of normalization and indexing, enhancing data integrity, efficiency and performance along the way!
+  description: |-
+    Step into the world of database mastery with our Pokedex adventure! Embark on a journey to unravel the secrets of normalization and indexing, enhancing data integrity, efficiency and performance along the way!
   video_provider: youtube
   video_id: xa9ixrLU7X4
 - title: Mathematical Programming in Ruby
@@ -61,7 +66,8 @@
     - Tomasz Jóźwik
   event_name: Baltic Ruby 2024
   date: "2024-06-13"
-  description: When using math programming, we can achieve optimal solutions for complex problems by defining them with math equations. We'll try to use this approach in Ruby to solve a real-life problem.
+  description: |-
+    When using math programming, we can achieve optimal solutions for complex problems by defining them with math equations. We'll try to use this approach in Ruby to solve a real-life problem.
   video_provider: youtube
   video_id: rKkvr0wQb2k
 - title: Solid SQLite Apps on Rails
@@ -71,7 +77,8 @@
   event_name: Baltic Ruby 2024
   date: "2024-06-13"
   slides_url: https://speakerdeck.com/fractaledmind/solid-sqlite-apps-on-rails
-  description: Join me to learn how to pair the enhancements to Rails’ SQLite adapter with the suite of Solid libraries to create resilient, high-performance production apps.
+  description: |-
+    Join me to learn how to pair the enhancements to Rails’ SQLite adapter with the suite of Solid libraries to create resilient, high-performance production apps.
   video_provider: youtube
   video_id: _F02oXFSfX8
 #
@@ -87,7 +94,8 @@
     - Samuel Giddins
   event_name: Baltic Ruby 2024
   date: "2024-06-14"
-  description: Keynote.
+  description: |-
+    Keynote.
   video_provider: youtube
   video_id: W21O4i1znLE
 - title: Going back to the BASICs
@@ -96,7 +104,8 @@
     - Jan Krutisch
   event_name: Baltic Ruby 2024
   date: "2024-06-14"
-  description: BASIC was once the most important programming language on home computers. Let's re-implement it in Ruby, learn some history on how computers worked back then and a few tricks along the way.
+  description: |-
+    BASIC was once the most important programming language on home computers. Let's re-implement it in Ruby, learn some history on how computers worked back then and a few tricks along the way.
   video_provider: youtube
   video_id: UEoE87WBLac
 - title: Building native Ruby extensions in Rust
@@ -105,7 +114,8 @@
     - Guilherme Carreiro
   event_name: Baltic Ruby 2024
   date: "2024-06-14"
-  description: When we occasionally reach the limits of Ruby and need the power of native extensions, we no longer have to default to C. It's easier than ever to build production-ready Rust native extensions, bringing the best of both ecosystems together!
+  description: |-
+    When we occasionally reach the limits of Ruby and need the power of native extensions, we no longer have to default to C. It's easier than ever to build production-ready Rust native extensions, bringing the best of both ecosystems together!
   video_provider: youtube
   video_id: "-tM3Npsb2wE"
 #
@@ -137,7 +147,8 @@
     - Radoslav Stankov
   event_name: Baltic Ruby 2024
   date: "2024-06-15"
-  description: Exceptions in production seem like something unavoidable. But does it have to be? I don't think so. If you have the right process and tooling, you can avoid them.
+  description: |-
+    Exceptions in production seem like something unavoidable. But does it have to be? I don't think so. If you have the right process and tooling, you can avoid them.
   video_provider: youtube
   video_id: 4iQHtPrf8wI
 - title: How to build an exchange
@@ -146,7 +157,8 @@
     - Tim Kächele
   event_name: Baltic Ruby 2024
   date: "2024-06-15"
-  description: They say working in finance is boring, but is it really? Let's learn how to build an exchange system in Ruby and solve interesting computer science problems along the way.
+  description: |-
+    They say working in finance is boring, but is it really? Let's learn how to build an exchange system in Ruby and solve interesting computer science problems along the way.
   video_provider: youtube
   video_id: mZzIJ4QpQck
 #
@@ -158,7 +170,8 @@
     - Daniel Magliola
   event_name: Baltic Ruby 2024
   date: "2024-06-15"
-  description: In this talk, I will present a latency-focused approach to managing your queues reliably, keeping your jobs flowing and your users happy.
+  description: |-
+    In this talk, I will present a latency-focused approach to managing your queues reliably, keeping your jobs flowing and your users happy.
   video_provider: youtube
   video_id: U80H3bagJDk
 - title: Refactoring Volatile Views into Cohesive Components
@@ -168,7 +181,8 @@
   event_name: Baltic Ruby 2024
   date: "2024-06-15"
   slides_url: https://speakerdeck.com/jeremysmithco/refactoring-volatile-views-into-cohesive-components
-  description: It's easy for models to grow unwieldy, accumulating methods, attributes, and responsibilities. But views can be even worse. Let's refactor the mess into clean, cohesive components with ViewComponent.
+  description: |-
+    It's easy for models to grow unwieldy, accumulating methods, attributes, and responsibilities. But views can be even worse. Let's refactor the mess into clean, cohesive components with ViewComponent.
   video_provider: youtube
   video_id: 6tPz5_iXK38
 - title: Stories in Open Source
@@ -177,7 +191,8 @@
     - Tobias Pfeiffer
   event_name: Baltic Ruby 2024
   date: "2024-06-15"
-  description: Walk with me through some stories that I experienced in Open Source, the friends made and the lessons learned along the way. Let it help you make your own Open Source contributions!
+  description: |-
+    Walk with me through some stories that I experienced in Open Source, the friends made and the lessons learned along the way. Let it help you make your own Open Source contributions!
   video_provider: youtube
   video_id: C5ZwxCV_-qk
 #
@@ -194,6 +209,7 @@
   kind: interview
   date: "2024-06-15"
   published_at: "2024-11-22"
-  description: "An interview with Yukihiro Matsumoto about Ruby, the community, his profession, and personal life, which he gave at the Baltic Ruby conference in Malmö in 2024."
+  description: |-
+    An interview with Yukihiro Matsumoto about Ruby, the community, his profession, and personal life, which he gave at the Baltic Ruby conference in Malmö in 2024.
   video_provider: youtube
   video_id: iwDJ6zmuI_w

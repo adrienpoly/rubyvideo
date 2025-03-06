@@ -111,7 +111,8 @@
   date: "2024-11-13"
   published_at: "2024-12-10"
   slides_url: https://speakerdeck.com/this_ahmed/compose-software-like-nature-would-rubyconf-2024
-  description: The only constant in software development is change. When our software cannot adapt, it turns into a big ball of mud. It becomes hard to reason about and hard to change. On the other hand, living organisms have the incredible ability to adapt to their environment. Over eons, they evolved innumerable adaptations. Let’s explore together how we can create adaptable, maintainable, and resilient software with some inspiration from nature.
+  description: |-
+    The only constant in software development is change. When our software cannot adapt, it turns into a big ball of mud. It becomes hard to reason about and hard to change. On the other hand, living organisms have the incredible ability to adapt to their environment. Over eons, they evolved innumerable adaptations. Let’s explore together how we can create adaptable, maintainable, and resilient software with some inspiration from nature.
   video_provider: youtube
   video_id: bVBAvCm2mCs
 - title: Ractor on Ruby 3.4
@@ -213,7 +214,8 @@
   track: Supporter Talk
   published_at: "2024-12-10"
   date: "2024-11-13"
-  description: Coordinating hundreds of Ruby developers on dozens of projects can be challenging. Join members of Chimes "I Heart Ruby" team as we discuss some of the ways that we help our teams coordinate their Ruby tooling.
+  description: |-
+    Coordinating hundreds of Ruby developers on dozens of projects can be challenging. Join members of Chimes "I Heart Ruby" team as we discuss some of the ways that we help our teams coordinate their Ruby tooling.
   video_provider: youtube
   video_id: M_MgprNAiHw
 #
@@ -247,7 +249,8 @@
   published_at: "2024-12-10"
   date: "2024-11-13"
   slides_url: https://speakerdeck.com/headius/building-jruby-how-we-implement-ruby-on-the-jvm
-  description: What does it take to build a language runtime on the JVM? This talk will show how we implement JRuby, from Java versions of core classes and native extensions to our parser, compiler, and JIT subsystems. You'll learn how to find and fix bugs, profile Ruby code, and integrate with the many libraries and features of the JVM.
+  description: |-
+    What does it take to build a language runtime on the JVM? This talk will show how we implement JRuby, from Java versions of core classes and native extensions to our parser, compiler, and JIT subsystems. You'll learn how to find and fix bugs, profile Ruby code, and integrate with the many libraries and features of the JVM.
   video_provider: youtube
   video_id: RXOmW82rb3g
 - title: "Plan to Scale or Plan to Fail: An Evidence-Based Approach for Improving Systems Performance"
@@ -276,7 +279,8 @@
   event_name: RubyConf 2024
   published_at: "2024-12-10"
   date: "2024-11-13"
-  description: 2024 marked Ruby Central’s most productive year with work across RubyGems, Bundler, and RubyGems.org. Join us as we explore our major projects over the past year, with a special emphasis on what we’re doing to keep the Ruby ecosystem safe, secure, and delightful to participate in. We’ll finish up by sharing our ambitious plans for the next year, some details about how our open source team works, and give you all the information you need to support us.
+  description: |-
+    2024 marked Ruby Central’s most productive year with work across RubyGems, Bundler, and RubyGems.org. Join us as we explore our major projects over the past year, with a special emphasis on what we’re doing to keep the Ruby ecosystem safe, secure, and delightful to participate in. We’ll finish up by sharing our ambitious plans for the next year, some details about how our open source team works, and give you all the information you need to support us.
   video_provider: youtube
   video_id: yNylJiBI_H0
 - title: "Supporter Talk by reinteractive: Future Proofing your Ruby Stack"
@@ -287,7 +291,8 @@
   track: Supporter Talk
   published_at: "2024-12-10"
   date: "2024-11-13"
-  description: Discussing how current industry trends and product owner expectations effect how we build and maintain our Ruby apps (without compromising).
+  description: |-
+    Discussing how current industry trends and product owner expectations effect how we build and maintain our Ruby apps (without compromising).
   video_provider: youtube
   video_id: u7i_FRWiAf8
 - title: Flattening Recursion with Fibers
@@ -315,7 +320,8 @@
   event_name: RubyConf 2024
   published_at: "2024-12-10"
   date: "2024-11-13"
-  description: An exhaust vent wasn't the only flaw on the Death Star! We'll follow along with a flustered Death Star engineer, Maia, and learn how ideas from the world of chaos engineering could have saved her app from exploitation by the rebels.
+  description: |-
+    An exhaust vent wasn't the only flaw on the Death Star! We'll follow along with a flustered Death Star engineer, Maia, and learn how ideas from the world of chaos engineering could have saved her app from exploitation by the rebels.
   video_provider: youtube
   video_id: __ndB5cGoCo
 - title: "ACIDic Jobs: Scaling a resilient jobs layer"
@@ -325,7 +331,8 @@
   event_name: RubyConf 2024
   published_at: "2024-12-10"
   date: "2024-11-13"
-  description: Background jobs have become an essential component of any Rails app. As your /jobs directory grows, however, how do you both ensure that your jobs are resilient and that complex operations are maintainable and cohesive? In this talk, we will explore how we can build maintainable, resilient, cohesive jobs, all by making our jobs ACIDic.
+  description: |-
+    Background jobs have become an essential component of any Rails app. As your /jobs directory grows, however, how do you both ensure that your jobs are resilient and that complex operations are maintainable and cohesive? In this talk, we will explore how we can build maintainable, resilient, cohesive jobs, all by making our jobs ACIDic.
   video_provider: youtube
   video_id: JrLRFc5D6hI
 - title: Building the Future of Ruby Through Community
@@ -335,7 +342,8 @@
   event_name: RubyConf 2024
   published_at: "2024-12-10"
   date: "2024-11-13"
-  description: Discover how Ruby Europe is creating a stronger Ruby ecosystem by prioritizing community development. Explore real-life examples of how community initiatives have transformed careers, inspired projects, and sparked innovations. See how each of us can play a vital role in shaping the future of Ruby.
+  description: |-
+    Discover how Ruby Europe is creating a stronger Ruby ecosystem by prioritizing community development. Explore real-life examples of how community initiatives have transformed careers, inspired projects, and sparked innovations. See how each of us can play a vital role in shaping the future of Ruby.
   video_provider: youtube
   video_id: EQLl9kV95-M
 - title: "Supporter Talk by Ubicloud: Build a Cloud in Thirteen Years"
@@ -359,7 +367,8 @@
   event_name: RubyConf 2024
   published_at: "2024-12-10"
   date: "2024-11-13"
-  description: Delegate methods are methods that take any parameters, and pass those parameters on to other methods. It may not seem like it, but this is an extremely common pattern in Ruby code. In this session, we’re going to learn how Ruby method calls work, how inline caches work, and how we can use the combination of this knowledge to optimize delegate methods.
+  description: |-
+    Delegate methods are methods that take any parameters, and pass those parameters on to other methods. It may not seem like it, but this is an extremely common pattern in Ruby code. In this session, we’re going to learn how Ruby method calls work, how inline caches work, and how we can use the combination of this knowledge to optimize delegate methods.
   video_provider: youtube
   video_id: jexSQUfKnlI
 - title: "The Mutation Game: Cracking the Enigma of Mutation Testing"

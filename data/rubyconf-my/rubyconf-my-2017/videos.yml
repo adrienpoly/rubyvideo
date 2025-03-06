@@ -225,7 +225,15 @@
   event_name: RubyConf MY 2017
   date: "2017-10-13"
   published_at: "TODO"
-  description: "Panelists:\n\n- Akira Matsuda (@amatsuda) \n- Aaron Patterson (@tenderlove)\n\nWebsite: http://rubyconf.my\n\nProduced by Engineers.SG"
+  description: |-
+    Panelists:
+
+    - Akira Matsuda (@amatsuda)
+    - Aaron Patterson (@tenderlove)
+
+    Website: http://rubyconf.my
+
+    Produced by Engineers.SG
   video_provider: youtube
   video_id: YpN6NLAcr4k
 #

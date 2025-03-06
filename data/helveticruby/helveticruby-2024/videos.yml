@@ -29,7 +29,8 @@
   date: "2024-05-17"
   published_at: "TODO"
   slides_url: https://helvetic-ruby.ch/2024/presentations/main_talks/Katie_Miller_The_Boring_Bits_Bite_Back.pdf
-  description: Big is better right? Big data, big features, big customers. With those big customers comes requests for big acronyms like SAML, SCIM and RBAC. Getting those implemented depends on a strong foundation. The boring bits that were glossed over when building the company. Users, Accounts, Authorization, Billing… We can prevent heartache, tech debt and stress by getting a handle on them early on. I’ll talk about how to think about these basics as you go without overthinking it so hopefully you spend less time re-building the basics and more time creating products that wow people.
+  description: |-
+    Big is better right? Big data, big features, big customers. With those big customers comes requests for big acronyms like SAML, SCIM and RBAC. Getting those implemented depends on a strong foundation. The boring bits that were glossed over when building the company. Users, Accounts, Authorization, Billing… We can prevent heartache, tech debt and stress by getting a handle on them early on. I’ll talk about how to think about these basics as you go without overthinking it so hopefully you spend less time re-building the basics and more time creating products that wow people.
   video_provider: youtube
   video_id: 6g5phlssviM
 - title: Lessons learned from running Rails apps on-premise

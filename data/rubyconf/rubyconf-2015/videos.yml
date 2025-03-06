@@ -611,7 +611,8 @@
   event_name: RubyConf 2015
   date: "2015-11-22"
   published_at: "TODO"
-  description: "Keynote and Q&A: Matz"
+  description: |-
+    Keynote and Q&A: Matz
   video_provider: youtube
   video_id: LE0g2TUsJ4U
 - title: The Seven Righteous Fights
@@ -877,7 +878,12 @@
   event_name: RubyConf 2015
   date: "2015-11-23"
   published_at: "TODO"
-  description: "Beating Go thanks to the power of randomness by Tobias Pfeiffer \n\nGo is a board game that is more than 2,500 years old (yes, this is not about the programming language!) and it is fascinating from multiple viewpoints. For instance, go bots still can’t beat professional players, unlike in chess.\n\nThis talk will show you what is so special about Go that computers still can’t beat humans. We will take a look at the most popular underlying algorithm and show you how the Monte Carlo method, basically random simulation, plays a vital role in conquering Go's complexity and creating the strong Go bots of today.\n\n"
+  description: |-
+    Beating Go thanks to the power of randomness by Tobias Pfeiffer
+
+    Go is a board game that is more than 2,500 years old (yes, this is not about the programming language!) and it is fascinating from multiple viewpoints. For instance, go bots still can’t beat professional players, unlike in chess.
+
+    This talk will show you what is so special about Go that computers still can’t beat humans. We will take a look at the most popular underlying algorithm and show you how the Monte Carlo method, basically random simulation, plays a vital role in conquering Go's complexity and creating the strong Go bots of today.
   video_provider: youtube
   video_id: fFGB3VFuSFU
 - title: Why Is Nobody Using Refinements?
@@ -927,7 +933,10 @@
   event_name: RubyConf 2015
   date: "2015-11-23"
   published_at: "TODO"
-  description: "The Hitchhiker's Guide to Ruby GC by Eric Weinstein \n\nWhen Ruby programs slow down, the usual culprits—database queries, superlinear time complexity—aren't always the real problem. Ruby's object space and garbage collection are a surprisingly rich and oft-misunderstood area of the language, and one where performance issues can easily hide. This talk is a brief but deep dive into the history and details of garbage collection in Ruby, including its evolution, parameter tuning, and a case study using the Unicorn web server.\n\n"
+  description: |-
+    The Hitchhiker's Guide to Ruby GC by Eric Weinstein
+
+    When Ruby programs slow down, the usual culprits—database queries, superlinear time complexity—aren't always the real problem. Ruby's object space and garbage collection are a surprisingly rich and oft-misunderstood area of the language, and one where performance issues can easily hide. This talk is a brief but deep dive into the history and details of garbage collection in Ruby, including its evolution, parameter tuning, and a case study using the Unicorn web server.
   video_provider: youtube
   video_id: NnqId_OvUU4
 - title: Botany with Bytes

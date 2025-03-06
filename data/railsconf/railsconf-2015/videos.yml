@@ -12,7 +12,8 @@
   event_name: RailsConf 2015
   date: "2015-04-30"
   published_at: "TODO"
-  description: By, David Heinemeier Hansson
+  description: |-
+    By, David Heinemeier Hansson
   video_provider: youtube
   video_id: KJVTM7mE1Cc
 - title: Leveraging Microsoft Azure from Ruby
@@ -695,7 +696,9 @@
   event_name: RailsConf 2015
   date: "2015-05-07"
   published_at: "TODO"
-  description: "By, Jaime Lyn Schatz \nWhen Voldemort and his forces threatened us all, two of the three wizards (and witch) who led his defeat were not raised in the magical world. Schools like Hogwarts can help us identify and train those with innate magical talents and interests whom we might otherwise never discover. But how to find and teach those beyond the reach of our owls? This talk explores our options and will serve as a call to action for the Magical world. As we will see, these challenges are almost magically mirrored by the Rails community as we seek to find and train developers from non-traditional paths."
+  description: |-
+    By, Jaime Lyn Schatz
+    When Voldemort and his forces threatened us all, two of the three wizards (and witch) who led his defeat were not raised in the magical world. Schools like Hogwarts can help us identify and train those with innate magical talents and interests whom we might otherwise never discover. But how to find and teach those beyond the reach of our owls? This talk explores our options and will serve as a call to action for the Magical world. As we will see, these challenges are almost magically mirrored by the Rails community as we seek to find and train developers from non-traditional paths.
   video_provider: youtube
   video_id: ZHlEw0ZYStY
 - title: "Crossing the Canyon of Cognizance: A Shared Adventure"
@@ -1020,7 +1023,10 @@
   event_name: RailsConf 2015
   date: "2015-05-13"
   published_at: "TODO"
-  description: "by Chandra Carney \n\nWhat does accessibility entail as it is related to the web? Most developers don't consider that someone with visual impairments may use the web and don't think about what this experience may be like for someone who has a visual impairment. The current trend is to push access-driven design to the end of feature building, but we will explore why this needs to be a top priority."
+  description: |-
+    by Chandra Carney
+
+    What does accessibility entail as it is related to the web? Most developers don't consider that someone with visual impairments may use the web and don't think about what this experience may be like for someone who has a visual impairment. The current trend is to push access-driven design to the end of feature building, but we will explore why this needs to be a top priority.
   video_provider: youtube
   video_id: lmbT-QyCTZM
 - title: "Metasecurity: Beyond Patching Vulnerabilities"
@@ -1182,7 +1188,9 @@
   event_name: RailsConf 2015
   date: "2015-05-14"
   published_at: "TODO"
-  description: "By, Joe Mastey \nUser Centered Design as a process is almost thirty years old now. The philosophy has permeated our products and the way we build our interfaces. But this philosophy is rarely extended to the code we write. We'll take a look at some principles of UX and Interface Design and relate them back to our code. By comparing code that gets it right to code that gets it desperately wrong, we'll learn some principles that we can use to write better, more usable code."
+  description: |-
+    By, Joe Mastey
+    User Centered Design as a process is almost thirty years old now. The philosophy has permeated our products and the way we build our interfaces. But this philosophy is rarely extended to the code we write. We'll take a look at some principles of UX and Interface Design and relate them back to our code. By comparing code that gets it right to code that gets it desperately wrong, we'll learn some principles that we can use to write better, more usable code.
   video_provider: youtube
   video_id: RZolYCvdn4o
 - title: "Coding: Art or Craft?"

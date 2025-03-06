@@ -34,7 +34,8 @@
   video_provider: youtube
   video_id: zb8dXWYUX10
   language: Japanese
-  description: RubyKaigi 2018 https://rubykaigi.org/2018/presentations/yukihiro_matz
+  description: |-
+    RubyKaigi 2018 https://rubykaigi.org/2018/presentations/yukihiro_matz
 - title: "Keynote: Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby"
   raw_title: "[EN][Keynote] Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby / Benoit Daloze @eregontp"
   speakers:
@@ -178,7 +179,15 @@
   video_provider: youtube
   video_id: ue5XVN0SJEw
   language: English
-  description: "JRuby 9.2 has been released. 9.2 supports Ruby 2.5 compatibility and it also runs Rails 5.x well. This talk will discuss some of the more interesting apects of JRuby 9.2:\n\n  - Performance updates\n    - Graal integration\n    - IR instr refactoring\n \   - Object shaping\n  - Full encoding support ( @@かいぎ ||= $\U0001F43B\U0001F33B.send :┬─┬ノº_ºノ' )\n  - Improved Windows support\n\nIt will also give an update on the state of running Rails 5.x on JRuby. This talk will go over updates we have made to ActiveRecord-JDBC and show a real world use-case of getting Discourse running. Get up to date on the state of JRuby!\n\nRubyKaigi 2018 https://rubykaigi.org/2018/presentations/tom_enebo"
+  description:
+    "JRuby 9.2 has been released. 9.2 supports Ruby 2.5 compatibility and it also runs
+    Rails 5.x well. This talk will discuss some of the more interesting apects of JRuby
+    9.2:\n\n  - Performance updates\n    - Graal integration\n    - IR instr refactoring\n
+    \   - Object shaping\n  - Full encoding support ( @@かいぎ ||= $\U0001F43B\U0001F33B.send
+    :┬─┬ノº_ºノ' )\n  - Improved Windows support\n\nIt will also give an update on the
+    state of running Rails 5.x on JRuby. This talk will go over updates we have made
+    to ActiveRecord-JDBC and show a real world use-case of getting Discourse running.
+    Get up to date on the state of JRuby!\n\nRubyKaigi 2018 https://rubykaigi.org/2018/presentations/tom_enebo"
 - title: High Performance GPU computing with Ruby
   raw_title: "[EN] High Performance GPU computing with Ruby / Prasun Anand @prasun_anand"
   speakers:
@@ -410,7 +419,8 @@
   video_provider: youtube
   video_id: hCZWrvO_27k
   language: Japanese
-  description: RubyKaigi 2018 https://rubykaigi.org/2018/presentations/lt/
+  description: |-
+    RubyKaigi 2018 https://rubykaigi.org/2018/presentations/lt/
   talks:
     - title: "Lightning Talk: From String#undump to String#unescape"
       start_cue: "TODO"

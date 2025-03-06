@@ -129,7 +129,20 @@
   event_name: SF Bay Area Ruby Meetup - July 2024
   date: "2024-07-18"
   published_at: "2024-07-18"
-  description: "Hey, Bay Area builders and tinkerers!\n\nWe continue our exploration of the nicest Ruby HQs of SF, this time visting Cisco Meraki at the Mission Bay. Join us to discuss everything new in the world of Ruby, while make new friends!\n\nAgenda:\n– Liz Heym from Meraki with \"Catching Waves with Time-Series Data\"\n– Lukas Fittl from pganalyze.com \"How to optimize Postgres queries for Rails developers\"\n– Yang Chung \"Dokku your way to Heroku\"\n– Cameron Dutro from GitHub \"Let's Write a C Extension!\"\n– James Kerr \"Borrowing Concepts from React to Build Dynamic Forms in Rails\"\n\nAnd an open mic \U0001F3A4 for your announcements and questions!\n\nSubmit talk proposals for this and future events here: https://forms.gle/C9HQzaT5jvwA5xwc7\n\nAnd catch you on the flip side! Massive shoutout to Cisco Meraki for being our gracious host this time.\n\nAddress: 500 Terry A Francois Blvd, San Francisco, CA 94158\n\nBrought to you by evilmartians.com–check our open source, blog and come for consulting help any time!\n\nhttps://lu.ma/bxzdp6mz"
+  description:
+    "Hey, Bay Area builders and tinkerers!\n\nWe continue our exploration of the nicest
+    Ruby HQs of SF, this time visting Cisco Meraki at the Mission Bay. Join us to discuss
+    everything new in the world of Ruby, while make new friends!\n\nAgenda:\n– Liz Heym
+    from Meraki with \"Catching Waves with Time-Series Data\"\n– Lukas Fittl from pganalyze.com
+    \"How to optimize Postgres queries for Rails developers\"\n– Yang Chung \"Dokku
+    your way to Heroku\"\n– Cameron Dutro from GitHub \"Let's Write a C Extension!\"\n–
+    James Kerr \"Borrowing Concepts from React to Build Dynamic Forms in Rails\"\n\nAnd
+    an open mic \U0001F3A4 for your announcements and questions!\n\nSubmit talk proposals
+    for this and future events here: https://forms.gle/C9HQzaT5jvwA5xwc7\n\nAnd catch
+    you on the flip side! Massive shoutout to Cisco Meraki for being our gracious host
+    this time.\n\nAddress: 500 Terry A Francois Blvd, San Francisco, CA 94158\n\nBrought
+    to you by evilmartians.com–check our open source, blog and come for consulting help
+    any time!\n\nhttps://lu.ma/bxzdp6mz"
   video_provider: youtube
   video_id: A31jZ_7KC5Y
   talks:
@@ -313,7 +326,24 @@
   event_name: SF Bay Area Ruby Meetup - September 2024
   date: "2024-09-03"
   published_at: "2024-09-03"
-  description: "Hey, Bay Area builders and tinkerers!\n\nFor our September edition, we are back to where it started, the GitHub HQ \U0001F389. Join us to learn what's new and exciting in the world of Ruby, while making new and reconnecting with old friends!\n\n​Agenda:\n\n​​5 PM: Doors open, food, socializing\n​5.30: Intro and talks\n– Cameron Dutro (GitHub) will speak about Web Components at GitHub\n– Takashi Kokubun (Shopify) will tell us about YJIT and why we should start using it!\n​6.20: Break\n​6.40: Open mic \U0001F3A4 (prepare your announcements!)\n​7: Talks continue\n– Brad Gessler announcing Terminalwire: Ship a CLI for your web app. No API required.\n– Kamil Nicieja (Plane, a YC startup) with \"Exploring the Flavors of Ruby on Rails Architectures in the Wild\"\n– Konstantin Gredeskoul (Academia.edu) \"Concurrency paradigms in Ruby 3.3: Fibers and Ractors\"\n​8: Community socializing\n​8.50: Doors close\n​Speak at one of the future meetups! Submit a talk proposal here:\n\n​https://forms.gle/C9HQzaT5jvwA5xwc7\nCatch you on the flip side! Massive shoutout to GitHub for being our gracious host this time.\n\nAddress: 88 Colin P Kelly Jr. St., San Francisco, CA 94107\nGuest Entrance: 275 Brannan St., San Francisco, CA 94107\n\nWe will also have a live stream and a recording of the event later! https://youtube.com/live/aqvGdPF5Qro?feature=share\n\nBrought to you by Evil Martians. Check out:\n– Rails Startup Stack\n– Martian Chronicles\n\nhttps://lu.ma/qfyzbfkk"
+  description:
+    "Hey, Bay Area builders and tinkerers!\n\nFor our September edition, we are back to
+    where it started, the GitHub HQ \U0001F389. Join us to learn what's new and exciting
+    in the world of Ruby, while making new and reconnecting with old friends!\n\n​Agenda:\n\n​​5
+    PM: Doors open, food, socializing\n​5.30: Intro and talks\n– Cameron Dutro (GitHub)
+    will speak about Web Components at GitHub\n– Takashi Kokubun (Shopify) will tell
+    us about YJIT and why we should start using it!\n​6.20: Break\n​6.40: Open mic \U0001F3A4
+    (prepare your announcements!)\n​7: Talks continue\n– Brad Gessler announcing Terminalwire:
+    Ship a CLI for your web app. No API required.\n– Kamil Nicieja (Plane, a YC startup)
+    with \"Exploring the Flavors of Ruby on Rails Architectures in the Wild\"\n– Konstantin
+    Gredeskoul (Academia.edu) \"Concurrency paradigms in Ruby 3.3: Fibers and Ractors\"\n​8:
+    Community socializing\n​8.50: Doors close\n​Speak at one of the future meetups!
+    Submit a talk proposal here:\n\n​https://forms.gle/C9HQzaT5jvwA5xwc7\nCatch you
+    on the flip side! Massive shoutout to GitHub for being our gracious host this time.\n\nAddress:
+    88 Colin P Kelly Jr. St., San Francisco, CA 94107\nGuest Entrance: 275 Brannan St.,
+    San Francisco, CA 94107\n\nWe will also have a live stream and a recording of the
+    event later! https://youtube.com/live/aqvGdPF5Qro?feature=share\n\nBrought to you
+    by Evil Martians. Check out:\n– Rails Startup Stack\n– Martian Chronicles\n\nhttps://lu.ma/qfyzbfkk"
   video_provider: youtube
   video_id: aqvGdPF5Qro
   talks:
@@ -742,7 +772,22 @@
   raw_title: "SF Ruby presents: Ruby&AI, December \U0001F385 edition @ Sentry"
   event_name: SF Bay Area Ruby Meetup - December 2024
   date: "2024-12-03"
-  description: "Registration closes at noon on Dec 2.\nAddress: 45 Fremont St, we'll be meeting you in the lobby. If you are running late, please send a message.\n\nBefore the event, you will receive a message from Sentry (no-reply@envoy.com). Please fill out your details and sign a visitor's agreement. They ask for a photo too =) After that, you'll receive a QR code to enter.\n\nHey, Bay Area builders and tinkerers!\n\nFrom GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.\n\nJoin us as we re-kindle the SF Ruby community's flame! It is a place to meet authors of your favorite open-source and Ruby/Rails core, experienced Rubyists and new converts, entrepreneurs, and, well, people who hire. We meet every month and gradually make new Ruby friends.\n\nFor our December edition, Sentry is our gracious host! This time, we dedicate the event to all aspects of building AI-native apps and leveraging the power of AI in our Ruby applications.\n\nIt is also our special HOLIDAY edition, so let's do something about it! Choose your fighter:\n- bake and bring your cookies \U0001F36A (two people are doing it already, join us!)\n- wear something \U0001F385-esque\n- steal the Xmas \U0001F608\n\nhttps://lu.ma/q7fwrtj2"
+  description:
+    "Registration closes at noon on Dec 2.\nAddress: 45 Fremont St, we'll be meeting you
+    in the lobby. If you are running late, please send a message.\n\nBefore the event,
+    you will receive a message from Sentry (no-reply@envoy.com). Please fill out your
+    details and sign a visitor's agreement. They ask for a photo too =) After that,
+    you'll receive a QR code to enter.\n\nHey, Bay Area builders and tinkerers!\n\nFrom
+    GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.\n\nJoin
+    us as we re-kindle the SF Ruby community's flame! It is a place to meet authors
+    of your favorite open-source and Ruby/Rails core, experienced Rubyists and new converts,
+    entrepreneurs, and, well, people who hire. We meet every month and gradually make
+    new Ruby friends.\n\nFor our December edition, Sentry is our gracious host! This
+    time, we dedicate the event to all aspects of building AI-native apps and leveraging
+    the power of AI in our Ruby applications.\n\nIt is also our special HOLIDAY edition,
+    so let's do something about it! Choose your fighter:\n- bake and bring your cookies
+    \U0001F36A (two people are doing it already, join us!)\n- wear something \U0001F385-esque\n-
+    steal the Xmas \U0001F608\n\nhttps://lu.ma/q7fwrtj2"
   video_provider: youtube
   video_id: NU7ld8ERUFY
   talks:
@@ -850,7 +895,26 @@
   event_name: SF Bay Area Ruby Meetup - January 2025
   date: "2025-01-16"
   published_at: "2025-01-24"
-  description: "​Hey, Bay Area builders and tinkerers!\n\nWhile Ruby may not dominate the headlines, it's the silent force behind the Bay Area's most successful startups. From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.\n\n​Join us as we re-kindle the SF Ruby community's flame! It is a unique place to meet authors of your favorite open-source tools (or members of the Ruby core team), incredibly experienced engineers and new converts, as well as new startup founders building and experimenting with the power of Ruby and Rails. It's a chance to meet every month and make new Ruby friends.\n\nOur meetups explore practical and explorational stories about Rails at scale, performance and maintainability, deployments, frontend, AI-powered features, and so much more—all through Ruby's uniquely productive lens.\n\nFor the first event of the year, Productboard is our gracious host!\n\nOur special \U0001F31F speaker is Jason Swett, coming from Michigan!\n\nAgenda:\n5 pm Doors open, pizza\n5.30 pm intro words, Irina and Productboard\n5.40 Jason Swett (codewithjason.com) on How to make your tests easier to understand\n6.20 Bart Agapinan (ID.me) on How to add passkeys to a Rails app (and why)\n6.40 break\n7.00 open mic\n7.10 Cameron Dutro (GitHub) on WASM in Ruby\n7.30 Alex Rodionov (Toptal) on using Bazel in Ruby projects\n9 pm doors close\n\nSubmit a talk proposal here:\n\n​​https://forms.gle/C9HQzaT5jvwA5xwc7\n\n​\nCatch you on the flip side! A massive shoutout to Productboard for hosting and sponsoring the event!\n\nBrought to you by Evil Martians.\n\nhttps://lu.ma/goujxu3a"
+  description:
+    "​Hey, Bay Area builders and tinkerers!\n\nWhile Ruby may not dominate the headlines,
+    it's the silent force behind the Bay Area's most successful startups. From GitHub
+    and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.\n\n​Join
+    us as we re-kindle the SF Ruby community's flame! It is a unique place to meet authors
+    of your favorite open-source tools (or members of the Ruby core team), incredibly
+    experienced engineers and new converts, as well as new startup founders building
+    and experimenting with the power of Ruby and Rails. It's a chance to meet every
+    month and make new Ruby friends.\n\nOur meetups explore practical and explorational
+    stories about Rails at scale, performance and maintainability, deployments, frontend,
+    AI-powered features, and so much more—all through Ruby's uniquely productive lens.\n\nFor
+    the first event of the year, Productboard is our gracious host!\n\nOur special \U0001F31F
+    speaker is Jason Swett, coming from Michigan!\n\nAgenda:\n5 pm Doors open, pizza\n5.30
+    pm intro words, Irina and Productboard\n5.40 Jason Swett (codewithjason.com) on
+    How to make your tests easier to understand\n6.20 Bart Agapinan (ID.me) on How to
+    add passkeys to a Rails app (and why)\n6.40 break\n7.00 open mic\n7.10 Cameron Dutro
+    (GitHub) on WASM in Ruby\n7.30 Alex Rodionov (Toptal) on using Bazel in Ruby projects\n9
+    pm doors close\n\nSubmit a talk proposal here:\n\n​​https://forms.gle/C9HQzaT5jvwA5xwc7\n\n​\nCatch
+    you on the flip side! A massive shoutout to Productboard for hosting and sponsoring
+    the event!\n\nBrought to you by Evil Martians.\n\nhttps://lu.ma/goujxu3a"
   video_provider: youtube
   video_id: cnhBfOCI0JA
   id: sf-bay-area-ruby-meetup-january-2025
@@ -952,7 +1016,26 @@
   event_name: SF Bay Area Ruby Meetup - February 2025
   date: "2025-02-11"
   published_at: ""
-  description: "​​Hey, Bay Area builders and tinkerers!\n\nThis time we are hosted by GitHub, and our keynote speaker is Joel Hawksley with \"Lessons from 5 years of UI architecture at GitHub\" \U0001F525\n\nAddress: 88 Colin P Kelly Jr, GitHub HQ\n\nWe'll have a livestream: https://www.youtube.com/live/M25fETp83jQ\n\nWe begin the programming at 5.30 PM PST and we have an amazing agenda:\n\n5.40 PM Joel Hawksley (GitHub) Lessons from 5 years of UI architecture at GitHub\n\n6.40 PM Sam Poder (Hack Club) How we built a bank w/ Ruby on Rails\n\n7 PM Break\n\n7.30 PM Open mic! Prepare your announcements!\n\n7.45 PM Vladimir Dementyev (Evil Martians) with a secret topic\n\n8.20 PM Talks conclude, social time\n\n8.50 PM Doors close\n\n\U0001F399️ Submit a talk proposal here: ​https://forms.gle/C9HQzaT5jvwA5xwc7\n\n​Ruby is the quiet force behind the Bay Area's most successful tech organizations and startups from GitHub, Shopify and Stripe to Chime, Lago, and bolt.new.\n\n​We are gathering every month to learn, share, inspire each other, and it feels great because of MINASWAN \U0001F497.\n\n​Our meetups explore building and scaling Ruby and Rails applications. We go deep into technical topics and don't shy away from new ideas and weird experiments! We always have an open mic for everyone's announcements or questions\U0001F399️! Join us in discovering the nicest Ruby HQs \U0001F3D9️❤️\n\nCatch you on the flip side! A massive shoutout to GitHub for hosting and sponsoring the event!\n\nBrought to you by Evil Martians.\n\nhttps://lu.ma/hoou421h"
+  description:
+    "​​Hey, Bay Area builders and tinkerers!\n\nThis time we are hosted by GitHub, and
+    our keynote speaker is Joel Hawksley with \"Lessons from 5 years of UI architecture
+    at GitHub\" \U0001F525\n\nAddress: 88 Colin P Kelly Jr, GitHub HQ\n\nWe'll have
+    a livestream: https://www.youtube.com/live/M25fETp83jQ\n\nWe begin the programming
+    at 5.30 PM PST and we have an amazing agenda:\n\n5.40 PM Joel Hawksley (GitHub)
+    Lessons from 5 years of UI architecture at GitHub\n\n6.40 PM Sam Poder (Hack Club)
+    How we built a bank w/ Ruby on Rails\n\n7 PM Break\n\n7.30 PM Open mic! Prepare
+    your announcements!\n\n7.45 PM Vladimir Dementyev (Evil Martians) with a secret
+    topic\n\n8.20 PM Talks conclude, social time\n\n8.50 PM Doors close\n\n\U0001F399️
+    Submit a talk proposal here: ​https://forms.gle/C9HQzaT5jvwA5xwc7\n\n​Ruby is the
+    quiet force behind the Bay Area's most successful tech organizations and startups
+    from GitHub, Shopify and Stripe to Chime, Lago, and bolt.new.\n\n​We are gathering
+    every month to learn, share, inspire each other, and it feels great because of MINASWAN
+    \U0001F497.\n\n​Our meetups explore building and scaling Ruby and Rails applications.
+    We go deep into technical topics and don't shy away from new ideas and weird experiments!
+    We always have an open mic for everyone's announcements or questions\U0001F399️!
+    Join us in discovering the nicest Ruby HQs \U0001F3D9️❤️\n\nCatch you on the flip
+    side! A massive shoutout to GitHub for hosting and sponsoring the event!\n\nBrought
+    to you by Evil Martians.\n\nhttps://lu.ma/hoou421h"
   video_provider: scheduled
   video_id: sf-bay-area-ruby-meetup-february-2025
   thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg

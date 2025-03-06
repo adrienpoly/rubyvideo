@@ -68,7 +68,8 @@
   event_name: RubyConf AU 2024
   date: "2024-04-11"
   published_at: "TODO"
-  description: Culture is complex. Startups grow. So how do we build an effective organisation that gets shit done, and the people doing the work love what they do and where they work. We know a secret! It came from a clown, and is backed up by the science. It’s a word we have lost the true meaning of.. it’s play. Come and listen to how a head of people and a clown helped co-create a company culture grounded in play that navigated the waters of remote working, global expansion and high growth… while the world was going through some things. This talk is going to be weird, fun and above all super useful.
+  description: |-
+    Culture is complex. Startups grow. So how do we build an effective organisation that gets shit done, and the people doing the work love what they do and where they work. We know a secret! It came from a clown, and is backed up by the science. It’s a word we have lost the true meaning of.. it’s play. Come and listen to how a head of people and a clown helped co-create a company culture grounded in play that navigated the waters of remote working, global expansion and high growth… while the world was going through some things. This talk is going to be weird, fun and above all super useful.
   video_provider: youtube
   video_id: YRhFZG6mX5g
 #
@@ -111,7 +112,8 @@
   event_name: RubyConf AU 2024
   date: "2024-04-11"
   published_at: "TODO"
-  description: Is your Rails app sluggish? Does its performance suffer? Even with the best intentions, Rails applications can become littered with anti-patterns that negatively affect developer velocity, code clarity, and maintenance. Following a few simple patterns and strategies, you can transform your Rails application code to become more robust and functional. One that will be easier to extend and maintain. This talk will explore anti-patterns in practice and suggest fixes to ensure your Rails project is a success.
+  description: |-
+    Is your Rails app sluggish? Does its performance suffer? Even with the best intentions, Rails applications can become littered with anti-patterns that negatively affect developer velocity, code clarity, and maintenance. Following a few simple patterns and strategies, you can transform your Rails application code to become more robust and functional. One that will be easier to extend and maintain. This talk will explore anti-patterns in practice and suggest fixes to ensure your Rails project is a success.
   video_provider: youtube
   video_id: Ndn49iqnzn8
 - title: One does not simply... rebuild a product
@@ -142,7 +144,8 @@
   event_name: RubyConf AU 2024
   date: "2024-04-11"
   published_at: "TODO"
-  description: Our conference talk explores the subtle yet impactful enhancements in concurrency in Ruby 3.0. Through optimized Global VM Lock handling, upgraded fiber scheduling, and language improvements, we will demonstrate how these enhancements profoundly influence parallel tasks and boost efficiency in concurrent Ruby applications. Attendees will gain insights into the interplay between Ruby's language upgrades and concurrency optimizations, empowering them with effective strategies to maximize performance. Join us for a comprehensive understanding of concurrency in Ruby 3.0's models and their real-world impact.
+  description: |-
+    Our conference talk explores the subtle yet impactful enhancements in concurrency in Ruby 3.0. Through optimized Global VM Lock handling, upgraded fiber scheduling, and language improvements, we will demonstrate how these enhancements profoundly influence parallel tasks and boost efficiency in concurrent Ruby applications. Attendees will gain insights into the interplay between Ruby's language upgrades and concurrency optimizations, empowering them with effective strategies to maximize performance. Join us for a comprehensive understanding of concurrency in Ruby 3.0's models and their real-world impact.
   video_provider: youtube
   video_id: kU22NJq1sS0
 - title: Ruby on the Modern JVM with JRuby
@@ -152,7 +155,8 @@
   event_name: RubyConf AU 2024
   date: "2024-04-11"
   published_at: "TODO"
-  description: JRuby has been the go-to option for high performance, scalable Ruby applications for over a decade, bringing world-class garbage collection, jit compilation, and concurrency to Ruby and Rails developers. With the release of Java 22, we now have true native fibers, fast native function and memory support, and fast startup and warm up are on the horizon. This talk will show you how to get started with JRuby and why it's so exciting for the Ruby community.
+  description: |-
+    JRuby has been the go-to option for high performance, scalable Ruby applications for over a decade, bringing world-class garbage collection, jit compilation, and concurrency to Ruby and Rails developers. With the release of Java 22, we now have true native fibers, fast native function and memory support, and fast startup and warm up are on the horizon. This talk will show you how to get started with JRuby and why it's so exciting for the Ruby community.
   video_provider: youtube
   video_id: rVUzQGv-icc
 #
@@ -219,7 +223,8 @@
   event_name: RubyConf AU 2024
   date: "2024-04-12"
   published_at: "TODO"
-  description: This talk focuses on practical, step-by-step instructions to help full-time software developers start their own product business on the side. Whether you have a product idea or are still looking, this talk will take you through the process of coming up with an idea, testing it, building it, and finding your first paying customers.
+  description: |-
+    This talk focuses on practical, step-by-step instructions to help full-time software developers start their own product business on the side. Whether you have a product idea or are still looking, this talk will take you through the process of coming up with an idea, testing it, building it, and finding your first paying customers.
   video_provider: youtube
   video_id: abifIOByKuU
 - title: Threads, callbacks, and execution context in Ruby

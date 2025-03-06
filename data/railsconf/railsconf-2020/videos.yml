@@ -124,7 +124,21 @@
   event_name: RailsConf 2020 CE
   date: "2020-04-24"
   published_at: "TODO"
-  description: "Debugging: Techniques for Uncertain Times by Chelsea Troy\n\n\"When we learn to code, we focus on writing features while we understand what the code is doing. When we debug, we don't understand what our code is doing. The less we understand, the less likely it is that our usual programming mindset—the one we use for feature development—can solve the problem.\n\nIt turns out, the skills that make us calmer, more effective debuggers also equip us to deal with rapid, substantial changes to our lives.\n\nWhether you're uncertain about what's going on in your code, your life, or both, in this talk you'll learn debugging techniques to get you moving forward safely.\"\n\n__________\n\n\"Chelsea writes code on projects like the Zooniverse Citizen Science Mobile App and the NASA Landsat Image Processing Pipeline. She looks for clients who are saving the planet, advancing basic scientific research, or providing resources to underserved communities. She streams some programming sessions to YouTube, so you can watch her code (and narrate!) in real time. \nChelsea also teaches Mobile Software Development at the Master’s Program in Computer Science at the University of Chicago.\n\nChelsea flings barbells around for fun. She drives an electric cafe cruiser named Gigi.\""
+  description: |-
+    Debugging: Techniques for Uncertain Times by Chelsea Troy
+
+    "When we learn to code, we focus on writing features while we understand what the code is doing. When we debug, we don't understand what our code is doing. The less we understand, the less likely it is that our usual programming mindset—the one we use for feature development—can solve the problem.
+
+    It turns out, the skills that make us calmer, more effective debuggers also equip us to deal with rapid, substantial changes to our lives.
+
+    Whether you're uncertain about what's going on in your code, your life, or both, in this talk you'll learn debugging techniques to get you moving forward safely."
+
+    __________
+
+    "Chelsea writes code on projects like the Zooniverse Citizen Science Mobile App and the NASA Landsat Image Processing Pipeline. She looks for clients who are saving the planet, advancing basic scientific research, or providing resources to underserved communities. She streams some programming sessions to YouTube, so you can watch her code (and narrate!) in real time.
+    Chelsea also teaches Mobile Software Development at the Master’s Program in Computer Science at the University of Chicago.
+
+    Chelsea flings barbells around for fun. She drives an electric cafe cruiser named Gigi."
   video_provider: youtube
   video_id: XqWJ5nKrZpY
 - title: Enterprise Identity Management on Rails
@@ -378,7 +392,16 @@
   event_name: RailsConf 2020 CE
   date: "2020-04-24"
   published_at: "TODO"
-  description: "Tidy First? by Kent Beck\n\n\"Software design is an exercise in human relationships. \n\nYou have to change some ugly code. Should you tidy it first before you change it? Reflected in this simple, daily-repeated question are all the elements of software design: coupling/cohesion, economics, psychology, and sociology.\"\n\n__________\n\nIn 45 years of programming, Kent hasn't been satisfied for more than a day at a time. Not with the tools, the techniques, the outcomes, and most of all not with his own understanding. These days he works at Gusto, the small business payroll and benefits provider."
+  description: |-
+    Tidy First? by Kent Beck
+
+    "Software design is an exercise in human relationships.
+
+    You have to change some ugly code. Should you tidy it first before you change it? Reflected in this simple, daily-repeated question are all the elements of software design: coupling/cohesion, economics, psychology, and sociology."
+
+    __________
+
+    In 45 years of programming, Kent hasn't been satisfied for more than a day at a time. Not with the tools, the techniques, the outcomes, and most of all not with his own understanding. These days he works at Gusto, the small business payroll and benefits provider.
   video_provider: youtube
   video_id: BFFY9Zor6zw
 - title: Fake It While You Make It

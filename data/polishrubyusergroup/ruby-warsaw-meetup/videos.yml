@@ -12,7 +12,12 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/5/3/b/3/600_519141427.webp?w=750
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/5/3/b/3/600_519141427.webp?w=750
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/5/3/b/3/600_519141427.webp?w=750
-  description: "Hi people!\nSee you on February 29th at the next PLRUG Warsaw meetup at the Visuality office. We’re starting at 6:00 PM!\n\nAGENDA:\n\n✔️ Illia Zub - Math and Web Scraping\n✔️ Mateusz Woźniczka - Pokedex - indexes strike back\n✔️ Piotr Wald - Resilient deployment on Amazon ECS\n\nAs usual, after the meetup, there will be time for conversations and networking. \U0001F5E3️\U0001F37B\U0001F355\nWho are we meeting with?"
+  description:
+    "Hi people!\nSee you on February 29th at the next PLRUG Warsaw meetup at the Visuality
+    office. We’re starting at 6:00 PM!\n\nAGENDA:\n\n✔️ Illia Zub - Math and Web Scraping\n✔️
+    Mateusz Woźniczka - Pokedex - indexes strike back\n✔️ Piotr Wald - Resilient deployment
+    on Amazon ECS\n\nAs usual, after the meetup, there will be time for conversations
+    and networking. \U0001F5E3️\U0001F37B\U0001F355\nWho are we meeting with?"
   talks:
     - title: Math and Web Scraping
       speakers:
@@ -48,7 +53,15 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/8/b/a/5/600_519695749.webp?w=750
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/8/b/a/5/600_519695749.webp?w=750
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/8/b/a/5/600_519695749.webp?w=750
-  description: "Hey there, Ruby on Rails enthusiasts! \U0001F48E\nWe are pleased to invite you to the upcoming PLRUG meetup #March!\n\n\U0001F4CDWarsaw, ul. Odolańska 56, Visuality office\n\U0001F4C6 18:00, March 21, 2024\n\nWhat's on the agenda?\n\n\U0001F525Rostislav Zhuravsky - Sweet dreams with statically typed Ruby\n\U0001F525Michał Lęcicki - Showing progress of background jobs with Turbo\n\U0001F525Jakub Godawa - Petrol Station Simulator in Ruby\n\U0001F525Lightning talks\n\n\U0001F525NETWORKING!\n\nVisit our Discord and join the Ruby community: https://discord.gg/qQV74zpg\n\nThe event is free! We look forward to seeing you there!\U0001F680"
+  description:
+    "Hey there, Ruby on Rails enthusiasts! \U0001F48E\nWe are pleased to invite you to
+    the upcoming PLRUG meetup #March!\n\n\U0001F4CDWarsaw, ul. Odolańska 56, Visuality
+    office\n\U0001F4C6 18:00, March 21, 2024\n\nWhat's on the agenda?\n\n\U0001F525Rostislav
+    Zhuravsky - Sweet dreams with statically typed Ruby\n\U0001F525Michał Lęcicki -
+    Showing progress of background jobs with Turbo\n\U0001F525Jakub Godawa - Petrol
+    Station Simulator in Ruby\n\U0001F525Lightning talks\n\n\U0001F525NETWORKING!\n\nVisit
+    our Discord and join the Ruby community: https://discord.gg/qQV74zpg\n\nThe event
+    is free! We look forward to seeing you there!\U0001F680"
   talks:
     - title: Sweet dreams with statically typed Ruby
       speakers:
@@ -92,7 +105,15 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/b/b/f/6/600_520308118.webp?w=750
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/b/b/f/6/600_520308118.webp?w=750
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/b/b/f/6/600_520308118.webp?w=750
-  description: "Join us for the #April PLRUG Ruby Warsaw meetup!\nThis time the event promises to be exceptionally interesting! This time, Rafał Piekara vel Gruby Kodzi and Tomasz Stachewicz, the founder of WRUG, will visit us. Are you ready for this meeting?\n\n\U0001F4C6 18.04.20024\n⏰ 18:00\n\U0001F4CDVisuality office\n\nAgenda\n\n\U0001F399️Rafał Piekara - There is no f**ck in refactoring!\n\U0001F399️Tomasz Stachewicz - SQLite: it's not a toy anymore. Tooling and scope for SQLite in production Rails applications.\n\U0001F399️TBA\n\U0001F525networking!\n\nMeetup is sponsored by Softswiss and Prowly.\nAfter a substantial dose of knowledge, we invite you to engage in discussions during the informal part. Hope to see you there!\n\nhttps://www.meetup.com/polishrubyusergroup/events/300326352"
+  description:
+    "Join us for the #April PLRUG Ruby Warsaw meetup!\nThis time the event promises to
+    be exceptionally interesting! This time, Rafał Piekara vel Gruby Kodzi and Tomasz
+    Stachewicz, the founder of WRUG, will visit us. Are you ready for this meeting?\n\n\U0001F4C6
+    18.04.20024\n⏰ 18:00\n\U0001F4CDVisuality office\n\nAgenda\n\n\U0001F399️Rafał Piekara
+    - There is no f**ck in refactoring!\n\U0001F399️Tomasz Stachewicz - SQLite: it's
+    not a toy anymore. Tooling and scope for SQLite in production Rails applications.\n\U0001F399️TBA\n\U0001F525networking!\n\nMeetup
+    is sponsored by Softswiss and Prowly.\nAfter a substantial dose of knowledge, we
+    invite you to engage in discussions during the informal part. Hope to see you there!\n\nhttps://www.meetup.com/polishrubyusergroup/events/300326352"
   talks:
     - title: There is no f**ck in refactoring!
       speakers:
@@ -128,7 +149,13 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/d/a/4/b/600_520915883.webp?w=750
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/d/a/4/b/600_520915883.webp?w=750
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/d/a/4/b/600_520915883.webp?w=750
-  description: "Ready for the Ruby Warsaw Meetup #May? See you next week, as usual, on the third Thursday of the month!\n\n\U0001F4C6 16.05.20024\n⏰ 18:00\n\U0001F4CDVisuality office\n\nAgenda\n\n\U0001F399️Bartosz Blimke - Webmock unmocked\n\U0001F399️How to check security of a Ruby on Rails app? - panel discussion conducted by Paweł Strzałkowski\n\U0001F525networking!\n\nMeetup is sponsored by Prowly!\nAfter the official part, we invite you to stay for further discussions in a more relaxed atmosphere. It's time to start the garden season⛱️☀️\n\nhttps://www.meetup.com/polishrubyusergroup/events/300877678"
+  description:
+    "Ready for the Ruby Warsaw Meetup #May? See you next week, as usual, on the third
+    Thursday of the month!\n\n\U0001F4C6 16.05.20024\n⏰ 18:00\n\U0001F4CDVisuality office\n\nAgenda\n\n\U0001F399️Bartosz
+    Blimke - Webmock unmocked\n\U0001F399️How to check security of a Ruby on Rails app?
+    - panel discussion conducted by Paweł Strzałkowski\n\U0001F525networking!\n\nMeetup
+    is sponsored by Prowly!\nAfter the official part, we invite you to stay for further
+    discussions in a more relaxed atmosphere. It's time to start the garden season⛱️☀️\n\nhttps://www.meetup.com/polishrubyusergroup/events/300877678"
   talks:
     - title: Webmock unmocked
       speakers:
@@ -156,7 +183,13 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/d/7/f/1/600_521515281.webp?w=750
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/d/7/f/1/600_521515281.webp?w=750
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/d/7/f/1/600_521515281.webp?w=750
-  description: "Hello June!\nWe will meet again at the next PLRUG meetup on June 20th, as usual at 6 PM in the Visuality office.\n\nWhat's on the agenda this time? \U0001F914\n\n✔️ Grzegorz Piwowarek - Embracing Microservices\n✔️ Andrei Kaleshka - ActualDbSchema: The creation story and purpose\n✔️ Artur Hebda - Training people & knowledge sharing\n\nAfter the official part, as always during the summer season, we invite you to a barbecue and networking in our garden. \U0001F969\U0001F346\U0001F3E1\n\nhttps://www.meetup.com/polishrubyusergroup/events/301436824"
+  description:
+    "Hello June!\nWe will meet again at the next PLRUG meetup on June 20th, as usual at
+    6 PM in the Visuality office.\n\nWhat's on the agenda this time? \U0001F914\n\n✔️
+    Grzegorz Piwowarek - Embracing Microservices\n✔️ Andrei Kaleshka - ActualDbSchema:
+    The creation story and purpose\n✔️ Artur Hebda - Training people & knowledge sharing\n\nAfter
+    the official part, as always during the summer season, we invite you to a barbecue
+    and networking in our garden. \U0001F969\U0001F346\U0001F3E1\n\nhttps://www.meetup.com/polishrubyusergroup/events/301436824"
   talks:
     - title: Embracing Microservices
       speakers:
@@ -192,7 +225,15 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/9/6/c/1/600_522878593.webp?w=750
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/9/6/c/1/600_522878593.webp?w=750
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/9/6/c/1/600_522878593.webp?w=750
-  description: "Hi there!\n\nThe dust from the July Ruby Warsaw Community Conference is slowly settling, and we're returning to our tradition of meetups. Our last summer meeting is ahead of us. Let's meet on August 22, 2024, at 6:00 PM.\n\nWhat will we hear about this time?\n\n\U0001F3A4 Sergey Sergyenko - How to run local AI model and connect it to Ruby application\n\U0001F3A4 Illia Zub - Enhance your health at work: boost concentration, productivity & wellbeing\n\U0001F3A4 TBA\n\nAfter the meetup, there will be time for more relaxed discussions in the garden, with a barbecue and drinks, as usual. \U0001F37B\U0001F357\nSee you there! \U0001F64C\n\nhttps://www.meetup.com/polishrubyusergroup/events/302785548"
+  description:
+    "Hi there!\n\nThe dust from the July Ruby Warsaw Community Conference is slowly settling,
+    and we're returning to our tradition of meetups. Our last summer meeting is ahead
+    of us. Let's meet on August 22, 2024, at 6:00 PM.\n\nWhat will we hear about this
+    time?\n\n\U0001F3A4 Sergey Sergyenko - How to run local AI model and connect it
+    to Ruby application\n\U0001F3A4 Illia Zub - Enhance your health at work: boost concentration,
+    productivity & wellbeing\n\U0001F3A4 TBA\n\nAfter the meetup, there will be time
+    for more relaxed discussions in the garden, with a barbecue and drinks, as usual.
+    \U0001F37B\U0001F357\nSee you there! \U0001F64C\n\nhttps://www.meetup.com/polishrubyusergroup/events/302785548"
   talks:
     - title: How to run local AI model and connect it to Ruby application
       speakers:
@@ -228,7 +269,16 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/5/4/e/f/600_523281743.webp?w=750
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/5/4/e/f/600_523281743.webp?w=750
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/5/4/e/f/600_523281743.webp?w=750
-  description: "Join us for the next September PLRUG Ruby Warsaw Meetup!\n\n\U0001F4C6 19.09.2024\n⏰ 18:00\n\U0001F4CD Odolańska 56, Visuality office\n\nThis time, the presentation topics will be very diverse. What's on the agenda?\n\n\U0001F3A4 Barnaba Siegel - 28 lat CD-Action. Jak oldschoolowe medium radzi sobie wobec technologicznego postępu?\n\U0001F3A4 Tomasz Stachewicz - Self-hosting and Homelab in 2024\n\U0001F3A4 Urszula Sołogub - AI-assisted data extraction\n\nBe sure to come and join our community! We especially encourage those who have been quietly following us to join us.\n\nAfter the official part, as always, we encourage you to stay and get to know each other better.\U0001F5E3️\n\nLanguage notice: One of the presentations will be in Polish.\U0001F1F5\U0001F1F1\n\nhttps://www.meetup.com/polishrubyusergroup/events/303197441"
+  description:
+    "Join us for the next September PLRUG Ruby Warsaw Meetup!\n\n\U0001F4C6 19.09.2024\n⏰
+    18:00\n\U0001F4CD Odolańska 56, Visuality office\n\nThis time, the presentation
+    topics will be very diverse. What's on the agenda?\n\n\U0001F3A4 Barnaba Siegel
+    - 28 lat CD-Action. Jak oldschoolowe medium radzi sobie wobec technologicznego postępu?\n\U0001F3A4
+    Tomasz Stachewicz - Self-hosting and Homelab in 2024\n\U0001F3A4 Urszula Sołogub
+    - AI-assisted data extraction\n\nBe sure to come and join our community! We especially
+    encourage those who have been quietly following us to join us.\n\nAfter the official
+    part, as always, we encourage you to stay and get to know each other better.\U0001F5E3️\n\nLanguage
+    notice: One of the presentations will be in Polish.\U0001F1F5\U0001F1F1\n\nhttps://www.meetup.com/polishrubyusergroup/events/303197441"
   talks:
     - title: 28 lat CD-Action. Jak oldschoolowe medium radzi sobie wobec technologicznego postępu?
       speakers:
@@ -267,7 +317,24 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/4/4/8/0/600_523697536.webp?w=750
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/4/4/8/0/600_523697536.webp?w=750
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/4/4/8/0/600_523697536.webp?w=750
-  description: "This has never happened before!\n\nOn October 17th, join us for a groundbreaking PLRUG Ruby Warsaw Meetup dedicated entirely to AI.\nWe are thrilled to invite you to this unique event!\n\nWhat makes this event so special? For the very first time, PLRUG is stepping outside the Visuality office. That’s right! We’ll be gathering at an exciting new venue that promises to inspire and engage.\n\n\U0001F4C6 17.10.2024\n⏰ 18:00\n\U0001F4CD Browary Warszawskie, Budynek GH, wejście B.\nul. Grzybowska 56\n\nSpeakers:\n\n\U0001F3A4 Paweł Strzałkowski - My LLM is smarter than yours - How to build RAG applications and a guide to using embeddings\n\U0001F3A4 Chris Hasiński - Next token! (Or how to work with LLMs)\n\U0001F3A4 Sergey Sergyenko - How to integrate on premise LLM model with your application\n\U0001F3A4 W. Landon Gray - The Missing Piece: Effective Tooling for Building Robust AI and Data Science Applications in Ruby\n\nIMPORTANT CHANGE\nUnfortunately this time we will not have the pleasure of hosting Katarzyna Hewelt with the topic \"AI Agents: A Guide to Building Custom Chatbots\" but we hope we can make up for it in the future!\n\nPlease make sure to save the date in your calendar and confirm your attendance. The number of spots is limited, and we are counting on your presence!\n\nWe hope to see you at the afterparty at Browary Warszawskie after the event! \U0001F37B\n\nhttps://www.meetup.com/polishrubyusergroup/events/303621402"
+  description:
+    "This has never happened before!\n\nOn October 17th, join us for a groundbreaking
+    PLRUG Ruby Warsaw Meetup dedicated entirely to AI.\nWe are thrilled to invite you
+    to this unique event!\n\nWhat makes this event so special? For the very first time,
+    PLRUG is stepping outside the Visuality office. That’s right! We’ll be gathering
+    at an exciting new venue that promises to inspire and engage.\n\n\U0001F4C6 17.10.2024\n⏰
+    18:00\n\U0001F4CD Browary Warszawskie, Budynek GH, wejście B.\nul. Grzybowska 56\n\nSpeakers:\n\n\U0001F3A4
+    Paweł Strzałkowski - My LLM is smarter than yours - How to build RAG applications
+    and a guide to using embeddings\n\U0001F3A4 Chris Hasiński - Next token! (Or how
+    to work with LLMs)\n\U0001F3A4 Sergey Sergyenko - How to integrate on premise LLM
+    model with your application\n\U0001F3A4 W. Landon Gray - The Missing Piece: Effective
+    Tooling for Building Robust AI and Data Science Applications in Ruby\n\nIMPORTANT
+    CHANGE\nUnfortunately this time we will not have the pleasure of hosting Katarzyna
+    Hewelt with the topic \"AI Agents: A Guide to Building Custom Chatbots\" but we
+    hope we can make up for it in the future!\n\nPlease make sure to save the date in
+    your calendar and confirm your attendance. The number of spots is limited, and we
+    are counting on your presence!\n\nWe hope to see you at the afterparty at Browary
+    Warszawskie after the event! \U0001F37B\n\nhttps://www.meetup.com/polishrubyusergroup/events/303621402"
   talks:
     - title: My LLM is smarter than yours - How to build RAG applications and a guide to using embeddings
       speakers:
@@ -315,7 +382,13 @@
   thumbnail_md: https://secure.meetupstatic.com/photos/event/d/9/d/7/600_525715767.webp?w=750
   thumbnail_lg: https://secure.meetupstatic.com/photos/event/d/9/d/7/600_525715767.webp?w=750
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/d/9/d/7/600_525715767.webp?w=750
-  description: "Join us for the first PLRUG Ruby Warsaw Meetup in 2025! \U0001F680\n\n\U0001F4C6 23.01.2025\n⏰ 18:00\n\U0001F4CD Odolańska 56, Visuality office\n\nWhat's on the agenda?\n\n\U0001F3A4 Piotr Szotkowski - Fantastic Tests and How to Write Them\n\U0001F329️ LIGHTNING TALKS!\n\nWhether you're looking to learn, network, or simply have a great time with like-minded people, this is the place to be!\n\nAfter the official part, there will be time for more relaxed discussions with drinks and pizza \U0001F355\n\nhttps://www.meetup.com/polishrubyusergroup/events/305606762/"
+  description:
+    "Join us for the first PLRUG Ruby Warsaw Meetup in 2025! \U0001F680\n\n\U0001F4C6
+    23.01.2025\n⏰ 18:00\n\U0001F4CD Odolańska 56, Visuality office\n\nWhat's on the
+    agenda?\n\n\U0001F3A4 Piotr Szotkowski - Fantastic Tests and How to Write Them\n\U0001F329️
+    LIGHTNING TALKS!\n\nWhether you're looking to learn, network, or simply have a great
+    time with like-minded people, this is the place to be!\n\nAfter the official part,
+    there will be time for more relaxed discussions with drinks and pizza \U0001F355\n\nhttps://www.meetup.com/polishrubyusergroup/events/305606762/"
   talks:
     - title: Fantastic Tests and How to Write Them
       speakers:

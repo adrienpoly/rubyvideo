@@ -30,7 +30,8 @@
   event_name: Helvetic Ruby 2023
   date: "2023-11-24"
   published_at: "2023-12-01"
-  description: Are you tired of dealing with race conditions in your Ruby code? Introducing Ractors - an experimental feature designed for parallel execution without thread-safety concerns. But are they really as fast as threads? And are they worth the trouble? In this talk, we'll explore the ins and outs of Ractors, shedding light on how they work and helping you decide if they're right for your project
+  description: |-
+    Are you tired of dealing with race conditions in your Ruby code? Introducing Ractors - an experimental feature designed for parallel execution without thread-safety concerns. But are they really as fast as threads? And are they worth the trouble? In this talk, we'll explore the ins and outs of Ractors, shedding light on how they work and helping you decide if they're right for your project
   video_provider: youtube
   video_id: GhPAMDdOnU0
 - title: How to Keep your Database Happy
@@ -68,7 +69,8 @@
   event_name: Helvetic Ruby 2023
   date: "2023-11-24"
   published_at: "2023-12-06"
-  description: We'll start with a simple Ruby Kata and solve it together, live, with imperative programming. We'll then fix the many, many, many things we got wrong. Then we'll solve the problem again using patterns from functional programming. You'll leave this talk with a clear and concrete example of why functional programming matters, why immutable code matters, and why it can help you writing bug-free code. The next time you find yourself writing imperative code, you'll think about... the functional alternative.
+  description: |-
+    We'll start with a simple Ruby Kata and solve it together, live, with imperative programming. We'll then fix the many, many, many things we got wrong. Then we'll solve the problem again using patterns from functional programming. You'll leave this talk with a clear and concrete example of why functional programming matters, why immutable code matters, and why it can help you writing bug-free code. The next time you find yourself writing imperative code, you'll think about... the functional alternative.
   video_provider: youtube
   video_id: Fm099cLXdV8
 - title: "Lightning Talk: Five Minutes of a Random Stranger Talking About Creativity"
@@ -119,7 +121,14 @@
   event_name: Helvetic Ruby 2023
   date: "2023-11-24"
   published_at: "2023-12-01"
-  description: "A lightning talk from the Helvetic Ruby 2023 conference.\n\nI want to touch on some points about bringing more people into our Ruby community. \n\nI will talk more about what we can share online that could reach someone interested in learning Ruby: type of articles, project ideas, developer experience, starting kits, and some other points. \n\nThe purpose of this talk is to start a conversation or to invite people to share more."
+  description: |-
+    A lightning talk from the Helvetic Ruby 2023 conference.
+
+    I want to touch on some points about bringing more people into our Ruby community.
+
+    I will talk more about what we can share online that could reach someone interested in learning Ruby: type of articles, project ideas, developer experience, starting kits, and some other points.
+
+    The purpose of this talk is to start a conversation or to invite people to share more.
   video_provider: youtube
   video_id: qrXscRsObvo
 - title: How To Bootstrap Your Software Startup
@@ -156,6 +165,7 @@
   event_name: Helvetic Ruby 2023
   date: "2023-11-24"
   published_at: "2023-12-02"
-  description: 'Have you ever considered what makes a "good" song? Maybe it''s a sweet melody, or the beat that keeps you pushing through to the end of a workout. Whatever the use case, Ruby-based Sonic Pi can synthesize it. Raia guides participants through coding a range of song components. Together, we''ll build a band of live loops including: rhythm sections, melody, chord progressions and audio embellishments. We''ll build a song that can be mixed and modified at will and in the process, learn some key elements of what makes Sonic Pi "sing.”'
+  description: |-
+    Have you ever considered what makes a "good" song? Maybe it's a sweet melody, or the beat that keeps you pushing through to the end of a workout. Whatever the use case, Ruby-based Sonic Pi can synthesize it. Raia guides participants through coding a range of song components. Together, we'll build a band of live loops including: rhythm sections, melody, chord progressions and audio embellishments. We'll build a song that can be mixed and modified at will and in the process, learn some key elements of what makes Sonic Pi "sing.”
   video_provider: youtube
   video_id: A7owAl1Q6PQ

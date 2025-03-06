@@ -93,7 +93,8 @@
   event_name: RailsConf 2018
   date: "2018-04-17"
   published_at: "2018-05-15"
-  description: "RailsConf 2018: Opening Keynote: FIXME by David Heinemeier Hansson"
+  description: |-
+    RailsConf 2018: Opening Keynote: FIXME by David Heinemeier Hansson
   video_provider: youtube
   video_id: zKyv-IGvgGE
 - title: "Devly, a multi-service development environment"
@@ -301,7 +302,8 @@
   event_name: RailsConf 2018
   date: "2018-04-17"
   published_at: "2018-05-16"
-  description: "RailsConf 2018: Keynote: Rails Doesn't Scale by Mark Imbriaco"
+  description: |-
+    RailsConf 2018: Keynote: Rails Doesn't Scale by Mark Imbriaco
   video_provider: youtube
   video_id: G2MdBtXonew
 - title: "Using Databases to pull your applications weight"
@@ -476,7 +478,14 @@
   event_name: RailsConf 2018
   date: "2018-04-17"
   published_at: "2018-05-17"
-  description: "RailsConf 2018: Pairing: a guide to fruitful collaboration \U0001F353\U0001F351\U0001F350 by André Arko\n\nDespite general consensus that pairing is good, the desire to pair doesn’t come with instructions. Come to this talk to learn how to pair with someone more experienced, how (and why) to pair with your peers, and how to pair productively with someone less experienced. (Hint: productivity isn’t about the speed of new features.) Pairing is a fantastic tool for your professional toolbox: let’s design, refine, and refactor, together."
+  description:
+    "RailsConf 2018: Pairing: a guide to fruitful collaboration \U0001F353\U0001F351\U0001F350
+    by André Arko\n\nDespite general consensus that pairing is good, the desire to pair
+    doesn’t come with instructions. Come to this talk to learn how to pair with someone
+    more experienced, how (and why) to pair with your peers, and how to pair productively
+    with someone less experienced. (Hint: productivity isn’t about the speed of new
+    features.) Pairing is a fantastic tool for your professional toolbox: let’s design,
+    refine, and refactor, together."
   video_provider: youtube
   video_id: km7uGUEd4fk
 - title: "Mechanically Confident"
@@ -544,7 +553,12 @@
   event_name: RailsConf 2018
   date: "2018-04-17"
   published_at: "2018-05-17"
-  description: "RailsConf 2018: Broken APIs Break Trust: Tips for Creating and Updating APIs by Alex Wood \n\nFor many of us, APIs and their client libraries are the face of our applications to the world. We need to innovate with new features, but breaking changes are toxic to customer trust.\n\nIn this session you will pick-up concrete design patterns that you can use and anti-patterns that you can recognize so that your service API or library can continue to grow without breaking the world. Using real APIs and open source libraries as a case study, we’ll look at actual examples of specific strategies that you can employ to keep your API backwards compatible without painting yourself into a corner."
+  description: |-
+    RailsConf 2018: Broken APIs Break Trust: Tips for Creating and Updating APIs by Alex Wood
+
+    For many of us, APIs and their client libraries are the face of our applications to the world. We need to innovate with new features, but breaking changes are toxic to customer trust.
+
+    In this session you will pick-up concrete design patterns that you can use and anti-patterns that you can recognize so that your service API or library can continue to grow without breaking the world. Using real APIs and open source libraries as a case study, we’ll look at actual examples of specific strategies that you can employ to keep your API backwards compatible without painting yourself into a corner.
   video_provider: youtube
   video_id: 4McL54Pd2Cs
 - title: "Warden: the building block behind Devise"
@@ -586,7 +600,10 @@
   event_name: RailsConf 2018
   date: "2018-04-17"
   published_at: "2018-05-17"
-  description: "RailsConf 2018: Ten Years of Rails Tutorials by Michael Hartl \n\nCome see how Rails has evolved over the years through the lens of introductory Rails tutorials. Marvel at Rails pre-REST, survive the merger with Merb, feel the joy & pain of the then-new asset pipeline, and watch testing techniques grow, evolve, and simplify. Leave with a deeper appreciation for where Rails came from and where it is today."
+  description: |-
+    RailsConf 2018: Ten Years of Rails Tutorials by Michael Hartl
+
+    Come see how Rails has evolved over the years through the lens of introductory Rails tutorials. Marvel at Rails pre-REST, survive the merger with Merb, feel the joy & pain of the then-new asset pipeline, and watch testing techniques grow, evolve, and simplify. Leave with a deeper appreciation for where Rails came from and where it is today.
   video_provider: youtube
   video_id: MBL2jRL9crI
 - title: "The Evolution of Rails Security"
@@ -677,7 +694,8 @@
   date: "2018-04-17"
   published_at: "2018-05-17"
   slides_url: https://speakerdeck.com/eileencodes/railsconf-2018-the-future-of-rails-6-scalable-by-default
-  description: "RailsConf 2018: Keynote: The Future of Rails 6: Scalable by Default by Eileen M. Uchitelle"
+  description: |-
+    RailsConf 2018: Keynote: The Future of Rails 6: Scalable by Default by Eileen M. Uchitelle
   video_provider: youtube
   video_id: 8evXWvM4oXM
 - title: "Running a Business, Demystified"
@@ -772,7 +790,8 @@
   event_name: RailsConf 2018
   date: "2018-04-17"
   published_at: "2018-05-18"
-  description: Keynote - Livable Code by Sarah Mei
+  description: |-
+    Keynote - Livable Code by Sarah Mei
   video_provider: youtube
   video_id: lI77oMKr5EY
 - title: "Quick and easy browser testing using RSpec and Rails 5.1"
@@ -841,7 +860,8 @@
   date: "2018-04-17"
   published_at: "2018-05-18"
   slides_url: https://speakerdeck.com/tenderlove/railsconf-2018-keynote
-  description: Closing Keynote by Aaron Patterson
+  description: |-
+    Closing Keynote by Aaron Patterson
   video_provider: youtube
   video_id: cBFuZivrdT0
 - title: "Putting Rails in a corner: Understanding database isolation"
@@ -1042,7 +1062,12 @@
   event_name: RailsConf 2018
   date: "2018-04-17"
   published_at: "2018-05-18"
-  description: "Up And Down Again: A Migration's Tale by Derek Prior \n\nYou run rake db:migrate and rake db:schema:load regularly, but what do they actually do? How does rake db:rollback automatically reverse migrations and why can't it reverse all of them? How can you teach these tasks new tricks to support additional database constructs?\n\nWe'll answer all of this and more as we explore the world of schema management in Rails. You will leave this talk with a deep understanding of how Rails manages schema, a better idea of its pitfalls, and ready to bend it to your will."
+  description: |-
+    Up And Down Again: A Migration's Tale by Derek Prior
+
+    You run rake db:migrate and rake db:schema:load regularly, but what do they actually do? How does rake db:rollback automatically reverse migrations and why can't it reverse all of them? How can you teach these tasks new tricks to support additional database constructs?
+
+    We'll answer all of this and more as we explore the world of schema management in Rails. You will leave this talk with a deep understanding of how Rails manages schema, a better idea of its pitfalls, and ready to bend it to your will.
   video_provider: youtube
   video_id: _wR4NIQNmOI
 - title: "Lightning Talks"

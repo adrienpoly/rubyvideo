@@ -38,7 +38,18 @@
   event_name: RubyConf 2019
   date: "2019-11-18"
   published_at: "TODO"
-  description: "RubyConf 2019 - Conscious Coding Practice: The Three Concrete Steps by Noah Gibbs\n\nYou feel guilty about not knowing enough \"Computer Science.\" But that isn't what you're still missing in your coding. If you could just pick up any problem and solve it, you wouldn't care if you used a formal-sounding algorithm to do it.\n\nThere's a way to get that \"fingertip feel\" for coding. And it comes from mindful, conscious practice.\r\n\nSounds abstract, doesn't it? Instead, it's very simple, specific and concrete. We'll go over the basic steps, the pitfalls, and how to do it. It works whether you're a beginner or an expert. You'll be able to create coding studies for yourself, not just find other people's exercises that are already worked out for you.\r\n\nThis talk is in Ruby. But the technique works with any language, library or paradigm. It's also good for pairing.\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - Conscious Coding Practice: The Three Concrete Steps by Noah Gibbs\n\nYou
+    feel guilty about not knowing enough \"Computer Science.\" But that isn't what you're
+    still missing in your coding. If you could just pick up any problem and solve it,
+    you wouldn't care if you used a formal-sounding algorithm to do it.\n\nThere's a
+    way to get that \"fingertip feel\" for coding. And it comes from mindful, conscious
+    practice.\r\n\nSounds abstract, doesn't it? Instead, it's very simple, specific
+    and concrete. We'll go over the basic steps, the pitfalls, and how to do it. It
+    works whether you're a beginner or an expert. You'll be able to create coding studies
+    for yourself, not just find other people's exercises that are already worked out
+    for you.\r\n\nThis talk is in Ruby. But the technique works with any language, library
+    or paradigm. It's also good for pairing.\n\n#confreaks #rubyconf2019"
   video_provider: youtube
   video_id: 33fAzjOTaDE
 - title: "No Return: Beyond Transactions in Code and Life"
@@ -63,7 +74,15 @@
   event_name: RubyConf 2019
   date: "2019-11-18"
   published_at: "TODO"
-  description: "RubyConf 2019 -  Less abstract! Surprising effects of expressing rules of OOP in pictures by Ivan Nemytchenko\n\nAbstractions are both our blessing and our curse. Because of them, we're so powerful. But also we so often fall into the trap of miscommunication :( Abstract rules, operating with abstract terms, built on top of other abstract ideas. Ugh... In this talk, we're going to build a visual language to make things LESS ABSTRACT. We'll see how it helps in:\r\n\n\nrefactoring messy code\ntracking codebase changes\nteaching others\nexplaining non-obvious concepts\n\n#rubyconf2019 #confreaks"
+  description:
+    "RubyConf 2019 -  Less abstract! Surprising effects of expressing rules of OOP in
+    pictures by Ivan Nemytchenko\n\nAbstractions are both our blessing and our curse.
+    Because of them, we're so powerful. But also we so often fall into the trap of miscommunication
+    :( Abstract rules, operating with abstract terms, built on top of other abstract
+    ideas. Ugh... In this talk, we're going to build a visual language to make things
+    LESS ABSTRACT. We'll see how it helps in:\r\n\n\nrefactoring messy code\ntracking
+    codebase changes\nteaching others\nexplaining non-obvious concepts\n\n#rubyconf2019
+    #confreaks"
   video_provider: youtube
   video_id: JH8KSPfFvxs
 - title: Principles of Awesome APIs and How to Build Them
@@ -90,7 +109,18 @@
   event_name: RubyConf 2019
   date: "2019-11-18"
   published_at: "TODO"
-  description: "RubyConf 2019 - Source-Diving for Fun and Profit by Kevin Kuchta\n\nEver spent hours pouring over a gem's documentation trying to figure out how to make it work? Dug through dozens of blog posts trying to understand why a library's not working? Well what if I promised you an end to all that?!\n\r\n\nWell, ok, I'd be lying. But maybe I can save you some hair-pulling some of the time! Let me introduce you to the joys of Reading the Code. Maybe it seems obvious to you, but one of the biggest leaps I made as a ruby dev was really getting comfortable jumping into a gem's source as a debugging technique.\r\n\n\r\n\nIn an effort to get you over that hump earlier than I did, let's talk tips and tricks for getting in and out of a library's codebase as efficiently as possible. It won't solve every problem, but sometimes 5 minutes on GitHub will save you hours on StackOverflow.\n\n#rubyconf2019 #confreaks"
+  description:
+    "RubyConf 2019 - Source-Diving for Fun and Profit by Kevin Kuchta\n\nEver spent hours
+    pouring over a gem's documentation trying to figure out how to make it work? Dug
+    through dozens of blog posts trying to understand why a library's not working? Well
+    what if I promised you an end to all that?!\n\r\n\nWell, ok, I'd be lying. But maybe
+    I can save you some hair-pulling some of the time! Let me introduce you to the joys
+    of Reading the Code. Maybe it seems obvious to you, but one of the biggest leaps
+    I made as a ruby dev was really getting comfortable jumping into a gem's source
+    as a debugging technique.\r\n\n\r\n\nIn an effort to get you over that hump earlier
+    than I did, let's talk tips and tricks for getting in and out of a library's codebase
+    as efficiently as possible. It won't solve every problem, but sometimes 5 minutes
+    on GitHub will save you hours on StackOverflow.\n\n#rubyconf2019 #confreaks"
   video_provider: youtube
   video_id: 2YobJGkSSrU
 - title: Investigative Metaprogramming
@@ -146,7 +176,18 @@
   event_name: RubyConf 2019
   date: "2019-11-18"
   published_at: "TODO"
-  description: "Syntax Error Game Show\n\nHost - Adam Cuppy\n\nRound 1 contestants - Jonan Scheffler and Filipe Costa\n\nRound 2 contestants - Yvone Sanchez Reyes and Carolyn Cole\n\nPanelists - Penelope Phippen, Lachlan Hardy, Davy Stevenson, Marla Zeschin, Britni Alexander, Sandi Metz, and Colin Pulton, \n\n\n#confreaks #rubyconf2019 #rubyconf"
+  description: |-
+    Syntax Error Game Show
+
+    Host - Adam Cuppy
+
+    Round 1 contestants - Jonan Scheffler and Filipe Costa
+
+    Round 2 contestants - Yvone Sanchez Reyes and Carolyn Cole
+
+    Panelists - Penelope Phippen, Lachlan Hardy, Davy Stevenson, Marla Zeschin, Britni Alexander, Sandi Metz, and Colin Pulton,
+
+    #confreaks #rubyconf2019 #rubyconf
   video_provider: youtube
   video_id: P4f83eqJN-c
 - title: Pattern Matching - New feature in Ruby 2.7
@@ -171,7 +212,15 @@
   event_name: RubyConf 2019
   date: "2019-11-18"
   published_at: "TODO"
-  description: "RubyConf 2019 - Bridging the Knowledge Gap: Debugging by Mina Slater\n\nWe're usually never get an official lesson in debugging. No one tells us at bootcamp or in online tutorials what to do when our code doesn’t work. It’s one of those learn-it-on-the-job sort of things and comes with experience. As early-career developers, we get a lot of syntax thrown at us when we’re first learning, but in actuality, the majority of our time is spent trying to fix broken code.\n\r\n\nBut why should we slog through it alone? Let’s explore some Ruby/Rails debugging techniques and tools together!\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - Bridging the Knowledge Gap: Debugging by Mina Slater\n\nWe're usually
+    never get an official lesson in debugging. No one tells us at bootcamp or in online
+    tutorials what to do when our code doesn’t work. It’s one of those learn-it-on-the-job
+    sort of things and comes with experience. As early-career developers, we get a lot
+    of syntax thrown at us when we’re first learning, but in actuality, the majority
+    of our time is spent trying to fix broken code.\n\r\n\nBut why should we slog through
+    it alone? Let’s explore some Ruby/Rails debugging techniques and tools together!\n\n#confreaks
+    #rubyconf2019"
   video_provider: youtube
   video_id: DT5XeAnXifI
 - title: Ruby ate my DSL!
@@ -241,7 +290,15 @@
   event_name: RubyConf 2019
   date: "2019-11-18"
   published_at: "TODO"
-  description: "RubyConf 2019 - Ruby Next: make old Ruby quack like a new one by Vladimir Dementyev\n\nRuby 2.7 is just around the corner. It will bring a lot of new features, including new syntax additions: pattern matching, numbered parameters.\n\nThat's good news. The bad news is that not many of us will be able to use these goodies right away: the upgrade cost blocks application developers; gem authors have to support older versions.\r\n\nWhat if we were able to use Ruby Next features while running Ruby Current? Maybe, we can cast a metaprogramming spell for that? Yes, we can. And I'll show you how.\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - Ruby Next: make old Ruby quack like a new one by Vladimir Dementyev\n\nRuby
+    2.7 is just around the corner. It will bring a lot of new features, including new
+    syntax additions: pattern matching, numbered parameters.\n\nThat's good news. The
+    bad news is that not many of us will be able to use these goodies right away: the
+    upgrade cost blocks application developers; gem authors have to support older versions.\r\n\nWhat
+    if we were able to use Ruby Next features while running Ruby Current? Maybe, we
+    can cast a metaprogramming spell for that? Yes, we can. And I'll show you how.\n\n#confreaks
+    #rubyconf2019"
   video_provider: youtube
   video_id: T6epHXlUmG0
 - title: What's Love Got To Do With It? Ruby and Sentiment Analysis
@@ -251,7 +308,17 @@
   event_name: RubyConf 2019
   date: "2019-11-18"
   published_at: "TODO"
-  description: "RubyConf 2019 - What's Love Got To Do With It? Ruby and Sentiment Analysis by Ben Greenberg\n\nThe societies we live in, the companies we work for, the media we consume and much more are all shaped by words. Words can infuriate, enlighten, bring joy or cause great despair. Natural Language Understanding gives us a window into analyzing the words that surround us for sentiment and tone.\n\nHow does Natural Language Understanding work? What insights can we glean from the data it provides?\r\n\nWe will take a dive into understanding how this technology works, and apply it in a Ruby app that connects Natural Language Understanding analysis, the daily headlines and social media all in one. Get ready to learn some Ruby, some human language insights and how they all intertwine!\n\n#rubyconf2019 #confreaks"
+  description:
+    "RubyConf 2019 - What's Love Got To Do With It? Ruby and Sentiment Analysis by Ben
+    Greenberg\n\nThe societies we live in, the companies we work for, the media we consume
+    and much more are all shaped by words. Words can infuriate, enlighten, bring joy
+    or cause great despair. Natural Language Understanding gives us a window into analyzing
+    the words that surround us for sentiment and tone.\n\nHow does Natural Language
+    Understanding work? What insights can we glean from the data it provides?\r\n\nWe
+    will take a dive into understanding how this technology works, and apply it in a
+    Ruby app that connects Natural Language Understanding analysis, the daily headlines
+    and social media all in one. Get ready to learn some Ruby, some human language insights
+    and how they all intertwine!\n\n#rubyconf2019 #confreaks"
   video_provider: youtube
   video_id: VREjv9ZTxPg
 #
@@ -279,7 +346,16 @@
   event_name: RubyConf 2019
   date: "2019-11-18"
   published_at: "TODO"
-  description: "What happens when a linguist learns to code?\r by Erica Sosa\n\nWhen people find out about my former career as a linguist and language teacher, they often ask if my background helped me learn how to code. I started to wonder if there was some overlap between learning a natural language and a programming language. What can we draw from the fields of first and second language acquisition that will help us become better software engineers? How can we apply the principles of language learning and teaching when training new developers? Join me as I discuss my journey from Ruby as a first language to JavaScript as a second, and stay for some code-learning tips from a former language acquisition professional.\n\n\n#confreaks #rubyconf2019"
+  description:
+    "What happens when a linguist learns to code?\r by Erica Sosa\n\nWhen people find
+    out about my former career as a linguist and language teacher, they often ask if
+    my background helped me learn how to code. I started to wonder if there was some
+    overlap between learning a natural language and a programming language. What can
+    we draw from the fields of first and second language acquisition that will help
+    us become better software engineers? How can we apply the principles of language
+    learning and teaching when training new developers? Join me as I discuss my journey
+    from Ruby as a first language to JavaScript as a second, and stay for some code-learning
+    tips from a former language acquisition professional.\n\n\n#confreaks #rubyconf2019"
   video_provider: youtube
   video_id: 98yjnksGB-0
 - title: Statistically Optimal API Timeouts
@@ -289,7 +365,16 @@
   event_name: RubyConf 2019
   date: "2019-11-18"
   published_at: "TODO"
-  description: "RubyConf 2019 - Statistically Optimal API Timeouts by Daniel Ackerman\n\nHave you ever written code that retries an API request? How did you pick the amount of time to wait before retrying? If you resorted to making an 'educated best guess' then this talk is for you.\n\nYou will walk away from this talk with: 1. Knowledge of when a timeout is optimal & how important this optimality is! 2. An explanation of the algorithms necessary to calculate optimal timeouts! 3. An overview of a new open source Ruby library to calculate optimal timeouts using an open source CAS!\r\n\nBy the end: you will be equipped to optimize your timeouts, using your favorite language, Ruby.\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - Statistically Optimal API Timeouts by Daniel Ackerman\n\nHave you
+    ever written code that retries an API request? How did you pick the amount of time
+    to wait before retrying? If you resorted to making an 'educated best guess' then
+    this talk is for you.\n\nYou will walk away from this talk with: 1. Knowledge of
+    when a timeout is optimal & how important this optimality is! 2. An explanation
+    of the algorithms necessary to calculate optimal timeouts! 3. An overview of a new
+    open source Ruby library to calculate optimal timeouts using an open source CAS!\r\n\nBy
+    the end: you will be equipped to optimize your timeouts, using your favorite language,
+    Ruby.\n\n#confreaks #rubyconf2019"
   video_provider: youtube
   video_id: OxNL0vRsXi0
 - title: Creating AR Apps with RubyMotion
@@ -363,7 +448,15 @@
   date: "2019-11-19"
   published_at: "TODO"
   slides_url: https://speakerdeck.com/fcheung/fixing-performance-and-memory-problems
-  description: "RubyConf 2019 - Fixing Performance & Memory problems by Frederick Cheung\n\nPerformance problems got you down? Do memory leaks strike fear in your heart?\n\r\n\nIn this session I'll share two real world stories of how you can solve performance problems and plug memory leaks. You'll learn how to use tools such as ruby-prof and stackprof, interpret their output and gain extra insight into how your code is performing.\r\n\n\r\n\nWhen dealing with memory leaks, the biggest challenge can be finding them. You'll learn how to use rbtrace and ObjectSpace to identify what objects are being leaked and by which code, so that you can approach leaks with confidence.\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - Fixing Performance & Memory problems by Frederick Cheung\n\nPerformance
+    problems got you down? Do memory leaks strike fear in your heart?\n\r\n\nIn this
+    session I'll share two real world stories of how you can solve performance problems
+    and plug memory leaks. You'll learn how to use tools such as ruby-prof and stackprof,
+    interpret their output and gain extra insight into how your code is performing.\r\n\n\r\n\nWhen
+    dealing with memory leaks, the biggest challenge can be finding them. You'll learn
+    how to use rbtrace and ObjectSpace to identify what objects are being leaked and
+    by which code, so that you can approach leaks with confidence.\n\n#confreaks #rubyconf2019"
   video_provider: youtube
   video_id: UCJsjr8ksDc
 - title: Injecting Dependencies for Fun and Profit
@@ -388,7 +481,15 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "RubyConf 2019 -  Speeding up NMatrix by 100x by Udit Gulati 1\n\nWith the growing need for fast numerical computing tools, there is a need for a library in Ruby which can perform at the level of NumPy in Python and can provide as much rich API. In this talk, we'll explore how NMatrix is being re-implemented to match this need and how it ended up getting renamed as NumRuby. We'll further explore the progress so far on NumRuby and potential future work.\n\r\n\nWe'll further explore how one can make the best use of Ruby C extensions for fast number crunching and not end up messing things up.\n\n#rubyconf2019 #confreaks"
+  description:
+    "RubyConf 2019 -  Speeding up NMatrix by 100x by Udit Gulati 1\n\nWith the growing
+    need for fast numerical computing tools, there is a need for a library in Ruby which
+    can perform at the level of NumPy in Python and can provide as much rich API. In
+    this talk, we'll explore how NMatrix is being re-implemented to match this need
+    and how it ended up getting renamed as NumRuby. We'll further explore the progress
+    so far on NumRuby and potential future work.\n\r\n\nWe'll further explore how one
+    can make the best use of Ruby C extensions for fast number crunching and not end
+    up messing things up.\n\n#rubyconf2019 #confreaks"
   video_provider: youtube
   video_id: ogB_J3mgSa8
 - title: How to use Your Superpowers to Transform People's Lives
@@ -430,7 +531,15 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "RubyConf 2019 - Fun, Friendly Computer Science by Mercedes Bernard\n\nComputer science concepts like Big O Notation, set theory, data structures, and principles of object-oriented programming sound intimidating, but they don’t have to be! This talk will dive into some fundamental computer science topics and debunk the myth that only ‘real’ programmers know CS.\n\r\n\nWhether you are a code school grad, self-taught career switcher, or someone who, like me, didn't pay attention in night class, join me as we explore some computer science theory behind the code we write every day through fun illustrations and real-world examples.\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - Fun, Friendly Computer Science by Mercedes Bernard\n\nComputer science
+    concepts like Big O Notation, set theory, data structures, and principles of object-oriented
+    programming sound intimidating, but they don’t have to be! This talk will dive into
+    some fundamental computer science topics and debunk the myth that only ‘real’ programmers
+    know CS.\n\r\n\nWhether you are a code school grad, self-taught career switcher,
+    or someone who, like me, didn't pay attention in night class, join me as we explore
+    some computer science theory behind the code we write every day through fun illustrations
+    and real-world examples.\n\n#confreaks #rubyconf2019"
   video_provider: youtube
   video_id: IhD-9Xvbnt0
 - title: The Singleton Module and Its Pattern In Ruby
@@ -458,7 +567,9 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "RubyConf 2019 - Improv by the\r Third Coast Comedy Club\n\n#confreaks #rubyconf2019 #rubyconf"
+  description:
+    "RubyConf 2019 - Improv by the\r Third Coast Comedy Club\n\n#confreaks #rubyconf2019
+    #rubyconf"
   video_provider: youtube
   video_id: hhJ_UuN3Jas
 - title: "Sorbet: A type checker for Ruby 3 you can use today!"
@@ -486,7 +597,16 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "RubyConf 2019 - Disk is fast, memory is slow. Forget all you think you know by Daniel Magliola\n\nAdding metrics to your code should effectively have no impact on performance.\n\r\n\nWhen we were recently tasked with doing that in multi-process Ruby servers, we ran into an interesting challenge: could we aggregate our numbers across processes without blowing our target of just one microsecond of overhead?\r\n\n\r\n\nThe months of work that followed had us looking into C extensions, segfault dumps, memory maps, syscall timings, and pretty much everything we could think of to try and achieve our objective.\r\n\n\r\n\nIn the process, we found some very counter-intuitive performance results that I'd like to share with you.\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - Disk is fast, memory is slow. Forget all you think you know by Daniel
+    Magliola\n\nAdding metrics to your code should effectively have no impact on performance.\n\r\n\nWhen
+    we were recently tasked with doing that in multi-process Ruby servers, we ran into
+    an interesting challenge: could we aggregate our numbers across processes without
+    blowing our target of just one microsecond of overhead?\r\n\n\r\n\nThe months of
+    work that followed had us looking into C extensions, segfault dumps, memory maps,
+    syscall timings, and pretty much everything we could think of to try and achieve
+    our objective.\r\n\n\r\n\nIn the process, we found some very counter-intuitive performance
+    results that I'd like to share with you.\n\n#confreaks #rubyconf2019"
   video_provider: youtube
   video_id: crbyeyPS7HE
 - title: Rekindling a love of creation with Ruby and Raspberry Pi
@@ -511,7 +631,15 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "RubyConf2019 - Kill All Mutants! (Intro to Mutation Testing) by Dave Aronson\n\nHow good are your tests? Would they still pass if the tested code was changed much? If so, you may have a problem!\n\nMutation testing helps reveal these cases. It runs your unit tests, using many slightly altered versions of each method, called \"mutants\". If a mutant passes (or \"survives\") all of the method's tests, that implies certain flaws in your code, your tests, or both!\r\n\nCome find out how to use this advanced technique to discover problems lurking in your code and/or tests.\n\n#rubyconf2019 #confreaks"
+  description:
+    "RubyConf2019 - Kill All Mutants! (Intro to Mutation Testing) by Dave Aronson\n\nHow
+    good are your tests? Would they still pass if the tested code was changed much?
+    If so, you may have a problem!\n\nMutation testing helps reveal these cases. It
+    runs your unit tests, using many slightly altered versions of each method, called
+    \"mutants\". If a mutant passes (or \"survives\") all of the method's tests, that
+    implies certain flaws in your code, your tests, or both!\r\n\nCome find out how
+    to use this advanced technique to discover problems lurking in your code and/or
+    tests.\n\n#rubyconf2019 #confreaks"
   video_provider: youtube
   video_id: 9GId6mFL0_c
 - title: Adopting Sorbet at Scale
@@ -539,7 +667,13 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "RubyConf 2019 - Escaping The Tar Pit by Ernesto Tagwerker\n\nNobody wants to inherit a project that reeks but here we are: Stuck in the tar pit. How can we get out? Could we have avoided it in the first place?\n\r\n\nIn this talk you will learn how to use a few, great Ruby gems that will guide you out of that sticky tar you are in. On top of that, you will learn a repeatable way to gradually pay off technical debt.\n\n#rubyconf2019 #confreaks"
+  description:
+    "RubyConf 2019 - Escaping The Tar Pit by Ernesto Tagwerker\n\nNobody wants to inherit
+    a project that reeks but here we are: Stuck in the tar pit. How can we get out?
+    Could we have avoided it in the first place?\n\r\n\nIn this talk you will learn
+    how to use a few, great Ruby gems that will guide you out of that sticky tar you
+    are in. On top of that, you will learn a repeatable way to gradually pay off technical
+    debt.\n\n#rubyconf2019 #confreaks"
   video_provider: youtube
   video_id: ZyU6K6eR-_A
 - title: Cocktail Masterclass with Ruby and Friends
@@ -549,7 +683,14 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "Cocktail Masterclass with Ruby and Friends by Julian Cheal\n\nWelcome to Nashville, Tennessee! Have you ever wanted to try making aTennessee Two Step Cocktail, an Old Fashioned, or a Citrus peach cooler for the non-drinkers? Well now you can!\n\r\n\nIntroducing Ruby Mixologist the world's first (probably) Ruby cocktail maker. Ruby Mixologist is a cocktail robot tending to all your drink needs.\r\n\n\r\n\nIn this talk we will discover how you too can build your very own Ruby powered drinks robot.\n\n#confreaks #rubyconf2019"
+  description:
+    "Cocktail Masterclass with Ruby and Friends by Julian Cheal\n\nWelcome to Nashville,
+    Tennessee! Have you ever wanted to try making aTennessee Two Step Cocktail, an Old
+    Fashioned, or a Citrus peach cooler for the non-drinkers? Well now you can!\n\r\n\nIntroducing
+    Ruby Mixologist the world's first (probably) Ruby cocktail maker. Ruby Mixologist
+    is a cocktail robot tending to all your drink needs.\r\n\n\r\n\nIn this talk we
+    will discover how you too can build your very own Ruby powered drinks robot.\n\n#confreaks
+    #rubyconf2019"
   video_provider: youtube
   video_id: YM-HoJ23wqQ
 - title: Digging Up Code Graves in Ruby
@@ -559,7 +700,14 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "RubyConf2019 - Digging Up Code Graves in Ruby by Noah Matisoff\n\nAs codebases grow, having dead code is a common issue that teams need to tackle. Especially for consumer-facing products that frequently run A/B tests using feature flags, dead code paths can be a significant source of technical debt sneakily piling up. Luckily, the Ruby standard library exposes Coverage -- which is a simple, experimental code coverage measurement tool.\n\r\n\nLet's dive into how Coverage and other tools can be used and expanded to track down dead code paths in Ruby.\n\n#rubyconf2019 #confreaks"
+  description:
+    "RubyConf2019 - Digging Up Code Graves in Ruby by Noah Matisoff\n\nAs codebases grow,
+    having dead code is a common issue that teams need to tackle. Especially for consumer-facing
+    products that frequently run A/B tests using feature flags, dead code paths can
+    be a significant source of technical debt sneakily piling up. Luckily, the Ruby
+    standard library exposes Coverage -- which is a simple, experimental code coverage
+    measurement tool.\n\r\n\nLet's dive into how Coverage and other tools can be used
+    and expanded to track down dead code paths in Ruby.\n\n#rubyconf2019 #confreaks"
   video_provider: youtube
   video_id: ffrv-JppavY
 #
@@ -588,7 +736,15 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "RubyConf 2019 - Introducing Rubyfmt by Penelope Phippen\n\nGo has gofmt, Rust: rustfmt, elixir: mix format, so what about Ruby? One response is Rubocop! A sometimes beloved, sometimes maligned formatting and linting tool. A design principle of Rubocop is configurability. So, what if we had a code formatter without configuration options?\n\r\n\nIn this talk, you’ll learn about my goals for Rubyfmt, my upcoming Ruby formatter. You’ll also get a guided tour through Ruby’s parser, and learn about why I’m rewriting the parser in Rust! This talk will get technical, and you should come if you want to learn more about Ruby’s parser and internals.\n\n#rubyconf2019 #confreaks"
+  description:
+    "RubyConf 2019 - Introducing Rubyfmt by Penelope Phippen\n\nGo has gofmt, Rust: rustfmt,
+    elixir: mix format, so what about Ruby? One response is Rubocop! A sometimes beloved,
+    sometimes maligned formatting and linting tool. A design principle of Rubocop is
+    configurability. So, what if we had a code formatter without configuration options?\n\r\n\nIn
+    this talk, you’ll learn about my goals for Rubyfmt, my upcoming Ruby formatter.
+    You’ll also get a guided tour through Ruby’s parser, and learn about why I’m rewriting
+    the parser in Rust! This talk will get technical, and you should come if you want
+    to learn more about Ruby’s parser and internals.\n\n#rubyconf2019 #confreaks"
   video_provider: youtube
   video_id: ifUbj1xErlg
 - title: lo-fi hip hop ruby - beats to relax/study to
@@ -643,7 +799,17 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "RubyConf 2019 - How to write pleasant code by Roman Kofman\n\nAs we grow from beginner to intermediate developers, we tend to learn tools and Best Practices for writing good code. But. The more we learn, the more contradictions show up -- and the murkier it gets to find the right answers. Senior developers sometimes chime in with \"it depends!\". Which -- while being technically accurate, is also completely unhelpful. What does it depend on? How do we reconcile Best Practices when they conflict with each other? Who is \"good\" code actually good for? Is perfectly clean code even possible?\n\r\n\nWe'll learn to find the answers to all of these questions by exploring the discipline of Design (think fancy chairs in museum); and stealing from it shamelessly.\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - How to write pleasant code by Roman Kofman\n\nAs we grow from beginner
+    to intermediate developers, we tend to learn tools and Best Practices for writing
+    good code. But. The more we learn, the more contradictions show up -- and the murkier
+    it gets to find the right answers. Senior developers sometimes chime in with \"it
+    depends!\". Which -- while being technically accurate, is also completely unhelpful.
+    What does it depend on? How do we reconcile Best Practices when they conflict with
+    each other? Who is \"good\" code actually good for? Is perfectly clean code even
+    possible?\n\r\n\nWe'll learn to find the answers to all of these questions by exploring
+    the discipline of Design (think fancy chairs in museum); and stealing from it shamelessly.\n\n#confreaks
+    #rubyconf2019"
   video_provider: youtube
   video_id: S2s9FldrKug
 - title: Story Telling with Git rebase
@@ -653,7 +819,17 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "RubyConf 2019 - Story telling with Git rebase by Elle Meredith\n\nIn a successful software development project, a key challenge is to manage complexity because projects get very complex very quickly even within small teams. Version control is the tool for communicating intent in our codebase over the life time of the project. Rebasing allows us to revise our development history before sharing it with the team.\n\r\n\nLearn to use Git commit messages to keep track of the intent of your code changes to make it easier to make future changes. Learn how to make using feature branches less painful and more effective. Learn the mechanics of interactive rebasing, how to merge conflicts without losing precious code and how to auto-squash commits. Basically, stop fearing interactive rebasing.\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - Story telling with Git rebase by Elle Meredith\n\nIn a successful
+    software development project, a key challenge is to manage complexity because projects
+    get very complex very quickly even within small teams. Version control is the tool
+    for communicating intent in our codebase over the life time of the project. Rebasing
+    allows us to revise our development history before sharing it with the team.\n\r\n\nLearn
+    to use Git commit messages to keep track of the intent of your code changes to make
+    it easier to make future changes. Learn how to make using feature branches less
+    painful and more effective. Learn the mechanics of interactive rebasing, how to
+    merge conflicts without losing precious code and how to auto-squash commits. Basically,
+    stop fearing interactive rebasing.\n\n#confreaks #rubyconf2019"
   video_provider: youtube
   video_id: "-WsjKCledP4"
 - title: "Algorithms: CLRS in Ruby"
@@ -663,7 +839,14 @@
   event_name: RubyConf 2019
   date: "2019-11-19"
   published_at: "TODO"
-  description: "Algorithms: CLRS in Ruby\r by Brad Grzesiak\n\nOne of the most celebrated books in Computer Science academia is \"Introduction to Algorithms,\" also known as \"CLRS\" after its 4 authors. It's the go-to (pun!) textbook for many intermediate college courses, and this talk will introduce some of its many wonderful algorithms in Ruby form, including: various sorting techniques, dynamic programming, and some fun graph techniques. If you want a theory-heavy lecture, this talk is NOT for you!\n\n\n\n#confreaks #rubyconf2019"
+  description:
+    "Algorithms: CLRS in Ruby\r by Brad Grzesiak\n\nOne of the most celebrated books in
+    Computer Science academia is \"Introduction to Algorithms,\" also known as \"CLRS\"
+    after its 4 authors. It's the go-to (pun!) textbook for many intermediate college
+    courses, and this talk will introduce some of its many wonderful algorithms in Ruby
+    form, including: various sorting techniques, dynamic programming, and some fun graph
+    techniques. If you want a theory-heavy lecture, this talk is NOT for you!\n\n\n\n#confreaks
+    #rubyconf2019"
   video_provider: youtube
   video_id: eJL0M7H-p-I
 - title: Lightning Talks
@@ -869,7 +1052,14 @@
   event_name: RubyConf 2019
   date: "2019-11-20"
   published_at: "TODO"
-  description: "RubyConf 2019 - How to lose 50 Million Records in 5 minutes by Jon Druse\n\nJoin me in re-living the worst catastrophe of my more than a decade long career as a developer. Enough time has passed that I can laugh about it now and hopefully you will too while being inspired to stop cutting corners.\n\r\n\nIt’s like a game of Clue and all the different parts of the system are characters. Which one was the killer? Spoiler alert, it was me, in the office with the keyboard.\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - How to lose 50 Million Records in 5 minutes by Jon Druse\n\nJoin
+    me in re-living the worst catastrophe of my more than a decade long career as a
+    developer. Enough time has passed that I can laugh about it now and hopefully you
+    will too while being inspired to stop cutting corners.\n\r\n\nIt’s like a game of
+    Clue and all the different parts of the system are characters. Which one was the
+    killer? Spoiler alert, it was me, in the office with the keyboard.\n\n#confreaks
+    #rubyconf2019"
   video_provider: youtube
   video_id: Qbxmf_TxA-s
 - title: Bursting at the Seams
@@ -879,7 +1069,15 @@
   event_name: RubyConf 2019
   date: "2019-11-20"
   published_at: "TODO"
-  description: "Bursting at the Seams\r by David McDonald\n\nOur industry remains in its infancy but we've had many important contributions to how we all think and talk about design. In order to tighten the existing gap between where theory and practice meet, we need to continue to add to our shared vocabulary. With this aim, I want to underline one of the more accessible and oft-overlooked concepts from software's past: seams. Seams are easy to identify, and point to crucial incisions in our code. Learning to see code in terms of seams will improve your existing codebases, help you write better tests, and aid as you develop greenfield projects.\n\n\n#confreaks #rubyconf2019"
+  description:
+    "Bursting at the Seams\r by David McDonald\n\nOur industry remains in its infancy
+    but we've had many important contributions to how we all think and talk about design.
+    In order to tighten the existing gap between where theory and practice meet, we
+    need to continue to add to our shared vocabulary. With this aim, I want to underline
+    one of the more accessible and oft-overlooked concepts from software's past: seams.
+    Seams are easy to identify, and point to crucial incisions in our code. Learning
+    to see code in terms of seams will improve your existing codebases, help you write
+    better tests, and aid as you develop greenfield projects.\n\n\n#confreaks #rubyconf2019"
   video_provider: youtube
   video_id: N6I34YEqZPc
 - title: Let's build a simple HTTP server with Ruby
@@ -921,7 +1119,16 @@
   event_name: RubyConf 2019
   date: "2019-11-20"
   published_at: "TODO"
-  description: "RubyConf 2019 - Late, Over Budget, & Happy: Our Service Extraction Story by Amy Newell & Nat Budin\n\nA 3-month project stretches out to 9 months. It's widely viewed as over-engineered and difficult to work with. But months after deployment, it's considered successful. What happened?\n\r\n\nIn this talk, a principal engineer and a director of engineering recount the extraction of a social feeds GraphQL service from a decade-old Rails monolith. Along the way, we'll cover topics including selling a big project, complexity in remote work, complexity in deployments, and complexity in emotions. We'll tell you about the scars we acquired and the lessons we learned.\n\n#rubyconf2019 #confreaks"
+  description:
+    "RubyConf 2019 - Late, Over Budget, & Happy: Our Service Extraction Story by Amy Newell
+    & Nat Budin\n\nA 3-month project stretches out to 9 months. It's widely viewed as
+    over-engineered and difficult to work with. But months after deployment, it's considered
+    successful. What happened?\n\r\n\nIn this talk, a principal engineer and a director
+    of engineering recount the extraction of a social feeds GraphQL service from a decade-old
+    Rails monolith. Along the way, we'll cover topics including selling a big project,
+    complexity in remote work, complexity in deployments, and complexity in emotions.
+    We'll tell you about the scars we acquired and the lessons we learned.\n\n#rubyconf2019
+    #confreaks"
   video_provider: youtube
   video_id: 5qdWvw_oqPM
 - title: Don't Hang Me Out To DRY
@@ -932,7 +1139,15 @@
   date: "2019-11-20"
   published_at: "TODO"
   slides_url: https://speakerdeck.com/kevinmurphy/dont-hang-me-out-to-dry
-  description: "Don’t Hang Me Out To DRY\r by Kevin Murphy\n\nClose your eyes and imagine the perfect codebase to work on. I bet you’ll say it has complete test coverage. It’s fully-optimized, both in terms of performance and architectural design. And, of course, it contains only DRY code. Surely we can all agree that this is an aspirational situation. But...do we really want that?\r\n\nDon’t get me wrong; these qualities are all beneficial. However, if we also think we should value everything in moderation, when should we push back on these ideals? What problems can they introduce? Let’s talk about the exceptions to some of the “rules” we all hold dear.\n\n\n\n#confreaks #rubyconf2019"
+  description:
+    "Don’t Hang Me Out To DRY\r by Kevin Murphy\n\nClose your eyes and imagine the perfect
+    codebase to work on. I bet you’ll say it has complete test coverage. It’s fully-optimized,
+    both in terms of performance and architectural design. And, of course, it contains
+    only DRY code. Surely we can all agree that this is an aspirational situation. But...do
+    we really want that?\r\n\nDon’t get me wrong; these qualities are all beneficial.
+    However, if we also think we should value everything in moderation, when should
+    we push back on these ideals? What problems can they introduce? Let’s talk about
+    the exceptions to some of the “rules” we all hold dear.\n\n\n\n#confreaks #rubyconf2019"
   video_provider: youtube
   video_id: b960MApGA7A
 #
@@ -1025,7 +1240,16 @@
   event_name: RubyConf 2019
   date: "2019-11-20"
   published_at: "TODO"
-  description: "RubyConf 2019 - Digesting MRI by Studying Alternative Ruby Implementations by Christian Bruckmayer\n\nPointers, managing memory and static typing - writing C code is hard! However, most programming languages, including Matz's Ruby Interpreter (MRI), are implemented in a low level programming language. So you think without knowing these concepts, you can not contribute to Ruby? Wrong! Although MRI is implemented in C, fortunately there are Ruby's in Java, Go and even Ruby itself.\n\r\n\nIf you ever wanted to learn about Ruby internals without being a C expert, this talk is for you. Join me on my journey of re-implementing hash maps in JRuby, breaking bundler and actually learn to write (some) C code.\n\n#confreaks #rubyconf2019"
+  description:
+    "RubyConf 2019 - Digesting MRI by Studying Alternative Ruby Implementations by Christian
+    Bruckmayer\n\nPointers, managing memory and static typing - writing C code is hard!
+    However, most programming languages, including Matz's Ruby Interpreter (MRI), are
+    implemented in a low level programming language. So you think without knowing these
+    concepts, you can not contribute to Ruby? Wrong! Although MRI is implemented in
+    C, fortunately there are Ruby's in Java, Go and even Ruby itself.\n\r\n\nIf you
+    ever wanted to learn about Ruby internals without being a C expert, this talk is
+    for you. Join me on my journey of re-implementing hash maps in JRuby, breaking bundler
+    and actually learn to write (some) C code.\n\n#confreaks #rubyconf2019"
   video_provider: youtube
   video_id: "-UVV8_560eE"
 - title: Elasticsearch 5 or and Bust
@@ -1050,7 +1274,16 @@
   event_name: RubyConf 2019
   date: "2019-11-20"
   published_at: "TODO"
-  description: "Technical Background of Interactive CLI of Ruby 2.7\r by ITOYANAGI Sakura\n\nRuby 2.7 will be released with new multiline IRB that uses a new input library Reline. I'll talk about the technical background of it.\r\n\n\r\n\nthe history of terminal\n\nthe Morse code\r\n\ntypewriter\r\n\nteletype\r\n\nescape sequence\r\n\nescape sequence on Unix like OS\r\n\nWindows support\r\n\nGNU Readline compatible features\r\n\nediting modes\r\n\ninputrc that is a setting file\r\n\nI8n support\r\n\ntoo many character encodings in the world\r\n\nUnicode's complex tweaked specifications\r\n\n...it's very difficult to understand for non-CJK people so I'll try to explain it by emoji\n\n\n\n#confreaks #rubyconf2019"
+  description:
+    "Technical Background of Interactive CLI of Ruby 2.7\r by ITOYANAGI Sakura\n\nRuby
+    2.7 will be released with new multiline IRB that uses a new input library Reline.
+    I'll talk about the technical background of it.\r\n\n\r\n\nthe history of terminal\n\nthe
+    Morse code\r\n\ntypewriter\r\n\nteletype\r\n\nescape sequence\r\n\nescape sequence
+    on Unix like OS\r\n\nWindows support\r\n\nGNU Readline compatible features\r\n\nediting
+    modes\r\n\ninputrc that is a setting file\r\n\nI8n support\r\n\ntoo many character
+    encodings in the world\r\n\nUnicode's complex tweaked specifications\r\n\n...it's
+    very difficult to understand for non-CJK people so I'll try to explain it by emoji\n\n\n\n#confreaks
+    #rubyconf2019"
   video_provider: youtube
   video_id: SzgmcVN7qu4
 - title: Compacting Heaps in Ruby 2.7
@@ -1077,7 +1310,15 @@
   event_name: RubyConf 2019
   date: "2019-11-20"
   published_at: "TODO"
-  description: "JRuby: Zero to Scale! \U0001F525 by Charles Oliver Nutter and Thomas E Enebo\n\nJRuby is deployed by hundreds of companies, running Rails and other services at higher speeds and with better scalability than any other runtime. With JRuby you get better utilization of system resources, the performance and tooling of the JVM, and a massive collection of libraries to add to your toolbox.\n\nIn this talk, we'll cover:\r\n\nGetting started on JRuby\r\n\nComparison to CRuby\r\n\nBuilding, migrating, and deploying apps\r\n\nTuning, profiling, and monitoring\r\n\nScaling considerations\n\n\n\n#confreaks #rubyconf2019 #rubyconf"
+  description:
+    "JRuby: Zero to Scale! \U0001F525 by Charles Oliver Nutter and Thomas E Enebo\n\nJRuby
+    is deployed by hundreds of companies, running Rails and other services at higher
+    speeds and with better scalability than any other runtime. With JRuby you get better
+    utilization of system resources, the performance and tooling of the JVM, and a massive
+    collection of libraries to add to your toolbox.\n\nIn this talk, we'll cover:\r\n\nGetting
+    started on JRuby\r\n\nComparison to CRuby\r\n\nBuilding, migrating, and deploying
+    apps\r\n\nTuning, profiling, and monitoring\r\n\nScaling considerations\n\n\n\n#confreaks
+    #rubyconf2019 #rubyconf"
   video_provider: youtube
   video_id: yTGegFR3aGc
 - title: Seven Deadly Sins
@@ -1087,7 +1328,19 @@
   event_name: RubyConf 2019
   date: "2019-11-20"
   published_at: "TODO"
-  description: "RubyConf 2019 - Seven Deadly Sins by Brian McElaney\n\nSoftware projects accumulate many kinds of debt. Each debt comes in the form of small qualitative shortcomings we (knowingly or unknowingly) choose to ignore in the name of shipping. They cause friction -- and over time they can combine to easily grind momentum to a halt if left unchecked. While these kinds of debt can in fact be useful (if not necessary) to creating software - teams need to understand the nature of their shortcomings to prevent \"velocity bankruptcy.\"\n\r\n\nIn this talk we'll discuss the nature of process debt by using classical ideas related to \"unproductive behavior\" as a guide: hitting on shortcomings in culture, empathy, discipline, morale, organization, preparedness, and requirements. We'll discuss examples, tips on identifying the risks in your own projects, and how to decide when to avoid, mitigate, or accept and track these risks.\n\n#rubyconf2019 #confreaks"
+  description:
+    "RubyConf 2019 - Seven Deadly Sins by Brian McElaney\n\nSoftware projects accumulate
+    many kinds of debt. Each debt comes in the form of small qualitative shortcomings
+    we (knowingly or unknowingly) choose to ignore in the name of shipping. They cause
+    friction -- and over time they can combine to easily grind momentum to a halt if
+    left unchecked. While these kinds of debt can in fact be useful (if not necessary)
+    to creating software - teams need to understand the nature of their shortcomings
+    to prevent \"velocity bankruptcy.\"\n\r\n\nIn this talk we'll discuss the nature
+    of process debt by using classical ideas related to \"unproductive behavior\" as
+    a guide: hitting on shortcomings in culture, empathy, discipline, morale, organization,
+    preparedness, and requirements. We'll discuss examples, tips on identifying the
+    risks in your own projects, and how to decide when to avoid, mitigate, or accept
+    and track these risks.\n\n#rubyconf2019 #confreaks"
   video_provider: youtube
   video_id: w04t4D_DArE
 - title: Containerizing Local Development... Is It Worth it?
@@ -1097,7 +1350,16 @@
   event_name: RubyConf 2019
   date: "2019-11-20"
   published_at: "TODO"
-  description: "Containerizing Local Development... Is It Worth it?\r by Tony Drake\n\nContainers are the current hotness for deployment. But, how about development? They can provide a good way to manage local dependencies even if you're just writing a gem instead of an app. While writing and running code directly on your laptop has its own obstacles, using containers for development is not a silver bullet and brings along its own set of headaches. Which cases do containers make sense and how would they be configured? Containers may not be for you, but we'll go through some example setups. It'll be up to you whether or not you want to change your local setup after this talk.\n\n\n\n#confreaks #rubyconf2019"
+  description:
+    "Containerizing Local Development... Is It Worth it?\r by Tony Drake\n\nContainers
+    are the current hotness for deployment. But, how about development? They can provide
+    a good way to manage local dependencies even if you're just writing a gem instead
+    of an app. While writing and running code directly on your laptop has its own obstacles,
+    using containers for development is not a silver bullet and brings along its own
+    set of headaches. Which cases do containers make sense and how would they be configured?
+    Containers may not be for you, but we'll go through some example setups. It'll be
+    up to you whether or not you want to change your local setup after this talk.\n\n\n\n#confreaks
+    #rubyconf2019"
   video_provider: youtube
   video_id: NZ02hy6QOOk
 #

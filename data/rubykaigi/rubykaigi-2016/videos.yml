@@ -69,7 +69,28 @@
   video_provider: youtube
   video_id: Z7wTY3xZ7G0
   language: Japanese
-  description: "http://rubykaigi.org/2016/presentations/m_seki.html\n\nMy first dRuby talk was in 2000, here in Kyoto. After the talk, I got many opportunities to write books and to talk on various topics including OSS, XP, and software testing. So, I'm glad to talk again here this year.\n\nNowadays, concurrent processing has become more familiar with many people as one of their solutions. It's time for us to begin understanding dRuby.\n\nIn this talk, I will introduce dRuby, sometimes called an OOPArt, to all generations of Rubyists.\n私の最初のdRubyの講演は、2000年、この会場でした。\n\nこの講演以降、本の出版や絶版、Rubyだけでなく様々なテーマ（OSSやXP、software testingなど）で講演する機会を得ました。\n\n2016年、再び同じ場所で話せることに喜んでいます。\n並行処理は多くの人たちの解決策として身近に考えられるようになってきました。\n\nいまこそdRubyを理解する環境が整ってきたと思います。\n\n本講演では、再びdRubyを紹介します。\n全ての世代のRubyistのみなさんに、20世紀のオーパーツと呼ばれている dRubyをお届けします。\n \nMasatoshi SEKI @m_seki\nMasatoshi Seki is a Ruby committer and the author of several Ruby standard libraries including dRuby, ERB, and Rinda. He’s an expert in object-oriented programming, distributed systems, and eXtreme programming. He has been speaking at RubyKaigi every year since 2006 when the Kaigi first started."
+  description: |-
+    http://rubykaigi.org/2016/presentations/m_seki.html
+
+    My first dRuby talk was in 2000, here in Kyoto. After the talk, I got many opportunities to write books and to talk on various topics including OSS, XP, and software testing. So, I'm glad to talk again here this year.
+
+    Nowadays, concurrent processing has become more familiar with many people as one of their solutions. It's time for us to begin understanding dRuby.
+
+    In this talk, I will introduce dRuby, sometimes called an OOPArt, to all generations of Rubyists.
+    私の最初のdRubyの講演は、2000年、この会場でした。
+
+    この講演以降、本の出版や絶版、Rubyだけでなく様々なテーマ（OSSやXP、software testingなど）で講演する機会を得ました。
+
+    2016年、再び同じ場所で話せることに喜んでいます。
+    並行処理は多くの人たちの解決策として身近に考えられるようになってきました。
+
+    いまこそdRubyを理解する環境が整ってきたと思います。
+
+    本講演では、再びdRubyを紹介します。
+    全ての世代のRubyistのみなさんに、20世紀のオーパーツと呼ばれている dRubyをお届けします。
+
+    Masatoshi SEKI @m_seki
+    Masatoshi Seki is a Ruby committer and the author of several Ruby standard libraries including dRuby, ERB, and Rinda. He’s an expert in object-oriented programming, distributed systems, and eXtreme programming. He has been speaking at RubyKaigi every year since 2006 when the Kaigi first started.
 - title: A proposal of new concurrency model for Ruby 3
   raw_title: "[EN] A proposal of new concurrency model for Ruby 3 / Koichi Sasada"
   speakers:
@@ -131,7 +152,22 @@
   video_provider: youtube
   video_id: "-k_ZhC5Lkgg"
   language: Japanese
-  description: "http://rubykaigi.org/2016/presentations/tanaka_akr.html\n\nRuby has three classes to represent integers: Fixnum, Bignum and Integer. \nInteger is the abstract super class of Fixnum and Bignum. \nFixnum represents small integers that fit in a word. \nBignum can represent any integers until the memory is full. \nThe exact range of Fixnum varies depending on the machine architecture and Ruby implementation. \nSince Fixnum and Bignum are implementation details, \napplications which depend on the Fixnum range is not portable at least, and just wrong in most cases. \nWe'll unify Fixnum and Bignum into Integer for Ruby 2.4. \nThis makes Ruby programs a bit more portable. \nAlso, hiding the implementation detail makes Ruby easier for beginners to learn.\n\nTanaka Akira @tanaka_akr\nRuby committer, Researcher of National Institute of Advanced Industrial Science and Technology (AIST)"
+  description: |-
+    http://rubykaigi.org/2016/presentations/tanaka_akr.html
+
+    Ruby has three classes to represent integers: Fixnum, Bignum and Integer.
+    Integer is the abstract super class of Fixnum and Bignum.
+    Fixnum represents small integers that fit in a word.
+    Bignum can represent any integers until the memory is full.
+    The exact range of Fixnum varies depending on the machine architecture and Ruby implementation.
+    Since Fixnum and Bignum are implementation details,
+    applications which depend on the Fixnum range is not portable at least, and just wrong in most cases.
+    We'll unify Fixnum and Bignum into Integer for Ruby 2.4.
+    This makes Ruby programs a bit more portable.
+    Also, hiding the implementation detail makes Ruby easier for beginners to learn.
+
+    Tanaka Akira @tanaka_akr
+    Ruby committer, Researcher of National Institute of Advanced Industrial Science and Technology (AIST)
 - title: How to create bindings 2016
   raw_title: "[JA] How to create bindings 2016 / Kouhei Sutou"
   speakers:
@@ -462,7 +498,8 @@
   video_provider: youtube
   video_id: gcqbvLHNPTM
   language:
-  description: http://rubykaigi.org/2016/presentations/cruby_committers.html
+  description: |-
+    http://rubykaigi.org/2016/presentations/cruby_committers.html
 - title: How to create multiprocess server on Windows with Ruby
   raw_title: "[EN] How to create multiprocess server on Windows with Ruby / Ritta Narita"
   speakers:
@@ -531,7 +568,19 @@
   video_provider: youtube
   video_id: gKDs4V5D_k0
   language: Japanese
-  description: "http://rubykaigi.org/2016/presentations/youchan.html\n\nLast year at RubyKaigi, I introduced Hyalite, a virtual DOM implemented in Ruby. \nHyalite allows Rubyists to write front and back-end code in Ruby, an approach that has proven to provide many benefits. Using a single language across an application stack is sometimes referred to as isomorphic programming. \nThis talk introduces a new framework for isomorphic programming with the Opal: Menilite. \nMenilite shares model code between the server side and the client side by marshalling objects and storing them in the database automatically. \nAs a result, code duplication is reduced and APIs are no longer a necessity. \nIsomorphic programming can significantly accelerate your progress on a project; I sincerely hope you find it helpful in developing web applications. \nMenilite aims to expand the playing field for the Ruby language, a language optimized for developer happiness. I'm sure you will agree that we will find even more happiness by bringing Ruby to the front-end as well.\n\nYoh Osaki, @youchan\nSoftware engineer at Ubiregi inc. Author of Hyalite which is react like virtual DOM library. Member of Asakusa.rb, Chidoriashi.rb"
+  description: |-
+    http://rubykaigi.org/2016/presentations/youchan.html
+
+    Last year at RubyKaigi, I introduced Hyalite, a virtual DOM implemented in Ruby.
+    Hyalite allows Rubyists to write front and back-end code in Ruby, an approach that has proven to provide many benefits. Using a single language across an application stack is sometimes referred to as isomorphic programming.
+    This talk introduces a new framework for isomorphic programming with the Opal: Menilite.
+    Menilite shares model code between the server side and the client side by marshalling objects and storing them in the database automatically.
+    As a result, code duplication is reduced and APIs are no longer a necessity.
+    Isomorphic programming can significantly accelerate your progress on a project; I sincerely hope you find it helpful in developing web applications.
+    Menilite aims to expand the playing field for the Ruby language, a language optimized for developer happiness. I'm sure you will agree that we will find even more happiness by bringing Ruby to the front-end as well.
+
+    Yoh Osaki, @youchan
+    Software engineer at Ubiregi inc. Author of Hyalite which is react like virtual DOM library. Member of Asakusa.rb, Chidoriashi.rb
 - title: Recent Advances in HTTP and Controlling them using ruby
   raw_title: "[JA] Recent Advances in HTTP and Controlling them using ruby / Kazuho Oku"
   speakers:

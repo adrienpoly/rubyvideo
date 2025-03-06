@@ -91,7 +91,17 @@
   video_provider: youtube
   video_id: rz-lFKEioLk
   language:
-  description: "This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!\n\nSlides: http://slid.es/markusschirp/mutation-testing-fight-2\n\nMarkus Schirp with CAN WE WRITE PERFECT TESTS? - MAYBE!\n\nOr: Why mutation testing is as a game changer for unit tests. The pros of a solid unit test suite are well understood and accepted in the ruby community.\nThe problem: How to define solid? Traditional metrics like line-coverage, branch-coverage and even statement-coverage can be misleading. Having a statement executed once does not mean all edge cases are specified and bug-free! \nAutomated tools can be used to identify uncovered edge cases that will introduce bugs into your program. Mutation testing brings fuzzing to the implementation level. Unlike input fuzzing it modifies the implementation to check if the test suite can detect a huge set of automatically introduced behaviour changes. \nThis talk will elaborate the history of testing and the metrics that are used to define coverage. And how such metrics can and have misguided development direction. It will also show examples of projects that heavily adopted mutation testing. Especially the long term effects and how the (mutation)-metrics driven approach improved developer happiness and code stability. Showing what kind of actual bugs where caught and how code became naturally streamlined. Lastly the current and future limits of existing mutation testing tools will be presented. The idea is to create the \"MUST HAVE\"-Feeling in the audience. Finally, you can prove that you have good tests! Do not miss it!"
+  description: |-
+    This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
+
+    Slides: http://slid.es/markusschirp/mutation-testing-fight-2
+
+    Markus Schirp with CAN WE WRITE PERFECT TESTS? - MAYBE!
+
+    Or: Why mutation testing is as a game changer for unit tests. The pros of a solid unit test suite are well understood and accepted in the ruby community.
+    The problem: How to define solid? Traditional metrics like line-coverage, branch-coverage and even statement-coverage can be misleading. Having a statement executed once does not mean all edge cases are specified and bug-free!
+    Automated tools can be used to identify uncovered edge cases that will introduce bugs into your program. Mutation testing brings fuzzing to the implementation level. Unlike input fuzzing it modifies the implementation to check if the test suite can detect a huge set of automatically introduced behaviour changes.
+    This talk will elaborate the history of testing and the metrics that are used to define coverage. And how such metrics can and have misguided development direction. It will also show examples of projects that heavily adopted mutation testing. Especially the long term effects and how the (mutation)-metrics driven approach improved developer happiness and code stability. Showing what kind of actual bugs where caught and how code became naturally streamlined. Lastly the current and future limits of existing mutation testing tools will be presented. The idea is to create the "MUST HAVE"-Feeling in the audience. Finally, you can prove that you have good tests! Do not miss it!
 - title: "Application Architecture: Boundaries, Object Roles, & Patterns"
   raw_title: "Adam Hawkins - APPLICATION ARCHITECTURE: BOUNDARIES, OBJECT ROLES, & PATTERNS"
   speakers:

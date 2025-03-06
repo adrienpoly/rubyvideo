@@ -135,7 +135,8 @@
   event_name: RubyConf 2020
   date: "2020-12-18"
   published_at: "TODO"
-  description: In 2018, Ryann Richardson made history, becoming the 50th Anniversary Miss Black America. Before that, the tech marketer-turned-founder and Diversity & Inclusion advocate spent 10 years building brands and culture for companies spanning early-stage start-ups (Victor) to billion-dollar "unicorns" (Uber) to the Fortune 500 (T-Mobile/Deutsche Telekom). Her work earned her a spot as the youngest honoree on Savoy Magazine’s list of Most Influential Black Executives in Corporate America and set her on the path to discovering her unique purpose as a champion for underrepresented voices. Now, in her second act as a founder, her company Ellington Lafayette Co. is building a new type of tech incubator, focusing exclusively on start-ups that drive social equity for women and communities of color. Ryann travels the US as a Keynote Speaker giving talks “Authenticity and Assimilation”, “Taking Up Space as Women and POC” and “The Politics of Race, Beauty, and Power.”
+  description: |-
+    In 2018, Ryann Richardson made history, becoming the 50th Anniversary Miss Black America. Before that, the tech marketer-turned-founder and Diversity & Inclusion advocate spent 10 years building brands and culture for companies spanning early-stage start-ups (Victor) to billion-dollar "unicorns" (Uber) to the Fortune 500 (T-Mobile/Deutsche Telekom). Her work earned her a spot as the youngest honoree on Savoy Magazine’s list of Most Influential Black Executives in Corporate America and set her on the path to discovering her unique purpose as a champion for underrepresented voices. Now, in her second act as a founder, her company Ellington Lafayette Co. is building a new type of tech incubator, focusing exclusively on start-ups that drive social equity for women and communities of color. Ryann travels the US as a Keynote Speaker giving talks “Authenticity and Assimilation”, “Taking Up Space as Women and POC” and “The Politics of Race, Beauty, and Power.”
   video_provider: youtube
   video_id: db0Sw5iV5jM
 - title: "Keynote: If you can move it, it isn't broken"
@@ -223,7 +224,8 @@
   event_name: RubyConf 2020
   date: "2020-12-18"
   published_at: "TODO"
-  description: Kent helps geeks feel safe in the world. In Kent's career he has constantly challenged software engineering dogma, promoting ideas like patterns, test-driven development, and Extreme Programming. Currently Fellow at Gusto, he is the author of a half dozen books.
+  description: |-
+    Kent helps geeks feel safe in the world. In Kent's career he has constantly challenged software engineering dogma, promoting ideas like patterns, test-driven development, and Extreme Programming. Currently Fellow at Gusto, he is the author of a half dozen books.
   video_provider: youtube
   video_id: UIyMs7xV6eo
 - title: "Screaming Zombies and Other Tales: Race Condition Woes"
@@ -283,7 +285,20 @@
   event_name: RubyConf 2020
   date: "2020-12-18"
   published_at: "TODO"
-  description: "You may not know it, but you use prime numbers every day. They play a major role in internet security in the form of encryption.\n\nIn this talk, you will learn the inner workings of how the internet uses prime numbers to keep your data private as it travels over the wire. We will cover topics such as symmetric and asymmetric encryption, and why prime numbers are just so damn hard to crack. By the end, you will understand how to encrypt and decrypt data yourself with just the Ruby standard library.\n\nSo come join me as we demystify HTTPS using code, color theory, and only a pinch of math \U0001F913.\n\n\nSun-Li Beatteay\nSunny is a software engineer and Rubyist at DigitalOcean where he works on building managed storage products. He has been using Ruby since he started learning to program in 2016. Like Ruby, he's passionate about encapsulating complicated concepts in simple language. When he's not breaking production, he can be found trying to figure out how to pipe all his troubles into /dev/null."
+  description:
+    "You may not know it, but you use prime numbers every day. They play a major role
+    in internet security in the form of encryption.\n\nIn this talk, you will learn
+    the inner workings of how the internet uses prime numbers to keep your data private
+    as it travels over the wire. We will cover topics such as symmetric and asymmetric
+    encryption, and why prime numbers are just so damn hard to crack. By the end, you
+    will understand how to encrypt and decrypt data yourself with just the Ruby standard
+    library.\n\nSo come join me as we demystify HTTPS using code, color theory, and
+    only a pinch of math \U0001F913.\n\n\nSun-Li Beatteay\nSunny is a software engineer
+    and Rubyist at DigitalOcean where he works on building managed storage products.
+    He has been using Ruby since he started learning to program in 2016. Like Ruby,
+    he's passionate about encapsulating complicated concepts in simple language. When
+    he's not breaking production, he can be found trying to figure out how to pipe all
+    his troubles into /dev/null."
   video_provider: youtube
   video_id: f_Qan-eNT-g
 - title: "Mach 2.0 at Scale"
@@ -327,7 +342,8 @@
   event_name: RubyConf 2020
   date: "2020-12-18"
   published_at: "TODO"
-  description: Aniyia Williams is a creator, inventor, and tech changemaker. She serves as Executive Director of Black & Brown Founders, which provides vital resources to Black and Latinx entrepreneurs building tech companies with limited capital. She is also co-founder of Zebras Unite, an entrepreneur-led movement focused on creating a more ethical and sustainable start-up ecosystem.
+  description: |-
+    Aniyia Williams is a creator, inventor, and tech changemaker. She serves as Executive Director of Black & Brown Founders, which provides vital resources to Black and Latinx entrepreneurs building tech companies with limited capital. She is also co-founder of Zebras Unite, an entrepreneur-led movement focused on creating a more ethical and sustainable start-up ecosystem.
   video_provider: youtube
   video_id: Pa8L8fqq-Dg
 - title: "Q&A With Matz"
@@ -338,7 +354,8 @@
   event_name: RubyConf 2020
   date: "2020-12-18"
   published_at: "TODO"
-  description: Matz and Evan discuss topics around his Keynote and other developments within the Ruby language and community.
+  description: |-
+    Matz and Evan discuss topics around his Keynote and other developments within the Ruby language and community.
   video_provider: youtube
   video_id: c3Uv0jbCjcs
 - title: "Conference Closing"

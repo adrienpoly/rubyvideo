@@ -12,7 +12,8 @@
   event_name: RubyConf AU 2016
   date: "2016-02-10"
   published_at: "TODO"
-  description: "RubyConf AU 2016: Security is really important, and a lot of rubyists are unfamiliar with how it works, why it's important, how to explain it to bosses and managers, and most importantly, how to handle security vulnerabilities in code they use (or code they wrote). This talk is about why security is important, even though Matz is nice. It's also about what to do when vulnerabilities show up, since they always will."
+  description: |-
+    RubyConf AU 2016: Security is really important, and a lot of rubyists are unfamiliar with how it works, why it's important, how to explain it to bosses and managers, and most importantly, how to handle security vulnerabilities in code they use (or code they wrote). This talk is about why security is important, even though Matz is nice. It's also about what to do when vulnerabilities show up, since they always will.
   video_provider: youtube
   video_id: w_Lwd3sGSbc
 - title: Build and maintain large Ruby applications
@@ -48,7 +49,8 @@
   event_name: RubyConf AU 2016
   date: "2016-02-10"
   published_at: "TODO"
-  description: "RubyConf AU 2016: In recent months Katie's Facebook team has completely replaced an in-house interpreted language, moving to a strong and statically typed Haskell DSL called Haxl. Dozens of Facebook developers have become functional programmers, using the open-source Haxl framework to battle spam at scale. This talk will explain how Haskell shines in this context, bust a few myths about the language, and highlight lessons Rubyists and Haskellers could learn from each other."
+  description: |-
+    RubyConf AU 2016: In recent months Katie's Facebook team has completely replaced an in-house interpreted language, moving to a strong and statically typed Haskell DSL called Haxl. Dozens of Facebook developers have become functional programmers, using the open-source Haxl framework to battle spam at scale. This talk will explain how Haskell shines in this context, bust a few myths about the language, and highlight lessons Rubyists and Haskellers could learn from each other.
   video_provider: youtube
   video_id: mLlVsX3p-oc
 - title: "Ruby off the Rails: How the government broke the internet"
@@ -58,7 +60,8 @@
   event_name: RubyConf AU 2016
   date: "2016-02-10"
   published_at: "TODO"
-  description: "RubyConf AU 2016:"
+  description: |-
+    RubyConf AU 2016:
   video_provider: youtube
   video_id: XwQyQTT_i0Q
 - title: Burn Your Idiomatic Ruby
@@ -81,7 +84,8 @@
   event_name: RubyConf AU 2016
   date: "2016-02-10"
   published_at: "TODO"
-  description: "RubyConf AU 2016: Some of us have practiced code review as part of our software development process. But it is more than just a peer review of code written by another. I will attempt to summarise some of the good practices that worked for us to review code effectively and some of the common mistakes not to make when setting out a code review programme for your team."
+  description: |-
+    RubyConf AU 2016: Some of us have practiced code review as part of our software development process. But it is more than just a peer review of code written by another. I will attempt to summarise some of the good practices that worked for us to review code effectively and some of the common mistakes not to make when setting out a code review programme for your team.
   video_provider: youtube
   video_id: akf0Mx72wgI
 - title: Functional programming for rubyists
@@ -91,7 +95,8 @@
   event_name: RubyConf AU 2016
   date: "2016-02-10"
   published_at: "TODO"
-  description: "RubyConf AU 2016: Rampant side effects. The shifting sands of mutable state beneath your feet. Mocks as far as the eye can see. Enter Functional Programming. Functional Programming helps you write clear, maintainable and testable code. This talk will cover the core principles of functional programming, how to apply them in ruby, the benefits they can offer, and how to introduce them to other developers."
+  description: |-
+    RubyConf AU 2016: Rampant side effects. The shifting sands of mutable state beneath your feet. Mocks as far as the eye can see. Enter Functional Programming. Functional Programming helps you write clear, maintainable and testable code. This talk will cover the core principles of functional programming, how to apply them in ruby, the benefits they can offer, and how to introduce them to other developers.
   video_provider: youtube
   video_id: wOgeMk8PCfE
 - title: Refinements - the Worst Feature You Ever Loved
@@ -116,7 +121,8 @@
   event_name: RubyConf AU 2016
   date: "2016-02-10"
   published_at: "TODO"
-  description: "RubyConf AU 2016:"
+  description: |-
+    RubyConf AU 2016:
   video_provider: youtube
   video_id: q4mPIctwZ-Q
 - title: Debugging Diversity
@@ -155,7 +161,8 @@
   event_name: RubyConf AU 2016
   date: "2016-02-10"
   published_at: "TODO"
-  description: "RubyConf AU 2016: Increasing diversity in tech seems as simple as hiring diverse programmers. However, statistics show that women and minorities leave tech at higher rates than the standard programmer. Learn what you can do to not only make your dev team an attractive option for diverse technical talent, but what you can do to make it a place that talent will stay for years to come."
+  description: |-
+    RubyConf AU 2016: Increasing diversity in tech seems as simple as hiring diverse programmers. However, statistics show that women and minorities leave tech at higher rates than the standard programmer. Learn what you can do to not only make your dev team an attractive option for diverse technical talent, but what you can do to make it a place that talent will stay for years to come.
   video_provider: youtube
   video_id: CgDLI0Ounhg
 - title: Explicit Tests Tell a Better Tale
@@ -178,7 +185,8 @@
   event_name: RubyConf AU 2016
   date: "2016-02-10"
   published_at: "TODO"
-  description: "RubyConf AU 2016:"
+  description: |-
+    RubyConf AU 2016:
   video_provider: youtube
   video_id: yeBpknHjyGo
 - title: Winning in Production
@@ -188,7 +196,8 @@
   event_name: RubyConf AU 2016
   date: "2016-02-10"
   published_at: "TODO"
-  description: "RubyConf AU 2016:"
+  description: |-
+    RubyConf AU 2016:
   video_provider: youtube
   video_id: 1S4NV6F3d3Q
 - title: Feedback Matters
@@ -239,7 +248,8 @@
   event_name: RubyConf AU 2016
   date: "2016-02-10"
   published_at: "TODO"
-  description: "RubyConf AU 2016: Many developers are complaining that rails is slow, but most teams are not tuning performance at all or not properly, in this talk, you will learn how to monitor performance, how to find out performance issue and how to fix, I will also show you some tips that can dramatically improve your rails apps' performance."
+  description: |-
+    RubyConf AU 2016: Many developers are complaining that rails is slow, but most teams are not tuning performance at all or not properly, in this talk, you will learn how to monitor performance, how to find out performance issue and how to fix, I will also show you some tips that can dramatically improve your rails apps' performance.
   video_provider: youtube
   video_id: 2xu8MDNj0Dk
 - title: Site Availability is for Everybody
