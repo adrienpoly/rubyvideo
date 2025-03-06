@@ -252,7 +252,12 @@
   date: "2024-09-26"
   track: Track 2 (Hosted by AppSignal)
   slides_url: https://speakerdeck.com/siaw23/progressive-web-apps-for-rails-developers
-  description: "Rails 8 will simplify PWA development by generating essential PWA scaffolding by default. In his #RailsWorld talk, Emmanuel Hayford covers PWA basics, the service worker lifecycle, offline strategies via background sync, and the CacheStorage API for cross-device performance.  \n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    Rails 8 will simplify PWA development by generating essential PWA scaffolding by default. In his #RailsWorld talk, Emmanuel Hayford covers PWA basics, the service worker lifecycle, offline strategies via background sync, and the CacheStorage API for cross-device performance.
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: Oh1mlNJJonE
 - title: Fireside Chat
   raw_title: Fireside Chat with DHH, Matz and Tobias Lütke - Rails World 2024
