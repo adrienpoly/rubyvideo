@@ -134,4 +134,87 @@ class YmlFormatterTest < ActiveSupport::TestCase
     result = YmlFormatter.normalize_comment_lines(result)
     assert_equal expected, result
   end
+
+  test "normalize_commented_yaml_file formats the description field correctly" do
+    input = <<~YAML
+      ---
+      - title: Some Title
+        description: Some description
+    YAML
+
+    expected = <<~YAML
+      ---
+      - title: Some Title
+        description: |-
+          Some description
+    YAML
+
+    result = YmlFormatter.normalize_commented_yaml_file(input)
+    assert_equal expected, result
+  end
+
+  test "normalize_commented_yaml_file formats the description field correctly when quoted" do
+    input = <<~YAML
+      ---
+      - title: Some Title
+        description:
+          "Some description"
+    YAML
+
+    expected = <<~YAML
+      ---
+      - title: Some Title
+        description: |-
+          Some description
+    YAML
+
+    result = YmlFormatter.normalize_commented_yaml_file(input)
+    assert_equal expected, result
+  end
+
+  test "normalize_commented_yaml_file formats the description field correctly when multilines and quoted text" do
+    input = <<~YAML
+      ---
+      - title: Some Title
+        description: "Technical.\n\nHelp stay\n\n"
+    YAML
+
+    expected = <<~YAML
+      ---
+      - title: Some Title
+        description: |-
+          Technical.
+          Help stay
+    YAML
+
+    result = YmlFormatter.normalize_commented_yaml_file(input)
+    assert_equal expected, result
+  end
+
+  test "normalize_commented_yaml_file formats the description field correctly and preserves internal linebreaks" do
+    input = <<~YAML
+      ---
+      - title: Some Title
+        description: |-
+          line 1
+
+          line 2
+
+          line 3
+    YAML
+
+    expected = <<~YAML
+      ---
+      - title: Some Title
+        description: |-
+          line 1
+
+          line 2
+
+          line 3
+    YAML
+
+    result = YmlFormatter.normalize_commented_yaml_file(input)
+    assert_equal expected, result
+  end
 end
