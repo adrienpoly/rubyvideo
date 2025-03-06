@@ -13,7 +13,8 @@
   event_name: Ruby Unconf 2024
   date: "2024-06-08"
   published_at: "2025-01-27"
-  description: "Keynote by Eileen Uchitelle at the Ruby Unconf 2024 in Hamburg, Germany"
+  description: |-
+    Keynote by Eileen Uchitelle at the Ruby Unconf 2024 in Hamburg, Germany
   video_provider: youtube
   video_id: r9Q5yyeH_zo
   id: keynote-the-magic-of-rails-ruby-unconf-2024
@@ -25,7 +26,8 @@
   event_name: Ruby Unconf 2024
   date: "2024-06-08"
   published_at: "TODO"
-  description: 'Alexander Sulim: "Laziness-driven development is a set of rules that might help anyone to harness great power of laziness to create better software. Some of these rules are obvious, some might be controversial, but they all are based on personal experience and serve me well for many years already."'
+  description: |-
+    Alexander Sulim: "Laziness-driven development is a set of rules that might help anyone to harness great power of laziness to create better software. Some of these rules are obvious, some might be controversial, but they all are based on personal experience and serve me well for many years already."
   video_provider: youtube
   video_id: LfYeO5hW3fA
 - title: "Fish Bowl: Ruby is Dying"

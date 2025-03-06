@@ -411,7 +411,22 @@
   video_provider: youtube
   video_id: okXiuYiP2C4
   language: Japanese
-  description: "To use Ruby for data processing widely, Apache Arrow support is important. \n\nWe can do the followings with Apache Arrow:\n\n- Super fast large data interchange and processing\n- Reading/writing data in several famous formats such as CSV and Apache Parquet\n- Reading/writing partitioned large data on cloud storage such as Amazon S3\n\nThis talk describes the followings:\n\n- What is Apache Arrow\n- How to use Apache Arrow with Ruby\n- How to integrate with Ruby 3.0 features such as MemoryView and Ractor\n\nRubyKaigi Takeout 2021: https://rubykaigi.org/2021-takeout/presentations/ktou.html"
+  description: |-
+    To use Ruby for data processing widely, Apache Arrow support is important.
+
+    We can do the followings with Apache Arrow:
+
+    - Super fast large data interchange and processing
+    - Reading/writing data in several famous formats such as CSV and Apache Parquet
+    - Reading/writing partitioned large data on cloud storage such as Amazon S3
+
+    This talk describes the followings:
+
+    - What is Apache Arrow
+    - How to use Apache Arrow with Ruby
+    - How to integrate with Ruby 3.0 features such as MemoryView and Ractor
+
+    RubyKaigi Takeout 2021: https://rubykaigi.org/2021-takeout/presentations/ktou.html
 - title: "Charty: Statistical data visualization in Ruby"
   raw_title: "[JA] Charty: Statistical data visualization in Ruby / Kenta Murata @mrkn"
   speakers:
@@ -484,7 +499,8 @@
   video_provider: youtube
   video_id: QQASprf5EGw
   language: Japanese
-  description: "RubyKaigi Takeout 2021: https://rubykaigi.org/2021-takeout/presentations/yukihiro_matz.html"
+  description: |-
+    RubyKaigi Takeout 2021: https://rubykaigi.org/2021-takeout/presentations/yukihiro_matz.html
 - title: "PRK Firmware: Keyboard is Essentially Ruby"
   raw_title: "[JA] PRK Firmware: Keyboard is Essentially Ruby / Hitoshi HASUMI @hasumikin"
   speakers:

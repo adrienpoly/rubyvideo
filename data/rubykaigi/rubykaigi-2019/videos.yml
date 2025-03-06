@@ -121,7 +121,8 @@
   video_provider: youtube
   video_id: g_wPQzNlu9Q
   language: Japanese
-  description: https://rubykaigi.org/2019/presentations/nagachika.html#apr19
+  description: |-
+    https://rubykaigi.org/2019/presentations/nagachika.html#apr19
 - title: Performance Improvement of Ruby 2.7 JIT in Real World
   raw_title: "[JA] Performance Improvement of Ruby 2.7 JIT in Real World / Takashi Kokubun @k0kubun"
   speakers:
@@ -187,7 +188,8 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: B2NTL_J62JE
-  description: RubyKaigi 2019 https://rubykaigi.org/2019/presentations/lt/
+  description: |-
+    RubyKaigi 2019 https://rubykaigi.org/2019/presentations/lt/
   talks:
     - title: "Lightning Talk: How does TruffleRuby work"
       start_cue: "TODO"
@@ -636,7 +638,12 @@
   video_provider: youtube
   video_id: m_KTuPuEmQ0
   language: English
-  description: "Bundler hit a big milestone this year with the release of Bundler 2 \U0001F389, but not without its bumps and hurdles. We'll look into the problems that some of our users have been experiencing after the Bundler 2 release, what the core team has been doing to fix these issues and what we've since learned. Afterwards, We'll look at the upcoming Bundler 2.1 and Bundler 3 releases."
+  description:
+    "Bundler hit a big milestone this year with the release of Bundler 2 \U0001F389, but
+    not without its bumps and hurdles. We'll look into the problems that some of our
+    users have been experiencing after the Bundler 2 release, what the core team has
+    been doing to fix these issues and what we've since learned. Afterwards, We'll look
+    at the upcoming Bundler 2.1 and Bundler 3 releases."
 - title: Pragmatic Monadic Programing in Ruby
   raw_title: "[JA] Pragmatic Monadic Programing in Ruby / @joker1007"
   speakers:
@@ -693,7 +700,8 @@
   video_provider: youtube
   video_id: WOnxe6qWtzY
   language: English
-  description: Benchmarking is an important component of writing applications, gems, Ruby implementations, and everything in between. There is never a perfect formula for how to measure the performance of your code, as the requirements vary from codebase to codebase. Elastic has an entire team dedicated to measuring the performance of Elasticsearch and the clients team has worked with them to build a common benchmarking framework for itself. This talk will explore how the Elasticsearch Ruby Client is benchmarked and highlight key elements that are important for any benchmarking framework
+  description: |-
+    Benchmarking is an important component of writing applications, gems, Ruby implementations, and everything in between. There is never a perfect formula for how to measure the performance of your code, as the requirements vary from codebase to codebase. Elastic has an entire team dedicated to measuring the performance of Elasticsearch and the clients team has worked with them to build a common benchmarking framework for itself. This talk will explore how the Elasticsearch Ruby Client is benchmarked and highlight key elements that are important for any benchmarking framework
 - title: The future of the Bundled Bundler with RubyGems
   raw_title: "[JA] The future of the Bundled Bundler with RubyGems / Hiroshi SHIBATA @hsbt"
   speakers:
@@ -786,7 +794,8 @@
   video_provider: youtube
   video_id: WZu-WVzbEOA
   language: Japanese
-  description: RubyKaigi 2019 https://rubykaigi.org/2019/presentations/yukihiro_matz.html#apr18
+  description: |-
+    RubyKaigi 2019 https://rubykaigi.org/2019/presentations/yukihiro_matz.html#apr18
 - title: Building Serverless Applications in Ruby with AWS Lambda
   raw_title: "[EN] Building Serverless Applications in Ruby with AWS Lambda / Alex Wood @alexwwood"
   speakers:
@@ -944,7 +953,8 @@
   video_provider: youtube
   video_id: 1qEhEad5uPI
   language: Japanese
-  description: RubyKaigi 2019 https://rubykaigi.org/2019/presentations/matzbot.html#apr18
+  description: |-
+    RubyKaigi 2019 https://rubykaigi.org/2019/presentations/matzbot.html#apr18
 - title: A Deep Learning Adventure
   raw_title: "[EN] A Deep Learning Adventure / Paolo Perrotta @nusco"
   speakers:

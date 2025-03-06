@@ -13,7 +13,8 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-04"
   published_at: "TODO"
-  description: "Keynote: Super Dry Ruby by Yukihiro 'Matz' Matsumoto"
+  description: |-
+    Keynote: Super Dry Ruby by Yukihiro 'Matz' Matsumoto
   video_provider: youtube
   video_id: bqWBB8-iEac
 - title: Security Is Hard, But We Can't Go Shopping
@@ -137,7 +138,12 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-04"
   published_at: "TODO"
-  description: "Ruby based Distributed Key Value Store 'ROMA' by Hiroaki Iwase\n\nI am going to introduce ROMA(Ruby/Rakuten On-Memory Architecture). ROMA is one of the data storing systems for distributed key-value stores. It is a completely decentralized distributed system that consists of multiple processes, called nodes, on several machines. It is based on pure P2P architecture like a distributed hash table, thus it provides high availability and scalability. This has been developed as an OSS product written in Ruby from 2007. \n\nI will also share a GUI management tool named 'Gladiator', which is developed for Ruby on Rails, enabling developers to control ROMA more easily and intuitively."
+  description: |-
+    Ruby based Distributed Key Value Store 'ROMA' by Hiroaki Iwase
+
+    I am going to introduce ROMA(Ruby/Rakuten On-Memory Architecture). ROMA is one of the data storing systems for distributed key-value stores. It is a completely decentralized distributed system that consists of multiple processes, called nodes, on several machines. It is based on pure P2P architecture like a distributed hash table, thus it provides high availability and scalability. This has been developed as an OSS product written in Ruby from 2007.
+
+    I will also share a GUI management tool named 'Gladiator', which is developed for Ruby on Rails, enabling developers to control ROMA more easily and intuitively.
   video_provider: youtube
   video_id: AGHTYZ3B0gU
 - title: "Lightning Talk: How Docker Can Change Rails Deployments"
@@ -147,7 +153,12 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-04"
   published_at: "TODO"
-  description: "How Docker Can Change Rails Deployments by Christopher Rigor\n\nA typical Rails deployment involves using a tool like Capistrano to pull the code from your Git repository, symlink configuration files and restart the app server. \n\nDocker offers improvements to this workflow but it's not all roses. Hear about the triumphs and challenges when moving from Capistrano deployments to Docker."
+  description: |-
+    How Docker Can Change Rails Deployments by Christopher Rigor
+
+    A typical Rails deployment involves using a tool like Capistrano to pull the code from your Git repository, symlink configuration files and restart the app server.
+
+    Docker offers improvements to this workflow but it's not all roses. Hear about the triumphs and challenges when moving from Capistrano deployments to Docker.
   video_provider: youtube
   video_id: 9-l4tzPmAzU
 - title: "Lightning Talk: Values from Puzzles, Math, and Code"
@@ -170,7 +181,14 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-04"
   published_at: "TODO"
-  description: "Lightning Talk: Refactoring of Self by Vaidehi Joshi\n\nAs new programmers, we don't always write beautiful code. In fact, most of our early code is quite bad. So we try to refactor it. \n\nBut refactoring also plays a significant role in our personal lives. As programmers, we 'refactor' ourselves on a daily basis. We implement different technologies, learn new skills, and confront our own mistakes every day -- all in an effort to become better at what we do. And in the process, we become better iterations of ourselves. \n\nThis talk will explore how programming challenges us to not only refactor our own code, but also our very own sense of self."
+  description: |-
+    Lightning Talk: Refactoring of Self by Vaidehi Joshi
+
+    As new programmers, we don't always write beautiful code. In fact, most of our early code is quite bad. So we try to refactor it.
+
+    But refactoring also plays a significant role in our personal lives. As programmers, we 'refactor' ourselves on a daily basis. We implement different technologies, learn new skills, and confront our own mistakes every day -- all in an effort to become better at what we do. And in the process, we become better iterations of ourselves.
+
+    This talk will explore how programming challenges us to not only refactor our own code, but also our very own sense of self.
   video_provider: youtube
   video_id: "-gAAhWfyh8Q"
 #
@@ -230,7 +248,16 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-05"
   published_at: "TODO"
-  description: "Refinements - the Worst Feature You Ever Loved by Paolo Perrotta\n\nRefinements are cool. They are the biggest new language feature in Ruby 2. They help you avoid some of Ruby's most dangerous pitfalls. They make your code cleaner and safer. \n\nOh, and some people really hate them. \n\nWe're talking important people here. A few prominent community members tried to convince Matz to remove Refinements from Ruby. The latest JRuby is compatible with Matz's Ruby 2... except that it lacks Refinements. This innocent feature might end up splitting the Ruby ecosystem. \n\nAre Refinements the best idea since blocks and modules, or a terrible mistake? Decide for yourself. In twenty minutes, I'll tell you the good, the bad and the ugly about refinements. At the end of this speech, you'll understand the trade-offs of this controversial feature – and know what all the fuss is about."
+  description: |-
+    Refinements - the Worst Feature You Ever Loved by Paolo Perrotta
+
+    Refinements are cool. They are the biggest new language feature in Ruby 2. They help you avoid some of Ruby's most dangerous pitfalls. They make your code cleaner and safer.
+
+    Oh, and some people really hate them.
+
+    We're talking important people here. A few prominent community members tried to convince Matz to remove Refinements from Ruby. The latest JRuby is compatible with Matz's Ruby 2... except that it lacks Refinements. This innocent feature might end up splitting the Ruby ecosystem.
+
+    Are Refinements the best idea since blocks and modules, or a terrible mistake? Decide for yourself. In twenty minutes, I'll tell you the good, the bad and the ugly about refinements. At the end of this speech, you'll understand the trade-offs of this controversial feature – and know what all the fuss is about.
   video_provider: youtube
   video_id: _27-4-dbnA8
 #
@@ -243,7 +270,12 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-05"
   published_at: "TODO"
-  description: "HTTP Programming with mruby by Hiroshi Shibata\n\nmruby is the lightweight implementation of the Ruby language and was released about a year ago. Can we use mruby to write web services? \n\nThis answer is YES - our company used mruby in large scaled web services. Even with mruby, we were able to create web services with tests and gems, and it also helped to solve some problems using Ruby code outside of a Rails application. In essence, mruby also provides programming features like HTTP to us web programmers."
+  description: |-
+    HTTP Programming with mruby by Hiroshi Shibata
+
+    mruby is the lightweight implementation of the Ruby language and was released about a year ago. Can we use mruby to write web services?
+
+    This answer is YES - our company used mruby in large scaled web services. Even with mruby, we were able to create web services with tests and gems, and it also helped to solve some problems using Ruby code outside of a Rails application. In essence, mruby also provides programming features like HTTP to us web programmers.
   video_provider: youtube
   video_id: O9OqP-vmUKA
 - title: Collaborating with Contracts
@@ -253,7 +285,12 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-05"
   published_at: "TODO"
-  description: "Collaborating with Contracts by Sofia Tania\n\nIn the real world, when two parties collaborate, there often needs to be a shared understanding - a 'contract'. So is the case when two components of a system collaborate. \n\nIn this talk, I will share about contract tests, when they become useful, and some tools to help."
+  description: |-
+    Collaborating with Contracts by Sofia Tania
+
+    In the real world, when two parties collaborate, there often needs to be a shared understanding - a 'contract'. So is the case when two components of a system collaborate.
+
+    In this talk, I will share about contract tests, when they become useful, and some tools to help.
   video_provider: youtube
   video_id: 9_rjXgM4oec
 #
@@ -266,7 +303,12 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-05"
   published_at: "TODO"
-  description: "Principles of Play by Linda Liukas\n\nIf code is the colouring pens and lego blocks of our times - the tools of creation - how do we teach the curiosity, joy and wonder to our kids? I spent last summer looking at programming and play: how to create experiences that go deeper than just learning logic. \n\nSo, just like Alice, I swallowed the blue pill and fell down inside the machine. This talk summarises my three principles of play and a few experiments I’ve learned with little Ruby and the journey I’ve been on with her."
+  description: |-
+    Principles of Play by Linda Liukas
+
+    If code is the colouring pens and lego blocks of our times - the tools of creation - how do we teach the curiosity, joy and wonder to our kids? I spent last summer looking at programming and play: how to create experiences that go deeper than just learning logic.
+
+    So, just like Alice, I swallowed the blue pill and fell down inside the machine. This talk summarises my three principles of play and a few experiments I’ve learned with little Ruby and the journey I’ve been on with her.
   video_provider: youtube
   video_id: vbboehbgAN8
 - title: Starting & Contributing to Open Source Projects for Beginners
@@ -276,7 +318,18 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-05"
   published_at: "TODO"
-  description: "Starting & Contributing to Open Source Projects for Beginners by Guo Xiang Tan\n\nContributing to Open Source projects can be daunting for beginners but at the same time extremely rewarding. Before I started contributing, I was asking myself these questions: \n\n* Rails is such a huge and complex code base, how can I contribute anything? \n\n* I might be wrong, so I better not raise the issue or apply a \"lousy\" patch. \n\nHaving gone through the process, I hope to help answer those questions and give confidence to new developers that have yet to contribute to open source projects because of such fears. There are tools and techniques which I have learnt and picked up that can help new developers understand a foreign code base better which I would like to demonstrate as well. \n\nIn addition, I will like to talk about RubyBench.org, a long running Ruby benchmark that I helped to revitalized and launched. I will talk about why RubyBench.org matters to the community and how it is being structured. Following which, I will talk about my experience starting RubyBench.org and how rewarding it can be."
+  description: |-
+    Starting & Contributing to Open Source Projects for Beginners by Guo Xiang Tan
+
+    Contributing to Open Source projects can be daunting for beginners but at the same time extremely rewarding. Before I started contributing, I was asking myself these questions:
+
+    * Rails is such a huge and complex code base, how can I contribute anything?
+
+    * I might be wrong, so I better not raise the issue or apply a "lousy" patch.
+
+    Having gone through the process, I hope to help answer those questions and give confidence to new developers that have yet to contribute to open source projects because of such fears. There are tools and techniques which I have learnt and picked up that can help new developers understand a foreign code base better which I would like to demonstrate as well.
+
+    In addition, I will like to talk about RubyBench.org, a long running Ruby benchmark that I helped to revitalized and launched. I will talk about why RubyBench.org matters to the community and how it is being structured. Following which, I will talk about my experience starting RubyBench.org and how rewarding it can be.
   video_provider: youtube
   video_id: 0OQg42gSol4
 - title: "Lightning Talk: Doodling for Great Success"
@@ -286,7 +339,12 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-05"
   published_at: "TODO"
-  description: "Lightning Talk: Doodling for Great Success by Radamanthus Batnag\n\nAs coders, we are very familiar with how to communicate using written words. But words exercise only half of our brain. Using sketches to enhance our message leads to more effective communication. It is fun, too! \n\nI will discuss sketching tips that everyone - even those who think they have no drawing skills - can use right away. These can be applied to blog posts, open-source documentation, bug reports, and even emails."
+  description: |-
+    Lightning Talk: Doodling for Great Success by Radamanthus Batnag
+
+    As coders, we are very familiar with how to communicate using written words. But words exercise only half of our brain. Using sketches to enhance our message leads to more effective communication. It is fun, too!
+
+    I will discuss sketching tips that everyone - even those who think they have no drawing skills - can use right away. These can be applied to blog posts, open-source documentation, bug reports, and even emails.
   video_provider: youtube
   video_id: tyNrAzTbx3I
 - title: "Lightning Talk: Non-tech Contributions to The Tech Community"
@@ -322,7 +380,20 @@
   event_name: Red Dot Ruby Conference 2015
   date: "2015-06-05"
   published_at: "TODO"
-  description: "I would like to tell the story about Ruby Kansai and Kansai Regional Rubyist Meetups. \n\nThe first part describes Ruby Kansai and myself. Ruby Kansai is one of the oldest Ruby Meetup in Japan, that is born in 2004. I am the founder of Ruby Kansai and now the chairman of Ruby Kansai. \n\nI would like to share what I have learned through the experience of organizing Ruby Kansai and what motivates me to do so. \n\nThe second part is about the story of regional Ruby meetups in Kansai. Recently many people have founded Ruby meetups in Kansai. Now over 10 Ruby meetups are active in Kansai. I also founded one regional, small Ruby meetup -- Amagasaki.rb. \n\nI would like to share with everyone the differences between big meetup like Ruby Kansai where over 80 people attend and small meetup like amagasaki.rb where less than 10 people attend. Both styles of meetup have good and bad parts. \n\nLightning Talk: Kansai Regional Rubyist Meetups by Tomoya Kawanishi\n\nThe last part is the future of Ruby Kansai. As the oldest and biggest Kansai Ruby community, Ruby Kansai would like to be hub, which connects beginners and experts, local and remote Rubyists, Ruby and other languages, suits and geeks."
+  description: |-
+    I would like to tell the story about Ruby Kansai and Kansai Regional Rubyist Meetups.
+
+    The first part describes Ruby Kansai and myself. Ruby Kansai is one of the oldest Ruby Meetup in Japan, that is born in 2004. I am the founder of Ruby Kansai and now the chairman of Ruby Kansai.
+
+    I would like to share what I have learned through the experience of organizing Ruby Kansai and what motivates me to do so.
+
+    The second part is about the story of regional Ruby meetups in Kansai. Recently many people have founded Ruby meetups in Kansai. Now over 10 Ruby meetups are active in Kansai. I also founded one regional, small Ruby meetup -- Amagasaki.rb.
+
+    I would like to share with everyone the differences between big meetup like Ruby Kansai where over 80 people attend and small meetup like amagasaki.rb where less than 10 people attend. Both styles of meetup have good and bad parts.
+
+    Lightning Talk: Kansai Regional Rubyist Meetups by Tomoya Kawanishi
+
+    The last part is the future of Ruby Kansai. As the oldest and biggest Kansai Ruby community, Ruby Kansai would like to be hub, which connects beginners and experts, local and remote Rubyists, Ruby and other languages, suits and geeks.
   video_provider: youtube
   video_id: 5QVOtEqIBXk
 #

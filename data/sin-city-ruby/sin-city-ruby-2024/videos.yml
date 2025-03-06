@@ -14,7 +14,8 @@
     - Adrian Marin
   video_id: "sin-city-ruby-2024-adrian-marin"
   video_provider: not_recorded
-  description: "Talk by Adrian Marin at Sin City Ruby 2024."
+  description: |-
+    Talk by Adrian Marin at Sin City Ruby 2024.
 - title: "Talk by Chris Hobbs"
   raw_title: "Sin City Ruby 2024 - Talk by Chris Hobbs"
   date: "2024-03-21"
@@ -23,7 +24,8 @@
     - Chris Hobbs
   video_id: "sin-city-ruby-2024-chris-hobbs"
   video_provider: not_recorded
-  description: "Talk by Chris Hobbs at Sin City Ruby 2024."
+  description: |-
+    Talk by Chris Hobbs at Sin City Ruby 2024.
 - title: "Who Wants to be a Ruby Engineer?"
   raw_title: "Sin City Ruby 2024 - Talk by Drew Bragg"
   date: "2024-03-21"
@@ -33,7 +35,8 @@
   video_id: "sin-city-ruby-2024-Drew Bragg"
   video_provider: not_recorded
   kind: gameshow
-  description: "Games and prizes with Drew Bragg."
+  description: |-
+    Games and prizes with Drew Bragg.
 #
 # Lunch
 #
@@ -76,7 +79,8 @@
     - Jeremy Smith
   video_id: "sin-city-ruby-2024-jeremy-smith"
   video_provider: not_recorded
-  description: "Talk by Jeremy Smith at Sin City Ruby 2024."
+  description: |-
+    Talk by Jeremy Smith at Sin City Ruby 2024.
 #
 # Break
 # Opening Reception
@@ -91,7 +95,8 @@
     - Ernesto Tagwerker
   video_id: "sin-city-ruby-2024-ernesto-tagwerker"
   video_provider: not_recorded
-  description: "Nobody wants to inherit a project that reeks but here we are: Stuck in the tar pit. How did we get here? In this talk you will learn how to use a few, great Ruby gems that will guide you out of that sticky tar you are in."
+  description: |-
+    Nobody wants to inherit a project that reeks but here we are: Stuck in the tar pit. How did we get here? In this talk you will learn how to use a few, great Ruby gems that will guide you out of that sticky tar you are in.
 - title: "Are you my mother?"
   raw_title: "Sin City Ruby 2024 - Talk by Tom Rossi"
   date: "2024-03-22"
@@ -111,7 +116,8 @@
     - Vladimir Dementyev
   video_id: "sin-city-ruby-2024-vladimir-dementyev"
   video_provider: not_recorded
-  description: "Developing web applications with Ruby on Rails is known to be hellishly productive. What’s the price of this deal? Let’s talk about design patterns leveraged by the framework responsible for increased productivity and at the same time often acclaimed for being anti-patterns."
+  description: |-
+    Developing web applications with Ruby on Rails is known to be hellishly productive. What’s the price of this deal? Let’s talk about design patterns leveraged by the framework responsible for increased productivity and at the same time often acclaimed for being anti-patterns.
 #
 # Arm wrestling
 # Lunch
@@ -129,7 +135,8 @@
   thumbnail_md: https://pbs.twimg.com/media/GJTzd8wbUAAPqnB?format=jpg&name=large
   thumbnail_lg: https://pbs.twimg.com/media/GJTzd8wbUAAPqnB?format=jpg&name=large
   thumbnail_xl: https://pbs.twimg.com/media/GJTzd8wbUAAPqnB?format=jpg&name=large
-  description: "Talk by Jason Charnes at Sin City Ruby 2024."
+  description: |-
+    Talk by Jason Charnes at Sin City Ruby 2024.
 - title: "How To Do Well In Consulting"
   raw_title: "Sin City Ruby 2024 - Talk by Irina Nazarova"
   date: "2024-03-22"
@@ -144,7 +151,8 @@
   thumbnail_md: https://pbs.twimg.com/media/GJUJ73jbQAAS2iM?format=jpg&name=large
   thumbnail_lg: https://pbs.twimg.com/media/GJUJ73jbQAAS2iM?format=jpg&name=large
   thumbnail_xl: https://pbs.twimg.com/media/GJUJ73jbQAAS2iM?format=jpg&name=large
-  description: "Talk by Irina Nazarova at Sin City Ruby 2024."
+  description: |-
+    Talk by Irina Nazarova at Sin City Ruby 2024.
 - title: "Keynote by Obie Fernandez"
   raw_title: "Sin City Ruby 2024 - Keynote: Obie Fernandez"
   date: "2024-03-22"
@@ -153,5 +161,7 @@
     - Obie Fernandez
   video_id: "sin-city-ruby-2024-obie-fernandez"
   video_provider: not_recorded
-  description: "Keynote by Obie Fernandez at Sin City Ruby 2024."
+  description: |-
+    Keynote by Obie Fernandez at Sin City Ruby 2024.
+
 # End of Conference

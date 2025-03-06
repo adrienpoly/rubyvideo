@@ -38,7 +38,8 @@
   event_name: RailsConf 2017
   date: "2017-05-05"
   published_at: "TODO"
-  description: "RailsConf 2017: Opening Keynote by David Heinemeier Hansson"
+  description: |-
+    RailsConf 2017: Opening Keynote by David Heinemeier Hansson
   video_provider: youtube
   video_id: Cx6aGMC6MjU
 - title: "Building Rails ActionDispatch::SystemTestCase Framework"
@@ -119,7 +120,8 @@
   event_name: RailsConf 2017
   date: "2017-05-09"
   published_at: "TODO"
-  description: "RailsConf 2017: Keynote by Justin Searls"
+  description: |-
+    RailsConf 2017: Keynote by Justin Searls
   video_provider: youtube
   video_id: V4fnzHxHXMI
 - title: "Rough to Fine: Programming Lessons from Woodworking"
@@ -373,7 +375,8 @@
   date: "2017-05-10"
   published_at: "TODO"
   slides_url: https://speakerdeck.com/tenderlove/railsconf-2017
-  description: "RailsConf 2017: Keynote by Aaron Patterson"
+  description: |-
+    RailsConf 2017: Keynote by Aaron Patterson
   video_provider: youtube
   video_id: GnCJO8Ax1qg
 - title: "Bebop to the Top - The Jazz Band As A Guide To Leadership"
@@ -640,7 +643,8 @@
   event_name: RailsConf 2017
   date: "2017-05-16"
   published_at: "TODO"
-  description: "RailsConf 2017: Keynote by Marco Rogers"
+  description: |-
+    RailsConf 2017: Keynote by Marco Rogers
   video_provider: youtube
   video_id: g6fBRwi6cqc
 - title: "Bayes is BAE"
@@ -749,7 +753,8 @@
   event_name: RailsConf 2017
   date: "2017-05-17"
   published_at: "TODO"
-  description: "RailsConf 2017: Keynote: Gen Z and the Future of Technology by Pamela Pavliscak"
+  description: |-
+    RailsConf 2017: Keynote: Gen Z and the Future of Technology by Pamela Pavliscak
   video_provider: youtube
   video_id: iN1nOTQgmCY
 - title: "Syntax Isn't Everything: NLP for Rubyists"
@@ -1147,7 +1152,8 @@
   event_name: RailsConf 2017
   date: "2017-05-26"
   published_at: "TODO"
-  description: Forms are a crucial part of every app and Rails has good defaults for building them—unless you need something complicated. Maybe you want a multi-step wizard? Or maybe you'd like to pluck attributes from any model? Validation becomes a pain point. So you introduce a state machine, or nest your models, or do some other calisthenic to get everything working. Thankfully there's a better way! This talk takes a complicated wizard and converts it into a few simple form objects—it's a deep dive on decoupling models and how you can leverage Trailblazer's Reform gem to make it even easier.
+  description: |-
+    Forms are a crucial part of every app and Rails has good defaults for building them—unless you need something complicated. Maybe you want a multi-step wizard? Or maybe you'd like to pluck attributes from any model? Validation becomes a pain point. So you introduce a state machine, or nest your models, or do some other calisthenic to get everything working. Thankfully there's a better way! This talk takes a complicated wizard and converts it into a few simple form objects—it's a deep dive on decoupling models and how you can leverage Trailblazer's Reform gem to make it even easier.
   video_provider: youtube
   video_id: d9vMENoqxEE
 - title: "Rails 5.1: Awesome Features and Breaking Changes"
@@ -1276,7 +1282,14 @@
   event_name: RailsConf 2017
   date: "2017-05-27"
   published_at: "TODO"
-  description: "Deep Dive into Docker Containers for Rails Developers by Christopher Rigor \n\nThis is a sponsored talk by Engine Yard.\n\nContainers have gained popularity the past few years but they have been around much longer than that. In this talk, we'll dive into the internals of a container. If you have used or heard about Docker containers but are unsure how they work, this talk is for you.\n\nYou’ll also learn how to run Rails in production-ready container environments like Kubernetes."
+  description: |-
+    Deep Dive into Docker Containers for Rails Developers by Christopher Rigor
+
+    This is a sponsored talk by Engine Yard.
+
+    Containers have gained popularity the past few years but they have been around much longer than that. In this talk, we'll dive into the internals of a container. If you have used or heard about Docker containers but are unsure how they work, this talk is for you.
+
+    You’ll also learn how to run Rails in production-ready container environments like Kubernetes.
   video_provider: youtube
   video_id: 2c4fvXKec7Q
 - title: "​Introducing Helix: High-Performance Ruby Made Easy"

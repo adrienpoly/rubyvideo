@@ -13,7 +13,8 @@
   event_name: Rocky Mountain Ruby 2024
   date: "2024-10-07"
   published_at: "TODO"
-  description: Opening Remarks with Spike Ilacqua and Bekki Freeman
+  description: |-
+    Opening Remarks with Spike Ilacqua and Bekki Freeman
   video_provider: youtube
   video_id: SGskS0ePogc
 - title: A Brewer's Guide to Filtering out Complexity and Churn
@@ -60,7 +61,8 @@
   event_name: Rocky Mountain Ruby 2024
   date: "2024-10-07"
   published_at: "TODO"
-  description: "DragonRuby Game Toolkit recently celebrated its 5 year anniversary. Over that time it’s become one of the highest rated and most popular game engines on Itch.io. Amir will share lessons he learned over that period: everything from the low level architecture, to the more human aspects of creating a community around Ruby and the joy it's brought to new devs."
+  description: |-
+    DragonRuby Game Toolkit recently celebrated its 5 year anniversary. Over that time it’s become one of the highest rated and most popular game engines on Itch.io. Amir will share lessons he learned over that period: everything from the low level architecture, to the more human aspects of creating a community around Ruby and the joy it's brought to new devs.
   video_provider: youtube
   video_id: rCLxORAKDWs
 - title: "From Zero to App with Bridgetown: The Rapid Prototyping Framework"
@@ -134,7 +136,8 @@
   date: "2024-10-07"
   published_at: "TODO"
   slides_url: https://speakerdeck.com/irinanazarova/evolution-of-realtime-and-anycable-pro-rocky-mountain-ruby-2024-irina-nazarova
-  description: "When we launched AnyCable Pro at Evil Martians in 2021, our goal was to simplify real-time functionality for all Rails developers while making it commercially successful for our company. We aimed to build what people wanted and saw their priorities shift from GraphQL to Hotwire, from chats to collaboration, and to AI-powered voice apps. Initially focused on performance, we soon tackled WebSocket reliability and developer productivity, culminating in the launch of Managed AnyCable earlier this year. Our journey, fueled by consulting revenue, is not without valuable insights. Let’s reflect on our story, share our learnings, and glimpse into the future of AnyCable and real-time applications."
+  description: |-
+    When we launched AnyCable Pro at Evil Martians in 2021, our goal was to simplify real-time functionality for all Rails developers while making it commercially successful for our company. We aimed to build what people wanted and saw their priorities shift from GraphQL to Hotwire, from chats to collaboration, and to AI-powered voice apps. Initially focused on performance, we soon tackled WebSocket reliability and developer productivity, culminating in the launch of Managed AnyCable earlier this year. Our journey, fueled by consulting revenue, is not without valuable insights. Let’s reflect on our story, share our learnings, and glimpse into the future of AnyCable and real-time applications.
   video_provider: youtube
   video_id: 7WJFTvgnmWA
 #
@@ -221,7 +224,8 @@
   event_name: Rocky Mountain Ruby 2024
   date: "2024-10-08"
   published_at: "TODO"
-  description: Rocky Mountain Ruby 2024
+  description: |-
+    Rocky Mountain Ruby 2024
   video_provider: youtube
   video_id: Rq9EHxPh3ZE
   talks:

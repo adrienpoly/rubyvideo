@@ -15,7 +15,8 @@
   event_name: Rocky Mountain Ruby 2011
   date: "2011-09-01"
   published_at: "TODO"
-  description: Michael Feathers will be giving the opening keynote this year at Rocky Mountain Ruby. Michael is well known in the software community for his work with XP/Agile, improving software development and working on large legacy codebases. Don't miss his opening remarks which will definitely be thought provoking.
+  description: |-
+    Michael Feathers will be giving the opening keynote this year at Rocky Mountain Ruby. Michael is well known in the software community for his work with XP/Agile, improving software development and working on large legacy codebases. Don't miss his opening remarks which will definitely be thought provoking.
   video_provider: youtube
   video_id: B31QrNFyRyc
 - title: "API Design Matters"
@@ -51,7 +52,8 @@
   event_name: Rocky Mountain Ruby 2011
   date: "2011-09-01"
   published_at: "TODO"
-  description: People often think of design as something that helps solve problems, but design should actually prevent problems in the first place. While you may not be a designer, applying tenets of design thinking to your life and work will help you make better decisions, build better stuff, and give you a framework to keep life and work moving forward.
+  description: |-
+    People often think of design as something that helps solve problems, but design should actually prevent problems in the first place. While you may not be a designer, applying tenets of design thinking to your life and work will help you make better decisions, build better stuff, and give you a framework to keep life and work moving forward.
   video_provider: youtube
   video_id: HYxf9v50B1U
 - title: "Things You Didn't Know About Exceptions"
@@ -61,7 +63,8 @@
   event_name: Rocky Mountain Ruby 2011
   date: "2011-09-01"
   published_at: "TODO"
-  description: You know how to raise and rescue exceptions. But do you know how they work, and how how to structure a robust error handling strategy for your app? Starting out with an in-depth walk-through of Ruby's Ruby's rich failure handling mechanisms -- including some features you may not have known about -- we'll move on to present strategies for implementing a cohesive error-handling policy for your application, based on real-world experience.
+  description: |-
+    You know how to raise and rescue exceptions. But do you know how they work, and how how to structure a robust error handling strategy for your app? Starting out with an in-depth walk-through of Ruby's Ruby's rich failure handling mechanisms -- including some features you may not have known about -- we'll move on to present strategies for implementing a cohesive error-handling policy for your application, based on real-world experience.
   video_provider: youtube
   video_id: NZx4phN7q_w
 - title: "Mastering the Ruby Debugger"
@@ -81,7 +84,8 @@
   event_name: Rocky Mountain Ruby 2011
   date: "2011-09-01"
   published_at: "TODO"
-  description: Many of us are familiar with the old adage about writing code "for people to read, and only incidentally for machines to execute" (thanks, Abelson and Sussman) - but it's easier said than done. The fields of object-oriented design, patterns, and software architecture are vast, but primarily concerned with the mechanical structure of code - what if we took a step back from the nuts and bolts of the code and look at the way we as humans read and write it? Can we use our understanding of the psychology of human cognition to better understand our target audience, and in turn write code that is more intuitive, readable, and maintainable? This talk will walk through some of the basics of cognitive psychology and relate them back to concrete ways that we as developers can optimize our code for high performance in the interpreter between our ears.
+  description: |-
+    Many of us are familiar with the old adage about writing code "for people to read, and only incidentally for machines to execute" (thanks, Abelson and Sussman) - but it's easier said than done. The fields of object-oriented design, patterns, and software architecture are vast, but primarily concerned with the mechanical structure of code - what if we took a step back from the nuts and bolts of the code and look at the way we as humans read and write it? Can we use our understanding of the psychology of human cognition to better understand our target audience, and in turn write code that is more intuitive, readable, and maintainable? This talk will walk through some of the basics of cognitive psychology and relate them back to concrete ways that we as developers can optimize our code for high performance in the interpreter between our ears.
   video_provider: youtube
   video_id: ar4QzWJ87RQ
 - title: "Ruby Coding High"
@@ -117,7 +121,8 @@
   event_name: Rocky Mountain Ruby 2011
   date: "2011-09-01"
   published_at: "TODO"
-  description: Learn how to go inside out vs. outside in so you can tap into your intuition to make strong decisions and come up with innovative solutions. It might just help you invent the next big thing rather than being the next Groupon clone.
+  description: |-
+    Learn how to go inside out vs. outside in so you can tap into your intuition to make strong decisions and come up with innovative solutions. It might just help you invent the next big thing rather than being the next Groupon clone.
   video_provider: youtube
   video_id: twoQjXLie7Y
 #
@@ -130,7 +135,8 @@
   event_name: Rocky Mountain Ruby 2011
   date: "2011-09-02"
   published_at: "TODO"
-  description: At least since node.js everyone knows that real time HTTP responses are the next big thing. The secrets of handling incoming requests asynchronously with Ruby is not yet far spread among Rubyists, as the internals needed for such responses are neither specified nor documented and there is a lack of tools. Still, it is possible to use Server-Sent Events, WebSockets and akin with Rack today. This talk will demonstrate the underlying technologies and how to use them in your Ruby application.
+  description: |-
+    At least since node.js everyone knows that real time HTTP responses are the next big thing. The secrets of handling incoming requests asynchronously with Ruby is not yet far spread among Rubyists, as the internals needed for such responses are neither specified nor documented and there is a lack of tools. Still, it is possible to use Server-Sent Events, WebSockets and akin with Rack today. This talk will demonstrate the underlying technologies and how to use them in your Ruby application.
   video_provider: youtube
   video_id: R84ersKcKFc
 - title: "Ruby Messaging Patterns"
@@ -263,7 +269,8 @@
   event_name: Rocky Mountain Ruby 2011
   date: "2011-09-02"
   published_at: "TODO"
-  description: Ever have one of those days where you sit back at the end of the day and realize that you didn't get anything tangible done? Why do those days happen? Many times is it because we lack focus during the day to complete even the simplest of tasks. Our modern lives don't allow us to practice focus; in fact they conspire against us being focused. This talk will explain why focus is important to productivity and teach one way you can practice focus through meditation.
+  description: |-
+    Ever have one of those days where you sit back at the end of the day and realize that you didn't get anything tangible done? Why do those days happen? Many times is it because we lack focus during the day to complete even the simplest of tasks. Our modern lives don't allow us to practice focus; in fact they conspire against us being focused. This talk will explain why focus is important to productivity and teach one way you can practice focus through meditation.
   video_provider: youtube
   video_id: "-JAQnLsFJMg"
 - title: "Lightning Talk: Deprecatable"

@@ -30,7 +30,16 @@
   event_name: Rails World 2024
   date: "2024-09-26"
   track: Track 1 (Hosted by GitHub)
-  description: "After years of tackling background job complexities with Resque and Redis at 37signals, the team finally decided to build an out-of-the-box solution. Enter #SolidQueue, a default now in Rails 8. Rosa Gutiérrez presented Solid Queue at Rails World and shared the journey and the challenges they faced to get it live. \n\nNote: Rosa lost her voice the morning of this presentation but put on her game face and delivered the talk anyway. \n\n#Rails #Rails8 #solidqueue #resque #redis\n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    After years of tackling background job complexities with Resque and Redis at 37signals, the team finally decided to build an out-of-the-box solution. Enter #SolidQueue, a default now in Rails 8. Rosa Gutiérrez presented Solid Queue at Rails World and shared the journey and the challenges they faced to get it live.
+
+    Note: Rosa lost her voice the morning of this presentation but put on her game face and delivered the talk anyway.
+
+    #Rails #Rails8 #solidqueue #resque #redis
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: sEv2AYJiz1U
 - title: Going Beyond a Single Postgres Instance with Rails
   raw_title: Mostafa Abdelraouf - Going beyond a Single Postgres Instance with Rails - Rails World 2024
@@ -39,7 +48,14 @@
   event_name: Rails World 2024
   date: "2024-09-26"
   track: Track 2 (Hosted by AppSignal)
-  description: "Mostafa Abdelraouf shares the journey of evolving Instacart's Rails application beyond a single Postgres instance. He discusses how they managed the added complexity from adding read replicas, and later vertically and horizontally sharding, and also touched on the topics of query routing, connection pooling, and load balancing at Instacart's scale.\n\n#railsatscale #postgres #sharding \n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    Mostafa Abdelraouf shares the journey of evolving Instacart's Rails application beyond a single Postgres instance. He discusses how they managed the added complexity from adding read replicas, and later vertically and horizontally sharding, and also touched on the topics of query routing, connection pooling, and load balancing at Instacart's scale.
+
+    #railsatscale #postgres #sharding
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: aPsstRiNocY
 - title: "Lightning Talks (Block 1)"
   raw_title: "Lightning Talks 1 - Rails World 2024"
@@ -144,7 +160,14 @@
   event_name: Rails World 2024
   date: "2024-09-26"
   track: Track 1 (Hosted by GitHub)
-  description: "Kamal Proxy is a new, purpose-built HTTP proxy service that powers Kamal 2.0. It is designed to make zero-downtime deployments simpler, and comes with additional features to make your Rails applications faster and easier to operate. Kevin McConnell explains what Kamal Proxy does, why they built it, and how it works in his talk at #RailsWorld.\n\n#Kamalproxy #kamal2 #rails #rubyonrails #rails8 \n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    Kamal Proxy is a new, purpose-built HTTP proxy service that powers Kamal 2.0. It is designed to make zero-downtime deployments simpler, and comes with additional features to make your Rails applications faster and easier to operate. Kevin McConnell explains what Kamal Proxy does, why they built it, and how it works in his talk at #RailsWorld.
+
+    #Kamalproxy #kamal2 #rails #rubyonrails #rails8
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: hQXjbnh18XM
 - title: The State of Security in Rails 8
   raw_title: Greg Molnar - The state of security in Rails 8 - Rails World 2024
@@ -153,7 +176,14 @@
   event_name: Rails World 2024
   date: "2024-09-26"
   track: Track 2 (Hosted by AppSignal)
-  description: "In his #RailsWorld talk, Greg Molnar highlights the recent security related improvements in Rails and why Rails is one of the best options for an application with high security standards. \n\n#rails #rubyonrails #rails8 #applicationsecurity \n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/\""
+  description: |-
+    In his #RailsWorld talk, Greg Molnar highlights the recent security related improvements in Rails and why Rails is one of the best options for an application with high security standards.
+
+    #rails #rubyonrails #rails8 #applicationsecurity
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
   video_id: Z3DgOix0rIg
 - title: "Lightning Talks (Block 2)"
   raw_title: "Lightning Talks 2 - Rails World 2024"
@@ -206,7 +236,12 @@
   event_name: Rails World 2024
   date: "2024-09-26"
   track: Track 2 (Hosted by AppSignal)
-  description: "In 2019, Justin Searls gave a talk, \"The Selfish Programmer\" all about building a Rails 5 app as a one-man show. Now, he is back to share how he made a new app that's twice the size but felt like half the work. You'll learn how Rails includes more batteries than ever, when sticking with omakase pays off, and why scaling back a team doesn't have to mean slowing down. \n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    In 2019, Justin Searls gave a talk, "The Selfish Programmer" all about building a Rails 5 app as a one-man show. Now, he is back to share how he made a new app that's twice the size but felt like half the work. You'll learn how Rails includes more batteries than ever, when sticking with omakase pays off, and why scaling back a team doesn't have to mean slowing down.
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: mhqf2uK0doU
 - title: "Lightning Talks (Block 3)"
   raw_title: "Lightning Talks 3 - Rails World 2024"
@@ -242,7 +277,14 @@
   event_name: Rails World 2024
   date: "2024-09-26"
   track: Track 1 (Hosted by GitHub)
-  description: "Rails is known to be one of the best frameworks in terms of empowering developers to build great products, and has kept this place for 20 years. But...can we do better? In his talk at #RailsWorld, Rails Core member Rafael França shows how they are pushing Rails to continue making developers lives easier across new frontiers. \n\n#RubyonRails #Rails #Rails8 #productivity #devcontainers #lsp #developerhappiness\n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    Rails is known to be one of the best frameworks in terms of empowering developers to build great products, and has kept this place for 20 years. But...can we do better? In his talk at #RailsWorld, Rails Core member Rafael França shows how they are pushing Rails to continue making developers lives easier across new frontiers.
+
+    #RubyonRails #Rails #Rails8 #productivity #devcontainers #lsp #developerhappiness
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: G9xwfEOXnb0
 - title: Progressive Web Apps for Rails Developers
   raw_title: Emmanuel Hayford - Progressive Web Apps for Rails developers - Rails World 2024
@@ -268,7 +310,16 @@
   event_name: Rails World 2024
   date: "2024-09-26"
   track: Track 1 (Hosted by GitHub)
-  description: "In a special #RailsWorld session, DHH (creator of Rails), Matz (creator of Ruby), and Shopify CEO Tobias Lütke sat down for a fireside chat about #Ruby, #Rails, and all things #opensource. \n\nThis is the first time that Matz and DHH shared a stage, and it would not have been possible without Tobi, who not only donated his keynote spot to make this session happen, but also led the discussion.\n\n**\n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    In a special #RailsWorld session, DHH (creator of Rails), Matz (creator of Ruby), and Shopify CEO Tobias Lütke sat down for a fireside chat about #Ruby, #Rails, and all things #opensource.
+
+    This is the first time that Matz and DHH shared a stage, and it would not have been possible without Tobi, who not only donated his keynote spot to make this session happen, but also led the discussion.
+
+    **
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: zPBbHu-BKpQ
 #
 ## Day 2
@@ -298,7 +349,16 @@
   date: "2024-09-27"
   track: Track 1 (Hosted by GitHub)
   slides_url: https://fractaledmind.github.io/2024/10/16/sqlite-supercharges-rails
-  description: "The Rails 8 feature set perfectly complements SQLite's power in creating resilient, high-performance production apps, but still the question lingers: Can I really go all-in on #SQLite? Stephen Margheim illustrates how to leverage Rails and SQLite's full potential in your next venture, and when SQLite does and doesn't make sense for your application. \n\nFind the slides here: https://fractaledmind.github.io/2024/10/16/sqlite-supercharges-rails/\n\n#Rails #Rails8 #rubyonrails #sqlite\n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    The Rails 8 feature set perfectly complements SQLite's power in creating resilient, high-performance production apps, but still the question lingers: Can I really go all-in on #SQLite? Stephen Margheim illustrates how to leverage Rails and SQLite's full potential in your next venture, and when SQLite does and doesn't make sense for your application.
+
+    Find the slides here: https://fractaledmind.github.io/2024/10/16/sqlite-supercharges-rails/
+
+    #Rails #Rails8 #rubyonrails #sqlite
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: wFUy120Fts8
 - title: Demystifying Some of The Magic Behind Rails
   raw_title: Ridhwana Khan - Demystifying some of the magic behind Rails - Rails World 2024
@@ -423,7 +483,14 @@
   event_name: Rails World 2024
   date: "2024-09-27"
   track: Track 1 (Hosted by GitHub)
-  description: "Is your web app accessible? In his talk at #RailsWorld, Bruno Prieto shares his first-hand perspective as a blind developer on building accessible web apps with real-world examples taking advantage of tools provided by Rails, Hotwire, and the browser. It's easier than you think! \n\n#rails #accessibility #webaccessibility \n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    Is your web app accessible? In his talk at #RailsWorld, Bruno Prieto shares his first-hand perspective as a blind developer on building accessible web apps with real-world examples taking advantage of tools provided by Rails, Hotwire, and the browser. It's easier than you think!
+
+    #rails #accessibility #webaccessibility
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: zqBNEBnjzXM
 - title: "Prepare to Tack: Steering Rails Apps Out of Technical Debt"
   raw_title: "Robby Russell - Prepare to tack: Steering Rails apps out of technical debt - Rails World 2024"
@@ -433,7 +500,16 @@
   date: "2024-09-27"
   track: Track 2 (Hosted by AppSignal)
   slides_url: https://maintainablerails.com/railsworld-2024-talk-resources
-  description: "If your Rails app is drowning in a sea of compromises and quick fixes, making it difficult to update and slowing you down, it's high time to redefine \"technical debt\" - perhaps even time to ditch the term altogether. In his #RailsWorld talk, Planet Argon foundr and CEO Robby Russell explores the common issues facing our Rails apps, uncovering roadblocks, blind spots, and comfort zones that lead us to rationalize away the need for necessary changes. It's time to confront these issues head on and work towards a more maintainable, efficient codebase. \n\nFind the slides for this talk here: https://maintainablerails.com/railsworld-2024-talk-resources\n\n#technicaldebt #Rails\n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    If your Rails app is drowning in a sea of compromises and quick fixes, making it difficult to update and slowing you down, it's high time to redefine "technical debt" - perhaps even time to ditch the term altogether. In his #RailsWorld talk, Planet Argon foundr and CEO Robby Russell explores the common issues facing our Rails apps, uncovering roadblocks, blind spots, and comfort zones that lead us to rationalize away the need for necessary changes. It's time to confront these issues head on and work towards a more maintainable, efficient codebase.
+
+    Find the slides for this talk here: https://maintainablerails.com/railsworld-2024-talk-resources
+
+    #technicaldebt #Rails
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: eT7hJz_GXGo
 - title: "Lightning Talks (Block 5)"
   raw_title: "Lightning Talks 5 - Rails World 2024"
@@ -485,7 +561,14 @@
   date: "2024-09-27"
   track: Track 2 (Hosted by AppSignal)
   slides_url: https://speakerdeck.com/yukideluxe/testing-integrations-the-good-the-bad-and-the-ugly
-  description: "Enhancing your app's features through third-party APIs can be so powerful, but testing these integrations can be so cumbersome. At #RailsWorld Julia López sharaed practical strategies for testing integrations, drawing from real-life experiences at Harvest, where they implemented several integrations – Braintree, Stripe, CustomerIO, Hubspot, Xero, QuickBooks, and more. \n\n#tesing #Rails #api \n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    Enhancing your app's features through third-party APIs can be so powerful, but testing these integrations can be so cumbersome. At #RailsWorld Julia López sharaed practical strategies for testing integrations, drawing from real-life experiences at Harvest, where they implemented several integrations – Braintree, Stripe, CustomerIO, Hubspot, Xero, QuickBooks, and more.
+
+    #tesing #Rails #api
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: j0FDwx4P-WU
 - title: "Lightning Talks (Block 6)"
   raw_title: "Lightning Talks 6 - Rails World 2024"
@@ -538,7 +621,14 @@
   event_name: Rails World 2024
   date: "2024-09-27"
   track: Track 2 (Hosted by AppSignal)
-  description: "David Henner highlights some of the major improvements Zendesk has achieved using straightforward #Ruby techniques to get even better performance out of Rails, including data which illustrates how they saved thousands of years of processing time annually, leading to increased customer satisfaction and cost-effectiveness, as reflected in their AWS bills. \n\n#railsatscale #rails #scaling \n\nThank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/\n\nStay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
+  description: |-
+    David Henner highlights some of the major improvements Zendesk has achieved using straightforward #Ruby techniques to get even better performance out of Rails, including data which illustrates how they saved thousands of years of processing time annually, leading to increased customer satisfaction and cost-effectiveness, as reflected in their AWS bills.
+
+    #railsatscale #rails #scaling
+
+    Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
+
+    Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: tBRBFcCWqcg
 - title: Closing Keynote
   raw_title: Aaron Patterson - Rails World 2024 Closing Keynote

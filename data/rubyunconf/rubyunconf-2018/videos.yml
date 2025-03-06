@@ -103,7 +103,8 @@
   event_name: Ruby Unconf 2018
   date: "2018-05-05"
   published_at: "TODO"
-  description: Please visit https://github.com/mediafinger/rabbitmq_presentation/ for the slides' text and some example apps.
+  description: |-
+    Please visit https://github.com/mediafinger/rabbitmq_presentation/ for the slides' text and some example apps.
   video_provider: youtube
   video_id: eJhxlVkGXdQ
 #
@@ -147,7 +148,8 @@
   event_name: Ruby Unconf 2018
   date: "2018-05-05"
   published_at: "TODO"
-  description: preconnect, prefetch, preload, pre-what? How to speed up websites with Resource hints
+  description: |-
+    preconnect, prefetch, preload, pre-what? How to speed up websites with Resource hints
   video_provider: youtube
   video_id: V3mQatuVZLY
 #
@@ -177,7 +179,14 @@
   event_name: Ruby Unconf 2018
   date: "2018-05-06"
   published_at: "TODO"
-  description: "Slides:\n\nhttps://gitpitch.com/stex/petra-rails_demo/master\n\nThe mentioned examples and demo application can be found at \n\nhttps://github.com/stex/petra-rails_demo"
+  description: |-
+    Slides:
+
+    https://gitpitch.com/stex/petra-rails_demo/master
+
+    The mentioned examples and demo application can be found at
+
+    https://github.com/stex/petra-rails_demo
   video_provider: youtube
   video_id: UGo1dL8i4Jo
 #

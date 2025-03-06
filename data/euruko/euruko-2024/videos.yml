@@ -23,7 +23,8 @@
   track: Main Track
   speakers:
     - Xavier Noria
-  description: Last month marked the 5th anniversary of Rails 6, the first Rails version to ship with Zeitwerk. In this talk, we'll do a retrospective about the Zeitwerk project. We are going to understand its motivations, technical details, milestones, API design, and other topics.
+  description: |-
+    Last month marked the 5th anniversary of Rails 6, the first Rails version to ship with Zeitwerk. In this talk, we'll do a retrospective about the Zeitwerk project. We are going to understand its motivations, technical details, milestones, API design, and other topics.
   video_id: sUhElM03QB4
   video_provider: youtube
 - title: A Decade of Rails Bug Fixes
@@ -122,7 +123,8 @@
   track: Third Track
   speakers:
     - Erica Weistrand
-  description: In the Ruby landscape, Rails has become the primary approach for web development and you get a lot of configuration and features for free when using Rails. In this talk, we'll delve into the world of Rails, have a quick look at Hanami and then discuss how we navigate the challenges of building web apps with Sinatra at 84codes. We'll also share what we learned from Rails and Hanami and how we tried to get the best out of all worlds by implementing some of those learnings in our own web apps.
+  description: |-
+    In the Ruby landscape, Rails has become the primary approach for web development and you get a lot of configuration and features for free when using Rails. In this talk, we'll delve into the world of Rails, have a quick look at Hanami and then discuss how we navigate the challenges of building web apps with Sinatra at 84codes. We'll also share what we learned from Rails and Hanami and how we tried to get the best out of all worlds by implementing some of those learnings in our own web apps.
   video_id: TnqFTNcIZrs
   video_provider: youtube
 - title: Seven things I know after 25 years of development
@@ -134,7 +136,7 @@
   track: Main Track
   speakers:
     - Victor Shepelev
-  description: |
+  description: |-
     Through years of career, every developer dedicated to their craft gathers their own set of beliefs, opinions, and habits. Some of them are just reinforcing the common wisdom, some might be quite peculiar; some become irrelevant with time, some only grow stronger; some are about big and important things, and some might be considered nitpicks.
 
     Let me share some of mine—without promising them to be universal or even extremely useful, but with a promise of interesting stories and choices behind them.
@@ -616,7 +618,8 @@
     - Yukihiro "Matz" Matsumoto
     - Yaroslav Shmarov
     - Adrian Marin
-  description: "https://www.friendly.show/2278525"
+  description: |-
+    https://www.friendly.show/2278525
   video_id: mbtXNkXtung
   video_provider: youtube
 - title: "Keynote: Livebook: where Web, AI, and Concurrency meet"
@@ -627,7 +630,8 @@
   track: Main Track
   speakers:
     - José Valim
-  description: While it has been more than a decade since I wrote my last line of Ruby code, there are lessons the Ruby community taught me that I have never forgotten. And the biggest of them is to always be open to new ideas. In this talk, I will present Livebook, which borrows from Python, Erlang, JavaScript, and more, and enables us to introspect systems at scale, build machine learning applications, and run web applications, and much more within minutes. I hope I will inspire the audience to explore new ideas within their daily tools.
+  description: |-
+    While it has been more than a decade since I wrote my last line of Ruby code, there are lessons the Ruby community taught me that I have never forgotten. And the biggest of them is to always be open to new ideas. In this talk, I will present Livebook, which borrows from Python, Erlang, JavaScript, and more, and enables us to introspect systems at scale, build machine learning applications, and run web applications, and much more within minutes. I hope I will inspire the audience to explore new ideas within their daily tools.
   video_id: jose-valim-euruko-2024
   video_provider: not_recorded
   alternative_recordings:
@@ -896,7 +900,25 @@
   track: Second Track
   speakers:
     - Jakub Godawa
-  description: "We all do simulations in our heads, so why not make one in Ruby? Something that we can observe, fast forward, or let it linger. Let's see how custom shared timers, threads, queues, and mutexes work together, and how they can form a petrol station with optimal cost and throughput.\n\nThe cars are coming to a station. They want to get some fuel. They come at different times and they need to be served. Just like web requests but this time we'll not do web development. This we do at work. So for fun we want to build something that feels more alive. A small closed system that we could fully control and derive further ideas from. This is how we start thinking about simulators.\n\nThe main idea of a simulation is that it happens in some programmable environment. First, we need to think about how to control time. If every piece of the simulation, like a car or a station, runs in its own thread, then how do we synchronize them? How to handle access into shared resources? What data structures should we use?\n\nAlso, how do we create a protocol for gathering results to help us make decisions? How do we write a config file for a simulator engine that can spawn multiple scenarios in parallel? And last but not least, how do we visualize a simulation?\n\nThis presentation is a pure Ruby feast. We will operate on MRI and visualize the simulation in two ways: with d3.js, and through ASCII art. See you there! \U0001F695"
+  description:
+    "We all do simulations in our heads, so why not make one in Ruby? Something that we
+    can observe, fast forward, or let it linger. Let's see how custom shared timers,
+    threads, queues, and mutexes work together, and how they can form a petrol station
+    with optimal cost and throughput.\n\nThe cars are coming to a station. They want
+    to get some fuel. They come at different times and they need to be served. Just
+    like web requests but this time we'll not do web development. This we do at work.
+    So for fun we want to build something that feels more alive. A small closed system
+    that we could fully control and derive further ideas from. This is how we start
+    thinking about simulators.\n\nThe main idea of a simulation is that it happens in
+    some programmable environment. First, we need to think about how to control time.
+    If every piece of the simulation, like a car or a station, runs in its own thread,
+    then how do we synchronize them? How to handle access into shared resources? What
+    data structures should we use?\n\nAlso, how do we create a protocol for gathering
+    results to help us make decisions? How do we write a config file for a simulator
+    engine that can spawn multiple scenarios in parallel? And last but not least, how
+    do we visualize a simulation?\n\nThis presentation is a pure Ruby feast. We will
+    operate on MRI and visualize the simulation in two ways: with d3.js, and through
+    ASCII art. See you there! \U0001F695"
   video_id: gS9w_yDJvqo
   video_provider: youtube
 - title: "The Modern Rubyist: When and How to Use the Latest Features"

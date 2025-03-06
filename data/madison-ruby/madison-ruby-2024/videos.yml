@@ -17,7 +17,8 @@
   thumbnail_lg: https://pbs.twimg.com/media/GQTxm1AbwAApD3f?format=jpg&name=medium
   thumbnail_xl: https://pbs.twimg.com/media/GQTxm1AbwAApD3f?format=jpg&name=medium
   thumbnail_classes: "object-bottom"
-  description: "A keynote reflecting on a decade in the Ruby community, emphasizing mentorship and the essence of being a Rubyist."
+  description: |-
+    A keynote reflecting on a decade in the Ruby community, emphasizing mentorship and the essence of being a Rubyist.
   date: "2024-08-01"
   published_at: "TODO"
 - title: "Dungeons and Developers: Uniting Experience Levels in Engine"
@@ -65,7 +66,8 @@
   thumbnail_lg: https://pbs.twimg.com/media/GQxbWHBXMAEZfjS?format=jpg&name=medium
   thumbnail_xl: https://pbs.twimg.com/media/GQxbWHBXMAEZfjS?format=jpg&name=medium
   thumbnail_classes: "object-bottom"
-  description: "A comparative analysis of building architecture and software architecture, exploring patterns and considerations at various scales."
+  description: |-
+    A comparative analysis of building architecture and software architecture, exploring patterns and considerations at various scales.
   date: "2024-08-01"
   published_at: "TODO"
   slides_url: https://craigbuchek.com/arch
@@ -82,7 +84,8 @@
   thumbnail_xl: https://pbs.twimg.com/media/GP9OVajWoAAIB5C?format=jpg&name=medium
   slides_url: https://speakerdeck.com/markyoon/designing-resilient-apis-balancing-stability-and-flexibility
   thumbnail_classes: "object-bottom"
-  description: "Strategies for crafting robust APIs in Ruby tailored for mobile clients, focusing on stability, flexibility, and collaboration."
+  description: |-
+    Strategies for crafting robust APIs in Ruby tailored for mobile clients, focusing on stability, flexibility, and collaboration.
   date: "2024-08-01"
   published_at: "TODO"
 - title: "Lessons From The Sky"
@@ -97,7 +100,8 @@
   thumbnail_lg: https://pbs.twimg.com/media/GQsWhXrWcAATPmk?format=jpg&name=medium
   thumbnail_xl: https://pbs.twimg.com/media/GQsWhXrWcAATPmk?format=jpg&name=medium
   thumbnail_classes: "object-bottom"
-  description: "Insights on how paragliding experiences can influence programming, focusing on handling fear and stress effectively."
+  description: |-
+    Insights on how paragliding experiences can influence programming, focusing on handling fear and stress effectively.
   date: "2024-08-01"
   published_at: "TODO"
 - title: "Effective Discussions for Technical Decision-Making"
@@ -113,7 +117,8 @@
   thumbnail_xl: https://pbs.twimg.com/media/GSSUzTXXUAEU8ei?format=jpg&name=medium
   thumbnail_classes: "object-bottom"
   slides_url: https://speakerdeck.com/asheren/effective-discussions-for-technical-decision-making
-  description: "Whiteboards. Pairing. Spikes. These are the tools we use to have high-level technical conversations about ideas or approaches. How you conduct and lead these conversations involves articulating a vision and securing buy-in, while also valuing and integrating diverse perspectives and feedback from others. The goal is to foster an environment where ideas can be exchanged, discussed, enhanced, and decided on. You’ll walk away from this talk with some new approaches to get your technical ideas across and also solicit thoughts and opinions in ways that engage different points of view."
+  description: |-
+    Whiteboards. Pairing. Spikes. These are the tools we use to have high-level technical conversations about ideas or approaches. How you conduct and lead these conversations involves articulating a vision and securing buy-in, while also valuing and integrating diverse perspectives and feedback from others. The goal is to foster an environment where ideas can be exchanged, discussed, enhanced, and decided on. You’ll walk away from this talk with some new approaches to get your technical ideas across and also solicit thoughts and opinions in ways that engage different points of view.
   date: "2024-08-01"
   published_at: "TODO"
 - title: "Mastering Query Performance With Active Record"
@@ -145,7 +150,8 @@
   thumbnail_lg: https://pbs.twimg.com/media/GQDALWXWsAEzSMi?format=jpg&name=medium
   thumbnail_xl: https://pbs.twimg.com/media/GQDALWXWsAEzSMi?format=jpg&name=medium
   thumbnail_classes: "object-bottom"
-  description: "Automation doesn’t have to be all or nothing. Automating manual processes is a practice that one can employ via simple principles. Broad enough to be applied to a range of workflows, flexible enough to be tailored to an individual’s personal development routines; these principles are not in themselves complex, and can be performed regularly in the day to day of working in a codebase. Learn how to cultivate habits and a culture of incremental automation so even if the goal is not a full self-service suite of automated tools, your team can begin a journey away from friction and manual tasks."
+  description: |-
+    Automation doesn’t have to be all or nothing. Automating manual processes is a practice that one can employ via simple principles. Broad enough to be applied to a range of workflows, flexible enough to be tailored to an individual’s personal development routines; these principles are not in themselves complex, and can be performed regularly in the day to day of working in a codebase. Learn how to cultivate habits and a culture of incremental automation so even if the goal is not a full self-service suite of automated tools, your team can begin a journey away from friction and manual tasks.
   date: "2024-08-01"
   published_at: "TODO"
 - title: "Ruby on RAG: Building AI Use Cases for Fun and Profit"
@@ -177,7 +183,8 @@
   thumbnail_lg: https://pbs.twimg.com/media/GPUzTZoXsAAhrpE?format=jpg&name=medium
   thumbnail_xl: https://pbs.twimg.com/media/GPUzTZoXsAAhrpE?format=jpg&name=medium
   thumbnail_classes: "object-bottom"
-  description: "A discussion on applying Postel’s Law to code generated from Large Language Models (LLMs) and Ruby's role in AI code generation."
+  description: |-
+    A discussion on applying Postel’s Law to code generated from Large Language Models (LLMs) and Ruby's role in AI code generation.
   date: "2024-08-01"
   published_at: "TODO"
 - title: "Refactoring English"
@@ -192,7 +199,8 @@
   thumbnail_lg: https://pbs.twimg.com/media/GPZxoCAXoAQmjfV?format=jpg&name=medium
   thumbnail_xl: https://pbs.twimg.com/media/GPZxoCAXoAQmjfV?format=jpg&name=medium
   thumbnail_classes: "object-bottom"
-  description: "Techniques to enhance writing clarity for developers, drawing parallels between code refactoring and prose improvement."
+  description: |-
+    Techniques to enhance writing clarity for developers, drawing parallels between code refactoring and prose improvement.
   date: "2024-08-02"
   published_at: "TODO"
 - title: "Developer Tooling For The Modern Rails & Hotwire Era"
@@ -206,7 +214,8 @@
   thumbnail_md: https://files.speakerdeck.com/presentations/b954afca5cb34d2980aa6364a4dc6a99/slide_0.jpg
   thumbnail_lg: https://files.speakerdeck.com/presentations/b954afca5cb34d2980aa6364a4dc6a99/slide_0.jpg
   thumbnail_xl: https://files.speakerdeck.com/presentations/b954afca5cb34d2980aa6364a4dc6a99/slide_0.jpg
-  description: "Exploration of advanced developer experience tools in the Rails ecosystem, including Language Server Protocols for Stimulus and Turbo."
+  description: |-
+    Exploration of advanced developer experience tools in the Rails ecosystem, including Language Server Protocols for Stimulus and Turbo.
   date: "2024-08-02"
   published_at: "TODO"
   slides_url: https://speakerdeck.com/marcoroth/developer-tooling-for-the-modern-rails-and-hotwire-era-at-madison-ruby-2024
@@ -222,7 +231,8 @@
   thumbnail_lg: https://pbs.twimg.com/media/GPpn4_SWUAApz5S?format=jpg&name=medium
   thumbnail_xl: https://pbs.twimg.com/media/GPpn4_SWUAApz5S?format=jpg&name=medium
   thumbnail_classes: "object-bottom"
-  description: "Guidance for back-end developers on impacting accessibility through APIs, specs, Ruby code, and documentation."
+  description: |-
+    Guidance for back-end developers on impacting accessibility through APIs, specs, Ruby code, and documentation.
   date: "2024-08-01"
   published_at: "TODO"
 - title: "Visual Regression Testing with Storybook and Backstop"
@@ -237,7 +247,8 @@
   thumbnail_lg: https://pbs.twimg.com/media/GPt0CssWMAAeS-a?format=jpg&name=medium
   thumbnail_xl: https://pbs.twimg.com/media/GPt0CssWMAAeS-a?format=jpg&name=medium
   thumbnail_classes: "object-bottom"
-  description: "Essentials of visual regression testing using Storybook and Backstop, with practical advice for integration into development cycles."
+  description: |-
+    Essentials of visual regression testing using Storybook and Backstop, with practical advice for integration into development cycles.
   date: "2024-08-01"
   published_at: "TODO"
 - title: "Four Reasons Not to Care about Ethics in Open Source"
@@ -252,6 +263,7 @@
   thumbnail_lg: https://pbs.twimg.com/media/GPze7qOWoAAt5T0?format=jpg&name=medium
   thumbnail_xl: https://pbs.twimg.com/media/GPze7qOWoAAt5T0?format=jpg&name=medium
   thumbnail_classes: "object-bottom"
-  description: "A provocative discussion on the role of ethics in open source, challenging common perceptions and encouraging critical thought."
+  description: |-
+    A provocative discussion on the role of ethics in open source, challenging common perceptions and encouraging critical thought.
   date: "2024-08-01"
   published_at: "TODO"
