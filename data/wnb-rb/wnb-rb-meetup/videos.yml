@@ -117,7 +117,7 @@
   event_name: WNB.rb Meetup February 2023
   date: "2023-02-28"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Is your web application secured? Learn and discover some security gems you can implement in your project or at work. This talk will cover an overview of two security gems and when to use each of them. https://www.wnb-rb.dev/meetups/2023/02/28
   video_provider: youtube
   video_id: 0XUKSy2M0Og
@@ -128,7 +128,7 @@
   event_name: WNB.rb Meetup February 2023
   date: "2023-02-28"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Functional programming brings you not just fun, but also profit! Have you ever felt curious towards functional programming (FP)? Were you, soon afterwards, intimidated by the mystic terms like monads and functors? Do you think FP is not related to your Ruby work and thus, useless? Guess what-you can actually apply FP to your Ruby projects and reap benefits from it before fully understanding what a monad is!This talk will walk you through the powerful mental models and tools that FP gives us, and how we can readily use them to improve our apps in a language that we all love and understand. https://www.wnb-rb.dev/meetups/2023/02/28
   video_provider: youtube
   video_id: Vp7h9sARkwM
@@ -169,7 +169,7 @@
   event_name: WNB.rb Meetup May 2023
   date: "2023-05-30"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Progressive web applications (PWAs) allow us to provide rich offline experiences as native apps would, while still being easy to use and share, as web apps are. Come to learn how to turn your regular Rails application into a PWA, taking advantage of the new front-end tools that come with Rails by default since version 7. https://www.wnb-rb.dev/meetups/2023/05/30
   video_provider: youtube
   video_id: gRcB86Ro3vI
@@ -180,7 +180,7 @@
   event_name: WNB.rb Meetup May 2023
   date: "2023-05-30"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Discover the magic of method_missing and learn how to unleash its full potential in your Ruby applications. In this talk, we'll dive into the inner workings of method_missing and explore how it can be used to dynamically define methods on objects at runtime, handle missing method calls, and perform powerful metaprogramming tasks. https://www.wnb-rb.dev/meetups/2023/05/30
   video_provider: youtube
   video_id: MAu158kEu04
@@ -191,7 +191,7 @@
   event_name: WNB.rb Meetup June 2023
   date: "2023-06-27"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Learning new tools and using them effectively is a fundamental component of being a developer. The more efficiently developers can get onboarded and oriented to your project or tool, the faster the return on investment is for everybody involved. For newbies, a smooth entry into a new role can help shake off imposter syndrome and encourage a growth mindset. For the rest of the team, it means more time spent collaborating, adding value to your product, and making things! In this talk, we will discuss some strategies you can use as a team to make onboarding smooth sailing. https://www.wnb-rb.dev/meetups/2023/06/27
   video_provider: youtube
   video_id: Zo8-z3n9sAc
@@ -234,7 +234,7 @@
   event_name: WNB.rb Meetup August 2023
   date: "2023-08-29"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Most of us have a drive towards professional development and growing towards that next level, but what happens when the next level could be more than one thing? It could mean a promotion from mid-level to senior-level, taking on leadership responsibilities, or moving to a people-management role. What if I'm not sure which direction I want to go? In this talk, we'll discuss ways to move forward even when we haven't decided on the trajectory yet. You'll walk away with tools and tactics you can utilize to pave and navigate your own path forward. https://www.wnb-rb.dev/meetups/2023/08/29
   video_provider: youtube
   video_id: LPKbcNM-acA
@@ -245,7 +245,7 @@
   event_name: WNB.rb Meetup September 2023
   date: "2023-09-26"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     The ever-changing, ever-evolving nature of the tech industry and its complexity make it such an exciting field to be in, but not without many challenges. Working in technology, we often have to stretch our limits, constantly learn new concepts, keep up with new technologies and methodologies. We constantly try to be better, more efficient, and do more... All of these often trigger fear. During my years of trying to figure out how to thrive at work, I have learned a few things that I am eager to share with you and to invite you on a journey of conquering fear to unlock your potential to succeed in the Tech industry. https://www.wnb-rb.dev/meetups/2023/09/26
   video_provider: youtube
   video_id: GnngWab1Yik
@@ -256,7 +256,7 @@
   event_name: WNB.rb Meetup October 2023
   date: "2023-10-31"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Discover how to integrate reCAPTCHA seamlessly into your Ruby on Rails project to protect your web application from spam, fraud, and automated attacks. Learn about the different types of reCAPTCHA, implementation steps, and the benefits it brings to both security and user experience. https://www.wnb-rb.dev/meetups/2023/10/31
   video_provider: youtube
   video_id: HMYd2qkw67E
@@ -267,7 +267,7 @@
   event_name: WNB.rb Meetup October 2023
   date: "2023-10-31"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Let's talk about the command pattern and how it can be useful in object-oriented programming. We'll briefly go over what it is and using it with Ruby. Then we'll look at some real-world examples using the ActiveInteraction gem in a Ruby on Rails application. https://www.wnb-rb.dev/meetups/2023/10/31
   video_provider: youtube
   video_id: WlOmb5rz3Q4
@@ -291,7 +291,7 @@
   event_name: WNB.rb Meetup December 2023
   date: "2023-12-19"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Let's talk about valuing junior developers more in the workplace because they're the future of our industry. Companies often struggle to find enough senior developers but overlook the chance to train their own. In this talk, we'll discuss ways to empower junior developers. As a senior, you'll learn effective ways to help their growth through hands-on learning and increasing their motivation. If you're a junior dev, we'll cover tips on advancing your career by leveraging your team. Join us to learn how investing in a strong, diverse team now benefits your company's future. https://www.wnb-rb.dev/meetups/2023/12/19
   video_provider: youtube
   video_id: op3wX8QRObY
@@ -315,7 +315,7 @@
   event_name: WNB.rb Meetup January 2024
   date: "2024-01-30"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     A tiny how-to primer on the best way to structure your code to deliver relevant search results to users in a basic Rails app without the use of javascript. With some code examples and a demo repo, I'll briefly touch on why teams choose open source, best practices for your integration, things to look out for, and further resources. https://www.wnb-rb.dev/meetups/2024/01/30
   video_provider: youtube
   video_id: HSmxRYQstB0
@@ -326,7 +326,7 @@
   event_name: WNB.rb Meetup February 2024
   date: "2024-02-27"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Pair programming improves nearly every aspect of my technical work and transforms my job from lonely to joyful. In this talk, I make a case for why pairing improves code, products, and teams, and gives practical steps on how you can introduce it. https://www.wnb-rb.dev/meetups/2024/02/27
   video_provider: youtube
   video_id: 5dj-rJsnTrc
@@ -337,7 +337,7 @@
   event_name: WNB.rb Meetup February 2024
   date: "2024-02-27"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     It all began with someone else's transition story, where I saw fragments of myself. I was inspired into action. In this talk, I guide you through the process of telling my own transition story. I share my story not only to inspire and empower but also to provide insights into the art of storytelling. Weave your experiences into a compelling narrative that can serve as a catalyst for a positive and inclusive tech. https://www.wnb-rb.dev/meetups/2024/02/27
   video_provider: youtube
   video_id: u2UDxVXyTNc
@@ -365,7 +365,7 @@
   event_name: WNB.rb Meetup April 2024
   date: "2024-04-30"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     Staff, principal, distinguished engineer - there is an alternate path to people management if continuing up the "career ladder" into technical leadership. As a relatively new 'Principal Engineer', I want to report back on my learnings so far; things I wish I had known before stepping into this role 3 years ago. https://www.wnb-rb.dev/meetups/2024/04/30
   video_provider: youtube
   video_id: 9OpO4Onm9k0
@@ -430,7 +430,7 @@
   event_name: WNB.rb Meetup August 2024
   date: "2024-08-30"
   published_at: "TODO"
-  description: ! |-
+  description: |-
     If you're unsure about what observability is or haven't given it much thought, this talk is perfect for you! We'll cover the basics of observability and how it can boost your confidence when shipping code to production by improving your ability to manage and monitor your Ruby on Rails applications. https://www.wnb-rb.dev/meetups/2024/08/30
   video_provider: youtube
   video_id: H_LHCn6aERQ
