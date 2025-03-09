@@ -57,4 +57,53 @@ module YmlFormatter
     end
     Psych::Comments.emit_yaml(ast)
   end
+
+  def add_slug_to_talks(yaml_content, talks_slugs)
+    ast = Psych::Comments.parse_stream(yaml_content)
+    document = ast.children.first
+
+    talks_sequence = document.root.children
+
+    talks_sequence.each do |talk|
+      next unless talk.is_a?(Psych::Nodes::Mapping)
+
+      # Initialize variables to hold video_id and slug key position
+      video_id = nil
+      slug_position = nil
+
+      # Iterate over the children of the mapping node in pairs (key, value)
+      talk.children.each_slice(2).with_index do |(key_node, value_node), index|
+        # Extract the video_id value
+        if key_node.value == "video_id"
+          video_id = value_node.value
+        end
+
+        # Check if the 'slug' key already exists
+        if key_node.value == "slug"
+          slug_position = index * 2
+        end
+      end
+
+      # If video_id is found and a corresponding slug exists in the hash
+      if video_id && talks_slugs[video_id]
+        slug_value = talks_slugs[video_id]
+
+        if slug_position
+          # Update the existing 'slug' value
+          talk.children[slug_position + 1].value = slug_value
+        else
+          # Add a new 'slug' key-value pair
+          slug_key_node = Psych::Nodes::Scalar.new("slug")
+          slug_value_node = Psych::Nodes::Scalar.new(slug_value)
+
+          # Insert the new 'slug' pair after the 'video_id' pair
+          video_id_index = talk.children.index { |node| node.is_a?(Psych::Nodes::Scalar) && node.value == "video_id" }
+          if video_id_index
+            talk.children.insert(video_id_index + 2, slug_key_node, slug_value_node)
+          end
+        end
+      end
+    end
+    Psych::Comments.emit_yaml(ast)
+  end
 end

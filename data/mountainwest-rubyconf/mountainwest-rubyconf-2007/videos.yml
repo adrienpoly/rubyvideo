@@ -16,6 +16,7 @@
   description: ""
   video_provider: youtube
   video_id: vF0xwYBD9mI
+  slug: jruby-not-just-another-ruby-implementation
   thumbnail_lg: https://img.youtube.com/vi/vF0xwYBD9mI/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/vF0xwYBD9mI/hqdefault.jpg
 - title: Pragmatic Community Driven Development in Ruby
@@ -28,6 +29,7 @@
   description: ""
   video_provider: youtube
   video_id: 3pE9ty6V8-c
+  slug: pragmatic-community-driven-development-in-ruby
   thumbnail_lg: https://img.youtube.com/vi/3pE9ty6V8-c/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/3pE9ty6V8-c/hqdefault.jpg
 - title: Simple Bayesian Networks with Ruby
@@ -40,6 +42,7 @@
   description: ""
   video_provider: youtube
   video_id: tEVvpRMhJHk
+  slug: simple-bayesian-networks-with-ruby
   thumbnail_lg: https://img.youtube.com/vi/tEVvpRMhJHk/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/tEVvpRMhJHk/hqdefault.jpg
 - title: "Panel: Ruby Implementers"
@@ -56,6 +59,7 @@
   description: ""
   video_provider: youtube
   video_id: Q1sX4h0DIKQ
+  slug: panel-ruby-implementers
   thumbnail_lg: https://img.youtube.com/vi/Q1sX4h0DIKQ/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/Q1sX4h0DIKQ/hqdefault.jpg
 - title: Masterview
@@ -68,6 +72,7 @@
   description: ""
   video_provider: youtube
   video_id: bh3VYzkdcfo
+  slug: masterview
   thumbnail_lg: https://img.youtube.com/vi/bh3VYzkdcfo/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/bh3VYzkdcfo/hqdefault.jpg
 - title: Black-boxing with Ruby
@@ -80,6 +85,7 @@
   description: ""
   video_provider: youtube
   video_id: 7iCdrDFh6oU
+  slug: black-boxing-with-ruby
   thumbnail_lg: https://img.youtube.com/vi/7iCdrDFh6oU/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/7iCdrDFh6oU/hqdefault.jpg
 - title: Lightning Talks
@@ -90,6 +96,7 @@
   description: ""
   video_provider: youtube
   video_id: EmELW0e9Y5A
+  slug: lightning-talks-mountainwest-rubyconf-2007
   thumbnail_lg: https://img.youtube.com/vi/EmELW0e9Y5A/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/EmELW0e9Y5A/hqdefault.jpg
   talks:
@@ -153,6 +160,7 @@
     Chad Fowler's Keynote at Mountain West Ruby Conference - 2007 - the first edition.
   video_provider: youtube
   video_id: 89f1G03jVO8
+  slug: keynote-then-what
   thumbnail_lg: https://img.youtube.com/vi/89f1G03jVO8/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/89f1G03jVO8/hqdefault.jpg
 - title: Ruby CLR and Ruby.NET
@@ -165,6 +173,7 @@
   description: ""
   video_provider: youtube
   video_id: noqRNG-CgSg
+  slug: ruby-clr-and-ruby-net
   thumbnail_lg: https://img.youtube.com/vi/noqRNG-CgSg/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/noqRNG-CgSg/hqdefault.jpg
 - title: Ruby USB
@@ -177,6 +186,7 @@
   description: ""
   video_provider: youtube
   video_id: i90PfkapMtc
+  slug: ruby-usb
   thumbnail_lg: https://img.youtube.com/vi/i90PfkapMtc/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/i90PfkapMtc/hqdefault.jpg
 - title: Rails Code Review
@@ -190,6 +200,7 @@
   description: ""
   video_provider: youtube
   video_id: bMWoZ2_KhCM
+  slug: rails-code-review
   thumbnail_lg: https://img.youtube.com/vi/bMWoZ2_KhCM/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/bMWoZ2_KhCM/hqdefault.jpg
 - title: Ruby Queue
@@ -202,5 +213,6 @@
   description: ""
   video_provider: youtube
   video_id: DvRSLUktog4
+  slug: ruby-queue
   thumbnail_lg: https://img.youtube.com/vi/DvRSLUktog4/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/DvRSLUktog4/hqdefault.jpg

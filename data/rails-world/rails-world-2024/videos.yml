@@ -23,6 +23,7 @@
 
     Thank you Shopify for sponsoring the editing and post-production of these videos. Check out insights from the Engineering team at: https://shopify.engineering/
   video_id: "-cEn_83zRFw"
+  slug: opening-keynote-rails-world-2024
 - title: Solid Queue Internals, Externals and all the things in between
   raw_title: Rosa Gutiérrez - Solid Queue internals, externals and all the things in between - Rails World 2024
   speakers:
@@ -41,6 +42,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: sEv2AYJiz1U
+  slug: solid-queue-internals-externals-and-all-the-things-in-between
 - title: Going Beyond a Single Postgres Instance with Rails
   raw_title: Mostafa Abdelraouf - Going beyond a Single Postgres Instance with Rails - Rails World 2024
   speakers:
@@ -57,6 +59,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: aPsstRiNocY
+  slug: going-beyond-a-single-postgres-instance-with-rails
 - title: "Lightning Talks (Block 1)"
   raw_title: "Lightning Talks 1 - Rails World 2024"
   video_provider: "not_recorded"
@@ -111,6 +114,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: nsgwFWvye8I
+  slug: kamal-2-0-deploy-web-apps-anywhere
 - title: Repurposing the Rails CLI
   raw_title: Jamis Buck - Repurposing the Rails CLI - Rails World 2024
   speakers:
@@ -125,6 +129,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: A2NnemrKHNI
+  slug: repurposing-the-rails-cli
 - title: "Workshop: The Modern Programmer's Guide to Neovim and Zellij"
   raw_title: "The Modern Programmer's Guide to Neovim and Zellij - Chris Power and Robert Beene - Rails World 2024"
   speakers:
@@ -169,6 +174,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: hQXjbnh18XM
+  slug: introducing-kamal-proxy
 - title: The State of Security in Rails 8
   raw_title: Greg Molnar - The state of security in Rails 8 - Rails World 2024
   speakers:
@@ -185,6 +191,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
   video_id: Z3DgOix0rIg
+  slug: the-state-of-security-in-rails-8
 - title: "Lightning Talks (Block 2)"
   raw_title: "Lightning Talks 2 - Rails World 2024"
   video_provider: "not_recorded"
@@ -229,6 +236,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: HTRNa-U_KKk
+  slug: an-upgrade-handbook-to-rails-8
 - title: The Empowered Programmer
   raw_title: Justin Searls - The Empowered Programmer - Rails World 2024
   speakers:
@@ -243,6 +251,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: mhqf2uK0doU
+  slug: the-empowered-programmer
 - title: "Lightning Talks (Block 3)"
   raw_title: "Lightning Talks 3 - Rails World 2024"
   video_provider: "not_recorded"
@@ -286,6 +295,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: G9xwfEOXnb0
+  slug: frontiers-of-development-productivity-in-rails
 - title: Progressive Web Apps for Rails Developers
   raw_title: Emmanuel Hayford - Progressive Web Apps for Rails developers - Rails World 2024
   speakers:
@@ -301,6 +311,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: Oh1mlNJJonE
+  slug: progressive-web-apps-for-rails-developers
 - title: Fireside Chat
   raw_title: Fireside Chat with DHH, Matz and Tobias Lütke - Rails World 2024
   speakers:
@@ -321,6 +332,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: zPBbHu-BKpQ
+  slug: fireside-chat-rails-world-2024
 #
 ## Day 2
 #
@@ -341,6 +353,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: olxoNDBp6Rg
+  slug: opening-keynote-the-myth-of-the-modular-monolith
 - title: "SQLite on Rails: Supercharging the One-Person Framework"
   raw_title: "Stephen Margheim - SQLite on Rails: Supercharging the One-Person Framework - Rails World 2024"
   speakers:
@@ -360,6 +373,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: wFUy120Fts8
+  slug: sqlite-on-rails-supercharging-the-one-person-framework
 - title: Demystifying Some of The Magic Behind Rails
   raw_title: Ridhwana Khan - Demystifying some of the magic behind Rails - Rails World 2024
   speakers:
@@ -380,6 +394,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: DuPQYYWlhAY
+  slug: demystifying-some-of-the-magic-behind-rails
 - title: "Lightning Talks (Block 4)"
   raw_title: "Lightning Talks 4 - Rails World 2024"
   video_provider: "not_recorded"
@@ -433,6 +448,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: xMICEHWkp58
+  slug: making-the-best-of-a-bad-situation-lessons-from-one-of-intercom-s-most-painful-outages
 - title: Pushing the Boundaries with ActiveStorage
   raw_title: Andrea Fomera - Pushing the boundaries with ActiveStorage - Rails World 2024
   speakers:
@@ -448,6 +464,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/"
   video_id: 20TwZvuvg2Q
+  slug: pushing-the-boundaries-with-activestorage
 - title: "Workshop: The Modern Programmer's Guide to Neovim and Zellij"
   raw_title: "The Modern Programmer's Guide to Neovim and Zellij - Chris Power and Robert Beene - Rails World 2024"
   speakers:
@@ -492,6 +509,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: zqBNEBnjzXM
+  slug: making-accessible-web-apps-with-rails-and-hotwire
 - title: "Prepare to Tack: Steering Rails Apps Out of Technical Debt"
   raw_title: "Robby Russell - Prepare to tack: Steering Rails apps out of technical debt - Rails World 2024"
   speakers:
@@ -511,6 +529,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: eT7hJz_GXGo
+  slug: prepare-to-tack-steering-rails-apps-out-of-technical-debt
 - title: "Lightning Talks (Block 5)"
   raw_title: "Lightning Talks 5 - Rails World 2024"
   video_provider: "not_recorded"
@@ -553,6 +572,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: Kx0ihLCTEgE
+  slug: the-rails-boot-process-rails-world-2024
 - title: "Testing Integrations: The Good, the Bad, and the Ugly"
   raw_title: "Julia López - Testing Integrations: The Good, the Bad, and the Ugly - Rails World 2024"
   speakers:
@@ -570,6 +590,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: j0FDwx4P-WU
+  slug: testing-integrations-the-good-the-bad-and-the-ugly
 - title: "Lightning Talks (Block 6)"
   raw_title: "Lightning Talks 6 - Rails World 2024"
   video_provider: "not_recorded"
@@ -614,6 +635,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: Me_USd1TeYM
+  slug: empowering-the-individual-rails-on-ai
 - title: Level Up Performance With Simple Coding Changes
   raw_title: David Henner - Level up performance with simple coding changes - Rails World 2024
   speakers:
@@ -630,6 +652,7 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: tBRBFcCWqcg
+  slug: level-up-performance-with-simple-coding-changes
 - title: Closing Keynote
   raw_title: Aaron Patterson - Rails World 2024 Closing Keynote
   speakers:
@@ -648,3 +671,4 @@
 
     Stay tuned: all 2024 Rails World videos will be subtitled in Japanese and Brazilian Portuguese soon thanks to our sponsor Happy Scribe, a transcription service built on Rails. https://www.happyscribe.com/
   video_id: ZE6F3drGhA8
+  slug: closing-keynote-rails-world-2024

@@ -22,6 +22,7 @@
     might just come away with a different perspective on how you build software.
   video_provider: youtube
   video_id: DQTBmYI_XEE
+  slug: how-to-build-a-skyscraper-mountainwest-rubyconf-2016
 - title: Orders of Magnitude
   raw_title: Mountain West Ruby 2016 - Orders of Magnitude by Davy Stevenson
   speakers:
@@ -36,6 +37,7 @@
     Software engineers deal with computers every day, and thus we are subject to both incredibly tiny and massively large numbers all the time. Learn about how your brain is fooling you when you are dealing with issues of latency, scalability, and algorithm optimization, so that you can become a better programmer.
   video_provider: youtube
   video_id: ZihfySx4CWY
+  slug: orders-of-magnitude
 - title: Ruby is For Fun and Robots
   raw_title: Mountain West Ruby 2016 - Ruby is For Fun and Robots by Michael Ries
   speakers:
@@ -51,6 +53,7 @@
     and robots instead.
   video_provider: youtube
   video_id: kdIkSv1Gulk
+  slug: ruby-is-for-fun-and-robots
 - title: Surviving the Framework Hype Cycle
   raw_title: Mountain West Ruby 2016 - Surviving the Framework Hype Cycle by Brandon Hays test
   speakers:
@@ -64,6 +67,7 @@
     Baskin Robbins wishes it had as many flavors as there are JS frameworks, build tools, and cool new “low-level” languages. You just want to solve a problem, not have a 500-framework bake-off! And how will you know whether you picked the right one? Don’t flip that table, because we’ll use the “hype cycle” and the history of Ruby and Rails as a guide to help you understand which front-end and back-end technologies are a fit for your needs, wants, and career now and in the future.
   video_provider: youtube
   video_id: 9zc4DSTRGeM
+  slug: surviving-the-framework-hype-cycle-mountainwest-rubyconf-2016
 - title: Writing a Test Framework From Scratch
   raw_title: Mountain West Ruby 2016 - Writing a Test Framework From Scratch by Ryan Davis
   speakers:
@@ -77,6 +81,7 @@
     Assertions (or expectations) are the most important part of any test framework. How are they written? What happens when one fails? How does a test communicate its results? Past talks have shown how test frameworks work from the very top: how they find, load, select, and run tests. Instead of reading code from the top, we’ll write code from scratch starting with assertions and building up a full test framework. By the end, you’ll know how every square inch of your testing framework works.
   video_provider: youtube
   video_id: 56ZB3XBjMxc
+  slug: writing-a-test-framework-from-scratch-mountainwest-rubyconf-2016
 - title: "Security is Broken: Understanding Common Vulnerabilities"
   raw_title: "Mountain West Ruby 2016 - Security is Broken: Understanding Common Vulnerabilities"
   speakers:
@@ -94,6 +99,7 @@
     avoiding similar decisions that resulted in these exploits.
   video_provider: youtube
   video_id: b0_8zi7Mpi0
+  slug: security-is-broken-understanding-common-vulnerabilities
 - title: "Sharpening The Axe: Self-Teaching For Developers"
   raw_title: "Mountain West Ruby 2016 - Sharpening The Axe: Self-Teaching For Developers Aja Hammerly"
   speakers:
@@ -113,6 +119,7 @@
     this talk with several ideas for breaking out of your own developer rut.
   video_provider: youtube
   video_id: 3Ee1WYl51TM
+  slug: sharpening-the-axe-self-teaching-for-developers
 - title: "TDD For Your Soul: Virtue Through Software Development"
   raw_title: "Mountain West Ruby 2016 - TDD For Your Soul: Virtue Through Software Development by Abraham Sangh"
   speakers:
@@ -126,6 +133,7 @@
     Web development pushes us to our limits, not only of cognition, but, perhaps surprisingly, of character. Using the cardinal virtues as a framework, we can see that developers need courage to learn, temperance to prioritize goals, a sense of justice by which to discern obligations, and wisdom to choose our path. By being honest about where we lack virtue, and implementing steps to develop character, we can perform test-driven development on ourselves. This process can help us grow not only as developers, but as human beings.
   video_provider: youtube
   video_id: rBkMubifO4I
+  slug: tdd-for-your-soul-virtue-through-software-development
 - title: The Minimum Viable Conference
   raw_title: Mountain West Ruby 2016 - The Minimum Viable Conference by Kerri Miller & Jeremy Flores
   speakers:
@@ -150,6 +158,7 @@
     Whether you’re planning a multi-day conference, a monthly meetup, or just a one-time get-together for your office, we’ll give you a handy list of DOs and DONTs, based on our own experiences and those of others in the community event game. Like Kerri’s Gramma once said, “If you want to go to a party, sometimes you have to throw it yourself.”
   video_provider: youtube
   video_id: 6XYg9XNrfuQ
+  slug: the-minimum-viable-conference
 - title: How Are Method Calls Formed?
   raw_title: Mountain West Ruby 2016 - How Are Method Calls Formed? by Aaron Patterson
   speakers:
@@ -165,6 +174,7 @@
     of Ruby’s VM internals as well as ways to analyze and optimize their own code.
   video_provider: youtube
   video_id: 6Dkjus07d9Y
+  slug: how-are-method-calls-formed
 - title: Second Wind
   raw_title: Mountain West Ruby 2016 -  Second Wind by Jamis Buck
   speakers:
@@ -181,6 +191,7 @@
     come through the other side stronger than ever!
   video_provider: youtube
   video_id: 71suekjBV9Y
+  slug: second-wind
 - title: Lightning Talks
   raw_title: Mountain West Ruby 2016 - Lightning Talks
   event_name: MountainWest RubyConf 2016
@@ -189,6 +200,7 @@
   description: ""
   video_provider: youtube
   video_id: PiXapH5zVcY
+  slug: lightning-talks-mountainwest-rubyconf-2016
   talks:
     - title: "Lightning Talk: RSpec Secrets"
       start_cue: "00:24"

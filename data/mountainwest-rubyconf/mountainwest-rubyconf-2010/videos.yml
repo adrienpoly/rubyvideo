@@ -15,6 +15,7 @@
   description: ""
   video_provider: youtube
   video_id: zw1V6dZ1_j0
+  slug: archaeopteryx-lambdas-in-detail
 - title: EventMachine
   raw_title: MountainWest RubyConf 2010 - EventMachine by Aman Gupta
   speakers:
@@ -25,6 +26,7 @@
   description: ""
   video_provider: youtube
   video_id: GEd3KQEGj0Q
+  slug: eventmachine
 - title: A Tale of Two Codebases
   raw_title: MountainWest RubyConf 2010 - A Tale of Two Codebases by Pat Maddox
   speakers:
@@ -35,6 +37,7 @@
   description: ""
   video_provider: youtube
   video_id: HznXiuTAi6g
+  slug: a-tale-of-two-codebases
 - title: "Decent into Darkness: Understanding Your System's Binary Interface Is The Only Way Out"
   raw_title: "MountainWest RubyConf 2010 - Decent into Darkness: Understanding Your System's Binary Interface..."
   speakers:
@@ -48,6 +51,7 @@
     by Joe Damato
   video_provider: youtube
   video_id: g8A0Wa7REZI
+  slug: decent-into-darkness-understanding-your-system-s-binary-interface-is-the-only-way-out
 - title: MongoDB Rules
   raw_title: MountainWest RubyConf 2010 - MongoDB Rules by Kyle Banker
   speakers:
@@ -58,6 +62,7 @@
   description: ""
   video_provider: youtube
   video_id: V3hUrEYYyuY
+  slug: mongodb-rules
 - title: "Mobile Rubyby"
   raw_title: MountainWest RubyConf 2010 - Mobile Rubyby Sarah Allen
   speakers:
@@ -68,6 +73,7 @@
   description: ""
   video_provider: youtube
   video_id: xUVLtgSj0Hs
+  slug: mobile-rubyby
 - title: "Hubris: The Ruby/Haskell Bridge"
   raw_title: "MountainWest RubyConf 2010 - Hubris: The Ruby/Haskell Bridge by James Britt"
   speakers:
@@ -78,6 +84,7 @@
   description: ""
   video_provider: youtube
   video_id: UqUGBKaehq4
+  slug: hubris-the-ruby-haskell-bridge
 - title: Ruby Techniques by Example
   raw_title: MountainWest RubyConf 2010 - Ruby Techniques by Example by Jeremy Evans
   speakers:
@@ -88,6 +95,7 @@
   description: ""
   video_provider: youtube
   video_id: F2NGGrLhYKw
+  slug: ruby-techniques-by-example
 - title: Ruby Macros
   raw_title: MountainWest RubyConf 2010 - Ruby Macros by Caleb Clausen
   speakers:
@@ -98,6 +106,7 @@
   description: ""
   video_provider: youtube
   video_id: s7qot98I54A
+  slug: ruby-macros
 - title: Ruby 124c41+
   raw_title: MountainWest RubyConf 2010 - Ruby 124c41+ by Yukihio 'Matz' Matsumoto
   speakers:
@@ -108,6 +117,7 @@
   description: ""
   video_provider: youtube
   video_id: N0hnS6UNFo0
+  slug: ruby-124c41
 - title: Lightning Talks Part 1
   raw_title: MountainWest RubyConf 2010 - Lightning Talks Part 1
   event_name: MountainWest RubyConf 2010
@@ -116,6 +126,7 @@
   description: ""
   video_provider: youtube
   video_id: lKwIKXv0GOY
+  slug: lightning-talks-part-1
   talks:
     - title: "Lightning Talk: David Brady"
       start_cue: "0:15"
@@ -205,6 +216,7 @@
     by Jeff Casimir
   video_provider: youtube
   video_id: ud6xttMyoJ4
+  slug: dynamic-generation-of-images-and-video-with-ruby-processing
 - title: Documentation and the Whole nine YARDs
   raw_title: MountainWest RubyConf 2010 - Documentation and the Whole nine YARDs by Loren Segal
   speakers:
@@ -215,6 +227,7 @@
   description: ""
   video_provider: youtube
   video_id: yFRuneIwybQ
+  slug: documentation-and-the-whole-nine-yards
 - title: I was wrong about ruport
   raw_title: MountainWest RubyConf 2010 - I was wrong about ruport by Gregory Brown
   speakers:
@@ -225,6 +238,7 @@
   description: ""
   video_provider: youtube
   video_id: O6HjLxAzXxs
+  slug: i-was-wrong-about-ruport
 - title: "How HTTP Already Solved All Your Performance Problems 10 Years Ago"
   raw_title: MountainWest RubyConf 2010 - How HTTP already solved all your performance problems 10 years ago
   speakers:
@@ -236,6 +250,7 @@
     by Paul Sadauskas
   video_provider: youtube
   video_id: 11Cc7NZVMTQ
+  slug: how-http-already-solved-all-your-performance-problems-10-years-ago
 - title: "Writing Modular Ruby Code: Lessons Learned from Rails 3"
   raw_title: "MountainWest RubyConf 2010 - Writing Modular Ruby Code: Lessons Learned from Rails 3 by Yehuda Katz"
   speakers:
@@ -246,6 +261,7 @@
   description: ""
   video_provider: youtube
   video_id: NWpICBV6ceY
+  slug: writing-modular-ruby-code-lessons-learned-from-rails-3
 - title: Rack For Web Developers
   raw_title: MountainWest RubyConf 2010 - Rack for web developers by Michael J. I. Jackson
   speakers:
@@ -256,6 +272,7 @@
   description: ""
   video_provider: youtube
   video_id: PoiYZd8qkqg
+  slug: rack-for-web-developers
 - title: Managing Ruby Projects with RVM
   raw_title: MountainWest RubyConf 2010 - Managing Ruby Projects with RVM by Wayne E. Seguin
   speakers:
@@ -266,6 +283,7 @@
   description: ""
   video_provider: youtube
   video_id: O7M0tTJc9mY
+  slug: managing-ruby-projects-with-rvm
 - title: Cooking with Chef - Your Servers Will Thank You
   raw_title: MountainWest RubyConf 2010 - Cooking with Chef - Your servers will thank you by James Golick
   speakers:
@@ -276,6 +294,7 @@
   description: ""
   video_provider: youtube
   video_id: xmGurcJ1rUA
+  slug: cooking-with-chef-your-servers-will-thank-you
 - title: Lightning Talks (Day 2)
   raw_title: MountainWest RubyConf 2010 - Lightning Talks 2 by Various Presenters
   event_name: MountainWest RubyConf 2010
@@ -284,6 +303,7 @@
   description: ""
   video_provider: youtube
   video_id: _mN4HJIhpYo
+  slug: lightning-talks-day-2-mountainwest-rubyconf-2010
   talks:
     - title: "Lightning Talk: Testing Queries"
       start_cue: "0:15"

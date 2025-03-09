@@ -18,6 +18,7 @@
     Larger Rails apps are moving towards Service Oriented Architecture with adapters (typically custom gems) abstracting 3rd party services. This talk will cover defining, enforcing and test-driving the interface for your 3rd party service to provide easier flexibility in the future.
   video_provider: youtube
   video_id: CXdULnPpMsc
+  slug: future-proofing-your-3rd-party-services
 - title: Machine Learning for Fun and Profit
   raw_title: Rocky Mountain Ruby 2014 - Machine Learning for Fun and Profit by John Paul Ashenfelter
   speakers:
@@ -31,6 +32,7 @@
     We will cover the basics of assigning users to categories, segmenting users by behavior, and simple recommendation algorithms. Come as a Rails dev, leave a data scientist.
   video_provider: youtube
   video_id: KC5MtKHm1O4
+  slug: machine-learning-for-fun-and-profit
 - title: "80,00 Plaintext Passwords"
   raw_title: Rocky Mountain Ruby 2014 - 80,00 Plaintext Passwords
   speakers:
@@ -48,6 +50,7 @@
     [Scene.]
   video_provider: youtube
   video_id: 9u54O6vARK8
+  slug: 80-00-plaintext-passwords
 - title: Unpacking Technical Decisions
   raw_title: Rocky Mountain Ruby 2014 - Unpacking Technical Decisions by Sarah Mei
   speakers:
@@ -61,6 +64,7 @@
     Right now, your team might be struggling to organize the client-side parts of your application. Ember? Angular? Backbone? Flip a coin? Uh…which one has the most…retweets? These choices don’t need to be arbitrary or based on vague personal preference. Come learn a more useful and realistic approach that makes large-scale technical decisions less risky.
   video_provider: youtube
   video_id: F7D5ZGlioj4
+  slug: unpacking-technical-decisions
 - title: "What it Means to Have Good Test Covearage..."
   raw_title: Rocky Mountain Ruby 2014 - What it Means to Have Good Test Covearage...
   speakers:
@@ -76,6 +80,7 @@
     In this talk I will not provide you with a single source of truth about how to test your application. What I will provide is a better understanding of how to get the most mileage out of your test suite. Using examples from my own experience of testing Rails, plain old Ruby, JavaScript, and even Objective-C and Java, we will explore the pros and cons of unit testing versus integrated or system testing, what makes a test valuable, and what it means to really have good test coverage.
   video_provider: youtube
   video_id: rbWUxRNawIw
+  slug: what-it-means-to-have-good-test-covearage
 - title: "Lightning Talks (Day 1)"
   raw_title: Rocky Mountain Ruby 2014 - Lightning Talks (Day 1)
   event_name: Rocky Mountain Ruby 2014
@@ -84,6 +89,7 @@
   description: ""
   video_provider: youtube
   video_id: iYvm_5z0mZQ
+  slug: lightning-talks-day-1-rocky-mountain-ruby-2014
   talks:
     - title: "Lightning Talk: Teen Hackathons"
       date: "2014-10-21"
@@ -143,6 +149,7 @@
     Yes we can! On this talk we will discuss Consumer Driven Contracts, a better way to deal with integration tests in a micro services environment.
   video_provider: youtube
   video_id: L22NNcfrbYI
+  slug: micro-testing-pains
 - title: "Feats of Daring with the Ruby Standard Library"
   raw_title: Rocky Mountain Ruby 2014 - Feats of Daring with the Ruby Standard Library
   speakers:
@@ -159,6 +166,7 @@
     The Standard Librarians are working to make the Ruby Standard Library more accessible to it's users, beginner through advanced. The basis for it is existing ruby-docs. The Stand Librarians have taken it further with explanations that are easier to parse, libraries grouped into categories, examples to try, links aggregated for further study and similar gems listed. This talk will demonstrate the new site, how it was made it and how RGSoC helped make that happen. Ruby's Standard Libraries have a lot of tricks up it's sleeves. Want to see some?
   video_provider: youtube
   video_id: yc0hjFgSQN0
+  slug: feats-of-daring-with-the-ruby-standard-library
 - title: Let's Pretend
   raw_title: Rocky Mountain Ruby 2014 - Let's Pretend by Sarah Allen
   speakers:
@@ -172,6 +180,7 @@
     I will talk about how Ruby’s flexibility and a strong testing ethos can bring some sanity to this uncertain world. And when I say testing, I’m not just talking about RSpec, Cucumber or Capybara, I’ll share stories from Mightyverse about how we test whether our software actually “works” for the people who use it — sharing failures, I mean, learning, as well as success.
   video_provider: youtube
   video_id: EZO0Udty9bY
+  slug: let-s-pretend
 - title: The Technical Debt Trap
   raw_title: Rocky Mountain Ruby 2014 - The Technical Debt Trap by Doc Norton
   speakers:
@@ -183,6 +192,7 @@
     Technical Debt has become a catch-all phrase for any code that needs to be re-worked. Much like Refactoring has become a catch-all phrase for any activity that involves changing code. These fundamental misunderstandings and comfortable yet mis-applied metaphors have resulted in a plethora of poor decisions. What is technical debt? What is not technical debt? Why should we care? What is the cost of misunderstanding? What do we do about it? Doc discusses the origins of the metaphor, what it means today, and how we properly identify and manage technical debt.
   video_provider: youtube
   video_id: S2pS9hN2Fws
+  slug: the-technical-debt-trap
 - title: Under the Hood of Ruby's Generational Garbage Collector
   raw_title: Rocky Mountain Ruby 2014 - Under the Hood of Ruby's Generational Garbage Collector by Hemant Kumar
   speakers:
@@ -196,6 +206,7 @@
     How it works? How it affects users and C extension authors? Visualize object allocation/deallocation in realtime, demonstrate how different GC tuning options affect your app.
   video_provider: youtube
   video_id: hcaYjiAIres
+  slug: under-the-hood-of-ruby-s-generational-garbage-collector
 - title: "Lightning Talks (Day 2)"
   raw_title: Rocky Mountain Ruby 2014 - Lightning Talks (Day 2)
   event_name: Rocky Mountain Ruby 2014
@@ -204,6 +215,7 @@
   description: ""
   video_provider: youtube
   video_id: DqoKIKWf2HM
+  slug: lightning-talks-day-2-rocky-mountain-ruby-2014
   talks:
     - title: "Lightning Talk: Asset Pipeline Tips and Tricks"
       date: "2014-10-22"
@@ -303,6 +315,7 @@
     This talk attempts to define the amorphous term while exploring the difficult task of owning your company culture and protecting it when things go wrong.
   video_provider: youtube
   video_id: h1UayuSXBcg
+  slug: your-company-is-awesome-but-is-company-culture-a-lie
 - title: "Native iOS Development with RubyMotion and  UnderOS"
   raw_title: Rocky Mountain Ruby 2014 - Native iOS Development with RubyMotion and UnderOS
   speakers:
@@ -320,6 +333,7 @@
     This talk will give you a basic overview of RubyMotion/UnderOS concepts and I'm also going to livehack an application on stage to give you a sense of how it looks and feels like.
   video_provider: youtube
   video_id: 6UTcz-_WvXk
+  slug: native-ios-development-with-rubymotion-and-underos
 - title: Dancing with Robots
   raw_title: Rocky Mountain Ruby 2014 - Dancing with Robots by Julian Cheal
   speakers:
@@ -331,6 +345,7 @@
     Web apps are great and everything, but imagine using Ruby to fly drones and make them dance to the sounds of dubstep! Or to control disco lights and other robots! Sounds fun, right? In this talk, we will not only explore how we can write code to make this possible, but it will also be full of exciting, interactive (and possibly dangerous ;) ) demos!
   video_provider: youtube
   video_id: 7I0jumEv_ns
+  slug: dancing-with-robots
 - title: Build Complex Domains in Rails
   raw_title: Rocky Mountain Ruby 2014 - Build Complex Domains in Rails by Mike AbiEzzi
   speakers:
@@ -350,3 +365,4 @@
     How communicating the domain properly will make an imprint on your codebase and product. How creating boundaries around clusters of models will make your code easier to understand, manage, and interact with. How immutable objects eliminate unnecessary complexities. How data store access expresses the domain's intentions. How to represent natural business transactions between models.
   video_provider: youtube
   video_id: B7pXxMJAze0
+  slug: build-complex-domains-in-rails

@@ -20,6 +20,7 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=2010s
   video_provider: youtube
   video_id: r78H-QBkxyk
+  slug: opening-keynote-mythbuster
 - title: How music works, using Ruby
   raw_title: How music works, using Ruby by Thijs Cadier
   speakers:
@@ -33,6 +34,7 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=6070s
   video_provider: youtube
   video_id: MtweO89OsUM
+  slug: how-music-works-using-ruby
 - title: Applying SRE Principles to CI/CD
   raw_title: Applying SRE Principles to CI/CD by Mel Kaulfuss
   speakers:
@@ -46,6 +48,7 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=11910s
   video_provider: youtube
   video_id: dvTvq2sduV4
+  slug: applying-sre-principles-to-ci-cd
 - title: Implementing Object Shapes in CRuby
   raw_title: Implementing Object Shapes in CRuby by Jemma Issroff
   speakers:
@@ -59,6 +62,7 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=14985s
   video_provider: youtube
   video_id: 2aVyTtxs0GU
+  slug: implementing-object-shapes-in-cruby
 - title: Security Doesn’t Have To Be a Nightmare
   raw_title: Security Doesn’t Have To Be a Nightmare by Wiktoria Dalach
   speakers:
@@ -72,6 +76,7 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=19095s
   video_provider: youtube
   video_id: l4uyAQZBwyY
+  slug: security-doesn-t-have-to-be-a-nightmare
 - title: Looking Into Peephole Optimizations
   raw_title: Looking Into Peephole Optimizations by Maple Ong
   speakers:
@@ -85,6 +90,7 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=22110s
   video_provider: youtube
   video_id: gnX1o8GBed0
+  slug: looking-into-peephole-optimizations
 - title: The Technical and Organizational Infrastructure of the Ruby Community
   raw_title: The Technical and Organizational Infrastructure of the Ruby Community by Adarsh Pandit
   speakers:
@@ -98,6 +104,7 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=m2qelRkp1CY&t=1650s
   video_provider: youtube
   video_id: cNLscH0sGz4
+  slug: the-technical-and-organizational-infrastructure-of-the-ruby-community
 - title: From massive pull requests to trunk-based development with Ruby
   raw_title: From massive pull requests to trunk-based development with Ruby by Vesa Vänskä
   speakers:
@@ -111,6 +118,7 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=m2qelRkp1CY&t=4980s
   video_provider: youtube
   video_id: M76dNDySrNc
+  slug: from-massive-pull-requests-to-trunk-based-development-with-ruby
 - title: Lightning Talks & City Pitches
   raw_title: Lightning talks & city pitches
   event_name: EuRuKo 2022
@@ -129,6 +137,7 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=m2qelRkp1CY&t=10965s
   video_provider: youtube
   video_id: JvVAtssjOu0
+  slug: lightning-talks-city-pitches
   talks:
     - title: "Lightning Talks Intro"
       date: "2022-10-13"
@@ -250,6 +259,7 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=m2qelRkp1CY&t=16350s
   video_provider: youtube
   video_id: FN0gfZJazM8
+  slug: ruby-jvm-a-jruby-love-story
 - title: "Closing Keynote: The Mrs Triggs Problem"
   raw_title: Closing keynote by Andy Croll
   speakers:
@@ -263,3 +273,4 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=m2qelRkp1CY&t=19250s
   video_provider: youtube
   video_id: 0UcTD49KugA
+  slug: closing-keynote-the-mrs-triggs-problem

@@ -15,6 +15,7 @@
     Resource-Oriented Architecture, and Why it Matters, and How Waves Make it Easier by: Dan Yoder
   video_provider: youtube
   video_id: bGn_QRJzWy0
+  slug: resource-oriented-architecture-and-why-it-matters-and-how-waves-make-it-easier
 - title: Rhodes Framework for Mobile Client Development
   raw_title: LA RubyConf 2009 - Rhodes Framework for Mobile Client Development
   speakers:
@@ -26,6 +27,7 @@
     Rhodes Framework for Mobile Client Development by: Adam Blum
   video_provider: youtube
   video_id: eopOUqedWhU
+  slug: rhodes-framework-for-mobile-client-development
 - title: Mobilize Your Rails Application
   raw_title: LA RubyConf 2009 - Mobilize your Rails Application
   speakers:
@@ -37,6 +39,7 @@
     Mobilize your Rails Application by: Brendan Lim
   video_provider: youtube
   video_id: 12jjv7PBrBo
+  slug: mobilize-your-rails-application
 - title: "Fast and Scalable Front / Back-end Services using Ruby, Rails and XMPP"
   raw_title: LA RubyConf 2009 - Fast and Scalable Front / Back-end Services using Ruby, Rails and XMPP
   speakers:
@@ -48,6 +51,7 @@
     Fast and Scalable Front / Back-end Services using Ruby, Rails and XMPP by: Pradeep Elankumaran
   video_provider: youtube
   video_id: 9vUMHGOElbc
+  slug: fast-and-scalable-front-back-end-services-using-ruby-rails-and-xmpp
 - title: Johnson
   raw_title: LA RubyConf 2009 - Johnson
   speakers:
@@ -60,6 +64,7 @@
     Johnson by: Aaron Patterson and John Barnette
   video_provider: youtube
   video_id: 3UzmGhv6mio
+  slug: johnson
 - title: "Flying Robot: Unmanned Aerial Vehicles Using Ruby and Arduino"
   raw_title: "LA RubyConf 2009 - Flying Robot: Unmanned Aerial Vehicles Using Ruby and Arduino"
   speakers:
@@ -70,6 +75,7 @@
   description: ""
   video_provider: youtube
   video_id: NOuYAeOa6UA
+  slug: flying-robot-unmanned-aerial-vehicles-using-ruby-and-arduino
 - title: Managing Ruby on Rails for High Performance
   raw_title: LA RubyConf 2009 - Managing Ruby on Rails for High Performance
   speakers:
@@ -81,6 +87,7 @@
     Managing Ruby on Rails for High Performance by: Bill Lapcevic
   video_provider: youtube
   video_id: bn__0bMPtNs
+  slug: managing-ruby-on-rails-for-high-performance
 - title: "Poolparty - Jump In The Pool, Get In The Clouds"
   raw_title: LA RubyConf 2009 - Poolparty - jump in the pool, get in the clouds
   speakers:
@@ -93,6 +100,7 @@
     Poolparty - jump in the pool, get in the clouds by: Ari Lerner and Michael Fairchild
   video_provider: youtube
   video_id: dTj-g2SrgSE
+  slug: poolparty-jump-in-the-pool-get-in-the-clouds
 - title: "Sinatra: The Ultimate Rack Citizen"
   raw_title: "LA RubyConf 2009 - Sinatra: The ultimate rack citizen"
   speakers:
@@ -104,6 +112,7 @@
     Sinatra: The ultimate rack citizen by: Blake Mizerany
   video_provider: youtube
   video_id: Wlkq0qfS7JI
+  slug: sinatra-the-ultimate-rack-citizen
 - title: "Scaling 'most popular' lists: a plugin solution"
   raw_title: "LA RubyConf 2009 - Scaling 'most popular' lists: a plugin solution"
   speakers:
@@ -115,6 +124,7 @@
     Scaling 'most popular' lists: a plugin solution by: Wolfram Arnold
   video_provider: youtube
   video_id: Q3uTrdXfgkw
+  slug: scaling-most-popular-lists-a-plugin-solution
 - title: Herding Tigers - Software Development and the Art of War
   raw_title: LA RubyConf 2009 - Herding Tigers - Software Development and the Art of War
   speakers:
@@ -126,6 +136,7 @@
     Herding Tigers - Software Development and the Art of War by: Danny Blitz
   video_provider: youtube
   video_id: 06LvK3FpV8M
+  slug: herding-tigers-software-development-and-the-art-of-war
 - title: Sequel
   raw_title: LA RubyConf 2009 - Sequel
   speakers:
@@ -137,6 +148,7 @@
     Sequel by: Jeremy Evans
   video_provider: youtube
   video_id: 0Euba97UEdI
+  slug: sequel
 - title: "Journey through a pointy forest: The state of XML parsing in Ruby"
   raw_title: "LA RubyConf 2009 - Journey through a pointy forest: The state of XML parsing in Ruby"
   speakers:
@@ -148,6 +160,7 @@
     Journey through a pointy forest: The state of XML parsing in Ruby by: Aaron Patterson
   video_provider: youtube
   video_id: QwTuYG73vHs
+  slug: journey-through-a-pointy-forest-the-state-of-xml-parsing-in-ruby
 - title: The Building Blocks of Modularity
   raw_title: LA RubyConf 2009 - The Building Blocks of Modularity
   speakers:
@@ -159,3 +172,4 @@
     The Building Blocks of Modularity by: Jim Weirich
   video_provider: youtube
   video_id: l780SYuz9DI
+  slug: the-building-blocks-of-modularity

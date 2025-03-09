@@ -12,6 +12,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: k7HjIypXtl8
+  slug: lightning-talks-rails-pacific-2016
   talks:
     - title: "Lightning Talk: JavaScript"
       start_cue: "00:12"
@@ -77,6 +78,7 @@
     Let's not sugar coat it. In this talk you'll learn about some where thing went terribly wrong, some of them involved loosing money. Stories of stuff that can easily get overlooked, about the most common mistakes when working with payments and things you probably won't consider until shit hits the fan. All of this so that you don't run into the same problems and don't have to learn those lessons the hard way.
   video_provider: youtube
   video_id: pILdUMkOG3M
+  slug: when-making-money-becomes-a-headache-dealing-with-payments
 - title: "Workshop: Taming Chaotic Specs: RSpec Design Patterns"
   raw_title: "Rails Pacific 2016 - Workshop / Taming Chaotic Specs: RSpec Design Patterns by Adam Cuppy"
   speakers:
@@ -90,6 +92,7 @@
     Don’t you hate when testing takes 3x as long because your specs are hard to understand? Following a few simple patterns, you can easily take a bloated spec and make it DRY and simple to extend. We will take a bloated sample spec and refactor it to something manageable, readable and concise.
   video_provider: youtube
   video_id: KjENZNjRCWM
+  slug: workshop-taming-chaotic-specs-rspec-design-patterns-rails-pacific-2016
 - title: Server Infrastructure for Rails in 2016
   raw_title: Rails Pacific 2016 - Server Infrastructure for Rails in 2016 by Richard Lee
   speakers:
@@ -111,6 +114,7 @@
     4. Server performance tuning best practice.
   video_provider: youtube
   video_id: v6NA4_Np31k
+  slug: server-infrastructure-for-rails-in-2016
 - title: Continuous Learning, Teaching and the Art of Improving Yourself
   raw_title: Rails Pacific 2016 - Continuous Learning, Teaching and...  by Luis Ferreira
   speakers:
@@ -138,6 +142,7 @@
     * How, where and at what point in your career can you help the community by teaching
   video_provider: youtube
   video_id: 5r5pBg9RMdM
+  slug: continuous-learning-teaching-and-the-art-of-improving-yourself
 - title: What if Shakespeare Wrote Ruby?
   raw_title: Rails Pacific 2016 - What if Shakespeare Wrote Ruby? by Adam Cuppy
   speakers:
@@ -153,6 +158,7 @@
     In this talk, we’re going “thee and thou.” I’m going to give you a crash course in how: Shakespeare writes software.
   video_provider: youtube
   video_id: mrdmHK6ogC0
+  slug: what-if-shakespeare-wrote-ruby
 - title: Robot on Rails
   raw_title: Rails Pacific 2016 - Robot on Rails by Max Hawkins
   speakers:
@@ -171,6 +177,7 @@
     * Whatever the bot decides is relevant
   video_provider: youtube
   video_id: MPdYs6J-v34
+  slug: robot-on-rails
 - title: Successful Speedy MVP Website Development
   raw_title: Rails Pacific 2016 - Successful Speedy MVP Website Development by Xdite
   speakers:
@@ -188,6 +195,7 @@
     So after listening to this talk, you should gain some insights about delivering the project in time and successfully, and the next Hackathon winner will be you.
   video_provider: youtube
   video_id: V3TWE5k3fnM
+  slug: successful-speedy-mvp-website-development
 - title: ActionCable, Rails API and React - Modern Single Page Apps
   raw_title: Rails Pacific 2016 - ActionCable, Rails API and React - Modern Single Page Apps by Vipul A M
   speakers:
@@ -205,6 +213,7 @@
     Lets take a look at how ActionCable, Rails API, React powered by Redux(flux), helped us build a realtime App, and how it can help you build a modular Single Page App.
   video_provider: youtube
   video_id: NMXXpqX2yvg
+  slug: actioncable-rails-api-and-react-modern-single-page-apps
 - title: Large-Scaled Deploy Over 100 Servers in 3 Minutes
   raw_title: Rails Pacific 2016 - Large-Scaled Deploy Over 100 Servers in 3 Minutes by Hiroshi Shibata
   speakers:
@@ -226,6 +235,7 @@
     Finally, I can deploy same code to our servers in 3 minutes completely.
   video_provider: youtube
   video_id: EUnUeYET-88
+  slug: large-scaled-deploy-over-100-servers-in-3-minutes
 - title: Make Money and Enjoy Freedom Creating a Software Business
   raw_title: Rails Pacific 2016 - Make Money and Enjoy Freedom Creating a Software Business by Ryan MacInnes
   speakers:
@@ -241,6 +251,7 @@
     My talk will be about the history of Juicer: why I started it, how I got there, and how I grew it. I'll also focus on the benefits of business ownership as opposed to traditional software engineering jobs. Finally I'll give my advice that I've learned through brute force and trial and error about idea generation, building, and most importantly growing a software based business.
   video_provider: youtube
   video_id: Frnl49c2r50
+  slug: make-money-and-enjoy-freedom-creating-a-software-business
 - title: "Going Global on Rails: Lessons Learned Taking Japan's Biggest Recipe Site International"
   raw_title: "Rails Pacific 2016 - Going Global on Rails: Lessons Learned...  by Miles Woodroffe"
   speakers:
@@ -256,6 +267,7 @@
     This talk will cover lessons learned launching our service outside of Japan for the first time, to 30 new regions with 8 languages in 12 months, with a globally distributed team spread across 7 countries.
   video_provider: youtube
   video_id: dTcpLmNBXDA
+  slug: going-global-on-rails-lessons-learned-taking-japan-s-biggest-recipe-site-international
 - title: Secrets of Testing Rails 5 Apps
   raw_title: Rails Pacific 2016 - Secrets of Testing Rails 5 Apps by Prathamesh Sonpatki
   speakers:
@@ -273,6 +285,7 @@
     Come and join me as we will commence the journey to uncover the secrets of testing Rails 5 apps.
   video_provider: youtube
   video_id: 8A1bx_VoArs
+  slug: secrets-of-testing-rails-5-apps
 - title: "Keynote: Computer Science Education for the Next Generation by Godfrey Chan"
   raw_title: "Rails Pacific 2016 - Keynote: Computer Science Education for the Next Generation by Godfrey Chan"
   speakers:
@@ -286,3 +299,4 @@
     Computer Science education has been undergoing rapid transformation in recent years. The rise of code schools, bootcamps, online courses and other self-learning resources on the Internet have opened up a variety of new avenues alongside the more traditional paths. In this talk, we will explore how good programmers think, the key skills that helps them do their job and how our education system could help our students get there.
   video_provider: youtube
   video_id: cAeIBMtNQY0
+  slug: keynote-computer-science-education-for-the-next-generation-by-godfrey-chan

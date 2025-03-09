@@ -14,6 +14,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/the-magic-of-rails-eileen-uchitelle
   video_id: https://videos.brightonruby.com/videos/2023/eileen-uchitelle-the-magic-of-rails.mp4
+  slug: the-magic-of-rails
   slides_url: https://speakerdeck.com/eileencodes/brighton-ruby-2023-the-magic-of-rails
   description: |-
     We’ll look at the philosophy behind the framework as well as the overall structure of the components and explore some of the common patterns that Rails uses to build agnostic and beautiful interfaces, and the techniques it implements to hide complexity so you can focus on building your application.
@@ -34,6 +35,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/scarpe-diem-nick-schwaderer
   video_id: https://videos.brightonruby.com/videos/2023/nick-schwaderer-scarpe-diem.mp4
+  slug: scarpe-diem
   description: |-
     Why the Lucky Stiff, one of the most beloved members of the historical Ruby community, is widely known for his seminal Poignant Guide to Ruby. His second-most ambitious writing, NOBODY KNOWS SHOES, is lesser-known. This text was the manual for an amazing set of tools _why developed in 2007 called Shoes.rb.
 
@@ -52,6 +54,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/librarians-guide-to-documentation-kaitlyn-tierney
   video_id: https://videos.brightonruby.com/videos/2023/kaitlyn-tierney-librarians-guide-to-documentation.mp4
+  slug: librarian-s-guide-to-documentation
   description: |-
     Learn how to leverage librarian skills to create and maintain internal documentation that works for you.
 
@@ -66,6 +69,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/when-should-you-not-use-rails-noah-gibbs
   video_id: https://videos.brightonruby.com/videos/2023/noah-gibbs-when-should-you-not-use-rails.mp4
+  slug: when-should-you-not-use-rails
   description: |-
     Rails is a great tool for a lot of projects, but not every project.
 
@@ -80,6 +84,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/twenty-years-of-ruby-in-five-minutes-paul-battley
   video_id: https://videos.brightonruby.com/videos/2023/paul-battley-twenty-years-of-ruby-in-five-minutes.mp4
+  slug: lightning-talk-twenty-years-of-ruby-in-five-minutes
   description: |-
     I’ve been working with Ruby since the early 2000s. Ruby has changed a lot in that time, but we don’t always remember how much. Let’s rewrite a short program so that it runs in a twenty-year-old version of Ruby and see how much syntax and performance has changed for the better in twenty years.
 
@@ -96,6 +101,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/five-things-i-love-about-ruby-hana-harencarova
   video_id: https://videos.brightonruby.com/videos/2023/hana-harencarova-five-things-i-love-about-ruby.mp4
+  slug: lightning-talk-five-things-i-love-about-ruby
   description: |-
     The talk caters to both newcomers and veterans of the Ruby world and offers a humorous yet informative perspective on the language and its community. It will cover various Ruby events and initiatives, diversity of the Ruby community, and more. Let’s appreciate our Ruby world together.
 - title: "Lightning Talk: UX Doesn't Equal Front-End"
@@ -108,6 +114,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/ux-doesnt-equal-front-end-lizz-jennings
   video_id: https://videos.brightonruby.com/videos/2023/lizz-jennings-ux-doesnt-equal-front-end.mp4
+  slug: lightning-talk-ux-doesn-t-equal-front-end
   description: |-
     When people think of usability improvements, they often think of the front end. But when you really understand your domain, using the power of the back end can be the best way to save your users’ time.
 
@@ -124,6 +131,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/how-to-write-a-custom-rubocop-rule-jade-dickinson
   video_id: https://videos.brightonruby.com/videos/2023/jade-dickinson-how-to-write-a-custom-rubocop-rule.mp4
+  slug: lightning-talk-how-to-write-a-custom-rubocop-rule
   description: |-
     You want to enforce a standard in your codebase, like making sure a company name is in title case. So you add “always check for correct capitalisation” to your pull request guidelines. Over time, people forget to check and mistakes sneak in.
 
@@ -138,6 +146,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/beware-job-smearing-maple-ong
   video_id: https://videos.brightonruby.com/videos/2023/maple-ong-beware-job-smearing.mp4
+  slug: lightning-talk-beware-job-smearing
   description: |-
     What does Matthew McConaughey have in common with an uncomfortable sounding procedure and job frameworks?
 
@@ -152,6 +161,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/livin-la-vida-hanami-tim-riley
   video_id: https://videos.brightonruby.com/videos/2023/tim-riley-livin-la-vida-hanami.mp4
+  slug: livin-la-vida-hanami-brighton-ruby-2023
   description: |-
     You’re into applications Fast tests and method calls I feel a premonition This gem’s gonna stun you all
 
@@ -172,6 +182,7 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/the-case-of-the-vanished-variable-nadia-odunayo
   video_id: https://videos.brightonruby.com/videos/2023/nadia-odunayo-the-case-of-the-vanished-variable.mp4
+  slug: the-case-of-the-vanished-variable
   description: |-
     After a stressful couple of days at work, Deirdre Bug is looking forward to a quiet evening in. But her plans are thwarted when the phone rings. “I know I’m the last person you want to hear from…but…I need your help!”
 
@@ -186,5 +197,6 @@
   external_player: true
   external_player_url: https://brightonruby.com/2023/new-game-joe-hart
   video_id: https://videos.brightonruby.com/videos/2023/joe-hart-new-game.mp4
+  slug: new-game
   description: |-
     Fun and interactive games abound in this talk come work in progress interactive entertainment show. You’ll need yourself, a phone and good vibes.

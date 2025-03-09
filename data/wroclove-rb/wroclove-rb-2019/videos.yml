@@ -14,6 +14,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ArTS_AJ-smQ
+  slug: building-uis-for-microservices
   language: English
   description: ""
 - title: Handling File Uploads For A Modern Developer
@@ -25,6 +26,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: fP2JGjTZU2s
+  slug: handling-file-uploads-for-a-modern-developer
   language: English
   description: ""
 - title: Development with Axioms
@@ -36,6 +38,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: qTVeWbg2tKk
+  slug: development-with-axioms
   language: English
   description: ""
 - title: Mutant on Steroids
@@ -47,6 +50,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: j1Ze3pKNJ4A
+  slug: mutant-on-steroids
   language: English
   description: ""
 - title: Spice up your life with EQL
@@ -58,6 +62,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: UvJEBMOtayk
+  slug: spice-up-your-life-with-eql
   language: English
   description: ""
 - title: Optimistic UI and Live Uupdates with Logux & Ruby
@@ -69,6 +74,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: KVcZAfjWtYk
+  slug: optimistic-ui-and-live-uupdates-with-logux-ruby
   language: English
   description: ""
 - title: Towards the Post Framework Future
@@ -80,6 +86,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 5UiBQtfRDUI
+  slug: towards-the-post-framework-future
   language: English
   description: ""
 - title: Orchestrating Video Transcoding in Ruby
@@ -91,6 +98,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: CXhd-We0Nhw
+  slug: orchestrating-video-transcoding-in-ruby
   language: English
   description: ""
   slides_url: https://slides.com/sandwich/transcoding-videos-in-ruby-a-story
@@ -103,6 +111,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bf5pQVgux3c
+  slug: the-truffleruby-compilation-pipeline
   language: English
   description: ""
 - title: Events Events Events
@@ -114,6 +123,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: VnCPxjRpv3o
+  slug: events-events-events
   language: English
   description: ""
 - title: How to Hijack
@@ -125,6 +135,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: YhNhVBUcPkI
+  slug: how-to-hijack
   language: English
   description: ""
 - title: Business Logic in Ruby
@@ -136,6 +147,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bwUueshN6Rw
+  slug: business-logic-in-ruby
   language: English
   description: ""
 - title: Lighting Talks (Day 2)
@@ -145,6 +157,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: cPuhRsV6Pw4
+  slug: lighting-talks-day-2
   language: English
   description: ""
   talks:
@@ -210,6 +223,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 9q9eLQ2nSwA
+  slug: lighting-talks-day-3
   language: English
   description: ""
   talks:

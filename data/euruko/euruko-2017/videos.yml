@@ -18,6 +18,7 @@
   description: ""
   video_provider: youtube
   video_id: nlMsi8S3kZg
+  slug: keynote-mjit-what-how-and-why
 - title: Helping communities & products thrive
   raw_title: Sasha Romijn- Helping communities & products thrive by fostering empathy @EuRuKo2017
   speakers:
@@ -29,6 +30,7 @@
   description: ""
   video_provider: youtube
   video_id: biwApccM1Sg
+  slug: helping-communities-products-thrive
 - title: "Data-driven production apps"
   raw_title: Sai Warang- Data-driven production apps @EuRuKo2017
   speakers:
@@ -40,6 +42,7 @@
   description: ""
   video_provider: youtube
   video_id: u4Z2M5HSGJs
+  slug: data-driven-production-apps
 #
 # Lunch
 #
@@ -54,6 +57,7 @@
   description: ""
   video_provider: youtube
   video_id: ZeGIw8jkRmA
+  slug: the-real-black-friday-aka-how-to-scale-an-unscalable-service
 - title: "Introducing Tensorflow Ruby API"
   raw_title: Arafat Khan- Introducing Tensorflow Ruby API @EuRuKo2017
   speakers:
@@ -65,6 +69,7 @@
   description: ""
   video_provider: youtube
   video_id: Bb8izrSSt3M
+  slug: introducing-tensorflow-ruby-api
 - title: "Distributed Systems: Your Only Guarantee Is Inconsistency"
   raw_title: "Anthony Zacharakis- Distributed Systems: Your Only Guarantee Is Inconsistency @EuRuKo2017"
   speakers:
@@ -76,6 +81,7 @@
   description: ""
   video_provider: youtube
   video_id: JvBq27cbv_0
+  slug: distributed-systems-your-only-guarantee-is-inconsistency
 - title: "Things I Learned the Hard Way Building a Search Engine"
   raw_title: Katarzyna Turbiasz-Bugała- Things I Learned the Hard Way Building a Search Engine @EuRuKo2017
   speakers:
@@ -87,6 +93,7 @@
   description: ""
   video_provider: youtube
   video_id: 4zanERox264
+  slug: things-i-learned-the-hard-way-building-a-search-engine
 - title: Lightning Talks (Day 1)
   raw_title: Lightning talks day1@EuRuKo2017
   event_name: EuRuKo 2017
@@ -95,6 +102,7 @@
   description: ""
   video_provider: youtube
   video_id: NEnZViT581o
+  slug: lightning-talks-day-1
   talks:
     - title: "Lightning Talk: Health Checks Are Great"
       start_cue: "00:09"
@@ -161,6 +169,7 @@
   description: ""
   video_provider: youtube
   video_id: sPS7F-ITqK4
+  slug: keynote-the-story-of-jruby
 - title: "How to Make It As A Junior Dev and Stay Sane"
   raw_title: Katelyn Hertel- How to Make It As A Junior Dev and Stay Sane @ EuRuKo2017
   speakers:
@@ -172,6 +181,7 @@
   slides_url: https://www.slideshare.net/KatelynKatieHertel/how-to-make-it-as-a-junior-dev/1
   video_provider: youtube
   video_id: 1Ai5GsL6tP4
+  slug: how-to-make-it-as-a-junior-dev-and-stay-sane
 - title: "Issues with asynchronous interaction"
   raw_title: Anna Shcherbinina- Issues with asynchronous interaction @ EuRuKo2017
   speakers:
@@ -183,6 +193,7 @@
   slides_url: https://speakerdeck.com/gaar4ica/issues-with-asynchronous-interaction
   video_provider: youtube
   video_id: m3QwxkfhhYg
+  slug: issues-with-asynchronous-interaction
 #
 # Lunch
 #
@@ -197,6 +208,7 @@
   slides_url: https://speakerdeck.com/sebasoga/the-overnight-failure-2
   video_provider: youtube
   video_id: Q_rqdNVElSg
+  slug: the-overnight-failure
 - title: "Rescuing legacy codebases with GraphQL and Rails"
   raw_title: Netto Farah- Rescuing legacy codebases with GraphQL and Rails @ EuRuKo2017
   speakers:
@@ -208,6 +220,7 @@
   slides_url: https://speakerdeck.com/nettofarah/rescuing-legacy-codebases-with-graphql-1
   video_provider: youtube
   video_id: Lk3Xx7k1aOk
+  slug: rescuing-legacy-codebases-with-graphql-and-rails
 - title: "City Pitches (Take EuRuKo Home pitches)"
   raw_title: Hosting City Pitches @EuRuKo2017
   speakers:
@@ -217,6 +230,7 @@
   published_at: "2017-12-22"
   description: ""
   video_id: "-z9s743MUiw"
+  slug: city-pitches-take-euruko-home-pitches
 - title: "Predicting Performance Changes of Distributed Applications"
   raw_title: Wojtek Rząsa- Predicting Performance Changes of Distributed Applications @ EuRuKo2017
   speakers:
@@ -228,6 +242,7 @@
   slides_url: https://speakerdeck.com/wrzasa/predicting-performance-changes-of-distributed-applications
   video_provider: youtube
   video_id: 9yJcTsMFVjc
+  slug: predicting-performance-changes-of-distributed-applications
 #
 # Coffee Break
 #
@@ -239,6 +254,7 @@
   description: ""
   video_provider: youtube
   video_id: 0bDRKUqIu24
+  slug: lightning-talks-day-2
   talks:
     - title: "Lightning Talk: Pilar Andrea Huidobro Peltier"
       event_name: EuRuKo 2017
@@ -301,4 +317,5 @@
   slides_url: https://speakerdeck.com/bbatsov/ruby-4-to-infinity-and-beyond
   video_provider: youtube
   video_id: aFSuXUXRySc
+  slug: ruby-4-0-to-infinity-and-beyond
 # Closing Ceremony

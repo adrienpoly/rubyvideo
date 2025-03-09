@@ -48,4 +48,22 @@ namespace :yml do
     data = {"updated_at" => Time.current.to_date.to_s, "talks_slugs" => talks_slugs}.to_yaml
     File.write("data/talks_slugs.yml", data)
   end
+
+  desc "add slug to talks"
+  task add_slug_to_talks: :environment do
+    puts "Fetching talks slugs from API"
+    talks_slugs = YAML.load_file(TALKS_SLUGS_FILE).dig("talks_slugs")
+    paths = Dir.glob("data/**/*/videos.yml")
+
+    paths.each do |videos_yml_path|
+      puts "Adding slug to #{videos_yml_path}"
+      yaml_content = File.read(videos_yml_path)
+
+      updated_yaml_content = YmlFormatter.add_slug_to_talks(yaml_content, talks_slugs)
+      File.write(videos_yml_path, updated_yaml_content)
+    end
+
+    # then we ensure the style is correct with prettier
+    system("yarn format:yml")
+  end
 end

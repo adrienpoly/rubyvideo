@@ -18,6 +18,7 @@
     Evan will discuss managing a project as well as how contributors can make life easier for fellow developers.
   video_provider: youtube
   video_id: wu3gmXWiihg
+  slug: being-your-best-asset-and-not-your-worst-enemy-by
 - title: Real World Ruby Testing
   raw_title: "GoGaRuCo 2010 - Real World Ruby Testing by: Rein Henrichs"
   speakers:
@@ -33,6 +34,7 @@
     Intended for new testers; those who "just don't get this testing thing;" people with brittle, unwieldy test suites they need to work into shape; and everyone in between.
   video_provider: youtube
   video_id: vULxZFB-S_w
+  slug: real-world-ruby-testing
 - title: Ruby APIs for NoSQL
   raw_title: "GoGaRuCo 2010 - Ruby APIs for NoSQL by: Sarah Mei"
   speakers:
@@ -50,6 +52,7 @@
     In this talk, I'll run you through the mechanics of accessing several NoSQL data stores with Ruby. I promise not to bring a rabbit to the conference, and I definitely won't bring two. The last thing we need is more.
   video_provider: youtube
   video_id: irKvd4DfAtU
+  slug: ruby-apis-for-nosql
 - title: Data-Driven Government and the Ruby Developer
   raw_title: GoGaRuCo 2010 -  Data-Driven Government and the Ruby Developer by Eric Mill
   speakers:
@@ -67,6 +70,7 @@
     It's a historic and powerful opportunity for us as Ruby developers, and we need to take advantage of it. This talk is about why you should care, what your fellow developers have been doing so far, and what you might do yourself.
   video_provider: youtube
   video_id: E7T8NilHhyc
+  slug: data-driven-government-and-the-ruby-developer
 #
 # Lunch
 #
@@ -81,6 +85,7 @@
     Rails 3 has added quite a number of new ways to extend the framework. These include swapping in a new ORM that still works cleanly with ActionPack, a brand new instrumentation system, and ways to build custom controllers, mixing and matching the pieces that you want. In this talk, Yehuda will give an overview of these new systems, and show some real-world examples of using them in plugins and in your application itself. He will also talk about how to think about using the new Rails architecture to streamline your stack for performance-critical parts of your app, without losing the integration you've come to expect or the features you absolutely need in those cases.
   video_provider: youtube
   video_id: n3112epmkkA
+  slug: extending-rails-3
 - title: "Bryan's ActieModel Extravaganza"
   raw_title: "GoGaRuCo 2010 - Bryan's ActieModel Extravaganza by: Bryan Liles"
   speakers:
@@ -94,6 +99,7 @@
     In this session, I will discuss why ActiveModel could be a great interface to allow Rails to get access to your data on your own terms. I'll start from the beginning, and using TDD, I'll explore the interfaces Rails 3 exposes in their API. Next, I'll explore the components of ActiveModel. Finally, I'll show you how I'm using ActiveModel right now, and give you a real-world war report. I repeat: There will be code.
   video_provider: youtube
   video_id: 1K0NSPmD8Go
+  slug: bryan-s-actiemodel-extravaganza
 - title: "Keynote: (Parenthetically Speaking)"
   raw_title: "GoGaRuCo 2010 - Keynote: (Parenthetically Speaking) by: Jim Weirich"
   speakers:
@@ -104,6 +110,7 @@
   description: ""
   video_provider: youtube
   video_id: GT9b2G-fHo4
+  slug: keynote-parenthetically-speaking
 - title: Test-First Teaching
   raw_title: "GoGaRuCo 2010 - Test-First Teaching by: Sarah Allen"
   speakers:
@@ -116,6 +123,7 @@
     We've all learned that writing tests before code is a great way to develop software. It turns out that it's also a great way to learn how to develop software in the first place! In this talk we discuss a number of projects that have used test-first approaches to teach Ruby, including Ruby Koans, RailsBridge Workshops, Wolfram Arnold's BFT (behavior-first teaching), Blazing Cloud JavaScript and Rails classes, plus our own open-source Learn Ruby TFT (test-first teaching) curriculum (at a href="http://testfirst.org" target="_blank"testfirst.org/a). Come hear about our experiences or share your own.
   video_provider: youtube
   video_id: 1Y6IE5yqpSA
+  slug: test-first-teaching
 - title: "Polyglot: When Ruby isn't enough or even sane"
   raw_title: "GoGaRuCo 2010 - Polyglot: When Ruby isn't enough or even sane by: Blake Mizerany"
   speakers:
@@ -127,6 +135,7 @@
     You're so polyglot and you don't even know it. You may be using Ruby for too much. It's not the holy grail. This talk will pull from my experience at Heroku where I use much more than Ruby everyday; and I'm not just talking JavaScript. Technologies are designed to take on problems of a specific nature. There are those that are great for systems work and those that are not. Some make generating reports a cinch. A few are remarkable at digging through data. Networking can be a nightmare in some. I'll start with a swift but gentle introduction to Ruby's good but not great suits and move us into what to replace them with.
   video_provider: youtube
   video_id: drmOYNo-gv0
+  slug: polyglot-when-ruby-isn-t-enough-or-even-sane
 #
 ## Day 2
 #
@@ -141,6 +150,7 @@
     Back in the old days, you submitted a form to some URL and you got back some HTML. These days, you probably didn't hit submit, your URL probably didn't change, and what you got back was probably JSONâ€”but you never saw it because it came in asynchronously in the background. Best practices around web applications are changing fast, driven by new browser standards, sophisticated JavaScript libraries and super fast JavaScript implementations. Why would a web framework design from 2004 still be appropriate? What can we be doing to adapt, or reinvent, our approaches to building web apps?
   video_provider: youtube
   video_id: 1iy2kqRwdZ4
+  slug: rails-is-obsolete-but-so-s-everything-else
 - title: "Eschew Obfuscation and Omit Needless Words: Writing Clear Acceptance Tests"
   raw_title: "GoGaRuCo 2010 - Eschew Obfuscation and Omit Needless Words: Writing Clear Acceptance Tests"
   speakers:
@@ -154,6 +164,7 @@
     Modern acceptance testing frameworks like Cucumber express tests in natural language, enabling organizations to establish their own Domain Specific Languages (DSLs). This powerful capability is a huge boon for communication: technical team members and non-technical business stakeholders can use the same vocabulary in expressing both requirements and tests. However, just creating a DSL does not ensure we will write good, clear tests. Indeed, it is all too easy to create acceptance tests that contain so many extraneous details that the real intentions behind the tests are obfuscated. In this session, Elisabeth will demonstrate how to edit technically correct but verbose Cucumber tests to increase clarity, reduce extraneous distracting details, and improve maintainability. Along the way we'll see how paying attention to the advice in Elements of Style applies to writing better automated acceptance tests. Strunk and White would be proud.
   video_provider: youtube
   video_id: h4DG57zRGEo
+  slug: eschew-obfuscation-and-omit-needless-words-writing-clear-acceptance-tests
 - title: "Intelligent Ruby: Getting Started with Machine Learning"
   raw_title: "GoGaRuCo 2010 - Intelligent Ruby: Getting Started with Machine Learning by: Ilya Grigorik"
   speakers:
@@ -167,6 +178,7 @@
     No prior knowledge required. We will take a quick look at the foundations (representing and modeling knowledge, compression, and inference), and build up to simple but powerful examples such as clustering, recommendations, and classification â€” all in 30 minutes or less, believe it or not.
   video_provider: youtube
   video_id: FAbwtyCj-sk
+  slug: intelligent-ruby-getting-started-with-machine-learning
 - title: The Revolution will not be Tweeted
   raw_title: "GoGaRuCo 2010 - The Revolution will not be Tweeted by: Rich Kilmer"
   speakers:
@@ -178,6 +190,7 @@
     The Rails revolution, and Ruby along with it, began in the loud public echosphere of startup companies. The arrival of the Rails framework and the "Web 2.0" explosion created a very thunderous effect. Magazine after magazine reported on Rails. All the hip, funded and loud startups were using Rails to build their wares. It became a thing that VCs would assume you were using, and if not, why? The first RailsConf was 90% attended by startups. Rails was a revolution. Since then the loudness has waned. Is the revolution over? Is Rails done? Au contraire, the revolution has gone underground. It's penetrating places that Twitter does not hear. It's building things that are not reported. It's entered the enterprise. This talk will document the rise of Rails and glorious revolution which we barely see, but is happening every day.
   video_provider: youtube
   video_id: 6UC36otvtzM
+  slug: the-revolution-will-not-be-tweeted
 #
 # Lunch
 #
@@ -196,6 +209,7 @@
     In this talk, I want to show how to navigate the minefield, how to "think in shell," demystify the strange grammar (yes, there's an actual grammar in there), and compare approaches to common problems in shell vs. Ruby.
   video_provider: youtube
   video_id: olH-9b3VJfs
+  slug: the-shell-hater-s-handbook
 - title: "Panel: Sharing our Workflows"
   raw_title: "GoGaRuCo 2010 - Workflow by: Ryan Davis"
   speakers:
@@ -213,6 +227,7 @@
     I shall give you my answers.  em You will give me yours /em .
   video_provider: youtube
   video_id: o9X4mkaPRKU
+  slug: panel-sharing-our-workflows
 - title: Lightning Talks
   raw_title: "GoGaRuCo 2010 - Lightning Talks by: Various Presenters"
   event_name: GoGaRuCo 2010
@@ -222,6 +237,7 @@
     Get electrified with a dozen five minute talks on various topics by your fellow conference attendees, or give a talk yourself!
   video_provider: youtube
   video_id: me-2gFihaHw
+  slug: lightning-talks-gogaruco-2010
   talks:
     - title: "Lightning Talk: Rubinius Concurrency Demo"
       event_name: GoGaRuCo 2010
@@ -404,6 +420,7 @@
     Arel (also known as ActiveRelation) is the Ruby relational algebra engine powering ActiveRecord in Rails 3. By replacing string concatenation with an object model to express SQL queries, Arel had a big immediate impact on the ActiveRecord codebase and opens the door for more powerful Object Relation Mapping (ORM) functionality in the future. This talk will introduce the concept of relational algebra, cover the past, present and future of Arel, and dive into how you can leverage it today either on its own, or in your Rails 3 applications
   video_provider: youtube
   video_id: zAqts0oFL_w
+  slug: arel-the-ruby-relational-algebra
 - title: Hidden Gems of Ruby 1.9
   raw_title: "GoGaRuCo 2010 - Hidden Gems of Ruby 1.9 by: Aaron Patterson"
   speakers:
@@ -415,3 +432,4 @@
     When attempting to solve our latest 367 hidden gems of ruby 1 9programming conundrum, we typically reach for the latest Ruby Gem that solves the problem for us. Oftentimes in our search for a solution, we neglect to look through some of the great libraries that come shipped with Ruby. In this talk we'll explore some of the tools we can use that don't require a gem install. We'll especially focus on the new toys in Ruby's standard library that ship with Ruby 1.9, but also look at some of the toys that ship with Ruby Classicâ„¢. Be prepared to be amazed and entertained. But most of all, be prepared to go home with something useful!
   video_provider: youtube
   video_id: bPPGuecH1QM
+  slug: hidden-gems-of-ruby-1-9

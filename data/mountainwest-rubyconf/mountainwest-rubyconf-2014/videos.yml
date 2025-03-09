@@ -15,6 +15,7 @@
     Founded in 2002, Seattle.rb is the first and oldest ruby group in the world. We've evolved a lot over the years and have found a balance that I think works very well for many, if not most, groups. Seattle.rb has also had a study group off-and-on for a few years. We've tackled doozies like SICP but also programmed games in Racket (scheme). I will share the recipe for our user group and study group as well as the trade-offs we've made over the years and what they meant to us.
   video_provider: youtube
   video_id: AK-gVWh_vZ8
+  slug: nerd-party-v3-1
 - title: Generate Parsers! Prevent Exploits!
   raw_title: MountainWest RubyConf 2014 - Generate Parsers! Prevent Exploits! by Nick Howard
   speakers:
@@ -28,6 +29,7 @@
     Using Ruby's metaprogramming superpowers, doing this doesn't have to be a painful process. I've been working on a library called Muskox that aims to make generating parsers almost as simple as using Rails 4's Strong Parameters. Writing code to secure your app's inputs should be easy, fun and fast.
   video_provider: youtube
   video_id: 4EwuuSLr2Lk
+  slug: generate-parsers-prevent-exploits
 - title: Introduction to CRuby source code
   raw_title: MountainWest RubyConf 2014 - Introduction to CRuby source code by Andy Pliszka
   speakers:
@@ -39,6 +41,7 @@
     Understanding of CRuby source code has profound effects on every Ruby developer. In my talk, I will show you how to build Ruby from source. I will explain how to install and configure your new Ruby build on Mac and Linux. I will walk you through CRuby source code and introduce you to a few of the most important CRuby files. I will show you how to hack CRuby and modify some of the fundament Ruby classes in C. I will demonstrate how to write complete Ruby classes in C. Finally, I will show you that CRuby code can run 100 times faster than Ruby code. I hope that this talk will inspire you to learn more about CRuby and hack it on your own.
   video_provider: youtube
   video_id: 9oH6sL2sKvw
+  slug: introduction-to-cruby-source-code-mountainwest-rubyconf-2014
 - title: "New Ruby 2.1 Awesomeness: Pro Object Allocation Tracing"
   raw_title: "MountainWest RubyConf 2014 - New Ruby 2.1 Awesomeness: Pro Object Allocation Tracing"
   speakers:
@@ -54,6 +57,7 @@
     We'll look at various examples of how this new Ruby 2.1 feature, and these tools can help an organization reduce unnecessary memory allocations, and speed up their code, especially mature Rack applications.
   video_provider: youtube
   video_id: ViUvz4FCDxg
+  slug: new-ruby-2-1-awesomeness-pro-object-allocation-tracing
 - title: "The Other Junk Drawer: My Tests are a Mess"
   raw_title: "MountainWest RubyConf 2014 - The Other Junk Drawer: My Tests are a Mess"
   speakers:
@@ -68,6 +72,7 @@
     Organizing tests are hard. It is easy to make things overly elaborate and complicated. Learn an approach to grouping the tests together in a way that makes sense. We can test drive without creating overly brittle tests. Lets build better designed projects by keeping our test suite clear and understandable.
   video_provider: youtube
   video_id: ZoT5qrAUkT0
+  slug: the-other-junk-drawer-my-tests-are-a-mess
 - title: Re-thinking Regression Testing
   raw_title: MountainWest RubyConf 2014 - Re-thinking Regression Testing by Mario Gonzalez
   speakers:
@@ -83,6 +88,7 @@
     How to improve their tests so they detect bugs that are introduced during the normal evolution of software.
   video_provider: youtube
   video_id: H8lBCI_TQ8E
+  slug: re-thinking-regression-testing
 - title: Unpacking Technical Decisions
   raw_title: MountainWest RubyConf 2014 - Unpacking Technical Decisions by Sarah Mei
   speakers:
@@ -95,6 +101,7 @@
     Right now, your team might be struggling to organize the client-side parts of your application. Ember? Angular? Backbone? Flip a coin? Uh...which one has the most...retweets? These choices don't need to be arbitrary or based on vague personal preference. Come learn a more useful and realistic approach that makes large-scale technical decisions less risky.
   video_provider: youtube
   video_id: FzzL_QDKv0c
+  slug: unpacking-technical-decisions-mountainwest-rubyconf-2014
 - title: Big O in a Homemade Hash
   raw_title: MountainWest RubyConf 2014 - Big O in a Homemade Hash by Nathan Long
   speakers:
@@ -107,6 +114,7 @@
     In this talk, I'll walk you through it. We'll learn what it takes to get the interface we want and maintain O(1) performance as it grows.
   video_provider: youtube
   video_id: NMwyWBtSiGM
+  slug: big-o-in-a-homemade-hash
 - title: How to Prototype an Airport
   raw_title: MountainWest RubyConf 2014 - How to Prototype an Airport by Barrett Clark
   speakers:
@@ -119,6 +127,7 @@
     This talk will run down the various stages of the project, an overview of outdoor vs indoor location technologies, and how the iPhone (and Android) devices currently handle location. I'll also discuss how I built a robust Ruby backend, and how I hacked some hardware together to create iBeacons.
   video_provider: youtube
   video_id: Pxp6ukQFFb8
+  slug: how-to-prototype-an-airport
 - title: Dont.
   raw_title: MountainWest RubyConf 2014 - Dont. by Ernie Miller
   speakers:
@@ -132,6 +141,7 @@
     We'll discuss a variety of exciting mistakes, ranging from the misapplication of metaprogramming techniques to letting emotions become barriers to new technologies to why it's a horrible idea to stretch a gel keyboard wrist rest across a room, even if it seems like an awesome plan at the time.
   video_provider: youtube
   video_id: 7UT3pDD7XK8
+  slug: dont
 - title: Affordance in Programming Languages
   raw_title: MountainWest RubyConf 2014 - Affordance in Programming Languages by Randy Coulman
   speakers:
@@ -144,6 +154,7 @@
     Programming languages also have affordances, and they influence the kinds of solutions we develop. The more languages we know, the more we "expand our design space" so that we can come up with better solutions to the problems we face every day.
   video_provider: youtube
   video_id: aQu18GXl74Q
+  slug: affordance-in-programming-languages
 - title: A World Without Assignment
   raw_title: MountainWest RubyConf 2014 - A World Without Assignment by Aja Hammerly
   speakers:
@@ -156,6 +167,7 @@
     Despite being object oriented, Ruby easily accommodates pure functional approaches. This talk will demonstrate how common programming tasks can be accomplished without assignment or mutation. Ruby and Scheme (a Lisp dialect) will be used for examples. I'll also discuss some of the great resources available for those interested in digging deeper into functional programming.
   video_provider: youtube
   video_id: Qyn4NyeftUE
+  slug: a-world-without-assignment-mountainwest-rubyconf-2014
 - title: "Five Machine Learning Techniques That You Can Use In Your Ruby Apps Today"
   raw_title: MountainWest RubyConf 2014 - Five machine learning techniques that....
   speakers:
@@ -173,6 +185,7 @@
     By the end of the presentation, you won't be an expert, but you'll know about a class of tools you may not have realized were available.
   video_provider: youtube
   video_id: crziu7dk6Vw
+  slug: five-machine-learning-techniques-that-you-can-use-in-your-ruby-apps-today
 - title: Test Driven Neural Networks with Ruby
   raw_title: MountainWest RubyConf 2014 - Test Driven Neural Networks with Ruby by Matthew Kirk
   speakers:
@@ -184,6 +197,7 @@
     Neural networks are an excellent way of mapping past observations to a functional model. Many researchers have been able to build tools to recognize handwriting, or even jaundice detection. While Neural Networks are powerful they still are somewhat of a mystery to many. This talk aims to explain neural networks in a test driven way. We'll write tests first and go through how to build a neural network to determine what language a sentence is. By the end of this talk you'll know how to build neural networks with tests!
   video_provider: youtube
   video_id: mWZ1SPgx80g
+  slug: test-driven-neural-networks-with-ruby
 - title: The Timeless Way of Building
   raw_title: MountainWest RubyConf 2014 - The Timeless Way of Building by John Athayde
   speakers:
@@ -196,6 +210,7 @@
     We'll look at the origin of pattern languages and why they can be dangerous and even detrimental tools in the hands of the inexperienced designer and developer through examples of bad grammar and poor idiomatic choices(aka antipatterns), and perhaps some architecture as well.
   video_provider: youtube
   video_id: DJJbIjlLmLM
+  slug: the-timeless-way-of-building
 - title: "But Really, You Should Learn Smalltalk"
   raw_title: MountainWest RubyConf 2014 - But Really, You Should Learn Smalltalk
   speakers:
@@ -213,6 +228,7 @@
     You'll never look at objects the same way again.
   video_provider: youtube
   video_id: eGaKZBr0ga4
+  slug: but-really-you-should-learn-smalltalk
 - title: MagLev - From Download to Deploy
   raw_title: MountainWest RubyConf 2014 - MagLev - From Download to Deploy by Johnny T
   speakers:
@@ -227,6 +243,7 @@
     In this talk we will walk through a number of examples including a simple job and worker which use persisted blocks, and how to deploy an application and migrate persisted objects.
   video_provider: youtube
   video_id: "-sH2lSW2BGo"
+  slug: maglev-from-download-to-deploy
 - title: "CRUD! The Consequences of Not Understanding How ActiveRecord Translates into MySQL"
   raw_title: MountainWest RubyConf 2014 - CRUD! The Consequences of Not Understanding How ActiveRecord ...
   speakers:
@@ -240,6 +257,7 @@
     The magic of ActiveRecord database interactions is easy to rely on and allows us assume it knows best. Without a solid understanding of how ActiveRecord translates into MySQL, however, significant issues can arise. This is particularly true with large data sets and complex model relationships. My talk explores an example for each CRUD function and shows how these queries can result in MySQL timeouts, memory issues or stack level too deep errors. The examples will examine the consequences of chaining large datasets, uses for Arel, and how to avoid encountering major problems and most importantly, how these queries can be rewritten to run more efficiently.
   video_provider: youtube
   video_id: lOpVcqiAIiI
+  slug: crud-the-consequences-of-not-understanding-how-activerecord-translates-into-mysql
 - title: "Software Development Lessons from the Apollo Program"
   raw_title: MountainWest RubyConf 2014 - Software Development Lessons from the Apollo Program
   speakers:
@@ -255,6 +273,7 @@
     NASA and MIT kept meticulous records, giving us the opportunity to look back today on some of the pioneers of our industry, relive their experiences, and maybe learn a few things ourselves.
   video_provider: youtube
   video_id: jYe2bF7tc2Q
+  slug: software-development-lessons-from-the-apollo-program-mountainwest-rubyconf-2014
 - title: A Magical Gathering
   raw_title: MountainWest RubyConf 2014 - A Magical Gathering by Aaron Patterson
   speakers:
@@ -266,3 +285,4 @@
     Let's roll up our sleeves, and learn about Ruby and OpenCV. Let there be coding. Let there be learning. But most of all, let this be the most magical of all gatherings. I've put on my robe and my wizard hat, now lets make magic happen!
   video_provider: youtube
   video_id: pIC35tsfUmw
+  slug: a-magical-gathering
