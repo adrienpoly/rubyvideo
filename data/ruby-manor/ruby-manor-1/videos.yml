@@ -12,6 +12,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/classic/trailer/trailer.m4v"
+  slug: the-trailer
   external_player: false
   external_player_url: http://rubymanor.org/videos/trailer/
 - title: "8 Minutes On Rack"
@@ -24,6 +25,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/classic/rack/rack.mp4"
+  slug: 8-minutes-on-rack
   external_player: false
   external_player_url: http://rubymanor.org/videos/rack/
   slides_url: https://www.slideshare.net/danwrong/8-minutes-on-rack-presentation/
@@ -37,6 +39,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/classic/iplayer/iplayer.mp4"
+  slug: i-m-an-evil-iplayer-hacker
   external_player: false
   external_player_url: http://rubymanor.org/videos/iplayer/
   slides_url: https://po-ru.com/presentations/iplayer-hacker/
@@ -50,6 +53,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/classic/unobtrusive_metaprogramming/unobtrusive_metaprogramming.mp4"
+  slug: unobtrusive-metaprogramming
   external_player: false
   external_player_url: http://rubymanor.org/videos/unobtrusive_metaprogramming/
   slides_url: https://seanohalpin.github.com/unobtrusive-metaprogramming/unobtrusive-metaprogramming.html
@@ -66,6 +70,7 @@
     https://www.slideshare.net/martinbtt/monkeybars-in-the-manor-presentation
   video_provider: mp4
   video_id: "http://video.rubymanor.org/classic/gui_manor_born/gui_manor_born.mp4"
+  slug: gui-manor-born
   external_player: false
   external_player_url: http://rubymanor.org/videos/gui_manor_born/
   slides_url: https://www.slideshare.net/hlame/tying-your-shoes-presentation/
@@ -79,6 +84,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/classic/nanite/nanite.mp4"
+  slug: nanite
   external_player: false
   external_player_url: http://rubymanor.org/videos/nanite/
   slides_url: https://www.slideshare.net/Georgio_1999/rubymanor-presentation/
@@ -92,6 +98,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/classic/rugalytics/rugalytics.mp4"
+  slug: rugalytics
   external_player: false
   external_player_url: http://rubymanor.org/videos/rugalytics/
   slides_url: https://www.slideshare.net/delineator/rugalytics-ruby-manor-nov-2008-presentation

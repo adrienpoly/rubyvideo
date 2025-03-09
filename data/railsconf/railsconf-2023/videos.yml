@@ -15,6 +15,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 3ndcqh9fTGA
+  slug: functional-patterns-in-ruby
 - title: Who Wants to be a Ruby Engineer?
   raw_title: RailsConf 2023 - Who Wants to be a Ruby Engineer? by Drew Bragg
   speakers:
@@ -25,6 +26,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 4VT0aDEDd28
+  slug: who-wants-to-be-a-ruby-engineer
 - title: Building an offline experience with a Rails-powered PWA
   raw_title: RailsConf 2023 - Building an offline experience with a Rails-powered PWA by Alicia Rojas
   speakers:
@@ -35,6 +37,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 4cQuxQdWkPE
+  slug: building-an-offline-experience-with-a-rails-powered-pwa-railsconf-2023
 - title: Accessible by default
   raw_title: RailsConf 2023 - Accessible by default by Joel Hawksley
   speakers:
@@ -45,6 +48,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 4j2zlvE_Yj8
+  slug: accessible-by-default
 - title: ActiveRecord::Encryption; Stop Hackers from Reading your Data
   raw_title: RailsConf 2023 - ActiveRecord::Encryption; Stop Hackers from... by Matthew Langlois, Kylie Stradley
   speakers:
@@ -58,6 +62,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 4mZNP_Dgi2w
+  slug: activerecord-encryption-stop-hackers-from-reading-your-data
 - title: Applying microservices patterns to a modular monolith
   raw_title: RailsConf 2023 - Applying microservices patterns to a modular monolith by Guillermo Aguirre
   speakers:
@@ -70,6 +75,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 4zrQAJ0RlI4
+  slug: applying-microservices-patterns-to-a-modular-monolith
 - title: "Bridging the Gap: Creating Trust Between Non-Technical Stakeholders and Engineering Teams"
   raw_title: "RailsConf 2023 - Bridging the Gap: Creating Trust Between Non-Technical... by Kevin Gorham"
   speakers:
@@ -82,6 +88,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 5gSRKyuO7qY
+  slug: bridging-the-gap-creating-trust-between-non-technical-stakeholders-and-engineering-teams
 - title: "Forecasting the Future: An Introduction to Machine Learning for Weather Prediction"
   raw_title: "RailsConf 2023 - Forecasting the Future: An Introduction to Machine Learning for... by Landon Gray"
   speakers:
@@ -100,6 +107,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 656z7Hu0HtY
+  slug: forecasting-the-future-an-introduction-to-machine-learning-for-weather-prediction
 - title: The End of Legacy Code
   raw_title: RailsConf 2023 -  The End of Legacy Code by Daniel Huss
   speakers:
@@ -116,6 +124,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 6msn5oGT7Q8
+  slug: the-end-of-legacy-code
 - title: Demystifying the Unionizing Process
   raw_title: RailsConf 2023 - Demystifying the Unionizing Process by Colin Fleming
   speakers:
@@ -126,6 +135,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 8qSmTXFG2Pc
+  slug: demystifying-the-unionizing-process
 - title: How to Upstream Your Code to Rails
   raw_title: RailsConf 2023 - How to Upstream Your Code to Rails by Hartley McGuire
   speakers:
@@ -136,6 +146,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Ai64DuHt4CU
+  slug: how-to-upstream-your-code-to-rails
 - title: A custom design pattern for building dynamic ActiveRecord queries
   raw_title: RailsConf 2023 - A custom design pattern for building dynamic ActiveRecord queries by Justin Daniel
   speakers:
@@ -148,6 +159,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: CWqISNM1RfY
+  slug: a-custom-design-pattern-for-building-dynamic-activerecord-queries
 - title: A Picture Is Worth a 1000 Lines of Code
   raw_title: RailsConf 2023 - A Picture Is Worth a 1000 Lines of Code by Rich Steinmetz
   speakers:
@@ -164,6 +176,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ChsqAlhnjsI
+  slug: a-picture-is-worth-a-1000-lines-of-code
 - title: "Rails on Ruby: How Ruby Makes Rails Great"
   raw_title: "RailsConf 2023 - Rails on Ruby: How Ruby Makes Rails Great by Noel Rappin"
   speakers:
@@ -174,6 +187,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: EBFWAGkIFZM
+  slug: rails-on-ruby-how-ruby-makes-rails-great
 - title: "Closing Keynote: Modern Dev Environments"
   raw_title: "RailsConf 2023 - Keynote: Aaron Patterson"
   speakers:
@@ -185,6 +199,7 @@
   slides_url: https://speakerdeck.com/tenderlove/railsconf-2023
   video_provider: youtube
   video_id: LcDNedD-8mU
+  slug: closing-keynote-modern-dev-environments
 - title: How Rails fosters a diverse and competitive tech ecosystem in the era of big tech
   raw_title: RailsConf 2023 - How Rails fosters a diverse and competitive tech ecosystem in... by Jordan Trevino
   speakers:
@@ -197,6 +212,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Lo1rn0XCSDw
+  slug: how-rails-fosters-a-diverse-and-competitive-tech-ecosystem-in-the-era-of-big-tech
 - title: An imposter's guide to growth in engineering
   raw_title: RailsConf 2023 - An imposter's guide to growth in engineering by Ebun Segun
   speakers:
@@ -207,6 +223,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: MH8j1_uthhk
+  slug: an-imposter-s-guide-to-growth-in-engineering
 - title: "Rails Performance Monitoring 101: A Primer for Junior Developers"
   raw_title: "RailsConf 2023 - Rails Performance Monitoring 101: A Primer for Junior Developers by Rishi Jain"
   speakers:
@@ -219,6 +236,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: OF5YhG-91ao
+  slug: rails-performance-monitoring-101-a-primer-for-junior-developers
 - title: "Beyond CRUD: the PostgreSQL techniques your Rails app is missing.  Shayon Mukherjee"
   raw_title: "RailsConf 2023 - Beyond CRUD: the PostgreSQL techniques your Rails app is missing. \ Shayon Mukherjee"
   speakers:
@@ -233,6 +251,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: OQUTBLhP2QI
+  slug: beyond-crud-the-postgresql-techniques-your-rails-app-is-missing-shayon-mukherjee
 - title: "Faster websites: integrating next-gen images in your Rails apps"
   raw_title: "RailsConf 2023 - Faster websites: integrating next-gen images in your... by JP Balarini"
   speakers:
@@ -249,6 +268,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Pdnpen6jPDM
+  slug: faster-websites-integrating-next-gen-images-in-your-rails-apps
 - title: Hotwiring My React Brain
   raw_title: RailsConf 2023 - Hotwiring My React Brain by Aji Slater
   speakers:
@@ -267,6 +287,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: PvAf3vZp1b8
+  slug: hotwiring-my-react-brain
 - title: Let's Standardize Rails, Once and For All!
   raw_title: RailsConf 2023 - Let's Standardize Rails, Once and For All! by Justin Searls, Meagan Waller
   speakers:
@@ -282,6 +303,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: QVilOzkLdlI
+  slug: let-s-standardize-rails-once-and-for-all
 - title: Building a world class engineering organization — learning from cave paintings and horsey land art
   raw_title: RailsConf 2023 - Building a world class engineering organization — learning from... by Shane Becker
   speakers:
@@ -298,6 +320,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: R7JqiVPuKD8
+  slug: building-a-world-class-engineering-organization-learning-from-cave-paintings-and-horsey-land-art
 - title: "Terms of Deployment: The Process of Evaluating Hatchbox, Fly and Render for Developers"
   raw_title: "RailsConf 2023 - Terms of Deployment: The Process of Evaluating Hatchbox, Fly and... by Jordan Burke"
   speakers:
@@ -310,6 +333,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: RHv7hJGOUr0
+  slug: terms-of-deployment-the-process-of-evaluating-hatchbox-fly-and-render-for-developers
 - title: "Deep End Diving: Getting Up to Speed on New Codebases"
   raw_title: "RailsConf 2023 - Deep End Diving: Getting Up to Speed on New Codebases by Allison Hill"
   speakers:
@@ -320,6 +344,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: RxgHgzByNPs
+  slug: deep-end-diving-getting-up-to-speed-on-new-codebases
 - title: Exploring the Power of Turbo Streams and ActionCable
   raw_title: RailsConf 2023 - Exploring the Power of Turbo Streams and ActionCable by Kevin Liebholz
   speakers:
@@ -330,6 +355,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: S--B3BGIk3M
+  slug: exploring-the-power-of-turbo-streams-and-actioncable
 - title: Hacking Your Emotional API
   raw_title: RailsConf 2023 - Hacking Your Emotional API by John Sawers
   speakers:
@@ -346,6 +372,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: UftGecVyvSk
+  slug: hacking-your-emotional-api
 - title: Building a more effective, bidirectional mentor-mentee relationship
   raw_title: RailsConf 2023 - Building a more effective, bidirectional mentor-... by Andy Andrea, William Frey
   speakers:
@@ -361,6 +388,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Uv2I3ECnzuY
+  slug: building-a-more-effective-bidirectional-mentor-mentee-relationship
 - title: 10x your teamwork through pair programming
   raw_title: RailsConf 2023 - 10x your teamwork through pair programming by Michael Milewski, Selena Small
   speakers:
@@ -372,6 +400,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: W8y0odUwks8
+  slug: 10x-your-teamwork-through-pair-programming
 - title: "Keynote: Investing in the Ruby community"
   raw_title: "RailsConf 2023 -  Keynote: Investing in the Ruby community by Rafael Mendonça França"
   speakers:
@@ -382,6 +411,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: XohX3nlVIdc
+  slug: keynote-investing-in-the-ruby-community-railsconf-2023
 - title: Using Rails Engines to Supercharge Your Team
   raw_title: RailsConf 2023 - Using Rails Engines to Supercharge Your Team by Austin Story
   speakers:
@@ -396,6 +426,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ZE9dKoBIr48
+  slug: using-rails-engines-to-supercharge-your-team
 - title: Go Passwordless with WebAuthn in Ruby
   raw_title: RailsConf 2023 - Go Passwordless with WebAuthn in Ruby by Braulio Martinez
   speakers:
@@ -410,6 +441,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ZsGphXQ9kfw
+  slug: go-passwordless-with-webauthn-in-ruby
 - title: Strategies for saying no
   raw_title: RailsConf 2023 - Strategies for saying no by Elle Meredith
   speakers:
@@ -420,6 +452,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: _2zWwwjnuUA
+  slug: strategies-for-saying-no
 - title: Building Ruby Head for your Rails App
   raw_title: RailsConf 2023 - Building Ruby Head for your Rails App by Maple Ong
   speakers:
@@ -432,6 +465,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bLTqSh3Jon0
+  slug: building-ruby-head-for-your-rails-app
 - title: "Breaking the Grind: Crafting Your Ideal Software Engineering Career Build"
   raw_title: "RailsConf 2023 - Breaking the Grind: Crafting Your Ideal Software Engineering... by Ole Michaelis"
   speakers:
@@ -444,6 +478,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bhagIbz3T0A
+  slug: breaking-the-grind-crafting-your-ideal-software-engineering-career-build
 - title: A pragmatic and simple approach to fixing a memory leak
   raw_title: RailsConf 2023 - A pragmatic and simple approach to fixing a memory leak by Vincent Rolea
   speakers:
@@ -456,6 +491,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bvdWPGQ8cEA
+  slug: a-pragmatic-and-simple-approach-to-fixing-a-memory-leak
 - title: Don’t be afraid of the scary red error messages; they’re actually our friends
   raw_title: RailsConf 2023 - Don’t be afraid of the scary red error messages;... by Shana Moore, Kait Sewell
   speakers:
@@ -469,6 +505,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: eS7OMjZaGoQ
+  slug: don-t-be-afraid-of-the-scary-red-error-messages-they-re-actually-our-friends
 - title: Rails as a piece of birthday cake
   raw_title: RailsConf 2023 - Rails as a piece of birthday cake by Vladimir Dementyev
   speakers:
@@ -483,6 +520,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: fANjY7Hn_ig
+  slug: rails-as-a-piece-of-birthday-cake
 - title: "Keynote: Leading through Change - When two cultures combine"
   raw_title: "RailsConf 2023 - Keynote: Leading through Change - When two cultures combine by Shani Boston"
   speakers:
@@ -493,6 +531,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: hYFdPM3dUbk
+  slug: keynote-leading-through-change-when-two-cultures-combine
 - title: Off to the races
   raw_title: RailsConf 2023 - Off to the races by Kyle d'Oliveira
   speakers:
@@ -503,6 +542,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: jEDX3yswrcM
+  slug: off-to-the-races
 - title: Lightning Talks
   raw_title: RailsConf 2023 - Lightning Talks
   description: |-
@@ -511,6 +551,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: k55B4ydueGE
+  slug: lightning-talks-railsconf-2023
   talks:
     - title: "Lightning Talk: Michelle Yuen" # TODO: missing talk title
       start_cue: "TODO"
@@ -699,6 +740,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ofqnAOiRwOw
+  slug: offsite-planning-for-everyone
 - title: Migrating Shopify’s Core Rails Monolith to Trilogy
   raw_title: RailsConf 2023 - Migrating Shopify’s Core Rails Monolith to Trilogy by Adrianna Chang
   speakers:
@@ -711,6 +753,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: tHiIhZPKClI
+  slug: migrating-shopify-s-core-rails-monolith-to-trilogy-railsconf-2023
 - title: "Podcast: A Ruby Community Podcast Live!"
   raw_title: RailsConf 2023 - A Ruby Community Podcast Live! by Brittany Martin, Jason Charnes & Paul Bahr
   speakers:
@@ -736,6 +779,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: tNiqYktR8xo
+  slug: podcast-a-ruby-community-podcast-live
 - title: Forging Your Path to Senior Developer
   raw_title: RailsConf 2023 - Forging Your Path to Senior Developer by Ifat Ribon
   speakers:
@@ -746,6 +790,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: v0OLIzH3UAc
+  slug: forging-your-path-to-senior-developer
 - title: "Building Workplaces for Caregivers: Supporting Parents in Tech"
   raw_title: "RailsConf 2023 - Building Workplaces for Caregivers: Supporting Parents in Tech, Kinsey Durham Grace"
   speakers:
@@ -756,6 +801,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: vMn4LGLNc4M
+  slug: building-workplaces-for-caregivers-supporting-parents-in-tech
 - title: "Merged PRs: An Untapped Resource for Practice and Exploration"
   raw_title: "RailsConf 2023 - Merged PRs: An Untapped Resource for Practice and Exploration by Thomas Countz"
   speakers:
@@ -768,6 +814,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: vdZbQHz4pfk
+  slug: merged-prs-an-untapped-resource-for-practice-and-exploration
 - title: Teaching Capybara Testing - An Illustrated Adventure
   raw_title: RailsConf 2023 - Teaching Capybara Testing - An Illustrated Adventure by  Brandon Weaver
   speakers:
@@ -786,6 +833,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: wWPxLJJlnmU
+  slug: teaching-capybara-testing-an-illustrated-adventure
 - title: The Math Every Programmer Needs
   raw_title: RailsConf 2023 - The Math Every Programmer Needs by Joël Quenneville
   speakers:
@@ -799,6 +847,7 @@
   slides_url: https://speakerdeck.com/joelq/the-math-every-programmer-needs
   video_provider: youtube
   video_id: wzYYT40T8G8
+  slug: the-math-every-programmer-needs
 - title: Zero downtime Rails upgrades
   raw_title: RailsConf 2023 - Zero downtime Rails upgrades by Ali Ibrahim
   speakers:
@@ -817,6 +866,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: zHK-quUz-5M
+  slug: zero-downtime-rails-upgrades
 - title: Upgrading the Ruby Community
   raw_title: RailsConf 2023 - Upgrading the Ruby Community by Pat Allan
   speakers:
@@ -827,6 +877,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 10evYV5qT7c
+  slug: upgrading-the-ruby-community
 - title: Managing the Burnout Burndown
   raw_title: RailsConf 2023 - Managing the Burnout Burndown by Anjuan Simmons
   speakers:
@@ -841,6 +892,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: BDnWcZobdrA
+  slug: managing-the-burnout-burndown
 - title: Taylor’s Guide to Big Rewrites
   raw_title: RailsConf 2023 - Taylor’s Guide to Big Rewrites by Andy Croll
   speakers:
@@ -857,6 +909,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: G1QbH2QZX08
+  slug: taylor-s-guide-to-big-rewrites
 - title: How We Implemented Internal Salary Transparency (And Why It Matters)
   raw_title: RailsConf 2023 - How We Implemented Internal Salary Transparency ... by  Hilary Stohs Krause
   speakers:
@@ -870,6 +923,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: MfGRm8Dm68g
+  slug: how-we-implemented-internal-salary-transparency-and-why-it-matters
 - title: "Keynote: The Magic of Rails"
   raw_title: RailsConf 2023 - Keynote by Eileen Uchitelle
   speakers:
@@ -881,6 +935,7 @@
   slides_url: https://speakerdeck.com/eileencodes/the-magic-of-rails
   video_provider: youtube
   video_id: TKulocPqV38
+  slug: keynote-the-magic-of-rails-railsconf-2023
 - title: "Keynote: The Power of Improv: Unlocking Your Creative Potential as a Developer"
   raw_title: "RailsConf 2023 - Keynote: The Power of Improv: Unlocking Your Creative Potential as a.. by Gary Ware"
   speakers:
@@ -893,6 +948,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: g6wrSpFFgmQ
+  slug: keynote-the-power-of-improv-unlocking-your-creative-potential-as-a-developer
 - title: "Panel: Mentorship"
   raw_title: RailsConf 2023 - Mentorship Panel - Shana Moore, John Sawers, Ebun Segun, Erik Guzman & Adam Cuppy
   speakers:
@@ -907,6 +963,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: lXhTh3BUuJE
+  slug: panel-mentorship
 - title: Mentorship in Three Acts
   raw_title: RailsConf 2023 - Mentorship in Three Acts by Adam Cuppy
   speakers:
@@ -921,3 +978,4 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: nOhGMcjL0jk
+  slug: mentorship-in-three-acts

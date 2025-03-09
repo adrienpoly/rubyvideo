@@ -14,6 +14,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 3FS1xnCEMq0
+  slug: who-reordered-my-code
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/pitr_ch.html
@@ -33,6 +34,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: UQnxukip368
+  slug: a-tale-of-two-string-representations
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/nirvdrum.html
@@ -51,6 +53,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: vfJp4mkf0EQ
+  slug: ups-and-downs-of-ruby-internationalization
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/duerst.html
@@ -68,6 +71,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Z7wTY3xZ7G0
+  slug: druby-in-the-last-century
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/m_seki.html
@@ -100,6 +104,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: WIrYh14H9kA
+  slug: a-proposal-of-new-concurrency-model-for-ruby-3
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/ko1.html
@@ -131,6 +136,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 2Ag8l-wq5qk
+  slug: keynote-ruby-3-typing
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/yukihiro_matz.html
@@ -151,6 +157,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: "-k_ZhC5Lkgg"
+  slug: unifying-fixnum-and-bignum-into-integer
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/tanaka_akr.html
@@ -177,6 +184,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Iw0ha41Ty6I
+  slug: how-to-create-bindings-2016
   language: Japanese
   description: |-
     How to create bindings 2016
@@ -197,6 +205,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 4FsZfcv28ig
+  slug: web-server-concurrency-architecture
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/wyhaines.html
@@ -216,6 +225,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: lQvDd9GPSB4
+  slug: fearlessly-refactoring-legacy-ruby
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/searls.html
@@ -235,6 +245,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ZLBGyACJJS4
+  slug: data-analysis-in-ruby-with-daru
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/v0dro.html
@@ -253,6 +264,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: a4kMUrETrLk
+  slug: pwrake-distributed-workflow-engine-based-on-rake
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/masa16tanaka.html
@@ -272,6 +284,7 @@
   slides_url: https://thagomizer.com/files/ruby_kaigi_2016.pdf
   video_provider: youtube
   video_id: kLzkkL_V2Ts
+  slug: exploring-big-data-with-rubygems-org-download-data
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/the_thagomizer.html
@@ -289,6 +302,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: gfQ8XEy7vO4
+  slug: sciruby-machine-learning-current-status-and-future
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/mrkn.html
@@ -307,6 +321,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: kJDOpucaUR4
+  slug: ruby3x3-how-are-we-going-to-measure-3x
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/MattStudies.html
@@ -324,6 +339,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: z93299YHVYI
+  slug: high-tech-seat-in-mruby
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/yuri_at_earth.html
@@ -354,6 +370,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: zRoiX0BES0s
+  slug: hijacking-syscalls-with-m-ruby
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/franckverrot.html
@@ -372,6 +389,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: spxcAHidm5o
+  slug: optimizing-ruby
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/shyouhei.html
@@ -389,6 +407,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: z7So-iCJSUY
+  slug: it-s-more-fun-to-compute
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/juliancheal.html
@@ -407,6 +426,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: iMtpCes8VqU
+  slug: ja-keynote-dive-into-cruby
   language:
   description: |-
     http://rubykaigi.org/2016/presentations/nalsh.html
@@ -426,6 +446,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: MO2Zs0q6T9Y
+  slug: scalable-job-queue-system-built-with-docker
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/k0kubun.html
@@ -444,6 +465,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: DeK6EDzEMI0
+  slug: web-clients-for-ruby-and-what-they-should-be-in-the-future
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/tkawa.html
@@ -462,6 +484,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Yl7F3wyEMlQ
+  slug: erruby-ruby-on-erlang-otp
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/johnlinvc.html
@@ -480,6 +503,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: vAEFVQQwo1c
+  slug: jruby-9000-last-year-today-and-tomorrow
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/tom_enebo.html
@@ -497,6 +521,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: gcqbvLHNPTM
+  slug: ruby-committers-vs-the-world-rubykaigi-2016
   language:
   description: |-
     http://rubykaigi.org/2016/presentations/cruby_committers.html
@@ -509,6 +534,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: h3Vg6B-mg6o
+  slug: how-to-create-multiprocess-server-on-windows-with-ruby
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/narittan.html
@@ -531,6 +557,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ZKMC5uFlo9s
+  slug: welcome-to-haconiwa-the-m-ruby-on-container
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/udzura.html
@@ -548,6 +575,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ktuMYe-Q9SY
+  slug: learn-programming-essence-from-ruby-patches
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/takkanm.html
@@ -567,6 +595,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: gKDs4V5D_k0
+  slug: isomorphic-web-programming-in-ruby
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/youchan.html
@@ -590,6 +619,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: _YroMCap4y8
+  slug: recent-advances-in-http-and-controlling-them-using-ruby
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/kazuho.html
@@ -607,6 +637,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: fXbVT_Afzsw
+  slug: modern-black-mages-fighting-in-the-real-world
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/tagomoris.html
@@ -630,6 +661,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: C2t05Y3dOFQ
+  slug: play-with-glsl-on-openframeworks
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/elct9620.html
@@ -648,6 +680,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: JwjwnPTt_k8
+  slug: how-dsl-works-on-ruby
   language: Japanese
   description: |-
     http://rubykaigi.org/2016/presentations/hsbt.html
@@ -667,6 +700,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: _mHdUhVQOb8
+  slug: writing-a-gameboy-emulator-in-ruby
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/0xColby.html
@@ -685,6 +719,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: u6SB-Alat9E
+  slug: building-maintainable-command-line-tools-with-mruby
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/drbrain.html
@@ -704,6 +739,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: lbX-9mDUOIw
+  slug: ruby-concurrency-compared
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/anildigital.html
@@ -726,6 +762,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: jfTM_0ezZuI
+  slug: game-development-ruby-happiness
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/amirrajan.html
@@ -743,6 +780,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: UlfyX8zRVc8
+  slug: deletion-driven-development-code-to-delete-code
   language: English
   description: |-
     http://rubykaigi.org/2016/presentations/chrisarcand.html

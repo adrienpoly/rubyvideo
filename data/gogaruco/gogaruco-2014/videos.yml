@@ -15,6 +15,7 @@
     I love Ruby, but last year I found myself at the Smithsonian Institution coding in, of all things, PHP & Drupal. And I realized that despite my ambivalence towards those technologies, I had no compelling-enough reason to propose Ruby as an alternative. How did we get to this point? I’ll tell 3 reasons we didn't use Ruby, and reflect on whether these are things we want, or problems we should solve.
   video_provider: youtube
   video_id: ei_tanu3UyQ
+  slug: 3-reasons-not-to-use-ruby
 - title: Refactoring Ruby with Monads
   raw_title: GoGaRuCo 2014- Refactoring Ruby with Monads
   speakers:
@@ -29,6 +30,7 @@
     Forget all that! In this pragmatic talk we'll roll up our sleeves and get stuck into refactoring some awkward Ruby code, using the good parts of monads to tackle the problems we encounter along the way. We'll see how the straightforward design pattern underlying monads can help us to make our code simpler, clearer and more reusable by uncovering its hidden structure, and we'll all leave with a shared understanding of what monads actually are and why people won't shut up about them.
   video_provider: youtube
   video_id: uTR__8RvgvM
+  slug: refactoring-ruby-with-monads
 - title: The Short and Happy Lives of TCP and HTTP Requests
   raw_title: GoGaRuCo 2014- The Short and Happy Lives of TCP and HTTP Requests
   speakers:
@@ -43,6 +45,7 @@
     In this talk, we'll follow the lives of a TCP and an HTTP request, marvel as they pass through your browse, OS, router, web server and app serve. Finally, we'll discuss how this knowledge is used to fix common bugs and increase app performance.
   video_provider: youtube
   video_id: 4tBCDOgtWCg
+  slug: the-short-and-happy-lives-of-tcp-and-http-requests
 #
 # Lunch
 #
@@ -60,6 +63,7 @@
     Join me while I share the story of how I used Ruby to design my first board game. How I honed the game mechanics and optimized all the different moving parts. You will leave this talk knowing the process of designing and developing a board game from scratch and how Ruby can help you iterate fast on new ideas using simple code, simulations and some statistics.
   video_provider: youtube
   video_id: EcnvbsXdbtI
+  slug: building-board-games-with-ruby
 - title: Giant Pile of Data
   raw_title: GoGaRuCo 2014- Giant Pile of Data
   speakers:
@@ -77,6 +81,7 @@
     In this talk I'll discuss how to use data to drive improvement and when to let it go. I'll focus not only on analysis tools, but also on interpretting data and how to decide if your data is valuable or clutter.
   video_provider: youtube
   video_id: aIMA_p2umQA
+  slug: giant-pile-of-data
 - title: "Why We Can't Have Nice Things: FLoats, Dates, and Names"
   raw_title: "GoGaRuCo 2014- Why We Can't Have Nice Things: FLoats, Dates, and Names"
   speakers:
@@ -93,6 +98,7 @@
     We'll illustrate why each of several commonly-made assumptions is incorrect, show how to use Ruby to arrive at the correct answer, and empower you to make better decisions about your code in the process.
   video_provider: youtube
   video_id: asttlUG2OuI
+  slug: why-we-can-t-have-nice-things-floats-dates-and-names
 #
 # Snack Break
 #
@@ -108,6 +114,7 @@
     With the increase of code academies training new engineers there is an increase in junior engineers on the market. A lot of companies are hesitant to hire too many young engineers because they lack sufficient resources to train them. This is a talk about how to make junior engineers into independent and productive members of your engineering team faster and cheaper by outlining a plan for how to onboard engineers effectively based on data and anecdotes gathered from companies in San Francisco.
   video_provider: youtube
   video_id: 3XfwanJe77s
+  slug: technical-onboarding-training-and-mentoring-gogaruco-2014
 - title: "Taking over Someone Else's Open-Source Projects"
   raw_title: GoGaRuCo 2014- Taking over Someone Else's Open-Source Projects
   speakers:
@@ -122,6 +129,7 @@
     Taking over someone else's project without just forking it away is both a commitment and a challenge. It's often ungrateful work, but it's really important. In this talk I'll give some history, motivations and practical tools of how to do it. What do to when maintainers go MIA, and more.
   video_provider: youtube
   video_id: 8ijzefV-B7U
+  slug: taking-over-someone-else-s-open-source-projects
 - title: How To Become a Data Scientist with Ruby and Fluentd
   raw_title: GoGaRuCo 2014- How to become a data scientist with Ruby and Fluentd
   speakers:
@@ -136,6 +144,7 @@
     In this talk, I plan to code live onstage to show how easy it is to get started with Fluentd by creating a useful data collection pipeline.
   video_provider: youtube
   video_id: jOaLG6IVhbs
+  slug: how-to-become-a-data-scientist-with-ruby-and-fluentd
 #
 ## Day 2
 #
@@ -155,6 +164,7 @@
     Finally, we'll see what our hash can teach us about related topics, like programming languages and databases. Come ready to learn!
   video_provider: youtube
   video_id: rNXsqArbOx8
+  slug: reimplementing-ruby-s-hash
 - title: "Building an ORM with AReL: Walking up the (AS)Tree."
   raw_title: "GoGaRuCo 2014- Building an ORM with AReL: Walking up the (AS)Tree."
   speakers:
@@ -171,6 +181,7 @@
     This talk describes Relational Algebra, Object and Collection modelling of ARel using a tiny ORM at its base. At the end of talk you will be equipped with better understanding of ARel and AR as an ORM.
   video_provider: youtube
   video_id: pTmTh7LNVic
+  slug: building-an-orm-with-arel-walking-up-the-as-tree
 - title: "Sketchnoting: Creative Notes for Technical Content"
   raw_title: "GoGaRuCo 2014- Sketchnoting: Creative Notes for Technical Content"
   speakers:
@@ -185,6 +196,7 @@
     This talk will cover tools and techniques to visually capture ideas, how to approach the mental multitasking required to sketch during technical talks and meetings, and why "I can not draw" is just a mental barrier to embracing creativity in your notes.
   video_provider: youtube
   video_id: dE2pqeI3LOI
+  slug: sketchnoting-creative-notes-for-technical-content
 #
 # Lunch
 #
@@ -199,6 +211,7 @@
     By, Yehuda Katz
   video_provider: youtube
   video_id: ySW6Yk_DerY
+  slug: let-s-talk-about-rust
 - title: The Scientific Method of Troubleshooting
   raw_title: GoGaRuCo 2014- The Scientific Method of Troubleshooting
   speakers:
@@ -215,6 +228,7 @@
     In this talk we'll explore how using the scientific method can lead to greater understanding and more viable solutions to complex problems.
   video_provider: youtube
   video_id: h9YZXuUjyOs
+  slug: the-scientific-method-of-troubleshooting
 - title: Let's Build a Computer!
   raw_title: GoGaRuCo 2014- Let's Build a Computer!
   speakers:
@@ -231,6 +245,7 @@
     In this talk, I will start with the nand gate, and build up a working computer explaining each layer as I go. You may not be able to build along with me in just a half hour, but I hope to infect you with my love for this curriculum and hopefully have it spread to your ruby/study group.
   video_provider: youtube
   video_id: uZsiMG7N_B8
+  slug: let-s-build-a-computer
 #
 # Snack Break
 #
@@ -245,6 +260,7 @@
     Lightning talks are back! Share your Ruby-related talk of four minutes or less with 400 of your closest friends. We welcome the wacky, the serious, the ranty, and the technical.
   video_provider: youtube
   video_id: wQ9gHeT_Wx0
+  slug: lightning-talks-gogaruco-2014
   talks:
     - title: "Lightning Talk: Write Better Bug(report)s"
       event_name: GoGaRuCo 2014
@@ -350,6 +366,7 @@
     In this presentation, I use the Gilded Rose kata to demonstrate techniques for safely working with a legacy codebase and using pure baby-step refactorings to improve the design.
   video_provider: youtube
   video_id: r3bi2xv5t20
+  slug: gilding-the-rose-refactoring-legacy-code
 - title: "The Golden Age Of The Internet"
   raw_title: GoGaRuCo 2014- The Golden Age of the Internet
   speakers:
@@ -366,3 +383,4 @@
     There's no doubt that we value humanity, intelligence, and compassion. Let's take a look at the ways our industry can ensure these values are reflected not just in the people we are, but the way we work.
   video_provider: youtube
   video_id: Un4tH-dOjsM
+  slug: the-golden-age-of-the-internet

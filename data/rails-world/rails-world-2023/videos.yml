@@ -25,6 +25,7 @@
     #RubyonRails #Rails #Rails7 #Propshaft #Turbo #Strada #SolidCache #SolidQueue #Kamal #missioncontrol #opensource #RailsWorld
   video_provider: youtube
   video_id: iqXjGiQ_D-A
+  slug: opening-keynote-rails-world-2023
 - title: "Strada: Bridging The Web and Native Worlds"
   raw_title: "Jay Ohms - Strada: Bridging the web and native worlds - Rails World 2023"
   speakers:
@@ -45,6 +46,7 @@
     #RailsWorld #RubyonRails #Hotwire #strada
   video_provider: youtube
   video_id: LKBMXqc43Q8
+  slug: strada-bridging-the-web-and-native-worlds
 - title: "Solid Cache: A Disk Backed Rails Cache"
   raw_title: "Donal McBreen - Solid Cache: A disk backed Rails cache - Rails World 2023"
   speakers:
@@ -68,6 +70,7 @@
     #RailsWorld #RubyonRails #SolidCache #database #ActiveSupport
   video_provider: youtube
   video_id: wYeVne3aRow
+  slug: solid-cache-a-disk-backed-rails-cache
 - title: Making a Difference with Turbo
   raw_title: Jorge Manrubia - Making a difference with Turbo - Rails World 2023
   speakers:
@@ -92,6 +95,7 @@
     #RubyonRails #Rails #turbo #hotwire #Rails7 #RailsWorld
   video_provider: youtube
   video_id: m97UsXa6HFg
+  slug: making-a-difference-with-turbo
 - title: "Everything We Learned While Implementing ActiveRecord::Encryption"
   raw_title: "Kylie Stradley - Everything We Learned While Implementing ActiveRecord::Encryption - Rails World"
   speakers:
@@ -116,6 +120,7 @@
     Thank you Dell APEX for sponsoring the editing and post-production of these videos. Visit them at: https://dell.com/APEX
   video_provider: youtube
   video_id: IR2demNrMwQ
+  slug: everything-we-learned-while-implementing-activerecord-encryption
 #
 # Lunch
 #
@@ -142,6 +147,7 @@
     #RailsWorld #RubyonRails #Hotwire #Turbo #Stimulus #Fullstack
   video_provider: youtube
   video_id: iRjei4nj41o
+  slug: the-future-of-rails-as-a-full-stack-framework-powered-by-hotwire
 - title: Migrating Shopify's Core Rails Monolith to Trilogy
   raw_title: Adrianna Chang - Migrating Shopify’s Core Rails Monolith to Trilogy - Rails World 2023
   speakers:
@@ -161,6 +167,7 @@
     #RailsWorld #RubyonRails #rails #opensource #MySQL #ActiveRecord #Trilogy
   video_provider: youtube
   video_id: AUV3Xgy-zuE
+  slug: migrating-shopify-s-core-rails-monolith-to-trilogy
 #
 # 13:30 - 14:30 - Workshop - Test Smarter, Not Harder - Crafting a Test Selection Framework from Scratch  - Christian Bruckmayer, Staff Engineer, Shopify
 #
@@ -186,6 +193,7 @@
     #RailsWorld #RubyonRails #progressivewebapps  #Rails #Rails7 #Hotwire
   video_provider: youtube
   video_id: Gj8ov0cOuA0
+  slug: building-an-offline-experience-with-a-rails-powered-pwa
 - title: "Guardrails: Keeping Customer Data Separate in a Multi Tenant System"
   raw_title: "Miles McGuire - Guardrails: Keeping customer data separate in a multi tenant system - Rails World"
   speakers:
@@ -204,6 +212,7 @@
     #RailsWorld #RubyonRails #Rails7 #security #datasecurity #observability #ActiveRecord
   video_provider: youtube
   video_id: 5MLT-QP4S74
+  slug: guardrails-keeping-customer-data-separate-in-a-multi-tenant-system
 #
 # 14:45 - 16:15 -Workshop - AI Driven Development - Sean Marcia, Founder, Ruby for Good
 #
@@ -227,6 +236,7 @@
     #RailsWorld #RubyonRails #Rails7 #compositeprimarykey
   video_provider: youtube
   video_id: aOD0bZfQvoY
+  slug: implementing-native-composite-primary-key-support-in-rails-7-1
 - title: Zeitwerk Internals
   raw_title: Xavier Noria - Zeitwerk Internals - Rails World 2023
   speakers:
@@ -255,6 +265,7 @@
     #RailsWorld #RubyonRails #rails #Rails7 #opensource #oss #community #RailsCore #Zeitwerk #rubygem
   video_provider: youtube
   video_id: YTMS1N7jI78
+  slug: zeitwerk-internals
 - title: Using Multiple Databases with Active Record
   raw_title: Julia López - Using Multiple Databases with Active Record - Rails World 2023
   speakers:
@@ -279,6 +290,7 @@
     #RubyonRails #Rails #database #ActiveRecord #multipledatabases
   video_provider: youtube
   video_id: XjCqiyYVypI
+  slug: using-multiple-databases-with-active-record
 - title: Propshaft and the Modern Asset Pipeline
   raw_title: Breno Gazzola - Propshaft and the Modern Asset Pipeline - Rails World 2023
   speakers:
@@ -306,6 +318,7 @@
     #RailsWorld #RubyonRails #rails #Rails7 #opensource #propshaft #asssetpipeline #Rubygem
   video_provider: youtube
   video_id: yFgQco_ccgg
+  slug: propshaft-and-the-modern-asset-pipeline
 - title: "Keynote: The Magic of Rails"
   raw_title: Eileen Uchitelle - The Magic of Rails - Rails World 2023
   speakers:
@@ -330,6 +343,7 @@
     #RailsWorld #RubyonRails #rails #Rails7 #opensource #oss #community #RailsCore
   video_provider: youtube
   video_id: nvuPisDQ1hI
+  slug: keynote-the-magic-of-rails
 #
 ## Day 2 - October 6, 2023
 #
@@ -367,6 +381,7 @@
     #RubyonRails #Rails #RailsCore #AMA #RailsWorld #opensource
   video_provider: youtube
   video_id: 9GzYoUFIkwE
+  slug: rails-core-ama
 - title: Powerful Rails Features You Might Not Know
   raw_title: Chris Oliver - Powerful Rails Features You Might Not Know - Rails World 2023
   speakers:
@@ -395,6 +410,7 @@
     #RailsWorld #RubyonRails #Rails7 #opensource #OSS #Rails #ActiveRecord #ActiveStorage #ActiveSupport
   video_provider: youtube
   video_id: iPCqwZ9Ouc4
+  slug: powerful-rails-features-you-might-not-know
 - title: "Rails and the Ruby Garbage Collector: How to Speed Up Your Rails App"
   raw_title: "Peter Zhu - Rails and the Ruby Garbage Collector: How to Speed Up Your Rails App - Rails World 2023"
   speakers:
@@ -421,6 +437,7 @@
     #RailsWorld #RubyonRails #rails #rubygarbagecollection #autotuner
   video_provider: youtube
   video_id: IcN7yFTS8jY
+  slug: rails-and-the-ruby-garbage-collector-how-to-speed-up-your-rails-app
 - title: "Rails::HTML5: The Strange and Remarkable Three-Year Journey"
   raw_title: "Mike Dalessio - Rails::HTML5: the strange and remarkable three-year journey - Rails World 2023"
   speakers:
@@ -445,6 +462,7 @@
     #RailsWorld #RubyonRails #rails #Rails7 #opensource #security #HTML5 #nokogiri #libgumbo #actionview
   video_provider: youtube
   video_id: USPLEASZ0Dc
+  slug: rails-html5-the-strange-and-remarkable-three-year-journey
 - title: Demystifying the Ruby Package Ecosystem
   raw_title: Jenny Shen - Demystifying the Ruby package ecosystem - Rails World 2023
   speakers:
@@ -471,6 +489,7 @@
     #RailsWorld #RubyonRails #rails #opensource #OSS #community#Rubygems
   video_provider: youtube
   video_id: kaRhg3QDzFY
+  slug: demystifying-the-ruby-package-ecosystem
 #
 # Lunch
 #
@@ -497,6 +516,7 @@
     #RailsWorld #RubyonRails #rails #turbo #turbonative #ios #swift #xcode
   video_provider: youtube
   video_id: hAq05KSra2g
+  slug: just-enough-turbo-native-to-be-dangerous
 - title: Applying Shape Up in the Real World
   raw_title: Ryan Singer - Applying Shape Up in the Real World - Rails World 2023
   speakers:
@@ -519,6 +539,7 @@
     #RailsWorld #RubyonRails #rails #shapeup #scrum
   video_provider: youtube
   video_id: mYbxQwQAkes
+  slug: applying-shape-up-in-the-real-world
 #
 # 13:30 - 15:00 Workshop - AI Driven Development - Cynthia Lo, Program Manager, GitHub
 #
@@ -544,6 +565,7 @@
     #RailsWorld #RubyonRails #rails #actioncable
   video_provider: youtube
   video_id: GrHpop5HtxM
+  slug: untangling-cables-and-demystifying-twisted-transistors
 - title: "Tailwind CSS: It looks awful, and it works"
   raw_title: "Adam Wathan - Tailwind CSS: It looks awful, and it works - Rails World 2023"
   speakers:
@@ -562,6 +584,7 @@
     #RailsWorld #RubyonRails #Rails #railwindcss #tailwind #frontend
   video_provider: youtube
   video_id: TNXM4bqGqek
+  slug: tailwind-css-it-looks-awful-and-it-works
 - title: "Hotwire Cookbook: Common Uses, Essential Patterns & Best Practices"
   raw_title: "Yaroslav Shmarov - Hotwire Cookbook: Common Uses, Essential Patterns & Best Practices \ - Rails World"
   speakers:
@@ -591,6 +614,7 @@
     #RailsWorld #RubyonRails #rails #hotwire #stimulusjs #turbo #turbolinks #domid #kredis #turboframes #turbostreams
   video_provider: youtube
   video_id: F75k4Oc6g9Q
+  slug: hotwire-cookbook-common-uses-essential-patterns-best-practices
 - title: Wildest Dreams of Making Profit on Open Source
   raw_title: Irina Nazarova - Wildest Dreams of Making Profit on Open Source - Rails World 2023
   speakers:
@@ -612,6 +636,7 @@
     #RailsWorld #RubyonRails #rails #opensource #OSS
   video_provider: youtube
   video_id: gHUSoXJtatc
+  slug: wildest-dreams-of-making-profit-on-open-source
 #
 # 15:00 - 16:00 - Workshop - Test Smarter, Not Harder - Crafting a Test Selection Framework from Scratch - Christian Bruckmayer, Staff Engineer, Shopify
 #
@@ -635,6 +660,7 @@
     #RailsWorld #RubyonRails #rails #opensource #OSS #community
   video_provider: youtube
   video_id: Dj8VGizRT6E
+  slug: don-t-call-it-a-comeback
 - title: Monolith-ifying Perfectly Good Microservices
   raw_title: Brian Scalan - Monolith-ifying perfectly good microservices - Rails World 2023
   speakers:
@@ -654,6 +680,7 @@
     #RailsWorld #RubyonRails #rails #Rails7 #opensource #monolith #microservices
   video_provider: youtube
   video_id: wV1Yva-Dp4Y
+  slug: monolith-ifying-perfectly-good-microservices
 - title: "Keynote: Future of Developer Acceleration with Rails"
   raw_title: Aaron Patterson - Future of Developer Acceleration with Rails - Rails World 2023
   speakers:
@@ -671,3 +698,4 @@
     https://rubyonrails.org/
   video_provider: youtube
   video_id: GnqRMQ0iQTg
+  slug: keynote-future-of-developer-acceleration-with-rails

@@ -17,6 +17,7 @@
     Let's kick things up a notch. If writing code that writes code is powerful, what's hacking the life of the programmer writing the code? That's got to be an 11 on the meta-meter. At least. We'll talk about some of the bad assumptions we've made, lies we've bought into, and why we have the most awesome job ever.
   video_provider: youtube
   video_id: Cq_RkrthKZo
+  slug: the-most-important-optimization-happiness
 - title: DevOps for the Rubyist Soul
   raw_title: Big Ruby 2013 DevOps for the Rubyist Soul  by John Downey
   speakers:
@@ -33,6 +34,7 @@
     Some pitfalls you should avoid
   video_provider: youtube
   video_id: e4lfvNQYIW4
+  slug: devops-for-the-rubyist-soul-big-ruby-2013
 - title: How to Overcome the Apathy of Big Data
   raw_title: Big Ruby 2013 How to Overcome the Apathy of Big Data by Matt Kirk
   speakers:
@@ -55,6 +57,7 @@
     By the end of this session, you will know how to be effective with data. You will understand how to find what you are looking for, how to classify it, and how to visually make sense of it all.
   video_provider: youtube
   video_id: 8qhtngnhD70
+  slug: how-to-overcome-the-apathy-of-big-data
 - title: "Services and Rails: The Shit They Don't Tell You"
   raw_title: "Big Ruby 2013 Services and Rails: The Shit They Don't Tell You by Brian Morton"
   speakers:
@@ -69,6 +72,7 @@
     This talk looks at our mistakes and solutions, the tradeoffs, and how we're able to keep moving quickly. Having services and a smaller Rails codebase makes for scalable development teams, happier engineers, and predictable production environments. Getting there is full of hard decisions -- sometimes we're right, sometimes we fuck it up, but we usually have a story to tell.
   video_provider: youtube
   video_id: GuJ49PNBsn8
+  slug: services-and-rails-the-shit-they-don-t-tell-you-big-ruby-2013
 - title: Move Fast and Make Things
   raw_title: Big Ruby 2013 Move fast and make things by Adam Keys
   speakers:
@@ -81,6 +85,7 @@
     Finding high-leverage tools is a handy skill. Once you've found a tool that is simple to use, performant, and reliable, you can use it all over the place. We'll look at four tools: Faraday, Celluloid, Metriks, and Pow. These will help us talk HTTP, write concurrent programs, instrument our apps, and set up apps quickly. We'll see how to use them for multiple applications, play to their strengths, and work around their weaknesses.
   video_provider: youtube
   video_id: iXJXne0BzN4
+  slug: move-fast-and-make-things
 - title: 5 Things You Didn't Know About Chef
   raw_title: Big Ruby 2013 5 Things You Didn't Know About Chef by Joshua Timberman
   speakers:
@@ -93,6 +98,7 @@
     In-place File Editing for Greater Good Use Chef's Built-in Version Matching REPLs are fun, so Chef has one! Take the Resource Collection for a Stroll The Anatomy of Loading and Executing a Single Recipe
   video_provider: youtube
   video_id: FqHucWd634c
+  slug: 5-things-you-didn-t-know-about-chef
 - title: How Shopify Scales Rails
   raw_title: Big Ruby 2013 How Shopify Scales Rails by John Duff
   speakers:
@@ -107,6 +113,7 @@
     This is the story of how we have tackled the various scaling pain points that Shopify has hit and what we have done to surpass them, what we are doing to go even further.
   video_provider: youtube
   video_id: j347oSSuNHA
+  slug: how-shopify-scales-rails-big-ruby-2013
 - title: "Build a Bigger Brain: How Healthy Living Makes You Smarter"
   raw_title: "Big Ruby 2013 Build a Bigger Brain: How Healthy Living Makes You Smarter by Joe Kutner"
   speakers:
@@ -117,6 +124,7 @@
     To keep doing what you love, you need to maintain your own systems, not just the ones you write code for. Regular exercise and proper nutrition help you learn, remember, concentrate, and be creative—skills critical to doing your job well. Learn how to change your work habits, master exercises that make working at a computer more comfortable, and develop a plan to keep fit, healthy, and sharp for years to come.
   video_provider: youtube
   video_id: Z0WcQ749OIM
+  slug: build-a-bigger-brain-how-healthy-living-makes-you-smarter
 - title: Treading Water in a Stream of Data
   raw_title: Big Ruby 2013 Treading Water in a Stream of Data by Jeremy Hinegardner
   speakers:
@@ -129,6 +137,7 @@
     In this talk, using an existing dataset, we will go through the process of obtaining, manipulating, processing, analyzing and storing a stream of data. We will attempt to touch upon a variety of possible topics including: differences between processing static datasets and stream datasets, pitfalls of stream processing, analyzing data in real time and using the datastream itself as data source.
   video_provider: youtube
   video_id: As1bB-vbD0s
+  slug: treading-water-in-a-stream-of-data
 - title: "Fire It Up: How Empowered People Automated Provisioning In 6 Datacenters Across 4 Continents"
   raw_title: "Big Ruby 2013 Fire It Up: How Empowered People Automated Provisioning In 6 Datacenters Across 4..."
   speakers:
@@ -138,6 +147,7 @@
   description: ""
   video_provider: youtube
   video_id: GbVaepN5F5w
+  slug: fire-it-up-how-empowered-people-automated-provisioning-in-6-datacenters-across-4-continents
 - title: Scaling with Friends
   raw_title: Big Ruby 2013 SCALING WITH FRIENDS by Geoffrey Dagley
   speakers:
@@ -154,6 +164,7 @@
     What we did wrong? What we did right? What would we do differently?
   video_provider: youtube
   video_id: DQQmhqZgXDk
+  slug: scaling-with-friends
 - title: Lightning Talks
   raw_title: Big Ruby 2013 Lightning Talks
   event_name: Big Ruby 2013
@@ -161,6 +172,7 @@
   description: ""
   video_provider: youtube
   video_id: 6T3Oa_5mO-g
+  slug: lightning-talks-big-ruby-2013
   talks:
     - title: "Lightning Talk: Living Social"
       start_cue: "00:00"
@@ -218,6 +230,7 @@
     We'll also look at the impact of Hypermedia on API clients and when it might not be the best design pattern.
   video_provider: youtube
   video_id: yVuMqV_Ul5s
+  slug: hypermedia-less-hype-more-media-please
 - title: "Keynote: Ruby, Codes, Threads, Events... and???"
   raw_title: Big Ruby Conf 2013 Keynote by Jim Weirich
   speakers:
@@ -227,3 +240,4 @@
   description: ""
   video_provider: youtube
   video_id: vIHdhaF2R2w
+  slug: keynote-ruby-codes-threads-events-and

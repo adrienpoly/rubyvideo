@@ -14,6 +14,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: gnwe8DqPDrk
+  slug: diy-your-touchpad-experience-building-your-own-gestures
   language: Japanese
   description: ""
 - title: The future vision of Ruby Parser
@@ -25,6 +26,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: IhfDsLx784g
+  slug: the-future-vision-of-ruby-parser
   language: Japanese
   description: ""
 - title: RuboCop's baddest cop
@@ -36,6 +38,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: n-D9uPOo_kc
+  slug: rubocop-s-baddest-cop
   language: English
   description: ""
 - title: Generating RBIs for dynamic mixins with Sorbet and Tapioca
@@ -48,6 +51,7 @@
   slides_url: https://drive.google.com/drive/folders/1PzSj_wTHVIrZNC80IyZzuma85sVIiWTz?usp=sharing
   video_provider: youtube
   video_id: UpbVZ4Gqk3c
+  slug: generating-rbis-for-dynamic-mixins-with-sorbet-and-tapioca
   language: English
   description: |-
     Last year, Tapioca became the official tool for generating RBI files for Sorbet. Using Tapioca, developers can quickly generate accurate RBIs for external Ruby gems, allowing them to use Sorbet in their projects even if most gems have not yet added type signatures.
@@ -62,6 +66,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: IbMFHxeqpN4
+  slug: make-regexp-match-much-faster
   language: Japanese
   description: ""
 - title: Understanding the Ruby Global VM Lock by observing it
@@ -73,6 +78,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: rI4XlFvMNEw
+  slug: understanding-the-ruby-global-vm-lock-by-observing-it
   language: English
   description: ""
 - title: develop chrome extension with ruby.wasm
@@ -84,6 +90,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: A2ziP8V9muE
+  slug: develop-chrome-extension-with-ruby-wasm
   language: Japanese
   description: ""
 - title: Ractor reconsidered
@@ -95,6 +102,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Id706gYi3wk
+  slug: ractor-reconsidered
   language: English
   description: ""
 - title: High-performance real-time 3D graphics with Vulkan
@@ -106,6 +114,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Tuhk4iS3F_I
+  slug: high-performance-real-time-3d-graphics-with-vulkan
   language: English
   description: ""
 - title: UTF-8 is coming to mruby/c
@@ -117,6 +126,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: y5rGatij0DE
+  slug: utf-8-is-coming-to-mruby-c
   language: Japanese
   description: ""
 - title: Power up your REPL life with types
@@ -128,6 +138,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: VweV7ngcDEk
+  slug: power-up-your-repl-life-with-types
   language: Japanese
   description: ""
 - title: Plug & Play Garbage Collection with MMTk
@@ -139,6 +150,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: chhNDhyPbyc
+  slug: plug-play-garbage-collection-with-mmtk
   language: English
   description: ""
 - title: "Keynote: 30 Years of Ruby"
@@ -150,6 +162,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 184Sc0hsnek
+  slug: keynote-30-years-of-ruby
   language: Japanese
   description: ""
 - title: Lightning Talks
@@ -159,6 +172,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: c58mN6NtwsQ
+  slug: lightning-talks-rubykaigi-2023
   language: Japanese
   description: ""
   thumbnail_lg: https://img.youtube.com/vi/c58mN6NtwsQ/hqdefault.jpg
@@ -279,6 +293,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: F3feRCr6S64
+  slug: on-ruby-and-du-or-how-scary-are-trojan-source-attacks
   language: English
   description: ""
 - title: Learn Ractor
@@ -290,6 +305,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: _pMKdqCxE8w
+  slug: learn-ractor
   language: Japanese
   description: ""
 - title: "JRuby: Looking Forward"
@@ -301,6 +317,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: yxdbbOMWE0g
+  slug: jruby-looking-forward
   language: English
   description: ""
 - title: Build a mini Ruby debugger in under 300 lines
@@ -312,6 +329,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 7uLFVL2KNXo
+  slug: build-a-mini-ruby-debugger-in-under-300-lines
   language: English
   description: ""
 - title: Implementing ++ operator, stepping into parse.y
@@ -323,6 +341,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: x_p5r8p0i1o
+  slug: implementing-operator-stepping-into-parse-y
   language: Japanese
   description: ""
 - title: Yet Another Ruby Parser
@@ -334,6 +353,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 3vzpv9GZdLo
+  slug: yet-another-ruby-parser
   language: English
   description: ""
 - title: RubyGems on the watch
@@ -345,6 +365,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: H4qbhzifBz8
+  slug: rubygems-on-the-watch
   language: English
   description: ""
 - title: Fix SQL N+1 queries with RuboCop
@@ -356,6 +377,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: mDDAbZsDPMk
+  slug: fix-sql-n-1-queries-with-rubocop
   language: Japanese
   description: ""
 - title: Revisiting TypeProf - IDE support as a primary feature
@@ -367,6 +389,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: UitqAvgmX0Y
+  slug: revisiting-typeprof-ide-support-as-a-primary-feature
   language: Japanese
   description: ""
 - title: "Splitting: the Crucial Optimization for Ruby Blocks"
@@ -378,6 +401,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: KdyV6geWZAk
+  slug: splitting-the-crucial-optimization-for-ruby-blocks
   language: English
   description: ""
 - title: The Resurrection of the Fast Parallel Test Runner
@@ -389,6 +413,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Bg45cDBcQzo
+  slug: the-resurrection-of-the-fast-parallel-test-runner
   language: Japanese
   description: ""
 - title: Multiverse Ruby
@@ -400,6 +425,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: xGpz0ZXrhco
+  slug: multiverse-ruby
   language: Japanese
   description: ""
 - title: "Ruby Implementation of QUIC: Progress and Challenges"
@@ -411,6 +437,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: jcm8hsRuFYs
+  slug: ruby-implementation-of-quic-progress-and-challenges
   language: English
   description: ""
 - title: Reading and improving Pattern Matching in Ruby
@@ -422,6 +449,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: KDvVfbWQyMA
+  slug: reading-and-improving-pattern-matching-in-ruby
   language: English
   description: ""
 - title: Fitting Rust YJIT into CRuby
@@ -433,6 +461,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: GI7vvAgP_Qs
+  slug: fitting-rust-yjit-into-cruby
   language: English
   description: ""
 - title: Hacking and profiling Ruby for performance
@@ -444,6 +473,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: WPgor5jmcuE
+  slug: hacking-and-profiling-ruby-for-performance
   language: English
   description: ""
 - title: Introduction of new features for VS Code debugging
@@ -455,6 +485,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: kuXD9p--Te0
+  slug: introduction-of-new-features-for-vs-code-debugging
   language: Japanese
   description: ""
 - title: Tips and Tricks for working in the MRI Codebase
@@ -466,6 +497,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 7y6DhXQU4wU
+  slug: tips-and-tricks-for-working-in-the-mri-codebase
   language: English
   description: ""
 - title: The Second Oldest Bug
@@ -477,6 +509,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: y_1iqQOkv1E
+  slug: the-second-oldest-bug
   language: English
   description: ""
 - title: Eliminating ReDoS with Ruby 3.2
@@ -488,6 +521,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: CEvSx1D3dFQ
+  slug: eliminating-redos-with-ruby-3-2
   language: Japanese
   description: ""
 - title: "Keynote: Optimizing YJIT’s Performance, from Inception to Production"
@@ -499,6 +533,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: X0JRhh8w_4I
+  slug: keynote-optimizing-yjit-s-performance-from-inception-to-production
   language: English
   description: ""
   thumbnail_lg: https://img.youtube.com/vi/X0JRhh8w_4I/hqdefault.jpg
@@ -512,6 +547,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 3qPUy4t7QHE
+  slug: keynote-parsing-rbs
   language: English
   description: ""
 - title: Ruby Committers and The World
@@ -523,6 +559,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: APa9R0v9GY0
+  slug: ruby-committers-and-the-world
   language: English
   description: ""
 - title: "Gradual typing for Ruby: comparing RBS and RBI/Sorbet"
@@ -534,6 +571,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: GOC4BRJ-OPY
+  slug: gradual-typing-for-ruby-comparing-rbs-and-rbi-sorbet
   language: English
   description: ""
 - title: The Adventure of RedAmber - A data frame library in Ruby
@@ -545,6 +583,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: MZxDBDRUu6I
+  slug: the-adventure-of-redamber-a-data-frame-library-in-ruby
   language: Japanese
   description: ""
 - title: Ruby + ADBC - A single API between Ruby and DBs
@@ -556,6 +595,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: vwEiRTK32Ik
+  slug: ruby-adbc-a-single-api-between-ruby-and-dbs
   language: Japanese
   description: ""
 - title: Ruby vs Kickboxer - the state of MRuby, JRuby and CRuby
@@ -568,6 +608,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: tBuceJGDtmE
+  slug: ruby-vs-kickboxer-the-state-of-mruby-jruby-and-cruby
   language: English
   description: ""
 - title: "Code indexing: How language servers understand our code"
@@ -579,6 +620,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ks3tQojSJLU
+  slug: code-indexing-how-language-servers-understand-our-code
   language: English
   description: ""
 - title: Find and Replace Code based on AST
@@ -590,6 +632,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: zqA0vfKXYsk
+  slug: find-and-replace-code-based-on-ast
   language: English
   description: ""
 - title: Load gem from browser
@@ -601,6 +644,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bol8RnNVREg
+  slug: load-gem-from-browser
   language: Japanese
   description: ""
 - title: Ruby JIT Hacking Guide
@@ -612,6 +656,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: mlcQ8DErvVs
+  slug: ruby-jit-hacking-guide
   language: English
   description: ""
 - title: Unleashing the Power of Asynchronous HTTP with Ruby
@@ -623,6 +668,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: SKNhyqHmqUo
+  slug: unleashing-the-power-of-asynchronous-http-with-ruby
   language: English
   description: ""
 - title: Rethinking Strings
@@ -634,6 +680,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: a1xvhB8jndQ
+  slug: rethinking-strings
   language: English
   description: ""
 - title: Let's write RBS!
@@ -645,6 +692,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ngoXe-6BCXU
+  slug: let-s-write-rbs
   language: English
   description: ""
 - title: Build Your Own SQLite3
@@ -656,6 +704,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Nypt-HP4NAI
+  slug: build-your-own-sqlite3
   language: Japanese
   description: ""
 - title: How resolve Gem dependencies in your code?
@@ -667,5 +716,6 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: NydwplWLuH0
+  slug: how-resolve-gem-dependencies-in-your-code-rubykaigi-2023
   language: Japanese
   description: ""

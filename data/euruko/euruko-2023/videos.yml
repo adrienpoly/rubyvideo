@@ -15,6 +15,7 @@
   description: ""
   video_provider: youtube
   video_id: Olc0qbSyJQw
+  slug: keynote-reflections-on-a-reluctant-revolution
 - title: "No Passwords, No Problems: Move Beyond Passwords With Web Authn And Passkeys"
   raw_title: "CARLA URREA STABILE, “No passwords, no problems: Move beyond passwords with WebAuthn and passkeys”"
   speakers:
@@ -25,6 +26,7 @@
   description: ""
   video_provider: youtube
   video_id: Dxmc2maYsA4
+  slug: no-passwords-no-problems-move-beyond-passwords-with-web-authn-and-passkeys
 - title: "How resolve Gem dependencies in your code?"
   raw_title: HIROSHI SHIBATA, “How resolve Gem dependencies in your code?”
   speakers:
@@ -35,6 +37,7 @@
   description: ""
   video_provider: youtube
   video_id: LbDn5PKLkgc
+  slug: how-resolve-gem-dependencies-in-your-code
 - title: "A Beginner's Complete Guide to Microcontroller Programming"
   raw_title: HITOSHI HASUMI, “A Beginner's Complete Guide to Microcontroller Programming with Ruby”
   speakers:
@@ -45,6 +48,7 @@
   description: ""
   video_provider: youtube
   video_id: WiJC_v5Lus8
+  slug: a-beginner-s-complete-guide-to-microcontroller-programming
 - title: "Build Rails Apps 10x Faster"
   raw_title: Adrian Marin, "BUILD RAILS APPS 10X FASTER"
   speakers:
@@ -55,6 +59,7 @@
   description: ""
   video_provider: youtube
   video_id: 28BcGUvyzQQ
+  slug: build-rails-apps-10x-faster
 - title: "Sinatra Is All You Need!"
   raw_title: Alexander Nicholson, "SINATRA IS ALL YOU NEED!"
   speakers:
@@ -65,6 +70,7 @@
   description: ""
   video_provider: youtube
   video_id: f3IL6C214TA
+  slug: sinatra-is-all-you-need
 - title: "Generate Anonymised Databases with MasKING"
   raw_title: Chikahiro Tokoro, "GENERATE ANONYMISED DATABASE WITH MASKING"
   speakers:
@@ -75,6 +81,7 @@
   description: ""
   video_provider: youtube
   video_id: oml7dcDo_jo
+  slug: generate-anonymised-databases-with-masking-euruko-2023
 - title: "Ruby Threads (And So Can You!)"
   raw_title: Johnny Shields, "RUBY THREADS (AND SO CAN YOU!)"
   speakers:
@@ -85,6 +92,7 @@
   description: ""
   video_provider: youtube
   video_id: HLTJJh8EHdU
+  slug: ruby-threads-and-so-can-you
 - title: "Keynote: In defence of GVL"
   raw_title: YUKIHIRO "MATZ" MATSUMOTO, KEYNOTE, "In defence of GVL"
   speakers:
@@ -95,6 +103,7 @@
   description: ""
   video_provider: youtube
   video_id: On4YAsghWM0
+  slug: keynote-in-defence-of-gvl
 - title: "Ask Your Code"
   raw_title: SCOTT CHACON, “Ask Your Code”
   speakers:
@@ -105,6 +114,7 @@
   description: ""
   video_provider: youtube
   video_id: OOYdS4Nw3Ek
+  slug: ask-your-code
 - title: "Look out! Gotchas of Using Threads in Ruby"
   raw_title: IVO ANJO, “Look out! Gotchas of Using Threads in Ruby”
   speakers:
@@ -115,6 +125,7 @@
   description: ""
   video_provider: youtube
   video_id: B8f8-UhgQkQ
+  slug: look-out-gotchas-of-using-threads-in-ruby
 - title: "Reading RSpec — a journey of meta programming"
   raw_title: MASAFUMI OKURA, “Reading RSpec — a journey of meta programming”
   speakers:
@@ -125,6 +136,7 @@
   description: ""
   video_provider: youtube
   video_id: Gk5n9lQGFG8
+  slug: reading-rspec-a-journey-of-meta-programming
 - title: "Steven, Just let_it_be. A Guide To Improve Your RSpec Performance"
   raw_title: Daniel Susveila. "STEVEN, JUST LET_IT_BE. A GUIDE TO IMPROVE YOUR RSPEC PERFORMANCE"
   speakers:
@@ -135,6 +147,7 @@
   description: ""
   video_provider: youtube
   video_id: AIh0fbA28GI
+  slug: steven-just-let_it_be-a-guide-to-improve-your-rspec-performance
 - title: "A Rails Performance Guidebook: from 0 to 1B requests/day"
   raw_title: Cristian Planas, "A RAILS PERFORMANCE GUIDEBOOK"
   speakers:
@@ -145,6 +158,7 @@
   description: ""
   video_provider: youtube
   video_id: fP96dmzoPT4
+  slug: a-rails-performance-guidebook-from-0-to-1b-requests-day-euruko-2023
 - title: "Fantastic Databases And Where To Find Them"
   raw_title: Chris Hasinski, "FANTASTIC DATABASES AND WHERE TO FIND THEM"
   speakers:
@@ -155,6 +169,7 @@
   description: ""
   video_provider: youtube
   video_id: "-Lwaaj5Zimk"
+  slug: fantastic-databases-and-where-to-find-them
 - title: "How To Safely Split Your Multi Tenant Application"
   raw_title: Miron Marczuk, "HOW TO SAFELY SPLIT YOUR MULTI-TENANT APPLICATION (BASED ON REAL EXAMPLES!)"
   speakers:
@@ -165,6 +180,7 @@
   description: ""
   video_provider: youtube
   video_id: 5BRtOBUeObM
+  slug: how-to-safely-split-your-multi-tenant-application
 - title: "Keynote: Seamless Releases with Feature Flags: Insights from GitHub's Experience"
   raw_title: "HANA HARENCAROVA, KEYNOTE, “Seamless Releases with Feature Flags: Insights from GitHub's Experience”"
   speakers:
@@ -175,6 +191,7 @@
   description: ""
   video_provider: youtube
   video_id: 79LN5Sn4Nac
+  slug: keynote-seamless-releases-with-feature-flags-insights-from-github-s-experience
 - title: "Panel: 30 years of Ruby"
   raw_title: Panel discussion "30 years of Ruby"
   speakers:
@@ -190,6 +207,7 @@
   description: ""
   video_provider: youtube
   video_id: lK9vzms1ENI
+  slug: panel-30-years-of-ruby
 - title: "Doing terrible things with ruby.wasm"
   raw_title: MATIAS KORHONEN, “Doing terrible things with ruby.wasm”
   speakers:
@@ -200,6 +218,7 @@
   description: ""
   video_provider: youtube
   video_id: Z_zcTt8q5PQ
+  slug: doing-terrible-things-with-ruby-wasm
 - title: "Crafting elegant code with Ruby DSLs"
   raw_title: TOM DE BRUIJN, “Crafting elegant code with Ruby DSLs”
   speakers:
@@ -210,6 +229,7 @@
   description: ""
   video_provider: youtube
   video_id: 9fzMs_CEzrA
+  slug: crafting-elegant-code-with-ruby-dsls
 - title: "Unconference Pitches (Day 1)"
   raw_title: Unconference pitches
   event_name: EuRuKo 2023
@@ -218,6 +238,7 @@
   description: ""
   video_provider: youtube
   video_id: J7oargktOEw
+  slug: unconference-pitches-day-1
   talks:
     - title: "Unconference Pitch: Josua Schmid"
       start_cue: "TODO"
@@ -324,6 +345,7 @@
   published_at: "2023-10-04"
   description: ""
   video_id: t6_uvjX25Jk
+  slug: unconference-pitches-day-2
   talks:
     - title: "Unconference Pitch: Daniel"
       start_cue: "TODO"
@@ -404,6 +426,7 @@
   published_at: "2023-10-04"
   description: ""
   video_id: zmRS3Q-t4pc
+  slug: city-pitch-warsaw
 - title: "City Pitch: Tuzla"
   raw_title: City pitching. Bosnia
   speakers:
@@ -413,6 +436,7 @@
   published_at: "2023-10-04"
   description: ""
   video_id: DJWyvVnvyRw
+  slug: city-pitch-tuzla
 - title: "City Pitch: Kyiv"
   raw_title: City pitch. Kyiv
   speakers:
@@ -422,6 +446,7 @@
   published_at: "2023-10-04"
   description: ""
   video_id: PcRbFElb18c
+  slug: city-pitch-kyiv
 - title: "City Pitch: Copenhagen"
   raw_title: City pitching. Copenhagen
   speakers:
@@ -431,6 +456,7 @@
   published_at: "2023-10-04"
   description: ""
   video_id: j2zOBQkY4XM
+  slug: city-pitch-copenhagen
 - title: "City Pitch: Manchester"
   raw_title: City pitching. Manchester
   speakers:
@@ -440,6 +466,7 @@
   published_at: "2023-10-04"
   description: ""
   video_id: re1N1ZQ5CSQ
+  slug: city-pitch-manchester
 - title: "City Pitch: Helsinki"
   raw_title: City pitching. Helsinki
   speakers:
@@ -449,6 +476,7 @@
   published_at: "2023-10-04"
   description: ""
   video_id: syRtJsFdTvI
+  slug: city-pitch-helsinki
 - title: "City Pitch: Verona"
   raw_title: City Pitching. Verona
   speakers:
@@ -458,6 +486,7 @@
   published_at: "2023-10-04"
   description: ""
   video_id: usrc27rytMk
+  slug: city-pitch-verona
 - title: "Winner Ceremony"
   raw_title: Euruko 2023. Winner Ceremony
   speakers:
@@ -468,3 +497,4 @@
   published_at: "2023-10-04"
   description: ""
   video_id: IlaLqll1rZA
+  slug: winner-ceremony

@@ -23,6 +23,7 @@
     https://rubyonice.com/speakers/eileen_uchitelle
   video_provider: youtube
   video_id: jxBAkhaRtNg
+  slug: keynote-the-past-present-and-future-of-rails-at-github-ruby-on-ice-2019
 - title: Breaking the Chains of Oppressive Software
   raw_title: "Ruby on Ice 2019: Breaking the Chains of Oppressive Software by Kinsey Ann Durham"
   speakers:
@@ -40,6 +41,7 @@
     https://rubyonice.com/speakers/kinsey_ann_durham
   video_provider: youtube
   video_id: 8atSI4k87X8
+  slug: breaking-the-chains-of-oppressive-software
 - title: Hardware Hacking with Your Rails App
   raw_title: "Ruby on Ice 2019: Hardware Hacking with Your Rails App by Ramón Huidobro"
   speakers:
@@ -59,6 +61,7 @@
     https://rubyonice.com/speakers/ramon_huidobro
   video_provider: youtube
   video_id: WoUL1pO99N8
+  slug: hardware-hacking-with-your-rails-app
 - title: Teach by Learning; Lead by Teaching
   raw_title: "Ruby on Ice 2019: Teach by Learning; Lead by Teaching by Betsy Haibel"
   speakers:
@@ -76,6 +79,7 @@
     https://rubyonice.com/speakers/betsy_haibel
   video_provider: youtube
   video_id: hTXqhp084KE
+  slug: teach-by-learning-lead-by-teaching-ruby-on-ice-2019
 - title: "Web Components: Designing Frontends for Reusability"
   raw_title: "Ruby on Ice 2019: Web Components: Designing Frontends for Reusability by Joy Heron"
   speakers:
@@ -93,6 +97,7 @@
     https://rubyonice.com/speakers/joy_heron
   video_provider: youtube
   video_id: 164EjUObiT4
+  slug: web-components-designing-frontends-for-reusability
 - title: Improving Development Quality and Speed with Agile Testing
   raw_title: "Ruby on Ice 2019: Improving Development Quality and Speed with Agile Testing by Anastasia Chicu"
   speakers:
@@ -111,6 +116,7 @@
     https://rubyonice.com/speakers/anastasia_chicu
   video_provider: youtube
   video_id: RmJowZk5HVo
+  slug: improving-development-quality-and-speed-with-agile-testing
 - title: Rails Against the Machine
   raw_title: "Ruby on Ice 2019: Rails Against the Machine by Brittany Martin"
   speakers:
@@ -129,6 +135,7 @@
     https://rubyonice.com/speakers/brittany_martin
   video_provider: youtube
   video_id: bmIfkcAQEE8
+  slug: rails-against-the-machine
 - title: Do You Need That Validation? Let Me Call You Back About It
   raw_title: "Ruby on Ice 2019: Do You Need That Validation? Let Me Call You Back About It by Tobias Pfeiffer"
   speakers:
@@ -147,6 +154,7 @@
     https://rubyonice.com/speakers/tobias_pfeiffer
   video_provider: youtube
   video_id: F05kXVqFWnc
+  slug: do-you-need-that-validation-let-me-call-you-back-about-it
 - title: Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby
   raw_title: "Ruby on Ice 2019: Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby by Benoit Daloze"
   speakers:
@@ -164,6 +172,7 @@
     https://rubyonice.com/speakers/benoit_daloze
   video_provider: youtube
   video_id: DolpDFfPdh0
+  slug: parallel-and-thread-safe-ruby-at-high-speed-with-truffleruby
 - title: Lightning Talks
   raw_title: "Ruby on Ice 2019: Lightning Talks"
   event_name: Ruby on Ice 2019
@@ -172,6 +181,7 @@
   description: ""
   video_provider: youtube
   video_id: 7QgNDhtaQMQ
+  slug: lightning-talks-ruby-on-ice-2019
   talks:
     - title: "Lightning Talk: Ruby Community in Brazil"
       start_cue: "TODO"
@@ -268,6 +278,7 @@
     https://rubyonice.com/speakers/emily_stolfo
   video_provider: youtube
   video_id: ex91n2XGes8
+  slug: beauty-and-the-beast-your-application-and-distributed-systems-ruby-on-ice-2019
 - title: Making CocoaPods Fast with Modern Ruby Tooling
   raw_title: "Ruby on Ice 2019: Making CocoaPods Fast with Modern Ruby Tooling by Samuel Giddins"
   speakers:
@@ -285,3 +296,4 @@
     https://rubyonice.com/speakers/samuel_giddins
   video_provider: youtube
   video_id: xMdUGh7x4so
+  slug: making-cocoapods-fast-with-modern-ruby-tooling

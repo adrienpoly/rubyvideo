@@ -14,6 +14,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: pvSOWiVB-KA
+  slug: handling-mails-on-a-text-editor
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -33,6 +34,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Bt-PvFLbMbU
+  slug: keynote-making-ruby-ruby
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -46,6 +48,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: VKm93Mwe__k
+  slug: gemification-for-ruby-2-5-3-0
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -65,6 +68,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 4VOEdd-BYHE
+  slug: how-to-optimize-ruby-internal
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -82,6 +86,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: a28jJ62ZfZM
+  slug: api-development-in-2017
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -107,6 +112,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: OnDSm-GZCko
+  slug: keynote-the-many-faces-of-module
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -120,6 +126,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: qpZDw-p9yag
+  slug: keynote-towards-ruby-3x3-performance
   language: English
   description: |-
     RubyKaigi 2017
@@ -139,6 +146,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: sUdZ8s4GbnE
+  slug: regular-expressions-inside-out
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -154,6 +162,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: O1coxtDTkwY
+  slug: what-visually-impaired-programmers-are-thinking-about-ruby
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -169,6 +178,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: SfF9va8NGhM
+  slug: introducing-the-jet-programming-language
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -184,6 +194,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: B3Uf-aHZwmw
+  slug: compiling-ruby
   language: English
   description: |-
     RubyKaigi2017
@@ -199,6 +210,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Qk3VSCDZITs
+  slug: mapping-your-world-with-ruby
   language: English
   description: |-
     RubyKaigi2017
@@ -216,6 +228,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: GRNlTWzoC74
+  slug: i-quit-my-job-to-write-my-own-language-goby
   language: English
   description: |-
     RubyKaigi2017
@@ -233,6 +246,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bNTajEO_ndA
+  slug: ruby-opal-and-webassembly
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -250,6 +264,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: KrWhhgWHTwE
+  slug: ruby-for-distributed-storage-system
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -270,6 +285,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: U3pre3Bv9rk
+  slug: smalruby-the-neat-thing-to-connect-rubyists-and-scratchers
   language: Japanese
   description: |-
     Kouji Takao @takaokouji, Nobuyuki Honda @nobyuki
@@ -295,6 +311,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: qJ6YIfbTLGM
+  slug: progress-of-ruby-numo-numerical-computing-for-ruby
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -310,6 +327,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: E6LpGzrYWRc
+  slug: serial-protocol-analyzer-on-ruby
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -328,6 +346,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 7DuwISRyqGE
+  slug: mruby-gateway-for-huge-amount-of-realtime-data-processing
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -345,6 +364,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: aYboQzyIoPc
+  slug: hanami-new-ruby-web-framework
   language: English
   description: |-
     RubyKaigi2017
@@ -360,6 +380,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: pZSuuyiQNZk
+  slug: c-how-to-supercharge-ruby-with-rubex
   language: English
   description: |-
     RubyKaigi2017
@@ -375,6 +396,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: xr3uDzQIuBA
+  slug: writing-lint-for-ruby
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -395,6 +417,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: fZGyXwiFNAo
+  slug: ruby-parser-in-irb-20th-anniversary-now-let-time-resume
   language: English
   description: |-
     RubyKaigi 2017
@@ -412,6 +435,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: PAQwlSfRjko
+  slug: ruby-in-office-time-reboot
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -427,6 +451,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: BB5z8cg2Hlc
+  slug: asynchronous-and-non-blocking-io-with-jruby
   language: English
   description: |-
     RubyKaigi2017
@@ -442,6 +467,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: FP5Zxd5o_4M
+  slug: food-wine-and-machine-learning-teaching-a-bot-to-taste
   language: English
   description: |-
     RubyKaigi2017
@@ -457,6 +483,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: _E1yKPC-r1E
+  slug: the-ruby-module-builder-pattern
   language: English
   description: |-
     RubyKaigi2017
@@ -472,6 +499,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: oqsX8kNq94I
+  slug: the-curious-case-of-wikipedia-parsing
   language: English
   description: |-
     RubyKaigi2017
@@ -487,6 +515,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: gXep-LwPvw8
+  slug: flor-hubristic-interpreter
   language: English
   description: |-
     RubyKaigi2017
@@ -504,6 +533,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: k9WEDRMvanM
+  slug: static-typo-checker-in-ruby
   language: English
   description: |-
     RubyKaigi2017
@@ -521,6 +551,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: mS7fBsBF_gg
+  slug: irb-20th-anniversary-memorial-session-reish-and-irb2
   language: Japanese
   description: |-
     RubyKaigi2017
@@ -538,6 +569,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 1m4IPJH0k0E
+  slug: pattern-matching-in-ruby
   language: English
   description: |-
     RubyKaigi2017
@@ -553,6 +585,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: xZ5mw3x2pdo
+  slug: how-close-is-ruby-3x3-for-production-web-apps
   language: English
   description: |-
     RubyKaigi2017
@@ -568,6 +601,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Tgq5GhagmcU
+  slug: druby-on-browser
   language: Japanese
   description: |-
     RubyKaigi2017
@@ -584,6 +618,7 @@
   slides_url: https://speakerdeck.com/tenderlove/building-a-compacting-gc
   video_provider: youtube
   video_id: AuuYQaoqr24
+  slug: compacting-gc-in-mri
   language: Japanese
   description: |-
     RubyKaigi2017
@@ -597,6 +632,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 5vcv3s7cEeE
+  slug: lightning-talks-day-1-rubykaigi-2017
   language: Japanese
   description: |-
     http://rubykaigi.org/2017/presentations/lt/
@@ -696,6 +732,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: JExXdUux024
+  slug: type-checking-ruby-programs-with-annotations
   language: English
   description: |-
     RubyKaigi2017
@@ -716,6 +753,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: pgFx8DFjN8M
+  slug: fiber-in-the-10th-year
   language: Japanese
   description: |-
     RubyKaigi2017
@@ -735,6 +773,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Vw36kmRmH5I
+  slug: ruby-committers-vs-the-world-rubykaigi-2017
   language: Japanese
   description: |-
     RubyKaigi2017
@@ -750,6 +789,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: JS6m2gke0Ic
+  slug: automated-type-contracts-generation-for-ruby
   language: English
   description: |-
     RubyKaigi2017
@@ -770,6 +810,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: rkvrikvoYPQ
+  slug: jruby-at-15-years-meeting-the-challenges
   language: English
   description: |-
     RubyKaigi2017
@@ -785,6 +826,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: zkP8pXOpiH0
+  slug: an-introduction-and-future-of-ruby-coverage-library
   language: Japanese
   description: |-
     RubyKaigi2017
@@ -801,6 +843,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: OfDBRfmVFHk
+  slug: do-androids-dream-of-electronic-dance-music
   language: English
   description: |-
     RubyKaigi2017
@@ -816,6 +859,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: gfoizFzJ-oI
+  slug: improve-extension-api-c-as-better-language-for-extension
   language: Japanese
   description: |-
     RubyKaigi2017
@@ -840,6 +884,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: M2erAV1CpRk
+  slug: bending-the-curve-putting-rust-in-ruby-with-helix
   language: English
   description: |-
     RubyKaigi2017
@@ -855,6 +900,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: berjYyI5Bys
+  slug: ruby-extension-library-verified-using-coq-proof-assistant
   language: Japanese
   description: |-
     RubyKaigi2017
@@ -870,6 +916,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 0mDnZ0V9OSA
+  slug: how-to-write-synchronization-mechanisms-for-fiber
   language: Japanese
   description: |-
     RubyKaigi2017
@@ -889,6 +936,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: DF4oLrc7KaE
+  slug: write-once-run-on-every-boards-portable-mruby
   language: Japanese
   description: |-
     RubyKaigi2017
@@ -904,6 +952,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: sZX7SK3hxk4
+  slug: bundler-2
   language: English
   description: |-
     RubyKaigi2017
@@ -919,6 +968,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: spPAdvskyLI
+  slug: ruby-language-server
   language: Japanese
   description: |-
     RubyKaigi 2017
@@ -938,6 +988,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: eBmM-yWPeMw
+  slug: memory-fragmentation-and-bloat-in-ruby
   language: English
   description: |-
     RubyKaigi2017
@@ -953,6 +1004,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 5Ik2qCTmeN0
+  slug: improving-truffleruby-s-startup-time-with-the-substratevm
   language: English
   description: |-
     RubyKaigi2017
@@ -968,6 +1020,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 8BJKrx6rsM0
+  slug: busting-performance-bottlenecks-improving-boot-time-by-60
   language: English
   description: |-
     RubyKaigi2017
@@ -983,6 +1036,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: L_DRmV3LMYA
+  slug: high-concurrent-ruby-web-development-without-fear
   language: English
   description: |-
     RubyKaigi2017
@@ -1001,6 +1055,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: g7WM6ITZYp0
+  slug: tamashii-create-rails-iot-applications-more-easily
   language: English
   description: |-
     RubyKaigi2017
@@ -1018,6 +1073,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: U9GdgZowmGY
+  slug: development-of-data-science-ecosystem-for-ruby
   language: Japanese
   description: |-
     RubyKaigi2017

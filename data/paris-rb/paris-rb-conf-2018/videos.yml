@@ -16,6 +16,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: eEspjdnUf3M
+  slug: ruby-4-0-to-infinity-and-beyond-paris-rb-conf-2018
 - title: 99 Problems of Slow Tests
   raw_title: '"99 problems of slow tests" by Vladimir Dementyev'
   speakers:
@@ -27,6 +28,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: eDMZS_fkRtk
+  slug: 99-problems-of-slow-tests
   slides_url: https://speakerdeck.com/palkan/paris-dot-rb-2018-99-problems-of-slow-tests
 - title: Living on Rails Edge
   raw_title: '"Living on Rails edge" by Rafael França'
@@ -39,6 +41,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: DMaeQTVU3qw
+  slug: living-on-rails-edge
 - title: Event Sourcing for Everyone
   raw_title: '"Event Sourcing for Everyone" by Jenna Blumenthal'
   speakers:
@@ -50,6 +53,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: 1h3_6ATnOTw
+  slug: event-sourcing-for-everyone
 - title: "Crystal: How Using a Compiled Language Made Me Write Better Ruby"
   raw_title: '"Crystal: How using a compiled language made me write better Ruby" by Luis Lavena'
   speakers:
@@ -61,6 +65,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: r_9UB8-hG7I
+  slug: crystal-how-using-a-compiled-language-made-me-write-better-ruby
 - title: "RubyGems 3 & 4"
   raw_title: '"RubyGems 3 & 4" by Hiroshi Shibata'
   speakers:
@@ -72,6 +77,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: 8R23yMmCw9w
+  slug: rubygems-3-4-paris-rb-conf-2018
 - title: "Clean Code Lessons From Messy Humans"
   raw_title: '"Clean code lessons from messy humans" by Sylvain Abélard'
   speakers:
@@ -83,6 +89,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: 9YAivor0BUw
+  slug: clean-code-lessons-from-messy-humans
 - title: "The Future of Rails 6: Scalable by Default"
   raw_title: '"The Future of Rails 6: Scalable by Default" by Eileen M. Uchitelle'
   speakers:
@@ -95,6 +102,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks on https://goo.gl/8egyWi
   video_provider: youtube
   video_id: PVCMLFH1ANU
+  slug: the-future-of-rails-6-scalable-by-default
 - title: Less Code, More Confidence
   raw_title: '"Less code, more confidence" by Lucas Tolchinsky'
   speakers:
@@ -106,6 +114,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: obDdNYZeQB4
+  slug: less-code-more-confidence
 - title: Building Serverless Ruby Bots
   raw_title: '"Building Serverless Ruby Bots" by Damir Svrtan'
   speakers:
@@ -117,6 +126,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: BsfjzNG07aY
+  slug: building-serverless-ruby-bots
 - title: "Food, Wine and Machine Learning: Teaching a Bot to Taste"
   raw_title: '"Food, Wine and Machine Learning: Teaching a Bot to Taste" by Mai Nguyen'
   speakers:
@@ -128,6 +138,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: EUv8wYq26Ss
+  slug: food-wine-and-machine-learning-teaching-a-bot-to-taste-paris-rb-conf-2018
 - title: How To Onboard a Junior Developer
   raw_title: '"How to onboard a junior developer" by Christophe Philemotte'
   speakers:
@@ -139,6 +150,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: a2xTi9lHts0
+  slug: how-to-onboard-a-junior-developer
 - title: "It's Rubies All The Way Down!"
   raw_title: '"It''s Rubies All The Way Down!" by Kirk Haines'
   speakers:
@@ -150,6 +162,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: E6s4uB0DBVk
+  slug: it-s-rubies-all-the-way-down-paris-rb-conf-2018
 - title: "Ruby and Art: The Earliest Stage"
   raw_title: '"Ruby and Art: The Earliest Stage" by Koichiro Eto'
   speakers:
@@ -161,6 +174,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: YhLnDGNtSew
+  slug: ruby-and-art-the-earliest-stage
 - title: Aesthetics and the Evolution of Code
   raw_title: '"Aesthetics and the Evolution of Code" by Coraline Ehmke'
   speakers:
@@ -172,6 +186,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: TbFce4FuEKc
+  slug: aesthetics-and-the-evolution-of-code
 - title: Writing a Command Line Utility in Ruby - Automation is Not Just For Your Users
   raw_title: '"Writing a Command Line Utility in Ruby - Automation is Not Just For Your Users" by Keith Bennett'
   speakers:
@@ -184,6 +199,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: zMzzKOecvaA
+  slug: writing-a-command-line-utility-in-ruby-automation-is-not-just-for-your-users
 - title: GraphQL-DDD on Rails Architecture
   raw_title: '"GraphQL-DDD on Rails architecture" by Paul-Armand Assus'
   speakers:
@@ -195,6 +211,7 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: THYVNLsjWqo
+  slug: graphql-ddd-on-rails-architecture
 - title: Human Errors
   raw_title: '"Human Errors" by Olivier Lacan'
   speakers:
@@ -206,3 +223,4 @@
     Recorded in June 2018 during https://2018.rubyparis.org in Paris. More talks at https://goo.gl/8egyWi
   video_provider: youtube
   video_id: pzdI7r2OJ84
+  slug: human-errors

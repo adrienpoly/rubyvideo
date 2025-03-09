@@ -12,6 +12,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/harder/browser_testing/martin_kleppmann_browser_testing.mp4"
+  slug: browser-level-testing
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/browser_testing/"
   slides_url: "http://www.slideshare.net/martinkleppmann/browserlevel-testing"
@@ -25,6 +26,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/harder/short_order_ruby/ben_griffiths_short_order_ruby.mp4"
+  slug: short-order-ruby
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/short_order_ruby/"
   slides_url: "http://rubymanor.org/harder/videos/short_order_ruby/ben_griffiths_short_order_ruby.key"
@@ -38,6 +40,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/harder/tdd_with_webmock/bartosz_blimke_tdd_with_webmock.mp4"
+  slug: tdd-with-webmock
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/tdd_with_webmock/"
   slides_url: "http://www.slideshare.net/bartoszblimke/tdd-of-http-clients-with-webmock"
@@ -51,6 +54,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/harder/gem_that/james_adam_gem_that.mp4"
+  slug: gem-that
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/gem_that/"
   slides_url: "http://public.lazyatom.com/gem_that_with_notes.pdf"
@@ -64,6 +68,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/harder/secrets_of_the_stdlib/paul_battley_secrets_of_the_stdlib.mp4"
+  slug: secrets-of-the-stdlib
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/secrets_of_the_stdlib/"
   slides_url: "http://rubymanor.org/harder/videos/secrets_of_the_stdlib/paul_battley_secrets_of_the_stdlib.pdf"
@@ -77,6 +82,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/harder/data_visualisation_with_ruby/chris_lowis_data_visualisation_with_ruby.mp4"
+  slug: data-visualisation-with-ruby
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/data_visualisation_with_ruby/"
   slides_url: "http://github.com/chrislo/data_visualisation_ruby/raw/master/slides.pdf"
@@ -90,6 +96,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/harder/ruby_and_cocoa/james_mead_ruby_and_cocoa.mp4"
+  slug: ruby-and-cocoa
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/ruby_and_cocoa/"
   slides_url: "https://jamesmead.org/talks/2009-12-14-ruby-and-cocoa-at-ruby-manor/"
@@ -103,6 +110,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/harder/denormalizing_rails/daniel_lucraft_denormalizing_rails.mp4"
+  slug: denormalizing-rails
   external_player: false
   external_player_url: "http://rubymanor.org/harder/videos/denormalizing_rails/"
   slides_url: "http://github.com/danlucraft/presentations/raw/master/denormalizing.pdf"

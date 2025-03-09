@@ -14,6 +14,7 @@
   description: ""
   video_provider: youtube
   video_id: 9PLY4TWo7f0
+  slug: keynote-big-ruby-2014
 - title: Testing The Untestable
   raw_title: Big Ruby 2014 - TESTING THE UNTESTABLE by Richard Schneeman
   speakers:
@@ -24,6 +25,7 @@
     Good tests are isolatable, repeatable and deterministic. Good tests don't touch the network and are flexible when it comes to change. Bad tests are all of the above. Bad tests are no tests at all - which is where I found myself with a 5 year legacy codebase running in production and touching millions of customers with minimal use-case documentation. We'll cover this experience and several like it while digging into how to go from zero to total test coverage as painlessly as possible. You will learn how to stay sane in the face of insane testing conditions and how to use these tests to deconstruct a monolith app. When life gives you a big ball of mud, write a big ball of tests.
   video_provider: youtube
   video_id: QHMKIHkY1nM
+  slug: testing-the-untestable-big-ruby-2014
 - title: "Lightweight Business Intelligence with Ruby, Rails, and MongoDB"
   raw_title: Big Ruby 2014 - Lightweight Business Intelligence with Ruby, Rails, and MongoDB
   speakers:
@@ -38,6 +40,7 @@
     We will explore the complete architecture of a lightweight BI system that is used in the real world to capture and analyze customer information, monitor user behaviour, feed machine-learning algorithms for decision support, and deliver real knowledge and value to business stakeholders.
   video_provider: youtube
   video_id: Pf_nXuHhods
+  slug: lightweight-business-intelligence-with-ruby-rails-and-mongodb
 - title: Mo' Jobs Mo' Problems - Lessons Learned Scaling To Millions of Jobs an Hour
   raw_title: Big Ruby 2014 - MO' JOBS MO' PROBLEMS - LESSONS LEARNED SCALING TO MILLIONS OF JOBS AN HOUR
   speakers:
@@ -51,6 +54,7 @@
     At Tapjoy we process over a million jobs an hour with Ruby. This talk is a discussion of tools, techniques, and interesting problems from the trenches of scaling up over the last two years. Expect to learn a lot about Ruby job queues (beyond Resque/Sidekiq), performance, concurrency and more.
   video_provider: youtube
   video_id: fXyDTkDtQfs
+  slug: mo-jobs-mo-problems-lessons-learned-scaling-to-millions-of-jobs-an-hour
 - title: Building DEF CON CTF with Ruby
   raw_title: Big Ruby 2014 - BUILDING DEF CON CTF WITH RUBY by Vito Genovese
   speakers:
@@ -62,6 +66,7 @@
     DEF CON Capture the Flag is the world series of computer hacking, with hundreds of teams from all over the world trying to qualify, and a select few competing on site in Las Vegas. For our first time hosting this event, we picked a Ruby-based stack running the game, which has teams attempting to defend their network services while hacking opponents' and stealing secrets.
   video_provider: youtube
   video_id: C0pZLgI5ReQ
+  slug: building-def-con-ctf-with-ruby
 - title: How Shopify Sharded Rails
   raw_title: Big Ruby 2014 - HOW SHOPIFY SHARDED RAILS by Camilo Lopez
   speakers:
@@ -81,6 +86,7 @@
     come along when sharding a living, breathing and money producing Ruby application.
   video_provider: youtube
   video_id: 6njTQdFLz6I
+  slug: how-shopify-sharded-rails
 - title: A 4-pack of Big Lightning Talks
   raw_title: Big Ruby 2014 - A 4-PACK OF BIG LIGHTNING TALKS by Chris Morris
   speakers:
@@ -106,6 +112,7 @@
     ways that don't quite capture it either.
   video_provider: youtube
   video_id: A1kjyQnQhUI
+  slug: a-4-pack-of-big-lightning-talks
 - title: "Open Source Isn't For Everyone, But It Could Be"
   raw_title: Big Ruby 2014 - OPEN SOURCE ISN'T FOR EVERYONE, BUT IT COULD BE
   speakers:
@@ -118,6 +125,7 @@
     The state of diversity in open source contributions is abysmal. With the number of female OSS contributors at a shockingly low 1.5% and other groups not even documented, we need to ask what we can be doing better as a community. We'll discuss the barriers that people face contributing to our open source projects and what we can do to increase participation.
   video_provider: youtube
   video_id: KiFTzsOdmcg
+  slug: open-source-isn-t-for-everyone-but-it-could-be
 - title: "Castle On a Cloud: The GitHub Story"
   raw_title: "Big Ruby 2014 - CASTLE ON A CLOUD: THE GITHUB STORY by Ben Bleything"
   speakers:
@@ -130,6 +138,7 @@
     This is the story of the other 90% of our infrastructure. This is the story of the 350 AWS instances, 250 Heroku dynos, and dozens of Rackspace Cloud, Softlayer, and ESX VMs we run. This is a story of tooling and monitoring, of happiness and heartbreak, and, ultimately, of The Cloud.
   video_provider: youtube
   video_id: 8TYfPhFSZFs
+  slug: castle-on-a-cloud-the-github-story
 - title: "Keynote: Working Effectively on a Distrubuted Team"
   raw_title: Big Ruby 2014 - Keynote by Glenn Vanderburg
   speakers:
@@ -139,6 +148,7 @@
   description: ""
   video_provider: youtube
   video_id: k448wiiBf80
+  slug: keynote-working-effectively-on-a-distrubuted-team
 - title: Refactoring With Science
   raw_title: Big Ruby 2014 - REFACTORING WITH SCIENCE by Wynn Netherland
   speakers:
@@ -149,6 +159,7 @@
     Changing code is easy. Changing code with confidence isn't. Even the most robust, mature test suites have blind spots that make large scale changes difficult. At GitHub we use Science to instrument, compare results, and measure performance of parallel code path experiments to see how new code runs against a current production baseline. This talk will show you how to Science, too.
   video_provider: youtube
   video_id: eMKG4puLfmM
+  slug: refactoring-with-science
 - title: "It Looks Like You're Writing a Service: Would You Like"
   raw_title: "Big Ruby 2014 - IT LOOKS LIKE YOU'RE WRITING A SERVICE: WOULD YOU LIKE HELP?"
   speakers:
@@ -163,6 +174,7 @@
     Using a live-in-production example, we'll walk through how we build and integrate services at Union Metrics. We'll go over some tips and patterns we've discovered as well as about some of the pitfalls and things to avoid when building and deploying stand-alone services.
   video_provider: youtube
   video_id: MUl4loZC58Y
+  slug: it-looks-like-you-re-writing-a-service-would-you-like
 - title: In Praise of Smallness
   raw_title: Big Ruby 2014 - In Praise of Smallness by B.J. Allen
   speakers:
@@ -174,6 +186,7 @@
     Getting big things done is important. We praise big accomplishments, but those involved can usually point to the small decisions and actions along the way that made it all possible. Structuring teams, projects, systems, and processes to embrace smallness enables the big things to evolve and succeed. This talk will cover ways in which the teams behind TripCase have succeeded and failed while making big things happen one small step at a time.
   video_provider: youtube
   video_id: Y2EWl2R9c0o
+  slug: in-praise-of-smallness
 - title: "Harry Potter and the Legacy Codebase"
   raw_title: Big Ruby 2014 - Harry Potter and the Legacy Codebase
   speakers:
@@ -194,6 +207,7 @@
     an existing team of developers, and how we can get a summa cum laude at graduation.
   video_provider: youtube
   video_id: QJhQ6oGHwS0
+  slug: harry-potter-and-the-legacy-codebase
 - title: Lightning Talks
   raw_title: Big Ruby 2014 - Lightning Talks
   event_name: Big Ruby 2014
@@ -201,6 +215,7 @@
   description: ""
   video_provider: youtube
   video_id: Gn75H9D3nOg
+  slug: lightning-talks-big-ruby-2014
   talks:
     - title: "Lightning Talk: User Groups are Awesome"
       start_cue: "00:00"
@@ -254,6 +269,7 @@
     In this talk, we'll explore data modeling for key/value stores using the Uber mobile application as an example.
   video_provider: youtube
   video_id: "-_3Us7Ystyg"
+  slug: throw-some-keys-on-it-data-modeling-for-key-value-data-stores-by-example
 - title: Herding Elephants
   raw_title: "Big Ruby 2014 - Herding Elephants:  by Clint Shryock"
   speakers:
@@ -266,6 +282,7 @@
     Heroku operates the largest fleet of Postgres databases in the world. Service oriented architecture, infrastructure as code, and fault tolerance make it possible. Come hear how the Heroku Postgres team uses a handful of Ruby applications to operate and scale the largest herd of your favorite elephant themed RDBMS.
   video_provider: youtube
   video_id: GGyT6Cxpb6U
+  slug: herding-elephants
 - title: "Developers are From Mars, Developers are From Venus"
   raw_title: Big Ruby 2014 - Developers are From Mars, Developers are From Venus
   speakers:
@@ -282,3 +299,4 @@
     Collaboration is hard, but we can learn it and make it our superhero power.
   video_provider: youtube
   video_id: V5mPordkbD8
+  slug: developers-are-from-mars-developers-are-from-venus

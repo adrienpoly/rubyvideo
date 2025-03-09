@@ -30,6 +30,7 @@
     Alexander Sulim: "Laziness-driven development is a set of rules that might help anyone to harness great power of laziness to create better software. Some of these rules are obvious, some might be controversial, but they all are based on personal experience and serve me well for many years already."
   video_provider: youtube
   video_id: LfYeO5hW3fA
+  slug: laziness-driven-development
 - title: "Fish Bowl: Ruby is Dying"
   raw_title: "Fish Bowl Discussion: Ruby is dying by Ole Michaelis"
   speakers:
@@ -40,6 +41,7 @@
   description: ""
   video_provider: youtube
   video_id: 15oe92S4hkw
+  slug: fish-bowl-ruby-is-dying
 #
 # Lunch Break
 #
@@ -53,6 +55,7 @@
   description: ""
   video_provider: youtube
   video_id: KuocghIxvFE
+  slug: infrastructure-as-ruby-code
 - title: When Software Development Teams Grow Too Big - Learnings From Slicing Teams
   raw_title: Nina Siessegger - When software development teams grow too big - learnings from slicing teams
   speakers:
@@ -91,6 +94,7 @@
   description: ""
   video_provider: youtube
   video_id: sCfVTYgSKVg
+  slug: panel-how-to-find-a-job-as-a-ruby-developer
 #
 # Party at haekken
 ## Day 2 - 2024-06-09
@@ -107,6 +111,7 @@
   description: ""
   video_provider: youtube
   video_id: IKlKOhN9NQE
+  slug: refactoring-code-i-hate
 - title: Going back to the BASICs
   raw_title: Jan Krutisch - Back to the BASICs
   speakers:
@@ -132,6 +137,7 @@
   description: ""
   video_provider: youtube
   video_id: DYr_HAgJtlo
+  slug: showing-progress-of-background-jobs-with-hotwire-turbo
 - title: Generate Anonymised Databases with MasKING
   raw_title: Generate anonymised database with MasKING by Chikahiro Tokoro
   speakers:
@@ -142,6 +148,7 @@
   description: ""
   video_provider: youtube
   video_id: qgHm6EFm-Eg
+  slug: generate-anonymised-databases-with-masking
 #
 # Coffeebreak
 #

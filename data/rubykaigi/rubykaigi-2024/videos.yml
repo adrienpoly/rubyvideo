@@ -12,6 +12,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: k6QGq5uGhgU
+  slug: keynote-writing-weird-code
   language: Japanese
   description: ""
   slides_url: https://drive.google.com/file/d/1Dkx15u_5UAGoFqJHCeAuj2FXS-z_U7EE/view
@@ -24,6 +25,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: CjYLcnlXO2Y
+  slug: the-grand-strategy-of-ruby-parser
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/yui_knk/the-grand-strategy-of-ruby-parser
@@ -36,6 +38,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: UljjMq86OUI
+  slug: unlocking-potential-of-property-based-testing-with-ractor
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/ohbarye/unlocking-potential-of-property-based-testing-with-ractor
@@ -48,6 +51,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: mi6XhlDPmsA
+  slug: remembering-ok-not-really-sarah-marshal
   language: English
   description: ""
 - title: Strings! Interpolation, Optimisation & Bugs
@@ -59,6 +63,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: CLIqUDqVTC8
+  slug: strings-interpolation-optimisation-bugs
   language: English
   description: ""
   slides_url: https://www.eightbitraptor.com/presentations/RubyKaigi2024-MVH.pdf
@@ -71,6 +76,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: uRYuFyNR9PU
+  slug: long-journey-of-ruby-standard-library
   language: Japanese
   description: ""
   slides_url: https://www.slideshare.net/slideshow/long-journey-of-ruby-standard-library-at-rubykaigi-2024/268585781
@@ -83,6 +89,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: n4cIKfXytEI
+  slug: cross-platform-mruby-on-sega-dreamcast-and-nintendo-wii
   language: English
   description: ""
   slides_url: https://github.com/yujiyokoo/dreampresent-wii/releases/tag/RubyKaigi-2024
@@ -95,6 +102,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: M4MDbxuFZyc
+  slug: namespace-what-and-why
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/tagomoris/namespace-what-and-why
@@ -107,6 +115,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: M2zvcq5VBwo
+  slug: let-s-use-llms-from-ruby-refine-rbs-types-using-llm
   language: Japanese
   description: ""
   slides_url: https://slides.com/kokuyouwind/lets-use-llms-from-ruby
@@ -119,6 +128,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: NkNlg8YdZHU
+  slug: the-depths-of-profiling-ruby
   language: English
   description: ""
   slides_url: https://speakerdeck.com/osyoyu/the-depthes-of-profiling-ruby-rubykaigi-2024
@@ -131,6 +141,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: QSjN-H4hGsM
+  slug: vernier-a-next-generation-profiler-for-cruby
   language: English
   description: ""
   slides_url: https://speakerdeck.com/jhawthorn/vernier-a-next-generation-cruby-profiler-rubykaigi-2024
@@ -143,6 +154,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: U0lo4mYHttc
+  slug: exploring-reline-enhancing-command-line-usability
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/ima1zumi/exploring-reline-enhancing-command-line-usability
@@ -155,6 +167,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: wTOrDRrahuM
+  slug: generating-a-custom-sdk-for-your-web-service-or-rails-api
   language: English
   description: ""
   slides_url: https://www.slideshare.net/slideshow/generating-a-custom-ruby-sdk-for-your-web-service-or-rails-api-using-smithy/269389846
@@ -167,6 +180,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: hzuNr0VnuKM
+  slug: ractor-enhancements-2024
   language: English
   description: ""
   slides_url: https://www.atdot.net/~ko1/activities/2024_rubykaigi.pdf
@@ -179,6 +193,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: HU-kfUxM2lc
+  slug: an-adventure-of-happy-eyeballs
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/coe401_/an-adventure-of-happy-eyeballs
@@ -191,6 +206,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: rq2cJfM49N4
+  slug: refactoring-with-asts-and-pattern-matching
   language: English
   description: ""
   slides_url: https://drive.google.com/file/d/1EKknpjvafzM0uQKtgEVxywlP3WdcLS8g/view?usp=sharing
@@ -206,6 +222,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: YacN_phi_ME
+  slug: keynote-leveraging-falcon-and-rails-for-real-time-interactivity
   language: English
   description: ""
 - title: Finding Memory Leaks in the Ruby Ecosystem
@@ -218,6 +235,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: pQ1XCrwq1qc
+  slug: finding-memory-leaks-in-the-ruby-ecosystem
   language: English
   description: ""
   slides_url: https://blog.peterzhu.ca/assets/rubykaigi_2024_slides.pdf
@@ -230,6 +248,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Zs_Or0xUD1Q
+  slug: does-ruby-parser-dream-of-highly-expressive-grammar
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/ydah/does-ruby-parser-dream-of-highly-expressive-grammar
@@ -242,6 +261,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: r31gVDlIJhc
+  slug: community-driven-rbs-repository
   language: English
   description: ""
   slides_url: https://speakerdeck.com/pocke/community-driven-rbs-repository
@@ -254,6 +274,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: vfnspVtoN3U
+  slug: embedding-it-into-ruby-code
   language: English
   description: ""
   slides_url: https://speakerdeck.com/soutaro/embedding-it-into-ruby-code
@@ -266,6 +287,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: _4d20A6xIsM
+  slug: rubygems-on-ruby-wasm
   language: English
   description: ""
   slides_url: https://speakerdeck.com/kateinoigakukun/rubygems-on-ruby-dot-wasm
@@ -278,6 +300,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 7wWlbvUctoE
+  slug: optimizing-ruby-building-an-always-on-production-profiler
   language: English
   description: ""
   slides_url: https://dtdg.co/rubykaigi2024
@@ -290,6 +313,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: K7WK9NvNRzg
+  slug: reducing-implicit-allocations-during-method-calling
   language: English
   description: ""
   slides_url: https://code.jeremyevans.net/presentations/rubykaigi2024/index.html
@@ -302,6 +326,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: z7VcMewHXJg
+  slug: unlock-the-universal-parsers-a-new-picoruby-compiler
   language: Japanese
   description: ""
   slides_url: https://slide.rabbit-shocker.org/authors/hasumikin/RubyKaigi2024/
@@ -314,6 +339,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: SFpqBT8kTbk
+  slug: getting-along-with-yaml-comments-with-psych
   language: English
   description: ""
   slides_url: https://speakerdeck.com/qnighy/getting-along-with-yaml-comments-with-psych
@@ -326,6 +352,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: qf5V02QNMnA
+  slug: breaking-the-ruby-performance-barrier
   language: English
   description: ""
   slides_url: https://www.slideshare.net/slideshow/breaking-the-ruby-performance-barrier-with-yjit/269367259
@@ -338,6 +365,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: HK_LfWd9NRY
+  slug: rubocop-lsp-and-prism
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/koic/rubocop-lsp-and-prism
@@ -350,6 +378,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: FyomdDn9eGo
+  slug: an-mruby-for-webassembly
   language: English
   description: ""
   slides_url: https://udzura.jp/slides/2024/rubykaigi/
@@ -362,6 +391,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: PMNwv1fzujU
+  slug: good-first-issues-of-typeprof
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/mame/good-first-issues-of-typeprof
@@ -374,6 +404,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: DMNDw4fYu60
+  slug: it-s-about-time-to-pack-ruby-and-ruby-scripts-in-one-binary
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/ahogappa0613/its-about-time-to-pack-ruby-and-ruby-scripts-in-one-binary
@@ -386,6 +417,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: DkSvI43k1Ag
+  slug: from-interpreting-c-extensions-to-compiling-them
   language: English
   description: ""
   slides_url: https://eregon.me/blog/assets/research/from-interpreting-c-extensions-to-compiling-them.pdf
@@ -398,6 +430,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: gKOGPVLgSak
+  slug: squeezing-unicode-names-into-ruby-regular-expressions
   language: English
   description: ""
 - title: Running Optcarrot (faster) on my own Ruby.
@@ -409,6 +442,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: OfeUyQDFy_Y
+  slug: running-optcarrot-faster-on-my-own-ruby
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/sisshiki1969/running-optcarrot-faster-on-my-own-ruby
@@ -421,6 +455,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: V8tf34Iw2YY
+  slug: adding-security-to-microcontroller-ruby
   language: English
   description: ""
   slides_url: https://speakerdeck.com/sylph01/adding-security-to-microcontroller-ruby
@@ -431,6 +466,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: w1AodsHYT_o
+  slug: lightning-talks-rubykaigi-2024
   language: Japanese
   description: ""
   speakers:
@@ -536,6 +572,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 26sbpaGbU-0
+  slug: ruby-committers-and-the-world-rubykaigi-2024
   language: Japanese
   description: ""
 - title: YJIT Makes Rails 1.7x Faster
@@ -547,6 +584,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: osK8F__0FVI
+  slug: yjit-makes-rails-1-7x-faster
   language: English
   description: ""
   slides_url: https://speakerdeck.com/k0kubun/rubykaigi-2024
@@ -559,6 +597,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 6SLUW2PEoZY
+  slug: how-to-implement-a-rubyvm-with-php
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/memory1994/how-to-implement-a-rubyvm-with-php-rubykaigi2024
@@ -571,6 +610,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: LciYstdyuhc
+  slug: turning-cdn-edge-into-a-rack-web-server-with-ruby-wasm
   language: English
   description: ""
   slides_url: https://speakerdeck.com/remore/turning-cdn-edge-into-a-rack-web-server-with-ruby-dot-wasm
@@ -583,6 +623,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: dDvyYVjS5b0
+  slug: speeding-up-instance-variables-with-red-black-trees
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/tenderlove/speeding-up-instance-variables-in-ruby-3-dot-3
@@ -595,6 +636,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: QDnaY0quYp0
+  slug: using-modern-ruby-to-build-a-better-faster-homebrew
   language: English
   description: ""
   slides_url: https://speakerdeck.com/mikemcquaid/using-modern-ruby-to-build-a-better-faster-homebrew
@@ -607,6 +649,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: NXFRKetpF68
+  slug: jruby-10-ruby-3-3-on-the-modern-jvm
   language: English
   description: ""
   slides_url: https://speakerdeck.com/headius/jruby-10-ruby-3-dot-3-on-the-modern-jvm
@@ -619,6 +662,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 4NYBtwLqits
+  slug: erb-ancient-and-future
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/m_seki/erb-ancient-and-future
@@ -631,6 +675,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 8c7w7ecwGDc
+  slug: from-lalr-to-ielr-a-lrama-s-next-step
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/junk0612/from-lalr-to-ielr-a-lramas-next-step
@@ -643,6 +688,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: LvaX-3vvNMA
+  slug: ruby-and-the-world-record-pi-calculation
   language: English
   description: ""
   slides_url: https://speakerdeck.com/yuryu/ruby-and-the-world-record-pi-calculation
@@ -655,6 +701,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: yM1us32z-9I
+  slug: finding-and-fixing-memory-safety-bugs-in-c-with-asan
   language: English
   description: ""
   slides_url: https://docs.google.com/presentation/d/1pxadIOluKjlpuscaq4B3RBnD0mwy02v6Fp-2bt29QRU/edit#slide=id.g2d0dab1d345_0_3
@@ -667,6 +714,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: iiauZuJnqlA
+  slug: porting-mruby-c-for-the-snes-super-famicom
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/gedorinku/c-for-the-snes-super-famicom-rubykaigi-2024
@@ -679,6 +727,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: tfzAZiGGHvM
+  slug: ruby-mixology-101-adding-shots-of-php-elixir-and-more
   language: English
   description: ""
   slides_url: https://speakerdeck.com/palkan/rubykaigi-2024-ruby-mixology-101-adding-shots-of-php-elixir-and-more
@@ -691,6 +740,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: kaN1NqhL7VI
+  slug: make-your-own-regex-engine
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/makenowjust/rubykaigi-2024-make-your-own-regex-engine
@@ -703,6 +753,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: PDTz9QOHBFo
+  slug: using-ruby-in-the-browser-is-wonderful
   language: Japanese
   description: ""
   slides_url: https://speakerdeck.com/ledsun/using-ruby-in-the-browser-is-wonderful
@@ -715,6 +766,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: qhp04EwmIjo
+  slug: the-state-of-ruby-dev-tooling
   language: English
   description: ""
   slides_url: https://speakerdeck.com/vinistock/the-state-of-ruby-tooling
@@ -727,6 +779,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ixVjrn-b1K0
+  slug: keynote-better-ruby
   language: Japanese
   description: ""
   slides_url: https://rubykaigi.org/2024/data/BetterRuby.pdf

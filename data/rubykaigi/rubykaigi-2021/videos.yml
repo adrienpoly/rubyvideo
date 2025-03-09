@@ -14,6 +14,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 0yZ2fle1zTo
+  slug: how-to-develop-the-standard-libraries-of-ruby
   language: Japanese
   description: |-
     I maintain the RubyGems, Bundler and the standard libraries of the Ruby language. So, I've been extract many of the standard libraries to default gems and GitHub at Ruby 3.0. But the some of libraries still remains in only Ruby repository. I will describe these situation.
@@ -30,6 +31,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: zfuYguzvlbg
+  slug: toycol-define-your-own-application-protocol
   language: Japanese
   description: |-
     TCP/IP is the protocol stack where each layer is independent.
@@ -48,6 +50,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: hkDZCFBlD5Q
+  slug: do-regex-dream-of-turing-completeness
   language: English
   description: |-
     We're used to using Regular Expressions every day for pattern matching and text replacement, but... What can Regexes actually do? How far can we push them? Can we implement actual logic with them?
@@ -66,6 +69,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: QDbj4Y0E5xo
+  slug: optimizing-partial-backtraces-in-ruby-3
   language: English
   description: |-
     Backtraces are very useful tools when debugging problems in Ruby programs. Unfortunately, backtrace generation is expensive for deep callstacks. In older versions of Ruby, this is true even if you only want a partial backtrace, such as a single backtrace frame. Thankfully, Ruby 3 has been optimized so that it no longer processes unnecessary backtrace frames, which can greatly speed up the generation of partial backtraces. Join me for an interesting look a Ruby backtraces, how they are generated, how we optimized partial backtraces in Ruby 3, and how we fixed bugs in the optimization in 3.0.1.
@@ -81,6 +85,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: kkXKHPRxeyM
+  slug: druby-in-the-real-world-embedded-systems
   language: Japanese
   description: |-
     Masatoshi SEKI @seki
@@ -98,6 +103,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: IqZW3i7HbmY
+  slug: it-is-time-to-build-your-mruby-vm-on-the-microcontroller
   language: English
   description: |-
     In 2020, I find a mini-arcade maker product that uses ESP8622 and MicroPython. Since I know the mruby/c can run on the ESP32 but it doesn't support running on the ESP8622. Is it possible to implement our own mruby VM and execute Ruby on any microcontroller we want to use it? This talk will show my progress to run a simple mruby script on the ESP8622 by implementing my own small mruby VM.
@@ -112,6 +118,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bLzUiOm97Ps
+  slug: regular-expressions-amazing-and-dangerous
   language: English
   description: |-
     Many Ruby programmers use regular expressions frequently. They are an amazingly powerful tool for many different kinds of text processing. However, if not used carefully, they can also be dangerous: They may not exactly match what their writer thinks they match, and they may execute very slowly on certain inputs. This talk will help you understand regular expressions better, so that you can make good use of their amazing power while avoiding their dangerous sides. It will also discuss recent changes to Ruby in the area of regular expressions.
@@ -127,6 +134,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 7C3bdT6Ri2Q
+  slug: variable-width-allocation-optimizing-ruby-s-memory-layout
   language: English
   description: |-
     Peter Zhu @peterzhu2118
@@ -144,6 +152,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Jg8PY00HDnA
+  slug: 10-years-of-ruby-powered-citizen-science
   language: English
   description: |-
     In the wake of the 2011 Tohoku earthquake and tsunami, people were worried for their safety. Safecast answered that call and went on to the largest open radiation database in the world.
@@ -160,6 +169,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: PBVLf3yfMs8
+  slug: yjit-building-a-new-jit-compiler-inside-cruby
   language: English
   description: |-
     YJIT, an open source project led by a small team of developers at Shopify to incrementally build a new JIT compiler inside CRuby. Key advantages are that our compiler delivers very fast warm up, and we have complete, fine-grained control over the entire code generation pipeline. In this talk, I present the approach we are taking to implement YJIT and discuss early performance results. The talk will conclude with a discussion of what steps can be taken to unlock higher levels of performance for all JIT compilers built inside CRuby, be it YJIT, MJIT or any future JIT compiler efforts.
@@ -174,6 +184,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: xLeLW-p43bc
+  slug: graphical-terminal-user-interface-of-ruby-3-1
   language: English
   description: |-
     The IRB shipped with Ruby 3.1 provides a dialog window feature on the terminal to achieve autocomplete. This is implemented as a new feature in Reline, which displays a dialog in an interactive user input interface at any time you want.
@@ -190,6 +201,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: db3GHHllRyQ
+  slug: why-ruby-s-jit-was-slow
   language: English
   description: |-
     Japanese: https://youtu.be/rE5OucBHm18
@@ -208,6 +220,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: rE5OucBHm18
+  slug: why-ruby-s-jit-was-slow-rubykaigi-2021-takeout
   language: Japanese
   description: |-
     English: https://youtu.be/db3GHHllRyQ
@@ -226,6 +239,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: tfXiL5wDA6Q
+  slug: the-art-of-execution-control-for-ruby-s-debugger
   language: Japanese
   description: |-
     We introduce debug.gem (ruby/debug: Debugging functionality for Ruby), the fastest debugger for Ruby and how to make it.
@@ -250,6 +264,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: uNttp63ELoE
+  slug: keynote-typeprof-for-ide-enrich-dev-experience-without-annotations
   language: Japanese
   description: |-
     Ruby 3.0 comes bundled with TypeProf, a code analysis tool that doesn't require so many type annotations. Its primary goal is to create type signatures for existing Ruby programs and help users to apply some external type checkers like Steep. Since the release, we have made an effort to adapt TypeProf to an integrated development environment (IDE), which allows users to enjoy many features supported in an IDE, such as browsing method type signatures inferred on the fly, find definition, find references, error checking, etc. We demonstrate TypeProf for IDE, and present its roadmap.
@@ -264,6 +279,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: oktN_CbOJKc
+  slug: building-native-extensions-this-could-take-a-while
   language: English
   description: |-
     "Native gems" contain pre-compiled libraries for a specific machine architecture, removing the need to compile the C extension or to install other system dependencies. This leads to a much faster and more reliable installation experience for programmers.
@@ -280,6 +296,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: ijPE7k7iW8I
+  slug: parsing-ruby
   language: English
   description: |-
     Since Ruby's inception, there have been many different projects that parse Ruby code. This includes everything from development tools to Ruby implementations themselves. This talk dives into the technical details and tradeoffs of how each of these tools parses and subsequently understands your applications. After, we'll discuss how you can do the same with your own projects using the Ripper standard library. You'll see just how far we can take this library toward building useful development tools.
@@ -294,6 +311,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: qv4XniFPapQ
+  slug: ruby-archaeology
   language: English
   description: |-
     In 2009 _why tweeted: "programming is rather thankless. you see your works become replaced by superior works in a year. unable to run at all in a few more."
@@ -316,6 +334,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: RqwVEw-Rd5c
+  slug: keynote-the-future-shape-of-ruby-objects
   language: English
   description: |-
     TruffleRuby uses an optimisation called object shapes to optimise Ruby. It automatically learns and understands the layout and types, or the shape, of your objects as your code is running and optimises code to work better with those shapes. As the community tries to make MRI faster, it could be time to adopt object shapes there as well. We’ll talk about what TruffleRuby does, how it does it, and the benefits it achieves in practice.
@@ -330,6 +349,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Ms7_PrryvMM
+  slug: demystifying-dsls-for-better-analysis-and-understanding
   language: English
   description: |-
     The ability to create DSLs is one of the biggest strengths of Ruby. They allow us to write easy to use interfaces and reduce the need for boilerplate code. On the flip side, DSLs encapsulate complex logic which makes it hard for developers to understand what's happening under the covers.
@@ -346,6 +366,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bvFj6_dulSo
+  slug: parallel-testing-with-ractors-putting-cpus-to-work
   language: English
   description: |-
     Parallelizing tests is an opportune way of reducing the total runtime for a test suite. Rails achieves this by forking multiple separate workers that fetch tests from a queue. In Ruby 3, Ractors introduced new mechanisms for executing code in parallel. Can they be leveraged by a test framework? And how would that compare to current parallelization solutions?
@@ -362,6 +383,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: AwuSHC6j-48
+  slug: the-newsletter-of-rbs-updates
   language: Japanese
   description: |-
     I talk about the RBS updates between Ruby 3.0 and 3.1 in this talk.
@@ -378,6 +400,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: TR_3xFPCGO8
+  slug: ractor-s-speed-is-not-light-speed
   language: English
   description: |-
     Ractor is the new feature, introduced in Ruby 3.0, to run Ruby code on multiple CPU cores. But unfortunately, Ruby 3.0 is not fully ready for actual workloads. This session will show how we can improve web-app performance by Ractor, and what we have to do to run our web apps on Ractor.
@@ -393,6 +416,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: DYPCkR7Ngx8
+  slug: just-in-time-compiling-ruby-regexps-on-truffleruby
   language: English
   description: |-
     Benoit Daloze @eregon
@@ -410,6 +434,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: okXiuYiP2C4
+  slug: red-arrow-ruby-and-apache-arrow
   language: Japanese
   description: |-
     To use Ruby for data processing widely, Apache Arrow support is important.
@@ -436,6 +461,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: iHOWyQt4y-Q
+  slug: charty-statistical-data-visualization-in-ruby
   language: Japanese
   description: |-
     Have you ever thought it would be better to make stylish charts by Ruby for daily data visualization tasks that sometimes occur? I will make that wish come true! Using Charty, you can do it by Ruby.
@@ -452,6 +478,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: yJF5EKM_zPw
+  slug: rubocop-in-2021-stable-and-beyond
   language: Japanese
   description: |-
     RuboCop 1.0 stable version was released last year.
@@ -470,6 +497,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: oL_yxJN8534
+  slug: beware-the-dead-end
   language: English
   description: |-
     Nothing stops a program from executing quite as fast as a syntax error. After years of “unexpected end” in my dev life, I decided to “do” something about it. In this talk we'll cover lexing, parsing, and indentation informed syntax tree search that power that dead_end Ruby library.
@@ -484,6 +512,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: JvFCljZeF1w
+  slug: falling-down-from-freebsd
   language: Japanese
   description: |-
     Why I started mruby on YABM(Yet Another Bare Metal). I describe inside of mruby and how to use it. Also I talked about IoT use case.
@@ -498,6 +527,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: QQASprf5EGw
+  slug: keynote-beyond-ruby-3-0-rubykaigi-2021-takeout
   language: Japanese
   description: |-
     RubyKaigi Takeout 2021: https://rubykaigi.org/2021-takeout/presentations/yukihiro_matz.html
@@ -510,6 +540,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 5unMW_BAd4A
+  slug: prk-firmware-keyboard-is-essentially-ruby
   language: Japanese
   description: |-
     PRK Firmware is the world's first keyboard firmware framework in Ruby. You can write not only your own "keymap" in Ruby but also additional behavior by features of Ruby like open class system and Proc object.
@@ -528,6 +559,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: zQnN1pqK4FQ
+  slug: ruby-committers-vs-the-world-rubykaigi-2021-takeout
   language:
   description: |-
     Ruby core committers on stage!
@@ -542,6 +574,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 9da7QccHXV4
+  slug: ruby-ractor-quic
   language: Japanese
   description: |-
     From Ruby 3, a parallel processing mechanism called Ractor has been introduced. This has made it easy to implement safe parallel processing in Ruby. In addition, QUIC, which was announced by Google in 2013, standardized in May 2021, and will be used more and more in the future. In this presentation, I will explain what QUIC is, whether it is possible to implement a QUIC server and client with Ractor introduced in Ruby 3, and if so, why it is difficult or impossible.
@@ -556,6 +589,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 9PA6twS9Oq4
+  slug: dive-into-encoding
   language: Japanese
   description: |-
     Each Ruby String object has an encoding internally. Therefore, it can use a different encoding in the same application. It's very convenient. So, how does Ruby encode a String? What does it mean to have an encoding for each String? As they say, practice makes perfect, so I figured I could understand it by adding self-made encoding. This talk would like to try to add self-made encoding in Ruby and see how Ruby handles encodings.
@@ -570,6 +604,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: LIECErdtTDc
+  slug: crafting-exploits-tools-and-havoc-with-ruby
   language: English
   description: |-
     Can I use ruby to ...? Create Websites? Yes Create Applications? Yes Wreak havoc, write exploits, and hack stuff? Of course!
@@ -590,6 +625,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: qvaXv8exFFQ
+  slug: story-of-rucy-how-to-compile-a-bpf-binary-from-ruby
   language: English
   description: |-
     BPF is a technology used in Linux for packet filtering, tracing or access auditing. BPF has its own VM and set of opcodes.
@@ -612,6 +648,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: w2B99qYrkX8
+  slug: use-macro-all-the-time
   language: Japanese
   description: |-
     Ruby can get AST with RubyVM::AbstractSyntaxTree. I have implemented to convert AST into Ruby code. This will allow you to modify and execute Ruby code at AST level.
@@ -630,6 +667,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: b4ls7Y_vZMg
+  slug: include-prepend-in-refinements-should-be-prohibited
   language: Japanese
   description: |-
     include/prepend in refinements are often used to define the same set of methods in multiple refinements. However it should be prohibited because it has implementation difficulties such as https://bugs.ruby-lang.org/issues/17007 and https://bugs.ruby-lang.org/issues/17379, and tends to be misleading like https://bugs.ruby-lang.org/issues/17374.

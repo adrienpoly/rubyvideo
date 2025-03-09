@@ -12,6 +12,7 @@
   description: ""
   video_provider: youtube
   video_id: ApD-F65Vv-Q
+  slug: story-driven-development-the-next-generation-of-rails-functional-testing
 - title: "Archaeopteryx: A Ruby MIDI Generator"
   raw_title: "Archaeopteryx: A Ruby MIDI Generator by Giles Bowkett"
   speakers:
@@ -22,6 +23,7 @@
   description: ""
   video_provider: youtube
   video_id: 0XDawYp9mKY
+  slug: archaeopteryx-a-ruby-midi-generator
 - title: "Forbidden Fruit: A Test of Ruby's Parse Tree"
   raw_title: "Forbidden Fruit: A Test of Ruby's Parse Tree by Chris Wanstrath"
   speakers:
@@ -32,6 +34,7 @@
   description: ""
   video_provider: youtube
   video_id: DAoYufIKebU
+  slug: forbidden-fruit-a-test-of-ruby-s-parse-tree
 #
 # Lunch
 #
@@ -45,6 +48,7 @@
   description: ""
   video_provider: youtube
   video_id: L_z5oqPrDWY
+  slug: hurting-code-for-fun-and-profit
 - title: Collective Intelligence
   raw_title: Collective Intelligence by Paul Dix
   speakers:
@@ -55,6 +59,7 @@
   description: ""
   video_provider: youtube
   video_id: dNzA5Yygm5U
+  slug: collective-intelligence
 - title: Merb, All you need, nil you don't
   raw_title: Goruco 2008 Merb, All you need, nil you don't by Ezra Zygmuntowicz
   speakers:
@@ -65,6 +70,7 @@
   description: ""
   video_provider: youtube
   video_id: BqjPOC_ckG4
+  slug: merb-all-you-need-nil-you-don-t
 #
 # Break
 #
@@ -76,6 +82,7 @@
   description: ""
   video_provider: youtube
   video_id: W7TGK7f_IDM
+  slug: lightning-talks-rejectconf
   talks:
     - title: "Lightning Talk: Ryan Davis"
       event_name: GORUCO 2008

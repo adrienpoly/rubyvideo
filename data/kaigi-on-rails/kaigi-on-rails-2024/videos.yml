@@ -28,6 +28,7 @@
   language: english
   video_provider: youtube
   video_id: ZUtRyHeLq4M
+  slug: keynote-rails-way-or-the-highway
 - title: "Workshop: Rackを理解しRailsアプリケーション開発の足腰を鍛えよう"
   title_ja: "ワークショップ: Rackを理解しRailsアプリケーション開発の足腰を鍛えよう"
   raw_title: "ワークショップ: Rackを理解しRailsアプリケーション開発の足腰を鍛えよう"
@@ -110,6 +111,7 @@
   language: japanese
   video_provider: youtube
   video_id: 2Ier_yHAnq8
+  slug: rails
 - title: 推し活としてのrails new
   raw_title: 推し活としてのrails new / sakahukamaki - Kaigi on Rails 2024
   speakers:
@@ -140,6 +142,7 @@
   language: japanese
   video_provider: youtube
   video_id: SHZWrJwXq1w
+  slug: rails-new
 - title: そのカラム追加、ちょっと待って！カラム追加で増えるActiveRecordのメモリサイズ、イメージできますか?
   raw_title: そのカラム追加、ちょっと待って！カラム追加で増えるActiveRecordのメモリサイズ、イメージできますか? / Asayama Kodai - Kaigi on Rails 2024
   speakers:
@@ -175,6 +178,7 @@
   language: japanese
   video_provider: youtube
   video_id: CBUJ1L9OAmA
+  slug: activerecord
 - title: モノリスでも使える！OpenTelemetryでRailsアプリのパフォーマンス分析を始めてみよう
   raw_title: モノリスでも使える！OpenTelemetryでRailsアプリのパフォーマンス分析を始めてみよう / ymtdzzz - Kaigi on Rails 2024
   speakers:
@@ -205,6 +209,7 @@
   language: japanese
   video_provider: youtube
   video_id: KZMf1AveoDc
+  slug: opentelemetry-rails
 - title: Sidekiqで実現する長時間非同期処理の中断と再開
   raw_title: Sidekiqで実現する長時間非同期処理の中断と再開 / hypermkt - Kaigi on Rails 2024
   speakers:
@@ -268,6 +273,7 @@
   language: japanese
   video_provider: youtube
   video_id: AMWVsFtlkoU
+  slug: graphql-connection
 - title: cXML という電子商取引のトランザクションを支えるプロトコルと向きあっている話
   raw_title: cXML という電子商取引のトランザクションを支えるプロトコルと向きあっている話 / phigasui - Kaigi on Rails 2024
   speakers:
@@ -298,6 +304,7 @@
   language: japanese
   video_provider: youtube
   video_id: IOhHO2Eug4g
+  slug: cxml
 - title: "Unlocking the Power of JRuby: Migrating Rails Apps for Enhanced Performance and Versatility"
   title_ja: JRubyのパワーを解き放つ：パフォーマンスと多様性向上のためのRailsアプリ
   raw_title: JRubyのパワーを解き放つ：パフォーマンスと多様性向上のためのRailsアプリ / Owaru Ryudo - Kaigi on Rails 2024
@@ -326,6 +333,7 @@
   language: english
   video_provider: youtube
   video_id: 7-vksWCWS3s
+  slug: unlocking-the-power-of-jruby-migrating-rails-apps-for-enhanced-performance-and-versatility
 - title: リリース8年目のサービスの1800個のERBファイルをViewComponentに移行した方法とその結果
   raw_title: リリース8年目のサービスの1800個のERBファイルをViewComponentに移行した方法とその結果 / Naoyuki Kataoka - Kaigi on Rails 2024
   speakers:
@@ -359,6 +367,7 @@
   language: japanese
   video_provider: youtube
   video_id: HHP1kotYqww
+  slug: 8-1800-erb-viewcomponent
 - title: ActionCableなら簡単? 生成 AIの応答をタイピングアニメーションで表示。実装、コスト削減、テスト、運用まで。
   raw_title: ActionCableなら簡単? 生成 AIの応答をタイピングアニメーションで表示。実装、コスト削減、テスト、運用まで。 / kaiba - Kaigi on Rails 2024
   speakers:
@@ -391,6 +400,7 @@
   language: japanese
   video_provider: youtube
   video_id: VEZu2iLpXbo
+  slug: actioncable-ai
 - title: Rails APIモードのためのシンプルで効果的なCSRF対策
   raw_title: Rails APIモードのためのシンプルで効果的なCSRF対策 / corocn - Kaigi on Rails 2024
   speakers:
@@ -417,6 +427,7 @@
   language: japanese
   video_provider: youtube
   video_id: t-X6n2k6d2A
+  slug: rails-api-csrf
 - title: 現実のRuby/Railsアップグレード
   raw_title: 現実のRuby/Railsアップグレード / Yuichi Takeuchi - Kaigi on Rails 2024
   speakers:
@@ -453,6 +464,7 @@
   language: japanese
   video_provider: youtube
   video_id: zil0umJ1af0
+  slug: ruby-rails
 - title: デプロイを任されたので、教わった通りにデプロイしたら障害になった件 〜俺のやらかしを越えてゆけ〜
   raw_title: デプロイを任されたので、教わった通りにデプロイしたら障害になった件 〜俺のやらかしを越えてゆけ〜 / izumitomo - Kaigi on Rails 2024
   speakers:
@@ -490,6 +502,7 @@
   language: japanese
   video_provider: youtube
   video_id: w0fqxSbo3yg
+  slug: kaigi-on-rails-2024
 - title: Hotwire or React? 〜Reactの録画機能をHotwireに置き換えて得られた知見〜
   raw_title: Hotwire or React? 〜Reactの録画機能をHotwireに置き換えて得られた知見〜 / Haruna Tsujita - Kaigi on Rails 2024
   speakers:
@@ -544,6 +557,7 @@
   language: japanese
   video_provider: youtube
   video_id: yrVIgFgjQ-Q
+  slug: capybara-ai
 #
 ## Day 2 - 2024-10-26
 #
@@ -580,6 +594,7 @@
   language: japanese
   video_provider: youtube
   video_id: VOeu7s5ifQQ
+  slug: rdbms
 - title: 都市伝説バスターズ「WebアプリのボトルネックはDBだから言語の性能は関係ない」
   raw_title: 都市伝説バスターズ「WebアプリのボトルネックはDBだから言語の性能は関係ない」 / Daisuke Aritomo (osyoyu) - Kaigi on Rails 2024
   speakers:
@@ -612,6 +627,7 @@
   language: japanese
   video_provider: youtube
   video_id: Ck3g4pIH9u0
+  slug: web-db
 - title: "Cache to Your Advantage: フラグメントキャッシュの基本と応用"
   raw_title: "Cache to Your Advantage: フラグメントキャッシュの基本と応用 / Toru Kawamura - Kaigi on Rails 2024"
   speakers:
@@ -639,6 +655,7 @@
   language: japanese
   video_provider: youtube
   video_id: 35ruNxFJGKw
+  slug: cache-to-your-advantage
 - title: ActiveRecord SQLインジェクションクイズ (Rails 7.1.3.4)
   raw_title: ActiveRecord SQLインジェクションクイズ (Rails 7.1.3.4) / Koji NAKAMURA - Kaigi on Rails 2024
   speakers:
@@ -669,6 +686,7 @@
   language: japanese
   video_provider: youtube
   video_id: jewA8tnPO-4
+  slug: activerecord-sql-rails-7-1-3-4
 - title: 推し活のハイトラフィックに立ち向かうRailsとアーキテクチャ
   raw_title: 推し活のハイトラフィックに立ち向かうRailsとアーキテクチャ / Hayato OKUMOTO - Kaigi on Rails 2024
   speakers:
@@ -697,6 +715,7 @@
   language: japanese
   video_provider: youtube
   video_id: SYEBAEPV0tk
+  slug: rails-kaigi-on-rails-2024
 - title: OmniAuthから学ぶOAuth 2.0
   raw_title: OmniAuthから学ぶOAuth 2.0 / ykpythemind - Kaigi on Rails 2024
   speakers:
@@ -722,6 +741,7 @@
   language: japanese
   video_provider: youtube
   video_id: LDfefPahOYA
+  slug: omniauth-oauth-2-0
 - title: 入門『状態』
   raw_title: 入門『状態』 / しんくう - Kaigi on Rails 2024
   speakers:
@@ -781,6 +801,7 @@
   language: japanese
   video_provider: youtube
   video_id: AF-2CZma30M
+  slug: 9000-50-10-flaky-1
 - title: Hotwire光の道とStimulus
   raw_title: Hotwire光の道とStimulus / Yasuko Ohba (nay3)  - Kaigi on Rails 2024
   speakers:
@@ -838,6 +859,7 @@
   language: japanese
   video_provider: youtube
   video_id: 6Z5c-cKvFwQ
+  slug: sidekiq-vs-solid-queue
 - title: The One Person Framework 実践編
   raw_title: The One Person Framework 実践編 / asonas - Kaigi on Rails 2024
   speakers:
@@ -867,6 +889,7 @@
   language: japanese
   video_provider: youtube
   video_id: mBw5qcXmWEo
+  slug: the-one-person-framework
 - title: Importmapを使ったJavaScriptの読み込みとブラウザアドオンの影響
   raw_title: Importmapを使ったJavaScriptの読み込みとブラウザアドオンの影響 / shu_numata - Kaigi on Rails 2024
   speakers:
@@ -897,6 +920,7 @@
   language: japanese
   video_provider: youtube
   video_id: Yig0CKOOekQ
+  slug: importmap-javascript
 - title: Data Migration on Rails
   raw_title: Data Migration on Rails / ohbarye - Kaigi on Rails 2024
   speakers:
@@ -925,6 +949,7 @@
   language: japanese
   video_provider: youtube
   video_id: 8WgXr7lvU7c
+  slug: data-migration-on-rails
 - title: Tuning GraphQL on Rails
   raw_title: Tuning GraphQL on Rails / Kazuhiko Yamashita - Kaigi on Rails 2024
   speakers:
@@ -950,6 +975,7 @@
   language: japanese
   video_provider: youtube
   video_id: CcMEBD-C7f0
+  slug: tuning-graphql-on-rails
 - title: 30万人が利用するチャットをFirebase Realtime DatabaseからActionCableへ移行する方法
   raw_title: 30万人が利用するチャットをFirebase Realtime DatabaseからActionCableへ移行する方法 / Ryosuke Uchida - Kaigi on Rails 2024
   speakers:
@@ -980,6 +1006,7 @@
   language: japanese
   video_provider: youtube
   video_id: AASwXXBKFJU
+  slug: 30-firebase-realtime-database-actioncable
 - title: 大事なデータを守りたい！ActiveRecord Encryptionと、より安全かつ検索可能な暗号化手法の実装例の紹介
   raw_title: 大事なデータを守りたい！ActiveRecord Encryptionと、より安全かつ検索可能な暗号化手法の実装例の紹介 / 小林悟史（小林ノエル） - Kaigi on Rails 2024
   speakers:
@@ -1014,6 +1041,7 @@
   language: japanese
   video_provider: youtube
   video_id: H1QxWUo3Kbs
+  slug: activerecord-encryption
 - title: サイロ化した金融システムを、packwerk を利用して無事故でリファクタリングした話
   raw_title: サイロ化した金融システムを、packwerk を利用して無事故でリファクタリングした話 / Kota Kusama - Kaigi on Rails 2024
   speakers:
@@ -1042,6 +1070,7 @@
   language: japanese
   video_provider: youtube
   video_id: 1e96QDE3dO0
+  slug: packwerk
 - title: omakaseしないためのrubocop.yml のつくりかた
   raw_title: omakaseしないためのrubocop.yml のつくりかた / Shu Oogawara - Kaigi on Rails 2024
   speakers:
@@ -1070,6 +1099,7 @@
   language: japanese
   video_provider: youtube
   video_id: ZFpL3-RdUys
+  slug: omakase-rubocop-yml
 - title: Identifying User Identity
   raw_title: Identifying User Identity / MOROHASHI Kyosuke - Kaigi on Rails 2024
   speakers:
@@ -1098,6 +1128,7 @@
   language: japanese
   video_provider: youtube
   video_id: 55JgSAIivPk
+  slug: identifying-user-identity
 - title: "Type on Rails: Railsアプリケーションの安全性と開発体験を型で革新する"
   raw_title: "Type on Rails: Railsアプリケーションの安全性と開発体験を型で革新する / kazzix - Kaigi on Rails 2024"
   speakers:
@@ -1124,6 +1155,7 @@
   language: japanese
   video_provider: youtube
   video_id: Y8aoAB0DBBI
+  slug: type-on-rails-rails
 - title: "Keynote: WHOLENESS, REPAIRING, AND TO HAVE FUN: 全体性、修復、そして楽しむこと"
   raw_title: "WHOLENESS, REPAIRING, AND TO HAVE FUN: 全体性、修復、そして楽しむこと / 島田浩二 - Kaigi on Rails 2024"
   speakers:
@@ -1150,3 +1182,4 @@
   language: japanese
   video_provider: youtube
   video_id: ilFyT5AJpv4
+  slug: keynote-wholeness-repairing-and-to-have-fun

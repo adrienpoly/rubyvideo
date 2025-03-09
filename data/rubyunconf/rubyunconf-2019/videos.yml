@@ -15,6 +15,7 @@
   description: ""
   video_provider: youtube
   video_id: I9aip9qoXew
+  slug: keynote-progress-ruby-unconf-2019
 #
 # emacs Track
 #
@@ -28,6 +29,7 @@
   description: ""
   video_provider: youtube
   video_id: bNg6zMiOOR8
+  slug: death-laughter-extreme-programming
 #
 # vim Track
 #
@@ -41,6 +43,7 @@
   description: ""
   video_provider: youtube
   video_id: cQPTF7zERvk
+  slug: a-brief-introduction-of-kubernetes
 #
 # emacs Track
 #
@@ -54,6 +57,7 @@
   description: ""
   video_provider: youtube
   video_id: ojW-q_wiSn8
+  slug: compiling-ruby-to-binary
 #
 # vim Track
 #
@@ -67,6 +71,7 @@
   description: ""
   video_provider: youtube
   video_id: jRByM1rZLXM
+  slug: settings-a-clean-way-to-handle-custom-configuration-values
 #
 # emacs Track
 #
@@ -80,6 +85,7 @@
   description: ""
   video_provider: youtube
   video_id: OY5AeGhgK7I
+  slug: easily-create-interactive-uis-in-pure-ruby
 #
 # vim Track
 #
@@ -93,6 +99,7 @@
   description: ""
   video_provider: youtube
   video_id: mJkzMoEd_Wo
+  slug: length-7
 #
 # emacs Track
 #
@@ -106,6 +113,7 @@
   description: ""
   video_provider: youtube
   video_id: 6gOV6WbvksQ
+  slug: building-resilient-api-dependency
 #
 # vim Track
 # Missing discussion: Fishbowl Discussion: Estimates? No Estimates? - by Tina
@@ -121,6 +129,7 @@
   description: ""
   video_provider: youtube
   video_id: YAZC8NEJQ_w
+  slug: why-soft-skills-matter-in-software-development
 #
 # vim Track
 #
@@ -134,6 +143,7 @@
   description: ""
   video_provider: youtube
   video_id: XSrYfXDoXNc
+  slug: open-source-nightmare
 #
 # emacs Track
 #
@@ -147,6 +157,7 @@
   description: ""
   video_provider: youtube
   video_id: Rg5nPwgIo90
+  slug: functional-programming-in-ruby
 #
 # vim Track
 # Missing discussion: Fishbowl Discussion: Freelance Tools/Setup - by Ramon
@@ -163,6 +174,7 @@
   description: ""
   video_provider: youtube
   video_id: 5FUrNaoEImI
+  slug: how-do-i-review-the-code
 #
 # vim Track
 #
@@ -176,6 +188,7 @@
   description: ""
   video_provider: youtube
   video_id: m3HpNs-_MVI
+  slug: rust-for-rubyists-and-rubyists-for-rust
 #
 # emacs Track
 #
@@ -189,6 +202,7 @@
   description: ""
   video_provider: youtube
   video_id: AFw9__q0Weg
+  slug: i-can-t-believe-it-s-not-an-attribute
 #
 # vim Track
 #
@@ -202,6 +216,7 @@
   description: ""
   video_provider: youtube
   video_id: "-fVabmi8C-I"
+  slug: search_flip-full-featured-elasticsearch-ruby-client
 #
 # emacs Track
 #
@@ -215,6 +230,7 @@
   description: ""
   video_provider: youtube
   video_id: lGDETbe0b6w
+  slug: attacking-own-apis-to-find-security-bugs
 #
 # vim Track
 #
@@ -228,6 +244,7 @@
   description: ""
   video_provider: youtube
   video_id: HqzSLVOwdnY
+  slug: rails-slim-an-introduction
 #
 # emacs Track
 #
@@ -241,6 +258,7 @@
   description: ""
   video_provider: youtube
   video_id: ghs6uoPAuMQ
+  slug: how-to-hijack-proxy-and-smuggle-sockets-with-rack-ruby
 #
 # vim Track
 #
@@ -254,6 +272,7 @@
   description: ""
   video_provider: youtube
   video_id: mQignvxjVXY
+  slug: component-based-rails-applications
 #
 # emacs Track
 #
@@ -267,6 +286,7 @@
   description: ""
   video_provider: youtube
   video_id: JHY3EstvTkM
+  slug: lightning-talk-tracking-your-professional-life
 #
 # emacs Track
 #
@@ -280,6 +300,7 @@
   description: ""
   video_provider: youtube
   video_id: L7NGTA00nVA
+  slug: lightning-talk-price-explorer-bringing-transparency
 #
 # emacs Track
 #
@@ -293,6 +314,7 @@
   description: ""
   video_provider: youtube
   video_id: w-D4J9RYDKA
+  slug: lightning-talk-keep-calm-and-stay-in-voip-context
 #
 # emacs Track
 #
@@ -306,6 +328,7 @@
   description: ""
   video_provider: youtube
   video_id: YA_Svfd436I
+  slug: lightning-talk-get-the-most-out-of-your-postgres-instance-with-pghero
 #
 # emacs Track
 #
@@ -319,6 +342,7 @@
   description: ""
   video_provider: youtube
   video_id: i0BYyKSFkG8
+  slug: lightning-talk-organizing-ourselves
 #
 # emacs Track
 #
@@ -332,6 +356,7 @@
   description: ""
   video_provider: youtube
   video_id: 7rSfgAn8auA
+  slug: lightning-talk-creating-the-perfect-slide-deck-in-5-minutes
 #
 # emacs Track
 #
@@ -345,6 +370,7 @@
   description: ""
   video_provider: youtube
   video_id: a_M7WsUdquk
+  slug: lightning-talk-go-the-programming-language-not-the-game
 #
 # emacs Track
 #
@@ -358,6 +384,7 @@
   description: ""
   video_provider: youtube
   video_id: FF7Il5T3MKQ
+  slug: lightning-talk-implementation-of-the-language-josef-in-ruby
 #
 # emacs Track
 #
@@ -371,6 +398,7 @@
   description: ""
   video_provider: youtube
   video_id: mmdLC_K8JyE
+  slug: lightning-talk-turning-web-servers-into-workers
 #
 # emacs Track
 #
@@ -384,3 +412,4 @@
   description: ""
   video_provider: youtube
   video_id: TPy7LqZrLHQ
+  slug: lightning-talk-working-remotely-martians-style

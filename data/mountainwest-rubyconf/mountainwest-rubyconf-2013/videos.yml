@@ -15,6 +15,7 @@
   description: ""
   video_provider: youtube
   video_id: vyIKQlRz0FA
+  slug: work-play-code
 - title: "Hell Has Frozen Over: DevOps & Security"
   raw_title: "MountainWest RubyConf 2013 Hell Has Frozen Over: DevOps & Security by James Turnbull"
   speakers:
@@ -32,6 +33,7 @@
     You'll see how DevOps and Security can have a long and prosperous friendship that makes more awesome.
   video_provider: youtube
   video_id: SsQF6zqzHKw
+  slug: hell-has-frozen-over-devops-security
 - title: Keep Ops Happy, Designing for Production
   raw_title: MountainWest RubyConf 2013 Keep Ops Happy, Designing for Production by Jason Roelofs
   speakers:
@@ -44,6 +46,7 @@
     This talk will go over steps developers can take to protect against common production errors as well as more advanced techniques to keep your application running smoothly over the long term.
   video_provider: youtube
   video_id: n7mtYj3dHt4
+  slug: keep-ops-happy-designing-for-production
 - title: "Boxen: How to Manage an Army of Laptops and Live to Talk About It"
   raw_title: "MountainWest RubyConf 2013 Boxen: How to Manage an Army of Laptops and Live to Talk About It"
   speakers:
@@ -59,6 +62,7 @@
     We've since released Boxen (as of January 2013) and other organizations are using it to great success. This talk explores our design choices with Boxen, how we use Boxen internally, our recommended design patterns for managing Boxen-driven automation, and some new goodies coming down the pipeline for Boxen.
   video_provider: youtube
   video_id: 4PDNK-eWjG4
+  slug: boxen-how-to-manage-an-army-of-laptops-and-live-to-talk-about-it
 - title: "Escalating Complexity: DevOps Learnings From Air France 447"
   raw_title: "MountainWest RubyConf 2013 Escalating complexity: DevOps learnings from Air France 447"
   speakers:
@@ -76,6 +80,7 @@
     In this talk Lindsay will cover what happened on the flight, why the mainstream explanation doesn't add up, how design assumptions can impact people's ability to respond to rapidly developing situations, and how to improve your operational effectiveness when dealing with rapidly developing failure scenarios.
   video_provider: youtube
   video_id: WqxzpGJbzmI
+  slug: escalating-complexity-devops-learnings-from-air-france-447
 - title: "Migrating a Live Site Across The Country Without Downtime"
   raw_title: MountainWest RubyConf 2013 Migrating a live site across the country without downtime
   speakers:
@@ -98,6 +103,7 @@
     And most importantly, how we addressed every one! I'll demonstrate how we rebuilt our entire infrastructure platform from the ground up: New system images with all new cookbooks that were deployed into our existing operation without any interruption. Finally, I'll discuss testing our stack and how we replicate it among various environments and plan for future expansion.
   video_provider: youtube
   video_id: 3YqBeWjaaPM
+  slug: migrating-a-live-site-across-the-country-without-downtime
 - title: The Many Ways to Deploy Continuously
   raw_title: MountainWest RubyConf 2013 The Many Ways to Deploy Continuously by Paul  Biggar
   speakers:
@@ -110,6 +116,7 @@
     This talk compares and contrasts different kinds of continuous deployment strategies. Implementation, requirements, tradeoffs will be covered. Case-studies, examining different strategies practiced at companies such as Facebook, GitHub, IMVU, Heroku and CircleCI.
   video_provider: youtube
   video_id: 9wgsDosgWhE
+  slug: the-many-ways-to-deploy-continuously
 - title: TDDing tmux
   raw_title: MountainWest RubyConf 2013 TDDing tmux by Seth Vargo
   speakers:
@@ -121,6 +128,7 @@
     You want to test your cookbooks? Cool. Where do you start? In this talk, I'll walk you through step-by-step the process for executing test-driven development on a cookbook. From real-time feedback with guard and terminal-notifier, to chefspec, fauxhai, and foodcritic, quickly learn how to apply both basic and advanced tests in your infrastructure.
   video_provider: youtube
   video_id: ZC91gZv-Uao
+  slug: tdding-tmux
 - title: You Should Be On Call, too
   raw_title: MountainWest RubyConf 2013 You Should Be On Call, too by Joshua Timberman
   speakers:
@@ -134,6 +142,7 @@
     In this talk, I'll discuss some companies that have successfully implemented developers on call" policies and what that means. I'll also discuss the business value, why it matters, and how it helps create a collaborative culture of sharing.
   video_provider: youtube
   video_id: ac_M_7jZAwc
+  slug: you-should-be-on-call-too
 - title: ChatOps at GitHub
   raw_title: MountainWest RubyConf 2013 ChatOps at GitHub by Jesse Newland
   speakers:
@@ -145,6 +154,7 @@
     Ops at GitHub has a unique challenge - keeping up with the rabid pace of features and products that the GitHub team develops. In this talk, we'll focus on tools and techniques we use to rapidly and confidently ship infrastructure changes using Campfire and Hubot as our primary interface, and the benefits we've seen from this approach.
   video_provider: youtube
   video_id: "-LxavzqLHj8"
+  slug: chatops-at-github
 - title: "Keynote: Ruby 2.0"
   raw_title: MountainWest RubyConf 2013 Ruby 2.0 by Yukihiro 'Matz' Matsumoto
   speakers:
@@ -155,6 +165,7 @@
   description: ""
   video_provider: youtube
   video_id: zQvmgN-0imY
+  slug: keynote-ruby-2-0
 - title: "Code Smells: Your Refactoring Cheat Codes"
   raw_title: "MountainWest RubyConf 2013 Code Smells: Your Refactoring Cheat Codes by John Pignata"
   speakers:
@@ -167,6 +178,7 @@
     Whether we're working with code we just wrote or opening up a project for the first time, being able to listen to the hints the code is trying to give you about how it wants to be constructed is the most direct path toward successful refactoring. What the code is telling you nuanced however: no code smell is absolute and none in itself is an indication of a problem. How do we know we need to refactor? What are the code smells telling us to do? How do we balance our short terms needs of shipping our software with the long term maintainability of the code base? In this talk we'll talk through some of the classical code smells and dive into examples of how to put these smells to work for you.
   video_provider: youtube
   video_id: q_qdWuCAkd8
+  slug: code-smells-your-refactoring-cheat-codes
 - title: Immutable Ruby
   raw_title: MountainWest RubyConf 2013 Immutable Ruby by Michael Fairley
   speakers:
@@ -179,6 +191,7 @@
     This talk answers the question ""why immutability?"", covers the building blocks of immutable code, such as value objects and persistent data structures, as well as higher order concepts that make heavy use of immutability, such as event sourcing and pure functions, and finally discusses the tradeoffs involved in going immutable.
   video_provider: youtube
   video_id: VnC_JccUPkw
+  slug: immutable-ruby
 - title: Going on a Testing Anti-Pattern Safari
   raw_title: MountainWest RubyConf 2013 Going on a Testing Anti-Pattern Safari by Aja Hammerly
   speakers:
@@ -190,6 +203,7 @@
     Wild test suites often contain inefficient or ineffective tests. Working with a code base full of these beasts is frustrating and time consuming. This safari will help you identify and hunt down common testing anti-patterns. Afterwards you'll know how to approach a test suite full of beasts without losing your mind or your life.
   video_provider: youtube
   video_id: VBgySRk0VKY
+  slug: going-on-a-testing-anti-pattern-safari
 - title: "DIY::Thread.profile -- Light-Weight Profiling in Pure Ruby"
   raw_title: MountainWest RubyConf 2013 DIY::Thread.profile -- Light-Weight Profiling in Pure Ruby
   speakers:
@@ -206,6 +220,7 @@
     Along the way we'll expose gotchas and pitfalls of thread introspection on the many versions and implementations of Ruby. Based on experience implementing thread profiling for New Relic, we'll also touch on how to debug and work around problems when they come up
   video_provider: youtube
   video_id: sOJaGIP03As
+  slug: diy-thread-profile-light-weight-profiling-in-pure-ruby
 - title: Ruby Batteries Included
   raw_title: MountainWest RubyConf 2013 Ruby Batteries Included by Daniel Huckstep
   speakers:
@@ -217,6 +232,7 @@
     The ruby standard library is full of great code. It's also full of dragons. I'll show you some of fun parts, parts that you may not be using and may not even know about. I'll show you that you don't have to install everything on GitHub to build your application. I'll also look at some of nasty parts, and how to put a training collar on some of those dragons.
   video_provider: youtube
   video_id: BAfy3IgVpjY
+  slug: ruby-batteries-included
 - title: Ruby In My yard!
   raw_title: MountainWest RubyConf 2013 Ruby in my yard! by Corey Woodcox
   speakers:
@@ -230,6 +246,7 @@
     We'll take you on a quick tour of the automated sprinkler system world and the problems it has, and how we're solving them with Ruby, Raspberry Pi, and about 24V of DC power. We promise not to electrocute you, but we can't guarantee you won't get a little bit wet.
   video_provider: youtube
   video_id: Fxtr7UstV1g
+  slug: ruby-in-my-yard
 - title: Extending CRuby With Native Graph Data Type
   raw_title: MountainWest RubyConf 2013 Extending CRuby with native Graph data type by Andy Pliszka
   speakers:
@@ -241,6 +258,7 @@
     Reading of the CRuby source code can provide unparalleled insight into the Ruby language. During this talk we will add new native Graph data type to CRuby. The new Graph data structure will be simple but on par with other native types such as Array or Hash. This talk will demonstrate that it is easy to experiment with CRuby and extend it. We will also demonstrate the speed advantage of using C to boost Ruby performance. We will implement a few of the greatest hits of graph algorithms: Breath First Search, Dijkstra, and Minimum Spanning Tree.
   video_provider: youtube
   video_id: 0ZzGhHdWJnY
+  slug: extending-cruby-with-native-graph-data-type
 - title: "Ruby off the Rails: Building a Distributed System in Ruby"
   raw_title: "MountainWest RubyConf 2013 Ruby off the Rails: Building a distributed system in Ruby"
   speakers:
@@ -255,6 +273,7 @@
     Devops Borat said "is turtle all way down but at bottom is perl script, but in the case of Cloud Foundry there's Ruby at the bottom. Rails is the right choice for building a web site, but the elegance of ruby can be applied to many other things including a Platform as a Service. A full deploy of Cloud Foundry requires many different kinds of nodes, with multiple Sinatra apps, event machine based daemons, shared ruby gems, and small amounts of code in other languages like Lua, Go and C where it makes sense. I'd like to take you on a tour of an open source codebase and project that really shows where you can go with Ruby.
   video_provider: youtube
   video_id: G1VAjiesXio
+  slug: ruby-off-the-rails-building-a-distributed-system-in-ruby
 - title: Adventures in Paranoia with Sinatra and Sequel
   raw_title: MountainWest RubyConf 2013 Adventures in Paranoia with Sinatra and Sequel by Eleanor McHugh
   speakers:
@@ -269,6 +288,7 @@
     The discussion will be backed by code examples inspired by real-world systems.
   video_provider: youtube
   video_id: entIQBaOTqA
+  slug: adventures-in-paranoia-with-sinatra-and-sequel
 - title: Trolls of 2013
   raw_title: MountainWest RubyConf 2013 Trolls of 2013 by Ryan Davis
   speakers:
@@ -279,6 +299,7 @@
   description: ""
   video_provider: youtube
   video_id: r1JMxJ06I98
+  slug: trolls-of-2013
 - title: Pounding Simplicity into Wiki
   raw_title: MountainWest RubyConf 2013 Pounding Simplicity into Wiki by Ward Cunningham
   speakers:
@@ -292,6 +313,7 @@
     My quest has been to make knowing and using data an everyday thing. This means the study of data must be an everyday thing too. To this end I've pushed visualization, I've pushed domain specific markups, I've pushed streaming measurements. But through this I've retained wiki's greatest strength: the ability to create with those who we have just met and don't yet have reason to trust. Finding trust on the modern web may be this year's biggest accomplishment.
   video_provider: youtube
   video_id: mAM4_MUiCZQ
+  slug: pounding-simplicity-into-wiki
 - title: Think Twice, Code Once
   raw_title: MountainWest RubyConf 2013 Think twice, code once by Bill Chapman
   speakers:
@@ -303,6 +325,7 @@
     The basic premise is that we should be spending significantly more time thinking than we do programming and there are wide reaching ramifications to this point. Subtleties in how our non programming coworkers perceive some of us wandering around the office pacing or arguing at the white board are all to be covered as well as discussing the body of research that supports the ideas behind thinking more and working less.
   video_provider: youtube
   video_id: Kiox36WH_lc
+  slug: think-twice-code-once
 - title: Ruby at GitHub
   raw_title: MountainWest RubyConf 2013 Ruby at GitHub by Brandon Keepers
   speakers:
@@ -315,6 +338,7 @@
     In this talk, we will look at the libraries, practices and conventions that GitHub uses with Ruby. We will survey all of the repositories maintained by GitHub to get insight into how it is used, and we will also examine some of the areas where we opt to not use Ruby.
   video_provider: youtube
   video_id: 5vUD9Zg7gp0
+  slug: ruby-at-github
 - title: Testing HTTP APIs with Ruby
   raw_title: MountainWest RubyConf 2013 Testing HTTP APIs with Ruby by Shai Rosenfeld
   speakers:
@@ -327,6 +351,7 @@
     I'll run through some approaches and problems I've come across developing server/client HTTP APIs while developing in a highly distributed systems setup at Engine Yard.
   video_provider: youtube
   video_id: Bz0KrmCrhIY
+  slug: testing-http-apis-with-ruby
 - title: Postgres Demystified
   raw_title: MountainWest RubyConf 2013 Postgres Demystified by Craig Kerstiens
   speakers:
@@ -344,6 +369,7 @@
     Window Functions
   video_provider: youtube
   video_id: 3TnVl97ZZL8
+  slug: postgres-demystified
 - title: Component-based Architectures in Ruby and Rails
   raw_title: MountainWest RubyConf 2013 Component-based Architectures in Ruby and Rails by Stephan Hagemann
   speakers:
@@ -356,6 +382,7 @@
     Ruby makes it a bit hard to do packages right: you really can't hide anything. Rails doesn't want you to do it. I don't care. We'll do it anyways and it will be awesome!
   video_provider: youtube
   video_id: "-54SDanDC00"
+  slug: component-based-architectures-in-ruby-and-rails
 - title: Lightning Talks
   raw_title: MountainWest RubyConf 2013 Lightning Talks
   event_name: MountainWest RubyConf 2013
@@ -364,6 +391,7 @@
   description: ""
   video_provider: youtube
   video_id: XYk1YkCRuKQ
+  slug: lightning-talks-mountainwest-rubyconf-2013
   talks:
     - title: "Lightning Talk: MountainWest RubyConf 5k"
       start_cue: "00:20"
@@ -448,6 +476,7 @@
     I want to share my story - and let people know that it's okay to talk about these things, that it's nothing to be ashamed of, and how to get help, and how to help those around them.
   video_provider: youtube
   video_id: yFIa-Mc2KSk
+  slug: devs-and-depression
 - title: "Why We Need DevOps Now: A Fourteen Year Study Of High Performing IT Organizations"
   raw_title: "MountainWest RubyConf 2013 Why We Need DevOps Now: A Fourteen Year Study Of High Performing IT..."
   speakers:
@@ -463,3 +492,4 @@
     Gene will describe what successful transformations look like, and how those transformations were achieved from a software development and service operations perspective. He will draw upon fourteen years of research of high-performing IT organizations, as well as work he's done since 2008 to help some of the largest Internet companies increase feature flow and production stability through applications of DevOps principles.
   video_provider: youtube
   video_id: disjFj4ruHg
+  slug: why-we-need-devops-now-a-fourteen-year-study-of-high-performing-it-organizations

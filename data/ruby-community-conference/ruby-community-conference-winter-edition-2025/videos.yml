@@ -63,20 +63,7 @@
     - Kaja Witek
   event_name: Ruby Community Conference Winter Edition 2025
   date: "2025-02-28"
-  description:
-    "We will start the workshop by creating a new Rails 8 application using the “solid”
-    stack and deploying it to a real cloud server. Next, we will explore the scenario
-    of adding Kamal to an existing Rails 7.2 project. We will initialize and configure
-    Kamal. Then, thanks to the new Kamal-proxy, we will deploy it alongside the first
-    application. Following this, we will deploy a staging environment to mirror production
-    settings.\n\nTo ensure you gain practical experience, we will intentionally break
-    our deployment, providing you with hands-on experience in debugging and recovering
-    from not-so-obvious scenarios.\n\nWhether you’re new to containerized deployments
-    or an experienced developer looking to streamline your workflow, this workshop will
-    equip you with the essential skills to deploy and manage your web apps with confidence.
-    On each step we will guide you trough the process and explain the Kamal’s inner-workings.\n\nYou’ll
-    leave with a deeper understanding of Kamal and the ability to handle deployment
-    challenges effectively! \U0001F4AA"
+  description: "We will start the workshop by creating a new Rails 8 application using the “solid” stack and deploying it to a real cloud server. Next, we will explore the scenario of adding Kamal to an existing Rails 7.2 project. We will initialize and configure Kamal. Then, thanks to the new Kamal-proxy, we will deploy it alongside the first application. Following this, we will deploy a staging environment to mirror production settings.\n\nTo ensure you gain practical experience, we will intentionally break our deployment, providing you with hands-on experience in debugging and recovering from not-so-obvious scenarios.\n\nWhether you’re new to containerized deployments or an experienced developer looking to streamline your workflow, this workshop will equip you with the essential skills to deploy and manage your web apps with confidence. On each step we will guide you trough the process and explain the Kamal’s inner-workings.\n\nYou’ll leave with a deeper understanding of Kamal and the ability to handle deployment challenges effectively! \U0001F4AA"
   video_provider: scheduled
   video_id: workshop-deploy-with-kamal-2-ruby-community–conference-winter–edition-2025
 - title: "Workshop: Taming The Beast: TDD, Service Objects, and dry.rb for Complex Business Logic"

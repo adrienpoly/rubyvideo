@@ -14,6 +14,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: rH81nlm1lcE
+  slug: the-send-pop-optimisation
   language: Japanese
   description: |-
     "Sending a method to an object, then discarding its return value immediately" is one of the most frequent operations that ruby does. By eliminating such wastes of time and memory, ruby execution could be much more efficient. I will share you some stories and outcomes of my journey trying to optimise that part.
@@ -29,6 +30,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: odmlf_ezsBo
+  slug: state-of-sorbet-a-type-checker-for-ruby
   language: English
   description: |-
     We have developed a typesystem for Ruby at Stripe with a goal of helping developers understand code better, write code with more confidence, and detect+prevent significant classes of bugs.
@@ -48,6 +50,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 5eAXAUTtNYU
+  slug: ruby-committers-vs-the-world-rubykaigi-2019
   language: Japanese
   description: |-
     Ruby core committers on stage!
@@ -62,6 +65,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: paBlgsqoKk8
+  slug: pattern-matching-new-feature-in-ruby-2-7
   language: Japanese
   description: |-
     Ruby core team plans to introduce pattern matching as an experimental feature in Ruby 2.7. In this presentation, we will talk about the current proposed syntax and its design policy.
@@ -76,6 +80,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 7N-QOx6cVI4
+  slug: the-challenges-behind-ruby-type-checking
   language: Japanese
   description: |-
     Static type checking for Ruby is challenging because the language is dynamically typed. What exactly is the source of the difficulty? You might think of duck typing or defime_method? Totally! But not only them are the reason. In fact, only a few lines of typical and innocent looking Ruby code can make type checking much more complicated than you assume.
@@ -92,6 +97,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: qKQcUDEo-ZI
+  slug: fibers-are-the-right-solution
   language: English
   description: |-
     The majority of performance improvements in modern processors are due to increased core count rather than increased instruction execution frequency. To maximise hardware utilization, applications need to use multiple processes and threads. Servers that process discrete requests are a good candidate for both parallelization and concurrency improvements. We discuss different ways in which servers can improve processor utilization and how these different approaches affect application code. We show that fibers require minimal changes to existing application code and are thus a good approach for retrofitting existing systems.
@@ -106,6 +112,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: B8yKlTNlY5E
+  slug: how-rspec-works
   language: English
   description: |-
     RSpec is a much beloved series of libraries, currently holding spots 1, 2, 4, 5, and 6 in terms of most downloaded gems. Many of us use it every day, but the question is, how does it work?
@@ -120,6 +127,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: g_wPQzNlu9Q
+  slug: keynote-all-bugfixes-are-incompatibilities
   language: Japanese
   description: |-
     https://rubykaigi.org/2019/presentations/nagachika.html#apr19
@@ -132,6 +140,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bz-sy5b2EXY
+  slug: performance-improvement-of-ruby-2-7-jit-in-real-world
   language: Japanese
   description: |-
     Ruby 2.6's JIT was known to make a Rails application slower, while it achieved a good progress on some other benchmarks.
@@ -147,6 +156,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Mf4v3u6tgOk
+  slug: intimate-chat-with-matz-and-mruby-developers-about-mruby
   language: Japanese
   description: |-
     Talk about mruby's development confidential stories, current situation, and future of mruby with Yukihio "Matz" Matsumoto creator of the mruby programming language.
@@ -162,6 +172,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: N-TGgiNp5u0
+  slug: partially-non-volatile-mruby
   language: Japanese
   description: |-
     In RubyKaigi 2018, I talked about basic idea of putting mruby on ROM. But there’s still some objects consuming RAM, such as IREP structure and libraries defined in Ruby. In this session, I will give another solution for the problem to put more structures into ROM. Moreover, I will explain about the change of implementation of instance variables and Hash class in mruby 2.0, and the effect of memory consumption.
@@ -176,6 +187,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: PZDhXPgt98U
+  slug: write-a-ruby-interpreter-in-ruby-for-ruby-3
   language: English
   description: |-
     Ruby interpreter called MRI (Matz Ruby Interpreter) or CRuby is written in C language. Writing an interpreter in C has several advantages, such as performance at early development, extensibility in C language and so on. However, now we have several issues because of writing MRI in C. To overcome this issue, I propose to rewrite some part of MRI in Ruby language with C functions. It will be a base of Ruby 3 (or Ruby 2.7). In this talk, I'll show the issues and how to solve them with writing Ruby, how to write MRI internal in Ruby and how to build an interpreter with Ruby code.
@@ -188,6 +200,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: B2NTL_J62JE
+  slug: lightning-talks-rubykaigi-2019
   description: |-
     RubyKaigi 2019 https://rubykaigi.org/2019/presentations/lt/
   talks:
@@ -298,6 +311,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: FdWLXKvZ6Gc
+  slug: a-light-weight-jit-compiler-project-for-cruby
   language: English
   description: |-
     JITs based on GCC/LLVM as recently introduced CRuby MJIT might be heavy and slow for some environments and applications. CRuby MJIT needs two tier compilation with a light weight compiler used as a tier 1 JIT compiler.
@@ -312,6 +326,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: AhBds1xGT94
+  slug: pathfinder-building-a-container-platform-in-ruby-ecosystem
   language: English
   description: |-
     This session will discuss about an attempt to build container platform in ruby/mruby ecosystem, the current situation and lesson-learned that we can discern to improve it further.
@@ -328,6 +343,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: RuGZCcEL2F8
+  slug: keynote-optimization-techniques-used-by-the-benchmark-winners
   language: English
   description: |-
     Sequel and Roda have dominated TechEmpower's independent benchmarks for Ruby web frameworks for years. This presentation will discuss optimizations that Sequel and Roda use, and how to use similar approaches to improve the performance of your own code.
@@ -342,6 +358,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 2oDBKrPYEu8
+  slug: a-type-level-ruby-interpreter-for-testing-and-understanding
   language: Japanese
   description: |-
     We propose a type-level abstract interpreter for Ruby 3's static analysis. This interpreter runs normal (i.e., non-type-annotated) Ruby programs in "type" level: each variable has only a type instead of a value. It reports a possible type-error bug, e.g., attempting to call a unknown method or to pass an invalid type argument during the interpretation. By recording all method definitions and calls, it also creates a summary of the program structure in type signature format. This is useful to understand the code, and can be also used as a prototype of type definition for external type checkers.
@@ -356,6 +373,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 9S6RK0AGzng
+  slug: what-is-domain-specific-language
   language: Japanese
   description: |-
     Ruby is known as a good language for DSL (Domain Specific Language). However, it is unclear what differentiate internal DSL and normal library. This presentation tries to explain the difference. Both DSL and normal library solves part of programmers task. They tries to make programming easier. However, DSL tends to use some kind of black magic unlike normal library. The black magic is used to realize succinct and easy-to-read program for many applications in the domain. I hope this presentation makes programmers aware to design good library.
@@ -370,6 +388,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Wt9eR8sj9s8
+  slug: rmagick-migrate-to-imagemagick-7
   language: Japanese
   description: |-
     The currently RMagick has some problems about installing on macOS/Windows platform. I will talk about RMagick that it will be migrated from ImageMagick 6 to 7 and it will be solved the problems.
@@ -384,6 +403,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 67M6Deo2aTw
+  slug: terminal-curses
   language: Japanese
   description: |-
     Terminal programming with curses is useful and fun, but it sometimes brings terminal curses.
@@ -401,6 +421,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: PdHcIn51B7Y
+  slug: red-chainer-and-cumo-practical-deep-learning-in-ruby
   language: Japanese
   description: |-
     Naotoshi Seo @sonots, Yusaku Hatanaka @hatappi
@@ -426,6 +447,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: yn5mEH8dUIY
+  slug: performance-optimization-techniques-of-messagepack-ruby
   language: Japanese
   description: |-
     Performance Optimization Techniques of MessagePack-Ruby
@@ -441,6 +463,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: AjQUCWeh9sQ
+  slug: timezone-api
   language: Japanese
   description: |-
     The Time, a core class, supports timezone since Ruby 2.6. This talk will give what the API is, and how it is determined to cooperate with existing external libraries.
@@ -455,6 +478,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 8l1ep4nN_KQ
+  slug: terminal-editors-for-ruby-core-toolchain
   language: English
   description: |-
     I implemented "Reline" that is a compatibility library with "readline" stdlib by pure Ruby and works correctly without GNU Readline and works on Windows too.
@@ -473,6 +497,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: LVe0g91yZ84
+  slug: the-selfish-programmer
   language: English
   description: |-
     Using Ruby at work is great… but sometimes it feels like a job!
@@ -491,6 +516,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: YSc_GNQP6ts
+  slug: zeitwerk-a-new-code-loader
   language: English
   description: |-
     The talk presents Zeitwerk, a new code loader for gems and applications.
@@ -511,6 +537,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: PFcpmbRgB5A
+  slug: rubydata-workshop
   language: Japanese
   description: |-
     In this session, we'd like to introduce the current state of our data science ecosystems for Ruby.
@@ -532,6 +559,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: pmlUq5fNkzA
+  slug: the-fastest-way-to-bootstrap-ruby-on-rails
   language: English
   description: |-
     Ruby on Rails applications sometimes take too long time in bootstrapping, especially when the application is complicated, monolithic or "legacy" one. This inhibits Kubernetes or other orchestrators to do smooth autoscaling. There are technologies such as bootsnap to solve this problem. In addition to them, I propose new strategy - "checkpoint and restore". I used CRIU(Checkpoint and Restore In Userspace) in Linux environment to make "ahead of time" process dump, and boot the application from image to reduce the bootstrap time. In my case, observed bootstrap time is reduced from about 2,500ms to 1,200ms. I will describe what the CRIU is in the first place, use cases where CRIU is effective and some problems using CRIU.
@@ -547,6 +575,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: z8yV3yEqxJY
+  slug: better-csv-processing-with-ruby-2-6
   language: Japanese
   description: |-
     csv, one of the standard libraries, in Ruby 2.6 has many improvements:
@@ -570,6 +599,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: rl0Nfiqs4e0
+  slug: practical-mruby-c-firmware-development-with-cruby
   language: English
   description: |-
     Writing mruby/c firmware applications is like writing mrbgems. You need to make some C functions and mruby wrapper of them in order to handle peripherals like sensor, flash memory or BLE. Easy to imagine it's hard to develop for a team in a situation of TIGHT COUPLING, right? I will talk about some tools, mrubyc-test and mrubyc-debugger, which I made with CRuby for testing and debugging to keep our team slack coupling.
@@ -585,6 +615,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: hlWCp210IIY
+  slug: compiling-ruby-to-idiomatic-code-in-static-languages
   language: English
   description: |-
     Alexander Ivanov @alehander42, Zahary Karadjov @zah
@@ -605,6 +636,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: R-vInXwpPPg
+  slug: truffleruby-wrapping-up-compatibility-for-c-extensions
   language: English
   description: |-
     We think it is crucial that any alternative Ruby implementation aiming to be fully compatible with MRI runs the C extensions. TruffleRuby's compatibility was recently significantly improved, with much better support that almost completely removes the need to patch C extensions.
@@ -623,6 +655,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: nzPwSDRsv_0
+  slug: ruby-for-nlp
   language: Japanese
   description: |-
     There is no doubt that Deep Learning was the spark of the recent AI boom. Deep Learning has been improving the field of image recognition and natural language processing. In this presentation, I will explain how to deal with natural language processing in Ruby In the first half I will explain the basic methodology of natural language processing and in the second half I will explain how to deal with Ruby.
@@ -637,13 +670,9 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: m_KTuPuEmQ0
+  slug: working-towards-bundler-3
   language: English
-  description:
-    "Bundler hit a big milestone this year with the release of Bundler 2 \U0001F389, but
-    not without its bumps and hurdles. We'll look into the problems that some of our
-    users have been experiencing after the Bundler 2 release, what the core team has
-    been doing to fix these issues and what we've since learned. Afterwards, We'll look
-    at the upcoming Bundler 2.1 and Bundler 3 releases."
+  description: "Bundler hit a big milestone this year with the release of Bundler 2 \U0001F389, but not without its bumps and hurdles. We'll look into the problems that some of our users have been experiencing after the Bundler 2 release, what the core team has been doing to fix these issues and what we've since learned. Afterwards, We'll look at the upcoming Bundler 2.1 and Bundler 3 releases."
 - title: Pragmatic Monadic Programing in Ruby
   raw_title: "[JA] Pragmatic Monadic Programing in Ruby / @joker1007"
   speakers:
@@ -653,6 +682,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: xUV2DvZ5L1A
+  slug: pragmatic-monadic-programing-in-ruby
   language: Japanese
   description: |-
     Ruby is not only for Objective Oriented Programming style, but also for Functional Programming style. I talk how ruby expresses important essences of Functional Programming. For example, Functor, Applicative, Monad.
@@ -669,6 +699,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: vV_tZX7jooo
+  slug: writing-debuggers-in-plain-ruby-fact-or-fiction
   language: English
   description: |-
     In this talk, we'll build a simple byebug-like debugger in plain Ruby. We'll try to go all the way, but also explain what we cannot do without some C or Java code.
@@ -683,6 +714,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: pe28r1VSBdU
+  slug: beyond-puts-truffleruby-s-modern-debugger-using-chrome
   language: English
   description: |-
     We all write bugs. How quickly we can identify & understand them depends on the quality of our tools.
@@ -699,6 +731,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: WOnxe6qWtzY
+  slug: benchmarking-your-code-inside-and-out
   language: English
   description: |-
     Benchmarking is an important component of writing applications, gems, Ruby implementations, and everything in between. There is never a perfect formula for how to measure the performance of your code, as the requirements vary from codebase to codebase. Elastic has an entire team dedicated to measuring the performance of Elasticsearch and the clients team has worked with them to build a common benchmarking framework for itself. This talk will explore how the Elasticsearch Ruby Client is benchmarked and highlight key elements that are important for any benchmarking framework
@@ -711,6 +744,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: H4rsTfJw9A4
+  slug: the-future-of-the-bundled-bundler-with-rubygems
   language: Japanese
   description: |-
     I did merge Bundler into Ruby core repository and shipped bundler as standard library on Ruby 2.6. It helps to preparation of the fresh Ruby install and easy to use gem and bundle commands.
@@ -729,6 +763,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: c1Y5o4tgblQ
+  slug: reducing-activerecord-memory-consumption-using-apache-arrow
   language: Japanese
   description: |-
     The pluck method provided in ActiveRecord is a platform to obtain one or few field values as an array or arrays from a database. The pluck method, compared with finder methods, can considerably reduce memory consumption because it does not generate model instances.
@@ -745,6 +780,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 6BJLGr_M30g
+  slug: druby-20th-anniversary-hands-on-workshop
   language: Japanese
   description: |-
     dRuby (distributed ruby) is a cool library bone in the 20th century.
@@ -761,6 +797,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: q3i5pYpxP-s
+  slug: pre-evaluation-in-ruby
   language: English
   description: |-
     Ruby is historically difficult to optimize due to features that improve flexibility and productivity at the cost of performance. Techniques like Ruby's new JIT compiler and deoptimization code help, but still are limited by techniques like monkey-patching and binding inspection.
@@ -779,6 +816,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: a0VKbrgzKso
+  slug: ruby-serverless-framework
   language: English
   description: |-
     Learn how to run Ruby applications on AWS Lambda with a Serverless Framework specifically designed with Ruby. Demo is provided. We deploy it to AWS Lambda with a single command.
@@ -793,6 +831,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: WZu-WVzbEOA
+  slug: keynote-the-year-of-concurrency
   language: Japanese
   description: |-
     RubyKaigi 2019 https://rubykaigi.org/2019/presentations/yukihiro_matz.html#apr18
@@ -805,6 +844,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: OA7jwECjvRY
+  slug: building-serverless-applications-in-ruby-with-aws-lambda
   language: English
   description: |-
     Come join us and learn about how you can build serverless applications using Ruby on AWS Lambda! We will demonstrate how to create Ruby serverless functions for web APIs as well as for event-driven applications, then build, test and deploy them to production. We'll also discuss general best practices for developing serverless applications.
@@ -819,6 +859,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 01LYb28rMUQ
+  slug: actionable-code-coverage
   language: English
   description: |-
     No more external tools / unclear percentage scores / slow PR feedback.
@@ -841,6 +882,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: wePVhZeZTNM
+  slug: how-to-take-over-a-ruby-gem
   language: English
   description: |-
     Using Ruby gems is safe, right? We're a nice community of friendly beings that act towards the same goal: making Ruby better. But is that true? Can we just blindly use libraries, without making sure, that they are what they are supposed to be?
@@ -857,6 +899,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: GKj4dipBEts
+  slug: graphql-migration-a-proper-use-case-for-metaprogramming
   language: English
   description: |-
     When my team took the plunge to migrate Square’s largest Ruby app to GraphQL, no way were we going to manually redefine over 200 objects. Implementing a GraphQL layer includes repetitive and straightforward processes that can be expedited with metaprogramming. I will start with some GraphQL basics, then dig into process of metaprogramming a GraphQL layer from a demo ruby server. I will explain the benefits of using this design pattern and how it improves developer experience. At the end, I will demo the server handling a set diverse and complex client calls!
@@ -872,6 +915,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: vPy5KO4uHuA
+  slug: jruby-the-road-to-ruby-2-6-and-rails-6
   language: English
   description: |-
     Over the past six months, the JRuby team has been working on filling in edges: getting refinements working well, porting C extensions, and getting well-known applications running. At the same time, we always try to push forward on performance and general compatibility. In this talk, we'll cover recent work to support Rails 6 and Ruby 2.6. We'll show off a major Rails application running on JRuby. And we'll show you how you can help us keep JRuby moving forward.
@@ -886,6 +930,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: BE5C2ydN0y0
+  slug: determining-ruby-process-counts-theory-and-practice
   language: English
   description: |-
     You have a Ruby web application or service that takes a certain number of requests per minute. How do you know how many Ruby processes you will need to serve that load? The answer is actually very complex, and getting it wrong can cost you a lot of money! In this talk, we'll go through the mathematics and theory of queues, and then apply them to the configuration and provisioning of Ruby services (web, background job, and otherwise). Finally, we'll discuss the application of this theory in the real world, including multi-threading and the GVL, "autoscaling", containers and deployment processes, and how Guilds may impact this process in the future.
@@ -900,6 +945,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: om1dgTbmXrw
+  slug: how-to-use-openapi3-for-api-developer
   language: Japanese
   description: |-
     I'll talk about how to use OpenAPI 3 and another tools in production.
@@ -922,6 +968,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: qiwpWHfyXpM
+  slug: running-ruby-on-the-apple-ii
   language: English
   description: |-
     An 8-bit CPU running at 1 megahertz. Kilobytes of RAM. The Apple II was released in the 1970's and many people first learned to program on it using the built in BASIC. Surely it is impossible to fit a language as complicated as Ruby on such a limited machine… right?
@@ -938,6 +985,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: iy4N7AtzZYc
+  slug: six-years-of-ruby-performance-a-history
   language: English
   description: |-
     Ruby keeps getting faster. And people keep asking, "but how fast is it for Rails?" Rails makes a great way to measure Ruby's speed, and how Ruby has changed version-by-version. Let's look at six years of performance graphs for apps big and small. How fast is 2.6.0? With JIT? How close is Ruby 3x3?
@@ -952,6 +1000,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 1qEhEad5uPI
+  slug: ruby-3-progress-report
   language: Japanese
   description: |-
     RubyKaigi 2019 https://rubykaigi.org/2019/presentations/matzbot.html#apr18
@@ -964,6 +1013,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Uj-7X-9lkIg
+  slug: a-deep-learning-adventure
   language: English
   description: |-
     Deep learning is the most exciting recent idea in software–but it's also intimidating. If you have no previous machine learning and deep learning experience, this talk is your entry ticket to the field.
@@ -980,6 +1030,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 4akNWMKVZQU
+  slug: cleaning-up-a-huge-ruby-application
   language: Japanese
   description: |-
     (JA) プロジェクトに顕在している未使用のコードを消すのは難しいです。 その理由としては特定コードを消していいのか確信を持ちづらいこと、そして実際削除可能なコードを探す作業は作業効率が悪いということなどが上げられます。 クックパッドでも未使用コードを削除しているのですが、上記のような問題がありこれらを解決するためにコードの修正履歴を利用したコード監視や、本番環境の実行履歴からの未使用コード探すなど仕組みを導入しています。
@@ -1004,6 +1055,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: q2q-9Td71kE
+  slug: crystalball-predicting-test-failures
   language: English
   description: |-
     Tests are often slow and are a bottleneck in development. We build complex CI systems with heavy parallelization to reduce the amount of time it takes to run all the tests, but we still tend to run all of them even for the slightest change in code. What if instead, we could run only the tests that might fail as a result of our changes? In a world of static languages, it's not hard, but Ruby is very flexible and dynamic language so implementing this idea is tricky.
@@ -1020,6 +1072,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Ry0uQeTCHHs
+  slug: best-practices-in-web-api-client-development
   language: Japanese
   description: |-
     How many did you make web API clients?
@@ -1044,6 +1097,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: m1P_06bjjCs
+  slug: building-homebrew-in-ruby-the-good-bad-and-ugly
   language: English
   description: |-
     Homebrew is a popular macOS package manager in the Ruby community and is also written in Ruby. As Homebrew isn't a web application and doesn't provide a Ruby library, the Ruby ecosystem works great for us in some ways and less great in others. Learn about things we love, hate and struggle with because Homebrew is built in Ruby.
@@ -1058,6 +1112,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: fQBrWrJKPVU
+  slug: a-bundle-of-joy-rewriting-for-performance
   language: English
   description: |-
     Local gem management is a key part of our modern workflow, but our tools are layered on historical approaches and requirements. In this talk we explore a ground-up rewrite of local gem management, and ask whether careful implementation (and some feature-cutting) can produce a tool that meets most people's needs while outperforming the current options. In the process, we'll look at specific design choices that make common operations faster, and which might apply to your projects too.
@@ -1072,6 +1127,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: oNJyBZ5OAMw
+  slug: play-with-local-vars
   language: English
   description: |-
     This 40min talk is only about Ruby's local variables. I'm not going to talk about anything else.
@@ -1094,6 +1150,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: HgAZsg7D_Jo
+  slug: compacting-gc-for-mri-v2
   language: Japanese
   description: |-
     In this talk we will cover an implementation for a compacting GC in MRI. MRI's implementation presents unique challenges for implementing a compacting GC. In this talk, we will cover compactor implementation and algorithms, challenges presented by MRI's implementation, compaction reference verification, and results of compactor benchmarks.
@@ -1108,6 +1165,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: CvjefIat8yE
+  slug: yabeda-monitoring-monogatari
   language: English
   description: |-
     Developing large and high load application without monitoring is a hard and dangerous task, just like piloting an aircraft without gauges. Why it is so important to keep an eye on how application's “flight“ goes, what things you should care more, and how graphs may help to resolve occurring performance problems quickly. On an example of Sidekiq, Prometheus, and Grafana, we will learn how to take metrics from the Ruby application, what can we see from their visualization, and I will tell a couple of sad tales about how it helps in everyday life (with happy-end!)
@@ -1122,6 +1180,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Vu2z8krSAYs
+  slug: ovto-frontend-web-framework-for-rubyists
   language: Japanese
   description: |-
     What framework do you use for creating single-page webapps? React, Vue, Angular, etc... If you're tired of wirting JavaScript, Ovto may be a good choice. In this talk, I will in introduce Ovto, a frontend framework which allows you to write single-page webapps all in Ruby. https://github.com/yhara/ovto
@@ -1136,6 +1195,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: o0d4sjcUfCg
+  slug: building-a-game-for-the-nintendo-switch-using-ruby-first-half
   language: English
   description: |-
     The second half will be "coming soon"

@@ -15,6 +15,7 @@
   description: ""
   video_provider: youtube
   video_id: At0Os4SEhmM
+  slug: shaving-with-ockham
 - title: "Using Amazon's Web Services from Ruby"
   raw_title: Using Amazon's Web Services from Ruby
   speakers:
@@ -25,6 +26,7 @@
   description: ""
   video_provider: youtube
   video_id: rWgMuziPWEg
+  slug: using-amazon-s-web-services-from-ruby
 - title: Lightning Talks
   raw_title: Lightning Talks
   event_name: MountainWest RubyConf 2008
@@ -33,6 +35,7 @@
   description: ""
   video_provider: youtube
   video_id: MXhQks-YEQc
+  slug: lightning-talks-mountainwest-rubyconf-2008
   talks:
     - title: "Lightning Talk: Binary Lottery in Shoes"
       start_cue: "00:17"
@@ -100,6 +103,7 @@
   description: ""
   video_provider: youtube
   video_id: 3nrdHK1O_ts
+  slug: deep-ruby
 - title: "Domain Specific Languages: Molding Ruby"
   raw_title: "Domain Specific Languages: Molding Ruby"
   speakers:
@@ -110,6 +114,7 @@
   description: ""
   video_provider: youtube
   video_id: jkUFF7ikY3Q
+  slug: domain-specific-languages-molding-ruby
 - title: "Enough Statistics So That Zed Won't Yell At You"
   raw_title: Enough statistics so that Zed won't yell at you
   speakers:
@@ -120,6 +125,7 @@
   description: ""
   video_provider: youtube
   video_id: EDMMrB0s2z8
+  slug: enough-statistics-so-that-zed-won-t-yell-at-you
 - title: "Next Generation Data Storage with CouchDB"
   raw_title: Next Generation Data Storage with CouchDB
   speakers:
@@ -130,6 +136,7 @@
   description: ""
   video_provider: youtube
   video_id: XK7C9JDrOtI
+  slug: next-generation-data-storage-with-couchdb
 - title: Ruby Internals
   raw_title: MountainWest RubyConf 2008 - Ruby Internals by Patrick Farley
   speakers:
@@ -140,6 +147,7 @@
   description: ""
   video_provider: youtube
   video_id: NlPxvRSUVQI
+  slug: ruby-internals
 - title: BDD with Shoulda
   raw_title: MountainWest Ruby Conf 2008 - BDD with Shoulda by Tammer Saleh
   speakers:
@@ -150,6 +158,7 @@
   description: ""
   video_provider: youtube
   video_id: NyLFcWKiMrw
+  slug: bdd-with-shoulda
 - title: Lightning Talks
   raw_title: MountainWest RubyConf 2008 - Lightning Talks - Various Presenters
   event_name: MountainWest RubyConf 2008
@@ -158,6 +167,7 @@
   description: ""
   video_provider: youtube
   video_id: NdSPWtmJ6FM
+  slug: lightning-talks-en
   talks:
     - title: "Lightning Talk: GemInstaller"
       start_cue: "00:00"
@@ -274,6 +284,7 @@
   description: ""
   video_provider: youtube
   video_id: 1dZ0l19zEsw
+  slug: what-to-do-when-mongrel-stops-responding
 - title: "Code Generation: The Safety Scissors of Metaprogramming"
   raw_title: "Code Generation: The Safety Scissors of Metaprogramming"
   speakers:
@@ -284,3 +295,4 @@
   description: ""
   video_provider: youtube
   video_id: HWeQYcAc-eM
+  slug: code-generation-the-safety-scissors-of-metaprogramming

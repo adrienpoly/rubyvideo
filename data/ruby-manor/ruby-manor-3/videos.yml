@@ -12,6 +12,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/3/download/tom-stuart-object-oriented-rails-normal.mp4"
+  slug: rails-vs-object-oriented-design
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/rails_vs_object-oriented_design/"
   slides_url: "http://rails-vs-oo.heroku.com/"
@@ -26,6 +27,7 @@
     Code: https://github.com/timcowlishaw/jruby-on-elephants
   video_provider: mp4
   video_id: "http://video.rubymanor.org/3/download/tim-cowlishaw-jruby-on-elephants-normal.mp4"
+  slug: jruby-on-elephants
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/jruby_on_elephants/"
   slides_url: "http://jruby-on-elephants.heroku.com/"
@@ -39,6 +41,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/3/streaming/andrew-nesbit-eventmachine-and-node-js.mp4"
+  slug: is-eventmachine-a-worthy-alternative-to-node-js
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/is_eventmachine_a_worthy_alternative_to_node.js/"
   slides_url: "http://speakerdeck.com/u/andrew/p/em-vs-node"
@@ -54,6 +57,7 @@
     Transcript: http://codon.com/programming-with-nothing
   video_provider: mp4
   video_id: "http://video.rubymanor.org/3/download/tom-stuart-programming-with-nothing-normal.mp4"
+  slug: programming-with-nothing
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/programming_with_nothing/"
   slides_url: "http://speakerdeck.com/u/tomstuart/p/programming-with-nothing"
@@ -67,6 +71,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/3/download/jon-leighton-refactoring-rails-normal.mp4"
+  slug: refactoring-rails-ru3y-manor
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/how_hard_can_it_be_a_refactoring_battle_story/"
   slides_url: "http://www.scribd.com/doc/73727221/How-Hard-Can-It-Be-A-refactoring-battle-story"
@@ -80,6 +85,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/3/download/sean-ohalpin-the-joy-of-text-normal.mp4"
+  slug: the-joy-of-text
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/the_joy_of_text/"
   slides_url: ""
@@ -93,6 +99,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/3/download/paul-battley-dont-fear-the-lambda-normal.mp4"
+  slug: don-t-fear-the-lambda
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/dont_fear_the_lambda/"
   slides_url: "http://po-ru.com/presentations/dont-fear-the-lambda/"
@@ -106,6 +113,7 @@
   description: ""
   video_provider: mp4
   video_id: "http://video.rubymanor.org/3/download/ben-griffiths-a-random-walk-normal.mp4"
+  slug: a-random-walk
   external_player: false
   external_player_url: "http://rubymanor.org/3/videos/a_random_walk/"
   slides_url: "http://rubymanor.org/3/videos/a_random_walk/ben_griffiths_a_random_walk.pdf"

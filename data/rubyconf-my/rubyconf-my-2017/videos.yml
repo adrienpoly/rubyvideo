@@ -21,6 +21,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: LVk4af9iuzA
+  slug: keynote-ruby-community-and-you
 - title: "Sustainable Architecture"
   raw_title: Sustainable Architecture - RubyConfMY 2017
   speakers:
@@ -36,6 +37,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: 1nytCQoEl9I
+  slug: sustainable-architecture
 #
 # Tea Break
 #
@@ -54,6 +56,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: "-zoN4bBYhyg"
+  slug: syntax-isn-t-everything-nlp-for-rubyists-rubyconf-my-2017
 - title: " 500X Memory Reduction In Rails With Postgres Schemas And Apartment"
   raw_title: 500X Memory Reduction In Rails With Postgres Schemas And Apartment - RubyConfMY 2017
   speakers:
@@ -69,6 +72,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: 8-k39-8pit0
+  slug: 500x-memory-reduction-in-rails-with-postgres-schemas-and-apartment
 #
 # CATERED LUNCH
 #
@@ -87,6 +91,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: j5oFx525zNw
+  slug: anycable-universal-action-cable
 - title: Real-World Functional Ruby
   raw_title: Real-World Functional Ruby - RubyConfMY 2017
   speakers:
@@ -102,6 +107,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: V-6Rv5I9iPM
+  slug: real-world-functional-ruby
 #
 # Tea Break
 #
@@ -130,6 +136,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: GxSb7LLEgNY
+  slug: how-we-built-techladies
 #
 # Tea Break
 #
@@ -148,6 +155,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: YnQ1AIDAd7k
+  slug: unix-for-rubyists
 - title: Parallel Processing With Ruby
   raw_title: Parallel Processing With Ruby - RubyConfMY 2017
   speakers:
@@ -163,6 +171,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: v23VlKykU2M
+  slug: parallel-processing-with-ruby
 #
 # Closing
 ## Day 2 - October 13, 2017
@@ -184,6 +193,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: ER-4QFgJsaM
+  slug: lucky-rubyconf-my-2017
 - title: BDD With Cucumber
   raw_title: BDD With Cucumber - RubyConfMY 2017
   speakers:
@@ -199,6 +209,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: fxgBJOlZIqE
+  slug: bdd-with-cucumber
 #
 # Tea Break
 #
@@ -217,6 +228,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: IbyPipTH1r0
+  slug: all-i-d-wanted-to-know-about-ruby-s-object-model-starting-out-and-mooar-rubyconf-my-2017
 - title: "Panel: Ruby Core Team"
   raw_title: Panel Session with Ruby Core Team - RubyConfMY 2017
   speakers:
@@ -236,6 +248,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: YpN6NLAcr4k
+  slug: panel-ruby-core-team
 #
 # Catered Lunch
 #
@@ -255,6 +268,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: 56nmrNACyqw
+  slug: lightning-talk-best-practices-of-svg-on-ruby-on-rails
 - title: "Lightning Talk: Civic Coding In Ruby"
   raw_title: Civic Coding In Ruby - RubyConfMY 2017
   speakers:
@@ -270,6 +284,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: j88kBP8CsJo
+  slug: lightning-talk-civic-coding-in-ruby
 - title: "Lightning Talk: Multiple Backend DBs In A Rails Application"
   raw_title: Multiple Backend DBs In A Rails Application - RubyConfMY 2017
   speakers:
@@ -285,6 +300,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: rJO9rPTkL38
+  slug: lightning-talk-multiple-backend-dbs-in-a-rails-application
 - title: "Lightning Talk: One Blind Weekend"
   raw_title: One Blind Weekend - RubyConfMY 2017
   speakers:
@@ -300,6 +316,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: 4x9qPgMsBfo
+  slug: lightning-talk-one-blind-weekend-rubyconf-my-2017
 - title: "Lightning Talk: What About Ruby on Rails? ... From A PHP Guy"
   raw_title: What About Ruby On Rails? ... From A PHP Guy - RubyConfMY 2017
   speakers:
@@ -315,6 +332,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: WdSEVwy9-eo
+  slug: lightning-talk-what-about-ruby-on-rails-from-a-php-guy
 - title: "Lightning Talk: Programming Like An Athlete"
   raw_title: Programming Like An Athlete - RubyConfMY 2017
   speakers:
@@ -330,6 +348,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: 15VckGvwSOY
+  slug: lightning-talk-programming-like-an-athlete
 #
 # Tea Break
 #
@@ -348,6 +367,7 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: "-voFRSPT1F0"
+  slug: chasing-pandas
 - title: "Keynote: Exploring Memory in Ruby - Building a Compacting GC"
   raw_title: "Keynote: Exploring Memory in Ruby - Building a Compacting GC - RubyConfMY 2017"
   speakers:
@@ -363,5 +383,6 @@
     Produced by Engineers.SG
   video_provider: youtube
   video_id: Kgi0MwWQgDE
+  slug: keynote-exploring-memory-in-ruby-building-a-compacting-gc
 # After Party by GitHub
 # Pubcrawl by Umai
