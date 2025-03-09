@@ -1,6 +1,7 @@
 ---
+#
 # Website: http://rubymanor.org/classic
-
+#
 - title: "The Trailer"
   raw_title: "The Trailer"
   speakers:
@@ -13,7 +14,6 @@
   video_id: "http://video.rubymanor.org/classic/trailer/trailer.m4v"
   external_player: false
   external_player_url: http://rubymanor.org/videos/trailer/
-
 - title: "8 Minutes On Rack"
   raw_title: "8 Minutes On Rack"
   speakers:
@@ -27,7 +27,6 @@
   external_player: false
   external_player_url: http://rubymanor.org/videos/rack/
   slides_url: https://www.slideshare.net/danwrong/8-minutes-on-rack-presentation/
-
 - title: "I'm An Evil iPlayer Hacker"
   raw_title: "I'm An Evil iPlayer Hacker"
   speakers:
@@ -41,7 +40,6 @@
   external_player: false
   external_player_url: http://rubymanor.org/videos/iplayer/
   slides_url: https://po-ru.com/presentations/iplayer-hacker/
-
 - title: "Unobtrusive Metaprogramming"
   raw_title: "Unobtrusive Metaprogramming"
   speakers:
@@ -55,7 +53,6 @@
   external_player: false
   external_player_url: http://rubymanor.org/videos/unobtrusive_metaprogramming/
   slides_url: https://seanohalpin.github.com/unobtrusive-metaprogramming/unobtrusive-metaprogramming.html
-
 - title: "GUI Manor Born"
   raw_title: "GUI Manor Born"
   speakers:
@@ -72,7 +69,6 @@
   external_player: false
   external_player_url: http://rubymanor.org/videos/gui_manor_born/
   slides_url: https://www.slideshare.net/hlame/tying-your-shoes-presentation/
-
 - title: "Nanite"
   raw_title: "Nanite"
   speakers:
@@ -86,7 +82,6 @@
   external_player: false
   external_player_url: http://rubymanor.org/videos/nanite/
   slides_url: https://www.slideshare.net/Georgio_1999/rubymanor-presentation/
-
 - title: "Rugalytics"
   raw_title: "Rugalytics"
   speakers:

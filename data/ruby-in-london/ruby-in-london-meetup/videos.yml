@@ -1,5 +1,6 @@
+#
 # https://www.meetup.com/ruby-in-london
-
+#
 - title: "Ruby in London November 2023"
   raw_title: "Ruby in London with Currencycloud"
   event_name: "Ruby in London November 2023"
@@ -35,7 +36,6 @@
     Liam
 
     https://www.meetup.com/ruby-in-london/events/295338466
-
   talks:
     - title: "Ruby-Java interoperability with Kafka using protobuf"
       date: "2023-11-08"
@@ -45,7 +45,6 @@
       video_provider: not_recorded
       speakers:
         - Francesco Papini
-
     - title: "How to handle conversations about dependency technical debt with Libyear"
       date: "2023-11-08"
       event_name: "Ruby in London November 2023"
@@ -54,7 +53,6 @@
       video_provider: not_recorded
       speakers:
         - David Somers
-
 - title: "Ruby in London February 2024"
   raw_title: "Ruby in London with Builder.ai"
   event_name: "Ruby in London February 2024"
@@ -85,7 +83,6 @@
     Liam
 
     https://www.meetup.com/ruby-in-london/events/297633001
-
   talks:
     - title: "Advanced Database Programming in Rails"
       date: "2024-02-07"
@@ -95,7 +92,6 @@
       video_provider: not_recorded
       speakers:
         - Vikas Verma
-
     - title: "Concurrency in Ruby and how it changed in 3.x"
       date: "2024-02-07"
       event_name: "Ruby in London February 2024"
@@ -104,7 +100,6 @@
       video_provider: not_recorded
       speakers:
         - Daniel Vartanov
-
 - title: "Ruby in London May 2024"
   raw_title: "Ruby in London with Mindful Chef"
   event_name: "Ruby in London May 2024"
@@ -135,7 +130,6 @@
     Liam
 
     https://www.meetup.com/ruby-in-london/events/299767863
-
   talks:
     - title: "Getting Started with Solid Queue - The new default ActiveJob backend for Rails 8"
       date: "2024-05-01"
@@ -145,7 +139,6 @@
       video_provider: not_recorded
       speakers:
         - Miles Woodroffe
-
     - title: "Race Conditions RSpec How to"
       date: "2024-05-01"
       event_name: "Ruby in London May 2024"
@@ -154,7 +147,6 @@
       video_provider: not_recorded
       speakers:
         - Serg Tyatin
-
 - title: "Ruby in London July 2024"
   raw_title: "Ruby in London with Beam"
   event_name: "Ruby in London July 2024"
@@ -185,7 +177,6 @@
     Josh
 
     https://www.meetup.com/ruby-in-london/events/300777187
-
   talks:
     - title: "The Human Touch: Ruby & AI for the Future of Welfare Services"
       date: "2024-07-17"
@@ -195,7 +186,6 @@
       video_provider: not_recorded
       speakers:
         - Dan Hough
-
     - title: "Modernising Ruby Systems with Rage"
       date: "2024-07-17"
       event_name: "Ruby in London July 2024"
@@ -204,7 +194,6 @@
       video_provider: not_recorded
       speakers:
         - Roman Samoilov
-
 - title: "Ruby in London January 2025"
   raw_title: "Ruby in London with Ophelos"
   event_name: "Ruby in London January 2025"
@@ -236,7 +225,6 @@
     Josh
 
     https://www.meetup.com/ruby-in-london/events/305376921
-
   talks:
     - title: "Engineered for Speed: A Custom A/B Testing Solution That Delivered Results Fast"
       date: "2025-01-22"
@@ -246,7 +234,6 @@
       video_provider: not_recorded
       speakers:
         - Allan Wazacz
-
     - title: "Serverless Gubbins in Ruby"
       date: "2025-01-22"
       event_name: "Ruby in London January 2025"

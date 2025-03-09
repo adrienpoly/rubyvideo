@@ -1,10 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
-
 # Website: https://web.archive.org/web/20130310025302/http://www.bigrubyconf.com
 # Schedule: https://web.archive.org/web/20130310025302/http://www.bigrubyconf.com/#schedule
-
+#
 - title: "The Most Important Optimization: Happiness"
   raw_title: "Big Ruby 2013 The Most Important Optimization: Happiness"
   speakers:
@@ -15,10 +15,8 @@
     Metaprogramming. It's awesome, right? Powerful? Maybe a little scary?
 
     Let's kick things up a notch. If writing code that writes code is powerful, what's hacking the life of the programmer writing the code? That's got to be an 11 on the meta-meter. At least. We'll talk about some of the bad assumptions we've made, lies we've bought into, and why we have the most awesome job ever.
-
   video_provider: youtube
   video_id: Cq_RkrthKZo
-
 - title: DevOps for the Rubyist Soul
   raw_title: Big Ruby 2013 DevOps for the Rubyist Soul  by John Downey
   speakers:
@@ -33,10 +31,8 @@
     Our cap and puppet workflow using git
     How vagrant can provide a sane test environment
     Some pitfalls you should avoid
-
   video_provider: youtube
   video_id: e4lfvNQYIW4
-
 - title: How to Overcome the Apathy of Big Data
   raw_title: Big Ruby 2013 How to Overcome the Apathy of Big Data by Matt Kirk
   speakers:
@@ -57,10 +53,8 @@
        Graphing in higher dimensions.
 
     By the end of this session, you will know how to be effective with data. You will understand how to find what you are looking for, how to classify it, and how to visually make sense of it all.
-
   video_provider: youtube
   video_id: 8qhtngnhD70
-
 - title: "Services and Rails: The Shit They Don't Tell You"
   raw_title: "Big Ruby 2013 Services and Rails: The Shit They Don't Tell You by Brian Morton"
   speakers:
@@ -73,10 +67,8 @@
     At Yammer, we constantly clean up the mess that worked well in the early days, but has become troublesome to maintain and scale. We pull things out of the core Rails app, stand them up on their own, and make sure they work well and are fast. With 20+ services, we've learned some lessons along the way. Services that seem clean in the beginning can turn into development environment nightmares. Temporary double-dispatching solutions turn into developer confusion. Monitoring one app turns into monitoring a suite of apps and handling failure between them.
 
     This talk looks at our mistakes and solutions, the tradeoffs, and how we're able to keep moving quickly. Having services and a smaller Rails codebase makes for scalable development teams, happier engineers, and predictable production environments. Getting there is full of hard decisions -- sometimes we're right, sometimes we fuck it up, but we usually have a story to tell.
-
   video_provider: youtube
   video_id: GuJ49PNBsn8
-
 - title: Move Fast and Make Things
   raw_title: Big Ruby 2013 Move fast and make things by Adam Keys
   speakers:
@@ -87,10 +79,8 @@
     Big team, small team. Huge company, tiny side business. No matter which, time is what you're short on. You're already using tools like Ruby and Rails to make more with the time you have. But what about non-web apps? What databases, development tools, and other libraries let you do more or do bigger things in'less time?
 
     Finding high-leverage tools is a handy skill. Once you've found a tool that is simple to use, performant, and reliable, you can use it all over the place. We'll look at four tools: Faraday, Celluloid, Metriks, and Pow. These will help us talk HTTP, write concurrent programs, instrument our apps, and set up apps quickly. We'll see how to use them for multiple applications, play to their strengths, and work around their weaknesses.
-
   video_provider: youtube
   video_id: iXJXne0BzN4
-
 - title: 5 Things You Didn't Know About Chef
   raw_title: Big Ruby 2013 5 Things You Didn't Know About Chef by Joshua Timberman
   speakers:
@@ -101,10 +91,8 @@
     This talk is an exploration into five lesser-known things that Chef can be used for, or is capable of doing. Some of these features and capabilities are unknown by all but the most experienced Chef users. Some of them are anti-patterns but still really useful. And others give you additional flexibility for using Chef in your environment.
 
     In-place File Editing for Greater Good Use Chef's Built-in Version Matching REPLs are fun, so Chef has one! Take the Resource Collection for a Stroll The Anatomy of Loading and Executing a Single Recipe
-
   video_provider: youtube
   video_id: FqHucWd634c
-
 - title: How Shopify Scales Rails
   raw_title: Big Ruby 2013 How Shopify Scales Rails by John Duff
   speakers:
@@ -117,10 +105,8 @@
     This is the story of how Shopify has evolved to handle its immense growth over the years. This is what getting big is all about: evolving to meet the needs of your customers. You don't start out with a system and infrastructure that can handle a billion dollar in GMV. You evolve to it. You evolve by adding caching layers, hardware, queuing systems and splitting your application to services.
 
     This is the story of how we have tackled the various scaling pain points that Shopify has hit and what we have done to surpass them, what we are doing to go even further.
-
   video_provider: youtube
   video_id: j347oSSuNHA
-
 - title: "Build a Bigger Brain: How Healthy Living Makes You Smarter"
   raw_title: "Big Ruby 2013 Build a Bigger Brain: How Healthy Living Makes You Smarter by Joe Kutner"
   speakers:
@@ -129,10 +115,8 @@
   date: "2013-02-28"
   description: |-
     To keep doing what you love, you need to maintain your own systems, not just the ones you write code for. Regular exercise and proper nutrition help you learn, remember, concentrate, and be creative—skills critical to doing your job well. Learn how to change your work habits, master exercises that make working at a computer more comfortable, and develop a plan to keep fit, healthy, and sharp for years to come.
-
   video_provider: youtube
   video_id: Z0WcQ749OIM
-
 - title: Treading Water in a Stream of Data
   raw_title: Big Ruby 2013 Treading Water in a Stream of Data by Jeremy Hinegardner
   speakers:
@@ -143,21 +127,17 @@
     Data arrives in all sorts of forms, more and more today we are seeing data arrive in event-like systems: server logs, twitter, superfeedr notifications, github events, rubygems web hooks, couchdb change notifications, etc. We want to analyze streams of data, and find useful pieces of information in them.
 
     In this talk, using an existing dataset, we will go through the process of obtaining, manipulating, processing, analyzing and storing a stream of data. We will attempt to touch upon a variety of possible topics including: differences between processing static datasets and stream datasets, pitfalls of stream processing, analyzing data in real time and using the datastream itself as data source.
-
   video_provider: youtube
   video_id: As1bB-vbD0s
-
 - title: "Fire It Up: How Empowered People Automated Provisioning In 6 Datacenters Across 4 Continents"
   raw_title: "Big Ruby 2013 Fire It Up: How Empowered People Automated Provisioning In 6 Datacenters Across 4..."
   speakers:
     - Josh Schairbaum
   event_name: Big Ruby 2013
   date: "2013-02-28"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: GbVaepN5F5w
-
 - title: Scaling with Friends
   raw_title: Big Ruby 2013 SCALING WITH FRIENDS by Geoffrey Dagley
   speakers:
@@ -172,16 +152,13 @@
     How do I know what to fix? Instrumenting and reporting on everything
     Where is the data? Using the database, memcache, Redis to the fullest
     What we did wrong? What we did right? What would we do differently?
-
   video_provider: youtube
   video_id: DQQmhqZgXDk
-
 - title: Lightning Talks
   raw_title: Big Ruby 2013 Lightning Talks
   event_name: Big Ruby 2013
   date: "2013-02-28"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: 6T3Oa_5mO-g
   talks:
@@ -192,7 +169,6 @@
       video_id: chris-morris-lighting-talk-big-ruby-2013
       speakers:
         - Chris Morris
-
     - title: "Lightning Talk: rock-oauth2"
       start_cue: "05:10"
       end_cue: "10:47"
@@ -200,7 +176,6 @@
       video_id: tom-brown-lighting-talk-big-ruby-2013
       speakers:
         - Tom Brown
-
     - title: "Lightning Talk: Jack - A New Programming Language"
       start_cue: "10:47"
       end_cue: "16:30"
@@ -208,7 +183,6 @@
       video_id: tim-caswell-lighting-talk-big-ruby-2013
       speakers:
         - Tim Caswell
-
     - title: "Lightning Talk: JRuby"
       start_cue: "16:30"
       end_cue: "22:25"
@@ -216,7 +190,6 @@
       video_id: keith-bennett-lighting-talk-big-ruby-2013
       speakers:
         - Keith Bennett
-
     - title: "Lightning Talk: kinectable_pipe"
       start_cue: "22:25"
       end_cue: "28:50"
@@ -224,7 +197,6 @@
       video_id: marshall-yount-lighting-talk-big-ruby-2013
       speakers:
         - Marshall Yount
-
     - title: "Lightning Talk: Technical INTIMIDATION"
       start_cue: "28:50"
       end_cue: "34:29"
@@ -232,7 +204,6 @@
       video_id: chris-morris-lighting-talk-big-ruby-2013
       speakers:
         - Chris Morris
-
 - title: Hypermedia - Less Hype, More Media Please
   raw_title: Big Ruby 2013 Hypermedia - less hype, more media please by Wynn Netherland
   speakers:
@@ -245,17 +216,14 @@
     API consumers don't care about your API, your architecture, or your specs. They just want your data. This talk aims to provide a real world perspective of Hypermedia and show why it matters as we walk through the evolution of the GitHub API and the design decisions behind those changes. We'll dive into HATEOAS, media types, HAL, Collection+JSON, link templates, and the growing landscape of Ruby libraries for making all that easier to implement.
 
     We'll also look at the impact of Hypermedia on API clients and when it might not be the best design pattern.
-
   video_provider: youtube
   video_id: yVuMqV_Ul5s
-
 - title: "Keynote: Ruby, Codes, Threads, Events... and???"
   raw_title: Big Ruby Conf 2013 Keynote by Jim Weirich
   speakers:
     - Jim Weirich
   event_name: Big Ruby 2013
   date: "2013-02-28"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: vIHdhaF2R2w

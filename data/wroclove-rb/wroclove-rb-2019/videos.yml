@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: Building UIs for microservices
   raw_title: Building uls for microservices - Ethan Garofolo - wroc_love.rb 2019
   speakers:
@@ -15,7 +16,6 @@
   video_id: ArTS_AJ-smQ
   language: English
   description: ""
-
 - title: Handling File Uploads For A Modern Developer
   raw_title: Handling file uploads for modern developer -  Janko Marohnic  - wroc_love.rb 2019
   speakers:
@@ -27,7 +27,6 @@
   video_id: fP2JGjTZU2s
   language: English
   description: ""
-
 - title: Development with Axioms
   raw_title: Development with axioms - Martin Gamsjaeger - wroc_love.rb 2019
   speakers:
@@ -39,7 +38,6 @@
   video_id: qTVeWbg2tKk
   language: English
   description: ""
-
 - title: Mutant on Steroids
   raw_title: Mutant on steroids - Markus Schirp - wroc_love.rb 2019
   speakers:
@@ -51,7 +49,6 @@
   video_id: j1Ze3pKNJ4A
   language: English
   description: ""
-
 - title: Spice up your life with EQL
   raw_title: Spice up your life with eql - Norbert Wojtowicz - wroc_love.rb 2019
   speakers:
@@ -63,7 +60,6 @@
   video_id: UvJEBMOtayk
   language: English
   description: ""
-
 - title: Optimistic UI and Live Uupdates with Logux & Ruby
   raw_title: Optimistic ul - Dimitry Salahutdinov - wroc_love.rb 2019
   speakers:
@@ -75,7 +71,6 @@
   video_id: KVcZAfjWtYk
   language: English
   description: ""
-
 - title: Towards the Post Framework Future
   raw_title: Towards the post framework future - Victor Shepelev - wroc_love.rb 2019
   speakers:
@@ -87,7 +82,6 @@
   video_id: 5UiBQtfRDUI
   language: English
   description: ""
-
 - title: Orchestrating Video Transcoding in Ruby
   raw_title: Orchestrating video transcoding in ruby - Michal Matyas - wroc_love.rb 2019
   speakers:
@@ -100,7 +94,6 @@
   language: English
   description: ""
   slides_url: https://slides.com/sandwich/transcoding-videos-in-ruby-a-story
-
 - title: The TruffleRuby Compilation Pipeline
   raw_title: The truffleruby compilation pipeline - Chris Seaton - wroc_love.rb 2019
   speakers:
@@ -112,7 +105,6 @@
   video_id: bf5pQVgux3c
   language: English
   description: ""
-
 - title: Events Events Events
   raw_title: Events events events - Anton Davydov - wroc_love.rb 2019
   speakers:
@@ -124,7 +116,6 @@
   video_id: VnCPxjRpv3o
   language: English
   description: ""
-
 - title: How to Hijack
   raw_title: How to hijack - David Halasz - wroc_love.rb 2019
   speakers:
@@ -136,7 +127,6 @@
   video_id: YhNhVBUcPkI
   language: English
   description: ""
-
 - title: Business Logic in Ruby
   raw_title: Business logic in Ruby - Andrzej Krzywda - wroc_love.rb 2019
   speakers:
@@ -148,7 +138,6 @@
   video_id: bwUueshN6Rw
   language: English
   description: ""
-
 - title: Lighting Talks (Day 2)
   raw_title: Lighting talks 1 - wroc_love.rb 2019
   event_name: wroclove.rb 2019
@@ -168,7 +157,6 @@
       video_provider: parent
       speakers:
         - Paweł Pokrywka
-
     - title: "Lightning Talk: The only easy thing"
       date: "2019-03-23"
       published_at: "TODO"
@@ -178,7 +166,6 @@
       video_provider: parent
       speakers:
         - Maciek Rząsa
-
     - title: "Lightning Talk: Predicting Performance Changes of Distributed Applications"
       date: "2019-03-23"
       published_at: "TODO"
@@ -188,7 +175,6 @@
       video_provider: parent
       speakers:
         - Wojtek Rząsa
-
     - title: "Lightning Talk: Farewell To SciRuby"
       date: "2019-03-23"
       published_at: "TODO"
@@ -198,7 +184,6 @@
       video_provider: parent
       speakers:
         - Victor Shepelev
-
     - title: "Lightning Talk: Outdated Browser Detection with Browserslist"
       date: "2019-03-23"
       published_at: "TODO"
@@ -209,7 +194,6 @@
       speakers:
         - Dmitry Salahutdinov
       slides_url: https://speakerdeck.com/dsalahutdinov/outdated-browser-detection-with-browserslist
-
     - title: "Lightning Talk: Sonic Pi"
       date: "2019-03-23"
       published_at: "TODO"
@@ -219,7 +203,6 @@
       video_provider: parent
       speakers:
         - Nicolas Dermine
-
 - title: Lighting Talks (Day 3)
   raw_title: Lighting talks 2 - wroc_love.rb 2019
   event_name: wroclove.rb 2019
@@ -239,7 +222,6 @@
       video_provider: parent
       speakers:
         - Adam Hodowany
-
     - title: "Lightning Talk: What and Why"
       date: "2019-03-23"
       published_at: "TODO"
@@ -249,7 +231,6 @@
       video_provider: parent
       speakers:
         - Tomáš Dundáček
-
     - title: "Lightning Talk: Ruby & Elixir - Friend or Foe"
       date: "2019-03-23"
       published_at: "TODO"
@@ -259,7 +240,6 @@
       video_provider: parent
       speakers:
         - Adam Skołuda
-
     - title: "Lightning Talk: People Hate Him, Why Ruby is not dead?, Thank you, Please Help, How (not) to meet new people on DRUGCamp"
       date: "2019-03-23"
       published_at: "TODO"
@@ -269,7 +249,6 @@
       video_provider: parent
       speakers:
         - Adam Piotrowski
-
     - title: "Lightning Talk: More Sonic Pi"
       date: "2019-03-23"
       published_at: "TODO"

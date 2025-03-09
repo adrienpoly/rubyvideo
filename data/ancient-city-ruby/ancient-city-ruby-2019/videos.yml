@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: "Getting Down To Business with GraphQL"
   raw_title: Robert Mosolgo
   speakers:
@@ -14,7 +15,6 @@
   description: ""
   video_provider: youtube
   video_id: 69KRSd77Lgc
-
 - title: "Why Is This So Hard?"
   raw_title: Jack Christensen
   speakers:
@@ -25,7 +25,6 @@
   description: ""
   video_provider: youtube
   video_id: dxDHfTf2fWs
-
 - title: "SW Engineering and Mental Health are Not Mutually Exclusive"
   raw_title: Jackie Potts
   speakers:
@@ -36,7 +35,6 @@
   description: ""
   video_provider: youtube
   video_id: c4zrhsTs_ag
-
 - title: "The Functional Rubyist"
   raw_title: Joe Leo
   speakers:
@@ -47,7 +45,6 @@
   description: ""
   video_provider: youtube
   video_id: XSN67rxmeII
-
 - title: "Seamless GraphQL in Rails and React Native"
   raw_title: Jamon & Morgan
   speakers:
@@ -59,7 +56,6 @@
   description: ""
   video_provider: youtube
   video_id: B3shPZFbUh0
-
 - title: "(UN)Learning Elixir: A self-effacing guide to making fewer mistakes than I did when I started with Elixir"
   raw_title: Randall Thomas
   speakers:
@@ -70,7 +66,6 @@
   description: ""
   video_provider: youtube
   video_id: 6IvKG6s30nM
-
 - title: "Functioning in React: A Deep-Dive into useState()"
   raw_title: Jake Worth
   speakers:
@@ -81,7 +76,6 @@
   description: ""
   video_provider: youtube
   video_id: pBxdZ27QMjo
-
 - title: "We'll do it live: Underhanded Debugging Tactics"
   raw_title: Saimon Sharif
   speakers:
@@ -92,7 +86,6 @@
   description: ""
   video_provider: youtube
   video_id: g8HIFjhakDw
-
 - title: "Accessible JavaScript: Keep Your Hands Off My DOM"
   raw_title: Louisa Barrett
   speakers:
@@ -103,7 +96,6 @@
   description: ""
   video_provider: youtube
   video_id: KTesxNsCPxw
-
 - title: "Surrounded by Microservices"
   raw_title: Damir Svrtan
   speakers:
@@ -114,7 +106,6 @@
   description: ""
   video_provider: youtube
   video_id: gApEmNDhxVI
-
 - title: "Developing in React Native with Reactotron"
   raw_title: Richard Evans
   speakers:
@@ -125,7 +116,6 @@
   description: ""
   video_provider: youtube
   video_id: eO6WS4jtbIQ
-
 - title: "Unlearning: The Challenge of Change"
   raw_title: Jessie Shternshus
   speakers:

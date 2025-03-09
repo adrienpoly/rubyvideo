@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: "Ten Years of Ruby Conferences: A Dramatic Revue"
   raw_title: "Keep Ruby Weird 2014 - Ten Years of Ruby Conferences: A Dramatic Revue"
   speakers:
@@ -23,7 +24,6 @@
     row. This talk features creations by Brenna Flood.
   video_provider: youtube
   video_id: uQROQBbdeng
-
 - title: How to Code Like a Writer
   raw_title: Keep Ruby Weird 2014 - How to Code Like a Writer
   speakers:
@@ -36,10 +36,8 @@
     As developers, we spend more of our time writing than we do thinking about the nuances of computer science. What would happen if we approached code like a writing exercise instead of a technical pursuit? What if we applied patterns from elegant prose instead of Gang of Four? Let's try it!
 
     We'll take some smelly Ruby and refactor it using only advice from Strunk and White's "The Elements of Style", the canonical text on writing beautiful, understandable English. You'll come away with a new approach to your craft and a new appreciation of the similarities between great writing and great code.
-
   video_provider: youtube
   video_id: uHASWCPMZ3k
-
 - title: He Doesn't Work Here Anymore
   raw_title: Keep Ruby Weird 2014 - He Doesn't Work Here Anymore
   speakers:
@@ -54,10 +52,8 @@
     In August of 2013 I stood with friends on the stage at a Ruby conference and told the world that I am transgender. I began the long process of my personal, social, professional, and physical transition from male to female.
 
     I would like to share the lessons I'm learning, the perspective I'm gaining, and the inspiration I'm finding through the experience of living and working in two genders. How is this change impacting my career as a developer? Interactions with my peers? My relationship with the development community? Is it influencing how I create and appreciate code? My hope is to spark conversations and create opportunities for shared learning and growth by exploring the intersection of gender and technology.
-
   video_provider: youtube
   video_id: pnnFJiQsp8k
-
 - title: Computer Art at Bell Labs
   raw_title: Keep Ruby Weird 2014 - Computer Art at Bell Labs
   speakers:
@@ -70,10 +66,8 @@
     During the 1960's, computer scientists at Bell Labs in Murray Hill, NJ explored the limits of computers through art and music. Some worked by themselves to discover push the boundaries of computer animation, others brought in visual artists and composers to collaborate on art experiments on Bell Lab's equipment after the work day.
 
     In this talk, I'll talk about some of the experiments of computer scientists and artists during this time. We'll look at their influence on how we use computers today, and why we should embrace the spirit of experimentation and collaboration.
-
   video_provider: youtube
   video_id: TcHfJmN2rdo
-
 - title: "Ten Years of Ruby Conferences: A Dramatic Revue"
   raw_title: "Keep Ruby Weird 2014 - Ten Years of Ruby Conferences: A Dramatic Revue"
   speakers:
@@ -83,10 +77,8 @@
   published_at: "TODO"
   description: |-
     Many incredible people have given many amazing talks at Ruby or Rails conferences over the years, and we’d like to take a look back at some of the best. From _why the Lucky Stiff to Sandi Metz, from Matz to DHH, from Tenderlove to Jim Weirich, we will be giving you a whirlwind tour through the conference ages. You’ll learn where those important ideas you take for granted got their start. You’ll laugh and you’ll cry as you experience how the Ruby Community has grown over the years and how we’ve connected through our shared conference experiences. Rain ponchos recommended for the front row. This talk features creations by Brenna Flood.
-
   video_provider: youtube
   video_id: wxswPdwI0DU
-
 - title: "Opening Keynote: Keep Ruby Weird"
   raw_title: Keep Ruby Weird 2014 - Opening Keynote
   speakers:
@@ -96,10 +88,8 @@
   published_at: "TODO"
   description: |-
     By, Aaron Patterson
-
   video_provider: youtube
   video_id: 9N31ay425GI
-
 - title: What's That Supposed to Mean
   raw_title: Keep Ruby Weird 2014 - What's That Supposed to Mean
   speakers:
@@ -114,10 +104,8 @@
     All this has happened before, and all this will happen again. (Except for me driving with the parking brake on.) Throughout history, humanity has faced the challenge of putting complex and abstract concepts onto paper or clay or rock or skin or whatever. It usually starts out in the same way, but the end results have been very varied: We've ended up with alphabets, abjads, abugidas, logograms and syllabaries. Oh, and the symbols on modern industrial devices.
 
     I'll describe the history of some of the more interesting writing systems and explain how Chinese works, that Japanese can be really hard, and why you should be really glad you're not an Akkadian. I hope that it will be enlightening and fascinating, but I also hope that it will help to inform the way that people approach pictorial communication in the future. I also hope that it will go some way towards explaining why there are so many hamburger menus, and inspire people to do better.
-
   video_provider: youtube
   video_id: bVCtNKJ3Xzs
-
 - title: Ruby Monsters Go Bump in the Night
   raw_title: Keep Ruby Weird 2014 - Ruby Monsters Go Bump in the Night
   speakers:
@@ -128,10 +116,8 @@
   description: |-
     By, Jonan Schefler
     An exploration of the forgotten and dusty corners of Ruby, including a tour of some very unusual behaviors from threads, loops, exceptions and procs. This is a technical deep dive into some obscure features of Ruby that may someday crawl out from under your bed, and when they do you'll be glad you were prepared for the fight.
-
   video_provider: youtube
   video_id: TV74K_e_wrw
-
 - title: "Closing Keynote: To The Moon"
   raw_title: Keep Ruby Weird 2014 - Closing Keynote
   speakers:
@@ -141,6 +127,5 @@
   published_at: "TODO"
   description: |-
     By, Russ Olsen
-
   video_provider: youtube
   video_id: 50ExWDcim5I

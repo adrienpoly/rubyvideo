@@ -1,9 +1,9 @@
 ---
+#
 # Website: https://kaigionrails.org/2024
 # Schedule: https://kaigionrails.org/2024/schedule
-
 ## Day 1 - 2024-10-25
-
+#
 - title: "Keynote: Rails Way, or the highway"
   raw_title: Rails Way, or the highway / Palkan - Kaigi on Rails 2024
   speakers:
@@ -19,7 +19,6 @@
     【発表概要】
     Rails Way is a software development paradigm that implies sticking to the framework architectural defaults as much as possible. Everyone starts with the Rails Way, but how far can you get without derailing from it? Let’s talk about the Rails Way core principles, how they evolved over time, and how you can embrace and enhanced it using the layered design techniques.
 
-
     【発表者】
     Palkan
     GitHub https://github.com/palkan
@@ -29,7 +28,6 @@
   language: english
   video_provider: youtube
   video_id: ZUtRyHeLq4M
-
 - title: "Workshop: Rackを理解しRailsアプリケーション開発の足腰を鍛えよう"
   title_ja: "ワークショップ: Rackを理解しRailsアプリケーション開発の足腰を鍛えよう"
   raw_title: "ワークショップ: Rackを理解しRailsアプリケーション開発の足腰を鍛えよう"
@@ -57,7 +55,6 @@
   language: japanese
   video_provider: not_recorded
   video_id: workshop-kaigi-on-rails-2024
-
 - title: RailsのPull requestsのレビューの時に私が考えていること
   raw_title: RailsのPull requestsのレビューの時に私が考えていること / Yasuo Honda - Kaigi on Rails 2024
   speakers:
@@ -74,7 +71,6 @@
     【発表概要】
     Railsのpull Requestやissuesをレビューする際に、発表者がどのような考えを持っているか、またcontributorに何を期待しているかを、発表者が過去にレビューしたpull requestやissueを例に挙げて説明します。これにより、Railsへのcontributionの障壁を減らすとともに、Railsがより多くのユーザーからのフィードバックを受けるきっかけになることを期待しています。
 
-
     【発表者】
     Yasuo Honda
     GitHub https://github.com/yahonda
@@ -84,11 +80,8 @@
   language: japanese
   video_provider: youtube
   video_id: 90e7C4SB6jg
-
 - title: Railsの仕組みを理解してモデルを上手に育てる - モデルを見つける、モデルを分割する良いタイミング
-  raw_title:
-    Railsの仕組みを理解してモデルを上手に育てる - モデルを見つける、モデルを分割する良いタイミング - / 五十嵐邦明 - Kaigi
-    on Rails 2024
+  raw_title: Railsの仕組みを理解してモデルを上手に育てる - モデルを見つける、モデルを分割する良いタイミング - / 五十嵐邦明 - Kaigi on Rails 2024
   speakers:
     - Kuniaki Igarashi
   event_name: Kaigi on Rails 2024
@@ -108,7 +101,6 @@
 
     対象者として、Railsアプリでの機能実装に慣れてきたあと、メンテナンスしやすいコードを書くレベルへステップアップしたい人へ向けて、長期にわたり役立つ技術を持ち帰ってもらえるようお話しします。
 
-
     【発表者】
     五十嵐邦明
     GitHub https://github.com/igaiga
@@ -118,7 +110,6 @@
   language: japanese
   video_provider: youtube
   video_id: 2Ier_yHAnq8
-
 - title: 推し活としてのrails new
   raw_title: 推し活としてのrails new / sakahukamaki - Kaigi on Rails 2024
   speakers:
@@ -140,7 +131,6 @@
     「作るって何？？？？」
     平日夜、仕事でもないのに bundle exec rails new . をしてから今日にいたるまで。実際に何を作ったのか、Railsアプリしかわからない人間が選んだインフラ、Discord開発鯖の運用、『職業プログラマ』だからこそ手の届かない悔しさについてお話します。「キリ番」に覚えのある方、新たなファンアートの形に興味のある方、「土日にコードを書いていない人間」に興味がある方を、お待ちしています。
 
-
     【発表者】
     sakahukamaki
     GitHub https://github.com/sakahukamaki
@@ -150,11 +140,8 @@
   language: japanese
   video_provider: youtube
   video_id: SHZWrJwXq1w
-
 - title: そのカラム追加、ちょっと待って！カラム追加で増えるActiveRecordのメモリサイズ、イメージできますか?
-  raw_title:
-    そのカラム追加、ちょっと待って！カラム追加で増えるActiveRecordのメモリサイズ、イメージできますか? / Asayama Kodai
-    - Kaigi on Rails 2024
+  raw_title: そのカラム追加、ちょっと待って！カラム追加で増えるActiveRecordのメモリサイズ、イメージできますか? / Asayama Kodai - Kaigi on Rails 2024
   speakers:
     - Asayama Kodai
   event_name: Kaigi on Rails 2024
@@ -179,7 +166,6 @@
     Ruby・Railsはわかってきたけど、さらに下のレイヤーでどんなことが起きているのかを知りたい、
     ひとつ下を歩けるRailsエンジニアになるための入口となるセッションを目指します。
 
-
     【発表者】
     Asayama Kodai
     GitHub https://github.com/asayamakk
@@ -189,11 +175,8 @@
   language: japanese
   video_provider: youtube
   video_id: CBUJ1L9OAmA
-
 - title: モノリスでも使える！OpenTelemetryでRailsアプリのパフォーマンス分析を始めてみよう
-  raw_title:
-    モノリスでも使える！OpenTelemetryでRailsアプリのパフォーマンス分析を始めてみよう / ymtdzzz - Kaigi on
-    Rails 2024
+  raw_title: モノリスでも使える！OpenTelemetryでRailsアプリのパフォーマンス分析を始めてみよう / ymtdzzz - Kaigi on Rails 2024
   speakers:
     - Yosuke Matsuda
   event_name: Kaigi on Rails 2024
@@ -213,7 +196,6 @@
 
     今回お話する内容を用いれば、皆さんはすぐにOpenTelemetryや各ベンダーが提供するライブラリを用いたパフォーマンス分析の検証を開始することができます。これにより、みなさんご自身が開発するRailsアプリケーションの運用が楽になれば嬉しいです。
 
-
     【発表者】
     ymtdzzz
     GitHub https://github.com/ymtdzzz
@@ -223,7 +205,6 @@
   language: japanese
   video_provider: youtube
   video_id: KZMf1AveoDc
-
 - title: Sidekiqで実現する長時間非同期処理の中断と再開
   raw_title: Sidekiqで実現する長時間非同期処理の中断と再開 / hypermkt - Kaigi on Rails 2024
   speakers:
@@ -248,7 +229,6 @@
 
     本セッションでは、デプロイの過程でSidekiqにおける長時間ジョブを安全に中断・再開する仕組みについて、実践的なアプローチを紹介し、実際の運用にどのように役立つかについて詳しく解説します。
 
-
     【発表者】
     hypermkt
     GitHub https://github.com/hypermkt
@@ -258,7 +238,6 @@
   language: japanese
   video_provider: youtube
   video_id: 0XG9Mjv0Z6s
-
 - title: カスタムしながら理解するGraphQL Connection
   raw_title: カスタムしながら理解するGraphQL Connection / yana-gi - Kaigi on Rails 2024
   speakers:
@@ -280,7 +259,6 @@
 
     このセッションでは、実装するにあたってGraphQLの基本概念を説明した後、minneで検索エンジンのREST APIをバックエンドとしてGraphQLによるページネーションを実現した経験から、graphql-rubyを用いてこれを実装する方法を説明します。
 
-
     【発表者】
     yana-gi
     GitHub https://github.com/yana-gi
@@ -290,11 +268,8 @@
   language: japanese
   video_provider: youtube
   video_id: AMWVsFtlkoU
-
 - title: cXML という電子商取引のトランザクションを支えるプロトコルと向きあっている話
-  raw_title:
-    cXML という電子商取引のトランザクションを支えるプロトコルと向きあっている話 / phigasui - Kaigi on Rails
-    2024
+  raw_title: cXML という電子商取引のトランザクションを支えるプロトコルと向きあっている話 / phigasui - Kaigi on Rails 2024
   speakers:
     - phigasui
   event_name: Kaigi on Rails 2024
@@ -314,7 +289,6 @@
     こういったリアルワールドの複雑さを仕様に落とし込み、外部システムとの接続に必要なパンチアウト連携・cXMLという聞きなじみのない仕組みに対応したプロダクトを開発するなかで、多くの課題や苦労がありました。
     それらの課題とどう向きあって乗り越えてきたかお話しします。
 
-
     【発表者】
     phigasui
     GitHub https://github.com/phigasui
@@ -324,15 +298,12 @@
   language: japanese
   video_provider: youtube
   video_id: IOhHO2Eug4g
-
 - title: "Unlocking the Power of JRuby: Migrating Rails Apps for Enhanced Performance and Versatility"
   title_ja: JRubyのパワーを解き放つ：パフォーマンスと多様性向上のためのRailsアプリ
-  raw_title:
-    JRubyのパワーを解き放つ：パフォーマンスと多様性向上のためのRailsアプリ / Owaru Ryudo - Kaigi on Rails
-    2024
+  raw_title: JRubyのパワーを解き放つ：パフォーマンスと多様性向上のためのRailsアプリ / Owaru Ryudo - Kaigi on Rails 2024
   speakers:
     - Mu-Fan Teng
-    # - Ryudo Awaru (japanese name)
+  # - Ryudo Awaru (japanese name)
   event_name: Kaigi on Rails 2024
   date: "2024-10-25"
   published_at: "2024-12-10"
@@ -346,7 +317,6 @@
     JRubyが豊富なJavaライブラリのエコシステムへの扉を開き、堅牢なWeb開発のためのツールキットを拡張する方法を発見しましょう。実際の事例研究と実践的な例を通じて、C-bindingのgemをJava版に適応させることを含む、移行の課題と成功を紹介します。
     パフォーマンスの最適化、Javaライブラリの活用、またはJRubyの可能性に興味がある方に、JRubyをRailsプロジェクトに組み込むための情報に基づいた決定を行うための知識を提供します。
 
-
     【発表者】
     Owaru Ryudo
     GitHub https://github.com/ryudoawaru
@@ -356,11 +326,8 @@
   language: english
   video_provider: youtube
   video_id: 7-vksWCWS3s
-
 - title: リリース8年目のサービスの1800個のERBファイルをViewComponentに移行した方法とその結果
-  raw_title:
-    リリース8年目のサービスの1800個のERBファイルをViewComponentに移行した方法とその結果 / Naoyuki Kataoka
-    - Kaigi on Rails 2024
+  raw_title: リリース8年目のサービスの1800個のERBファイルをViewComponentに移行した方法とその結果 / Naoyuki Kataoka - Kaigi on Rails 2024
   speakers:
     - Naoyuki Kataoka
   event_name: Kaigi on Rails 2024
@@ -383,7 +350,6 @@
     続いて、1800個のERBファイルをViewComponentに移行するために、移行スクリプトを実装した過程について紹介します。
     最後に、ViweComponentの導入によって得られた効果や、レンダリング時間の計測結果について紹介します。
 
-
     【発表者】
     Naoyuki Kataoka
     GitHub https://github.com/katty0324
@@ -393,11 +359,8 @@
   language: japanese
   video_provider: youtube
   video_id: HHP1kotYqww
-
 - title: ActionCableなら簡単? 生成 AIの応答をタイピングアニメーションで表示。実装、コスト削減、テスト、運用まで。
-  raw_title:
-    ActionCableなら簡単? 生成 AIの応答をタイピングアニメーションで表示。実装、コスト削減、テスト、運用まで。 / kaiba
-    - Kaigi on Rails 2024
+  raw_title: ActionCableなら簡単? 生成 AIの応答をタイピングアニメーションで表示。実装、コスト削減、テスト、運用まで。 / kaiba - Kaigi on Rails 2024
   speakers:
     - kaibadash
   event_name: Kaigi on Rails 2024
@@ -419,7 +382,6 @@
     テストしづらい
     本トークでは、LLM と ActionCable を用いた実装、テスト、インフラ構成のポイントと、各フェーズでの課題解決方法について紹介します。
 
-
     【発表者】
     kaiba
     GitHub https://github.com/kaibadash
@@ -429,7 +391,6 @@
   language: japanese
   video_provider: youtube
   video_id: VEZu2iLpXbo
-
 - title: Rails APIモードのためのシンプルで効果的なCSRF対策
   raw_title: Rails APIモードのためのシンプルで効果的なCSRF対策 / corocn - Kaigi on Rails 2024
   speakers:
@@ -447,7 +408,6 @@
 
     特に、ブラウザのヘッダ情報（Origin, SameSite, Fetch Metadata など）を活用したシンプルなCSRF対策に焦点を当て、その実装方法について具体例を交えて紹介します。新しい対策の利点や、Railsでの実装手法を学ぶことで、アプリケーションのセキュリティを向上させるための知識をアップデートする機会となるでしょう。
 
-
     【発表者】
     corocn
     GitHub https://github.com/corocn
@@ -457,7 +417,6 @@
   language: japanese
   video_provider: youtube
   video_id: t-X6n2k6d2A
-
 - title: 現実のRuby/Railsアップグレード
   raw_title: 現実のRuby/Railsアップグレード / Yuichi Takeuchi - Kaigi on Rails 2024
   speakers:
@@ -485,7 +444,6 @@
 
     Railsは今後も素晴らしいフレームワークとして進化を続けていきますが、その恩恵を受け続けるにはアップグレードから逃れることはできません。この発表が皆さんのプロジェクトの一助となれば幸いです。
 
-
     【発表者】
     Yuichi Takeuchi
     GitHub https://github.com/takeyuweb
@@ -495,11 +453,8 @@
   language: japanese
   video_provider: youtube
   video_id: zil0umJ1af0
-
 - title: デプロイを任されたので、教わった通りにデプロイしたら障害になった件 〜俺のやらかしを越えてゆけ〜
-  raw_title:
-    デプロイを任されたので、教わった通りにデプロイしたら障害になった件 〜俺のやらかしを越えてゆけ〜 / izumitomo - Kaigi
-    on Rails 2024
+  raw_title: デプロイを任されたので、教わった通りにデプロイしたら障害になった件 〜俺のやらかしを越えてゆけ〜 / izumitomo - Kaigi on Rails 2024
   speakers:
     - izumitomo
   event_name: Kaigi on Rails 2024
@@ -526,7 +481,6 @@
 
     俺のやらかしを越えてゆけ。
 
-
     【発表者】
     izumitomo
     GitHub https://github.com/izumitomo
@@ -536,11 +490,8 @@
   language: japanese
   video_provider: youtube
   video_id: w0fqxSbo3yg
-
 - title: Hotwire or React? 〜Reactの録画機能をHotwireに置き換えて得られた知見〜
-  raw_title:
-    Hotwire or React? 〜Reactの録画機能をHotwireに置き換えて得られた知見〜 / Haruna Tsujita -
-    Kaigi on Rails 2024
+  raw_title: Hotwire or React? 〜Reactの録画機能をHotwireに置き換えて得られた知見〜 / Haruna Tsujita - Kaigi on Rails 2024
   speakers:
     - Haruna Tsujita
   event_name: Kaigi on Rails 2024
@@ -557,7 +508,6 @@
 
     本トークでは、Railsアプリケーション内のviewの一部にReactで実装された録画機能をHotwire（Turbo + Stimulus）へ置き換えを試みた事例をもとに、特にStimulusを使った開発体験に着目しながら、HotwireとReactなどのフロントエンドフレームワークをどのように使い分けると幸せに開発できるのかを考察します。
 
-
     【発表者】
     Haruna Tsujita
     GitHub https://github.com/haruna-tsujita
@@ -567,7 +517,6 @@
   language: japanese
   video_provider: youtube
   video_id: 5ERM5lF8MSA
-
 - title: Capybara+生成AIでどこまで本当に自然言語のテストを書けるか？
   raw_title: Capybara+生成AIでどこまで本当に自然言語のテストを書けるか？ / Yusuke Iwaki - Kaigi on Rails 2024
   speakers:
@@ -586,7 +535,6 @@
     これだけAIが賢くなったら、自然言語でシステムテストを書いて、サイトが変わっても自然言語の記載を変えたらそのまま動くようにはできるはずです。
     まだまだ精度は出ないなど運用上の課題はありますが、Railsサーバーを起動してAIにWebサイトを読み取らせて自然言語でテスト内容を入力して結果を得る、というニッチな方法を、Capybaraドライバを拡張して実装する方法について解説します。
 
-
     【発表者】
     Yusuke Iwaki
     GitHub https://github.com/YusukeIwaki
@@ -596,8 +544,9 @@
   language: japanese
   video_provider: youtube
   video_id: yrVIgFgjQ-Q
-
+#
 ## Day 2 - 2024-10-26
+#
 - title: 作って理解する RDBMSのしくみ
   raw_title: 作って理解する RDBMSのしくみ / Yudai Takada - Kaigi on Rails 2024
   speakers:
@@ -622,7 +571,6 @@
     このトークを通じて、RDBMSの内部構造やしくみを知ることで、明日からRDBMSをより効果的に使いこなすための気づきを得る一助となるようなお話をしたいと思います。
     普段使っている道具がどのようなしくみや構造になっているか興味はありませんか？
 
-
     【発表者】
     Yudai Takada
     GitHub https://github.com/ydah
@@ -632,11 +580,8 @@
   language: japanese
   video_provider: youtube
   video_id: VOeu7s5ifQQ
-
 - title: 都市伝説バスターズ「WebアプリのボトルネックはDBだから言語の性能は関係ない」
-  raw_title:
-    都市伝説バスターズ「WebアプリのボトルネックはDBだから言語の性能は関係ない」 / Daisuke Aritomo (osyoyu) -
-    Kaigi on Rails 2024
+  raw_title: 都市伝説バスターズ「WebアプリのボトルネックはDBだから言語の性能は関係ない」 / Daisuke Aritomo (osyoyu) - Kaigi on Rails 2024
   speakers:
     - Daisuke Aritomo
   event_name: Kaigi on Rails 2024
@@ -658,7 +603,6 @@
 
     実は日常の開発に影響している、Rubyやフレームワークの性能設計を探求しましょう。「ボトルネックつぶし」ではない方法で性能を改善し、都市伝説をバスティングする様子をお見せします。
 
-
     【発表者】
     Daisuke Aritomo (osyoyu)
     GitHub https://github.com/osyoyu
@@ -668,11 +612,8 @@
   language: japanese
   video_provider: youtube
   video_id: Ck3g4pIH9u0
-
 - title: "Cache to Your Advantage: フラグメントキャッシュの基本と応用"
-  raw_title:
-    "Cache to Your Advantage: フラグメントキャッシュの基本と応用 / Toru Kawamura - Kaigi on
-    Rails 2024"
+  raw_title: "Cache to Your Advantage: フラグメントキャッシュの基本と応用 / Toru Kawamura - Kaigi on Rails 2024"
   speakers:
     - Toru Kawamura
   event_name: Kaigi on Rails 2024
@@ -689,7 +630,6 @@
     具体的には、DHHが提案した効率的なキーベースのキャッシュ無効化戦略やフラグメントキャッシュのキー決定方法について説明し、それがどのようにしてデータの一貫性を保ちながらキャッシュを管理するかを掘り下げます。
     次に、私が開発した「レンダリングキャッシュ」gemを紹介し、フラグメントキャッシュとアクションキャッシュの利点を統合した新しいアプローチを提案します。さらに、Turbo Framesを活用して動的コンテンツを分離する方法を説明し、動的部分と静的部分を分離することで全体のキャッシュ効率を向上させる設計方法を提案します。このセッションを通じて、フラグメントキャッシュのしくみを理解し、Railsアプリケーションのパフォーマンスを向上させるための実践的な手法をお伝えします。自信を持ってキャッシュを使えるようになりましょう。
 
-
     【発表者】
     Toru Kawamura
     GitHub https://github.com/tkawa
@@ -699,11 +639,8 @@
   language: japanese
   video_provider: youtube
   video_id: 35ruNxFJGKw
-
 - title: ActiveRecord SQLインジェクションクイズ (Rails 7.1.3.4)
-  raw_title:
-    ActiveRecord SQLインジェクションクイズ (Rails 7.1.3.4) / Koji NAKAMURA - Kaigi on
-    Rails 2024
+  raw_title: ActiveRecord SQLインジェクションクイズ (Rails 7.1.3.4) / Koji NAKAMURA - Kaigi on Rails 2024
   speakers:
     - Koji NAKAMURA
   event_name: Kaigi on Rails 2024
@@ -723,7 +660,6 @@
 
     またIPAの「安全なウェブサイトの作り方」に言及されている対策に対してRailsアプリケーションがどのように実装しているかも確認しながら、一般的なWebアプリケーションセキュリティについての基礎知識も得る機会になれば幸いです。
 
-
     【発表者】
     Koji NAKAMURA
     GitHub https://github.com/kozy4324
@@ -733,7 +669,6 @@
   language: japanese
   video_provider: youtube
   video_id: jewA8tnPO-4
-
 - title: 推し活のハイトラフィックに立ち向かうRailsとアーキテクチャ
   raw_title: 推し活のハイトラフィックに立ち向かうRailsとアーキテクチャ / Hayato OKUMOTO - Kaigi on Rails 2024
   speakers:
@@ -753,7 +688,6 @@
 
     このようなハイトラフィックでクリティカルな状況に、PostgreSQL、Redis、CDNを活用して、どのようにしてRuby on Railsで立ち向かっているのかについてお話しします。
 
-
     【発表者】
     Hayato OKUMOTO
     GitHub https://github.com/falcon8823
@@ -763,7 +697,6 @@
   language: japanese
   video_provider: youtube
   video_id: SYEBAEPV0tk
-
 - title: OmniAuthから学ぶOAuth 2.0
   raw_title: OmniAuthから学ぶOAuth 2.0 / ykpythemind - Kaigi on Rails 2024
   speakers:
@@ -780,7 +713,6 @@
     Railsで仕事をしていると、外部サービスを用いたログイン・ユーザー登録のためにOmniAuth gemを用いることがよくあります。OmniAuthは外部サービスとの接続を抽象化した「ストラテジ」として提供しており、外部サービスのことをよく知らなくとも認証部分を利用できるようになっています。
     では、この裏側では実際には何が行われているのでしょうか。ここでは実際の開発において頻繁に利用されるストラテジであるOAuth2 StrategyおよびOpenID Connect Strategyについて掘り下げ、OmniAuthが隠蔽してくれている実装とは何か、またOAuth2やOpenID Connectの規格についてもお話します。
 
-
     【発表者】
     ykpythemind
     GitHub https://github.com/ykpythemind
@@ -790,7 +722,6 @@
   language: japanese
   video_provider: youtube
   video_id: LDfefPahOYA
-
 - title: 入門『状態』
   raw_title: 入門『状態』 / しんくう - Kaigi on Rails 2024
   speakers:
@@ -810,7 +741,6 @@
 
     明日からすぐに実践できる、「状態」の適切な取り扱い方法をお伝えできればと思います。
 
-
     【発表者】
     しんくう
     GitHub https://github.com/shinkufencer
@@ -821,11 +751,8 @@
   video_provider: youtube
   video_id: NteFoikE8XU
   slug: state-for-beginners-with-rails
-
 - title: 約9000個の自動テストの時間を50分から10分に短縮、偽陽性率(Flakyテスト)を1%以下に抑えるまでの道のり
-  raw_title:
-    約9000個の自動テストの時間を50分から10分に短縮、偽陽性率(Flakyテスト)を1%以下に抑えるまでの道のり / hatsu - Kaigi
-    on Rails 2024
+  raw_title: 約9000個の自動テストの時間を50分から10分に短縮、偽陽性率(Flakyテスト)を1%以下に抑えるまでの道のり / hatsu - Kaigi on Rails 2024
   speakers:
     - hatsu38
   event_name: Kaigi on Rails 2024
@@ -845,7 +772,6 @@
     効果がなかった施策とその理由
     全員が機能開発を続けながら、サイドプロジェクトとして改善を達成するための工夫
 
-
     【発表者】
     hatsu
     GitHub https://github.com/hatsu38
@@ -855,7 +781,6 @@
   language: japanese
   video_provider: youtube
   video_id: AF-2CZma30M
-
 - title: Hotwire光の道とStimulus
   raw_title: Hotwire光の道とStimulus / Yasuko Ohba (nay3)  - Kaigi on Rails 2024
   speakers:
@@ -866,13 +791,25 @@
   slides_url: https://speakerdeck.com/nay3/hotwireguang-nodao-tostimulus
   slug: hotwireguang-nodao-tostimulus
   track: Hall Red
-  description:
-    "https://kaigionrails.org/2024/talks/nay/\n\n【発表概要】\n私はここ数年、Hotwireを使ってRailsアプリケーションを開発しています。Hotwireはとても強力な技術ですが、いろいろなことができるからこそ、かえって本質がクリアになっていないという思いを抱き、効果的な設計原則の言語化に努めてきました。Hotwireを使った開発を続ける中で、私の理想とする設計原則「Hotwire光の道」について、さらに言語化が進んできたので、それをご紹介したいと思います。\n\n「Hotwire光の道」の核心は、サーバサイドですべてをコントロールできるようにすることです。今回は、Stimulusの使いこなしを題材に、この設計原則について話していきたいと思います。\n\nStimulusを用いると、クライアント側で動くJavaScriptを、手軽に、ある程度管理しやすい形で書くことができます。しかし、だからこそ、クライアント側にいろいろな処理を書いてしまいがちです。私自身も、開発のなかでうっかり「光の道」から外れて、クライアント側での実装をしてしまっていたことが何回もあります。そういう場合は、後になって道から外れていたことに気づき、リファクタリングをしています。今回のトークでは、そういった具体例を出しながら、Stimulusをどう使うと（または、どう使わないと）Hotwireの良さを活かしたアプリケーションを作れるのかについて、私の考えをご紹介したいと思います。\n\n\n【発表者】\nYasuko
-    Ohba (nay3) \nGitHub https://github.com/nay\n\nKaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。\nhttps://kaigionrails.org/"
+  description: |-
+    https://kaigionrails.org/2024/talks/nay/
+
+    【発表概要】
+    私はここ数年、Hotwireを使ってRailsアプリケーションを開発しています。Hotwireはとても強力な技術ですが、いろいろなことができるからこそ、かえって本質がクリアになっていないという思いを抱き、効果的な設計原則の言語化に努めてきました。Hotwireを使った開発を続ける中で、私の理想とする設計原則「Hotwire光の道」について、さらに言語化が進んできたので、それをご紹介したいと思います。
+
+    「Hotwire光の道」の核心は、サーバサイドですべてをコントロールできるようにすることです。今回は、Stimulusの使いこなしを題材に、この設計原則について話していきたいと思います。
+
+    Stimulusを用いると、クライアント側で動くJavaScriptを、手軽に、ある程度管理しやすい形で書くことができます。しかし、だからこそ、クライアント側にいろいろな処理を書いてしまいがちです。私自身も、開発のなかでうっかり「光の道」から外れて、クライアント側での実装をしてしまっていたことが何回もあります。そういう場合は、後になって道から外れていたことに気づき、リファクタリングをしています。今回のトークでは、そういった具体例を出しながら、Stimulusをどう使うと（または、どう使わないと）Hotwireの良さを活かしたアプリケーションを作れるのかについて、私の考えをご紹介したいと思います。
+
+    【発表者】
+    Yasuko Ohba (nay3)
+    GitHub https://github.com/nay
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
   language: japanese
   video_provider: youtube
   video_id: XWXGucFGZlI
-
 - title: Sidekiq vs Solid Queue
   raw_title: Sidekiq vs Solid Queue / Shinichi Maeshima - Kaigi on Rails 2024
   speakers:
@@ -892,7 +829,6 @@
 
     この発表では、Rails用のメジャーなバックグラウンドワーカーの変遷を紹介することでSolid Queueが生まれるまでの経緯を説明します。また、現在広く使われているSidekiqの機能や特性をSolid Queueと比較することで、今後どちらを選択したらよいかの指針を示します。
 
-
     【発表者】
     Shinichi Maeshima
     GitHub https://github.com/willnet
@@ -902,7 +838,6 @@
   language: japanese
   video_provider: youtube
   video_id: 6Z5c-cKvFwQ
-
 - title: The One Person Framework 実践編
   raw_title: The One Person Framework 実践編 / asonas - Kaigi on Rails 2024
   speakers:
@@ -923,7 +858,6 @@
     近年、Ruby on Railsが普遍的に仕事で使われるようになり、自分とRailsとの向き合い方や、そこから生じる忌避感をぬぐうべく私はKairanbanをRuby on Railsで書き直すことにしました。
     書き直しをする上で、いくつかの点においてRuby on Railsの良さを改めて発見することができたのでお話します。
 
-
     【発表者】
     asonas
     GitHub https://github.com/asonas
@@ -933,11 +867,8 @@
   language: japanese
   video_provider: youtube
   video_id: mBw5qcXmWEo
-
 - title: Importmapを使ったJavaScriptの読み込みとブラウザアドオンの影響
-  raw_title:
-    Importmapを使ったJavaScriptの読み込みとブラウザアドオンの影響 / shu_numata - Kaigi on Rails
-    2024
+  raw_title: Importmapを使ったJavaScriptの読み込みとブラウザアドオンの影響 / shu_numata - Kaigi on Rails 2024
   speakers:
     - shu_numata
   event_name: Kaigi on Rails 2024
@@ -957,7 +888,6 @@
 
     importmapを使用したアプリ開発の利点と落とし穴、その回避方法についてお話します。
 
-
     【発表者】
     shu_numata
     GitHub https://github.com/swamp09
@@ -967,7 +897,6 @@
   language: japanese
   video_provider: youtube
   video_id: Yig0CKOOekQ
-
 - title: Data Migration on Rails
   raw_title: Data Migration on Rails / ohbarye - Kaigi on Rails 2024
   speakers:
@@ -987,7 +916,6 @@
 
     本セッションを通じて、参加者がプロジェクトに応じた最適なアプローチを選択できるようになることはもちろん、既存の運用方法を見直す機会にもなるでしょう。data migrationに対する理解と視野を広げ、さらなる議論の発展につながることを期待しています。
 
-
     【発表者】
     ohbarye
     GitHub https://github.com/ohbarye
@@ -997,7 +925,6 @@
   language: japanese
   video_provider: youtube
   video_id: 8WgXr7lvU7c
-
 - title: Tuning GraphQL on Rails
   raw_title: Tuning GraphQL on Rails / Kazuhiko Yamashita - Kaigi on Rails 2024
   speakers:
@@ -1014,7 +941,6 @@
     話し手はモノリス構成のRuby on Railsのアプリにおいて、大量に発生していたN+1問題を多く解決してきました。そのときに利用した実践的なテクニック及び、バッチローダーの内部的な実装詳細について紹介します。
     特にGraphQLのクエリがどのように実行されるか、バッチローダーがどのように実行されるかについては普段エンジニアが意識しづらい領域ではあるものの、認知の有無によって大きくパフォーマンスは異なります。このセッションを聞いたRubyistが書くGraphQLの実装が明日から速くなるようなセッションにします。
 
-
     【発表者】
     Kazuhiko Yamashita
     GitHub https://github.com/pyama86
@@ -1024,11 +950,8 @@
   language: japanese
   video_provider: youtube
   video_id: CcMEBD-C7f0
-
 - title: 30万人が利用するチャットをFirebase Realtime DatabaseからActionCableへ移行する方法
-  raw_title:
-    30万人が利用するチャットをFirebase Realtime DatabaseからActionCableへ移行する方法 / Ryosuke
-    Uchida - Kaigi on Rails 2024
+  raw_title: 30万人が利用するチャットをFirebase Realtime DatabaseからActionCableへ移行する方法 / Ryosuke Uchida - Kaigi on Rails 2024
   speakers:
     - Ryosuke Uchida
   event_name: Kaigi on Rails 2024
@@ -1057,11 +980,8 @@
   language: japanese
   video_provider: youtube
   video_id: AASwXXBKFJU
-
 - title: 大事なデータを守りたい！ActiveRecord Encryptionと、より安全かつ検索可能な暗号化手法の実装例の紹介
-  raw_title:
-    大事なデータを守りたい！ActiveRecord Encryptionと、より安全かつ検索可能な暗号化手法の実装例の紹介 / 小林悟史（小林ノエル）
-    - Kaigi on Rails 2024
+  raw_title: 大事なデータを守りたい！ActiveRecord Encryptionと、より安全かつ検索可能な暗号化手法の実装例の紹介 / 小林悟史（小林ノエル） - Kaigi on Rails 2024
   speakers:
     - Satoshi Kobayashi
   event_name: Kaigi on Rails 2024
@@ -1085,7 +1005,6 @@
     本発表ではRailsにおけるActiveRecord Encryptionを含めその他の暗号化手法を併せて紹介し、attr_encrypted gemを用いて上記のような複雑な要件を満たす方法や、永続化層では暗号化しつつ検索可能にする実装方法についても紹介します。
     本発表を通じて各暗号化手法のメリット・デメリットや使い所を理解して頂くことを目的とします。
 
-
     【発表者】
     小林悟史（小林ノエル）
     GitHub https://github.com/f-world21
@@ -1095,11 +1014,8 @@
   language: japanese
   video_provider: youtube
   video_id: H1QxWUo3Kbs
-
 - title: サイロ化した金融システムを、packwerk を利用して無事故でリファクタリングした話
-  raw_title:
-    サイロ化した金融システムを、packwerk を利用して無事故でリファクタリングした話 / Kota Kusama - Kaigi on
-    Rails 2024
+  raw_title: サイロ化した金融システムを、packwerk を利用して無事故でリファクタリングした話 / Kota Kusama - Kaigi on Rails 2024
   speakers:
     - Kota Kusama
   event_name: Kaigi on Rails 2024
@@ -1117,7 +1033,6 @@
 
     本セッションではサイロ化した金融システムをリファクタリングした事例を基に、安全な手段としてpackwerkを採用した経緯、packwerkだけでは防ぎきれない観点とその対策、現在検討している今後の展望についてお話ししたいと思います。
 
-
     【発表者】
     Kota Kusama
     GitHub https://github.com/cc-kusama
@@ -1127,7 +1042,6 @@
   language: japanese
   video_provider: youtube
   video_id: 1e96QDE3dO0
-
 - title: omakaseしないためのrubocop.yml のつくりかた
   raw_title: omakaseしないためのrubocop.yml のつくりかた / Shu Oogawara - Kaigi on Rails 2024
   speakers:
@@ -1147,7 +1061,6 @@
 
     本発表では、9ヶ月にわたってチームで少しずつ議論を進め、ToDo を解消しながらrubocop.ymlを作り上げていった過程をお話しします。
 
-
     【発表者】
     Shu Oogawara
     GitHub https://github.com/expajp
@@ -1157,7 +1070,6 @@
   language: japanese
   video_provider: youtube
   video_id: ZFpL3-RdUys
-
 - title: Identifying User Identity
   raw_title: Identifying User Identity / MOROHASHI Kyosuke - Kaigi on Rails 2024
   speakers:
@@ -1177,7 +1089,6 @@
 
     これから rails new する人はもちろん、既存サービスでユーザー周りの機能と向き合っている方々(たいへんですよね...)にとっても概念を整理する助けになれればと思います。
 
-
     【発表者】
     MOROHASHI Kyosuke
     GitHub https://github.com/moro
@@ -1187,11 +1098,8 @@
   language: japanese
   video_provider: youtube
   video_id: 55JgSAIivPk
-
 - title: "Type on Rails: Railsアプリケーションの安全性と開発体験を型で革新する"
-  raw_title:
-    "Type on Rails: Railsアプリケーションの安全性と開発体験を型で革新する / kazzix - Kaigi on Rails
-    2024"
+  raw_title: "Type on Rails: Railsアプリケーションの安全性と開発体験を型で革新する / kazzix - Kaigi on Rails 2024"
   speakers:
     - Kazuma Murata
   event_name: Kaigi on Rails 2024
@@ -1207,7 +1115,6 @@
     本発表では、ミッションクリティカルなものを含む複数のRailsアプリケーションに型チェッカーであるSorbetを導入し、1年以上運用して得られた知見を共有します。
     実際にSorbetをRailsアプリケーションに導入するためのツールや具体的な手順、それにあたっての注意点などを紹介し、参加者が実際のアプリケーションに型システムを導入することができる状態を目指します。また、型システムをより活かしたRailsアプリケーションの設計・実装について、代数的データ型やその一種であるResult型などとともにRailsでの実例を交え紹介します。
 
-
     【発表者】
     kazzix
     GitHub https://github.com/kazzix14
@@ -1217,11 +1124,8 @@
   language: japanese
   video_provider: youtube
   video_id: Y8aoAB0DBBI
-
 - title: "Keynote: WHOLENESS, REPAIRING, AND TO HAVE FUN: 全体性、修復、そして楽しむこと"
-  raw_title:
-    "WHOLENESS, REPAIRING, AND TO HAVE FUN: 全体性、修復、そして楽しむこと / 島田浩二 - Kaigi
-    on Rails 2024"
+  raw_title: "WHOLENESS, REPAIRING, AND TO HAVE FUN: 全体性、修復、そして楽しむこと / 島田浩二 - Kaigi on Rails 2024"
   speakers:
     - Koji Shimada
   event_name: Kaigi on Rails 2024
@@ -1236,7 +1140,6 @@
     本講演では、これからのアプリケーション開発者の方々に向けて、18年になるRailsとの旅の中で学んだ、ソフトウェアを設計する際に私が大事だと考えていることについてお話します。
     具体的には、全体が機能するように設計すること、そして変化に向けて設計することの2点について、重要性やアプローチの仕方、Railsがどうそれをサポートしてくれているか、どこから始めると良いかといったことを説明します。
     本講演を通じて、ソフトウェア設計という大変な仕事に楽しく向き合い続けていくための材料やヒント、糧を届けられればと思います。
-
 
     【発表者】
     島田浩二

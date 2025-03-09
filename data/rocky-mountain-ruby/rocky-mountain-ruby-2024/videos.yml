@@ -1,11 +1,10 @@
 ---
+#
 # Website: https://rockymtnruby.dev
 # Schedule: https://rockymtnruby.dev/schedule
-
 ## Day 1 - Monday, October 7, 2024
-
 # Check-in/Breakfast
-
+#
 - title: "Opening Remarks"
   raw_title: Opening Remarks with Spike Ilacqua and Bekki Freeman
   speakers:
@@ -14,14 +13,12 @@
   event_name: Rocky Mountain Ruby 2024
   date: "2024-10-07"
   published_at: "TODO"
-  description: Opening Remarks with Spike Ilacqua and Bekki Freeman
+  description: |-
+    Opening Remarks with Spike Ilacqua and Bekki Freeman
   video_provider: youtube
   video_id: SGskS0ePogc
-
 - title: A Brewer's Guide to Filtering out Complexity and Churn
-  raw_title:
-    A Brewer's Guide to Filtering out Complexity and... by Alan Ridlehoover
-    and Fito von Zastrow Alfonso
+  raw_title: A Brewer's Guide to Filtering out Complexity and... by Alan Ridlehoover and Fito von Zastrow Alfonso
   speakers:
     - Alan Ridlehoover
     - Fito von Zastrow
@@ -35,7 +32,6 @@
     Mechanical coffee machines are amazing! You drop in a coin, listen for the clink, make a selection, and the machine springs to life, hissing, clicking, and whirring. Then the complex mechanical ballet ends, splashing that glorious, aromatic liquid into the cup. Ah! C’est magnifique! There’s just one problem. Our customers also want soup! And, our machine is not extensible. So, we have a choice: we can add to the complexity of our machine by jamming in a new dispenser with each new request; or, we can pause to make our machine more extensible before development slows to a halt.
   video_provider: youtube
   video_id: 4b4Ew_BUdrY
-
 - title: Pry Until You Die
   raw_title: Pry Until You Die by Tay DeHerrera Jimenez
   speakers:
@@ -55,9 +51,9 @@
     Whether you're a Pry novice or a seasoned user, this session will enhance your debugging and development skills, enabling you to harness Pry's full potential.
   video_provider: youtube
   video_id: PnYcxZzd1So
-
+#
 # Break
-
+#
 - title: "DragonRuby Game Toolkit: Lessons Learned"
   raw_title: "DragonRuby Game Toolkit: Lessons Learned by Amir Rajan"
   speakers:
@@ -65,19 +61,12 @@
   event_name: Rocky Mountain Ruby 2024
   date: "2024-10-07"
   published_at: "TODO"
-  description:
-    "DragonRuby Game Toolkit recently celebrated its 5 year anniversary.
-    Over that time it’s become one of the highest rated and most popular game engines
-    on Itch.io. Amir will share lessons he learned over that period: everything from
-    the low level architecture, to the more human aspects of creating a community
-    around Ruby and the joy it's brought to new devs."
+  description: |-
+    DragonRuby Game Toolkit recently celebrated its 5 year anniversary. Over that time it’s become one of the highest rated and most popular game engines on Itch.io. Amir will share lessons he learned over that period: everything from the low level architecture, to the more human aspects of creating a community around Ruby and the joy it's brought to new devs.
   video_provider: youtube
   video_id: rCLxORAKDWs
-
 - title: "From Zero to App with Bridgetown: The Rapid Prototyping Framework"
-  raw_title:
-    "From Zero to App with Bridgetown: The Rapid Prototyping Framework by
-    Alberto Colón Viera"
+  raw_title: "From Zero to App with Bridgetown: The Rapid Prototyping Framework by Alberto Colón Viera"
   speakers:
     - Alberto Colón Viera
   event_name: Rocky Mountain Ruby 2024
@@ -91,13 +80,11 @@
     Whether you're an engineer looking to communicate your ideas more effectively, a product manager seeking to validate complex flows, or simply curious about Bridgetown's capabilities beyond static sites, this talk will inspire you to leverage this powerful tool for your next project.
   video_provider: youtube
   video_id: 5Q0NtSWYI-s
-
+#
 # Lunch
-
+#
 - title: How to make your application accessible (and keep it that way!)
-  raw_title:
-    How to make your application accessible (and keep it that way!) by Joel
-    Hawksley
+  raw_title: How to make your application accessible (and keep it that way!) by Joel Hawksley
   speakers:
     - Joel Hawksley
   event_name: Rocky Mountain Ruby 2024
@@ -108,7 +95,6 @@
     Our industry is shockingly bad at accessibility: by some estimates, over 70% of websites are effectively unavailable to blind users! Making your app accessible isn’t just the right thing to do, it’s the law. In this talk, we’ll share what it’s taken to scale GitHub’s accessibility program and equip you to do the same at your company.
   video_provider: youtube
   video_id: 9e2CsMMLf4U
-
 - title: "Laziness is a Virtue: Lazy, Functional, Immutable Ruby"
   raw_title: "Laziness is a Virtue: Lazy, Functional, Immutable Ruby by Craig Buchek"
   speakers:
@@ -123,13 +109,11 @@
     In this talk, we'll dig into a more functional "lazy" style. Instead of setting up variables ahead of time, we'll call methods as needed. Instead of thinking about how to compute things, we'll think about properties of objects. This style has improved the readability of my code, and it will help you too.
   video_provider: youtube
   video_id: e_UxdfqaPAg
-
+#
 # Break/Snacks
-
+#
 - title: Leveling Up Developer Tooling For The Modern Rails & Hotwire Era
-  raw_title:
-    Leveling Up Developer Tooling For The Modern Rails & Hotwire Era by Marco
-    Roth
+  raw_title: Leveling Up Developer Tooling For The Modern Rails & Hotwire Era by Marco Roth
   speakers:
     - Marco Roth
   event_name: Rocky Mountain Ruby 2024
@@ -144,7 +128,6 @@
     Drawing inspiration from the rapid advancements in JavaScript tooling, we explore the horizon of possibilities for Rails developers, including how advanced browser extensions and tools specifically designed for the Hotwire ecosystem can level up your developer experience.
   video_provider: youtube
   video_id: hKaIN-n1B-A
-
 - title: Evolution of real-time, AnyCable Pro and... me
   raw_title: Evolution of Real-Time and AnyCable Pro and ... me by Irina Nazarova
   speakers:
@@ -153,27 +136,16 @@
   date: "2024-10-07"
   published_at: "TODO"
   slides_url: https://speakerdeck.com/irinanazarova/evolution-of-realtime-and-anycable-pro-rocky-mountain-ruby-2024-irina-nazarova
-  description: "When we launched AnyCable Pro at Evil
-    Martians in 2021, our goal was to simplify real-time functionality for all Rails
-    developers while making it commercially successful for our company. We aimed to
-    build what people wanted and saw their priorities shift from GraphQL to Hotwire,
-    from chats to collaboration, and to AI-powered voice apps. Initially focused on
-    performance, we soon tackled WebSocket reliability and developer productivity,
-    culminating in the launch of Managed AnyCable earlier this year. Our journey,
-    fueled by consulting revenue, is not without valuable insights. Let’s reflect
-    on our story, share our learnings, and glimpse into the future of AnyCable and
-    real-time applications."
+  description: |-
+    When we launched AnyCable Pro at Evil Martians in 2021, our goal was to simplify real-time functionality for all Rails developers while making it commercially successful for our company. We aimed to build what people wanted and saw their priorities shift from GraphQL to Hotwire, from chats to collaboration, and to AI-powered voice apps. Initially focused on performance, we soon tackled WebSocket reliability and developer productivity, culminating in the launch of Managed AnyCable earlier this year. Our journey, fueled by consulting revenue, is not without valuable insights. Let’s reflect on our story, share our learnings, and glimpse into the future of AnyCable and real-time applications.
   video_provider: youtube
   video_id: 7WJFTvgnmWA
-
+#
 # Wrap up
-
 ## Day 2 - Tuesday, October 8, 2024
-
 # Breakfast
-
 # Welcome
-
+#
 - title: "Building AI Agents in Ruby"
   raw_title: "Building AI Agents in Ruby by Andrei Bondarev"
   speakers:
@@ -188,7 +160,6 @@
     Demo: https://github.com/patterns-ai-core/ecommerce-ai-assistant-demo
   video_provider: youtube
   video_id: dRBJxshD05E
-
 - title: "Closing the Gap: How to Leap from Bootcamp to Job"
   raw_title: "Closing the Gap: How to Leap from Bootcamp to Job by Jeff Cohen"
   speakers:
@@ -215,9 +186,9 @@
     Along the way, we'll learn about this history of the Ruby community and tackle the most important skill of all: to learn how to learn more.
   video_provider: youtube
   video_id: y7bWhCiHZSs
-
+#
 # Break
-
+#
 - title: Catching Waves with Time-Series Data
   raw_title: Catching Waves with Time-Series Data by Liz Heym
   speakers:
@@ -233,11 +204,8 @@
     Paper: https://meraki.cisco.com/lib/pdf/trust/lt-paper.pdf
   video_provider: youtube
   video_id: _KBnYcM5pCE
-
 - title: "Beyond Code: Crafting effective discussions to further technical decision-making"
-  raw_title:
-    "Beyond Code: Crafting effective discussions to further technical decision-making
-    by Allison McMillan"
+  raw_title: "Beyond Code: Crafting effective discussions to further technical decision-making by Allison McMillan"
   speakers:
     - Allison McMillan
   event_name: Rocky Mountain Ruby 2024
@@ -248,15 +216,16 @@
     Whiteboards. Proof of Concepts. Pairing. Spikes. These are all tools we use every day to have high-level technical conversations about ideas we propose or approaches we think are the “right” way. As someone advances in their career into more experienced levels of software engineering, however, a critical skill becomes how you conduct and lead these conversations. It involves clearly articulating a vision and securing buy-in, while also valuing and integrating the diverse perspectives and feedback from your peers. The goal beyond each individual conversation is to foster an environment where ideas can be exchanged, discussed, enhanced, and decided on. You’ll walk away from this talk with some new, innovative approaches to try out that not only help get your technical ideas across but also solicit additional thoughts and opinions in ways that engage and effectively address different points of view.
   video_provider: youtube
   video_id: uPK_rM8-bNI
-
+#
 # Lunch
-
+#
 - title: Lightning Talks
   raw_title: Lightning Talks
   event_name: Rocky Mountain Ruby 2024
   date: "2024-10-08"
   published_at: "TODO"
-  description: Rocky Mountain Ruby 2024
+  description: |-
+    Rocky Mountain Ruby 2024
   video_provider: youtube
   video_id: Rq9EHxPh3ZE
   talks:
@@ -269,7 +238,6 @@
       video_id: cosmo-martinez-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Cosmo Martinez
-
     - title: "Lightning Talk: Nothing New Under the Sun"
       date: "2024-10-08"
       published_at: "TODO"
@@ -279,7 +247,6 @@
       video_id: jim-remsik-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Jim Remsik
-
     - title: "Lightning Talk: VIA"
       date: "2024-10-08"
       published_at: "TODO"
@@ -289,7 +256,6 @@
       video_id: will-carey-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Will Carey
-
     - title: "Lightning Talk: Dapper Ruby"
       date: "2024-10-08"
       published_at: "TODO"
@@ -299,7 +265,6 @@
       video_id: tjv-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - TjV
-
     - title: "Lightning Talk: Linting Docs with JSON & Ruby"
       date: "2024-10-08"
       published_at: "TODO"
@@ -309,7 +274,6 @@
       video_id: dan-moore-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Dan Moore
-
     - title: "Lightning Talk: Turbo Morphing - Making the Jump"
       date: "2024-10-08"
       published_at: "TODO"
@@ -319,7 +283,6 @@
       video_id: ron-shinall-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Ron Shinall
-
     - title: "Lightning Talk: WAXX - Web Application X(x) & Functional Ruby"
       date: "2024-10-08"
       published_at: "TODO"
@@ -329,7 +292,6 @@
       video_id: dan-fitzpatrick-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Dan Fitzpatrick
-
     - title: "Lightning Talk: PR's as children"
       date: "2024-10-08"
       published_at: "TODO"
@@ -339,7 +301,6 @@
       video_id: ryan-stemmle-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Ryan Stemmle
-
     - title: "Lightning Talk: Rails & Docker Development - Basic Containerization for Development w/ Compose"
       date: "2024-10-08"
       published_at: "TODO"
@@ -349,7 +310,6 @@
       video_id: davis-weimer-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Davis Weimer
-
     - title: "Lightning Talk: Refactor Legacy Code"
       date: "2024-10-08"
       published_at: "TODO"
@@ -359,7 +319,6 @@
       video_id: bekki-freeman-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Bekki Freeman
-
     - title: "Lightning Talk: Confreaks Started because of Ruby =)"
       date: "2024-10-08"
       published_at: "TODO"
@@ -369,7 +328,6 @@
       video_id: cindy-backman-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Cindy Backman
-
     - title: "Lightning Talk: The Gardener's Reward"
       date: "2024-10-08"
       published_at: "TODO"
@@ -380,7 +338,6 @@
       slides_url: https://speakerdeck.com/aridlehoover/rocky-mountain-ruby-2024-a-gardeners-reward
       speakers:
         - Alan Ridlehoover
-
     - title: "Lightning Talk: Things That Do Stuff"
       date: "2024-10-08"
       published_at: "TODO"
@@ -390,7 +347,6 @@
       video_id: erie-mueller-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Erie Mueller
-
     - title: "Lightning Talk: Once upon a time in the Ruby ecosystem"
       date: "2024-10-08"
       published_at: "TODO"
@@ -400,7 +356,6 @@
       video_id: ben-oakes-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Ben Oakes
-
     - title: "Lightning Talk: Working as a Civic Technologist"
       date: "2024-10-08"
       published_at: "TODO"
@@ -410,7 +365,6 @@
       video_id: alberto-colon-viera-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Alberto Colón Viera
-
     - title: "Lightning Talk: How to shoot yourself in the foot with ActiveRecord"
       date: "2024-10-08"
       published_at: "TODO"
@@ -420,7 +374,6 @@
       video_id: warren-lyndes-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Warren Lyndes
-
     - title: "Lightning Talk: Yscape"
       date: "2024-10-08"
       published_at: "TODO"
@@ -430,9 +383,9 @@
       video_id: jason-nochlin-lighting-talk-rocky-mountain-ruby-2024
       speakers:
         - Jason Nochlin
-
+#
 # Break/Snack
-
+#
 - title: Attraction Mailbox - Why I love Action Mailbox
   raw_title: Attraction Mailbox - Why I love Action Mailbox by Cody Norman
   speakers:
@@ -449,7 +402,6 @@
     We’ll take a deeper look at Action Mailbox and how to route and process your inbound emails.
   video_provider: youtube
   video_id: t4RwECVtZ3E
-
 - title: "Game Show and Closing Remarks"
   raw_title: Game Show and Closing Remarks with Spike Ilacqua and Bekki Freeman
   speakers:

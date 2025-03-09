@@ -1,9 +1,9 @@
 ---
+#
 # TODO: conference website
 # TODO: schedule website
-
 # Day 1
-
+#
 - title: "Keynote: Investing In The Ruby Community"
   raw_title: Rafael França | Investing in the Ruby community
   speakers:
@@ -19,7 +19,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: "Authentication: Reinventing The Wheel"
   raw_title: "Lázaro Nixon | Authentication: Reinventing the wheel"
   speakers:
@@ -35,7 +34,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: A Brewer's Guide to Filtering out Complexity and Churn
   raw_title: Alan Ridlehoover & Fito von Zastrow | A Brewer's Guide to Filtering out Complexity and Churn
   speakers:
@@ -47,12 +45,8 @@
   video_provider: youtube
   video_id: ysTtQgQQSUA
   language: english
-  description:
-    Complex code is expensive and risky to change. Most programmers are
-    unaware of how their changes increase complexity over time. Eventually, complexity
-    leads to pain and frustration. Without understanding the complexity, developers
-    tend to blame Rails. Come learn how to keep complexity under control.
-
+  description: |-
+    Complex code is expensive and risky to change. Most programmers are unaware of how their changes increase complexity over time. Eventually, complexity leads to pain and frustration. Without understanding the complexity, developers tend to blame Rails. Come learn how to keep complexity under control.
 - title: "Panel: Successful Brazilian Rails-powered Startups"
   raw_title: Panel | Successful Brazilian Rails-powered Startups
   speakers:
@@ -71,7 +65,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: Cloning Cookie Clicker to Debug jobs and Confirm What DHH Said
   raw_title: Danilo Tupinambá | Cloning Cookie Clicker to Debug jobs and Confirm What DHH Said
   speakers:
@@ -87,7 +80,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: "From React to Hotwire: The Adventures of a Frontend Migration"
   raw_title: "Weldys Santos | From React to Hotwire: The Adventures of a Frontend Migration"
   speakers:
@@ -103,7 +95,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: "Mastering Internationalization: A Journey through Cultures and i18n"
   raw_title: "Mayra L. Navarro | Mastering Internationalization: A Journey through Cultures and i18n"
   speakers:
@@ -119,7 +110,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: Implementing Semantic Search in Rails Using Database Vectors
   raw_title: Alexandre Calaça | Implementing Semantic Search in Rails Using Database Vectors
   speakers:
@@ -135,7 +125,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: "Keynote: Speeding up IVs"
   raw_title: Aaron Patterson - Tropical.rb Keynote
   speakers:
@@ -151,9 +140,9 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
+#
 # Day 2
-
+#
 - title: "Opening Keynote"
   raw_title: Breno Gazzola | Opening Keynote
   speakers:
@@ -169,7 +158,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: "How To Build A Business on Rails and Open-Source"
   raw_title: Adrian Marin | How to build a business on Rails and Open-Source
   speakers:
@@ -185,7 +173,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: How to Start Creating Mobile Apps Using Rails and Turbo Native
   raw_title: José Anchieta | How to Start Creating Mobile Apps Using Rails and Turbo Native
   speakers:
@@ -201,7 +188,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: "Panel: Rails Foundation AMA"
   raw_title: Painel | Rails Foundation AMA
   speakers:
@@ -214,11 +200,8 @@
   video_provider: youtube
   video_id: XrTtpRuCJLE
   language: english
-  description:
-    Robby Russell, CEO of Planet Argon, presented questions from the community
-    to Rails Foundation representatives Amanda Perino (Executive Director) and Bruno
-    Miranda (Board Member)
-
+  description: |-
+    Robby Russell, CEO of Planet Argon, presented questions from the community to Rails Foundation representatives Amanda Perino (Executive Director) and Bruno Miranda (Board Member)
 - title: We Need Less Layers, Not More
   raw_title: Radamés Roriz | We Need less Layers, Not More
   speakers:
@@ -229,12 +212,8 @@
   video_provider: youtube
   video_id: tMcS1oTsKh0
   language: portuguese
-  description:
-    Complexity often silently grows, gradually complicating projects and
-    clouding efficiency. This talk aims to debate the hidden costs of unnecessary
-    layers. By embracing simplicity and leveraging Rails’ inherent strengths, we can
-    enhance our software’s performance, maintainability, and pace.
-
+  description: |-
+    Complexity often silently grows, gradually complicating projects and clouding efficiency. This talk aims to debate the hidden costs of unnecessary layers. By embracing simplicity and leveraging Rails’ inherent strengths, we can enhance our software’s performance, maintainability, and pace.
 - title: "Deploy Your Next Rails App with WebAssembly (WASM): Smaller, Safer, Faster"
   raw_title: "Dan Phillips | Deploy Your Next Rails App with WebAssembly (Wasm): Smaller, Safer, Faster"
   speakers:
@@ -245,12 +224,8 @@
   video_provider: youtube
   video_id: u46PQE-exbg
   language: english
-  description:
-    This talk focuses on the unique advantages of using WebAssembly (Wasm)
-    for deploying Ruby on Rails applications (yes, on the server). Wasm offers a groundbreaking
-    approach that enables smaller, faster, and more secure server deployments, compared
-    with existing strategies using VMs or Containers
-
+  description: |-
+    This talk focuses on the unique advantages of using WebAssembly (Wasm) for deploying Ruby on Rails applications (yes, on the server). Wasm offers a groundbreaking approach that enables smaller, faster, and more secure server deployments, compared with existing strategies using VMs or Containers
 - title: "Vernier: A next Generation Ruby Profiler"
   raw_title: "John Hawthorn | Vernier: A next Generation Ruby Profiler"
   speakers:
@@ -266,7 +241,6 @@
 
     Tropical.rb - The Latin America Rails Conference
     https://www.tropicalrb.com/
-
 - title: "The Fast Lane: Asynchronous Rails"
   raw_title: "Matheus Richard | The Fast Lane: Asynchronous Rails"
   speakers:
@@ -277,12 +251,8 @@
   video_provider: youtube
   video_id: CfC2blkrkys
   language: english
-  description:
-    Oh no! Computers are not doubling in speed every two years anymore!
-    How can we make software run faster? You and your Rails app cannot just wait doing
-    nothing, so join me to explore how we can leverage concurrency and parallelism
-    concepts to enhance performance and scalability!
-
+  description: |-
+    Oh no! Computers are not doubling in speed every two years anymore! How can we make software run faster? You and your Rails app cannot just wait doing nothing, so join me to explore how we can leverage concurrency and parallelism concepts to enhance performance and scalability!
 - title: "Keynote: The Magic of Rails"
   raw_title: Eileen Uchitelle - Tropical.rb Keynote
   speakers:

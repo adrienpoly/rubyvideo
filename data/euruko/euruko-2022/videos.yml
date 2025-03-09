@@ -1,12 +1,12 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
 # Website: https://2022.euruko.org
 # Repo: https://github.com/euruko/2022.euruko.org/tree/main/src/_data
-
+#
 - title: "Opening Keynote: MythBuster"
   raw_title: "Opening keynote by Matz: MythBuster"
   speakers:
@@ -20,7 +20,6 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=2010s
   video_provider: youtube
   video_id: r78H-QBkxyk
-
 - title: How music works, using Ruby
   raw_title: How music works, using Ruby by Thijs Cadier
   speakers:
@@ -34,7 +33,6 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=6070s
   video_provider: youtube
   video_id: MtweO89OsUM
-
 - title: Applying SRE Principles to CI/CD
   raw_title: Applying SRE Principles to CI/CD by Mel Kaulfuss
   speakers:
@@ -48,7 +46,6 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=11910s
   video_provider: youtube
   video_id: dvTvq2sduV4
-
 - title: Implementing Object Shapes in CRuby
   raw_title: Implementing Object Shapes in CRuby by Jemma Issroff
   speakers:
@@ -62,7 +59,6 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=14985s
   video_provider: youtube
   video_id: 2aVyTtxs0GU
-
 - title: Security Doesn’t Have To Be a Nightmare
   raw_title: Security Doesn’t Have To Be a Nightmare by Wiktoria Dalach
   speakers:
@@ -76,7 +72,6 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=19095s
   video_provider: youtube
   video_id: l4uyAQZBwyY
-
 - title: Looking Into Peephole Optimizations
   raw_title: Looking Into Peephole Optimizations by Maple Ong
   speakers:
@@ -90,7 +85,6 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=reVGR35H264&t=22110s
   video_provider: youtube
   video_id: gnX1o8GBed0
-
 - title: The Technical and Organizational Infrastructure of the Ruby Community
   raw_title: The Technical and Organizational Infrastructure of the Ruby Community by Adarsh Pandit
   speakers:
@@ -104,7 +98,6 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=m2qelRkp1CY&t=1650s
   video_provider: youtube
   video_id: cNLscH0sGz4
-
 - title: From massive pull requests to trunk-based development with Ruby
   raw_title: From massive pull requests to trunk-based development with Ruby by Vesa Vänskä
   speakers:
@@ -118,7 +111,6 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=m2qelRkp1CY&t=4980s
   video_provider: youtube
   video_id: M76dNDySrNc
-
 - title: Lightning Talks & City Pitches
   raw_title: Lightning talks & city pitches
   event_name: EuRuKo 2022
@@ -147,7 +139,6 @@
       video_provider: parent
       speakers:
         - Antti Merilehto # Host/MC
-
     - title: "Lightning Talk: From Sinatra to Grape"
       date: "2022-10-13"
       start_cue: "02:13"
@@ -157,7 +148,6 @@
       video_provider: parent
       speakers:
         - Renato dos Santos Cerqueira
-
     - title: "Lightning Talk: Why bother about 'Questions?'"
       date: "2022-10-13"
       start_cue: "07:05"
@@ -167,7 +157,6 @@
       video_provider: parent
       speakers:
         - Mohnish Jadwani
-
     - title: "Lightning Talk: Building Delightful Command-Line Apps in Ruby"
       date: "2022-10-13"
       start_cue: "14:14"
@@ -176,7 +165,6 @@
       video_provider: parent
       speakers:
         - Hans Schnedlitz
-
     - title: "Lightning Talk: Welcome Ruby Juniors"
       date: "2022-10-13"
       start_cue: "20:38"
@@ -185,7 +173,6 @@
       video_provider: parent
       speakers:
         - Hana Harencarova
-
     - title: "City Pitch: Granada"
       date: "2022-10-13"
       start_cue: "27:32"
@@ -194,7 +181,6 @@
       video_provider: parent
       speakers:
         - TODO # TODO: missing name
-
     - title: "City Pitch: Gdańsk"
       date: "2022-10-13"
       start_cue: "29:48"
@@ -203,7 +189,6 @@
       video_provider: parent
       speakers:
         - Tomasz TODO # TODO: missing last name
-
     - title: "City Pitch: Istanbul"
       date: "2022-10-13"
       start_cue: "32:14"
@@ -213,7 +198,6 @@
       video_provider: parent
       speakers:
         - Ufuk Kayserilioglu
-
     - title: "City Pitch: Lviv"
       date: "2022-10-13"
       start_cue: "35:39"
@@ -223,8 +207,7 @@
       video_provider: parent
       speakers:
         - TODO # TODO: missing speaker name 1
-        # - TODO # TODO: missing speaker name 2
-
+    # - TODO # TODO: missing speaker name 2
     - title: "City Pitch: Vilnius"
       date: "2022-10-13"
       start_cue: "37:37"
@@ -233,7 +216,6 @@
       video_provider: parent
       speakers:
         - Sergey Sergyenko
-
     - title: "City Pitch: Brighton"
       date: "2022-10-13"
       start_cue: "41:56"
@@ -243,7 +225,6 @@
       video_provider: parent
       speakers:
         - Andy Croll
-
     - title: "Special Announcement & Prize for Matias Korhonen"
       date: "2022-10-13"
       start_cue: "45:02"
@@ -256,7 +237,6 @@
         - Antti Merilehto # Host/MC
         - Vesa Vänskä
         - Matias Korhonen
-
 - title: "Ruby & JVM: A (JRuby) Love Story"
   raw_title: "Ruby & JVM: A (JRuby) Love Story by Yarden Laifenfeld"
   speakers:
@@ -270,7 +250,6 @@
     To watch with closed captions, view the livestream recording: https://www.youtube.com/watch?v=m2qelRkp1CY&t=16350s
   video_provider: youtube
   video_id: FN0gfZJazM8
-
 - title: "Closing Keynote: The Mrs Triggs Problem"
   raw_title: Closing keynote by Andy Croll
   speakers:

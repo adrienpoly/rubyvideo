@@ -1,14 +1,13 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
 # Website: https://2017.euruko.org
 # Schedule: https://2017.euruko.org/schedule/
-
 ## Day 1 - 9/29 FRIDAY
-
+#
 - title: "Keynote: MJIT, what, how and why"
   raw_title: Yukihiro Matsumoto Keynote @EuRuKo2017
   speakers:
@@ -19,7 +18,6 @@
   description: ""
   video_provider: youtube
   video_id: nlMsi8S3kZg
-
 - title: Helping communities & products thrive
   raw_title: Sasha Romijn- Helping communities & products thrive by fostering empathy @EuRuKo2017
   speakers:
@@ -31,7 +29,6 @@
   description: ""
   video_provider: youtube
   video_id: biwApccM1Sg
-
 - title: "Data-driven production apps"
   raw_title: Sai Warang- Data-driven production apps @EuRuKo2017
   speakers:
@@ -43,9 +40,9 @@
   description: ""
   video_provider: youtube
   video_id: u4Z2M5HSGJs
-
+#
 # Lunch
-
+#
 - title: "The Real Black Friday aka How To Scale an Unscalable Service"
   raw_title: Judit Ördög-Andrási- The Real Black Friday aka How To Scale an Unscalable Service @EuRuKo2017
   speakers:
@@ -57,7 +54,6 @@
   description: ""
   video_provider: youtube
   video_id: ZeGIw8jkRmA
-
 - title: "Introducing Tensorflow Ruby API"
   raw_title: Arafat Khan- Introducing Tensorflow Ruby API @EuRuKo2017
   speakers:
@@ -69,7 +65,6 @@
   description: ""
   video_provider: youtube
   video_id: Bb8izrSSt3M
-
 - title: "Distributed Systems: Your Only Guarantee Is Inconsistency"
   raw_title: "Anthony Zacharakis- Distributed Systems: Your Only Guarantee Is Inconsistency @EuRuKo2017"
   speakers:
@@ -81,7 +76,6 @@
   description: ""
   video_provider: youtube
   video_id: JvBq27cbv_0
-
 - title: "Things I Learned the Hard Way Building a Search Engine"
   raw_title: Katarzyna Turbiasz-Bugała- Things I Learned the Hard Way Building a Search Engine @EuRuKo2017
   speakers:
@@ -93,7 +87,6 @@
   description: ""
   video_provider: youtube
   video_id: 4zanERox264
-
 - title: Lightning Talks (Day 1)
   raw_title: Lightning talks day1@EuRuKo2017
   event_name: EuRuKo 2017
@@ -111,7 +104,6 @@
       video_provider: parent
       speakers:
         - Manuel Morales
-
     - title: "Lightning Talk: Warm Blanket - Good Crappy After-Boot Performance"
       start_cue: "05:40"
       end_cue: "08:40"
@@ -120,7 +112,6 @@
       video_provider: parent
       speakers:
         - Ivo Anjo
-
     - title: "Lightning Talk: Ruby Standard Gems"
       start_cue: "08:55"
       end_cue: "13:53"
@@ -128,7 +119,6 @@
       video_provider: parent
       speakers:
         - Jan Lelis
-
     - title: "Lightning Talk: Reality (now the right way)"
       start_cue: "14:28"
       end_cue: "17:36"
@@ -136,7 +126,6 @@
       video_provider: parent
       speakers:
         - Victor Shepelev
-
     - title: "Lightning Talk: Good names are half the battle"
       start_cue: "17:48"
       end_cue: "22:44"
@@ -144,7 +133,6 @@
       video_provider: parent
       speakers:
         - TODO
-
     - title: "Lightning Talk: TTY - Terminal Apps Toolkit"
       start_cue: "23:37"
       end_cue: "27:15"
@@ -152,7 +140,6 @@
       video_provider: parent
       speakers:
         - Piotr Murach
-
     - title: "Lightning Talk: Gemfile's new clothes"
       start_cue: "27:34"
       end_cue: "33:13"
@@ -161,9 +148,9 @@
       video_provider: parent
       speakers:
         - Jan Krutisch
-
+#
 ## Day 2 - 9/30 SATURDAY (UPDATED)
-
+#
 - title: "Keynote: The Story of JRuby"
   raw_title: Charles Nutter- Keynote @ EuRuKo2017
   speakers:
@@ -174,7 +161,6 @@
   description: ""
   video_provider: youtube
   video_id: sPS7F-ITqK4
-
 - title: "How to Make It As A Junior Dev and Stay Sane"
   raw_title: Katelyn Hertel- How to Make It As A Junior Dev and Stay Sane @ EuRuKo2017
   speakers:
@@ -186,7 +172,6 @@
   slides_url: https://www.slideshare.net/KatelynKatieHertel/how-to-make-it-as-a-junior-dev/1
   video_provider: youtube
   video_id: 1Ai5GsL6tP4
-
 - title: "Issues with asynchronous interaction"
   raw_title: Anna Shcherbinina- Issues with asynchronous interaction @ EuRuKo2017
   speakers:
@@ -198,9 +183,9 @@
   slides_url: https://speakerdeck.com/gaar4ica/issues-with-asynchronous-interaction
   video_provider: youtube
   video_id: m3QwxkfhhYg
-
+#
 # Lunch
-
+#
 - title: "The overnight failure"
   raw_title: Sebastian Sogamoso- The overnight failure @ EuRuKo2017
   speakers:
@@ -212,7 +197,6 @@
   slides_url: https://speakerdeck.com/sebasoga/the-overnight-failure-2
   video_provider: youtube
   video_id: Q_rqdNVElSg
-
 - title: "Rescuing legacy codebases with GraphQL and Rails"
   raw_title: Netto Farah- Rescuing legacy codebases with GraphQL and Rails @ EuRuKo2017
   speakers:
@@ -224,7 +208,6 @@
   slides_url: https://speakerdeck.com/nettofarah/rescuing-legacy-codebases-with-graphql-1
   video_provider: youtube
   video_id: Lk3Xx7k1aOk
-
 - title: "City Pitches (Take EuRuKo Home pitches)"
   raw_title: Hosting City Pitches @EuRuKo2017
   speakers:
@@ -234,7 +217,6 @@
   published_at: "2017-12-22"
   description: ""
   video_id: "-z9s743MUiw"
-
 - title: "Predicting Performance Changes of Distributed Applications"
   raw_title: Wojtek Rząsa- Predicting Performance Changes of Distributed Applications @ EuRuKo2017
   speakers:
@@ -246,9 +228,9 @@
   slides_url: https://speakerdeck.com/wrzasa/predicting-performance-changes-of-distributed-applications
   video_provider: youtube
   video_id: 9yJcTsMFVjc
-
+#
 # Coffee Break
-
+#
 - title: Lightning Talks (Day 2)
   raw_title: Lightning Talks Day2 @ EuRuKo2017
   event_name: EuRuKo 2017
@@ -268,7 +250,6 @@
       video_provider: parent
       speakers:
         - Pilar Andrea Huidobro Peltier
-
     - title: "Lightning Talk: Jake"
       event_name: EuRuKo 2017
       date: "2017-09-30"
@@ -279,7 +260,6 @@
       video_provider: parent
       speakers:
         - Jake
-
     - title: "Lightning Talk: Quentin Godfroy"
       event_name: EuRuKo 2017
       date: "2017-09-30"
@@ -290,7 +270,6 @@
       video_provider: parent
       speakers:
         - Quentin Godfroy
-
     - title: "Lightning Talk: Mehdi Lahmam B."
       event_name: EuRuKo 2017
       date: "2017-09-30"
@@ -301,7 +280,6 @@
       video_provider: parent
       speakers:
         - Mehdi Lahmam B.
-
     - title: "Lightning Talk: Ana María Martínez Gómez"
       event_name: EuRuKo 2017
       date: "2017-09-30"
@@ -312,7 +290,6 @@
       video_provider: parent
       speakers:
         - Ana María Martínez Gómez
-
 - title: "Ruby 4.0: To Infinity and Beyond"
   raw_title: "Bozhidar Batsov- Ruby 4.0: To Infinity and Beyond @ EuRuKo2017"
   speakers:

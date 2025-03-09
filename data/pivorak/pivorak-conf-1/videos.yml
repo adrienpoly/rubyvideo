@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: Software Developers Are People Too
   raw_title: SOFTWARE DEVELOPERS ARE PEOPLE TOO by Miha Rekar
   speakers:
@@ -30,7 +31,6 @@
   thumbnail_xl: https://i3.ytimg.com/vi/CZIZPKpsXdo/hqdefault.jpg
   video_provider: youtube
   video_id: CZIZPKpsXdo
-
 - title: Product Engineer - A Perfect Technical Executor For Cross Functional Teams
   raw_title: PRODUCT ENGINEER - A PERFECT TECHNICAL EXECUTOR FOR CROSS-FUNCTIONAL TEAMS by Artur Hebda
   speakers:
@@ -60,7 +60,6 @@
   thumbnail_xl: https://i3.ytimg.com/vi/KFWiK8addO0/hqdefault.jpg
   video_provider: youtube
   video_id: KFWiK8addO0
-
 - title: How Mining Works
   raw_title: HOW MINING WORKS by Aaron Cruz
   speakers:
@@ -87,7 +86,6 @@
   thumbnail_xl: https://i3.ytimg.com/vi/2ShCFVIw4uI/hqdefault.jpg
   video_provider: youtube
   video_id: 2ShCFVIw4uI
-
 - title: Нow To Migrate To Rails From non-Rails
   raw_title: Нow to migrate to Rails from non-Rails by Artur Hebda & Volodya Sveredyuk
   speakers:

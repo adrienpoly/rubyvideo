@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: "DIY Your Touchpad Experience: Building Your Own Gestures"
   raw_title: "[JA] DIY Your Touchpad Experience: Building Your Own Gestures / Kohei Yamada @nukumaro22"
   speakers:
@@ -15,7 +16,6 @@
   video_id: gnwe8DqPDrk
   language: Japanese
   description: ""
-
 - title: The future vision of Ruby Parser
   raw_title: "[JA] The future vision of Ruby Parser / Yuichiro Kaneko @spikeolaf"
   speakers:
@@ -27,7 +27,6 @@
   video_id: IhfDsLx784g
   language: Japanese
   description: ""
-
 - title: RuboCop's baddest cop
   raw_title: "[EN] RuboCop's baddest cop / Genadi Samokovarov @gsamokovarov"
   speakers:
@@ -39,7 +38,6 @@
   video_id: n-D9uPOo_kc
   language: English
   description: ""
-
 - title: Generating RBIs for dynamic mixins with Sorbet and Tapioca
   raw_title: "[EN] Generating RBIs for dynamic mixins with Sorbet and Tapioca / Emily Samp @egiurleo"
   speakers:
@@ -55,7 +53,6 @@
     Last year, Tapioca became the official tool for generating RBI files for Sorbet. Using Tapioca, developers can quickly generate accurate RBIs for external Ruby gems, allowing them to use Sorbet in their projects even if most gems have not yet added type signatures.
 
     In this talk, I’ll explain how I implemented new functionality in Tapioca to help it generate RBIs for dynamic mixins in Ruby gems. Along the way, we’ll learn about how Tapioca uses information about the Ruby object model to generate RBIs, and how this work has impacted the Ruby language as a whole.
-
 - title: Make Regexp#match much faster
   raw_title: "[JA] Make Regexp#match much faster / Hiroya FUJINAMI @makenowjust"
   speakers:
@@ -67,7 +64,6 @@
   video_id: IbMFHxeqpN4
   language: Japanese
   description: ""
-
 - title: Understanding the Ruby Global VM Lock by observing it
   raw_title: "[EN] Understanding the Ruby Global VM Lock by observing it / Ivo Anjo @KnuX"
   speakers:
@@ -79,7 +75,6 @@
   video_id: rI4XlFvMNEw
   language: English
   description: ""
-
 - title: develop chrome extension with ruby.wasm
   raw_title: "[JA] develop chrome extension with ruby.wasm / Yuma Sawai @aaaa777"
   speakers:
@@ -91,7 +86,6 @@
   video_id: A2ziP8V9muE
   language: Japanese
   description: ""
-
 - title: Ractor reconsidered
   raw_title: "[EN] Ractor reconsidered / Koichi Sasada @ko1"
   speakers:
@@ -103,7 +97,6 @@
   video_id: Id706gYi3wk
   language: English
   description: ""
-
 - title: High-performance real-time 3D graphics with Vulkan
   raw_title: "[EN] High-performance real-time 3D graphics with Vulkan / Frederico Linhares @fredolinhares"
   speakers:
@@ -115,7 +108,6 @@
   video_id: Tuhk4iS3F_I
   language: English
   description: ""
-
 - title: UTF-8 is coming to mruby/c
   raw_title: "[JA] UTF-8 is coming to mruby/c / Mari Imaizumi @ima1zumi"
   speakers:
@@ -127,7 +119,6 @@
   video_id: y5rGatij0DE
   language: Japanese
   description: ""
-
 - title: Power up your REPL life with types
   raw_title: "[JA] Power up your REPL life with types / tomoya ishida @tompng"
   speakers:
@@ -139,7 +130,6 @@
   video_id: VweV7ngcDEk
   language: Japanese
   description: ""
-
 - title: Plug & Play Garbage Collection with MMTk
   raw_title: "[EN] Plug & Play Garbage Collection with MMTk / Matt Valentine-House @eightbitraptor"
   speakers:
@@ -151,7 +141,6 @@
   video_id: chhNDhyPbyc
   language: English
   description: ""
-
 - title: "Keynote: 30 Years of Ruby"
   raw_title: '[JA][Keynote] Matz Keynote / Yukihiro "Matz" Matsumoto @yukihiro_matz'
   speakers:
@@ -163,7 +152,6 @@
   video_id: 184Sc0hsnek
   language: Japanese
   description: ""
-
 - title: Lightning Talks
   raw_title: "[EN][JA] Lightning Talks"
   event_name: RubyKaigi 2023
@@ -186,7 +174,6 @@
       language: Japanese # and English
       speakers:
         - katsyoshi
-
     - title: "Lightning Talk: RBS meets LLMs"
       start_cue: "06:14"
       end_cue: "TODO"
@@ -195,7 +182,6 @@
       language: Japanese
       speakers:
         - kokuyou
-
     - title: "Lightning Talk: I love VIM"
       start_cue: "11:30"
       end_cue: "TODO"
@@ -204,7 +190,6 @@
       language: English
       speakers:
         - OKURA Masafumi
-
     - title: "Lightning Talk: mruby VM"
       start_cue: "16:40"
       end_cue: "TODO"
@@ -213,7 +198,6 @@
       language: Japanese
       speakers:
         - Yukihiro "Matz" Matsumoto
-
     - title: "Lightning Talk: Natsukantou - an XML translator"
       start_cue: "22:03"
       end_cue: "TODO"
@@ -222,7 +206,6 @@
       language: English
       speakers:
         - lulalala
-
     - title: "Lightning Talk: Bingo in the browser using ruby.wasm"
       start_cue: "26:29"
       end_cue: "TODO"
@@ -231,7 +214,6 @@
       language: Japanese
       speakers:
         - Shugo Maeda
-
     - title: "Lightning Talk: Adding custom rule for RuboCop in the 2 month of employment"
       start_cue: "31:36"
       end_cue: "TODO"
@@ -240,7 +222,6 @@
       language: Japanese
       speakers:
         - Yla Aioi
-
     - title: "Lightning Talk: Unexplored Region - parse.y"
       start_cue: "35:53"
       end_cue: "TODO"
@@ -249,7 +230,6 @@
       language: Japanese
       speakers:
         - Yuichiro Kaneko
-
     - title: "Lightning Talk: Ultra-fast Test Driven Development"
       start_cue: "41:07"
       end_cue: "TODO"
@@ -258,7 +238,6 @@
       language: Japanese
       speakers:
         - Yuya Fujiwara
-
     - title: "Lightning Talk: Optimizing Ruby's Memory Layout - Variable Width Allocation"
       start_cue: "46:20"
       end_cue: "TODO"
@@ -267,7 +246,6 @@
       language: English
       speakers:
         - Peter Zhu
-
     - title: "Lightning Talk: Dividing and Managing - The Cops Squad of RuboCop Rspec Dept."
       start_cue: "50:09"
       end_cue: "TODO"
@@ -276,7 +254,6 @@
       language: Japanese
       speakers:
         - Yudai Takada
-
     - title: "Lightning Talk: Serverless IdP for Small Team"
       start_cue: "54:31"
       end_cue: "59:35"
@@ -285,7 +262,6 @@
       language: English
       speakers:
         - Sorah Fukumori
-
     - title: "Day Closing"
       start_cue: "59:35"
       end_cue: "01:01:46"
@@ -294,7 +270,6 @@
       language: English # and Japanese
       speakers:
         - Sorah Fukumori
-
 - title: On Ruby and ꝩduЯ, or How Scary are Trojan Source Attacks
   raw_title: "[EN] On Ruby and ꝩduЯ, or How Scary are Trojan Source Attacks / Martin J. Dürst @duerst"
   speakers:
@@ -306,7 +281,6 @@
   video_id: F3feRCr6S64
   language: English
   description: ""
-
 - title: Learn Ractor
   raw_title: "[JA] Learn Ractor / Masatoshi SEKI @m_seki"
   speakers:
@@ -318,7 +292,6 @@
   video_id: _pMKdqCxE8w
   language: Japanese
   description: ""
-
 - title: "JRuby: Looking Forward"
   raw_title: "[EN] JRuby: Looking Forward / Charles Nutter @headius"
   speakers:
@@ -330,7 +303,6 @@
   video_id: yxdbbOMWE0g
   language: English
   description: ""
-
 - title: Build a mini Ruby debugger in under 300 lines
   raw_title: "[EN] Build a mini Ruby debugger in under 300 lines / Stan Lo @_st0012"
   speakers:
@@ -342,7 +314,6 @@
   video_id: 7uLFVL2KNXo
   language: English
   description: ""
-
 - title: Implementing ++ operator, stepping into parse.y
   raw_title: '[JA] Implementing "++" operator, stepping into parse.y / Misaki Shioi @coe401_'
   speakers:
@@ -354,7 +325,6 @@
   video_id: x_p5r8p0i1o
   language: Japanese
   description: ""
-
 - title: Yet Another Ruby Parser
   raw_title: "[EN] Yet Another Ruby Parser / Kevin Newton @kddnewton"
   speakers:
@@ -366,7 +336,6 @@
   video_id: 3vzpv9GZdLo
   language: English
   description: ""
-
 - title: RubyGems on the watch
   raw_title: "[EN] RubyGems on the watch / Maciej Mensfeld @maciejmensfeld"
   speakers:
@@ -378,7 +347,6 @@
   video_id: H4qbhzifBz8
   language: English
   description: ""
-
 - title: Fix SQL N+1 queries with RuboCop
   raw_title: "[JA] Fix SQL N+1 queries with RuboCop / Go Sueyoshi @sue445"
   speakers:
@@ -390,7 +358,6 @@
   video_id: mDDAbZsDPMk
   language: Japanese
   description: ""
-
 - title: Revisiting TypeProf - IDE support as a primary feature
   raw_title: "[JA] Revisiting TypeProf - IDE support as a primary feature / Yusuke Endoh @mametter"
   speakers:
@@ -402,7 +369,6 @@
   video_id: UitqAvgmX0Y
   language: Japanese
   description: ""
-
 - title: "Splitting: the Crucial Optimization for Ruby Blocks"
   raw_title: "[EN] Splitting: the Crucial Optimization for Ruby Blocks / Benoit Daloze @eregontp"
   speakers:
@@ -414,7 +380,6 @@
   video_id: KdyV6geWZAk
   language: English
   description: ""
-
 - title: The Resurrection of the Fast Parallel Test Runner
   raw_title: "[JA] The Resurrection of the Fast Parallel Test Runner / Koichi ITO @koic"
   speakers:
@@ -426,7 +391,6 @@
   video_id: Bg45cDBcQzo
   language: Japanese
   description: ""
-
 - title: Multiverse Ruby
   raw_title: "[JA] Multiverse Ruby / Chris Salzberg @shioyama"
   speakers:
@@ -438,7 +402,6 @@
   video_id: xGpz0ZXrhco
   language: Japanese
   description: ""
-
 - title: "Ruby Implementation of QUIC: Progress and Challenges"
   raw_title: "[EN] Ruby Implementation of QUIC: Progress and Challenges / Yusuke Nakamura @yu_suke1994"
   speakers:
@@ -450,7 +413,6 @@
   video_id: jcm8hsRuFYs
   language: English
   description: ""
-
 - title: Reading and improving Pattern Matching in Ruby
   raw_title: "[EN] Reading and improving Pattern Matching in Ruby / Yuki Torii @yotii23"
   speakers:
@@ -462,7 +424,6 @@
   video_id: KDvVfbWQyMA
   language: English
   description: ""
-
 - title: Fitting Rust YJIT into CRuby
   raw_title: "[EN] Fitting Rust YJIT into CRuby / Alan Wu @alanwusx"
   speakers:
@@ -474,7 +435,6 @@
   video_id: GI7vvAgP_Qs
   language: English
   description: ""
-
 - title: Hacking and profiling Ruby for performance
   raw_title: "[EN] Hacking and profiling Ruby for performance / Daisuke Aritomo @osyoyu"
   speakers:
@@ -486,7 +446,6 @@
   video_id: WPgor5jmcuE
   language: English
   description: ""
-
 - title: Introduction of new features for VS Code debugging
   raw_title: "[JA] Introduction of new features for VS Code debugging / Naoto Ono @ono-max"
   speakers:
@@ -498,7 +457,6 @@
   video_id: kuXD9p--Te0
   language: Japanese
   description: ""
-
 - title: Tips and Tricks for working in the MRI Codebase
   raw_title: "[EN] Tips and Tricks for working in the MRI Codebase / Jemma Issroff @jemmaissroff"
   speakers:
@@ -510,7 +468,6 @@
   video_id: 7y6DhXQU4wU
   language: English
   description: ""
-
 - title: The Second Oldest Bug
   raw_title: "[EN] The Second Oldest Bug / Jeremy Evans @jeremyevans0"
   speakers:
@@ -522,7 +479,6 @@
   video_id: y_1iqQOkv1E
   language: English
   description: ""
-
 - title: Eliminating ReDoS with Ruby 3.2
   raw_title: "[JA] Eliminating ReDoS with Ruby 3.2 / Takashi Yoneuchi @lmt_swallow"
   speakers:
@@ -534,7 +490,6 @@
   video_id: CEvSx1D3dFQ
   language: Japanese
   description: ""
-
 - title: "Keynote: Optimizing YJIT’s Performance, from Inception to Production"
   raw_title: "[EN][Keynote] Optimizing YJIT’s Performance, from Inception to Production / @maximecb"
   speakers:
@@ -548,7 +503,6 @@
   description: ""
   thumbnail_lg: https://img.youtube.com/vi/X0JRhh8w_4I/hqdefault.jpg
   thumbnail_xl: https://img.youtube.com/vi/X0JRhh8w_4I/hqdefault.jpg
-
 - title: "Keynote: Parsing RBS"
   raw_title: "[EN][Keynote] Parsing RBS / Soutaro Matsumoto @soutaro"
   speakers:
@@ -560,7 +514,6 @@
   video_id: 3qPUy4t7QHE
   language: English
   description: ""
-
 - title: Ruby Committers and The World
   raw_title: "[EN] Ruby Committers and The World / CRuby Committers @rubylangorg"
   speakers:
@@ -572,7 +525,6 @@
   video_id: APa9R0v9GY0
   language: English
   description: ""
-
 - title: "Gradual typing for Ruby: comparing RBS and RBI/Sorbet"
   raw_title: "[EN] Gradual typing for Ruby: comparing RBS and RBI/Sorbet / Alexandre Terrasa @Morriar"
   speakers:
@@ -584,7 +536,6 @@
   video_id: GOC4BRJ-OPY
   language: English
   description: ""
-
 - title: The Adventure of RedAmber - A data frame library in Ruby
   raw_title: "[JA] The Adventure of RedAmber - A data frame library in Ruby / Hirokazu SUZUKI @heronshoes"
   speakers:
@@ -596,7 +547,6 @@
   video_id: MZxDBDRUu6I
   language: Japanese
   description: ""
-
 - title: Ruby + ADBC - A single API between Ruby and DBs
   raw_title: "[JA] Ruby + ADBC - A single API between Ruby and DBs / Sutou Kouhei @ktou"
   speakers:
@@ -608,7 +558,6 @@
   video_id: vwEiRTK32Ik
   language: Japanese
   description: ""
-
 - title: Ruby vs Kickboxer - the state of MRuby, JRuby and CRuby
   raw_title: "[EN] Ruby vs Kickboxer - the state of MRuby, JRuby and CRuby / @saramic @selenasmall88"
   speakers:
@@ -621,7 +570,6 @@
   video_id: tBuceJGDtmE
   language: English
   description: ""
-
 - title: "Code indexing: How language servers understand our code"
   raw_title: "[EN] Code indexing: How language servers understand our code / Vinicius Stock @vinistock"
   speakers:
@@ -633,7 +581,6 @@
   video_id: ks3tQojSJLU
   language: English
   description: ""
-
 - title: Find and Replace Code based on AST
   raw_title: "[EN] Find and Replace Code based on AST / Richard Huang @flyerhzm"
   speakers:
@@ -645,7 +592,6 @@
   video_id: zqA0vfKXYsk
   language: English
   description: ""
-
 - title: Load gem from browser
   raw_title: "[JA] Load gem from browser / SHIGERU NAKAJIMA @ledsun"
   speakers:
@@ -657,7 +603,6 @@
   video_id: bol8RnNVREg
   language: Japanese
   description: ""
-
 - title: Ruby JIT Hacking Guide
   raw_title: "[EN] Ruby JIT Hacking Guide / Takashi Kokubun @k0kubun"
   speakers:
@@ -669,7 +614,6 @@
   video_id: mlcQ8DErvVs
   language: English
   description: ""
-
 - title: Unleashing the Power of Asynchronous HTTP with Ruby
   raw_title: "[EN] Unleashing the Power of Asynchronous HTTP with Ruby / Samuel Williams @ioquatix"
   speakers:
@@ -681,7 +625,6 @@
   video_id: SKNhyqHmqUo
   language: English
   description: ""
-
 - title: Rethinking Strings
   raw_title: "[EN] Rethinking Strings / Kevin Menard @nirvdrum"
   speakers:
@@ -693,7 +636,6 @@
   video_id: a1xvhB8jndQ
   language: English
   description: ""
-
 - title: Let's write RBS!
   raw_title: "[EN] Let's write RBS! / Masataka Kuwabara @p_ck_"
   speakers:
@@ -705,7 +647,6 @@
   video_id: ngoXe-6BCXU
   language: English
   description: ""
-
 - title: Build Your Own SQLite3
   raw_title: "[JA] Build Your Own SQLite3 / Hitoshi HASUMI @hasumikin"
   speakers:
@@ -717,7 +658,6 @@
   video_id: Nypt-HP4NAI
   language: Japanese
   description: ""
-
 - title: How resolve Gem dependencies in your code?
   raw_title: "[JA] How resolve Gem dependencies in your code? / Hiroshi SHIBATA @hsbt"
   speakers:
