@@ -1,16 +1,15 @@
-- id: PLJVqPQvGhwyzrZ0fsm00wsLz7JoQHOpHV
-  title: 'Vienna.rb #63 - The Ruby Spring Meetup'
+- id: vienna-rb-meetup
+  title: Vienna.rb Meetup
   location: "Vienna, Austria"
-  description: Talks from the Ruby Meetup on the 6th of March 2025 at Platogo.
+  description: "Vienna.rb: The Vienna Ruby Meetup"
   kind: meetup
-  published_at: '2025-03-10'
-  start_date: '2025-03-06'
-  end_date: '2025-03-06'
-  channel_id: UCk_uV6AV6vBy7tz7nr0V-wQ
-  year: 2025
-  videos_count: 4
+  published_at: "2025-02-03"
+  channel_id: ""
+  year: "2025"
+  videos_count: 0
   metadata_parser: Youtube::VideoMetadata
-  slug: vienna-rb-63-the-ruby-spring-meetup
-  banner_background: "#DC153C"
-  featured_background: "#000000"
-  featured_color: "#FFFFFF"
+  slug: vienna-rb-meetup
+  banner_background: "#FFFFFF"
+  featured_background: "#FFFFFF"
+  featured_color: "#FF0000"
+  website: https://ruby.wien

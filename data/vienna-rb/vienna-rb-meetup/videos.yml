@@ -91,7 +91,7 @@
   event_name: "Vienna.rb March 2025"
   date: "2025-03-06"
   announced_at: "2025-02-03"
-  published_at: "2025-03-06"
+  published_at: "2025-03-10"
   video_provider: "children"
   video_id: "vienna-rb-march-2025"
   thumbnail_xs: https://secure.meetupstatic.com/photos/event/1/8/8/5/600_526206277.webp?w=750
@@ -160,19 +160,20 @@
       published_at: "2025-03-10"
       speakers:
         - Jan Grodowski
+      id: "jan-grodowski-vienna-rb-march-2025"
       video_id: "G7kuYXr5oKA"
       video_provider: "youtube"
       description: |-
-        We're joined by Jan Grodowski ( https://x.com/mrgrodo ), a Staff Engineer at Shopify. Jan dives deep into Ruby testing and shares what he has learned as a Solopreneur maintaining UndercoverCI ( https://undercover-ci.com ). 
+        We're joined by Jan Grodowski (https://x.com/mrgrodo), a Staff Engineer at Shopify. Jan dives deep into Ruby testing and shares what he has learned as a Solopreneur maintaining UndercoverCI ( https://undercover-ci.com ).
 
         Thank you to Platogo for hosting!
 
         Follow Vienna.rb on:
-        - https://www.meetup.com/vienna-rb 
+        - https://www.meetup.com/vienna-rb
         - https://x.com/vienna-rb
         - https://bsky.app/profile/ruby.wien
 
-        Timestamps: 
+        Timestamps:
         00:00 Start
         23:25 Live Demo
         49:40 Q&A
@@ -183,15 +184,16 @@
       published_at: "2025-03-10"
       speakers:
         - Seth Horsley
+      id: "seth-horsley-vienna-rb-march-2025"
       video_id: "rQOHlmwPHoo"
       video_provider: "youtube"
       description: |-
-        We're joined by Seth Horsley ( https://github.com/SethHorsley ) from StateCert. Seth shares the future of Rails UIs with us. Creating amazing interfaces with plain Ruby using Ruby UI ( https://github.com/ruby-ui/ruby_ui ). 
+        We're joined by Seth Horsley (https://github.com/SethHorsley) from StateCert. Seth shares the future of Rails UIs with us. Creating amazing interfaces with plain Ruby using Ruby UI ( https://github.com/ruby-ui/ruby_ui ).
 
         Thank you to Platogo for hosting!
 
         Follow Vienna.rb on:
-        - https://www.meetup.com/vienna-rb 
+        - https://www.meetup.com/vienna-rb
         - https://x.com/vienna-rb
         - https://bsky.app/profile/ruby.wien
 
@@ -206,15 +208,16 @@
       published_at: "2025-03-10"
       speakers:
         - Anton Bangratz
+      id: "anton-bangratz-vienna-rb-march-2025"
       video_id: "6TMVcYxRjZ0"
       video_provider: "youtube"
       description: |-
-        We're joined by Anton "Tony" Bangratz ( https://github.com/abangratz ). Anton is a veteran Ruby developer from Vienna who works at Platogo. In this talk, he shares his experience using Jujutsu ( https://jj-vcs.github.io/jj/latest/ ) and explains why you should probably use it too!
+        We're joined by Anton "Tony" Bangratz (https://github.com/abangratz). Anton is a veteran Ruby developer from Vienna who works at Platogo. In this talk, he shares his experience using Jujutsu ( https://jj-vcs.github.io/jj/latest/ ) and explains why you should probably use it too!
 
         Thank you to Platogo for hosting!
 
         Follow Vienna.rb on:
-        - https://www.meetup.com/vienna-rb 
+        - https://www.meetup.com/vienna-rb
         - https://x.com/vienna-rb
         - https://bsky.app/profile/ruby.wien
 
@@ -229,15 +232,16 @@
       published_at: "2025-03-10"
       speakers:
         - Johannes Daxböck
+      id: "johannes-daxboeck-vienna-rb-march-2025"
       video_id: "_rdIWfyfuK4"
       video_provider: "youtube"
       description: |-
-        We're joined by Johannes Daxböck ( https://www.linkedin.com/in/johdax ). Johannes shares his exploration of logic programming in Ruby with us. If you have worked with Prolog at some point, this one might interest you. If you haven't, then too!
+        We're joined by Johannes Daxböck (https://www.linkedin.com/in/johdax). Johannes shares his exploration of logic programming in Ruby with us. If you have worked with Prolog at some point, this one might interest you. If you haven't, then too!
 
         Thank you to Platogo for hosting!
 
         Follow Vienna.rb on:
-        - https://www.meetup.com/vienna-rb 
+        - https://www.meetup.com/vienna-rb
         - https://x.com/vienna-rb
         - https://bsky.app/profile/ruby.wien
 
