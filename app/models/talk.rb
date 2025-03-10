@@ -460,7 +460,7 @@ class Talk < ApplicationRecord
       end
     end
 
-    if Array.wrap(static_metadata.speakers).none? && Array.wrap(static_metadata.talks).none?
+    if static_metadata.blank? || (Array.wrap(static_metadata.speakers).none? && Array.wrap(static_metadata.talks).none?)
       puts "No speakers for Video ID: #{video_id}"
       return
     end
@@ -479,6 +479,7 @@ class Talk < ApplicationRecord
       thumbnail_xl: static_metadata["thumbnail_xl"] || "",
       language: static_metadata.language || Language::DEFAULT,
       slides_url: static_metadata.slides_url,
+      video_id: static_metadata.video_id ||static_metadata.id,
       video_provider: static_metadata.video_provider || :youtube,
       external_player: static_metadata.external_player || false,
       external_player_url: static_metadata.external_player_url || "",
@@ -500,11 +501,11 @@ class Talk < ApplicationRecord
 
   def static_metadata
     @static_metadata ||= if video_provider == "parent"
-      Array.wrap(parent_talk&.static_metadata&.talks).find { |talk| talk.video_id == video_id }
+      Array.wrap(parent_talk&.static_metadata&.talks).find { |talk| talk.video_id == video_id || talk.id == video_id }
     elsif (metadata = Static::Video.find_by(video_id: video_id))
       metadata
     else
-      Static::Video.all.flat_map(&:talks).compact.find { |talk| talk.video_id == video_id }
+      Static::Video.all.flat_map(&:talks).compact.find { |talk| talk.video_id == video_id || talk.id == video_id }
     end
   end
 
