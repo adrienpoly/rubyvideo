@@ -39,7 +39,7 @@ module YmlFormatter
         #   the multi line description
         #   of the talk
         #
-        if key_node.value == "description" || key_node.value == "description_2"
+        if key_node.value == "description"
           value_node.plain = false
           value_node.quoted = true
           value_node.style = 4 # multiline |- style output
