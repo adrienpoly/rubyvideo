@@ -479,7 +479,7 @@ class Talk < ApplicationRecord
       thumbnail_xl: static_metadata["thumbnail_xl"] || "",
       language: static_metadata.language || Language::DEFAULT,
       slides_url: static_metadata.slides_url,
-      video_id: static_metadata.video_id ||static_metadata.id,
+      video_id: static_metadata.video_id || static_metadata.id,
       video_provider: static_metadata.video_provider || :youtube,
       external_player: static_metadata.external_player || false,
       external_player_url: static_metadata.external_player_url || "",
