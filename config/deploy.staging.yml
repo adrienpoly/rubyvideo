@@ -1,3 +1,6 @@
+<% ENV["RAILS_ENV"] = "staging" %>
+<% require_relative "config/application" %>
+
 # Name of your application. Used to uniquely configure containers.
 service: rubyvideo_staging
 
@@ -126,3 +129,16 @@ builder:
 #     port: 6379
 #     directories:
 #       - data:/data
+accessories:
+  litestream:
+    roles: ["web"]
+    image: litestream/litestream
+    files: ["config/litestream.yml:/etc/litestream.yml"]
+    volumes: ["storage:/rails/storage"]
+    cmd: replicate
+    env:
+      secret:
+        <% %w[BUCKET ENDPOINT ACCESS_KEY_ID SECRET_ACCESS_KEY].each do |secret| %>
+        <% ENV["LITESTREAM_#{secret}"] = Rails.application.credentials.litestream.fetch(secret.downcase.to_sym) %>
+        - LITESTREAM_<%= secret %>
+        <% end %>
