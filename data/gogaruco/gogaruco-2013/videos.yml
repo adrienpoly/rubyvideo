@@ -17,6 +17,7 @@
     This talk will explore various techniques for measuring performance of Ruby apps. It will cover a wide set of tools: from Sam Saffron's own Flame Graphs and MiniProfiler, to rb-lineprof, and recent MRI commits that provide better information on object space allocation that will appear in Ruby 2.1. The talk will be highly technical.
   video_provider: youtube
   video_id: LWyEWUD-ztQ
+  slug: measuring-ruby
 - title: No Secrets Allowed
   raw_title: GoGaRuCo 2013 - No Secrets Allowed by Steve Klabnik
   speakers:
@@ -28,6 +29,7 @@
     If there's anything that recent events have shown us, it's that what we thought was secret actually isn't. So what to do? Even if you're not a dissident, many of our applications need some form of private communications. And why aren't RubyGems signed, anyway? In this talk, Steve will discuss some of the basic tools, theory, and techniques that you can use to help keep secrets secret.
   video_provider: youtube
   video_id: LjZk8PP-u3c
+  slug: no-secrets-allowed
 - title: "Afternoon Storytime: Curiosity"
   raw_title: GoGaRuCo 2013 - Afternoon Storytime - Curiosity
   speakers:
@@ -39,6 +41,7 @@
     By Jesse Toth
   video_provider: youtube
   video_id: niC0Bsref5s
+  slug: afternoon-storytime-curiosity
 - title: "Afternoon Storytime: Team Building"
   raw_title: GoGaRuCo 2013 - Afternoon Storytime - Team Building
   speakers:
@@ -50,6 +53,7 @@
     By Davy Stevenson
   video_provider: youtube
   video_id: ZEqdyP-N-t8
+  slug: afternoon-storytime-team-building
 - title: "Afternoon Storytime: How I Test-Drove My Career"
   raw_title: GoGaRuCo 2013 - Afternoon Storytime - How I test-drove my Career
   speakers:
@@ -61,6 +65,7 @@
     By Davis Frank
   video_provider: youtube
   video_id: ueeZKPGNk6I
+  slug: afternoon-storytime-how-i-test-drove-my-career
 - title: Stop Breaking The Web
   raw_title: GoGaRuCo 2013 - Stop Breaking the Web by Tom Dale
   speakers:
@@ -74,6 +79,7 @@
     URLs are the same thing. The web is URLs and URLs are the web. Unfortunately, for the past few years, many JavaScript developers have started treating the URL as an afterthought, or a nice-to-have. In this talk, I'll show why URL neglect happens at your own peril, and how making JavaScript apps that respect the URL can be, well, downright pleasant.
   video_provider: youtube
   video_id: r9oly00nYAE
+  slug: stop-breaking-the-web
 - title: Thread Safety First
   raw_title: GoGaRuCo 2013 - Thread Safety First by Emily Stolfo
   speakers:
@@ -87,6 +93,7 @@
     I will discuss approaches to writing threadsafe code in this talk, with a specific focus on performance considerations. I'll start with explaining some basic concurrency concepts, describe methods for handling shared mutable data, and touch on the subtleties of concurrency primitives (Queue, ConditionVariable, Mutex). Historical, squashed, hair-raising bugs in the Ruby driver to MongoDB will be used throughout the presentation to illustrate particular concurrency issues and techniques for solving them.
   video_provider: youtube
   video_id: nzjIP6O4kEo
+  slug: thread-safety-first
 - title: Ruby On Robots Using Artoo
   raw_title: GoGaRuCo 2013 - Ruby On Robots Using Artoo by Ron Evans
   speakers:
@@ -98,6 +105,7 @@
     The robotics revolution has already begun. You can buy drones and robotic devices at local retail stores. Unfortunately, it's hard to develop code for robots, and nearly impossible to create solutions that integrate multiple different kind of devices. Introducing Artoo, a new robotics framework written in Ruby. Artoo can communicate with many different kinds of hardware devices, and integrate them together. With surprisingly few lines of code, you can write interesting applications that tie together Arduinos, ARDrones, Spheros, and more... even all at the same time! The time has come for Ruby-based robotics, and Artoo can help lead the way!
   video_provider: youtube
   video_id: b8_YyhUiVQ8
+  slug: ruby-on-robots-using-artoo
 - title: Scooping The Loop Snooper
   raw_title: GoGaRuCo 2013 - Scooping The Loop Snooper by Ryan Davis
   speakers:
@@ -108,6 +116,7 @@
   description: ""
   video_provider: youtube
   video_id: awjitzVU0Sk
+  slug: scooping-the-loop-snooper
 - title: Impossible Programs
   raw_title: GoGaRuCo 2013 - Impossible Programs by Tom Stuart
   speakers:
@@ -123,6 +132,7 @@
     This talk uses Ruby to tell a nail-biting, math-free story about the source of a computer's power, the inevitable drawbacks of that power, and the impossible programs which lie at the heart of uncomputability.
   video_provider: youtube
   video_id: xaH9YmNe8TM
+  slug: impossible-programs
 - title: "Beneath the Surface: Regular Expressions in Ruby"
   raw_title: "GoGaRuCo 2013 - Beneath the Surface: Regular Expressions in Ruby"
   speakers:
@@ -136,6 +146,7 @@
     Many of us approach regular expressions with a certain fear and trepidation, using them only when absolutely necessary. We can get by when we need to use them, but we hesitate to dive any deeper into their cryptic world. Ruby has so much more to offer us. This talk showcases the incredible power of Ruby and the Oniguruma regex library Ruby runs on. It takes you on a journey beneath the surface, exploring the beauty, elegance, and power of regular expressions. You will discover the flexible, dynamic, and eloquent ways to harness this beauty and power in your own code.
   video_provider: youtube
   video_id: TMV3LrNG6-w
+  slug: beneath-the-surface-regular-expressions-in-ruby
 - title: Frequently Asked Questions
   raw_title: GoGaRuCo 2013 - Frequently Asked Questions by Ben Orenstein
   speakers:
@@ -147,6 +158,7 @@
     This talk will explore various techniques for measuring performance of Ruby apps. It will cover a wide set of tools: from Sam Saffron's own Flame Graphs and MiniProfiler, to rb-lineprof, and recent MRI commits that provide better information on object space allocation that will appear in Ruby 2.1. The talk will be highly technical.
   video_provider: youtube
   video_id: 8ZMOWypU34k
+  slug: frequently-asked-questions
 - title: Why Hasn't Ruby Won?
   raw_title: GoGaRuCo 2013 - Why hasn't Ruby won? by Sarah Mei
   speakers:
@@ -162,6 +174,7 @@
     Let's bring this missing information into the light and look at social data from real teams, real projects and real extracted code. We'll make better decisions. We'll understand why Hacker News exists. Everyone wins! And you still don't have to do Flash.
   video_provider: youtube
   video_id: dE4toi7y1MM
+  slug: why-hasn-t-ruby-won
 - title: SOA without the tears
   raw_title: GoGaRuCo 2013 - SOA without the tears by John Wilkinson and Anthony Zacharakis
   speakers:
@@ -174,6 +187,7 @@
     Going full SOA has unarguable benefits, but the steep startup cost and need for excessive forward planning goes against the agile mentality of strictly necessary, small, incremental changes. At Lumosity, we've developed a set of best practices using engines to entirely divide behavior and responsibility by wrapping new services within well-defined, small Ruby APIs. This technique obviates the need for complex network (HTTP) APIs with their well-known problems of maintenance and testing. Get rid of spaghetti code without diving into the deep end of recorded responses and fake servers. Later, if the architecture demands a separate service, the engine will already have an API fully defined and ready to port over from Ruby to HTTP.
   video_provider: youtube
   video_id: JrS5pWp29OI
+  slug: soa-without-the-tears
 - title: A Tale of Two MVCs
   raw_title: GoGaRuCo 2013 - A tale of two MVCs by Yehuda Katz
   speakers:
@@ -184,6 +198,7 @@
   description: ""
   video_provider: youtube
   video_id: U9x-EaeJDuE
+  slug: a-tale-of-two-mvcs
 - title: Built to Program
   raw_title: GoGaRuCo 2013 - Built to Program by James Edward Gray II
   speakers:
@@ -195,6 +210,7 @@
     James Edward Gray II has been programming long enough to learn a thing or two about how this computer stuff actually works. Nobody cares about that. Seriously, that's not the most common thing people ask him about. Instead, they often come with questions about why James tools around in an eletric wheelchair. Were legs just not hackable enough for his taste? Does he have a Charles Xavier complex? Does he not eat enough beta-carotene? James is ready to answer all of these questions. He believes the answers might even be just a little related to programming. Don't be surprised if you find yourself wishing for some neuromuscular disease of your very own. (Note: live genetic engineering is a violation of GoGaRuCo's insurance policy, but James can teach you how to fake a disability for the purposes of gaining deeper insight into code—allowable due to the Reprogrammed Humans for the Greater Good Act of 2442.)
   video_provider: youtube
   video_id: 6cdbx1BmboQ
+  slug: built-to-program
 - title: Why Hasn't Ruby Won?
   raw_title: GoGaRuCo 2013 - Why hasn't Ruby won? by Sarah Mei
   speakers:
@@ -206,6 +222,7 @@
     For every enthusiastic attendee at a Ruby conference, there are a hundred people who have tried Ruby and walked away. There's also at least one person who's hit the top of Hacker News complaining about it. Are missing features or poor performance chasing people off? Is the community too international, or not responsive enough on GitHub? Maybe the problem is the ones who walk away — the inexperienced masses, poisoned by Flash, Visual Basic and PHP.
   video_provider: youtube
   video_id: tlSFBGCaAwM
+  slug: why-hasn-t-ruby-won-gogaruco-2013
 - title: SOA Without The Tears
   raw_title: GoGaRuCo 2013 - SOA without the tears
   speakers:
@@ -220,6 +237,7 @@
     Going full SOA has unarguable benefits, but the steep startup cost and need for excessive forward planning goes against the agile mentality of strictly necessary, small, incremental changes. At Lumosity, we've developed a set of best practices using engines to entirely divide behavior and responsibility by wrapping new services within well-defined, small Ruby APIs. This technique obviates the need for complex network (HTTP) APIs with their well-known problems of maintenance and testing. Get rid of spaghetti code without diving into the deep end of recorded responses and fake servers. Later, if the architecture demands a separate service, the engine will already have an API fully defined and ready to port over from Ruby to HTTP.
   video_provider: youtube
   video_id: HV3BH2K5BQ8
+  slug: soa-without-the-tears-gogaruco-2013
 - title: A Tale Of Wwo MVC's
   raw_title: GoGaRuCo 2013 - A tale of two MVC's by Yehuda Katz
   speakers:
@@ -230,6 +248,7 @@
   description: ""
   video_provider: youtube
   video_id: s1dhXamEAKQ
+  slug: a-tale-of-wwo-mvc-s
 - title: "Nokogiri: History, Present, and Future"
   raw_title: "GoGaRuCo 2013 - Nokogiri: History, Present, and Future by Mike Dalessio"
   speakers:
@@ -250,6 +269,7 @@
     Installation issues, and what we're doing to help
   video_provider: youtube
   video_id: BbG5slRsJ_0
+  slug: nokogiri-history-present-and-future
 - title: "Seeing the Big Picture: Quick and Dirty Data Visualization with Ruby"
   raw_title: "GoGaRuCo 2013 - Seeing the Big Picture: Quick and Dirty Data Visualization with Ruby"
   speakers:
@@ -264,6 +284,7 @@
     Data is a hot buzz word in the industry. Every day there are more startups with "Big Data" somewhere in their elevator pitch. There are dozens of devices to record how we sleep, what we eat, how much we exercise, even how often we breathe. Every action we take online generates data that is stored and analyzed. Understanding all this data can be difficult. Humans aren't designed to see patterns in thousands of lines of json or XML. We are good at seeing patterns in pictures, graphs, diagrams, and spots in the underbrush. Often a simple visualization is what you need to understand a problem. In this talk, I'll demonstrate tools that you can use to quickly generate "back-of-the-envelope" visualizations from a variety of data sets.
   video_provider: youtube
   video_id: dWPRLCU39AU
+  slug: seeing-the-big-picture-quick-and-dirty-data-visualization-with-ruby
 - title: Solving The Rubik's Cube in 20 Seconds
   raw_title: GoGaRuCo 2013 - Solving the Rubik's Cube in 20 Seconds by Chris Hunt
   speakers:
@@ -275,6 +296,7 @@
     Come to San Francisco as a Rubyist, leave as a speedcuber. We are going to use Ruby, a video camera, and an insane amount of live demonstration to learn how to solve the Rubik's Cube in less than 20 seconds. You will leave this talk knowing which cube to buy, which of the five most popular solving methods you should be learning, how to practice for speed, where to ask questions, and how Ruby can help teach you to be the fastest speedcuber in town. People are solving the Rubik's Cube quicker today than any time in history and there's a reason why.
   video_provider: youtube
   video_id: PV9Tsu6ny-0
+  slug: solving-the-rubik-s-cube-in-20-seconds
 - title: The Littlest ORM
   raw_title: GoGaRuCo 2013 - The Littlest ORM by Noah Gibbs
   speakers:
@@ -286,6 +308,7 @@
     Ever wonder how Sequel, ActiveRecord or DataMapper work? Let's build a working mini-ORM, complete with an application and tests! Ruby makes it surprisingly easy. We'll go over all the code in 30 minutes. There will be a GitHub link so you don't have to type furiously.
   video_provider: youtube
   video_id: Uh5MYvNXt0A
+  slug: the-littlest-orm
 - title: Let's Write an Interpreter!
   raw_title: GoGaRuCo 2013 - Let's Write an Interpreter! by Ryan Davis
   speakers:
@@ -297,3 +320,4 @@
     Let's dive into one of the the deep ends of CS and implement a turing-complete interpreter in just 30 minutes using ruby, ruby_parser, sexp_processor, and a minor amount of elbow grease.
   video_provider: youtube
   video_id: RPxvx9OkNic
+  slug: let-s-write-an-interpreter

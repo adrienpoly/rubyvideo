@@ -16,6 +16,7 @@
     In this talk we'll look at using message passing patterns when designing our service oriented systems. We'll dig into an evolving feature from being some code sprinkled throughout the app folder in our Rails application to a standalone system that's independently scalable, testable, and deployable. We'll investigate the tactics we use to slice up our monolithic application, the operations and monitoring concerns it introduces, and look at several different messaging tools and protocols along the way.
   video_provider: youtube
   video_id: n8QUki5jhAM
+  slug: asynchronous-service-oriented-design
 - title: To Know A Garbage Collector
   raw_title: GoRuCo 2013 - To Know A Garbage Collector by Mike Bernstein
   speakers:
@@ -27,6 +28,7 @@
     It started as an obsession with making the web application used at my day job faster, and ended with trying to implement new Garbage Collection algorithms in a notoriously insane codebase. Garbage collection is an epic hack and a triumphant abstraction that supports various programming paradigms. As hardware and software changes, Garbage Collection's role also changes but remains equally important. I'll discuss my experiments with MRI Ruby, my investigations into other languages and the influence of their GC implementations, the history of the subject, and more.
   video_provider: youtube
   video_id: t8dj56h2gbg
+  slug: to-know-a-garbage-collector
 #
 # Morning break
 #
@@ -42,6 +44,7 @@
     In this talk, we'll discuss using features provided by modern filesystems like ZFS & Btrfs to branch databases along with code, letting developers experiment and ops people model complex environments, all from the comfort of our laptops.
   video_provider: youtube
   video_id: K66r3yZd2_I
+  slug: microtalk-take-a-picture-it-ll-last-longer
 - title: "Microtalk: Motion in the Middle - RubyMotion as a Gateway to iOS Development"
   raw_title: "GoRuCo 2013 - Microtalk: Motion in the Middle - RubyMotion as a Gateway to iOS development"
   speakers:
@@ -55,6 +58,7 @@
     In the past year or so, RubyMotion (RM) has gained its share of both adherents and skeptics. Some criticize RM for being too far removed from the underlying Cocoa frameworks, while others claim the toolchain isn't "Ruby" enough. While there is certainly merit to these conflicting objections, it is because of these supposed flaws, and not in spite of them, that RubyMotion is an excellent tool for producing iOS apps. By leveraging both the power of the Objective-C frameworks and the speed and expressiveness of Ruby (not to mention opening up the iOS ecosystem to the historically prolific open source Ruby community), RM has the potential to greatly expand the iOS developer base and change the mobile landscape for the better. In his talk, "Motion in the Middle," Matthew will discuss the ways in which RubyMotion enables elegant, Ruby-esque design while exposing enough of the iOS/Cocoa frameworks to allow for wide-ranging and highly extendable applications.
   video_provider: youtube
   video_id: MliQDCrTsNU
+  slug: microtalk-motion-in-the-middle-rubymotion-as-a-gateway-to-ios-development
 - title: "Microtalk: Hacking the Academic Experience"
   raw_title: "GoRuCo 2013 - Microtalk: Hacking the Academic Experience by Emily Stolfo"
   speakers:
@@ -67,6 +71,7 @@
     This presentation will cover lessons learned from the experience teaching in my alma mater's CS program, how I developed a hacker-centric curriculum, and how we as hackers can fix this.
   video_provider: youtube
   video_id: wFlOhIWflRo
+  slug: microtalk-hacking-the-academic-experience
 - title: "Microtalk: Working with Rubyists"
   raw_title: "GoRuCo 2013 Microtalk: Working with Rubyists by Aaron Quint"
   speakers:
@@ -78,6 +83,7 @@
     Welcome to the trials and tribulations of managing a Ruby team. Let me introduce you to the characters, the challenges, the high stakes rat race. I'll share as fast as possible, what I've learned and what I failed at and why management shouldnt be an evil word.
   video_provider: youtube
   video_id: GPGm5PNzNIA
+  slug: microtalk-working-with-rubyists
 #
 # Lunch
 #
@@ -94,6 +100,7 @@
     During the talk we'll be walking through simple examples at different points in application lifecycle. These snapshots will address the biggest pain points of a persistence free process and leave you in a position to put off persistence in your own app development!
   video_provider: youtube
   video_id: Bjh_p-fBb9A
+  slug: putting-off-persistence
 - title: Krypt. Semper Pi.
   raw_title: GoRuCo 2013 - Krypt. Semper Pi. by Martin Bosslet
   speakers:
@@ -108,6 +115,7 @@
     Find out how!
   video_provider: youtube
   video_id: p7ap-GvnXYs
+  slug: krypt-semper-pi
 #
 # Afternoon break
 #
@@ -122,6 +130,7 @@
     The story of the quest to make bundle install faster; in which Rubyists around the world inadvertently DDoS rubygems.org, witness its ignominious death, and vow to rebuild it from the ashes stronger than it was before. Then, a tour of the changes; why is Redis so much slower than Postgres? Marvel at the gorgeous metrics and graphs used to measure and optimize; gasp in delight as we track, live, exactly how many Heroku dynos are needed. Finally, a happy ending: today, the server responds to requests TWO ORDERS OF MAGNITUDE faster than it did before.
   video_provider: youtube
   video_id: 4_TqAMWbzfw
+  slug: deathmatch-bundler-vs-rubygems-org
 - title: "Microtalk: Building a Theme Engine w/ Ruby Mustache"
   raw_title: "GoRuCo 2013 - Microtalk: Building a Theme Engine w/ Ruby Mustache"
   speakers:
@@ -137,6 +146,7 @@
     We'll show off the code involved in VHX's theme engine, advanced code editor (with live previewing through the HTML5 postMessage API), a master/child inheritance system that allows themes to be forked, and piecing it all together in a beautiful, easy-to-use interface.
   video_provider: youtube
   video_id: Sh3hrETMPj8
+  slug: microtalk-building-a-theme-engine-w-ruby-mustache
 - title: "Microtalk: A House of Cards - The Perils of Maintaining a 7-Year-Old Codebase"
   raw_title: GoRuCo 2013 - Microtalk:A House of Cards - The Perils of Maintaining a 7-Year-Old Codebase
   speakers:
@@ -160,6 +170,7 @@
     less confused, more productive, and less unintentionally destructive.
   video_provider: youtube
   video_id: A56vxCYLpk4
+  slug: microtalk-a-house-of-cards-the-perils-of-maintaining-a-7-year-old-codebase
 - title: "Microtalk: Nokogiri - History and Future"
   raw_title: "GoRuCo 2013 - Microtalk: Nokogiri - History and Future by Mike Dalessio"
   speakers:
@@ -180,6 +191,7 @@
     Feature roadmap
   video_provider: youtube
   video_id: qkvEjZ-mGQA
+  slug: microtalk-nokogiri-history-and-future
 - title: "Microtalk: Usability Primer in 10 Minutes Flat"
   raw_title: "GoRuCo 2013 - Microtalk: Usability Primer in 10 Minutes Flat by Steve Berry"
   speakers:
@@ -191,6 +203,7 @@
     In this talk we will go over usability heuristics for building better web experiences.
   video_provider: youtube
   video_id: 7ml8t6uw8ho
+  slug: microtalk-usability-primer-in-10-minutes-flat
 - title: Functional Programming and Ruby
   raw_title: GoRuCo 2013 - Functional Programming and Ruby by Pat Shaughnessy
   speakers:
@@ -203,3 +216,4 @@
     Along the way we'll explore how Ruby works internally, find out whether it's a true functional language, and zoom in to take a close look at Ruby 2.0's implementation of the new "Enumerator::Lazy" feature.
   video_provider: youtube
   video_id: 5ZjwEPupybw
+  slug: functional-programming-and-ruby

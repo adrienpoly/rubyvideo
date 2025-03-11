@@ -13,6 +13,7 @@
   description: ""
   video_provider: youtube
   video_id: ZSRE-rGcEPs
+  slug: unicorn-unix-magic-tricks
 - title: What if Clean Code is a Scam
   raw_title: What if Clean Code is a scam - Michał Taszycki - wroc_love.rb 2015
   speakers:
@@ -23,6 +24,7 @@
   description: ""
   video_provider: youtube
   video_id: JIu889NJYbM
+  slug: what-if-clean-code-is-a-scam
 - title: Lightning Talks - Day 1
   raw_title: Lightning Talks - Friday - wroc_love.rb 2015
   speakers:
@@ -33,6 +35,7 @@
   description: ""
   video_provider: youtube
   video_id: 4grD-1Cde08
+  slug: lightning-talks-day-1-wroclove-rb-2015
 #
 # Day 2
 #
@@ -46,6 +49,7 @@
   description: ""
   video_provider: youtube
   video_id: FgOLP4bMX90
+  slug: volt
 - title: Trailblazer
   raw_title: Trailblazer - Nick Sutterer - wroc_love.rb 2015
   speakers:
@@ -56,6 +60,7 @@
   description: ""
   video_provider: youtube
   video_id: K7P7PcO8ra4
+  slug: trailblazer-wroclove-rb-2015
 - title: "Panel: Post-Rails World"
   raw_title: Panel "Post-Rails world" - Nick Sutterer, Ryan Stout, Jim Gay - wroc_love.rb 2015
   speakers:
@@ -68,6 +73,7 @@
   description: ""
   video_provider: youtube
   video_id: X2sJMVGPZ_E
+  slug: panel-post-rails-world
 - title: Live Code Music
   raw_title: Live Code Music - Nicolas Dermine - wroc_love.rb 2015
   speakers:
@@ -78,6 +84,7 @@
   description: ""
   video_provider: youtube
   video_id: 5cZfqXiivdA
+  slug: live-code-music
 - title: Event Storming
   raw_title: Event Storming - Alberto Brandolini - wroc_love.rb 2015
   speakers:
@@ -88,6 +95,7 @@
   description: ""
   video_provider: youtube
   video_id: veTVAN0oEkQ
+  slug: event-storming
 - title: Lightning Talks - Day 2
   raw_title: Lightning Talks - Saturday - wroc_love.rb 2015
   speakers:
@@ -98,6 +106,7 @@
   description: ""
   video_provider: youtube
   video_id: 5SpdE5doLog
+  slug: lightning-talks-day-2-wroclove-rb-2015
 #
 # Day 3
 #
@@ -111,6 +120,7 @@
   description: ""
   video_provider: youtube
   video_id: al2LZ-7qX7k
+  slug: from-rails-way-to-modular-architecture
 - title: Microservices
   raw_title: Microservices - Sebastian Sogamoso - wroc_love.rb 2015
   speakers:
@@ -121,6 +131,7 @@
   description: ""
   video_provider: youtube
   video_id: gphGTGzas98
+  slug: microservices
 - title: "Panel: DDD/CQRS/ES"
   raw_title: Panel "DDD/CQRS/ES" - wroc_love.rb 2015
   speakers:
@@ -135,6 +146,7 @@
     Albert Brandolini, Andrzej Krzywda, Mirek Pragłowski, Sebastian Sogamoso
   video_provider: youtube
   video_id: Rh2A96rpGpY
+  slug: panel-ddd-cqrs-es
 - title: The Missing System
   raw_title: The Missing System - Jim Gay - wroc_love.rb 2015
   speakers:
@@ -145,6 +157,7 @@
   description: ""
   video_provider: youtube
   video_id: huRWC7iFZxM
+  slug: the-missing-system
 - title: ClojureScript + React.js
   raw_title: ClojureScript + React.js - Norbert Wójtowicz - wroc_love.rb 2015
   speakers:
@@ -155,6 +168,7 @@
   description: ""
   video_provider: youtube
   video_id: 6_mbxaRDA-s
+  slug: clojurescript-react-js
 - title: Lightning Talks - Day 3
   raw_title: Lightning Talks - Sunday - wroc_love.rb 2015
   speakers:
@@ -165,3 +179,4 @@
   description: ""
   video_provider: youtube
   video_id: C6zIIOwVX3Q
+  slug: lightning-talks-day-3

@@ -12,6 +12,7 @@
   description: ""
   video_provider: youtube
   video_id: _I4hIdjO5vk
+  slug: where-is-ruby-really-heading
 - title: The Ruby Guide to *nix Plumbing
   raw_title: GORUCO 2009 - The Ruby Guide to *nix Plumbing by Eleanor McHugh
   speakers:
@@ -22,6 +23,7 @@
   description: ""
   video_provider: youtube
   video_id: d9mRPwLHMb8
+  slug: the-ruby-guide-to-nix-plumbing
 - title: Resource-Oriented Architecture With Waves
   raw_title: GORUCO 2009 - Resource-Oriented Architecture With Waves by Dan Yoder
   speakers:
@@ -32,6 +34,7 @@
   description: ""
   video_provider: youtube
   video_id: q-BAtwhCcpE
+  slug: resource-oriented-architecture-with-waves
 #
 # Lunch
 #
@@ -45,6 +48,7 @@
   description: ""
   video_provider: youtube
   video_id: bnrNX9sASoE
+  slug: into-the-heart-of-darkness-rails-anti-patterns
 - title: SOLID Object-Oriented Design
   raw_title: GORUCO 2009 - SOLID Object-Oriented Design by Sandi Metz
   speakers:
@@ -55,6 +59,7 @@
   description: ""
   video_provider: youtube
   video_id: v-2yFMzxqwU
+  slug: solid-object-oriented-design
 #
 # Break
 #
@@ -68,6 +73,7 @@
   description: ""
   video_provider: youtube
   video_id: VlcTf9kuk7U
+  slug: building-cross-platform-mobile-apps-with-ruby-and-phonegap
 - title: "From Rails to Rack: Making Rails 3 a Better Ruby Citizen"
   raw_title: "GORUCO 2009 - From Rails to Rack: Making Rails 3 a Better Ruby Citizen by Yehuda Katz"
   speakers:
@@ -78,6 +84,7 @@
   description: ""
   video_provider: youtube
   video_id: m9eLeL9RdbA
+  slug: from-rails-to-rack-making-rails-3-a-better-ruby-citizen
 - title: "Lightning Talks: RejectConf"
   raw_title: GORUCO 2009 - RejectConf by Various Presenters
   event_name: GORUCO 2009
@@ -86,6 +93,7 @@
   description: ""
   video_provider: youtube
   video_id: _DY8P6Vkl0k
+  slug: lightning-talks-rejectconf-goruco-2009
   talks:
     - title: "Lightning Talk: Chef"
       start_cue: "TODO"

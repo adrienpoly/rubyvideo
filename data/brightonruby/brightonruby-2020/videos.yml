@@ -14,6 +14,7 @@
   external_player_url: https://brightonruby.com/2020/the-games-developers-play-andy-croll/
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2020/andy-the-games-developers-play.mp4
+  slug: the-games-developers-play-brighton-ruby-2020
   description: |-
     “We protect our little fictions, like it’s all we are.” Elbow
 
@@ -28,6 +29,7 @@
   external_player_url: https://brightonruby.com/2020/you-dont-need-a-queuing-service-mary-beth-lee/
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2020/mary-you-dont-need-a-queuing-service.mp4
+  slug: you-don-t-need-a-queuing-service-you-have-postgres
   description: |-
     You can sign up for SQS or use Sidekiq or Delayed Job. But what about the database you already have?
 
@@ -42,6 +44,7 @@
   external_player_url: https://brightonruby.com/2020/technically-a-talk-eileen-uchitelle/
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2020/eileen-technically-a-talk.mp4
+  slug: technically-a-talk-brighton-ruby-2020
   description: |-
     Eileen talks through her experiences building a major feature—multiple database support—in Rails 6 and why she does the (good!) work she does for the Rails community.
 
@@ -56,6 +59,7 @@
   external_player_url: https://brightonruby.com/2020/building-rubyfmt-penelope-phippen/
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2020/penelope-building-rubyfmt.mp4
+  slug: building-rubyfmt-brighton-ruby-2020
   description: |-
     Why build a super-fast code-formatter for Ruby given there is no written standard for how Ruby is supposed to work?
 
@@ -72,6 +76,7 @@
   external_player_url: https://brightonruby.com/2020/the-14-day-no-laptop-challenge-josh-puetz/
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2020/josh-the-14-day-no-laptop-challenge.mp4
+  slug: the-14-day-no-laptop-challenge
   description: |-
     Find out how to do Real Work (TM) on an iPad from a fella who does real Rails coding on their tablet.
 - title: "Just Simply"
@@ -84,6 +89,7 @@
   external_player_url: https://brightonruby.com/2020/just-simply-emma-barnes/
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2020/emma-just-simply.mp4
+  slug: just-simply
   description: |-
     Emma wants to explain how trivial your work is, nowadays. After all, there are so many gems, libraries and frameworks that make your work as developers painfully simple, really obvious and frighteningly easy. All you have to do is just use them: they make programming painless!
 
@@ -102,6 +108,7 @@
   external_player_url: https://brightonruby.com/2020/how-to-become-a-developer-with-no-time-and-no-money-amina-adewusi/
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2020/amina-how-to-become-a-developer-with-no-time-and-no-money.mp4
+  slug: how-to-become-a-developer-with-no-time-and-no-money
   description: |-
     Amina will share her story about what it takes to become a developer after teaching herself how to code, juggling a full-time job and baby. She will offer advice on how developers and managers can shape our engineering community by supporting new developers.
 
@@ -116,6 +123,7 @@
   external_player_url: https://brightonruby.com/2020/personal-sparkles-allison-mcmillan/
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2020/allison-personal-sparkles.mp4
+  slug: planning-for-personal-sparkles
   description: |-
     A new talk, based on an old one - planning for personal sparkles: A COVID-19 plan.
 
@@ -134,6 +142,7 @@
   external_player_url: https://brightonruby.com/2020/principles-of-web-app-performance-nate-berkopec/
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2020/nate-principles-of-web-app-performance.mp4
+  slug: principles-of-web-app-performance
   description: |-
     As one of (the?) best known folks working on Rails performance at speedshop.co Nate has some performance priorities he’d like to talk to you about.
 
@@ -149,6 +158,7 @@
   external_player_url: https://brightonruby.com/2020/the-burnout-burndown-anjuan-aneika-simmons/
   video_provider: mp4
   video_id: https://videos.brightonruby.com/videos/2020/anjuan-aneika-managing-the-burnout-burndown.mp4
+  slug: managing-the-burnout-burndown-brighton-ruby-2020
   description: |-
     Engineering managers are, almost by definition, highly capable and strongly driven individuals. These traits are indispensable to success in leading software engineering teams, but they are also the very traits that make engineering managers susceptible to burn out. People who can get things done often find themselves overwhelmed by their to-do lists.
 

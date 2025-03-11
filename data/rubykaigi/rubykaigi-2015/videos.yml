@@ -14,6 +14,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: QaLvtNpoc5o
+  slug: keynote-ruby-2020
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/evanphx
@@ -26,6 +27,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 7dwDzlVI7OU
+  slug: introducing-the-crystal-programming-language
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/leinweber
@@ -45,6 +47,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: vM9XfqlqyNw
+  slug: high-performance-template-engine-guide-to-optimize-your-ruby-code
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/eagletmt_k0kubun
@@ -62,6 +65,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: idmfWkP5lOw
+  slug: linux-loves-ruby-ruby-loves-linux-keynote
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/kosaki
@@ -74,6 +78,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: lRMWwjqbXUo
+  slug: fast-metaprogramming-with-truffle
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/nirvdrum
@@ -90,6 +95,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: sFfwQ1-PFt0
+  slug: compiling-ruby-scripts
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/ko1
@@ -105,6 +111,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: uiNpoDB4dA0
+  slug: turbo-rails-with-rust
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/wycats_chancancode
@@ -121,6 +128,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: a_mJIR0Rk9U
+  slug: time-flies-like-an-arrow-fruit-flies-like-a-banana-parsers-for-great-good
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/SoManyHs
@@ -145,6 +153,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: g33d9SSbvd8
+  slug: the-history-of-testing-framework-in-ruby
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/kou
@@ -163,6 +172,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: jLAFXQ1Av50
+  slug: the-worst-ruby-codes-i-ve-seen-in-my-life
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/prodis
@@ -179,6 +189,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: uzUmUmEX-Ls
+  slug: the-future-of-ruby-is-in-motion
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/lrz
@@ -193,6 +204,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: xEK1hg8noSc
+  slug: writing-web-application-in-ruby
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/youchan
@@ -215,6 +227,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: C6SP3CzCb5k
+  slug: plugin-based-software-design-with-ruby-and-rubygems
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/frsyuki
@@ -230,6 +243,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: EDxoaEdR-_M
+  slug: experiments-in-sharing-java-vm-technology-with-cruby
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/MattStudies
@@ -246,6 +260,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Yf7l4Yp461I
+  slug: lightning-talks-rubykaigi-2015
   description: |-
     http://rubykaigi.org/2015/presentations/lt
   talks:
@@ -335,6 +350,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: dmHqtr_GNtg
+  slug: trick-2015-the-second-transcendental-ruby-imbroglio-contest-for-rubykaigi
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/trick
@@ -349,6 +365,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: xIVrUWmmass
+  slug: ruby-meets-go
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/mmasaki
@@ -366,6 +383,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bchlcxAZ9tU
+  slug: ruby-and-postgresql-a-love-story
   language:
   description: |-
     PostgreSQL 9.1 introduced Foreign Data Wrappers, as an implementation of SQL/MED foreign tables, to provide transparent access to external data. Restricted to being written in C, writing FDWs can be a hard task.
@@ -380,6 +398,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: b9621w7_vxc
+  slug: saving-people-from-typos
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/yuki24
@@ -398,6 +417,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 0cmXVXMdbs8
+  slug: request-and-response
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/tenderlove
@@ -417,6 +437,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: NNsX92hKirM
+  slug: let-s-make-a-functional-language
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/yhara
@@ -431,6 +452,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: EXvDKb2LTYM
+  slug: mruby-on-the-minimal-embedded-resource
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/shotantan
@@ -449,6 +471,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: EhEWn5Uudow
+  slug: building-cli-apps-for-everyone
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/hone02_zzak
@@ -473,6 +496,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: LcXKSHsniTY
+  slug: ruby-committers-vs-the-world
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/committers
@@ -485,6 +509,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: _gLgE3c5jTU
+  slug: refinements-the-worst-feature-you-ever-loved-rubykaigi-2015
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/nusco
@@ -504,6 +529,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: nhqNaZxHbHY
+  slug: it-s-dangerous-to-gc-alone-take-this
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/youngrw_CraigLehmann
@@ -520,6 +546,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: gVm7dd2G7CQ
+  slug: beyond-saas-building-for-enterprise
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/joshk
@@ -540,6 +567,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: u7WCIN5HMDI
+  slug: making-robots-with-mruby
   language: Japanese
   description: |-
     http://rubykaigi.org/2015/presentations/yurie
@@ -556,6 +584,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: EPxWD_2Yekg
+  slug: rhebok-high-performance-rack-handler
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/kazeburo
@@ -572,6 +601,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: bvXYCpcOQ3E
+  slug: ruby-for-one-day-game-programming-camp-for-beginners
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/ohai
@@ -588,6 +618,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: MrfdHpz0-AQ
+  slug: diy-do-it-yourself-testing
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/estolfo
@@ -606,6 +637,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: LlcEduexIcU
+  slug: running-ruby-on-solaris
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/ngoto
@@ -626,6 +658,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: Tgtprqw8_IQ
+  slug: pragmatic-testing-of-ruby-core
   language:
   description: |-
     When you need to understand a new library or framework, you might try to invoke the test suite with "rake test" or "rake spec". CRuby also has a test suite like many libraries and frameworks, written in Ruby. But, It's different from typical ruby libraries. Therefore many Rubyists don't know how to run the CRuby test suite.
@@ -639,6 +672,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: t2NoXELaF0E
+  slug: charming-robots
   language:
   description: |-
     [Due to copyright reasons, mute audio in some parts of the movie]
@@ -655,6 +689,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: erx00WTzvcY
+  slug: prepare-yourself-against-zombie-epidemic
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/toch
@@ -673,6 +708,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 9C98Eyr9jOY
+  slug: discussion-on-thread-between-version-1-8-6-and-2-2-3
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/emorima
@@ -690,6 +726,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: 6qrdqLlgTo8
+  slug: data-analytics-service-company-and-its-ruby-usage
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/tagomoris
@@ -706,12 +743,9 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: EdB-s2GX-68
+  slug: actor-thread-and-me
   language:
-  description:
-    "http://rubykaigi.org/2015/presentations/seki\n\nEverybody says. Actor helps to solve
-    the multithreading problem. Actor is awesome. Threads are \U0001F4A9\n\nReally?\n\nAn
-    actor model is \"just a model\", just like MVC.\n\nToday, Recap what Actor Model
-    is."
+  description: "http://rubykaigi.org/2015/presentations/seki\n\nEverybody says. Actor helps to solve the multithreading problem. Actor is awesome. Threads are \U0001F4A9\n\nReally?\n\nAn actor model is \"just a model\", just like MVC.\n\nToday, Recap what Actor Model is."
 - title: Upcoming Improvements to JRuby 9000
   raw_title: Upcoming Improvements to JRuby 9000 - RubyKaigi 2015
   speakers:
@@ -722,6 +756,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: QAqjtdExtJw
+  slug: upcoming-improvements-to-jruby-9000
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/headius_enebo
@@ -736,6 +771,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: xiAyp97ElA8
+  slug: usage-and-implementation-of-reish-which-is-an-unix-shell-for-rubyist
   language:
   description: |-
     http://rubykaigi.org/2015/presentations/keiju
@@ -750,6 +786,7 @@
   published_at: "TODO"
   video_provider: youtube
   video_id: E9bO1uqs4Oc
+  slug: keynote-ruby-3-challenges
   language: Japanese
   description: |-
     http://rubykaigi.org/2015/presentations/matz

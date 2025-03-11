@@ -19,6 +19,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: q0BQMbwzPJw
+  slug: panel-fp-vs-oop
   language:
   description: |-
     Andrzej Krzywda, Piotr Zolnierek, Norbert Wójtowicz, Tymon Tobolski, Przemysław Kowalczyk and Jan Filipowski
@@ -33,6 +34,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: 2pmQk27i1PM
+  slug: fishbowl-programmer-productivity
   language:
   description: |-
     Michał Taszycki, Robert Pankowecki and Alex Koppel
@@ -44,6 +46,7 @@
   description: ""
   video_provider: youtube
   video_id: VO4tM5RcUlc
+  slug: lightning-talks-day-2-wroclove-rb-2013
   talks:
     - title: "Lightning Talk: Patrick Mulder"
       date: "2013-03-01"
@@ -144,6 +147,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: tgHMLkMCvzs
+  slug: a-la-carte-please
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -158,6 +162,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: 7GMXFMIx48M
+  slug: building-a-real-time-analytics-engine-in-jruby
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -172,6 +177,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: fW-i7bbfdlQ
+  slug: keynote-how-to-lie-cheat-and-steal
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -193,6 +199,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: h8XeZFW1Ad0
+  slug: panel-single-page-applications-frameworks
   language:
   description: |-
     Piotr Sarnacki, Andrzej Krzywda, Patrick Mulder, Adam Pohorecki
@@ -205,6 +212,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: 8pFJaEMMX6g
+  slug: dear-god-what-am-i-doing-concurrency-and-parallel-processing
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -236,6 +244,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: ZUADinlqHwk
+  slug: dci-extend-dci-use-case-in-code
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -248,6 +257,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: WS76YAUs1hg
+  slug: topaz-ruby
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -260,6 +270,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: arsK-CN5YDg
+  slug: the-not-so-big-software-design
   language:
   description: ""
 - title: Lightning Talks (Day 3)
@@ -269,6 +280,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: 6CZjK97dMTE
+  slug: lightning-talks-day-3-wroclove-rb-2013
   language:
   description: ""
   talks:
@@ -380,6 +392,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: _Js-GEqB-8I
+  slug: ports-and-adapters-architecture
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -398,6 +411,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: A9rwSDMp-ls
+  slug: services-and-rails-the-shit-they-don-t-tell-you
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -416,6 +430,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: mEXRqti0Ikw
+  slug: security-secrets-and-shenanigans
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -433,6 +448,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: cqYKd6jPXKM
+  slug: panel-security
   language:
   description: |-
     Bryan Helmkamp, Piotr Niełacny, Richard Schneeman and Arne Brasseur
@@ -445,6 +461,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: 0Q42jqP5qnE
+  slug: things-you-can-t-do-in-ruby
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -459,6 +476,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: 6WQ_1vcgS9c
+  slug: oo-design-and-the-history-of-philosophy
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -479,6 +497,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: IqajIYxbPOI
+  slug: refactoring-fat-models-with-patterns
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!
@@ -497,6 +516,7 @@
   published_at: "2013-04-10"
   video_provider: youtube
   video_id: P6_illGY_00
+  slug: embrace-the-static-cherish-the-functional-remain-a-rubyist
   language:
   description: |-
     This video was recorded on http://wrocloverb.com. You should follow us at https://twitter.com/wrocloverb. See you next year!

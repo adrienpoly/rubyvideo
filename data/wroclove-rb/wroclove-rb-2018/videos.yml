@@ -13,6 +13,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: UIC0sM-VQj8
+  slug: better-webperformance-with-rails
   language: English
   description: ""
 - title: Cables! Cables! Cables!
@@ -23,6 +24,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: AUxFFOehiy0
+  slug: cables-cables-cables
   language: English
   description: ""
   slides_url: https://speakerdeck.com/palkan/wroc-love-dot-rb-2018-cables-cables-cables
@@ -37,6 +39,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: KtD32fO_owU
+  slug: counterintuitive-rails-pt-1
   language: English
   description: ""
 #
@@ -52,6 +55,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: Tx2WsK0qD7k
+  slug: panel-enterprise-rails
   language: English
   description: ""
 - title: "Super Ain't Super: From OOP To FP and Beyond!"
@@ -62,6 +66,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: JRpNIm1-KgA
+  slug: super-ain-t-super-from-oop-to-fp-and-beyond
   language: English
   description: ""
 #
@@ -75,6 +80,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: vh1QTk34350
+  slug: event-sourcing-anti-patterns-and-failures
   language: English
   description: ""
 - title: Applying CQRS & Event Sourcing on Rails applications
@@ -85,6 +91,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: cdwX1ZU623E
+  slug: applying-cqrs-event-sourcing-on-rails-applications
   language: English
   description: ""
 #
@@ -98,6 +105,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: Jy6eS9QHJOM
+  slug: understanding-coupling
   language: English
   description: ""
 #
@@ -111,6 +119,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: smqXOZRHG_Q
+  slug: beyond-the-current-state-time-travel-to-the-rescue
   language: English
   description: ""
 - title: Counterintuitive Rails Pt. 2
@@ -121,6 +130,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: kW2E2wK7_Fw
+  slug: counterintuitive-rails-pt-2
   language: English
   description: ""
 - title: "Panel: Modern JS"
@@ -134,6 +144,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: vL0Mb1XY_UI
+  slug: panel-modern-js
   language: English
   description: ""
 - title: Toolbelt of a Seasoned Bug Hunter
@@ -144,6 +155,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: 11Z4Fx8dXhc
+  slug: toolbelt-of-a-seasoned-bug-hunter
   language: English
   description: ""
 - title: MVCC for Ruby developers
@@ -154,6 +166,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: hMLekHYXvJo
+  slug: mvcc-for-ruby-developers
   language: English
   description: ""
 - title: The Pillars of Domain Driven Design
@@ -164,6 +177,7 @@
   date: "2018-04-16"
   video_provider: youtube
   video_id: FmJ6YMW92wA
+  slug: the-pillars-of-domain-driven-design
   language: English
   description: ""
 #
@@ -175,6 +189,7 @@
   date: "2018-04-17"
   video_provider: youtube
   video_id: tWu4gO187G0
+  slug: lightning-talks-day-2-wroclove-rb-2018
   language: English
   description: ""
   talks:
@@ -250,6 +265,7 @@
   description: ""
   video_provider: youtube
   video_id: fp95RYuxIXQ
+  slug: lightning-talks-day-3-wroclove-rb-2018
   language: English
   talks:
     - title: "Lightning Talk: Ethereum"

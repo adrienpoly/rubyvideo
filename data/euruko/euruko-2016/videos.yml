@@ -12,6 +12,7 @@
   description: ""
   video_provider: youtube
   video_id: 8aHmArEq4y0
+  slug: opening-keynote-ruby-3-today
 - title: Little Snippets
   raw_title: EuRuKo 2016 - Little Snippets by Xavier Noria
   speakers:
@@ -21,6 +22,7 @@
   description: ""
   video_provider: youtube
   video_id: mC9TyVeER_8
+  slug: little-snippets-euruko-2016
 - title: Rules, Laws, and Gentle Guidelines
   raw_title: EuRuKo 2016 - Rules, Laws, and Gentle Guidelines by Andrew Radev
   speakers:
@@ -30,6 +32,7 @@
   description: ""
   video_provider: youtube
   video_id: BDXQ4pcbEBA
+  slug: rules-laws-and-gentle-guidelines
 #
 # Lunch
 #
@@ -42,6 +45,7 @@
   description: ""
   video_provider: youtube
   video_id: yl3JmF3n2bQ
+  slug: simplifying-logs-events-and-streams-kafka-rails
 - title: GraphQL on Rails
   raw_title: EuRuKo 2016 - GraphQL on Rails by Marc-André Giroux
   speakers:
@@ -51,6 +55,7 @@
   description: ""
   video_provider: youtube
   video_id: _V96jduEvjY
+  slug: graphql-on-rails
 - title: Herding Cats to a Firefight
   raw_title: EuRuKo 2016 - Herding Cats to a Firefight by Grace Chang
   speakers:
@@ -60,6 +65,7 @@
   description: ""
   video_provider: youtube
   video_id: u_7wrPXaSto
+  slug: herding-cats-to-a-firefight
 #
 # Coffee Break
 #
@@ -72,6 +78,7 @@
   description: ""
   video_provider: youtube
   video_id: rbM_1wRVfeI
+  slug: how-sprockets-works-euruko-2016
 - title: "Lightning Talks: Day 1"
   raw_title: EuRuKo 2016 - Day 1 Lightning Talks
   event_name: EuRuKo 2016
@@ -88,6 +95,7 @@
     * "Whirly - The Friendly Terminal Spinner" by Jan Lelis (35:25)
   video_provider: youtube
   video_id: UehkClMTJDw
+  slug: lightning-talks-day-1-euruko-2016
   talks:
     - title: "Making a Multiplayer Memory Game with Elixir and Elm"
       start_cue: "0:29"
@@ -152,6 +160,7 @@
   description: ""
   video_provider: youtube
   video_id: xhwnHovnq_0
+  slug: idioms-for-building-distributed-fault-tolerant-applications-with-elixir
 - title: How to Begin to Develop Ruby Core
   raw_title: EuRuKo 2016 - How to Begin to Develop Ruby Core by Hiroshi Shibata
   speakers:
@@ -161,6 +170,7 @@
   description: ""
   video_provider: youtube
   video_id: IRfsakcZJKw
+  slug: how-to-begin-to-develop-ruby-core
 - title: Consequences of an Insightful Algorithm
   raw_title: EuRuKo 2016 - Consequences of an Insightful Algorithm by Carina C. Zona
   speakers:
@@ -170,6 +180,7 @@
   description: ""
   video_provider: youtube
   video_id: bp4yFKw_1QM
+  slug: consequences-of-an-insightful-algorithm
 #
 # Lunch
 #
@@ -182,6 +193,7 @@
   description: ""
   video_provider: youtube
   video_id: 3L6I4UoK8xM
+  slug: viewing-ruby-blossom
 - title: What I Have Learned From Organizing Remote Internship
   raw_title: EuRuKo 2016 - What I Have Learned From Organizing Remote Internship by Ivan Nemytchenko
   speakers:
@@ -191,6 +203,7 @@
   description: ""
   video_provider: youtube
   video_id: H-K0ZKOclBU
+  slug: what-i-have-learned-from-organizing-remote-internship
 - title: A Year of Ruby, Together
   raw_title: EuRuKo 2016 - A Year of Ruby, Together by André Arko
   speakers:
@@ -200,6 +213,7 @@
   description: ""
   video_provider: youtube
   video_id: SJddsEfvcW8
+  slug: a-year-of-ruby-together
 #
 # Coffee Break
 #
@@ -211,6 +225,7 @@
     Lightning talks from Day 2 of EuRuKo
   video_provider: youtube
   video_id: WnlgKWCt8wQ
+  slug: lightning-talks-day-2-euruko-2016
   talks:
     - title: "The HTT(Pancake) Request - Keeping Your Clients Happy, Not Hangry"
       start_cue: "00:57"
@@ -270,3 +285,4 @@
   description: ""
   video_provider: youtube
   video_id: mvHwTtsIH8g
+  slug: the-illusion-of-stable-apis
