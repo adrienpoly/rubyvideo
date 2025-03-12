@@ -137,7 +137,7 @@ accessories:
     cmd: replicate
     env:
       secret:
-        <% %w[BUCKET ENDPOINT ACCESS_KEY_ID SECRET_ACCESS_KEY].each do |secret| %>
+        <% %w[ENDPOINT ACCESS_KEY_ID SECRET_ACCESS_KEY].each do |secret| %>
         <% ENV["LITESTREAM_#{secret}"] = Rails.application.credentials.litestream.fetch(secret.downcase.to_sym) %>
         - LITESTREAM_<%= secret %>
         <% end %>

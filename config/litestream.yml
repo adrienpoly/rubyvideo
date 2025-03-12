@@ -11,6 +11,15 @@
 # For more details, see: https://litestream.io/reference/config/
 dbs:
   # production
+  - path: /rails/storage/production_rubyvideo.sqlite3
+    replicas:
+      - type: s3
+        endpoint: $LITESTREAM_ENDPOINT
+        bucket: rubyvideo-production
+        path: storage/production_rubyvideo.sqlite3
+        access-key-id: $LITESTREAM_ACCESS_KEY_ID
+        secret-access-key: $LITESTREAM_SECRET_ACCESS_KEY
+
   # - path: storage/production_rubyvideo.sqlite3
   #   replicas:
   #     - type: s3
@@ -33,11 +42,11 @@ dbs:
   #       access-key-id: $LITESTREAM_ACCESS_KEY_ID
   #       secret-access-key: $LITESTREAM_SECRET_ACCESS_KEY
   # staging
-  - path: storage/staging_rubyvideo.sqlite3
+  - path: /rails/storage/staging_rubyvideo.sqlite3
     replicas:
       - type: s3
         endpoint: $LITESTREAM_ENDPOINT
-        bucket: $LITESTREAM_BUCKET
+        bucket: rubyvideo-staging
         path: storage/staging_rubyvideo.sqlite3
         access-key-id: $LITESTREAM_ACCESS_KEY_ID
         secret-access-key: $LITESTREAM_SECRET_ACCESS_KEY
