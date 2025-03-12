@@ -1,6 +1,3 @@
-<% ENV["RAILS_ENV"] = "production" %>
-<% require_relative "config/application" %>
-
 # Name of your application. Used to uniquely configure containers.
 service: rubyvideo
 
@@ -93,7 +90,6 @@ accessories:
     cmd: replicate
     env:
       secret:
-        <% %w[ENDPOINT ACCESS_KEY_ID SECRET_ACCESS_KEY].each do |secret| %>
-        <% ENV["LITESTREAM_#{secret}"] = Rails.application.credentials.litestream.fetch(secret.downcase.to_sym) %>
-        - LITESTREAM_<%= secret %>
-        <% end %>
+        - LITESTREAM_ENDPOINT
+        - LITESTREAM_ACCESS_KEY_ID
+        - LITESTREAM_SECRET_ACCESS_KEY
