@@ -23,7 +23,7 @@ class ActiveSupport::TestCase
     # end
 
     Talk.reindex_all
-    Speaker.rebuild_search_index
+    Speaker.reindex_all
     Speaker.reset_talks_counts
   end
   # Run tests in parallel with specified workers
