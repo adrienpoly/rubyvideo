@@ -212,7 +212,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "full text search creating and deleting a talk" do
-    talk = Talk.create!(title: "Full text seach with Sqlite", summary: "On using sqlite full text search with an ActiveRecord backed virtual table")
+    talk = Talk.create!(title: "Full text seach with Sqlite", summary: "On using sqlite full text search with an ActiveRecord backed virtual table", date: Time.current)
     talk.speakers.create!(name: "Kasper Timm Hansen")
 
     assert_equal [talk], Talk.ft_search("sqlite full text search") # title
