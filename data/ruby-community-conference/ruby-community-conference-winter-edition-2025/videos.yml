@@ -70,7 +70,7 @@
     The workshop includes short theoretical introductions, practical examples, and tasks. We will progressively enhance the application with Hotwire.
 
     This workshop is ideal for those familiar with Hotwire but haven't built a serious app yet. If you're new to Hotwire, don't worry; we'll explain the theory before each task and inspire you to use Hotwire's benefits whenever possible!
-  video_provider: scheduled
+  video_provider: not_recorded
   video_id: workshop-building-live-kanban-board-ruby-community–conference-winter–edition-2025
 
 - title: "Workshop: Deploy with Kamal 2"
@@ -88,7 +88,7 @@
     Whether you’re new to containerized deployments or an experienced developer looking to streamline your workflow, this workshop will equip you with the essential skills to deploy and manage your web apps with confidence. On each step we will guide you trough the process and explain the Kamal’s inner-workings.
 
     You’ll leave with a deeper understanding of Kamal and the ability to handle deployment challenges effectively! 💪
-  video_provider: scheduled
+  video_provider: not_recorded
   video_id: workshop-deploy-with-kamal-2-ruby-community–conference-winter–edition-2025
 
 - title: "Workshop: Taming The Beast: TDD, Service Objects, and dry.rb for Complex Business Logic"
@@ -98,7 +98,7 @@
   event_name: Ruby Community Conference Winter Edition 2025
   date: "2025-02-28"
   description: ""
-  video_provider: scheduled
+  video_provider: not_recorded
   video_id: workshop-taming-the-beast-ruby-community–conference-winter–edition-2025
 
 - title: "Workshop: Fix Bugs 20x Faster: From Zero To Incident Superhero"
@@ -108,7 +108,7 @@
   event_name: Ruby Community Conference Winter Edition 2025
   date: "2025-02-28"
   description: ""
-  video_provider: scheduled
+  video_provider: not_recorded
   video_id: workshop-fix-bugs-20x-faster-ruby-community–conference-winter–edition-2025
 
 - title: "Workshop: Image Vector Search"
@@ -118,7 +118,7 @@
   event_name: Ruby Community Conference Winter Edition 2025
   date: "2025-02-28"
   description: ""
-  video_provider: scheduled
+  video_provider: not_recorded
   video_id: workshop-image-vector-search-ruby-community–conference-winter–edition-2025
 
 - title: "Workshop: Updating to Modern Gem Development in 2025"
@@ -129,7 +129,7 @@
   date: "2025-02-28"
   description: |-
     Let's take the default bundle gem scaffold and transform it into the ideal development setup for 2025, including automated testing on CI, automated pushes to rubygems.org, and type checking right in your editor.
-  video_provider: scheduled
+  video_provider: not_recorded
   video_id: workshop-updating-to-modern-gem-development-in-2025-ruby-community–conference-winter–edition-2025
 
 - title: "Workshop: PostgreSQL Performance for Ruby Developers: Deep Dive into Database Performance & TimescaleDB"
@@ -141,5 +141,5 @@
   announced_at: "2025-01-30 10:58:00 UTC"
   description: |-
     Join our hands-on workshop to explore PostgreSQL internals, query optimization, and time-series data with TimescaleDB. Learn how to debug queries with EXPLAIN ANALYZE, optimize transactions for high-concurrency apps, and fine-tune database performance. A must-attend for Ruby developers working with PostgreSQL!
-  video_provider: scheduled
+  video_provider: not_recorded
   video_id: workshop-postgresql-performance-for-ruby-developers-ruby-community–conference-winter–edition-2025
