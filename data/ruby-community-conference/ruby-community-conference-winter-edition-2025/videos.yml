@@ -1,48 +1,59 @@
-- title: Solid Queue Internals, Externals and all the things in between
-  raw_title: Solid Queue internals, externals and all the things in between
+- title: Solid Queue Internals, Externals and All the Things in Between
+  raw_title: "[EN] Solid Queue Internals, Externals and All the Things in Between - Rosa Gutierrez"
   speakers:
     - Rosa Gutiérrez
   event_name: Ruby Community Conference Winter Edition 2025
   date: "2025-02-28"
+  published_at: "2025-03-17"
+  announced_at: "2024-11-20"
   description: |-
     After years of tackling background job complexities with Resque and Redis at 37signals, the team finally decided to build an out-of-the-box solution. Enter #SolidQueue, a default now in Rails 8.
 
     Rosa Gutiérrez presents Solid Queue, shares the journey and the challenges they faced to get it live.
-  video_provider: scheduled
-  video_id: rosa-gutierrez-ruby-community–conference-winter–edition-2025
+  video_provider: youtube
+  video_id: AMoM0uIR3uU
+  id: rosa-gutierrez-ruby-community–conference-winter–edition-2025
 
-- title: "Talk by Aaron Patterson"
-  raw_title: "Talk by Aaron Patterson"
+- title: "Speeding Up Class#new"
+  raw_title: "[EN] Speeding Up Class#new - Aaron Patterson"
   speakers:
     - Aaron Patterson
   event_name: Ruby Community Conference Winter Edition 2025
   date: "2025-02-28"
+  published_at: "2025-03-17"
+  announced_at: "2024-11-26"
   description: "Talk by Aaron Patterson"
-  video_provider: scheduled
-  video_id: aaron-patterson-ruby-community–conference-winter–edition-2025
+  id: aaron-patterson-ruby-community–conference-winter–edition-2025
+  video_provider: youtube
+  video_id: H7jOJfA7MHk
 
 - title: "The Joy of Creativity in the Age of AI"
-  raw_title: "The Joy of Creativity in the Age of AI"
+  raw_title: "[EN] The Joy of Creativity in the Age of AI - Paweł Strzałkowski"
   speakers:
     - Paweł Strzałkowski
   event_name: Ruby Community Conference Winter Edition 2025
   date: "2025-02-28"
+  published_at: "2025-03-17"
+  announced_at: "2024-12-23"
   description: |-
     We'll explore how Ruby can unlock new avenues of creativity in the age of AI and cross-technology innovation. By leveraging Ruby's simplicity and adaptability, we can seamlessly integrate cutting-edge solutions like speech recognition and generation, or image analysis and creation. We can also incorporate advanced techniques like vector search into our projects with minimal effort. Let's rediscover the joy of building beyond traditional boundaries and position the Ruby community at the forefront of technological invention and creativity.
-  video_provider: scheduled
-  video_id: the-joy-of-creativity-in-the-age-of-ai-ruby-community–conference-winter–edition-2025
+  id: the-joy-of-creativity-in-the-age-of-ai-ruby-community–conference-winter–edition-2025
+  video_provider: youtube
+  video_id: SFLHBYLgJdI
 
 - title: "From Legacy to Latest: How Zendesk Upgraded a Monolith to Rails 8.0 Overnight"
-  raw_title: "From Legacy to Latest: How Zendesk Upgraded a Monolith to Rails 8.0 Overnight"
+  raw_title: "[EN] From Legacy to Latest: How Zendesk Upgraded a Monolith to Rails 8.0 Overnight - Thomas Countz"
   speakers:
     - Thomas Countz
   event_name: Ruby Community Conference Winter Edition 2025
   date: "2025-02-28"
+  published_at: "2025-03-17"
   announced_at: "2025-01-28 10:59:00 UTC"
   description: |-
     Thomas is part of Zendesk's Ruby Platform Core team, focusing on infrastructure support for Ruby and Rails across the organization. In his free time, he enjoys working on hardware projects, playing board games, and hiking in the forest with his husband. His career is guided by three core principles: to create, to learn, and to share.
-  video_provider: scheduled
-  video_id: from-legacy-to-latest-ruby-community–conference-winter–edition-2025
+  id: from-legacy-to-latest-ruby-community–conference-winter–edition-2025
+  video_provider: youtube
+  video_id: kgVgcNtN5mc
 
 - title: "Workshop: Building a Live Kanban Board Application With Hotwire and Rails"
   raw_title: "Building a Live Kanban Board Application With Hotwire and Rails"
