@@ -1,3 +1,16 @@
+- title: "Speeding Up Class#new"
+  raw_title: "[EN] Speeding Up Class#new - Aaron Patterson"
+  speakers:
+    - Aaron Patterson
+  event_name: Ruby Community Conference Winter Edition 2025
+  date: "2025-02-28"
+  published_at: "2025-03-17"
+  announced_at: "2024-11-26"
+  id: aaron-patterson-ruby-community–conference-winter–edition-2025
+  video_provider: youtube
+  video_id: H7jOJfA7MHk
+  description: "Many Ruby developers like to initialize new objects, so let's take a dive into Ruby object initialization! What makes initializing an object slow? Can we use Ruby to speed it up? In this talk, we will examine the internals of the `Class#new` method, explore the trade-offs between Ruby and C method calls, and experiment with a Ruby implementation of `Class#new`. Additionally, we will discuss strategies for speeding up Ruby method calls, such as inline caches, while also considering the drawbacks of moving from C to Ruby."
+
 - title: Solid Queue Internals, Externals and All the Things in Between
   raw_title: "[EN] Solid Queue Internals, Externals and All the Things in Between - Rosa Gutierrez"
   speakers:
@@ -13,19 +26,6 @@
   video_provider: youtube
   video_id: AMoM0uIR3uU
   id: rosa-gutierrez-ruby-community–conference-winter–edition-2025
-
-- title: "Speeding Up Class#new"
-  raw_title: "[EN] Speeding Up Class#new - Aaron Patterson"
-  speakers:
-    - Aaron Patterson
-  event_name: Ruby Community Conference Winter Edition 2025
-  date: "2025-02-28"
-  published_at: "2025-03-17"
-  announced_at: "2024-11-26"
-  id: aaron-patterson-ruby-community–conference-winter–edition-2025
-  video_provider: youtube
-  video_id: H7jOJfA7MHk
-  description: "Many Ruby developers like to initialize new objects, so let's take a dive into Ruby object initialization! What makes initializing an object slow? Can we use Ruby to speed it up? In this talk, we will examine the internals of the `Class#new` method, explore the trade-offs between Ruby and C method calls, and experiment with a Ruby implementation of `Class#new`. Additionally, we will discuss strategies for speeding up Ruby method calls, such as inline caches, while also considering the drawbacks of moving from C to Ruby."
 
 - title: "The Joy of Creativity in the Age of AI"
   raw_title: "[EN] The Joy of Creativity in the Age of AI - Paweł Strzałkowski"
