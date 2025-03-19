@@ -16,5 +16,5 @@ echo "Checking erb file formatting..."
 bundle exec erb_lint --lint-all --autocorrect
 
 # Check YAML file formatting
-echo "Checking YAML file formatting in data/ ..."
-yarn format:yml
+echo "Normalizing YAML files..."
+bundle exec rails yml:normalize
