@@ -217,4 +217,27 @@ class YmlFormatterTest < ActiveSupport::TestCase
     result = YmlFormatter.normalize_commented_yaml_file(input)
     assert_equal expected, result
   end
+
+  test "normalize it formats correctly the description field and preserves the emojis" do
+    input = <<~YAML
+      ---
+      - title: Some Title
+        description: |-
+          line 1 🚀
+    YAML
+
+    expected = <<~YAML
+      ---
+      - title: Some Title
+        description: |-
+          line 1 🚀
+    YAML
+
+    # this is to test the output of the Psych.safe_load and it also changes the output when there is an emoji
+    parsed_yaml = Psych.safe_load(input)
+    puts Psych.dump(parsed_yaml)
+
+    result = YmlFormatter.normalize_commented_yaml_file(input)
+    assert_equal expected, result
+  end
 end

@@ -42,7 +42,7 @@ module YmlFormatter
         if key_node.value == "description"
           value_node.plain = false
           value_node.quoted = true
-          value_node.style = 4 # multiline |- style output
+          value_node.style = Psych::Nodes::Scalar::LITERAL # Use literal style for block scalar
           value_node.value = value_node.value.gsub(" \n", "\n")
 
           # remove only trailing newlines at the end of the entire text
