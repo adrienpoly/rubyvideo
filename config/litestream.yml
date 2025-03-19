@@ -11,6 +11,16 @@
 # For more details, see: https://litestream.io/reference/config/
 dbs:
   # production
+  - path: /rails/storage/production_rubyvideo.sqlite3
+    replicas:
+      - type: s3
+        endpoint: $LITESTREAM_ENDPOINT
+        bucket: rubyvideo-production
+        path: storage/production_rubyvideo.sqlite3
+        access-key-id: $LITESTREAM_ACCESS_KEY_ID
+        secret-access-key: $LITESTREAM_SECRET_ACCESS_KEY
+        retention: 720h # 30 days
+
   # - path: storage/production_rubyvideo.sqlite3
   #   replicas:
   #     - type: s3
@@ -33,27 +43,12 @@ dbs:
   #       access-key-id: $LITESTREAM_ACCESS_KEY_ID
   #       secret-access-key: $LITESTREAM_SECRET_ACCESS_KEY
   # staging
-  - path: storage/staging_rubyvideo.sqlite3
+  - path: /rails/storage/staging_rubyvideo.sqlite3
     replicas:
       - type: s3
-        endpoint: $LITESTREAM_REPLICA_ENDPOINT
-        bucket: $LITESTREAM_REPLICA_BUCKET
+        endpoint: $LITESTREAM_ENDPOINT
+        bucket: rubyvideo-staging
         path: storage/staging_rubyvideo.sqlite3
-        access-key-id: $LITESTREAM_REPLICA_ACCESS_KEY_ID
-        secret-access-key: $LITESTREAM_REPLICA_SECRET_ACCESS_KEY
-  - path: storage/staging_rubyvideo-cache.sqlite3
-    replicas:
-      - type: s3
-        endpoint: $LITESTREAM_REPLICA_ENDPOINT
-        bucket: $LITESTREAM_REPLICA_BUCKET
-        path: storage/staging_rubyvideo-cache.sqlite3
-        access-key-id: $LITESTREAM_REPLICA_ACCESS_KEY_ID
-        secret-access-key: $LITESTREAM_REPLICA_SECRET_ACCESS_KEY
-  - path: storage/staging_rubyvideo-queue.sqlite3
-    replicas:
-      - type: s3
-        endpoint: $LITESTREAM_REPLICA_ENDPOINT
-        bucket: $LITESTREAM_REPLICA_BUCKET
-        path: storage/staging_rubyvideo-queue.sqlite3
-        access-key-id: $LITESTREAM_REPLICA_ACCESS_KEY_ID
-        secret-access-key: $LITESTREAM_REPLICA_SECRET_ACCESS_KEY
+        access-key-id: $LITESTREAM_ACCESS_KEY_ID
+        secret-access-key: $LITESTREAM_SECRET_ACCESS_KEY
+        retention: 720h # 30 days
