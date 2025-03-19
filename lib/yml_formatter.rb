@@ -16,7 +16,7 @@ module YmlFormatter
         talk.leading_comments = talk.leading_comments.push("#") unless talk.leading_comments.last.strip == "#"
       end
     end
-    Psych::Comments.emit_yaml(ast)
+    unescape_unicode(Psych::Comments.emit_yaml(ast))
   end
 
   def normalize_commented_yaml_file(yaml_content)
@@ -55,6 +55,10 @@ module YmlFormatter
         end
       end
     end
-    Psych::Comments.emit_yaml(ast)
+    unescape_unicode(Psych::Comments.emit_yaml(ast))
+  end
+
+  def unescape_unicode(str)
+    str.gsub(/\\U([\dA-F]{8})/) { [$1.hex].pack("U") }
   end
 end

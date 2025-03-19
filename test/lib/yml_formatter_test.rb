@@ -221,6 +221,7 @@ class YmlFormatterTest < ActiveSupport::TestCase
   test "normalize it formats correctly the description field and preserves the emojis" do
     input = <<~YAML
       ---
+      - test: hello 🚀
       - title: Some Title
         description: |-
           line 1 🚀
@@ -228,6 +229,7 @@ class YmlFormatterTest < ActiveSupport::TestCase
 
     expected = <<~YAML
       ---
+      - test: hello 🚀
       - title: Some Title
         description: |-
           line 1 🚀
