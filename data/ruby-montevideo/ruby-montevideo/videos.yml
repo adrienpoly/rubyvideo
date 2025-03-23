@@ -238,3 +238,48 @@
       video_id: "m6_4kxiSyaM"
       video_provider: "youtube"
       description: ""
+
+- title: "Ruby Montevideo Meetup March 2025"
+  event_name: "Ruby Montevideo Meetup March 2025"
+  date: "2024-03-25"
+  announced_at: "2025-03-10T21:33:34.000Z"
+  published_at: "TODO"
+  video_provider: "children"
+  video_id: "ruby-montevideo-meetup-march-2025"
+  description: ""
+  talks:
+    - title: "Pursuing the Fix: A Rails Bug Story"
+      event_name: "Ruby Montevideo Meetup March 2025"
+      date: "2025-03-25"
+      announced_at: "2025-03-10T21:33:34.000Z"
+      published_at: "TODO"
+      speakers:
+        - Nicolás Buero
+      id: "nicolas-buero-ruby-montevideo-meetup-march-2025"
+      video_id: "nicolas-buero-ruby-montevideo-meetup-march-2025"
+      video_provider: "scheduled"
+      description: ""
+
+    - title: "Building Beautiful UIs with Ruby: A Rails-native Approach"
+      event_name: "Ruby Montevideo Meetup March 2025"
+      date: "2025-03-25"
+      announced_at: "2025-03-10T21:33:34.000Z"
+      published_at: "TODO"
+      speakers:
+        - Seth Horsley
+      id: "seth-horsley-ruby-montevideo-meetup-march-2025"
+      video_id: "seth-horsley-ruby-montevideo-meetup-march-2025"
+      video_provider: "scheduled"
+      description: ""
+
+    - title: "Scaling RubyVideo.dev: The mission to index all Ruby conferences"
+      event_name: "Ruby Montevideo Meetup March 2025"
+      date: "2025-03-25"
+      announced_at: "2025-03-10T21:33:34.000Z"
+      published_at: "TODO"
+      speakers:
+        - Marco Roth
+      id: "marco-roth-ruby-montevideo-meetup-march-2025"
+      video_id: "marco-roth-ruby-montevideo-meetup-march-2025"
+      video_provider: "scheduled"
+      description: ""
