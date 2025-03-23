@@ -1,0 +1,24 @@
+---
+- id: PLtDsh6Hvvmkm6GWqpo9slt6gp__dbGJYa
+  title: Ruby Montevideo Meetup
+  location: Montevideo, Uruguay
+  description: ""
+  published_at: "2024-03-06"
+  start_date: "2024-03-06"
+  end_date: "2025-03-25"
+  channel_id: ""
+  year: 2024
+  videos_count: 16
+  metadata_parser: Youtube::VideoMetadata
+  slug: ruby-montevideo
+  featured_background: "#3967D1"
+  featured_color: "#FCC24E"
+  banner_background: |-
+    linear-gradient(
+      to bottom,
+      #2E2E2E 1%,
+      #F6EEEC 1%, #F6EEEC 19%,
+      #2E2E2E 19%, #2E2E2E 20%,
+      #3967D1 20%
+    )
+  website: https://ruby.uy
