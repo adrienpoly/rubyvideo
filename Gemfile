@@ -110,7 +110,6 @@ gem "pagy"
 gem "dockerfile-rails", ">= 1.2", group: :development
 
 # gem "activerecord-enhancedsqlite3-adapter"
-gem "litestream"
 gem "solid_cache"
 gem "solid_queue"
 gem "mission_control-jobs"
