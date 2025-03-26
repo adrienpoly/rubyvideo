@@ -238,4 +238,63 @@ class YmlFormatterTest < ActiveSupport::TestCase
     result = YmlFormatter.normalize_commented_yaml_file(input)
     assert_equal expected, result
   end
+
+  test "normalize special characters real world example" do
+    input = <<~YAML
+      ---
+      - title: "lots of emojis"
+        description: |-
+          Join us for the next September PLRUG Ruby Warsaw Meetup!
+
+          📆 19.09.2024
+          ⏰ 18:00
+          📍 Odolańska 56, Visuality office
+
+          This time, the presentation topics will be very diverse. What's on the agenda?
+
+          🎤 Barnaba Siegel - 28 lat CD-Action. Jak oldschoolowe medium radzi sobie wobec technologicznego postępu?
+          🎤 Tomasz Stachewicz - Self-hosting and Homelab in 2024
+          🎤 Urszula Sołogub - AI-assisted data extraction
+
+          Be sure to come and join our community! We especially encourage those who have been quietly following us to join us.
+
+          After the official part, as always, we encourage you to stay and get to know each other better.
+
+          Language: One of the presentations will be in Polish.🇵🇱
+
+          https://www.meetup.com/polishrubyusergroup/events/303197441
+    YAML
+
+    expected = <<~YAML
+      ---
+      - title: "lots of emojis"
+        description: |-
+          Join us for the next September PLRUG Ruby Warsaw Meetup!
+
+          📆 19.09.2024
+          ⏰ 18:00
+          📍 Odolańska 56, Visuality office
+
+          This time, the presentation topics will be very diverse. What's on the agenda?
+
+          🎤 Barnaba Siegel - 28 lat CD-Action. Jak oldschoolowe medium radzi sobie wobec technologicznego postępu?
+          🎤 Tomasz Stachewicz - Self-hosting and Homelab in 2024
+          🎤 Urszula Sołogub - AI-assisted data extraction
+
+          Be sure to come and join our community! We especially encourage those who have been quietly following us to join us.
+
+          After the official part, as always, we encourage you to stay and get to know each other better.
+
+          Language: One of the presentations will be in Polish.🇵🇱
+
+          https://www.meetup.com/polishrubyusergroup/events/303197441
+    YAML
+
+    result = YmlFormatter.normalize_commented_yaml_file(input)
+    assert_equal expected, result
+
+    # ensure it is idempotent
+    result = YmlFormatter.normalize_commented_yaml_file(result)
+    assert_equal expected, result
+  end
 end

@@ -74,23 +74,34 @@ module YmlFormatter
     end.join
   end
 
+  # def emoji?(char)
+  #   emoji_ranges = [
+  #     "\u{1F600}".."\u{1F64F}", # Emoticons
+  #     "\u{1F300}".."\u{1F5FF}", # Misc Symbols and Pictographs
+  #     "\u{1F680}".."\u{1F6FF}", # Transport and Map
+  #     "\u{2600}".."\u{26FF}",   # Misc symbols
+  #     "\u{2700}".."\u{27BF}",   # Dingbats
+  #     "\u{1F900}".."\u{1F9FF}", # Supplemental Symbols and Pictographs
+  #     "\u{1FA70}".."\u{1FAFF}", # Symbols and Pictographs Extended-A
+  #     "\u{1F1E6}".."\u{1F1FF}"  # Flags
+  #   ]
+
+  #   emoji_ranges.any? { |range| range.include?(char) }
+  # end
   def emoji?(char)
-    code = char.ord
+    emoji_ranges = [
+      "\u{1F600}-\u{1F64F}", # Emoticons
+      "\u{1F300}-\u{1F5FF}", # Misc Symbols and Pictographs
+      "\u{1F680}-\u{1F6FF}", # Transport and Map
+      "\u{2600}-\u{26FF}",   # Misc symbols
+      "\u{2700}-\u{27BF}",   # Dingbats
+      "\u{1F900}-\u{1F9FF}", # Supplemental Symbols and Pictographs
+      "\u{1FA70}-\u{1FAFF}", # Symbols and Pictographs Extended-A
+      "\u{1F1E6}-\u{1F1FF}"  # Flags
+    ]
 
-    # Emoji ranges based on Unicode 14.0
-    # Basic emoji
-    return true if code >= 0x1F600 && code <= 0x1F64F  # Emoticons
-    return true if code >= 0x1F300 && code <= 0x1F5FF  # Misc Symbols and Pictographs
-    return true if code >= 0x1F680 && code <= 0x1F6FF  # Transport and Map
-    return true if code >= 0x2600 && code <= 0x26FF    # Misc symbols
-    return true if code >= 0x2700 && code <= 0x27BF    # Dingbats
-    return true if code >= 0x1F900 && code <= 0x1F9FF  # Supplemental Symbols and Pictographs
-    return true if code >= 0x1FA70 && code <= 0x1FAFF  # Symbols and Pictographs Extended-A
+    emoji_regex = Regexp.new("[#{emoji_ranges.join}]")
 
-    # Some other common emoji-related ranges
-    return true if code == 0x200D  # Zero Width Joiner (for composite emoji)
-    return true if code == 0xFE0F  # Variation Selector-16 (for emoji presentation)
-
-    false
+    char.match?(emoji_regex)
   end
 end
