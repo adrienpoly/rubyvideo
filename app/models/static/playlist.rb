@@ -92,7 +92,15 @@ module Static
         return event_record.end_date
       end
 
-      end_date
+      if conference? && start_date.present?
+        return start_date
+      end
+
+      if meetup? && event_record.present?
+        return event_record.start_date
+      end
+
+      Time.at(0)
     end
 
     def home_updated_text
