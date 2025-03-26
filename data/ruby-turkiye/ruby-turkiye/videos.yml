@@ -1,4 +1,5 @@
 ---
+#
 # TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/234939947
 # TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/242193200
 # TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/243270751
@@ -24,7 +25,7 @@
 # TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-11-91b58b5e
 # TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-12-e20a493f
 # TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/answers-to-common-ruby-on-rails-testing-questions-b2643150
-
+#
 - title: Optimizing Resource Utilization for Ruby processes
   raw_title: Optimizing Resource Utilization for Ruby processes - Murat Toygar
   speakers:
@@ -33,20 +34,13 @@
   date: "2022-06-29"
   published_at: "TODO"
   language: turkish
-  description:
-    Ruby ile geliştirdiğiniz projeyi yayına aldınız ama RAM kullanımınız
-    gittikçe artıyor mu? CPU yetmemeye mi başladı? Belki hata sizde değil, ondadır(configler).
-    Bunun gibi bazı problemlerimizi ikinci makineyi açmadan, sunucuyu yeniden başlatmadan
-    çözebiliriz. Nasıl mı, cevabı bu sunumda. :)
-
+  description: |-
+    Ruby ile geliştirdiğiniz projeyi yayına aldınız ama RAM kullanımınız gittikçe artıyor mu? CPU yetmemeye mi başladı? Belki hata sizde değil, ondadır(configler). Bunun gibi bazı problemlerimizi ikinci makineyi açmadan, sunucuyu yeniden başlatmadan çözebiliriz. Nasıl mı, cevabı bu sunumda. :)
   video_provider: youtube
   video_id: PyBeX6pF45I
-
 - title: Journey of building an analytics feature in a SaaS app
   original_title: Bir SaaS uygulamasında veri analizi altyapısı oluşturma yolculuğu
-  raw_title:
-    Bir SaaS uygulamasında veri analizi altyapısı oluşturma yolculuğu - Demirhan
-    Aydin
+  raw_title: Bir SaaS uygulamasında veri analizi altyapısı oluşturma yolculuğu - Demirhan Aydin
   speakers:
     - Demirhan Aydin
   event_name: Ruby Türkiye Meetup August 2022
@@ -59,9 +53,9 @@
     Tamamen özgür bir ortamda Ruby ve bilgisayar bilimlerine dair konuları konuştuğumuz, yer yer gündemi değerlendirdiğimiz buluşmalarımıza sizi de bekleriz.
   video_provider: youtube
   video_id: jfqpEDW4uek
-
+#
 # TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/ruby-turkiye-istanbul-aksam-oturmasi-40105562
-
+#
 - title: "Heroku'dan Kubernetes'e geçtik, ama nasıl?"
   raw_title: Heroku'dan Kubernetes'e geçtik, ama nasıl? - Yaşar Celep
   speakers:
@@ -70,18 +64,14 @@
   date: "2023-06-21"
   published_at: "TODO"
   language: turkish
-  description:
-    "2013'ten beri Türkiye'deki binlerce küçük ve orta işletmenin kullandığı,
-    ön muhasebe programı Paraşüt'ün ana uygulaması dakikada yaklaşık 40 bin isteğe
-    cevap veriyor.\n\nParaşüt'ün bu isteklere cevap verebilmesi ve takımların ihtiyaçlarını
-    karşılamak için geliştirdiğimiz onlarca uygulamanın ihtiyaç duyduğu altyapının
-    sağlanması ve ayakta kalması gibi bir çok sorumluluğu Heroku üstleniyordu. Bu
-    yıla kadar. :) \n\nHeroku'dan bu yıl tamamen çıktık, ama nasıl çıktık. Kubernetes'e
-    taşıdık ve bitti gibi sihirli şeyler olmayan bu konuşmada; veritabanından takım
-    çalışmasına birçok noktayı, karşılaştığımız sorunları, ve nasıl çözdüğümüzü konuşacağız."
+  description: |-
+    2013'ten beri Türkiye'deki binlerce küçük ve orta işletmenin kullandığı, ön muhasebe programı Paraşüt'ün ana uygulaması dakikada yaklaşık 40 bin isteğe cevap veriyor.
+
+    Paraşüt'ün bu isteklere cevap verebilmesi ve takımların ihtiyaçlarını karşılamak için geliştirdiğimiz onlarca uygulamanın ihtiyaç duyduğu altyapının sağlanması ve ayakta kalması gibi bir çok sorumluluğu Heroku üstleniyordu. Bu yıla kadar. :)
+
+    Heroku'dan bu yıl tamamen çıktık, ama nasıl çıktık. Kubernetes'e taşıdık ve bitti gibi sihirli şeyler olmayan bu konuşmada; veritabanından takım çalışmasına birçok noktayı, karşılaştığımız sorunları, ve nasıl çözdüğümüzü konuşacağız.
   video_provider: youtube
   video_id: IqNXfB1jdlE
-
 - title: "Akşam Oturması - 2024#01"
   raw_title: Akşam Oturması 31.01.2024
   speakers:
@@ -91,18 +81,21 @@
   date: "2024-01-31"
   published_at: "TODO"
   language: turkish
-  description:
-    "Merhaba,\n\nBir Akşam Oturması online etkinliğinde daha bir araya
-    geliyoruz. Arayı açtık biraz biliyoruz. Bu yüzden, iki sunum ile karşınızdayız.\n\nKonuşmalar:\n\nTayfun
-    Öziş Erikan - Refactor from Turbo 7 to Turbo 8 in a Rails app with Hotwire: Hotwire
-    ile geliştirilen Rails uygulamasında Turbo 7'den Turbo 8'e geçiş (veya yeniden
-    düzenleme)\nEnder Ahmet Yurt - Feature Flags Development with Ruby on Rails: Bir
-    Rails uygulamasında Feature Flag geliştirme yöntemi kullanımı\n \nRuby yaz ya
-    da yazma önemli değil. Sen de yeni insanalarla tanışmak, Ruby'nin sihirli dünyasında
-    neler oluyormuş bi bakmak için bile bizlere katılabilirsin.\n\nSevgiler."
+  description: |-
+    Merhaba,
+
+    Bir Akşam Oturması online etkinliğinde daha bir araya geliyoruz. Arayı açtık biraz biliyoruz. Bu yüzden, iki sunum ile karşınızdayız.
+
+    Konuşmalar:
+
+    Tayfun Öziş Erikan - Refactor from Turbo 7 to Turbo 8 in a Rails app with Hotwire: Hotwire ile geliştirilen Rails uygulamasında Turbo 7'den Turbo 8'e geçiş (veya yeniden düzenleme)
+    Ender Ahmet Yurt - Feature Flags Development with Ruby on Rails: Bir Rails uygulamasında Feature Flag geliştirme yöntemi kullanımı
+
+    Ruby yaz ya da yazma önemli değil. Sen de yeni insanalarla tanışmak, Ruby'nin sihirli dünyasında neler oluyormuş bi bakmak için bile bizlere katılabilirsin.
+
+    Sevgiler.
   video_provider: youtube
   video_id: 4C-yJdvNi-U
-
 - title: "Akşam Oturması - 2024#02"
   raw_title: Akşam Oturması 29.02.2024
   speakers:
@@ -112,19 +105,19 @@
   date: "2024-02-29"
   published_at: "TODO"
   language: turkish
-  description:
-    "Merhaba,\n\nAkşam Oturması etkinliklerimize ara vermeden devam ediyoruz.
-    Bu buluşmamızda da, iki sunum ve sunumlar sonrasında tanışma, sohber etkinliklerimiz
-    ile devam edeceğiz. Sizleri de aramızda görmek ve tanışmak istiyoruz.\n\nKonuşmalar:\n\nBerkan
-    Ünal - Null object pattern: Ruby’de null object pattern kullanımının örnek bir
-    kod üzerinde refactoring yaparak gösterimi.\nOkan Davut - E2E Testing with Cypress:
-    Bu sunum ile Frontend uygulamalarında End to end nedir? Neden gereklidir ve Cypress
-    kullanarak End to End testlerinizi nasıl yazabilirsiniz bunlara değinilecektir.\n
-    \nRuby yaz ya da yazma önemli değil. Sen de yeni insanalarla tanışmak, Ruby'nin
-    sihirli dünyasında neler oluyormuş bi bakmak için bile bizlere katılabilirsin."
+  description: |-
+    Merhaba,
+
+    Akşam Oturması etkinliklerimize ara vermeden devam ediyoruz. Bu buluşmamızda da, iki sunum ve sunumlar sonrasında tanışma, sohber etkinliklerimiz ile devam edeceğiz. Sizleri de aramızda görmek ve tanışmak istiyoruz.
+
+    Konuşmalar:
+
+    Berkan Ünal - Null object pattern: Ruby’de null object pattern kullanımının örnek bir kod üzerinde refactoring yaparak gösterimi.
+    Okan Davut - E2E Testing with Cypress: Bu sunum ile Frontend uygulamalarında End to end nedir? Neden gereklidir ve Cypress kullanarak End to End testlerinizi nasıl yazabilirsiniz bunlara değinilecektir.
+
+    Ruby yaz ya da yazma önemli değil. Sen de yeni insanalarla tanışmak, Ruby'nin sihirli dünyasında neler oluyormuş bi bakmak için bile bizlere katılabilirsin.
   video_provider: youtube
   video_id: eaQ6GCYzxm8
-
 - title: "RSpec ile Test Doubles: Mock ve Stub Kavramlarına Giriş"
   raw_title: Akşam Oturması 28.03.2024
   speakers:
@@ -143,30 +136,23 @@
      Sevgiler ❤️
   video_provider: youtube
   video_id: u4TIBlzJJ0s
-
+#
 # TODO: missing meetup: https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-202404-eeae65c1
-
+#
 - title: "Gem walkthrough: active_record-associated_object & Oaken"
-  raw_title:
-    "Gem walk through: active_record-associated_object & Oaken - Kasper Timm
-    Hansen"
+  raw_title: "Gem walk through: active_record-associated_object & Oaken - Kasper Timm Hansen"
   speakers:
     - Kasper Timm Hansen
   event_name: Ruby Türkiye Meetup August 2024
   date: "2024-08-20"
   published_at: "TODO"
   language: english
-  description:
-    "Kasper Timm Hansen, is a seasoned Ruby developer and a core contributor
-    to the Ruby on Rails framework between 2016-2022. He has made significant contributions
-    to the Ruby community, particularly through his work on various gems that enhance
-    the functionality of Rails.\n\n \n\nIn this session, Kasper will walk us through
-    some of his popular gems, active_record-associated_object and oaken. He will explore
-    how these tools can help developers manage complex data relationships and simplify
-    database interactions in their Ruby on Rails applications."
+  description: |-
+    Kasper Timm Hansen, is a seasoned Ruby developer and a core contributor to the Ruby on Rails framework between 2016-2022. He has made significant contributions to the Ruby community, particularly through his work on various gems that enhance the functionality of Rails.
+
+    In this session, Kasper will walk us through some of his popular gems, active_record-associated_object and oaken. He will explore how these tools can help developers manage complex data relationships and simplify database interactions in their Ruby on Rails applications.
   video_provider: youtube
   video_id: DGatl7bH2yQ
-
 - title: "Don't Stop Representin' - Journey of Service Responses as Value Objects"
   raw_title: Akşam Oturması (23 Ekim 2024)
   speakers:
@@ -178,7 +164,6 @@
   description: ""
   video_provider: youtube
   video_id: rvHyOIi9ZfA
-
 - title: Leveling Up Developer Tooling for the Modern Rails & Hotwire Era
   raw_title: Leveling Up Developer Tooling for the Modern Rails & Hotwire Era - Marco Roth
   speakers:
@@ -198,7 +183,6 @@
     https://kommunity.com/ruby-turkiye/events/leveling-up-developer-tooling-for-the-modern-rails-hotwire-era-671f5b80
   video_provider: youtube
   video_id: g2bVdaO8s7s
-
 - title: "Going Fast with Ruby: Zero To Fintech in 42 Days"
   raw_title: "Akşam Oturması 2024#08 (18/12/2024)"
   speakers:
@@ -224,7 +208,6 @@
     https://kommunity.com/ruby-turkiye/events/aksam-oturmasi-202408-be842d65
   video_provider: "youtube"
   video_id: "tZgNqrxd_E0"
-
 - title: "The present and future of SQLite on Rails"
   raw_title: "The present and future of SQLite on Rails"
   speakers:

@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: "Optimizing Ruby's memory layout"
   raw_title: Optimizing Ruby's memory layout (Peter Zhu & Matthew Valentine-House)
   speakers:
@@ -18,7 +19,6 @@
     Join us as we explore how the variable width allocation project will change the garbage collector heap to replace the system’s malloc heap, giving us finer control of the memory layout to optimize for performance.
   video_provider: youtube
   video_id: x_YhDCNeFQ8
-
 - title: "Don't Develop Just for Yourself - A Developer's Checklist to Accessibility"
   raw_title: Don't Develop Just for Yourself - A Developer's Checklist to Accessibility (Eeva-Jonna Panula)
   speakers:
@@ -32,7 +32,6 @@
     Many projects have automated accessibility checkers, and that is a good start. However, they don’t catch most of the failures on accessibility. There are some fairly simple checks to ensure a better experience for your users, and from this talk, you’ll learn how to do them and, most importantly, why they are essential to do.
   video_provider: youtube
   video_id: s8F1Qar4SkA
-
 - title: "Lightning Talk: State of the PDF"
   raw_title: "Lightning talk: State of the PDF (Thomas Leitner)"
   speakers:
@@ -50,7 +49,6 @@
     The lightning talk will give a short introduction into the available libraries and then focus on the current state of HexaPDF and what it brings to the table.
   video_provider: youtube
   video_id: UpwSpQAm-Rc
-
 - title: "How to stop breaking other people's things"
   raw_title: How to stop breaking other people's things (Lisa Karlin Curtis)
   speakers:
@@ -58,15 +56,10 @@
   event_name: EuRuKo 2021
   date: "2021-05-28"
   published_at: "2021-06-03"
-  description:
-    "Breaking changes are sad. We’ve all been there; someone else changes
-    their API in a way you weren’t expecting, and now you have a live-ops incident
-    you need to fix urgently to get your software working again. Of course, many of
-    us are on the other side too: we build APIs that other people’s software relies
-    on."
+  description: |-
+    Breaking changes are sad. We’ve all been there; someone else changes their API in a way you weren’t expecting, and now you have a live-ops incident you need to fix urgently to get your software working again. Of course, many of us are on the other side too: we build APIs that other people’s software relies on.
   video_provider: youtube
   video_id: eEFcS_cmusQ
-
 - title: "Lightning Talk: Fun Passing Blocks Around"
   raw_title: Fun Passing Blocks Around (sponsored) (Alan Wu, Shopify)
   speakers:
@@ -74,10 +67,10 @@
   event_name: EuRuKo 2021
   date: "2021-05-28"
   published_at: "2021-06-03"
-  description: A sponsored lightning talk from Shopify
+  description: |-
+    A sponsored lightning talk from Shopify
   video_provider: youtube
   video_id: MOfqH8euU58
-
 - title: "Building high–performance GraphQL APIs"
   raw_title: Building high–performance GraphQL APIs (Dmitry Tsepelev)
   speakers:
@@ -91,7 +84,6 @@
     We’ll discuss how queries are executed and what makes processing slower. After that, we’ll learn how to measure performance in the GraphQL era and determine the part we should improve. Finally, we’ll discuss possible solutions and some advanced technics to keep your GraphQL app fast!
   video_provider: youtube
   video_id: kIJdauCgBC8
-
 - title: "Lightning Talk: Adding byebug to the Professional Puts Debugger Tool Set"
   raw_title: "Lightning talk: Adding byebug to the Professional Puts Debugger Tool Set (Zhi Ren Guoy)"
   speakers:
@@ -99,10 +91,10 @@
   event_name: EuRuKo 2021
   date: "2021-05-28"
   published_at: "2021-06-03"
-  description: A crash course on getting started with the ‘byebug’ debugger.
+  description: |-
+    A crash course on getting started with the ‘byebug’ debugger.
   video_provider: youtube
   video_id: YibyXazjnII
-
 - title: "Going native with FFI"
   raw_title: Going native with FFI (Juan Carlos Ruiz)
   speakers:
@@ -110,14 +102,10 @@
   event_name: EuRuKo 2021
   date: "2021-05-28"
   published_at: "2021-06-03"
-  description:
-    Ruby is a flexible language that allows us to write expressive and
-    maintainable code. However, sometimes it could be necessary to work with a low-level
-    language, looking for better performance. In this talk, I’m going to show you
-    how to use Ruby to create an interface for compiled languages like C.
+  description: |-
+    Ruby is a flexible language that allows us to write expressive and maintainable code. However, sometimes it could be necessary to work with a low-level language, looking for better performance. In this talk, I’m going to show you how to use Ruby to create an interface for compiled languages like C.
   video_provider: youtube
   video_id: 75bAbaUu5jI
-
 - title: "Keynote: Beyond Ruby 3.0"
   raw_title: "Keynote: Beyond Ruby 3.0 (Yukihiro Matsumoto)"
   speakers:
@@ -125,10 +113,10 @@
   event_name: EuRuKo 2021
   date: "2021-05-28"
   published_at: "2021-06-03"
-  description: Matz's keynote from EuRuKo 2021
+  description: |-
+    Matz's keynote from EuRuKo 2021
   video_provider: youtube
   video_id: Dp12a3KGNFw
-
 - title: "Keynote: Q&A (Food for thought: home-cooked software)"
   raw_title: Q&A with Linda Liukas
   speakers:
@@ -136,12 +124,10 @@
   event_name: EuRuKo 2021
   date: "2021-05-28"
   published_at: "2021-06-03"
-  description:
-    Unfortunately we cannot provide the recording of the closing keynote
-    by Linda Liukas. We are only able to publish the Q&A section of the talk.
+  description: |-
+    Unfortunately we cannot provide the recording of the closing keynote by Linda Liukas. We are only able to publish the Q&A section of the talk.
   video_provider: youtube
   video_id: ICu0mVWU7Y8
-
 - title: "Lightning Talk: The 6 Characters That Could Bring Down Your App"
   raw_title: "Lightning talk: The 6 Characters That Could Bring Down Your App (Moncef Belyamani)"
   speakers:
@@ -155,7 +141,6 @@
     You probably are using this same method in your app right now. Find out what you should use instead.
   video_provider: youtube
   video_id: XgA_2pJtJEM
-
 - title: "IDE development with Ruby"
   raw_title: IDE development with Ruby (Soutaro Matsumoto)
   speakers:
@@ -171,7 +156,6 @@
     I want to share my experience. What is the protocol? How can the LSP features be implemented? You will get to know the under-the-hood of IDEs, and the tools will become more familiar to you.
   video_provider: youtube
   video_id: l_G4_qTqrGQ
-
 - title: "Streaming data transformations with Ruby"
   raw_title: Streaming data transformations with Ruby (sponsored) (Ville Lautanala, Smartly)
   speakers:
@@ -179,10 +163,10 @@
   event_name: EuRuKo 2021
   date: "2021-05-28"
   published_at: "2021-06-03"
-  description: Sponsored lightning talk from Smartly
+  description: |-
+    Sponsored lightning talk from Smartly
   video_provider: youtube
   video_id: lEedrF7ZNZU
-
 - title: "Delivering fast and slow - Ethics of quality"
   raw_title: Delivering fast and slow - Ethics of quality (Lena Wiberg)
   speakers:
@@ -196,7 +180,6 @@
     Delivering something new, better, faster than our competition can mean incredible payoff and we are constantly being asked to cut costs and deliver more, faster, cheaper. But then suddenly, you fall off the other side of the edge and wake up to 189 dead in a plane crash or having to take down and redesign your entire banking service because the architecture didn’t hold up to the load. It probably wasn’t your decision to push that to production but one can imagine that a long chain of people have to have made a number of small (or huge) decisions that led up to that result.
   video_provider: youtube
   video_id: Yj4oSyRVz9A
-
 - title: "Lightning Talk: Shipping Ruby and Rails apps as native Linux packages"
   raw_title: "Lightning talk: Shipping Ruby and Rails apps as native Linux packages (Cyril Rohr)"
   speakers:
@@ -212,7 +195,6 @@
     In this presentation you’ll learn how to package a Rails application for the main Linux distributions available. You’ll also learn how to host the resulting packages, and apply the same recipe to package a Ruby CLI that can be shipped to users.
   video_provider: youtube
   video_id: VK65X8fyqVM
-
 - title: "Building a Ruby web app using the Ruby Standard Library"
   raw_title: Building a Ruby web app using the Ruby Standard Library (Maple Ong)
   speakers:
@@ -220,14 +202,10 @@
   event_name: EuRuKo 2021
   date: "2021-05-28"
   published_at: "2021-06-03"
-  description:
-    Do you want to understand how a web application works without Rails
-    magic? Let’s go back to the basics of a web application and build one from the
-    ground up using Ruby Standard Library. After this session, you’ll appreciate Rails
-    that much more.
+  description: |-
+    Do you want to understand how a web application works without Rails magic? Let’s go back to the basics of a web application and build one from the ground up using Ruby Standard Library. After this session, you’ll appreciate Rails that much more.
   video_provider: youtube
   video_id: lxczDssLYKA
-
 - title: "Why a Diverse Team is Crucial to Startup Success"
   raw_title: Why a Diverse Team is Crucial to Startup Success (Melissa Jurkoic)
   speakers:
@@ -241,7 +219,6 @@
     How does team diversity impact your customers’ experience from the moment they learn about you through their journey with you? You will attract and relate to customers how look like you. They will understand your messaging and you will understand their needs. If you don’t represent the right dimensions of diversity, you are leaving an amazing experience behind.
   video_provider: youtube
   video_id: "08wUjbh4RoQ"
-
 - title: "Lockdown: The Mother of Invention"
   raw_title: "Lockdown: The Mother of Invention (Amy Wall)"
   speakers:

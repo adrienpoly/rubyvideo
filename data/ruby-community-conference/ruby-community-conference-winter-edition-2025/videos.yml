@@ -9,8 +9,8 @@
   id: aaron-patterson-ruby-community–conference-winter–edition-2025
   video_provider: youtube
   video_id: H7jOJfA7MHk
-  description: "Many Ruby developers like to initialize new objects, so let's take a dive into Ruby object initialization! What makes initializing an object slow? Can we use Ruby to speed it up? In this talk, we will examine the internals of the `Class#new` method, explore the trade-offs between Ruby and C method calls, and experiment with a Ruby implementation of `Class#new`. Additionally, we will discuss strategies for speeding up Ruby method calls, such as inline caches, while also considering the drawbacks of moving from C to Ruby."
-
+  description: |-
+    Many Ruby developers like to initialize new objects, so let's take a dive into Ruby object initialization! What makes initializing an object slow? Can we use Ruby to speed it up? In this talk, we will examine the internals of the `Class#new` method, explore the trade-offs between Ruby and C method calls, and experiment with a Ruby implementation of `Class#new`. Additionally, we will discuss strategies for speeding up Ruby method calls, such as inline caches, while also considering the drawbacks of moving from C to Ruby.
 - title: Solid Queue Internals, Externals and All the Things in Between
   raw_title: "[EN] Solid Queue Internals, Externals and All the Things in Between - Rosa Gutierrez"
   speakers:
@@ -26,7 +26,6 @@
   video_provider: youtube
   video_id: AMoM0uIR3uU
   id: rosa-gutierrez-ruby-community–conference-winter–edition-2025
-
 - title: "The Joy of Creativity in the Age of AI"
   raw_title: "[EN] The Joy of Creativity in the Age of AI - Paweł Strzałkowski"
   speakers:
@@ -40,7 +39,6 @@
   id: the-joy-of-creativity-in-the-age-of-ai-ruby-community–conference-winter–edition-2025
   video_provider: youtube
   video_id: SFLHBYLgJdI
-
 - title: "From Legacy to Latest: How Zendesk Upgraded a Monolith to Rails 8.0 Overnight"
   raw_title: "[EN] From Legacy to Latest: How Zendesk Upgraded a Monolith to Rails 8.0 Overnight - Thomas Countz"
   speakers:
@@ -56,7 +54,6 @@
   id: from-legacy-to-latest-ruby-community–conference-winter–edition-2025
   video_provider: youtube
   video_id: kgVgcNtN5mc
-
 - title: "Workshop: Building a Live Kanban Board Application With Hotwire and Rails"
   raw_title: "Building a Live Kanban Board Application With Hotwire and Rails"
   speakers:
@@ -72,7 +69,6 @@
     This workshop is ideal for those familiar with Hotwire but haven't built a serious app yet. If you're new to Hotwire, don't worry; we'll explain the theory before each task and inspire you to use Hotwire's benefits whenever possible!
   video_provider: not_recorded
   video_id: workshop-building-live-kanban-board-ruby-community–conference-winter–edition-2025
-
 - title: "Workshop: Deploy with Kamal 2"
   raw_title: "Deploy with Kamal 2: A Hands-On Workshop"
   speakers:
@@ -90,7 +86,6 @@
     You’ll leave with a deeper understanding of Kamal and the ability to handle deployment challenges effectively! 💪
   video_provider: not_recorded
   video_id: workshop-deploy-with-kamal-2-ruby-community–conference-winter–edition-2025
-
 - title: "Workshop: Taming The Beast: TDD, Service Objects, and dry.rb for Complex Business Logic"
   raw_title: "Taming The Beast: TDD, Service Objects, and dry.rb for Complex Business Logic"
   speakers:
@@ -100,7 +95,6 @@
   description: ""
   video_provider: not_recorded
   video_id: workshop-taming-the-beast-ruby-community–conference-winter–edition-2025
-
 - title: "Workshop: Fix Bugs 20x Faster: From Zero To Incident Superhero"
   raw_title: "Fix Bugs 20x Faster: From Zero To Incident Superhero"
   speakers:
@@ -110,7 +104,6 @@
   description: ""
   video_provider: not_recorded
   video_id: workshop-fix-bugs-20x-faster-ruby-community–conference-winter–edition-2025
-
 - title: "Workshop: Image Vector Search"
   raw_title: "Image Vector Search"
   speakers:
@@ -120,7 +113,6 @@
   description: ""
   video_provider: not_recorded
   video_id: workshop-image-vector-search-ruby-community–conference-winter–edition-2025
-
 - title: "Workshop: Updating to Modern Gem Development in 2025"
   raw_title: "Updating to Modern Gem Development in 2025"
   speakers:
@@ -131,7 +123,6 @@
     Let's take the default bundle gem scaffold and transform it into the ideal development setup for 2025, including automated testing on CI, automated pushes to rubygems.org, and type checking right in your editor.
   video_provider: not_recorded
   video_id: workshop-updating-to-modern-gem-development-in-2025-ruby-community–conference-winter–edition-2025
-
 - title: "Workshop: PostgreSQL Performance for Ruby Developers: Deep Dive into Database Performance & TimescaleDB"
   raw_title: "PostgreSQL Performance for Ruby Developers: Deep Dive into Database Performance & TimescaleDB"
   speakers:

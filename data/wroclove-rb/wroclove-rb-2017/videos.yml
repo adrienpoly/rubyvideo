@@ -1,8 +1,8 @@
 ---
+#
 # TODO: conference website
-
 # Day 1
-
+#
 - title: Karafka - Place Where Ruby, Rails and Kafka Meet Together
   raw_title: KARAFKA - PLACE WHERE RUBY, RAILS AND KAFKA MEET TOGETHER - Maciej Mensfeld - wroc_love.rb 2017
   speakers:
@@ -13,7 +13,6 @@
   description: ""
   video_provider: youtube
   video_id: FU0NGg385ZM
-
 - title: Machine Learning For The Rescue
   raw_title: MACHINE LEARNING FOR THE RESCUE - Mariusz Gil - wroc_love.rb 2017
   speakers:
@@ -24,7 +23,6 @@
   description: ""
   video_provider: youtube
   video_id: 0RUtb4GxdGs
-
 - title: Lightning Talks (Day 1)
   raw_title: Lightning talks, day 1 - wroc_love.rb 2017
   event_name: wroclove.rb 2017
@@ -43,7 +41,6 @@
       video_provider: parent
       speakers:
         - Damian Legawiec
-
     - title: "Lightning Talk: Ruby is blazing fast - make Ruby great again"
       date: "2017-03-17"
       published_at: "TODO"
@@ -53,7 +50,6 @@
       video_provider: parent
       speakers:
         - TODO # TODO: missing name
-
     - title: "Lightning Talk: What is the Model?"
       date: "2017-03-17"
       published_at: "TODO"
@@ -63,7 +59,6 @@
       video_provider: parent
       speakers:
         - Jan Filipowski
-
     - title: "Lightning Talk: The new old medium (at least for me)"
       date: "2017-03-17"
       published_at: "TODO"
@@ -73,7 +68,6 @@
       video_provider: parent
       speakers:
         - Bartosz Bonisławski
-
     - title: "Lightning Talk: Symphony"
       date: "2017-03-17"
       published_at: "TODO"
@@ -83,7 +77,6 @@
       video_provider: parent
       speakers:
         - Piotr Steininger
-
     - title: "Lightning Talk: Dairy Log"
       date: "2017-03-17"
       published_at: "TODO"
@@ -93,9 +86,9 @@
       video_provider: parent
       speakers:
         - Niklas Hofer
-
+#
 # Day 2
-
+#
 - title: The Overnight Failure
   raw_title: THE OVERNIGHT FAILURE - Sebastian Sogamoso - wroc_love.rb 2017
   speakers:
@@ -106,7 +99,6 @@
   description: ""
   video_provider: youtube
   video_id: Q-KAfm0bx4E
-
 - title: Fault Tolerance in Ruby
   raw_title: FAULT TOLERANCE IN RUBY - Hubert Łępicki - wroc_love.rb 2017
   speakers:
@@ -117,7 +109,6 @@
   description: ""
   video_provider: youtube
   video_id: XPvpZ2QgvBI
-
 - title: Automated Type Contracts Generation For Ruby
   raw_title: AUTOMATED TYPE CONTRACTS GENERATION FOR RUBY - Valentin Fondaratov - wroc_love.rb 2017
   speakers:
@@ -128,7 +119,6 @@
   description: ""
   video_provider: youtube
   video_id: EPeQuy5SOGM
-
 - title: "Panel: Elixir vs. Ruby"
   raw_title: PANEL - ELIXIR vs. RUBY FIGHT - wroc_love.rb 2017
   speakers:
@@ -136,14 +126,13 @@
     # - TODO # https://cln.sh/BPbmNwCg
     # - TODO # https://cln.sh/CQPHqylG
     - Andrzej Krzywda
-    # - TODO # https://cln.sh/qpG3rsWm
+  # - TODO # https://cln.sh/qpG3rsWm
   event_name: wroclove.rb 2017
   date: "2017-03-17"
   published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: O5dzsG5grK4
-
 - title: Bindings in Ruby - Behind the Magic of Blocks
   raw_title: BINDINGS IN RUBY - BEHIND THE MAGIC OF BLOCKS - Piotr Szmielew - wroc_love.rb 2017
   speakers:
@@ -155,7 +144,6 @@
   video_provider: youtube
   video_id: yiwvk240ZBM
   slides_url: https://speakerdeck.com/esse/bindings-in-ruby-behind-the-magic-of-blocks
-
 - title: Lightning Talks - Day 2
   raw_title: Lightning talks, day 2 - wroc_love.rb 2017
   event_name: wroclove.rb 2017
@@ -174,7 +162,6 @@
       video_provider: parent
       speakers:
         - Michał Konarski
-
     - title: "Lightning Talk: Come to #pivorak"
       date: "2017-03-18"
       published_at: "TODO"
@@ -184,7 +171,6 @@
       video_provider: parent
       speakers:
         - Anton Paisov
-
     - title: "Lightning Talk: Reveal the Unicode"
       date: "2017-03-18"
       published_at: "TODO"
@@ -194,7 +180,6 @@
       video_provider: parent
       speakers:
         - Jan Lelis
-
     - title: "Lightning Talk: DRY System"
       date: "2017-03-18"
       published_at: "TODO"
@@ -204,7 +189,6 @@
       video_provider: parent
       speakers:
         - Krzysztof Wawer
-
     - title: "Lightning Talk: Say Hello with Nexmo"
       date: "2017-03-18"
       published_at: "TODO"
@@ -214,7 +198,6 @@
       video_provider: parent
       speakers:
         - Piotr Steininger
-
     - title: "Lightning Talk: Calling Go From Ruby"
       date: "2017-03-18"
       published_at: "TODO"
@@ -224,7 +207,6 @@
       video_provider: parent
       speakers:
         - Alexander Biryukov
-
     - title: "Lightning Talk: tig - git tool"
       date: "2017-03-18"
       published_at: "TODO"
@@ -234,7 +216,6 @@
       video_provider: parent
       speakers:
         - Michał Knapik
-
     - title: "Lightning Talk: Rethink Sitting"
       date: "2017-03-18"
       published_at: "TODO"
@@ -244,7 +225,6 @@
       video_provider: parent
       speakers:
         - Jan Dudek
-
     - title: "Lightning Talk: Platform for First Blog Bartosz Bonislawski"
       date: "2017-03-18"
       published_at: "TODO"
@@ -254,7 +234,6 @@
       video_provider: parent
       speakers:
         - Bartosz Bonisławski
-
     - title: "Lightning Talk: Unexpected Case of Rescue Exception"
       date: "2017-03-18"
       published_at: "TODO"
@@ -264,7 +243,6 @@
       video_provider: parent
       speakers:
         - Artur Dębski
-
     - title: "Lightning Talk: Gravity of Code"
       date: "2017-03-18"
       published_at: "TODO"
@@ -274,9 +252,9 @@
       video_provider: parent
       speakers:
         - Robert Pankowecki
-
+#
 # Day 3
-
+#
 - title: "The Babel Fish is Data: A Case Study"
   raw_title: "THE BABEL FISH IS DATA: A CASE STUDY - Norbert Wójtowicz - wroc_love.rb 2017"
   speakers:
@@ -287,7 +265,6 @@
   description: ""
   video_provider: youtube
   video_id: l5ML_4WnAWg
-
 - title: We All Build Distributed Systems
   raw_title: WE ALL BUILD DISTRIBUTED SYSTEMS - Maciej Rząsa - wroc_love.rb 2017
   speakers:
@@ -298,7 +275,6 @@
   description: ""
   video_provider: youtube
   video_id: 2AvMrZtvQSc
-
 - title: Predicting Performance Changes of Distributed Applications
   raw_title: PREDICTING PERFORMANCE CHANGES OF DISTRIBUTED APPLICATIONS - Wojciech Rząsa - wroc_love.rb 2017
   speakers:
@@ -309,24 +285,22 @@
   description: ""
   video_provider: youtube
   video_id: GmRVbmntenY
-
 - title: "Panel: How to Survive in the JavaScript World"
   raw_title: PANEL - HOW TO SURVIVE IN THE JAVASCRIPT WORLD - wroc_love.rb 2017
   speakers:
     # - TODO # moderator # https://cln.sh/dQQ25jng
     # - TODO # https://cln.sh/tLM93Ln3
     - Michał Czyż
-    # - TODO # https://cln.sh/k0vqTM0H
-    # - TODO # https://cln.sh/y4RYtsfC
-    # - TODO # https://cln.sh/pHFt2cgG
-    # - TODO # https://cln.sh/xnmKzjCR
+  # - TODO # https://cln.sh/k0vqTM0H
+  # - TODO # https://cln.sh/y4RYtsfC
+  # - TODO # https://cln.sh/pHFt2cgG
+  # - TODO # https://cln.sh/xnmKzjCR
   event_name: wroclove.rb 2017
   date: "2017-03-17"
   published_at: "2017-03-19"
   description: ""
   video_provider: youtube
   video_id: 3swsZ5dOjOY
-
 - title: concurrent-ruby
   raw_title: CONCURRENT-RUBY - Petr Chalupa - wroc_love.rb 2017
   speakers:
@@ -337,7 +311,6 @@
   description: ""
   video_provider: youtube
   video_id: WQ0pNulvl-Q
-
 - title: Lightning Talks (Day 3)
   raw_title: Lightning talks, day 3 - wroc_love.rb 2017
   event_name: wroclove.rb 2017
@@ -355,7 +328,6 @@
       speakers:
         - Maciek Walusiak
       slides_url: https://slides.com/maciekwalusiak/migrating-database
-
     - title: "Lightning Talk: Git Bisect - When problems get serious"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -363,7 +335,6 @@
       video_provider: parent
       speakers:
         - Dawid Jaskot
-
     - title: "Lightning Talk: Memory and Wikipedia"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -371,7 +342,6 @@
       video_provider: parent
       speakers:
         - Georgy Buranov
-
     - title: "Lightning Talk: Fun facts about Spree (and Damian Legawiec)"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -379,7 +349,6 @@
       video_provider: parent
       speakers:
         - Maciej Mensfeld
-
     - title: "Lightning Talk: Pattern Matching"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -387,7 +356,6 @@
       video_provider: parent
       speakers:
         - Paweł Świątkowski
-
     - title: "Lightning Talk: Dealing with Technical Debt"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -395,7 +363,6 @@
       video_provider: parent
       speakers:
         - Tomek W # TODO: missing lastname - https://cln.sh/LhpHmF8w
-
     - title: "Lightning Talk: discombobulate"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -403,7 +370,6 @@
       video_provider: parent
       speakers:
         - Norbert Wójtowicz
-
     - title: "Lightning Talk: Elixir is Awesome"
       start_cue: "TODO"
       end_cue: "TODO"
@@ -411,7 +377,6 @@
       video_provider: parent
       speakers:
         - Michał Muskała
-
     - title: "Lightning Talk: Google Summer of Code"
       start_cue: "TODO"
       end_cue: "TODO"

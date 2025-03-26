@@ -1,3 +1,4 @@
+#
 # 2010
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/14632894
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/14633038
@@ -6,7 +7,6 @@
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/15231980
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/15498298
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/15653069
-
 # 2011
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/15909990
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/15955701
@@ -33,7 +33,6 @@
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/39625282
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/41364612
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/42876402
-
 # 2012
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/45694662
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/46648982
@@ -58,7 +57,6 @@
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/86348762
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/86348752
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/86348772
-
 # 2013
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/94158272
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/94945372
@@ -85,7 +83,6 @@
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/147288632
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/151617722
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/151915582
-
 # 2014
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/155740132
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/155740172
@@ -113,7 +110,6 @@
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/206131012
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/206131022
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/206131032
-
 # 2015
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/206430572
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/206430602
@@ -133,7 +129,6 @@
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/223982577
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/224294108
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/226509995
-
 # 2016
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/227782171
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/228726508
@@ -142,7 +137,7 @@
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/230178460
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/231066966
 # TODO: missing event: https://www.meetup.com/rubyonrails-ch/events/233303155
-
+#
 - title: "Multi-tenancy with Rails"
   raw_title: "Railshöck @Simplificator"
   event_name: "Railshöck September 2016"
@@ -175,7 +170,6 @@
     We hope to see you there! As usual there will be drinks and food as well.
 
     https://www.meetup.com/rubyonrails-ch/events/233732199
-
 - title: "Entering Elixir and Phoenix"
   raw_title: Railshöck @Renuo "Entering Elixir and Phoenix"
   event_name: "Railshöck November 2016"
@@ -190,9 +184,9 @@
     Phoenix provides the best of both worlds - high developer productivity and high application performance. It also has some interesting new twists like channels for implementing realtime features and pre-compiled templates for blazing speed.
 
     https://www.meetup.com/rubyonrails-ch/events/235320092
-
+#
 ## 2017
-
+#
 - title: "Master21 - Switzerlands first coding bootcamp"
   raw_title: "Master21 - Switzerlands first coding bootcamp"
   event_name: "Railshöck February 2017"
@@ -217,7 +211,6 @@
     This Railshöck takes place at Impact Hub Zürich (location: Colab at Sihlquai 131, 8005 Zurich): The global community of entrepreneurial people prototyping the future of business. At Impact Hub, you can connect, collaborate, co-work and create great content in an inspiring environment.
 
     https://www.meetup.com/rubyonrails-ch/events/237220479
-
 - title: "Ruby on Rails 5.1"
   raw_title: "Ruby on Rails 5.1"
   event_name: "Railshöck March 2017"
@@ -230,7 +223,6 @@
     Yves Senn will talk about the upcoming Rails Release 5.1 and give an overview about news and changes.
 
     https://www.meetup.com/rubyonrails-ch/events/238380173
-
 - title: "Ruby on Rails - Request/Response Cycle"
   raw_title: "Ruby on Rails - Request/Response Cycle"
   event_name: "Railshöck May 2017"
@@ -243,7 +235,6 @@
     We are very happy to have Thomas Arni presenting his talk about Ruby on Rails - Request/Response Cycle.
 
     https://www.meetup.com/rubyonrails-ch/events/239847831
-
 - title: "Rails Routing Mapper - Investigating a Bit"
   raw_title: "Rails Routing Mapper by Josua Schmid"
   event_name: "Railshöck August 2017"
@@ -257,7 +248,6 @@
     Josua Schmid looks into the Rails Routing Mapper, explaining its features and how to leverage it for effective routing in Rails.
 
     https://www.meetup.com/rubyonrails-ch/events/242035630
-
 - title: "Idiomatic RSpec tests - How I keep my tests DRY and readable"
   raw_title: "Idiomatic RSpec by Richard Bützer"
   event_name: "Railshöck August 2017"
@@ -271,7 +261,6 @@
     Richard Bützer discusses best practices for writing idiomatic RSpec tests, focusing on clean, readable, and maintainable test suites.
 
     https://www.meetup.com/rubyonrails-ch/events/242035630
-
 - title: "News in Rails 5.2 - ActiveStorage"
   raw_title: "News in Rails 5.2: ActiveStorage by Martin Cavoj"
   event_name: "Railshöck August 2017"
@@ -290,7 +279,6 @@
     Martin Cavoj highlights the features of ActiveStorage introduced in Rails 5.2 and demonstrates.
 
     https://www.meetup.com/rubyonrails-ch/events/242035630
-
 - title: "Session Replay Attacks"
   raw_title: "Session Replay Attacks by Denis Müller"
   event_name: "Railshöck August 2017"
@@ -303,7 +291,6 @@
     Denis Müller explains the risks of session replay attacks and provides strategies for protecting Rails applications against them.
 
     https://www.meetup.com/rubyonrails-ch/events/242035630
-
 - title: "Swift for Rubyists"
   raw_title: "Swift for Rubyists"
   event_name: "Railshöck September 2017"
@@ -316,7 +303,6 @@
     Andy Park will talk about "Swift for Rubyists".
 
     https://www.meetup.com/rubyonrails-ch/events/243296452
-
 - title: "Writing a Ruby Testing Framework from Scratch"
   raw_title: "Writing a Ruby Testing Framework from Scratch"
   event_name: "Railshöck June 2017"
@@ -336,9 +322,9 @@
     Source code: https://github.com/crackofdusk/raisin
 
     https://www.meetup.com/rubyonrails-ch/events/240837783
-
+#
 ## 2018
-
+#
 - title: "Goodbye Sprockets - Welcome Webpacker"
   raw_title: "Goodbye Sprockets by Alessandro Rodi"
   event_name: "Railshöck January 2018"
@@ -352,7 +338,6 @@
     Alessandro explains why Sprockets are outdated and how to transition to Webpacker for a modern asset pipeline.
 
     https://www.meetup.com/rubyonrails-ch/events/245854022
-
 - title: "Testing with Cucumber"
   raw_title: "Testing with Cucumber by Richard Bützer"
   event_name: "Railshöck January 2018"
@@ -366,7 +351,6 @@
     Richard discusses the benefits of adding Cucumber to the testing stack, highlighting its usefulness in bridging gaps between stakeholders.
 
     https://www.meetup.com/rubyonrails-ch/events/245854022
-
 - title: "Getting Lightning Fast - Optimizing Your Test Suite for Speed"
   raw_title: "Systematically Speeding Up Your Tests by Stéphane Bisinger"
   event_name: "Railshöck January 2018"
@@ -380,7 +364,6 @@
     Stéphane shows systematic ways to identify bottlenecks and improve the speed of your test suite for more efficient development.
 
     https://www.meetup.com/rubyonrails-ch/events/245854022
-
 - title: "Simple & flexible Rails-APIs with GraphQL"
   raw_title: "Simple & Flexible Rails APIs with GraphQL by Denis Müller"
   event_name: "Railshöck January 2018"
@@ -394,7 +377,6 @@
     Denis introduces GraphQL and demonstrates how it simplifies building flexible and efficient APIs in Rails.
 
     https://www.meetup.com/rubyonrails-ch/events/245854022
-
 - title: "Hot Module Reloading"
   raw_title: "Hot Module Reloading by Alessandro Rodi"
   event_name: "Railshöck June 2018"
@@ -407,7 +389,6 @@
     Alessandro is a software engineer and leads our education program. He fell in love with Webpacker and tells you how to ride the JS wave without being afraid of derailment.
 
     https://www.meetup.com/rubyonrails-ch/events/251398920
-
 - title: "CSP – Water Wings for Our Users"
   raw_title: "CSP – Water Wings for Our Users by Martin Cavoj"
   event_name: "Railshöck June 2018"
@@ -420,7 +401,6 @@
     Martin is a software engineer at Renuo. He will tell you, how we started using Content Security Policy in our Rails apps and how we reacted to an incoming hurricane.
 
     https://www.meetup.com/rubyonrails-ch/events/251398920
-
 - title: "Rails 6 Preview"
   raw_title: "Rails 6 Preview by Simon Huber"
   event_name: "Railshöck June 2018"
@@ -433,7 +413,6 @@
     Simon is a software engineer at Renuo. He will explain you some of the fresh features of Rails, for example about how to sail with multiple ships at the same time.
 
     https://www.meetup.com/rubyonrails-ch/events/251398920
-
 - title: "Improving Code Review with Percy.io"
   raw_title: "Improving Code Review with Percy.io by Lukas Bischof"
   event_name: "Railshöck June 2018"
@@ -451,9 +430,9 @@
     Lukas is an intern at Renuo. He explains you how we improved our code review process with screenshots. Visual cortex on deck!
 
     https://www.meetup.com/rubyonrails-ch/events/251398920
-
+#
 ## 2019
-
+#
 - title: "Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby"
   raw_title: "Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby"
   event_name: "Railshöck January 2019"
@@ -468,7 +447,6 @@
     This talk starts with an introduction to show how TruffleRuby works and then shows a technique to make Array and Hash thread-safe while enabling parallel access, with no penalty on single-threaded performance. In short, we keep the most important thread-safety guarantees of the global lock while allowing Ruby to scale up to tens of cores!
 
     https://www.meetup.com/rubyonrails-ch/events/258090195
-
 - title: "Can x3"
   raw_title: "CanCanCan 3.0 Deep Dive by Alessandro Rodi"
   event_name: "Railshöck April 2019"
@@ -487,7 +465,6 @@
     CanCanCan 3.0 is out. Let's deep dive in the new features and how this version improves performance by removing associations preloading and by implementing a "rules compressor" which removes unnecessary rules automatically.
 
     https://www.meetup.com/rubyonrails-ch/events/259150790
-
 - title: "Smart HTTP Clients"
   raw_title: "Smart HTTP Clients by Sebastian Pape"
   event_name: "Railshöck April 2019"
@@ -506,7 +483,6 @@
     What if you could use Rails ActiveRecord over the network? Actually you can, thanks to the ruby gem LHS. Get some big thoughts about how to easily navigate a heterogeneous enterprise api service landscape with smart HTTP clients.
 
     https://www.meetup.com/rubyonrails-ch/events/259150790
-
 - title: "Input from Another World"
   raw_title: "Input from Another World by Samuel Steiner"
   event_name: "Railshöck April 2019"
@@ -525,7 +501,6 @@
     And now for something completely different: This is an introduction of how to overcome politeness façades towards more honest conversations. Get some tips on how to steer a conversation into a direction which benefits all participants the most – both in sales but also personal relationships.
 
     https://www.meetup.com/rubyonrails-ch/events/259150790
-
 - title: "The RSpec includes Matcher in Depth"
   raw_title: "The RSpec includes Matcher in Depth by Josua Schmid"
   event_name: "Railshöck April 2019"
@@ -546,7 +521,6 @@
     Source code: https://github.com/renuo/railshoeck-rspec-include-matcher
 
     https://www.meetup.com/rubyonrails-ch/events/259150790
-
 - title: "Icecast Stream Parsing"
   raw_title: "Icecast Stream Parsing"
   event_name: "Railshöck December 2019"
@@ -567,9 +541,9 @@
     * fuzzy matching with PostgreSQL
 
     https://www.meetup.com/rubyonrails-ch/events/266309675
-
+#
 ## 2020
-
+#
 - title: "A hundred ways to search - An (opinionated) overview about search techniques"
   raw_title: "100 Ways to Search by Simon & Simon"
   event_name: "Railshöck October 2020"
@@ -589,7 +563,6 @@
     The two Simons provide an overview of various methods for implementing search functionality in a Rails project.
 
     https://www.meetup.com/rubyonrails-ch/events/269970094
-
 - title: "How to NOT Search"
   raw_title: "How to NOT Search by Alessandro Rodi"
   event_name: "Railshöck October 2020"
@@ -608,7 +581,6 @@
     Alessandro shares insights on optimizing search performance without a search engine, focusing on business needs over technical solutions.
 
     https://www.meetup.com/rubyonrails-ch/events/269970094
-
 - title: "How NOT to Find"
   raw_title: "How NOT to Find by Josua Schmid"
   event_name: "Railshöck October 2020"
@@ -627,7 +599,6 @@
     Josua reflects on building a seemingly usable search that struggled under increased data load, leading to a usability overhaul.
 
     https://www.meetup.com/rubyonrails-ch/events/269970094
-
 - title: "Decorators & Co"
   raw_title: "Decorators & Co. Instead of Concerns by Gregor Wassmann"
   event_name: "Railshöck October 2020"
@@ -648,9 +619,9 @@
     Source code: https://github.com/hoelzle/rails-meetup-2020
 
     https://www.meetup.com/rubyonrails-ch/events/269970094
-
+#
 ## 2021
-
+#
 - title: "Rails 0.5"
   raw_title: "Rails 0.5 by Josua Schmid"
   event_name: "Railshöck October 2021"
@@ -669,7 +640,6 @@
     Josua Schmid digs into the history of Rails, exploring its early versions and evolution from Rails 0.5 onward.
 
     https://www.meetup.com/rubyonrails-ch/events/280293360
-
 - title: "Modular Monolith Using Rails Engines"
   raw_title: "Modular Monolith Using Rails Engines by Gregor Wassmann"
   event_name: "Railshöck October 2021"
@@ -690,7 +660,6 @@
     Source code: https://github.com/hoelzle/rails-meetup-2021
 
     https://www.meetup.com/rubyonrails-ch/events/280293360
-
 - title: "Best of Both Worlds"
   raw_title: "Best of Both Worlds by Gregor Wassmann"
   event_name: "Railshöck October 2021"
@@ -710,9 +679,7 @@
 
     Source code: https://github.com/hoelzle/rails-meetup-2021
 
-
     https://www.meetup.com/rubyonrails-ch/events/280293360
-
 - title: "Feeling Lucky with Crystal"
   raw_title: "Feeling Lucky with Crystal by Nick Flückiger"
   event_name: "Railshöck October 2021"
@@ -731,9 +698,9 @@
     Nick Flückiger explores the Crystal programming language, showcasing its capabilities and use cases outside of Ruby.
 
     https://www.meetup.com/rubyonrails-ch/events/280293360
-
+#
 ## 2022
-
+#
 - title: "Ruby Monstas: Teaching Ruby to beginners"
   raw_title: "Unraveling the Ruby Monstas Teaching Concept by The Ruby Monstas Team"
   event_name: "Railshöck August 2022"
@@ -757,7 +724,6 @@
     Website: https://rubymonstas.ch
 
     https://www.meetup.com/rubyonrails-ch/events/286090172
-
 - title: "STI without type column: discriminable"
   raw_title: "The Discriminable Gem by Gregor Wassmann"
   event_name: "Railshöck August 2022"
@@ -778,7 +744,6 @@
     GitHub: https://github.com/gregorw/discriminable
 
     https://www.meetup.com/rubyonrails-ch/events/286090172
-
 - title: "Dato::Rails - less Head, less Pain"
   raw_title: "A Gem for Headless DatoCMS by Alessandro Rodi"
   event_name: "Railshöck August 2022"
@@ -798,7 +763,6 @@
     Blog post: https://dev.to/coorasse/datocms-with-ruby-on-rails-3ae5
 
     https://www.meetup.com/rubyonrails-ch/events/286090172
-
 - title: "Tech Dive into Hitobito"
   raw_title: "Tech Aspects of Hitobito by Matthias Viehweger"
   event_name: "Railshöck August 2022"
@@ -817,9 +781,9 @@
     Matthias Viehweger of Puzzle ITC explores the technical challenges and solutions behind the Hitobito platform.
 
     https://www.meetup.com/rubyonrails-ch/events/286090172
-
+#
 ## 2023
-
+#
 - title: "Ruby Performance Optimizations"
   raw_title: "Ruby Performance Optimizations by Robin Steiner and Pascal Zumkehr"
   event_name: "Railshöck May 2023"
@@ -836,7 +800,6 @@
   thumbnail_xl: https://secure.meetupstatic.com/photos/event/4/9/b/e/600_511278878.webp
   description: |-
     https://www.meetup.com/rubyonrails-ch/events/291931256
-
 - title: "From Spec to Spec with rswag"
   raw_title: "From Spec to Spec with rswag by Simon Huber"
   event_name: "Railshöck May 2023"
@@ -856,7 +819,6 @@
     GitHub repo: https://github.com/sihu/rswag-getting-started
 
     https://www.meetup.com/rubyonrails-ch/events/291931256
-
 - title: "thoughtbot defaults with suspenders"
   raw_title: "thoughtbot Defaults with suspenders by Dimiter Petrov"
   event_name: "Railshöck May 2023"
@@ -877,9 +839,9 @@
     GitHub Repo: https://github.com/thoughtbot/suspenders
 
     https://www.meetup.com/rubyonrails-ch/events/291931256
-
+#
 ## 2024
-
+#
 - title: "Travelling the Changelog of Ruby 3.3"
   raw_title: "A Guide Through the Changelog of Ruby 3.3 by Matthias Viehweger (Puzzle)"
   event_name: "Railshöck March 2024"
@@ -898,7 +860,6 @@
     Matthias Viehweger of Puzzle will be our guide through the changelog of Ruby 3.3.
 
     https://www.meetup.com/rubyonrails-ch/events/298503697
-
 - title: "Offline Functionality with Rails"
   raw_title: "Adding Offline Support to a Rails App Without Making It a PWA by Daniel Bengl (Renuo)"
   event_name: "Railshöck March 2024"
@@ -919,7 +880,6 @@
     GitHub repo: https://github.com/renuo/rails-offline-talk
 
     https://www.meetup.com/rubyonrails-ch/events/298503697
-
 - title: "Rails and Database Transactions"
   raw_title: "Rails and Database Transactions by Emily Wangler (atpoint)"
   event_name: "Railshöck March 2024"
@@ -938,7 +898,6 @@
     Emily Wangler of atpoint will talk about Rails and database transactions.
 
     https://www.meetup.com/rubyonrails-ch/events/298503697
-
 - title: "Componifying Rails: A Thought Experiment Turned Workhorse"
   raw_title: "Componifying Rails: A Thought Experiment Turned Workhorse by Sandro Kalbermatter (Kalsan)"
   event_name: "Railshöck March 2024"
@@ -958,7 +917,6 @@
     GitHub repo: https://github.com/kalsan/compony
 
     https://www.meetup.com/rubyonrails-ch/events/298503697
-
 - title: "20 Years of Rails - Rails 0.5"
   raw_title: "20 Years of Rails - Rails 0.5"
   event_name: "Railshöck July 2024"
@@ -976,7 +934,6 @@
     Rails version 0.5 was published under the MIT license on July 24th 2004 (CET). Exactly 20 years ago. Let's celebrate this!
 
     https://www.meetup.com/rubyonrails-ch/events/301480681
-
 - title: "Leveling Up Developer Tooling For The Modern Rails & Hotwire Era"
   raw_title: "Developer Tooling for the Modern Rails & Hotwire Era by Marco Roth"
   event_name: "Railshöck August 2024"
@@ -995,7 +952,6 @@
     Drawing inspiration from the rapid advancements in JavaScript tooling, we explore the horizon of possibilities for Rails developers, including how advanced browser extensions and tools specifically designed for the Hotwire ecosystem can level up your developer experience.
 
     https://www.meetup.com/rubyonrails-ch/events/298503717
-
 - title: "Pragmatic Rails – rails_api_logger"
   raw_title: "Pragmatic Rails – rails_api_logger by Alessandro Rodi (Renuo)"
   event_name: "Railshöck August 2024"
@@ -1016,7 +972,6 @@
     GitHub Repo: https://github.com/renuo/rails_api_logger
 
     https://www.meetup.com/rubyonrails-ch/events/298503717
-
 - title: "nochmal, the gem"
   raw_title: "nochmal, the gem by Matthias Viehweger (Puzzle)"
   event_name: "Railshöck August 2024"
@@ -1037,7 +992,6 @@
     GitHub Repo: https://github.com/puzzle/nochmal
 
     https://www.meetup.com/rubyonrails-ch/events/298503717
-
 - title: "Pragmatic Rails again – validation_errors"
   raw_title: "Pragmatic Rails again – validation_errors by Alessandro Rodi (Renuo)"
   event_name: "Railshöck August 2024"
@@ -1058,7 +1012,6 @@
     GitHub Repo: https://github.com/coorasse/validation_errors
 
     https://www.meetup.com/rubyonrails-ch/events/298503717
-
 - title: "News Crawler via Langchain.rb and Gemini APIs"
   raw_title: "News Crawler via Langchain.RB and Gemini APIs by Riccardo Carlesso (Google Cloud)"
   event_name: "Railshöck August 2024"
@@ -1081,7 +1034,6 @@
     It all gets more exciting thanks to Andrei’s langchainrb gem.
 
     https://www.meetup.com/rubyonrails-ch/events/298503717
-
 - title: "Don't Call Yourself a Developer"
   raw_title: "Railshöck November 2024 - Don't call yourself a developer"
   event_name: "Railshöck November 2024"
@@ -1097,7 +1049,6 @@
   thumbnail_xl: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:fvamgbleudszao2uft3sysub/bafkreiejdeeggyoo6yjprbp5yqomze6p5f2orjs46fcxassbxe5sfx3qzy@jpeg
   description: |-
     https://www.meetup.com/rubyonrails-ch/events/301751612
-
 - title: "Postgres and Null Bytes - Strategies to Handle Null Bytes"
   raw_title: "Railshöck November 2024 - Postgres and Null Bytes"
   event_name: "Railshöck November 2024"
@@ -1116,7 +1067,6 @@
     https://github.com/renuo/postgres-null-bytes-talk
 
     https://www.meetup.com/rubyonrails-ch/events/301751612
-
 - title: "Server Sent Events - Making it work with Rack Hijacking and Postgres Notifications"
   raw_title: "Railshöck November 2024 - Server Sent Events"
   event_name: "Railshöck November 2024"
@@ -1136,7 +1086,6 @@
     https://github.com/de-sopi/sse-rails-react-demo
 
     https://www.meetup.com/rubyonrails-ch/events/301751612
-
 - title: "When Enums are not enough"
   raw_title: "Railshöck November 2024 - When Enums are not enough"
   event_name: "Railshöck November 2024"

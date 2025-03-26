@@ -1,6 +1,7 @@
 ---
+#
 # 2024
-
+#
 - title: "Barcelona.rb November 2024"
   event_name: "Barcelona.rb November 2024"
   date: "2024-11-05"
@@ -60,7 +61,6 @@
         X: https://x.com/RubyEurope
       speakers:
         - Mariusz Kozieł
-
     - title: "Modernising Ruby Systems with Rage"
       event_name: "Barcelona.rb November 2024"
       date: "2024-11-05"
@@ -77,7 +77,6 @@
         X: https://x.com/RubyEurope
       speakers:
         - Roman Samoilov
-
     - title: "Life Beyond MVC: Scaling Rails Monolith for Hundreds of Developers"
       event_name: "Barcelona.rb November 2024"
       date: "2024-11-05"
@@ -94,8 +93,9 @@
         X: https://x.com/RubyEurope
       speakers:
         - Genar Trias Ortis
+#
 # 2025
-
+#
 - title: "Barcelona.rb February 2025"
   event_name: "Barcelona.rb February 2025"
   date: "2025-02-11"
@@ -135,7 +135,6 @@
       description: ""
       speakers:
         - Kirill Platonov
-
     - title: "My workflow sucks, yours shouldn't a.k.a. how to use computer efficiently"
       event_name: "Barcelona.rb February 2025"
       date: "2025-02-11"

@@ -1,6 +1,7 @@
 ---
+#
 # 2024
-
+#
 - title: "Ruby Warsaw Meetup February 2024"
   date: "2024-02-29"
   published_at: "2024-03-11"
@@ -23,7 +24,6 @@
 
     As usual, after the meetup, there will be time for conversations and networking. 🗣️🍻🍕
     Who are we meeting with?
-
   talks:
     - title: Math and Web Scraping
       speakers:
@@ -33,7 +33,6 @@
       published_at: "2024-03-11"
       video_provider: youtube
       video_id: FWN0tD6lnYw
-
     - title: Pokedex - indexes strike back
       speakers:
         - Mateusz Woźniczka
@@ -42,7 +41,6 @@
       published_at: "2024-03-11"
       video_provider: youtube
       video_id: oOZv7DywW68
-
     - title: Resilient deployment on Amazon ECS
       speakers:
         - Piotr Wald
@@ -51,7 +49,6 @@
       published_at: "2024-03-11"
       video_provider: youtube
       video_id: rfzi5Cy2gGA
-
 - title: "Ruby Warsaw Meetup March 2024"
   date: "2024-03-21"
   published_at: "2024-04-02"
@@ -81,7 +78,6 @@
     Visit our Discord and join the Ruby community: https://discord.gg/qQV74zpg
 
     The event is free! We look forward to seeing you there!🚀
-
   talks:
     - title: Sweet dreams with statically typed Ruby
       speakers:
@@ -91,7 +87,6 @@
       published_at: "2024-04-02"
       video_provider: youtube
       video_id: 15yZl_s83yI
-
     - title: Showing progress of background jobs with Turbo
       speakers:
         - Michał Lęcicki
@@ -100,7 +95,6 @@
       published_at: "2024-04-02"
       video_provider: youtube
       video_id: t5GN2mMX3Fs
-
     - title: Petrol Station Simulator in Ruby
       speakers:
         - Jakub Godawa
@@ -109,7 +103,6 @@
       published_at: "2024-04-02"
       video_provider: youtube
       video_id: mim5Mjq8T_0
-
     - title: Lightning Talks
       speakers:
         - TODO
@@ -118,7 +111,6 @@
       published_at: ""
       video_provider: not_recorded
       video_id: lightning-talks-ruby-warsaw-meetup-march-2024
-
 - title: "Ruby Warsaw Meetup April 2024"
   date: "2024-04-18"
   published_at: "2024-04-24"
@@ -148,7 +140,6 @@
     After a substantial dose of knowledge, we invite you to engage in discussions during the informal part. Hope to see you there!
 
     https://www.meetup.com/polishrubyusergroup/events/300326352
-
   talks:
     - title: There is no f**ck in refactoring!
       speakers:
@@ -158,7 +149,6 @@
       published_at: "2024-04-24"
       video_provider: youtube
       video_id: 4iRxWraBimQ
-
     - title: "SQLite: it's not a toy anymore. Tooling and scope for SQLite in production Rails applications."
       speakers:
         - Tomasz Stachewicz
@@ -167,7 +157,6 @@
       published_at: "2024-04-24"
       video_provider: youtube
       video_id: 0vBCu8MEZD4
-
     - title: TBA
       speakers:
         - TODO
@@ -176,7 +165,6 @@
       published_at: ""
       video_provider: not_published
       video_id: tba-ruby-warsaw-meetup-april-2024
-
 - title: "Ruby Warsaw Meetup May 2024"
   date: "2024-05-16"
   published_at: "2024-05-23"
@@ -213,7 +201,6 @@
       published_at: "2024-05-23"
       video_provider: youtube
       video_id: rCvhGiebfK4
-
     - title: "Panel: How to Check Security of a Ruby on Rails App?"
       speakers:
         - Paweł Strzałkowski
@@ -222,7 +209,6 @@
       published_at: "2024-05-23"
       video_provider: youtube
       video_id: Pv25FaAOAsI
-
 - title: "Ruby Warsaw Meetup June 2024"
   date: "2024-06-20"
   published_at: "2024-06-28"
@@ -255,7 +241,6 @@
       published_at: "2024-06-28"
       video_provider: youtube
       video_id: kY5p7sajX1k
-
     - title: "ActualDbSchema: The creation story and purpose"
       speakers:
         - Andrei Kaleshka
@@ -264,7 +249,6 @@
       published_at: "2024-06-28"
       video_provider: youtube
       video_id: ie3i2tsDjS8
-
     - title: Training People & Knowledge Sharing
       speakers:
         - Artur Hebda
@@ -273,7 +257,6 @@
       published_at: "2024-06-28"
       video_provider: youtube
       video_id: Z1ANDo24ABo
-
 - title: "Ruby Warsaw Meetup August 2024"
   date: "2024-08-22"
   published_at: "2024-09-20"
@@ -308,7 +291,6 @@
       published_at: "2024-09-20"
       video_provider: youtube
       video_id: 23q2IzGbvh4
-
     - title: "Enhance your health at work: boost concentration, productivity & wellbeing"
       speakers:
         - Illia Zub
@@ -317,7 +299,6 @@
       published_at: ""
       video_provider: not_published
       video_id: illia-zub-ruby-warsaw-meetup-august-2024
-
     - title: TBA
       speakers:
         - TODO
@@ -326,7 +307,6 @@
       published_at: ""
       video_provider: not_published
       video_id: tba-ruby-warsaw-meetup-august-2024
-
 - title: "Ruby Warsaw Meetup September 2024"
   date: "2024-09-19"
   published_at: "2024-09-30"
@@ -367,7 +347,6 @@
       video_provider: youtube
       video_id: mlLGFyhm53Y
       language: polish
-
     - title: Self-hosting and Homelab in 2024
       speakers:
         - Tomasz Stachewicz
@@ -377,7 +356,6 @@
       video_provider: youtube
       video_id: MRdiUBEzRKQ
       language: english
-
     - title: AI-assisted data extraction
       speakers:
         - Urszula Sołogub
@@ -387,7 +365,6 @@
       video_provider: youtube
       video_id: Y7GYO-RdyMk
       language: english
-
 - title: "Ruby Warsaw Meetup October 2024"
   date: "2024-10-17"
   published_at: "2024-10-29"
@@ -426,7 +403,6 @@
     We hope to see you at the afterparty at Browary Warszawskie after the event! 🍻
 
     https://www.meetup.com/polishrubyusergroup/events/303621402
-
   talks:
     - title: My LLM is smarter than yours - How to build RAG applications and a guide to using embeddings
       speakers:
@@ -436,7 +412,6 @@
       published_at: "2024-10-29"
       video_provider: youtube
       video_id: KxGZv7Z4BQs
-
     - title: Next token! (Or how to work with LLMs)
       speakers:
         - Chris Hasiński
@@ -445,7 +420,6 @@
       published_at: "2024-10-29"
       video_provider: youtube
       video_id: "-pjS3osRRqo"
-
     - title: How to integrate on premise LLM model with your application
       speakers:
         - Sergey Sergyenko
@@ -454,7 +428,6 @@
       published_at: ""
       video_provider: not_published
       video_id: sergey-sergyenko-ruby-warsaw-meetup-october-2024
-
     - title: "The Missing Piece: Effective Tooling for Building Robust AI and Data Science Applications in Ruby"
       speakers:
         - Landon Gray
@@ -463,9 +436,9 @@
       published_at: "2024-10-29"
       video_provider: youtube
       video_id: LxvMm59uB3A
-
+#
 # 2025
-
+#
 - title: Ruby Warsaw Meetup January 2025
   raw_title: "Polish Ruby User Group (PLRUG) Warsaw Meetup January 2025"
   event_name: Polish Ruby User Group (PLRUG) Warsaw Meetup January 2025
@@ -510,7 +483,6 @@
       thumbnail_lg: https://pbs.twimg.com/media/Ghu9z53XUAA8aMe?format=jpg&name=4096x4096
       thumbnail_xl: https://pbs.twimg.com/media/Ghu9z53XUAA8aMe?format=jpg&name=4096x4096
       description: ""
-
     - title: Lightning Talks
       speakers:
         - TODO
