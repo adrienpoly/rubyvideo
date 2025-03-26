@@ -1,8 +1,8 @@
 ---
+#
 # Website: https://ruby.wien
-
 # 2024
-
+#
 - title: "Vienna.rb December 2024"
   event_name: "Vienna.rb December 2024"
   date: "2024-12-05"
@@ -60,7 +60,6 @@
       video_provider: "not_recorded"
       description: |-
         A practical guide to monkey patching without introducing unexpected bugs. Learn techniques to safely extend your code without unwanted side effects, using Ruby’s refinement feature—a tool Matz has labeled a failure. This talk will equip you with best practices for patching responsibly.
-
     - title: "10 Years of HexaPDF"
       event_name: "Vienna.rb December 2024"
       date: "2024-12-05"
@@ -73,7 +72,6 @@
         A look at how HexaPDF came to be, from idea to running a business. The journey was (and still is) filled with challenges, happy moments and things one should -in hindsight - definitely not do! 🙂 The talk is light on the technical side of HexaPDF and focuses more on the things I did and learned.
 
         Blog Post: https://gettalong.org/blog/2024/10-years-of-hexapdf.html
-
     - title: "An Epic Migration"
       event_name: "Vienna.rb December 2024"
       date: "2024-12-05"
@@ -84,9 +82,9 @@
       video_provider: "not_recorded"
       description: |-
         Join me on our epic adventure of migrating GitLab epics! In this talk, I'll dive into the challenges of executing zero-downtime migrations at scale, why we opted for bi-directional syncing (and the struggles that came with it), and how we coordinated the project. Come for the tech insights, and stay for the stories of how we tracked down out-of-sync data!
-
+#
 # 2025
-
+#
 - title: "Vienna.rb March 2025"
   event_name: "Vienna.rb March 2025"
   date: "2025-03-06"
@@ -177,7 +175,6 @@
         00:00 Start
         23:25 Live Demo
         49:40 Q&A
-
     - title: "Building Beautiful UIs with Ruby: A Rails-Native Approach"
       event_name: "Vienna.rb March 2025"
       date: "2025-03-06"
@@ -201,7 +198,6 @@
         00:00 Start
         4:08 Demo
         7:13 Q&A
-
     - title: "Jujutsu: Will it replace Git?"
       event_name: "Vienna.rb March 2025"
       date: "2025-03-06"
@@ -225,7 +221,6 @@
         00:00 Start
         0:52 What is Jujutsu
         8:46 Q&A
-
     - title: "Logical, Mr Matz: A Foray into Logic Programming in Ruby"
       event_name: "Vienna.rb March 2025"
       date: "2025-03-06"

@@ -43,7 +43,6 @@
       video_provider: youtube
       video_id: 5Qutu4xPxe0
       language: french
-
     - title: "Magic, Weird, Stranger Ruby"
       raw_title: "Magic, Weird, Stranger Ruby - Gabriel Terrien - Lyon.rb"
       speakers:
@@ -59,7 +58,6 @@
       video_provider: youtube
       video_id: zmGtszlrEX0
       language: french
-
     - title: "Comment Ruby différencie les Constantes, les Variables et les méthodes"
       raw_title: "Comment Ruby différencie les Constantes, les Variables et les méthodes - Guillaume Briday - Lyon.rb"
       speakers:
@@ -76,7 +74,6 @@
       video_provider: youtube
       video_id: MvgbOtEGpP0
       language: french
-
     - title: Module, Class et namespace
       event_name: Lyon.rb Meetup September 2019
       date: "2019-09-18"
@@ -91,7 +88,6 @@
       thumbnail_xl: https://img.youtube.com/vi/vxBLdeLLWUc/hqdefault.jpg
       speakers:
         - Joseph Blanchard
-
 - title: Lyon.rb Meetup October 2019
   event_name: Lyon.rb Meetup October 2019
   published_at: "2019-12-01"
@@ -119,7 +115,6 @@
     Nous recherchons des speakers... Ne soyez pas timide ! Que vous veniez de découvrir un sujet intéressant ou que vous le maitrisiez déjà et souhaitez le partager, merci de contacter Jean-Michel :-)
 
     https://www.meetup.com/fr-FR/LyonRB/events/265178775/
-
   thumbnail_xs: https://secure.meetupstatic.com/photos/event/9/b/5/d/600_485379773.webp?w=750
   thumbnail_sm: https://secure.meetupstatic.com/photos/event/9/b/5/d/600_485379773.webp?w=750
   thumbnail_md: https://secure.meetupstatic.com/photos/event/9/b/5/d/600_485379773.webp?w=750
@@ -143,7 +138,6 @@
       video_provider: youtube
       video_id: GjzSCqVs1P4
       language: french
-
     - title: "L'intégration de Vue.js dans un framework backend"
       raw_title: "L'intégration de Vue.js dans un framework backend - Guillaume Briday - Lyon.rb"
       speakers:
@@ -161,7 +155,6 @@
       video_id: J4uTv2dg4Yg
       language: french
       slides_url: https://speciale-lyon-rb-x-vue-js.netlify.com/
-
     - title: Les nouveautés de Vue.js 3.0
       raw_title: "Les nouveautés de Vue.js 3.0 - Adrien Montagu - Lyon.rb"
       speakers:
@@ -177,7 +170,6 @@
       video_provider: youtube
       video_id: Xv_XjCBRgO4
       language: french
-
 - title: Lyon.rb Meetup November 2019
   event_name: Lyon.rb Meetup November 2019
   published_at: "2019-12-11"
@@ -226,7 +218,6 @@
       video_provider: youtube
       video_id: FJUEMVXKC_0
       language: french
-
     - title: "La différence String / Symbol"
       raw_title: "La différence String / Symbol - Maxime Personnic - Lyon.rb"
       speakers:
@@ -242,7 +233,6 @@
       video_provider: youtube
       video_id: t_gBOhVSyzg
       language: french
-
 - title: "Lyon.rb Meetup January 2020"
   event_name: Lyon.rb Meetup January 2020
   published_at: "2020-02-22"
@@ -292,7 +282,6 @@
       video_provider: youtube
       video_id: xRQjgVcsKh8
       language: french
-
     - title: "Scaling teams with gRPC & Ruby"
       raw_title: "Scaling teams with gRPC & Ruby - Bryan Frimin - Lyon.rb"
       speakers:
@@ -308,7 +297,6 @@
       video_provider: youtube
       video_id: jVzb3oySKdY
       language: french
-
 - title: "Lyon.rb Meetup February 2020"
   event_name: Lyon.rb Meetup February 2020
   published_at: "2020-02-28"
@@ -340,7 +328,6 @@
     Vous souhaitez présenter ou proposer un sujet à la communauté ? Contactez Jean-Michel ou Guillaume.
 
     https://www.meetup.com/fr-FR/LyonRB/events/268033713
-
   video_provider: children
   video_id: lyon-rb-meetup-february-2020
   language: french
@@ -362,7 +349,6 @@
       video_provider: youtube
       video_id: aWv9NWQPvu4
       language: french
-
     - title: "Un aperçu de Postman"
       raw_title: "Un aperçu de Postman - François Belle - Lyon.rb"
       speakers:
@@ -378,7 +364,6 @@
       video_provider: youtube
       video_id: UVSTxuHfqUA
       language: french
-
 - title: "Lyon.rb Meetup April 2020"
   event_name: Lyon.rb Meetup April 2020
   published_at: "2020-02-23"
@@ -414,7 +399,6 @@
     Vous souhaitez présenter ou proposer un sujet à la communauté ? Contactez Jean-Michel ou Guillaume.
 
     https://www.meetup.com/fr-FR/LyonRB/events/268034312
-
 - title: "Lyon.rb Meetup June 2022"
   event_name: Lyon.rb Meetup June 2022
   published_at: "2022-06-26"
@@ -472,7 +456,6 @@
       thumbnail_md: https://img.youtube.com/vi/zXYwNEk1ZvQ/mqdefault.jpg
       thumbnail_lg: https://img.youtube.com/vi/zXYwNEk1ZvQ/hqdefault.jpg
       thumbnail_xl: https://img.youtube.com/vi/zXYwNEk1ZvQ/hqdefault.jpg
-
     - title: "Threads et Ractors : concurrence et parallélisme en Ruby"
       raw_title: "Threads et Ractors : concurrence et parallélisme en Ruby - Gabriel Terrien - Lyon.rb"
       speakers:
@@ -489,7 +472,6 @@
       video_provider: youtube
       video_id: AVIt2wSxNwM
       language: french
-
     - title: "Postgres FDW FTW"
       raw_title: "Postgres FDW FTW - Mehdi Lahmam - Lyon.rb"
       speakers:
@@ -511,7 +493,6 @@
       thumbnail_md: https://img.youtube.com/vi/IxaLhF3hcy0/mqdefault.jpg
       thumbnail_lg: https://img.youtube.com/vi/IxaLhF3hcy0/hqdefault.jpg
       thumbnail_xl: https://img.youtube.com/vi/IxaLhF3hcy0/hqdefault.jpg
-
 - title: "Lyon.rb Meetup March 2024"
   event_name: Lyon.rb Meetup March 2024
   published_at: "2024-10-17"
@@ -542,7 +523,6 @@
     Vous souhaitez présenter ou proposer un sujet à la communauté ? Contactez Jean-Michel ou Guillaume.
 
     https://www.meetup.com/lyonrb/events/287815581/
-
   talks:
     - title: "Why You Really Don't Need SPA with Hotwire"
       raw_title: "Why You Really Don't Need SPA with Hotwire - Guillaume Briday - Lyon.rb Meetup 03/2024"
@@ -567,7 +547,6 @@
       video_id: JzxZSs161oU
       language: french
       slides_url: https://why-you-really-dont-need-spa.guillaumebriday.fr/
-
 - title: Lyon.rb Meetup July 2024
   event_name: Lyon.rb Meetup July 2024
   published_at: "2024-08-29"
@@ -604,7 +583,6 @@
     Vous souhaitez présenter ou proposer un sujet à la communauté ? Contactez Jean-Michel ou Guillaume.
 
     https://www.meetup.com/lyonrb/events/301316102/
-
   talks:
     - title: "TypeScript en Ruby 3 ? .rbs, Sorbet, quésaco?"
       raw_title: "TypeScript en Ruby 3 ? .rbs, Sorbet, quésaco? - Guillaume Briday - Lyon.rb Meetup 07/2024"
@@ -629,7 +607,6 @@
       video_id: c0i1YYGhJ-M
       language: french
       slides_url: https://types-in-ruby.guillaumebriday.fr/
-
     - title: "Les 12 facteurs dans une application SaaS"
       raw_title: "Les 12 facteurs dans une application SaaS - Geoffroy Dubruel - Lyon.rb 2024.6"
       speakers:
@@ -645,7 +622,6 @@
       video_provider: youtube
       video_id: Iuwt_wntVrs
       language: french
-
     - title: "C'est quoi une Content Security Policy (CSP) ?"
       raw_title: "C'est quoi une Content Security Policy (CSP) ? - Mathieu Eustachy - Lyon.rb 2024.6"
       speakers:
@@ -661,7 +637,6 @@
       video_provider: youtube
       video_id: "-XulJV-Bwss"
       language: french
-
 - title: Lyon.rb Meetup October 2024
   event_name: Lyon.rb Meetup October 2024
   published_at: "2024-10-31"
@@ -694,7 +669,6 @@
     Vous souhaitez présenter ou proposer un sujet à la communauté ? Contactez Guillaume Briday ou Jean-Michel Gigault.
 
     https://www.meetup.com/lyonrb/events/303824727
-
   video_provider: children
   video_id: lyon-rb-meetup-october-2024
   language: french
@@ -722,7 +696,6 @@
       video_id: mYXfPPlVwpQ
       language: french
       slides_url: https://kamal-2-why-and-how-you-should-leave-the-cloud.guillaumebriday.fr/
-
     - title: "Pourquoi fait-on du multi-cloud Heroku, Scalingo et GCP ?"
       raw_title: "Pourquoi fait-on du multi-cloud Heroku, Scalingo et GCP ? - Jean-Michel Gigault - Lyon.rb"
       speakers:
@@ -739,7 +712,6 @@
       video_provider: youtube
       video_id: LZO6LiuMgWA
       language: french
-
     - title: "Ruby, Rails et les dates"
       raw_title: "Ruby, Rails et les dates - Goulven Champenois - Lyon.rb 2024.10"
       speakers:
@@ -757,7 +729,6 @@
       video_id: "-aEM7U1T8wI"
       language: french
       slides_url: https://speakerdeck.com/goulvench/ruby-rails-et-les-dates
-
 - title: Lyon.rb Meetup November 2024
   event_name: Lyon.rb Meetup November 2024
   published_at: "2024-10-31"
@@ -788,7 +759,6 @@
     🥗 🍕 Il sera accompagné d'un buffet et de boissons pour profiter au mieux de la soirée !
 
     https://www.meetup.com/lyonrb/events/304303057/
-
   video_provider: children
   video_id: Lyon-rb-Meetup-november-2024
   language: french

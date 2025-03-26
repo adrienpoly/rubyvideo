@@ -15,7 +15,6 @@
     Recently relocated to San Francisco, she's breathing new life into the tech scene by relaunching the SF Bay Area Ruby meetup—now a monthly gathering spot for over 100 developers.
 
     CEO of Evil Martians and co-founder of AnyCable, is one of the brilliant minds joining us at Tropical On Rails 2025 to share her expertise, innovative techniques, and insights from her experiences.
-
 - title: "Scaling Rails: The Journey to 200M Notifications"
   raw_title: "Scaling Rails: The Journey to 200M Notifications"
   speakers:
@@ -31,7 +30,6 @@
     Senior Software Engineer at CloudWalk and passionate about building scalable and efficient software solutions. He has over a decade of experience in developing high-performance systems and currently contributes to the creation of InfinitePay, one of the leading payment solutions in Brazil.
 
     In the talk "Scaling Rails: The Journey to 200M Notifications", he will share his experience in scaling a Ruby on Rails application to send millions of notifications, addressing challenges, trade-offs, and technical decisions to transform an MVP into a robust and scalable system.
-
 - title: "Scaling RubyVideo.dev: The mission to index all Ruby conferences"
   raw_title: "Scaling RubyVideo.dev: The mission to index all Ruby conferences"
   speakers:
@@ -47,7 +45,6 @@
     Marco is a full-stack Ruby on Rails developer and actively contributes to open-source. Focused on improving the developer experience, he collaborates on projects like Hotwire and StimulusReflex.
 
     In his talk "Scaling RubyVideo.dev: The mission to index all Ruby conferences", Marco will share how he is building a comprehensive repository of Ruby talks. He will address technical challenges, strategies, and bring exclusive announcements!
-
 - title: "Keynote by Vinicius Stock"
   raw_title: "Keynote by Vinicius Stock"
   speakers:
@@ -65,7 +62,6 @@
     In addition to coding, he's also a blog writer, conference speaker, and now he's joining us at Tropical On Rails 2025...
 
     Vinicius Stock is another confirmed speaker for our event! Currently, Vini is the tech lead for the Ruby developer experience team at Shopify, the main author of the Ruby LSP, and a contributor to various other open-source technologies.
-
 - title: "Hotwire meets The Platform™: a new way to build PWAs relying on native HTML APIs"
   raw_title: "Hotwire meets The Platform™: a new way to build PWAs relying on native HTML APIs"
   speakers:
@@ -83,7 +79,6 @@
     In the talk "Hotwire meets The Platform™",  he will show how to combine Rails + native APIs to create robust and offline-capable PWAs in an innovative and simple way.
 
     Outside of coding, he enjoys the classics of Mark Twain and moments with his wife and daughter.
-
 - title: "The Great Mobile Hack: Hotwire Native"
   raw_title: "The Great Mobile Hack: Hotwire Native"
   speakers:
@@ -99,7 +94,6 @@
     Software Engineer, graduated from the University of Yucatán (UADY), I have been working with Ruby on Rails for over 6 years, currently working as a Full-Stack developer at Telos Labs, being the Tech Lead of the non-profit application SaverLife.org.
 
     In the talk "The Great Mobile Hack: Hotwire Native" we will explore how we migrated our web application from the conference that will be used at the Tropical on Rails 2025 event to a native mobile experience using Hotwire Native, maintaining the agility of Rails while delivering the smooth experience that users expect from a native application.
-
 - title: "From React to Hotwire, the right path"
   raw_title: "From React to Hotwire, the right path"
   speakers:
@@ -113,7 +107,6 @@
   id: "jackson-pires-tropical-on-rails-2025"
   description: |-
     Jackson met Ruby on Rails in 2007 while developing his college thesis, and since then he has spread knowledge through his courses. In his free time, he enjoys playing with his son and having fun with his family.
-
 - title: "Defying Front-End Inertia: Inertia.js on Rails"
   raw_title: "Defying Front-End Inertia: Inertia.js on Rails"
   speakers:
@@ -129,7 +122,6 @@
     Dedicated to bridging the gap between backend and frontend worlds. Creator of tools like Skooma to define strong interfaces and TurboMount to enhance Hotwire with modern frontend widgets. A passionate contributor to Inertia Rails, making it easier for the Rails community to embrace modern frontend development.
 
     In the talk "Challenging Front-End Inertia: Inertia.js in Rails" he will share with us how to unlock the power of modern frontend frameworks in Rails with Inertia.js! Building dynamic, single-page applications while maintaining the simplicity of Rails - without APIs, without client-side boilerplate.
-
 - title: "Keynote by Xavier Noria"
   raw_title: "Keynote by Xavier Noria"
   speakers:
@@ -143,9 +135,9 @@
   id: "xavier-noria-tropical-on-rails-2025"
   description: |-
     Everlasting student · Rails Core · Zeitwerk · Freelance · Life lover
-
+#
 ## Day 2 - 2025-04-04
-
+#
 - title: "Keynote by Chris Oliver"
   raw_title: "Keynote by Chris Oliver"
   speakers:
@@ -159,7 +151,6 @@
   id: "chris-oliver-tropical-on-rails-2025"
   description: |-
     He's a Rails expert, creator of Jumpstart Pro (a starter kit for Rails) and http://Hatchbox.io (Rails hosting). He also hosts the Remote Ruby Podcast and shares weekly Ruby on Rails screencasts at http://GoRails.com.
-
 - title: "Don't Rewrite Your Framework"
   raw_title: "Don't Rewrite Your Framework"
   speakers:
@@ -175,7 +166,6 @@
     With more than 10 years of experience in development, he holds a master's degree in Applied Computing from UTFPR-CT and has spoken at events such as TDC, Laraconf, and FTSL.
 
     In the talk "Don't Rewrite Your Framework", Vinícius will explore little-known features of Ruby on Rails that can prevent unnecessary rework. Based on studies of the documentation and discussions in communities, he brings valuable insights for those who want to write more efficient code.
-
 - title: "Full Circle: How Modern Ruby Powers the Re-integration of High-Speed Microservices into Rails"
   raw_title: "Full Circle: How Modern Ruby Powers the Re-integration of High-Speed Microservices into Rails"
   speakers:
@@ -192,7 +182,6 @@
     Founder of a startup as a solo engineer in 2012, later he joined the Zendesk headquarters in San Francisco, one of the leading companies using Ruby in the world. Performance optimization has been his obsession since the founding of his first startup. He currently holds the position of Group Tech Lead and Senior Staff Engineer.
 
     In his talk, "How Modern Ruby Powers High-Speed Microservices Reintegration in Rails", he will guide us through the fascinating journey of the Zendesk Indexer—which was extracted from a Rails monolith to become a high-speed microservice and is now returning. Discover how Kubernetes and event-driven architecture are rewriting the rules of scalability, proving that sometimes the future is in the past.
-
 - title: "Apache Pinot: A Tale of an Active Record Adapter"
   raw_title: "Apache Pinot: A Tale of an Active Record Adapter"
   speakers:
@@ -208,7 +197,6 @@
     Celso has a journey that started as a sysadmin in 2005 and, since 2010, has dedicated himself to web development with Rails, dealing with large-scale operations.
 
     In the talk "Apache Pinot: An Active Record Adapter Tale", he will share the challenge of writing an Active Record Adapter running in production and encourage the community to explore the core of Rails.
-
 - title: "Kamal 2 – Get Out of Cloud"
   raw_title: "Kamal 2 – Get Out of Cloud"
   speakers:
@@ -222,7 +210,6 @@
   id: "igor-alexandrov-tropical-on-rails-2025"
   description: |-
     Igor is an experienced Ruby engineer, a Docker Captain, a Chief Technology Officer, and the co-founder of JetRockets. He is a father of two children and enjoys diving when he can.
-
 - title: "Ruby Internals: A Guide for Rails Developers"
   raw_title: "Ruby Internals: A Guide for Rails Developers"
   speakers:
@@ -238,7 +225,6 @@
     Senior Developer at thoughtbot and a member of the Rails issues team. With nearly 10 years of experience, Ruby has always been his favorite language. Besides coding, Matheus is passionate about music, games, and building interpreters.
 
     In the talk "Ruby Internals: A Guide for Rails Developers", he will explore how Ruby interprets and executes code. A journey behind the scenes of the language and its impacts on Rails!
-
 - title: "Resilient Jobs and Chaotic Tests"
   raw_title: "Resilient Jobs and Chaotic Tests"
   speakers:
@@ -254,7 +240,6 @@
     Stephen is an American expatriate living in Berlin. He is a regular contributor to Rails and the sqlite3-ruby gem, as well as having a handful of gems aimed at making Ruby and Rails the best platforms in the world for running SQLite projects.
 
     In the talk "Resilient Jobs and Chaotic Tests," he will share his experiences with various scenarios, mainly the most chaotic ones, and explore possibilities that help companies and development teams make work more reliable and resilient.
-
 - title: "AI has already changed software development"
   raw_title: "AI has already changed software development"
   speakers:
@@ -268,7 +253,6 @@
   id: "radames-roriz-tropical-on-rails-2025"
   description: |-
     Senior Engineer @ Knowbe4 • Passionate about solving real problems and creating products that positively impact people's lives.
-
 - title: "Keynote by Rosa Gutiérrez"
   raw_title: "Keynote by Rosa Gutiérrez"
   speakers:

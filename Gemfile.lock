@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/adrienpoly/psych-comments.git
+  revision: c3bdd9102e0e2f247a880a6eb92df954d836f947
+  branch: rubyvideo
+  specs:
+    psych-comments (0.1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -652,6 +659,7 @@ DEPENDENCIES
   ostruct
   pagy
   propshaft
+  psych-comments!
   puma
   rack-mini-profiler
   rails (~> 8.0)

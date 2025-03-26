@@ -1,8 +1,8 @@
 ---
+#
 # Website: https://valenciarb.org/en
-
 # 2024
-
+#
 - title: "Valencia.rb December 2024"
   event_name: "Valencia.rb December 2024"
   date: "2024-12-11"
@@ -45,7 +45,6 @@
         After exploring existing alternatives, we decided to build our own and aim to make it the default for Rails 8.
 
         In this talk, I’ll present Solid Queue, explain some of the problems we had over the years, how we designed Solid Queue to address them, and all the Fun™ we had doing that.
-
     - title: "Demystifying JIT Compilers with Ruby YJIT"
       event_name: "Valencia.rb December 2024"
       date: "2024-12-11"
@@ -61,9 +60,9 @@
       thumbnail_xl: https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:tin7f6teieaisxohxovzo3wv/bafkreihzz3pbu3vx3ydrskxlg7nw6lr23to5lb2bfd2fmcyiaz2jodvy7u@jpeg
       description: |-
         In this talk, we will explore the wonderful world of Just-in-Time compilation, take a look at how Ruby JIT has evolved along with the language itself. And what impact the newest versions of Ruby can have on the performance of real applications
-
+#
 # 2025
-
+#
 - title: "Valencia.rb February 2025"
   event_name: "Valencia.rb February 2025"
   date: "2025-02-05"

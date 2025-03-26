@@ -1,8 +1,8 @@
 ---
+#
 # Website: https://www.madridrb.com
-
 # 2024
-
+#
 - title: "Madrid.rb November 2024"
   event_name: "Madrid.rb November 2024"
   date: "2024-11-07"
@@ -59,7 +59,6 @@
       description: ""
       speakers:
         - Mariusz Kozieł
-
     - title: 'Code Review Automation: Getting Rid of "You Forgot To..." Comments'
       event_name: "Madrid.rb November 2024"
       date: "2024-11-07"
@@ -74,7 +73,6 @@
         X: https://x.com/RubyEurope
       speakers:
         - Egor Iskrenkov
-
     - title: "My LLM is smarter than yours - RAG and Vector Search in Ruby"
       event_name: "Madrid.rb November 2024"
       date: "2024-11-07"
@@ -82,9 +80,9 @@
       video_id: "madrid-rb-meetup-november-2024-pawel-strzalkowski"
       speakers:
         - Paweł Strzałkowski
-
+#
 # 2025
-
+#
 - title: "Madrid.rb January 2025"
   event_name: "Madrid.rb January 2025"
   date: "2025-01-30"

@@ -1,9 +1,10 @@
 ---
+#
 # TODO: talks running order
 # TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
-
+#
 - title: "Archaeopteryx: Lambdas in Detail"
   raw_title: "MountainWest RubyConf 2010 - Archaeopteryx: Lambdas in Detail by Giles Bowkett"
   speakers:
@@ -11,11 +12,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: zw1V6dZ1_j0
-
 - title: EventMachine
   raw_title: MountainWest RubyConf 2010 - EventMachine by Aman Gupta
   speakers:
@@ -23,11 +22,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: GEd3KQEGj0Q
-
 - title: A Tale of Two Codebases
   raw_title: MountainWest RubyConf 2010 - A Tale of Two Codebases by Pat Maddox
   speakers:
@@ -35,11 +32,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: HznXiuTAi6g
-
 - title: "Decent into Darkness: Understanding Your System's Binary Interface Is The Only Way Out"
   raw_title: "MountainWest RubyConf 2010 - Decent into Darkness: Understanding Your System's Binary Interface..."
   speakers:
@@ -51,10 +46,8 @@
     is the Only Way Out
 
     by Joe Damato
-
   video_provider: youtube
   video_id: g8A0Wa7REZI
-
 - title: MongoDB Rules
   raw_title: MountainWest RubyConf 2010 - MongoDB Rules by Kyle Banker
   speakers:
@@ -62,11 +55,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: V3hUrEYYyuY
-
 - title: "Mobile Rubyby"
   raw_title: MountainWest RubyConf 2010 - Mobile Rubyby Sarah Allen
   speakers:
@@ -74,11 +65,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: xUVLtgSj0Hs
-
 - title: "Hubris: The Ruby/Haskell Bridge"
   raw_title: "MountainWest RubyConf 2010 - Hubris: The Ruby/Haskell Bridge by James Britt"
   speakers:
@@ -86,11 +75,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: UqUGBKaehq4
-
 - title: Ruby Techniques by Example
   raw_title: MountainWest RubyConf 2010 - Ruby Techniques by Example by Jeremy Evans
   speakers:
@@ -98,11 +85,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: F2NGGrLhYKw
-
 - title: Ruby Macros
   raw_title: MountainWest RubyConf 2010 - Ruby Macros by Caleb Clausen
   speakers:
@@ -110,11 +95,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: s7qot98I54A
-
 - title: Ruby 124c41+
   raw_title: MountainWest RubyConf 2010 - Ruby 124c41+ by Yukihio 'Matz' Matsumoto
   speakers:
@@ -122,18 +105,15 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: N0hnS6UNFo0
-
 - title: Lightning Talks Part 1
   raw_title: MountainWest RubyConf 2010 - Lightning Talks Part 1
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: lKwIKXv0GOY
   talks:
@@ -144,7 +124,6 @@
       video_id: david-brady-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - David Brady
-
     - title: "Lightning Talk: Observations"
       start_cue: "5:10"
       end_cue: "9:20"
@@ -152,7 +131,6 @@
       video_id: jeremy-observations-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - TODO # Jeremy TODO: missing last name
-
     - title: "Lightning Talk: Chad Woolley"
       start_cue: "9:20"
       end_cue: "14:18"
@@ -160,7 +138,6 @@
       video_id: chad-woolley-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - Chad Woolley
-
     - title: "Lightning Talk: Memberof.com Demo"
       start_cue: "14:18"
       end_cue: "23:42"
@@ -168,7 +145,6 @@
       video_id: todo-lighting-talk-mountainwest-rubyconf-2010-1
       speakers:
         - TODO # TODO: missing name
-
     - title: "Lightning Talk: HTML5 Offline"
       start_cue: "23:42"
       end_cue: "29:04"
@@ -176,7 +152,6 @@
       video_id: todo-lighting-talk-mountainwest-rubyconf-2010-2
       speakers:
         - TODO # TODO: missing name
-
     - title: "Lightning Talk: E-Commerce"
       start_cue: "29:04"
       end_cue: "34:44"
@@ -184,7 +159,6 @@
       video_id: todo-lighting-talk-mountainwest-rubyconf-2010-3
       speakers:
         - TODO # TODO: missing name
-
     - title: "Lightning Talk: Screen Manager"
       start_cue: "34:44"
       end_cue: "38:29"
@@ -192,7 +166,6 @@
       video_id: todo-lighting-talk-mountainwest-rubyconf-2010-4
       speakers:
         - TODO # TODO: missing name
-
     - title: "Lightning Talk: SimpleGeo"
       start_cue: "38:29"
       end_cue: "42:49"
@@ -200,7 +173,6 @@
       video_id: todo-lighting-talk-mountainwest-rubyconf-2010-5
       speakers:
         - TODO # TODO: missing name
-
     - title: "Lightning Talk: Rails Gin"
       start_cue: "42:49"
       end_cue: "45:02"
@@ -208,7 +180,6 @@
       video_id: todo-lighting-talk-mountainwest-rubyconf-2010-6
       speakers:
         - TODO # TODO: missing name
-
     - title: "Lightning Talk: Chris Smith"
       start_cue: "45:02"
       end_cue: "50:31"
@@ -216,7 +187,6 @@
       video_id: chris-smith-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - Chris Smith
-
     - title: "Lightning Talk: CoffeeScript"
       start_cue: "50:31"
       end_cue: "TODO"
@@ -224,7 +194,6 @@
       video_id: todo-lighting-talk-mountainwest-rubyconf-2010-7
       speakers:
         - TODO # TODO: missing name
-
 - title: "Dynamic Generation of Images and Video with Ruby-Processing"
   raw_title: MountainWest RubyConf 2010 - Dynamic Generation of Images and Video with Ruby-Processing
   speakers:
@@ -234,10 +203,8 @@
   published_at: "TODO"
   description: |-
     by Jeff Casimir
-
   video_provider: youtube
   video_id: ud6xttMyoJ4
-
 - title: Documentation and the Whole nine YARDs
   raw_title: MountainWest RubyConf 2010 - Documentation and the Whole nine YARDs by Loren Segal
   speakers:
@@ -245,11 +212,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: yFRuneIwybQ
-
 - title: I was wrong about ruport
   raw_title: MountainWest RubyConf 2010 - I was wrong about ruport by Gregory Brown
   speakers:
@@ -257,11 +222,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: O6HjLxAzXxs
-
 - title: "How HTTP Already Solved All Your Performance Problems 10 Years Ago"
   raw_title: MountainWest RubyConf 2010 - How HTTP already solved all your performance problems 10 years ago
   speakers:
@@ -271,10 +234,8 @@
   published_at: "TODO"
   description: |-
     by Paul Sadauskas
-
   video_provider: youtube
   video_id: 11Cc7NZVMTQ
-
 - title: "Writing Modular Ruby Code: Lessons Learned from Rails 3"
   raw_title: "MountainWest RubyConf 2010 - Writing Modular Ruby Code: Lessons Learned from Rails 3 by Yehuda Katz"
   speakers:
@@ -282,11 +243,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: NWpICBV6ceY
-
 - title: Rack For Web Developers
   raw_title: MountainWest RubyConf 2010 - Rack for web developers by Michael J. I. Jackson
   speakers:
@@ -294,11 +253,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: PoiYZd8qkqg
-
 - title: Managing Ruby Projects with RVM
   raw_title: MountainWest RubyConf 2010 - Managing Ruby Projects with RVM by Wayne E. Seguin
   speakers:
@@ -306,11 +263,9 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: O7M0tTJc9mY
-
 - title: Cooking with Chef - Your Servers Will Thank You
   raw_title: MountainWest RubyConf 2010 - Cooking with Chef - Your servers will thank you by James Golick
   speakers:
@@ -318,18 +273,15 @@
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: xmGurcJ1rUA
-
 - title: Lightning Talks (Day 2)
   raw_title: MountainWest RubyConf 2010 - Lightning Talks 2 by Various Presenters
   event_name: MountainWest RubyConf 2010
   date: "2015-02-11"
   published_at: "TODO"
-  description: |-
-
+  description: ""
   video_provider: youtube
   video_id: _mN4HJIhpYo
   talks:
@@ -340,7 +292,6 @@
       video_id: ginny-hendry-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - Ginny Hendry
-
     - title: "Lightning Talk: Git and GitHub"
       start_cue: "5:10"
       end_cue: "6:27"
@@ -348,7 +299,6 @@
       video_id: john-woodell-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - John Woodell
-
     - title: "Lightning Talk: ruby-fs-stack"
       start_cue: "6:27"
       end_cue: "11:33"
@@ -356,7 +306,6 @@
       video_id: jimmy-zimmerman-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - Jimmy Zimmerman
-
     - title: "Lightning Talk: RubyMine"
       start_cue: "11:33"
       end_cue: "16:45"
@@ -364,7 +313,6 @@
       video_id: mark-lighting-talk-mountainwest-rubyconf-2010-1
       speakers:
         - Mark # TODO: missing last name https://cln.sh/ZJmbRdQH
-
     - title: "Lightning Talk: Geo Tweeter"
       start_cue: "16:45"
       end_cue: "20:55"
@@ -372,7 +320,6 @@
       video_id: nora-howard-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - Nora Howard
-
     - title: "Lightning Talk: Hexagonal Architecture"
       start_cue: "20:55"
       end_cue: "20:52"
@@ -380,7 +327,6 @@
       video_id: alistair-coburn-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - Alistair Coburn
-
     - title: "Lightning Talk: Bash Deployment & Server Manager"
       start_cue: "20:52"
       end_cue: "30:17"
@@ -388,7 +334,6 @@
       video_id: wayne-e-seguin-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - Wayne E. Seguin
-
     - title: "Lightning Talk: Unobtrusively Extending Git with Gitty"
       start_cue: "30:17"
       end_cue: "35:45"
@@ -396,7 +341,6 @@
       video_id: tim-harper-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - Tim Harper
-
     - title: "Lightning Talk: Agile - Back To The Future"
       start_cue: "35:45"
       end_cue: "41:01"
@@ -404,7 +348,6 @@
       video_id: andrew-clay-shafer-lighting-talk-mountainwest-rubyconf-2010
       speakers:
         - Andrew Clay Shafer
-
     - title: "Lightning Talk: Donkey"
       start_cue: "41:01"
       end_cue: "TODO"
