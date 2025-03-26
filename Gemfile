@@ -71,6 +71,11 @@ group :development, :test do
   gem "debug", platforms: %i[mri windows]
   gem "byebug", "~> 11.1"
   gem "minitest-difftastic", "~> 0.2"
+
+  # parse yml files and preserves comments
+  # for now we use a fork of the gem with PRs merged to preserve inline comments
+  # https://github.com/adrienpoly/psych-comments/tree/rubyvideo
+  gem "psych-comments", git: "https://github.com/adrienpoly/psych-comments.git", branch: "rubyvideo", require: false
 end
 
 group :development do
