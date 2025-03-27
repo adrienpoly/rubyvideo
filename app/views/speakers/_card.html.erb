@@ -1,5 +1,5 @@
 <%= link_to speaker_path(speaker), class: "flex w-full relative bg-white" do %>
-  <div class="card card-compact card-side border h-full w-full">
+  <div class="card card-compact card-side shadow-sm h-full w-full">
     <figure>
       <%= image_tag speaker.avatar_url(size: 250),
             alt: "picture profile of #{speaker.name}",
