@@ -719,3 +719,75 @@
   slug: polishrubyusergroup
   language: english
   youtube_channel_id: ""
+
+- name: Lyon.rb Meetup
+  website: https://www.meetup.com/LyonRB
+  twitter: lyonrb
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: ""
+  default_country_code: FR
+  youtube_channel_name: "Lyonrb"
+  slug: lyon-rb
+  language: french
+  youtube_channel_id: "UCFqRbkEEaM4w1iEK1ovBXxg"
+
+- name: Ruby India
+  website: https://lu.ma/user/rubyindia
+  twitter: ruby_ind
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: ""
+  default_country_code: IN
+  youtube_channel_name: ""
+  slug: ruby-india
+  language: english
+  youtube_channel_id: ""
+
+- name: Vienna.rb
+  website: https://ruby.wien
+  twitter: viennarb
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: ""
+  default_country_code: AT
+  youtube_channel_name: ""
+  slug: vienna-rb
+  language: english
+  youtube_channel_id: ""
+
+- name: Geneva.rb
+  website: https://www.meetup.com/geneva-rb
+  twitter: ""
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: ""
+  default_country_code: CH
+  youtube_channel_name: ""
+  slug: geneva-rb
+  language: english
+  youtube_channel_id: ""
+
+- name: Ruby in London
+  website: https://www.meetup.com/ruby-in-london
+  twitter: ""
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: ""
+  default_country_code: UK
+  youtube_channel_name: ""
+  slug: ruby-in-london
+  language: english
+  youtube_channel_id: ""
+
+- name: Ruby Montevideo
+  website: https://www.meetup.com/ruby-montevideo
+  twitter: rubymontevideo
+  kind: meetup
+  frequency: monthly
+  playlist_matcher: ""
+  default_country_code: UY
+  youtube_channel_name: ruby_uy
+  slug: ruby-montevideo
+  language: english
+  youtube_channel_id: UCNTm-kFfkP_ArKDcXoQpxiQ

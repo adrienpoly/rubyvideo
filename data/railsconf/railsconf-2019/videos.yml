@@ -9,7 +9,8 @@
   speakers:
     - Jameson Hampton
   event_name: RailsConf 2019
-  published_at: "2019-05-20"
+  date: "2019-05-20"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Walking A Mile In Your Users' Shoes by Jameson Hampton
 
@@ -36,7 +37,8 @@
   speakers:
     - Joel Hawksley
   event_name: RailsConf 2019
-  published_at: "2019-05-20"
+  date: "2019-05-20"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Rethinking the View Layer with Components by Joel Hawksley
 
@@ -63,7 +65,8 @@
   speakers:
     - Justin Searls
   event_name: RailsConf 2019
-  published_at: "2019-05-20"
+  date: "2019-05-20"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - The Selfish Programmer by Justin Searls
 
@@ -94,7 +97,8 @@
   speakers:
     - James Dabbs
   event_name: RailsConf 2019
-  published_at: "2019-05-20"
+  date: "2019-05-20"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Refactoring Live: Primitive Obsession by James Dabbs
 
@@ -121,7 +125,8 @@
   speakers:
     - Danielle Gordon
   event_name: RailsConf 2019
-  published_at: "2019-05-20"
+  date: "2019-05-20"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 -Webpacker vs Asset Pipeline by Danielle Gordon
 
@@ -149,7 +154,8 @@
   speakers:
     - David Heinemeier Hansson
   event_name: RailsConf 2019
-  published_at: "2019-05-20"
+  date: "2019-05-20"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Opening Keynote by David Heinemeier Hansson
 
@@ -173,7 +179,8 @@
   speakers:
     - Ariel Caplan
   event_name: RailsConf 2019
-  published_at: "2019-05-20"
+  date: "2019-05-20"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Keynote: The Stories We Tell Our Children by Ariel Caplan
 
@@ -198,7 +205,8 @@
   speakers:
     - Molly Struve
   event_name: RailsConf 2019
-  published_at: "2019-05-22"
+  date: "2019-05-22"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Cache is King by Molly Struve
     _______________________________________________________________________________________________
@@ -222,7 +230,8 @@
   speakers:
     - Takashi Kokubun
   event_name: RailsConf 2019
-  published_at: "2019-05-22"
+  date: "2019-05-22"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Performance Improvement of Ruby 2.7 JIT in Real World by Takashi Kokubun
 
@@ -249,7 +258,8 @@
   speakers:
     - James Thompson
   event_name: RailsConf 2019
-  published_at: "2019-05-22"
+  date: "2019-05-22"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Building for Gracious Failure by James Thompson
 
@@ -273,7 +283,8 @@
   speakers:
     - Michael Toppa
   event_name: RailsConf 2019
-  published_at: "2019-05-22"
+  date: "2019-05-22"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Applying Omotenashi (Japanese customer service) to your work by Michael Toppa
 
@@ -300,7 +311,8 @@
   speakers:
     - Brady Kriss
   event_name: RailsConf 2019
-  published_at: "2019-05-22"
+  date: "2019-05-22"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Keynote: How we make good by Brady Kriss
 
@@ -323,12 +335,16 @@
 - title: Lightning Talks
   raw_title: RailsConf 2019 - Lightning Talks by Various Speakers
   event_name: RailsConf 2019
-  published_at: "2019-05-22"
+  date: "2019-05-22"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: AI5wmnzzBqc
   talks:
-    - title: "Lightning Talk: Chat etiquette"
+    - title: "Lightning Talk: Chat Etiquette"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:00:05"
       end_cue: "00:01:21"
       video_id: jason-meller-lighting-talk-railsconf-2019
@@ -337,6 +353,9 @@
         - Jason Meller
 
     - title: "Lightning Talk: Matthew Nielson"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:01:21"
       end_cue: "00:02:28"
       video_id: matthew-nielson-lighting-talk-railsconf-2019
@@ -345,6 +364,9 @@
         - Matthew Nielson
 
     - title: "Lightning Talk: Minneapolis Climate Action"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:02:28"
       end_cue: "00:03:16"
       video_id: jonathan-slate-lighting-talk-railsconf-2019
@@ -353,6 +375,9 @@
         - Jonathan Slate
 
     - title: "Lightning Talk: Why You Should Hire Me"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:03:16"
       end_cue: "00:08:41"
       video_id: morgan-fogarty-lighting-talk-railsconf-2019
@@ -361,6 +386,9 @@
         - Morgan Fogarty
 
     - title: "Lightning Talk: Coinbase Service Framework (CSF) - Strong API Contracts in Rails"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:08:41"
       end_cue: "00:12:51"
       video_id: michael-de-hoog-lighting-talk-railsconf-2019
@@ -369,6 +397,9 @@
         - Michael de Hoog
 
     - title: "Lightning Talk: Confreaks"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:12:51"
       end_cue: "00:17:54"
       video_id: cindy-backman-lighting-talk-railsconf-2019
@@ -377,6 +408,9 @@
         - Cindy Backman
 
     - title: "Lightning Talk: Learn Enough Scholarship Program"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:17:54"
       end_cue: "00:22:53"
       video_id: michael-hartl-lighting-talk-railsconf-2019
@@ -384,7 +418,10 @@
       speakers:
         - Michael Hartl
 
-    - title: "Lightning Talk: Graphiti.dev alternative to GraphQL honoring the concept of RESTful resource"
+    - title: "Lightning Talk: Graphiti.dev Alternative to GraphQL Honoring the Concept of RESTful Resource"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:22:53"
       end_cue: "00:27:56"
       video_id: lee-richmond-lighting-talk-railsconf-2019
@@ -393,6 +430,9 @@
         - Lee Richmond
 
     - title: "Lightning Talk: Madrid's consulproject.org for participatory democracy"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:27:56"
       end_cue: "00:32:59"
       video_id: raimond-garcia-lighting-talk-railsconf-2019
@@ -400,7 +440,10 @@
       speakers:
         - Raimond Garcia
 
-    - title: "Lightning Talk: ActionCable testing PR #23211"
+    - title: "Lightning Talk: ActionCable Testing PR #23211"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:32:59"
       end_cue: "00:37:08"
       video_id: vladimir-dementyev-lighting-talk-railsconf-2019
@@ -409,6 +452,9 @@
         - Vladimir Dementyev
 
     - title: "Lightning Talk: kirillian/shiplane"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:37:08"
       end_cue: "00:42:09"
       video_id: john-epperson-lighting-talk-railsconf-2019
@@ -417,6 +463,9 @@
         - John Epperson
 
     - title: "Lightning Talk: rubymap.com"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:42:09"
       end_cue: "00:43:47"
       video_id: lewis-buckley-lighting-talk-railsconf-2019
@@ -425,6 +474,9 @@
         - Lewis Buckley
 
     - title: "Lightning Talk: AWS SDK streaming APIs"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:43:47"
       end_cue: "00:48:39"
       video_id: jing-yi-chen-lighting-talk-railsconf-2019
@@ -433,6 +485,9 @@
         - Jing yi Chen
 
     - title: "Lightning Talk: trace_location gem based on TracePoint"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:48:39"
       end_cue: "00:53:04"
       video_id: yoskiyaki-hirano-lighting-talk-railsconf-2019
@@ -440,7 +495,10 @@
       speakers:
         - Yoskiyaki Hirano
 
-    - title: "Lightning Talk: Computer vision"
+    - title: "Lightning Talk: Computer Vision"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:53:04"
       end_cue: "00:58:04"
       video_id: steve-crow-lighting-talk-railsconf-2019
@@ -448,7 +506,10 @@
       speakers:
         - Steve Crow
 
-    - title: "Lightning Talk: Nexmo APIs example"
+    - title: "Lightning Talk: Nexmo APIs Example"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "00:58:04"
       end_cue: "01:02:57"
       video_id: ben-greenberg-lighting-talk-railsconf-2019
@@ -456,7 +517,10 @@
       speakers:
         - Ben Greenberg
 
-    - title: "Lightning Talk: Stoicism for developers, an introduction"
+    - title: "Lightning Talk: Stoicism for Developers, an Introduction"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "01:02:57"
       end_cue: "01:07:26"
       video_id: andrew-neely-lighting-talk-railsconf-2019
@@ -464,7 +528,10 @@
       speakers:
         - Andrew Neely
 
-    - title: "Lightning Talk: Rover on Rails - Bad Jokes and good dogs"
+    - title: "Lightning Talk: Rover on Rails - Bad Jokes and Good Dogs"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "01:07:26"
       end_cue: "01:10:11"
       video_id: andrea-wayte-lighting-talk-railsconf-2019
@@ -472,7 +539,10 @@
       speakers:
         - Andrea Wayte
 
-    - title: "Lightning Talk: Finding diversity"
+    - title: "Lightning Talk: Finding Diversity"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "01:10:11"
       end_cue: "01:14:48"
       video_id: tricia-ball-lighting-talk-railsconf-2019
@@ -481,6 +551,9 @@
         - Tricia Ball
 
     - title: "Lightning Talk: rspec bisect to find randomly failing test dependencies"
+      event_name: RailsConf 2019
+      date: "2019-05-22"
+      published_at: "TODO"
       start_cue: "01:14:48"
       end_cue: "1:18:53"
       video_id: dylan-andrews-lighting-talk-railsconf-2019
@@ -493,7 +566,8 @@
   speakers:
     - Justin Collins
   event_name: RailsConf 2019
-  published_at: "2019-05-22"
+  date: "2019-05-22"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - The Unreasonable Struggle of Commercializing Open Source by Justin Collins
 
@@ -520,7 +594,8 @@
   speakers:
     - Sam Phippen
   event_name: RailsConf 2019
-  published_at: "2019-05-22"
+  date: "2019-05-22"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Cleaning house with RSpec Rails 4 by Sam Phippen
 
@@ -547,7 +622,8 @@
   speakers:
     - John Beatty
   event_name: RailsConf 2019
-  published_at: "2019-05-23"
+  date: "2019-05-23"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Yes, Rails does support Progressive Web Apps by John Beatty
 
@@ -572,7 +648,8 @@
   speakers:
     - Cecy Correa
   event_name: RailsConf 2019
-  published_at: "2019-05-23"
+  date: "2019-05-23"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - The Joy of CSS by Cecy Correa
 
@@ -597,7 +674,8 @@
     - Charles Oliver Nutter
     - Thomas E Enebo
   event_name: RailsConf 2019
-  published_at: "2019-05-23"
+  date: "2019-05-23"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - JRuby on Rails: From Zero to Scale by Charles Oliver Nutter & Thomas E Enebo
 
@@ -624,7 +702,8 @@
   speakers:
     - Kyle d'Oliveira
   event_name: RailsConf 2019
-  published_at: "2019-05-23"
+  date: "2019-05-23"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Death by a thousand commits by Kyle d'Oliveira
 
@@ -650,7 +729,8 @@
   speakers:
     - Mina Slater
   event_name: RailsConf 2019
-  published_at: "2019-05-23"
+  date: "2019-05-23"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Filling the Knowledge Gap: Debugging Edition by Mina Slater
 
@@ -675,7 +755,8 @@
   speakers:
     - Aaron Patterson
   event_name: RailsConf 2019
-  published_at: "2019-05-23"
+  date: "2019-05-23"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Closing Keynote by Aaron Patterson
 
@@ -699,7 +780,8 @@
   speakers:
     - Leonardo Tegon
   event_name: RailsConf 2019
-  published_at: "2019-05-23"
+  date: "2019-05-23"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Maintaining a big open source project: lessons learned by Leonardo Tegon
 
@@ -727,7 +809,8 @@
   speakers:
     - Chris Salzberg
   event_name: RailsConf 2019
-  published_at: "2019-05-24"
+  date: "2019-05-24"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - The Elusive Attribute by Chris Salzberg
 
@@ -756,7 +839,8 @@
   speakers:
     - Lyle Mullican
   event_name: RailsConf 2019
-  published_at: "2019-05-24"
+  date: "2019-05-24"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - No Such Thing as a Secure Application by Lyle Mullican
 
@@ -781,7 +865,8 @@
   speakers:
     - Karl Entwistle
   event_name: RailsConf 2019
-  published_at: "2019-05-24"
+  date: "2019-05-24"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Automate your Home with Ruby by Karl Entwistle
 
@@ -810,7 +895,8 @@
   speakers:
     - Genadi Samokovarov
   event_name: RailsConf 2019
-  published_at: "2019-05-24"
+  date: "2019-05-24"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Resolve Errors Straight from the Error Pages by Genadi Samokovarov
 
@@ -838,7 +924,8 @@
   speakers:
     - Jordan Raine
   event_name: RailsConf 2019
-  published_at: "2019-05-24"
+  date: "2019-05-24"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Code Spelunking: teach yourself how Rails works by Jordan Raine
 
@@ -866,7 +953,8 @@
   speakers:
     - Shane Becker
   event_name: RailsConf 2019
-  published_at: "2019-05-25"
+  date: "2019-05-25"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 -  From test && commit || revert to LIMBO by Shane Becker
 
@@ -899,7 +987,8 @@
   speakers:
     - Brandon Weaver
   event_name: RailsConf 2019
-  published_at: "2019-05-25"
+  date: "2019-05-25"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - The Action Cable Symphony - An Illustrated Musical Adventure by Brandon Weaver
 
@@ -928,7 +1017,8 @@
   speakers:
     - John Feminella
   event_name: RailsConf 2019
-  published_at: "2019-05-25"
+  date: "2019-05-25"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Scalable Observability for Rails Applications by John Feminella
 
@@ -955,7 +1045,8 @@
   speakers:
     - John Schoeman
   event_name: RailsConf 2019
-  published_at: "2019-05-25"
+  date: "2019-05-25"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Sprinkles of Functional Programming by John Schoeman
 
@@ -980,7 +1071,8 @@
   speakers:
     - Philippe Creux
   event_name: RailsConf 2019
-  published_at: "2019-05-25"
+  date: "2019-05-25"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 -  Event Sourcing made Simple by Philippe Creux
 
@@ -1007,7 +1099,8 @@
   speakers:
     - Kevin Newton
   event_name: RailsConf 2019
-  published_at: "2019-05-25"
+  date: "2019-05-25"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Pre-evaluation in Ruby by Kevin Deisz
 
@@ -1036,7 +1129,8 @@
   speakers:
     - David Padilla
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Localize your Rails application like a pro by David Padilla
 
@@ -1064,7 +1158,8 @@
   speakers:
     - David Copeland
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Database Design for Beginners by David Copeland
 
@@ -1088,7 +1183,8 @@
   speakers:
     - Hilary Stohs-Krause
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - What I learned my first year as a full-time programmer by Hilary Stohs Krause
 
@@ -1115,7 +1211,8 @@
   speakers:
     - Craig Buchek
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - ActiveRecord, the Repository Pattern, and You by Craig Buchek
 
@@ -1143,7 +1240,8 @@
     - Richard Schneeman
     - Caleb Thompson
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - The Life-Changing Magic of Tidying Active Record Allocations by Richard Schneeman & Caleb Thompson
 
@@ -1168,7 +1266,8 @@
   speakers:
     - Will Leinweber
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - When it all goes Wrong (with Postgres) by Will Leinweber
 
@@ -1197,7 +1296,8 @@
   speakers:
     - Chris Waters
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Reset Yourself Free (The Joy of Destroying your DB Daily) by Chris Waters
 
@@ -1232,7 +1332,8 @@
   speakers:
     - Alexandra Millatmal
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Mentoring the way to a more diverse and inclusive workplace by Alexandra Millatmal
 
@@ -1259,7 +1360,8 @@
   speakers:
     - Steven Hicks
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Getting Unstuck: Strategies For Solving Difficult Problems by Steven Hicks
 
@@ -1288,7 +1390,8 @@
   speakers:
     - Amy Newell
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Failure, Risk, and Shame: Approaching Suffering at Work by Amy Newell
 
@@ -1317,7 +1420,8 @@
   speakers:
     - Rufo Sanchez
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Mindfulness and Meditation for the Uncertain Mind by Rufo Sanchez
 
@@ -1344,7 +1448,8 @@
   speakers:
     - Jennifer Tu
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - You Can’t Bubblebath The Burnout Away by Jennifer Tu
 
@@ -1374,7 +1479,8 @@
     - Joel Quenneville
     - Rachel Mathew
   event_name: RailsConf 2019
-  published_at: "2019-05-26"
+  date: "2019-05-26"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Beyond the whiteboard interview by Joel Quenneville & Rachel Mathew
 
@@ -1403,7 +1509,8 @@
   speakers:
     - Gabe Enslein
   event_name: RailsConf 2019
-  published_at: "2019-05-28"
+  date: "2019-05-28"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Postgres & Rails 6 Multi-DB: Pitfalls, Patterns, Performance by Gabe Enslein
     _________________________________________________________________________________________
@@ -1430,7 +1537,8 @@
     - Godfrey Chan
     - Krystan HuffMenne
   event_name: RailsConf 2019
-  published_at: "2019-05-28"
+  date: "2019-05-28"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Inside Rails: The Lifecycle of a Request by Yehuda Katz, Vaidehi Joshi, Godfrey Chan, & Krystan HuffMenne
     _______________________________________________________________________________________________
@@ -1454,7 +1562,8 @@
   speakers:
     - William Horton
   event_name: RailsConf 2019
-  published_at: "2019-05-28"
+  date: "2019-05-28"
+  published_at: "TODO"
   description: |-
     RubyConf 2019 - We Don't Code Alone: Building Learning Communities by William Horton
     _______________________________________________________________________________________________
@@ -1478,7 +1587,8 @@
   speakers:
     - Vladimir Dementyev
   event_name: RailsConf 2019
-  published_at: "2019-05-28"
+  date: "2019-05-28"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Terraforming legacy Rails applications by Vladimir Dementyev
     _______________________________________________________________________________________________
@@ -1506,7 +1616,8 @@
   speakers:
     - Ylan Segal
   event_name: RailsConf 2019
-  published_at: "2019-05-28"
+  date: "2019-05-28"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Bug-Driven Development by Ylan Segal
     _______________________________________________________________________________________________
@@ -1530,7 +1641,8 @@
   speakers:
     - Shannon Skipper
   event_name: RailsConf 2019
-  published_at: "2019-05-28"
+  date: "2019-05-28"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Learn to Make an API-Backed Model with Square’s Ruby SDK by Shannon Skipper
     _______________________________________________________________________________________________
@@ -1554,7 +1666,8 @@
   speakers:
     - Jack McCracken
   event_name: RailsConf 2019
-  published_at: "2019-05-28"
+  date: "2019-05-28"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Rails Security at Scale by Jack McCracken
     _______________________________________________________________________________________________
@@ -1578,7 +1691,8 @@
   speakers:
     - Samay Sharma
   event_name: RailsConf 2019
-  published_at: "2019-05-28"
+  date: "2019-05-28"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Optimizing your app by understanding your PostgreSQL database by Samay Sharma
     _______________________________________________________________________________________________
@@ -1602,7 +1716,8 @@
   speakers:
     - Alex Reiff
   event_name: RailsConf 2019
-  published_at: "2019-05-28"
+  date: "2019-05-28"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Keeping Throughput High on Green Saturday by Alex Reiff
     _______________________________________________________________________________________________
@@ -1627,7 +1742,8 @@
     - Paul Zaich
     - Ben Jacobson
   event_name: RailsConf 2019
-  published_at: "2019-05-28"
+  date: "2019-05-28"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - How Checkr uses gRPC by Paul Zaich & Ben Jacobson
     _______________________________________________________________________________________________
@@ -1651,7 +1767,8 @@
   speakers:
     - Ben Bleything
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Background Processing, Serverless Style by Ben Bleything
     _______________________________________________________________________________________________
@@ -1673,7 +1790,8 @@
   speakers:
     - Christopher "Aji" Slater
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/doodlingdev/commit-messages-to-the-rescue
   description: |-
     RailsConf 2019 - Commit Messages to the rescue! by Christopher "Aji" Slater
@@ -1696,7 +1814,8 @@
   speakers:
     - Eric Allen
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - New HotN+1ness -Hard lessons migrating from REST to GraphQL by Eric Allen
     _______________________________________________________________________________________________
@@ -1724,7 +1843,8 @@
   speakers:
     - Braulio Carreno
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - From 0.10 to 5.2. The story of a 13 year old Rails app by Braulio Carreno
     _______________________________________________________________________________________________
@@ -1752,7 +1872,8 @@
   speakers:
     - Glenn Vanderburg
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - The 30-Month Migration by Glenn Vanderburg
     _______________________________________________________________________________________________
@@ -1778,7 +1899,8 @@
   speakers:
     - Nathan L Walls
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Growing internal tooling from the console up by Nathan L  Walls
     _______________________________________________________________________________________________
@@ -1804,7 +1926,8 @@
   speakers:
     - Eileen M. Uchitelle
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/eileencodes/railsconf-and-balkan-ruby-2019-the-past-present-and-future-of-rails-at-github
   description: |-
     RailsConf 2019 - The Past, Present, and Future of Rails at GitHub by Eileen M  Uchitelle
@@ -1827,7 +1950,8 @@
   speakers:
     - Christopher Sexton
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Unraveling the Cable: How ActionCable works by Christopher Sexton
     _______________________________________________________________________________________________
@@ -1851,7 +1975,8 @@
   speakers:
     - Jeffrey Cohen
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Modern Cryptography for the Absolute Beginner by Jeffrey Cohen
     _______________________________________________________________________________________________
@@ -1877,7 +2002,8 @@
   speakers:
     - Xavier Noria
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Zeitwerk: A new code loader by Xavier Noria
     _______________________________________________________________________________________________
@@ -1901,7 +2027,8 @@
   speakers:
     - Colleen Schnettler
   event_name: RailsConf 2019
-  published_at: "2019-05-29"
+  date: "2019-05-29"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - How to migrate to Active Storage without losing your mind by Colleen Schnettler
     _______________________________________________________________________________________________
@@ -1923,7 +2050,8 @@
   speakers:
     - Bari A Williams
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Keynote: Ethical Issues in the Law and Tech with Production Ideation, Creation & Shipping by Bari A  Williams
     _______________________________________________________________________________________________
@@ -1944,7 +2072,8 @@
   speakers:
     - David McDonald
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - UserMailer.with(user: myself).life_advice.deliver(5.years.ago)
     Some Tips and Encouragement for Newcomers  by David McDonald
@@ -1967,7 +2096,8 @@
     - Jennifer Tu
     - Zee Spencer
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Congressive Management Techniques: Gardening Your Team by Jennifer Tu & Zee Spencer
     _______________________________________________________________________________________________
@@ -1993,7 +2123,8 @@
   speakers:
     - Ryan Alexander
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Hacking Verbal Communication Systems by Ryan Alexander
     _______________________________________________________________________________________________
@@ -2015,7 +2146,8 @@
   speakers:
     - Eric Tillberg
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Communicate Like You're Remote by Eric Tillberg
     _______________________________________________________________________________________________
@@ -2037,7 +2169,8 @@
   speakers:
     - Betsy Haibel
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Teach by Learning; Lead by Teaching by Betsy Haibel
     _______________________________________________________________________________________________
@@ -2059,7 +2192,8 @@
   speakers:
     - Jesse Belanger
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Plays Well with Others: How to Stop Being a Jerk Today by Jesse Belanger
     _______________________________________________________________________________________________
@@ -2085,7 +2219,8 @@
   speakers:
     - Vince Cabansag
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Enter the Danger by Vince Cabansag
     _______________________________________________________________________________________________
@@ -2109,7 +2244,8 @@
   speakers:
     - Julien Fitzpatrick
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Trans Eye for the Cis Ally: Ensuring an Inclusive Community by Julien Fitzpatrick
     _______________________________________________________________________________________________
@@ -2131,7 +2267,8 @@
   speakers:
     - Eric Weinstein
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Interview Them Where They Are by Eric Weinstein
     _______________________________________________________________________________________________
@@ -2153,7 +2290,8 @@
   speakers:
     - Yoshinori Kawasaki
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Troubleshoot Your RoR Microservices with Distributed Tracing by Yoshinori Kawasaki
     _______________________________________________________________________________________________
@@ -2179,7 +2317,8 @@
   speakers:
     - Jamie Gaskins
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 -Service Architectures for Mere Mortals by Jamie Gaskins
     _______________________________________________________________________________________________
@@ -2204,7 +2343,8 @@
     - Kevin Murphy
   event_name: RailsConf 2019
   slides_url: https://speakerdeck.com/kevinmurphy/i-know-i-can-but-should-i-evaluating-alternatives
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - I know I can, but should I? Evaluating Alternatives by Kevin Murphy
     _______________________________________________________________________________________________
@@ -2228,7 +2368,8 @@
   speakers:
     - Nate Berkopec
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Profiling and Benchmarking 101 by Nate Berkopec
     _______________________________________________________________________________________________
@@ -2250,7 +2391,8 @@
   speakers:
     - Sonja Peterson
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Fixing Flaky Tests Like a Detective by Sonja Peterson
     _______________________________________________________________________________________________
@@ -2272,7 +2414,8 @@
   speakers:
     - Matt Duszynski
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - rails db:migrate:safely by Matt Duszynski
     _______________________________________________________________________________________________
@@ -2294,7 +2437,8 @@
   speakers:
     - Jason Swett
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Coding with an Organized Mind by Jason Swett
     _______________________________________________________________________________________________
@@ -2316,7 +2460,8 @@
   speakers:
     - Coraline Ada Ehmke
   event_name: RailsConf 2019
-  published_at: "2019-05-31"
+  date: "2019-05-31"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Programming Empathy: Emotional State Machines by Coraline Ada Ehmke
     _______________________________________________________________________________________________
@@ -2338,7 +2483,8 @@
   speakers:
     - Marla Brizel Zeschin
   event_name: RailsConf 2019
-  published_at: "2019-06-03"
+  date: "2019-06-03"
+  published_at: "TODO"
   description: |-
     RailsConf 2019 - Things I Wish I Knew Before Going Remote by Marla Brizel Zeschin
 

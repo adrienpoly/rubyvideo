@@ -16,7 +16,8 @@
     I’m not talking about static typing, or some rant on how nil is an anti-pattern.
     This talk instead will dig into concepts from around the functional world and
     how they can be modeled in Ruby for cleaner, more future-proof code.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 3ndcqh9fTGA
 
@@ -30,7 +31,8 @@
     from some of the weirdest parts of the Ruby language.  The questions aren''t easy,
     but et enough right to be crowned a "Strange" Ruby Engineer and win a fabulous
     prize.'
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 4VT0aDEDd28
 
@@ -44,7 +46,8 @@
     web apps are. Come to learn how to turn your regular Rails application into a
     PWA, taking advantage of the new front-end tools that come with Rails by default
     since version 7. Entry-level developers are welcome!
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 4cQuxQdWkPE
 
@@ -58,7 +61,8 @@
     In this talk, we'll share how we're using automated accessibility scanning, preview-driven
     development, and an accessibility-first form builder to make GitHub's 15-year-old,
     1,400-controller Ruby on Rails monolith accessible.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 4j2zlvE_Yj8
 
@@ -71,7 +75,8 @@
     ActiveRecord::Encryption; Stop Hackers from Reading your Data by Matthew Langlois, Kylie Stradley
 
     Have you ever wondered how to encrypt data in your Rails application but weren’t sure where to get started? We’ll briefly talk about why you would want to encrypt data, and then discuss how you can get started with encrypting columns in your Rails application including pitfalls and successes we encountered while implementing ActiveRecord::Encryption at GitHub. Attendees will be confident in making a decision to implement ActiveRecord::Encryption in their application.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 4mZNP_Dgi2w
 
@@ -83,7 +88,8 @@
     Dealing with legacy monoliths can be challenging due to accumulated technical debt. When faced with this situation, we usually start looking at different strategies to solve this, like microservices, engines, and modularization, just to name a few.
 
     When choosing to follow a modular approach, I explored applying microservices patterns to our modular monolith. In this talk, I’ll share my experience in adopting this approach, focusing on ensuring data consistency and distributed transactions, as well as the pitfalls and insights I discovered along the way.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 4zrQAJ0RlI4
 
@@ -95,7 +101,8 @@
     Bridging the Gap: Creating Trust Between Non-Technical Stakeholders and Engineering Teams by Kevin Gorham
 
     In this talk, we'll explore how to build trust between non-technical stakeholders and engineering teams, using data and analysis to effectively communicate progress. We'll discuss practical tactics for leveraging the Pivotal Tracker API and Google Apps Scripts to extract relevant metrics, analyze data, and provide insightful analysis, as well as how to communicate that information. Join us to learn how to build trust, and how it can improve project success and create better outcomes for all parties involved.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 5gSRKyuO7qY
 
@@ -113,7 +120,8 @@
     In this talk, we'll build a model that predicts the weather and explore the tools and libraries available for your own native Ruby Machine Learning projects.
 
     Whether you're a seasoned Rubyist or just starting out, don't miss this opportunity to discover the possibilities of machine learning in Ruby.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 656z7Hu0HtY
 
@@ -128,7 +136,8 @@
     name brings with it? What if legacy code disappeared? \n\nThrow away everything
     you've ever learned, embrace the mindset of Eternal Onboarding, and watch as our
     problems with \"Legacy Code\" melt away."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 6msn5oGT7Q8
 
@@ -141,7 +150,8 @@
     companies in the USA, especially post-pandemic. In this talk, we'll talk about
     why workplaces decide to unionize or not, learn more about the actual process,
     and think about what this means for software developers in particular.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 8qSmTXFG2Pc
 
@@ -156,7 +166,8 @@
     and more as we learn about contributing to the Rails framework. We will follow
     along with a real story of upstreaming a new feature, and learning about the hurdles
     encountered along the way, both expected and unexpected.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: Ai64DuHt4CU
 
@@ -173,7 +184,8 @@
     specific language built on top of ActiveRecord that you can adapt to your own
     application. We do not need a whole new library or framework. We just need query
     objects and builders."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: CWqISNM1RfY
 
@@ -189,7 +201,8 @@
     The coding education industry and workplace communication mainly consist of simplified code examples, boring text walls, and sometimes never-ending speeches from the loudest people in meetings.
 
     All it takes to make abstract concepts visible is identifying your visual thinking type and empowering yourself with a reproducible process to make your communication more understandable, memorable, unique, collaborative, and fun.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: ChsqAlhnjsI
 
@@ -205,7 +218,8 @@
     a few specific Ruby features, like how Rails uses Modules, or `define_method`
     or `instance_eval`. You’ll be able to use these features to make your app as powerful
     as Rails itself.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: EBFWAGkIFZM
 
@@ -214,7 +228,8 @@
   speakers:
     - Aaron Patterson
   description: "Keynote: Aaron Patterson"
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/tenderlove/railsconf-2023
   video_provider: youtube
   video_id: LcDNedD-8mU
@@ -227,7 +242,8 @@
     How Rails fosters a diverse and competitive tech ecosystem in the era of big tech by Jordan Trevino
 
     Join us for a discussion on how Rails technology patterns and practices help foster a more diverse and competitive tech ecosystem amidst the proliferation of patterns popularized by big tech. We develop an economic and organizational critique of such approaches as microservices and single-page apps.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: Lo1rn0XCSDw
 
@@ -240,7 +256,8 @@
     level engineers when thrust into a new project, show how this can be useful for
     moving to the growth zone, and walk through practical steps to apply when facing
     imposter syndrome.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: MH8j1_uthhk
 
@@ -252,7 +269,8 @@
     Congratulations! You are fresh off your Rails boot camp and you just got hired by a startup that just went viral. Your first task is to figure out why their Rails application is slow. Now what?
 
     This talk will give you the tools you need to quickly find what's wrong in your application. You will learn a top-down approach for triaging performance issues and scaling your hot Rails app.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: OF5YhG-91ao
 
@@ -273,7 +291,8 @@
     up by sharing our own experiences and lessons from other production outages. This
     will help you avoid common operational pitfalls and improve your application's
     reliability and query patterns."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: OQUTBLhP2QI
 
@@ -293,14 +312,15 @@
     \n\nWe’ll also go through the different challenges that I faced while integrating
     next-gen images into a Rails project and how I solved them. A new gem will be
     presented that streamlines the process of using WebP images with Ruby on Rails."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: Pdnpen6jPDM
 
 - title: Hotwiring My React Brain
   raw_title: RailsConf 2023 - Hotwiring My React Brain by Aji Slater
   speakers:
-    - Aji Slater
+    - Christopher "Aji" Slater
   description:
     "Hi. Have you been writing Rails API-mode json backends for React front
     ends for the last few years? Me too. \n\nHave you been daydreaming about the days
@@ -310,7 +330,8 @@
     and Turbo app, having to re-learn everything you've grown comfortable with in
     front-end development? Me.. huh? no? \n\nWell come along and I'll show you how
     I re-implemented my conception of the client side with Rails' Hotwire view layer."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: PvAf3vZp1b8
 
@@ -325,7 +346,8 @@
     The time has come to once again configure the unconfigurable by creating a standard-rails based on rubocop-rails. But this time, we'll skip the years of debating rules on GitHub. Instead, we're holding a community straw poll at RailsConf!
 
     Join us for a town hall-style event where we'll review what each rubocop-rails rule does, hear its pros and cons, and put it to a vote. We'll enshrine the consensus picks in the first public release of standard-rails. By showing up, you'll not only be establishing conventions to promote safe and consistent code, you'll be sharpening the focus of Rails developers around the world!
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: QVilOzkLdlI
 
@@ -341,7 +363,8 @@
     the White Horse of Uffington, Iranian windmills, and Japanese Shinto shrines?\n\nIf
     we knew for certain that our Rails apps would be in use in ten years (or a hundred!),
     what would future us wish that we would've done now to build a better future?"
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: R7JqiVPuKD8
 
@@ -353,7 +376,8 @@
     Terms of Deployment: The Process of Evaluating Hatchbox, Fly, and Render for Developers by Jordan Burke
 
     Heroku has long been the mainstay deployment platform for Rails developers and agencies, but with several new options for hosting out there, is it still the best solution? We take a quick look  at how we evaluated switching some of our clients’ applications to Hatchbox.io, Render, and fly.io. how we made those decisions, and how we will make those determinations in the future.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: RHv7hJGOUr0
 
@@ -370,7 +394,8 @@
     nightmare). With a little bit of focus put into the right areas, you can help
     every new team member- from the most junior dev to top dog seniors- jump in and
     contribute faster.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: RxgHgzByNPs
 
@@ -386,7 +411,8 @@
     after the other. Are you an advanced coder? Or are you a beginner? As long as
     you are looking to explore new applications of Hotwire’s Turbo or simply learn
     about it, we’re a match!
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: S--B3BGIk3M
 
@@ -402,7 +428,8 @@
     I cover how poor handling of emotions impacts cognition, memory, and communication.
 
     Then I dive into my toolkit for handling emotions, full of practical advice and new ways of thinking.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: UftGecVyvSk
 
@@ -417,7 +444,8 @@
     Mentorship is such a key part of our industry that most of us will act as both mentor and mentee many times over the course of our careers. However, unlike our other important skills that get honed through processes like code review or retrospectives, there are often few mechanisms to help us grow as mentors and mentees.
 
     We’ll cover common problems that occur as both a mentee and mentor and cover strategies, skills and concepts for how to deal with them that originate not only from our own experiences but from research in the fields of education, psychology and business. We’ll cover concepts that won’t only build your skills but improve the value you get from being a mentor or mentee and show you how to make an evidence-backed business case for expanding mentorship at your place of work.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: Uv2I3ECnzuY
 
@@ -431,7 +459,8 @@
     Live on stage acting out highs, lows, do’s and don’ts of pair programming. Laughs
     and tears are guaranteed as the audience connect on the difficulties and ultimately
     the rewards that can be reaped through effective pairing.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: W8y0odUwks8
 
@@ -443,7 +472,8 @@
     This is a tale of how a developer's passion for Ruby lead them to assist
     companies make investments in the Ruby community. Come and watch a captivating
     love story featuring gems, train tracks and ice cream.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: XohX3nlVIdc
 
@@ -457,7 +487,8 @@
     When implemented properly on the right domains, they can give your team a major speed boost.
 
     In this talk we will break down how Doximity used a Rails engine as a key ingredient to successfully rollout GraphQL Federation to our organizations.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: ZE9dKoBIr48
 
@@ -474,7 +505,8 @@
     together with biometrics.\n\nThis talk will allow you to learn what WebAuthn is
     and how it works. You’ll also see how any Ruby app can easily get the level of
     authentication security and UX users deserve."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: ZsGphXQ9kfw
 
@@ -491,7 +523,8 @@
     you start leading people. Saying no enables you to focus on what's important and
     prevent burnout. In this talk, you will take away tools and strategies to become
     more confident around saying no.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: _2zWwwjnuUA
 
@@ -507,7 +540,8 @@
     on a Docker image and run it with tests on Buildkite. Along the way, we'll learn
     about using Docker, jemalloc (an an alternate malloc implementation) and why it's
     important to your team and the Ruby community to do this work."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: bLTqSh3Jon0
 
@@ -519,7 +553,8 @@
     Breaking the Grind: Crafting Your Ideal Software Engineering Career Build by Ole Michaelis
 
     Explore the world of software engineering skills through the lens of role-playing games to find the most effective builds for advancing your career. This talk metaphorically approaches (MMO)RPG skill trees by looking at different career paths in software engineering, unlocking new skills, and leveling up existing ones to branch out into new areas of expertise. We'll examine a variety of paths — including programming paradigms, software delivery, organizational development, and team management. LFG for adventure, and uncover the vast possibilities of building a career as a software engineer!
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: bhagIbz3T0A
 
@@ -537,7 +572,8 @@
     that just came in.  In this talk, I’ll walk you through a real memory leak issue
     we encountered on one of our background worker, and how we fixed it with no custom
     tooling using simple technics."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: bvdWPGQ8cEA
 
@@ -550,7 +586,8 @@
     Don’t be afraid of the scary red error messages; they’re actually our friends. by Shana Moore, Kait Sewell
 
     How to use failures, errors and tests to enhance understanding and deliver quality code to clients.  By not restricting ourselves to always perform perfectly we give ourselves the ability to discover new solutions.  In this beginner-friendly talk we’ll walk through our missteps with light hearted reflection and share how to make a habit of growing from failure. Additionally, we hope to help the audience walk away with an actionable framework for handling the errors they'll encounter along the way.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: eS7OMjZaGoQ
 
@@ -569,7 +606,8 @@
     What considerations should be taken into account? Why is rainbow cake the king
     of layered cakes? Join my talk to learn about the layering Rails approach to keep
     applications healthy and maintainable."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: fANjY7Hn_ig
 
@@ -578,7 +616,8 @@
   speakers:
     - Shani Boston
   description: "Keynote: Leading through Change - When two cultures combine by Shani Boston"
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: hYFdPM3dUbk
 
@@ -595,7 +634,8 @@
     In this talk, we will dive into what a race condition is, how it can show up in
     Rails applications, and some strategies on how to test them to give confidence
     that they are fixed.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: jEDX3yswrcM
 
@@ -603,7 +643,8 @@
   raw_title: RailsConf 2023 - Lightning Talks
   description: |-
     A lightning talk is a short presentation (up to 5 mins) on your chosen topic.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: k55B4ydueGE
   talks:
@@ -824,7 +865,8 @@
     (in-person or remote) and what specific planning considerations can be made to
     make your virtual offsite just as good, if not better, than an in-person one.
     Skeptics welcome!!
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: ofqnAOiRwOw
 
@@ -836,7 +878,8 @@
     Trilogy is a client library for MySQL-compatible databases. It was open sourced along with an Active Record adapter by GitHub this past year. With promises of improved performance, better portability and compatibility, and fewer dependencies, Shopify’s Rails Infrastructure team decided to migrate our core Rails monolith from Mysql2 to Trilogy.
 
     In this talk, we’ll embark on a journey with database clients, Active Record adapters, and open source contributions. We’ll learn about MySQL protocols, dig into how the Active Record adapter manages the Trilogy client under the hood, and look at some of the missing features we implemented as we moved from Mysql2 to Trilogy. Finally, we’ll discuss the end result of migrating to Trilogy, and the impact it had on Shopify’s monolith in production.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: tHiIhZPKClI
 
@@ -861,7 +904,8 @@
     Guest #4: Voted on by the community live at this session
 
     Audience questions and voting are welcome and encouraged!
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: tNiqYktR8xo
 
@@ -878,7 +922,8 @@
     will illuminate the path you're on, providing you guidance on following those
     footsteps, or trailblazing your own, to achieve your objective of becoming a senior
     developer.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: v0OLIzH3UAc
 
@@ -894,7 +939,8 @@
     on our teams and for ourselves as parents in order to ensure that we are supported
     in the workplace. The Rails community is always a leader in this space, so let’s
     ensure our workplaces are the best that they can be.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: vMn4LGLNc4M
 
@@ -911,7 +957,8 @@
     complex issues. By leveraging the wealth of knowledge and experience within the
     Rails community, you'll come away from this talk with a newfound appreciation
     for the power of collaboration and the importance of community-driven development."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: vdZbQHz4pfk
 
@@ -929,7 +976,8 @@
     ...and when he did, everything broke, and he was enlightened.
 
     Join us on an illustrated adventure through the basics of end to end testing with Capybara.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: wWPxLJJlnmU
 
@@ -941,7 +989,8 @@
     Leave your fear of math behind along with the equations and symbols, we're headed to Ruby-land! On this whirlwind tour, we’ll explore how to write better conditionals with Boolean algebra, figure out how many test cases we need with combinatorics, a mental model for breaking down large tasks with graph theory, and more.
 
     You’ll leave this talk equipped to better do your job with some ideas, techniques, and mental models from the wonderfully practical world of discrete math.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/joelq/the-math-every-programmer-needs
   video_provider: youtube
   video_id: wzYYT40T8G8
@@ -960,7 +1009,8 @@
     And I’m gonna show you how.
 
     In the years since I’ve worked on upgrading Rails at GitHub, I’ve refined this approach to Rails upgrades and successfully implemented it at several organizations. In this talk, you’ll learn everything you need to burn down uncertainty and boldly go into your next Rails upgrade.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: zHK-quUz-5M
 
@@ -973,7 +1023,8 @@
     a long history of the Ruby community being wonderfully welcoming, thoughtful,
     fun and supportive. Let’s make it even better, and discuss ways to have a persistent,
     positive impact in the wider tech industry and beyond.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 10evYV5qT7c
 
@@ -987,7 +1038,8 @@
     Developers are, almost by definition, highly capable and strongly driven individuals. These traits are indispensable to success in creating working code, but they are also the very traits that makes developers susceptible to burn out. People who can get things done often find themselves overwhelmed by their to-do lists.
 
     This talk will combine the understanding from the trenches of Anjuan Simmons (who has been a developer and engineering manager for more than 20 years) with the academic understanding of his wife, Dr. Aneika Simmons. Together, they will provide a framework for reducing burnout and consistently keeping stress levels in a managed state.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: BDnWcZobdrA
 
@@ -1003,7 +1055,8 @@
     Except that’s what we did with a team of 4 engineers, over an 18 month period, successfully migrating 2,500 customer’s data.
 
     How can we apply the learnings of Taylor, to a massive application rewrite? What did we do and what can you learn when you’re faced with a wild and woolly project? What about our business practises as well as our code helped us make a success of one of software’s shibboleths?
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: G1QbH2QZX08
 
@@ -1017,7 +1070,8 @@
     data shows it’s a conversation that many employees actively want started. Salary
     transparency increases trust and job satisfaction, but getting there is easier
     said than done. Here’s how we took the plunge, and what we learned along the way."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: MfGRm8Dm68g
 
@@ -1026,7 +1080,8 @@
   speakers:
     - Eileen M. Uchitelle
   description: Keynote by Eileen M. Uchitelle
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/eileencodes/the-magic-of-rails
   video_provider: youtube
   video_id: TKulocPqV38
@@ -1041,7 +1096,8 @@
     Keynote: The Power of Improv: Unlocking Your Creative Potential as a Developer by Gary Ware
 
     This interactive keynote will explore how improvisation can help you maximize your strengths as a developer. We'll discuss the key elements of improvisation and how they can be used in your day to day life. We will also do a few quick activities to allow you to practice in real time in a low-stakes environment. By the end of this session, you will have gained valuable insight into how embracing an improvisational mindset can supercharge your ability to be more creative, collaborate with others, and get more enjoyment from your career.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: g6wrSpFFgmQ
 
@@ -1059,7 +1115,8 @@
     to gain insights on building mentor-mentee relationships and practical tips for
     maximizing them while discovering the benefits of mentorship, how to approach
     potential mentors, and effective communication strategies.
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: lXhTh3BUuJE
 
@@ -1076,6 +1133,7 @@
     we need a model—a system. A process to lean into that makes it a helpful tool
     and not a blunt hammer. This talk will cover the three stages of integrating a
     mentorship program and how to help a hesitant team."
-  published_at: "2023-07-10"
+  date: "2023-07-10"
+  published_at: "TODO"
   video_provider: youtube
   video_id: nOhGMcjL0jk

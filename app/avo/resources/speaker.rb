@@ -29,7 +29,7 @@ class Avo::Resources::Speaker < Avo::BaseResource
     field :talks_count, as: :number, sortable: true
     field :canonical, as: :belongs_to, hide_on: :index
     # field :suggestions, as: :has_many
-    # field :speaker_talks, as: :has_many
+    field :speaker_talks, as: :has_many, resource: Avo::Resources::SpeakerTalk, attach_scope: -> { query.order(title: :asc) }
     field :talks, as: :has_many, use_resource: "Avo::Resources::Talk", attach_scope: -> { query.order(title: :asc) }, searchable: true
   end
 
@@ -37,6 +37,7 @@ class Avo::Resources::Speaker < Avo::BaseResource
     filter Avo::Filters::Name
     filter Avo::Filters::Slug
     filter Avo::Filters::GitHub
+    filter Avo::Filters::GitHubHandle
   end
 
   def actions

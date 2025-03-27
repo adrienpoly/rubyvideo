@@ -1,6 +1,5 @@
 ---
 # TODO: talks running order
-# TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
 
@@ -9,6 +8,7 @@
   speakers:
     - Stephan Hagemann
   event_name: Birmingham on Rails 2020
+  date: "2020-01-31"
   published_at: "2020-02-19"
   description: Birmingham on Rails 2020 - Morning Keynote by Stephan Hagemann
   video_provider: youtube
@@ -19,6 +19,7 @@
   speakers:
     - Ratnadeep Deshmane
   event_name: Birmingham on Rails 2020
+  date: "2020-01-31"
   published_at: "2020-02-19"
   description: Birmingham on Rails 2020 -  The Story of Rails! by Ratnadeep Deshmane
   video_provider: youtube
@@ -29,6 +30,7 @@
   speakers:
     - Yulia Oletskaya
   event_name: Birmingham on Rails 2020
+  date: "2020-01-31"
   published_at: "2020-02-19"
   description: Birmingham on Rails 2020 - A Quick Guide to RPC Frameworks by Yulia Oletskaya
   video_provider: youtube
@@ -39,6 +41,7 @@
   speakers:
     - Claudio Baccigalupo
   event_name: Birmingham on Rails 2020
+  date: "2020-01-31"
   published_at: "2020-02-19"
   description: Birmingham on Rails 2020 - Validating and Processing the Content of a File with Active Storage by Claudio B.
   video_provider: youtube
@@ -49,6 +52,7 @@
   speakers:
     - Craig Kerstiens
   event_name: Birmingham on Rails 2020
+  date: "2020-01-31"
   published_at: "2020-02-19"
   description: Birmingham on Rails 2020 - Postgres at any Scale by Craig Kerstiens
   video_provider: youtube
@@ -59,6 +63,7 @@
   speakers:
     - Ben Greenberg
   event_name: Birmingham on Rails 2020
+  date: "2020-01-31"
   published_at: "2020-02-19"
   description: Birmingham on Rails 2020 - What's Love Got To Do With It? Ruby and Sentiment Analysis by Ben Greenberg
   video_provider: youtube
@@ -69,6 +74,7 @@
   speakers:
     - Anthony Crumley
   event_name: Birmingham on Rails 2020
+  date: "2020-01-31"
   published_at: "2020-02-19"
   description: Birmingham on Rails 2020 - Site Reliability on Rails by Anthony Crumley
   video_provider: youtube
@@ -79,6 +85,7 @@
   speakers:
     - Sandi Metz
   event_name: Birmingham on Rails 2020
+  date: "2020-01-31"
   published_at: "2020-02-19"
   description: "Birmingham on Rails 2020 - Closing Keynote: Lucky You by Sandi Metz"
   video_provider: youtube

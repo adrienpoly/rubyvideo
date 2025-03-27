@@ -4,6 +4,7 @@
 # Table name: talks
 #
 #  id                  :integer          not null, primary key
+#  announced_at        :datetime
 #  date                :date             indexed, indexed => [video_provider]
 #  description         :text             default(""), not null
 #  duration_in_seconds :integer
@@ -14,6 +15,7 @@
 #  language            :string           default("en"), not null
 #  like_count          :integer          default(0)
 #  meta_talk           :boolean          default(FALSE), not null
+#  published_at        :datetime
 #  slides_url          :string
 #  slug                :string           default(""), not null, indexed
 #  start_seconds       :integer
@@ -67,12 +69,23 @@ one:
   video_id: F75k4Oc6g9Q
   kind: "talk"
   event: rails_world_2023
+  date: "2023-10-05"
 
 two:
   title: talk title 2
   description: talk descritpion 2
   slug: talk-title-2
   kind: "talk"
+  date: "2025-01-31"
+  video_provider: youtube
+
+three:
+  title: talk title 3
+  description: talk descritpion 3
+  slug: talk-title-3
+  kind: "talk"
+  date: "2025-01-31"
+  video_provider: youtube
 
 brightonruby_2024_one:
   title: Getting to Two Million Users as a One Woman Dev Team
@@ -82,3 +95,4 @@ brightonruby_2024_one:
   video_provider: mp4
   external_player: true
   event: brightonruby_2024
+  date: "2024-06-30"

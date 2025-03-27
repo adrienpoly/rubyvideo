@@ -7,7 +7,7 @@
 #  bio             :text             default(""), not null
 #  bsky            :string           default(""), not null
 #  bsky_metadata   :json             not null
-#  github          :string           default(""), not null
+#  github          :string           default(""), not null, indexed
 #  github_metadata :json             not null
 #  linkedin        :string           default(""), not null
 #  mastodon        :string           default(""), not null
@@ -26,6 +26,7 @@
 # Indexes
 #
 #  index_speakers_on_canonical_id  (canonical_id)
+#  index_speakers_on_github        (github) UNIQUE WHERE github IS NOT NULL AND github != ''
 #  index_speakers_on_name          (name)
 #  index_speakers_on_slug          (slug) UNIQUE
 #
@@ -53,6 +54,8 @@ class Speaker < ApplicationRecord
   # associations
   has_many :speaker_talks, dependent: :destroy, inverse_of: :speaker, foreign_key: :speaker_id
   has_many :talks, through: :speaker_talks, inverse_of: :speakers
+  has_many :kept_talks, -> { joins(:speaker_talks).where(speaker_talks: {discarded_at: nil}).distinct },
+    through: :speaker_talks, inverse_of: :speakers, class_name: "Talk", source: :talk
   has_many :events, -> { distinct }, through: :talks, inverse_of: :speakers
   has_many :aliases, class_name: "Speaker", foreign_key: "canonical_id"
   has_many :topics, through: :talks
@@ -64,6 +67,7 @@ class Speaker < ApplicationRecord
 
   # validations
   validates :canonical, exclusion: {in: ->(speaker) { [speaker] }, message: "can't be itself"}
+  validates :github, uniqueness: {case_sensitive: false}, allow_blank: true
 
   # scope
   scope :with_talks, -> { where.not(talks_count: 0) }
@@ -73,7 +77,9 @@ class Speaker < ApplicationRecord
   scope :not_canonical, -> { where.not(canonical_id: nil) }
 
   # normalizes
-  normalizes :github, with: ->(value) { value.gsub(/^(?:https?:\/\/)?(?:www\.)?github\.com\//, "").gsub(/^@/, "") }
+  normalizes :github, with: ->(value) {
+    value.gsub(/^(?:https?:\/\/)?(?:www\.)?github\.com\//, "").gsub(/^@/, "").downcase
+  }
   normalizes :twitter, with: ->(value) { value.gsub(%r{https?://(?:www\.)?(?:x\.com|twitter\.com)/}, "").gsub(/@/, "") }
   normalizes :bsky, with: ->(value) {
                             value.gsub(%r{https?://(?:www\.)?(?:x\.com|bsky\.app/profile)/}, "").gsub(/@/, "")
@@ -89,6 +95,12 @@ class Speaker < ApplicationRecord
 
     "https://#{instance}/@#{handle}"
   }
+
+  def self.reset_talks_counts
+    find_each do |speaker|
+      speaker.update_column(:talks_count, speaker.talks.count)
+    end
+  end
 
   def title
     name
@@ -219,16 +231,16 @@ class Speaker < ApplicationRecord
   def assign_canonical_speaker!(canonical_speaker:)
     ActiveRecord::Base.transaction do
       self.canonical = canonical_speaker
+      self.github = ""
       save!
 
       speaker_talks.each do |speaker_talk|
-        speaker_talk.update(speaker: canonical_speaker)
+        SpeakerTalk.create(talk: speaker_talk.talk, speaker: canonical_speaker)
       end
 
       # We need to destroy the remaining speaker_talks. They can be remaining given the unicity constraint
       # on the speaker_talks table. The update above swallows the error if the speaker_talk duet exists already
       SpeakerTalk.where(speaker_id: id).destroy_all
-      Speaker.reset_counters(canonical_speaker.id, :talks)
     end
   end
 

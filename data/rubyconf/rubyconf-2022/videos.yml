@@ -10,7 +10,8 @@
   speakers:
     - Michael Toppa
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     '"In the beginner''s mind there are many possibilities, in the expert''s
     mind there are few." - Shunryu Suzuki, from "Zen Mind, Beginner''s Mind" The Japanese
@@ -28,7 +29,8 @@
   speakers:
     - Ben Greenberg
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Unless you're self-employed you work for a system. That system is comprised
     of its own culture in decision making, inclusivity, and a lot more. As one person
@@ -46,7 +48,8 @@
   speakers:
     - Chris Bloom
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Simulated annealing is a fascinating algorithm that's designed to help
     find a particular type of solution (near-optimal, aka "good enough") to a particular
@@ -63,7 +66,8 @@
   speakers:
     - Keith Bennett
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/keithrbennett/2022-rubyconf-ruby-lambdas
   description:
     Object Oriented Design is powerful for organizing software behavior,
@@ -82,7 +86,8 @@
   speakers:
     - Andy Maleh
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Ruby is an excellent choice for building desktop apps with a native
     GUI (Graphical User Interface) that looks familiar on Mac, Windows, and Linux.
@@ -100,7 +105,8 @@
   speakers:
     - Noel Rappin
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     If you’ve learned Ruby recently, you’ve likely been told to avoid using
     Ruby’s metaprogramming features because they are “dangerous”. Here at RubyConf,
@@ -117,7 +123,8 @@
   speakers:
     - Dylan Blakemore
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Trunk based development is a scary practice to adopt for engineers
     used to git flow or github flow. But there is ample evidence to show that it leads
@@ -132,7 +139,8 @@
   speakers:
     - Vinicius Stock
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     "Providing a state of the art development experience greatly contributes
     to Ruby’s goal of making developers happy. A complete set of editor features can
@@ -148,7 +156,8 @@
   speakers:
     - Ryan Perry
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     "This talk will dive deep into the internals of one of the fastest
     growing profiling gems: Pyroscope. Pyroscope is unique because it is actually
@@ -166,7 +175,8 @@
   speakers:
     - Kevin Kuchta
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     "Microservices are great, but I think we can all agree: we need more
     of them and they should be micro-er. What's the logical limit here? What if every
@@ -184,7 +194,8 @@
   speakers:
     - Peter Zhu
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     What’s the midpoint between 0 and infinity? Well, the answer differs
     depending on whether you are asking a mathematician, philosopher, or a Ruby developer.
@@ -200,7 +211,8 @@
   speakers:
     - Charles Nutter
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     "JRuby has just been updated for Ruby 3.1 support, bringing compatibility
     up to date for the most widely-deployed alternative Ruby implementation! This
@@ -215,7 +227,8 @@
   speakers:
     - Amir Rajan
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     What does it take to build a cross platform game engine in Ruby? How
     do you render to the screen? How is the simulation and rendering pipeline orchestrated?
@@ -230,7 +243,8 @@
   speakers:
     - Ratnadeep Deshmane
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     My talk shows how to write Ruby in a non-English language and the benefits
     of doing so. This will certainly be a great help for people who don’t speak English.
@@ -246,7 +260,8 @@
   speakers:
     - Lori M Olson
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     What could renovating an old house have in common with upgrading an
     old app? *Everything!* Let me show you how this old house renovation project proceeds,
@@ -260,7 +275,8 @@
   speakers:
     - Espartaco Palma
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     "The same as you shouldn't work without a contract, our systems should
     accept external inputs without one, a written, clear and enforceable one. Define
@@ -276,7 +292,8 @@
   speakers:
     - CJ Avilla
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     What if writing boilerplate for Ruby gems were automated using familiar
     UI building blocks? Many Rubyists are familiar with components for generating
@@ -294,7 +311,8 @@
   speakers:
     - Glenn Harmon
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Have you ever attended a meeting that you wish you hadn’t? Have you
     ever been happy that plans were canceled because you never really wanted to go
@@ -309,7 +327,8 @@
 - title: "Lightning Talks"
   raw_title: "RubyConf 2022: Lightning Talks"
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: "-FM__GyT57Y"
@@ -483,7 +502,8 @@
     - Marty Haught
     - Valerie Woolard
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: 0ItWcBK7pTk
@@ -493,7 +513,8 @@
   speakers:
     - Eileen M. Uchitelle
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     When optimizing code for the YJIT compiler it can be difficult to figure
     out what code is exiting and why. While working on tracing exits in a Ruby codebase,
@@ -511,7 +532,8 @@
   speakers:
     - Tori Machen
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Many of us have hobbies that we enjoy outside of our careers in tech.
     For me, that is amigurumi, the art of crocheting stuffed creatures. What if I
@@ -529,7 +551,8 @@
   speakers:
     - Nadia Odunayo
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     After a stressful couple of days at work, Deirdre Bug is looking forward
     to a quiet evening in. But her plans are thwarted when the phone rings. “I know
@@ -546,7 +569,8 @@
   speakers:
     - Sijia Wu
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     In addition to writing Ruby for work, I am also an academic translator,
     a snowboard instructor, and a drummer in a rock band. I am consistently amazed
@@ -564,7 +588,8 @@
   speakers:
     - Suzan Bond
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Suzan Bond is a former COO of Travis CI, leadership consultant and
     executive coach. Her specialty is leaders at scaling startups. She's spent more
@@ -581,7 +606,8 @@
   speakers:
     - Thijs Cadier
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     'That strange phenomenon where air molecules bounce against each other
     in a way that somehow comforts you, makes you cry, or makes you dance all night:
@@ -599,7 +625,8 @@
   speakers:
     - Nickolas Means
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     It was mid-afternoon on Friday, March 11, 2011 when the ground in Tōhoku
     began to shake. At Fukushima Daiichi nuclear power plant, it seemed like the shaking
@@ -617,7 +644,8 @@
   speakers:
     - Aaron Patterson
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/tenderlove/dont-at-me-faster-instance-variables-with-object-shapes
   description:
     Instance variables are a popular feature of the Ruby programming language,
@@ -636,7 +664,8 @@
   speakers:
     - Varun Gandhi
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     scip-ruby is an open source indexer that lets you browse Ruby code
     online, with IDE functionality like “Go to definition” and “Find usages”. We originally
@@ -653,7 +682,8 @@
   speakers:
     - Tyler Ackerman
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     "Wealthsimple Foundation is a Canadian charity working to enable a
     brighter future for everyone in Canada through access to post-secondary education.
@@ -671,7 +701,8 @@
   speakers:
     - Gaurav Kumar Singh
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     In this talk, we'll generally explore the static type eco system in
     Ruby. Ruby has two main type checkers Sorbet and RBS. Sorbet was created by the
@@ -689,7 +720,8 @@
   speakers:
     - Jeremy Evans
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Every 10 years, after the federal census, California and most other
     states redraw the lines of various electoral districts to attempt to ensure the
@@ -707,7 +739,8 @@
   speakers:
     - Mae Beale
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Wondering how to get involved in supporting your communities? Hear
     from someone who has spun up (and down) multiple volunteer and service projects.
@@ -725,7 +758,8 @@
   speakers:
     - Daniel Magliola
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     "Like most web applications, you run important jobs in the background.
     And today, some of your urgent jobs are running late. Again. No matter how many
@@ -743,7 +777,8 @@
   speakers:
     - Caleb Hearth
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     "RSpec is good, but it’s even better with less of it. Looking at a
     realistic example spec, we’ll learn why parts of RSpec like let, subject, shared_examples,
@@ -759,7 +794,8 @@
   speakers:
     - Benji Lewis
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     In this talk, we will go on a journey through Zappi’s data history
     and how we are using Ruby, a graph database, and a bitmap store to build a unique
@@ -777,7 +813,8 @@
   speakers:
     - Paul Hoffer
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     In software, we often encounter problems that we accept as "just how
     things are." But sometimes, that creates opportunities to identify creative, out
@@ -793,7 +830,8 @@
   speakers:
     - Benoit Daloze
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Blocks are one of the most expressive parts of the Ruby syntax. Many
     Ruby methods take a block. When a method is given different blocks, there is a
@@ -811,7 +849,8 @@
   speakers:
     - Ali Hamidi
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     As the world moves towards real-time there’s a growing demand for building
     sophisticated stream processing applications. Traditionally building these apps
@@ -827,7 +866,8 @@
   speakers:
     - Stacey McKnight
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     What would happen if your team dropped that standing Monday morning
     refinement meeting? Chaos? We often follow work processes because they’re “the
@@ -847,7 +887,8 @@
   speakers:
     - Kevin Whinnery
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     If you have ever built a web application, chances are that you have
     also had to deal with "the back office" - the chores and one-off tasks required
@@ -866,7 +907,8 @@
   speakers:
     - Kyle d'Oliveira
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     To help us with aspects like linting, security or style, many of us
     have Rubocop analyzing our code. It's a very useful tool that is widely used,
@@ -883,7 +925,8 @@
   speakers:
     - Nick Schwaderer
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     "In the 2000's everyone was writing a Ruby web framework **Today, it
     seems, we are all too content to focus our energy on a small number of large Ruby
@@ -901,7 +944,8 @@
   speakers:
     - Chris Seaton
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Ruby has a core library that is part of the interpreter and always
     available. It’s classes like String and Time. But what would it be like if we
@@ -918,7 +962,8 @@
   speakers:
     - Carolyn Cole
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Everyone says that a picture is worth a thousand words... The issue
     in the past is that those pictures have been hard to create let alone maintain.
@@ -934,7 +979,8 @@
   speakers:
     - Justin Bowen
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     We can use Ruby to do anything we as a community want. Today we’ll
     explore the work of a hidden gem of a contributor in our community, Andrew Kane,
@@ -951,7 +997,8 @@
   speakers:
     - Alexandre Terrasa
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     "“Here be dragons”: this is how uncharted areas of maps were marked
     in medieval times. Today, while the journey to become a Senior Engineer is known
@@ -965,7 +1012,8 @@
   speakers:
     - Kelly Ryan
   event_name: RubyConf 2022
-  published_at: "2022-11-13"
+  date: "2022-11-13"
+  published_at: "TODO"
   description:
     Pairing with a senior developer is a daily necessity for a programmer
     just starting out. But how should you as a junior developer approach pairing to

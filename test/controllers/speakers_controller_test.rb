@@ -28,6 +28,12 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should show speaker with talks" do
+    get speaker_url(@speaker_with_talk)
+    assert_response :success
+    assert_equal @speaker_with_talk.talks_count, assigns(:talks).length
+  end
+
   test "should redirect to canonical speaker" do
     talk = @speaker_with_talk.talks.first
     @speaker_with_talk.assign_canonical_speaker!(canonical_speaker: @speaker)
@@ -142,12 +148,12 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index as JSON" do
-    first = Speaker.first
-    last = Speaker.last
-    first.assign_canonical_speaker!(canonical_speaker: last)
-    first.reload
+    speaker = speakers(:two)
+    canonical = speakers(:jim)
+    speaker.assign_canonical_speaker!(canonical_speaker: canonical)
+    speaker.reload
 
-    get speakers_url, as: :json
+    get speakers_url(canonical: false, with_talks: false), as: :json
     assert_response :success
 
     json_response = JSON.parse(response.body)
@@ -155,6 +161,27 @@ class SpeakersControllerTest < ActionDispatch::IntegrationTest
     canonical_slugs = json_response["speakers"].map { |speaker_data| speaker_data["canonical_slug"] }
 
     assert_includes speaker_names, @speaker_with_talk.name
-    assert_includes canonical_slugs, last.slug
+    assert_includes canonical_slugs, canonical.slug
+  end
+
+  test "should get index as JSON with all canonical speakers includind speakers without talks" do
+    get speakers_url(with_talks: false), as: :json
+    assert_response :success
+
+    json_response = JSON.parse(response.body)
+    speaker_names = json_response["speakers"].map { |speaker_data| speaker_data["name"] }
+
+    assert_equal speaker_names.count, Speaker.all.count
+  end
+
+  test "discarded speaker_talks" do
+    speaker = speakers(:yaroslav)
+    assert speaker.talks_count.positive?
+
+    speaker.speaker_talks.each(&:discard)
+
+    get speaker_url(speaker)
+    assert_response :success
+    assert_equal 0, assigns(:talks).count
   end
 end

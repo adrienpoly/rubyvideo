@@ -3,7 +3,7 @@ require "test_helper"
 class TalkTest < ActiveSupport::TestCase
   include ActiveJob::TestHelper
   test "should handle empty transcript" do
-    talk = Talk.new(title: "Sample Talk", talk_transcript_attributes: {raw_transcript: Transcript.new})
+    talk = Talk.new(title: "Sample Talk", date: Date.today, talk_transcript_attributes: {raw_transcript: Transcript.new})
     assert talk.save
 
     loaded_talk = Talk.find(talk.id)
@@ -26,7 +26,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "when the talk doesn't have any transcript yet" do
-    @talk = Talk.create!(title: "Express Your Ideas by Writing Your Own Gems", video_id: "Md90cwnmGc8", video_provider: "youtube")
+    @talk = Talk.create!(title: "Express Your Ideas by Writing Your Own Gems", video_id: "Md90cwnmGc8", video_provider: "youtube", date: Date.today)
 
     VCR.use_cassette("youtube/transcript_not_available") do
       perform_enqueued_jobs do
@@ -57,7 +57,7 @@ class TalkTest < ActiveSupport::TestCase
 
     kind_with_titles.each do |kind, titles|
       titles.each do |title|
-        talk = Talk.new(title:)
+        talk = Talk.new(title:, date: Date.today)
         talk.save!
 
         assert_equal [kind.to_s, title], [talk.kind, talk.title]
@@ -68,7 +68,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "should not guess a kind if it's provided" do
-    talk = Talk.create!(title: "foo", kind: "panel")
+    talk = Talk.create!(title: "foo", kind: "panel", date: Date.today)
 
     assert_equal "panel", talk.kind
   end
@@ -77,7 +77,8 @@ class TalkTest < ActiveSupport::TestCase
     talk = Talk.create!(
       title: "Who Wants to be a Ruby Engineer?",
       video_provider: "mp4",
-      video_id: "https://videos.brightonruby.com/videos/2024/drew-bragg-who-wants-to-be-a-ruby-engineer.mp4"
+      video_id: "https://videos.brightonruby.com/videos/2024/drew-bragg-who-wants-to-be-a-ruby-engineer.mp4",
+      date: Date.today
     )
 
     assert_equal "gameshow", talk.kind
@@ -85,7 +86,7 @@ class TalkTest < ActiveSupport::TestCase
 
   test "transcript should default to raw_transcript" do
     raw_transcript = Transcript.new(cues: [Cue.new(start_time: 0, end_time: 1, text: "Hello")])
-    talk = Talk.new(title: "Sample Talk", talk_transcript_attributes: {raw_transcript: raw_transcript})
+    talk = Talk.new(title: "Sample Talk", date: Date.today, talk_transcript_attributes: {raw_transcript: raw_transcript})
     assert talk.save
 
     loaded_talk = Talk.find(talk.id)
@@ -194,7 +195,7 @@ class TalkTest < ActiveSupport::TestCase
   end
 
   test "create a new talk with a nil language" do
-    talk = Talk.create!(title: "New title", language: nil)
+    talk = Talk.create!(title: "New title", language: nil, date: Date.today)
     assert_equal "en", talk.language
     assert talk.valid?
   end
@@ -204,6 +205,24 @@ class TalkTest < ActiveSupport::TestCase
     assert_equal [@talk], Talk.ft_search("Hotwire Cookbook")
     assert_equal [@talk], Talk.ft_search("Hotwire Cookbook: Common Uses, Essential Patterns")
     assert_equal [@talk], Talk.ft_search('Hotwire"') # with an escaped quote
+
+    @talk.index.destroy!
+    @talk.reload.reindex # Need to reload or we get a FrozenError from trying to update attributes on the destroyed index record.
+    assert_equal [@talk], Talk.ft_search("Hotwire Cookbook")
+  end
+
+  test "full text search creating and deleting a talk" do
+    talk = Talk.create!(title: "Full text seach with Sqlite", summary: "On using sqlite full text search with an ActiveRecord backed virtual table", date: Time.current)
+    talk.speakers.create!(name: "Kasper Timm Hansen")
+
+    assert_equal [talk], Talk.ft_search("sqlite full text search") # title
+    assert_equal [talk], Talk.ft_search("ActiveRecord backed virtual table") # summary
+    assert_equal [talk], Talk.ft_search("Kasper Timm Hansen") # speaker
+
+    talk.destroy
+    assert_empty Talk.ft_search("sqlite full text search")
+    assert_empty Talk.ft_search("ActiveRecord backed virtual table")
+    assert_empty Talk.ft_search("Kasper Timm Hansen")
   end
 
   test "full text search on title with snippets" do
@@ -292,5 +311,15 @@ class TalkTest < ActiveSupport::TestCase
   test "for_topic" do
     talk = talks(:one)
     assert_includes Talk.for_topic("activerecord"), talk
+  end
+
+  test "discarded speaker_talks" do
+    talk = talks(:one)
+    speaker_talk = talk.speaker_talks.first
+    assert_equal 1, speaker_talk.speaker.talks_count
+    speaker_talk.discard
+    assert_equal 1, talk.speaker_talks.count
+    assert_equal 0, talk.kept_speaker_talks.count
+    assert_equal 0, speaker_talk.speaker.talks_count
   end
 end

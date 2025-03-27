@@ -17,7 +17,8 @@
   speakers:
     - Michael Feathers
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
+  date: "2011-09-01"
+  published_at: "TODO"
   description:
     Michael Feathers will be giving the opening keynote this year at Rocky
     Mountain Ruby. Michael is well known in the software community for his work with
@@ -31,7 +32,8 @@
   speakers:
     - Anthony Eden
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
+  date: "2011-09-01"
+  published_at: "TODO"
   description: |-
     The effects of API design will likely live with your project for a long time, often beyond your tenure with the project. Yet good API design is very rarely discussed and often leads developers to the conclusion that good APIs are something that "we know when we see them."
 
@@ -46,7 +48,8 @@
   speakers:
     - Nick Sutterer
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
+  date: "2011-09-01"
+  published_at: "TODO"
   description: |-
     REST is an architectural style for distributed systems. However, many implementations forget about the distributed part of REST and simply map CRUD operations to HTTP verbs in a monolithic application. We're gonna go further and learn why hypermedia is the crucial part of REST architectures and how machines can browse resources just like humans using self-describing representations.
 
@@ -61,7 +64,8 @@
   speakers:
     - Grant Blakeman
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
+  date: "2011-09-01"
+  published_at: "TODO"
   description:
     People often think of design as something that helps solve problems,
     but design should actually prevent problems in the first place. While you may
@@ -77,7 +81,8 @@
   speakers:
     - Avdi Grimm
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
+  date: "2011-09-01"
+  published_at: "TODO"
   description:
     You know how to raise and rescue exceptions. But do you know how they
     work, and how how to structure a robust error handling strategy for your app?
@@ -93,7 +98,8 @@
   speakers:
     - TODO # Jim
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
+  date: "2011-09-01"
+  published_at: "TODO"
   description: ""
   video_provider: not_published
   video_id: mastering-the-ruby-debugger
@@ -105,7 +111,8 @@
   speakers:
     - Jay Zeschin
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
+  date: "2011-09-01"
+  published_at: "TODO"
   description:
     Many of us are familiar with the old adage about writing code "for
     people to read, and only incidentally for machines to execute" (thanks, Abelson
@@ -127,7 +134,8 @@
     - Jim Weirich
     - Zef Houssney
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
+  date: "2011-09-01"
+  published_at: "TODO"
   description: |-
     A musical selection for your enjoyment.
 
@@ -139,7 +147,8 @@
   speakers:
     - Tim Clem
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
+  date: "2011-09-01"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/tclem/code-first-ask-questions-later
   description: |-
     Ever wonder how software is designed and developed at GitHub? Are you curious about how new features are deployed to the site? (Hint: ask the robot.) Want to know why we don't have any managers and don't track vacation days?
@@ -155,7 +164,8 @@
   speakers:
     - Suzan Bond
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-01"
+  date: "2011-09-01"
+  published_at: "TODO"
   description:
     Learn how to go inside out vs. outside in so you can tap into your
     intuition to make strong decisions and come up with innovative solutions. It might
@@ -169,7 +179,8 @@
   speakers:
     - Konstantin Haase
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description:
     At least since node.js everyone knows that real time HTTP responses
     are the next big thing. The secrets of handling incoming requests asynchronously
@@ -186,7 +197,8 @@
   speakers:
     - Gerred Dillon
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: |-
     As Ruby continues to mature as a language, its use in large scale (enterprise!) codebases is expanding - and the need to integrate into larger architectures is already here. It is tempting to build networks of APIs in order to integrate applications, but there is an answer - messaging. This talk will reveal the benefits of messaging, and describe patterns that can be implemented at any level - from workers on single applications, to integrating separate codebases, all the way up to massive, concurrent service-oriented architectures that rely on messaging as the backbone. Prepare to be assaulted with an inspiring way to integrate and scale - and leave armed with the tools required to do so.
 
@@ -200,7 +212,8 @@
   speakers:
     - Charles Max Wood
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: |-
     by: Charles Max Wood
 
@@ -214,7 +227,8 @@
   speakers:
     - Zach Holman
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/holman/a-documentation-talk
   description: |-
     "A Documentation Talk" sounds pretty boring, right? Wouldn't it be scandalously titillating if this talk's title included detailed analysis of the expectations and results of the talk itself? Jeez it's like someone's making an overt metaphor for how Rubyists document their code.
@@ -230,7 +244,8 @@
     - Justin Searls
     - Cory Flanigan
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/searls/jasmine-for-rubyists-rockymtnruby-with-cory-flanigan-justin-searls
   description: |-
     by: Justin Searls, Cory Flanigan
@@ -259,7 +274,8 @@
   speakers:
     - Ryan McGeary
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/rmm5t/do-your-commit-messages-suck
   description: ""
   video_provider: youtube
@@ -272,7 +288,8 @@
   speakers:
     - Mike Gehard
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -283,7 +300,8 @@
   speakers:
     - Rod Cope
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: |-
     Implementing Rails 3.1, Backbone.js, CoffeeScript, jQuery, Sass, and CouchDB on EC2 by: Rod Cope
 
@@ -298,7 +316,8 @@
   speakers:
     - Jeff Casimir
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: |-
     The Ruby community is obsessed with testing, supposedly. In my experience about four out of five applications have either zero or completely ineffective test coverage.
 
@@ -323,7 +342,8 @@
   speakers:
     - Mike Gehard
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description:
     Ever have one of those days where you sit back at the end of the day
     and realize that you didn't get anything tangible done? Why do those days happen?
@@ -339,7 +359,8 @@
   speakers:
     - Jeremy Hinegardner
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: UVqMN3xIFl8
@@ -351,7 +372,8 @@
   speakers:
     - Spike Ilacqua
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: aDzGLc1C3Ps
@@ -363,7 +385,8 @@
   speakers:
     - Wayne E. Seguin
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: _CtI8f60xOk
@@ -373,7 +396,8 @@
   speakers:
     - Anthony Navarre
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: fjR3iT3gnxo
@@ -383,7 +407,8 @@
   speakers:
     - Jeff Dean
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: l9oGzOqEd88
@@ -395,7 +420,8 @@
   speakers:
     - Jim Holmes
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: |-
     by: Jim Holmes
 
@@ -414,7 +440,8 @@
     - Justin Searls
     - Jim Holmes
   event_name: Rocky Mountain Ruby 2011
-  published_at: "2011-09-02"
+  date: "2011-09-02"
+  published_at: "TODO"
   description: |-
     Jeff Casimir will lead a follow-up panel focusing on testing topics with Justin Searls, Cory Flanigan and Jim Holmes.
 

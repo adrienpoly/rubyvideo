@@ -9,7 +9,7 @@
   speakers:
     - Irina Nazarova
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-05"
+  date: "2024-06-05"
   slides_url: https://speakerdeck.com/irinanazarova/how-to-do-well-in-consulting-balkan-ruby-2024
   description: |-
     Irina Nazarova is the CEO of Evil Martians. Evil Martians transform growth-stage startups into unicorns, build developer tools, and create open-source products.
@@ -23,7 +23,7 @@
   speakers:
     - Adrian Marin
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-05"
+  date: "2024-06-05"
   description: |-
     Adrian Marin is a self-thought engineer and entrepreneur running Avo. Avo started as a side project, and now is a lively project with about 150 paying customers, and more than 400 apps running it in production.
 
@@ -36,7 +36,7 @@
   speakers:
     - Bozhidar Batsov
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-06"
+  date: "2024-06-06"
   description: |-
     Bozhidar is the author of RuboCop, Cider, Prelude, Projectile, and many other popular open-source projects. He has been doing open-source development for more than a decade, sustainably. Not an easy task!
 
@@ -51,7 +51,7 @@
   speakers:
     - Aitor Garcia Rey
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-07"
+  date: "2024-06-07"
   description:
     Aitor García Rey is a founder, staff engineer, and fractional CTO.
     He has been shipping software used by small companies, VC-backed startups, and
@@ -66,7 +66,7 @@
     - Cristian Planas
     - Anatoly Mikhaylov
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-07"
+  date: "2024-06-07"
   description: |-
     Cristian Planas is a software engineer working primarily with Rails since the release of Rails 3, more than 10 years ago.  Currently, a group tech lead and senior staff engineer at Zendesk.
 
@@ -81,7 +81,7 @@
   speakers:
     - Josef Strzibny
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-07"
+  date: "2024-06-07"
   description: |-
     Josef is a longtime Rails developer, freelancer, and author of Deployment from Scratch. Previously he was a small startup CTO, senior Rails engineer, and a Linux packager at Red Hat. He now spends most of his time building a Rails starter kit Business Class while regularly watching Gordon Ramsay cooking shows.
 
@@ -96,7 +96,7 @@
   speakers:
     - Xavier Noria
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-07"
+  date: "2024-06-07"
   description:
     Xavier Noria is an everlasting student, a Ruby on Rails Core team member,
     the creator of Zeitwerk, a freelancer, and a life lover. In this talk, Xavi is
@@ -110,7 +110,7 @@
   speakers:
     - Dimiter Petrov
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-07"
+  date: "2024-06-07"
   description: |-
     Dimiter is a development team lead at thoughtbot and the co-organizer of the Helvetic Ruby conference. He likes spending time away from the computer running and hiking.
 
@@ -123,7 +123,7 @@
   speakers:
     - Radoslav Stankov
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-07"
+  date: "2024-06-07"
   description:
     Radoslav was the CTO of Product Hunt. He recently built Angry Buildings
     as the single technical person on the team. This talks is about how he did it
@@ -138,7 +138,7 @@
   speakers:
     - Stephen Margheim
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-07"
+  date: "2024-06-07"
   slides_url: https://speakerdeck.com/fractaledmind/wroclove-dot-rb-2024-how-and-why-to-run-sqlite-on-rails-in-production
   description: |-
     Stephen is an American expat living in Berlin with his wife and two dogs. He is a contributor to Ruby on Rails, sqlite3-ruby gem, and the maintainer of a handful of gems aimed at making Ruby and Rails the absolute best platforms in the world to run SQLite projects. For his day job, he is an engineering manager at Test IO.
@@ -152,7 +152,7 @@
   speakers:
     - Monica Giambitto
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-07"
+  date: "2024-06-07"
   description:
     Monica is an Italian expat living in Munich, Germany. She is an engineering
     manager and in this talk, she guides us into a good thing for a business – lots
@@ -166,7 +166,7 @@
   speakers:
     - Nick Sutterer
   event_name: Balkan Ruby 2024
-  published_at: "2024-06-06"
+  date: "2024-06-06"
   description:
     Nick is a rock star who happens to be a rock-star Ruby developer too.
     He has been crafting approaches way before their time like cells. He is the creator

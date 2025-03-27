@@ -13,7 +13,8 @@
   speakers:
     - Chad Fowler
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-03"
+  date: "2014-01-03"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -24,7 +25,8 @@
   speakers:
     - Yogi Kulkarni
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-03"
+  date: "2014-01-03"
+  published_at: "TODO"
   description: |-
     By Yogi Kulkarni
 
@@ -48,7 +50,8 @@
   speakers:
     - Tejas Deinkar
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-03"
+  date: "2014-01-03"
+  published_at: "TODO"
   description: |-
     New runtimes, technologies and languages keep popping up, and there is a need for libraries that work across language, and across runtimes.
 
@@ -64,7 +67,8 @@
   speakers:
     - Coby Randquist
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-03"
+  date: "2014-01-03"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -76,7 +80,8 @@
     - Sakshi Jain
     - Pallavi Shastry
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-03"
+  date: "2014-01-03"
+  published_at: "TODO"
   description: |-
     By Sakshi Jain and Pallavi Shastry
 
@@ -93,7 +98,8 @@
     - Hemant Kumar
     - Baishampayan Ghose
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-03"
+  date: "2014-01-03"
+  published_at: "TODO"
   description: |-
     Panel Members: Chad Fowler, Yogi Kulkarni, Hemant Kumar, and Baishampayan Ghose
 
@@ -107,7 +113,8 @@
   speakers:
     - Aman King
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-03"
+  date: "2014-01-03"
+  published_at: "TODO"
   description: |-
     By Aman King
 
@@ -123,9 +130,9 @@
   speakers:
     - Prateek Dayal
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-03"
-  description: |-
-
+  date: "2014-01-03"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: DwcCwdyLkBI
 
@@ -136,9 +143,9 @@
   speakers:
     - Ajey Gore
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-04"
-  description: |-
-
+  date: "2014-01-04"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: 8CqAHH9jp6A
 
@@ -147,7 +154,8 @@
   speakers:
     - Gautam Rege
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-04"
+  date: "2014-01-04"
+  published_at: "TODO"
   description: |-
     I love Ruby! But as in any relationship, to love means that you have to accept the "dark side" too! Ruby is human and has a lot of gotchas, tricks, wierdness and sometimes scary features that I plan to highlight. This talk aims to provide the "Ah-ha!" moments when working in Ruby.
 
@@ -175,7 +183,8 @@
   speakers:
     - Arnab Deka
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-04"
+  date: "2014-01-04"
+  published_at: "TODO"
   description: |-
     By Arnab Deka
 
@@ -194,25 +203,27 @@
 - title: "Quiz"
   raw_title: Garden City Ruby 2014 - GCRC Quiz
   speakers:
-    - Unknown
-    # - TODO: MC: https://cln.sh/km1vns9r
+    - TODO # TODO: MC: https://cln.sh/km1vns9r
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-04"
-  description: |-
-
+  date: "2014-01-04"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: UuWpfkyKXhk
 
 - title: Lightning Talks
   raw_title: Garden City Ruby 2014 - Lightning Talks
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-04"
-  description: |-
-
+  date: "2014-01-04"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: xjCjydbQpI4
   talks:
     - title: "Lightning Talk: Smith" # TODO: missing last name
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: smith-lighting-talk-garden-city-ruby-2014
@@ -221,6 +232,9 @@
         - Smith # TODO: missing last name - https://cln.sh/19fCQ4lT
 
     - title: "Lightning Talk: Tri Hari"
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: tri-hari-lighting-talk-garden-city-ruby-2014
@@ -229,6 +243,9 @@
         - Tri Hari
 
     - title: "Lightning Talk: Kashyap" # TODO: missing last name
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: kashyap-lighting-talk-garden-city-ruby-2014
@@ -237,6 +254,9 @@
         - Kashyap # TODO: missing last name - https://cln.sh/LdbWWYJX
 
     - title: "Lightning Talk: Bilal Budhani"
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: bilal-budhani-lighting-talk-garden-city-ruby-2014
@@ -245,6 +265,9 @@
         - Bilal Budhani
 
     - title: "Lightning Talk: Vinash" # TODO: missing last name
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: vinash-lighting-talk-garden-city-ruby-2014
@@ -253,6 +276,9 @@
         - Vinash # TODO: missing last name - https://cln.sh/Lr1Dnzfy
 
     - title: "Lightning Talk: Satya Kalluri"
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: satya-kalluri-lighting-talk-garden-city-ruby-2014
@@ -261,6 +287,9 @@
         - Satya Kalluri
 
     - title: "Lightning Talk: Sarish" # TODO: missing last name
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: sarish-lighting-talk-garden-city-ruby-2014
@@ -269,6 +298,9 @@
         - Sarish # TODO: missing last name - https://cln.sh/WMy4qGFp
 
     - title: "Lightning Talk: Soru" # TODO: missing last name
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: soru-lighting-talk-garden-city-ruby-2014
@@ -277,6 +309,9 @@
         - Soru # TODO: missing last name - https://cln.sh/z97WYYpv
 
     - title: "Lightning Talk: TODO" # TODO: missing talk title
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: todo-1-lighting-talk-garden-city-ruby-2014
@@ -285,6 +320,9 @@
         - TODO # TODO: missing name - https://cln.sh/YcPccQg6
 
     - title: "Lightning Talk: TODO" # TODO: missing talk title
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: todo-2-lighting-talk-garden-city-ruby-2014
@@ -293,6 +331,9 @@
         - TODO # TODO: missing name - https://cln.sh/5NSHP2hf
 
     - title: "Lightning Talk: Niranjan Paranjape"
+      event_name: Garden City Ruby 2014
+      date: "2014-01-04"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: niranjan-paranjape-lighting-talk-garden-city-ruby-2014
@@ -305,7 +346,8 @@
   speakers:
     - Vamsee Kanakala
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-04"
+  date: "2014-01-04"
+  published_at: "TODO"
   description: |-
     By Vamsee Kanakala
 
@@ -320,7 +362,8 @@
     - Pavan Sudarshan
     - Anandha Krishnan
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-04"
+  date: "2014-01-04"
+  published_at: "TODO"
   description: |-
     By Pavan Sudarshan and Anandha Krishnan
 
@@ -351,7 +394,8 @@
   speakers:
     - Hari Krishnan
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-04"
+  date: "2014-01-04"
+  published_at: "TODO"
   description: |-
     An intermediate level talk to understand the inner workings of Ruby Memory Model. Topics covered:
 
@@ -369,8 +413,8 @@
   speakers:
     - Prakash Murthy
   event_name: Garden City Ruby 2014
-  published_at: "2014-01-04"
-  description: |-
-
+  date: "2014-01-04"
+  published_at: "TODO"
+  description: ""
   video_provider: youtube
   video_id: RvlmVKf-NDs

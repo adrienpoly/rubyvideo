@@ -14,4 +14,5 @@
 ActiveSupport::Inflector.inflections(:en) do |inflect|
   inflect.acronym "GitHub"
   inflect.acronym "IOS"
+  inflect.acronym "SQLite"
 end

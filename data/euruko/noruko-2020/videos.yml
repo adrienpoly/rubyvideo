@@ -9,6 +9,7 @@
     - Ramón Huidobro
     - Arno Fleming
   event_name: NoRuKo 2020
+  date: "2020-08-21"
   published_at: "2020-08-24"
   description: |-
     Welcome to the #NoRuKo conference. A virtual unconference organized by Stichting Ruby NL.
@@ -34,7 +35,8 @@
   speakers:
     - Yukihiro "Matz" Matsumoto
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description:
     "Ruby3 is coming! The creator of the language himself explains what
     is coming with Ruby3. In addition, what will happen after Ruby3.0! \n\nYukihiro
@@ -53,7 +55,8 @@
   speakers:
     - Penelope Phippen
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description: |-
     In this talk I'll discuss Rubyfmt, a work in progress Ruby autoformatter. Why I'm building it, and how it differs from Rubocop, the closest similar tool that you might be familiar with. I'll get deep in to the weeds on some of the technical challenges of building a system like this, and what the overall goals for the project are.
 
@@ -75,7 +78,8 @@
   speakers:
     - Phil Nash
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description:
     "The humble password is broken. The internet is littered with poor
     security practices and password breaches, but the world is not ready to go password
@@ -102,7 +106,8 @@
   speakers:
     - Tetiana Chupryna
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description: |-
     In this talk we’ll explore what can we create using Ruby and OpenGL. We’ll talk about drawing pictures, designing animations and building interfaces. You’ll learn about the basics of OpenGL and eventually, how you can build your own game engine.
 
@@ -124,7 +129,8 @@
   speakers:
     - Ali Ilman
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description:
     "If you enjoy building projects using TypeScript, you probably wish
     you could build Ruby projects with a type checker. I've been in that boat! Recently,
@@ -150,7 +156,8 @@
     - Ramón Huidobro
     - Rayta van Rijswijk
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description:
     "Penelope and Tetiana talk through the first part of the day, with
     the NoRuKo hosts. \n\nPenelope Phippen makes Rubyfmt, and was previously a lead
@@ -173,7 +180,8 @@
   speakers:
     - Victor Shepelev
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description:
     "Ruby is known to be \"complex language for writing simple code\" and
     \"designed to make programmers happy\". Yet while those principles are fully embodied
@@ -200,7 +208,8 @@
     - Jan Krutisch
     - Tim Pietrusky
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description:
     "We had the honor to perform at NoRuKo 2020 in the 18:00 break and
     it was very cool. half/byte created most of his sound with Ruby and combined this
@@ -219,7 +228,8 @@
   speakers:
     - Tom de Bruijn
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description: |-
     Git is about talking to your team. It’s about talking to yourself, from the future. What about that colleague who hasn’t even joined the team yet? Yes, them too. But how to be "good at Git"?
 
@@ -241,7 +251,8 @@
   speakers:
     - Siân Griffin
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description: |-
     Have you ever looked at a bug and wondered why it actually happens? It's easy to chalk it up to sloppy coding but that's almost never the case. In this talk we'll be dissecting a exploit from Pokemon Blue known as the "Missingno" glitch. We'll look at the details of each of the seemingly random bugs behind this exploit. We'll look at why these bugs happened, and the lessons we can apply to our Ruby code more than 20 years later.
 
@@ -265,7 +276,8 @@
   speakers:
     - Allison McMillan
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description: |-
     Working during a global pandemic offers unique challenges. Parents, in particular, are facing a world of new responsibilities resulting in burn out, information overload, and other COVID side effects. The only question is what will break first… parents or the way we work?
 
@@ -289,7 +301,8 @@
   speakers:
     - Miriam Tocino
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description:
     "Miriam Tocino shares the idea behind Zerus & Ona — her unique book
     series designed to get young children excited about technology through the power
@@ -311,7 +324,8 @@
     - Julik Tarkhanov
     - Kir Shatrov
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description:
     "We all love our Sidekiq’s and our Resque’s. But they do let us down
     sometimes. Not because they are bad, but because the queueing theory is limiting
@@ -338,7 +352,8 @@
   speakers:
     - Amr Abdelwahab
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description:
     "Whether you have never seen a dockerfile in your life or you have
     been working on a daily basis with docker in different environments, join this
@@ -366,7 +381,8 @@
     - Ramón Huidobro
     - Rayta van Rijswijk
   event_name: NoRuKo 2020
-  published_at: "2020-08-21"
+  date: "2020-08-21"
+  published_at: "2020-09-11"
   description: |-
     Tom, Julik and Kir talk through the second part of the day, with the NoRuKo hosts.
 

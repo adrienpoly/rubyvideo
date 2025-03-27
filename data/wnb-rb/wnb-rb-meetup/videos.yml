@@ -5,6 +5,7 @@
     - Brittany Martin
   event_name: WNB.rb Meetup March 2021
   date: "2021-03-30"
+  published_at: "TODO"
   description: |-
     Brittany Martin talks about lessons learned as an Eng Lead during a project to build a lightweight script using AWS Lambda and Cloudwatch to funnel data from a variety of sources into S3 to create a data dashboard.
 
@@ -18,6 +19,7 @@
     - Emily Giurleo
   event_name: WNB.rb Meetup March 2021
   date: "2021-03-30"
+  published_at: "TODO"
   slides_url: https://docs.google.com/presentation/d/183ExC_6BEVV9L_E7jFbZDRK3g2S7RNaWuk_ENgnf8C4/edit
   description: |-
     Sometimes, upgrading your gems can cause errors in your application. These errors pop up when you’re least expecting them, and they can often be categorized into common groups… kind of like Pokemon! In this talk, we’ll discuss five types of errors you might see while upgrading dependencies, as well as the techniques (or “moves”) we can use to solve them.
@@ -51,6 +53,7 @@
     - Kim Diep
   event_name: WNB.rb Meetup September 2022
   date: "2022-09-27"
+  published_at: "TODO"
   description: |-
     This talk was given at the WNB.rb meetup on September 27, 2022.
 
@@ -68,6 +71,7 @@
     - Sam Galindo
   event_name: WNB.rb Meetup October 2022
   date: "2022-10-25"
+  published_at: "TODO"
   description: |-
     This presentation offers a humble explanation of what helper methods are and how they can help you build a lighter and cleaner app.
 
@@ -83,6 +87,7 @@
     - Mayra Lucia Navarro
   event_name: WNB.rb Meetup October 2022
   date: "2022-10-25"
+  published_at: "TODO"
   description: |-
     The book Metaprogramming Ruby by Paolo Perrotta changed my perspective on Ruby and led to the discovery of numerous better practices; I'd like to share some of what I've learned with the community.
 
@@ -100,6 +105,7 @@
     - Jenny Shen
   event_name: WNB.rb Meetup January 2023
   date: "2023-01-31"
+  published_at: "TODO"
   description:
     "What do rest-client, strong-password and bootstrap-sass gems have
     in common? They all suffered malicious code injections that were preventable.
@@ -121,6 +127,7 @@
     - Angela Choi
   event_name: WNB.rb Meetup February 2023
   date: "2023-02-28"
+  published_at: "TODO"
   description:
     Is your web application secured? Learn and discover some security gems
     you can implement in your project or at work. This talk will cover an overview
@@ -136,6 +143,7 @@
     - Jenny Shih
   event_name: WNB.rb Meetup February 2023
   date: "2023-02-28"
+  published_at: "TODO"
   description:
     Functional programming brings you not just fun, but also profit! Have
     you ever felt curious towards functional programming (FP)? Were you, soon afterwards,
@@ -156,6 +164,7 @@
     - Christine Seeman
   event_name: WNB.rb Meetup March 2023
   date: "2023-03-28"
+  published_at: "TODO"
   description: |-
     Let's chat about the new release of Hanami 2.0 Web Framework and what you can use it for. Let's learn how you can start with it, and some examples from an application that is already making use of Hanami in production.
 
@@ -171,6 +180,7 @@
     - Brittany Martin
   event_name: WNB.rb Meetup April 2023
   date: "2023-05-02"
+  published_at: "TODO"
   description: |-
     A DM. The dreaded message. “They want someone technical on the call.” If that statement is terrifying, never fear. Being effective at these interactions can be a big opportunity for your career. Learn tactics on when to commit to calls and how to execute them while empowering your team, conserving your time and acing the follow through.
 
@@ -186,6 +196,7 @@
     - Alicia Rojas
   event_name: WNB.rb Meetup May 2023
   date: "2023-05-30"
+  published_at: "TODO"
   description:
     Progressive web applications (PWAs) allow us to provide rich offline
     experiences as native apps would, while still being easy to use and share, as
@@ -203,6 +214,7 @@
     - Kaylah Rose Mitchell
   event_name: WNB.rb Meetup May 2023
   date: "2023-05-30"
+  published_at: "TODO"
   description:
     Discover the magic of method_missing and learn how to unleash its full
     potential in your Ruby applications. In this talk, we'll dive into the inner workings
@@ -220,6 +232,7 @@
     - Allison Hill
   event_name: WNB.rb Meetup June 2023
   date: "2023-06-27"
+  published_at: "TODO"
   description:
     Learning new tools and using them effectively is a fundamental component
     of being a developer. The more efficiently developers can get onboarded and oriented
@@ -242,6 +255,7 @@
     - Selena Small
   event_name: WNB.rb Meetup July 2023
   date: "2023-07-25"
+  published_at: "TODO"
   description: |-
     Discover the transformative potential of pair presenting at conferences in this captivating presentation. Explore the principles behind successful collaborations, understanding the advantages and disadvantages of this dynamic approach and how it can elevate your impact.
 
@@ -259,6 +273,7 @@
     - Sarah Lima
   event_name: WNB.rb Meetup July 2023
   date: "2023-07-25"
+  published_at: "TODO"
   description: |-
     Following style guidelines helps programmers avoid time-consuming discussions on trivial matters and facilitates collaboration as newcomers can quickly familiarize themselves with the code and start contributing effectively.
 
@@ -274,6 +289,7 @@
     - Mo O'Connor
   event_name: WNB.rb Meetup August 2023
   date: "2023-08-29"
+  published_at: "TODO"
   description:
     Most of us have a drive towards professional development and growing
     towards that next level, but what happens when the next level could be more than
@@ -295,6 +311,7 @@
     - Hoa Newton
   event_name: WNB.rb Meetup September 2023
   date: "2023-09-26"
+  published_at: "TODO"
   description:
     The ever-changing, ever-evolving nature of the tech industry and its
     complexity make it such an exciting field to be in, but not without many challenges.
@@ -315,6 +332,7 @@
     - Mayra Lucia Navarro
   event_name: WNB.rb Meetup October 2023
   date: "2023-10-31"
+  published_at: "TODO"
   description:
     Discover how to integrate reCAPTCHA seamlessly into your Ruby on Rails
     project to protect your web application from spam, fraud, and automated attacks.
@@ -331,6 +349,7 @@
     - Annie Kiley
   event_name: WNB.rb Meetup October 2023
   date: "2023-10-31"
+  published_at: "TODO"
   description:
     Let's talk about the command pattern and how it can be useful in object-oriented
     programming. We'll briefly go over what it is and using it with Ruby. Then we'll
@@ -347,6 +366,7 @@
     - Toni Rib
   event_name: WNB.rb Meetup November 2023
   date: "2023-11-28"
+  published_at: "TODO"
   description:
     "We've all been there: you're running tests in CI and a test not related
     to your PR fails for seemingly no reason. Or maybe you change code and the test
@@ -365,6 +385,7 @@
     - Hana Harencarova
   event_name: WNB.rb Meetup December 2023
   date: "2023-12-19"
+  published_at: "TODO"
   description:
     Let's talk about valuing junior developers more in the workplace because
     they're the future of our industry. Companies often struggle to find enough senior
@@ -387,6 +408,7 @@
     - Michelle Yuen
   event_name: WNB.rb Meetup January 2024
   date: "2024-01-30"
+  published_at: "TODO"
   description:
     "People create, capture and consume more data than ever before.  From
     recording price changes of a single stock, to tracking environmental values such
@@ -405,6 +427,7 @@
     - Allison Zadrozny
   event_name: WNB.rb Meetup January 2024
   date: "2024-01-30"
+  published_at: "TODO"
   description:
     A tiny how-to primer on the best way to structure your code to deliver
     relevant search results to users in a basic Rails app without the use of javascript.
@@ -422,6 +445,7 @@
     - Madelyn Freed
   event_name: WNB.rb Meetup February 2024
   date: "2024-02-27"
+  published_at: "TODO"
   description:
     Pair programming improves nearly every aspect of my technical work
     and transforms my job from lonely to joyful. In this talk, I make a case for why
@@ -438,6 +462,7 @@
     - Naijeria Toweett
   event_name: WNB.rb Meetup February 2024
   date: "2024-02-27"
+  published_at: "TODO"
   description:
     It all began with someone else's transition story, where I saw fragments
     of myself. I was inspired into action. In this talk, I guide you through the process
@@ -456,6 +481,7 @@
     - Jessica Sullivan
   event_name: WNB.rb Meetup March 2024
   date: "2024-03-12"
+  published_at: "TODO"
   description: |-
     Have you ever marvelled at the magic of Rails.new and how easy it is to go from zero to I've got a working app? It's fantastic, but it's also scary when you're three years into your career and wonder what really happens in database.yml or application.rb.
 
@@ -473,6 +499,7 @@
     - Dawn Richardson
   event_name: WNB.rb Meetup April 2024
   date: "2024-04-30"
+  published_at: "TODO"
   description:
     Staff, principal, distinguished engineer - there is an alternate path
     to people management if continuing up the "career ladder" into technical leadership.
@@ -489,6 +516,7 @@
     - Stephanie Minn
   event_name: WNB.rb Meetup May 2024
   date: "2024-05-28"
+  published_at: "TODO"
   description: |-
     When you write tests, you are the first user of your code's design. Like any user experience, you may encounter friction. Stubbing endless methods to get to green. Fixing unrelated spec files after a minor change. Rather than push on, let this tedium guide you toward better object-oriented code.
 
@@ -504,6 +532,7 @@
     - Toni Rib
   event_name: WNB.rb Meetup June 2024
   date: "2024-06-25"
+  published_at: "TODO"
   description: |-
     Lightning talk by Toni Rib about what an infrastructure engineer does.
 
@@ -517,6 +546,7 @@
     - Mayra Lucia Navarro
   event_name: WNB.rb Meetup June 2024
   date: "2024-06-25"
+  published_at: "TODO"
   description: |-
     What are Webhooks? What problem do they solve? Let's learn a little about them and how to implement them in Rails.
 
@@ -530,6 +560,7 @@
     - Hilary Stohs-Krause
   event_name: WNB.rb Meetup July 2024
   date: "2024-07-30"
+  published_at: "TODO"
   description:
     "If you work mostly on the back-end of the tech stack, it's easy to
     assume that your role is disengaged from accessibility concerns. After all, that's
@@ -544,6 +575,7 @@
     - Caroline Salib
   event_name: WNB.rb Meetup August 2024
   date: "2024-08-30"
+  published_at: "TODO"
   description:
     If you're unsure about what observability is or haven't given it much
     thought, this talk is perfect for you! We'll cover the basics of observability
@@ -598,6 +630,7 @@
     - Christine Seeman
   event_name: WNB.rb Meetup January 2025
   date: "2025-01-25"
+  published_at: "TODO"
   thumbnail_xs: https://cdn.masto.host/rubysocial/media_attachments/files/113/844/865/006/596/689/original/2a841e477cf117c6.png
   thumbnail_sm: https://cdn.masto.host/rubysocial/media_attachments/files/113/844/865/006/596/689/original/2a841e477cf117c6.png
   thumbnail_md: https://cdn.masto.host/rubysocial/media_attachments/files/113/844/865/006/596/689/original/2a841e477cf117c6.png

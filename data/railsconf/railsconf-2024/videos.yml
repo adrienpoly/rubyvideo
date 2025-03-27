@@ -1,15 +1,16 @@
 ---
-# TODO: talks running order
-# TODO: talk dates
 # TODO: conference website
 # TODO: schedule website
+
+## Day 1
 
 - title: "Keynote: Getting to Two Million Users as a One Woman Dev Team"
   raw_title: RailsConf 2024 - Opening Conference Keynote by Nadia Odunayo
   speakers:
     - Nadia Odunayo
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "2024-07-10"
   description: ""
   video_provider: youtube
   video_id: TWi-cSHNr5s
@@ -19,7 +20,8 @@
   speakers:
     - Youssef Boulkaid
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description: |-
     Logging is often an afterthought when we put our apps in production. It's there, it's configured by default and it's... good enough?
 
@@ -34,7 +36,8 @@
   speakers:
     - Stephanie Minn
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description: |-
     When you write tests, you are interacting with your code. Like any user experience, you may encounter friction. Stubbing endless methods to get to green. Fixing unrelated spec files after a minor change. Rather than push on, let this tedium guide you toward better software design.
 
@@ -47,7 +50,8 @@
   speakers:
     - Hilary Stohs-Krause
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description:
     If you work mostly on the back-end of the tech stack, it’s easy to
     assume that your role is disengaged from accessibility concerns. After all, that’s
@@ -62,7 +66,8 @@
     - John DeSilva
     - Grant Drzyzga
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   track: "Supporter Talk"
   description: |-
     Learn how to take the Scenic Gem route for enterprise reporting. In this talk, you'll learn how to transform the complex terrain of database reporting into
@@ -79,7 +84,8 @@
   speakers:
     - Manu Janardhanan
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description: |-
     Executing a long running task like external API requests in the request-response cycle is guaranteed to bring your Rails app to its knees sooner or later. We have relied on background jobs to offload long running tasks due to this.
 
@@ -92,7 +98,8 @@
   speakers:
     - Talysson Oliveira Cassiano
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description: |-
     Ruby on Fails - effective error handling with Rails conventions by Talysson Oliveira Cassiano
 
@@ -105,7 +112,8 @@
   speakers:
     - Joel Hawksley
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description:
     "Our industry is shockingly bad at accessibility: by some estimates,
     over 70% of websites are effectively unavailable to blind users! Making your app
@@ -130,7 +138,8 @@
     - Jenny Shen
     - Nikita Vasilevsky
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   track: "Supporter Talk"
   description: |-
     Interested in Shopify's Rails-related projects this past year? Join our Meet the Team session!
@@ -153,7 +162,8 @@
   speakers:
     - Chris Oliver
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/excid3/crafting-rails-plugins
   description:
     Ever wanted to build a plugin for Rails to add new features? Rails
@@ -169,7 +179,8 @@
   speakers:
     - Karynn Ikeda
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description:
     "Join me on a crash course in semantic theory to unpack one of the
     hardest problems in software engineering: naming things. Dive into how names act
@@ -185,7 +196,8 @@
   speakers:
     - George Ma
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description:
     In this talk we will dive into how Shopify automated Rails upgrades
     as well as leveraged Dependabot, Rubocop, and Bundler to easily upgrade and maintain
@@ -201,7 +213,8 @@
     - Junji Zhi
     - Gusto Engineering Team
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   track: "Supporter Talk"
   description: |-
     Lighting Talks hosted by Gusto will feature talks from members of the Gusto engineering team. Talks will cater to attendees of all experience levels.
@@ -213,7 +226,8 @@
   speakers:
     - Andy Waite
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description: |-
     A Rails server in your editor: Using Ruby LSP to extract runtime information by Andy Waite
 
@@ -228,7 +242,8 @@
   speakers:
     - Sweta Sanghavi
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description: |-
     Plain, Old, but Mighty: Leveraging POROs in Greenfield and Legacy Code by Sweta Sanghavi
 
@@ -245,7 +260,8 @@
   speakers:
     - Collin Jilbert
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description:
     Discover how encountering perplexing and misleading error messages
     in Ruby on Rails can lead to opportunities for contribution by delving into a
@@ -265,7 +281,8 @@
     - Kevin Hurley
     - Fito Von Zastrow
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   track: "Supporter Talk"
   description: |-
     The automotive industry has learned a great deal and significantly improved the design of their safety systems through baseline regression testing, otherwise known as crash testing. Manufacturers use sophisticated dummies to record how a collision affects the occupants of a vehicle, then analyze the data to help create improved designs which can be evaluated in another test. What can Rails developers learn from this technique? How can and when should we leverage baseline regression tests to safely improve the design of our mission critical systems? What exactly can we learn from crash test dummies?
@@ -277,7 +294,8 @@
   speakers:
     - Garrett Dimon
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/garrettdimon/save-time-by-creating-custom-rails-generators
   description:
     Become skilled at quickly creating well-tested custom generators and
@@ -293,7 +311,8 @@
   speakers:
     - Kasper Timm Hansen
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/kaspth/railsconf-2024-riffing-on-rails-sketch-your-way-to-better-designed-code
   description: |-
     Say you've been tasked with building a feature or subsystem in a Rails app. How do you get started? How do you plan out your objects? How do you figure out the names, responsibilities, and relationships? While some reach for pen & paper and others dive straight into implementation, there's a third option: Riffing on Rails.
@@ -309,7 +328,8 @@
   speakers:
     - Nikita Vasilevsky
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description:
     Explore the new feature of composite primary keys in Rails! Learn how
     to harness this powerful feature to optimize your applications, and gain insights
@@ -323,7 +343,8 @@
   speakers:
     - Brad Leslie
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   track: "Supporter Talk"
   description: |-
     Level up your local development! Explore automation & orchestration with Docker, Makefiles, and bash scripts. Learn how to integrate apps seamlessly, tackle dependency challenges, and supercharge local development & testing.
@@ -335,7 +356,8 @@
   speakers:
     - Irina Nazarova
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/irinanazarova/railsconf-2024-keynote-startups-on-rails-in-2024
   description: |-
     Let's hear from startups that chose Rails in recent years. Would you be surprised to hear that Rails is quietly recommended founder to founder in the corridors of Y Combinator? But it’s not only the praise that is shared.
@@ -351,7 +373,8 @@
   speakers:
     - Andy Croll
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-07"
+  published_at: "TODO"
   description: Closing Day 1 with Andy Croll
   video_provider: youtube
   video_id: 1-cPB5Ft9Kk
@@ -363,7 +386,8 @@
   speakers:
     - John Hawthorn
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-08"
+  published_at: "TODO"
   description:
     "This talk introduces Vernier: a new sampling profiler for Ruby 3.2+
     which is able to capture more details than existing tools including threads, ractors,
@@ -378,7 +402,8 @@
   speakers:
     - Stephen Margheim
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-08"
+  published_at: "TODO"
   description:
     "SQLite on Rails: From rails new to 50k concurrent users and everything
     in between by Stephen Margheim \n\nLearn how to build and deploy a Rails application
@@ -400,7 +425,8 @@
   speakers:
     - Jason Swett
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-08"
+  published_at: "TODO"
   description:
     We're often taught that test-driven development is all about red-green-refactor.
     But WHY do we do it that way? And could it be that they way TDD is usually taught
@@ -414,7 +440,8 @@
   speakers:
     - Vladimir Dementyev
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-08"
+  published_at: "TODO"
   description: |-
     Ever wished your Rails test suite to complete faster so you don't waste your time procrastinating while waiting for the green light (or red, who knows—it’s still running)? Have you ever tried increasing the number of parallel workers on CI to solve the problem and reached the limit so there is no noticeable difference anymore?
 
@@ -429,7 +456,8 @@
   speakers:
     - Andrew Atkinson
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-08"
+  published_at: "TODO"
   description: |-
     In this workshop, you'll learn to leverage powerful Active Record capabilities to bring your applications to the next level. We'll start from scratch and focus on two major areas. We’ll work with high performance queries and we’ll configure and use multiple databases.
 
@@ -444,7 +472,8 @@
   speakers:
     - Noel Rappin
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-08"
+  published_at: "TODO"
   description:
     Rails is powerful, but it doesn't do everything. Sometimes you want
     to build your own tool that adds functionality to Rails. If it's something that
@@ -463,7 +492,8 @@
   speakers:
     - Todd Sedano
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-08"
+  published_at: "TODO"
   description: |-
     Please arrive on time, we will close the workshop after the first 10 minutes.
 
@@ -478,7 +508,8 @@
   speakers:
     - Jared Norman
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description:
     Value objects are one of the most useful but underused object-oriented
     software design patterns. Now that Ruby has first class support for them, let’s
@@ -495,7 +526,8 @@
   speakers:
     - Marco Roth
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/marcoroth/revisiting-the-hotwire-landscape-after-turbo-8
   description: |-
     Hotwire has significantly altered the landscape of building interactive web applications with Ruby on Rails, marking a pivotal evolution toward seamless Full-Stack development.
@@ -511,7 +543,8 @@
   speakers:
     - Andy Andrea
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: |-
     Working with Ruby and Rails affords access to a wealth of convenience, power and productivity. It also gives us a bunch of similar but distinct ways for checking objects' equality, modeling datetimes, checking strings against regular expressions and accomplishing other common tasks. Sometimes, this leads to confusion; other times, we simply pick one option that works and might miss out something that handles a particular use case better.
 
@@ -524,7 +557,8 @@
   speakers:
     - Alistair Norman
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description:
     Learning as a new developer is difficult and sometimes overwhelming.
     As mentors, we’re tasked with teaching newer developers everything they need to
@@ -541,7 +575,8 @@
   speakers:
     - John Pollard
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   slides_url: https://www.slideshare.net/slideshow/johnpollard-hybrid-app-railsconf2024-pptx/268167413
   description: |-
     Insights Gained from Developing a Hybrid Application Using Turbo-Native and Strada by John Pollard
@@ -555,7 +590,8 @@
   speakers:
     - Daniel Colson
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/dodecadaniel/the-very-hungry-transaction
   description: |-
     The story begins with a little database transaction. As the days go by, more and more business requirements cause the transaction to grow in size. We soon discover that it isn't a little transaction anymore, and it now poses a serious risk to our application and business. What went wrong, and how can we fix it?
@@ -569,7 +605,8 @@
   speakers:
     - Cody Norman
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: |-
     Email is a powerful and flexible way to extend the capabilities of your Rails application. It’s a familiar and low friction way for users to interact with your app.
 
@@ -584,7 +621,8 @@
   speakers:
     - Joël Quenneville
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/joelq/dungeons-and-dragons-and-rails
   description:
     You’ve found your way through the dungeon, charmed your way past that
@@ -602,7 +640,8 @@
   speakers:
     - Kevin Lesht
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: |-
     How does a web request make it through a Rails app? And, what happens when a lot of them are coming in, all at once? If you've ever been curious about how requests are handled, or about how to analyze and configure your infrastructure for optimally managing throughput, then this talk is for you!
 
@@ -617,7 +656,8 @@
   speakers:
     - Louis Antonopoulos
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: |-
     I built a Rails-based game with a partner...an AI partner!
 
@@ -636,7 +676,8 @@
   speakers:
     - Stefanni Brasil
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: |-
     Do you want to write JavaScript tests but feel stuck transferring your testing skills to the JavaScript world? Do you wish that one day you could write JS tests as confidently as you write Ruby tests? If so, this talk is for you.
     Let’s face it: JavaScript isn’t going anywhere. One way to become more productive is to be confident with writing JavaScript automated tests.
@@ -650,7 +691,8 @@
   speakers:
     - Chantelle Isaacs
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: |-
     Dungeons and Developers: Uniting Experience Levels in Engineering Teams by Chantelle Isaacs
 
@@ -663,7 +705,8 @@
   speakers:
     - TODO
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: |-
     A lightning talk is a short presentation (up to 5 mins) on your chosen topic. Talks will take place in 2 time blocks - 45 minutes each with 15 minute break in between. Signups are required for presenting. There will be an announcement on the conference Slack when signups will begin. There will be 18 slots total.
   video_provider: not_recorded
@@ -674,7 +717,8 @@
   speakers:
     - Chris Winslett
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: |-
     Using Postgres + OpenAI to power your AI Recommendation Engine by Chris Winslett
 
@@ -689,7 +733,8 @@
   speakers:
     - Avi Flombaum
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: |-
     Progressive Web Apps (PWAs) have emerged as a solution for offering the seamless experience of native apps combined with the reach and accessibility of the web. This talk will dive into building an offline-first RSS feed reader that leverages the full potential of PWAs such as Service Workers, Background Sync,
 
@@ -708,7 +753,8 @@
   speakers:
     - Dawn Richardson
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description:
     Staff, principal, distinguished engineer - there is an alternate path
     to people management if continuing up the "career ladder" into technical leadership.
@@ -722,7 +768,8 @@
   speakers:
     - TODO
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: |-
     A lightning talk is a short presentation (up to 5 mins) on your chosen topic. Talks will take place in 2 time blocks - 45 minutes each with 15 minute break in between. Signups are required for presenting. There will be an announcement on the conference Slack when signups will begin. There will be 18 slots total.
   video_provider: not_recorded
@@ -733,7 +780,8 @@
   speakers:
     - Aaron Patterson
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: "--0pXVadtII"
@@ -744,7 +792,8 @@
     - Ufuk Kayserilioglu
     - Andy Croll
   event_name: RailsConf 2024
-  published_at: "2024-05-24"
+  date: "2024-05-09"
+  published_at: "TODO"
   description: ""
   video_provider: youtube
   video_id: gHANy_j0nEQ

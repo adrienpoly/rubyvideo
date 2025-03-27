@@ -4,6 +4,7 @@
 # Table name: talks
 #
 #  id                  :integer          not null, primary key
+#  announced_at        :datetime
 #  date                :date             indexed, indexed => [video_provider]
 #  description         :text             default(""), not null
 #  duration_in_seconds :integer
@@ -14,6 +15,7 @@
 #  language            :string           default("en"), not null
 #  like_count          :integer          default(0)
 #  meta_talk           :boolean          default(FALSE), not null
+#  published_at        :datetime
 #  slides_url          :string
 #  slug                :string           default(""), not null, indexed
 #  start_seconds       :integer
@@ -67,7 +69,10 @@ class Talk < ApplicationRecord
 
   has_many :child_talks, class_name: "Talk", foreign_key: :parent_talk_id, dependent: :destroy
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
+  has_many :kept_speaker_talks, -> { kept }, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id,
+    class_name: "SpeakerTalk"
   has_many :speakers, through: :speaker_talks, inverse_of: :talks
+  has_many :kept_speakers, through: :kept_speaker_talks, inverse_of: :talks, class_name: "Speaker", source: :speaker
 
   has_many :talk_topics, dependent: :destroy
   has_many :topics, through: :talk_topics
@@ -90,11 +95,16 @@ class Talk < ApplicationRecord
   validates :language, presence: true,
     inclusion: {in: Language.alpha2_codes, message: "%{value} is not a valid IS0-639 alpha2 code"}
 
+  validates :date, presence: true
+  # validates :published_at, presence: true, if: :published? # TODO: enable
+
   # delegates
   delegate :name, to: :event, prefix: true, allow_nil: true
 
   # callbacks
   before_validation :set_kind, if: -> { !kind_changed? }
+
+  WATCHABLE_PROVIDERS = ["youtube", "mp4", "vimeo"]
 
   # enums
   enum :video_provider, %w[youtube mp4 vimeo scheduled not_published not_recorded parent children].index_by(&:itself)
@@ -187,7 +197,7 @@ class Talk < ApplicationRecord
         AND talk_transcripts.raw_transcript != '[]'
       ))
   }
-  scope :without_enhanced_transcript, \
+  scope :without_enhanced_transcript,
     -> {
       joins(:talk_transcript)
         .where(%(
@@ -210,13 +220,17 @@ class Talk < ApplicationRecord
   scope :for_topic, ->(topic_slug) { joins(:topics).where(topics: {slug: topic_slug}) }
   scope :for_speaker, ->(speaker_slug) { joins(:speakers).where(speakers: {slug: speaker_slug}) }
   scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
-  scope :watchable, -> { where(video_provider: [:youtube, :mp4, :vimeo]) }
+  scope :watchable, -> { where(video_provider: WATCHABLE_PROVIDERS) }
 
   def managed_by?(visiting_user)
     return false unless visiting_user.present?
     return true if visiting_user.admin?
 
     speakers.exists?(user: visiting_user)
+  end
+
+  def published?
+    video_provider.in?(WATCHABLE_PROVIDERS) || parent_talk&.published?
   end
 
   def to_meta_tags
@@ -263,6 +277,10 @@ class Talk < ApplicationRecord
 
   def thumbnail_xl
     thumbnail(:thumbnail_xl)
+  end
+
+  def thumbnail_classes
+    static_metadata.try(:[], "thumbnail_classes") || ""
   end
 
   def fallback_thumbnail
@@ -399,8 +417,8 @@ class Talk < ApplicationRecord
       static_metadata.slug&.parameterize,
       title.parameterize,
       [title.parameterize, event&.name&.parameterize].compact.reject(&:blank?).join("-"),
-      [title.parameterize, language.parameterize].compact.reject(&:blank?).join("-"),
-      [title.parameterize, event&.name&.parameterize, language.parameterize].compact.reject(&:blank?).join("-"),
+      [title.parameterize, language&.parameterize].compact.reject(&:blank?).join("-"),
+      [title.parameterize, event&.name&.parameterize, language&.parameterize].compact.reject(&:blank?).join("-"),
       [date.to_s.parameterize, title.parameterize].compact.reject(&:blank?).join("-"),
       [title.parameterize, *speakers.map(&:slug)].compact.reject(&:blank?).join("-"),
       [static_metadata.raw_title.parameterize].compact.reject(&:blank?).join("-"),
@@ -442,24 +460,18 @@ class Talk < ApplicationRecord
       end
     end
 
-    if Array.wrap(static_metadata.speakers).none? && Array.wrap(static_metadata.talks).none?
+    if static_metadata.blank? || (Array.wrap(static_metadata.speakers).none? && Array.wrap(static_metadata.talks).none?)
       puts "No speakers for Video ID: #{video_id}"
       return
     end
-
-    date = static_metadata.try(:date) ||
-      (parent_talk && parent_talk.static_metadata.try(:date)) ||
-      static_metadata.try(:published_at) ||
-      (parent_talk && parent_talk.static_metadata.try(:published_at)) ||
-      event.start_date ||
-      event.end_date ||
-      Date.parse("#{static_metadata.year}-01-01")
 
     assign_attributes(
       event: event,
       title: static_metadata.title,
       description: static_metadata.description,
-      date: date,
+      date: static_metadata.try(:date) || parent_talk&.static_metadata.try(:date),
+      published_at: static_metadata.try(:published_at) || parent_talk&.static_metadata.try(:published_at),
+      announced_at: static_metadata.try(:announced_at) || parent_talk&.static_metadata.try(:announced_at),
       thumbnail_xs: static_metadata["thumbnail_xs"] || "",
       thumbnail_sm: static_metadata["thumbnail_sm"] || "",
       thumbnail_md: static_metadata["thumbnail_md"] || "",
@@ -467,6 +479,7 @@ class Talk < ApplicationRecord
       thumbnail_xl: static_metadata["thumbnail_xl"] || "",
       language: static_metadata.language || Language::DEFAULT,
       slides_url: static_metadata.slides_url,
+      video_id: static_metadata.video_id || static_metadata.id,
       video_provider: static_metadata.video_provider || :youtube,
       external_player: static_metadata.external_player || false,
       external_player_url: static_metadata.external_player_url || "",
@@ -488,11 +501,11 @@ class Talk < ApplicationRecord
 
   def static_metadata
     @static_metadata ||= if video_provider == "parent"
-      Array.wrap(parent_talk&.static_metadata&.talks).find { |talk| talk.video_id == video_id }
-    elsif (metadata = Static::Video.find_by(video_id: video_id))
+      Array.wrap(parent_talk&.static_metadata&.talks).find { |talk| talk.video_id == video_id || talk.id == video_id }
+    elsif (metadata = Static::Video.find_by(video_id: video_id) || Static::Video.find_by(id: video_id))
       metadata
     else
-      Static::Video.all.flat_map(&:talks).compact.find { |talk| talk.video_id == video_id }
+      Static::Video.all.flat_map(&:talks).compact.find { |talk| talk.video_id == video_id || talk.id == video_id }
     end
   end
 

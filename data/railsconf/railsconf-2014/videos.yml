@@ -10,7 +10,8 @@
   speakers:
     - David Heinemeier Hansson
   event_name: RailsConf 2014
-  published_at: "2014-05-05"
+  date: "2014-05-05"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -21,7 +22,8 @@
   speakers:
     - Justin Gordon
   event_name: RailsConf 2014
-  published_at: "2014-05-05"
+  date: "2014-05-05"
+  published_at: "TODO"
   description: |-
     By Justin Gordon
 
@@ -37,7 +39,8 @@
   speakers:
     - Todd Schneider
   event_name: RailsConf 2014
-  published_at: "2014-05-05"
+  date: "2014-05-05"
+  published_at: "TODO"
   description: |-
     To get a grip on what "data science" really is, we'll work through a real text mining problem live on stage. Our mission? Trace the evolution of popular words and phrases in RailsConf talk abstracts over the years! We'll cover all aspects of the problem, from gathering and cleaning our data, to performing analysis and creating a compelling visualization of our results. People often overlook Ruby as a choice for scientific computing, but the Rails ecosystem is surprisingly suited to the problem.
 
@@ -52,7 +55,8 @@
     - Nitin Dhaware
     - Nerkar Dnyaneshwar
   event_name: RailsConf 2014
-  published_at: "2014-05-05"
+  date: "2014-05-05"
+  published_at: "TODO"
   description: |-
     By Nitin Dhaware and Nerkar Dnyaneshwar
 
@@ -69,7 +73,8 @@
   speakers:
     - Erik Michaels-Ober
   event_name: RailsConf 2014
-  published_at: "2014-05-05"
+  date: "2014-05-05"
+  published_at: "TODO"
   description: |-
     Tests are a good tool to verify your code but how do you verify your tests? Mutation testing is a technique to evaluate the quality of your tests by programmatically mutating (i.e. making a series of small modifications to) your code and ensuring that the tests no longer pass. This talk will attempt to demonstrate the value of mutation testing and show you how to use Mutant to improve the quality of your tests and your code.
 
@@ -83,7 +88,8 @@
   speakers:
     - Jess Szmajda
   event_name: RailsConf 2014
-  published_at: "2014-05-06"
+  date: "2014-05-06"
+  published_at: "TODO"
   description: |-
     We're comfortable with HTTP, but using it for communication in your SOA isn't simple. You need load balancers, URL discovery, SSL, and there's a cost to set up and tear down that HTTP window.
 
@@ -102,7 +108,8 @@
     - Keith Pitt
     - Mario Visic
   event_name: RailsConf 2014
-  published_at: "2014-05-06"
+  date: "2014-05-06"
+  published_at: "TODO"
   description: |-
     By Keith Pitt and Mario Visic
 
@@ -128,7 +135,8 @@
   speakers:
     - Andrew Warner
   event_name: RailsConf 2014
-  published_at: "2014-05-06"
+  date: "2014-05-06"
+  published_at: "TODO"
   description: |-
     By Andrew Warner
 
@@ -146,7 +154,8 @@
   speakers:
     - Carl Lerche
   event_name: RailsConf 2014
-  published_at: "2014-05-06"
+  date: "2014-05-06"
+  published_at: "TODO"
   description: |-
     If you have ever needed to scale background jobs, you might have noticed that using the database to share information between tasks incurs a serious performance penalty. Trying to process large amounts of data in real-time using the database for coordination will quickly bring your servers to their knees.
 
@@ -162,7 +171,8 @@
   speakers:
     - Nicholas Henry
   event_name: RailsConf 2014
-  published_at: "2014-05-07"
+  date: "2014-05-07"
+  published_at: "TODO"
   description: |-
     Since your first web application, you have struggled with identifying domain objects. Assigning business rules and services appears to be a talent that only other developers are born with. Fear not! Object Modeling is a learnable, teachable skill. This talk demonstrates the five essential skills you need for modeling objects and their responsibilities. Think beyond ActiveRecord and your database, and learn how color and patterns will help you explain, maintain and extend your application.
 
@@ -176,7 +186,8 @@
   speakers:
     - Liana Leahy
   event_name: RailsConf 2014
-  published_at: "2014-05-07"
+  date: "2014-05-07"
+  published_at: "TODO"
   description: |-
     LYRICS:
 
@@ -263,7 +274,8 @@
     - Eric Roberts
     - Declan Whelan
   event_name: RailsConf 2014
-  published_at: "2014-05-07"
+  date: "2014-05-07"
+  published_at: "TODO"
   description: |-
     By Eric Roberts and Declan Whelan
 
@@ -281,7 +293,8 @@
   speakers:
     - Luke Melia
   event_name: RailsConf 2014
-  published_at: "2014-05-07"
+  date: "2014-05-07"
+  published_at: "TODO"
   description: |-
     By Luke Melia
 
@@ -297,7 +310,8 @@
   speakers:
     - Cameron Dutro
   event_name: RailsConf 2014
-  published_at: "2014-05-07"
+  date: "2014-05-07"
+  published_at: "TODO"
   description: |-
     By Cameron Dutro
 
@@ -313,7 +327,8 @@
   speakers:
     - Javier Ramirez
   event_name: RailsConf 2014
-  published_at: "2014-05-08"
+  date: "2014-05-08"
+  published_at: "TODO"
   description: |-
     By Javier Ramirez
 
@@ -333,7 +348,8 @@
   speakers:
     - Chris Maddox
   event_name: RailsConf 2014
-  published_at: "2014-05-08"
+  date: "2014-05-08"
+  published_at: "TODO"
   description: |-
     It's 5am and a multi-million dollar process fails halfway through. Hours of nightmarish, manual brain surgery later, enough is enough.
 
@@ -351,7 +367,8 @@
   speakers:
     - Ben Dixon
   event_name: RailsConf 2014
-  published_at: "2014-05-08"
+  date: "2014-05-08"
+  published_at: "TODO"
   description: |-
     Heroku makes it quick and easy to get your app up and running without worrying about "server stuff". But that server stuff is a lot simpler than it seems and once you know it, can make your projects more flexible (and save a lot of money!).
 
@@ -367,7 +384,8 @@
   speakers:
     - Yehuda Katz
   event_name: RailsConf 2014
-  published_at: "2014-05-08"
+  date: "2014-05-08"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -378,7 +396,8 @@
   speakers:
     - Saron Yitbarek
   event_name: RailsConf 2014
-  published_at: "2014-05-08"
+  date: "2014-05-08"
+  published_at: "TODO"
   description: |-
     As a new programmer, everyone tells you to build. But just as important is reading. Reading code is a powerful exercise - dissecting the source code of gems and libraries used in Rails offers the opportunity to examine patterns and design choices, while building confidence in new developers. But good code reading isn't as simple as scanning the source. The concrete guidelines outlined in this talk can maximize the benefits of your future code reading sessions and help you grow as a developer.
 
@@ -392,7 +411,8 @@
   speakers:
     - Akira Matsuda
   event_name: RailsConf 2014
-  published_at: "2014-05-08"
+  date: "2014-05-08"
+  published_at: "TODO"
   description: |-
     Rails is a platform to serve your Ruby applications, and yet is a very well crafted open-source product written in the language that composes your apps. So, if you're curious to know how things work underneath your app, you can read everything!
 
@@ -412,7 +432,8 @@
   speakers:
     - David Padilla
   event_name: RailsConf 2014
-  published_at: "2014-05-08"
+  date: "2014-05-08"
+  published_at: "TODO"
   description: |-
     Whenever you say that you're building a web application with Ruby, its almost implied that you will be using Rails to do so.
 
@@ -432,7 +453,8 @@
   speakers:
     - Kate Heddleston
   event_name: RailsConf 2014
-  published_at: "2014-05-09"
+  date: "2014-05-09"
+  published_at: "TODO"
   description: |-
     With the increase of code academies training new engineers there is an increase in junior engineers on the market. A lot of companies are hesitant to hire too many young engineers because they lack sufficient resources to train them. This is a talk about how to make junior engineers into independent and productive members of your engineering team faster and cheaper by outlining a plan for how to onboard engineers effectively based on data and anecdotes gathered from companies in San Francisco.
 
@@ -446,7 +468,8 @@
   speakers:
     - Bradly Feeley
   event_name: RailsConf 2014
-  published_at: "2014-05-09"
+  date: "2014-05-09"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -457,7 +480,8 @@
   speakers:
     - Coraline Ada Ehmke
   event_name: RailsConf 2014
-  published_at: "2014-05-09"
+  date: "2014-05-09"
+  published_at: "TODO"
   description: |-
     Inspired by the medieval guild-and-apprentice system, the increasing popularity of bootcamps and apprenticeship programs in software development has great promise but may also bring with it some serious negative side effects. Let's explore the benefits of applying 12th century best practices to the challenge of preparing a new generation of developers, and discuss ways to avoid the mistakes of the past: technologically conservative monocultures comprising and serving a privileged few.
 
@@ -471,7 +495,8 @@
   speakers:
     - Chuck Lauer Vose
   event_name: RailsConf 2014
-  published_at: "2014-05-09"
+  date: "2014-05-09"
+  published_at: "TODO"
   description: |-
     By Chuck Lauer Vose
 
@@ -489,7 +514,8 @@
   speakers:
     - Brad Gessler
   event_name: RailsConf 2014
-  published_at: "2014-05-13"
+  date: "2014-05-13"
+  published_at: "TODO"
   description: |-
     By Brad Gessler
 
@@ -501,7 +527,8 @@
   speakers:
     - Carlos Antonio da Silva
   event_name: RailsConf 2014
-  published_at: "2014-05-13"
+  date: "2014-05-13"
+  published_at: "TODO"
   description: |-
     Rails allows us to write very concise code hiding a lot of the complexity. However, it's common to face situations that require us to write more complex code on our own, and sometimes we forget a little about what Rails can do for us. We are going through some Rails features that people might not be aware of, talking about Active Record queries, custom template handlers, routing niceties, view helpers and more, to learn how these tricks can help simplifying complex code on our apps.
 
@@ -518,7 +545,8 @@
     - Jeff Casimir
     - Ben Orenstein
   event_name: RailsConf 2014
-  published_at: "2014-05-13"
+  date: "2014-05-13"
+  published_at: "TODO"
   description: |-
     This is a panel discussion featuring Dave Hoover, co-founder of DevBootcamp Chicago, Jeff Casimir of Jumpstart Labs, and Ben Orenstein of Thoughtbot about how best to bring new developers into the field, and what kind of knowledge they will need to be successful. What can we, as a community, do to improve our management of new developers? What can new developers do to give themselves the best chance of success?
 
@@ -532,7 +560,8 @@
   speakers:
     - Starr Horne
   event_name: RailsConf 2014
-  published_at: "2014-05-13"
+  date: "2014-05-13"
+  published_at: "TODO"
   description: |-
     Once your database hits a few hundred million rows normal ActiveRecord conventions don't work so well.
 
@@ -550,7 +579,8 @@
   speakers:
     - Simon Kröger
   event_name: RailsConf 2014
-  published_at: "2014-05-13"
+  date: "2014-05-13"
+  published_at: "TODO"
   description: |-
     ".. and then cache the hell out of it!" This is usually how the talk ends when it comes to rails performance tips, but in reality it is where the fun starts. This talk goes way beyond Rails.cache, it explores layered caches, discusses the CPU cost of marshaling, the latency even Memcache adds and how to dodge the unavoidable stampedes that invalidating your caches will cause. This is the tale of how to survive half a billion requests per day with Rails and MySQL (hint: don't query it).
 
@@ -564,7 +594,8 @@
   speakers:
     - Stephan Hagemann
   event_name: RailsConf 2014
-  published_at: "2014-05-14"
+  date: "2014-05-14"
+  published_at: "TODO"
   description: |-
     By Stephan Hagemann
 
@@ -580,7 +611,8 @@
   speakers:
     - Pete Hodgson
   event_name: RailsConf 2014
-  published_at: "2014-05-14"
+  date: "2014-05-14"
+  published_at: "TODO"
   description: |-
     Our monolithic apps are evolving into ecosystems of connected services. It's becoming quite common for Rails apps to be working mainly as clients to other services. In this talk we'll cover tools and techniques for a happy and productive existence when your Rails app is acting as a front end to other services.
 
@@ -594,7 +626,8 @@
   speakers:
     - Jeremy Green
   event_name: RailsConf 2014
-  published_at: "2014-05-14"
+  date: "2014-05-14"
+  published_at: "TODO"
   description: |-
     Getting started with authentication in SOA environments can seem like a daunting subject, but it doesn't need to be difficult. This talk will cover everything you need to know to get started building your own SOA systems. We'll look at the details of building a centralized authentication service and allowing other apps to delegate their authentication needs to the service.
 
@@ -608,7 +641,8 @@
   speakers:
     - Alan Cohen
   event_name: RailsConf 2014
-  published_at: "2014-05-14"
+  date: "2014-05-14"
+  published_at: "TODO"
   description: |-
     In a SOA environment users can interact with multiple parts of your system, and the rules for authorization become dispersed across applications. The task of maintaining rules becomes complex. The challenge compounds further in a heterogeneous environment, with services built in different languages. In this talk, I focus on the topic of authorization, specifically how we can scale and grow our services with confidence. I'll walk through a new framework we've developed to approach this problem.
 
@@ -622,7 +656,8 @@
   speakers:
     - Gregg Pollack
   event_name: RailsConf 2014
-  published_at: "2014-05-14"
+  date: "2014-05-14"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -633,7 +668,8 @@
   speakers:
     - Alberto Leal
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     By Alberto Leal
 
@@ -653,7 +689,8 @@
   speakers:
     - Baratunde Thurston
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     Humor In The Code The Future Of Everything Humbly Stated
 
@@ -666,7 +703,8 @@
     - Rosie Hoyem
     - Sonja Hall
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     By Rosie Hoyem and Sonja Hall
 
@@ -684,7 +722,8 @@
   speakers:
     - Joel Turnbull
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     When our tests fail all we get is output in a terminal. Testing is core to the culture of Ruby, and the tools are sophisticated, but something big is missing from the workflow. Namely, a powerful debugger.
 
@@ -700,7 +739,8 @@
   speakers:
     - Austin Putman
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     Does your test suite fail randomly now and then? Maybe your cucumbers are a little flakey. Maybe you're busy and just kick off the build again... and again. If you've had a week or two where the build just won't pass, you know how fragile a TDD culture is. Keep yours healthy, or start bringing it back to par today. Why do tests fail randomly? How do we hunt down the causes? We'll review known sources of "randomness", with extra focus on test pollution and integration suites.
 
@@ -716,7 +756,8 @@
   speakers:
     - Neal Kemp
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     Our Ruby world is becoming increasingly service oriented. Even in trivial applications, we often glue on multiple services ranging from Twitter to AWS. Services can, however, be confusing to test.
 
@@ -734,7 +775,8 @@
   speakers:
     - Roy Tomeij
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     Writing front-end code can be frustrating. That sidebar won't stay on the left, no matter how much CSS you throw at it. The logo looks ugly on your smartphone, but after fixing it, it's broken in browser X. And why encode video in four different formats for that HTML5 player (Flash was so much easier)?!
 
@@ -750,7 +792,8 @@
   speakers:
     - Jenn Scheer
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     "Oh, don't ask me, I'm a terrible designer." That's something I've heard from Rails developers ever since I started working with them. But it's never true. It's just that most Rails devs don't have the scaffolding (no, not that scaffolding) around which to structure their designs.
 
@@ -766,7 +809,8 @@
   speakers:
     - Jessica Eldredge
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     By Jessica Eldredge
 
@@ -782,7 +826,8 @@
   speakers:
     - John Athayde
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     How They Work Better Together: Lean UX, Agile Development and User-Centered Design by John Athayde
 
@@ -798,7 +843,8 @@
   speakers:
     - Cameron Daigle
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     There's no magic mojo that helps a designer notice bad design; there's no secret compendium of design mysteries that developers just don't have access to. Good interaction design is about keeping your senses honed -- noticing the little things and respecting user intuition. In this talk I won't be showing code -- I'll be breaking down the usability of the world around you, and preaching the virtues of interaction awareness. Trust me: you'll never look at a microwave the same way again.
 
@@ -812,7 +858,8 @@
   speakers:
     - Charles Lowell
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     Client-side MVC is a different beast from the one we're used to in Rails. On the client, more than anywhere else, the M is the key to creating powerful user experiences.
 
@@ -832,7 +879,8 @@
   speakers:
     - Joe Moore
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     By Joe Moore
 
@@ -852,7 +900,8 @@
   speakers:
     - Brandon Hays
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     By Brandon Hays
 
@@ -870,7 +919,8 @@
   speakers:
     - Justin Searls
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     Last year, DHH said "good frameworks are extractions, not inventions." The success of Rails lets us forget its roots as an extraction from an HTML-based UI. The failure of Rails has been its perception as "best web framework ever" instead of "best web framework for apps like Basecamp". Given that, it's clear why Rails makes writing a UI in HTML a joy but does few favors for JavaScript-heavy apps. Joy can be had in JavaScript, and we'll show how with Lineman.js & tools extracted to help find it!
 
@@ -884,7 +934,8 @@
   speakers:
     - Eric Saxby
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     By Eric Saxby
 
@@ -900,7 +951,8 @@
   speakers:
     - Alexander Dymo
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     By Alexander Dymo
 
@@ -918,7 +970,8 @@
   speakers:
     - Sam Livingston-Gray
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     By Sam Livingston-Gray
 
@@ -944,7 +997,8 @@
   speakers:
     - Jessie Link
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     I think a lot of developers secretly harbor the desire to start their own company, but don't realize that running a business means a lot more than just cutting great code all day long. Others may be at a point in their career where they feel stalled out and might want to see if management is right for them. Moving from a software role to a management role doesn't mean you have to sacrifice all your technical/coding skills, but it does mean you need to cultivate some new ones.
 
@@ -958,7 +1012,8 @@
   speakers:
     - Aaron Patterson
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -969,7 +1024,8 @@
   speakers:
     - Kenny Hoxworth
   event_name: RailsConf 2014
-  published_at: "2014-05-16"
+  date: "2014-05-16"
+  published_at: "TODO"
   description: |-
     Twilio's distributed architecture makes manually tracking down a communication bottleneck or failure almost impossible. By utilizing a distributed tracing system, Twilio can follow any request through each service layer and each host. In this talk, we will demonstrate how a Rails application can gain the same insights by instrumenting a multi-tier application and investigate tracing integration into a larger distributed ecosystem.
 
@@ -983,7 +1039,8 @@
   speakers:
     - Katherine Wu
   event_name: RailsConf 2014
-  published_at: "2014-05-20"
+  date: "2014-05-20"
+  published_at: "TODO"
   description: |-
     Are you from a non-C.S. background? What about someone you mentor? Many junior devs' top focus is building technical knowledge. However, they already have other skills that can help them in their roles immediately! Some of these include helping their team focus on the right tasks and working well with stakeholders like PM and support. This talk will discuss the non-technical contributions junior devs can make now and how their senior dev mentors can help them ramp up more quickly as a result.
 
@@ -997,7 +1054,8 @@
   speakers:
     - Leah Silber
   event_name: RailsConf 2014
-  published_at: "2014-05-20"
+  date: "2014-05-20"
+  published_at: "TODO"
   description: |-
     Open source is the bread and butter of the community; it also makes us happy, but can it sustain a company? Execu-types will happily leech off OSS without contributing back, but there's a better way! In this talk I'll walk through how you can build an OSS-centric company. How to fund it, run it, and use it to build your project and community. Whether you're looking to build a new company around open source, or simply integrate more OSS-love into your existing business, this talk is for you.
 
@@ -1011,7 +1069,8 @@
   speakers:
     - Sean Marcia
   event_name: RailsConf 2014
-  published_at: "2014-05-20"
+  date: "2014-05-20"
+  published_at: "TODO"
   description: |-
     Two thirds of honeybee hives have died out in Virginia. Is it possible for us to devise a way of monitoring beehives in remote locations to find the cause? Enter a raspberry pi + rails. Using a combination of this robust hardware and software solution, we were able to successfully track, monitor and provide real time reporting on the well-being of hives from across the county. Find out how we used ruby, rails, solar panels and other libraries to provide insight into this problem.
 
@@ -1025,7 +1084,8 @@
   speakers:
     - Nickolas Means
   event_name: RailsConf 2014
-  published_at: "2014-05-20"
+  date: "2014-05-20"
+  published_at: "TODO"
   description: |-
     Despite the attention that impostor syndrome has gotten in the Ruby community recently, so many amazing developers still hide in fear of being discovered as frauds. These developers chalk their achievements up to everything except their own talent and don't believe they deserve their success. I know, because I've struggled with impostor syndrome my whole career. In this talk, I'll show you what makes impostor syndrome so powerful and how you can break free from the grip it has on your life.
 
@@ -1039,7 +1099,8 @@
   speakers:
     - Jason Clark
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   description: |-
     Are your controllers jumbled with seemingly unrelated steps? Does testing any bit of application logic require fixtures and setup helpers a mile long?
 
@@ -1057,7 +1118,8 @@
   speakers:
     - Mike Moore
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   description: |-
     Cutting-edge web interfaces surprise and delight users with their interactivity. Can we somehow enable this next-generation user experience with our current rails templates and not rewriting our presentation layer in JavaScript?
 
@@ -1073,7 +1135,8 @@
   speakers:
     - Luke Francl
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   description: |-
     In Edward Bellamy's utopian novel "Looking Backward", a man from the 1890s awakens after 100 years and sees the wonders of the new age. What would a programmer from 2004 think if they woke up in 2014's web development utopia?
 
@@ -1089,7 +1152,8 @@
   speakers:
     - Tute Costa
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   description: |-
     In this workshop we'll learn how to transform complex, highly coupled code into a simpler, more readable and maintainable shape. We'll target known software anomalies with Refactoring Patterns‎, following steps with a confined scope, assuring that we stay distant from "changed everything" commits while achieving quick design improvements.
 
@@ -1104,7 +1168,8 @@
     - Carlos Souza
     - David Rogers
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   description: |-
     The ultimate goal of the Coding Dojo is to share knowledge and improve the technical and social skills required in software development. This is a hands on Coding Dojo using Ruby as the language of choice. Participants will pair program with each other trying to solve a simple problem.
 
@@ -1117,7 +1182,8 @@
     - Tom Dale
     - Yehuda Katz
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -1129,7 +1195,8 @@
     - Leena S N
     - Vaidy Bala
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   description: |-
     The first principle written in the Agile Manifesto reads: "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software". But how do we do that? This talk focuses on a key part of Continuous Delivery [CD] i.e. "culture of collaboration", and tips and tricks for building the same. We'll also touch upon important CD practices such as Feature Toggles, Automated tests and Automated build & deployment scripts.
 
@@ -1145,7 +1212,8 @@
   speakers:
     - Mark Menard
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   description: |-
     Writing small classes is hard. You know you should, but how? It's so much easier to write a large class. In this talk we'll build up a set of small classes starting from nothing using a set of directed refactorings applied as we build, all while keeping our tests green. We'll identify abstractions yearning to be free of their big class cages. In the process we'll also see how basic patterns such as composition, delegation and dependency inversion emerge from using small objects.
 
@@ -1159,7 +1227,8 @@
   speakers:
     - Sandi Metz
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   slides_url: https://speakerdeck.com/skmetz/all-the-little-things-railsconf
   description: |-
     Theory tells us to build applications out of small, interchangeable objects but reality often supplies the exact opposite. Many apps contain huge classes of long methods and hair-raising conditionals; they're hard to understand, difficult to reuse and costly to change. This talk takes an ugly section of conditional code and converts it into a few simple objects. It bridges the gap between OO theory and practice and teaches straightforward strategies that all can use to improve their code.
@@ -1174,7 +1243,8 @@
   speakers:
     - Andy Maleh
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   description: |-
     Wizards have been common in web applications since the dawn of the Internet, with the most popular example being the Shopping Cart, yet many struggle with writing wizard code effectively, resulting in a huge untraceable rat's nest of copy/paste code. In fact, many implementations violate REST and include Fat Controllers as well as overly complicated wizard-step management, data, session, and validation code. This talk covers a better way that yields Ultra Light and Maintainable Rails Wizards!
 
@@ -1188,7 +1258,8 @@
   speakers:
     - Aaron Suggs
   event_name: RailsConf 2014
-  published_at: "2014-05-21"
+  date: "2014-05-21"
+  published_at: "TODO"
   description: |-
     Mature apps face problems with abusive requests like misbehaving users, malicious hackers, and naive scrapers. Too often they drain developer productivity and happiness.
 
@@ -1209,7 +1280,8 @@
     - Terence Lee
     - Richard Schneeman
   event_name: RailsConf 2014
-  published_at: "2014-05-22"
+  date: "2014-05-22"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -1220,7 +1292,8 @@
   speakers:
     - Julian Simioni
   event_name: RailsConf 2014
-  published_at: "2014-05-22"
+  date: "2014-05-22"
+  published_at: "TODO"
   description: |-
     In 1961, MIT was awarded the contract for a guidance system to fly to the moon, the first for the entire Apollo Program. Software was not mentioned. Six years later, the project had 400 engineers writing code.
 
@@ -1239,7 +1312,8 @@
     - Edward Chiu
     - Will Luongo
   event_name: RailsConf 2014
-  published_at: "2014-05-22"
+  date: "2014-05-22"
+  published_at: "TODO"
   description: |-
 
   video_provider: youtube
@@ -1250,7 +1324,8 @@
   speakers:
     - Toby Hede
   event_name: RailsConf 2014
-  published_at: "2014-05-22"
+  date: "2014-05-22"
+  published_at: "TODO"
   description: |-
     A detailed, deep-diving, in-the-deep-end and occasionally humorous whirlwind introduction and analysis of a suite of modern (and sometimes delightfully archaic) database technologies. How they work, why they work, and when you might want them to work in your Rails application.
 
@@ -1278,7 +1353,8 @@
   speakers:
     - Chris Hunt
   event_name: RailsConf 2014
-  published_at: "2014-05-22"
+  date: "2014-05-22"
+  published_at: "TODO"
   description: |-
     You don't have a bad memory, you were just never taught how to use it. We are going to practice several powerful memory techniques that have been perfected by memory contest champions over the last hundred years. By the end of this talk, you will know how to quickly memorize a foreign language, driving directions, phone conversations, the entire Chuck Norris filmography, your friend's credit card number, a shuffled deck of playing cards, and the name of every person you meet at RailsConf.
 
@@ -1296,7 +1372,8 @@
     - Chad Pytel
     - Corey Haines
   event_name: RailsConf 2014
-  published_at: "2014-05-22"
+  date: "2014-05-22"
+  published_at: "TODO"
   description: |-
 
     Panel: Jess Casimi
@@ -1311,7 +1388,8 @@
   speakers:
     - Michael Norton
   event_name: RailsConf 2014
-  published_at: "2014-05-22"
+  date: "2014-05-22"
+  published_at: "TODO"
   description: |-
     Teamwork ain't always easy. From meetings where everybody has something to say but nothing gets done to poor decisions being made because the most senior or most forceful team member won the argument; sometimes you long for the days of high-walled cubicles and lone ranger coding. Long no more.
 
@@ -1325,7 +1403,8 @@
   speakers:
     - Xavier Noria
   event_name: RailsConf 2014
-  published_at: "2014-05-22"
+  date: "2014-05-22"
+  published_at: "TODO"
   description: |-
     Ruby on Rails applications do not need to require the files that define their classes and modules. In development mode, code changes take effect without restarting the server. How's that possible? This talk explains how this works in depth.
 
@@ -1343,7 +1422,8 @@
     - Justin Collins
     - Matt Konda
   event_name: RailsConf 2014
-  published_at: "2014-05-22"
+  date: "2014-05-22"
+  published_at: "TODO"
   description: |-
     In this talk, three Rails security specialists will take a journey through a terrifying Rails application to illustrate common security problems we have seen in the real world. The discussion will include how to identify, fix, and prevent the issues with an emphasis on practical advice. Along the way we will share our experiences and perspectives concerning securely implementing applications. We hope it is a bit scary, and yet fun ... like a horror movie!
 
@@ -1359,7 +1439,8 @@
 - title: Lightning Talks (Day 1)
   raw_title: RailsConf 2014 - Lightning Talks by Many People
   event_name: RailsConf 2014
-  published_at: "2014-05-23"
+  date: "2014-05-23"
+  published_at: "TODO"
   description: |-
     Sean Marcia
     00:01:24 - Josh
@@ -1587,7 +1668,8 @@
   speakers:
     - Ernie Miller
   event_name: RailsConf 2014
-  published_at: "2014-05-23"
+  date: "2014-05-23"
+  published_at: "TODO"
   description: |-
     Rails has opinions about how we should organize code, interact with a database, write tests, format URLs... just about everything. These conventions, the wisdom goes, free us up to focus on the specifics of our application. "Convention over configuration" becomes our mantra as development hurtles forward with startling speed.
 
@@ -1606,7 +1688,8 @@
     - Luigi Montanez
     - Ryan Resella
   event_name: RailsConf 2014
-  published_at: "2014-05-26"
+  date: "2014-05-26"
+  published_at: "TODO"
   description: |-
     By Luigi Montanez & Ryan Resella
 
@@ -1622,7 +1705,8 @@
 - title: Lightning Talks (Living Social)
   raw_title: RailsConf 2014 - Living Social Lightning Talks
   event_name: RailsConf 2014
-  published_at: "2014-05-26"
+  date: "2014-05-26"
+  published_at: "TODO"
   description: |-
     By
 
@@ -1680,7 +1764,8 @@
   speakers:
     - Manik Juneja
   event_name: RailsConf 2014
-  published_at: "2014-05-26"
+  date: "2014-05-26"
+  published_at: "TODO"
   description: |-
     VinSol has been developing on Ruby on Rails since November 2005. Over the years we have created hundreds of great products for the world's best known brands and most innovative start-ups. Whether you are a Solo Developer, a Development Shop, an Agency or a Company of any size - VinSol has something to offer for everyone - Augment your team, Incubate your team or get your product developed by us. Manik will be talking about all our offerings, including our super successful Partnership Program for the Busy Developer.
 
@@ -1692,7 +1777,8 @@
   speakers:
     - Greg Baugues
   event_name: RailsConf 2014
-  published_at: "2014-05-26"
+  date: "2014-05-26"
+  published_at: "TODO"
   description: |-
     WebRTC (Real Time Communications) is revolutionizing the way we handle voice, video and data communication by providing native peer-to-peer communication inside the browser. In this talk we'll discuss: - History: How has WebRTC evolved since it's birth just three years ago? - Applications: How are developers using WebRTC beyond video conferencing? (Such as a peer distributed CDN and "bittorrent in the browser"). - Getting Started: What is the WebRTC Hello World?
 
@@ -1704,7 +1790,8 @@
   speakers:
     - Adam Hawkins
   event_name: RailsConf 2014
-  published_at: "2014-05-26"
+  date: "2014-05-26"
+  published_at: "TODO"
   description: |-
     By Adam Hawkins
 
@@ -1719,7 +1806,8 @@
     - Jason Sisk
     - Abhishek Pillai
   event_name: RailsConf 2014
-  published_at: "2014-05-26"
+  date: "2014-05-26"
+  published_at: "TODO"
   description: |-
     You've probably heard it over and over that extracting services from Rails monoliths is tricky business. But we're here to assure you—it's even trickier when you've got 40+ million active global customers and development teams distributed across the world. So to help illustrate the work that goes into that process, two Groupon engineers are here to talk about the lessons they've learned along the way.
 
@@ -1732,7 +1820,8 @@
     - Shiv Kumar
     - Vince Foley
   event_name: RailsConf 2014
-  published_at: "2014-05-26"
+  date: "2014-05-26"
+  published_at: "TODO"
   description: |-
     By Shiv Kumar and Vince Foley
 
@@ -1746,7 +1835,8 @@
   speakers:
     - John Paul Ahenfelter
   event_name: RailsConf 2014
-  published_at: "2014-05-26"
+  date: "2014-05-26"
+  published_at: "TODO"
   description: |-
     Your Rails app is full of data that can (and should!) be turned into useful information with some simple machine learning technqiues. We'll look at basic techniques that are both immediately applicable and the foundation for more advanced analysis -- starting with your Users table.
 
@@ -1760,7 +1850,8 @@
   speakers:
     - Chris McCord
   event_name: RailsConf 2014
-  published_at: "2014-05-26"
+  date: "2014-05-26"
+  published_at: "TODO"
   description: |-
     Elixir provides the joy and productivity of Ruby with the concurrency and fault-tolerance of Erlang. Together, we'll take a guided tour through the language, going from the very basics to macros and distributed programming. Along the way, we'll see how Elixir embraces concurrency and how we can construct self-healing programs that restart automatically on failure. Attendees should leave with a great head-start into Elixir, some minor language envy, and a strong desire to continue exploration.
 
@@ -1773,7 +1864,8 @@
     - Zach Briggs
     - Todd Kaufman
   event_name: RailsConf 2014
-  published_at: "2014-05-27"
+  date: "2014-05-27"
+  published_at: "TODO"
   description: |-
     By Zach Briggs and Todd Kaufman
 
@@ -1789,7 +1881,8 @@
   speakers:
     - Adam Cuppy
   event_name: RailsConf 2014
-  published_at: "2014-05-27"
+  date: "2014-05-27"
+  published_at: "TODO"
   description: |-
     Don't you hate when testing takes 3x as long because your specs are hard to understand? Or when testing conditional permutation leads to a ton of duplication? Following a few simple patterns, you can easily take a bloated spec and make it readable, DRY and simple to extend. This workshop is a refactor kata. We will take a bloated sample spec and refactor it to something manageable, readable and concise.
 
@@ -1801,7 +1894,8 @@
   speakers:
     - Adam Sanderson
   event_name: RailsConf 2014
-  published_at: "2014-05-27"
+  date: "2014-05-27"
+  published_at: "TODO"
   description: |-
     Your job doesn't start when your fingers touch the keyboard. It starts when someone utters the words: "How hard would it be?"
 
@@ -1819,7 +1913,8 @@
   speakers:
     - Bree Thomas
   event_name: RailsConf 2014
-  published_at: "2014-05-27"
+  date: "2014-05-27"
+  published_at: "TODO"
   description: |-
     If you build it, they might come. We all want our open source projects to be widely adopted, but competition in the open source landscape is fierce. Reaching levels of notoriety and adoption akin to the likes of Linux, Rails, or WordPress is increasingly challenging amongst today's volume of seemingly never-ending options. How do you differentiate in a way that is meaningful? It's really about building a 'who', not just a 'what'.
 
@@ -1833,7 +1928,8 @@
   speakers:
     - Farrah Bostic
   event_name: RailsConf 2014
-  published_at: "2014-07-28"
+  date: "2014-07-28"
+  published_at: "TODO"
   description: |-
     By Farrah Bostic
 

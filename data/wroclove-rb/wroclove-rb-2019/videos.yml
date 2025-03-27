@@ -9,7 +9,8 @@
   speakers:
     - Ethan Garofolo
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: ArTS_AJ-smQ
   language: English
@@ -20,7 +21,8 @@
   speakers:
     - Janko Marohnić
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: fP2JGjTZU2s
   language: English
@@ -31,7 +33,8 @@
   speakers:
     - Martin Gamsjaeger
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: qTVeWbg2tKk
   language: English
@@ -42,7 +45,8 @@
   speakers:
     - Markus Schirp
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: j1Ze3pKNJ4A
   language: English
@@ -53,7 +57,8 @@
   speakers:
     - Norbert Wojtowicz
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: UvJEBMOtayk
   language: English
@@ -64,7 +69,8 @@
   speakers:
     - Dimitry Salahutdinov
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: KVcZAfjWtYk
   language: English
@@ -75,7 +81,8 @@
   speakers:
     - Victor Shepelev
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 5UiBQtfRDUI
   language: English
@@ -86,7 +93,8 @@
   speakers:
     - Michał Matyas
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: CXhd-We0Nhw
   language: English
@@ -98,7 +106,8 @@
   speakers:
     - Chris Seaton
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: bf5pQVgux3c
   language: English
@@ -109,7 +118,8 @@
   speakers:
     - Anton Davydov
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: VnCPxjRpv3o
   language: English
@@ -120,7 +130,8 @@
   speakers:
     - Dávid Halász
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: YhNhVBUcPkI
   language: English
@@ -131,7 +142,8 @@
   speakers:
     - Andrzej Krzywda
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-22"
+  published_at: "TODO"
   video_provider: youtube
   video_id: bwUueshN6Rw
   language: English
@@ -140,13 +152,16 @@
 - title: Lighting Talks (Day 2)
   raw_title: Lighting talks 1 - wroc_love.rb 2019
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-23"
+  published_at: "TODO"
   video_provider: youtube
   video_id: cPuhRsV6Pw4
   language: English
   description: ""
   talks:
     - title: "Lightning Talk: wroc_love Spam"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: pawel-pokrywka-lighting-talk-wroclove-rb-2019
@@ -155,6 +170,8 @@
         - Paweł Pokrywka
 
     - title: "Lightning Talk: The only easy thing"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: maciek-rzasa-lighting-talk-wroclove-rb-2019
@@ -163,6 +180,8 @@
         - Maciek Rząsa
 
     - title: "Lightning Talk: Predicting Performance Changes of Distributed Applications"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: wojtek-rzasa-lighting-talk-wroclove-rb-2019
@@ -171,6 +190,8 @@
         - Wojtek Rząsa
 
     - title: "Lightning Talk: Farewell To SciRuby"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: victor-shepelev-lighting-talk-wroclove-rb-2019
@@ -179,6 +200,8 @@
         - Victor Shepelev
 
     - title: "Lightning Talk: Outdated Browser Detection with Browserslist"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: dmitry-salahutdinov-lighting-talk-wroclove-rb-2019
@@ -188,6 +211,8 @@
       slides_url: https://speakerdeck.com/dsalahutdinov/outdated-browser-detection-with-browserslist
 
     - title: "Lightning Talk: Sonic Pi"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: nicolas-dermine-lighting-talk-wroclove-rb-2019
@@ -198,13 +223,16 @@
 - title: Lighting Talks (Day 3)
   raw_title: Lighting talks 2 - wroc_love.rb 2019
   event_name: wroclove.rb 2019
-  published_at: "2019-03-22"
+  date: "2019-03-23"
+  published_at: "TODO"
   video_provider: youtube
   video_id: 9q9eLQ2nSwA
   language: English
   description: ""
   talks:
     - title: "Lightning Talk: Scratching The Surface of Hunky Dory Elixir Features"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: adam-hodowany-lighting-talk-wroclove-rb-2019
@@ -213,6 +241,8 @@
         - Adam Hodowany
 
     - title: "Lightning Talk: What and Why"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: tomas-dundacek-lighting-talk-wroclove-rb-2019
@@ -221,6 +251,8 @@
         - Tomáš Dundáček
 
     - title: "Lightning Talk: Ruby & Elixir - Friend or Foe"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: adam-skoluda-lighting-talk-wroclove-rb-2019
@@ -229,6 +261,8 @@
         - Adam Skołuda
 
     - title: "Lightning Talk: People Hate Him, Why Ruby is not dead?, Thank you, Please Help, How (not) to meet new people on DRUGCamp"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: adam-piotrowski-lighting-talk-wroclove-rb-2019
@@ -237,6 +271,8 @@
         - Adam Piotrowski
 
     - title: "Lightning Talk: More Sonic Pi"
+      date: "2019-03-23"
+      published_at: "TODO"
       start_cue: "TODO"
       end_cue: "TODO"
       video_id: nicolas-dermine-lighting-talk-wroclove-rb-2019

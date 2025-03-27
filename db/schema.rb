@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_01_15_215944) do
+ActiveRecord::Schema[8.0].define(version: 2025_02_18_073648) do
   create_table "ahoy_events", force: :cascade do |t|
     t.integer "visit_id"
     t.integer "user_id"
@@ -136,6 +136,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_15_215944) do
     t.integer "talk_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.datetime "discarded_at"
     t.index ["speaker_id", "talk_id"], name: "index_speaker_talks_on_speaker_id_and_talk_id", unique: true
     t.index ["speaker_id"], name: "index_speaker_talks_on_speaker_id"
     t.index ["talk_id"], name: "index_speaker_talks_on_talk_id"
@@ -161,6 +162,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_15_215944) do
     t.json "bsky_metadata", default: {}, null: false
     t.json "github_metadata", default: {}, null: false
     t.index ["canonical_id"], name: "index_speakers_on_canonical_id"
+    t.index ["github"], name: "index_speakers_on_github", unique: true, where: "github IS NOT NULL AND github != ''"
     t.index ["name"], name: "index_speakers_on_name"
     t.index ["slug"], name: "index_speakers_on_slug", unique: true
   end
@@ -228,6 +230,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_15_215944) do
     t.integer "start_seconds"
     t.integer "end_seconds"
     t.integer "duration_in_seconds"
+    t.datetime "announced_at"
+    t.datetime "published_at"
     t.index ["date"], name: "index_talks_on_date"
     t.index ["event_id"], name: "index_talks_on_event_id"
     t.index ["kind"], name: "index_talks_on_kind"

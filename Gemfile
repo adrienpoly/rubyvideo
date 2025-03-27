@@ -70,7 +70,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[mri windows]
   gem "byebug", "~> 11.1"
-  gem "minitest-difftastic"
+  gem "minitest-difftastic", "~> 0.2"
 end
 
 group :development do
@@ -110,7 +110,6 @@ gem "pagy"
 gem "dockerfile-rails", ">= 1.2", group: :development
 
 # gem "activerecord-enhancedsqlite3-adapter"
-gem "litestream"
 gem "solid_cache"
 gem "solid_queue"
 gem "mission_control-jobs"
@@ -147,6 +146,7 @@ gem "country_select"
 gem "avo"
 gem "frozen_record", "~> 0.27.2"
 gem "diffy"
+gem "discard"
 
 # Use OmniAuth to support multi-provider authentication [https://github.com/omniauth/omniauth]
 gem "omniauth"

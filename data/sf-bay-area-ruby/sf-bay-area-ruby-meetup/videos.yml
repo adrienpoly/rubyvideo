@@ -1,7 +1,7 @@
 - title: SF Bay Area Ruby Meetup - March 2024
   raw_title: SF Bay Area Ruby Meetup
   event_name: SF Bay Area Ruby Meetup - March 2024
-  published_at: "2024-03-28"
+  date: "2024-03-28"
   description: |-
     Hey, Bay Area builders and tinkerers!
 
@@ -14,6 +14,7 @@
   video_id: 9-PWz9nbrT8
   talks:
     - title: "Intro: SF Ruby Meetups are back"
+      date: "2024-03-28"
       start_cue: "00:04"
       end_cue: "03:29"
       video_id: irina-nazarova-intro-sf-bay-area-ruby-meetup-march-2024
@@ -28,6 +29,7 @@
         - Irina Nazarova
 
     - title: "Intro: TEKsystems"
+      date: "2024-03-28"
       start_cue: "03:29"
       end_cue: "04:35"
       video_id: meredith-barry-intro-sf-bay-area-ruby-meetup-march-2024
@@ -37,6 +39,7 @@
         - Meredith Barry
 
     - title: "An ok compromise: Faster development by designing for the Rails Autoloader"
+      date: "2024-03-28"
       start_cue: "04:35"
       end_cue: "26:46"
       video_id: ben-sheldon-autoloading-rails-goodjob-sf-bay-area-ruby-meetup-march-2024
@@ -52,6 +55,7 @@
         - Ben Sheldon
 
     - title: "Announcements: AnyCable"
+      date: "2024-03-28"
       start_cue: "26:46"
       end_cue: "28:48"
       video_id: irina-nazarova-announcements-sf-bay-area-ruby-meetup-march-2024
@@ -66,6 +70,7 @@
         - Irina Nazarova
 
     - title: "Announcements: Ruby Central"
+      date: "2024-03-28"
       start_cue: "28:48"
       end_cue: "34:17"
       video_id: adarsh-pandit-announcements-sf-bay-area-ruby-meetup-march-2024
@@ -80,6 +85,7 @@
         - Adarsh Pandit
 
     - title: "Announcements: Presenting Hotwire.io"
+      date: "2024-03-28"
       start_cue: "34:17"
       end_cue: "39:42"
       video_id: marco-roth-announcements-sf-bay-area-ruby-meetup-march-2024
@@ -95,6 +101,7 @@
         - Marco Roth
 
     - title: "Building a Cloud in Thirteen Years using Ruby and Roda"
+      date: "2024-03-28"
       start_cue: "39:42"
       end_cue: "1:11:30"
       video_id: daniel-farina-building-cloud-ruby-roda-sf-bay-area-ruby-meetup-march-2024
@@ -110,6 +117,7 @@
         - Daniel Farina
 
     - title: "Rails on WASM - Welcome to the future?"
+      date: "2024-03-28"
       start_cue: "1:11:30"
       end_cue: "2:28:47"
       video_id: vladimir-dementyev-rails-wasm-browser-sf-bay-area-ruby-meetup-march-2024
@@ -257,10 +265,246 @@
       speakers:
         - James Kerr
 
+- title: SF Bay Area Ruby Meetup - August 2024
+  raw_title: "YC Ruby Meetup"
+  event_name: SF Bay Area Ruby Meetup - August 2024
+  date: "2024-08-13"
+  published_at: "TODO"
+  description: |-
+    YC is co-hosting a Ruby Meetup with Evil Martians to bring together fellow rubyists at YC’s new San Francisco HQ!
+
+    We’ll have tech talks from YC founders sharing their novel uses of Ruby in the wild — and how it’s not the Ruby you tried 10+ years ago. Speakers so far:
+
+    * Jared Friedman (YC Group Partner & Scribd, S06) will give an opening talk about the history of software at YC: how we chose Rails, who wrote the first MR to our codebase , why Bookface is a YC founder’s secret weapon, and how Rails powers everything from apps to Work at a Startup.
+    * Daniel Farina (Ubicloud, W24) has been building infrastructure control planes in Ruby for 13 years - first at Heroku and now at Ubicloud. Daniel will detail his long and unusual journey with Ruby, and share his five favorite “features” that make Ruby particularly powerful for building infrastructure code.
+    * Kelsey Pedersen (Capsule, S22) built Capsule on a V1 vector database with Rails, Postgres and Active Record with the PGVector plugin. She’s happy to share learnings at pitfalls, as well as how she uses webhooks and rakes to automate workflows and help keep the team small.
+    * Keith Schacht (Mystery.org, S17) started coding Ruby in ‘05, and is still at it — building ChatGPT in Rails (vs Python) and keeping up with stimulus, new morphing, and Turbo Native. He’ll do some live coding of these new features, and wants to hear what you think!
+
+    Also note: many of the companies presenting are hiring — including Y Combinator’s Software Team looking to hire a few Rails-guru too!
+
+    If you’re interested, please apply to attend us for talks, dinner and refreshments — we have limited capacity, and we’ll try to get as many people in the doors as we can.
+
+    https://events.ycombinator.com/yc-ruby-meetup
+  video_provider: children
+  video_id: sf-bay-area-ruby-meetup-august-2024
+  talks:
+    - title: "Intro"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - August 2024
+      date: "2024-08-13"
+      video_id: ryan-choi-sf-bay-area-ruby-meetup-august-2024
+      video_provider: not_recorded
+      speakers:
+        - Ryan Choi
+
+    - title: "The History of Software at YC: How we chose Rails"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - August 2024
+      date: "2024-08-13"
+      video_id: jared-friedman-sf-bay-area-ruby-meetup-august-2024
+      video_provider: not_recorded
+      thumbnail_xs: https://pbs.twimg.com/media/GU53OtTa4AIXWjJ?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GU53OtTa4AIXWjJ?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GU53OtTa4AIXWjJ?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GU53OtTa4AIXWjJ?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GU53OtTa4AIXWjJ?format=jpg&name=large
+      speakers:
+        - Jared Friedman
+
+    - title: "Ruby for Infrastructure: 13 Years of Lessons and Favorite Features"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - August 2024
+      date: "2024-08-13"
+      video_id: daniel-farina-sf-bay-area-ruby-meetup-august-2024
+      video_provider: not_recorded
+      thumbnail_xs: https://pbs.twimg.com/media/GU6Din5aQAAVj45?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GU6Din5aQAAVj45?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GU6Din5aQAAVj45?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GU6Din5aQAAVj45?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GU6Din5aQAAVj45?format=jpg&name=large
+      speakers:
+        - Daniel Farina
+
+    - title: "Building Capsule: Lessons from a V1 Vector Database with Rails & PGVector"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - August 2024
+      date: "2024-08-13"
+      video_id: kelsey-pedersen-sf-bay-area-ruby-meetup-august-2024
+      video_provider: not_recorded
+      thumbnail_xs: https://pbs.twimg.com/media/GU6EbRKa4AA4oK7?format=jpg&name=small
+      thumbnail_sm: https://pbs.twimg.com/media/GU6EbRKa4AA4oK7?format=jpg&name=small
+      thumbnail_md: https://pbs.twimg.com/media/GU6EbRKa4AA4oK7?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GU6EbRKa4AA4oK7?format=jpg&name=large
+      thumbnail_xl: https://pbs.twimg.com/media/GU6EbRKa4AA4oK7?format=jpg&name=large
+      speakers:
+        - Kelsey Pedersen
+
+    - title: "Building ChatGPT in Rails: Live Coding with Stimulus, Morphing, and Turbo Native"
+      start_cue: "TODO"
+      end_cue: "TODO"
+      event_name: SF Bay Area Ruby Meetup - August 2024
+      date: "2024-08-13"
+      video_id: keith-schacht-sf-bay-area-ruby-meetup-august-2024
+      video_provider: not_recorded
+      speakers:
+        - Keith Schacht
+
+- title: SF Bay Area Ruby Meetup - September 2024
+  raw_title: "SF Bay Area Ruby Meetup #6 at GitHub on September 3"
+  event_name: SF Bay Area Ruby Meetup - September 2024
+  date: "2024-09-03"
+  published_at: "2024-09-03"
+  description: |-
+    Hey, Bay Area builders and tinkerers!
+
+    For our September edition, we are back to where it started, the GitHub HQ 🎉. Join us to learn what's new and exciting in the world of Ruby, while making new and reconnecting with old friends!
+
+    ​Agenda:
+
+    ​​5 PM: Doors open, food, socializing
+    ​5.30: Intro and talks
+    – Cameron Dutro (GitHub) will speak about Web Components at GitHub
+    – Takashi Kokubun (Shopify) will tell us about YJIT and why we should start using it!
+    ​6.20: Break
+    ​6.40: Open mic 🎤 (prepare your announcements!)
+    ​7: Talks continue
+    – Brad Gessler announcing Terminalwire: Ship a CLI for your web app. No API required.
+    – Kamil Nicieja (Plane, a YC startup) with "Exploring the Flavors of Ruby on Rails Architectures in the Wild"
+    – Konstantin Gredeskoul (Academia.edu) "Concurrency paradigms in Ruby 3.3: Fibers and Ractors"
+    ​8: Community socializing
+    ​8.50: Doors close
+    ​Speak at one of the future meetups! Submit a talk proposal here:
+
+    ​https://forms.gle/C9HQzaT5jvwA5xwc7
+    Catch you on the flip side! Massive shoutout to GitHub for being our gracious host this time.
+
+    Address: 88 Colin P Kelly Jr. St., San Francisco, CA 94107
+    Guest Entrance: 275 Brannan St., San Francisco, CA 94107
+
+    We will also have a live stream and a recording of the event later! https://youtube.com/live/aqvGdPF5Qro?feature=share
+
+    Brought to you by Evil Martians. Check out:
+    – Rails Startup Stack
+    – Martian Chronicles
+
+    https://lu.ma/qfyzbfkk
+  video_provider: youtube
+  video_id: aqvGdPF5Qro
+  talks:
+    - title: "Intro"
+      start_cue: "01:25"
+      end_cue: "11:37"
+      thumbnail_cue: "02:00"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      date: "2024-09-03"
+      video_id: irina-nazarova-sf-bay-area-meetup-september-2024-intro
+      video_provider: parent
+      speakers:
+        - Irina Nazarova
+
+    - title: "How GitHub Uses Web Components"
+      start_cue: "13:12"
+      end_cue: "34:09"
+      thumbnail_cue: "13:13"
+      date: "2024-09-03"
+      video_id: cameron-dutro-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Cameron Dutro
+
+    - title: "YJIT: The Future of Ruby Optimization"
+      start_cue: "35:25"
+      end_cue: "57:00"
+      thumbnail_cue: "35:37"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: takashi-kokubun-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Takashi Kokubun
+
+    - title: "Open Mic: GoCodeo"
+      start_cue: "01:25:14"
+      end_cue: "01:06:52"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: meghana-jagadeesh-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Meghana Jagadeesh
+
+    - title: "Open Mic: Rocky Mountain Ruby 2024"
+      start_cue: "01:27:17"
+      end_cue: "01:27:52"
+      date: "2024-09-03"
+      event_name: "SF Bay Area Ruby Meetup - September 2024"
+      video_id: "zack-mariscal-sf-bay-area-meetup-september-2024"
+      video_provider: parent
+      speakers:
+        - Zack Mariscal
+
+    - title: "Open Mic: BabyList"
+      start_cue: "01:27:58"
+      end_cue: "01:28:25"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: jamie-alessio-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Jamie Alessio
+
+    - title: "Open Mic: Ruby Central"
+      start_cue: "01:28:29"
+      end_cue: "01:32:15"
+      thumbnail_cue: "01:28:30"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: adarsh-pundit-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Adarsh Pandit
+
+    - title: "Terminalwire: A Better CLI for Web Apps"
+      start_cue: "01:32:36"
+      end_cue: "01:44:35"
+      thumbnail_cue: "01:32:45"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: brad-gessler-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Brad Gessler
+
+    - title: "Exploring the Flavors of Ruby on Rails Architectures in the Wild"
+      start_cue: "01:45:30"
+      end_cue: "02:10:54"
+      thumbnail_cue: "01:45:34"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: kamil-nicieja-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Kamil Nicieja
+
+    - title: "Concurrency Paradigms in Ruby 3.3: Fibers and Ractors"
+      start_cue: "02:12:26"
+      end_cue: "02:38:00"
+      thumbnail_cue: "02:12:45"
+      date: "2024-09-03"
+      event_name: SF Bay Area Ruby Meetup - September 2024
+      video_id: konstantin-gredeskoul-sf-bay-area-meetup-september-2024
+      video_provider: parent
+      speakers:
+        - Konstantin Gredeskoul
+
 - title: SF Bay Area Ruby Meetup - October 2024
   raw_title: "SF Bay Area Ruby Meetup #7"
   event_name: SF Bay Area Ruby Meetup - October 2024
-  published_at: "2024-10-10"
+  date: "2024-10-10"
   description: |-
     This is SF Bay Area Ruby Meetup #7 held at Chime's San Francisco Headquarters.
 
@@ -271,6 +515,7 @@
   video_id: JFD8MJiUk6g
   talks:
     - title: "Intro"
+      date: "2024-10-10"
       start_cue: "00:00"
       end_cue: "05:40"
       event_name: SF Bay Area Ruby Meetup - October 2024
@@ -285,6 +530,7 @@
         - Irina Nazarova
 
     - title: "Ruby's Legacy and Ruby's Future"
+      date: "2024-10-10"
       start_cue: "05:40"
       end_cue: "36:07"
       event_name: SF Bay Area Ruby Meetup - October 2024
@@ -299,6 +545,7 @@
         - Noel Rappin
 
     - title: "Forms on Rails"
+      date: "2024-10-10"
       start_cue: "36:07"
       end_cue: "1:00:00"
       event_name: SF Bay Area Ruby Meetup - October 2024
@@ -313,6 +560,7 @@
         - Vladimir Dementyev
 
     - title: "Open Mic: Ruby Central"
+      date: "2024-10-10"
       start_cue: "01:00:00"
       end_cue: "01:07:00"
       event_name: SF Bay Area Ruby Meetup - October 2024
@@ -327,6 +575,7 @@
         - Adarsh Pandit
 
     - title: "Open Mic: rspec-llama"
+      date: "2024-10-10"
       start_cue: "01:07:25"
       end_cue: "01:16:07"
       event_name: SF Bay Area Ruby Meetup - October 2024
@@ -341,6 +590,7 @@
         - Sergey Sergyenko
 
     - title: "Open Mic: I'm Speaking at RubyConf & Why You Should Hire Me"
+      date: "2024-10-10"
       start_cue: "01:16:14"
       end_cue: "01:17:15"
       event_name: SF Bay Area Ruby Meetup - October 2024
@@ -355,6 +605,7 @@
         - Keith Gable
 
     - title: "Open Mic: Why You Should Hire Me"
+      date: "2024-10-10"
       start_cue: "01:17:29"
       end_cue: "01:18:22"
       event_name: SF Bay Area Ruby Meetup - October 2024
@@ -369,6 +620,7 @@
         - Meredith White
 
     - title: "Open Mic: oyencov - Usage-Weighted Test Coverage for Rails applications"
+      date: "2024-10-10"
       start_cue: "01:18:32"
       end_cue: "01:19:22"
       event_name: SF Bay Area Ruby Meetup - October 2024
@@ -383,6 +635,7 @@
         - Anonoz Chong
 
     - title: "Open Mic: ActiveAgents.ai"
+      date: "2024-10-10"
       start_cue: "01:19:30"
       end_cue: "01:21:02"
       event_name: SF Bay Area Ruby Meetup - October 2024
@@ -398,6 +651,7 @@
         - Justin Bowen
 
     - title: "Red Fantasy Land"
+      date: "2024-10-10"
       start_cue: "01:22:30"
       end_cue: "01:52:18"
       event_name: SF Bay Area Ruby Meetup - October 2024
@@ -414,7 +668,7 @@
 - title: SF Bay Area Ruby Meetup - November 2024
   raw_title: "SF Bay Area Ruby Meetup in November @ Academia.edu"
   event_name: SF Bay Area Ruby Meetup - November 2024
-  published_at: "2024-11-19"
+  date: "2024-11-19"
   description: |-
     ​​Hey, Bay Area builders and tinkerers!
 
@@ -433,6 +687,7 @@
   video_id: emg8KhSKXzI
   talks:
     - title: "Intro words"
+      date: "2024-11-19"
       start_cue: "00:00"
       end_cue: "05:20"
       event_name: SF Bay Area Ruby Meetup - November 2024
@@ -442,6 +697,7 @@
         - Irina Nazarova
 
     - title: "Design for Loose Coupling in Ruby"
+      date: "2024-11-19"
       raw_title: "Designing for Loose Coupling in Ruby"
       start_cue: "05:20"
       end_cue: "29:20"
@@ -454,6 +710,7 @@
         - Konstantin Gredeskoul
 
     - title: "How to translate your Rails app into over 20 languages - and why you should!"
+      date: "2024-11-19"
       start_cue: "29:20"
       end_cue: "56:06"
       event_name: SF Bay Area Ruby Meetup - November 2024
@@ -466,6 +723,7 @@
         - Chris Fung
 
     - title: "Open Mic: filterameter"
+      date: "2024-11-19"
       start_cue: "56:06"
       end_cue: "57:47"
       event_name: SF Bay Area Ruby Meetup - November 2024
@@ -479,6 +737,7 @@
         - Todd Kummer
 
     - title: "Open Mic: Looking For A PM Role"
+      date: "2024-11-19"
       start_cue: "57:47"
       end_cue: "58:26"
       event_name: SF Bay Area Ruby Meetup - November 2024
@@ -489,6 +748,7 @@
         - Ken Decanio
 
     - title: "Open Mic: rubyvideo.dev"
+      date: "2024-11-19"
       start_cue: "58:26"
       end_cue: "59:50"
       event_name: SF Bay Area Ruby Meetup - November 2024
@@ -500,6 +760,7 @@
         - Cameron Dutro
 
     - title: "Open Mic: Veteran Ruby Meetups"
+      date: "2024-11-19"
       start_cue: "59:50"
       end_cue: "1:00:38"
       event_name: SF Bay Area Ruby Meetup - November 2024
@@ -510,6 +771,7 @@
         - Dave Doolin
 
     - title: "Open Mic: us_geo"
+      date: "2024-11-19"
       start_cue: "1:00:38"
       end_cue: "1:03:00"
       event_name: SF Bay Area Ruby Meetup - November 2024
@@ -523,6 +785,7 @@
         - Brian Durand
 
     - title: "Open Mic: Espartaco Palma"
+      date: "2024-11-19"
       start_cue: "1:01:37"
       end_cue: "1:03:00"
       event_name: SF Bay Area Ruby Meetup - November 2024
@@ -533,6 +796,7 @@
         - Espartaco Palma
 
     - title: "Open Mic: macchiato.dev"
+      date: "2024-11-19"
       start_cue: "1:03:00"
       end_cue: "1:06:00"
       event_name: SF Bay Area Ruby Meetup - November 2024
@@ -547,6 +811,7 @@
 
     - title: "Build ambitious content websites in Rails"
       raw_title: "Manage Content with Sitepress in Rails Apps or Static Websites"
+      date: "2024-11-19"
       start_cue: "1:06:00"
       end_cue: "1:26:16"
       event_name: SF Bay Area Ruby Meetup - November 2024
@@ -565,6 +830,12 @@
         Example used in presentation that uses Sitepress: https://terminalwire.com
       speakers:
         - Brad Gessler
+      alternative_recordings:
+        - title: Manage Content with Sitepress in Rails Apps or Static Websites
+          video_id: K2N8fp2P7Ms
+          video_provider: youtube
+          speakers:
+            - Brad Gessler
 
     - title: "The First 10 Years of Roda"
       start_cue: "1:26:16"
@@ -580,7 +851,7 @@
 - title: SF Bay Area Ruby Meetup - December 2024
   raw_title: "SF Ruby presents: Ruby&AI, December 🎅 edition @ Sentry"
   event_name: SF Bay Area Ruby Meetup - December 2024
-  published_at: "2024-12-03"
+  date: "2024-12-03"
   description: |-
     Registration closes at noon on Dec 2.
     Address: 45 Fremont St, we'll be meeting you in the lobby. If you are running late, please send a message.
@@ -605,6 +876,7 @@
   video_id: NU7ld8ERUFY
   talks:
     - title: "Welcome Words"
+      date: "2024-12-03"
       start_cue: "00:00"
       end_cue: "07:30"
       event_name: SF Bay Area Ruby Meetup - December 2024
@@ -614,6 +886,7 @@
         - Irina Nazarova
 
     - title: "AI Grouping for Ruby SDK at Sentry"
+      date: "2024-12-03"
       start_cue: "07:30"
       end_cue: "35:32"
       event_name: SF Bay Area Ruby Meetup - December 2024
@@ -623,6 +896,7 @@
         - Tillman Elser
 
     - title: "ActiveAgents"
+      date: "2024-12-03"
       start_cue: "35:32"
       end_cue: "59:38"
       event_name: SF Bay Area Ruby Meetup - December 2024
@@ -635,6 +909,7 @@
         - Justin Bowen
 
     - title: "Ruby & GenAI @ Stepful"
+      date: "2024-12-03"
       start_cue: "59:38"
       end_cue: "1:16:45"
       event_name: SF Bay Area Ruby Meetup - December 2024
@@ -646,6 +921,7 @@
         - Edoardo Serra
 
     - title: "Open Mic: Learning Rails"
+      date: "2024-12-03"
       start_cue: "1:16:45"
       end_cue: "1:18:32"
       event_name: SF Bay Area Ruby Meetup - December 2024
@@ -655,6 +931,7 @@
         - Ken Decanio
 
     - title: "Open Mic: epicstrips.tv"
+      date: "2024-12-03"
       start_cue: "1:18:32"
       end_cue: "1:20:05"
       event_name: SF Bay Area Ruby Meetup - December 2024
@@ -666,6 +943,7 @@
         - Chris Hobbs
 
     - title: "Open Mic: Ruby Central"
+      date: "2024-12-03"
       start_cue: "1:20:05"
       end_cue: "1:22:57"
       event_name: SF Bay Area Ruby Meetup - December 2024
@@ -678,6 +956,7 @@
         - Rhiannon Payne
 
     - title: "Introducing Lammy"
+      date: "2024-12-03"
       start_cue: "1:22:57"
       end_cue: "1:38:35"
       event_name: SF Bay Area Ruby Meetup - December 2024
@@ -691,6 +970,7 @@
         - Kamil Nicieja
 
     - title: "Building Voice AI Apps with Ruby"
+      date: "2024-12-03"
       start_cue: "1:38:35"
       end_cue: "2:01:21"
       event_name: SF Bay Area Ruby Meetup - December 2024
@@ -707,7 +987,7 @@
   raw_title: "SF Ruby January Meetup @ Productboard"
   event_name: SF Bay Area Ruby Meetup - January 2025
   date: "2025-01-16"
-  published_at: "2025-01-16"
+  published_at: "2025-01-24"
   description: |-
     ​Hey, Bay Area builders and tinkerers!
 
@@ -742,24 +1022,41 @@
     Brought to you by Evil Martians.
 
     https://lu.ma/goujxu3a
-  video_provider: not_published
-  video_id: sf-bay-area-ruby-meetup-january-2025
+  video_provider: youtube
+  video_id: cnhBfOCI0JA
+  id: sf-bay-area-ruby-meetup-january-2025
   talks:
     - title: "Intro"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "00:04"
+      end_cue: "05:55"
       event_name: SF Bay Area Ruby Meetup - January 2025
       video_id: intro-sf-bay-area-ruby-meetup-january-2025
       video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
       speakers:
         - Irina Nazarova
 
+    - title: "Productboard"
+      start_cue: "05:55"
+      end_cue: "07:50"
+      thumbnail_cue: "06:45"
+      event_name: SF Bay Area Ruby Meetup - January 2025
+      video_id: productboard-sf-bay-area-ruby-meetup-january-2025
+      video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
+      speakers:
+        - Claudio Andrei
+
     - title: "How to make your tests easier to understand"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "13:16"
+      end_cue: "40:55"
       event_name: SF Bay Area Ruby Meetup - January 2025
       video_id: jason-swett-how-to-make-your-tests-easier-to-understand
       video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
       thumbnail_xs: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GhipDm9bwAAW_Xp?format=jpg
@@ -769,11 +1066,13 @@
         - Jason Swett
 
     - title: "How to add passkeys to a Rails app (and why)"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "40:55"
+      end_cue: "01:06:39"
       event_name: SF Bay Area Ruby Meetup - January 2025
       video_id: bart-agapinan-how-to-add-passkeys-to-a-rails-app-and-why
       video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
       thumbnail_xs: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GhipDm8bQAEJNa_?format=jpg
@@ -786,30 +1085,42 @@
         - Bart Agapinan
 
     - title: "WASM in Ruby"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "01:06:40"
+      end_cue: "01:35:17"
       event_name: SF Bay Area Ruby Meetup - January 2025
       video_id: cameron-dutro-wasm-in-ruby
       video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
       thumbnail_xs: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg
       thumbnail_lg: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=large
       thumbnail_xl: https://pbs.twimg.com/media/GhipDm-aUAE2JsU?format=jpg&name=large
+      description: |-
+        Repos:
+        https://github.com/camertron/onigmo-wasm
+        https://github.com/camertron/onigmo-ruby
       speakers:
         - Cameron Dutro
 
     - title: "Using Bazel in Ruby Projects"
-      start_cue: "TODO"
-      end_cue: "TODO"
+      start_cue: "01:35:17"
+      end_cue: "02:07:36"
       event_name: SF Bay Area Ruby Meetup - January 2025
       video_id: alex-rodionov-using-bazel-in-ruby-projects
       video_provider: parent
+      date: "2025-01-16"
+      published_at: "2025-01-24"
       thumbnail_xs: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=small
       thumbnail_sm: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=small
       thumbnail_md: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg
       thumbnail_lg: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=large
       thumbnail_xl: https://pbs.twimg.com/media/GhipDm9aEAE7LV7?format=jpg&name=large
+      description: |-
+        Bazel: https://bazel.build
+        Rules Ruby: https://github.com/bazel-contrib/rules_ruby
+        Slack Channel: https://bazelbuild.slack.com/channels/ruby
       speakers:
         - Alex Rodionov
 
@@ -817,27 +1128,105 @@
   raw_title: "SF Ruby February Meetup @ GitHub"
   event_name: SF Bay Area Ruby Meetup - February 2025
   date: "2025-02-11"
-  published_at: "2025-02-11"
+  published_at: ""
   description: |-
     ​​Hey, Bay Area builders and tinkerers!
 
-    While Ruby may not dominate the headlines, it's the silent force behind the Bay Area's most successful startups. From GitHub and Stripe to Chime and Stackblitz, Ruby powers teams that go HUGE with less.
+    This time we are hosted by GitHub, and our keynote speaker is Joel Hawksley with "Lessons from 5 years of UI architecture at GitHub" 🔥
 
-    ​Join us as we re-kindle the SF Ruby community's flame! It is a unique place to meet authors of your favorite open-source tools (or members of the Ruby core team), incredibly experienced engineers and new converts, as well as new startup founders building and experimenting with the power of Ruby and Rails. It's a chance to meet every month and make new Ruby friends.
+    Address: 88 Colin P Kelly Jr, GitHub HQ
 
-    Our meetups explore Rails at scale, practical Hotwire implementations, methods for building AI-native apps and so much more—all through Ruby's uniquely productive lens.
+    We'll have a livestream: https://www.youtube.com/live/M25fETp83jQ
 
-    For the first event of the year, GitHub is our gracious host!
+    We begin the programming at 5.30 PM PST and we have an amazing agenda:
 
-    Speakers and agenda are TBD
+    5.40 PM Joel Hawksley (GitHub) Lessons from 5 years of UI architecture at GitHub
 
-    Submit a talk proposal here:
-    ​​https://forms.gle/C9HQzaT5jvwA5xwc7
+    6.40 PM Sam Poder (Hack Club) How we built a bank w/ Ruby on Rails
+
+    7 PM Break
+
+    7.30 PM Open mic! Prepare your announcements!
+
+    7.45 PM Vladimir Dementyev (Evil Martians) with a secret topic
+
+    8.20 PM Talks conclude, social time
+
+    8.50 PM Doors close
+
+    🎙️ Submit a talk proposal here: ​https://forms.gle/C9HQzaT5jvwA5xwc7
+
+    ​Ruby is the quiet force behind the Bay Area's most successful tech organizations and startups from GitHub, Shopify and Stripe to Chime, Lago, and bolt.new.
+
+    ​We are gathering every month to learn, share, inspire each other, and it feels great because of MINASWAN 💗.
+
+    ​Our meetups explore building and scaling Ruby and Rails applications. We go deep into technical topics and don't shy away from new ideas and weird experiments! We always have an open mic for everyone's announcements or questions🎙️! Join us in discovering the nicest Ruby HQs 🏙️❤️
 
     Catch you on the flip side! A massive shoutout to GitHub for hosting and sponsoring the event!
+
+    Brought to you by Evil Martians.
 
     https://lu.ma/hoou421h
   video_provider: scheduled
   video_id: sf-bay-area-ruby-meetup-february-2025
-  speakers:
-    - TBD
+  thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+  thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+  thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+  thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+  thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+  talks:
+    - title: "Lessons from 5 years of UI architecture at GitHub"
+      date: "2025-02-11"
+      announced_at: "2025-01-30 02:48:00 UTC"
+      event_name: SF Bay Area Ruby Meetup - February 2025
+      video_id: "joel-hawksley-sf-bay-area-ruby-meetup-february-2025"
+      video_provider: scheduled
+      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      speakers:
+        - Joel Hawksley
+
+    - title: "How we built a bank w/ Ruby on Rails"
+      date: "2025-02-11"
+      announced_at: "2025-01-30 02:48:00 UTC"
+      event_name: SF Bay Area Ruby Meetup - February 2025
+      video_id: "sam-poder-sf-bay-area-ruby-meetup-february-2025"
+      video_provider: scheduled
+      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      speakers:
+        - Sam Poder
+
+    - title: "Open Mic"
+      date: "2025-02-11"
+      announced_at: "2025-02-04 06:25:00 UTC"
+      event_name: SF Bay Area Ruby Meetup - February 2025
+      video_id: "open-mic-sf-bay-area-ruby-meetup-february-2025"
+      video_provider: scheduled
+      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      speakers:
+        - TBA
+
+    - title: "Secret Topic"
+      date: "2025-02-11"
+      announced_at: "2025-02-04 06:25:00 UTC"
+      event_name: SF Bay Area Ruby Meetup - February 2025
+      video_id: "vladimir-dementyev-sf-bay-area-ruby-meetup-february-2025"
+      video_provider: scheduled
+      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
+      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      speakers:
+        - Vladimir Dementyev

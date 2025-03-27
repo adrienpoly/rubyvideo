@@ -12,7 +12,8 @@
   speakers:
     - David Chelimsky
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description:
     This talk is a sequel to the talk David gave at RubyConf 2010, and
     will focus on refactorings that we rely on to reduce duplication, and their implications,
@@ -27,7 +28,8 @@
   speakers:
     - Francis Hwang
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description: |-
     With the rise of Javascript MVC frameworks like Ember and Backbone, web programmers find themselves at a fork in the road. If they keep doing server-side web programming, they'll benefit from tried-and-true tools and techniques. If they jump into Javascript MVC, they may be able to offer a more responsive web experience, but at significant added development cost. Which should they choose?
 
@@ -43,7 +45,8 @@
   speakers:
     - Luke Melia
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description:
     More and more developers are facing the challenge of organizing and
     deploying complex client-side Javascript apps. It turns out there are some excellent
@@ -58,7 +61,8 @@
   speakers:
     - Haris Amin
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description:
     In this talk we will build a face detection and recognition app all
     in Ruby with the power of MacRuby... in 10 minutes! The purpose of this talk is
@@ -72,7 +76,8 @@
   speakers:
     - Matt Duncan
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description:
     In this talk, I'll dig into how this type of caching allows us to cache
     far less data than traditional methods, invalidate fewer records, improve our
@@ -87,7 +92,8 @@
   speakers:
     - Pat Shaughnessy
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description:
     In this micro talk, I'll review the basic theory behind hash functions
     and hash tables, show you the new internal data structures that Ruby 2.0 uses
@@ -103,7 +109,8 @@
   speakers:
     - Justin Leitgeb
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description: |-
     Most Ruby programmers spend significant time writing, maintaining and troubleshooting automated tests. While recent discussions in the Ruby community have focused on whether we're writing too few or too many tests, this talk looks at how we can write "sensible" tests that allow our applications to deliver the most possible value with the least amount of development time and effort.
   video_provider: youtube
@@ -122,7 +129,8 @@
   speakers:
     - Jeff Casimir
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description:
     Here's the quick story of what's worked, what hasn't, and the lessons
     learned as we try to solve the developer shortage.
@@ -134,7 +142,8 @@
   speakers:
     - Daniel Doubrovkine
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description:
     We'll take a Grape API from zero to cache in 10-minutes. This cookbook
     includes support for ETags, handling relational data, 304s, etc., based on several
@@ -147,7 +156,8 @@
   speakers:
     - Sebastian Delmont
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description:
     How to build your own online maps and free yourself from Google Maps
     limitations and fees.
@@ -161,7 +171,8 @@
   speakers:
     - Jim Weirich
   event_name: GORUCO 2012
-  published_at: "2012-06-23"
+  date: "2012-06-23"
+  published_at: "TODO"
   description:
     In this talk we will cover the "hidden" features of Rake that are not
     typically used by the casual Rake user. We will learn about the convenience of
