@@ -48,6 +48,7 @@
       event_name: "Barcelona.rb November 2024"
       date: "2024-11-05"
       published_at: "2024-11-26"
+      id: mariusz-koziel-barcelona-meetup-november-2024
       video_provider: "youtube"
       video_id: "xsHQ-c3uPxQ"
       language: english
@@ -65,6 +66,7 @@
       event_name: "Barcelona.rb November 2024"
       date: "2024-11-05"
       published_at: "2024-11-26"
+      id: roman-samoilov-barcelona-meetup-november-2024
       video_provider: "youtube"
       video_id: "C14_vqAjtMM"
       language: english
@@ -100,13 +102,14 @@
   event_name: "Barcelona.rb February 2025"
   date: "2025-02-11"
   announced_at: "2025-01-29 14:51:00 UTC"
+  published_at: "TODO"
   video_provider: "children"
   video_id: "barcelona-rb-meetup-february-2025"
-  thumbnail_xs: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp?w=640
-  thumbnail_sm: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp?w=1080
-  thumbnail_md: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp
-  thumbnail_lg: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp
-  thumbnail_xl: https://secure.meetupstatic.com/photos/event/3/9/a/1/600_525974753.webp
+  thumbnail_xs: https://secure.meetupstatic.com/photos/event/3/f/9/5/event_524836277.webp?w=640
+  thumbnail_sm: https://secure.meetupstatic.com/photos/event/3/f/9/5/event_524836277.webp?w=1080
+  thumbnail_md: https://secure.meetupstatic.com/photos/event/3/f/9/5/highres_524836277.webp
+  thumbnail_lg: https://secure.meetupstatic.com/photos/event/3/f/9/5/highres_524836277.webp
+  thumbnail_xl: https://secure.meetupstatic.com/photos/event/3/f/9/5/highres_524836277.webp
   description: |-
     Hi there, Fellow Ruby Engineers!
 
@@ -129,10 +132,13 @@
     - title: "Getting Started with ViewComponents"
       event_name: "Barcelona.rb February 2025"
       date: "2025-02-11"
+      announced_at: "2025-02-04 20:57:00 UTC"
+      published_at: "TODO"
+      id: "kirill-platonov-barcelona-rb-meetup-february-2025"
       video_provider: "scheduled"
       video_id: "kirill-platonov-barcelona-rb-meetup-february-2025"
       language: english
-      description: ""
+      description: "Kirill Platonov will introduce us to the world of ViewComponents."
       speakers:
         - Kirill Platonov
 
@@ -140,9 +146,11 @@
       event_name: "Barcelona.rb February 2025"
       date: "2025-02-11"
       announced_at: "2025-01-29 14:51:00 UTC"
+      published_at: "TODO"
+      id: "gleb-glazov-barcelona-rb-meetup-february-2025"
       video_provider: "scheduled"
       video_id: "gleb-glazov-barcelona-rb-meetup-february-2025"
       language: english
-      description: ""
+      description: "Gleb Glazov will share his favourite tips and tricks on how to boost your productivity."
       speakers:
         - Gleb Glazov
