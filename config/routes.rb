@@ -104,6 +104,7 @@ Rails.application.routes.draw do
   namespace :hotwire do
     namespace :native do
       namespace :v1 do
+        get "home", to: "/page#home", defaults: {format: "json"}
         namespace :android do
           resource :path_configuration, only: :show
         end
