@@ -3,11 +3,12 @@ class PageController < ApplicationController
 
   def home
     home_page_cached_data = Rails.cache.fetch("home_page_content", expires_in: 1.hour) do
-      latest_talks = Talk.order(date: :desc).limit(10)
+      latest_talks = Talk.watchable.order(date: :desc).limit(10)
       {
         talks_count: Talk.count,
         speakers_count: Speaker.count,
-        latest_talk_ids: latest_talks.pluck(:id).sample(4),
+        latest_talk_ids: latest_talks.pluck(:id),
+        upcoming_talk_ids: Talk.where(date: Date.today..).order(date: :asc).limit(15).pluck(:id),
         latest_event_ids: Event.order(date: :desc).limit(10).pluck(:id).sample(4),
         featured_speaker_ids: Speaker.with_github
           .joins(:talks)
@@ -19,8 +20,9 @@ class PageController < ApplicationController
     @talks_count = home_page_cached_data[:talks_count]
     @speakers_count = home_page_cached_data[:speakers_count]
     @latest_talks = Talk.includes(event: :organisation).where(id: home_page_cached_data[:latest_talk_ids])
+    @upcoming_talks = Talk.includes(event: :organisation).where(id: home_page_cached_data[:upcoming_talk_ids])
     @latest_events = Event.includes(:organisation).where(id: home_page_cached_data[:latest_event_ids])
-    @featured_speakers = Speaker.where(id: home_page_cached_data[:featured_speaker_ids])
+    @featured_speakers = Speaker.where(id: home_page_cached_data[:featured_speaker_ids]).sample(15)
 
     # Add featured events logic
     playlist_slugs = Static::Playlist.where.not(featured_background: nil)
@@ -40,31 +42,36 @@ class PageController < ApplicationController
       format.html
       format.json {
         render json: {
-          featured: featured_events_for_featured,
+          featured: @featured_events.map { |event| event.to_mobile_json(request) },
           talks: [
             {
-              name: "Latest Talks",
-              items: @latest_talks,
-              url: ""
+              name: "Latest Recordings",
+              items: @latest_talks.map { |talk| talk.to_mobile_json(request) },
+              url: talks_url
             },
             {
-              name: "Trending Talks",
-              items: @latest_talks,
-              url: ""
-            }
+              name: "Upcoming Talks",
+              items: @upcoming_talks.map { |talk| talk.to_mobile_json(request) },
+              url: talks_url
+            },
           ],
           speakers: [
             {
-              name: "Featured Speakers",
-              items: @featured_speakers,
-              url: ""
+              name: "Active Speakers",
+              items: @featured_speakers.as_json(only: [:id, :name, :slug], methods: [:avatar_url]),
+              url: speakers_url
             }
           ],
           events: [
             {
-              name: "Featured Events",
-              items: @featured_events,
-              url: ""
+              name: "Upcoming Events",
+              items: Event.upcoming.map { |event| event.to_mobile_json(request) },
+              url: events_url
+            },
+            {
+              name: "Past Recent Events",
+              items: Event.past.limit(10).map { |event| event.to_mobile_json(request) },
+              url: events_url
             }
           ]
         }
@@ -79,22 +86,5 @@ class PageController < ApplicationController
   end
 
   def uses
-  end
-
-  private
-
-  def featured_events_for_featured
-    @featured_events.map do |event|
-      {
-        id: event.slug,
-        name: event.name,
-        location: event.location,
-        start_date: event.start_date&.to_s,
-        end_date: event.end_date&.to_s,
-        featured_background: event.featured_background,
-        featured_color: event.featured_color,
-        url: root_url(path: "/events/#{event.slug}")
-      }
-    end
   end
 end
