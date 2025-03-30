@@ -53,7 +53,7 @@ class PageController < ApplicationController
               name: "Upcoming Talks",
               items: @upcoming_talks.map { |talk| talk.to_mobile_json(request) },
               url: talks_url
-            },
+            }
           ],
           speakers: [
             {

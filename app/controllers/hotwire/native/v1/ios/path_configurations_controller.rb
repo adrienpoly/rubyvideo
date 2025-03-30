@@ -1,33 +1,43 @@
 class Hotwire::Native::V1::IOS::PathConfigurationsController < ActionController::Base
   def show
     render json: {
-      "settings": {},
-      "rules": [
+      settings: {},
+      rules: [
         {
-          "patterns": [
+          patterns: [
             "^$",
             "^/$",
             "^/home$"
           ],
-          "properties": {
-            "view_controller": "home"
+          properties: {
+            view_controller: "home"
           }
         },
+        # {
+        #   "patterns": [
+        #     "^/speakers$",
+        #     "^/events$",
+        #     "^/talks$"
+        #   ],
+        #   "properties": {
+        #     "large_title": true
+        #   }
+        # },
         {
-          "patterns": [
+          patterns: [
             "/player$"
           ],
-          "properties": {
-            "view_controller": "player"
+          properties: {
+            view_controller: "player"
           }
         },
         {
-          "patterns": [
+          patterns: [
             "/new$",
             "/edit$"
           ],
-          "properties": {
-            "context": "modal"
+          properties: {
+            context: "modal"
           }
         }
       ]
