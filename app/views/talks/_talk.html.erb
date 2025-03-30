@@ -132,7 +132,7 @@
             <% end %>
           <% end %>
 
-          <div class="tooltip tooltip-top" data-tip="You can suggest some modifications to this talk">
+          <div class="tooltip tooltip-top hotwire-native:hidden" data-tip="You can suggest some modifications to this talk">
             <%= ui_button url: edit_talk_path(talk), kind: :pill, data: {turbo_frame: "modal"} do %>
               <%= fa("pen", size: :xs, style: :solid) %>
               <span class="text-xs">Edit</span>

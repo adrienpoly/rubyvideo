@@ -5,7 +5,3 @@ html[data-bridge-platform] {
 [data-bridge-components~="button"] [data-controller~="bridge--button"] {
   display: none;
 }
-
-[data-bridge-components~="title"] [data-controller~="bridge--large-title"] {
-  display: none;
-}

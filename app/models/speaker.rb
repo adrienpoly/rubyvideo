@@ -194,14 +194,14 @@ class Speaker < ApplicationRecord
 
   def to_meta_tags
     {
-      title: meta_title,
+      title: name,
       description: meta_description,
       og: {
-        title: meta_title,
+        title: name,
         type: :website,
         image: {
           _: github_avatar_url,
-          alt: meta_title
+          alt: name
         },
         description: meta_description,
         site_name: "RubyVideo.dev"
@@ -209,17 +209,13 @@ class Speaker < ApplicationRecord
       twitter: {
         card: "summary_large_image",
         site: twitter,
-        title: meta_title,
+        title: name,
         description: meta_description,
         image: {
           src: github_avatar_url
         }
       }
     }
-  end
-
-  def meta_title
-    "Conferences talks from #{name}"
   end
 
   def meta_description
