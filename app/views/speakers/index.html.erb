@@ -1,6 +1,6 @@
 <div class="container py-8 hotwire-native:py-3">
-  <h1 class="title">
-    Speakers
+  <h1 class="title hotwire-native:hidden">
+    <%= title "Speakers" %>
     <% if params[:s].present? %>
       : search results for "<%= params[:s] %>"
     <% end %>

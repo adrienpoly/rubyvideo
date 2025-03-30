@@ -57,6 +57,3 @@ application.register("video-player", VideoPlayerController)
 
 import ButtonController from "./bridge/button_controller"
 application.register("bridge--button", ButtonController)
-
-import LargeTitleController from "./bridge/large_title_controller"
-application.register("bridge--large-title", LargeTitleController)
