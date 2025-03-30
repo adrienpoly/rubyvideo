@@ -34,7 +34,9 @@
   </head>
 
   <body data-controller="preserve-scroll">
-    <%= render "shared/navbar" %>
+    <div class="hotwire-native:hidden">
+      <%= render "shared/navbar" %>
+    </div>
 
     <div class="min-h-screen">
       <%= yield %>

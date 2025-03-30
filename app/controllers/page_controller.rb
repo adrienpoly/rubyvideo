@@ -58,18 +58,18 @@ class PageController < ApplicationController
           speakers: [
             {
               name: "Active Speakers",
-              items: @featured_speakers.as_json(only: [:id, :name, :slug], methods: [:avatar_url]),
+              items: @featured_speakers.map { |speaker| speaker.to_mobile_json(request) },
               url: speakers_url
             }
           ],
           events: [
             {
               name: "Upcoming Events",
-              items: Event.upcoming.map { |event| event.to_mobile_json(request) },
+              items: Event.upcoming.limit(10).map { |event| event.to_mobile_json(request) },
               url: events_url
             },
             {
-              name: "Past Recent Events",
+              name: "Recent Events",
               items: Event.past.limit(10).map { |event| event.to_mobile_json(request) },
               url: events_url
             }

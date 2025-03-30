@@ -574,9 +574,9 @@ class Talk < ApplicationRecord
       duration_in_seconds: duration_in_seconds,
       slug: slug,
       event_name: event_name,
-      url: Router.talk_url(self, host: request.host),
       thumbnail_url: thumbnail_url(size: :thumbnail_sm, request: request),
-      speakers: speakers.as_json(only: [:id, :name, :slug])
+      speakers: speakers.map { |speaker| speaker.to_mobile_json(request) },
+      url: Router.talk_url(self, host: "#{request.protocol}#{request.host}:#{request.port}")
     }
   end
 end

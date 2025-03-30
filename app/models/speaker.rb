@@ -265,4 +265,14 @@ class Speaker < ApplicationRecord
       bio: #{bio}
     HEREDOC
   end
+
+  def to_mobile_json(request)
+    {
+      id: id,
+      name: name,
+      slug: slug,
+      avatar_url: avatar_url,
+      url: Router.speaker_url(self, host: "#{request.protocol}#{request.host}:#{request.port}")
+    }
+  end
 end

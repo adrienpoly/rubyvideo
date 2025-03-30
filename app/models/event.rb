@@ -306,7 +306,7 @@ class Event < ApplicationRecord
       featured_image_url: Router.image_path(featured_image_path, host: "#{request.protocol}#{request.host}:#{request.port}"),
       featured_background: featured_background,
       featured_color: featured_color,
-      url: Router.event_url(self, host: request.host)
+      url: Router.event_url(self, host: "#{request.protocol}#{request.host}:#{request.port}")
     }
   end
 end
