@@ -10,7 +10,9 @@
     </figure>
     <div class="card-body flex flex-col items-center justify-center">
       <div class="text-xl font-semibold text-center"><%= speaker.name %></div>
-      <div><%= speaker.talks_count %> talks</div>
+      <div>
+        <%= pluralize(speaker.talks.count, "talk") %>
+      </div>
     </div>
   </div>
 <% end %>
