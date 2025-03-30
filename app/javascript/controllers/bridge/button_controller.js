@@ -1,26 +1,26 @@
-import { BridgeComponent } from "@hotwired/hotwire-native-bridge"
+import { BridgeComponent } from '@hotwired/hotwire-native-bridge'
 
 export default class extends BridgeComponent {
-  static component = "button"
-  static targets = ["element"]
+  static component = 'button'
+  static targets = ['element']
 
-  connect() {
+  connect () {
     super.connect()
 
-    this.send("connect", { title: this.title }, () => {
+    this.send('connect', { title: this.title }, () => {
       this.targetElement.click()
     })
   }
 
-  get targetElement() {
+  get targetElement () {
     if (this.hasElementTarget) {
       return this.elementTarget
     }
 
-    return this.element
+    return this.element
   }
 
-  get title() {
-    return this.bridgeElement.bridgeAttribute("title")
+  get title () {
+    return this.bridgeElement.bridgeAttribute('title')
   }
 }
