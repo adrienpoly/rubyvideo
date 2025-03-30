@@ -59,6 +59,8 @@ class Event < ApplicationRecord
   scope :canonical, -> { where(canonical_id: nil) }
   scope :not_canonical, -> { where.not(canonical_id: nil) }
   scope :ft_search, ->(query) { where("lower(events.name) LIKE ?", "%#{query.downcase}%") }
+  scope :past, -> { where(date: ..Date.today).order(date: :desc) }
+  scope :upcoming, -> { where(date: Date.today..).order(date: :asc) }
 
   def assign_canonical_event!(canonical_event:)
     ActiveRecord::Base.transaction do
@@ -167,10 +169,10 @@ class Event < ApplicationRecord
 
   def to_meta_tags
     {
-      title: title,
+      title: name,
       description: description,
       og: {
-        title: title,
+        title: %(All #{name} #{organisation.kind} talks),
         type: :website,
         image: {
           _: Router.image_path(card_image_path),
@@ -290,5 +292,22 @@ class Event < ApplicationRecord
 
   def website
     self[:website].presence || organisation.website
+  end
+
+  def to_mobile_json(request)
+    {
+      id: id,
+      name: name,
+      slug: slug,
+      location: location,
+      start_date: start_date&.to_s,
+      end_date: end_date&.to_s,
+      card_image_url: Router.image_path(card_image_path, host: "#{request.protocol}#{request.host}:#{request.port}"),
+      featured_image_url: Router.image_path(featured_image_path,
+        host: "#{request.protocol}#{request.host}:#{request.port}"),
+      featured_background: featured_background,
+      featured_color: featured_color,
+      url: Router.event_url(self, host: "#{request.protocol}#{request.host}:#{request.port}")
+    }
   end
 end

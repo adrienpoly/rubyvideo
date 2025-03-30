@@ -287,6 +287,16 @@ class Talk < ApplicationRecord
     "/assets/#{Rails.application.assets.load_path.find("events/default/poster.webp").digested_path}"
   end
 
+  def thumbnail_url(size:, request:)
+    url = thumbnail(size)
+
+    if url.starts_with?("http")
+      return url
+    end
+
+    "#{request.protocol}#{request.host}:#{request.port}/#{url}"
+  end
+
   def thumbnail(size = :thumbnail_lg)
     if self[size].present?
       return self[size] if self[size].start_with?("https://")
@@ -555,5 +565,18 @@ class Talk < ApplicationRecord
     else
       :talk
     end
+  end
+
+  def to_mobile_json(request)
+    {
+      id: id,
+      title: title,
+      duration_in_seconds: duration_in_seconds,
+      slug: slug,
+      event_name: event_name,
+      thumbnail_url: thumbnail_url(size: :thumbnail_sm, request: request),
+      speakers: speakers.map { |speaker| speaker.to_mobile_json(request) },
+      url: Router.talk_url(self, host: "#{request.protocol}#{request.host}:#{request.port}")
+    }
   end
 end
