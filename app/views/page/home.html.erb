@@ -36,8 +36,35 @@
         <h2 class="text-primary shrink-0">Featured speakers</h2>
         <%= link_to "see all speakers", speakers_path, class: "link text-right w-full" %>
       </div>
-      <div class="grid min-w-full grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:[&>:nth-child(4)]:hidden lg:grid-cols-4 lg:[&>:nth-child(4)]:block">
-        <%= render partial: "speakers/card", collection: @featured_speakers.sample(4), as: :speaker %>
+      <div class="relative" data-controller="scroll">
+        <div class="overflow-x-auto scroll-smooth snap-x snap-mandatory" 
+             data-scroll-target="container"
+             data-action="scroll->scroll#checkScroll">
+          <div class="flex pb-4 gap-8">
+            <% @featured_speakers.each do |speaker| %>
+              <div class="sm:hidden snap-start" data-scroll-target="card">
+                <%= render partial: "speakers/card", locals: { speaker: speaker } %>
+              </div>
+            <% end %>
+            
+            <% @featured_speakers.each_slice(2) do |speaker_pair| %>
+              <div class="hidden sm:flex gap-8 snap-start" data-scroll-target="card">
+                <% speaker_pair.each do |speaker| %>
+                  <%= render partial: "speakers/card", locals: { speaker: speaker } %>
+                <% end %>
+              </div>
+            <% end %>
+          </div>
+        </div>
+        <div class="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-white to-transparent pointer-events-none"
+             data-scroll-target="gradient"></div>
+        <button class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow-lg hover:bg-gray-50 transition-colors" 
+                data-action="click->scroll#scrollRight"
+                data-scroll-target="button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </button>
       </div>
     </section>
 
