@@ -87,4 +87,7 @@ class PageController < ApplicationController
 
   def uses
   end
+
+  def privacy
+  end
 end
