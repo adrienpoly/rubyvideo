@@ -204,7 +204,7 @@ class Speaker < ApplicationRecord
           alt: name
         },
         description: meta_description,
-        site_name: "RubyVideo.dev"
+        site_name: "RubyEvents.org"
       },
       twitter: {
         card: "summary_large_image",
