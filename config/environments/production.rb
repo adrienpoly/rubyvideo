@@ -86,7 +86,8 @@ Rails.application.configure do
   # Enable DNS rebinding protection and other `Host` header attacks.
   config.hosts = [
     "rubyvideo.dev", # Allow requests to the server itself
-    /.*\.rubyvideo\.dev/ # Allow requests from subdomains like `www.example.com`
+    /.*\.rubyvideo\.dev/, # Allow requests from subdomains like `www.example.com`
+    /.*\.rubyevents\.org/
   ]
   # Skip DNS rebinding protection for the default health check endpoint.
   config.host_authorization = {exclude: ->(request) { request.path == "/up" }}
