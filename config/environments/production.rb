@@ -89,7 +89,7 @@ Rails.application.configure do
   config.hosts = [
     "rubyvideo.dev", # Allow requests to the server itself
     /.*\.rubyvideo\.dev/, # Allow requests from subdomains like `www.example.com`
-    /.*\.rubyevents\.org/
+    /^(.*\.)?rubyevents\.org/
   ]
   # Skip DNS rebinding protection for the default health check endpoint.
   config.host_authorization = {exclude: ->(request) { request.path == "/up" }}
