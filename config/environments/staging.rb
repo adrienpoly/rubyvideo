@@ -19,7 +19,7 @@ Rails.application.configure do
   config.public_file_server.headers = {"cache-control" => "public, max-age=#{1.year.to_i}"}
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
-  config.asset_host = lambda { |source, request|
+  config.asset_host = lambda { |source, request = nil|
     request&.host&.include?("rubyevents.org") ? "https://staging.rubyevents.org" : "https://staging.rubyvideo.dev"
   }
 
