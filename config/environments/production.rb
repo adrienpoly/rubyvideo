@@ -21,7 +21,9 @@ Rails.application.configure do
   }
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
-  config.asset_host = "https://www.rubyvideo.dev"
+  config.asset_host = lambda { |source, request|
+    request&.host&.include?("rubyevents.org") ? "https://www.rubyevents.org" : "https://www.rubyvideo.dev"
+  }
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
