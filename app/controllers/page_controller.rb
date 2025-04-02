@@ -26,7 +26,7 @@ class PageController < ApplicationController
 
     # Add featured events logic
     playlist_slugs = Static::Playlist.where.not(featured_background: nil)
-      .select(&:today_or_past?)
+      .select(&:featured?)
       .sort_by(&:home_sort_date)
       .reverse
       .take(15)
