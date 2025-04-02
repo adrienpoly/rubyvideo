@@ -8,7 +8,7 @@ module Handlers
       escaped_content = rendered_content.gsub('"', '\"').gsub("\n", "\\n")
 
       %(
-        "<div class='container my-8 markdown'>#{escaped_content}</div>".html_safe
+        "<div class='container my-8 markdown max-w-3xl'>#{escaped_content}</div>".html_safe
       )
     end
   end
