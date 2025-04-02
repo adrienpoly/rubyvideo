@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
   private
 
   def redirect_to_ruby_events
-    return if Rails.env.development?
+    return if Rails.env.local?
     return if hotwire_native_app?
     return if request.url.match?(/rubyevents\.org/)
 
