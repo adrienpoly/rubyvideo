@@ -1,6 +1,6 @@
 # About
 
-**tl;dr:** Originally launched as RubyVideo, the project has been rebranded as RubyEvents.org to better reflect its expanded mission.
+**tl;dr:** Originally launched as **RubyVideo.dev**, the project has been rebranded as **RubyEvents.org** to better reflect its expanded mission.
 
 ## Mission
 
