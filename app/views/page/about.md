@@ -12,7 +12,7 @@ RubyVideo was [launched in June 2023](https://x.com/adrienpoly/status/1669944383
 
 ## RubyEvents
 
-[Marco Roth](https://github.com/marcoroth), maintainer of [RubyConferences.org](https://rubyconferences.org/), significantly [contributed](https://github.com/adrienpoly/rubyvideo/graphs/contributors) to RubyVideo by providing extensive new content and innovative ideas. Marco's vision revealed the project's potential extended far beyond simply indexing videos, prompting the merger of RubyWebconferences.org and RubyVideo.dev into RubyEvents.org.
+[Marco Roth](https://github.com/marcoroth), maintainer of [RubyConferences.org](https://rubyconferences.org/), significantly [contributed](https://github.com/adrienpoly/rubyvideo/graphs/contributors) to RubyVideo by providing extensive new content and innovative ideas. Marco's vision revealed the project's potential extended far beyond simply indexing videos, prompting the merger of **RubyConferences.org** and **RubyVideo.dev** into **RubyEvents.org**.
 
 As of today more than 6000 talks from 3000+ speakers are indexed.
 
