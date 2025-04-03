@@ -20,7 +20,7 @@ class ApplicationController < ActionController::Base
 
     path = request.path
     query_string = request.query_parameters.present? ? "?#{request.query_parameters.to_query}" : ""
-    ruby_events_url = "https://www.rubyevents.org#{path}#{query_string}"
+    ruby_events_url = Rails.env.production? ? "https://www.rubyevents.org#{path}#{query_string}" : "https://staging.rubyevents.org#{path}#{query_string}"
     redirect_to ruby_events_url, status: :moved_permanently, allow_other_host: true
   end
 end
