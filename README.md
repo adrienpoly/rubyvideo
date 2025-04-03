@@ -1,4 +1,4 @@
-# RubyEvents.org
+# RubyEvents.org (formerly RubyVideo.dev)
 
 [RubyEvents.org](https://www.rubyevents.org) (formerly RubyVideo.dev), inspired by [pyvideo.org](https://pyvideo.org/), is designed to index all Ruby-related events and videos from conferences and meetups around the world. At the time of writing, the project has 6000+ videos indexed from 200+ events and 3000+ speakers.
 
@@ -25,9 +25,7 @@ We have tried to make the setup process as simple as possible so that in a few c
 ### Requirements
 
 - Ruby 3.4.1
-- Docker and docker-compose (for Meilisearch)
 - Node.js 20.11.0
-- Meilisearch 1.1
 
 ### Setup
 
@@ -37,26 +35,15 @@ To prepare your database and seed content, run:
 bin/setup
 ```
 
+You can manually seed content by running:
+
+```
+bin/rails db:seed
+```
+
 ### Environment Variables
 
 You can use the `.env.sample` file as a guide for the environment variables required for the project. However, there are currently no environment variables necessary for simple app exploration.
-
-### Meilisearch
-
-[RubyEvents.org](https://www.rubyevents.org) search uses Meilisearch as a search engine.
-
-To start the app, you need to have a Meilisearch service started. There is a Docker Compose available
-
-In a new terminal :
-
-```
-docker-compose up
-```
-
-Troubleshooting:
-
-- if no search results are returned, most probably the index is empty. You can reindex by running `Talk.reindex!` in the Rails console.
-- if they are no talks at all you need to run rails db:seed first
 
 ### Starting the Application
 
