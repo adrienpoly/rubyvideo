@@ -12,7 +12,7 @@ For compatible browsers, it tries to demonstrate some of the possibilities of th
 
 ## Source code
 
-Rubyvideo is open source, the source code is available on [Github](https://github.com/adrienpoly/rubyvideo).
+Rubyvideo is open source, the source code is available on [Github](https://github.com/rubyevents/rubyevents).
 
 Contributions are welcome!
 

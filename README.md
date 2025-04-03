@@ -1,6 +1,6 @@
-# RubyVideo.dev
+# RubyEvents.org
 
-[RubyVideo.dev](https://www.rubyvideo.dev), inspired by [pyvideo.org](https://pyvideo.org/), is designed to index all Ruby-related videos from conferences and meetups worldwide. At the time of writing, the project has about 4000 videos indexed from 175+ conferences and 2500+ speakers.
+[RubyEvents.org](https://www.rubyevents.org) (formerly RubyVideo.dev), inspired by [pyvideo.org](https://pyvideo.org/), is designed to index all Ruby-related events and videos from conferences and meetups around the world. At the time of writing, the project has 6000+ videos indexed from 200+ events and 3000+ speakers.
 
 Technically the project is built using the latest [Ruby](https://www.ruby-lang.org/) and [Rails](https://rubyonrails.org/) goodies such as [Hotwire](https://hotwired.dev/), [Solid Queue](https://github.com/rails/solid_queue), [Solid Cache](https://github.com/rails/solid_cache).
 
@@ -14,7 +14,7 @@ For compatible browsers it tries to demonstrate some of the possibilities of [Pa
 
 This project is open source, and contributions are greatly appreciated. One of the most direct ways to contribute at this time is by adding more content.
 
-We also have a page on the deployed site that has up-to-date information with the remaining known TODOs. Check out the ["Getting Started: Ways to Contribute" page on RubyVideo.dev](https://www.rubyvideo.dev/contributions) and feel free to start working on any of the remaining TODOs. Any help is greatly appreciated.
+We also have a page on the deployed site that has up-to-date information with the remaining known TODOs. Check out the ["Getting Started: Ways to Contribute" page on RubyEvents.org](https://www.rubyevents.org/contributions) and feel free to start working on any of the remaining TODOs. Any help is greatly appreciated.
 
 For more information on contributing conference data, please visit [this page](/docs/contributing.md).
 
@@ -43,7 +43,7 @@ You can use the `.env.sample` file as a guide for the environment variables requ
 
 ### Meilisearch
 
-[Rubyvideo.dev](https://www.rubyvideo.dev) search uses Meilisearch as a search engine.
+[RubyEvents.org](https://www.rubyevents.org) search uses Meilisearch as a search engine.
 
 To start the app, you need to have a Meilisearch service started. There is a Docker Compose available
 
@@ -89,4 +89,4 @@ Thank you [Appsignal](https://appsignal.com/r/eeab047472) for providing the APM 
 
 ## License
 
-Rubyvideo.dev is open source and available under the MIT License. For more information, please see the [License](/LICENSE.md) file.
+RubyEvents.org is open source and available under the MIT License. For more information, please see the [License](/LICENSE.md) file.

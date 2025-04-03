@@ -179,7 +179,7 @@ class Event < ApplicationRecord
           alt: title
         },
         description: description,
-        site_name: "RubyVideo.dev"
+        site_name: "RubyEvents.org"
       },
       twitter: {
         card: "summary_large_image",
@@ -233,9 +233,9 @@ class Event < ApplicationRecord
   end
 
   def banner_background
-    static_metadata.banner_background.present? ? static_metadata.banner_background : "#DC153C"
+    static_metadata.banner_background.present? ? static_metadata.banner_background : "#081625"
   rescue => _e
-    "#DC153C"
+    "#081625"
   end
 
   def watchable_talks?

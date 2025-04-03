@@ -245,7 +245,7 @@ class Talk < ApplicationRecord
           alt: title
         },
         description: description,
-        site_name: "RubyVideo.dev"
+        site_name: "RubyEvents.org"
       },
       twitter: {
         card: "summary_large_image",
@@ -347,7 +347,7 @@ class Talk < ApplicationRecord
 
   def external_player_utm_params
     {
-      utm_source: "rubyvideo.dev",
+      utm_source: "rubyevents.org",
       utm_medium: "referral",
       utm_campaign: event.slug,
       utm_content: slug

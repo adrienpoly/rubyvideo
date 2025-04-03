@@ -2,7 +2,7 @@
 
 **Effective Date: March 31, 2025**
 
-RubyVideo.dev and RubyEvents.org respect your privacy. This policy outlines how the iOS app and website handle your data.
+RubyEvents.org respects your privacy. This policy outlines how the iOS app and website handle your data.
 
 ## 1. Information We Collect
 
