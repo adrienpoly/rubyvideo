@@ -70,6 +70,7 @@ builder:
     image: rubyvideo-staging-build-cache
   secrets:
     - RAILS_MASTER_KEY
+  remote: ssh://root@138.199.198.123
 
   # # Build image via remote server (useful for faster amd64 builds on arm64 computers)
   # remote: ssh://docker@docker-builder-server
