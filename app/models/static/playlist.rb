@@ -16,7 +16,7 @@ module Static
     end
 
     def featured?
-      within_a_week? || today? || past?
+      within_next_days? || today? || past?
     end
 
     def today?
@@ -39,21 +39,23 @@ module Static
       false
     end
 
-    def within_a_week?
+    def within_next_days?
+      period = 4.days
+
       if start_date.present?
-        return ((start_date - 7.days)..start_date).cover?(Date.today)
+        return ((start_date - period)..start_date).cover?(Date.today)
       end
 
       if end_date.present?
-        return ((end_date - 7.days)..end_date).cover?(Date.today)
+        return ((end_date - period)..end_date).cover?(Date.today)
       end
 
       if event_record.present?
-        return ((event_record.start_date - 7.days)..event_record.start_date).cover?(Date.today)
+        return ((event_record.start_date - period)..event_record.start_date).cover?(Date.today)
       end
 
       if event_record.present?
-        return ((event_record.end_date - 7.days)..event_record.end_date).cover?(Date.today)
+        return ((event_record.end_date - period)..event_record.end_date).cover?(Date.today)
       end
 
       false
