@@ -1,14 +1,16 @@
-- title: "Keynote by Irina Nazarova"
-  raw_title: "Keynote by Irina Nazarova"
+- title: "Keynote: Startup on Rails"
+  raw_title: "Keynote - Startup on Rails"
   speakers:
     - Irina Nazarova
   event_name: Tropical on Rails 2025
   date: "2025-04-03"
   published_at: "TODO"
   announced_at: "2024-10-23 18:00:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "irina-nazarova-tropical-on-rails-2025"
   id: "irina-nazarova-tropical-on-rails-2025"
+  language: "english"
+  slides_url: https://speakerdeck.com/irinanazarova/startups-on-rails-2025-at-tropical-on-rails
   description: |-
     Carrying the incredible mission of supporting startups by building the missing tools and sharing her team's expertise on how to iterate and scale successfully.
 
@@ -24,9 +26,11 @@
   date: "2025-04-03"
   published_at: "TODO"
   announced_at: "2025-01-29 17:23:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "gustavo-araujo-tropical-on-rails-2025"
   id: "gustavo-araujo-tropical-on-rails-2025"
+  language: "portuguese"
+  slides_url: https://www.slideshare.net/slideshow/scalling-rails-the-journey-to-200m-notifications/277497024
   description: |-
     Senior Software Engineer at CloudWalk and passionate about building scalable and efficient software solutions. He has over a decade of experience in developing high-performance systems and currently contributes to the creation of InfinitePay, one of the leading payment solutions in Brazil.
 
@@ -40,25 +44,28 @@
   date: "2025-04-03"
   published_at: "TODO"
   announced_at: "2025-02-05 17:47:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "marco-roth-tropical-on-rails-2025"
   id: "marco-roth-tropical-on-rails-2025"
+  language: "english"
+  slides_url: https://speakerdeck.com/marcoroth/scaling-rubyvideo-dot-dev-the-mission-to-index-all-ruby-conferences
   description: |-
     Marco is a full-stack Ruby on Rails developer and actively contributes to open-source. Focused on improving the developer experience, he collaborates on projects like Hotwire and StimulusReflex.
 
     In his talk "Scaling RubyVideo.dev: The mission to index all Ruby conferences", Marco will share how he is building a comprehensive repository of Ruby talks. He will address technical challenges, strategies, and bring exclusive announcements!
 
-- title: "Keynote by Vinicius Stock"
-  raw_title: "Keynote by Vinicius Stock"
+- title: "Keynote: Padronização estratégica: direcionando inovação"
+  raw_title: "Keynote - Padronização estratégica: direcionando inovação"
   speakers:
     - Vinicius Stock
   event_name: Tropical on Rails 2025
   date: "2025-04-03"
   published_at: "TODO"
   announced_at: "2024-10-22 15:00:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "vinicius-stock-tropical-on-rails-2025"
   id: "vinicius-stock-tropical-on-rails-2025"
+  language: "portuguese"
   description: |-
     Software developer with a passion for tooling and developer experience. He started his career building products using Ruby on Rails, React, and TypeScript, and gradually transitioned into the developer tooling space.
 
@@ -74,9 +81,10 @@
   date: "2025-04-03"
   published_at: "TODO"
   announced_at: "2025-01-29 17:23:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "edigleysson-silva-tropical-on-rails-2025"
   id: "edigleysson-silva-tropical-on-rails-2025"
+  language: "english"
   description: |-
     Developer at CodeMiner42, has 10 years of experience creating software and sharing knowledge, is passionate about technology and also writes articles about Computer Science and Philosophy.
 
@@ -92,9 +100,10 @@
   date: "2025-04-03"
   published_at: "TODO"
   announced_at: "2025-02-04 14:51:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "daniel-medina-tropical-on-rails-2025"
   id: "daniel-medina-tropical-on-rails-2025"
+  language: "english"
   description: |-
     Software Engineer, graduated from the University of Yucatán (UADY), I have been working with Ruby on Rails for over 6 years, currently working as a Full-Stack developer at Telos Labs, being the Tech Lead of the non-profit application SaverLife.org.
 
@@ -108,9 +117,10 @@
   date: "2025-04-03"
   published_at: "TODO"
   announced_at: "2025-01-27 15:43:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "jackson-pires-tropical-on-rails-2025"
   id: "jackson-pires-tropical-on-rails-2025"
+  language: "portuguese"
   description: |-
     Jackson met Ruby on Rails in 2007 while developing his college thesis, and since then he has spread knowledge through his courses. In his free time, he enjoys playing with his son and having fun with his family.
 
@@ -122,41 +132,46 @@
   date: "2025-04-03"
   published_at: "TODO"
   announced_at: "2025-02-04 14:56:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "svyatoslav-kryukov-tropical-on-rails-2025"
   id: "svyatoslav-kryukov-tropical-on-rails-2025"
+  slides_url: https://speakerdeck.com/skryukov/defying-front-end-inertia-inertia-dot-js-on-rails
+  language: "english"
   description: |-
     Dedicated to bridging the gap between backend and frontend worlds. Creator of tools like Skooma to define strong interfaces and TurboMount to enhance Hotwire with modern frontend widgets. A passionate contributor to Inertia Rails, making it easier for the Rails community to embrace modern frontend development.
 
     In the talk "Challenging Front-End Inertia: Inertia.js in Rails" he will share with us how to unlock the power of modern frontend frameworks in Rails with Inertia.js! Building dynamic, single-page applications while maintaining the simplicity of Rails - without APIs, without client-side boilerplate.
 
-- title: "Keynote by Xavier Noria"
-  raw_title: "Keynote by Xavier Noria"
+- title: "Keynote: The Ruby in Zeitwerk"
+  raw_title: "Keynote - The Ruby in Zeitwerk"
   speakers:
     - Xavier Noria
   event_name: Tropical on Rails 2025
   date: "2025-04-03"
   published_at: "TODO"
   announced_at: "2024-10-24 18:50:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "xavier-noria-tropical-on-rails-2025"
   id: "xavier-noria-tropical-on-rails-2025"
+  language: "english"
   description: |-
     Everlasting student · Rails Core · Zeitwerk · Freelance · Life lover
 
 ## Day 2 - 2025-04-04
 
-- title: "Keynote by Chris Oliver"
-  raw_title: "Keynote by Chris Oliver"
+- title: "Keynote: Hotwire Demystified"
+  raw_title: "Keynote - Hotwire Demystified"
   speakers:
     - Chris Oliver
   event_name: Tropical on Rails 2025
   date: "2025-04-04"
   published_at: "TODO"
   announced_at: "2024-10-11 15:30:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "chris-oliver-tropical-on-rails-2025"
   id: "chris-oliver-tropical-on-rails-2025"
+  slides_url: https://a.cl.ly/jkuBq5L9
+  language: "english"
   description: |-
     He's a Rails expert, creator of Jumpstart Pro (a starter kit for Rails) and http://Hatchbox.io (Rails hosting). He also hosts the Remote Ruby Podcast and shares weekly Ruby on Rails screencasts at http://GoRails.com.
 
@@ -168,9 +183,11 @@
   date: "2025-04-04"
   published_at: "TODO"
   announced_at: "2025-02-05 17:39:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "vinicius-alonso-tropical-on-rails-2025"
   id: "vinicius-alonso-tropical-on-rails-2025"
+  language: "portuguese"
+  slides_url: https://speakerdeck.com/viniciusalonso/dont-rewrite-your-framework
   description: |-
     With more than 10 years of experience in development, he holds a master's degree in Applied Computing from UTFPR-CT and has spoken at events such as TDC, Laraconf, and FTSL.
 
@@ -184,9 +201,10 @@
   date: "2025-04-04"
   time: "11:40h - 12:10h"
   published_at: "TODO"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "cristian-planas-tropical-on-rails-2025"
   id: "cristian-planas-tropical-on-rails-2025"
+  language: "english"
   description: |-
     Software engineer who has been primarily working with Ruby for over 15 years.
     Founder of a startup as a solo engineer in 2012, later he joined the Zendesk headquarters in San Francisco, one of the leading companies using Ruby in the world. Performance optimization has been his obsession since the founding of his first startup. He currently holds the position of Group Tech Lead and Senior Staff Engineer.
@@ -201,25 +219,29 @@
   date: "2025-04-04"
   published_at: "TODO"
   announced_at: "2025-02-05 17:41:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "celso-fernandes-tropical-on-rails-2025"
   id: "celso-fernandes-tropical-on-rails-2025"
+  slides_url: https://drive.google.com/file/d/1-ly_ksIFu9wI3MfZpc8UYw7Qs2eS7048/view
+  language: "english"
   description: |-
     Celso has a journey that started as a sysadmin in 2005 and, since 2010, has dedicated himself to web development with Rails, dealing with large-scale operations.
 
     In the talk "Apache Pinot: An Active Record Adapter Tale", he will share the challenge of writing an Active Record Adapter running in production and encourage the community to explore the core of Rails.
 
-- title: "Kamal 2 – Get Out of Cloud"
-  raw_title: "Kamal 2 – Get Out of Cloud"
+- title: "Kamal 2 - Get Out of Cloud"
+  raw_title: "Kamal 2 - Get Out of Cloud"
   speakers:
     - Igor Alexandrov
   event_name: Tropical on Rails 2025
   date: "2025-04-04"
   published_at: "TODO"
   announced_at: "2025-01-27 15:47:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "igor-alexandrov-tropical-on-rails-2025"
   id: "igor-alexandrov-tropical-on-rails-2025"
+  language: "english"
+  slides_url: https://speakerdeck.com/aleksandrov/kamal-2-get-out-of-the-cloud
   description: |-
     Igor is an experienced Ruby engineer, a Docker Captain, a Chief Technology Officer, and the co-founder of JetRockets. He is a father of two children and enjoys diving when he can.
 
@@ -231,9 +253,11 @@
   date: "2025-04-04"
   published_at: "TODO"
   announced_at: "2025-01-29 17:23:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "matheus-richard-tropical-on-rails-2025"
   id: "matheus-richard-tropical-on-rails-2025"
+  language: "english"
+  slides_url: https://docs.google.com/presentation/d/1IdNgAU7z9umDeyx6xG8fv7wqauG3_QkfhpCM1sVXelw/view
   description: |-
     Senior Developer at thoughtbot and a member of the Rails issues team. With nearly 10 years of experience, Ruby has always been his favorite language. Besides coding, Matheus is passionate about music, games, and building interpreters.
 
@@ -247,9 +271,10 @@
   date: "2025-04-04"
   published_at: "TODO"
   announced_at: "2025-02-04 14:38:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "stephen-margheim-tropical-on-rails-2025"
   id: "stephen-margheim-tropical-on-rails-2025"
+  language: "english"
   description: |-
     Stephen is an American expatriate living in Berlin. He is a regular contributor to Rails and the sqlite3-ruby gem, as well as having a handful of gems aimed at making Ruby and Rails the best platforms in the world for running SQLite projects.
 
@@ -263,22 +288,25 @@
   date: "2025-04-04"
   published_at: "TODO"
   announced_at: "2025-01-27 15:41:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "radames-roriz-tropical-on-rails-2025"
   id: "radames-roriz-tropical-on-rails-2025"
+  language: "portuguese"
   description: |-
     Senior Engineer @ Knowbe4 • Passionate about solving real problems and creating products that positively impact people's lives.
 
-- title: "Keynote by Rosa Gutiérrez"
-  raw_title: "Keynote by Rosa Gutiérrez"
+- title: "Keynote: The curious incident of the incomplete executor"
+  raw_title: "Keynote - The curious incident of the incomplete executor"
   speakers:
     - Rosa Gutiérrez
   event_name: Tropical on Rails 2025
   date: "2025-04-04"
   published_at: "TODO"
   announced_at: "2024-10-16 15:59:00 UTC"
-  video_provider: scheduled
+  video_provider: not_published
   video_id: "rosa-gutierrez-tropical-on-rails-2025"
   id: "rosa-gutierrez-tropical-on-rails-2025"
+  language: "english"
+  slides_url: https://rosa.codes/executor2025/presentation/
   description: |-
     She's a lover of languages and math, Lead Programmer at the 37signals team, and she's coming to the Tropical On Rails 2025 stage to share a lot of knowledge with us.
