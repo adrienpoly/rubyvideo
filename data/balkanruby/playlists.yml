@@ -29,7 +29,7 @@
   slug: balkanruby-2019
   banner_background: "#101010"
   featured_background: "#101010"
-  featured_color: white
+  featured_color: "#FFFFFF"
 
 - id: PLAkGYJoUfB0s1x8AcxBlnpnKFOPblEkRa
   title: Balkan Ruby 2024
@@ -46,9 +46,9 @@
   videos_count: 12
   metadata_parser: Youtube::VideoMetadata
   slug: balkanruby-2024
-  banner_background: black
-  featured_background: black
-  featured_color: white
+  banner_background: "#000000"
+  featured_background: "#000000"
+  featured_color: "#FFFFFF"
   website: https://balkanruby.com/2024
 
 - id: balkanruby-2025
@@ -63,7 +63,7 @@
   videos_count: 12
   metadata_parser: Youtube::VideoMetadata
   slug: balkanruby-2025
-  banner_background: black
-  featured_background: black
-  featured_color: white
+  banner_background: "#000000"
+  featured_background: "#000000"
+  featured_color: "#FFFFFF"
   website: https://balkanruby.com
