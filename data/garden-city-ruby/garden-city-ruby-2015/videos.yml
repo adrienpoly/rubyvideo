@@ -24,12 +24,12 @@
   raw_title: Garden City Ruby Conference - ActiveRecord can't do it? Arel can!
   speakers:
     - Vipul A M
-    - Prathamesh S
+    - Prathamesh Sonpatki
   event_name: Garden City Ruby 2015
   date: "2015-01-10"
   published_at: "TODO"
   description: |-
-    By, Vipul A Prathamesh S
+    By, Vipul A Prathamesh Son
 
     ActiveRecord can't do it? Arel can! Active Record is awesome. But how does ActiveRecord handle generating complex SQL queries? Under the hood it's handled by Arel. Most of the time, Rails developers don't have to know about how Arel works. But sometimes Active Record can't satisfy our needs. Also Arel has many strengths not exposed through Active Record. Let's experiment with Arel directly and wield great SQL power in database agnostic way. Oh and did I mention, this is a fun talk, even for us, to “perform”.
 
