@@ -1,0 +1,464 @@
+---
+- title: "Coming Soon...\U0001F48E"
+  raw_title: "Coming Soon...\U0001F48E / Akira Matsuda"
+  speakers:
+    - Akira Matsuda
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-07"
+  description: |-
+    https://kaigionrails.org/2020/timetable#a_matsuda
+
+    ▼発表概要
+    coming soon
+
+
+    登壇者: Akira Matsuda
+    自己紹介: https://kaigionrails.org/2020/speakers#a_matsuda
+    GitHub: https://github.com/amatsuda
+    Twitter: https://twitter.com/a_matsuda
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: 4POksL_VVGY
+
+- title: Rails パフォーマンス・チューニング入門
+  raw_title: Rails パフォーマンス・チューニング入門 / 黒曜
+  speakers:
+    - 黒曜
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-07"
+  description: |-
+    https://kaigionrails.org/2020/timetable/#kokuyouwind
+
+    ▼発表概要
+    RailsではActiveRecordや各種のgemを活用することで、低レイヤーの挙動を意識することなくわかりやすいコードを書くことが可能です。
+    一方で、こうしたコードは実際の内部的な挙動が把握しづらく、パフォーマンス上の問題を意図せず抱え込む可能性も秘めています。これはユーザの体験を損なうのみならず、場合によっては大規模な障害を引き起こす原因にもなりえます。
+    このセッションでは、パフォーマンス上の問題を把握するための計測手法や、見つかった問題を解決するためのアプローチについて、実例を交えてご紹介します。
+
+    資料: https://slides.com/kokuyouwind/deck-d35f44
+
+
+    登壇者: 黒曜
+    自己紹介: https://kaigionrails.org/2020/speakers/#kokuyouwind
+    GitHub: https://github.com/kokuyouwind
+    Twitter: https://twitter.com/kokuyouwind
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: Ua1qbpwDJd4
+
+- title: FactoryBot the Right Way
+  raw_title: FactoryBot the Right Way / toshimaru
+  speakers:
+    - toshimaru
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-07"
+  description: |-
+    https://kaigionrails.org/2020/timetable#toshimaru_e
+
+    ▼発表概要
+    これまで「正しいRuby/Rails/RSpecの書き方」は多く議論されてきましたが、「正しいFactoryBotの書き方」は十分に議論されていないと感じます。
+    本発表ではRSpecの要となるデータ生成ツール・FactoryBotに焦点をあて、正しいFactoryBotの使い方についてグッドプラクティスと共に発表したいと思います。
+
+    資料: https://speakerdeck.com/toshimaru/factorybot-the-right-way
+
+
+    登壇者: toshimaru
+    自己紹介: https://kaigionrails.org/2020/speakers#toshimaru_e
+    GitHub: https://github.com/toshimaru
+    Twitter: https://twitter.com/toshimaru_e
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: n0epZM-lZvw
+
+- title: 継承とメタプログラミング満載なアプリケーションコードでもアクションとフィルタに悩まないための Gem を作った話
+  raw_title: 継承とメタプログラミング満載なアプリケーションコードでもアクションとフィルタに悩まないための Gem を作った話 / makicamel
+  speakers:
+    - makicamel
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-07"
+  description: |-
+    https://kaigionrails.org/2020/timetable#makicamel
+
+    ▼発表概要
+    Rails のアプリケーションコードを書いていて、誰しも一度は覚えのないフィルタに悩んだことがあるのではないでしょうか。
+    あるいは、継承やメタプログラミングを重ねたコントローラーのアクションの実装がどこにあるかわからず探したことや、
+    またはもっと端的に、リクエストが走る度にどのフィルタやアクションを経由したか一望したいと思ったことはないでしょうか。
+    TracePoint を使って解決する Gem を作っ(た|ている)ので、その Gem のお話と、作るのは楽しいというお話をします。
+    資料: https://speakerdeck.com/makicamel/lets-enjoy-creating-gems
+
+
+    登壇者: makicamel
+    自己紹介: https://kaigionrails.org/2020/speakers#makicamel
+    GitHub: https://github.com/makicamel
+    Twitter: https://twitter.com/makicamel
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: fTesufhojAU
+
+- title: Action Mailbox in Action
+  raw_title: Action Mailbox in Action / Ryo Kajiwara (sylph01)
+  speakers:
+    - Ryo Kajiwara (sylph01)
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-07"
+  description: |-
+    https://kaigionrails.org/2020/timetable#s01
+
+    ▼発表概要
+    Rails 6で追加されたAction Mailboxによってメールの送信だけでなく受信もRailsで扱えるようになりました。普段のRailsの延長でメールを扱えるため非常に便利な一方、これによってEメールの複雑性の最たる原因であるspamとの戦いに身を投じなくてはいけなくてはなります。
+    この発表では、RailsでEメールを扱う開発者が知っておきたいSMTPとドメイン認証技術(SPF, DKIM)の基礎とRailsでの扱い方の紹介、また実際に使ってみた例として電子書籍のソーシャルDRMシステムを組んだ例を紹介します。
+
+
+    登壇者: Ryo Kajiwara (sylph01)
+    自己紹介: https://kaigionrails.org/2020/speakers#s01
+    GitHub: https://github.com/sylph01
+    Twitter: https://twitter.com/s01
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: UkYxiGQT694
+
+- title: 新ミドルウェア ActionDispatch::HostAuthorization と学ぶ DNS のしくみ
+  raw_title: 新ミドルウェア ActionDispatch::HostAuthorization と学ぶ DNS のしくみ / yucao24hours
+  speakers:
+    - yucao24hours
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-07"
+  description: |-
+    https://kaigionrails.org/2020/timetable#yucao24hours
+
+    ▼発表概要
+    Rails 6 から、新たに `ActionDispatch::HostAuthorization` というミドルウェアが追加されました。
+    DNS リバインディングという攻撃から Rails アプリケーションを守るためのものですが、そもそも「DNS リバインディング」という名前をあまり聞き慣れない方もいらっしゃるのではないでしょうか？
+    こちらの発表は DNS リバインディングのカラクリと Rails の `HostAuthorization` ミドルウェアのアプローチについてを知っていただくことができ、さらには DNS の基本的なしくみについても知れる、一口で三度おいしい！？技術トークです。
+    普段はもっぱらアプリケーションコードを書いている方へ、少しでも DNS のふるまいを理解するお手伝いができれば幸いです。
+    資料: https://speakerdeck.com/yucao24hours/understanding-dns-with-actiondispatch-hostauthorization
+
+
+    登壇者: yucao24hours
+    自己紹介: https://kaigionrails.org/2020/speakers#yucao24hours
+    GitHub: https://github.com/yucao24hours
+    Twitter: https://twitter.com/yucao24hours
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: ufUyNEgw-J8
+
+- title: ActiveRecord の歩み方
+  raw_title: ActiveRecord の歩み方 / osyo
+  speakers:
+    - osyo
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-07"
+  description: |-
+    https://kaigionrails.org/2020/timetable#pink_bangbi
+
+    ▼発表概要
+    皆さん ActiveRecord のコードは読んだことがありますか？
+    ActiveRecord は使っていても読んだことがない人が多いのではないでしょうか。
+    本発表では ActiveRecord の実装を読む上でのポイントや読む上で役に立つ Ruby の機能を解説しつつ、実際にライブコーディングをしながらコードリーディングを実演したいと思います。
+    この発表は ActiveRecord に限らず Ruby のコードを読むときにきっと役立つでしょう。
+
+    資料: https://speakerdeck.com/osyo/activerecord-falsebu-mifang
+
+
+    登壇者: osyo
+    自己紹介: https://kaigionrails.org/2020/speakers#pink_bangbi
+    GitHub: https://github.com/osyo-manga
+    Twitter: https://twitter.com/pink_bangbi
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: 6b3bAipw0Yg
+
+- title: 快適なリモートワークを実現するために〜RailsでSSOを実現する3パターン
+  raw_title: 快適なリモートワークを実現するために〜RailsでSSOを実現する3パターン / 下重 博資
+  speakers:
+    - 下重 博資
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-07"
+  description: |-
+    https://kaigionrails.org/2020/timetable#shimoju_
+
+    ▼発表概要
+    COVID-19の拡大によりリモートワークをすることになった会社もあると思いますが、そこで問題となるのが社内IPアドレスでアクセス制限を行っている管理画面や社内サービスです。この発表では複数のRailsアプリにSAML認証を実装してIP制限をなくしたり、oauth2-proxyを用いてアプリケーションロジックに踏み込まずに多要素認証を実現したことなど、セキュリティを保ちながらリモートワークを快適にするために実践したことをご紹介します。
+
+
+    登壇者: 下重 博資
+    自己紹介: https://kaigionrails.org/2020/speakers#shimoju_
+    GitHub: https://github.com/shimoju
+    Twitter: https://twitter.com/shimoju_
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: oLzylLlfKh0
+
+- title: TDD with git. Long live engineering.
+  raw_title: TDD with git. Long live engineering. / Koichi ITO
+  speakers:
+    - Koichi ITO
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-07"
+  description: |-
+    https://kaigionrails.org/2020/timetable#koic
+
+    ▼発表概要
+    TDD が世の中に登場しておよそ20年が経ちました。その間に世の中を取り巻くメジャーなバージョンコントロールシステム (SCM) は CVS → Subversion → Git へと変遷しています。
+
+    CVS 時代より、TDD は Red → Green → Refactor の基本的なリズムがあり、テストがグリーンになったらコミットするという考えがあります。分散 SCM の Git 時代でもこのリズムは有効でしょうか？
+
+    本講演では TDDとしてのコミット粒度と、Pull Request として開くコミット粒度の違いを示し、Git であたかも最初から綺麗なコードで仕上げたかのようにするという、SCM が積み重ねてきた歴史と実践技術の話です。本編ではさらにその根底にあるセルフレビューと小さなリファクタリングの回帰への実現にも触れます。
+    資料: https://speakerdeck.com/koic/tdd-with-git-long-live-engineering
+
+
+    登壇者: Koichi ITO
+    自己紹介: https://kaigionrails.org/2020/speakers#koic
+    GitHub: https://github.com/koic
+    Twitter: https://twitter.com/koic
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: fyvUDLJvpp8
+
+- title: Sidekiq to Kafka 〜ストリームベースのmicroservices〜
+  raw_title: Sidekiq to Kafka 〜ストリームベースのmicroservices〜 / joker1007
+  speakers:
+    - joker1007
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-07"
+  description: |-
+    https://kaigionrails.org/2020/timetable#joker1007
+
+    ▼発表概要
+    弊社のプロダクトであるReproはアプリケーションのイベントログやファーストパーティデータを収集しアプリ内マーケティングに活用するサービスです。大量のイベントデータがやってきますが、直接エンドユーザーに応答を返すことはありません。一方でReproの顧客がその機能を活用した結果はエンドユーザーに届くため、すぐに結果を確認することはありません。
+    こういった特徴のため、同期的なコールとレスポンスをベースにしたmicroservicesよりも非同期処理の複雑な連鎖を開発しやすくできるやり方を優先するべきだと考えました。Railsで非同期処理というとSidekiq(ActiveJob)が有名で弊社でも広範に活用されていましたが、弊社ではその役割をApache Kafkaを中心にしたmicroコンポーネントに置き換えようと計画しています。
+    まだ道半ばではありますが、この話では分散StreamBufferであるApache Kafkaを活用してRailsアプリケーションを分割していくにはどういった考え方が必要かを紹介します。
+
+
+    登壇者: joker1007
+    自己紹介: https://kaigionrails.org/2020/speakers#joker1007
+    GitHub: https://github.com/joker1007
+    Twitter: https://twitter.com/joker1007
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: OxUnoVvwftM
+
+- title: ひみつきちを作りたい 〜「こどもれっどまいん」テーマ作りでの学び
+  raw_title: ひみつきちを作りたい 〜「こどもれっどまいん」テーマ作りでの学び / 高野 明子
+  speakers:
+    - 高野 明子
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-11"
+  description: |-
+    https://kaigionrails.org/2020/timetable#akiko_pusu
+
+    ▼発表概要
+    長年ユーザ視点で付き合っていたRedmine。そのおかげで、いつのまにかRailsを中心とした開発現場でのお仕事ができるようになりました。10年以上付き合ってみて、バージョンアップを乗り越えている稀有なOSSだと感じています。
+    若干UIが古いという意見がある中、まずは自分たちで変えていけないだろうか？そしてまた、前々から希望していた「こどもむけ」のシステムがつくれないか？
+    そんな気持ちで、テーマ開発に取り組んでみたお話をします。
+
+
+    登壇者: 高野 明子
+    自己紹介: https://kaigionrails.org/2020/speakers#akiko_pusu
+    GitHub: https://github.com/akiko-pusu
+    Twitter: https://twitter.com/akiko_pusu
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: FVDjsvPZ4wo
+
+- title: Rails 6.1's ActiveModel#errors Changes
+  raw_title: Rails 6.1's ActiveModel#errors Changes / lulalala
+  speakers:
+    - lulalala
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-11"
+  description: |-
+    https://kaigionrails.org/2020/timetable#lulalala_it
+
+    ▼発表概要
+    ActiveModel::Errors will undergo major changes in Rails 6.1. This talk presents the rationale and the new object-oriented architecture. The implementation and edge cases are explained, and the talk will showcase examples on how it can make your coding life easier.
+
+
+    登壇者: lulalala
+    自己紹介: https://kaigionrails.org/2020/speakers#lulalala_it
+    GitHub: https://github.com/lulalala
+    Twitter: https://twitter.com/lulalala_it
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: FGhZR4ns_tc
+
+- title: Railsワンマン運転の手引き
+  raw_title: Railsワンマン運転の手引き / べーた
+  speakers:
+    - べーた
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-11"
+  description: |-
+    https://kaigionrails.org/2020/timetable#beta_chelsea
+
+    ▼発表概要
+    初学者の方向けに、Railsで作ったサービスを実際に運用するために必要な要素を紹介します。Railsは大変便利なので、一人でも開発をどんどん進められてしまうのですが、いざ外部公開となった際はサーバ周りの予備知識があるとスムーズです。これからサービス公開したい方の参考になればと思います。
+    資料: https://speakerdeck.com/betachelsea/rails-one-man-operation
+
+
+    登壇者: べーた
+    自己紹介: https://kaigionrails.org/2020/speakers#beta_chelsea
+    GitHub: https://github.com/betachelsea
+    Twitter: https://twitter.com/beta_chelsea
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: pV6dhWLoSy4
+
+- title: Viewがレンダリングされるまでの技術とその理解
+  raw_title: Viewがレンダリングされるまでの技術とその理解 / Aaron Patterson
+  speakers:
+    - Aaron Patterson
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-11"
+  description: |-
+    https://kaigionrails.org/2020/timetable/#tenderlove
+
+    ▼発表概要
+    Railsの各部分とその仕組みがより理解できる話として、1リクエストを起点にブラウザからViewまで全ての流れを通し、どのようにRailsが1リクエストを解釈した後、適切なコントローラーを見つけ、Viewをレンダリングし、レスポンスの送信方法の説明とRack, Action Controller,Action Viewの各技術の説明をします。
+    資料: https://drive.google.com/file/d/1mugKOdIa5WCKWJmkCIG19X2OQtLofYlP/view
+
+    登壇者: Aaron Patterson
+    自己紹介: https://kaigionrails.org/2020/speakers/#tenderlove
+    GitHub: https://github.com/tenderlove
+    Twitter: https://twitter.com/tenderlove
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: QTv9MVRa_MM
+
+- title: Ruby 3.0におけるドキュメンテーションと端末制御の未来
+  raw_title: Ruby 3.0におけるドキュメンテーションと端末制御の未来 / aycabta（糸柳 茶蔵）
+  speakers:
+    - aycabta（糸柳 茶蔵）
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-11"
+  description: |-
+    https://kaigionrails.org/2020/timetable#aycabta
+
+    ▼発表概要
+    リリースが徐々に迫りつつある Ruby 3.0 において、どのようにライブラリのドキュメンテーションが行われるべきなのか、Ruby core team の RDoc メンテナから、YARD との共存も含めて説明します。また、ドキュメンテーションとの連携を果たした Ruby 2.7 以降の新生 IRB 及びそれら新機能がどのように Pry とも連携可能なものとして計画されているのか、合わせて説明します。そしてこれらが rails console にどう影響するのか、その実際についても解説いたします。
+
+
+    登壇者: aycabta（糸柳 茶蔵）
+    自己紹介: https://kaigionrails.org/2020/speakers#aycabta
+    GitHub: https://github.com/aycabta
+    Twitter: https://twitter.com/aycabta
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: BDYeW2I9Sm8
+
+- title: コードレビュー100本ノックで学んだRailsリファクタリング
+  raw_title: コードレビュー100本ノックで学んだRailsリファクタリング / 9sako6
+  speakers:
+    - 9sako6
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-11"
+  description: |-
+    https://kaigionrails.org/2020/timetable#9sako6
+
+    ▼発表概要
+    2020年4月に新卒で就職し、 Rails アプリ開発者になって数ヶ月が経ちました。長期間運用されている大規模なシステムのプロジェクトにアサインされ、ここへ至るまでに、歴戦の先輩方から数百ものコードレビューをいただきました。commit の意識改革から、命名、分割、設計、テストに至るまで、数多くの指摘を受けました。そうして学んだ、実務目線でのリファクタリング術をお伝えします。
+
+
+    登壇者: 9sako6
+    自己紹介: https://kaigionrails.org/2020/speakers#9sako6
+    GitHub: https://github.com/9sako6
+    Twitter: https://twitter.com/9sako6
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: cRjJOXlZgEo
+
+- title: 育てるSinatra
+  raw_title: 育てるSinatra / onk
+  speakers:
+    - onk
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-11"
+  description: |-
+    https://kaigionrails.org/2020/timetable#onk
+
+    ▼発表概要
+    Sinatra を Rails 風に育てることで、Rails のレールについての洞察を深めていきます。
+    フレームワークを作ってみたい人、Rails の良いところを再確認したい人にオススメです。
+
+
+    登壇者: onk
+    自己紹介: https://kaigionrails.org/2020/speakers#onk
+    GitHub: https://github.com/onk
+    Twitter: https://twitter.com/onk
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: emw7IPaxUgU
+
+- title: Rubyで書かれたソースコードを読む技術
+  raw_title: Rubyで書かれたソースコードを読む技術 / fukajun
+  speakers:
+    - fukajun
+  event_name: Kaigi on Rails 2020
+  published_at: "2020-10-11"
+  description: |-
+    https://kaigionrails.org/2020/timetable#fukajun
+
+    ▼発表概要
+    ソースコードを読むのがそんなに得意ではない人が、いかにしてソースコードを読むか？困ったときに生かせるいくつかのテクニックについて話します
+
+
+    登壇者: fukajun
+    自己紹介: https://kaigionrails.org/2020/speakers#fukajun
+    GitHub: https://github.com/fukajun
+    Twitter: https://twitter.com/fukajun
+
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: CvWFOYPc0f8
