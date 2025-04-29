@@ -985,7 +985,7 @@
 
 - title: SF Bay Area Ruby Meetup - January 2025
   raw_title: "SF Ruby January Meetup @ Productboard"
-  event_name: SF Bay Area Ruby Meetup - January 2025
+  event_name: "SF Bay Area Ruby Meetup - January 2025"
   date: "2025-01-16"
   published_at: "2025-01-24"
   description: |-
@@ -1029,7 +1029,7 @@
     - title: "Intro"
       start_cue: "00:04"
       end_cue: "05:55"
-      event_name: SF Bay Area Ruby Meetup - January 2025
+      event_name: "SF Bay Area Ruby Meetup - January 2025"
       video_id: intro-sf-bay-area-ruby-meetup-january-2025
       video_provider: parent
       date: "2025-01-16"
@@ -1041,7 +1041,7 @@
       start_cue: "05:55"
       end_cue: "07:50"
       thumbnail_cue: "06:45"
-      event_name: SF Bay Area Ruby Meetup - January 2025
+      event_name: "SF Bay Area Ruby Meetup - January 2025"
       video_id: productboard-sf-bay-area-ruby-meetup-january-2025
       video_provider: parent
       date: "2025-01-16"
@@ -1052,7 +1052,7 @@
     - title: "How to make your tests easier to understand"
       start_cue: "13:16"
       end_cue: "40:55"
-      event_name: SF Bay Area Ruby Meetup - January 2025
+      event_name: "SF Bay Area Ruby Meetup - January 2025"
       video_id: jason-swett-how-to-make-your-tests-easier-to-understand
       video_provider: parent
       date: "2025-01-16"
@@ -1068,7 +1068,7 @@
     - title: "How to add passkeys to a Rails app (and why)"
       start_cue: "40:55"
       end_cue: "01:06:39"
-      event_name: SF Bay Area Ruby Meetup - January 2025
+      event_name: "SF Bay Area Ruby Meetup - January 2025"
       video_id: bart-agapinan-how-to-add-passkeys-to-a-rails-app-and-why
       video_provider: parent
       date: "2025-01-16"
@@ -1087,7 +1087,7 @@
     - title: "WASM in Ruby"
       start_cue: "01:06:40"
       end_cue: "01:35:17"
-      event_name: SF Bay Area Ruby Meetup - January 2025
+      event_name: "SF Bay Area Ruby Meetup - January 2025"
       video_id: cameron-dutro-wasm-in-ruby
       video_provider: parent
       date: "2025-01-16"
@@ -1107,7 +1107,7 @@
     - title: "Using Bazel in Ruby Projects"
       start_cue: "01:35:17"
       end_cue: "02:07:36"
-      event_name: SF Bay Area Ruby Meetup - January 2025
+      event_name: "SF Bay Area Ruby Meetup - January 2025"
       video_id: alex-rodionov-using-bazel-in-ruby-projects
       video_provider: parent
       date: "2025-01-16"
@@ -1126,7 +1126,7 @@
 
 - title: SF Bay Area Ruby Meetup - February 2025
   raw_title: "SF Ruby February Meetup @ GitHub"
-  event_name: SF Bay Area Ruby Meetup - February 2025
+  event_name: "SF Bay Area Ruby Meetup - February 2025"
   date: "2025-02-11"
   published_at: ""
   description: |-
@@ -1178,7 +1178,7 @@
     - title: "Lessons from 5 years of UI architecture at GitHub"
       date: "2025-02-11"
       announced_at: "2025-01-30 02:48:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - February 2025
+      event_name: "SF Bay Area Ruby Meetup - February 2025"
       video_id: "joel-hawksley-sf-bay-area-ruby-meetup-february-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1192,7 +1192,7 @@
     - title: "How we built a bank w/ Ruby on Rails"
       date: "2025-02-11"
       announced_at: "2025-01-30 02:48:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - February 2025
+      event_name: "SF Bay Area Ruby Meetup - February 2025"
       video_id: "sam-poder-sf-bay-area-ruby-meetup-february-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1206,7 +1206,7 @@
     - title: "Open Mic"
       date: "2025-02-11"
       announced_at: "2025-02-04 06:25:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - February 2025
+      event_name: "SF Bay Area Ruby Meetup - February 2025"
       video_id: "open-mic-sf-bay-area-ruby-meetup-february-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1220,7 +1220,7 @@
     - title: "Presence Ain't Perfect"
       date: "2025-02-11"
       announced_at: "2025-02-04 06:25:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - February 2025
+      event_name: "SF Bay Area Ruby Meetup - February 2025"
       video_id: "vladimir-dementyev-sf-bay-area-ruby-meetup-february-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1231,11 +1231,10 @@
       speakers:
         - Vladimir Dementyev
 
-
     - title: "Hexagonal Architecture and Rails"
       date: "2025-02-11"
       announced_at: "2025-02-04 07:05:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - February 2025
+      event_name: "SF Bay Area Ruby Meetup - February 2025"
       video_id: "alan-ridlehoover-sf-bay-area-ruby-meetup-february-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1246,10 +1245,9 @@
       speakers:
         - Alan Ridlehoover
 
-
 - title: SF Bay Area Ruby Meetup - March 2025
-  raw_title: "SF Ruby February Meetup in March @  New Relic"
-  event_name: SF Bay Area Ruby Meetup - March 2025
+  raw_title: "SF Ruby February Meetup in March @ New Relic"
+  event_name: "SF Bay Area Ruby Meetup - March 2025"
   date: "2025-03-20"
   published_at: ""
   description: |-
@@ -1261,7 +1259,7 @@
 
     We begin the programming at 5.30 PM PST and we have an amazing agenda:
 
-​    Agenda:
+    Agenda:
 
     ​5.30 PM Intro: Cameron Dutro
 
@@ -1295,7 +1293,7 @@
     - title: "New Relic"
       date: "2025-03-20"
       announced_at: "2025-03-03 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - March 2025
+      event_name: "SF Bay Area Ruby Meetup - March 2025"
       video_id: "kayla-reopelle-sf-bay-area-ruby-meetup-march-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1309,7 +1307,7 @@
     - title: "Avo"
       date: "2025-03-20"
       announced_at: "2025-03-03 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - March 2025
+      event_name: "SF Bay Area Ruby Meetup - March 2025"
       video_id: "adrian-marin-sf-bay-area-ruby-meetup-march-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1323,7 +1321,7 @@
     - title: "Open Mic"
       date: "2025-03-20"
       announced_at: "2025-03-03 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - March 2025
+      event_name: "SF Bay Area Ruby Meetup - March 2025"
       video_id: "open-mic-sf-bay-area-ruby-meetup-march-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1334,10 +1332,10 @@
       speakers:
         - TBA
 
-     - title: "A Brewer's Guide to Filtering out Complexity and Churn"
+    - title: "A Brewer's Guide to Filtering out Complexity and Churn"
       date: "2025-03-20"
       announced_at: "2025-03-03 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - March 2025
+      event_name: "SF Bay Area Ruby Meetup - March 2025"
       video_id: "fito-alan-sf-bay-area-ruby-meetup-march-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1349,10 +1347,10 @@
         - Fito von Zastrow
         - Alan Ridlehoover
 
-            - title: "Why I Chose Stimulus Over React for Building with Rails 7"
+    - title: "Why I Chose Stimulus Over React for Building with Rails 7"
       date: "2025-03-20"
       announced_at: "2025-03-03 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - March 2025
+      event_name: "SF Bay Area Ruby Meetup - March 2025"
       video_id: "federico-ramallo-sf-bay-area-ruby-meetup-march-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1361,45 +1359,43 @@
       thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       speakers:
-        - Federico Ramallo 
-
-
+        - Federico Ramallo
 
 - title: SF Bay Area Ruby Meetup - April 2025
   raw_title: "SF Ruby February Meetup in April @  Sentry"
-  event_name: SF Bay Area Ruby Meetup - April 2025
+  event_name: "SF Bay Area Ruby Meetup - April 2025"
   date: "2025-04-23"
   published_at: ""
   description: |-
     ​​Hey, Bay Area builders and tinkerers!
 
-This time we are hosted by our friends from Sentry.
+    This time we are hosted by our friends from Sentry.
 
-Address: 45 Fremont St, San Francisco
+    Address: 45 Fremont St, San Francisco
 
-​Agenda:
+    ​Agenda:
 
-​5:30 PM Intro
+    ​5:30 PM Intro
 
-5:40 PM Neil Manvar (Sentry): Solving Ruby issues in Record-time
+    5:40 PM Neil Manvar (Sentry): Solving Ruby issues in Record-time
 
-​6:00 PM Rich Steinmetz (Clickfunnels): Grow Your API Integration Suite While Keeping Your Devs Focused on the Product Core
+    ​6:00 PM Rich Steinmetz (Clickfunnels): Grow Your API Integration Suite While Keeping Your Devs Focused on the Product Core
 
-​6:30 PM Break
+    ​6:30 PM Break
 
-​6:50 PM Open mic! Prepare your announcements!
+    ​6:50 PM Open mic! Prepare your announcements!
 
-​7:10 PM Jake Zimmerman (Stripe): Sorbet syntax: a retrospective
+    ​7:10 PM Jake Zimmerman (Stripe): Sorbet syntax: a retrospective
 
-​7:40 PM Todd Sedano (Gusto): Starting a Rails project with Packwerk
+    ​7:40 PM Todd Sedano (Gusto): Starting a Rails project with Packwerk
 
-​8:10 PM Irina Nazarova (Evil Martians): Start-ups on Rails
+    ​8:10 PM Irina Nazarova (Evil Martians): Start-ups on Rails
 
-8.30 PM Social time
+    8.30 PM Social time
 
-9:00 PM Doors close
+    9:00 PM Doors close
 
-Brought to you by Evil Martians, Irina Nazarova, Cameron Dutro.
+    Brought to you by Evil Martians, Irina Nazarova, Cameron Dutro.
 
     https://lu.ma/9uabe94u
   video_provider: parent
@@ -1413,7 +1409,7 @@ Brought to you by Evil Martians, Irina Nazarova, Cameron Dutro.
     - title: "Solving Ruby issues in Record-time"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - April 2025
+      event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "neil-manvar-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1427,7 +1423,7 @@ Brought to you by Evil Martians, Irina Nazarova, Cameron Dutro.
     - title: "Grow Your API Integration Suite While Keeping Your Devs Focused on the Product Core"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - April 2025
+      event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "rich-steinmetz-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1441,7 +1437,7 @@ Brought to you by Evil Martians, Irina Nazarova, Cameron Dutro.
     - title: "Open Mic"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - April 2025
+      event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "open-mic-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1452,10 +1448,10 @@ Brought to you by Evil Martians, Irina Nazarova, Cameron Dutro.
       speakers:
         - TBA
 
-     - title: "Sorbet syntax: a retrospective"
+    - title: "Sorbet syntax: a retrospective"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - April 2025
+      event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "jake-zimmerman-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1469,7 +1465,7 @@ Brought to you by Evil Martians, Irina Nazarova, Cameron Dutro.
     - title: "Starting a Rails project with Packwerk"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - April 2025
+      event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "todd-sedano-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1478,12 +1474,12 @@ Brought to you by Evil Martians, Irina Nazarova, Cameron Dutro.
       thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       speakers:
-        - Todd Sedano 
+        - Todd Sedano
 
     - title: "Startups on Rails in 2025"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
-      event_name: SF Bay Area Ruby Meetup - April 2025
+      event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "irina-nazarova-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
       thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
@@ -1493,4 +1489,3 @@ Brought to you by Evil Martians, Irina Nazarova, Cameron Dutro.
       thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       speakers:
         - Irina Nazarova
-
