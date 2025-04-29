@@ -1362,10 +1362,11 @@
         - Federico Ramallo
 
 - title: SF Bay Area Ruby Meetup - April 2025
-  raw_title: "SF Ruby February Meetup in April @  Sentry"
+  raw_title: "SF Ruby February Meetup in April @ Sentry"
   event_name: "SF Bay Area Ruby Meetup - April 2025"
   date: "2025-04-23"
-  published_at: ""
+  announced_at: "2025-04-08 12:00:00 UTC"
+  published_at: "2025-04-28"
   description: |-
     ​​Hey, Bay Area builders and tinkerers!
 
@@ -1398,94 +1399,122 @@
     Brought to you by Evil Martians, Irina Nazarova, Cameron Dutro.
 
     https://lu.ma/9uabe94u
-  video_provider: parent
-  video_id: sf-bay-area-ruby-meetup-april-2025
-  thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-  thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-  thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-  thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
-  thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+  video_provider: youtube
+  video_id: eqLbYCCCRO0
+  id: sf-bay-area-ruby-meetup-april-2025
   talks:
-    - title: "Solving Ruby issues in Record-time"
+    - title: "Intro"
+      start_cue: "00:00:00"
+      end_cue: "00:02:57"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
+      published_at: "2025-04-28"
+      event_name: "SF Bay Area Ruby Meetup - April 2025"
+      video_id: "intro-sf-bay-area-ruby-meetup-april-2025"
+      video_provider: parent
+      speakers:
+        - Cameron Dutro
+
+    - title: "Solving Ruby 'issues' in record-time (using Sentry's Autofix)"
+      start_cue: "00:03:34"
+      end_cue: "00:21:51"
+      thumbnail_cue: "03:33"
+      date: "2025-04-23"
+      announced_at: "2025-04-08 12:00:00 UTC"
+      published_at: "2025-04-28"
       event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "neil-manvar-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
-      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
-      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       speakers:
         - Neil Manvar
 
     - title: "Grow Your API Integration Suite While Keeping Your Devs Focused on the Product Core"
+      start_cue: "00:21:51"
+      end_cue: "00:54:43"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
+      published_at: "2025-04-28"
       event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "rich-steinmetz-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
-      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
-      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       speakers:
         - Rich Steinmetz
 
-    - title: "Open Mic"
+    - title: "Open Mic: New edition of the Eloquent Ruby Book"
+      start_cue: "00:55:11"
+      end_cue: "00:55:56"
+      thumbnail_cue: "00:55:34"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
+      published_at: "2025-04-28"
       event_name: "SF Bay Area Ruby Meetup - April 2025"
-      video_id: "open-mic-sf-bay-area-ruby-meetup-april-2025"
+      video_id: "open-mic-brandon-weaver-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
-      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
-      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
+      description: |-
+        Brandon Weaver is working on the new edition of the Eloquent Ruby book that is coming out soon!
       speakers:
-        - TBA
+        - Brandon Weaver
+
+    - title: "Open Mic: Gusto is hiring"
+      start_cue: "00:56:20"
+      end_cue: "00:57:20"
+      date: "2025-04-23"
+      announced_at: "2025-04-08 12:00:00 UTC"
+      published_at: "2025-04-28"
+      event_name: "SF Bay Area Ruby Meetup - April 2025"
+      video_id: "open-mic-todd-sedano-sf-bay-area-ruby-meetup-april-2025"
+      video_provider: parent
+      description: |-
+        Todd Sedano says Gusto is hiring! Join them in Dogpatch.
+      speakers:
+        - Todd Sedano
+
+    - title: "Open Mic: Luthor.ai is hiring"
+      start_cue: "00:57:58"
+      end_cue: "00:58:24"
+      date: "2025-04-23"
+      announced_at: "2025-04-08 12:00:00 UTC"
+      published_at: "2025-04-28"
+      event_name: "SF Bay Area Ruby Meetup - April 2025"
+      video_id: "open-mic-glen-espinosa-sf-bay-area-ruby-meetup-april-2025"
+      video_provider: parent
+      description: |-
+        Glenn Espinosa says Luthor.ai is hiring! Build the bleeding-age AI in Ruby at the YC-backed startup.
+      speakers:
+        - Glenn Espinosa
 
     - title: "Sorbet syntax: a retrospective"
+      start_cue: "00:58:25"
+      end_cue: "01:34:38"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
+      published_at: "2025-04-28"
       event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "jake-zimmerman-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
-      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
-      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       speakers:
         - Jake Zimmerman
 
     - title: "Starting a Rails project with Packwerk"
+      start_cue: "01:34:39"
+      end_cue: "0​1:59:27"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
+      published_at: "2025-04-28"
       event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "todd-sedano-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
-      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
-      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       speakers:
         - Todd Sedano
 
     - title: "Startups on Rails in 2025"
+      start_cue: "01:59:28"
+      end_cue: "02:29:35"
       date: "2025-04-23"
       announced_at: "2025-04-08 12:00:00 UTC"
+      published_at: "2025-04-28"
       event_name: "SF Bay Area Ruby Meetup - April 2025"
       video_id: "irina-nazarova-sf-bay-area-ruby-meetup-april-2025"
       video_provider: parent
-      thumbnail_xs: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_sm: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_md: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg
-      thumbnail_lg: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
-      thumbnail_xl: https://pbs.twimg.com/media/GigjZUSawAAlce8?format=jpg&name=4096x4096
       speakers:
         - Irina Nazarova
