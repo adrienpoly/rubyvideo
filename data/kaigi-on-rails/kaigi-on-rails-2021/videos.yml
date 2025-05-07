@@ -1,26 +1,31 @@
 ---
-- title: Keynote "My road as a Rails Contributor" / Rafael França
-  raw_title: Keynote "My road as a Rails Contributor" / Rafael França
+# Website: https://kaigionrails.org/2021
+# Schedule: https://kaigionrails.org/2021/timetable
+
+# Day 1 - 2021-10-22
+
+- title: Q&A with kamipo
+  raw_title: Q&A with kamipo / kamipo
   speakers:
-    - Rafael França
+    - kamipo
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
-    https://kaigionrails.org/2021/talks/rafaelfranca/
+    https://kaigionrails.org/2021/talks/kamipo/
 
-    RailsコアチームのメンバーであるRafaelさんによる基調講演です。
-    Rafaelさん自身がRailsへの最多コントリビューターになるまでの軌跡を語ります。
-    OSSに関わりたい人や自分のやりたいことを探している人など、全ての開発者に向けたトークです。
+    Railsコミッターであるkamipoさんが皆さまからの質問に答えるQ&Aセッションです。モデレーターはRails/Rubyのコミッター @a_matsuda さんです。
 
     発表者
-    Rafael França
-    GitHub https://github.com/rafaelfranca
-    Twitter https://twitter.com/rafaelfranca
+    kamipo
+    GitHub https://github.com/kamipo
+    Twitter https://twitter.com/kamipo
 
     Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
     https://kaigionrails.org/
   video_provider: youtube
-  video_id: 0NNhBIgtOzA
+  video_id: FWFyyObp1f4
 
 - title: 監視を通じたサービスの逐次的進化 ~B/43の決済サービスでの取り組み~
   raw_title: 監視を通じたサービスの逐次的進化 ~B/43の決済サービスでの取り組み~ / Shohei Mitani
@@ -28,6 +33,8 @@
     - Shohei Mitani
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/shohei1913/
 
@@ -52,6 +59,8 @@
     - あそなす
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/asonas/
 
@@ -74,33 +83,14 @@
   video_provider: youtube
   video_id: 6rTzUmpiHjU
 
-- title: Q&A with kamipo
-  raw_title: Q&A with kamipo / kamipo
-  speakers:
-    - kamipo
-  event_name: Kaigi on Rails 2021
-  published_at: "2021-10-24"
-  description: |-
-    https://kaigionrails.org/2021/talks/kamipo/
-
-    Railsコミッターであるkamipoさんが皆さまからの質問に答えるQ&Aセッションです。モデレーターはRails/Rubyのコミッター @a_matsuda さんです。
-
-    発表者
-    kamipo
-    GitHub https://github.com/kamipo
-    Twitter https://twitter.com/kamipo
-
-    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
-    https://kaigionrails.org/
-  video_provider: youtube
-  video_id: FWFyyObp1f4
-
 - title: Railsのシステムテスト解剖学
   raw_title: Railsのシステムテスト解剖学 / Yusuke Iwaki
   speakers:
     - Yusuke Iwaki
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/YusukeIwaki/
 
@@ -127,6 +117,8 @@
     - Kenshi Shiode
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/solt9029/
 
@@ -157,6 +149,8 @@
     - Leonard Chin (レオ)
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/lchin/
 
@@ -185,6 +179,8 @@
     - Kakutani Shintaro
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description:
     "https://kaigionrails.org/2021/talks/kakutani/\n\nJeremy Evans著『Polished
     Ruby Programming』が出版されました。本書は「Ruby3のリリースにともなう仕様策定の議論やコミュニティの調停、実際の開発にいたるまで驚異的な活動量と熱意をもって取り組ん」だ成果からRuby
@@ -202,6 +198,8 @@
     - Ryo Kajiwara (sylph01)
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/s01/
 
@@ -226,6 +224,8 @@
     - Keiko Kaneko
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/neko314/
 
@@ -250,6 +250,8 @@
     - Takuya Matsumoto
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/upinetree/
 
@@ -282,6 +284,8 @@
     - Kazuhito Hokamura
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/hokaccha/
 
@@ -308,6 +312,8 @@
     - Ryunosuke Sato
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-22"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/tricknotes/
 
@@ -331,12 +337,16 @@
   video_provider: youtube
   video_id: Ly46qy7Pxtc
 
+## Day 2 - 2021-10-23
+
 - title: 学習者に聴く！Ruby on Rails 学習者の「今」
   raw_title: 学習者に聴く！Ruby on Rails 学習者の「今」 / Yohei Yasukawa
   speakers:
     - Yohei Yasukawa
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description:
     "https://kaigionrails.org/2021/talks/yasulab/\n\nYouTube から公開している「Railsチュートリアル完走者に聴く」という対談動画シリーズ（各回２０分〜５０分の動画）やプログラミングスクール合同コンテスト「editch」（全３回）にゲスト参加した経験から、誰がどんな背景で
     Ruby on Rails を学んでいるのか、また、そういった方々が開発したプロダクトなどをまとめ、Rails 学習者の「今」を参加者と共有します。\n\n参考リンク\n・\U0001F4FA
@@ -355,6 +365,8 @@
     - Hideaki Ishii
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/danimal141/
 
@@ -383,6 +395,8 @@
     - Sohei Takeno
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/Altech_2015/
 
@@ -411,6 +425,8 @@
     - しんくう
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/shinkufencer/
 
@@ -434,6 +450,8 @@
     - ohbarye
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/ohbarye/
 
@@ -466,6 +484,8 @@
     - s4ichi
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/s4ichi/
 
@@ -492,6 +512,8 @@
     - imaharu
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/imaharuTech/
 
@@ -516,6 +538,8 @@
     - Masato Yamashita
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/M_Yamashii/
 
@@ -543,6 +567,8 @@
     - Shu OGAWARA
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/expajp/
 
@@ -578,6 +604,8 @@
     - Yutaka Kamei
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/yykamei/
 
@@ -601,6 +629,8 @@
     - Masataka Pocke Kuwabara
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/pocke/
 
@@ -628,6 +658,8 @@
     - ヒロ
   event_name: Kaigi on Rails 2021
   published_at: "2021-10-25"
+  date: "2021-10-23"
+  language: japanese
   description: |-
     https://kaigionrails.org/2021/talks/sa_tech0518/
 
@@ -649,3 +681,28 @@
     https://kaigionrails.org/
   video_provider: youtube
   video_id: EKY1mOxmfM0
+
+- title: Keynote "My road as a Rails Contributor" / Rafael França
+  raw_title: Keynote "My road as a Rails Contributor" / Rafael França
+  speakers:
+    - Rafael França
+  event_name: Kaigi on Rails 2021
+  published_at: "2021-10-24"
+  date: "2021-10-23"
+  language: english
+  description: |-
+    https://kaigionrails.org/2021/talks/rafaelfranca/
+
+    RailsコアチームのメンバーであるRafaelさんによる基調講演です。
+    Rafaelさん自身がRailsへの最多コントリビューターになるまでの軌跡を語ります。
+    OSSに関わりたい人や自分のやりたいことを探している人など、全ての開発者に向けたトークです。
+
+    発表者
+    Rafael França
+    GitHub https://github.com/rafaelfranca
+    Twitter https://twitter.com/rafaelfranca
+
+    Kaigi on Railsは、初学者から上級者までが楽しめるWeb系の技術カンファレンスです。
+    https://kaigionrails.org/
+  video_provider: youtube
+  video_id: 0NNhBIgtOzA
