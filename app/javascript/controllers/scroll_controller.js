@@ -9,10 +9,8 @@ export default class extends Controller {
 
   checkScroll () {
     if (this.isAtEnd) {
-      this.buttonTarget.classList.add('hidden')
       this.gradientTarget.classList.add('hidden')
     } else {
-      this.buttonTarget.classList.remove('hidden')
       this.gradientTarget.classList.remove('hidden')
     }
   }
