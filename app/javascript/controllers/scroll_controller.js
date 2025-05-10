@@ -17,7 +17,7 @@ export default class extends Controller {
     }
   }
 
-  get isAtEnd() {
+  get isAtEnd () {
     return this.containerTarget.scrollLeft + this.containerTarget.offsetWidth >= this.containerTarget.scrollWidth - 1
   }
 }

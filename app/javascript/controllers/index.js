@@ -63,3 +63,6 @@ application.register("video-player", VideoPlayerController)
 
 import ScrollController from "./scroll_controller"
 application.register("scroll", ScrollController)
+
+import ButtonController from "./bridge/button_controller"
+application.register("bridge--button", ButtonController)
