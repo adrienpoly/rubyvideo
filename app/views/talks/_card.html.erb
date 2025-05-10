@@ -37,13 +37,6 @@
       </div>
     <% end %>
 
-    <% if !talk.slides_url.blank? %>
-      <div class="absolute top-0 right-0 z-20 flex gap-2 p-2 m-3 rounded-full bg-black/15 backdrop-blur-md">
-        <span class="items-center hidden ml-1 text-sm text-white group-hover:flex">Slides available</span>
-        <%= heroicon :presentation_chart_bar, size: :sm, class: "shrink-0 grow-0 my-1 text-white" %>
-      </div>
-    <% end %>
-
     <% if talk.duration_in_seconds.present? %>
       <div class="flex gap-2 absolute bottom-0 right-0 z-20 m-3 px-1.5 py-1 bg-black backdrop-blur-md rounded-md text-white text-xs font-normal">
         <%= seconds_to_formatted_duration(talk.duration_in_seconds) %>
@@ -131,6 +124,13 @@
             </div>
           <% end %>
         </div>
+
+        <% if talk.slides_url.present? %>
+          <%= ui_tooltip "Slides available" do %>
+            <%= fa("presentation-screen", style: "regular", size: :sm, class: "shrink-0 grow-0 my-1 text-black") %>
+          <% end %>
+        <% end %>
+
         <% if favoritable %>
           <div class="self-end hotwire-native:hidden">
             <% if default_watch_list %>
