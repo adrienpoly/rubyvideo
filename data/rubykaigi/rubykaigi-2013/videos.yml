@@ -597,18 +597,203 @@
   language: japanese
   description: ""
   talks:
-    - title: "Lightning Talks: Image resizing and cache Engine by Sinatra"
-    raw_title: "Image resizing and cache Engine by Sinatra"
-    speakers:
-      - Chikahiro Tokoro
-    event_name: RubyKaigi 2013
-    date: "2013-05-31"
-    published_at: "TODO"
-    slides_url: https://speakerdeck.com/kibitan/rubykaigi-2013-lightning-talk-kibitan
-    video_provider: youtube
-    video_id: uN8F2wpnBnE
-    language: english
-    description: https://rubykaigi.org/2013/lightning_talks/#kibitan
+    - title: "Lightning Talk: Show Your Opensource Activities w/ ScreenX TV"
+      raw_title: "Show Your Opensource Activities w/ ScreenX TV"
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      date: "2013-05-31"
+      published_at: "TODO"
+      video_provider: parent
+      video_id: yasukawa-yohai-lightning-talk-rubykaigi-2013
+      language: english
+      speakers:
+        - YASUKAWA Yohei
+      description: |-
+        Knowing WHAT you code is easy; just check your GitHub account, but knowing HOW you code is still difficult. So, we made ScreenX TV, an opensource terminal broadcasting tool, which lets you easily broadcast your terminal to the world.
+
+        In this lightning talk, you'll learn how to broadcast, how it works, and how it's used by terminal broadcasters. ScreenX TV http://screenx.tv/
+
+    - title: "Lightning Talk: A case study on exporting local culture with Rails application"
+      raw_title: "A case study on exporting local culture with Rails application"
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      date: "2013-05-31"
+      published_at: "TODO"
+      video_provider: parent
+      video_id: yuki-torii-lightning-talk-rubykaigi-2013
+      language: english
+      speakers:
+        - Yuki Torii
+      description: |-
+        Rails helps people understand new idea, we know.
+
+        There are many interesting local cultures in the world, but it is difficult to introduce such cultures to other people. Rails application can reduce such difficulty using some tips.
+
+        Our experience is introduction of Japanese 'Kukai' to French students. Kukai is a game to enjoy Haiku, short Japanese poetry. In Kukai, attendees score each Haikus and comments by each other. We developed a Kukai Rails application and this system used by a lecture at a French school. The lecture was well-received. To develop our Kukai system, Internationalisation (i18n) is easy to support using Rails framework.
+
+        In this talk, we show our experience and key points of transferring one local culture to other cultures using Rails web application.
+
+    - title: "Lightning Talk: Challenges building a call center with 3rd party APIs"
+      raw_title: "Challenges building a call center with 3rd party APIs"
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      date: "2013-05-31"
+      published_at: "TODO"
+      video_provider: parent
+      video_id: christian-sousa-lightning-talk-rubykaigi-2013
+      language: english
+      speakers:
+        - Christian Sousa
+      description: |-
+        Even with the help of third party APIs (Twilio, Tropo, Adhersion, etc.) that provide telephony functionality, there are mayor design challenges involved when building a call center.
+
+        But thanks to the ruby community and the availability of incredible gems and libraries this task is now simple enough that just a few developers can build and replicate full feature telephony systems.
+
+    - title: "Lightning Talk: FlawDetector - finding ruby code's flaw by static analysis"
+      raw_title: "FlawDetector - finding ruby code's flaw by static analysis"
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      date: "2013-05-31"
+      published_at: "TODO"
+      video_provider: parent
+      video_id: rikiya-ayukawa-lightning-talk-rubykaigi-2013
+      language: english
+      speakers:
+        - Rikiya Ayukawa
+      description: |-
+        I will introduce my static analysis tool called FlawDetector. It analyzes RubyVM bytecode and detects some "flaws" in ruby code. "flaws" means some bugs and redundant code, which is similar to bug pattern of FindBugs - a static analysis tool of java bytecode. I wish you use FlawDetector and improve it with me.
+
+    - title: "Lightning Talk: Log Strategy at DeNA with Haikanko - a management tool of fluentd cluster"
+      raw_title: "Log Strategy at DeNA with Haikanko - a management tool of fluentd cluster"
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      date: "2013-05-31"
+      published_at: "TODO"
+      video_provider: parent
+      video_id: naotoshi-seo-lightning-talk-rubykaigi-2013
+      language: english
+      speakers:
+        - Naotoshi Seo
+      description: |-
+        In this session, I present the log utilization strategy at DeNA, and introduce a tool named Haikanko.
+
+        Haikanko is an application to manage fluentd cluster easily. It enables to generate fluentd configuration files automatically, and deploy them onto lots of fluentd nodes by one click.
+
+        Haikanko is written with ruby / sinatra / erb / mina (yet another capistrano).
+
+    - title: "Lightning Talk: The Pragmatic Glitch"
+      raw_title: "The Pragmatic Glitch"
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      date: "2013-05-31"
+      published_at: "TODO"
+      video_provider: parent
+      video_id: shimpei-makimoto-lightning-talk-rubykaigi-2013
+      language: english
+      speakers:
+        - Shimpei Makimoto
+      description: |-
+        The meaning of glitch is originally unexpected results by malfunctions. By extension, it stands for phenomena (or arts using them) that are caused by errors in various media. In this presentation, I'll show some image glitch ways that beginners can try easily using Ruby.
+
+    - title: "Lightning Talk: Ruby Taiwan Community: We share, we promote, we celebrate."
+      raw_title: "Ruby Taiwan Community: We share, we promote, we celebrate."
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      date: "2013-05-31"
+      published_at: "TODO"
+      video_provider: parent
+      video_id: mu-fan-teng-lightning-talk-rubykaigi-2013
+      language: english
+      speakers:
+        - Mu-Fan Teng
+      description: |-
+        Introduce the history, activities and achievements of Ruby Taiwan Community and talk about what I have learned from the community.
+
+    - title: "Lightning Talk: Image resizing and cache Engine by Sinatra"
+      raw_title: "Image resizing and cache Engine by Sinatra"
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      speakers:
+        - Chikahiro Tokoro
+      date: "2013-05-31"
+      published_at: "TODO"
+      slides_url: https://speakerdeck.com/kibitan/rubykaigi-2013-lightning-talk-kibitan
+      video_provider: parent
+      video_id: chikahiro-tokoro-lightning-talk-rubykaigi-2013
+      language: english
+      description: |-
+        Realtime resizing and caching images engine with GET Parameters made by Sinatra.
+
+        It's useful to use as The Image Server with big web service using many images.
+
+        And also useful to fit the image size to smartphone or mobile views without time and effort.
+
+        https://rubykaigi.org/2013/lightning_talks/#kibitan
+
+    - title: "Lightning Talk: a test code generator for RSpec users"
+      raw_title: "a test code generator for RSpec users"
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      date: "2013-05-31"
+      published_at: "TODO"
+      video_provider: parent
+      video_id: kazuhiro-sera-lightning-talk-rubykaigi-2013
+      language: english
+      speakers:
+        - Kazuhiro Sera
+      description: |-
+        rspec-kickstarter is a test code generator for RSpec users.
+
+        https://github.com/seratch/rspec-kickstarter
+
+        TDD is a very useful approach but actually many projects are not fully TDD-based and we sometimes need to face apps that don't have enough coverage. In such a situation, I believe that this tool is especially useful.
+
+        It's easy to say "You should write tests for the legacy code before modifying it" but it's not always easy to keep the motivation to do the right thing because developers have many things to do before they start writing essential parts of test. It's messy to create a new file or figure out the existing spec file, find out what the lacking test cases are and write routine stuff which starts with 'describe'.
+
+        rspec-kickstarteer enables developers writing test immediately. If the spec is absent, it generates a new spec template file. Furthermore, it appends lacking test cases (with TODO comments) to existing the spec file if they're found.
+
+        I know that testing for methods is not perfect but it's pretty important to reduce the psychological barrier.
+
+        I'll show some examples about rspec-kickstarter in this talk.
+
+    - title: "Lightning Talk: Using flash cards to improve your Ruby"
+      raw_title: "Using flash cards to improve your Ruby"
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      date: "2013-05-31"
+      published_at: "TODO"
+      video_provider: parent
+      video_id: peter-evjan-lightning-talk-rubykaigi-2013
+      language: english
+      speakers:
+        - Peter Evjan
+      description: |-
+        When it comes to memorizing the innards of a programming language in order to understand it better, nothing beats flash cards with spaced repetition in my experience. This presentation will show you how you can apply the same technique to make sure you remember everything you want to remember about Ruby (or anything else for that matter).
+
+    - title: "Lightning Talk: Introduction of '3dcg-arts.net'"
+      raw_title: "Introduction of '3dcg-arts.net'"
+      event_name: RubyKaigi 2013
+      start_cue: "TODO"
+      end_cue: "TODO"
+      date: "2013-05-31"
+      published_at: "TODO"
+      video_provider: parent
+      video_id: hiroyuki-inoue-lightning-talk-rubykaigi-2013
+      language: english
+      speakers:
+        - Hiroyuki Inoue
+      description: |-
+        I would like to talk about the use of rspec and CI (Jenkins) to improve reliability of 3D computer graphics models conversion software. I'll introduce '3dcg-arts.net', which provides sharing (publish, browse, evaluate, etc) 3D computer graphics works on web browsers. In this service, we developed a software to convert 3D models to a common format for convenient view on web browsers and use rspec and CI for reliability check.
 
 - title: "Ruby Committers vs. the World"
   raw_title: "[JA] Ruby Committers vs. the World"
