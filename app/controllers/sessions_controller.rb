@@ -15,11 +15,10 @@ class SessionsController < ApplicationController
   end
 
   def create
-    user = User.find_by(email: params[:email])
+    user = User.authenticate_by(params.permit(:email, :password))
 
-    if user&.authenticate(params[:password])
+    if user
       sign_in user
-
       redirect_to root_path, notice: "Signed in successfully"
     else
       redirect_to sign_in_path(email_hint: params[:email]), alert: "That email or password is incorrect"
