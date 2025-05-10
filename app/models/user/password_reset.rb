@@ -6,7 +6,7 @@ class User::PasswordReset < ActiveRecord::AssociatedObject
   end
 
   def reset(params)
-    if success = user.update(params)
+    if (success = user.update(params))
       user.password_reset_tokens.delete_all # TODO: Remove password_reset_tokens table
       success
     end

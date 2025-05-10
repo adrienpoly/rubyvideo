@@ -23,8 +23,8 @@ ActiveRecord::AssociatedObject.class_eval {
     purpose = attribute_name
     record.generates_token_for(purpose, expires_in:, &)
 
-    define_singleton_method(:find_by_token)  { find_by_token_for(purpose, _1) }
-    define_singleton_method(:find_by_token!) { find_by_token_for!(purpose, _1) }
+    define_singleton_method(:find_by_token) { find_by_token_for(purpose, it) }
+    define_singleton_method(:find_by_token!) { find_by_token_for!(purpose, it) }
 
     define_method(:token) { record.generate_token_for(purpose) }
   end
