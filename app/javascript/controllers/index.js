@@ -61,8 +61,5 @@ application.register("transition", TransitionController)
 import VideoPlayerController from "./video_player_controller"
 application.register("video-player", VideoPlayerController)
 
-import ButtonController from "./bridge/button_controller"
-application.register("bridge--button", ButtonController)
-
 import ScrollController from "./scroll_controller"
 application.register("scroll", ScrollController)
