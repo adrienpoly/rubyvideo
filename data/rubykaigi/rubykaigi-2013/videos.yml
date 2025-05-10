@@ -589,8 +589,6 @@
 
 - title: "Lightning Talks"
   raw_title: "Lightning Talks"
-  speakers:
-    - TODO
   event_name: RubyKaigi 2013
   date: "2013-05-31"
   published_at: "2013-06-21"
@@ -598,6 +596,19 @@
   video_id: "68850145"
   language: japanese
   description: ""
+  talks:
+    - title: "Lightning Talks: Image resizing and cache Engine by Sinatra"
+    raw_title: "Image resizing and cache Engine by Sinatra"
+    speakers:
+      - Chikahiro Tokoro
+    event_name: RubyKaigi 2013
+    date: "2013-05-31"
+    published_at: "TODO"
+    slides_url: https://speakerdeck.com/kibitan/rubykaigi-2013-lightning-talk-kibitan
+    video_provider: youtube
+    video_id: uN8F2wpnBnE
+    language: english
+    description: https://rubykaigi.org/2013/lightning_talks/#kibitan
 
 - title: "Ruby Committers vs. the World"
   raw_title: "[JA] Ruby Committers vs. the World"
