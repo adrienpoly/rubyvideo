@@ -15,8 +15,8 @@ module Static
       end
     end
 
-    def today_or_past?
-      today? || past?
+    def featured?
+      within_next_days? || today? || past?
     end
 
     def today?
@@ -34,6 +34,28 @@ module Static
 
       if event_record.present?
         return event_record.end_date.today?
+      end
+
+      false
+    end
+
+    def within_next_days?
+      period = 4.days
+
+      if start_date.present?
+        return ((start_date - period)..start_date).cover?(Date.today)
+      end
+
+      if end_date.present?
+        return ((end_date - period)..end_date).cover?(Date.today)
+      end
+
+      if event_record.present?
+        return ((event_record.start_date - period)..event_record.start_date).cover?(Date.today)
+      end
+
+      if event_record.present?
+        return ((event_record.end_date - period)..event_record.end_date).cover?(Date.today)
       end
 
       false
@@ -96,7 +118,7 @@ module Static
         return start_date
       end
 
-      if meetup? && event_record.present?
+      if event_record.present?
         return event_record.start_date
       end
 

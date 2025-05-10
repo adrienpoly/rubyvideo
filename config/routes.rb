@@ -6,7 +6,9 @@ Rails.application.routes.draw do
 
   # static pages
   get "uses", to: "page#uses"
+  get "/privacy", to: "page#privacy"
   get "/components", to: "page#components"
+  get "/about", to: "page#about"
 
   # authentication
   get "/auth/failure", to: "sessions/omniauth#failure"

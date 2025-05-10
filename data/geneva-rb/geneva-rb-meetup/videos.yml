@@ -245,7 +245,7 @@
       description: |-
         Jean-Charles focused on database tools. https://github.com/ankane/strong_migrations guards against dangerous migrations by detecting and preventing them. https://github.com/scenic-views/scenic and https://github.com/teoljungberg/fx help manage database views and functions, ensuring that database schema changes are seamless and safe.
 
-        He also recommended the RailsConf talk "rails db:migrate:even_safer" (https://www.youtube.com/watch?v=uMcRCSiNzuc or https://www.rubyvideo.dev/talks/rails-db-migrate-even_safer) by Matt Duszynski for a dive into safe migration practices.
+        He also recommended the RailsConf talk "rails db:migrate:even_safer" (https://www.youtube.com/watch?v=uMcRCSiNzuc or https://www.rubyevents.org/talks/rails-db-migrate-even_safer) by Matt Duszynski for a dive into safe migration practices.
 
     - title: "pghero"
       event_name: "Geneva.rb February 2024"

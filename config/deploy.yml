@@ -22,6 +22,8 @@ proxy:
   hosts:
     - rubyvideo.dev
     - www.rubyvideo.dev
+    - rubyevents.org
+    - www.rubyevents.org
   # kamal-proxy connects to your container over port 80, use `app_port` to specify a different port.
   app_port: 80
 

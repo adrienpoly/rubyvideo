@@ -81,7 +81,7 @@ class Organisation < ApplicationRecord
           alt: title
         },
         description: description,
-        site_name: "RubyVideo.dev"
+        site_name: "RubyEvents.org"
       },
       twitter: {
         card: "summary_large_image",
