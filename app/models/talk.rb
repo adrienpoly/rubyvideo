@@ -68,6 +68,10 @@ class Talk < ApplicationRecord
   belongs_to :parent_talk, optional: true, class_name: "Talk", foreign_key: :parent_talk_id
 
   has_many :child_talks, class_name: "Talk", foreign_key: :parent_talk_id, dependent: :destroy
+  has_many :child_talks_speakers, -> { distinct }, through: :child_talks, source: :speakers, class_name: "Speaker"
+  has_many :kept_child_talks_speakers, -> {
+    distinct
+  }, through: :child_talks, source: :kept_speakers, class_name: "Speaker"
   has_many :speaker_talks, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id
   has_many :kept_speaker_talks, -> { kept }, dependent: :destroy, inverse_of: :talk, foreign_key: :talk_id,
     class_name: "SpeakerTalk"
@@ -245,7 +249,7 @@ class Talk < ApplicationRecord
           alt: title
         },
         description: description,
-        site_name: "RubyVideo.dev"
+        site_name: "RubyEvents.org"
       },
       twitter: {
         card: "summary_large_image",
@@ -285,6 +289,16 @@ class Talk < ApplicationRecord
 
   def fallback_thumbnail
     "/assets/#{Rails.application.assets.load_path.find("events/default/poster.webp").digested_path}"
+  end
+
+  def thumbnail_url(size:, request:)
+    url = thumbnail(size)
+
+    if url.starts_with?("http")
+      return url
+    end
+
+    "#{request.protocol}#{request.host}:#{request.port}/#{url}"
   end
 
   def thumbnail(size = :thumbnail_lg)
@@ -337,7 +351,7 @@ class Talk < ApplicationRecord
 
   def external_player_utm_params
     {
-      utm_source: "rubyvideo.dev",
+      utm_source: "rubyevents.org",
       utm_medium: "referral",
       utm_campaign: event.slug,
       utm_content: slug
@@ -401,7 +415,7 @@ class Talk < ApplicationRecord
   def speakers
     return super unless meta_talk
 
-    super.to_a.union(child_talks.flat_map(&:speakers).uniq)
+    child_talks_speakers
   end
 
   def speaker_names
@@ -502,7 +516,7 @@ class Talk < ApplicationRecord
   def static_metadata
     @static_metadata ||= if video_provider == "parent"
       Array.wrap(parent_talk&.static_metadata&.talks).find { |talk| talk.video_id == video_id || talk.id == video_id }
-    elsif (metadata = Static::Video.find_by(video_id: video_id))
+    elsif (metadata = Static::Video.find_by(video_id: video_id) || Static::Video.find_by(id: video_id))
       metadata
     else
       Static::Video.all.flat_map(&:talks).compact.find { |talk| talk.video_id == video_id || talk.id == video_id }
@@ -555,5 +569,18 @@ class Talk < ApplicationRecord
     else
       :talk
     end
+  end
+
+  def to_mobile_json(request)
+    {
+      id: id,
+      title: title,
+      duration_in_seconds: duration_in_seconds,
+      slug: slug,
+      event_name: event_name,
+      thumbnail_url: thumbnail_url(size: :thumbnail_sm, request: request),
+      speakers: speakers.map { |speaker| speaker.to_mobile_json(request) },
+      url: Router.talk_url(self, host: "#{request.protocol}#{request.host}:#{request.port}")
+    }
   end
 end
